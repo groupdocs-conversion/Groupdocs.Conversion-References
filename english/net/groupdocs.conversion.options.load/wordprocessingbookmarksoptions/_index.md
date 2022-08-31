@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for handling bookmarks in WordProcessing
 type: docs
-weight: 330
+weight: 340
 url: /net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class
