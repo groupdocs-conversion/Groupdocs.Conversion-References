@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 250
+weight: 240
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

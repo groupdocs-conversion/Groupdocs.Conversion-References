@@ -3,7 +3,7 @@ title: FileCache
 second_title: GroupDocs.Conversion for .NET API Reference
 description: File caching behaviour. Means that cache is stored on the file system
 type: docs
-weight: 2050
+weight: 2040
 url: /net/groupdocs.conversion.caching/filecache/
 ---
 ## FileCache class

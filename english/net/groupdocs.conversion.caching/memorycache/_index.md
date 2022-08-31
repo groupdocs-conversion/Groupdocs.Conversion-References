@@ -3,7 +3,7 @@ title: MemoryCache
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Memory caching behaviour. Means that cache is stored in the memory
 type: docs
-weight: 2070
+weight: 2060
 url: /net/groupdocs.conversion.caching/memorycache/
 ---
 ## MemoryCache class

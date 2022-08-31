@@ -3,7 +3,7 @@ title: VideoConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Video type.
 type: docs
-weight: 840
+weight: 830
 url: /net/groupdocs.conversion.options.convert/videoconvertoptions/
 ---
 ## VideoConvertOptions class

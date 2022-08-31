@@ -3,7 +3,7 @@ title: ICache
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines methods required for storing rendered document and document resources сache.
 type: docs
-weight: 2060
+weight: 2050
 url: /net/groupdocs.conversion.caching/icache/
 ---
 ## ICache interface

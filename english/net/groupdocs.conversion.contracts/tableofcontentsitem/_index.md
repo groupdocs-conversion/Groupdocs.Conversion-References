@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Table of contents item metadata
 type: docs
-weight: 1860
+weight: 1850
 url: /net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

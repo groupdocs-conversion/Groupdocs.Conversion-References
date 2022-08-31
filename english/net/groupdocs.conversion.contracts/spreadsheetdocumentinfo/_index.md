@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Spreadsheet document metadata
 type: docs
-weight: 1840
+weight: 1830
 url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class

@@ -3,7 +3,7 @@ title: CompressedDocumentStream
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes delegate to receive compressed document stream.
 type: docs
-weight: 1550
+weight: 1540
 url: /net/groupdocs.conversion.contracts/compresseddocumentstream/
 ---
 ## CompressedDocumentStream delegate

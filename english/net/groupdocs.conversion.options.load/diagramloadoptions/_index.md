@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Diagram documents.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class

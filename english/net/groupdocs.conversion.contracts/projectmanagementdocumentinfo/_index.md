@@ -3,7 +3,7 @@ title: ProjectManagementDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains ProjectManagement document metadata
 type: docs
-weight: 1790
+weight: 1780
 url: /net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/
 ---
 ## ProjectManagementDocumentInfo class

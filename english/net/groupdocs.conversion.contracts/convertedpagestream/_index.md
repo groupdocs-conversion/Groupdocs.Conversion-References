@@ -3,7 +3,7 @@ title: ConvertedPageStream
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes delegate to receive converted document page stream.
 type: docs
-weight: 1530
+weight: 1520
 url: /net/groupdocs.conversion.contracts/convertedpagestream/
 ---
 ## ConvertedPageStream delegate

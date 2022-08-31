@@ -3,7 +3,7 @@ title: DataConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Data file type.
 type: docs
-weight: 430
+weight: 420
 url: /net/groupdocs.conversion.options.convert/dataconvertoptions/
 ---
 ## DataConvertOptions class
