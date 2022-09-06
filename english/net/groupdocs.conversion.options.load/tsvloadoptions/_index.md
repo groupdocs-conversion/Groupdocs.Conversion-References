@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Tsv documents.
 type: docs
-weight: 270
+weight: 1970
 url: /net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class

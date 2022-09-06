@@ -3,7 +3,7 @@ title: CsvDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Csv document metadata
 type: docs
-weight: 1590
+weight: 120
 url: /net/groupdocs.conversion.contracts/csvdocumentinfo/
 ---
 ## CsvDocumentInfo class

@@ -3,7 +3,7 @@ title: MarkupFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Markup and Web file formats. Includes the following file types Htm./markupfiletype/htm Html./markupfiletype/html. Learn more about Image formats herehttps//wiki.fileformat.com/web.
 type: docs
-weight: 1270
+weight: 810
 url: /net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class

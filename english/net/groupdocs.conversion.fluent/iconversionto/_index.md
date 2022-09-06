@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set how converted document to be stored
 type: docs
-weight: 1040
+weight: 1120
 url: /net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface

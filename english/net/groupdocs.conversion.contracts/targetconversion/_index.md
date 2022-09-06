@@ -3,7 +3,7 @@ title: TargetConversion
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents possible target conversion and a flag is it a primary or secondary
 type: docs
-weight: 2020
+weight: 480
 url: /net/groupdocs.conversion.contracts/targetconversion/
 ---
 ## TargetConversion class

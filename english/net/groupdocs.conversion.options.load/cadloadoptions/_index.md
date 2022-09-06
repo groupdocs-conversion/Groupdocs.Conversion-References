@@ -3,7 +3,7 @@ title: CadLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading CAD documents.
 type: docs
-weight: 80
+weight: 1780
 url: /net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class
