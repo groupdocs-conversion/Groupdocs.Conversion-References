@@ -24,9 +24,9 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | Name | Description |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } |  |
-| [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } |  |
-| [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } |  |
+| [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Option to control whether the owned documents in the documents container must be converted |
+| [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document |
+| [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } | Option to control how many levels in depth to perform conversion |
 | [DisplayBccEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaybccemailaddress) { get; set; } | Option to display or hide "Bcc" email address. Default: false. |
 | [DisplayCcEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayccemailaddress) { get; set; } | Option to display or hide "Cc" email address. Default: false. |
 | [DisplayEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayemailaddress) { get; set; } | Option to display or hide email address. Default: true. |

@@ -25,9 +25,9 @@ public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOpt
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } |  |
-| [PageNumber](../../groupdocs.conversion.options.convert/dataconvertoptions/pagenumber) { get; set; } |  |
-| [PagesCount](../../groupdocs.conversion.options.convert/dataconvertoptions/pagescount) { get; set; } |  |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
+| [PageNumber](../../groupdocs.conversion.options.convert/dataconvertoptions/pagenumber) { get; set; } | The page number to start conversion from. |
+| [PagesCount](../../groupdocs.conversion.options.convert/dataconvertoptions/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
 
 ## Methods
 

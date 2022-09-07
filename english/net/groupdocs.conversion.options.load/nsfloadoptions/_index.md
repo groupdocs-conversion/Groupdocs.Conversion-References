@@ -24,9 +24,9 @@ public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/nsfloadoptions/convertowned) { get; } |  |
-| [ConvertOwner](../../groupdocs.conversion.options.load/nsfloadoptions/convertowner) { get; } |  |
-| [Depth](../../groupdocs.conversion.options.load/nsfloadoptions/depth) { get; set; } |  |
+| [ConvertOwned](../../groupdocs.conversion.options.load/nsfloadoptions/convertowned) { get; } | Option to control whether the owned documents in the documents container must be converted |
+| [ConvertOwner](../../groupdocs.conversion.options.load/nsfloadoptions/convertowner) { get; } | Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document |
+| [Depth](../../groupdocs.conversion.options.load/nsfloadoptions/depth) { get; set; } | Option to control how many levels in depth to perform conversion |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods

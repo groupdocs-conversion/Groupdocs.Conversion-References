@@ -29,7 +29,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [Contrast](../../groupdocs.conversion.options.convert/imageconvertoptions/contrast) { get; set; } | Adjusts image contrast. |
 | [FlipMode](../../groupdocs.conversion.options.convert/imageconvertoptions/flipmode) { get; set; } | Image flip mode. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } |  |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [Gamma](../../groupdocs.conversion.options.convert/imageconvertoptions/gamma) { get; set; } | Adjusts image gamma. |
 | [Grayscale](../../groupdocs.conversion.options.convert/imageconvertoptions/grayscale) { get; set; } | Indicates whether to convert into grayscale image. |
 | [Height](../../groupdocs.conversion.options.convert/imageconvertoptions/height) { get; set; } | Desired image height after conversion. |

@@ -1,12 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Document format
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.contracts/documentinfo/format/
 ---
 ## DocumentInfo.Format property
+
+Document format
 
 ```csharp
 public string Format { get; }

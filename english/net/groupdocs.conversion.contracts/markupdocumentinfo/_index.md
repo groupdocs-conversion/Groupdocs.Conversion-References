@@ -18,13 +18,13 @@ public class MarkupDocumentInfo : DocumentInfo
 
 | Name | Description |
 | --- | --- |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } |  |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
 | [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Detected document encoding |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } |  |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } |  |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } |  |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } |  |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } |  |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
 
 ### See Also
 

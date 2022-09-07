@@ -1,12 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Watermark specific options
 type: docs
 weight: 40
 url: /net/groupdocs.conversion.options.convert/commonconvertoptions-1/watermark/
 ---
 ## CommonConvertOptions&lt;TFileType&gt;.Watermark property
+
+Watermark specific options
 
 ```csharp
 public WatermarkOptions Watermark { get; set; }

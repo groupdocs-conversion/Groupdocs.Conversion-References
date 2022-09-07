@@ -24,9 +24,9 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 
 | Name | Description |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowned) { get; } |  |
-| [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } |  |
-| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } |  |
+| [ConvertOwned](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowned) { get; } | Option to control whether the owned documents in the documents container must be converted |
+| [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } | Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document |
+| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Option to control how many levels in depth to perform conversion |
 | [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | Folder which to be processed Default is Inbox |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 

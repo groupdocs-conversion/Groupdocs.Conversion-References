@@ -28,19 +28,19 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 | --- | --- |
 | [Dpi](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi) { get; set; } | Desired page DPI after conversion. The default resolution is: 96 dpi. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } |  |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [Height](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/height) { get; set; } | Desired page height after conversion. |
-| [MarginBottom](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginbottom) { get; set; } |  |
-| [MarginLeft](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft) { get; set; } |  |
-| [MarginRight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright) { get; set; } |  |
-| [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } |  |
+| [MarginBottom](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginbottom) { get; set; } | Desired page bottom margin in pixels after conversion. |
+| [MarginLeft](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft) { get; set; } | Desired page left margin in pixels after conversion. |
+| [MarginRight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright) { get; set; } | Desired page right margin in pixels after conversion. |
+| [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } | Desired page top margin in pixels after conversion. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagenumber) { get; set; } |  |
-| [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } |  |
+| [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } | Desired page orientation after conversion |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pages) { get; set; } |  |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagescount) { get; set; } |  |
-| [PageSize](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize) { get; set; } |  |
+| [PageSize](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize) { get; set; } | Desired page size after conversion |
 | [Password](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
-| [PdfRecognitionMode](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode) { get; set; } |  |
+| [PdfRecognitionMode](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode) { get; set; } | Recognition mode when converting from pdf |
 | [RtfOptions](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtfoptions) { get; set; } | RTF specific convert options |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions`1/watermark) { get; set; } |  |
 | [Width](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/width) { get; set; } | Desired page width after conversion. |

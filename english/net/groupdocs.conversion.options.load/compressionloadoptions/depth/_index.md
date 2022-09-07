@@ -1,12 +1,14 @@
 ---
 title: Depth
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Option to control how many levels in depth to perform conversion
 type: docs
 weight: 40
 url: /net/groupdocs.conversion.options.load/compressionloadoptions/depth/
 ---
 ## CompressionLoadOptions.Depth property
+
+Option to control how many levels in depth to perform conversion
 
 ```csharp
 public int Depth { get; set; }

@@ -1,12 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Document size in bytes
 type: docs
 weight: 60
 url: /net/groupdocs.conversion.contracts/documentinfo/size/
 ---
 ## DocumentInfo.Size property
+
+Document size in bytes
 
 ```csharp
 public long Size { get; }

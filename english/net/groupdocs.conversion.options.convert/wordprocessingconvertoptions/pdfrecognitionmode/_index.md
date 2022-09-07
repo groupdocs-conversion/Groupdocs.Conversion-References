@@ -1,12 +1,14 @@
 ---
 title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Recognition mode when converting from pdf
 type: docs
 weight: 110
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode/
 ---
 ## WordProcessingConvertOptions.PdfRecognitionMode property
+
+Recognition mode when converting from pdf
 
 ```csharp
 public PdfRecognitionMode PdfRecognitionMode { get; set; }

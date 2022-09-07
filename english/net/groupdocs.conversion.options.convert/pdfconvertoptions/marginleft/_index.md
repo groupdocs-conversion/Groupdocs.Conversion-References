@@ -1,12 +1,14 @@
 ---
 title: MarginLeft
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Desired page left margin in pixels after conversion.
 type: docs
 weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginleft/
 ---
 ## PdfConvertOptions.MarginLeft property
+
+Desired page left margin in pixels after conversion.
 
 ```csharp
 public int MarginLeft { get; set; }

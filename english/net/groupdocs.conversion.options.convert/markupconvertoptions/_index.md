@@ -27,7 +27,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 | [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | If `true` fixed layout will be used e.g. absolutely positioned html elements Default: true |
 | [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Show page borders when converting to fixed layout. Default is True. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } |  |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagenumber) { get; set; } |  |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pages) { get; set; } |  |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagescount) { get; set; } |  |

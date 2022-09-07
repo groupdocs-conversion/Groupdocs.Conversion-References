@@ -1,12 +1,14 @@
 ---
 title: PageOrientation
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Desired page orientation after conversion
 type: docs
 weight: 80
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation/
 ---
 ## PdfConvertOptions.PageOrientation property
+
+Desired page orientation after conversion
 
 ```csharp
 public PageOrientation PageOrientation { get; set; }

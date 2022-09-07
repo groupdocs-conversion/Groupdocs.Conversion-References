@@ -1,12 +1,14 @@
 ---
 title: PagesCount
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Number of pages to convert starting from PageNumber.
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.convert/dataconvertoptions/pagescount/
 ---
 ## DataConvertOptions.PagesCount property
+
+Number of pages to convert starting from `PageNumber`.
 
 ```csharp
 public int PagesCount { get; set; }

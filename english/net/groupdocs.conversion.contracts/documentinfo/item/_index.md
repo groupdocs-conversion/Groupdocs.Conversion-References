@@ -1,12 +1,14 @@
 ---
 title: Item
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Get value for a property provided as a key
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.contracts/documentinfo/item/
 ---
 ## DocumentInfo indexer
+
+Get value for a property provided as a key
 
 ```csharp
 public string this[string propertyName] { get; }

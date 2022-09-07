@@ -19,14 +19,14 @@ public class TxtDocumentInfo : WordProcessingDocumentInfo
 | Name | Description |
 | --- | --- |
 | [Author](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) { get; } | Gets author |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } |  |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } |  |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/ispasswordprotected) { get; } | Gets is document password protected |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } |  |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
 | [Lines](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines) { get; } | Gets lines count |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } |  |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } |  |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } |  |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
 | [TableOfContents](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/tableofcontents) { get; } | Table of contents |
 | [Title](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/title) { get; } | Gets title |
 | [Words](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/words) { get; } | Gets words count |

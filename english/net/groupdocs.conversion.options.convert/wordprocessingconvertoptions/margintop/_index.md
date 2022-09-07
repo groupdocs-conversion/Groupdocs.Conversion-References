@@ -1,12 +1,14 @@
 ---
 title: MarginTop
 second_title: GroupDocs.Conversion for .NET API Reference
-description: 
+description: Desired page top margin in pixels after conversion.
 type: docs
 weight: 70
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop/
 ---
 ## WordProcessingConvertOptions.MarginTop property
+
+Desired page top margin in pixels after conversion.
 
 ```csharp
 public int MarginTop { get; set; }

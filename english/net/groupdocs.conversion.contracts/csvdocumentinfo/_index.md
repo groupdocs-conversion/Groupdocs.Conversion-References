@@ -19,13 +19,13 @@ public class CsvDocumentInfo : SpreadsheetDocumentInfo
 | Name | Description |
 | --- | --- |
 | [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Gets author |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } |  |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } |  |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected) { get; } | Gets is document password protected |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } |  |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } |  |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } |  |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } |  |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
 | [Title](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/title) { get; } | Gets title |
 | [WorksheetsCount](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheetscount) { get; } | Gets worksheets count |
 

@@ -25,7 +25,7 @@ public class CompressionConvertOptions : ConvertOptions<CompressionFileType>
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } |  |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [Password](../../groupdocs.conversion.options.convert/compressionconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
 
 ## Methods
