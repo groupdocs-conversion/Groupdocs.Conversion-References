@@ -26,13 +26,13 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 | --- | --- |
 | [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | If `true` fixed layout will be used e.g. absolutely positioned html elements Default: true |
 | [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Show page borders when converting to fixed layout. Default is True. |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagenumber) { get; set; } |  |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pages) { get; set; } |  |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagescount) { get; set; } |  |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
 | [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | If `true`, the input firstly is converted to PDF and after that to desired format |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions`1/watermark) { get; set; } |  |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
 | [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Specifies the zoom level in percentage. Default is 100. |
 
 ## Methods

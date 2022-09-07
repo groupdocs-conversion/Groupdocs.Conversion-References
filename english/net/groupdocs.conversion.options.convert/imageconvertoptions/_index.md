@@ -28,22 +28,22 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [Brightness](../../groupdocs.conversion.options.convert/imageconvertoptions/brightness) { get; set; } | Adjusts image brightness. |
 | [Contrast](../../groupdocs.conversion.options.convert/imageconvertoptions/contrast) { get; set; } | Adjusts image contrast. |
 | [FlipMode](../../groupdocs.conversion.options.convert/imageconvertoptions/flipmode) { get; set; } | Image flip mode. |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [Gamma](../../groupdocs.conversion.options.convert/imageconvertoptions/gamma) { get; set; } | Adjusts image gamma. |
 | [Grayscale](../../groupdocs.conversion.options.convert/imageconvertoptions/grayscale) { get; set; } | Indicates whether to convert into grayscale image. |
 | [Height](../../groupdocs.conversion.options.convert/imageconvertoptions/height) { get; set; } | Desired image height after conversion. |
 | [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Desired image horizontal resolution after conversion. The default resolution is the resolution of the input file or 96 dpi. |
 | [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Jpeg specific convert options. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagenumber) { get; set; } |  |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pages) { get; set; } |  |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagescount) { get; set; } |  |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd specific convert options. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Image rotation angle. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff specific convert options. |
 | [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | If `true`, the input firstly is converted to PDF and after that to desired format. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Desired image vertical resolution after conversion. The default resolution is the resolution of the input file or 96 dpi. |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions`1/watermark) { get; set; } |  |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp specific convert options. |
 | [Width](../../groupdocs.conversion.options.convert/imageconvertoptions/width) { get; set; } | Desired image width after conversion. |
 

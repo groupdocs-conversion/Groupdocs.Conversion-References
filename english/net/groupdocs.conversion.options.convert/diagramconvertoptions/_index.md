@@ -25,12 +25,12 @@ public sealed class DiagramConvertOptions : CommonConvertOptions<DiagramFileType
 | Name | Description |
 | --- | --- |
 | [AutoFitPageToDrawingContent](../../groupdocs.conversion.options.convert/diagramconvertoptions/autofitpagetodrawingcontent) { get; set; } | Defines whether need enlarge page to fit drawing content or not |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagenumber) { get; set; } |  |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pages) { get; set; } |  |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions`1/pagescount) { get; set; } |  |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions`1/watermark) { get; set; } |  |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
 
 ## Methods
 

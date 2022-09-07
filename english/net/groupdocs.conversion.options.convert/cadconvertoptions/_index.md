@@ -24,7 +24,7 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 | [PageNumber](../../groupdocs.conversion.options.convert/cadconvertoptions/pagenumber) { get; set; } | The page number to start conversion from. |
 | [PagesCount](../../groupdocs.conversion.options.convert/cadconvertoptions/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |

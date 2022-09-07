@@ -24,7 +24,7 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions`1/format) { get; set; } |  |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
 
 ## Methods
