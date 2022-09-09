@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: GroupDocs exception thrown when the file is password protected and password is not provided
 type: docs
-weight: 710
+weight: 730
 url: /net/groupdocs.conversion.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
