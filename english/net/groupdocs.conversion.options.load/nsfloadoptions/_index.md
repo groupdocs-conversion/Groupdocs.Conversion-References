@@ -3,7 +3,7 @@ title: NsfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Nsf documents.
 type: docs
-weight: 1920
+weight: 1930
 url: /net/groupdocs.conversion.options.load/nsfloadoptions/
 ---
 ## NsfLoadOptions class

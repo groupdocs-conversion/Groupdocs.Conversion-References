@@ -33,6 +33,7 @@ The namespace provides members to instantiate and release output document, manag
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
+| [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [MarkupDocumentInfo](./markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | Provided document is password protected |
@@ -66,6 +67,7 @@ The namespace provides members to instantiate and release output document, manag
 | [XmlDocumentInfo](./xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contains Xps document metadata |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Contains XslFo document metadata |
+| [ZDocumentInfo](./zdocumentinfo) | Contains Z document metadata |
 | [ZipDocumentInfo](./zipdocumentinfo) | Contains compression document metadata |
 ## Interfaces
 

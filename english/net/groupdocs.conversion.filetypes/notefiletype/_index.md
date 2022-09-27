@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Notetaking formats. Includes the following file types One./notefiletype/one. Learn more about Notetaking formats herehttps//wiki.fileformat.com/notetaking.
 type: docs
-weight: 820
+weight: 840
 url: /net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
