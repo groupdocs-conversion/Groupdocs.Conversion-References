@@ -3,7 +3,7 @@ title: SevenZ
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. Learn more about this file format herehttps//docs.fileformat.com/compression/7z/.
 type: docs
-weight: 70
+weight: 100
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/sevenz/
 ---
 ## CompressionFileType.SevenZ field

@@ -3,7 +3,7 @@ title: Zip
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .zip extension is an archive that can hold one or more files or directories. The archive can have compression applied to the included files in order to reduce the ZIP file size. Learn more about this file format herehttps//docs.fileformat.com/compression/zip/.
 type: docs
-weight: 100
+weight: 140
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/zip/
 ---
 ## CompressionFileType.Zip field

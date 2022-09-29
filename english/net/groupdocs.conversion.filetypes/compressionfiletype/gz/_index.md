@@ -3,7 +3,7 @@ title: Gz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A GZ file is a compressed archive that is created using the standard gzip GNU zip compression algorithm. It may contain multiple compressed files directories and file stubs. Learn more about this file format herehttps//docs.fileformat.com/compression/gz/.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/gz/
 ---
 ## CompressionFileType.Gz field

@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents possible modes for colorization of objects.
 type: docs
-weight: 1790
+weight: 1830
 url: /net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class
