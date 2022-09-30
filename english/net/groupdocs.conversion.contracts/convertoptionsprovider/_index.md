@@ -3,7 +3,7 @@ title: ConvertOptionsProvider
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes delegate to provide convert options for specific source document. The delegate will be called before each conversion and provide a chance to provide specific convert options for desired target conversion. The decision could be made based on provided source file name and source file type.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.contracts/convertoptionsprovider/
 ---
 ## ConvertOptionsProvider delegate

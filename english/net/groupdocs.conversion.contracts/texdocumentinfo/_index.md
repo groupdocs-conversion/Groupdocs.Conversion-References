@@ -3,7 +3,7 @@ title: TexDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Tex document metadata
 type: docs
-weight: 500
+weight: 530
 url: /net/groupdocs.conversion.contracts/texdocumentinfo/
 ---
 ## TexDocumentInfo class

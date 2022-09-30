@@ -3,7 +3,7 @@ title: Z
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A Z file is a category of files belonging to the UNIX Compressed data files. Compressed Unix files are the most popular and widely used extension type of the Z file. Learn more about this file format herehttps//docs.fileformat.com/compression/z/.
 type: docs
-weight: 90
+weight: 130
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/z/
 ---
 ## CompressionFileType.Z field

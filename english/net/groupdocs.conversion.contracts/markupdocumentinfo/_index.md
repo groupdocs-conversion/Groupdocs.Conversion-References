@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Markup document metadata
 type: docs
-weight: 280
+weight: 310
 url: /net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class

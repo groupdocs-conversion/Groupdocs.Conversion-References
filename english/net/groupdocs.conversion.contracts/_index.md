@@ -14,12 +14,14 @@ The namespace provides members to instantiate and release output document, manag
 | --- | --- |
 | [AudioDocumentInfo](./audiodocumentinfo) | Contains Audio document metadata |
 | [Bzip2DocumentInfo](./bzip2documentinfo) | Contains Bzip2 document metadata |
+| [CabDocumentInfo](./cabdocumentinfo) | Contains Cab document metadata |
 | [CadDocumentInfo](./caddocumentinfo) | Contains Cad document metadata |
 | [CgmDocumentInfo](./cgmdocumentinfo) | Contains Cgm document metadata |
 | [CompressedDocumentStream](./compresseddocumentstream) | Describes delegate to receive compressed document stream. |
 | [ConvertedDocumentStream](./converteddocumentstream) | Describes delegate to receive converted document stream. |
 | [ConvertedPageStream](./convertedpagestream) | Describes delegate to receive converted document page stream. |
 | [ConvertOptionsProvider](./convertoptionsprovider) | Describes delegate to provide convert options for specific source document. The delegate will be called before each conversion and provide a chance to provide specific convert options for desired target conversion. The decision could be made based on provided source file name and source file type. |
+| [CpioDocumentInfo](./cpiodocumentinfo) | Contains Cpio document metadata |
 | [CsvDocumentInfo](./csvdocumentinfo) | Contains Csv document metadata |
 | [DiagramDocumentInfo](./diagramdocumentinfo) | Contains Diagram document metadata |
 | [DjVuDocumentInfo](./djvudocumentinfo) | Contains DjVu document metadata |
@@ -34,6 +36,7 @@ The namespace provides members to instantiate and release output document, manag
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
+| [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
 | [MarkupDocumentInfo](./markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | Provided document is password protected |
@@ -67,6 +70,7 @@ The namespace provides members to instantiate and release output document, manag
 | [XmlDocumentInfo](./xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contains Xps document metadata |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Contains XslFo document metadata |
+| [XzDocumentInfo](./xzdocumentinfo) | Contains Xz document metadata |
 | [ZDocumentInfo](./zdocumentinfo) | Contains Z document metadata |
 | [ZipDocumentInfo](./zipdocumentinfo) | Contains compression document metadata |
 ## Interfaces

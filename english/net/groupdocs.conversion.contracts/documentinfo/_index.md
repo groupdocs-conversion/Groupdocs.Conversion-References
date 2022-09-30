@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Provides base implementation for retrieving polymorphic document information
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.conversion.contracts/documentinfo/
 ---
 ## DocumentInfo class

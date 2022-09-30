@@ -3,7 +3,7 @@ title: Tar
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with .tar extension are archives created with Unixbased utility for collecting one or more files. Multiple files are stored in an uncompressed format with the support of adding files as well as folders to the archive. Learn more about this file format herehttps//docs.fileformat.com/compression/tar/.
 type: docs
-weight: 80
+weight: 110
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/tar/
 ---
 ## CompressionFileType.Tar field
