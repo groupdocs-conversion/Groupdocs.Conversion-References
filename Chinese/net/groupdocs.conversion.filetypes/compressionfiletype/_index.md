@@ -1,0 +1,66 @@
+---
+title: CompressionFileType
+second_title: GroupDocs.Conversion for .NET API 参考
+description: 定义压缩格式包括以下文件类型 Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2 . 了解有关压缩格式的更多信息这里https//docs.fileformat.com/compression/.
+type: docs
+weight: 810
+url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/
+---
+## CompressionFileType class
+
+定义压缩格式。包括以下文件类型： [`Zip`](./zip). [`Rar`](./rar). [`SevenZ`](./sevenz). [`Tar`](./tar). [`Gz`](./gz). [`Gzip`](./gzip). [`Bz2`](./bz2) . 了解有关压缩格式的更多信息[这里](https://docs.fileformat.com/compression/).
+
+```csharp
+public sealed class CompressionFileType : FileType
+```
+
+## 构造函数
+
+| 姓名 | 描述 |
+| --- | --- |
+| [CompressionFileType](compressionfiletype)() | 序列化构造函数 |
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
+| [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
+
+## 字段
+
+| 姓名 | 描述 |
+| --- | --- |
+| static readonly [Bz2](../../groupdocs.conversion.filetypes/compressionfiletype/bz2) | BZ2 是使用 BZIP2 开源压缩方法生成的压缩文件，主要在 UNIX 或 Linux 系统上。它用于压缩单个文件，而不是用于归档多个文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/bz2/) |
+| static readonly [Cab](../../groupdocs.conversion.filetypes/compressionfiletype/cab) | 带有.cab 扩展名的文件属于属于系统文件类别的windows cabinet 文件。它是在支持 LZX、Quantum 和 ZIP 等压缩数据算法的 Microsoft Windows 版本中以存档文件格式保存的文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/system/cab/) |
+| static readonly [Cpio](../../groupdocs.conversion.filetypes/compressionfiletype/cpio) | Cpio 是一个通用文件归档实用程序及其相关文件格式。它主要安装在类 Unix 计算机操作系统上。 |
+| static readonly [Gz](../../groupdocs.conversion.filetypes/compressionfiletype/gz) | GZ 文件是使用标准 gzip (GNU zip) 压缩算法创建的压缩存档。它可能包含多个压缩文件、目录和文件存根。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/gz/) |
+| static readonly [Gzip](../../groupdocs.conversion.filetypes/compressionfiletype/gzip) | Gzip 文件是使用标准 gzip (GNU zip) 压缩算法创建的压缩存档。它可能包含多个压缩文件、目录和文件存根。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/gz/) |
+| static readonly [Lz](../../groupdocs.conversion.filetypes/compressionfiletype/lz) | 扩展名为 .lz 的文件是使用 Lzip 创建的压缩存档文件，Lzip 是用于压缩的免费命令行工具。它支持连接以压缩支持文件。 LZ 文件的媒体类型为 application/lzip，并支持比 BZ2 更高的压缩比。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/bz2/) |
+| static readonly [Lzma](../../groupdocs.conversion.filetypes/compressionfiletype/lzma) | 扩展名为 .lzma 的文件是使用 LZMA（Lempel-Ziv-Markov 链算法）压缩方法创建的压缩存档文件。这些主要在 Unix 操作系统上找到/使用，并且类似于其他压缩算法，例如 ZIP，用于最小化文件大小。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/lzma/) |
+| static readonly [Rar](../../groupdocs.conversion.filetypes/compressionfiletype/rar) | 扩展名为 .rar 的文件是为以压缩或正常形式存储信息而创建的存档文件。 RAR，代表 Roshal ARchive 文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/rar/) |
+| static readonly [SevenZ](../../groupdocs.conversion.filetypes/compressionfiletype/sevenz) | 7z 是一种用于压缩文件和文件夹的归档格式，具有很高的压缩率。它基于开源架构，可以使用任何压缩和加密算法。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/7z/) |
+| static readonly [Tar](../../groupdocs.conversion.filetypes/compressionfiletype/tar) | 带有 .tar 扩展名的文件是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。多个文件以未压缩格式存储，支持将文件和文件夹添加到存档中。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/tar/) |
+| static readonly [Xz](../../groupdocs.conversion.filetypes/compressionfiletype/xz) | XZ 是一种使用 LZMA2 压缩算法的压缩文件格式。它被设计为流行的 gzip 和 bzip2 格式的替代品，与这些旧标准相比具有许多优势。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/xz/) |
+| static readonly [Z](../../groupdocs.conversion.filetypes/compressionfiletype/z) | AZ 文件是属于 UNIX 压缩数据文件的一类文件。压缩的 Unix 文件是 Z 文件的最流行和广泛使用的扩展类型。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/z/) |
+| static readonly [Zip](../../groupdocs.conversion.filetypes/compressionfiletype/zip) | 带有 .zip 扩展名的文件是可以保存一个或多个文件或目录的存档。存档可以对包含的文件应用压缩以减小 ZIP 文件大小。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/zip/) |
+
+### 也可以看看
+
+* class [FileType](../filetype)
+* 命名空间 [GroupDocs.Conversion.FileTypes](../../groupdocs.conversion.filetypes)
+* 部件 [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Conversion.dll -->
