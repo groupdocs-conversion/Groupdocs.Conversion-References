@@ -1,0 +1,60 @@
+---
+title: VideoFileType
+second_title: Справочник по API GroupDocs.Conversion для .NET
+description: Определяет видеодокументы Включает следующие типы Mp4./videofiletype/mp4  Avi./videofiletype/avi  Flv./videofiletype/flv  Mkv./videofiletype/mkv  Mov./videofiletype/mov  Webm./videofiletype/webm  Wmv./videofiletype/wmv  Подробнее о форматах видеоздесьhttps//docs.fileformat.com/video/ .
+type: docs
+weight: 950
+url: /ru/net/groupdocs.conversion.filetypes/videofiletype/
+---
+## VideoFileType class
+
+Определяет видеодокументы Включает следующие типы: [`Mp4`](./mp4) , [`Avi`](./avi) , [`Flv`](./flv) , [`Mkv`](./mkv) , [`Mov`](./mov) , [`Webm`](./webm) , [`Wmv`](./wmv) , Подробнее о форматах видео[здесь](https://docs.fileformat.com/video/) .
+
+```csharp
+public sealed class VideoFileType : FileType
+```
+
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [VideoFileType](videofiletype)() | Конструктор сериализации |
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | Описание типа файла |
+| [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | Расширение файла |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | Файл family |
+| [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | Формат файла |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |
+
+## Поля
+
+| Имя | Описание |
+| --- | --- |
+| static readonly [Avi](../../groupdocs.conversion.filetypes/videofiletype/avi) | Формат файла AVI представляет собой формат файла аудио-видеоконтейнера мультимедиа, который был представлен Microsoft. Он содержит аудио- и видеоданные, созданные и сжатые с использованием нескольких кодеков (кодеров/декодеров), таких как XVid и DivX. Узнайте больше об этом формате файла[здесь](https://docs.fileformat.com/video/avi/) . |
+| static readonly [Flv](../../groupdocs.conversion.filetypes/videofiletype/flv) | FLV (Flash Video) — это формат файла-контейнера с расширением .flv. FLV используется для доставки аудио- и видеоконтента через Интернет с помощью Adobe Flash Player или Adobe Air. Подробнее об этом формате файла[здесь](https://docs.fileformat.com/video/flv/) . |
+| static readonly [Mkv](../../groupdocs.conversion.filetypes/videofiletype/mkv) | MKV (Matroska Video) — это мультимедийный контейнер, похожий на форматы MOV и AVI, но поддерживающий более одной дорожки аудио и субтитров в одном файле. Файл MKV — это формат мультимедийного контейнера Matroska, используемый для видео. Узнайте больше об этом формате файла[здесь](https://docs.fileformat.com/video/mkv/) . |
+| static readonly [Mov](../../groupdocs.conversion.filetypes/videofiletype/mov) | Формат файла MOV или QuickTime — это мультимедийный контейнер, разработанный Apple: содержит одну или несколько дорожек, каждая дорожка содержит определенный тип данных, т. е. видео, аудио, текст и т. д. Узнайте больше об этом формате файла[здесь](https://docs.fileformat.com/video/mov/) . |
+| static readonly [Mp4](../../groupdocs.conversion.filetypes/videofiletype/mp4) | MP4 (сокращение от MPEG-4, часть 14) — это формат файла, основанный на стандарте ISO/IEC 14496-12:2004, основанный на формате файлов QuickTime, но формально определяющий поддержку начальных дескрипторов объектов (IOD) и других функций MPEG. Узнать подробнее об этом формате файла[здесь](https://docs.fileformat.com/video/mp4/) . |
+| static readonly [Webm](../../groupdocs.conversion.filetypes/videofiletype/webm) | Файл с расширением .webm представляет собой видеофайл, основанный на открытом, бесплатном формате файлов WebM. Он был разработан для обмена видео в Интернете и определяет структуру файлового контейнера, включая форматы видео и аудио. Узнайте больше об этом формате файла.[здесь](https://docs.fileformat.com/video/webm//) . |
+| static readonly [Wmv](../../groupdocs.conversion.filetypes/videofiletype/wmv) | Advanced Systems Format (ASF) — это цифровой мультимедийный контейнер, предназначенный в первую очередь для хранения и передачи медиапотоков. Узнайте больше об этом формате файлов[здесь](https://docs.fileformat.com/video/wmv/) . |
+
+### Смотрите также
+
+* class [FileType](../filetype)
+* пространство имен [GroupDocs.Conversion.FileTypes](../../groupdocs.conversion.filetypes)
+* сборка [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Conversion.dll -->
