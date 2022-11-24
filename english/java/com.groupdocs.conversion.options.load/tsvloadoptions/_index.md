@@ -1,9 +1,9 @@
 ---
 title: TsvLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
-description: 
+description: Options for loading Tsv documents.
 type: docs
-weight: 30
+weight: 27
 url: /java/com.groupdocs.conversion.options.load/tsvloadoptions/
 ---
 **Inheritance:**
@@ -11,6 +11,8 @@ java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.gro
 ```
 public class TsvLoadOptions extends SpreadsheetLoadOptions
 ```
+
+Options for loading Tsv documents.
 ## Constructors
 
 | Constructor | Description |

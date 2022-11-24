@@ -3,7 +3,7 @@ title: CadFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.conversion.filetypes/cadfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class CadFileType extends FileType implements Serializable
 ```
 
-Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types: [CadFileType\#Dgn](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dgn), [CadFileType\#Dwf](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwf), [CadFileType\#Dwg](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwg), [CadFileType\#Dwt](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwt), [CadFileType\#Dxf](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dxf), [CadFileType\#Ifc](../../com.groupdocs.conversion.filetypes/cadfiletype\#Ifc), [CadFileType\#Igs](../../com.groupdocs.conversion.filetypes/cadfiletype\#Igs), [CadFileType\#Plt](../../com.groupdocs.conversion.filetypes/cadfiletype\#Plt), [CadFileType\#Stl](../../com.groupdocs.conversion.filetypes/cadfiletype\#Stl). Learn more about CAD formats [here][].
+Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types: [Dgn](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dgn), [Dwf](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwf), [Dwg](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwg), [Dwt](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dwt), [Dxf](../../com.groupdocs.conversion.filetypes/cadfiletype\#Dxf), [Ifc](../../com.groupdocs.conversion.filetypes/cadfiletype\#Ifc), [Igs](../../com.groupdocs.conversion.filetypes/cadfiletype\#Igs), [Plt](../../com.groupdocs.conversion.filetypes/cadfiletype\#Plt), [Stl](../../com.groupdocs.conversion.filetypes/cadfiletype\#Stl). Learn more about CAD formats [here][].
 
 
 [here]: https://wiki.fileformat.com/cad

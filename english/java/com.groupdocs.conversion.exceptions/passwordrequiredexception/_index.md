@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Conversion for Java API Reference
 description: GroupDocs exception thrown when the file is password protected and password is not provided
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.conversion.exceptions/passwordrequiredexception/
 ---
 **Inheritance:**

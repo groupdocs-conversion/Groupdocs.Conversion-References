@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes txt leading spaces options enumeration.
 type: docs
-weight: 31
+weight: 28
 url: /java/com.groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 **Inheritance:**

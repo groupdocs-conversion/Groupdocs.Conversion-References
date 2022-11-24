@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines the methods that are used to perform logging.
 type: docs
-weight: 12
+weight: 11
 url: /java/com.groupdocs.conversion.logging/ilogger/
 ---```
 public interface ILogger

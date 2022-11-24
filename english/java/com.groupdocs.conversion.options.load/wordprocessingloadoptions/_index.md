@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 36
+weight: 33
 url: /java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 **Inheritance:**

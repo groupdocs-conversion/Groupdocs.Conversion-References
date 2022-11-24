@@ -3,7 +3,7 @@ title: DataFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Data documents.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.conversion.filetypes/datafiletype/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.gro
 public class DataFileType extends FileType
 ```
 
-Defines Data documents. Includes the following file types: [DataFileType\#Xml](../../com.groupdocs.conversion.filetypes/datafiletype\#Xml), [DataFileType\#Json](../../com.groupdocs.conversion.filetypes/datafiletype\#Json).
+Defines Data documents. Includes the following file types: [Xml](../../com.groupdocs.conversion.filetypes/datafiletype\#Xml), [Json](../../com.groupdocs.conversion.filetypes/datafiletype\#Json).
 ## Constructors
 
 | Constructor | Description |

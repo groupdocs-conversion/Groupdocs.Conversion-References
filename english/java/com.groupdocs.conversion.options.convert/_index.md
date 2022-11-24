@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.options.convert
 second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.conversion.options.convert/
 ---
 
@@ -17,7 +17,6 @@ The GroupDocs.Conversion.Options.Convert namespace provides classes to specify a
 | [CadConvertOptions](../com.groupdocs.conversion.options.convert/cadconvertoptions) | Options for conversion to Cad type. |
 | [CommonConvertOptions<TFileType>](../com.groupdocs.conversion.options.convert/commonconvertoptions) | abstract generic common conversion options class. |
 | [ConvertOptions<TFileType>](../com.groupdocs.conversion.options.convert/convertoptions) | The general conversion options class. |
-| [ConvertOptionsHelpers](../com.groupdocs.conversion.options.convert/convertoptionshelpers) |  |
 | [DataConvertOptions](../com.groupdocs.conversion.options.convert/dataconvertoptions) | Options for conversion to Data file type. |
 | [DiagramConvertOptions](../com.groupdocs.conversion.options.convert/diagramconvertoptions) | Options for conversion to Diagram file type. |
 | [EmailConvertOptions](../com.groupdocs.conversion.options.convert/emailconvertoptions) | Options for conversion to Email file type. |
@@ -38,20 +37,17 @@ The GroupDocs.Conversion.Options.Convert namespace provides classes to specify a
 | [PdfPageLayout](../com.groupdocs.conversion.options.convert/pdfpagelayout) | Describes Pdf page layout. |
 | [PdfPageMode](../com.groupdocs.conversion.options.convert/pdfpagemode) | Describes Pdf page mode |
 | [PresentationConvertOptions](../com.groupdocs.conversion.options.convert/presentationconvertoptions) | Describes options for conversion to Presentation file type. |
-| [ProjectManagementConvertOptions](../com.groupdocs.conversion.options.convert/projectmanagementconvertoptions) | Options for conversion to Project management file type. |
 | [PsdColorModes](../com.groupdocs.conversion.options.convert/psdcolormodes) | Defines Psd color modes enumeration. |
 | [PsdCompressionMethods](../com.groupdocs.conversion.options.convert/psdcompressionmethods) | Describes Psd compression methods. |
 | [PsdOptions](../com.groupdocs.conversion.options.convert/psdoptions) | Options for converting to Psd file type. |
 | [Rotation](../com.groupdocs.conversion.options.convert/rotation) | Describes page rotation enumeration |
 | [RtfOptions](../com.groupdocs.conversion.options.convert/rtfoptions) | Options for conversion to RTF file type. |
 | [SpreadsheetConvertOptions](../com.groupdocs.conversion.options.convert/spreadsheetconvertoptions) | Options for conversion to Spreadsheet file type. |
-| [ThreeDConvertOptions](../com.groupdocs.conversion.options.convert/threedconvertoptions) |  |
 | [TiffCompressionMethods](../com.groupdocs.conversion.options.convert/tiffcompressionmethods) | Describes Tiff compression methods enumeration. |
 | [TiffOptions](../com.groupdocs.conversion.options.convert/tiffoptions) | Options for conversion to TIFF file type. |
 | [WatermarkImageOptions](../com.groupdocs.conversion.options.convert/watermarkimageoptions) | Options for settings watermark to the converted document |
 | [WatermarkOptions](../com.groupdocs.conversion.options.convert/watermarkoptions) | Options for settings watermark to the converted document |
 | [WebpOptions](../com.groupdocs.conversion.options.convert/webpoptions) | Options for conversion to Webp file type. |
-| [WordProcessingConvertOptions](../com.groupdocs.conversion.options.convert/wordprocessingconvertoptions) | Options for conversion to WordProcessing file type. |
 
 ## Interfaces
 
@@ -59,7 +55,6 @@ The GroupDocs.Conversion.Options.Convert namespace provides classes to specify a
 | --- | --- |
 | [IConvertOptions](../com.groupdocs.conversion.options.convert/iconvertoptions) | Represents convert options |
 | [IPageMarginConvertOptions](../com.groupdocs.conversion.options.convert/ipagemarginconvertoptions) | Represents convert options that support page margins |
-| [IPageOrientationConvertOptions](../com.groupdocs.conversion.options.convert/ipageorientationconvertoptions) | Represents convert options that support page orientation |
 | [IPageRangedConvertOptions](../com.groupdocs.conversion.options.convert/ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
 | [IPageSizeConvertOptions](../com.groupdocs.conversion.options.convert/ipagesizeconvertoptions) | Represents convert options that support page size |
 | [IPagedConvertOptions](../com.groupdocs.conversion.options.convert/ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |

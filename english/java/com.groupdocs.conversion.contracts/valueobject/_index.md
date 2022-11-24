@@ -3,7 +3,7 @@ title: ValueObject
 second_title: GroupDocs.Conversion for Java API Reference
 description: Abstract value object class.
 type: docs
-weight: 18
+weight: 14
 url: /java/com.groupdocs.conversion.contracts/valueobject/
 ---
 **Inheritance:**

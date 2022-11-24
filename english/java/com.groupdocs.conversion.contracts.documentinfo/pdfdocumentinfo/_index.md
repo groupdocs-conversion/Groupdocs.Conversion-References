@@ -3,7 +3,7 @@ title: PdfDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Pdf document metadata
 type: docs
-weight: 29
+weight: 27
 url: /java/com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo/
 ---
 **Inheritance:**

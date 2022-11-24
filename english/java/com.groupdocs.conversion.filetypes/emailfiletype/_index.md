@@ -3,7 +3,7 @@ title: EmailFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Email file formats that are used by email applications to store their various data including email messages attachments folders address books etc.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.conversion.filetypes/emailfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class EmailFileType extends FileType implements Serializable
 ```
 
-Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [EmailFileType\#Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [EmailFileType\#Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [EmailFileType\#Mht](../../com.groupdocs.conversion.filetypes/emailfiletype\#Mht), [EmailFileType\#Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [EmailFileType\#Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). Learn more about Email formats [here][].
+Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Mht](../../com.groupdocs.conversion.filetypes/emailfiletype\#Mht), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). Learn more about Email formats [here][].
 
 
 [here]: https://wiki.fileformat.com/email

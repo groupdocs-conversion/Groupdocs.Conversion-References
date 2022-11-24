@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Conversion for Java API Reference
 description: Font settings
 type: docs
-weight: 17
+weight: 16
 url: /java/com.groupdocs.conversion.options.convert/font/
 ---
 **Inheritance:**
@@ -30,6 +30,8 @@ Font settings
 | [setItalic(boolean italic)](#setItalic-boolean-) | Sets font italic flag |
 | [isUnderline()](#isUnderline--) | Gets Font underline |
 | [setUnderline(boolean underline)](#setUnderline-boolean-) | Sets Font underline |
+| [getDefault()](#getDefault--) |  |
+| [clone(float newSize)](#clone-float-) |  |
 ### Font(String fontFamilyName, float size) {#Font-java.lang.String-float-}
 ```
 public Font(String fontFamilyName, float size)
@@ -133,3 +135,28 @@ Sets Font underline
 | --- | --- | --- |
 | underline | boolean | Font underline flag |
 
+### getDefault() {#getDefault--}
+```
+public static Font getDefault()
+```
+
+
+
+
+**Returns:**
+[Font](../../com.groupdocs.conversion.options.convert/font)
+### clone(float newSize) {#clone-float-}
+```
+public Font clone(float newSize)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newSize | float |  |
+
+**Returns:**
+[Font](../../com.groupdocs.conversion.options.convert/font)

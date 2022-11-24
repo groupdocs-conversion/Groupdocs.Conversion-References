@@ -1,9 +1,9 @@
 ---
 title: MboxLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
-description: 
+description: Options for loading Mbox documents.
 type: docs
-weight: 22
+weight: 20
 url: /java/com.groupdocs.conversion.options.load/mboxloadoptions/
 ---
 **Inheritance:**
@@ -14,6 +14,8 @@ java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.gro
 ```
 public class MboxLoadOptions extends LoadOptions implements IDocumentsContainerLoadOptions
 ```
+
+Options for loading Mbox documents.
 ## Constructors
 
 | Constructor | Description |

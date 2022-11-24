@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Markup document metadata
 type: docs
-weight: 25
+weight: 24
 url: /java/com.groupdocs.conversion.contracts.documentinfo/markupdocumentinfo/
 ---
 **Inheritance:**

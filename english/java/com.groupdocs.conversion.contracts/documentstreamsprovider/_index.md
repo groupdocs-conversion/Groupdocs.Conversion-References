@@ -1,9 +1,9 @@
 ---
 title: DocumentStreamsProvider
 second_title: GroupDocs.Conversion for Java API Reference
-description: 
+description: Supplier for InputStream array
 type: docs
-weight: 25
+weight: 20
 url: /java/com.groupdocs.conversion.contracts/documentstreamsprovider/
 ---
 **All Implemented Interfaces:**
@@ -11,3 +11,5 @@ java.util.function.Supplier
 ```
 public interface DocumentStreamsProvider extends Supplier<InputStream[]>
 ```
+
+Supplier for InputStream array

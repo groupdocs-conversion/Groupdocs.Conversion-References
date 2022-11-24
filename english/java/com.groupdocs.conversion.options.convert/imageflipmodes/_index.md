@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes image flip modes.
 type: docs
-weight: 19
+weight: 18
 url: /java/com.groupdocs.conversion.options.convert/imageflipmodes/
 ---
 **Inheritance:**

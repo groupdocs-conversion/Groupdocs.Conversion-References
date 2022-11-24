@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 32
+weight: 29
 url: /java/com.groupdocs.conversion.options.load/txtloadoptions/
 ---
 **Inheritance:**
@@ -94,7 +94,7 @@ public final TxtTrailingSpacesOptions getTrailingSpacesOptions()
 ```
 
 
-Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions\#Trim](../../com.groupdocs.conversion.options.load/txttrailingspacesoptions\#Trim).
+Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.Trim](../../com.groupdocs.conversion.options.load/txttrailingspacesoptions\#Trim).
 
 **Returns:**
 [TxtTrailingSpacesOptions](../../com.groupdocs.conversion.options.load/txttrailingspacesoptions)
@@ -104,7 +104,7 @@ public final void setTrailingSpacesOptions(TxtTrailingSpacesOptions value)
 ```
 
 
-Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions\#Trim](../../com.groupdocs.conversion.options.load/txttrailingspacesoptions\#Trim).
+Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.Trim](../../com.groupdocs.conversion.options.load/txttrailingspacesoptions\#Trim).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,7 +117,7 @@ public final TxtLeadingSpacesOptions getLeadingSpacesOptions()
 ```
 
 
-Gets or sets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions\#ConvertToIndent](../../com.groupdocs.conversion.options.load/txtleadingspacesoptions\#ConvertToIndent).
+Gets or sets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions.ConvertToIndent](../../com.groupdocs.conversion.options.load/txtleadingspacesoptions\#ConvertToIndent).
 
 **Returns:**
 [TxtLeadingSpacesOptions](../../com.groupdocs.conversion.options.load/txtleadingspacesoptions)
@@ -127,7 +127,7 @@ public final void setLeadingSpacesOptions(TxtLeadingSpacesOptions value)
 ```
 
 
-Gets or sets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions\#ConvertToIndent](../../com.groupdocs.conversion.options.load/txtleadingspacesoptions\#ConvertToIndent).
+Gets or sets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions.ConvertToIndent](../../com.groupdocs.conversion.options.load/txtleadingspacesoptions\#ConvertToIndent).
 
 **Parameters:**
 | Parameter | Type | Description |

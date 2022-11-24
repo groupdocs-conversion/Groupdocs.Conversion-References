@@ -3,7 +3,7 @@ title: EmailConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Email file type.
 type: docs
-weight: 16
+weight: 15
 url: /java/com.groupdocs.conversion.options.convert/emailconvertoptions/
 ---
 **Inheritance:**

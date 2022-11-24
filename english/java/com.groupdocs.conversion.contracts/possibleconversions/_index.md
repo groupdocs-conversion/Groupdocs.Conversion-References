@@ -3,7 +3,7 @@ title: PossibleConversions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents a mapping what conversion pairs are supported for specific source file format
 type: docs
-weight: 15
+weight: 13
 url: /java/com.groupdocs.conversion.contracts/possibleconversions/
 ---
 **Inheritance:**

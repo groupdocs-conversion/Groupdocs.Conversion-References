@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to TIFF file type.
 type: docs
-weight: 43
+weight: 40
 url: /java/com.groupdocs.conversion.options.convert/tiffoptions/
 ---
 **Inheritance:**

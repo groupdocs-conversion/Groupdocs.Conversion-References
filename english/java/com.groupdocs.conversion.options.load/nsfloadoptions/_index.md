@@ -1,9 +1,9 @@
 ---
 title: NsfLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
-description: 
+description: Options for loading Nsf documents.
 type: docs
-weight: 24
+weight: 22
 url: /java/com.groupdocs.conversion.options.load/nsfloadoptions/
 ---
 **Inheritance:**
@@ -14,6 +14,8 @@ java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.gro
 ```
 public class NsfLoadOptions extends LoadOptions implements IDocumentsContainerLoadOptions
 ```
+
+Options for loading Nsf documents.
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: TexDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Tex document metadata
 type: docs
-weight: 41
+weight: 32
 url: /java/com.groupdocs.conversion.contracts.documentinfo/texdocumentinfo/
 ---
 **Inheritance:**

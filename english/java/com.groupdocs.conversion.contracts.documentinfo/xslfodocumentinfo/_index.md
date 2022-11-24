@@ -3,7 +3,7 @@ title: XslFoDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains XslFo document metadata
 type: docs
-weight: 49
+weight: 39
 url: /java/com.groupdocs.conversion.contracts.documentinfo/xslfodocumentinfo/
 ---
 **Inheritance:**

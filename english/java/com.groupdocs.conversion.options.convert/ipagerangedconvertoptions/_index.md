@@ -3,7 +3,7 @@ title: IPageRangedConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that support conversion of specific list of pages
 type: docs
-weight: 51
+weight: 46
 url: /java/com.groupdocs.conversion.options.convert/ipagerangedconvertoptions/
 ---
 **All Implemented Interfaces:**

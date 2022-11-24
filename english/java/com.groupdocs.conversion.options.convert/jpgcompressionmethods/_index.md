@@ -3,7 +3,7 @@ title: JpgCompressionMethods
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Jpg compression modes
 type: docs
-weight: 22
+weight: 21
 url: /java/com.groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 **Inheritance:**

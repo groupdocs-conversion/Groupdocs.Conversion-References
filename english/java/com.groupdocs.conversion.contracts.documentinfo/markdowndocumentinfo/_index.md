@@ -3,13 +3,13 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Md document metadata
 type: docs
-weight: 24
+weight: 23
 url: /java/com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.WordprocessingDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/wordprocessingdocumentinfo)
+java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.WordProcessingDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/wordprocessingdocumentinfo)
 ```
-public class MarkdownDocumentInfo extends WordprocessingDocumentInfo
+public class MarkdownDocumentInfo extends WordProcessingDocumentInfo
 ```
 
 Contains Md document metadata

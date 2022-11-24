@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Pdf page mode
 type: docs
-weight: 32
+weight: 31
 url: /java/com.groupdocs.conversion.options.convert/pdfpagemode/
 ---
 **Inheritance:**

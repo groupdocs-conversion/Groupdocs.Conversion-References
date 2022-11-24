@@ -3,7 +3,7 @@ title: PsdDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Psd document metadata
 type: docs
-weight: 34
+weight: 29
 url: /java/com.groupdocs.conversion.contracts.documentinfo/psddocumentinfo/
 ---
 **Inheritance:**

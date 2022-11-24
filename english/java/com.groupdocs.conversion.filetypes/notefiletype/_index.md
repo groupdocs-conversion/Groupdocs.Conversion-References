@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Note-taking formats.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.conversion.filetypes/notefiletype/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.gro
 public final class NoteFileType extends FileType
 ```
 
-Defines Note-taking formats. Includes the following file types: [NoteFileType\#One](../../com.groupdocs.conversion.filetypes/notefiletype\#One). Learn more about Note-taking formats [here][].
+Defines Note-taking formats. Includes the following file types: [One](../../com.groupdocs.conversion.filetypes/notefiletype\#One). Learn more about Note-taking formats [here][].
 
 
 [here]: https://wiki.fileformat.com/note-taking

@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: File type base class
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.conversion.filetypes/filetype/
 ---
 **Inheritance:**
@@ -170,7 +170,7 @@ public static List<FileType> <T>getAllTypes(Class<T> typeOfT, FileType[] exclude
 | Parameter | Type | Description |
 | --- | --- | --- |
 | typeOfT | java.lang.Class<T> |  |
-| excluded | com.groupdocs.conversion.filetypes.FileType[] |  |
+| excluded | [FileType\[\]](../../com.groupdocs.conversion.filetypes/filetype) |  |
 
 **Returns:**
 java.util.List<com.groupdocs.conversion.filetypes.FileType>
@@ -186,7 +186,7 @@ public static List<FileType> <T>getAllTypes(Class<T> typeOfT, FileType[][] exclu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | typeOfT | java.lang.Class<T> |  |
-| excluded | com.groupdocs.conversion.filetypes.FileType[][] |  |
+| excluded | [FileType\[\]](../../com.groupdocs.conversion.filetypes/filetype) |  |
 
 **Returns:**
 java.util.List<com.groupdocs.conversion.filetypes.FileType>

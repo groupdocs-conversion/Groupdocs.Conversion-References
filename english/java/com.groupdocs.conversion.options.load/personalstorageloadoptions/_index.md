@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading personal storage documents.
 type: docs
-weight: 26
+weight: 24
 url: /java/com.groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: NoteDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Note document metadata
 type: docs
-weight: 26
+weight: 25
 url: /java/com.groupdocs.conversion.contracts.documentinfo/notedocumentinfo/
 ---
 **Inheritance:**
