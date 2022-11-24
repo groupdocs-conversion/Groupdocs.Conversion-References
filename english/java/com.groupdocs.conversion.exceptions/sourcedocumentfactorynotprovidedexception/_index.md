@@ -3,7 +3,7 @@ title: SourceDocumentFactoryNotProvidedException
 second_title: GroupDocs.Conversion for Java API Reference
 description: GroupDocs exception thrown when the source document factory is not provided
 type: docs
-weight: 19
+weight: 18
 url: /java/com.groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/
 ---
 **Inheritance:**

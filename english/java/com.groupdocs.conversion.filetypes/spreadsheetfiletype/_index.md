@@ -3,7 +3,7 @@ title: SpreadsheetFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Spreadsheet documents.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.conversion.filetypes/spreadsheetfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class SpreadsheetFileType extends FileType implements Serializable
 ```
 
-Defines Spreadsheet documents. Includes the following file types: [SpreadsheetFileType\#Csv](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Csv), [SpreadsheetFileType\#Fods](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Fods), [SpreadsheetFileType\#Ods](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Ods), [SpreadsheetFileType\#Ots](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Ots), [SpreadsheetFileType\#Tsv](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Tsv), [SpreadsheetFileType\#Xlam](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlam), [SpreadsheetFileType\#Xls](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xls), [SpreadsheetFileType\#Xlsb](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsb), [SpreadsheetFileType\#Xlsm](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsm), [SpreadsheetFileType\#Xlsx](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsx), [SpreadsheetFileType\#Xlt](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlt), [SpreadsheetFileType\#Xltm](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xltm), [SpreadsheetFileType\#Xltx](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xltx). Learn more about Spreadsheet formats [here][].
+Defines Spreadsheet documents. Includes the following file types: [Csv](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Csv), [Fods](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Fods), [Ods](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Ods), [Ots](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Ots), [Tsv](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Tsv), [Xlam](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlam), [Xls](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xls), [Xlsb](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsb), [Xlsm](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsm), [Xlsx](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlsx), [Xlt](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xlt), [Xltm](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xltm), [Xltx](../../com.groupdocs.conversion.filetypes/spreadsheetfiletype\#Xltx). Learn more about Spreadsheet formats [here][].
 
 
 [here]: https://wiki.fileformat.com/spreadsheet

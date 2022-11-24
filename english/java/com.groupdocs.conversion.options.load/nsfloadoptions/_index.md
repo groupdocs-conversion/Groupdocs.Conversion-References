@@ -3,7 +3,7 @@ title: NsfLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 24
+weight: 22
 url: /java/com.groupdocs.conversion.options.load/nsfloadoptions/
 ---
 **Inheritance:**

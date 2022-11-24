@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 37
+weight: 34
 url: /java/com.groupdocs.conversion.options.load/xmlloadoptions/
 ---
 **Inheritance:**

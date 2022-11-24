@@ -3,7 +3,7 @@ title: SavePageStream
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate for saving converted document page into stream.
 type: docs
-weight: 37
+weight: 24
 url: /java/com.groupdocs.conversion.contracts/savepagestream/
 ---```
 public interface SavePageStream

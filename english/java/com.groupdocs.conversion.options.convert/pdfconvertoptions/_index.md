@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 25
+weight: 24
 url: /java/com.groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 **Inheritance:**

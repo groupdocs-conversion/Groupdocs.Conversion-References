@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Markup documents.
 type: docs
-weight: 21
+weight: 19
 url: /java/com.groupdocs.conversion.options.load/markuploadoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: JsonDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 23
+weight: 22
 url: /java/com.groupdocs.conversion.contracts.documentinfo/jsondocumentinfo/
 ---
 **Inheritance:**
@@ -15,17 +15,16 @@ public class JsonDocumentInfo extends DocumentInfo
 
 | Constructor | Description |
 | --- | --- |
-| [JsonDocumentInfo(System.IO.Stream stream, FileType format, long size)](#JsonDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-) |  |
-### JsonDocumentInfo(System.IO.Stream stream, FileType format, long size) {#JsonDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-}
+| [JsonDocumentInfo(FileType format, long size)](#JsonDocumentInfo-com.groupdocs.conversion.filetypes.FileType-long-) |  |
+### JsonDocumentInfo(FileType format, long size) {#JsonDocumentInfo-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
-public JsonDocumentInfo(System.IO.Stream stream, FileType format, long size)
+public JsonDocumentInfo(FileType format, long size)
 ```
 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
 | format | [FileType](../../com.groupdocs.conversion.filetypes/filetype) |  |
 | size | long |  |
 

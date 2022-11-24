@@ -3,7 +3,7 @@ title: PdfFormattingOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Pdf formatting options.
 type: docs
-weight: 28
+weight: 27
 url: /java/com.groupdocs.conversion.options.convert/pdfformattingoptions/
 ---
 **Inheritance:**

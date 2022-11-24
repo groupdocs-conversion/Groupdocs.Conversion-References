@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Image documents.
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.conversion.options.load/imageloadoptions/
 ---
 **Inheritance:**

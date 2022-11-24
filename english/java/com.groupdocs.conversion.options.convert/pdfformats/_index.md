@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Pdf formats enumeration.
 type: docs
-weight: 27
+weight: 26
 url: /java/com.groupdocs.conversion.options.convert/pdfformats/
 ---
 **Inheritance:**

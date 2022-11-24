@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading One documents.
 type: docs
-weight: 23
+weight: 21
 url: /java/com.groupdocs.conversion.options.load/noteloadoptions/
 ---
 **Inheritance:**

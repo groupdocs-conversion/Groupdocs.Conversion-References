@@ -3,7 +3,7 @@ title: PersonalStorageFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Personal storage file formats that are used by email applications to store their various data including email messages attachments folders address books etc.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 **Inheritance:**

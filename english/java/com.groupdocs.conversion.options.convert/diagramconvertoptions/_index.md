@@ -3,7 +3,7 @@ title: DiagramConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Diagram file type.
 type: docs
-weight: 15
+weight: 14
 url: /java/com.groupdocs.conversion.options.convert/diagramconvertoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PdfDirection
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Pdf text direction.
 type: docs
-weight: 26
+weight: 25
 url: /java/com.groupdocs.conversion.options.convert/pdfdirection/
 ---
 **Inheritance:**

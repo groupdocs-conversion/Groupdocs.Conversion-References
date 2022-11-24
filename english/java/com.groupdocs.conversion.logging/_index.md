@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.logging
 second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Logging namespace provides classes for customizing logging behaviour.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.conversion.logging/
 ---
 
@@ -15,7 +15,6 @@ The GroupDocs.Conversion.Logging namespace provides classes for customizing logg
 | Class | Description |
 | --- | --- |
 | [ConsoleLogger](../com.groupdocs.conversion.logging/consolelogger) | Console logger implementation. |
-| [NullLogger](../com.groupdocs.conversion.logging/nulllogger) | Null logger implementation. |
 
 ## Interfaces
 

@@ -14,6 +14,7 @@ The GroupDocs.Conversion.FileTypes namespace provides classes which represent su
 
 | Class | Description |
 | --- | --- |
+| [AudioFileType](../com.groupdocs.conversion.filetypes/audiofiletype) | Defines Audio documents Includes the following types: , , , , , , , , , Learn more about audio formats [here][].[here]: https://docs.fileformat.com/audio/ |
 | [CadFileType](../com.groupdocs.conversion.filetypes/cadfiletype) | Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. |
 | [DataFileType](../com.groupdocs.conversion.filetypes/datafiletype) | Defines Data documents. |
 | [DiagramFileType](../com.groupdocs.conversion.filetypes/diagramfiletype) | Defines Diagram documents. |
@@ -27,5 +28,5 @@ The GroupDocs.Conversion.FileTypes namespace provides classes which represent su
 | [PresentationFileType](../com.groupdocs.conversion.filetypes/presentationfiletype) | Defines Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. |
 | [ProjectManagementFileType](../com.groupdocs.conversion.filetypes/projectmanagementfiletype) | Defines Project file formats that are created by Project Management software such as Microsoft Project, Primavera P6 etc. |
 | [SpreadsheetFileType](../com.groupdocs.conversion.filetypes/spreadsheetfiletype) | Defines Spreadsheet documents. |
-| [ThreeDFileType](../com.groupdocs.conversion.filetypes/threedfiletype) | Defines 3D documents Includes the following types:  Learn more about 3D formats [here][].[here]: https://wiki.fileformat.com/3d |
+| [VideoFileType](../com.groupdocs.conversion.filetypes/videofiletype) | Defines Video documents Includes the following types: , , , , , , , Learn more about video formats [here][].[here]: https://docs.fileformat.com/video/ |
 | [WordProcessingFileType](../com.groupdocs.conversion.filetypes/wordprocessingfiletype) | Defines Word Processing files that contain user information in plain text or rich text format. |

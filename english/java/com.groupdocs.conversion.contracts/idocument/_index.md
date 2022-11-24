@@ -3,7 +3,7 @@ title: IDocument
 second_title: GroupDocs.Conversion for Java API Reference
 description: Interface for documents
 type: docs
-weight: 27
+weight: 21
 url: /java/com.groupdocs.conversion.contracts/idocument/
 ---
 **All Implemented Interfaces:**

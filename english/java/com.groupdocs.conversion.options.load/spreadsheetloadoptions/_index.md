@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 28
+weight: 26
 url: /java/com.groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes page rotation enumeration
 type: docs
-weight: 38
+weight: 36
 url: /java/com.groupdocs.conversion.options.convert/rotation/
 ---
 **Inheritance:**

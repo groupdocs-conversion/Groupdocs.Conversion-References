@@ -3,7 +3,7 @@ title: DiagramFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Diagram documents.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.conversion.filetypes/diagramfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class DiagramFileType extends FileType implements Serializable
 ```
 
-Defines Diagram documents. Includes the following types: [DiagramFileType\#Vdw](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vdw), [DiagramFileType\#Vdx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vdx), [DiagramFileType\#Vsd](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsd), [DiagramFileType\#Vsdm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsdm), [DiagramFileType\#Vsdx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsdx), [DiagramFileType\#Vss](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vss), [DiagramFileType\#Vssm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vssm), [DiagramFileType\#Vssx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vssx), [DiagramFileType\#Vst](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vst), [DiagramFileType\#Vstm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vstm), [DiagramFileType\#Vstx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vstx), [DiagramFileType\#Vsx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsx), [DiagramFileType\#Vtx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vtx).
+Defines Diagram documents. Includes the following types: [Vdw](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vdw), [Vdx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vdx), [Vsd](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsd), [Vsdm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsdm), [Vsdx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsdx), [Vss](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vss), [Vssm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vssm), [Vssx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vssx), [Vst](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vst), [Vstm](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vstm), [Vstx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vstx), [Vsx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vsx), [Vtx](../../com.groupdocs.conversion.filetypes/diagramfiletype\#Vtx).
 ## Constructors
 
 | Constructor | Description |

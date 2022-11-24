@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Spreadsheet file type.
 type: docs
-weight: 40
+weight: 38
 url: /java/com.groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 **Inheritance:**

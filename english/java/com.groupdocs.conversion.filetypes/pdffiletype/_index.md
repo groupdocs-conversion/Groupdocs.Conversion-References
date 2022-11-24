@@ -3,7 +3,7 @@ title: PdfFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Pdf documents.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.conversion.filetypes/pdffiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class PdfFileType extends FileType implements Serializable
 ```
 
-Defines Pdf documents. Includes the following file types: [PdfFileType\#Epub](../../com.groupdocs.conversion.filetypes/pdffiletype\#Epub), [PdfFileType\#Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype\#Pdf), [PdfFileType\#Xps](../../com.groupdocs.conversion.filetypes/pdffiletype\#Xps).
+Defines Pdf documents. Includes the following file types: [Epub](../../com.groupdocs.conversion.filetypes/pdffiletype\#Epub), [Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype\#Pdf), [Xps](../../com.groupdocs.conversion.filetypes/pdffiletype\#Xps).
 ## Constructors
 
 | Constructor | Description |

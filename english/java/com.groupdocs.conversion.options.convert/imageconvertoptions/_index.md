@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Image file type.
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 **Inheritance:**
@@ -60,6 +60,8 @@ Options for conversion to Image file type.
 | [setContrast(int value)](#setContrast-int-) | Adjusts image contrast. |
 | [getGamma()](#getGamma--) | Adjusts image gamma. |
 | [setGamma(float value)](#setGamma-float-) | Adjusts image gamma. |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets background color |
+| [setBackgroundColor(System.Drawing.Color backgroundColor)](#setBackgroundColor-com.aspose.ms.System.Drawing.Color-) | Sets background color where supported by the source format |
 ### ImageConvertOptions() {#ImageConvertOptions--}
 ```
 public ImageConvertOptions()
@@ -418,4 +420,27 @@ Adjusts image gamma.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### getBackgroundColor() {#getBackgroundColor--}
+```
+public System.Drawing.Color getBackgroundColor()
+```
+
+
+Gets background color
+
+**Returns:**
+com.aspose.ms.System.Drawing.Color - background color
+### setBackgroundColor(System.Drawing.Color backgroundColor) {#setBackgroundColor-com.aspose.ms.System.Drawing.Color-}
+```
+public void setBackgroundColor(System.Drawing.Color backgroundColor)
+```
+
+
+Sets background color where supported by the source format
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| backgroundColor | com.aspose.ms.System.Drawing.Color | background color |
 

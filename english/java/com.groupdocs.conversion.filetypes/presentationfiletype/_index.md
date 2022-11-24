@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Presentation file formats that store collection of records to accommodate presentation data such as slides shapes text animations video audio and embedded objects.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.conversion.filetypes/presentationfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class PresentationFileType extends FileType implements Serializable
 ```
 
-Defines Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. Includes the following file types: [PresentationFileType\#Odp](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Odp), [PresentationFileType\#Otp](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Otp), [PresentationFileType\#Pot](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pot), [PresentationFileType\#Potm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Potm), [PresentationFileType\#Potx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Potx), [PresentationFileType\#Pps](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pps), [PresentationFileType\#Ppsm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppsm), [PresentationFileType\#Ppsx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppsx), [PresentationFileType\#Ppt](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppt), [PresentationFileType\#Pptm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pptm), [PresentationFileType\#Pptx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pptx). Learn more about Presentation formats [here][].
+Defines Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. Includes the following file types: [Odp](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Odp), [Otp](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Otp), [Pot](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pot), [Potm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Potm), [Potx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Potx), [Pps](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pps), [Ppsm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppsm), [Ppsx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppsx), [Ppt](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Ppt), [Pptm](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pptm), [Pptx](../../com.groupdocs.conversion.filetypes/presentationfiletype\#Pptx). Learn more about Presentation formats [here][].
 
 
 [here]: https://wiki.fileformat.com/presentation

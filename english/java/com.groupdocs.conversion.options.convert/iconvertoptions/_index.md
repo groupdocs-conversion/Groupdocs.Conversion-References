@@ -3,7 +3,7 @@ title: IConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options
 type: docs
-weight: 48
+weight: 44
 url: /java/com.groupdocs.conversion.options.convert/iconvertoptions/
 ---```
 public interface IConvertOptions

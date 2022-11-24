@@ -17,6 +17,7 @@ is_root: true
 | [com.groupdocs.conversion.exceptions](./com.groupdocs.conversion.exceptions) | The GroupDocs.Conversion.Exceptions namespace provides different exceptions classes. |
 | [com.groupdocs.conversion.filetypes](./com.groupdocs.conversion.filetypes) | The GroupDocs.Conversion.FileTypes namespace provides classes which represent supported file types. |
 | [com.groupdocs.conversion.integration.ocr](./com.groupdocs.conversion.integration.ocr) |  |
+| [com.groupdocs.conversion.licensing](./com.groupdocs.conversion.licensing) | The GroupDocs.Conversion.Legacy.Licensing namespace provides classes for applying of the license |
 | [com.groupdocs.conversion.logging](./com.groupdocs.conversion.logging) | The GroupDocs.Conversion.Logging namespace provides classes for customizing logging behaviour. |
 | [com.groupdocs.conversion.options.convert](./com.groupdocs.conversion.options.convert) | The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process. |
 | [com.groupdocs.conversion.options.load](./com.groupdocs.conversion.options.load) | The GroupDocs.Conversion.Options.Load namespace provides classes to specify additional options for document loading process. |

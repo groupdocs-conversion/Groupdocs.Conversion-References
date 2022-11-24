@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that allow output of conversion to be watermarked
 type: docs
-weight: 55
+weight: 50
 url: /java/com.groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 22
+weight: 20
 url: /java/com.groupdocs.conversion.options.load/mboxloadoptions/
 ---
 **Inheritance:**

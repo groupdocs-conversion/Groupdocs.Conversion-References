@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Project file formats that are created by Project Management software such as Microsoft Project Primavera P6 etc.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.gro
 public final class ProjectManagementFileType extends FileType
 ```
 
-Defines Project file formats that are created by Project Management software such as Microsoft Project, Primavera P6 etc. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Project management documents. Includes the following file types: [ProjectManagementFileType\#Mpp](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpp), [ProjectManagementFileType\#Mpt](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpt), [ProjectManagementFileType\#Mpx](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpx). Learn more about Project Management formats [here][].
+Defines Project file formats that are created by Project Management software such as Microsoft Project, Primavera P6 etc. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Project management documents. Includes the following file types: [Mpp](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpp), [Mpt](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpt), [Mpx](../../com.groupdocs.conversion.filetypes/projectmanagementfiletype\#Mpx). Learn more about Project Management formats [here][].
 
 
 [here]: https://wiki.fileformat.com/project-management

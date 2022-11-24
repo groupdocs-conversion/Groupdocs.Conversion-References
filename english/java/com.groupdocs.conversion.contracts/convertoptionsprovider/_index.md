@@ -3,7 +3,7 @@ title: ConvertOptionsProvider
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate to provide convert options for specific source document.
 type: docs
-weight: 20
+weight: 15
 url: /java/com.groupdocs.conversion.contracts/convertoptionsprovider/
 ---```
 public interface ConvertOptionsProvider

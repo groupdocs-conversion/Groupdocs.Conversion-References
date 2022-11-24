@@ -3,7 +3,7 @@ title: MarkupFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Markup and Web file formats.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.conversion.filetypes/markupfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class MarkupFileType extends FileType implements Serializable
 ```
 
-Defines Markup and Web file formats. Includes the following file types: [MarkupFileType\#Htm](../../com.groupdocs.conversion.filetypes/markupfiletype\#Htm), [MarkupFileType\#Html](../../com.groupdocs.conversion.filetypes/markupfiletype\#Html). Learn more about Image formats [here][].
+Defines Markup and Web file formats. Includes the following file types: [Htm](../../com.groupdocs.conversion.filetypes/markupfiletype\#Htm), [Html](../../com.groupdocs.conversion.filetypes/markupfiletype\#Html). Learn more about Image formats [here][].
 
 
 [here]: https://wiki.fileformat.com/web

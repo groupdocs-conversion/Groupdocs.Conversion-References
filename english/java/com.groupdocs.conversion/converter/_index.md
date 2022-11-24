@@ -20,12 +20,6 @@ Represents main class that controls document conversion process.
 
 | Constructor | Description |
 | --- | --- |
-| [Converter(InputStream document)](#Converter-java.io.InputStream-) |  |
-| [Converter(InputStream document, ConverterSettings settings)](#Converter-java.io.InputStream-com.groupdocs.conversion.ConverterSettings-) |  |
-| [Converter(InputStream document, LoadOptions loadOptions)](#Converter-java.io.InputStream-com.groupdocs.conversion.options.load.LoadOptions-) |  |
-| [Converter(InputStream document, LoadOptions loadOptions, ConverterSettings settings)](#Converter-java.io.InputStream-com.groupdocs.conversion.options.load.LoadOptions-com.groupdocs.conversion.ConverterSettings-) |  |
-| [Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions)](#Converter-java.io.InputStream-com.groupdocs.conversion.contracts.Func1-com.groupdocs.conversion.filetypes.FileType-com.groupdocs.conversion.options.load.LoadOptions--) |  |
-| [Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions, ConverterSettings settings)](#Converter-java.io.InputStream-com.groupdocs.conversion.contracts.Func1-com.groupdocs.conversion.filetypes.FileType-com.groupdocs.conversion.options.load.LoadOptions--com.groupdocs.conversion.ConverterSettings-) |  |
 | [Converter()](#Converter--) | Initializes new instance of  class for fluent conversion setup. |
 | [Converter(Supplier<InputStream> document)](#Converter-java.util.function.Supplier-java.io.InputStream--) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
 | [Converter(Supplier<InputStream> document, ConverterSettingsProvider settings)](#Converter-java.util.function.Supplier-java.io.InputStream--com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
@@ -35,11 +29,8 @@ Represents main class that controls document conversion process.
 | [Converter(Supplier<InputStream> document, LoadOptionsForFileTypeProvider loadOptions, ConverterSettingsProvider settings)](#Converter-java.util.function.Supplier-java.io.InputStream--com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Initializes new instance of  class. |
 | [Converter(String filePath)](#Converter-java.lang.String-) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
 | [Converter(String filePath, ConverterSettingsProvider settings)](#Converter-java.lang.String-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
-| [Converter(String filePath, ConverterSettings settings)](#Converter-java.lang.String-com.groupdocs.conversion.ConverterSettings-) |  |
 | [Converter(String filePath, LoadOptionsProvider loadOptions)](#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsProvider-) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
-| [Converter(String filePath, LoadOptions loadOptions)](#Converter-java.lang.String-com.groupdocs.conversion.options.load.LoadOptions-) |  |
 | [Converter(String filePath, LoadOptionsProvider loadOptions, ConverterSettingsProvider settings)](#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsProvider-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Initializes new instance of [Converter](../../com.groupdocs.conversion/converter) class. |
-| [Converter(String filePath, LoadOptions loadOptions, ConverterSettings settings)](#Converter-java.lang.String-com.groupdocs.conversion.options.load.LoadOptions-com.groupdocs.conversion.ConverterSettings-) |  |
 | [Converter(String filePath, LoadOptionsForFileTypeProvider loadOptions)](#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-) | Initializes new instance of  class. |
 | [Converter(String filePath, LoadOptionsForFileTypeProvider loadOptions, ConverterSettingsProvider settings)](#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Initializes new instance of  class. |
 ## Methods
@@ -64,11 +55,6 @@ Represents main class that controls document conversion process.
 | [convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, ConvertOptions convertOptions)](#convert-com.groupdocs.conversion.contracts.SavePageStreamForFileType-com.groupdocs.conversion.contracts.ConvertedPageStream-com.groupdocs.conversion.options.convert.ConvertOptions-) | Converts source document. |
 | [convert(SavePageStreamForFileType document, ConvertOptionsProvider convertOptionsProvider)](#convert-com.groupdocs.conversion.contracts.SavePageStreamForFileType-com.groupdocs.conversion.contracts.ConvertOptionsProvider-) | Converts source document. |
 | [convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)](#convert-com.groupdocs.conversion.contracts.SavePageStreamForFileType-com.groupdocs.conversion.contracts.ConvertedPageStream-com.groupdocs.conversion.contracts.ConvertOptionsProvider-) | Converts source document. |
-| [convert(OutputStream document, ConvertOptions convertOptions)](#convert-java.io.OutputStream-com.groupdocs.conversion.options.convert.ConvertOptions-) |  |
-| [convert(OutputStream document, ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)](#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertedDocumentStream-com.groupdocs.conversion.options.convert.ConvertOptions-) |  |
-| [convertPageByPage(OutputStream document, ConvertOptions convertOptions)](#convertPageByPage-java.io.OutputStream-com.groupdocs.conversion.options.convert.ConvertOptions-) |  |
-| [convert(OutputStream document, ConvertedPageStream documentCompleted, ConvertOptions convertOptions)](#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertedPageStream-com.groupdocs.conversion.options.convert.ConvertOptions-) |  |
-| [convert(OutputStream document, ConvertOptionsProvider convertOptionsProvider)](#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertOptionsProvider-) |  |
 | [withSettings(ConverterSettingsProvider settingsProvider)](#withSettings-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) |  |
 | [load(String fileName)](#load-java.lang.String-) |  |
 | [load(String[] fileNames)](#load-java.lang.String---) |  |
@@ -88,91 +74,6 @@ Represents main class that controls document conversion process.
 [How to get supported conversions in code]: https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions |
 | [dispose()](#dispose--) | Releases resources. |
 | [close()](#close--) |  |
-### Converter(InputStream document) {#Converter-java.io.InputStream-}
-```
-public Converter(InputStream document)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-
-### Converter(InputStream document, ConverterSettings settings) {#Converter-java.io.InputStream-com.groupdocs.conversion.ConverterSettings-}
-```
-public Converter(InputStream document, ConverterSettings settings)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-| settings | [ConverterSettings](../../com.groupdocs.conversion/convertersettings) |  |
-
-### Converter(InputStream document, LoadOptions loadOptions) {#Converter-java.io.InputStream-com.groupdocs.conversion.options.load.LoadOptions-}
-```
-public Converter(InputStream document, LoadOptions loadOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) |  |
-
-### Converter(InputStream document, LoadOptions loadOptions, ConverterSettings settings) {#Converter-java.io.InputStream-com.groupdocs.conversion.options.load.LoadOptions-com.groupdocs.conversion.ConverterSettings-}
-```
-public Converter(InputStream document, LoadOptions loadOptions, ConverterSettings settings)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) |  |
-| settings | [ConverterSettings](../../com.groupdocs.conversion/convertersettings) |  |
-
-### Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions) {#Converter-java.io.InputStream-com.groupdocs.conversion.contracts.Func1-com.groupdocs.conversion.filetypes.FileType-com.groupdocs.conversion.options.load.LoadOptions--}
-```
-public Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-| loadOptions | com.groupdocs.conversion.contracts.Func1<com.groupdocs.conversion.filetypes.FileType,com.groupdocs.conversion.options.load.LoadOptions> |  |
-
-### Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions, ConverterSettings settings) {#Converter-java.io.InputStream-com.groupdocs.conversion.contracts.Func1-com.groupdocs.conversion.filetypes.FileType-com.groupdocs.conversion.options.load.LoadOptions--com.groupdocs.conversion.ConverterSettings-}
-```
-public Converter(InputStream document, Func1<FileType,LoadOptions> loadOptions, ConverterSettings settings)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.InputStream |  |
-| loadOptions | com.groupdocs.conversion.contracts.Func1<com.groupdocs.conversion.filetypes.FileType,com.groupdocs.conversion.options.load.LoadOptions> |  |
-| settings | [ConverterSettings](../../com.groupdocs.conversion/convertersettings) |  |
-
 ### Converter() {#Converter--}
 ```
 public Converter()
@@ -337,18 +238,6 @@ Initializes new instance of [Converter](../../com.groupdocs.conversion/converter
 | filePath | java.lang.String | The file path to the source document. |
 | settings | [ConverterSettingsProvider](../../com.groupdocs.conversion.contracts/convertersettingsprovider) | A Converter settings supplier. |
 
-### Converter(String filePath, ConverterSettings settings) {#Converter-java.lang.String-com.groupdocs.conversion.ConverterSettings-}
-```
-public Converter(String filePath, ConverterSettings settings)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String |  |
-| settings | [ConverterSettings](../../com.groupdocs.conversion/convertersettings) |  |
-
 ### Converter(String filePath, LoadOptionsProvider loadOptions) {#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsProvider-}
 ```
 public Converter(String filePath, LoadOptionsProvider loadOptions)
@@ -368,18 +257,6 @@ Initializes new instance of [Converter](../../com.groupdocs.conversion/converter
 | --- | --- | --- |
 | filePath | java.lang.String | The file path to the source document. |
 | loadOptions | [LoadOptionsProvider](../../com.groupdocs.conversion.contracts/loadoptionsprovider) | The load options supplier. |
-
-### Converter(String filePath, LoadOptions loadOptions) {#Converter-java.lang.String-com.groupdocs.conversion.options.load.LoadOptions-}
-```
-public Converter(String filePath, LoadOptions loadOptions)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) |  |
 
 ### Converter(String filePath, LoadOptionsProvider loadOptions, ConverterSettingsProvider settings) {#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsProvider-com.groupdocs.conversion.contracts.ConverterSettingsProvider-}
 ```
@@ -401,19 +278,6 @@ Initializes new instance of [Converter](../../com.groupdocs.conversion/converter
 | filePath | java.lang.String | The file path to the source document. |
 | loadOptions | [LoadOptionsProvider](../../com.groupdocs.conversion.contracts/loadoptionsprovider) | The document load options supplier. |
 | settings | [ConverterSettingsProvider](../../com.groupdocs.conversion.contracts/convertersettingsprovider) | The Converter settings supplier. |
-
-### Converter(String filePath, LoadOptions loadOptions, ConverterSettings settings) {#Converter-java.lang.String-com.groupdocs.conversion.options.load.LoadOptions-com.groupdocs.conversion.ConverterSettings-}
-```
-public Converter(String filePath, LoadOptions loadOptions, ConverterSettings settings)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) |  |
-| settings | [ConverterSettings](../../com.groupdocs.conversion/convertersettings) |  |
 
 ### Converter(String filePath, LoadOptionsForFileTypeProvider loadOptions) {#Converter-java.lang.String-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-}
 ```
@@ -787,78 +651,6 @@ Converts source document. Saves the converted document page by page.**Learn more
 | documentCompleted | [ConvertedPageStream](../../com.groupdocs.conversion.contracts/convertedpagestream) | The delegate that receive converted document page stream. |
 | convertOptionsProvider | [ConvertOptionsProvider](../../com.groupdocs.conversion.contracts/convertoptionsprovider) | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
 
-### convert(OutputStream document, ConvertOptions convertOptions) {#convert-java.io.OutputStream-com.groupdocs.conversion.options.convert.ConvertOptions-}
-```
-public final void convert(OutputStream document, ConvertOptions convertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.OutputStream |  |
-| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions |  |
-
-### convert(OutputStream document, ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions) {#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertedDocumentStream-com.groupdocs.conversion.options.convert.ConvertOptions-}
-```
-public void convert(OutputStream document, ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.OutputStream |  |
-| documentCompleted | [ConvertedDocumentStream](../../com.groupdocs.conversion.contracts/converteddocumentstream) |  |
-| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions |  |
-
-### convertPageByPage(OutputStream document, ConvertOptions convertOptions) {#convertPageByPage-java.io.OutputStream-com.groupdocs.conversion.options.convert.ConvertOptions-}
-```
-public final void convertPageByPage(OutputStream document, ConvertOptions convertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.OutputStream |  |
-| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions |  |
-
-### convert(OutputStream document, ConvertedPageStream documentCompleted, ConvertOptions convertOptions) {#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertedPageStream-com.groupdocs.conversion.options.convert.ConvertOptions-}
-```
-public void convert(OutputStream document, ConvertedPageStream documentCompleted, ConvertOptions convertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.OutputStream |  |
-| documentCompleted | [ConvertedPageStream](../../com.groupdocs.conversion.contracts/convertedpagestream) |  |
-| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions |  |
-
-### convert(OutputStream document, ConvertOptionsProvider convertOptionsProvider) {#convert-java.io.OutputStream-com.groupdocs.conversion.contracts.ConvertOptionsProvider-}
-```
-public void convert(OutputStream document, ConvertOptionsProvider convertOptionsProvider)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | java.io.OutputStream |  |
-| convertOptionsProvider | [ConvertOptionsProvider](../../com.groupdocs.conversion.contracts/convertoptionsprovider) |  |
-
 ### withSettings(ConverterSettingsProvider settingsProvider) {#withSettings-com.groupdocs.conversion.contracts.ConverterSettingsProvider-}
 ```
 public IConversionFrom withSettings(ConverterSettingsProvider settingsProvider)
@@ -873,7 +665,7 @@ public IConversionFrom withSettings(ConverterSettingsProvider settingsProvider)
 | settingsProvider | [ConverterSettingsProvider](../../com.groupdocs.conversion.contracts/convertersettingsprovider) |  |
 
 **Returns:**
-[IConversionFrom](../../com.groupdocs.conversion.builders/iconversionfrom)
+[IConversionFrom](../../com.groupdocs.conversion.fluent/iconversionfrom)
 ### load(String fileName) {#load-java.lang.String-}
 ```
 public IConversionLoadOptionsOrSourceDocumentLoaded load(String fileName)
@@ -888,7 +680,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded load(String fileName)
 | fileName | java.lang.String |  |
 
 **Returns:**
-[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.builders/iconversionloadoptionsorsourcedocumentloaded)
+[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
 ### load(String[] fileNames) {#load-java.lang.String---}
 ```
 public IConversionLoadOptionsOrSourceDocumentLoaded load(String[] fileNames)
@@ -903,7 +695,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded load(String[] fileNames)
 | fileNames | java.lang.String[] |  |
 
 **Returns:**
-[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.builders/iconversionloadoptionsorsourcedocumentloaded)
+[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
 ### load(DocumentStreamProvider documentStreamProvider) {#load-com.groupdocs.conversion.contracts.DocumentStreamProvider-}
 ```
 public IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStreamProvider documentStreamProvider)
@@ -918,7 +710,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStreamProvider 
 | documentStreamProvider | [DocumentStreamProvider](../../com.groupdocs.conversion.contracts/documentstreamprovider) |  |
 
 **Returns:**
-[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.builders/iconversionloadoptionsorsourcedocumentloaded)
+[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
 ### load(DocumentStreamsProvider documentStreamProvider) {#load-com.groupdocs.conversion.contracts.DocumentStreamsProvider-}
 ```
 public IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStreamsProvider documentStreamProvider)
@@ -933,7 +725,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStreamsProvider
 | documentStreamProvider | [DocumentStreamsProvider](../../com.groupdocs.conversion.contracts/documentstreamsprovider) |  |
 
 **Returns:**
-[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.builders/iconversionloadoptionsorsourcedocumentloaded)
+[IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
 public final IDocumentInfo getDocumentInfo()
