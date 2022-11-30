@@ -33,6 +33,7 @@ The namespace provides classes to specify additional options for document conver
 | [PageSize](./pagesize) | Specifies page size |
 | [PdfConvertOptions](./pdfconvertoptions) | Options for conversion to Pdf file type. |
 | [PdfDirection](./pdfdirection) | Describes Pdf text direction. |
+| [PdfDocumentInfo](./pdfdocumentinfo) | Represents meta information of PDF document. |
 | [PdfFormats](./pdfformats) | Describes Pdf formats enumeration. |
 | [PdfFormattingOptions](./pdfformattingoptions) | Defines Pdf formatting options. |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | Defines Pdf optimization options. |
