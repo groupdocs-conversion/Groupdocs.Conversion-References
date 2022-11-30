@@ -3,7 +3,7 @@ title: DataFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Data documents. Includes the following file types Xml./datafiletype/xml. Json./datafiletype/json.
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class

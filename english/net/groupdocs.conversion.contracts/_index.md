@@ -48,6 +48,7 @@ The namespace provides members to instantiate and release output document, manag
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
 | [PsdDocumentInfo](./psddocumentinfo) | Contains Psd document metadata |
 | [PsDocumentInfo](./psdocumentinfo) | Contains Ps document metadata |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Contains Publisher document metadata |
 | [RarDocumentInfo](./rardocumentinfo) | Contains Rar document metadata |
 | [SaveDocumentStream](./savedocumentstream) | Describes delegate for saving converted document into stream. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Describes delegate for saving converted document into stream. |
