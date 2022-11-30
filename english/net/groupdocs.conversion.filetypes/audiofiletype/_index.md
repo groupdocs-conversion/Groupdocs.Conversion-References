@@ -3,7 +3,7 @@ title: AudioFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Audio documents Includes the following types Mp3./audiofiletype/mp3 Aac./audiofiletype/aac Aiff./audiofiletype/aiff Flac./audiofiletype/flac M4a./audiofiletype/m4a Wma./audiofiletype/wma Ac3./audiofiletype/ac3 Ogg./audiofiletype/ogg Wav./audiofiletype/wav Learn more about audio formats herehttps//docs.fileformat.com/audio/.
 type: docs
-weight: 790
+weight: 800
 url: /net/groupdocs.conversion.filetypes/audiofiletype/
 ---
 ## AudioFileType class

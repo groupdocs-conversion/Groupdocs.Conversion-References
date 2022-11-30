@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading data documents.
 type: docs
-weight: 1880
+weight: 1900
 url: /net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class

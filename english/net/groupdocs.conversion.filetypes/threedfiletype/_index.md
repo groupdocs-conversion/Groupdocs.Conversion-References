@@ -3,7 +3,7 @@ title: ThreeDFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines 3D documents Includes the following types Fbx./threedfiletype/fbx Learn more about 3D formats herehttps//wiki.fileformat.com/3d.
 type: docs
-weight: 940
+weight: 960
 url: /net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class

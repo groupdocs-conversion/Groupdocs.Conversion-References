@@ -31,6 +31,7 @@ The namespace provides classes to specify additional options for document loadin
 | [PdfLoadOptions](./pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |
 | [PresentationLoadOptions](./presentationloadoptions) | Options for loading Presentation documents. |
+| [PublisherLoadOptions](./publisherloadoptions) | Options for loading Publisher documents. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Options for loading Spreadsheet documents. |
 | [ThreeDLoadOptions](./threedloadoptions) | Options for loading 3D documents. |
 | [TsvLoadOptions](./tsvloadoptions) | Options for loading Tsv documents. |
