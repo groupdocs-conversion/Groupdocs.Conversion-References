@@ -3,7 +3,7 @@ title: PsdCompressionMethods
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Psd compression methods.
 type: docs
-weight: 34
+weight: 35
 url: /java/com.groupdocs.conversion.options.convert/psdcompressionmethods/
 ---
 **Inheritance:**

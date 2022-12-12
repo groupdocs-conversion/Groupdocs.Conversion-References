@@ -3,7 +3,7 @@ title: TsvDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Tsv document metadata
 type: docs
-weight: 33
+weight: 38
 url: /java/com.groupdocs.conversion.contracts.documentinfo/tsvdocumentinfo/
 ---
 **Inheritance:**

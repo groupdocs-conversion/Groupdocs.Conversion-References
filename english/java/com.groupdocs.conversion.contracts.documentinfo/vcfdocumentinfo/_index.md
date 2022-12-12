@@ -3,7 +3,7 @@ title: VcfDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Vcf document metadata
 type: docs
-weight: 35
+weight: 40
 url: /java/com.groupdocs.conversion.contracts.documentinfo/vcfdocumentinfo/
 ---
 **Inheritance:**

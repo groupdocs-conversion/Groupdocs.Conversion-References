@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Table of contents item metadata
 type: docs
-weight: 31
+weight: 36
 url: /java/com.groupdocs.conversion.contracts.documentinfo/tableofcontentsitem/
 ---
 **Inheritance:**

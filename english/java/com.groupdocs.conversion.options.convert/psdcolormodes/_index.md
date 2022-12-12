@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Psd color modes enumeration.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.groupdocs.conversion.options.convert/psdcolormodes/
 ---
 **Inheritance:**
