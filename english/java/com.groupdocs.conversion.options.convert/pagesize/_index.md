@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 52
+weight: 55
 url: /java/com.groupdocs.conversion.options.convert/pagesize/
 ---
 **Inheritance:**

@@ -30,10 +30,15 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [MarkdownDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo) | Contains Md document metadata |
 | [MarkupDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/notedocumentinfo) | Contains Note document metadata |
+| [PasswordProtectedDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pcldocumentinfo) | Contains Pcl document metadata |
 | [PdfDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo) | Contains Pdf document metadata |
+| [PersonalStorageDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/personalstoragedocumentinfo) | Contains personal storage document metadata |
+| [PresentationDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/presentationdocumentinfo) | Contains Presentation document metadata |
+| [ProjectManagementDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
 | [PsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/psdocumentinfo) | Contains Ps document metadata |
 | [PsdDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/psddocumentinfo) | Contains Psd document metadata |
+| [SpreadsheetDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/spreadsheetdocumentinfo) | Contains Spreadsheet document metadata |
 | [SvgDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/svgdocumentinfo) | Contains Svg document metadata |
 | [TableOfContentsItem](../com.groupdocs.conversion.contracts.documentinfo/tableofcontentsitem) | Contains Table of contents item metadata |
 | [TexDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/texdocumentinfo) | Contains Tex document metadata |

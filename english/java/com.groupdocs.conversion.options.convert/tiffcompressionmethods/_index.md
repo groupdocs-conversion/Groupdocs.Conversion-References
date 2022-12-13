@@ -3,7 +3,7 @@ title: TiffCompressionMethods
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Tiff compression methods enumeration.
 type: docs
-weight: 39
+weight: 40
 url: /java/com.groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 **Inheritance:**
