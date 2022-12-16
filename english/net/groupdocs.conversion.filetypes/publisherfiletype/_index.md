@@ -3,7 +3,7 @@ title: PublisherFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Publisher documents Includes the following types Pub./publisherfiletype/pub Learn more about Publisher formats herehttps//docs.fileformat.com/publisher/.
 type: docs
-weight: 940
+weight: 980
 url: /net/groupdocs.conversion.filetypes/publisherfiletype/
 ---
 ## PublisherFileType class
@@ -34,7 +34,7 @@ public sealed class PublisherFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

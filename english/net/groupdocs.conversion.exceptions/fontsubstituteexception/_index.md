@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Thrown if font substitute is illegal
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

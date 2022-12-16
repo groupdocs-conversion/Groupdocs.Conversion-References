@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.contracts/markupdocumentinfo/
 Contains Markup document metadata
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## Properties
@@ -19,7 +20,7 @@ public class MarkupDocumentInfo : DocumentInfo
 | Name | Description |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Detected document encoding |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Detected document encoding |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
@@ -28,7 +29,7 @@ public class MarkupDocumentInfo : DocumentInfo
 
 ### See Also
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

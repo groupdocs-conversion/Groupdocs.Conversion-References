@@ -3,7 +3,7 @@ title: Emf
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Enhanced metafile format EMF stores graphical images deviceindependently. Metafiles of EMF comprises of variablelength records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format herehttps//wiki.fileformat.com/image/emf.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field

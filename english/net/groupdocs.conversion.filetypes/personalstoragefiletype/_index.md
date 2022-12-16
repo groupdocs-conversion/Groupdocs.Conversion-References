@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Personal storage file formats that are used by email applications to store their various data including email messages attachments folders address books etc. Includes the following file types Ost./personalstoragefiletype/ost Pst./personalstoragefiletype/pst Learn more about Email formats herehttps//wiki.fileformat.com/email.
+description: Defines Personal storage file formats that are used by email applications to store their various data including email messages attachments folders address books etc. Includes the following file types Ost Pst Learn more about Email formats herehttps//wiki.fileformat.com/email.
 type: docs
-weight: 910
+weight: 950
 url: /net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-Defines Personal storage file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [`Ost`](./ost), [`Pst`](./pst), Learn more about Email formats [here](https://wiki.fileformat.com/email).
+Defines Personal storage file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: Ost, Pst, Learn more about Email formats [here](https://wiki.fileformat.com/email).
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Serialization constructor |
 
 ## Properties
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | A file with .nsf (Notes Storage Facility) extension is a database file format used by the IBM Notes software, which was previously known as Lotus Notes. It defines the schema to store different kind of objects such like emails, appointments, documents, forms and views. Learn more about this file format [here](https://docs.fileformat.com/database/nsf). |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here](https://wiki.fileformat.com/email/ost). |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here](https://wiki.fileformat.com/email/pst). |
 
 ### See Also
 

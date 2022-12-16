@@ -3,7 +3,7 @@ title: AudioFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Audio documents Includes the following types Mp3./audiofiletype/mp3 Aac./audiofiletype/aac Aiff./audiofiletype/aiff Flac./audiofiletype/flac M4a./audiofiletype/m4a Wma./audiofiletype/wma Ac3./audiofiletype/ac3 Ogg./audiofiletype/ogg Wav./audiofiletype/wav Learn more about audio formats herehttps//docs.fileformat.com/audio/.
 type: docs
-weight: 800
+weight: 810
 url: /net/groupdocs.conversion.filetypes/audiofiletype/
 ---
 ## AudioFileType class
@@ -34,7 +34,7 @@ public sealed class AudioFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

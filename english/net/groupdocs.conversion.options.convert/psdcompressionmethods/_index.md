@@ -3,7 +3,7 @@ title: PsdCompressionMethods
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Psd compression methods.
 type: docs
-weight: 1710
+weight: 1780
 url: /net/groupdocs.conversion.options.convert/psdcompressionmethods/
 ---
 ## PsdCompressionMethods class

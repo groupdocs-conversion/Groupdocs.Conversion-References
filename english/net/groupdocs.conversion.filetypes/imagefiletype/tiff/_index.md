@@ -3,7 +3,7 @@ title: Tiff
 second_title: GroupDocs.Conversion for .NET API Reference
 description: TIFF Tagged Image File Format represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel grayscale palettecolor and fullcolor image data in several color spaces. Learn more about this file format herehttps//wiki.fileformat.com/image/tiff.
 type: docs
-weight: 370
+weight: 340
 url: /net/groupdocs.conversion.filetypes/imagefiletype/tiff/
 ---
 ## ImageFileType.Tiff field

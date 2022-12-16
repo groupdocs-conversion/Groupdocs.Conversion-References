@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Data documents. Includes the following file types Xml./datafiletype/xml. Json./datafiletype/json.
+description: Defines Data documents. Includes the following file types Xml. Json.
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Defines Data documents. Includes the following file types: [`Xml`](./xml). [`Json`](./json).
+Defines Data documents. Includes the following file types: Xml. Json.
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [DataFileType](datafiletype)() | Serialization constructor |
 
 ## Properties
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) is an open standard file format for sharing data that uses human-readable text to store and transmit data. Learn more about this file format [here](https://docs.fileformat.com/web/json). |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML stands for Extensible Markup Language that is similar to HTML but different in using tags for defining objects. Learn more about this file format [here](https://wiki.fileformat.com/web/xml). |
 
 ### See Also
 

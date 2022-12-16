@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Pdf documents. Includes the following file types Epub./pdffiletype/epub Pdf./pdffiletype/pdf Xps./pdffiletype/xps.
+description: Defines Pdf documents. Includes the following file types Epub Pdf./pdffiletype/pdf Xps.
 type: docs
-weight: 900
+weight: 940
 url: /net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-Defines Pdf documents. Includes the following file types: [`Epub`](./epub), [`Pdf`](./pdf), [`Xps`](./xps).
+Defines Pdf documents. Includes the following file types: Epub, [`Pdf`](./pdf), Xps.
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -34,7 +34,7 @@ public sealed class PdfFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |
@@ -43,13 +43,7 @@ public sealed class PdfFileType : FileType
 
 | Name | Description |
 | --- | --- |
-| static readonly [Epub](../../groupdocs.conversion.filetypes/pdffiletype/epub) | EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. Learn more about this file format [here](https://wiki.fileformat.com/ebook/epub). |
-| static readonly [Oxps](../../groupdocs.conversion.filetypes/pdffiletype/oxps) | Oxps document format |
-| static readonly [Pcl](../../groupdocs.conversion.filetypes/pdffiletype/pcl) | PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/pcl). |
 | static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here](https://wiki.fileformat.com/view/pdf). |
-| static readonly [Ps](../../groupdocs.conversion.filetypes/pdffiletype/ps) | PostScript (PS) is a general-purpose page description language used in the business of desktop and electronic publishing. The main focus of PostScript (PS) is to facilitate the two-dimensional graphic design. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/ps). |
-| static readonly [Tex](../../groupdocs.conversion.filetypes/pdffiletype/tex) | TeX is a language that comprises of programming as well as mark-up features, used to typeset documents. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/tex). |
-| static readonly [Xps](../../groupdocs.conversion.filetypes/pdffiletype/xps) | An XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/xps). |
 
 ### See Also
 
