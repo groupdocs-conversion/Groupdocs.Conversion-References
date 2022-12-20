@@ -3,7 +3,7 @@ title: Dotx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with DOTX extension are template files created by Microsoft Word to have preformatted settings for generation of further DOCX files. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/dotx.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

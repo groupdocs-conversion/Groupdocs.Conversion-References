@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Provides methods for applying Meteredhttps//purchase.groupdocs.com/faqs/licensing/metered license.
 type: docs
-weight: 1300
+weight: 1350
 url: /net/groupdocs.conversion/metered/
 ---
 ## Metered class

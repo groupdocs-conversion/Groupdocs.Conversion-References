@@ -3,7 +3,7 @@ title: Dcm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with .DCM extension represent digital image which stores medical information of patients such as MRIs CT scans and ultrasound images. Learn more about this file format herehttps//wiki.fileformat.com/image/dcm.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.filetypes/imagefiletype/dcm/
 ---
 ## ImageFileType.Dcm field

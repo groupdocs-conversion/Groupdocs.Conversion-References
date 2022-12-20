@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Jpg color modes enumeration.
 type: docs
-weight: 1520
+weight: 1580
 url: /net/groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 ## JpgColorModes class

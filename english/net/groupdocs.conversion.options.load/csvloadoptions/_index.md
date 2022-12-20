@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 1890
+weight: 1970
 url: /net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class

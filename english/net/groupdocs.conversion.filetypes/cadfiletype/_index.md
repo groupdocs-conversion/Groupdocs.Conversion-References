@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types Dgn./cadfiletype/dgn Dwf./cadfiletype/dwf Dwg./cadfiletype/dwg Dwt./cadfiletype/dwt Dxf./cadfiletype/dxf Ifc./cadfiletype/ifc Igs./cadfiletype/igs Plt./cadfiletype/plt Stl./cadfiletype/stl. Learn more about CAD formats herehttps//wiki.fileformat.com/cad.
+description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn Dwf./cadfiletype/dwf Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg Dwt./cadfiletype/dwt Dxf./cadfiletype/dxf Ifc./cadfiletype/ifc Igs./cadfiletype/igs Plt./cadfiletype/plt Stl./cadfiletype/stl. Learn more about CAD formats herehttps//wiki.fileformat.com/cad.
 type: docs
-weight: 810
+weight: 820
 url: /net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types: [`Dgn`](./dgn), [`Dwf`](./dwf), [`Dwg`](./dwg), [`Dwt`](./dwt), [`Dxf`](./dxf), [`Ifc`](./ifc), [`Igs`](./igs), [`Plt`](./plt), [`Stl`](./stl). Learn more about CAD formats [here](https://wiki.fileformat.com/cad).
+Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types: [`Cf2`](./cf2)[`Dgn`](./dgn), [`Dwf`](./dwf), [`Dwfx`](./dwfx)[`Dwg`](./dwg), [`Dwt`](./dwt), [`Dxf`](./dxf), [`Ifc`](./ifc), [`Igs`](./igs), [`Plt`](./plt), [`Stl`](./stl). Learn more about CAD formats [here](https://wiki.fileformat.com/cad).
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -34,7 +34,7 @@ public sealed class CadFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

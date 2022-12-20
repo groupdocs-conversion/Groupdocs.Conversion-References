@@ -3,7 +3,7 @@ title: Dib
 second_title: GroupDocs.Conversion for .NET API Reference
 description: DIB Device Independent Bitmap file is a raster image file that is similar in structure to the standard Bitmap files BMP but has a different header. Learn more about this file format herehttps//wiki.fileformat.com/image/dib.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.filetypes/imagefiletype/dib/
 ---
 ## ImageFileType.Dib field

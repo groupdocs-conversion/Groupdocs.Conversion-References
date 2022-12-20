@@ -20,6 +20,7 @@ The namespace provides classes to specify additional options for document conver
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Abstract generic conversion options class. |
 | [DataConvertOptions](./dataconvertoptions) | Options for conversion to Data file type. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Options for conversion to Diagram file type. |
+| [EBookConvertOptions](./ebookconvertoptions) | Options for conversion to EBook file type. |
 | [EmailConvertOptions](./emailconvertoptions) | Options for conversion to Email file type. |
 | [Font](./font) | Font settings |
 | [ImageConvertOptions](./imageconvertoptions) | Options for conversion to Image file type. |
@@ -29,6 +30,7 @@ The namespace provides classes to specify additional options for document conver
 | [JpgCompressionMethods](./jpgcompressionmethods) | Describes Jpg compression modes |
 | [MarkupConvertOptions](./markupconvertoptions) | Options for conversion to Markup file type. |
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
 | [PageOrientation](./pageorientation) | Specifies page orientation |
 | [PageSize](./pagesize) | Specifies page size |
 | [PdfConvertOptions](./pdfconvertoptions) | Options for conversion to Pdf file type. |
@@ -56,6 +58,7 @@ The namespace provides classes to specify additional options for document conver
 | [WatermarkImageOptions](./watermarkimageoptions) | Options for settings watermark to the converted document |
 | [WatermarkOptions](./watermarkoptions) | Options for settings watermark to the converted document |
 | [WatermarkTextOptions](./watermarktextoptions) | Options for settings text watermark to the converted document |
+| [WebConvertOptions](./webconvertoptions) | Options for conversion to Web file type. |
 | [WebpOptions](./webpoptions) | Options for conversion to Webp file type. |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | Options for conversion to WordProcessing file type. |
 ## Interfaces

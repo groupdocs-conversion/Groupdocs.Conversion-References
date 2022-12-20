@@ -3,7 +3,7 @@ title: DiagramFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Diagram documents. Includes the following types Vdw./diagramfiletype/vdw Vdx./diagramfiletype/vdx Vsd./diagramfiletype/vsd Vsdm./diagramfiletype/vsdm Vsdx./diagramfiletype/vsdx Vss./diagramfiletype/vss Vssm./diagramfiletype/vssm Vssx./diagramfiletype/vssx Vst./diagramfiletype/vst Vstm./diagramfiletype/vstm Vstx./diagramfiletype/vstx Vsx./diagramfiletype/vsx Vtx./diagramfiletype/vtx.
 type: docs
-weight: 840
+weight: 860
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/
 ---
 ## DiagramFileType class
@@ -34,7 +34,7 @@ public sealed class DiagramFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

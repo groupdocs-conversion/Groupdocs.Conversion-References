@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: GroupDocs.Conversion for .NET API Reference
-description: OpenDocument Spreadsheet Template
+description: A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ots.
 type: docs
 weight: 70
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-OpenDocument Spreadsheet Template
+A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ots).
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: File type base class
 type: docs
-weight: 860
+weight: 890
 url: /net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class
@@ -37,7 +37,7 @@ public class FileType : Enumeration
 | static [FromFilename](../../groupdocs.conversion.filetypes/filetype/fromfilename)(string) | Returns FileType for specified fileName |
 | static [FromStream](../../groupdocs.conversion.filetypes/filetype/fromstream)(Stream) | Returns FileType for provided document stream |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals#equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

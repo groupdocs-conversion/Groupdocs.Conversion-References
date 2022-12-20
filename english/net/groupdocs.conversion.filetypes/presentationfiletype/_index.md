@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Presentation file formats that store collection of records to accommodate presentation data such as slides shapes text animations video audio and embedded objects. Includes the following file types Odp./presentationfiletype/odp Otp./presentationfiletype/otp Pot./presentationfiletype/pot Potm./presentationfiletype/potm Potx./presentationfiletype/potx Pps./presentationfiletype/pps Ppsm./presentationfiletype/ppsm Ppsx./presentationfiletype/ppsx Ppt./presentationfiletype/ppt Pptm./presentationfiletype/pptm Pptx./presentationfiletype/pptx. Learn more about Presentation formats herehttps//wiki.fileformat.com/presentation.
 type: docs
-weight: 920
+weight: 960
 url: /net/groupdocs.conversion.filetypes/presentationfiletype/
 ---
 ## PresentationFileType class
@@ -34,7 +34,7 @@ public sealed class PresentationFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

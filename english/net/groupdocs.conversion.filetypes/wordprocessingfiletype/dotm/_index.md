@@ -3,7 +3,7 @@ title: Dotm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with DOTM extension represents template file created with Microsoft Word 2007 or higher. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/dotm.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field

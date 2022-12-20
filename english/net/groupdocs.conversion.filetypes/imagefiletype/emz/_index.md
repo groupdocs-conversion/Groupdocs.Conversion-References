@@ -3,7 +3,7 @@ title: Emz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: An EMZ file is actually a compressed version of a Microsoft EMF file. This allows for easier distribution of the file online. When an EMF file is compressed using the .GZIP compression algorithm it is then given the .emz file extension.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.conversion.filetypes/imagefiletype/emz/
 ---
 ## ImageFileType.Emz field

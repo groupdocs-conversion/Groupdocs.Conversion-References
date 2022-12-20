@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Project file formats that are created by Project Management software such as Microsoft Project Primavera P6 etc. A project file is a collection of tasks resources and their scheduling to get a measurable output in the form or a product or a service. Project management documents. Includes the following file types Mpp./projectmanagementfiletype/mpp Mpt./projectmanagementfiletype/mpt Mpx./projectmanagementfiletype/mpx. Learn more about Project Management formats herehttps//wiki.fileformat.com/projectmanagement.
 type: docs
-weight: 930
+weight: 970
 url: /net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class
@@ -34,7 +34,7 @@ public sealed class ProjectManagementFileType : FileType
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compares current object to other. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determines whether two object instances are equal. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determines whether two object instances are equal. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | String representation |

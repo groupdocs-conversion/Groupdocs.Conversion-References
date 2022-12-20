@@ -3,7 +3,7 @@ title: Cmx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. Learn more about this file format herehttps//wiki.fileformat.com/image/cmx.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field

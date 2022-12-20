@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Console logger implementation.
 type: docs
-weight: 1280
+weight: 1330
 url: /net/groupdocs.conversion.logging/consolelogger/
 ---
 ## ConsoleLogger class

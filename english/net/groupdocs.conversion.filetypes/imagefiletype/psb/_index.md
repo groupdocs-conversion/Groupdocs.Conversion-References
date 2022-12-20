@@ -3,7 +3,7 @@ title: Psb
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Adobe photoshop saves files in two formats. Files having 30000 by 30000 pixels in size are saved with PSD extension and files larger than PSD upto 300000 by 300000 pixels are saved with PSB extension known as Photoshop Big. Learn more about this file format herehttps//docs.fileformat.com/image/psb.
 type: docs
-weight: 310
+weight: 290
 url: /net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field

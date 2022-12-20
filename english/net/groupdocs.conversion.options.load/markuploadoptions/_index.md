@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Markup documents.
 type: docs
-weight: 1970
+weight: 2070
 url: /net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class
@@ -11,25 +11,20 @@ url: /net/groupdocs.conversion.options.load/markuploadoptions/
 Options for loading Markup documents.
 
 ```csharp
-public sealed class MarkupLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public sealed class MarkupLoadOptions : WebLoadOptions
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [MarkupLoadOptions](markuploadoptions)() | ctor |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BasePath](../../groupdocs.conversion.options.load/markuploadoptions/basepath) { get; set; } | The base path/url for the html |
-| [Encoding](../../groupdocs.conversion.options.load/markuploadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the markup document. If the property is null the encoding will be determined from document character set attribute |
-| [Format](../../groupdocs.conversion.options.load/markuploadoptions/format) { get; set; } | Input document file type. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the markup document. If the property is null the encoding will be determined from document character set attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
-| [PageNumbering](../../groupdocs.conversion.options.load/markuploadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
-| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/markuploadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 
 ## Methods
 
@@ -41,7 +36,7 @@ public sealed class MarkupLoadOptions : LoadOptions
 
 ### See Also
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

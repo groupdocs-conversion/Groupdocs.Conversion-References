@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 1580
+weight: 1650
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class

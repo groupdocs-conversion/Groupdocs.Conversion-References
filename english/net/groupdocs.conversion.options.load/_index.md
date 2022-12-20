@@ -17,8 +17,10 @@ The namespace provides classes to specify additional options for document loadin
 | [CadLoadOptions](./cadloadoptions) | Options for loading CAD documents. |
 | [CompressionLoadOptions](./compressionloadoptions) | Options for loading compression documents. |
 | [CsvLoadOptions](./csvloadoptions) | Options for loading Csv documents. |
+| [DatabaseLoadOptions](./databaseloadoptions) | Options for loading database documents. |
 | [DataLoadOptions](./dataloadoptions) | Options for loading data documents. |
 | [DiagramLoadOptions](./diagramloadoptions) | Options for loading Diagram documents. |
+| [EBookLoadOptions](./ebookloadoptions) | Options for loading EBook documents. |
 | [EmailField](./emailfield) | Describes email fields enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Options for loading Email documents. |
 | [EpubLoadOptions](./epubloadoptions) | Options for loading Epub documents. |
@@ -28,6 +30,7 @@ The namespace provides classes to specify additional options for document loadin
 | [MboxLoadOptions](./mboxloadoptions) | Options for loading Mbox documents. |
 | [NoteLoadOptions](./noteloadoptions) | Options for loading One documents. |
 | [NsfLoadOptions](./nsfloadoptions) | Options for loading Nsf documents. |
+| [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
 | [PdfLoadOptions](./pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |
 | [PresentationLoadOptions](./presentationloadoptions) | Options for loading Presentation documents. |
@@ -40,6 +43,7 @@ The namespace provides classes to specify additional options for document loadin
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | Describes txt trailing spaces options enumeration. |
 | [VcfLoadOptions](./vcfloadoptions) | Options for loading Vcf documents. |
 | [VideoLoadOptions](./videoloadoptions) | Options for loading video documents. |
+| [WebLoadOptions](./webloadoptions) | Options for loading web documents. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Options for handling bookmarks in WordProcessing |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Options for loading WordProcessing documents. |
 | [XmlLoadOptions](./xmlloadoptions) | Options for loading XML documents. |

@@ -3,7 +3,7 @@ title: Docm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/docm.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm/
 ---
 ## WordProcessingFileType.Docm field
