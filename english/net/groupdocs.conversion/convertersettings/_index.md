@@ -18,7 +18,7 @@ public sealed class ConverterSettings
 
 | Name | Description |
 | --- | --- |
-| [ConverterSettings](convertersettings)() | The default constructor. |
+| [ConverterSettings](convertersettings)() | Default constructor |
 
 ## Properties
 

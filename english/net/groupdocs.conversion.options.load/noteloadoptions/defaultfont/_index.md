@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Default font for Note document. The following font will be used if a font is missing. An absolute path to font file must be provided.
+description: Default font for Note document. The following font will be used if a font is missing.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Default font for Note document. The following font will be used if a font is missing. An absolute path to font file must be provided.
+Default font for Note document. The following font will be used if a font is missing.
 
 ```csharp
 public string DefaultFont { get; set; }
