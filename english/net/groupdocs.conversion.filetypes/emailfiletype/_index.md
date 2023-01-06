@@ -3,7 +3,7 @@ title: EmailFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Email file formats that are used by email applications to store their various data including email messages attachments folders address books etc. Includes the following file types Eml./emailfiletype/eml Emlx./emailfiletype/emlx Msg./emailfiletype/msg Vcf./emailfiletype/vcf. Mbox./emailfiletype/mbox. Pst./emailfiletype/pst. Ost./emailfiletype/ost. Learn more about Email formats herehttps//wiki.fileformat.com/email.
 type: docs
-weight: 880
+weight: 890
 url: /net/groupdocs.conversion.filetypes/emailfiletype/
 ---
 ## EmailFileType class

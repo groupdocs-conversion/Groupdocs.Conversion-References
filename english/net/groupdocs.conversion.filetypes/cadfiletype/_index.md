@@ -3,7 +3,7 @@ title: CadFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs. Includes the following types Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn Dwf./cadfiletype/dwf Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg Dwt./cadfiletype/dwt Dxf./cadfiletype/dxf Ifc./cadfiletype/ifc Igs./cadfiletype/igs Plt./cadfiletype/plt Stl./cadfiletype/stl. Learn more about CAD formats herehttps//wiki.fileformat.com/cad.
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class

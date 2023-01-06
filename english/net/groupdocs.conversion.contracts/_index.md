@@ -30,6 +30,7 @@ The namespace provides members to instantiate and release output document, manag
 | [Enumeration](./enumeration) | Generic enumeration class. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Contains Ps document metadata |
 | [EpubDocumentInfo](./epubdocumentinfo) | Contains Epub document metadata |
+| [FontDocumentInfo](./fontdocumentinfo) | Contains Font document metadata |
 | [FontSubstitute](./fontsubstitute) | Describes substitution for missing font. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contains Gzip document metadata |
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |

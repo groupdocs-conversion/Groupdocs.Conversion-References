@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to TIFF file type.
 type: docs
-weight: 1850
+weight: 1880
 url: /net/groupdocs.conversion.options.convert/tiffoptions/
 ---
 ## TiffOptions class
