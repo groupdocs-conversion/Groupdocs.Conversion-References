@@ -44,6 +44,7 @@ The namespace provides members to instantiate and release output document, manag
 | [PclDocumentInfo](./pcldocumentinfo) | Contains Pcl document metadata |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Contains Pdf document metadata |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Contains personal storage document metadata |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Personal Storage Folder info |
 | [PossibleConversions](./possibleconversions) | Represents a mapping what conversion pairs are supported for specific source file format |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Contains Presentation document metadata |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
