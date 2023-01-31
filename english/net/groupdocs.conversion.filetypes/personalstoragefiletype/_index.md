@@ -3,7 +3,7 @@ title: PersonalStorageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Personal storage file formats that are used by email applications to store their various data including email messages attachments folders address books etc. Includes the following file types Ost Pst Learn more about Email formats herehttps//wiki.fileformat.com/email.
 type: docs
-weight: 950
+weight: 980
 url: /net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class

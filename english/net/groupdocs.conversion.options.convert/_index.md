@@ -23,6 +23,7 @@ The namespace provides classes to specify additional options for document conver
 | [EBookConvertOptions](./ebookconvertoptions) | Options for conversion to EBook file type. |
 | [EmailConvertOptions](./emailconvertoptions) | Options for conversion to Email file type. |
 | [Font](./font) | Font settings |
+| [FontConvertOptions](./fontconvertoptions) | Options for conversion to Font type. |
 | [ImageConvertOptions](./imageconvertoptions) | Options for conversion to Image file type. |
 | [ImageFlipModes](./imageflipmodes) | Describes image flip modes. |
 | [JpegOptions](./jpegoptions) | Options for conversion to Jpeg file type. |

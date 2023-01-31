@@ -3,7 +3,7 @@ title: PublisherDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Publisher document metadata
 type: docs
-weight: 420
+weight: 440
 url: /net/groupdocs.conversion.contracts/publisherdocumentinfo/
 ---
 ## PublisherDocumentInfo class

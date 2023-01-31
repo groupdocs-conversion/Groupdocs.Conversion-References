@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading One documents.
 type: docs
-weight: 2090
+weight: 2140
 url: /net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Default font for Note document. The following font will be used if a font is missing. An absolute path to font file must be provided. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Default font for Note document. The following font will be used if a font is missing. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Note document. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |

@@ -11,11 +11,12 @@ url: /net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Folders in the storage
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### See Also
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * assembly [GroupDocs.Conversion](../../../)

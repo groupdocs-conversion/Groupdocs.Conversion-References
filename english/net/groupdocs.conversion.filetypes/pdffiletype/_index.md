@@ -3,7 +3,7 @@ title: PdfFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Pdf documents. Includes the following file types Epub Pdf./pdffiletype/pdf Xps.
 type: docs
-weight: 940
+weight: 970
 url: /net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
