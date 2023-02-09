@@ -11,12 +11,13 @@ url: /net/groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncom
 Receive converted page stream. Will be fired only if "Save(SaveDocumentStreamForFileType)" is set.
 
 ```csharp
-public IConversionConvertOrCompress OnConversionCompleted(ConvertedPageStream convertedPageStream)
+public IConversionConvertOrCompress OnConversionCompleted(
+    Action<int, Stream, string> convertedPageStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageStream | ConvertedPageStream | Converted page stream provider |
+| convertedPageStream | Action`3 | Converted page stream provider |
 
 ### Return Value
 
@@ -25,7 +26,6 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionbypagecompleted)
 * assembly [GroupDocs.Conversion](../../../)

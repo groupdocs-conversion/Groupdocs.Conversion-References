@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 Set convert options
 
@@ -32,17 +32,18 @@ Interface to continue conversion building
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 Set convert options
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Convert options provider |
+| convertOptionsProvider | Func`3 | Convert options provider |
 
 ### Return Value
 
@@ -51,7 +52,8 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * assembly [GroupDocs.Conversion](../../../)

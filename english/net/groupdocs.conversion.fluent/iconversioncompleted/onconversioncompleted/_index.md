@@ -12,12 +12,12 @@ Receive converted document stream. Will be fired only if "Save(string)" or "Save
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedDocumentStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | Converted document stream provider |
+| convertedDocumentStream | Action`2 | Converted document stream provider |
 
 ### Return Value
 
@@ -26,7 +26,6 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * assembly [GroupDocs.Conversion](../../../)

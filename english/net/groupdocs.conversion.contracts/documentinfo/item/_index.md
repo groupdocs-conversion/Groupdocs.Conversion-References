@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.contracts/documentinfo/item/
 Get value for a property provided as a key
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 ### See Also

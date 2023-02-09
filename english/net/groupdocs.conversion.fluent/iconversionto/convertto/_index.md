@@ -31,18 +31,17 @@ Interface to continue conversion building
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 Save converted document as stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | Converted document stream provider |
+| convertedStreamProvider | Func`1 | Converted document stream provider |
 
 ### Return Value
 
@@ -51,25 +50,24 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
 Save converted document as stream by type
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | Converted document stream provider |
+| convertedStreamProvider | Func`2 | Converted document stream provider |
 
 ### Return Value
 
@@ -78,7 +76,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assembly [GroupDocs.Conversion](../../../)

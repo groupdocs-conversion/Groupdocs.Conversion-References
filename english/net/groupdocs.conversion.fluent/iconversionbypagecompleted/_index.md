@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | Name | Description |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | Receive converted page stream. Will be fired only if "Save(SaveDocumentStreamForFileType)" is set. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | Receive converted page stream. Will be fired only if "Save(SaveDocumentStreamForFileType)" is set. |
 
 ### See Also
 
