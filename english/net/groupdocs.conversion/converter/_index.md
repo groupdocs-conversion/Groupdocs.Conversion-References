@@ -3,7 +3,7 @@ title: Converter
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents main class that controls document conversion process.
 type: docs
-weight: 710
+weight: 730
 url: /net/groupdocs.conversion/converter/
 ---
 ## Converter class

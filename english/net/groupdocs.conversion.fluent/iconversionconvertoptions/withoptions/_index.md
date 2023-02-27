@@ -41,9 +41,11 @@ public IConversionCompletedOrConvert WithOptions(
     Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| convertOptionsProvider | Func`3 | Convert options provider |
+| Parameter | Description |
+| --- | --- |
+| convertOptionsProvider | Convert options provider |
+| convertOptionsProvider arg1arg1 | The name of the source file |
+| convertOptionsProvider arg2arg2 | The type of the source file |
 
 ### Return Value
 

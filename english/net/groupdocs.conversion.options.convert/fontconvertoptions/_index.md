@@ -3,7 +3,7 @@ title: FontConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Font type.
 type: docs
-weight: 1500
+weight: 1540
 url: /net/groupdocs.conversion.options.convert/fontconvertoptions/
 ---
 ## FontConvertOptions class

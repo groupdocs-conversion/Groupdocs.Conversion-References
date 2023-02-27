@@ -17,7 +17,7 @@ public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageProvider | Func`2 | Converted document page stream provider |
+| convertedPageProvider | Func`2 | Converted document page stream provider Page number |
 
 ### Return Value
 
@@ -43,7 +43,7 @@ public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | Func`3 | Converted document page stream provider |
+| convertedStreamProvider | Func`3 | Converted document page stream provider Page numberThe type of the converted file |
 
 ### Return Value
 

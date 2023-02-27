@@ -47,7 +47,7 @@ public void Convert(Func<Stream> document, Action<Stream, string> documentComple
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. |
+| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -78,7 +78,7 @@ public void Convert(Func<Stream> document,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The delegate that saves converted document to a stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -109,8 +109,8 @@ public void Convert(Func<Stream> document, Action<Stream, string> documentComple
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -139,7 +139,7 @@ public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -170,8 +170,8 @@ public void Convert(Func<FileType, Stream> document, Action<Stream, string> docu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
+| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -202,8 +202,8 @@ public void Convert(Func<FileType, Stream> document,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -233,9 +233,9 @@ public void Convert(Func<FileType, Stream> document, Action<Stream, string> docu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
+| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -293,7 +293,7 @@ public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
+| document | Func`2 | The delegate that saves converted document to a stream. Page number |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -323,8 +323,8 @@ public void Convert(Func<int, Stream> document, Action<int, Stream, string> docu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document page to a stream. |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. |
+| document | Func`2 | The delegate that saves converted document page to a stream. Page number |
+| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -354,8 +354,8 @@ public void Convert(Func<int, Stream> document,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`2 | The delegate that saves converted document to a stream. Page number |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -385,9 +385,9 @@ public void Convert(Func<int, Stream> document, Action<int, Stream, string> docu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document page to a stream. |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`2 | The delegate that saves converted document page to a stream. Page number |
+| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -416,7 +416,7 @@ public void Convert(Func<int, FileType, Stream> document, ConvertOptions convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`3 | The delegate that saves converted document to a stream. |
+| document | Func`3 | The delegate that saves converted document to a stream. Page number |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -447,8 +447,8 @@ public void Convert(Func<int, FileType, Stream> document,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`3 | The delegate that saves converted document page to a stream. |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. |
+| document | Func`3 | The delegate that saves converted document page to a stream. Page numberFile type |
+| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -479,8 +479,8 @@ public void Convert(Func<int, FileType, Stream> document,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`3 | The delegate that saves converted document to a stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`3 | The delegate that saves converted document to a stream. Page numberFile type |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 
@@ -511,9 +511,9 @@ public void Convert(Func<int, FileType, Stream> document,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`3 | The delegate that saves converted document page to a stream. |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. |
-| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. |
+| document | Func`3 | The delegate that saves converted document page to a stream. Page numberFile type |
+| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
 

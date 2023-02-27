@@ -1,23 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Receive converted document stream. Will be fired only if Savestring or SaveSaveDocumentStreamForFileType is set.
+description: Receive converted document stream. Will be fired only if ConvertTostring fileName or ConvertToconvertedStreamProvider is set.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-Receive converted document stream. Will be fired only if "Save(string)" or "Save(SaveDocumentStreamForFileType)" is set.
+Receive converted document stream. Will be fired only if "ConvertTo(string fileName)" or ConvertTo(convertedStreamProvider)" is set.
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    Action<Stream, string> convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedDocumentStream | Action`2 | Converted document stream provider |
+| convertedFileStream | Action`2 | Converted document stream provider The file content streamThe name of the file |
 
 ### Return Value
 

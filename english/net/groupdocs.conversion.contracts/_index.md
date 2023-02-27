@@ -35,6 +35,7 @@ The namespace provides members to instantiate and release output document, manag
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contains Gzip document metadata |
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contains iXbrl document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
@@ -71,6 +72,7 @@ The namespace provides members to instantiate and release output document, manag
 | [VideoDocumentInfo](./videodocumentinfo) | Contains Video document metadata |
 | [WebDocumentInfo](./webdocumentinfo) | Contains Markup document metadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Contains Xbrl document metadata |
 | [XmlDocumentInfo](./xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contains Xps document metadata |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Contains XslFo document metadata |
