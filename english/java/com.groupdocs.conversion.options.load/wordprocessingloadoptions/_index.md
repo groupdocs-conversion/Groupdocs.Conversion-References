@@ -37,6 +37,8 @@ Options for loading WordProcessing documents.
 | [setUpdatePageLayout(boolean updatePageLayout)](#setUpdatePageLayout-boolean-) |  |
 | [isUpdateFields()](#isUpdateFields--) | Update fields after loading. |
 | [setUpdateFields(boolean updateFields)](#setUpdateFields-boolean-) |  |
+| [isKeepDateFieldOriginalValue()](#isKeepDateFieldOriginalValue--) | Keep original value of date field. |
+| [setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue)](#setKeepDateFieldOriginalValue-boolean-) | Sets Keep original value of date field. |
 | [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Words document. |
 | [getPassword()](#getPassword--) | Set password to unprotect protected document. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
@@ -192,6 +194,29 @@ public void setUpdateFields(boolean updateFields)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | updateFields | boolean |  |
+
+### isKeepDateFieldOriginalValue() {#isKeepDateFieldOriginalValue--}
+```
+public boolean isKeepDateFieldOriginalValue()
+```
+
+
+Keep original value of date field. Default: false
+
+**Returns:**
+boolean
+### setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue) {#setKeepDateFieldOriginalValue-boolean-}
+```
+public void setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue)
+```
+
+
+Sets Keep original value of date field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| keepDateFieldOriginalValue | boolean |  |
 
 ### setFontSubstitutes(List<FontSubstitute> value) {#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--}
 ```
