@@ -140,7 +140,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The method that returns readable stream. |
-| loadOptions | Func`2 | The methods that returns document load options. |
+| loadOptions | Func`2 | The methods that returns document load options. The type of the source file |
 
 ### Remarks
 
@@ -171,7 +171,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The method that returns readable stream. |
-| loadOptions | Func`2 | The methods that returns document load options. |
+| loadOptions | Func`2 | The methods that returns document load options. The type of the source file |
 | settings | Func`1 | The Converter settings. |
 
 ### Remarks
@@ -319,7 +319,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | The file path to the source document. |
-| loadOptions | Func`2 | The methods that returns document load options. |
+| loadOptions | Func`2 | The methods that returns document load options. The type of the source file |
 
 ### Remarks
 
@@ -350,7 +350,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | The file path to the source document. |
-| loadOptions | Func`2 | The methods that returns document load options. |
+| loadOptions | Func`2 | The methods that returns document load options. The type of the source file |
 | settings | Func`1 | The Converter settings. |
 
 ### Remarks

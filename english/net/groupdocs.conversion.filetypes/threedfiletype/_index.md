@@ -3,7 +3,7 @@ title: ThreeDFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines 3D documents Includes the following types Fbx./threedfiletype/fbxThreeDS./threedfiletype/threedsThreeMF./threedfiletype/threemfAmf./threedfiletype/amfAse./threedfiletype/aseRvm./threedfiletype/rvmDae./threedfiletype/daeDrc./threedfiletype/drcGltf./threedfiletype/gltfObj./threedfiletype/objPly./threedfiletype/plyJt./threedfiletype/jtU3d./threedfiletype/u3dUsd./threedfiletype/usdUsdz./threedfiletype/usdzVrml./threedfiletype/vrmlX./threedfiletype/x Learn more about 3D formats herehttps//wiki.fileformat.com/3d.
 type: docs
-weight: 1030
+weight: 1060
 url: /net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class

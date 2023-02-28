@@ -3,7 +3,7 @@ title: IConversionCompressResultCompleted
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Handle compression completed
 type: docs
-weight: 1120
+weight: 1150
 url: /net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | Name | Description |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | Receive compressed document stream. Will be fired only if Compression(CompressionConvertOptions options)" is set. |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | Receive compressed document stream. Will be fired only if Compression(CompressionConvertOptions options)" is set. |
 
 ### See Also
 

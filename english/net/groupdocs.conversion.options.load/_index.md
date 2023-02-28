@@ -24,6 +24,7 @@ The namespace provides classes to specify additional options for document loadin
 | [EmailField](./emailfield) | Describes email fields enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Options for loading Email documents. |
 | [EpubLoadOptions](./epubloadoptions) | Options for loading Epub documents. |
+| [FinanceLoadOptions](./financeloadoptions) | Options for loading finance documents. |
 | [FontLoadOptions](./fontloadoptions) | Options for loading Font documents. |
 | [ImageLoadOptions](./imageloadoptions) | Options for loading Image documents. |
 | [LoadOptions](./loadoptions) | Abstract document load options class. |

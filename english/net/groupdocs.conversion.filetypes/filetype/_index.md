@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: File type base class
 type: docs
-weight: 910
+weight: 930
 url: /net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class

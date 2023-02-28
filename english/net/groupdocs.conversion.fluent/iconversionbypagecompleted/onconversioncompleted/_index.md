@@ -1,22 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Receive converted page stream. Will be fired only if SaveSaveDocumentStreamForFileType is set.
+description: Receive converted page stream. Will be fired only if ConvertToconvertedStreamProvider is set.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted/
 ---
 ## IConversionByPageCompleted.OnConversionCompleted method
 
-Receive converted page stream. Will be fired only if "Save(SaveDocumentStreamForFileType)" is set.
+Receive converted page stream. Will be fired only if "ConvertTo(convertedStreamProvider)" is set.
 
 ```csharp
-public IConversionConvertOrCompress OnConversionCompleted(ConvertedPageStream convertedPageStream)
+public IConversionConvertOrCompress OnConversionCompleted(
+    Action<int, Stream, string> convertedPageStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageStream | ConvertedPageStream | Converted page stream provider |
+| convertedPageStream | Action`3 | Converted page stream provider The name of the file |
 
 ### Return Value
 
@@ -25,7 +26,6 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionbypagecompleted)
 * assembly [GroupDocs.Conversion](../../../)

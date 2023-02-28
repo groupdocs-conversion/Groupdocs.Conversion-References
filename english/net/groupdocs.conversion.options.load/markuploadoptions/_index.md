@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Markup documents.
 type: docs
-weight: 2120
+weight: 2170
 url: /net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class

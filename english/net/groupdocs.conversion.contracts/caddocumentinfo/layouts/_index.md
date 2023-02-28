@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 Layouts in the document
 
 ```csharp
-public IEnumerable<string> Layouts { get; }
+public IList<string> Layouts { get; }
 ```
 
 ### See Also

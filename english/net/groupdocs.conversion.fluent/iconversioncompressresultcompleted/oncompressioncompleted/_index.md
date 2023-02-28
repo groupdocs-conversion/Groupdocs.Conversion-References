@@ -11,12 +11,12 @@ url: /net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompr
 Receive compressed document stream. Will be fired only if Compression(CompressionConvertOptions options)" is set.
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | Compressed document stream provider |
+| compressedDocumentStream | Action`1 | Compressed document stream provider |
 
 ### Return Value
 
@@ -25,7 +25,6 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * assembly [GroupDocs.Conversion](../../../)

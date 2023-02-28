@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Layers in the document
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### See Also

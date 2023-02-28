@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(SavePageStream) {#convertbypageto}
+## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
 
 Save converted page as stream
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStream convertedPageProvider)
+    Func<int, Stream> convertedPageProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageProvider | SavePageStream | Converted document page stream provider |
+| convertedPageProvider | Func`2 | Converted document page stream provider |
 
 ### Return Value
 
@@ -26,25 +26,24 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertByPageTo(SavePageStreamForFileType) {#convertbypageto_1}
+## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
 
 Save converted page as stream by type
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStreamForFileType convertedStreamProvider)
+    Func<int, FileType, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | SavePageStreamForFileType | Converted document page stream provider |
+| convertedStreamProvider | Func`3 | Converted document page stream provider |
 
 ### Return Value
 
@@ -53,7 +52,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assembly [GroupDocs.Conversion](../../../)
