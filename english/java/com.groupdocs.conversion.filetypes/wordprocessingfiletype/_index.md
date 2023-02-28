@@ -43,6 +43,7 @@ Defines Word Processing files that contain user information in plain text or ric
 | [Log](#Log) | A file with .LOG extension represents a text document that contains plain text in the form of lines. |
 | [Ml](#Ml) | Ml file |
 | [Sql](#Sql) | A file with .SQL extension represents a text document that contains sql. |
+| [Azw3](#Azw3) |  |
 ## Methods
 
 | Method | Description |
@@ -214,6 +215,12 @@ public static final WordProcessingFileType Sql
 
 
 A file with .SQL extension represents a text document that contains sql.
+
+### Azw3 {#Azw3}
+```
+public static final WordProcessingFileType Azw3
+```
+
 
 ### getLoadOptions() {#getLoadOptions--}
 ```
