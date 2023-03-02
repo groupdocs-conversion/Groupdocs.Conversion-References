@@ -44,7 +44,6 @@ public IConversionCompletedOrConvert WithOptions(
 | Parameter | Description |
 | --- | --- |
 | convertOptionsProvider | Convert options provider |
-| convertOptionsProvider arg1arg1 | The name of the source file |
 | convertOptionsProvider arg2arg2 | The type of the source file |
 
 ### Return Value

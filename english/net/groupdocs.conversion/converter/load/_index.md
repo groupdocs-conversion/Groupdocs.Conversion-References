@@ -3,7 +3,7 @@ title: Load
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Configure source document for conversion
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion/converter/load/
 ---
 ## Load(string) {#load_2}

@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Pdf optimization options.
 type: docs
-weight: 1780
+weight: 1800
 url: /net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class
@@ -25,6 +25,7 @@ public sealed class PdfOptimizationOptions : ValueObject
 | Name | Description |
 | --- | --- |
 | [CompressImages](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/compressimages) { get; set; } | If CompressImages set to `true`, all images in the document are re-compressed. The compression is defined by the ImageQuality property. |
+| [FontSubsetStrategy](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/fontsubsetstrategy) { get; set; } | Set font subset strategy |
 | [ImageQuality](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/imagequality) { get; set; } | Value in percent where 100% is unchanged quality and image size. To decrease the image size set this property to less than 100 |
 | [LinkDuplicateStreams](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/linkduplicatestreams) { get; set; } | Link duplicate streams |
 | [RemoveUnusedObjects](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/removeunusedobjects) { get; set; } | Remove unused objects |

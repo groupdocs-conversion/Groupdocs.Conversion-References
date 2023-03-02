@@ -17,7 +17,7 @@ public IConversionConvertOrCompress OnConversionCompleted(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedFileStream | Action`2 | Converted document stream provider The file content streamThe name of the file |
+| convertedFileStream | Action`2 | Converted document stream provider |
 
 ### Return Value
 

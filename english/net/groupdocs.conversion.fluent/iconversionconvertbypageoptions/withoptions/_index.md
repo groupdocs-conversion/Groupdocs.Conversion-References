@@ -43,7 +43,7 @@ public IConversionByPageCompletedOrConvert WithOptions(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | Func`3 | Convert options The name of the fileThe type of the file |
+| convertOptionsProvider | Func`3 | Convert options |
 
 ### Return Value
 

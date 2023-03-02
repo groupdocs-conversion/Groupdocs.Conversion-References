@@ -67,7 +67,7 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | Func`2 | Converted document stream provider The type of the converted file |
+| convertedStreamProvider | Func`2 | Converted document stream provider |
 
 ### Return Value
 

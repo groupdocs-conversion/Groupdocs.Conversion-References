@@ -3,7 +3,7 @@ title: ImageQuality
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Value in percent where 100 is unchanged quality and image size. To decrease the image size set this property to less than 100
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.convert/pdfoptimizationoptions/imagequality/
 ---
 ## PdfOptimizationOptions.ImageQuality property
