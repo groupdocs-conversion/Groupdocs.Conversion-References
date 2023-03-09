@@ -1,14 +1,14 @@
 ---
 title: Grayscale
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 灰度
+description: 灰度.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.convert/psdcolormodes/grayscale/
 ---
 ## PsdColorModes.Grayscale field
 
-灰度。
+灰度.
 
 ```csharp
 public static readonly PsdColorModes Grayscale;

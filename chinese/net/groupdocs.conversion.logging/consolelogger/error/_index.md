@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 写入错误日志消息 错误日志消息提供有关应用程序流中不可恢复事件的信息
+description: 写入错误日志消息 错误日志消息提供有关应用程序流程中不可恢复事件的信息
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.logging/consolelogger/error/
 ---
 ## ConsoleLogger.Error method
 
-写入错误日志消息； 错误日志消息提供有关应用程序流中不可恢复事件的信息。
+写入错误日志消息； 错误日志消息提供有关应用程序流程中不可恢复事件的信息。
 
 ```csharp
 public void Error(string message, Exception exception)
@@ -16,7 +16,7 @@ public void Error(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息。 |
+| message | String | 错误信息。 |
 | exception | Exception | 例外。 |
 
 ### 也可以看看

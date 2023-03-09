@@ -3,7 +3,7 @@ title: Dotm
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 带有 DOTM 扩展名的文件表示使用 Microsoft Word 2007 或更高版本创建的模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/dotm
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field

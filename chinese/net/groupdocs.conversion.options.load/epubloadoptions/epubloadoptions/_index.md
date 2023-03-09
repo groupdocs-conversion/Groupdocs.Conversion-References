@@ -1,14 +1,14 @@
 ---
 title: EpubLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例EpubLoadOptionsgroupdocs.conversion.options.load/epubloadoptions类.
+description: 初始化新实例EpubLoadOptionsgroupdocs.conversion.options.load/epubloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/epubloadoptions/epubloadoptions/
 ---
 ## EpubLoadOptions constructor
 
-初始化的新实例[`EpubLoadOptions`](../../epubloadoptions)类.
+初始化新实例[`EpubLoadOptions`](../../epubloadoptions)类.
 
 ```csharp
 public EpubLoadOptions()

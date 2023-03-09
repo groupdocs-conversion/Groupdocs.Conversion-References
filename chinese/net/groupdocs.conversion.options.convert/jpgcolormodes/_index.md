@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 描述 Jpg 颜色模式枚举
 type: docs
-weight: 1500
+weight: 1660
 url: /zh/net/groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 ## JpgColorModes class
@@ -25,19 +25,19 @@ public class JpgColorModes : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
 | static readonly [Cmyk](../../groupdocs.conversion.options.convert/jpgcolormodes/cmyk) | CMYK. |
-| static readonly [Grayscale](../../groupdocs.conversion.options.convert/jpgcolormodes/grayscale) | 灰度。 |
+| static readonly [Grayscale](../../groupdocs.conversion.options.convert/jpgcolormodes/grayscale) | 灰度. |
 | static readonly [Rgb](../../groupdocs.conversion.options.convert/jpgcolormodes/rgb) | RGB. |
-| static readonly [YCbCr](../../groupdocs.conversion.options.convert/jpgcolormodes/ycbcr) | YCbCr 图像。 jpeg 图像的标准选项。 |
+| static readonly [YCbCr](../../groupdocs.conversion.options.convert/jpgcolormodes/ycbcr) | YCbCr 图像。 jpeg 图像的标准选项. |
 | static readonly [Ycck](../../groupdocs.conversion.options.convert/jpgcolormodes/ycck) | Ycck. |
 
 ### 也可以看看

@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为 Pdf 文件类型的选项
 type: docs
-weight: 1560
+weight: 1730
 url: /zh/net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -19,15 +19,15 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfConvertOptions](pdfconvertoptions)() | 初始化的新实例[`PdfConvertOptions`](../pdfconvertoptions)类. |
+| [PdfConvertOptions](pdfconvertoptions)() | 初始化新实例[`PdfConvertOptions`](../pdfconvertoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | 转换后所需的页面 DPI。默认分辨率为：96 dpi. |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
 | [Height](../../groupdocs.conversion.options.convert/pdfconvertoptions/height) { get; set; } | 转换后所需的页面高度（以像素为单位）。 |
 | [MarginBottom](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom) { get; set; } | 转换后所需的页面底部边距（以像素为单位）。 |
 | [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | 转换后所需的页面左边距（以像素为单位）。 |
@@ -39,7 +39,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | 开始转换的页数`页码`. |
 | [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | 转换后所需的页面大小 |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | 如果要使用密码保护转换后的文档，请设置此属性。 |
-| [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | pdf 特定转换选项 |
+| [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf 特定转换选项 |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | 页面旋转 |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | 水印特定选项 |
 | [Width](../../groupdocs.conversion.options.convert/pdfconvertoptions/width) { get; set; } | 转换后所需的页面宽度（以像素为单位）。 |
@@ -49,9 +49,9 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | 克隆当前选项实例。 |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Gzip
 second_title: GroupDocs.Conversion for .NET API 参考
-description: Gzip 文件是使用标准 gzip GNU zip 压缩算法创建的压缩存档它可能包含多个压缩文件目录和文件存根 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/gz/
+description: Gzip 文件是使用标准 gzip GNU zip 压缩算法创建的压缩档案它可能包含多个压缩文件目录和文件存根 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/gz/
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/gzip/
 ---
 ## CompressionFileType.Gzip field
 
-Gzip 文件是使用标准 gzip (GNU zip) 压缩算法创建的压缩存档。它可能包含多个压缩文件、目录和文件存根。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/gz/)
+Gzip 文件是使用标准 gzip (GNU zip) 压缩算法创建的压缩档案。它可能包含多个压缩文件、目录和文件存根。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/gz/)
 
 ```csharp
 public static readonly CompressionFileType Gzip;

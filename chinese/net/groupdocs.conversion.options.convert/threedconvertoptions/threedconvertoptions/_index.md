@@ -1,14 +1,14 @@
 ---
 title: ThreeDConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例ThreeDConvertOptionsgroupdocs.conversion.options.convert/threedconvertoptions类.
+description: 初始化新实例ThreeDConvertOptionsgroupdocs.conversion.options.convert/threedconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/threedconvertoptions/threedconvertoptions/
 ---
 ## ThreeDConvertOptions constructor
 
-初始化的新实例[`ThreeDConvertOptions`](../../threedconvertoptions)类.
+初始化新实例[`ThreeDConvertOptions`](../../threedconvertoptions)类.
 
 ```csharp
 public ThreeDConvertOptions()

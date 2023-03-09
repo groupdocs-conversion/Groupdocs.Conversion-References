@@ -1,14 +1,14 @@
 ---
 title: FlipMode
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 图像翻转模式
+description: 图像翻转模式.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/flipmode/
 ---
 ## ImageConvertOptions.FlipMode property
 
-图像翻转模式。
+图像翻转模式.
 
 ```csharp
 public ImageFlipModes FlipMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Started
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 这个方法会在实际转换开始后立即调用
+description: 此方法将在实际转换开始后立即调用
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.reporting/iconverterlistener/started/
 ---
 ## IConverterListener.Started method
 
-这个方法会在实际转换开始后立即调用。
+此方法将在实际转换开始后立即调用。
 
 ```csharp
 public void Started()

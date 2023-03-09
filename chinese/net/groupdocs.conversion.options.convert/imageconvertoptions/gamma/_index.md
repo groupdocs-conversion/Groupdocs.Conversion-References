@@ -1,14 +1,14 @@
 ---
 title: Gamma
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 调整图像伽玛
+description: 调整图像伽马
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/gamma/
 ---
 ## ImageConvertOptions.Gamma property
 
-调整图像伽玛。
+调整图像伽马。
 
 ```csharp
 public float Gamma { get; set; }

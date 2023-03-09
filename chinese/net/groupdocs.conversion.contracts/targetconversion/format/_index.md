@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 目标文档格式
+description: 目标文件格式
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.contracts/targetconversion/format/
 ---
 ## TargetConversion.Format property
 
-目标文档格式
+目标文件格式
 
 ```csharp
 public FileType Format { get; }

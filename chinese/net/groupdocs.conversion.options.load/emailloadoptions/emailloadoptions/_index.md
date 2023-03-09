@@ -1,14 +1,14 @@
 ---
 title: EmailLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例EmailLoadOptionsgroupdocs.conversion.options.load/emailloadoptions类.
+description: 初始化新实例EmailLoadOptionsgroupdocs.conversion.options.load/emailloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/emailloadoptions/emailloadoptions/
 ---
 ## EmailLoadOptions constructor
 
-初始化的新实例[`EmailLoadOptions`](../../emailloadoptions)类.
+初始化新实例[`EmailLoadOptions`](../../emailloadoptions)类.
 
 ```csharp
 public EmailLoadOptions()

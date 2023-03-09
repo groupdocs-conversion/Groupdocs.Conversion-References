@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 水印文字
+description: 水印文本
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/watermarktextoptions/text/
 ---
 ## WatermarkTextOptions.Text property
 
-水印文字
+水印文本
 
 ```csharp
 public string Text { get; }

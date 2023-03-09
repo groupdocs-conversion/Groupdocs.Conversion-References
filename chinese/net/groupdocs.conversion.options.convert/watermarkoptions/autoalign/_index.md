@@ -1,14 +1,14 @@
 ---
 title: AutoAlign
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 自动缩放水印如果该值为真则会自动计算位置和大小以适应页面大小
+description: 自动缩放水印如果该值为真则会自动计算位置和大小以适合页面大小
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/watermarkoptions/autoalign/
 ---
 ## WatermarkOptions.AutoAlign property
 
-自动缩放水印。如果该值为真，则会自动计算位置和大小以适应页面大小。
+自动缩放水印。如果该值为真，则会自动计算位置和大小以适合页面大小。
 
 ```csharp
 public bool AutoAlign { get; set; }

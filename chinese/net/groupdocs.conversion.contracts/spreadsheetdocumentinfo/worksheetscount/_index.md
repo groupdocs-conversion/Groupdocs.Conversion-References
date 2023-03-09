@@ -1,14 +1,14 @@
 ---
 title: WorksheetsCount
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取工作表计数
+description: 获取工作表 count
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheetscount/
 ---
 ## SpreadsheetDocumentInfo.WorksheetsCount property
 
-获取工作表计数
+获取工作表 count
 
 ```csharp
 public int WorksheetsCount { get; }

@@ -3,7 +3,7 @@ title: IAudioConnector
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 定义将音频转换为音频文档所需的方法
 type: docs
-weight: 1190
+weight: 1320
 url: /zh/net/groupdocs.conversion.integration.audio/iaudioconnector/
 ---
 ## IAudioConnector interface
@@ -18,7 +18,7 @@ public interface IAudioConnector
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ConvertAudio](../../groupdocs.conversion.integration.audio/iaudioconnector/convertaudio)(Stream, AudioConvertOptions) | 是否将音频转换作为流提供。 |
+| [ConvertAudio](../../groupdocs.conversion.integration.audio/iaudioconnector/convertaudio)(Stream, AudioConvertOptions) | 音频转换是否作为流提供。 |
 
 ### 也可以看看
 

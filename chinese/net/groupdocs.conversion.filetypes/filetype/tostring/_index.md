@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 字符串表示
+description: 字符串表示形式
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/groupdocs.conversion.filetypes/filetype/tostring/
 ---
 ## FileType.ToString method
 
-字符串表示
+字符串表示形式
 
 ```csharp
 public override string ToString()

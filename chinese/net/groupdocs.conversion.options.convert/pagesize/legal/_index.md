@@ -1,14 +1,14 @@
 ---
 title: Legal
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 8.5 x 14 英寸
+description: 8.5 x 14 英寸.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/legal/
 ---
 ## PageSize.Legal field
 
-8.5 x 14 英寸。
+8.5 x 14 英寸.
 
 ```csharp
 public static readonly PageSize Legal;

@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换 Excel 文件时显示网格线
 type: docs
-weight: 130
+weight: 140
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

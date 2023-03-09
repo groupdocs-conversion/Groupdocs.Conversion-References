@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 确定两个对象实例是否相等
+description: 判断两个对象实例是否相等
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.contracts/valueobject/equals/
 ---
 ## Equals(object) {#equals_1}
 
-确定两个对象实例是否相等。
+判断两个对象实例是否相等。
 
 ```csharp
 public override bool Equals(object obj)
@@ -32,7 +32,7 @@ public override bool Equals(object obj)
 
 ## Equals(ValueObject) {#equals}
 
-确定两个对象实例是否相等。
+判断两个对象实例是否相等。
 
 ```csharp
 public virtual bool Equals(ValueObject other)

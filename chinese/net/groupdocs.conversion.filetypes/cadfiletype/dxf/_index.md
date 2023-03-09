@@ -1,14 +1,14 @@
 ---
 title: Dxf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: DXF图形交换格式或图形交换格式是 AutoCAD 图形文件的标记数据表示 了解有关此文件格式的详细信息这里https//wiki.fileformat.com/cad/dxf
+description: DXF绘图交换格式或绘图交换格式是 AutoCAD 绘图文件的标记数据表示 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dxf
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/dxf/
 ---
 ## CadFileType.Dxf field
 
-DXF（图形交换格式或图形交换格式）是 AutoCAD 图形文件的标记数据表示。 了解有关此文件格式的详细信息[这里](https://wiki.fileformat.com/cad/dxf)
+DXF、绘图交换格式或绘图交换格式，是 AutoCAD 绘图文件的标记数据表示。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dxf)
 
 ```csharp
 public static readonly CadFileType Dxf;

@@ -3,7 +3,7 @@ title: IConverterListener
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 定义用于执行转换器侦听的方法
 type: docs
-weight: 2120
+weight: 2380
 url: /zh/net/groupdocs.conversion.reporting/iconverterlistener/
 ---
 ## IConverterListener interface
@@ -18,15 +18,15 @@ public interface IConverterListener
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Completed](../../groupdocs.conversion.reporting/iconverterlistener/completed)() | 转换完成后立即调用此方法。 |
-| [Progress](../../groupdocs.conversion.reporting/iconverterlistener/progress)(byte) | 每次转换进度改变时都会调用这个方法 |
-| [Started](../../groupdocs.conversion.reporting/iconverterlistener/started)() | 这个方法会在实际转换开始后立即调用。 |
+| [Completed](../../groupdocs.conversion.reporting/iconverterlistener/completed)() | 此方法将在转换完成后立即调用。 |
+| [Progress](../../groupdocs.conversion.reporting/iconverterlistener/progress)(byte) | 每次转换进度变化时都会调用该方法。 |
+| [Started](../../groupdocs.conversion.reporting/iconverterlistener/started)() | 此方法将在实际转换开始后立即调用。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于监控转化进度： [监听转换过程事件](https://docs.groupdocs.com/display/conversionnet/Listening)
+* 更多关于监控转换进度： [监听转换过程事件](https://docs.groupdocs.com/display/conversionnet/Listening)
 
 ### 也可以看看
 

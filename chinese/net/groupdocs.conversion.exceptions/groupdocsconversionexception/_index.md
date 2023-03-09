@@ -3,7 +3,7 @@ title: GroupDocsConversionException
 second_title: GroupDocs.Conversion for .NET API 参考
 description: GroupDocs.Conversion 一般异常
 type: docs
-weight: 730
+weight: 790
 url: /zh/net/groupdocs.conversion.exceptions/groupdocsconversionexception/
 ---
 ## GroupDocsConversionException class
@@ -19,7 +19,7 @@ public class GroupDocsConversionException : Exception
 | 姓名 | 描述 |
 | --- | --- |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor)() | 默认构造函数 |
-| [GroupDocsConversionException](groupdocsconversionexception#constructor_1)(string) | 创建带有特定消息的异常 |
+| [GroupDocsConversionException](groupdocsconversionexception#constructor_1)(string) | 使用特定消息创建异常 |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor_2)(string, Exception) | 使用特定消息创建异常并传播内部异常 |
 
 ### 也可以看看

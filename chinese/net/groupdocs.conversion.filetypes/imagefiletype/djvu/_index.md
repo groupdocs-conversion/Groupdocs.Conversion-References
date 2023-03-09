@@ -3,7 +3,7 @@ title: DjVu
 second_title: GroupDocs.Conversion for .NET API 参考
 description: DjVu 是一种图形文件格式适用于扫描的文档和书籍尤其是那些包含文本绘图图像和照片的组合 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/djvu
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/djvu/
 ---
 ## ImageFileType.DjVu field

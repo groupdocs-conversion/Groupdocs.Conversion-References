@@ -16,7 +16,7 @@ public IConversionFrom WithSettings(Func<ConverterSettings> settingsProvider)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| settingsProvider | Func`1 | 设置提供程序 |
+| settingsProvider | Func`1 | 设置提供商 |
 
 ### 也可以看看
 

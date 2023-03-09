@@ -1,14 +1,14 @@
 ---
 title: Importance
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是重要性
+description: 默认字段文本为重要性
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.options.load/emailfield/importance/
 ---
 ## EmailField.Importance field
 
-默认字段文本是“重要性”。
+默认字段文本为“重要性”。
 
 ```csharp
 public static readonly EmailField Importance;

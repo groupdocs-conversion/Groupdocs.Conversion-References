@@ -1,14 +1,14 @@
 ---
 title: VideoConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例VideoConvertOptionsgroupdocs.conversion.options.convert/videoconvertoptions类.
+description: 初始化新实例VideoConvertOptionsgroupdocs.conversion.options.convert/videoconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/videoconvertoptions/videoconvertoptions/
 ---
 ## VideoConvertOptions constructor
 
-初始化的新实例[`VideoConvertOptions`](../../videoconvertoptions)类.
+初始化新实例[`VideoConvertOptions`](../../videoconvertoptions)类.
 
 ```csharp
 public VideoConvertOptions()

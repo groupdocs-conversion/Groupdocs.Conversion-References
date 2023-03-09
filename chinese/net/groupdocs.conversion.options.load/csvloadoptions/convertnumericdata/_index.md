@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指示文件中的字符串是否转换为数字默认为真
+description: 表示文件中的字符串是否转换为数字默认为 True.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.load/csvloadoptions/convertnumericdata/
 ---
 ## CsvLoadOptions.ConvertNumericData property
 
-指示文件中的字符串是否转换为数字。默认为真。
+表示文件中的字符串是否转换为数字。默认为 True.
 
 ```csharp
 public bool ConvertNumericData { get; set; }

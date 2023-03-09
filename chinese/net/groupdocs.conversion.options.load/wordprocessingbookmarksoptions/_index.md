@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 在 WordProcessing 中处理书签的选项
 type: docs
-weight: 2090
+weight: 2350
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class
@@ -25,16 +25,16 @@ public class WordProcessingBookmarksOptions : ValueObject
 | 姓名 | 描述 |
 | --- | --- |
 | [BookmarksOutlineLevel](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/bookmarksoutlinelevel) { get; set; } | 指定文档大纲中显示 Word 书签的默认级别。默认值为 0。有效范围为 0 到 9. |
-| [ExpandedOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expandedoutlinelevels) { get; set; } | 指定查看文件时显示展开的文档大纲的多少级。默认值为 0。有效范围为 0 到 9。请注意，保存到 XPS 时此选项不起作用。 |
-| [HeadingsOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/headingsoutlinelevels) { get; set; } | 指定文档大纲中包含的标题级别（以标题样式格式化的段落）。默认值为 0。有效范围为 0 到 9. |
+| [ExpandedOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expandedoutlinelevels) { get; set; } | 指定在查看文件时文档大纲中显示展开的级别。默认值为 0。有效范围为 0 到 9。请注意，此选项在保存为 XPS 时不起作用。 |
+| [HeadingsOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/headingsoutlinelevels) { get; set; } | 指定要包含在文档大纲中的标题级别（使用标题样式格式化的段落）。默认值为 0。有效范围为 0 到 9. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

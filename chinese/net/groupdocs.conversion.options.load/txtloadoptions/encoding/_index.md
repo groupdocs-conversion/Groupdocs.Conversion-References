@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取或设置加载 Txt 文档时将使用的编码可以为空默认为空
+description: 获取或设置加载 Txt 文档时将使用的编码可以为空默认为 null.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.load/txtloadoptions/encoding/
 ---
 ## TxtLoadOptions.Encoding property
 
-获取或设置加载 Txt 文档时将使用的编码。可以为空。默认为空。
+获取或设置加载 Txt 文档时将使用的编码。可以为空。默认为 null.
 
 ```csharp
 public Encoding Encoding { get; set; }

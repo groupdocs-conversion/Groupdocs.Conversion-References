@@ -1,14 +1,14 @@
 ---
 title: Zoom
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 以百分比指定缩放级别默认值为 100.
+description: 以百分比指定缩放级别默认为 100.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/
 ---
 ## SpreadsheetConvertOptions.Zoom property
 
-以百分比指定缩放级别。默认值为 100.
+以百分比指定缩放级别。默认为 100.
 
 ```csharp
 public int Zoom { get; set; }

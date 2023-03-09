@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 输入文档文件类型
+description: 输入文档文件类型.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.load/txtloadoptions/format/
 ---
 ## TxtLoadOptions.Format property
 
-输入文档文件类型。
+输入文档文件类型.
 
 ```csharp
 public WordProcessingFileType Format { get; }

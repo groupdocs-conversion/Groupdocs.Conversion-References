@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 字体斜体
+description: 斜体字体
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/font/italic/
 ---
 ## Font.Italic property
 
-字体斜体
+斜体字体
 
 ```csharp
 public bool Italic { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Jpf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: jpf 文档格式
+description: jpf文档格式
 type: docs
-weight: 240
+weight: 220
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/jpf/
 ---
 ## ImageFileType.Jpf field
 
-jpf 文档格式
+jpf文档格式
 
 ```csharp
 public static readonly ImageFileType Jpf;

@@ -1,14 +1,14 @@
 ---
 title: XslFoFactory
 second_title: GroupDocs.Conversion for .NET API 参考
-description: XSL 文档流使用 XSL 转换 XMLFO
+description: XSL 文档流以使用 XSL. 转换 XMLFO
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.load/xmlloadoptions/xslfofactory/
 ---
 ## XmlLoadOptions.XslFoFactory property
 
-XSL 文档流使用 XSL 转换 XML-FO。
+XSL 文档流以使用 XSL. 转换 XML-FO
 
 ```csharp
 public Func<Stream> XslFoFactory { get; set; }

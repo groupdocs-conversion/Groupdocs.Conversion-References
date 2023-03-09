@@ -1,14 +1,14 @@
 ---
 title: HideMenuBar
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定文档处于活动状态时是否应隐藏菜单栏默认值false.
+description: 指定当文档处于活动状态时是否应隐藏菜单栏默认值false.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.options.convert/pdfformattingoptions/hidemenubar/
 ---
 ## PdfFormattingOptions.HideMenuBar property
 
-指定文档处于活动状态时是否应隐藏菜单栏。默认值：false.
+指定当文档处于活动状态时是否应隐藏菜单栏。默认值：false.
 
 ```csharp
 public bool HideMenuBar { get; set; }

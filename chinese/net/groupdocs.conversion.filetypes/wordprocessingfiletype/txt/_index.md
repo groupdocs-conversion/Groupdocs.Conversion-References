@@ -1,14 +1,14 @@
 ---
 title: Txt
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .TXT 扩展名的文件代表一个文本文档其中包含行形式的纯文本 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/txt
+description: 扩展名为 .TXT 的文件表示包含行形式的纯文本的文本文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/txt
 type: docs
-weight: 160
+weight: 120
 url: /zh/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field
 
-带有 .TXT 扩展名的文件代表一个文本文档，其中包含行形式的纯文本。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/txt)
+扩展名为 .TXT 的文件表示包含行形式的纯文本的文本文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/txt)
 
 ```csharp
 public static readonly WordProcessingFileType Txt;

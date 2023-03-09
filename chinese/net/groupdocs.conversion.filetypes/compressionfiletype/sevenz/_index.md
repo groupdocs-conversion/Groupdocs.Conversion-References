@@ -1,14 +1,14 @@
 ---
 title: SevenZ
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 7z 是一种用于压缩文件和文件夹的归档格式具有很高的压缩率它基于开源架构可以使用任何压缩和加密算法 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/7z/
+description: 7z 是一种以高压缩比压缩文件和文件夹的归档格式它基于开源架构可以使用任何压缩和加密算法 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/7z/
 type: docs
 weight: 100
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/sevenz/
 ---
 ## CompressionFileType.SevenZ field
 
-7z 是一种用于压缩文件和文件夹的归档格式，具有很高的压缩率。它基于开源架构，可以使用任何压缩和加密算法。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/7z/)
+7z 是一种以高压缩比压缩文件和文件夹的归档格式。它基于开源架构，可以使用任何压缩和加密算法。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/7z/)
 
 ```csharp
 public static readonly CompressionFileType SevenZ;

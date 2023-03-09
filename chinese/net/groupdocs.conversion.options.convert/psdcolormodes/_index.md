@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 定义 Psd 颜色模式枚举
 type: docs
-weight: 1670
+weight: 1850
 url: /zh/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class
@@ -25,10 +25,10 @@ public class PsdColorModes : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
@@ -37,8 +37,8 @@ public class PsdColorModes : Enumeration
 | static readonly [Bitmap](../../groupdocs.conversion.options.convert/psdcolormodes/bitmap) | 位图. |
 | static readonly [Cmyk](../../groupdocs.conversion.options.convert/psdcolormodes/cmyk) | CMYK. |
 | static readonly [Duotone](../../groupdocs.conversion.options.convert/psdcolormodes/duotone) | 双色调. |
-| static readonly [Grayscale](../../groupdocs.conversion.options.convert/psdcolormodes/grayscale) | 灰度。 |
-| static readonly [Indexed](../../groupdocs.conversion.options.convert/psdcolormodes/indexed) | 已编入索引。 |
+| static readonly [Grayscale](../../groupdocs.conversion.options.convert/psdcolormodes/grayscale) | 灰度. |
+| static readonly [Indexed](../../groupdocs.conversion.options.convert/psdcolormodes/indexed) | 索引. |
 | static readonly [Lab](../../groupdocs.conversion.options.convert/psdcolormodes/lab) | 实验室. |
 | static readonly [Multichannel](../../groupdocs.conversion.options.convert/psdcolormodes/multichannel) | 多通道. |
 | static readonly [Rgb](../../groupdocs.conversion.options.convert/psdcolormodes/rgb) | RGB. |

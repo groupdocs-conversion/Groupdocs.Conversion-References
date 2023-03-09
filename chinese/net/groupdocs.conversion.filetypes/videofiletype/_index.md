@@ -1,14 +1,14 @@
 ---
 title: VideoFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义视频文档 包括以下类型 Mp4./videofiletype/mp4  Avi./videofiletype/avi  Flv./videofiletype/flv  Mkv./videofiletype/mkv  Mov./videofiletype/mov  Webm./videofiletype/webm  Wmv./videofiletype/wmv  了解有关视频格式的更多信息这里https//docs.fileformat.com/video/.
+description: 定义视频文件 包括以下类型 Mp4./videofiletype/mp4  Avi./videofiletype/avi  Flv./videofiletype/flv  Mkv./videofiletype/mkv  Mov./videofiletype/mov  Webm./videofiletype/webm  Wmv./videofiletype/wmv  了解有关视频格式的更多信息这里https//docs.fileformat.com/video/.
 type: docs
-weight: 950
+weight: 1070
 url: /zh/net/groupdocs.conversion.filetypes/videofiletype/
 ---
 ## VideoFileType class
 
-定义视频文档 包括以下类型： [`Mp4`](./mp4) , [`Avi`](./avi) , [`Flv`](./flv) , [`Mkv`](./mkv) , [`Mov`](./mov) , [`Webm`](./webm) , [`Wmv`](./wmv) , 了解有关视频格式的更多信息[这里](https://docs.fileformat.com/video/).
+定义视频文件 包括以下类型： [`Mp4`](./mp4) , [`Avi`](./avi) , [`Flv`](./flv) , [`Mkv`](./mkv) , [`Mov`](./mov) , [`Webm`](./webm) , [`Wmv`](./wmv) , 了解有关视频格式的更多信息[这里](https://docs.fileformat.com/video/).
 
 ```csharp
 public sealed class VideoFileType : FileType
@@ -26,7 +26,7 @@ public sealed class VideoFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,21 +34,21 @@ public sealed class VideoFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Avi](../../groupdocs.conversion.filetypes/videofiletype/avi) | AVI 文件格式是微软推出的一种音频视频多媒体容器文件格式。它保存使用 XVid 和 DivX 等多种编解码器（编码器/解码器）创建和压缩的音频和视频数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/avi/) |
-| static readonly [Flv](../../groupdocs.conversion.filetypes/videofiletype/flv) | FLV（Flash 视频）是一种扩展名为 .flv 的容器文件格式。 FLV 用于通过使用 Adobe Flash Player 或 Adobe Air 在 Internet 上传送音频/视频内容。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/flv/) |
-| static readonly [Mkv](../../groupdocs.conversion.filetypes/videofiletype/mkv) | MKV (Matroska Video) 是一种类似于 MOV 和 AVI 格式的多媒体容器，但它在同一文件中支持多个音频和字幕轨道。 MKV 文件是用于视频的 Matroska 多媒体容器格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mkv/) |
+| static readonly [Avi](../../groupdocs.conversion.filetypes/videofiletype/avi) | AVI 文件格式是 Microsoft 推出的音频视频多媒体容器文件格式。它保存使用 XVid 和 DivX 等多种编解码器（编码器/解码器）创建和压缩的音频和视频数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/avi/) |
+| static readonly [Flv](../../groupdocs.conversion.filetypes/videofiletype/flv) | FLV（Flash 视频）是一种容器文件格式，扩展名为 .flv。 FLV 用于使用 Adobe Flash Player 或 Adobe Air 通过 Internet 传送音频/视频内容。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/flv/) |
+| static readonly [Mkv](../../groupdocs.conversion.filetypes/videofiletype/mkv) | MKV (Matroska Video) 是一种类似于 MOV 和 AVI 格式的多媒体容器，但它支持同一文件中的多个音频和字幕轨道。 MKV 文件是用于视频的 Matroska 多媒体容器格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mkv/) |
 | static readonly [Mov](../../groupdocs.conversion.filetypes/videofiletype/mov) | MOV 或 QuickTime 文件格式是由 Apple 开发的多媒体容器：包含一个或多个轨道，每个轨道包含特定类型的数据，即视频、音频、文本等。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mov/) |
-| static readonly [Mp4](../../groupdocs.conversion.filetypes/videofiletype/mp4) | MP4（MPEG-4 Part 14 的缩写）是一种基于 ISO/IEC 14496-12:2004 的文件格式，它基于 QuickTime 文件格式，但正式指定了对初始对象描述符 (IOD) 和其他 MPEG 功能的支持。 学习有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mp4/) |
-| static readonly [Webm](../../groupdocs.conversion.filetypes/videofiletype/webm) | 扩展名为 .webm 的文件是基于开放、免版税的 WebM 文件格式的视频文件。它专为在网络上共享视频而设计，并定义了文件容器结构，包括视频和音频格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/webm//) |
+| static readonly [Mp4](../../groupdocs.conversion.filetypes/videofiletype/mp4) | MP4（MPEG-4 Part 14 的简称）是一种基于 ISO/IEC 14496-12:2004 的文件格式，它基于 QuickTime 文件格式，但正式指定支持初始对象描述符 (IOD) 和其他 MPEG 功能。 学习有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mp4/) |
+| static readonly [Webm](../../groupdocs.conversion.filetypes/videofiletype/webm) | 扩展名为 .webm 的文件是基于开放的、免版税的 WebM 文件格式的视频文件。它专为在网络上共享视频而设计，并定义了包括视频和音频格式的文件容器结构。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/webm//) |
 | static readonly [Wmv](../../groupdocs.conversion.filetypes/videofiletype/wmv) | 高级系统格式 (ASF) 是一种数字多媒体容器，主要用于存储和传输媒体流。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/wmv/) |
 
 ### 也可以看看

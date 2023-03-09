@@ -1,14 +1,14 @@
 ---
 title: L2R
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 从左到右
+description: 从左到右.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/pdfdirection/l2r/
 ---
 ## PdfDirection.L2R field
 
-从左到右。
+从左到右.
 
 ```csharp
 public static readonly PdfDirection L2R;

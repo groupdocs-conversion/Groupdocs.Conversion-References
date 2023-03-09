@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: GroupDocs.Conversion for .NET API 参考
-description: CSV 文件的分隔符
+description: Csv 文件的分隔符
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.options.load/csvloadoptions/separator/
 ---
 ## CsvLoadOptions.Separator property
 
-CSV 文件的分隔符。
+Csv 文件的分隔符。
 
 ```csharp
 public char Separator { get; set; }

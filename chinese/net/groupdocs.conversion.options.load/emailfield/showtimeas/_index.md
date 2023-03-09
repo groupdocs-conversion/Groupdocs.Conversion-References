@@ -1,14 +1,14 @@
 ---
 title: ShowTimeAs
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是ShowTimeAs
+description: 默认字段文本为ShowTimeAs
 type: docs
 weight: 150
 url: /zh/net/groupdocs.conversion.options.load/emailfield/showtimeas/
 ---
 ## EmailField.ShowTimeAs field
 
-默认字段文本是“ShowTimeAs”。
+默认字段文本为“ShowTimeAs”。
 
 ```csharp
 public static readonly EmailField ShowTimeAs;

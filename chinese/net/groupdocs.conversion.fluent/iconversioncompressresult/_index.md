@@ -1,14 +1,14 @@
 ---
 title: IConversionCompressResult
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 可以将所有转换结果压缩在单个存档中
+description: 可以将所有转换结果压缩到单个存档中
 type: docs
-weight: 1010
+weight: 1140
 url: /zh/net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface
 
-可以将所有转换结果压缩在单个存档中
+可以将所有转换结果压缩到单个存档中
 
 ```csharp
 public interface IConversionCompressResult

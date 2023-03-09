@@ -1,14 +1,14 @@
 ---
 title: TwoColumnLeft
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 分两列显示页面奇数页在左边
+description: 分两列显示页面左侧为奇数页
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.convert/pdfpagelayout/twocolumnleft/
 ---
 ## PdfPageLayout.TwoColumnLeft field
 
-分两列显示页面，奇数页在左边。
+分两列显示页面，左侧为奇数页。
 
 ```csharp
 public static readonly PdfPageLayout TwoColumnLeft;

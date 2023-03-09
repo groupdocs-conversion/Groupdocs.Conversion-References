@@ -3,7 +3,7 @@ title: RtfOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为 RTF 文件类型的选项
 type: docs
-weight: 1710
+weight: 1890
 url: /zh/net/groupdocs.conversion.options.convert/rtfoptions/
 ---
 ## RtfOptions class
@@ -24,15 +24,15 @@ public sealed class RtfOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExportImagesForOldReaders](../../groupdocs.conversion.options.convert/rtfoptions/exportimagesforoldreaders) { get; set; } | 指定“老读者”的关键字是否写入 RTF。 这会显着影响 RTF 文档的大小。默认为 False. |
+| [ExportImagesForOldReaders](../../groupdocs.conversion.options.convert/rtfoptions/exportimagesforoldreaders) { get; set; } | 指定是否将“老读者”的关键字写入 RTF。 这会显着影响 RTF 文档的大小。默认为 False. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

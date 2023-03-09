@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 提供许可组件的方法了解有关许可的更多信息这里https//purchase.groupdocs.com/faqs/licensing.
 type: docs
-weight: 1250
+weight: 1380
 url: /zh/net/groupdocs.conversion/license/
 ---
 ## License class
@@ -29,10 +29,10 @@ public sealed class License
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
-* 更多关于 GroupDocs.Conversion 许可： [评估限制和许可](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)
+* 有关 GroupDocs 的更多信息。转换许可： [评估限制和许可](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)
 
 ### 也可以看看
 

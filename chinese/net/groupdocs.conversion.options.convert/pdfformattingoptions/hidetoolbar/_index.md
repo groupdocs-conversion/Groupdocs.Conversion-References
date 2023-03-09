@@ -1,14 +1,14 @@
 ---
 title: HideToolBar
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定文档处于活动状态时是否应隐藏工具栏默认值false.
+description: 指定当文档处于活动状态时工具栏是否应隐藏默认值false.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.options.convert/pdfformattingoptions/hidetoolbar/
 ---
 ## PdfFormattingOptions.HideToolBar property
 
-指定文档处于活动状态时是否应隐藏工具栏。默认值：false.
+指定当文档处于活动状态时工具栏是否应隐藏。默认值：false.
 
 ```csharp
 public bool HideToolBar { get; set; }

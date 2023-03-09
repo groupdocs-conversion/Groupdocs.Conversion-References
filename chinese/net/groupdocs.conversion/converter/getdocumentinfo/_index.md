@@ -16,9 +16,9 @@ public IDocumentInfo GetDocumentInfo()
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 了解有关转换后文档的更多信息 - 文件类型、页数、创建日期和许多其他格式特定属性： [如何获取文档信息](https://docs.groupdocs.com/display/conversionnet/Get+document+info)
+* 了解有关转换文档的更多信息 - 文件类型、页数、创建日期和许多其他格式特定属性： [如何获取文档信息](https://docs.groupdocs.com/display/conversionnet/Get+document+info)
 
 ### 也可以看看
 

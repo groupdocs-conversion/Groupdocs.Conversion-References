@@ -1,14 +1,14 @@
 ---
 title: Ppt
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 PPT 扩展名的文件表示 PowerPoint 文件该文件由一组幻灯片组成用于显示为 SlideShow它指定 Microsoft PowerPoint 972003 使用的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppt
+description: 带有 PPT 扩展名的文件代表 PowerPoint 文件它由一组幻灯片组成用于显示为 SlideShow它指定 Microsoft PowerPoint 972003 使用的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppt
 type: docs
 weight: 110
 url: /zh/net/groupdocs.conversion.filetypes/presentationfiletype/ppt/
 ---
 ## PresentationFileType.Ppt field
 
-带有 PPT 扩展名的文件表示 PowerPoint 文件，该文件由一组幻灯片组成，用于显示为 SlideShow。它指定 Microsoft PowerPoint 97-2003 使用的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppt)
+带有 PPT 扩展名的文件代表 PowerPoint 文件，它由一组幻灯片组成，用于显示为 SlideShow。它指定 Microsoft PowerPoint 97-2003 使用的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppt)
 
 ```csharp
 public static readonly PresentationFileType Ppt;

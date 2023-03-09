@@ -3,7 +3,7 @@ title: IConversionGetPossibleConversions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 获取源文档的可能转换
 type: docs
-weight: 1120
+weight: 1250
 url: /zh/net/groupdocs.conversion.fluent/iconversiongetpossibleconversions/
 ---
 ## IConversionGetPossibleConversions interface

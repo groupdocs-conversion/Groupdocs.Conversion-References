@@ -1,14 +1,14 @@
 ---
 title: TwoPagesRight
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 一次显示两页右边是奇数页
+description: 一次显示两页奇数页在右边
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.options.convert/pdfpagelayout/twopagesright/
 ---
 ## PdfPageLayout.TwoPagesRight field
 
-一次显示两页，右边是奇数页。
+一次显示两页，奇数页在右边。
 
 ```csharp
 public static readonly PdfPageLayout TwoPagesRight;

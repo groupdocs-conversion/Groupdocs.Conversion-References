@@ -1,14 +1,14 @@
 ---
 title: Amf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: AMF 文件包含对象描述指南以供增材制造流程使用它包含一个开始的 XML 标记并以一个元素结束这前面是一个 XML 声明行指定文件的 XML 版本和编码 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/amf
+description: AMF 文件包含对象描述指南以便增材制造过程使用它包含一个开始 XML 标记并以一个元素结束前面是 XML 声明行指定文件的 XML 版本和编码 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/amf
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/amf/
 ---
 ## ThreeDFileType.Amf field
 
-AMF 文件包含对象描述指南，以供增材制造流程使用。它包含一个开始的 XML 标记并以一个元素结束。这前面是一个 XML 声明行，指定文件的 XML 版本和编码。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/amf)
+AMF 文件包含对象描述指南，以便增材制造过程使用。它包含一个开始 XML 标记并以一个元素结束。前面是 XML 声明行，指定文件的 XML 版本和编码。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/amf)
 
 ```csharp
 public static readonly ThreeDFileType Amf;

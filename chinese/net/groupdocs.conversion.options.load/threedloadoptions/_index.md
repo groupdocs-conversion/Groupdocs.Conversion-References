@@ -3,7 +3,7 @@ title: ThreeDLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 加载 3D 文档的选项
 type: docs
-weight: 2020
+weight: 2270
 url: /zh/net/groupdocs.conversion.options.load/threedloadoptions/
 ---
 ## ThreeDLoadOptions class
@@ -18,22 +18,22 @@ public class ThreeDLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ThreeDLoadOptions](threedloadoptions)() | 初始化的新实例[`ThreeDLoadOptions`](../threedloadoptions)类. |
+| [ThreeDLoadOptions](threedloadoptions)() | 初始化新实例[`ThreeDLoadOptions`](../threedloadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/threedloadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [Format](../../groupdocs.conversion.options.load/threedloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

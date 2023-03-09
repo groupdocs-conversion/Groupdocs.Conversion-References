@@ -1,14 +1,14 @@
 ---
 title: NonFullScreenPageMode
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置页面模式指定退出全屏模式时如何显示文档
+description: 设置页面模式指定在退出全屏模式时如何显示文档
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.options.convert/pdfformattingoptions/nonfullscreenpagemode/
 ---
 ## PdfFormattingOptions.NonFullScreenPageMode property
 
-设置页面模式，指定退出全屏模式时如何显示文档。
+设置页面模式，指定在退出全屏模式时如何显示文档。
 
 ```csharp
 public PdfPageMode NonFullScreenPageMode { get; set; }

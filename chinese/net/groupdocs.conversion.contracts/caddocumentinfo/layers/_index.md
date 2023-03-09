@@ -1,17 +1,17 @@
 ---
 title: Layers
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文档中的层
+description: 文档中的图层
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 ---
 ## CadDocumentInfo.Layers property
 
-文档中的层
+文档中的图层
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### 也可以看看

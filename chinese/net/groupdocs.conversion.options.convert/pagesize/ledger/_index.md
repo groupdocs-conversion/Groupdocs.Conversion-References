@@ -1,14 +1,14 @@
 ---
 title: Ledger
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 17 x 11 英寸
+description: 17 x 11 英寸.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/ledger/
 ---
 ## PageSize.Ledger field
 
-17 x 11 英寸。
+17 x 11 英寸.
 
 ```csharp
 public static readonly PageSize Ledger;

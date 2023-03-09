@@ -10,11 +10,11 @@ is_root: true
 
 | 命名空间 | 描述 |
 | --- | --- |
-| [GroupDocs.Conversion](./groupdocs.conversion) | 命名空间提供类以简单直观的方式将文档转换为所有流行的文件格式。 |
+| [GroupDocs.Conversion](./groupdocs.conversion) | 命名空间提供了以简单直观的方式将文档转换为所有流行文件格式的类。 |
 | [GroupDocs.Conversion.Caching](./groupdocs.conversion.caching) | 命名空间提供用于自定义缓存行为的类。 |
-| [GroupDocs.Conversion.Contracts](./groupdocs.conversion.contracts) | 命名空间提供成员实例化和发布输出文档、管理字体替换等。 |
-| [GroupDocs.Conversion.Exceptions](./groupdocs.conversion.exceptions) | 命名空间提供不同的异常类。 |
-| [GroupDocs.Conversion.FileTypes](./groupdocs.conversion.filetypes) | 命名空间提供了代表支持的文件类型的类。 |
+| [GroupDocs.Conversion.Contracts](./groupdocs.conversion.contracts) | 命名空间提供成员来实例化和释放输出文档，管理字体替换等。 |
+| [GroupDocs.Conversion.Exceptions](./groupdocs.conversion.exceptions) | 命名空间提供了不同的异常类。 |
+| [GroupDocs.Conversion.FileTypes](./groupdocs.conversion.filetypes) | 命名空间提供表示支持的文件类型的类。 |
 | [GroupDocs.Conversion.Fluent](./groupdocs.conversion.fluent) | 命名空间提供了流畅转换的接口。 |
 | [GroupDocs.Conversion.Integration.Audio](./groupdocs.conversion.integration.audio) | 命名空间提供音频转换支持所需的接口和类。 |
 | [GroupDocs.Conversion.Integration.Ocr](./groupdocs.conversion.integration.ocr) | 命名空间提供光学字符识别 (OCR) 支持所需的接口和类。 |

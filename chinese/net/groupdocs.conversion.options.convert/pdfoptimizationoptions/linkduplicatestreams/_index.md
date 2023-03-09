@@ -1,14 +1,14 @@
 ---
 title: LinkDuplicateStreams
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 链接重复的流
+description: 链接重复流
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/linkduplicatestreams/
 ---
 ## PdfOptimizationOptions.LinkDuplicateStreams property
 
-链接重复的流
+链接重复流
 
 ```csharp
 public bool LinkDuplicateStreams { get; set; }

@@ -11,11 +11,12 @@ url: /zh/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 存储中的文件夹
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### 也可以看看
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * 命名空间 [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * 部件 [GroupDocs.Conversion](../../../)

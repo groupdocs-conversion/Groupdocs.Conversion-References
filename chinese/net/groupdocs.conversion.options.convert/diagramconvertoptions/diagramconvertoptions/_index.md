@@ -1,14 +1,14 @@
 ---
 title: DiagramConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例DiagramConvertOptionsgroupdocs.conversion.options.convert/diagramconvertoptions类.
+description: 初始化新实例DiagramConvertOptionsgroupdocs.conversion.options.convert/diagramconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/diagramconvertoptions/diagramconvertoptions/
 ---
 ## DiagramConvertOptions constructor
 
-初始化的新实例[`DiagramConvertOptions`](../../diagramconvertoptions)类.
+初始化新实例[`DiagramConvertOptions`](../../diagramconvertoptions)类.
 
 ```csharp
 public DiagramConvertOptions()

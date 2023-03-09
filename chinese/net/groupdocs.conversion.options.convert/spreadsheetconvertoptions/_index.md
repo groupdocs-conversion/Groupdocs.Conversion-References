@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为电子表格文件类型的选项
 type: docs
-weight: 1720
+weight: 1900
 url: /zh/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions class
@@ -18,29 +18,29 @@ public class SpreadsheetConvertOptions : CommonConvertOptions<SpreadsheetFileTyp
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetConvertOptions](spreadsheetconvertoptions)() | 初始化的新实例[`SpreadsheetConvertOptions`](../spreadsheetconvertoptions)类. |
+| [SpreadsheetConvertOptions](spreadsheetconvertoptions)() | 初始化新实例[`SpreadsheetConvertOptions`](../spreadsheetconvertoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | 开始转换的页码。 |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | 要转换的页面索引列表。应指定转换特定页面。 |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | 开始转换的页数`页码`. |
 | [Password](../../groupdocs.conversion.options.convert/spreadsheetconvertoptions/password) { get; set; } | 如果要使用密码保护转换后的文档，请设置此属性。 |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | 水印特定选项 |
-| [Zoom](../../groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom) { get; set; } | 以百分比指定缩放级别。默认值为 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom) { get; set; } | 以百分比指定缩放级别。默认为 100. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | 克隆当前选项实例。 |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

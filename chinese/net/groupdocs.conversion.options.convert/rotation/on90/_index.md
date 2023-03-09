@@ -1,14 +1,14 @@
 ---
 title: On90
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 90 度
+description: 90 度.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.convert/rotation/on90/
 ---
 ## Rotation.On90 field
 
-90 度。
+90 度.
 
 ```csharp
 public static readonly Rotation On90;

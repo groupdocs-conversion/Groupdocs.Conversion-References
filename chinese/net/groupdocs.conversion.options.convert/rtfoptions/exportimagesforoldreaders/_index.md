@@ -1,14 +1,14 @@
 ---
 title: ExportImagesForOldReaders
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定老读者的关键字是否写入 RTF 这会显着影响 RTF 文档的大小默认为 False.
+description: 指定是否将老读者的关键字写入 RTF 这会显着影响 RTF 文档的大小默认为 False.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/rtfoptions/exportimagesforoldreaders/
 ---
 ## RtfOptions.ExportImagesForOldReaders property
 
-指定“老读者”的关键字是否写入 RTF。 这会显着影响 RTF 文档的大小。默认为 False.
+指定是否将“老读者”的关键字写入 RTF。 这会显着影响 RTF 文档的大小。默认为 False.
 
 ```csharp
 public bool ExportImagesForOldReaders { get; set; }

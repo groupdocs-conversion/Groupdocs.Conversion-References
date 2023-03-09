@@ -24,7 +24,7 @@ public PasswordRequiredException()
 
 ## PasswordRequiredException(FileType) {#constructor_1}
 
-创建一个带有 FileType 的异常实例
+创建具有 FileType 的异常实例
 
 ```csharp
 public PasswordRequiredException(FileType fileType)
@@ -45,7 +45,7 @@ public PasswordRequiredException(FileType fileType)
 
 ## PasswordRequiredException(string) {#constructor_2}
 
-创建带有消息的异常实例
+创建一个带有消息 的异常实例
 
 ```csharp
 public PasswordRequiredException(string message)

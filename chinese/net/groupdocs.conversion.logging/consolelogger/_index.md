@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 控制台记录器实现
 type: docs
-weight: 1260
+weight: 1390
 url: /zh/net/groupdocs.conversion.logging/consolelogger/
 ---
 ## ConsoleLogger class
@@ -24,7 +24,7 @@ public sealed class ConsoleLogger : ILogger
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Error](../../groupdocs.conversion.logging/consolelogger/error)(string, Exception) | 写入错误日志消息； 错误日志消息提供有关应用程序流中不可恢复事件的信息。 |
+| [Error](../../groupdocs.conversion.logging/consolelogger/error)(string, Exception) | 写入错误日志消息； 错误日志消息提供有关应用程序流程中不可恢复事件的信息。 |
 | [Trace](../../groupdocs.conversion.logging/consolelogger/trace)(string) | 写入跟踪日志消息； 跟踪日志消息提供有关应用程序流的一般有用信息。 |
 | [Warning](../../groupdocs.conversion.logging/consolelogger/warning)(string) | 写入警告日志消息； 警告日志消息提供有关应用程序流中意外和可恢复事件的信息。 |
 

@@ -1,32 +1,31 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 接收转换后的文档流仅当设置了Savestring或SaveSaveDocumentStreamForFileType时才会触发
+description: 接收转换后的文档流仅当设置了ConvertTostring fileName或 ConvertToconvertedStreamProvider 时才会触发
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-接收转换后的文档流。仅当设置了“Save(string)”或“Save(SaveDocumentStreamForFileType)”时才会触发。
+接收转换后的文档流。仅当设置了“ConvertTo(string fileName)”或 ConvertTo(convertedStreamProvider) 时才会触发。
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | 转换后的文档流提供程序 |
+| convertedFileStream | Action`2 | 转换后的文件流provider |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * 部件 [GroupDocs.Conversion](../../../)

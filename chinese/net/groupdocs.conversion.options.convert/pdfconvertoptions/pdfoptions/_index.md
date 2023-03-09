@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: pdf 特定转换选项
+description: Pdf 特定转换选项
 type: docs
 weight: 110
 url: /zh/net/groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions/
 ---
 ## PdfConvertOptions.PdfOptions property
 
-pdf 特定转换选项
+Pdf 特定转换选项
 
 ```csharp
 public PdfOptions PdfOptions { get; set; }

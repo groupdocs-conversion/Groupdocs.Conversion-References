@@ -1,14 +1,14 @@
 ---
 title: Words
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取字数
+description: 获取字数 count
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/words/
 ---
 ## WordProcessingDocumentInfo.Words property
 
-获取字数
+获取字数 count
 
 ```csharp
 public int Words { get; }

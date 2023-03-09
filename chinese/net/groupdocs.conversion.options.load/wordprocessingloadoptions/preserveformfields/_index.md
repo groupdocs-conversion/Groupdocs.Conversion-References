@@ -1,14 +1,14 @@
 ---
 title: PreserveFormFields
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本默认为假
+description: 指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本默认为 false.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields/
 ---
 ## WordProcessingLoadOptions.PreserveFormFields property
 
-指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。默认为假。
+指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。默认为 false.
 
 ```csharp
 public bool PreserveFormFields { get; set; }

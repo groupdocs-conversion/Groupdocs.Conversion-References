@@ -3,7 +3,7 @@ title: Tga
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 扩展名为 .tga 的文件是一种光栅图形格式由 Truevision Inc. 创建 了解有关此文件格式的更多信息这里https//docs.fileformat.com/image/tga
 type: docs
-weight: 350
+weight: 320
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

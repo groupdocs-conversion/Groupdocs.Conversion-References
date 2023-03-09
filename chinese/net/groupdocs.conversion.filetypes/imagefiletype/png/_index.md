@@ -1,14 +1,14 @@
 ---
 title: Png
 second_title: GroupDocs.Conversion for .NET API 参考
-description: PNGPortable Network Graphics是指一种使用无损压缩的光栅图像文件格式此文件格式是作为图形交换格式 GIF 的替代品创建的没有版权限制 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/png
+description: PNGPortable Network Graphics指的是一种使用无损压缩的光栅图像文件格式此文件格式是为替代图形交换格式 GIF 而创建的没有版权限制 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/png
 type: docs
-weight: 300
+weight: 280
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field
 
-PNG，Portable Network Graphics，是指一种使用无损压缩的光栅图像文件格式。此文件格式是作为图形交换格式 (GIF) 的替代品创建的，没有版权限制。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/png)
+PNG，Portable Network Graphics，指的是一种使用无损压缩的光栅图像文件格式。此文件格式是为替代图形交换格式 (GIF) 而创建的，没有版权限制。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/png)
 
 ```csharp
 public static readonly ImageFileType Png;

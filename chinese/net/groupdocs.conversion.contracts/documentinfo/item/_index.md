@@ -1,17 +1,17 @@
 ---
 title: Item
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取作为键提供的属性的值
+description: 获取作为 key 提供的属性的值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/documentinfo/item/
 ---
 ## DocumentInfo indexer
 
-获取作为键提供的属性的值
+获取作为 key 提供的属性的值
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 ### 也可以看看

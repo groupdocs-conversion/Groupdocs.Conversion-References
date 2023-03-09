@@ -1,14 +1,14 @@
 ---
 title: ConvertTo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 将转换后的文档另存为文件
+description: 将转换后的文档另存为 file
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.fluent/iconversionto/convertto/
 ---
 ## ConvertTo(string) {#convertto_2}
 
-将转换后的文档另存为文件
+将转换后的文档另存为 file
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
@@ -16,11 +16,11 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 转换后的文件 |
+| fileName | String | 转换文件 |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
@@ -31,54 +31,52 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
-将转换后的文档另存为流
+将转换后的文档另存为 stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | 转换后的文档流提供程序 |
+| convertedStreamProvider | Func`1 | 转换后的文档流提供者 |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversionto)
 * 部件 [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
-按 type 将转换后的文档另存为流
+按type 将转换后的文档保存为流
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | 转换后的文档流提供程序 |
+| convertedStreamProvider | Func`2 | 转换后的文件流provider |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversionto)
 * 部件 [GroupDocs.Conversion](../../../)

@@ -1,14 +1,14 @@
 ---
 title: Set
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 将缓存条目插入缓存
+description: 将缓存条目插入到缓存中
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.caching/filecache/set/
 ---
 ## FileCache.Set method
 
-将缓存条目插入缓存。
+将缓存条目插入到缓存中。
 
 ```csharp
 public void Set(string key, object value)

@@ -3,7 +3,7 @@ title: Odg
 second_title: GroupDocs.Conversion for .NET API 参考
 description: Apache OpenOffice 的 Draw 应用程序使用 ODG 文件格式将绘图元素存储为矢量图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/odg
 type: docs
-weight: 280
+weight: 260
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/odg/
 ---
 ## ImageFileType.Odg field

@@ -1,14 +1,14 @@
 ---
 title: IConversionSettings
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置转换设置
+description: 安装转换设置
 type: docs
-weight: 1150
+weight: 1280
 url: /zh/net/groupdocs.conversion.fluent/iconversionsettings/
 ---
 ## IConversionSettings interface
 
-设置转换设置
+安装转换设置
 
 ```csharp
 public interface IConversionSettings

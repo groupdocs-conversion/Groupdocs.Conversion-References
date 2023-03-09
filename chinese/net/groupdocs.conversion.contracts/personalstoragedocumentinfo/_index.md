@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 包含个人存储文档元数据
 type: docs
-weight: 360
+weight: 380
 url: /zh/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 ---
 ## PersonalStorageDocumentInfo class
@@ -21,13 +21,13 @@ public class PersonalStorageDocumentInfo : DocumentInfo
 | [ContentCount](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/contentcount) { get; } | 获取根文件夹中的内容计数 |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
 | [Folders](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/folders) { get; } | 存储中的文件夹 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/ispasswordprotected) { get; } | 存储密码是否受保护 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
 | [RootFolderName](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/rootfoldername) { get; } | 根文件夹名称 |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Lines
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取行数
+description: 获取行数 count
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines/
 ---
 ## WordProcessingDocumentInfo.Lines property
 
-获取行数
+获取行数 count
 
 ```csharp
 public int Lines { get; }

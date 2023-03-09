@@ -1,14 +1,14 @@
 ---
 title: Ai
 second_title: GroupDocs.Conversion for .NET API 参考
-description: AIAdobe Illustrator Artwork以 EPS 或 PDF 格式表示基于矢量的单页绘图
+description: AIAdobe Illustrator 图稿代表 EPS 或 PDF 格式的单页矢量绘图
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/ai/
 ---
 ## ImageFileType.Ai field
 
-AI，Adobe Illustrator Artwork，以 EPS 或 PDF 格式表示基于矢量的单页绘图。
+AI，Adobe Illustrator 图稿，代表 EPS 或 PDF 格式的单页矢量绘图。
 
 ```csharp
 public static readonly ImageFileType Ai;

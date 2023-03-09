@@ -52,7 +52,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<LoadOptions> loadOptions
 
 ## WithOptions(Func&lt;FileType, LoadOptions&gt;) {#withoptions_2}
 
-设置指定文件类型的加载选项
+为指定文件类型设置加载选项
 
 ```csharp
 public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> loadOptionsProvider)
@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | 加载选项提供程序 |
+| loadOptionsProvider | Func`2 | 加载选项 provider 加载文件的类型 |
 
 ### 也可以看看
 

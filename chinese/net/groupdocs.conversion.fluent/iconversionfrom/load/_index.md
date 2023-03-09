@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置源文档文件名
+description: 设置源文件文件名
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.fluent/iconversionfrom/load/
 ---
 ## Load(string) {#load_2}
 
-设置源文档文件名
+设置源文件文件名
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
@@ -16,7 +16,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 源文件 |
+| fileName | String | 源文档 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
 
 ## Load(string[]) {#load_3}
 
-设置源文档数组
+设置源文件array
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
@@ -50,7 +50,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
 
 ## Load(Func&lt;Stream&gt;) {#load_1}
 
-设置源文档流
+设置源文件stream
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentStreamProvider)
@@ -77,7 +77,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentSt
 
 ## Load(Func&lt;Stream[]&gt;) {#load}
 
-设置源文档流数组
+设置源文件流数组
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> documentStreamProvider)

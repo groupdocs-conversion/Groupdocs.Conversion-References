@@ -24,7 +24,7 @@ public GroupDocsConversionException()
 
 ## GroupDocsConversionException(string) {#constructor_1}
 
-创建带有特定消息的异常
+使用特定消息创建异常
 
 ```csharp
 public GroupDocsConversionException(string message)
@@ -53,7 +53,7 @@ public GroupDocsConversionException(string message, Exception exception)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 讯息 |
-| exception | Exception | 内在异常 |
+| exception | Exception | 内部异常 |
 
 ### 也可以看看
 

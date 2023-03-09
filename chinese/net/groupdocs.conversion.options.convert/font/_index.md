@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 字体设置
 type: docs
-weight: 1380
+weight: 1530
 url: /zh/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class
@@ -26,7 +26,7 @@ public class Font : ValueObject
 | --- | --- |
 | [Bold](../../groupdocs.conversion.options.convert/font/bold) { get; set; } | 字体粗体 |
 | [FamilyName](../../groupdocs.conversion.options.convert/font/familyname) { get; } | 字体系列名称 |
-| [Italic](../../groupdocs.conversion.options.convert/font/italic) { get; set; } | 字体斜体 |
+| [Italic](../../groupdocs.conversion.options.convert/font/italic) { get; set; } | 斜体字体 |
 | [Size](../../groupdocs.conversion.options.convert/font/size) { get; } | 字体大小 |
 | [Underline](../../groupdocs.conversion.options.convert/font/underline) { get; set; } | 字体下划线 |
 
@@ -34,9 +34,9 @@ public class Font : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Odp
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 ODP 扩展名的文件表示 OpenOffice.org 在 OASISOpen 标准中使用的演示文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/odp
+description: 具有 ODP 扩展名的文件表示 OpenOffice.org 在 OASISOpen 标准中使用的演示文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/odp
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/presentationfiletype/odp/
 ---
 ## PresentationFileType.Odp field
 
-带有 ODP 扩展名的文件表示 OpenOffice.org 在 OASISOpen 标准中使用的演示文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/odp)
+具有 ODP 扩展名的文件表示 OpenOffice.org 在 OASISOpen 标准中使用的演示文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/odp)
 
 ```csharp
 public static readonly PresentationFileType Odp;

@@ -1,14 +1,14 @@
 ---
 title: ChannelsCount
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 颜色通道数
+description: 颜色通道计数
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/psdoptions/channelscount/
 ---
 ## PsdOptions.ChannelsCount property
 
-颜色通道数。
+颜色通道计数。
 
 ```csharp
 public short ChannelsCount { get; set; }

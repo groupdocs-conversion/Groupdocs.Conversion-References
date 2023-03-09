@@ -1,14 +1,14 @@
 ---
 title: TabField
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是TabField
+description: 默认字段文本为TabField
 type: docs
 weight: 180
 url: /zh/net/groupdocs.conversion.options.load/emailfield/tabfield/
 ---
 ## EmailField.TabField field
 
-默认字段文本是“TabField”。
+默认字段文本为“TabField”。
 
 ```csharp
 public static readonly EmailField TabField;

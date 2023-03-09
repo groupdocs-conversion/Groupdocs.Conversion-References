@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 指定页面大小
 type: docs
-weight: 1550
+weight: 1720
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/
 ---
 ## PageSize class
@@ -25,10 +25,10 @@ public sealed class PageSize : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
@@ -41,16 +41,16 @@ public sealed class PageSize : Enumeration
 | static readonly [B5](../../groupdocs.conversion.options.convert/pagesize/b5) | 176 x 250 毫米. |
 | static readonly [Custom](../../groupdocs.conversion.options.convert/pagesize/custom) | 自定义纸张尺寸。 |
 | static readonly [EnvelopeDL](../../groupdocs.conversion.options.convert/pagesize/envelopedl) | 110 x 220 毫米. |
-| static readonly [Executive](../../groupdocs.conversion.options.convert/pagesize/executive) | 7.25 x 10.5 英寸。 |
-| static readonly [Folio](../../groupdocs.conversion.options.convert/pagesize/folio) | 8.5 x 13 英寸。 |
-| static readonly [Ledger](../../groupdocs.conversion.options.convert/pagesize/ledger) | 17 x 11 英寸。 |
-| static readonly [Legal](../../groupdocs.conversion.options.convert/pagesize/legal) | 8.5 x 14 英寸。 |
-| static readonly [Letter](../../groupdocs.conversion.options.convert/pagesize/letter) | 8.5 x 11 英寸。 |
-| static readonly [Paper10x14](../../groupdocs.conversion.options.convert/pagesize/paper10x14) | 10 x 14 英寸。 |
-| static readonly [Paper11x17](../../groupdocs.conversion.options.convert/pagesize/paper11x17) | 11 x 17 英寸。 |
-| static readonly [Quarto](../../groupdocs.conversion.options.convert/pagesize/quarto) | 8.47 x 10.83 英寸。 |
-| static readonly [Statement](../../groupdocs.conversion.options.convert/pagesize/statement) | 8.5 x 5.5 英寸。 |
-| static readonly [Tabloid](../../groupdocs.conversion.options.convert/pagesize/tabloid) | 11 x 17 英寸。 |
+| static readonly [Executive](../../groupdocs.conversion.options.convert/pagesize/executive) | 7.25 x 10.5 英寸. |
+| static readonly [Folio](../../groupdocs.conversion.options.convert/pagesize/folio) | 8.5 x 13 英寸. |
+| static readonly [Ledger](../../groupdocs.conversion.options.convert/pagesize/ledger) | 17 x 11 英寸. |
+| static readonly [Legal](../../groupdocs.conversion.options.convert/pagesize/legal) | 8.5 x 14 英寸. |
+| static readonly [Letter](../../groupdocs.conversion.options.convert/pagesize/letter) | 8.5 x 11 英寸. |
+| static readonly [Paper10x14](../../groupdocs.conversion.options.convert/pagesize/paper10x14) | 10 x 14 英寸. |
+| static readonly [Paper11x17](../../groupdocs.conversion.options.convert/pagesize/paper11x17) | 11 x 17 英寸. |
+| static readonly [Quarto](../../groupdocs.conversion.options.convert/pagesize/quarto) | 8.47 x 10.83 英寸. |
+| static readonly [Statement](../../groupdocs.conversion.options.convert/pagesize/statement) | 8.5 x 5.5 英寸. |
+| static readonly [Tabloid](../../groupdocs.conversion.options.convert/pagesize/tabloid) | 11 x 17 英寸. |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 包含文档的元数据
 type: docs
-weight: 240
+weight: 250
 url: /zh/net/groupdocs.conversion.contracts/idocumentinfo/
 ---
 ## IDocumentInfo interface
@@ -19,11 +19,11 @@ public interface IDocumentInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/idocumentinfo/creationdate) { get; } | 文档创建日期 |
-| [Format](../../groupdocs.conversion.contracts/idocumentinfo/format) { get; } | 文档格式 |
-| [Item](../../groupdocs.conversion.contracts/idocumentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Format](../../groupdocs.conversion.contracts/idocumentinfo/format) { get; } | 文件格式 |
+| [Item](../../groupdocs.conversion.contracts/idocumentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/idocumentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/idocumentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/idocumentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/idocumentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/idocumentinfo/size) { get; } | 文档大小（以字节为单位） |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Lzma
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 扩展名为 .lzma 的文件是使用 LZMALempelZivMarkov 链算法压缩方法创建的压缩存档文件这些主要在 Unix 操作系统上找到/使用并且类似于其他压缩算法例如 ZIP用于最小化文件大小 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/lzma/
+description: 扩展名为 .lzma 的文件是使用 LZMALempelZivMarkov 链算法压缩方法创建的压缩存档文件这些主要在 Unix 操作系统上找到/使用并且类似于其他压缩算法例如用于最小化文件大小的 ZIP 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/lzma/
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
 ---
 ## CompressionFileType.Lzma field
 
-扩展名为 .lzma 的文件是使用 LZMA（Lempel-Ziv-Markov 链算法）压缩方法创建的压缩存档文件。这些主要在 Unix 操作系统上找到/使用，并且类似于其他压缩算法，例如 ZIP，用于最小化文件大小。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/lzma/)
+扩展名为 .lzma 的文件是使用 LZMA（Lempel-Ziv-Markov 链算法）压缩方法创建的压缩存档文件。这些主要在 Unix 操作系统上找到/使用，并且类似于其他压缩算法，例如用于最小化文件大小的 ZIP。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/lzma/)
 
 ```csharp
 public static readonly CompressionFileType Lzma;

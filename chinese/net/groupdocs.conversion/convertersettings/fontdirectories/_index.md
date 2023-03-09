@@ -1,14 +1,14 @@
 ---
 title: FontDirectories
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 自定义字体目录路径
+description: 自定义字体目录 paths
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion/convertersettings/fontdirectories/
 ---
 ## ConverterSettings.FontDirectories property
 
-自定义字体目录路径
+自定义字体目录 paths
 
 ```csharp
 public List<string> FontDirectories { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Vsx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .VSX 扩展名的文件是指由用于在 Microsoft Visio 中创建图表的绘图和形状组成的模具 VSX 文件以 XML 文件格式保存并在 Visio 2013 之前受支持 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsx.
+description: 具有 .VSX 扩展名的文件是指由绘图和形状组成的模板用于在 Microsoft Visio 中创建图表 VSX 文件以 XML 文件格式保存并在 Visio 2013 之前一直受支持 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsx.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.conversion.filetypes/diagramfiletype/vsx/
 ---
 ## DiagramFileType.Vsx field
 
-带有 .VSX 扩展名的文件是指由用于在 Microsoft Visio 中创建图表的绘图和形状组成的模具。 VSX 文件以 XML 文件格式保存，并在 Visio 2013 之前受支持。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsx).
+具有 .VSX 扩展名的文件是指由绘图和形状组成的模板，用于在 Microsoft Visio 中创建图表。 VSX 文件以 XML 文件格式保存并在 Visio 2013 之前一直受支持。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsx).
 
 ```csharp
 public static readonly DiagramFileType Vsx;

@@ -1,14 +1,14 @@
 ---
 title: Ico
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 ICO 扩展名的文件是图像文件类型用作在 Microsoft Windows 上表示应用程序的图标 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/ico
+description: 带 ICO 扩展名的文件是用作图标的图像文件类型用于表示 Microsoft Windows 上的应用程序 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/ico
 type: docs
-weight: 170
+weight: 150
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/ico/
 ---
 ## ImageFileType.Ico field
 
-带有 ICO 扩展名的文件是图像文件类型，用作在 Microsoft Windows 上表示应用程序的图标。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/ico)
+带 ICO 扩展名的文件是用作图标的图像文件类型，用于表示 Microsoft Windows 上的应用程序。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/ico)
 
 ```csharp
 public static readonly ImageFileType Ico;

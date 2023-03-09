@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 加载标记文档的选项
 type: docs
-weight: 1940
+weight: 2170
 url: /zh/net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class
@@ -11,37 +11,32 @@ url: /zh/net/groupdocs.conversion.options.load/markuploadoptions/
 加载标记文档的选项。
 
 ```csharp
-public sealed class MarkupLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public sealed class MarkupLoadOptions : WebLoadOptions
 ```
-
-## 构造函数
-
-| 姓名 | 描述 |
-| --- | --- |
-| [MarkupLoadOptions](markuploadoptions)() | 演员 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BasePath](../../groupdocs.conversion.options.load/markuploadoptions/basepath) { get; set; } | html 的基本路径/url |
-| [Encoding](../../groupdocs.conversion.options.load/markuploadoptions/encoding) { get; set; } | 获取或设置加载标记文档时要使用的编码。 如果属性为空，则编码将由文档字符集属性确定 |
-| [Format](../../groupdocs.conversion.options.load/markuploadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
-| [PageNumbering](../../groupdocs.conversion.options.load/markuploadoptions/pagenumbering) { get; set; } | 启用或禁用在转换后的文档中生成页码。默认值：false |
-| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/markuploadoptions/resourceloadingtimeout) { get; set; } | 加载外部资源超时 |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | html 的基本路径/url |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | 获取或设置加载标记文档时使用的编码。 如果该属性为空，则编码将从文档字符集属性 确定 |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | 在转换后的文档中启用或禁用页码生成。默认值：false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | 加载外部资源超时 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * 命名空间 [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * 部件 [GroupDocs.Conversion](../../)
 

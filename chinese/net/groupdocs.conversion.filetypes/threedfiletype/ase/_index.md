@@ -1,14 +1,14 @@
 ---
 title: Ase
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .ase 扩展名的文件是 Autodesk ASCII 场景导出文件格式它是场景的 ASCII 表示在使用 Autodesk 导出场景数据时包含 2D 或 3D 信息 了解有关此文件格式的详细信息这里https//docs.fileformat.com/3d/ase
+description: 扩展名为 .ase 的文件是 Autodesk ASCII 场景导出文件格式它是场景的 ASCII 表示在使用 Autodesk 导出场景数据时包含 2D 或 3D 信息 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/ase
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/ase/
 ---
 ## ThreeDFileType.Ase field
 
-带有 .ase 扩展名的文件是 Autodesk ASCII 场景导出文件格式，它是场景的 ASCII 表示，在使用 Autodesk 导出场景数据时包含 2D 或 3D 信息。 了解有关此文件格式的详细信息[这里](https://docs.fileformat.com/3d/ase)
+扩展名为 .ase 的文件是 Autodesk ASCII 场景导出文件格式，它是场景的 ASCII 表示，在使用 Autodesk 导出场景数据时包含 2D 或 3D 信息。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/ase)
 
 ```csharp
 public static readonly ThreeDFileType Ase;

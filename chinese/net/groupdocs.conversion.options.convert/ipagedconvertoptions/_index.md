@@ -1,14 +1,14 @@
 ---
 title: IPagedConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示允许转换通过指定起始页和页数来执行页面限制的转换选项
+description: 表示转换选项允许转换通过指定起始页和页数来执行页面限制
 type: docs
-weight: 1440
+weight: 1600
 url: /zh/net/groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 ## IPagedConvertOptions interface
 
-表示允许转换通过指定起始页和页数来执行页面限制的转换选项
+表示转换选项，允许转换通过指定起始页和页数来执行页面限制
 
 ```csharp
 public interface IPagedConvertOptions : IConvertOptions

@@ -1,14 +1,14 @@
 ---
 title: Cmx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 CMX 扩展名的文件是 Corel Exchange 图像文件格式CorelSuite 应用程序用作演示文稿 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cmx
+description: 带有 CMX 扩展名的文件是 Corel Exchange 图像文件格式被 CorelSuite 应用程序用作演示文稿 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cmx
 type: docs
-weight: 60
+weight: 50
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field
 
-带有 CMX 扩展名的文件是 Corel Exchange 图像文件格式，CorelSuite 应用程序用作演示文稿。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cmx)
+带有 CMX 扩展名的文件是 Corel Exchange 图像文件格式，被 CorelSuite 应用程序用作演示文稿。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cmx)
 
 ```csharp
 public static readonly ImageFileType Cmx;

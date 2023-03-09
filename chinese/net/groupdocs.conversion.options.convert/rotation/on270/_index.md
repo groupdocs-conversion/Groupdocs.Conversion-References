@@ -1,14 +1,14 @@
 ---
 title: On270
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 270 度
+description: 270 度.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/rotation/on270/
 ---
 ## Rotation.On270 field
 
-270 度。
+270 度.
 
 ```csharp
 public static readonly Rotation On270;

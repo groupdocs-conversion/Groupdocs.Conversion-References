@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是位置
+description: 默认字段文本为位置
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.options.load/emailfield/location/
 ---
 ## EmailField.Location field
 
-默认字段文本是“位置”。
+默认字段文本为“位置”。
 
 ```csharp
 public static readonly EmailField Location;

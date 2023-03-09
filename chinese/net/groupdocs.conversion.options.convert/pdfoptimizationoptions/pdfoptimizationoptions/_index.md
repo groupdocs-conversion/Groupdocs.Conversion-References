@@ -1,14 +1,14 @@
 ---
 title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例PdfOptimizationOptionsgroupdocs.conversion.options.convert/pdfoptimizationoptions类.
+description: 初始化新实例PdfOptimizationOptionsgroupdocs.conversion.options.convert/pdfoptimizationoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions constructor
 
-初始化的新实例[`PdfOptimizationOptions`](../../pdfoptimizationoptions)类.
+初始化新实例[`PdfOptimizationOptions`](../../pdfoptimizationoptions)类.
 
 ```csharp
 public PdfOptimizationOptions()

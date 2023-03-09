@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 图表文档的默认字体如果缺少字体将使用以下字体
+description: 图文档的默认字体如果缺少字体将使用以下字体
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.load/diagramloadoptions/defaultfont/
 ---
 ## DiagramLoadOptions.DefaultFont property
 
-图表文档的默认字体。如果缺少字体，将使用以下字体。
+图文档的默认字体。如果缺少字体，将使用以下字体。
 
 ```csharp
 public string DefaultFont { get; set; }

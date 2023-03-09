@@ -1,14 +1,14 @@
 ---
 title: All
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 所有目标文件类型和主要/次要标志  IEnumerable ofTargetConversiongroupdocs.conversion.contracts/targetconversion
+description: 所有目标文件类型和主要/次要标志 可枚举的TargetConversiongroupdocs.conversion.contracts/targetconversion
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.contracts/possibleconversions/all/
 ---
 ## PossibleConversions.All property
 
-所有目标文件类型和主要/次要标志  IEnumerable of[`TargetConversion`](../../targetconversion)
+所有目标文件类型和主要/次要标志 可枚举的[`TargetConversion`](../../targetconversion)
 
 ```csharp
 public IEnumerable<TargetConversion> All { get; }

@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例ProjectManagementConvertOptionsgroupdocs.conversion.options.convert/projectmanagementconvertoptions类.
+description: 初始化新实例ProjectManagementConvertOptionsgroupdocs.conversion.options.convert/projectmanagementconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/projectmanagementconvertoptions/
 ---
 ## ProjectManagementConvertOptions constructor
 
-初始化的新实例[`ProjectManagementConvertOptions`](../../projectmanagementconvertoptions)类.
+初始化新实例[`ProjectManagementConvertOptions`](../../projectmanagementconvertoptions)类.
 
 ```csharp
 public ProjectManagementConvertOptions()

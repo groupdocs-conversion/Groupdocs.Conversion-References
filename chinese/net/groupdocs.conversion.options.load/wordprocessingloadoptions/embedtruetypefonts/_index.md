@@ -1,14 +1,14 @@
 ---
 title: EmbedTrueTypeFonts
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果 EmbedTrueTypeFonts 为真GroupDocs.Conversion 在输出文档中嵌入真字体默认值false
+description: 如果 EmbedTrueTypeFonts 为真则 GroupDocs.Conversion 会在输出文档中嵌入真实字体默认值false
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts/
 ---
 ## WordProcessingLoadOptions.EmbedTrueTypeFonts property
 
-如果 EmbedTrueTypeFonts 为真，GroupDocs.Conversion 在输出文档中嵌入真字体。默认值：false
+如果 EmbedTrueTypeFonts 为真，则 GroupDocs.Conversion 会在输出文档中嵌入真实字体。默认值：false
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }

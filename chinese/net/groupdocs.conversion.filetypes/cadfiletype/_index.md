@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义用于 3D 图形文件格式并且可能包含 2D 或 3D 设计的 CAD 文档计算机辅助设计 包括以下类型 Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . 了解有关 CAD 格式的更多信息这里https//wiki.fileformat.com/cad.
+description: 定义用于 3D 图形文件格式并可能包含 2D 或 3D 设计的 CAD 文档计算机辅助设计 包括以下类型 Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . 了解有关 CAD 格式的更多信息这里https//wiki.fileformat.com/cad.
 type: docs
-weight: 800
+weight: 860
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-定义用于 3D 图形文件格式并且可能包含 2D 或 3D 设计的 CAD 文档（计算机辅助设计）。 包括以下类型： [`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . 了解有关 CAD 格式的更多信息[这里](https://wiki.fileformat.com/cad).
+定义用于 3D 图形文件格式并可能包含 2D 或 3D 设计的 CAD 文档（计算机辅助设计）。 包括以下类型： [`Cf2`](./cf2)[`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwfx`](./dwfx)[`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . 了解有关 CAD 格式的更多信息[这里](https://wiki.fileformat.com/cad).
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -26,7 +26,7 @@ public sealed class CadFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,26 +34,26 @@ public sealed class CadFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Cf2](../../groupdocs.conversion.filetypes/cadfiletype/cf2) | 通用文件格式文件。包含 3D 封装设计或其他模型数据的 CAD 文件；可以用CAD/CAM机器加工切割，如模切设备。 |
-| static readonly [Dgn](../../groupdocs.conversion.filetypes/cadfiletype/dgn) | DGN、设计、文件是由 CAD 应用程序（如 MicroStation 和 Intergraph 交互式图形设计系统）创建并支持的图纸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dgn) |
-| static readonly [Dwf](../../groupdocs.conversion.filetypes/cadfiletype/dwf) | 设计 Web 格式 (DWF) 表示压缩格式的 2D/3D 绘图，用于查看、审查或打印设计文件。它包含作为设计数据一部分的图形和文本，并由于其压缩格式而减小了文件的大小。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwf). |
-| static readonly [Dwfx](../../groupdocs.conversion.filetypes/cadfiletype/dwfx) | DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 工程图。它以 DWFx 格式保存，类似于 . DWF 文件，但使用 Microsoft 的 XML 纸张规范 (XPS) 进行格式化。 |
-| static readonly [Dwg](../../groupdocs.conversion.filetypes/cadfiletype/dwg) | 带有 DWG 扩展名的文件代表用于包含 2D 和 3D 设计数据的专有二进制文件。与作为 ASCII 文件的 DXF 一样，DWG 代表 CAD（计算机辅助设计）图纸的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwg). |
-| static readonly [Dwt](../../groupdocs.conversion.filetypes/cadfiletype/dwt) | DWT 文件是 AutoCAD 绘图模板文件，用作创建可保存为 DWG 文件的绘图的起始文件。 了解有关此文件格式的详细信息[这里](https://wiki.fileformat.com/cad/dwt) |
-| static readonly [Dxf](../../groupdocs.conversion.filetypes/cadfiletype/dxf) | DXF（图形交换格式或图形交换格式）是 AutoCAD 图形文件的标记数据表示。 了解有关此文件格式的详细信息[这里](https://wiki.fileformat.com/cad/dxf) |
-| static readonly [Ifc](../../groupdocs.conversion.filetypes/cadfiletype/ifc) | 具有 IFC 扩展名的文件是指工业基础类 (IFC) 文件格式，它建立了用于导入和导出建筑对象及其属性的国际标准。这种文件格式提供了不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc). |
+| static readonly [Cf2](../../groupdocs.conversion.filetypes/cadfiletype/cf2) | 通用文件格式文件。包含 3D 包装设计或其他模型数据的 CAD 文件；可通过模切设备等CAD/CAM机器加工切割。 |
+| static readonly [Dgn](../../groupdocs.conversion.filetypes/cadfiletype/dgn) | DGN、设计文件是由 CAD 应用程序（例如 MicroStation 和鹰图交互式图形设计系统）创建和支持的绘图。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dgn) |
+| static readonly [Dwf](../../groupdocs.conversion.filetypes/cadfiletype/dwf) | Design Web Format (DWF) 表示压缩格式的 2D/3D 绘图，用于查看、审阅或打印设计文件。它包含图形和文本作为设计数据的一部分，并由于其压缩格式而减小了文件的大小。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwf). |
+| static readonly [Dwfx](../../groupdocs.conversion.filetypes/cadfiletype/dwfx) | DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 绘图。它以 DWFx 格式保存，类似于 . DWF 文件，但使用 Microsoft 的 XML 纸张规范 (XPS) 进行格式化。 |
+| static readonly [Dwg](../../groupdocs.conversion.filetypes/cadfiletype/dwg) | 具有 DWG 扩展名的文件表示用于包含 2D 和 3D 设计数据的专有二进制文件。与作为 ASCII 文件的 DXF 一样，DWG 代表 CAD（计算机辅助设计）图纸的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwg). |
+| static readonly [Dwt](../../groupdocs.conversion.filetypes/cadfiletype/dwt) | DWT 文件是一种 AutoCAD 绘图模板文件，用作创建可另存为 DWG 文件的绘图的起始文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwt) |
+| static readonly [Dxf](../../groupdocs.conversion.filetypes/cadfiletype/dxf) | DXF、绘图交换格式或绘图交换格式，是 AutoCAD 绘图文件的标记数据表示。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dxf) |
+| static readonly [Ifc](../../groupdocs.conversion.filetypes/cadfiletype/ifc) | 具有 IFC 扩展名的文件是指建立国际标准以导入和导出建筑对象及其属性的行业基础类 (IFC) 文件格式。此文件格式提供不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc). |
 | static readonly [Igs](../../groupdocs.conversion.filetypes/cadfiletype/igs) | igs文件格式 |
-| static readonly [Plt](../../groupdocs.conversion.filetypes/cadfiletype/plt) | PLT 文件格式是 Autodesk, Inc. 推出的基于矢量的绘图仪文件，包含特定 CAD 文件的信息。打印细节需要生产中的准确性和精确度，PLT 文件的使用保证了这一点，因为所有图像都是使用线而不是点打印的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/plt). |
-| static readonly [Stl](../../groupdocs.conversion.filetypes/cadfiletype/stl) | STL，stereolithrography 的缩写，是一种可互换的文件格式，表示 3 维表面几何形状。该文件格式在多个领域得到应用，例如快速原型制作、3D 打印和计算机辅助制造。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/stl). |
+| static readonly [Plt](../../groupdocs.conversion.filetypes/cadfiletype/plt) | PLT 文件格式是 Autodesk, Inc. 推出的基于矢量的绘图仪文件，包含特定 CAD 文件的信息。绘图细节需要生产的准确性和精度，PLT 文件的使用保证了这一点，因为所有图像都是使用线而不是点打印的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/plt). |
+| static readonly [Stl](../../groupdocs.conversion.filetypes/cadfiletype/stl) | STL 是立体光刻技术的缩写，是一种可互换的文件格式，表示 3 维表面几何形状。该文件格式可用于多个领域，例如快速原型制作、3D 打印和计算机辅助制造。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/stl). |
 
 ### 也可以看看
 

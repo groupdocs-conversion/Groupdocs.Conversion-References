@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例SpreadsheetLoadOptionsgroupdocs.conversion.options.load/spreadsheetloadoptions类.
+description: 初始化新实例SpreadsheetLoadOptionsgroupdocs.conversion.options.load/spreadsheetloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions constructor
 
-初始化的新实例[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)类.
+初始化新实例[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)类.
 
 ```csharp
 public SpreadsheetLoadOptions()

@@ -3,12 +3,12 @@ title: FontSubstituteException
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 如果字体替换是非法的则抛出
 type: docs
-weight: 720
+weight: 780
 url: /zh/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class
 
-如果字体替换是非法的，则抛出
+如果字体替换是非法的则抛出
 
 ```csharp
 public sealed class FontSubstituteException : GroupDocsConversionException
@@ -19,7 +19,7 @@ public sealed class FontSubstituteException : GroupDocsConversionException
 | 姓名 | 描述 |
 | --- | --- |
 | [FontSubstituteException](fontsubstituteexception#constructor)() | 默认构造函数 |
-| [FontSubstituteException](fontsubstituteexception#constructor_1)(string) | 创建带有特定消息的异常 |
+| [FontSubstituteException](fontsubstituteexception#constructor_1)(string) | 使用特定消息创建异常 |
 
 ### 也可以看看
 

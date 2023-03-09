@@ -1,14 +1,14 @@
 ---
 title: Dgn
 second_title: GroupDocs.Conversion for .NET API 参考
-description: DGN设计文件是由 CAD 应用程序如 MicroStation 和 Intergraph 交互式图形设计系统创建并支持的图纸 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dgn
+description: DGN设计文件是由 CAD 应用程序例如 MicroStation 和鹰图交互式图形设计系统创建和支持的绘图 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dgn
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/dgn/
 ---
 ## CadFileType.Dgn field
 
-DGN、设计、文件是由 CAD 应用程序（如 MicroStation 和 Intergraph 交互式图形设计系统）创建并支持的图纸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dgn)
+DGN、设计文件是由 CAD 应用程序（例如 MicroStation 和鹰图交互式图形设计系统）创建和支持的绘图。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dgn)
 
 ```csharp
 public static readonly CadFileType Dgn;

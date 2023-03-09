@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 输入文档应转换为所需的文件类型
+description: 输入文档应转换为的所需文件类型
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/convertoptions-1/format/
 ---
 ## ConvertOptions&lt;TFileType&gt;.Format property
 
-输入文档应转换为所需的文件类型。
+输入文档应转换为的所需文件类型。
 
 ```csharp
 public TFileType Format { get; set; }

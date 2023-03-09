@@ -1,14 +1,14 @@
 ---
 title: FromStream
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 为提供的文档流返回 FileType
+description: 为提供的文档 stream 返回文件类型
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.filetypes/filetype/fromstream/
 ---
 ## FileType.FromStream method
 
-为提供的文档流返回 FileType
+为提供的文档 stream 返回文件类型
 
 ```csharp
 public static FileType FromStream(Stream stream)

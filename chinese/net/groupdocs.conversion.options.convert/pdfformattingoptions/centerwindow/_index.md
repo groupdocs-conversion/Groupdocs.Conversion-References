@@ -1,14 +1,14 @@
 ---
 title: CenterWindow
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定文档窗口的位置是否将在屏幕上居中默认值false.
+description: 指定文档窗口的位置是否在屏幕上居中默认值false.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/pdfformattingoptions/centerwindow/
 ---
 ## PdfFormattingOptions.CenterWindow property
 
-指定文档窗口的位置是否将在屏幕上居中。默认值：false.
+指定文档窗口的位置是否在屏幕上居中。默认值：false.
 
 ```csharp
 public bool CenterWindow { get; set; }

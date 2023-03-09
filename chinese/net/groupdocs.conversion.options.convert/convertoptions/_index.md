@@ -3,7 +3,7 @@ title: ConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 通用转换选项类
 type: docs
-weight: 1330
+weight: 1460
 url: /zh/net/groupdocs.conversion.options.convert/convertoptions/
 ---
 ## ConvertOptions class
@@ -18,16 +18,16 @@ public abstract class ConvertOptions : ValueObject, ICloneable, IConvertOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | 克隆当前选项实例。 |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

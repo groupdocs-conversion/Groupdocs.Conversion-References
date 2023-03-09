@@ -18,17 +18,17 @@ public class EmailDocumentInfo : DocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AttachmentsCount](../../groupdocs.conversion.contracts/emaildocumentinfo/attachmentscount) { get; } | 获取附件计数 |
+| [AttachmentsCount](../../groupdocs.conversion.contracts/emaildocumentinfo/attachmentscount) { get; } | 获取附件 count |
 | [AttachmentsNames](../../groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames) { get; } | 获取附件名称 |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
-| [IsEncrypted](../../groupdocs.conversion.contracts/emaildocumentinfo/isencrypted) { get; } | 获取已加密 |
-| [IsHtml](../../groupdocs.conversion.contracts/emaildocumentinfo/ishtml) { get; } | 获取的是 html |
-| [IsSigned](../../groupdocs.conversion.contracts/emaildocumentinfo/issigned) { get; } | 获取已签名 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
+| [IsEncrypted](../../groupdocs.conversion.contracts/emaildocumentinfo/isencrypted) { get; } | 得到的是加密的 |
+| [IsHtml](../../groupdocs.conversion.contracts/emaildocumentinfo/ishtml) { get; } | 得到的是 html |
+| [IsSigned](../../groupdocs.conversion.contracts/emaildocumentinfo/issigned) { get; } | 得到的是signed |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 
 ### 也可以看看
 

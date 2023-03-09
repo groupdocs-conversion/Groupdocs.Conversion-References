@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 设置转换选项
 
@@ -20,7 +20,7 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
@@ -32,26 +32,29 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 设置转换选项
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序 |
+| 范围 | 描述 |
+| --- | --- |
+| convertOptionsProvider | 转换选项提供者 |
+| convertOptionsProvider arg2arg2 | 源文件的类型 |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * 部件 [GroupDocs.Conversion](../../../)

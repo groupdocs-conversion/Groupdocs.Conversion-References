@@ -24,7 +24,7 @@ public InvalidConverterSettingsException()
 
 ## InvalidConverterSettingsException(string) {#constructor_1}
 
-创建带有特定消息的异常
+使用特定消息创建异常
 
 ```csharp
 public InvalidConverterSettingsException(string message)

@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 WMF 扩展名的文件代表 Microsoft Windows 元文件 WMF用于存储矢量以及位图格式的图像数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/wmf
+description: 带有 WMF 扩展名的文件表示用于存储矢量以及位图格式图像数据的 Microsoft Windows 图元文件 WMF 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/wmf
 type: docs
-weight: 390
+weight: 360
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/wmf/
 ---
 ## ImageFileType.Wmf field
 
-带有 WMF 扩展名的文件代表 Microsoft Windows 元文件 (WMF)，用于存储矢量以及位图格式的图像数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/wmf)
+带有 WMF 扩展名的文件表示用于存储矢量以及位图格式图像数据的 Microsoft Windows 图元文件 (WMF)。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/wmf)
 
 ```csharp
 public static readonly ImageFileType Wmf;

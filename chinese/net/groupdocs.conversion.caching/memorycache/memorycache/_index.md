@@ -1,14 +1,14 @@
 ---
 title: MemoryCache
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 创建 MemoryCache 类的新实例
+description: 创建 MemoryCache class 的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.caching/memorycache/memorycache/
 ---
 ## MemoryCache constructor
 
-创建 MemoryCache 类的新实例
+创建 MemoryCache class 的新实例
 
 ```csharp
 public MemoryCache()

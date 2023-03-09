@@ -1,14 +1,14 @@
 ---
 title: HasFormula
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 以开头的文本是否为公式
+description: 以开头的文本是否为公式.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.load/csvloadoptions/hasformula/
 ---
 ## CsvLoadOptions.HasFormula property
 
-以“=”开头的文本是否为公式。
+以“=”开头的文本是否为公式.
 
 ```csharp
 public bool HasFormula { get; set; }

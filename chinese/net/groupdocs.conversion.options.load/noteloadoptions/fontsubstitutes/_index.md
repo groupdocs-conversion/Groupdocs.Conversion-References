@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 转换Note文档时替换特定字体
+description: 转换笔记文档时替换特定字体
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes/
 ---
 ## NoteLoadOptions.FontSubstitutes property
 
-转换Note文档时替换特定字体。
+转换笔记文档时替换特定字体。
 
 ```csharp
 public IList<FontSubstitute> FontSubstitutes { get; set; }

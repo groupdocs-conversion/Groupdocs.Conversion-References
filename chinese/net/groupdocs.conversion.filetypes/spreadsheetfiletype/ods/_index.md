@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 ODS 扩展名的文件代表用户可编辑的 OpenDocument 电子表格文档格式数据在 ODF 文件中存储为行和列 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/ods
+description: 带有 ODS 扩展名的文件代表用户可编辑的 OpenDocument 电子表格文档格式数据以行和列的形式存储在 ODF 文件中 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/ods
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 ---
 ## SpreadsheetFileType.Ods field
 
-带有 ODS 扩展名的文件代表用户可编辑的 OpenDocument 电子表格文档格式。数据在 ODF 文件中存储为行和列。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/ods)
+带有 ODS 扩展名的文件代表用户可编辑的 OpenDocument 电子表格文档格式。数据以行和列的形式存储在 ODF 文件中。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/ods)
 
 ```csharp
 public static readonly SpreadsheetFileType Ods;

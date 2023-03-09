@@ -1,14 +1,14 @@
 ---
 title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例WordProcessingLoadOptionsgroupdocs.conversion.options.load/wordprocessingloadoptions类.
+description: 初始化新实例WordProcessingLoadOptionsgroupdocs.conversion.options.load/wordprocessingloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions constructor
 
-初始化的新实例[`WordProcessingLoadOptions`](../../wordprocessingloadoptions)类.
+初始化新实例[`WordProcessingLoadOptions`](../../wordprocessingloadoptions)类.
 
 ```csharp
 public WordProcessingLoadOptions()

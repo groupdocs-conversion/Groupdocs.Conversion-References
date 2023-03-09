@@ -1,14 +1,14 @@
 ---
 title: IPageRangedConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示支持特定页面列表转换的转换选项
+description: 表示转换选项支持特定页面列表的转换
 type: docs
-weight: 1420
+weight: 1580
 url: /zh/net/groupdocs.conversion.options.convert/ipagerangedconvertoptions/
 ---
 ## IPageRangedConvertOptions interface
 
-表示支持特定页面列表转换的转换选项
+表示转换选项，支持特定页面列表的转换
 
 ```csharp
 public interface IPageRangedConvertOptions : IConvertOptions

@@ -1,14 +1,14 @@
 ---
 title: ConvertedPageStream
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 描述接收转换后的文档页面流的委托
+description: 描述委托接收转换后的文档页面流
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.contracts/convertedpagestream/
 ---
 ## ConvertedPageStream delegate
 
-描述接收转换后的文档页面流的委托。
+描述委托接收转换后的文档页面流。
 
 ```csharp
 public delegate void ConvertedPageStream(int pageNumber, Stream stream, string sourceFileName);
@@ -18,7 +18,7 @@ public delegate void ConvertedPageStream(int pageNumber, Stream stream, string s
 | --- | --- | --- |
 | pageNumber | Int32 | 转换后的页码 |
 | stream | Stream | 转换后的页面流 |
-| sourceFileName | String | 转换后文档的名称 |
+| sourceFileName | String | 转换文件的名称 |
 
 ### 也可以看看
 

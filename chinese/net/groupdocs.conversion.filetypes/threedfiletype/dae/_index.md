@@ -1,14 +1,14 @@
 ---
 title: Dae
 second_title: GroupDocs.Conversion for .NET API 参考
-description: DAE 文件是一种数字资产交换文件格式用于在交互式 3D 应用程序之间交换数据此文件格式基于 COLLADACOLLAborative Design ActivityXML 模式它是一种开放标准 XML 模式用于在图形软件应用程序之间交换数字资产 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/dae
+description: DAE 文件是一种数字资产交换文件格式用于在交互式 3D 应用程序之间交换数据此文件格式基于 COLLADA协作设计活动XML 架构这是一种开放标准 XML 架构用于在图形软件应用程序之间交换数字资产 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/dae
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/dae/
 ---
 ## ThreeDFileType.Dae field
 
-DAE 文件是一种数字资产交换文件格式，用于在交互式 3D 应用程序之间交换数据。此文件格式基于 COLLADA（COLLAborative Design Activity）XML 模式，它是一种开放标准 XML 模式，用于在图形软件应用程序之间交换数字资产。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/dae)
+DAE 文件是一种数字资产交换文件格式，用于在交互式 3D 应用程序之间交换数据。此文件格式基于 COLLADA（协作设计活动）XML 架构，这是一种开放标准 XML 架构，用于在图形软件应用程序之间交换数字资产。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/dae)
 
 ```csharp
 public static readonly ThreeDFileType Dae;

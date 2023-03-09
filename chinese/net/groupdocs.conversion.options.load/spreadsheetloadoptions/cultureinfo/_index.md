@@ -1,14 +1,14 @@
 ---
 title: CultureInfo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取或设置文件加载时的系统文化信息
+description: 获取或设置加载文件时的系统文化信息
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/cultureinfo/
 ---
 ## SpreadsheetLoadOptions.CultureInfo property
 
-获取或设置文件加载时的系统文化信息
+获取或设置加载文件时的系统文化信息
 
 ```csharp
 public CultureInfo CultureInfo { get; set; }

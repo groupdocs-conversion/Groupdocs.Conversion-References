@@ -1,14 +1,14 @@
 ---
 title: DisplayFromEmailAddress
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 显示或隐藏来自电子邮件地址的选项默认值true.
+description: 显示或隐藏发件人电子邮件地址的选项默认值true.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.options.load/emailloadoptions/displayfromemailaddress/
 ---
 ## EmailLoadOptions.DisplayFromEmailAddress property
 
-显示或隐藏“来自”电子邮件地址的选项。默认值：true.
+显示或隐藏“发件人”电子邮件地址的选项。默认值：true.
 
 ```csharp
 public bool DisplayFromEmailAddress { get; set; }

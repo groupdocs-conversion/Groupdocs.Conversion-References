@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 呈现演示文稿的默认字体如果缺少演示字体将使用以下字体
+description: 呈现演示文稿的默认字体如果缺少演示文稿字体将使用以下字体
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.load/presentationloadoptions/defaultfont/
 ---
 ## PresentationLoadOptions.DefaultFont property
 
-呈现演示文稿的默认字体。如果缺少演示字体，将使用以下字体。
+呈现演示文稿的默认字体。如果缺少演示文稿字体，将使用以下字体。
 
 ```csharp
 public string DefaultFont { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsPasswordProtected
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取的是受保护的文档密码
+description: 获取的是文档密码protected
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.contracts/presentationdocumentinfo/ispasswordprotected/
 ---
 ## PresentationDocumentInfo.IsPasswordProtected property
 
-获取的是受保护的文档密码
+获取的是文档密码protected
 
 ```csharp
 public bool IsPasswordProtected { get; }

@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换加载选项
 type: docs
-weight: 1130
+weight: 1260
 url: /zh/net/groupdocs.conversion.fluent/iconversionloadoptions/
 ---
 ## IConversionLoadOptions interface
@@ -18,7 +18,7 @@ public interface IConversionLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_2)(Func&lt;FileType, LoadOptions&gt;) | 设置指定文件类型的加载选项 |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_2)(Func&lt;FileType, LoadOptions&gt;) | 为指定文件类型设置加载选项 |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_1)(Func&lt;LoadOptions&gt;) | 设置加载选项 |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions)(LoadOptions) | 设置加载选项 |
 

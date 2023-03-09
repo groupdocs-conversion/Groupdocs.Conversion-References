@@ -20,7 +20,7 @@ public IConversionCompressResultCompletedOrConvert Compress(CompressionConvertOp
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例ImageLoadOptionsgroupdocs.conversion.options.load/imageloadoptions类.
+description: 初始化新实例ImageLoadOptionsgroupdocs.conversion.options.load/imageloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/imageloadoptions/imageloadoptions/
 ---
 ## ImageLoadOptions constructor
 
-初始化的新实例[`ImageLoadOptions`](../../imageloadoptions)类.
+初始化新实例[`ImageLoadOptions`](../../imageloadoptions)类.
 
 ```csharp
 public ImageLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: GroupDocs.Conversion for .NET API 参考
-description: OpenDocument 平面 XML 电子表格
+description: 扩展名为 .fods 的文件是一种 OpenDocument 电子表格文档格式它以行和列的形式存储数据该格式被指定为 OASIS 发布和维护的 ODF 1.2 规范的一部分 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/fods
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-OpenDocument 平面 XML 电子表格
+扩展名为 .fods 的文件是一种 OpenDocument 电子表格文档格式，它以行和列的形式存储数据。该格式被指定为 OASIS 发布和维护的 ODF 1.2 规范的一部分。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/fods)
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

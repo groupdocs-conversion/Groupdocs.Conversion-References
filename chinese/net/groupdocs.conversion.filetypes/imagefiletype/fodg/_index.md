@@ -1,14 +1,14 @@
 ---
 title: Fodg
 second_title: GroupDocs.Conversion for .NET API 参考
-description: FODG 是一个未压缩的 XML 格式文件用于存储 OpenDocument 文本数据 FODG 扩展与开源办公生产力套件 Libre Office 和 OpenOffice.org. 相关联
+description: FODG 是一种未压缩的 XML 格式文件用于存储 OpenDocument 文本数据 FODG 扩展与开源办公生产力套件 Libre Office 和 OpenOffice.org. 相关联
 type: docs
-weight: 150
+weight: 130
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/fodg/
 ---
 ## ImageFileType.Fodg field
 
-FODG 是一个未压缩的 XML 格式文件，用于存储 OpenDocument 文本数据。 FODG 扩展与开源办公生产力套件 Libre Office 和 OpenOffice.org. 相关联
+FODG 是一种未压缩的 XML 格式文件，用于存储 OpenDocument 文本数据。 FODG 扩展与开源办公生产力套件 Libre Office 和 OpenOffice.org. 相关联
 
 ```csharp
 public static readonly ImageFileType Fodg;

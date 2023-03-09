@@ -1,14 +1,14 @@
 ---
 title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例NoteLoadOptionsgroupdocs.conversion.options.load/noteloadoptions类.
+description: 初始化新实例NoteLoadOptionsgroupdocs.conversion.options.load/noteloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/noteloadoptions/noteloadoptions/
 ---
 ## NoteLoadOptions constructor
 
-初始化的新实例[`NoteLoadOptions`](../../noteloadoptions)类.
+初始化新实例[`NoteLoadOptions`](../../noteloadoptions)类.
 
 ```csharp
 public NoteLoadOptions()

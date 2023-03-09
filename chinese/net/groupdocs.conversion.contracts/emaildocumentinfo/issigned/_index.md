@@ -1,14 +1,14 @@
 ---
 title: IsSigned
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取已签名
+description: 得到的是signed
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.contracts/emaildocumentinfo/issigned/
 ---
 ## EmailDocumentInfo.IsSigned property
 
-获取已签名
+得到的是signed
 
 ```csharp
 public bool IsSigned { get; }

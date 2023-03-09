@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: GroupDocs.Conversion for .NET API 参考
-description: Xlam 文档格式
+description: XLAM 是一个启用宏的加载项文件用于向电子表格添加新功能加载项是一种补充程序它运行附加代码并为电子表格提供附加功能 了解有关此文件格式的更多信息这里https//docs.fileformat.com/spreadsheet/xlam/
 type: docs
 weight: 100
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Xlam 文档格式
+XLAM 是一个启用宏的加载项文件，用于向电子表格添加新功能。加载项是一种补充程序，它运行附加代码并为电子表格提供附加功能。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/spreadsheet/xlam/)
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

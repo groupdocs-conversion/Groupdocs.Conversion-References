@@ -1,14 +1,14 @@
 ---
 title: Mbox
 second_title: GroupDocs.Conversion for .NET API 参考
-description: MBox 文件格式是一个通用术语表示用于收集电子邮件消息的容器消息及其附件存储在容器内 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/mbox/
+description: MBox 文件格式是一个通用术语表示用于收集电子邮件消息的容器邮件与其附件一起存储在容器内 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/mbox/
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.filetypes/emailfiletype/mbox/
 ---
 ## EmailFileType.Mbox field
 
-MBox 文件格式是一个通用术语，表示用于收集电子邮件消息的容器。消息及其附件存储在容器内。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/mbox/)
+MBox 文件格式是一个通用术语，表示用于收集电子邮件消息的容器。邮件与其附件一起存储在容器内。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/mbox/)
 
 ```csharp
 public static readonly EmailFileType Mbox;

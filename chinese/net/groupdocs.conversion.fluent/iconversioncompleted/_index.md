@@ -3,7 +3,7 @@ title: IConversionCompleted
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 句柄转换完成
 type: docs
-weight: 990
+weight: 1120
 url: /zh/net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(ConvertedDocumentStream) | 接收转换后的文档流。仅当设置了“Save(string)”或“Save(SaveDocumentStreamForFileType)”时才会触发。 |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | 接收转换后的文档流。仅当设置了“ConvertTo(string fileName)”或 ConvertTo(convertedStreamProvider) 时才会触发。 |
 
 ### 也可以看看
 

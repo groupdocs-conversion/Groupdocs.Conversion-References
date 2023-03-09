@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 文档中的布局
 
 ```csharp
-public IEnumerable<string> Layouts { get; }
+public IList<string> Layouts { get; }
 ```
 
 ### 也可以看看

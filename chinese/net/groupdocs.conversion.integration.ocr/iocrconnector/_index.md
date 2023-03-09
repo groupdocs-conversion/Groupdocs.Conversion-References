@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 定义将 OCR 应用于图像文档和嵌入图像所需的方法
 type: docs
-weight: 1200
+weight: 1330
 url: /zh/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface
@@ -18,7 +18,7 @@ public interface IOcrConnector
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Recognize](../../groupdocs.conversion.integration.ocr/iocrconnector/recognize)(Stream) | 对图像进行 OCR 处理，以流的形式提供。 |
+| [Recognize](../../groupdocs.conversion.integration.ocr/iocrconnector/recognize)(Stream) | 是否对作为流提供的图像进行 OCR 处理。 |
 
 ### 也可以看看
 

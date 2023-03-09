@@ -1,14 +1,14 @@
 ---
 title: Jp2
 second_title: GroupDocs.Conversion for .NET API 参考
-description: JPEG 2000 JP2 是一种图像编码系统和最先进的图像压缩标准 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/jp2
+description: JPEG 2000 JP2 是图像编码系统和最先进的图像压缩标准 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/jp2
 type: docs
-weight: 210
+weight: 190
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/jp2/
 ---
 ## ImageFileType.Jp2 field
 
-JPEG 2000 (JP2) 是一种图像编码系统和最先进的图像压缩标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/jp2)
+JPEG 2000 (JP2) 是图像编码系统和最先进的图像压缩标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/jp2)
 
 ```csharp
 public static readonly ImageFileType Jp2;

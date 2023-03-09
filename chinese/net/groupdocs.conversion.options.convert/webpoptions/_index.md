@@ -3,7 +3,7 @@ title: WebpOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为 Webp 文件类型的选项
 type: docs
-weight: 1800
+weight: 1990
 url: /zh/net/groupdocs.conversion.options.convert/webpoptions/
 ---
 ## WebpOptions class
@@ -24,16 +24,16 @@ public sealed class WebpOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Lossless](../../groupdocs.conversion.options.convert/webpoptions/lossless) { get; set; } | 表示转换后的文件的压缩是否会无损。 |
+| [Lossless](../../groupdocs.conversion.options.convert/webpoptions/lossless) { get; set; } | 表示转换文件的压缩是否无损。 |
 | [Quality](../../groupdocs.conversion.options.convert/webpoptions/quality) { get; set; } | 获取或设置质量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

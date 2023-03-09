@@ -1,14 +1,14 @@
 ---
 title: SourceDocumentFactoryNotProvidedException
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 不提供源文档工厂时抛出GroupDocs异常
+description: 未提供源文档工厂时抛出的GroupDocs异常
 type: docs
-weight: 780
+weight: 840
 url: /zh/net/groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/
 ---
 ## SourceDocumentFactoryNotProvidedException class
 
-不提供源文档工厂时抛出GroupDocs异常
+未提供源文档工厂时抛出的GroupDocs异常
 
 ```csharp
 public sealed class SourceDocumentFactoryNotProvidedException : GroupDocsConversionException
@@ -18,7 +18,7 @@ public sealed class SourceDocumentFactoryNotProvidedException : GroupDocsConvers
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SourceDocumentFactoryNotProvidedException](sourcedocumentfactorynotprovidedexception)() | 创建带有消息的异常实例 |
+| [SourceDocumentFactoryNotProvidedException](sourcedocumentfactorynotprovidedexception)() | 创建一个带有消息 的异常实例 |
 
 ### 也可以看看
 

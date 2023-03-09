@@ -3,7 +3,7 @@ title: JpegOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为 Jpeg 文件类型的选项
 type: docs
-weight: 1490
+weight: 1650
 url: /zh/net/groupdocs.conversion.options.convert/jpegoptions/
 ---
 ## JpegOptions class
@@ -18,13 +18,13 @@ public sealed class JpegOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [JpegOptions](jpegoptions)() | 初始化的新实例[`JpegOptions`](../jpegoptions)类. |
+| [JpegOptions](jpegoptions)() | 初始化新实例[`JpegOptions`](../jpegoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorMode](../../groupdocs.conversion.options.convert/jpegoptions/colormode) { get; set; } | JPG色彩模式。 |
+| [ColorMode](../../groupdocs.conversion.options.convert/jpegoptions/colormode) { get; set; } | Jpg 颜色模式. |
 | [Compression](../../groupdocs.conversion.options.convert/jpegoptions/compression) { get; set; } | jpg压缩方式. |
 | [Quality](../../groupdocs.conversion.options.convert/jpegoptions/quality) { get; set; } | 所需的图像质量。该值必须介于 0 和 100 之间。默认值为 100. |
 
@@ -32,9 +32,9 @@ public sealed class JpegOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

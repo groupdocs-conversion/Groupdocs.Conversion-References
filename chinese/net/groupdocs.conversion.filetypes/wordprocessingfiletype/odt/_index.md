@@ -3,7 +3,7 @@ title: Odt
 second_title: GroupDocs.Conversion for .NET API 参考
 description: ODT 文件是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/odt
 type: docs
-weight: 120
+weight: 90
 url: /zh/net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/
 ---
 ## WordProcessingFileType.Odt field

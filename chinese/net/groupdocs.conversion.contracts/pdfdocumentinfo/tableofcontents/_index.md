@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents/
 目录
 
 ```csharp
-public IEnumerable<TableOfContentsItem> TableOfContents { get; }
+public IList<TableOfContentsItem> TableOfContents { get; }
 ```
 
 ### 也可以看看

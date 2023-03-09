@@ -24,7 +24,7 @@ public CorruptOrDamagedFileException()
 
 ## CorruptOrDamagedFileException(FileType) {#constructor_1}
 
-创建一个带有 FileType 的异常实例
+创建具有 FileType 的异常实例
 
 ```csharp
 public CorruptOrDamagedFileException(FileType fileType)
@@ -45,7 +45,7 @@ public CorruptOrDamagedFileException(FileType fileType)
 
 ## CorruptOrDamagedFileException(string) {#constructor_2}
 
-创建带有消息的异常实例
+创建一个带有消息 的异常实例
 
 ```csharp
 public CorruptOrDamagedFileException(string message)
@@ -74,7 +74,7 @@ public CorruptOrDamagedFileException(string message, Exception exception)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 讯息 |
-| exception | Exception | 内在异常 |
+| exception | Exception | 内部异常 |
 
 ### 也可以看看
 

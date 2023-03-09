@@ -1,14 +1,14 @@
 ---
 title: Fodp
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 FODP 扩展名的文件代表 OpenDocument 平面 XML 演示文稿以 OpenDocument 格式保存的演示文件但使用平面 XML 格式而不是标准 .ODP 文件使用的 .ZIP 容器保存
+description: 具有 FODP 扩展名的文件表示 OpenDocument 平面 XML 表示以 OpenDocument 格式保存的演示文件但使用平面 XML 格式而不是标准 .ODP 文件使用的 .ZIP 容器保存
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.filetypes/presentationfiletype/fodp/
 ---
 ## PresentationFileType.Fodp field
 
-带有 FODP 扩展名的文件代表 OpenDocument 平面 XML 演示文稿。以 OpenDocument 格式保存的演示文件，但使用平面 XML 格式而不是标准 .ODP 文件使用的 .ZIP 容器保存
+具有 FODP 扩展名的文件表示 OpenDocument 平面 XML 表示。以 OpenDocument 格式保存的演示文件，但使用平面 XML 格式而不是标准 .ODP 文件使用的 .ZIP 容器保存
 
 ```csharp
 public static readonly PresentationFileType Fodp;

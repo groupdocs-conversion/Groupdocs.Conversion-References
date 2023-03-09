@@ -1,14 +1,14 @@
 ---
 title: IConversionSourceDocumentLoaded
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 为加载的文档提供可能的操作
+description: 为加载的文档 提供可能的操作
 type: docs
-weight: 1170
+weight: 1300
 url: /zh/net/groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 ## IConversionSourceDocumentLoaded interface
 
-为加载的文档提供可能的操作
+为加载的文档 提供可能的操作
 
 ```csharp
 public interface IConversionSourceDocumentLoaded : IConversionGetDocumentInfo, 

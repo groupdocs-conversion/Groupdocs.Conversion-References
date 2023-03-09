@@ -1,14 +1,14 @@
 ---
 title: Completed
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 转换完成后立即调用此方法
+description: 此方法将在转换完成后立即调用
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.reporting/iconverterlistener/completed/
 ---
 ## IConverterListener.Completed method
 
-转换完成后立即调用此方法。
+此方法将在转换完成后立即调用。
 
 ```csharp
 public void Completed()

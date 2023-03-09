@@ -1,14 +1,14 @@
 ---
 title: TextFragment
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示已识别文本单词符号等的一部分由 OCR 引擎提取
+description: 表示由 OCR 引擎提取的已识别文本单词符号等的一部分
 type: docs
-weight: 1220
+weight: 1350
 url: /zh/net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class
 
-表示已识别文本（单词、符号等）的一部分，由 OCR 引擎提取。
+表示由 OCR 引擎提取的已识别文本（单词、符号等）的一部分。
 
 ```csharp
 public class TextFragment
@@ -24,8 +24,8 @@ public class TextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rectangle](../../groupdocs.conversion.integration.ocr/textfragment/rectangle) { get; } | 获取已识别文本片段的边界矩形。 |
-| [Text](../../groupdocs.conversion.integration.ocr/textfragment/text) { get; } | 获取已识别文本片段的文本内容。 |
+| [Rectangle](../../groupdocs.conversion.integration.ocr/textfragment/rectangle) { get; } | 获取识别文本片段的边界矩形。 |
+| [Text](../../groupdocs.conversion.integration.ocr/textfragment/text) { get; } | 获取识别文本片段的文本内容。 |
 
 ### 也可以看看
 

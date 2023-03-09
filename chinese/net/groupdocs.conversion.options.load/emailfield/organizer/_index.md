@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是组织者
+description: 默认字段文本为组织者
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.options.load/emailfield/organizer/
 ---
 ## EmailField.Organizer field
 
-默认字段文本是“组织者”。
+默认字段文本为“组织者”。
 
 ```csharp
 public static readonly EmailField Organizer;

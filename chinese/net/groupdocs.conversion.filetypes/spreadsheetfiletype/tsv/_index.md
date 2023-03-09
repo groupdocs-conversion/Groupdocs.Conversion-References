@@ -1,14 +1,14 @@
 ---
 title: Tsv
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 制表符分隔值 TSV 文件格式表示用纯文本格式的制表符分隔的数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/tsv
+description: 制表符分隔值 TSV 文件格式表示以纯文本格式的制表符分隔的数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/tsv
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/
 ---
 ## SpreadsheetFileType.Tsv field
 
-制表符分隔值 (TSV) 文件格式表示用纯文本格式的制表符分隔的数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/tsv)
+制表符分隔值 (TSV) 文件格式表示以纯文本格式的制表符分隔的数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/tsv)
 
 ```csharp
 public static readonly SpreadsheetFileType Tsv;

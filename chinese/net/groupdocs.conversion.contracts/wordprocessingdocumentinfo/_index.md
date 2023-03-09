@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 包含文字处理文档元数据
 type: docs
-weight: 600
+weight: 650
 url: /zh/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo class
@@ -18,18 +18,18 @@ public class WordProcessingDocumentInfo : DocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) { get; } | 获取作者 |
+| [Author](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) { get; } | 获取 author |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
-| [IsPasswordProtected](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/ispasswordprotected) { get; } | 获取受保护的文档密码 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
-| [Lines](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines) { get; } | 获取行数 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
+| [IsPasswordProtected](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/ispasswordprotected) { get; } | 获取文档密码保护 |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
+| [Lines](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines) { get; } | 获取行数 count |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 | [TableOfContents](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/tableofcontents) { get; } | 目录 |
 | [Title](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/title) { get; } | 获取标题 |
-| [Words](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/words) { get; } | 获取字数 |
+| [Words](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/words) { get; } | 获取字数 count |
 
 ### 也可以看看
 

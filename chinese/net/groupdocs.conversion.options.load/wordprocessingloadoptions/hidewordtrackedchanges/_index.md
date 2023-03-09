@@ -1,14 +1,14 @@
 ---
 title: HideWordTrackedChanges
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 隐藏 Word 文档的标记和跟踪更改
+description: 隐藏标记并跟踪 Word 文档的更改
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges/
 ---
 ## WordProcessingLoadOptions.HideWordTrackedChanges property
 
-隐藏 Word 文档的标记和跟踪更改。
+隐藏标记并跟踪 Word 文档的更改。
 
 ```csharp
 public bool HideWordTrackedChanges { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IConversionByPageCompleted
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 处理转换页面完成
+description: 句柄转换页面完成
 type: docs
-weight: 970
+weight: 1100
 url: /zh/net/groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---
 ## IConversionByPageCompleted interface
 
-处理转换页面完成
+句柄转换页面完成
 
 ```csharp
 public interface IConversionByPageCompleted
@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | 接收转换后的页面流。仅当设置了“Save(SaveDocumentStreamForFileType)”时才会触发。 |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | 接收转换后的页面流。仅当设置了“ConvertTo(convertedStreamProvider)”时才会触发。 |
 
 ### 也可以看看
 

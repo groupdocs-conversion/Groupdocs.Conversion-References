@@ -1,14 +1,14 @@
 ---
 title: Statement
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 8.5 x 5.5 英寸
+description: 8.5 x 5.5 英寸.
 type: docs
 weight: 170
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/statement/
 ---
 ## PageSize.Statement field
 
-8.5 x 5.5 英寸。
+8.5 x 5.5 英寸.
 
 ```csharp
 public static readonly PageSize Statement;

@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文档格式
+description: 文件格式
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.contracts/documentinfo/format/
 ---
 ## DocumentInfo.Format property
 
-文档格式
+文件格式
 
 ```csharp
 public string Format { get; }

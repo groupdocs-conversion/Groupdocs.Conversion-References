@@ -1,14 +1,14 @@
 ---
 title: TsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例TsvLoadOptionsgroupdocs.conversion.options.load/tsvloadoptions类.
+description: 初始化新实例TsvLoadOptionsgroupdocs.conversion.options.load/tsvloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/tsvloadoptions/tsvloadoptions/
 ---
 ## TsvLoadOptions constructor
 
-初始化的新实例[`TsvLoadOptions`](../../tsvloadoptions)类.
+初始化新实例[`TsvLoadOptions`](../../tsvloadoptions)类.
 
 ```csharp
 public TsvLoadOptions()

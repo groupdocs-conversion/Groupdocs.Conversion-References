@@ -1,14 +1,14 @@
 ---
 title: VideoLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例VideoLoadOptionsgroupdocs.conversion.options.load/videoloadoptions类.
+description: 初始化新实例VideoLoadOptionsgroupdocs.conversion.options.load/videoloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/videoloadoptions/videoloadoptions/
 ---
 ## VideoLoadOptions constructor
 
-初始化的新实例[`VideoLoadOptions`](../../videoloadoptions)类.
+初始化新实例[`VideoLoadOptions`](../../videoloadoptions)类.
 
 ```csharp
 public VideoLoadOptions()

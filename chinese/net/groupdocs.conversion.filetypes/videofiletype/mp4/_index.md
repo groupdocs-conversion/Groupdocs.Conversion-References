@@ -1,14 +1,14 @@
 ---
 title: Mp4
 second_title: GroupDocs.Conversion for .NET API 参考
-description: MP4MPEG4 Part 14 的缩写是一种基于 ISO/IEC 14496122004 的文件格式它基于 QuickTime 文件格式但正式指定了对初始对象描述符 IOD 和其他 MPEG 功能的支持 学习有关此文件格式的更多信息这里https//docs.fileformat.com/video/mp4/
+description: MP4MPEG4 Part 14 的简称是一种基于 ISO/IEC 14496122004 的文件格式它基于 QuickTime 文件格式但正式指定支持初始对象描述符 IOD 和其他 MPEG 功能 学习有关此文件格式的更多信息这里https//docs.fileformat.com/video/mp4/
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/videofiletype/mp4/
 ---
 ## VideoFileType.Mp4 field
 
-MP4（MPEG-4 Part 14 的缩写）是一种基于 ISO/IEC 14496-12:2004 的文件格式，它基于 QuickTime 文件格式，但正式指定了对初始对象描述符 (IOD) 和其他 MPEG 功能的支持。 学习有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mp4/)
+MP4（MPEG-4 Part 14 的简称）是一种基于 ISO/IEC 14496-12:2004 的文件格式，它基于 QuickTime 文件格式，但正式指定支持初始对象描述符 (IOD) 和其他 MPEG 功能。 学习有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/mp4/)
 
 ```csharp
 public static readonly VideoFileType Mp4;

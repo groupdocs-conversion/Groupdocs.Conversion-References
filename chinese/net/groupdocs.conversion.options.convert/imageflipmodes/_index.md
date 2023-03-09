@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 描述图像翻转模式
 type: docs
-weight: 1480
+weight: 1640
 url: /zh/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class
@@ -25,10 +25,10 @@ public class ImageFlipModes : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
@@ -36,7 +36,7 @@ public class ImageFlipModes : Enumeration
 | --- | --- |
 | static readonly [FlipX](../../groupdocs.conversion.options.convert/imageflipmodes/flipx) | 水平翻转. |
 | static readonly [FlipXY](../../groupdocs.conversion.options.convert/imageflipmodes/flipxy) | 水平和垂直翻转。 |
-| static readonly [FlipY](../../groupdocs.conversion.options.convert/imageflipmodes/flipy) | 垂直翻转。 |
+| static readonly [FlipY](../../groupdocs.conversion.options.convert/imageflipmodes/flipy) | 垂直翻转. |
 | static readonly [None](../../groupdocs.conversion.options.convert/imageflipmodes/none) | 没有翻转。 |
 
 ### 也可以看看

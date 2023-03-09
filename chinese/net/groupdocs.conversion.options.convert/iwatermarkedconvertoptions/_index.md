@@ -1,14 +1,14 @@
 ---
 title: IWatermarkedConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示允许转换的输出被加水印的转换选项
+description: 表示允许转换输出加水印的转换选项
 type: docs
-weight: 1460
+weight: 1620
 url: /zh/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface
 
-表示允许转换的输出被加水印的转换选项
+表示允许转换输出加水印的转换选项
 
 ```csharp
 public interface IWatermarkedConvertOptions : IConvertOptions

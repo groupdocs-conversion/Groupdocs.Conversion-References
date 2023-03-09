@@ -1,14 +1,14 @@
 ---
 title: ConvertAudio
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 是否将音频转换作为流提供
+description: 音频转换是否作为流提供
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.integration.audio/iaudioconnector/convertaudio/
 ---
 ## IAudioConnector.ConvertAudio method
 
-是否将音频转换作为流提供。
+音频转换是否作为流提供。
 
 ```csharp
 public Stream ConvertAudio(Stream sourceStream, AudioConvertOptions convertOptions)

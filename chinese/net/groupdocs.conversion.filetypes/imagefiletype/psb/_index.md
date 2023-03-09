@@ -1,14 +1,14 @@
 ---
 title: Psb
 second_title: GroupDocs.Conversion for .NET API 参考
-description: Adobe photoshop 以两种格式保存文件大小为 30000 x 30000 像素的文件使用 PSD 扩展名保存大于 PSD 的文件不超过 300000 x 300000 像素使用称为Photoshop Big的 PSB 扩展名保存 了解有关此文件格式的更多信息这里https//docs.fileformat.com/image/psb
+description: Adobe photoshop 以两种格式保存文件大小为 30000 x 30000 像素的文件使用 PSD 扩展名保存大于 PSD 的文件最大 300000 x 300000 像素使用称为Photoshop Big的 PSB 扩展名保存 了解有关此文件格式的更多信息这里https//docs.fileformat.com/image/psb
 type: docs
-weight: 310
+weight: 290
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field
 
-Adobe photoshop 以两种格式保存文件。大小为 30,000 x 30,000 像素的文件使用 PSD 扩展名保存，大于 PSD 的文件（不超过 300,000 x 300,000 像素）使用称为“Photoshop Big”的 PSB 扩展名保存。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/image/psb)
+Adobe photoshop 以两种格式保存文件。大小为 30,000 x 30,000 像素的文件使用 PSD 扩展名保存，大于 PSD 的文件最大 300,000 x 300,000 像素使用称为“Photoshop Big”的 PSB 扩展名保存。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/image/psb)
 
 ```csharp
 public static readonly ImageFileType Psb;

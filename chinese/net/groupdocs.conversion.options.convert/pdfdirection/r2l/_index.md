@@ -1,14 +1,14 @@
 ---
 title: R2L
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 从右到左
+description: 从右到左.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/pdfdirection/r2l/
 ---
 ## PdfDirection.R2L field
 
-从右到左。
+从右到左.
 
 ```csharp
 public static readonly PdfDirection R2L;

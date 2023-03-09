@@ -12,8 +12,8 @@ url: /zh/net/groupdocs.conversion.caching/
 
 | 班级 | 描述 |
 | --- | --- |
-| [FileCache](./filecache) | 文件缓存行为。表示缓存存储在文件system 上 |
-| [MemoryCache](./memorycache) | 内存缓存行为。表示缓存存储在memory 中 |
+| [FileCache](./filecache) | 文件缓存行为。表示缓存存储在文件系统 上 |
+| [MemoryCache](./memorycache) | 内存缓存行为。表示cache存放在memory |
 ## 接口
 
 | 界面 | 描述 |

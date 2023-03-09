@@ -1,14 +1,14 @@
 ---
 title: Xz
 second_title: GroupDocs.Conversion for .NET API 参考
-description: XZ 是一种使用 LZMA2 压缩算法的压缩文件格式它被设计为流行的 gzip 和 bzip2 格式的替代品与这些旧标准相比具有许多优势 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/xz/
+description: XZ 是一种使用 LZMA2 压缩算法的压缩文件格式它旨在替代流行的 gzip 和 bzip2 格式并提供许多优于这些旧标准的优势 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/xz/
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/xz/
 ---
 ## CompressionFileType.Xz field
 
-XZ 是一种使用 LZMA2 压缩算法的压缩文件格式。它被设计为流行的 gzip 和 bzip2 格式的替代品，与这些旧标准相比具有许多优势。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/xz/)
+XZ 是一种使用 LZMA2 压缩算法的压缩文件格式。它旨在替代流行的 gzip 和 bzip2 格式，并提供许多优于这些旧标准的优势。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/xz/)
 
 ```csharp
 public static readonly CompressionFileType Xz;

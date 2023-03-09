@@ -1,14 +1,14 @@
 ---
 title: PossibleConversions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示特定源文件格式支持哪些转换对 的映射
+description: 表示一个映射具体的源文件格式 支持什么转换pairs
 type: docs
-weight: 370
+weight: 400
 url: /zh/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class
 
-表示特定源文件格式支持哪些转换对 的映射
+表示一个映射，具体的源文件格式 支持什么转换pairs
 
 ```csharp
 public sealed class PossibleConversions : ValueObject
@@ -18,9 +18,9 @@ public sealed class PossibleConversions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [All](../../groupdocs.conversion.contracts/possibleconversions/all) { get; } | 所有目标文件类型和主要/次要标志  IEnumerable of[`TargetConversion`](../targetconversion) |
+| [All](../../groupdocs.conversion.contracts/possibleconversions/all) { get; } | 所有目标文件类型和主要/次要标志 可枚举的[`TargetConversion`](../targetconversion) |
 | [Item](../../groupdocs.conversion.contracts/possibleconversions/item) { get; } | 返回指定目标文件类型的目标转换 (2 indexers) |
-| [LoadOptions](../../groupdocs.conversion.contracts/possibleconversions/loadoptions) { get; } | 可用于从当前类型转换的预定义加载选项 |
+| [LoadOptions](../../groupdocs.conversion.contracts/possibleconversions/loadoptions) { get; } | 可用于从当前类型 转换的预定义加载选项 |
 | [Primary](../../groupdocs.conversion.contracts/possibleconversions/primary) { get; } | 主要目标文件类型 |
 | [Secondary](../../groupdocs.conversion.contracts/possibleconversions/secondary) { get; } | 次要目标文件类型 |
 | [Source](../../groupdocs.conversion.contracts/possibleconversions/source) { get; } | 源文件格式 |
@@ -29,9 +29,9 @@ public sealed class PossibleConversions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

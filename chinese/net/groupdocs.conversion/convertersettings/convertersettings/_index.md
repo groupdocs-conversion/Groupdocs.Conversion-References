@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.conversion/convertersettings/convertersettings/
 ---
 ## ConverterSettings constructor
 
-默认构造函数。
+默认构造函数
 
 ```csharp
 public ConverterSettings()

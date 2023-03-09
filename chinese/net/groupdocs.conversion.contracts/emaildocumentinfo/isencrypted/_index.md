@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取已加密
+description: 得到的是加密的
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/emaildocumentinfo/isencrypted/
 ---
 ## EmailDocumentInfo.IsEncrypted property
 
-获取已加密
+得到的是加密的
 
 ```csharp
 public bool IsEncrypted { get; }

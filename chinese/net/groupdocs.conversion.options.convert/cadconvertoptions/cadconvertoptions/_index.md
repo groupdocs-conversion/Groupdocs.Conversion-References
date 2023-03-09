@@ -1,14 +1,14 @@
 ---
 title: CadConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例CadConvertOptionsgroupdocs.conversion.options.convert/cadconvertoptions类.
+description: 初始化新实例CadConvertOptionsgroupdocs.conversion.options.convert/cadconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/cadconvertoptions/cadconvertoptions/
 ---
 ## CadConvertOptions constructor
 
-初始化的新实例[`CadConvertOptions`](../../cadconvertoptions)类.
+初始化新实例[`CadConvertOptions`](../../cadconvertoptions)类.
 
 ```csharp
 public CadConvertOptions()

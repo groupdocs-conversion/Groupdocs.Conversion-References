@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 转换后所需的图像水平分辨率默认分辨率是输入文件的分辨率或96 dpi.
+description: 转换后所需的图像水平分辨率默认分辨率是输入文件的分辨率或 96 dpi.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution/
 ---
 ## ImageConvertOptions.HorizontalResolution property
 
-转换后所需的图像水平分辨率。默认分辨率是输入文件的分辨率或96 dpi.
+转换后所需的图像水平分辨率。默认分辨率是输入文件的分辨率或 96 dpi.
 
 ```csharp
 public int HorizontalResolution { get; set; }

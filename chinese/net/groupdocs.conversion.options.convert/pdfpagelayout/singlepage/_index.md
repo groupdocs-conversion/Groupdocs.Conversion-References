@@ -1,14 +1,14 @@
 ---
 title: SinglePage
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 单页
+description: 单页.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/pdfpagelayout/singlepage/
 ---
 ## PdfPageLayout.SinglePage field
 
-单页。
+单页.
 
 ```csharp
 public static readonly PdfPageLayout SinglePage;

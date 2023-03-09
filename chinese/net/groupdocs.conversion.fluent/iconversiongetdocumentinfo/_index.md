@@ -3,7 +3,7 @@ title: IConversionGetDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 获取源文档信息  页数和特定于文件类型的其他文档属性
 type: docs
-weight: 1110
+weight: 1240
 url: /zh/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface

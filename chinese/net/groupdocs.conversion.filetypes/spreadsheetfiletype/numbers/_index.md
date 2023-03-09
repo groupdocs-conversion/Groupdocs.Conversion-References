@@ -1,14 +1,14 @@
 ---
 title: Numbers
 second_title: GroupDocs.Conversion for .NET API 参考
-description: .numbers 扩展名的文件被归类为电子表格文件类型这就是它们类似于 .xlsx 文件的原因但 Numbers 文件是使用 Apple iWork Numbers 电子表格软件创建的 了解有关此文件格式的更多信息这里https//docs.fileformat.com/spreadsheet/numbers
+description: 扩展名为.numbers 的文件属于电子表格文件类型这就是它们与.xlsx 文件相似的原因但 Numbers 文件是使用 Apple iWork Numbers 电子表格软件创建的 了解有关此文件格式的更多信息这里https//docs.fileformat.com/spreadsheet/numbers
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/numbers/
 ---
 ## SpreadsheetFileType.Numbers field
 
-.numbers 扩展名的文件被归类为电子表格文件类型，这就是它们类似于 .xlsx 文件的原因；但 Numbers 文件是使用 Apple iWork Numbers 电子表格软件创建的。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/spreadsheet/numbers)
+扩展名为.numbers 的文件属于电子表格文件类型，这就是它们与.xlsx 文件相似的原因；但 Numbers 文件是使用 Apple iWork Numbers 电子表格软件创建的。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/spreadsheet/numbers)
 
 ```csharp
 public static readonly SpreadsheetFileType Numbers;

@@ -1,14 +1,14 @@
 ---
 title: Usdz
 second_title: GroupDocs.Conversion for .NET API 参考
-description: .usdz 文件是 USD通用场景描述文件格式的未压缩和未加密 ZIP 存档其中包含嵌入存档中的其他格式例如纹理和动画的文件和代理并使用USD 运行时无需任何解包 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/usdz
+description: 带有 .usdz 的文件是 USD通用场景描述文件格式的未压缩和未加密的 ZIP 存档其中包含嵌入存档中的其他格式例如纹理和动画文件的代理并直接使用无需解包的 USD 运行时 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/usdz
 type: docs
 weight: 160
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/usdz/
 ---
 ## ThreeDFileType.Usdz field
 
-.usdz 文件是 USD（通用场景描述）文件格式的未压缩和未加密 ZIP 存档，其中包含嵌入存档中的其他格式（例如纹理和动画）的文件和代理，并使用USD 运行时无需任何解包。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/usdz)
+带有 .usdz 的文件是 USD（通用场景描述）文件格式的未压缩和未加密的 ZIP 存档，其中包含嵌入存档中的其他格式（例如纹理和动画）文件的代理，并直接使用无需解包的 USD 运行时。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/usdz)
 
 ```csharp
 public static readonly ThreeDFileType Usdz;

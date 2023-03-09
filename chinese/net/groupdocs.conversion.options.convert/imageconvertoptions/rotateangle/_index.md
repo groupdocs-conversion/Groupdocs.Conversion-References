@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 图像旋转角度
+description: 图像旋转角度.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/rotateangle/
 ---
 ## ImageConvertOptions.RotateAngle property
 
-图像旋转角度。
+图像旋转角度.
 
 ```csharp
 public int RotateAngle { get; set; }

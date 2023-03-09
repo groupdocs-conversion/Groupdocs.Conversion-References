@@ -1,14 +1,14 @@
 ---
 title: Family
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 档案族
+description: 文件 family
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.filetypes/filetype/family/
 ---
 ## FileType.Family property
 
-档案族
+文件 family
 
 ```csharp
 public string Family { get; }

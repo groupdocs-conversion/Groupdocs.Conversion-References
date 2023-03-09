@@ -1,14 +1,14 @@
 ---
 title: Flac
 second_title: GroupDocs.Conversion for .NET API 参考
-description: FLACFree Lossless Audio Codec 是由Xiph.Org Foundation 开发的一种无损压缩音频编码格式 详细了解此文件格式这里https//docs.fileformat.com/audio/flac/
+description: FLACFree Lossless Audio Codec是由Xiph.Org Foundation开发的一种无损压缩音频编码格式 了解更多关于该文件格式的信息这里https//docs.fileformat.com/audio/flac/
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.filetypes/audiofiletype/flac/
 ---
 ## AudioFileType.Flac field
 
-FLAC(Free Lossless Audio Codec) 是由Xiph.Org Foundation 开发的一种无损压缩音频编码格式 详细了解此文件格式[这里](https://docs.fileformat.com/audio/flac/)
+FLAC(Free Lossless Audio Codec)是由Xiph.Org Foundation开发的一种无损压缩音频编码格式 了解更多关于该文件格式的信息[这里](https://docs.fileformat.com/audio/flac/)
 
 ```csharp
 public static readonly AudioFileType Flac;

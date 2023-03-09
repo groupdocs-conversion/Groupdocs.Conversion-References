@@ -1,14 +1,14 @@
 ---
 title: Rle
 second_title: GroupDocs.Conversion for .NET API 参考
-description: RLE 压缩
+description: RLE 压缩.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.options.convert/tiffcompressionmethods/rle/
 ---
 ## TiffCompressionMethods.Rle field
 
-RLE 压缩。
+RLE 压缩.
 
 ```csharp
 public static readonly TiffCompressionMethods Rle;
