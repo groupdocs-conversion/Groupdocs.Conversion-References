@@ -1,14 +1,14 @@
 ---
 title: Vdx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Alle Zeichnungen oder Diagramme die in Microsoft Visio erstellt aber im XMLFormat gespeichert wurden haben die Erweiterung .VDX. Eine VisioZeichnungsXMLDatei wird in der von Microsoft entwickelten VisioSoftware erstellt. Weitere Informationen zu diesem Dateiformathierhttps//wiki.fileformat.com/image/vdx .
+description: Alle Zeichnungen oder Diagramme die in Microsoft Visio erstellt aber im XMLFormat gespeichert wurden haben die Erweiterung .VDX. Eine VisioZeichnungsXMLDatei wird in der von Microsoft entwickelten VisioSoftware erstellt. Weitere Informationen zu diesem DateiformatHierhttps//wiki.fileformat.com/image/vdx .
 type: docs
 weight: 30
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vdx/
 ---
 ## DiagramFileType.Vdx field
 
-Alle Zeichnungen oder Diagramme, die in Microsoft Visio erstellt, aber im XML-Format gespeichert wurden, haben die Erweiterung .VDX. Eine Visio-Zeichnungs-XML-Datei wird in der von Microsoft entwickelten Visio-Software erstellt. Weitere Informationen zu diesem Dateiformat[hier](https://wiki.fileformat.com/image/vdx) .
+Alle Zeichnungen oder Diagramme, die in Microsoft Visio erstellt, aber im XML-Format gespeichert wurden, haben die Erweiterung .VDX. Eine Visio-Zeichnungs-XML-Datei wird in der von Microsoft entwickelten Visio-Software erstellt. Weitere Informationen zu diesem Dateiformat[Hier](https://wiki.fileformat.com/image/vdx) .
 
 ```csharp
 public static readonly DiagramFileType Vdx;

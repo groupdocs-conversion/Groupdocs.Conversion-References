@@ -1,14 +1,14 @@
 ---
 title: Vss
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: VSS sind Schablonendateien die mit Microsoft Visio 2007 und früher erstellt wurden. Schablonendateien stellen Zeichnungsobjekte bereit die in eine VSDVisioZeichnung eingefügt werden können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vss .
+description: VSS sind Schablonendateien die mit Microsoft Visio 2007 und früher erstellt wurden. Schablonendateien stellen Zeichnungsobjekte bereit die in eine VSDVisioZeichnung eingefügt werden können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vss .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vss/
 ---
 ## DiagramFileType.Vss field
 
-VSS sind Schablonendateien, die mit Microsoft Visio 2007 und früher erstellt wurden. Schablonendateien stellen Zeichnungsobjekte bereit, die in eine VSD-Visio-Zeichnung eingefügt werden können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vss) .
+VSS sind Schablonendateien, die mit Microsoft Visio 2007 und früher erstellt wurden. Schablonendateien stellen Zeichnungsobjekte bereit, die in eine VSD-Visio-Zeichnung eingefügt werden können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vss) .
 
 ```csharp
 public static readonly DiagramFileType Vss;

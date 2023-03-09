@@ -17,20 +17,26 @@ Der Namensraum stellt Klassen bereit, um zusätzliche Optionen für den Dokument
 | [CadLoadOptions](./cadloadoptions) | Optionen zum Laden von CAD-Dokumenten. |
 | [CompressionLoadOptions](./compressionloadoptions) | Optionen zum Laden von Komprimierungsdokumenten. |
 | [CsvLoadOptions](./csvloadoptions) | Optionen zum Laden von Csv-Dokumenten. |
+| [DatabaseLoadOptions](./databaseloadoptions) | Optionen zum Laden von Datenbankdokumenten. |
 | [DataLoadOptions](./dataloadoptions) | Optionen zum Laden von Datendokumenten. |
 | [DiagramLoadOptions](./diagramloadoptions) | Optionen zum Laden von Diagrammdokumenten. |
+| [EBookLoadOptions](./ebookloadoptions) | Optionen zum Laden von EBook-Dokumenten. |
 | [EmailField](./emailfield) | Beschreibt E-Mail-Felder enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Optionen zum Laden von E-Mail-Dokumenten. |
 | [EpubLoadOptions](./epubloadoptions) | Optionen zum Laden von Epub-Dokumenten. |
+| [FinanceLoadOptions](./financeloadoptions) | Optionen zum Laden von Finanzdokumenten. |
+| [FontLoadOptions](./fontloadoptions) | Optionen zum Laden von Schriftdokumenten. |
 | [ImageLoadOptions](./imageloadoptions) | Optionen zum Laden von Bilddokumenten. |
 | [LoadOptions](./loadoptions) | Klasse der Ladeoptionen für abstrakte Dokumente. |
 | [MarkupLoadOptions](./markuploadoptions) | Optionen zum Laden von Markup-Dokumenten. |
 | [MboxLoadOptions](./mboxloadoptions) | Optionen zum Laden von Mbox-Dokumenten. |
 | [NoteLoadOptions](./noteloadoptions) | Optionen zum Laden von One-Dokumenten. |
 | [NsfLoadOptions](./nsfloadoptions) | Optionen zum Laden von NSF-Dokumenten. |
+| [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Optionen zum Laden von Dokumenten in Seitenbeschreibungssprache. |
 | [PdfLoadOptions](./pdfloadoptions) | Optionen zum Laden von PDF-Dokumenten. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Optionen zum Laden von persönlichen Speicherdokumenten. |
 | [PresentationLoadOptions](./presentationloadoptions) | Optionen zum Laden von Präsentationsdokumenten. |
+| [PublisherLoadOptions](./publisherloadoptions) | Optionen zum Laden von Publisher-Dokumenten. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Optionen zum Laden von Tabellendokumenten. |
 | [ThreeDLoadOptions](./threedloadoptions) | Optionen zum Laden von 3D-Dokumenten. |
 | [TsvLoadOptions](./tsvloadoptions) | Optionen zum Laden von Tsv-Dokumenten. |
@@ -39,6 +45,7 @@ Der Namensraum stellt Klassen bereit, um zusätzliche Optionen für den Dokument
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | Beschreibt die Aufzählung von TXT-Optionen für nachgestellte Leerzeichen. |
 | [VcfLoadOptions](./vcfloadoptions) | Optionen zum Laden von Vcf-Dokumenten. |
 | [VideoLoadOptions](./videoloadoptions) | Optionen zum Laden von Videodokumenten. |
+| [WebLoadOptions](./webloadoptions) | Optionen zum Laden von Webdokumenten. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Optionen zum Umgang mit Lesezeichen in WordProcessing |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Optionen zum Laden von WordProcessing-Dokumenten. |
 | [XmlLoadOptions](./xmlloadoptions) | Optionen zum Laden von XML-Dokumenten. |

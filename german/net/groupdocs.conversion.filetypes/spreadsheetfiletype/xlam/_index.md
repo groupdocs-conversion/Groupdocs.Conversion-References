@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: XlamDokumentformat
+description: XLAM ist eine makrofähige AddInDatei die verwendet wird um neue Funktionen zu Tabellenkalkulationen hinzuzufügen. Ein AddIn ist ein Zusatzprogramm das zusätzlichen Code ausführt und zusätzliche Funktionen für Tabellenkalkulationen bereitstellt. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Xlam-Dokumentformat
+XLAM ist eine makrofähige Add-In-Datei, die verwendet wird, um neue Funktionen zu Tabellenkalkulationen hinzuzufügen. Ein Add-In ist ein Zusatzprogramm, das zusätzlichen Code ausführt und zusätzliche Funktionen für Tabellenkalkulationen bereitstellt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

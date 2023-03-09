@@ -1,14 +1,14 @@
 ---
 title: Gltf
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: glTF GL Transmission Format ist ein 3DDateiformat das 3DModellinformationen im JSONFormat speichert. Die Verwendung von JSON minimiert sowohl die Größe von 3DAssets als auch die Laufzeitverarbeitung die zum Entpacken und Verwenden dieser Assets erforderlich ist. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/gltf .
+description: glTF GL Transmission Format ist ein 3DDateiformat das 3DModellinformationen im JSONFormat speichert. Die Verwendung von JSON minimiert sowohl die Größe von 3DAssets als auch die Laufzeitverarbeitung die zum Entpacken und Verwenden dieser Assets erforderlich ist. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/gltf .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/gltf/
 ---
 ## ThreeDFileType.Gltf field
 
-glTF (GL Transmission Format) ist ein 3D-Dateiformat, das 3D-Modellinformationen im JSON-Format speichert. Die Verwendung von JSON minimiert sowohl die Größe von 3D-Assets als auch die Laufzeitverarbeitung, die zum Entpacken und Verwenden dieser Assets erforderlich ist. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/gltf) .
+glTF (GL Transmission Format) ist ein 3D-Dateiformat, das 3D-Modellinformationen im JSON-Format speichert. Die Verwendung von JSON minimiert sowohl die Größe von 3D-Assets als auch die Laufzeitverarbeitung, die zum Entpacken und Verwenden dieser Assets erforderlich ist. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/gltf) .
 
 ```csharp
 public static readonly ThreeDFileType Gltf;

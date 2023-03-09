@@ -6,29 +6,28 @@ type: docs
 weight: 20
 url: /de/net/groupdocs.conversion/converter/convert/
 ---
-## Convert(SaveDocumentStream, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, ConvertOptions) {#convert}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
+| document | Func`1 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
 | convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -36,32 +35,30 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| documentCompleted | ConvertedDocumentStream | Der Delegat, der den konvertierten Dokumentstream empfängt. |
+| document | Func`1 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
+| documentCompleted | Action`2 | Der Delegat, der den konvertierten Dokumentstream empfängt. Der DateiinhaltsstromDer Name der Datei |
 | convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -69,92 +66,30 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ---
 
-## Convert(SaveDocumentStream, ConvertOptionsProvider) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`1 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* namensraum [GroupDocs.Conversion](../../converter)
-* Montage [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) {#convert}
-
-Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
-
-```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| document | SaveDocumentStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| documentCompleted | ConvertedDocumentStream | Der Delegat, der den konvertierten Dokumentstream empfängt. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
-
-### Bemerkungen
-
-**Mehr erfahren**
-
-* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Siehe auch
-
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* namensraum [GroupDocs.Conversion](../../converter)
-* Montage [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStreamForFileType, ConvertOptions) {#convert_7}
-
-Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
-
-```csharp
-public void Convert(SaveDocumentStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
-
-### Bemerkungen
-
-**Mehr erfahren**
-
-* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Siehe auch
-
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -162,32 +97,31 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) {#convert_5}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| documentCompleted | ConvertedDocumentStream | Der Delegat, der den konvertierten Dokumentstream empfängt. |
-| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
+| document | Func`1 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
+| documentCompleted | Action`2 | Der Delegat, der den konvertierten Dokumentstream empfängt. Der DateiinhaltsstromDer Name der Datei |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -195,64 +129,125 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptionsProvider) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Der Typ der Quelldatei |
+| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
 * Montage [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
 
 Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| documentCompleted | ConvertedDocumentStream | Der Delegat, der den konvertierten Dokumentstream empfängt. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Der Typ der Quelldatei |
+| documentCompleted | Action`2 | Der Delegat, der den konvertierten Dokumentstream empfängt. Der DateiinhaltsstromDer Name der Datei |
+| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* namensraum [GroupDocs.Conversion](../../converter)
+* Montage [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
+
+Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
+
+```csharp
+public void Convert(Func<FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Der Typ der Quelldatei |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
+
+### Bemerkungen
+
+**Erfahren Sie mehr**
+
+* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Siehe auch
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* namensraum [GroupDocs.Conversion](../../converter)
+* Montage [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
+
+Konvertiert Quelldokument. Speichert das gesamte konvertierte Dokument.
+
+```csharp
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Der Typ der Quelldatei |
+| documentCompleted | Action`2 | Der Delegat, der den konvertierten Dokumentstream empfängt. Der DateiinhaltsstromDer Name der Datei |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
+
+### Bemerkungen
+
+**Erfahren Sie mehr**
+
+* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Siehe auch
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
 * Montage [GroupDocs.Conversion](../../../)
@@ -274,7 +269,7 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
@@ -288,29 +283,28 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertOptions) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Seitennummer |
 | convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -318,32 +312,30 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStream | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. |
-| documentCompleted | ConvertedPageStream | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. |
+| document | Func`2 | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. Seitennummer |
+| documentCompleted | Action`3 | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. SeitennummerDer DateiinhaltsstromDer Name der Datei |
 | convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -351,92 +343,30 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ---
 
-## Convert(SavePageStream, ConvertOptionsProvider) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStream | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`2 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Seitennummer |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* namensraum [GroupDocs.Conversion](../../converter)
-* Montage [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) {#convert_8}
-
-Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
-
-```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| document | SavePageStream | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. |
-| documentCompleted | ConvertedPageStream | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
-
-### Bemerkungen
-
-**Mehr erfahren**
-
-* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Siehe auch
-
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* namensraum [GroupDocs.Conversion](../../converter)
-* Montage [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStreamForFileType, ConvertOptions) {#convert_15}
-
-Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
-
-```csharp
-public void Convert(SavePageStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| document | SavePageStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
-
-### Bemerkungen
-
-**Mehr erfahren**
-
-* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Siehe auch
-
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -444,32 +374,31 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. |
-| documentCompleted | ConvertedPageStream | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. |
-| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
+| document | Func`2 | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. Seitennummer |
+| documentCompleted | Action`3 | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. SeitennummerDer DateiinhaltsstromDer Name der Datei |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
@@ -477,64 +406,126 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptionsProvider) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Der Delegat, der das konvertierte Dokument in einem Stream speichert. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`3 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. Seitennummer |
+| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
 * Montage [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
 
 Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. |
-| documentCompleted | ConvertedPageStream | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. |
-| convertOptionsProvider | ConvertOptionsProvider | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. |
+| document | Func`3 | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. SeitennummerDateityp |
+| documentCompleted | Action`3 | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. SeitennummerDer DateiinhaltsstromDer Name der Datei |
+| convertOptions | ConvertOptions | Die Konvertierungsoptionen sind spezifisch für den gewünschten Zieldateityp. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Siehe auch
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* namensraum [GroupDocs.Conversion](../../converter)
+* Montage [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
+
+Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| document | Func`3 | Der Delegat, der das konvertierte Dokument in einem Stream speichert. SeitennummerDateityp |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
+
+### Bemerkungen
+
+**Erfahren Sie mehr**
+
+* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Siehe auch
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* namensraum [GroupDocs.Conversion](../../converter)
+* Montage [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
+
+Konvertiert Quelldokument. Speichert das konvertierte Dokument Seite für Seite.
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| document | Func`3 | Der Delegat, der die konvertierte Dokumentseite in einem Stream speichert. SeitennummerDateityp |
+| documentCompleted | Action`3 | Der Delegat, der den konvertierten Dokumentseitenstream empfängt. SeitennummerDer DateiinhaltsstromDer Name der Datei |
+| convertOptionsProvider | Func`3 | Optionsanbieter konvertieren. Wird für jede Konvertierung aufgerufen, um spezifische Konvertierungsoptionen für den gewünschten Zieldokumenttyp bereitzustellen. Der Name der DateiDer Typ der Datei |
+
+### Bemerkungen
+
+**Erfahren Sie mehr**
+
+* Weitere Informationen zu den Basisszenarien der Dokumentenkonvertierung: [So konvertieren Sie ein Dokument in 3 Schritten](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Conversion-Anwendungsfälle, erweiterte Einstellungen und Anpassungen: [Dokument mit erweiterten Einstellungen konvertieren](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Siehe auch
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namensraum [GroupDocs.Conversion](../../converter)
 * Montage [GroupDocs.Conversion](../../../)

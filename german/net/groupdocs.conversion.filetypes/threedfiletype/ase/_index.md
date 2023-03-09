@@ -1,14 +1,14 @@
 ---
 title: Ase
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .ase ist ein AutodeskASCIISzenenexportDateiformat das eine ASCIIDarstellung einer Szene ist und 2D oder 3DInformationen enthält während Szenendaten mit Autodesk exportiert werden. Weitere Informationen zu diesem Dateiformathierhttps//docs.fileformat.com/3d/ase .
+description: Eine Datei mit der Erweiterung .ase ist ein AutodeskASCIISzenenexportDateiformat das eine ASCIIDarstellung einer Szene ist und 2D oder 3DInformationen enthält während Szenendaten mit Autodesk exportiert werden. Weitere Informationen zu diesem DateiformatHierhttps//docs.fileformat.com/3d/ase .
 type: docs
 weight: 30
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/ase/
 ---
 ## ThreeDFileType.Ase field
 
-Eine Datei mit der Erweiterung .ase ist ein Autodesk-ASCII-Szenenexport-Dateiformat, das eine ASCII-Darstellung einer Szene ist und 2D- oder 3D-Informationen enthält, während Szenendaten mit Autodesk exportiert werden. Weitere Informationen zu diesem Dateiformat[hier](https://docs.fileformat.com/3d/ase) .
+Eine Datei mit der Erweiterung .ase ist ein Autodesk-ASCII-Szenenexport-Dateiformat, das eine ASCII-Darstellung einer Szene ist und 2D- oder 3D-Informationen enthält, während Szenendaten mit Autodesk exportiert werden. Weitere Informationen zu diesem Dateiformat[Hier](https://docs.fileformat.com/3d/ase) .
 
 ```csharp
 public static readonly ThreeDFileType Ase;

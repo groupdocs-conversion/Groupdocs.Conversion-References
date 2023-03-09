@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: OpenDocument Flat XMLTabelle
+description: Eine Datei mit der Erweiterung .fods ist eine Art OpenDocument SpreadsheetDokumentformat das Daten in Zeilen und Spalten speichert. Das Format ist als Teil der ODF 1.2Spezifikationen spezifiziert die von OASIS veröffentlicht und verwaltet werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/fods .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-OpenDocument Flat XML-Tabelle
+Eine Datei mit der Erweiterung .fods ist eine Art OpenDocument Spreadsheet-Dokumentformat, das Daten in Zeilen und Spalten speichert. Das Format ist als Teil der ODF 1.2-Spezifikationen spezifiziert, die von OASIS veröffentlicht und verwaltet werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/fods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

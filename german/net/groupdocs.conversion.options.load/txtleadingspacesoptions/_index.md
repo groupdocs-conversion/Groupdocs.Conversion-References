@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beschreibt die Aufzählung von TXTOptionen für führende Leerzeichen.
 type: docs
-weight: 2040
+weight: 2290
 url: /de/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class

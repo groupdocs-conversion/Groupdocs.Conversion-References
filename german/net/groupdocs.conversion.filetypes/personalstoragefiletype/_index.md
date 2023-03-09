@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Definiert persönliche Speicherdateiformate die von EMailAnwendungen verwendet werden um ihre verschiedenen Daten zu speichern einschließlich EMailNachrichten Anhänge Ordner Adressbücher usw. Umfasst die folgenden Dateitypen Ost./personalstoragefiletype/ost  Pst./personalstoragefiletype/pst  Erfahren Sie mehr über EMailFormatehierhttps//wiki.fileformat.com/email .
+description: Definiert persönliche Speicherdateiformate die von EMailAnwendungen verwendet werden um ihre verschiedenen Daten zu speichern einschließlich EMailNachrichten Anhänge Ordner Adressbücher usw. Umfasst die folgenden Dateitypen Ost  Pst  Erfahren Sie mehr über EMailFormateHierhttps//wiki.fileformat.com/email .
 type: docs
-weight: 900
+weight: 1010
 url: /de/net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-Definiert persönliche Speicherdateiformate, die von E-Mail-Anwendungen verwendet werden, um ihre verschiedenen Daten zu speichern, einschließlich E-Mail-Nachrichten, Anhänge, Ordner, Adressbücher usw. Umfasst die folgenden Dateitypen: [`Ost`](./ost) , [`Pst`](./pst) , Erfahren Sie mehr über E-Mail-Formate[hier](https://wiki.fileformat.com/email) .
+Definiert persönliche Speicherdateiformate, die von E-Mail-Anwendungen verwendet werden, um ihre verschiedenen Daten zu speichern, einschließlich E-Mail-Nachrichten, Anhänge, Ordner, Adressbücher usw. Umfasst die folgenden Dateitypen: Ost , Pst , Erfahren Sie mehr über E-Mail-Formate[Hier](https://wiki.fileformat.com/email) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Serialisierungskonstruktor |
 
 ## Eigenschaften
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | Name | Beschreibung |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Vergleicht aktuelles Objekt mit anderem. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Dient als Standard-Hash-Funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Zeichenfolgendarstellung |
-
-## Felder
-
-| Name | Beschreibung |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | Eine Datei mit der Erweiterung .nsf (Notes Storage Facility) ist ein Datenbankdateiformat, das von der IBM Notes-Software verwendet wird, die früher als Lotus Notes bekannt war. Es definiert das Schema zum Speichern verschiedener Arten von Objekten wie E-Mails, Termine, Dokumente, Formulare und Ansichten. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/database/nsf) . |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST- oder Offlinespeicherdateien stellen die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/ost) . |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | Dateien mit der Erweiterung .PST stellen persönliche Outlook-Speicherdateien (auch persönliche Speichertabelle genannt) dar, in denen verschiedene Benutzerinformationen gespeichert werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/pst) . |
 
 ### Siehe auch
 

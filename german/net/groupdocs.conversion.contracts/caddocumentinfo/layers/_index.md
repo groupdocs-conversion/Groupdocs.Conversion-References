@@ -11,7 +11,7 @@ url: /de/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Ebenen im Dokument
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Siehe auch

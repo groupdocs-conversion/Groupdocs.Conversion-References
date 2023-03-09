@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Erfahren Sie mehr über konvertierte Dokumente – Dateityp, Seitenzahl, Erstellungsdatum und viele andere formatspezifische Eigenschaften: [So erhalten Sie Dokumentinformationen](https://docs.groupdocs.com/display/conversionnet/Get+document+info)
 

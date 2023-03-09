@@ -3,7 +3,7 @@ title: IPageRangedConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt Konvertierungsoptionen dar die die Konvertierung einer bestimmten Liste von Seiten unterstützen
 type: docs
-weight: 1420
+weight: 1580
 url: /de/net/groupdocs.conversion.options.convert/ipagerangedconvertoptions/
 ---
 ## IPageRangedConvertOptions interface

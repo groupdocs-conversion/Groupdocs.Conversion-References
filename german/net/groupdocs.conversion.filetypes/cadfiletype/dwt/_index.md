@@ -1,14 +1,14 @@
 ---
 title: Dwt
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine DWTDatei ist eine AutoCADZeichnungsvorlagendatei die als Starter zum Erstellen von Zeichnungen verwendet wird die als DWGDateien gespeichert werden können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/dwt .
+description: Eine DWTDatei ist eine AutoCADZeichnungsvorlagendatei die als Starter zum Erstellen von Zeichnungen verwendet wird die als DWGDateien gespeichert werden können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/dwt .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/cadfiletype/dwt/
 ---
 ## CadFileType.Dwt field
 
-Eine DWT-Datei ist eine AutoCAD-Zeichnungsvorlagendatei, die als Starter zum Erstellen von Zeichnungen verwendet wird, die als DWG-Dateien gespeichert werden können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/dwt) .
+Eine DWT-Datei ist eine AutoCAD-Zeichnungsvorlagendatei, die als Starter zum Erstellen von Zeichnungen verwendet wird, die als DWG-Dateien gespeichert werden können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/dwt) .
 
 ```csharp
 public static readonly CadFileType Dwt;

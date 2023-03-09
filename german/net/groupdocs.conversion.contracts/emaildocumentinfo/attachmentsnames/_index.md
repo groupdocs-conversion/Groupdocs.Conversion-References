@@ -11,7 +11,7 @@ url: /de/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 Ruft Anlagennamen ab
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### Siehe auch

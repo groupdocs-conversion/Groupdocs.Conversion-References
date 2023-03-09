@@ -1,14 +1,14 @@
 ---
 title: Dcm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .DCM stellen digitale Bilder dar die medizinische Informationen von Patienten wie MRTs CTScans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/dcm .
+description: Dateien mit der Erweiterung .DCM stellen digitale Bilder dar die medizinische Informationen von Patienten wie MRTs CTScans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 70
+weight: 60
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/dcm/
 ---
 ## ImageFileType.Dcm field
 
-Dateien mit der Erweiterung .DCM stellen digitale Bilder dar, die medizinische Informationen von Patienten wie MRTs, CT-Scans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/dcm) .
+Dateien mit der Erweiterung .DCM stellen digitale Bilder dar, die medizinische Informationen von Patienten wie MRTs, CT-Scans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/dcm) .
 
 ```csharp
 public static readonly ImageFileType Dcm;

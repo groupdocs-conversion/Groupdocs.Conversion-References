@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung CSV Comma Separated Values stellen reine Textdateien dar die Datensätze mit kommagetrennten Werten enthalten. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/csv .
+description: Dateien mit der Erweiterung CSV Comma Separated Values stellen reine Textdateien dar die Datensätze mit kommagetrennten Werten enthalten. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/
 ---
 ## SpreadsheetFileType.Csv field
 
-Dateien mit der Erweiterung CSV (Comma Separated Values) stellen reine Textdateien dar, die Datensätze mit kommagetrennten Werten enthalten. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/csv) .
+Dateien mit der Erweiterung CSV (Comma Separated Values) stellen reine Textdateien dar, die Datensätze mit kommagetrennten Werten enthalten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/csv) .
 
 ```csharp
 public static readonly SpreadsheetFileType Csv;

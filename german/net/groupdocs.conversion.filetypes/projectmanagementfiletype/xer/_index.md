@@ -1,14 +1,14 @@
 ---
 title: Xer
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Das XERDateiformat ist ein proprietäres Projektdateiformat das von der Projektplanungs und Verwaltungsanwendung Primavera P6 verwendet wird. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/projectmanagement/xer .
+description: Das XERDateiformat ist ein proprietäres Projektdateiformat das von der Projektplanungs und Verwaltungsanwendung Primavera P6 verwendet wird. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/projectmanagement/xer .
 type: docs
 weight: 50
 url: /de/net/groupdocs.conversion.filetypes/projectmanagementfiletype/xer/
 ---
 ## ProjectManagementFileType.Xer field
 
-Das XER-Dateiformat ist ein proprietäres Projektdateiformat, das von der Projektplanungs- und Verwaltungsanwendung Primavera P6 verwendet wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/project-management/xer) .
+Das XER-Dateiformat ist ein proprietäres Projektdateiformat, das von der Projektplanungs- und Verwaltungsanwendung Primavera P6 verwendet wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/project-management/xer) .
 
 ```csharp
 public static readonly ProjectManagementFileType Xer;

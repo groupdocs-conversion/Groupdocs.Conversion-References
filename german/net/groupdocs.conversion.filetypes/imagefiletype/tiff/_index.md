@@ -1,14 +1,14 @@
 ---
 title: Tiff
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: TIFF Tagged Image File Format stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind die diesem Dateiformatstandard entsprechen. Es ist in der Lage Bilevel Graustufen Palettenfarben und VollfarbenBilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/tiff .
+description: TIFF Tagged Image File Format stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind die diesem Dateiformatstandard entsprechen. Es ist in der Lage Bilevel Graustufen Palettenfarben und VollfarbenBilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 370
+weight: 340
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/tiff/
 ---
 ## ImageFileType.Tiff field
 
-TIFF, Tagged Image File Format, stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind, die diesem Dateiformatstandard entsprechen. Es ist in der Lage, Bilevel-, Graustufen-, Palettenfarben- und Vollfarben-Bilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/tiff) .
+TIFF, Tagged Image File Format, stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten bestimmt sind, die diesem Dateiformatstandard entsprechen. Es ist in der Lage, Bilevel-, Graustufen-, Palettenfarben- und Vollfarben-Bilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/tiff) .
 
 ```csharp
 public static readonly ImageFileType Tiff;

@@ -1,22 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Konvertierten Seitenstrom empfangen. Wird nur ausgelöst wenn SaveSaveDocumentStreamForFileType gesetzt ist.
+description: Konvertierten Seitenstrom empfangen. Wird nur ausgelöst wenn ConvertToconvertedStreamProvider gesetzt ist.
 type: docs
 weight: 10
 url: /de/net/groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted/
 ---
 ## IConversionByPageCompleted.OnConversionCompleted method
 
-Konvertierten Seitenstrom empfangen. Wird nur ausgelöst, wenn „Save(SaveDocumentStreamForFileType)“ gesetzt ist.
+Konvertierten Seitenstrom empfangen. Wird nur ausgelöst, wenn „ConvertTo(convertedStreamProvider)“ gesetzt ist.
 
 ```csharp
-public IConversionConvertOrCompress OnConversionCompleted(ConvertedPageStream convertedPageStream)
+public IConversionConvertOrCompress OnConversionCompleted(
+    Action<int, Stream, string> convertedPageStream)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| convertedPageStream | ConvertedPageStream | Konvertierter Pagestream-Anbieter |
+| convertedPageStream | Action`3 | Konvertierter Seitenstream provider Der Name der Datei |
 
 ### Rückgabewert
 
@@ -25,7 +26,6 @@ Schnittstelle zum Fortsetzen des Umbaus
 ### Siehe auch
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * namensraum [GroupDocs.Conversion.Fluent](../../iconversionbypagecompleted)
 * Montage [GroupDocs.Conversion](../../../)

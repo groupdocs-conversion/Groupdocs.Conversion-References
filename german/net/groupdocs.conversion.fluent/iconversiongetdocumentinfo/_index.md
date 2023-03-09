@@ -3,7 +3,7 @@ title: IConversionGetDocumentInfo
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Ruft Quelldokumentinformationen ab  Seitenzahl und andere Dokumenteigenschaften die für den Dateityp spezifisch sind.
 type: docs
-weight: 1110
+weight: 1240
 url: /de/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface

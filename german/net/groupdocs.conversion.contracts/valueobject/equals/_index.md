@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-`Stimmt` wenn das angegebene Objekt gleich dem aktuellen Objekt ist; Andernfalls,`FALSCH`.
+`WAHR` wenn das angegebene Objekt gleich dem aktuellen Objekt ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 
@@ -44,7 +44,7 @@ public virtual bool Equals(ValueObject other)
 
 ### Rückgabewert
 
-`Stimmt` wenn das angegebene Objekt gleich dem aktuellen Objekt ist; Andernfalls,`FALSCH`.
+`WAHR` wenn das angegebene Objekt gleich dem aktuellen Objekt ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

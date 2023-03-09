@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Quelldokument festlegen fileName
+description: Quelldokument fileName festlegen
 type: docs
 weight: 10
 url: /de/net/groupdocs.conversion.fluent/iconversionfrom/load/
 ---
 ## Load(string) {#load_2}
 
-Quelldokument festlegen fileName
+Quelldokument fileName festlegen
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)

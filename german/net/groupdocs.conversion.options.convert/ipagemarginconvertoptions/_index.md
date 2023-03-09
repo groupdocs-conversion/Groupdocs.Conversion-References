@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt Konvertierungsoptionen dar die Seitenränder unterstützen
 type: docs
-weight: 1400
+weight: 1560
 url: /de/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

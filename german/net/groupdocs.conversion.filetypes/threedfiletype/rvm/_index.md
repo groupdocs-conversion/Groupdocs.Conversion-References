@@ -1,14 +1,14 @@
 ---
 title: Rvm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: RVMDatendateien beziehen sich auf AVEVA PDMS. Die RVMDatei ist eine AVEVA Plant Design Management System ModelProjektdatei. Das Plant Design Management System PDMS von AVEVA ist das beliebteste 3DDesignsystem mit datenzentrierter Technologie zur Verwaltung von Projekten. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/rvm .
+description: RVMDatendateien beziehen sich auf AVEVA PDMS. Die RVMDatei ist eine AVEVA Plant Design Management System ModelProjektdatei. Das Plant Design Management System PDMS von AVEVA ist das beliebteste 3DDesignsystem mit datenzentrierter Technologie zur Verwaltung von Projekten. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/rvm .
 type: docs
 weight: 110
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/rvm/
 ---
 ## ThreeDFileType.Rvm field
 
-RVM-Datendateien beziehen sich auf AVEVA PDMS. Die RVM-Datei ist eine AVEVA Plant Design Management System Model-Projektdatei. Das Plant Design Management System (PDMS) von AVEVA ist das beliebteste 3D-Designsystem mit datenzentrierter Technologie zur Verwaltung von Projekten. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/rvm) .
+RVM-Datendateien beziehen sich auf AVEVA PDMS. Die RVM-Datei ist eine AVEVA Plant Design Management System Model-Projektdatei. Das Plant Design Management System (PDMS) von AVEVA ist das beliebteste 3D-Designsystem mit datenzentrierter Technologie zur Verwaltung von Projekten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/rvm) .
 
 ```csharp
 public static readonly ThreeDFileType Rvm;

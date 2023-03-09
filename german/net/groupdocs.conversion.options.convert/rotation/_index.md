@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beschreibt Seitenrotation enumeration
 type: docs
-weight: 1700
+weight: 1880
 url: /de/net/groupdocs.conversion.options.convert/rotation/
 ---
 ## Rotation class

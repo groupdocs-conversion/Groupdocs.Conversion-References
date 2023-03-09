@@ -1,14 +1,14 @@
 ---
 title: Lz
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .lz ist eine komprimierte Archivdatei die mit Lzip erstellt wurde einem kostenlosen Befehlszeilentool für die Komprimierung. Es unterstützt die Verkettung um SupportDateien zu komprimieren. LZDateien haben den Medientyp application/lzip und unterstützen höhere Komprimierungsraten als BZ2. . Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/bz2/ .
+description: Eine Datei mit der Erweiterung .lz ist eine komprimierte Archivdatei die mit Lzip erstellt wurde einem kostenlosen Befehlszeilentool für die Komprimierung. Es unterstützt die Verkettung um SupportDateien zu komprimieren. LZDateien haben den Medientyp application/lzip und unterstützen höhere Komprimierungsraten als BZ2. . Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/bz2/ .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/lz/
 ---
 ## CompressionFileType.Lz field
 
-Eine Datei mit der Erweiterung .lz ist eine komprimierte Archivdatei, die mit Lzip erstellt wurde, einem kostenlosen Befehlszeilentool für die Komprimierung. Es unterstützt die Verkettung, um Support-Dateien zu komprimieren. LZ-Dateien haben den Medientyp application/lzip und unterstützen höhere Komprimierungsraten als BZ2. . Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/bz2/) .
+Eine Datei mit der Erweiterung .lz ist eine komprimierte Archivdatei, die mit Lzip erstellt wurde, einem kostenlosen Befehlszeilentool für die Komprimierung. Es unterstützt die Verkettung, um Support-Dateien zu komprimieren. LZ-Dateien haben den Medientyp application/lzip und unterstützen höhere Komprimierungsraten als BZ2. . Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/bz2/) .
 
 ```csharp
 public static readonly CompressionFileType Lz;

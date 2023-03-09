@@ -1,14 +1,14 @@
 ---
 title: U3d
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: U3D Universal 3D ist ein komprimiertes Dateiformat und eine Datenstruktur für 3DComputergrafik. Es enthält 3DModellinformationen wie Dreiecksnetze Beleuchtung Schattierung Bewegungsdaten Linien und Punkte mit Farbe und Struktur. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/u3d .
+description: U3D Universal 3D ist ein komprimiertes Dateiformat und eine Datenstruktur für 3DComputergrafik. Es enthält 3DModellinformationen wie Dreiecksnetze Beleuchtung Schattierung Bewegungsdaten Linien und Punkte mit Farbe und Struktur. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/u3d .
 type: docs
 weight: 140
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/u3d/
 ---
 ## ThreeDFileType.U3d field
 
-U3D (Universal 3D) ist ein komprimiertes Dateiformat und eine Datenstruktur für 3D-Computergrafik. Es enthält 3D-Modellinformationen wie Dreiecksnetze, Beleuchtung, Schattierung, Bewegungsdaten, Linien und Punkte mit Farbe und Struktur. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/u3d) .
+U3D (Universal 3D) ist ein komprimiertes Dateiformat und eine Datenstruktur für 3D-Computergrafik. Es enthält 3D-Modellinformationen wie Dreiecksnetze, Beleuchtung, Schattierung, Bewegungsdaten, Linien und Punkte mit Farbe und Struktur. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/u3d) .
 
 ```csharp
 public static readonly ThreeDFileType U3d;

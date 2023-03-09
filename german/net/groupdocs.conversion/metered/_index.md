@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Bietet Methoden zum AnwendenGemessenhttps//purchase.groupdocs.com/faqs/licensing/metered Lizenz.
+description: Bietet Methoden zum AnwendenGemessenhttps//purchase.groupdocs.com/faqs/licensing/meteredLizenz.
 type: docs
-weight: 1280
+weight: 1410
 url: /de/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-Bietet Methoden zum Anwenden[Gemessen](https://purchase.groupdocs.com/faqs/licensing/metered) Lizenz.
+Bietet Methoden zum Anwenden[Gemessen](https://purchase.groupdocs.com/faqs/licensing/metered)Lizenz.
 
 ```csharp
 public class Metered
@@ -30,7 +30,7 @@ public class Metered
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr über die gebührenpflichtige Lizenzierung: [Häufig gestellte Fragen zur getakteten Lizenzierung](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Weitere Informationen zur GroupDocs.Conversion-Lizenzierung: [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)

@@ -1,14 +1,14 @@
 ---
 title: Dicom
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .DICOM stellen digitale Bilder dar die medizinische Informationen von Patienten wie MRTs CTScans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/dicom .
+description: Dateien mit der Erweiterung .DICOM stellen digitale Bilder dar die medizinische Informationen von Patienten wie MRTs CTScans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field
 
-Dateien mit der Erweiterung .DICOM stellen digitale Bilder dar, die medizinische Informationen von Patienten wie MRTs, CT-Scans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/dicom) .
+Dateien mit der Erweiterung .DICOM stellen digitale Bilder dar, die medizinische Informationen von Patienten wie MRTs, CT-Scans und Ultraschallbilder speichern. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/dicom) .
 
 ```csharp
 public static readonly ImageFileType Dicom;

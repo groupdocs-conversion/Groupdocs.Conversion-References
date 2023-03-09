@@ -30,10 +30,12 @@ Der Namensraum bietet Mitglieder zum Instanziieren und Freigeben von Ausgabedoku
 | [Enumeration](./enumeration) | Generische Aufzählungsklasse. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Enthält Ps-Dokumentmetadaten |
 | [EpubDocumentInfo](./epubdocumentinfo) | Enthält die Metadaten des Epub-Dokuments |
+| [FontDocumentInfo](./fontdocumentinfo) | Enthält die Metadaten des Schriftdokuments |
 | [FontSubstitute](./fontsubstitute) | Beschreibt den Ersatz für fehlende Schriftarten. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Enthält Metadaten des Gzip-Dokuments |
 | [IcoDocumentInfo](./icodocumentinfo) | Enthält Metadaten des Ico-Dokuments |
 | [ImageDocumentInfo](./imagedocumentinfo) | Enthält Metadaten des Bilddokuments |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Enthält Metadaten des iXbrl-Dokuments |
 | [JsonDocumentInfo](./jsondocumentinfo) | Enthält Metadaten des Json-Dokuments |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Enthält Metadaten des Lzip-Dokuments |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Enthält Metadaten des Lzma-Dokuments |
@@ -43,11 +45,13 @@ Der Namensraum bietet Mitglieder zum Instanziieren und Freigeben von Ausgabedoku
 | [PclDocumentInfo](./pcldocumentinfo) | Enthält Metadaten des Pcl-Dokuments |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Enthält Metadaten des PDF-Dokuments |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Enthält Metadaten des persönlichen Speicherdokuments |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Persönlicher Speicherordner info |
 | [PossibleConversions](./possibleconversions) | Stellt eine Zuordnung dar, welche Konvertierungspaare für ein bestimmtes Quelldateiformat unterstützt werden |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Enthält Metadaten des Präsentationsdokuments |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Enthält die Metadaten des ProjectManagement-Dokuments |
 | [PsdDocumentInfo](./psddocumentinfo) | Enthält Psd-Dokument-Metadaten |
 | [PsDocumentInfo](./psdocumentinfo) | Enthält Ps-Dokumentmetadaten |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Enthält Metadaten des Publisher-Dokuments |
 | [RarDocumentInfo](./rardocumentinfo) | Enthält Metadaten des RAR-Dokuments |
 | [SaveDocumentStream](./savedocumentstream) | Beschreibt den Delegaten zum Speichern des konvertierten Dokuments im Stream. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Beschreibt den Delegaten zum Speichern des konvertierten Dokuments im Stream. |
@@ -66,7 +70,9 @@ Der Namensraum bietet Mitglieder zum Instanziieren und Freigeben von Ausgabedoku
 | [ValueObject](./valueobject) | Abstrakte Wertobjektklasse. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Enthält Metadaten des Vcf-Dokuments |
 | [VideoDocumentInfo](./videodocumentinfo) | Enthält Videodokument-Metadaten |
+| [WebDocumentInfo](./webdocumentinfo) | Enthält Metadaten des Markup-Dokuments |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Enthält Metadaten des WordProcessing-Dokuments |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Enthält Metadaten des Xbrl-Dokuments |
 | [XmlDocumentInfo](./xmldocumentinfo) | Enthält Metadaten des XML-Dokuments |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Enthält Xps-Dokument-Metadaten |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Enthält Metadaten des XslFo-Dokuments |

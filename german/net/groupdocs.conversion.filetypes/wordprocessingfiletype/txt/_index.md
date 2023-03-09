@@ -1,14 +1,14 @@
 ---
 title: Txt
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .TXT stellt ein Textdokument dar das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/txt .
+description: Eine Datei mit der Erweiterung .TXT stellt ein Textdokument dar das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /de/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field
 
-Eine Datei mit der Erweiterung .TXT stellt ein Textdokument dar, das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/txt) .
+Eine Datei mit der Erweiterung .TXT stellt ein Textdokument dar, das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/txt) .
 
 ```csharp
 public static readonly WordProcessingFileType Txt;

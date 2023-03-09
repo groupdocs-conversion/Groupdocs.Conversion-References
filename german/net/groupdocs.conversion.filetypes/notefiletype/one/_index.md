@@ -1,14 +1,14 @@
 ---
 title: One
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .ONE werden von der Microsoft OneNoteAnwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/notetaking/one .
+description: Dateien mit der Erweiterung .ONE werden von der Microsoft OneNoteAnwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/notetaking/one .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/notefiletype/one/
 ---
 ## NoteFileType.One field
 
-Dateien mit der Erweiterung .ONE werden von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/note-taking/one) .
+Dateien mit der Erweiterung .ONE werden von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/note-taking/one) .
 
 ```csharp
 public static readonly NoteFileType One;

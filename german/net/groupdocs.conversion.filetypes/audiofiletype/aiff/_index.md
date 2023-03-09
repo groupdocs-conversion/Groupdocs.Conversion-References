@@ -1,14 +1,14 @@
 ---
 title: Aiff
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Das AIFF Audio Interchange File Format ist ein unkomprimiertes Audiodateiformat das 1998 von Apple entwickelt wurde aber auf EA IFF 85 basiert. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/audio/aiff/ .
+description: Das AIFF Audio Interchange File Format ist ein unkomprimiertes Audiodateiformat das 1998 von Apple entwickelt wurde aber auf EA IFF 85 basiert. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/audio/aiff/ .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/audiofiletype/aiff/
 ---
 ## AudioFileType.Aiff field
 
-Das AIFF (Audio Interchange File Format) ist ein unkomprimiertes Audiodateiformat, das 1998 von Apple entwickelt wurde, aber auf EA IFF 85 basiert. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/audio/aiff/) .
+Das AIFF (Audio Interchange File Format) ist ein unkomprimiertes Audiodateiformat, das 1998 von Apple entwickelt wurde, aber auf EA IFF 85 basiert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/audio/aiff/) .
 
 ```csharp
 public static readonly AudioFileType Aiff;

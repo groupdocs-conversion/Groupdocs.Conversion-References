@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen für die Konvertierung in den MarkupDateityp.
 type: docs
-weight: 1520
+weight: 1680
 url: /de/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /de/net/groupdocs.conversion.options.convert/markupconvertoptions/
 Optionen für die Konvertierung in den Markup-Dateityp.
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | Initialisiert eine neue Instanz von[`MarkupConvertOptions`](../markupconvertoptions) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | Wenn`Stimmt` festes Layout wird verwendet zB absolut positioniertes html elements Default: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Seitenränder beim Konvertieren in festes Layout anzeigen. Standard ist True. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | Wenn`WAHR` festes Layout wird verwendet zB absolut positioniertes html elements Default: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Seitenränder beim Konvertieren in festes Layout anzeigen. Standard ist True. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Der gewünschte Dateityp, in den das Eingabedokument konvertiert werden soll. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Der gewünschte Dateityp, in den das Eingabedokument konvertiert werden soll. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Die Seitenzahl, ab der die Konvertierung beginnen soll. |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Die Liste der zu konvertierenden Seitenindizes. Sollte angegeben werden, um bestimmte Seiten zu konvertieren. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Anzahl der zu konvertierenden Seiten ab`Seitennummer` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | Wenn`Stimmt` , die Eingabe wird zuerst in PDF konvertiert und danach in das gewünschte Format |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | Wenn`WAHR` , die Eingabe wird zuerst in PDF konvertiert und danach in das gewünschte Format |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Wasserzeichenspezifische Optionen |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Gibt die Zoomstufe in Prozent an. Standard ist 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Gibt die Zoomstufe in Prozent an. Standard ist 100. |
 
 ## Methoden
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### Siehe auch
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * namensraum [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * Montage [GroupDocs.Conversion](../../)
 

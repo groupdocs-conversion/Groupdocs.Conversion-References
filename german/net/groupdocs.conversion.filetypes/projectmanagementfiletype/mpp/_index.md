@@ -1,14 +1,14 @@
 ---
 title: Mpp
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: MPP ist eine Microsoft ProjectDatendatei in der Informationen zum Projektmanagement integriert gespeichert werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/projectmanagement/mpp .
+description: MPP ist eine Microsoft ProjectDatendatei in der Informationen zum Projektmanagement integriert gespeichert werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/projectmanagement/mpp .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/projectmanagementfiletype/mpp/
 ---
 ## ProjectManagementFileType.Mpp field
 
-MPP ist eine Microsoft Project-Datendatei, in der Informationen zum Projektmanagement integriert gespeichert werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/project-management/mpp) .
+MPP ist eine Microsoft Project-Datendatei, in der Informationen zum Projektmanagement integriert gespeichert werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/project-management/mpp) .
 
 ```csharp
 public static readonly ProjectManagementFileType Mpp;

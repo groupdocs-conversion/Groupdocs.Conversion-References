@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .x bezieht sich auf das ältere Dateiformat DirectX 3D Graphics das mit Microsoft DirectX 2.0 eingeführt wurde. Es wurde zum Rendern von 3DGrafiken in Spielen verwendet und gibt die Strukturen für Meshes Texturen Animationen und benutzerdefinierte Objekte an. Es ist seit 2014 veraltet da das Autodesk FBXDateiformat besser als moderneres Format dient. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/x .
+description: Eine Datei mit der Erweiterung .x bezieht sich auf das ältere Dateiformat DirectX 3D Graphics das mit Microsoft DirectX 2.0 eingeführt wurde. Es wurde zum Rendern von 3DGrafiken in Spielen verwendet und gibt die Strukturen für Meshes Texturen Animationen und benutzerdefinierte Objekte an. Es ist seit 2014 veraltet da das Autodesk FBXDateiformat besser als moderneres Format dient. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/x .
 type: docs
 weight: 180
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/x/
 ---
 ## ThreeDFileType.X field
 
-Eine Datei mit der Erweiterung .x bezieht sich auf das ältere Dateiformat DirectX 3D Graphics, das mit Microsoft DirectX 2.0 eingeführt wurde. Es wurde zum Rendern von 3D-Grafiken in Spielen verwendet und gibt die Strukturen für Meshes, Texturen, Animationen und benutzerdefinierte Objekte an. Es ist seit 2014 veraltet, da das Autodesk FBX-Dateiformat besser als moderneres Format dient. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/x) .
+Eine Datei mit der Erweiterung .x bezieht sich auf das ältere Dateiformat DirectX 3D Graphics, das mit Microsoft DirectX 2.0 eingeführt wurde. Es wurde zum Rendern von 3D-Grafiken in Spielen verwendet und gibt die Strukturen für Meshes, Texturen, Animationen und benutzerdefinierte Objekte an. Es ist seit 2014 veraltet, da das Autodesk FBX-Dateiformat besser als moderneres Format dient. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/x) .
 
 ```csharp
 public static readonly ThreeDFileType X;

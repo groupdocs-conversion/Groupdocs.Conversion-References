@@ -3,7 +3,7 @@ title: SvgDocumentInfo
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Enthält Metadaten des SVGDokuments
 type: docs
-weight: 490
+weight: 530
 url: /de/net/groupdocs.conversion.contracts/svgdocumentinfo/
 ---
 ## SvgDocumentInfo class

@@ -3,7 +3,7 @@ title: ConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Die allgemeine Konvertierungsoptionsklasse.
 type: docs
-weight: 1330
+weight: 1460
 url: /de/net/groupdocs.conversion.options.convert/convertoptions/
 ---
 ## ConvertOptions class

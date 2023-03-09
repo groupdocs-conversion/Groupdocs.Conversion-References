@@ -1,14 +1,14 @@
 ---
 title: Mpt
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Microsoft ProjectVorlagendateien enthalten grundlegende Informationen und Strukturen sowie Dokumenteinstellungen zum Erstellen von .MPPDateien. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/projectmanagement/mpt .
+description: Microsoft ProjectVorlagendateien enthalten grundlegende Informationen und Strukturen sowie Dokumenteinstellungen zum Erstellen von .MPPDateien. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/projectmanagement/mpt .
 type: docs
 weight: 30
 url: /de/net/groupdocs.conversion.filetypes/projectmanagementfiletype/mpt/
 ---
 ## ProjectManagementFileType.Mpt field
 
-Microsoft Project-Vorlagendateien enthalten grundlegende Informationen und Strukturen sowie Dokumenteinstellungen zum Erstellen von .MPP-Dateien. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/project-management/mpt) .
+Microsoft Project-Vorlagendateien enthalten grundlegende Informationen und Strukturen sowie Dokumenteinstellungen zum Erstellen von .MPP-Dateien. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/project-management/mpt) .
 
 ```csharp
 public static readonly ProjectManagementFileType Mpt;

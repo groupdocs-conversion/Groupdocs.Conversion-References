@@ -1,14 +1,14 @@
 ---
 title: Tga
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .tga ist ein Rastergrafikformat und wurde von Truevision Inc. erstellt. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/image/tga .
+description: Eine Datei mit der Erweiterung .tga ist ein Rastergrafikformat und wurde von Truevision Inc. erstellt. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field
 
-Eine Datei mit der Erweiterung .tga ist ein Rastergrafikformat und wurde von Truevision Inc. erstellt. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/image/tga) .
+Eine Datei mit der Erweiterung .tga ist ein Rastergrafikformat und wurde von Truevision Inc. erstellt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/image/tga) .
 
 ```csharp
 public static readonly ImageFileType Tga;

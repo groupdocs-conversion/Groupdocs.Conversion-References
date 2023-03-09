@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | Optionsanbieter laden |
+| loadOptionsProvider | Func`2 | Optionen laden provider Der Typ der geladenen Datei |
 
 ### Siehe auch
 

@@ -21,7 +21,7 @@ public static bool operator !=(Enumeration left, Enumeration right)
 
 ### Rückgabewert
 
-`Stimmt` wenn Objekte nicht gleich sind
+`WAHR` wenn Objekte nicht gleich sind
 
 ### Siehe auch
 

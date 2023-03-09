@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beschreibt die Aufzählung von TXTOptionen für nachgestellte Leerzeichen.
 type: docs
-weight: 2060
+weight: 2310
 url: /de/net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

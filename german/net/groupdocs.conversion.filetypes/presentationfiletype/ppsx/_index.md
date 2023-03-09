@@ -1,14 +1,14 @@
 ---
 title: Ppsx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: PPSX Power Point Slide Show Dateien werden mit Microsoft PowerPoint 2007 und höher für DiashowZwecke erstellt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/ppsx .
+description: PPSX Power Point Slide Show Dateien werden mit Microsoft PowerPoint 2007 und höher für DiashowZwecke erstellt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/ppsx .
 type: docs
 weight: 100
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/
 ---
 ## PresentationFileType.Ppsx field
 
-PPSX, Power Point Slide Show, Dateien werden mit Microsoft PowerPoint 2007 und höher für Diashow-Zwecke erstellt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/ppsx) .
+PPSX, Power Point Slide Show, Dateien werden mit Microsoft PowerPoint 2007 und höher für Diashow-Zwecke erstellt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/ppsx) .
 
 ```csharp
 public static readonly PresentationFileType Ppsx;

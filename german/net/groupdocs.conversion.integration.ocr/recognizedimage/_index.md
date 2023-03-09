@@ -3,7 +3,7 @@ title: RecognizedImage
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt Text dar der als Ergebnis seines Erkennungsprozesses aus einem Bild extrahiert wurde.
 type: docs
-weight: 1210
+weight: 1340
 url: /de/net/groupdocs.conversion.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class

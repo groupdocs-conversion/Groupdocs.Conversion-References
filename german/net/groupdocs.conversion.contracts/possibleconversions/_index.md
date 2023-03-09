@@ -3,7 +3,7 @@ title: PossibleConversions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt eine Zuordnung dar welche Konvertierungspaare für ein bestimmtes Quelldateiformat unterstützt werden
 type: docs
-weight: 370
+weight: 400
 url: /de/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class

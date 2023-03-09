@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von XMLDokumenten.
 type: docs
-weight: 2110
+weight: 2370
 url: /de/net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -24,8 +24,12 @@ public sealed class XmlLoadOptions : DataLoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Der Basispfad/die URL für html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Ruft die beim Laden des Markup-Dokuments zu verwendende Kodierung ab oder legt sie fest. Wenn die Eigenschaft null ist, wird die Kodierung aus dem Zeichensatzattribut des Dokuments bestimmt |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Dateityp des Eingabedokuments. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Generierung der Seitennummerierung im konvertierten Dokument aktivieren oder deaktivieren. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout für das Laden externer Ressourcen |
 | [UseAsDataSource](../../groupdocs.conversion.options.load/xmlloadoptions/useasdatasource) { get; set; } | XML-Dokument als Datenquelle verwenden |
 | [XslFoFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xslfofactory) { get; set; } | XSL-Dokumentenstrom zum Konvertieren von XML-FO mithilfe von XSL. |
 

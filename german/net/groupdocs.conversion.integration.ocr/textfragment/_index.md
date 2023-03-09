@@ -3,7 +3,7 @@ title: TextFragment
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt einen Teil des erkannten Textes Wort Symbol usw. dar der von der OCREngine extrahiert wurde.
 type: docs
-weight: 1220
+weight: 1350
 url: /de/net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class

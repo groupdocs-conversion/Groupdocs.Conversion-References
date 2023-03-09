@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Gitterlinien beim Konvertieren von ExcelDateien anzeigen.
 type: docs
-weight: 130
+weight: 140
 url: /de/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

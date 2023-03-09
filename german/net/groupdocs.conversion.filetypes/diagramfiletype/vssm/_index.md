@@ -1,14 +1,14 @@
 ---
 title: Vssm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSSM sind Microsoft VisioSchablonendateien die Unterstützung für Makros bieten. Wenn eine VSSMDatei geöffnet wird können Makros ausgeführt werden um die gewünschte Formatierung und Platzierung von Formen in einem Diagramm zu erreichen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vssm .
+description: Dateien mit der Erweiterung .VSSM sind Microsoft VisioSchablonendateien die Unterstützung für Makros bieten. Wenn eine VSSMDatei geöffnet wird können Makros ausgeführt werden um die gewünschte Formatierung und Platzierung von Formen in einem Diagramm zu erreichen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vssm .
 type: docs
 weight: 80
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vssm/
 ---
 ## DiagramFileType.Vssm field
 
-Dateien mit der Erweiterung .VSSM sind Microsoft Visio-Schablonendateien, die Unterstützung für Makros bieten. Wenn eine VSSM-Datei geöffnet wird, können Makros ausgeführt werden, um die gewünschte Formatierung und Platzierung von Formen in einem Diagramm zu erreichen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vssm) .
+Dateien mit der Erweiterung .VSSM sind Microsoft Visio-Schablonendateien, die Unterstützung für Makros bieten. Wenn eine VSSM-Datei geöffnet wird, können Makros ausgeführt werden, um die gewünschte Formatierung und Platzierung von Formen in einem Diagramm zu erreichen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vssm) .
 
 ```csharp
 public static readonly DiagramFileType Vssm;

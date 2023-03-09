@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen für die Konvertierung in den Bilddateityp.
 type: docs
-weight: 1470
+weight: 1630
 url: /de/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -41,7 +41,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd-spezifische Konvertierungsoptionen. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Bildrotationswinkel. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff-spezifische Konvertierungsoptionen. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Wenn`Stimmt` die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Wenn`WAHR` , die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Gewünschte vertikale Bildauflösung nach der Konvertierung. Die Standardauflösung ist die Auflösung der Eingabedatei oder 96 dpi. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Wasserzeichenspezifische Optionen |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp-spezifische Konvertierungsoptionen. |

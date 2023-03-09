@@ -1,14 +1,14 @@
 ---
 title: Cab
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .cab gehört zu einer Windows CabinetDatei die zur Kategorie der Systemdateien gehört. Es handelt sich um eine Datei die im Archivdateiformat in den Versionen von Microsoft Windows gespeichert wird die komprimierte Datenalgorithmen unterstützen wie z. B. LZX Quantum und ZIP. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/system/cab/ .
+description: Eine Datei mit der Erweiterung .cab gehört zu einer Windows CabinetDatei die zur Kategorie der Systemdateien gehört. Es handelt sich um eine Datei die im Archivdateiformat in den Versionen von Microsoft Windows gespeichert wird die komprimierte Datenalgorithmen unterstützen wie z. B. LZX Quantum und ZIP. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/system/cab/ .
 type: docs
 weight: 30
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/cab/
 ---
 ## CompressionFileType.Cab field
 
-Eine Datei mit der Erweiterung .cab gehört zu einer Windows Cabinet-Datei, die zur Kategorie der Systemdateien gehört. Es handelt sich um eine Datei, die im Archivdateiformat in den Versionen von Microsoft Windows gespeichert wird, die komprimierte Datenalgorithmen unterstützen, wie z. B. LZX, Quantum und ZIP. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/system/cab/) .
+Eine Datei mit der Erweiterung .cab gehört zu einer Windows Cabinet-Datei, die zur Kategorie der Systemdateien gehört. Es handelt sich um eine Datei, die im Archivdateiformat in den Versionen von Microsoft Windows gespeichert wird, die komprimierte Datenalgorithmen unterstützen, wie z. B. LZX, Quantum und ZIP. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/system/cab/) .
 
 ```csharp
 public static readonly CompressionFileType Cab;

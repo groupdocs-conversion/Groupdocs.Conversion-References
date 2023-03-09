@@ -1,14 +1,14 @@
 ---
 title: Bz2
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: BZ2 sind komprimierte Dateien die mit der BZIP2OpenSourceKomprimierungsmethode generiert werden hauptsächlich auf UNIX oder LinuxSystemen. Es wird für die Komprimierung einer einzelnen Datei verwendet und ist nicht für die Archivierung mehrerer Dateien gedacht. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/bz2/ .
+description: BZ2 sind komprimierte Dateien die mit der BZIP2OpenSourceKomprimierungsmethode generiert werden hauptsächlich auf UNIX oder LinuxSystemen. Es wird für die Komprimierung einer einzelnen Datei verwendet und ist nicht für die Archivierung mehrerer Dateien gedacht. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/bz2/ .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/bz2/
 ---
 ## CompressionFileType.Bz2 field
 
-BZ2 sind komprimierte Dateien, die mit der BZIP2-Open-Source-Komprimierungsmethode generiert werden, hauptsächlich auf UNIX- oder Linux-Systemen. Es wird für die Komprimierung einer einzelnen Datei verwendet und ist nicht für die Archivierung mehrerer Dateien gedacht. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/bz2/) .
+BZ2 sind komprimierte Dateien, die mit der BZIP2-Open-Source-Komprimierungsmethode generiert werden, hauptsächlich auf UNIX- oder Linux-Systemen. Es wird für die Komprimierung einer einzelnen Datei verwendet und ist nicht für die Archivierung mehrerer Dateien gedacht. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/bz2/) .
 
 ```csharp
 public static readonly CompressionFileType Bz2;

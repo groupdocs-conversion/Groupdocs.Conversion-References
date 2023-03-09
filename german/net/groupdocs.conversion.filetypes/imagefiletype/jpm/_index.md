@@ -3,7 +3,7 @@ title: Jpm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: JPMDokumentformat
 type: docs
-weight: 260
+weight: 240
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 ---
 ## ImageFileType.Jpm field

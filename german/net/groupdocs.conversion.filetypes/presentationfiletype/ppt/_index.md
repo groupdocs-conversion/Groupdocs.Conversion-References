@@ -1,14 +1,14 @@
 ---
 title: Ppt
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung PPT stellt eine PowerPointDatei dar die aus einer Sammlung von Folien besteht die als Diashow angezeigt werden. Es gibt das von Microsoft PowerPoint 972003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/ppt .
+description: Eine Datei mit der Erweiterung PPT stellt eine PowerPointDatei dar die aus einer Sammlung von Folien besteht die als Diashow angezeigt werden. Es gibt das von Microsoft PowerPoint 972003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/ppt .
 type: docs
 weight: 110
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/ppt/
 ---
 ## PresentationFileType.Ppt field
 
-Eine Datei mit der Erweiterung PPT stellt eine PowerPoint-Datei dar, die aus einer Sammlung von Folien besteht, die als Diashow angezeigt werden. Es gibt das von Microsoft PowerPoint 97-2003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/ppt) .
+Eine Datei mit der Erweiterung PPT stellt eine PowerPoint-Datei dar, die aus einer Sammlung von Folien besteht, die als Diashow angezeigt werden. Es gibt das von Microsoft PowerPoint 97-2003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/ppt) .
 
 ```csharp
 public static readonly PresentationFileType Ppt;

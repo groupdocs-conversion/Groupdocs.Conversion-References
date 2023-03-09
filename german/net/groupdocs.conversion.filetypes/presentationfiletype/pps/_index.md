@@ -1,14 +1,14 @@
 ---
 title: Pps
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: PPS PowerPointDiashow Dateien werden mit Microsoft PowerPoint für Diashowzwecke erstellt. Das Lesen und Erstellen von PPSDateien wird von Microsoft PowerPoint 972003 unterstützt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/pps .
+description: PPS PowerPointDiashow Dateien werden mit Microsoft PowerPoint für Diashowzwecke erstellt. Das Lesen und Erstellen von PPSDateien wird von Microsoft PowerPoint 972003 unterstützt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/pps .
 type: docs
 weight: 80
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/pps/
 ---
 ## PresentationFileType.Pps field
 
-PPS, PowerPoint-Diashow, Dateien werden mit Microsoft PowerPoint für Diashowzwecke erstellt. Das Lesen und Erstellen von PPS-Dateien wird von Microsoft PowerPoint 97-2003 unterstützt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/pps) .
+PPS, PowerPoint-Diashow, Dateien werden mit Microsoft PowerPoint für Diashowzwecke erstellt. Das Lesen und Erstellen von PPS-Dateien wird von Microsoft PowerPoint 97-2003 unterstützt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/pps) .
 
 ```csharp
 public static readonly PresentationFileType Pps;

@@ -1,14 +1,14 @@
 ---
 title: Xltm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Die XLTMDateierweiterung stellt Dateien dar die von Microsoft Excel als makrofähige Vorlagendateien generiert werden. XLTMDateien ähneln XLTX in ihrer Struktur abgesehen davon dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xltm .
+description: Die XLTMDateierweiterung stellt Dateien dar die von Microsoft Excel als makrofähige Vorlagendateien generiert werden. XLTMDateien ähneln XLTX in ihrer Struktur abgesehen davon dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
 weight: 160
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/
 ---
 ## SpreadsheetFileType.Xltm field
 
-Die XLTM-Dateierweiterung stellt Dateien dar, die von Microsoft Excel als makrofähige Vorlagendateien generiert werden. XLTM-Dateien ähneln XLTX in ihrer Struktur, abgesehen davon, dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xltm) .
+Die XLTM-Dateierweiterung stellt Dateien dar, die von Microsoft Excel als makrofähige Vorlagendateien generiert werden. XLTM-Dateien ähneln XLTX in ihrer Struktur, abgesehen davon, dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xltm;

@@ -3,7 +3,7 @@ title: IConversionFrom
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Einrichtungsquelle für Conversion
 type: docs
-weight: 1100
+weight: 1230
 url: /de/net/groupdocs.conversion.fluent/iconversionfrom/
 ---
 ## IConversionFrom interface
@@ -20,7 +20,7 @@ public interface IConversionFrom
 | --- | --- |
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_1)(Func&lt;Stream&gt;) | Quelldokument stream festlegen |
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load)(Func&lt;Stream[]&gt;) | Streams für Quelldokumente festlegen array |
-| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_2)(string) | Quelldokument festlegen fileName |
+| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_2)(string) | Quelldokument fileName festlegen |
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_3)(string[]) | Quelldokumente festlegen array |
 
 ### Siehe auch

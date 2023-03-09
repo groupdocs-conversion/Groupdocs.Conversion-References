@@ -3,7 +3,7 @@ title: Wmz
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Eine WMZDatei ist eigentlich eine komprimierte Version einer Microsoft WMFDatei. Dies ermöglicht eine einfachere Verteilung der Datei online. Wenn eine EWMFMFDatei mit dem .GZIPKomprimierungsalgorithmus komprimiert wird erhält sie die Dateierweiterung .wmz.
 type: docs
-weight: 400
+weight: 370
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

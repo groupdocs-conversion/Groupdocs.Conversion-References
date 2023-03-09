@@ -1,14 +1,14 @@
 ---
 title: Gif
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Für jedes Bild sind in GIF normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben im gesamten Bild zulässig. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/gif .
+description: Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Für jedes Bild sind in GIF normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben im gesamten Bild zulässig. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 160
+weight: 140
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field
 
-Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Für jedes Bild sind in GIF normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben im gesamten Bild zulässig. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/gif) .
+Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Für jedes Bild sind in GIF normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben im gesamten Bild zulässig. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/gif) .
 
 ```csharp
 public static readonly ImageFileType Gif;

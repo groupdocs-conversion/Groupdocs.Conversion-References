@@ -20,8 +20,11 @@ Der Namespace stellt Klassen bereit, um zusätzliche Optionen für den Dokumentk
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Abstrakte generische Konvertierungsoptionsklasse. |
 | [DataConvertOptions](./dataconvertoptions) | Optionen für die Konvertierung in den Datendateityp. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Optionen für die Konvertierung in den Diagrammdateityp. |
+| [EBookConvertOptions](./ebookconvertoptions) | Optionen für die Konvertierung in den EBook-Dateityp. |
 | [EmailConvertOptions](./emailconvertoptions) | Optionen für die Konvertierung in den E-Mail-Dateityp. |
+| [FinanceConvertOptions](./financeconvertoptions) | Optionen für die Konvertierung in den Finanzierungstyp. |
 | [Font](./font) | Schrifteinstellungen |
+| [FontConvertOptions](./fontconvertoptions) | Optionen für die Konvertierung in Schriftart. |
 | [ImageConvertOptions](./imageconvertoptions) | Optionen für die Konvertierung in den Bilddateityp. |
 | [ImageFlipModes](./imageflipmodes) | Beschreibt Bildumkehrmodi. |
 | [JpegOptions](./jpegoptions) | Optionen für die Konvertierung in den JPEG-Dateityp. |
@@ -29,10 +32,12 @@ Der Namespace stellt Klassen bereit, um zusätzliche Optionen für den Dokumentk
 | [JpgCompressionMethods](./jpgcompressionmethods) | Beschreibt JPEG-Komprimierungsmodi |
 | [MarkupConvertOptions](./markupconvertoptions) | Optionen für die Konvertierung in den Markup-Dateityp. |
 | [NoConvertOptions](./noconvertoptions) | Spezielle Konvertierungsoptionsklasse, die den Konverter anweist, das Quelldokument ohne Verarbeitung zu kopieren |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Optionen für die Konvertierung in den Dateityp Seitenbeschreibungssprache. |
 | [PageOrientation](./pageorientation) | Gibt die Seitenausrichtung an |
 | [PageSize](./pagesize) | Gibt die Seitengröße an |
 | [PdfConvertOptions](./pdfconvertoptions) | Optionen für die Konvertierung in das PDF-Dateiformat. |
 | [PdfDirection](./pdfdirection) | Beschreibt die PDF-Textrichtung. |
+| [PdfDocumentInfo](./pdfdocumentinfo) | Stellt Metainformationen des PDF-Dokuments dar. |
 | [PdfFormats](./pdfformats) | Beschreibt die Aufzählung von PDF-Formaten. |
 | [PdfFormattingOptions](./pdfformattingoptions) | Definiert PDF-Formatierungsoptionen. |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | Definiert PDF-Optimierungsoptionen. |
@@ -55,6 +60,7 @@ Der Namespace stellt Klassen bereit, um zusätzliche Optionen für den Dokumentk
 | [WatermarkImageOptions](./watermarkimageoptions) | Optionen zum Einstellen des Wasserzeichens für das konvertierte Dokument |
 | [WatermarkOptions](./watermarkoptions) | Optionen zum Einstellen des Wasserzeichens für das konvertierte Dokument |
 | [WatermarkTextOptions](./watermarktextoptions) | Optionen zum Einstellen des Textwasserzeichens für das konvertierte Dokument |
+| [WebConvertOptions](./webconvertoptions) | Optionen für die Konvertierung in den Webdateityp. |
 | [WebpOptions](./webpoptions) | Optionen für die Konvertierung in den Dateityp Webp. |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | Optionen für die Konvertierung in den Dateityp WordProcessing. |
 ## Schnittstellen

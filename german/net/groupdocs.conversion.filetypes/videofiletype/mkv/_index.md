@@ -1,14 +1,14 @@
 ---
 title: Mkv
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: MKV Matroska Video ist ein MultimediaContainer ähnlich dem MOV und AVIFormat unterstützt jedoch mehr als eine Audio und Untertitelspur in derselben Datei. Eine MKVDatei ist das MatroskaMultimediaContainerformat das für Videos verwendet wird. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/mkv/ .
+description: MKV Matroska Video ist ein MultimediaContainer ähnlich dem MOV und AVIFormat unterstützt jedoch mehr als eine Audio und Untertitelspur in derselben Datei. Eine MKVDatei ist das MatroskaMultimediaContainerformat das für Videos verwendet wird. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/mkv/ .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/mkv/
 ---
 ## VideoFileType.Mkv field
 
-MKV (Matroska Video) ist ein Multimedia-Container ähnlich dem MOV- und AVI-Format, unterstützt jedoch mehr als eine Audio- und Untertitelspur in derselben Datei. Eine MKV-Datei ist das Matroska-Multimedia-Containerformat, das für Videos verwendet wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/mkv/) .
+MKV (Matroska Video) ist ein Multimedia-Container ähnlich dem MOV- und AVI-Format, unterstützt jedoch mehr als eine Audio- und Untertitelspur in derselben Datei. Eine MKV-Datei ist das Matroska-Multimedia-Containerformat, das für Videos verwendet wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/mkv/) .
 
 ```csharp
 public static readonly VideoFileType Mkv;

@@ -1,14 +1,14 @@
 ---
 title: Numbers
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Die Dateien mit der Erweiterung .numbers werden als Tabellenkalkulationsdateityp klassifiziert deshalb ähneln sie den .xlsxDateien Die NumbersDateien werden jedoch mithilfe der Tabellenkalkulationssoftware Apple iWork Numbers erstellt. Weitere Informationen zu diesem Dateiformathierhttps//docs.fileformat.com/spreadsheet/numbers .
+description: Die Dateien mit der Erweiterung .numbers werden als Tabellenkalkulationsdateityp klassifiziert deshalb ähneln sie den .xlsxDateien Die NumbersDateien werden jedoch mithilfe der Tabellenkalkulationssoftware Apple iWork Numbers erstellt. Weitere Informationen zu diesem DateiformatHierhttps//docs.fileformat.com/spreadsheet/numbers .
 type: docs
 weight: 50
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/numbers/
 ---
 ## SpreadsheetFileType.Numbers field
 
-Die Dateien mit der Erweiterung .numbers werden als Tabellenkalkulationsdateityp klassifiziert, deshalb ähneln sie den .xlsx-Dateien; Die Numbers-Dateien werden jedoch mithilfe der Tabellenkalkulationssoftware Apple iWork Numbers erstellt. Weitere Informationen zu diesem Dateiformat[hier](https://docs.fileformat.com/spreadsheet/numbers) .
+Die Dateien mit der Erweiterung .numbers werden als Tabellenkalkulationsdateityp klassifiziert, deshalb ähneln sie den .xlsx-Dateien; Die Numbers-Dateien werden jedoch mithilfe der Tabellenkalkulationssoftware Apple iWork Numbers erstellt. Weitere Informationen zu diesem Dateiformat[Hier](https://docs.fileformat.com/spreadsheet/numbers) .
 
 ```csharp
 public static readonly SpreadsheetFileType Numbers;

@@ -1,14 +1,14 @@
 ---
 title: Xz
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: XZ ist ein komprimiertes Dateiformat das den LZMA2Komprimierungsalgorithmus verwendet. Es wurde als Ersatz für die gängigen Formate gzip und bzip2 entwickelt und bietet gegenüber diesen älteren Standards eine Reihe von Vorteilen. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/xz/ .
+description: XZ ist ein komprimiertes Dateiformat das den LZMA2Komprimierungsalgorithmus verwendet. Es wurde als Ersatz für die gängigen Formate gzip und bzip2 entwickelt und bietet gegenüber diesen älteren Standards eine Reihe von Vorteilen. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/xz/ .
 type: docs
 weight: 120
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/xz/
 ---
 ## CompressionFileType.Xz field
 
-XZ ist ein komprimiertes Dateiformat, das den LZMA2-Komprimierungsalgorithmus verwendet. Es wurde als Ersatz für die gängigen Formate gzip und bzip2 entwickelt und bietet gegenüber diesen älteren Standards eine Reihe von Vorteilen. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/xz/) .
+XZ ist ein komprimiertes Dateiformat, das den LZMA2-Komprimierungsalgorithmus verwendet. Es wurde als Ersatz für die gängigen Formate gzip und bzip2 entwickelt und bietet gegenüber diesen älteren Standards eine Reihe von Vorteilen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/xz/) .
 
 ```csharp
 public static readonly CompressionFileType Xz;

@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von Datendokumenten.
 type: docs
-weight: 1870
+weight: 2060
 url: /de/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /de/net/groupdocs.conversion.options.load/dataloadoptions/
 Optionen zum Laden von Datendokumenten.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Initialisiert eine neue Instanz von[`DataLoadOptions`](../dataloadoptions) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Der Basispfad/die URL für html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Ruft die beim Laden des Markup-Dokuments zu verwendende Kodierung ab oder legt sie fest. Wenn die Eigenschaft null ist, wird die Kodierung aus dem Zeichensatzattribut des Dokuments bestimmt |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Dateityp des Eingabedokuments. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Generierung der Seitennummerierung im konvertierten Dokument aktivieren oder deaktivieren. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout für das Laden externer Ressourcen |
 
 ## Methoden
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Siehe auch
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * namensraum [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * Montage [GroupDocs.Conversion](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: Potm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung POTM sind Microsoft PowerPointVorlagendateien mit Unterstützung für Makros. POTMDateien werden mit PowerPoint 2007 oder höher erstellt und enthalten Standardeinstellungen die zum Erstellen weiterer Präsentationsdateien verwendet werden können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/potm .
+description: Dateien mit der Erweiterung POTM sind Microsoft PowerPointVorlagendateien mit Unterstützung für Makros. POTMDateien werden mit PowerPoint 2007 oder höher erstellt und enthalten Standardeinstellungen die zum Erstellen weiterer Präsentationsdateien verwendet werden können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/potm .
 type: docs
 weight: 60
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/potm/
 ---
 ## PresentationFileType.Potm field
 
-Dateien mit der Erweiterung POTM sind Microsoft PowerPoint-Vorlagendateien mit Unterstützung für Makros. POTM-Dateien werden mit PowerPoint 2007 oder höher erstellt und enthalten Standardeinstellungen, die zum Erstellen weiterer Präsentationsdateien verwendet werden können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/potm) .
+Dateien mit der Erweiterung POTM sind Microsoft PowerPoint-Vorlagendateien mit Unterstützung für Makros. POTM-Dateien werden mit PowerPoint 2007 oder höher erstellt und enthalten Standardeinstellungen, die zum Erstellen weiterer Präsentationsdateien verwendet werden können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/potm) .
 
 ```csharp
 public static readonly PresentationFileType Potm;

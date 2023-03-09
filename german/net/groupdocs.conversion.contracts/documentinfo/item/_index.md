@@ -11,7 +11,7 @@ url: /de/net/groupdocs.conversion.contracts/documentinfo/item/
 Wert für eine als Schlüssel bereitgestellte Eigenschaft abrufen
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 ### Siehe auch

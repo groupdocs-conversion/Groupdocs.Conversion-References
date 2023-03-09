@@ -1,14 +1,14 @@
 ---
 title: Flv
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: FLV Flash Video ist ein Containerdateiformat mit der Erweiterung .flv. FLV wird verwendet um Audio/Videoinhalte über das Internet bereitzustellen indem Adobe Flash Player oder Adobe Air verwendet wird. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/flv/ .
+description: FLV Flash Video ist ein Containerdateiformat mit der Erweiterung .flv. FLV wird verwendet um Audio/Videoinhalte über das Internet bereitzustellen indem Adobe Flash Player oder Adobe Air verwendet wird. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/flv/ .
 type: docs
 weight: 30
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/flv/
 ---
 ## VideoFileType.Flv field
 
-FLV (Flash Video) ist ein Containerdateiformat mit der Erweiterung .flv. FLV wird verwendet, um Audio-/Videoinhalte über das Internet bereitzustellen, indem Adobe Flash Player oder Adobe Air verwendet wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/flv/) .
+FLV (Flash Video) ist ein Containerdateiformat mit der Erweiterung .flv. FLV wird verwendet, um Audio-/Videoinhalte über das Internet bereitzustellen, indem Adobe Flash Player oder Adobe Air verwendet wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/flv/) .
 
 ```csharp
 public static readonly VideoFileType Flv;

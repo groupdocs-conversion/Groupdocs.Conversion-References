@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Legen Sie fest wie das konvertierte Dokument gespeichert werden soll
 type: docs
-weight: 1180
+weight: 1310
 url: /de/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | Name | Beschreibung |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | Konvertierte Seite als Stream speichern |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | Konvertierte Seite als Stream speichern nach Typ |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | Konvertiertes Dokument als stream speichern |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | Konvertiertes Dokument als Stream speichern nach Typ |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | Konvertierte Seite als Stream speichern nach Typ |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | Konvertierte Seite als Stream speichern |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | Konvertiertes Dokument als Stream speichern nach Typ |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | Konvertiertes Dokument als stream speichern |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | Konvertiertes Dokument als Datei speichern |
 
 ### Siehe auch

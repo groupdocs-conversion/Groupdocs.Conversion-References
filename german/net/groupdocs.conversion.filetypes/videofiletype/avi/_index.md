@@ -1,14 +1,14 @@
 ---
 title: Avi
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Das AVIDateiformat ist ein AudioVideoMultimediaContainerDateiformat das von Microsoft eingeführt wurde. Es enthält die Audio und Videodaten die mit mehreren Codecs Coder/Decoder wie XVid und DivX erstellt und komprimiert wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/avi/ .
+description: Das AVIDateiformat ist ein AudioVideoMultimediaContainerDateiformat das von Microsoft eingeführt wurde. Es enthält die Audio und Videodaten die mit mehreren Codecs Coder/Decoder wie XVid und DivX erstellt und komprimiert wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/avi/ .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/avi/
 ---
 ## VideoFileType.Avi field
 
-Das AVI-Dateiformat ist ein Audio-Video-Multimedia-Container-Dateiformat, das von Microsoft eingeführt wurde. Es enthält die Audio- und Videodaten, die mit mehreren Codecs (Coder/Decoder) wie XVid und DivX erstellt und komprimiert wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/avi/) .
+Das AVI-Dateiformat ist ein Audio-Video-Multimedia-Container-Dateiformat, das von Microsoft eingeführt wurde. Es enthält die Audio- und Videodaten, die mit mehreren Codecs (Coder/Decoder) wie XVid und DivX erstellt und komprimiert wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/avi/) .
 
 ```csharp
 public static readonly VideoFileType Avi;

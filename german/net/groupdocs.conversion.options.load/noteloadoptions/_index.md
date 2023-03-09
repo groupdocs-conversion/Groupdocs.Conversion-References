@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von OneDokumenten.
 type: docs
-weight: 1960
+weight: 2190
 url: /de/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet, wenn eine Schriftart fehlt. Es muss ein absoluter Pfad zur Schriftartdatei angegeben werden. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet, wenn eine Schriftart fehlt. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Bestimmte Schriftarten beim Konvertieren von Note-Dokumenten ersetzen. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Dateityp des Eingabedokuments. |

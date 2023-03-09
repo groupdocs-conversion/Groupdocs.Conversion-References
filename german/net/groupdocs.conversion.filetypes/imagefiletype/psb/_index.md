@@ -1,14 +1,14 @@
 ---
 title: Psb
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Adobe Photoshop speichert Dateien in zwei Formaten. Dateien mit einer Größe von 30.000 x 30.000 Pixel werden mit der PSDErweiterung gespeichert und Dateien die größer als PSD bis zu 300.000 x 300.000 Pixel sind werden mit der PSBErweiterung gespeichert die als Photoshop Big bekannt ist. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/image/psb .
+description: Adobe Photoshop speichert Dateien in zwei Formaten. Dateien mit einer Größe von 30.000 x 30.000 Pixel werden mit der PSDErweiterung gespeichert und Dateien die größer als PSD bis zu 300.000 x 300.000 Pixel sind werden mit der PSBErweiterung gespeichert die als Photoshop Big bekannt ist. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/image/psb .
 type: docs
-weight: 310
+weight: 290
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field
 
-Adobe Photoshop speichert Dateien in zwei Formaten. Dateien mit einer Größe von 30.000 x 30.000 Pixel werden mit der PSD-Erweiterung gespeichert und Dateien, die größer als PSD bis zu 300.000 x 300.000 Pixel sind, werden mit der PSB-Erweiterung gespeichert, die als „Photoshop Big“ bekannt ist. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/image/psb) .
+Adobe Photoshop speichert Dateien in zwei Formaten. Dateien mit einer Größe von 30.000 x 30.000 Pixel werden mit der PSD-Erweiterung gespeichert und Dateien, die größer als PSD bis zu 300.000 x 300.000 Pixel sind, werden mit der PSB-Erweiterung gespeichert, die als „Photoshop Big“ bekannt ist. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/image/psb) .
 
 ```csharp
 public static readonly ImageFileType Psb;

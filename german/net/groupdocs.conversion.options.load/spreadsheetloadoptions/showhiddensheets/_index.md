@@ -3,7 +3,7 @@ title: ShowHiddenSheets
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beim Konvertieren von ExcelDateien ausgeblendete Blätter anzeigen.
 type: docs
-weight: 140
+weight: 150
 url: /de/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets/
 ---
 ## SpreadsheetLoadOptions.ShowHiddenSheets property
