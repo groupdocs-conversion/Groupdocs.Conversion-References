@@ -1,0 +1,59 @@
+---
+title: SpreadsheetLoadOptions
+second_title: .NET API संदर्भ के लिए GroupDocs.Conversion
+description: स्प्रैडशट दस्तवेज़ लड करने के लए वकल्प.
+type: docs
+weight: 2260
+url: /hi/net/groupdocs.conversion.options.load/spreadsheetloadoptions/
+---
+## SpreadsheetLoadOptions class
+
+स्प्रैडशीट दस्तावेज़ लोड करने के लिए विकल्प.
+
+```csharp
+public class SpreadsheetLoadOptions : LoadOptions
+```
+
+## कंस्ट्रक्टर्स
+
+| नाम | विवरण |
+| --- | --- |
+| [SpreadsheetLoadOptions](spreadsheetloadoptions)() | का नया उदाहरण शुरू करता है[`SpreadsheetLoadOptions`](../spreadsheetloadoptions) वर्ग. |
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [CheckExcelRestriction](../../groupdocs.conversion.options.load/spreadsheetloadoptions/checkexcelrestriction) { get; set; } | जब उपयोगकर्ता सेल से संबंधित वस्तुओं को संशोधित करता है तो क्या एक्सेल फ़ाइल के प्रतिबंध की जाँच करें। उदाहरण के लिए, एक्सेल 32K से अधिक स्ट्रिंग मान इनपुट करने की अनुमति नहीं देता है। जब आप 32K से अधिक मूल्य इनपुट करते हैं, यदि यह गुण सत्य है, तो आपको एक अपवाद मिलेगा। यदि यह गुण गलत है, तो हम आपके इनपुट स्ट्रिंग मान को सेल के मान के रूप में स्वीकार करेंगे ताकि बाद में आप CSV जैसे अन्य फ़ाइल स्वरूपों के लिए पूर्ण स्ट्रिंग मान आउटपुट कर सकें। हालाँकि, यदि आपने इस तरह का मान निर्धारित किया है जो एक्सेल फ़ाइल स्वरूप के लिए अमान्य है, तो आपको कार्यपुस्तिका को बाद में एक्सेल फ़ाइल स्वरूप के रूप में सहेजना नहीं चाहिए। अन्यथा जेनरेट की गई एक्सेल फाइल के लिए अनपेक्षित त्रुटि हो सकती है। |
+| [ConvertRange](../../groupdocs.conversion.options.load/spreadsheetloadoptions/convertrange) { get; set; } | स्प्रेडशीट प्रारूप के अलावा किसी अन्य प्रारूप में कनवर्ट करते समय विशिष्ट श्रेणी को कनवर्ट करें। उदाहरण: "D1:F8". |
+| [CultureInfo](../../groupdocs.conversion.options.load/spreadsheetloadoptions/cultureinfo) { get; set; } | फ़ाइल लोड होने के समय सिस्टम कल्चर जानकारी प्राप्त करें या सेट करें |
+| [DefaultFont](../../groupdocs.conversion.options.load/spreadsheetloadoptions/defaultfont) { get; set; } | स्प्रेडशीट दस्तावेज़ के लिए डिफ़ॉल्ट फ़ॉन्ट। यदि कोई फ़ॉन्ट अनुपलब्ध है तो निम्न फ़ॉन्ट का उपयोग किया जाएगा. |
+| [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | स्प्रेडशीट दस्तावेज़ को कनवर्ट करते समय विशिष्ट फ़ॉन्ट बदलें. |
+| [Format](../../groupdocs.conversion.options.load/spreadsheetloadoptions/format) { get; set; } | इनपुट दस्तावेज़ फ़ाइल प्रकार. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | इनपुट दस्तावेज़ फ़ाइल प्रकार. |
+| [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | टिप्पणियां छुपाएं. |
+| [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | यदि OnePagePerSheet सही है तो शीट की सामग्री को PDF दस्तावेज़ के एक पृष्ठ में बदल दिया जाएगा। डिफ़ॉल्ट मान सत्य है। |
+| [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | यदि सही है और पीडीएफ में परिवर्तित हो रहा है तो प्रिंट गुणवत्ता की तुलना में बेहतर फ़ाइल आकार के लिए रूपांतरण को अनुकूलित किया गया है। |
+| [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | सुरक्षित दस्तावेज़ को असुरक्षित करने के लिए पासवर्ड सेट करें। |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | कनवर्ट करने के लिए शीट इंडेक्स की सूची। इंडेक्स शून्य-आधारित होना चाहिए |
+| [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | कन्वर्ट करने के लिए शीट का नाम |
+| [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | एक्सेल फ़ाइलों को परिवर्तित करते समय ग्रिड लाइनें दिखाएं। |
+| [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | एक्सेल फ़ाइलों को कनवर्ट करते समय छिपी हुई शीट दिखाएं। |
+| [SkipEmptyRowsAndColumns](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns) { get; set; } | परिवर्तित करते समय खाली पंक्तियों और स्तंभों को छोड़ देता है। डिफ़ॉल्ट True. है |
+
+## तरीकों
+
+| नाम | विवरण |
+| --- | --- |
+| [Clone](../../groupdocs.conversion.options.load/spreadsheetloadoptions/clone)() | क्लोन वर्तमान उदाहरण। |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | निर्धारित करता है कि क्या दो वस्तु उदाहरण समान हैं। |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | निर्धारित करता है कि क्या दो वस्तु उदाहरण समान हैं। |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | डिफ़ॉल्ट हैश फ़ंक्शन के रूप में कार्य करता है। |
+
+### यह सभी देखें
+
+* class [LoadOptions](../loadoptions)
+* नाम स्थान [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
+* सभा [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Conversion.dll -->
