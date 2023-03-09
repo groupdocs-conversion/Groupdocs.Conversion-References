@@ -3,7 +3,7 @@ title: WebpOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file Webp.
 type: docs
-weight: 1800
+weight: 1990
 url: /it/net/groupdocs.conversion.options.convert/webpoptions/
 ---
 ## WebpOptions class
@@ -33,7 +33,7 @@ public sealed class WebpOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

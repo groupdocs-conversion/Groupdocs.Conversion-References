@@ -1,14 +1,14 @@
 ---
 title: Pot
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .POT rappresentano i file modello di Microsoft PowerPoint creati dalle versioni PowerPoint 972003. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/pot .
+description: I file con estensione .POT rappresentano i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 972003. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/pot .
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.filetypes/presentationfiletype/pot/
 ---
 ## PresentationFileType.Pot field
 
-I file con estensione .POT rappresentano i file modello di Microsoft PowerPoint creati dalle versioni PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/pot) .
+I file con estensione .POT rappresentano i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/pot) .
 
 ```csharp
 public static readonly PresentationFileType Pot;

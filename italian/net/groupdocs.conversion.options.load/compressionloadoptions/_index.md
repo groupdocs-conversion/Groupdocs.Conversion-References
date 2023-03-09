@@ -1,14 +1,14 @@
 ---
 title: CompressionLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per il caricamento dei documenti di compressione.
+description: Opzioni per il caricamento di documenti compressi.
 type: docs
-weight: 1850
+weight: 2040
 url: /it/net/groupdocs.conversion.options.load/compressionloadoptions/
 ---
 ## CompressionLoadOptions class
 
-Opzioni per il caricamento dei documenti di compressione.
+Opzioni per il caricamento di documenti compressi.
 
 ```csharp
 public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -18,7 +18,7 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 
 | Nome | Descrizione |
 | --- | --- |
-| [CompressionLoadOptions](compressionloadoptions)() | Inizializza la nuova istanza di[`CompressionLoadOptions`](../compressionloadoptions) classe. |
+| [CompressionLoadOptions](compressionloadoptions)() | Inizializza una nuova istanza di[`CompressionLoadOptions`](../compressionloadoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

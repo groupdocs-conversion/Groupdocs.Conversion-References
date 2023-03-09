@@ -1,14 +1,14 @@
 ---
 title: ThreeDConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diThreeDConvertOptionsgroupdocs.conversion.options.convert/threedconvertoptions classe.
+description: Inizializza una nuova istanza diThreeDConvertOptionsgroupdocs.conversion.options.convert/threedconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/threedconvertoptions/threedconvertoptions/
 ---
 ## ThreeDConvertOptions constructor
 
-Inizializza la nuova istanza di[`ThreeDConvertOptions`](../../threedconvertoptions) classe.
+Inizializza una nuova istanza di[`ThreeDConvertOptions`](../../threedconvertoptions) classe.
 
 ```csharp
 public ThreeDConvertOptions()

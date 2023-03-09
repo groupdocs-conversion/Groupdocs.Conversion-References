@@ -1,14 +1,14 @@
 ---
 title: TwoPagesRight
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Visualizza le pagine due alla volta con le pagine dispari a destra.
+description: Visualizza le pagine due alla volta con le pagine dispari sulla destra.
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.options.convert/pdfpagelayout/twopagesright/
 ---
 ## PdfPageLayout.TwoPagesRight field
 
-Visualizza le pagine due alla volta, con le pagine dispari a destra.
+Visualizza le pagine due alla volta, con le pagine dispari sulla destra.
 
 ```csharp
 public static readonly PdfPageLayout TwoPagesRight;

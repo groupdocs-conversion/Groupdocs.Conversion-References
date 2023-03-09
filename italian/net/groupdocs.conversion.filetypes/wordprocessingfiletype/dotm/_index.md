@@ -1,14 +1,14 @@
 ---
 title: Dotm
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione DOTM rappresenta un file modello creato con Microsoft Word 2007 o versioni successive. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/dotm .
+description: Un file con estensione DOTM rappresenta un file modello creato con Microsoft Word 2007 o versioni successive. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 70
+weight: 60
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field
 
-Un file con estensione DOTM rappresenta un file modello creato con Microsoft Word 2007 o versioni successive. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/dotm) .
+Un file con estensione DOTM rappresenta un file modello creato con Microsoft Word 2007 o versioni successive. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/dotm) .
 
 ```csharp
 public static readonly WordProcessingFileType Dotm;

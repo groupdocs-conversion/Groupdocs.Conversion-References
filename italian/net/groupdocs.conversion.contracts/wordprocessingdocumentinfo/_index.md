@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento WordProcessing
 type: docs
-weight: 600
+weight: 650
 url: /it/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo class
@@ -18,7 +18,7 @@ public class WordProcessingDocumentInfo : DocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/ispasswordprotected) { get; } | Ottiene il documento protetto da password |

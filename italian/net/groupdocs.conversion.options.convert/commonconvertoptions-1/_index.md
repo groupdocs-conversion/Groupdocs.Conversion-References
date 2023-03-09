@@ -3,7 +3,7 @@ title: CommonConvertOptionsTFileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Classe di opzioni di conversione comune generica astratta.
 type: docs
-weight: 1310
+weight: 1440
 url: /it/net/groupdocs.conversion.options.convert/commonconvertoptions-1/
 ---
 ## CommonConvertOptions&lt;TFileType&gt; class
@@ -23,9 +23,9 @@ public abstract class CommonConvertOptions<TFileType> : ConvertOptions<TFileType
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Il tipo di file desiderato in cui deve essere convertito il documento di input. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Il tipo di file desiderato in cui deve essere convertito il documento di input. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Il numero di pagina da cui iniziare la conversione. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Numero di pagine da convertire a partire da`Numero di pagina` . |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche per filigrana |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche filigrana |
 
 ## Metodi
 
@@ -34,7 +34,7 @@ public abstract class CommonConvertOptions<TFileType> : ConvertOptions<TFileType
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

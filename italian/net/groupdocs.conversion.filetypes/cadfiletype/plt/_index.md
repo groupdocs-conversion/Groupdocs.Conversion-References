@@ -1,14 +1,14 @@
 ---
 title: Plt
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il formato file PLT è un file plotter basato su vettori introdotto da Autodesk Inc. e contiene informazioni per un determinato file CAD. I dettagli di plottaggio richiedono accuratezza e precisione nella produzione e lutilizzo del file PLT lo garantisce poiché tutte le immagini vengono stampate utilizzando linee anziché punti. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/cad/plt .
+description: Il formato file PLT è un file plotter basato su vettori introdotto da Autodesk Inc. e contiene informazioni per un determinato file CAD. I dettagli di plottaggio richiedono accuratezza e precisione nella produzione e lutilizzo del file PLT lo garantisce poiché tutte le immagini vengono stampate utilizzando linee anziché punti. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/cad/plt .
 type: docs
 weight: 110
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/plt/
 ---
 ## CadFileType.Plt field
 
-Il formato file PLT è un file plotter basato su vettori introdotto da Autodesk, Inc. e contiene informazioni per un determinato file CAD. I dettagli di plottaggio richiedono accuratezza e precisione nella produzione e l'utilizzo del file PLT lo garantisce poiché tutte le immagini vengono stampate utilizzando linee anziché punti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/cad/plt) .
+Il formato file PLT è un file plotter basato su vettori introdotto da Autodesk, Inc. e contiene informazioni per un determinato file CAD. I dettagli di plottaggio richiedono accuratezza e precisione nella produzione e l'utilizzo del file PLT lo garantisce poiché tutte le immagini vengono stampate utilizzando linee anziché punti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/cad/plt) .
 
 ```csharp
 public static readonly CadFileType Plt;

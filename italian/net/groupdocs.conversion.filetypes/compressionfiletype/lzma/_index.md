@@ -1,14 +1,14 @@
 ---
 title: Lzma
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .lzma è un file di archivio compresso creato utilizzando il metodo di compressione LZMA Algoritmo della catena LempelZivMarkov. Questi si trovano/usano principalmente sul sistema operativo Unix e sono simili ad altri algoritmi di compressione come ZIP per ridurre al minimo le dimensioni dei file. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/compression/lzma/ .
+description: Un file con estensione .lzma è un file di archivio compresso creato utilizzando il metodo di compressione LZMA LempelZivMarkov chain Algorithm. Questi si trovano/utilizzano principalmente sul sistema operativo Unix e sono simili ad altri algoritmi di compressione come ZIP per ridurre al minimo le dimensioni del file. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/compression/lzma/ .
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
 ---
 ## CompressionFileType.Lzma field
 
-Un file con estensione .lzma è un file di archivio compresso creato utilizzando il metodo di compressione LZMA (Algoritmo della catena Lempel-Ziv-Markov). Questi si trovano/usano principalmente sul sistema operativo Unix e sono simili ad altri algoritmi di compressione come ZIP per ridurre al minimo le dimensioni dei file. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/compression/lzma/) .
+Un file con estensione .lzma è un file di archivio compresso creato utilizzando il metodo di compressione LZMA (Lempel-Ziv-Markov chain Algorithm). Questi si trovano/utilizzano principalmente sul sistema operativo Unix e sono simili ad altri algoritmi di compressione come ZIP per ridurre al minimo le dimensioni del file. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/compression/lzma/) .
 
 ```csharp
 public static readonly CompressionFileType Lzma;

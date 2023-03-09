@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet che è modificabile dallutente. I dati vengono archiviati allinterno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/ods .
+description: I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet che è modificabile dallutente. I dati vengono memorizzati allinterno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 ---
 ## SpreadsheetFileType.Ods field
 
-I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet che è modificabile dall'utente. I dati vengono archiviati all'interno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/ods) .
+I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet che è modificabile dall'utente. I dati vengono memorizzati all'interno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ods;

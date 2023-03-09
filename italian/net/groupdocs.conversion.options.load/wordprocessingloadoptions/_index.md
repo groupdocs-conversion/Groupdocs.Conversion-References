@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti WordProcessing.
 type: docs
-weight: 2100
+weight: 2360
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -18,26 +18,26 @@ public class WordProcessingLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [WordProcessingLoadOptions](wordprocessingloadoptions)() | Inizializza la nuova istanza di[`WordProcessingLoadOptions`](../wordprocessingloadoptions) classe. |
+| [WordProcessingLoadOptions](wordprocessingloadoptions)() | Inizializza una nuova istanza di[`WordProcessingLoadOptions`](../wordprocessingloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | Se AutoFontSubstitution è disabilitato, GroupDocs.Conversion utilizza DefaultFont per la sostituzione dei caratteri mancanti. Se AutoFontSubstitution è abilitato, GroupDocs.Conversion valuta tutti i campi correlati in FontInfo (Panose, Sig, ecc.) per il font mancante e trova la corrispondenza più vicina tra le fonti di font disponibili. Nota che il meccanismo di sostituzione dei font sovrascriverà DefaultFont nei casi in cui FontInfo per il carattere mancante è disponibile nel documento. Il valore predefinito è True. |
+| [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | Se AutoFontSubstitution è disabilitato, GroupDocs.Conversion utilizza DefaultFont per la sostituzione dei caratteri mancanti. Se AutoFontSubstitution è abilitato, GroupDocs.Conversion valuta tutti i campi correlati in FontInfo (Panose, Sig ecc.) per il carattere mancante e trova la corrispondenza più vicina tra le fonti di carattere disponibili. Nota che il meccanismo di sostituzione del carattere sovrascriverà il DefaultFont nei casi in cui FontInfo per il carattere mancante è disponibile nel documento. Il valore predefinito è True. |
 | [BookmarkOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/bookmarkoptions) { get; set; } | Opzioni segnalibri |
 | [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento di Words. Se manca un carattere, verrà utilizzato il seguente carattere. |
-| [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | Se EmbedTrueTypeFonts è true, GroupDocs.Conversion incorpora i caratteri di tipo true nel documento di output. Predefinito: false |
+| [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | Se EmbedTrueTypeFonts è true, GroupDocs.Conversion incorpora i font true type nel documento di output. Predefinito: falso |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes) { get; set; } | Sostituisci caratteri specifici durante la conversione di documenti Words. |
 | [Format](../../groupdocs.conversion.options.load/wordprocessingloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
 | [HideComments](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments) { get; set; } | Nascondi commenti. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Nascondi il markup e tieni traccia delle modifiche per i documenti di Word. |
-| [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Mantieni il valore originale del campo data. Predefinito: false |
+| [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Conserva il valore originale del campo data. Predefinito: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Imposta la password per rimuovere la protezione del documento protetto. |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PDF o convertirli in testo. L'impostazione predefinita è false. |
-| [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Aggiorna i campi dopo il caricamento. Predefinito: false |
-| [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Aggiorna il layout della pagina dopo il caricamento. Predefinito: false |
+| [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Aggiorna i campi dopo il caricamento. Predefinito: falso |
+| [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Aggiorna il layout della pagina dopo il caricamento. Predefinito: falso |
 | [UseTextShaper](../../groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper) { get; set; } | Specifica se utilizzare un text shaper per una migliore visualizzazione della crenatura. L'impostazione predefinita è false. |
 
 ## Metodi
@@ -46,7 +46,7 @@ public class WordProcessingLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

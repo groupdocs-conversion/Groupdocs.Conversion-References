@@ -3,7 +3,7 @@ title: Zoom
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Specifica il livello di zoom in percentuale. Il valore predefinito è 100.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/groupdocs.conversion.options.convert/pdfoptions/zoom/
 ---
 ## PdfOptions.Zoom property

@@ -1,14 +1,14 @@
 ---
 title: GetPossibleConversions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene possibili conversioni per il documento di origine.
+description: Ottiene le possibili conversioni per il documento di origine.
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion/converter/getpossibleconversions/
 ---
 ## GetPossibleConversions()
 
-Ottiene possibili conversioni per il documento di origine.
+Ottiene le possibili conversioni per il documento di origine.
 
 ```csharp
 public PossibleConversions GetPossibleConversions()
@@ -16,7 +16,7 @@ public PossibleConversions GetPossibleConversions()
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle conversioni supportate: [Elenco completo delle conversioni supportate](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Ulteriori informazioni sulle conversioni disponibili: [Come ottenere conversioni supportate nel codice](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
@@ -44,14 +44,14 @@ public static PossibleConversions GetPossibleConversions(string extension)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle conversioni supportate: [Elenco completo delle conversioni supportate](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Ulteriori informazioni sulle conversioni disponibili: [Come ottenere conversioni supportate nel codice](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
 
 ### Esempi
 
-Converter.GetPossibleConversions(".docx")
+Convertitore.GetPossibleConversions(".docx")
 
 Converter.GetPossibleConversions("docx")
 

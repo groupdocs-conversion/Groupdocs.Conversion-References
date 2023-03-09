@@ -1,14 +1,14 @@
 ---
 title: PresentationConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diPresentationConvertOptionsgroupdocs.conversion.options.convert/presentationconvertoptions classe.
+description: Inizializza una nuova istanza diPresentationConvertOptionsgroupdocs.conversion.options.convert/presentationconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/presentationconvertoptions/presentationconvertoptions/
 ---
 ## PresentationConvertOptions constructor
 
-Inizializza la nuova istanza di[`PresentationConvertOptions`](../../presentationconvertoptions) classe.
+Inizializza una nuova istanza di[`PresentationConvertOptions`](../../presentationconvertoptions) classe.
 
 ```csharp
 public PresentationConvertOptions()

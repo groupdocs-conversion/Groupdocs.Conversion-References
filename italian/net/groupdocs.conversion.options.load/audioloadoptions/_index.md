@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti audio.
 type: docs
-weight: 1820
+weight: 2010
 url: /it/net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class
@@ -18,7 +18,7 @@ public sealed class AudioLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AudioLoadOptions](audioloadoptions)() | Inizializza la nuova istanza di[`AudioLoadOptions`](../audioloadoptions) classe. |
+| [AudioLoadOptions](audioloadoptions)() | Inizializza una nuova istanza di[`AudioLoadOptions`](../audioloadoptions) classe. |
 
 ## Proprietà
 
@@ -33,7 +33,7 @@ public sealed class AudioLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 | [SetAudioConnector](../../groupdocs.conversion.options.load/audioloadoptions/setaudioconnector)(IAudioConnector) | Imposta connettore documento audio |
 
 ### Guarda anche

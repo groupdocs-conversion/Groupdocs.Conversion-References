@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento dei documenti di archiviazione personale.
 type: docs
-weight: 1990
+weight: 2230
 url: /it/net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
@@ -18,7 +18,7 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 
 | Nome | Descrizione |
 | --- | --- |
-| [PersonalStorageLoadOptions](personalstorageloadoptions)() | Inizializza la nuova istanza di[`PersonalStorageLoadOptions`](../personalstorageloadoptions) classe. |
+| [PersonalStorageLoadOptions](personalstorageloadoptions)() | Inizializza una nuova istanza di[`PersonalStorageLoadOptions`](../personalstorageloadoptions) classe. |
 
 ## Proprietà
 
@@ -37,7 +37,7 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 | [Clone](../../groupdocs.conversion.options.load/personalstorageloadoptions/clone)() | Clona l'istanza corrente. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

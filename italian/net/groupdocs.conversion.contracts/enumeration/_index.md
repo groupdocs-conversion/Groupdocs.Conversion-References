@@ -21,7 +21,7 @@ public abstract class Enumeration : IComparable, IEquatable<Enumeration>
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
 | virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals_1)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |
 | static [FromDisplayName&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromdisplayname)(string) | Restituisce l'oggetto per nome visualizzato. |
 | static [FromValue&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromvalue)(string) | Restituisce l'oggetto per chiave. |

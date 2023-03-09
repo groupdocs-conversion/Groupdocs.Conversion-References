@@ -1,14 +1,14 @@
 ---
 title: IsLandscape
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene la pagina orizzontale
+description: Ottiene la pagina in orizzontale
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.contracts/pdfdocumentinfo/islandscape/
 ---
 ## PdfDocumentInfo.IsLandscape property
 
-Ottiene la pagina orizzontale
+Ottiene la pagina in orizzontale
 
 ```csharp
 public bool IsLandscape { get; }

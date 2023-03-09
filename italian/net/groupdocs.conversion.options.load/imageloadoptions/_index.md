@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti immagine.
 type: docs
-weight: 1920
+weight: 2150
 url: /it/net/groupdocs.conversion.options.load/imageloadoptions/
 ---
 ## ImageLoadOptions class
@@ -18,7 +18,7 @@ public sealed class ImageLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [ImageLoadOptions](imageloadoptions)() | Inizializza la nuova istanza di[`ImageLoadOptions`](../imageloadoptions) classe. |
+| [ImageLoadOptions](imageloadoptions)() | Inizializza una nuova istanza di[`ImageLoadOptions`](../imageloadoptions) classe. |
 
 ## Proprietà
 
@@ -34,7 +34,7 @@ public sealed class ImageLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 | [SetOcrConnector](../../groupdocs.conversion.options.load/imageloadoptions/setocrconnector)(IOcrConnector) | Imposta connettore OCR immagine |
 
 ### Guarda anche

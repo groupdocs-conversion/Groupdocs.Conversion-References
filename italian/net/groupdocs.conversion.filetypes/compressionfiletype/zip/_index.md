@@ -1,14 +1,14 @@
 ---
 title: Zip
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .zip è un archivio che può contenere uno o più file o directory. Larchivio può avere la compressione applicata ai file inclusi per ridurre la dimensione del file ZIP. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/compression/zip/ .
+description: Un file con estensione .zip è un archivio che può contenere uno o più file o directory. Larchivio può avere la compressione applicata ai file inclusi per ridurre le dimensioni del file ZIP. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/compression/zip/ .
 type: docs
 weight: 140
 url: /it/net/groupdocs.conversion.filetypes/compressionfiletype/zip/
 ---
 ## CompressionFileType.Zip field
 
-Un file con estensione .zip è un archivio che può contenere uno o più file o directory. L'archivio può avere la compressione applicata ai file inclusi per ridurre la dimensione del file ZIP. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/compression/zip/) .
+Un file con estensione .zip è un archivio che può contenere uno o più file o directory. L'archivio può avere la compressione applicata ai file inclusi per ridurre le dimensioni del file ZIP. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/compression/zip/) .
 
 ```csharp
 public static readonly CompressionFileType Zip;

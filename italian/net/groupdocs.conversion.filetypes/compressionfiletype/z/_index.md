@@ -1,14 +1,14 @@
 ---
 title: Z
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il file AZ è una categoria di file appartenenti ai file di dati compressi UNIX. I file Unix compressi sono il tipo di estensione più popolare e ampiamente utilizzato del file Z. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/compression/z/ .
+description: Il file AZ è una categoria di file appartenenti ai file di dati compressi UNIX. I file Unix compressi sono il tipo di estensione più popolare e ampiamente utilizzato del file Z. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/compression/z/ .
 type: docs
 weight: 130
 url: /it/net/groupdocs.conversion.filetypes/compressionfiletype/z/
 ---
 ## CompressionFileType.Z field
 
-Il file AZ è una categoria di file appartenenti ai file di dati compressi UNIX. I file Unix compressi sono il tipo di estensione più popolare e ampiamente utilizzato del file Z. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/compression/z/) .
+Il file AZ è una categoria di file appartenenti ai file di dati compressi UNIX. I file Unix compressi sono il tipo di estensione più popolare e ampiamente utilizzato del file Z. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/compression/z/) .
 
 ```csharp
 public static readonly CompressionFileType Z;

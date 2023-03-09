@@ -3,7 +3,7 @@ title: VideoConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione in tipo Video.
 type: docs
-weight: 1760
+weight: 1940
 url: /it/net/groupdocs.conversion.options.convert/videoconvertoptions/
 ---
 ## VideoConvertOptions class
@@ -18,12 +18,14 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 
 | Nome | Descrizione |
 | --- | --- |
-| [VideoConvertOptions](videoconvertoptions)() | Inizializza la nuova istanza di[`VideoConvertOptions`](../videoconvertoptions) classe. |
+| [VideoConvertOptions](videoconvertoptions)() | Inizializza una nuova istanza di[`VideoConvertOptions`](../videoconvertoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
+| [AudioFormat](../../groupdocs.conversion.options.convert/videoconvertoptions/audioformat) { get; set; } | Quale formato audio utilizzare |
+| [ExtractAudioOnly](../../groupdocs.conversion.options.convert/videoconvertoptions/extractaudioonly) { get; set; } | Se impostato su true, estrae l'audio dal video |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Il tipo di file desiderato in cui deve essere convertito il documento di input. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Il tipo di file desiderato in cui deve essere convertito il documento di input. |
 
@@ -34,7 +36,7 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

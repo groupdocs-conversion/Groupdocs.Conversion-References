@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Modello foglio di calcolo OpenDocument
+description: Un file con estensione .ots è un file modello di foglio di calcolo OpenDocument creato con il software applicativo Calc incluso in Apache OpenOffice. Il software applicativo Calc è simile a Excel disponibile in Microsoft Office. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-Modello foglio di calcolo OpenDocument
+Un file con estensione .ots è un file modello di foglio di calcolo OpenDocument creato con il software applicativo Calc incluso in Apache OpenOffice. Il software applicativo Calc è simile a Excel disponibile in Microsoft Office. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

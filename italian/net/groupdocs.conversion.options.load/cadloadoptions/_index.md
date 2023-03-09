@@ -1,14 +1,14 @@
 ---
 title: CadLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per il caricamento di documenti CAD.
+description: Opzioni per il caricamento dei documenti CAD.
 type: docs
-weight: 1840
+weight: 2030
 url: /it/net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class
 
-Opzioni per il caricamento di documenti CAD.
+Opzioni per il caricamento dei documenti CAD.
 
 ```csharp
 public sealed class CadLoadOptions : LoadOptions
@@ -18,7 +18,7 @@ public sealed class CadLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [CadLoadOptions](cadloadoptions)() | Inizializza la nuova istanza di[`CadLoadOptions`](../cadloadoptions) classe. |
+| [CadLoadOptions](cadloadoptions)() | Inizializza una nuova istanza di[`CadLoadOptions`](../cadloadoptions) classe. |
 
 ## Proprietà
 
@@ -26,10 +26,10 @@ public sealed class CadLoadOptions : LoadOptions
 | --- | --- |
 | [BackgroundColor](../../groupdocs.conversion.options.load/cadloadoptions/backgroundcolor) { get; set; } | Ottiene o imposta un colore di sfondo. |
 | [DrawType](../../groupdocs.conversion.options.load/cadloadoptions/drawtype) { get; set; } | Ottiene o imposta il tipo di disegno. |
-| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Tipo di file del documento di input |
+| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Tipo file documento di input |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
 | [Height](../../groupdocs.conversion.options.load/cadloadoptions/height) { get; set; } | Imposta l'altezza della pagina desiderata per la conversione del documento CAD |
-| [LayoutNames](../../groupdocs.conversion.options.load/cadloadoptions/layoutnames) { get; set; } | Specifica quali layout CAD devono essere convertiti |
+| [LayoutNames](../../groupdocs.conversion.options.load/cadloadoptions/layoutnames) { get; set; } | Specifica quali layout CAD convertire |
 | [Width](../../groupdocs.conversion.options.load/cadloadoptions/width) { get; set; } | Imposta la larghezza della pagina desiderata per la conversione del documento CAD |
 
 ## Metodi
@@ -38,7 +38,7 @@ public sealed class CadLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

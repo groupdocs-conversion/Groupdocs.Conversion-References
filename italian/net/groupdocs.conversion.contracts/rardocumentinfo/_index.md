@@ -3,7 +3,7 @@ title: RarDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento Rar
 type: docs
-weight: 420
+weight: 460
 url: /it/net/groupdocs.conversion.contracts/rardocumentinfo/
 ---
 ## RarDocumentInfo class

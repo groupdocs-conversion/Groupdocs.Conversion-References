@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Lelenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche.
+description: Lelenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.options.convert/commonconvertoptions-1/pages/
 ---
 ## CommonConvertOptions&lt;TFileType&gt;.Pages property
 
-L'elenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche.
+L'elenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche.
 
 ```csharp
 public List<int> Pages { get; set; }

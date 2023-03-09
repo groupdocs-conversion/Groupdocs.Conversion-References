@@ -1,14 +1,14 @@
 ---
 title: WordProcessingLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diWordProcessingLoadOptionsgroupdocs.conversion.options.load/wordprocessingloadoptions classe.
+description: Inizializza una nuova istanza diWordProcessingLoadOptionsgroupdocs.conversion.options.load/wordprocessingloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions constructor
 
-Inizializza la nuova istanza di[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) classe.
+Inizializza una nuova istanza di[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) classe.
 
 ```csharp
 public WordProcessingLoadOptions()

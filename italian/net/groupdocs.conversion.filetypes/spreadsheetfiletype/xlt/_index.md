@@ -1,14 +1,14 @@
 ---
 title: Xlt
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .XLT sono file modello creati con Microsoft Excel unapplicazione per fogli di calcolo che fa parte della suite Microsoft Office. Microsoft Office 972003 supportava la creazione di nuovi file XLT e lapertura di questi. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlt .
+description: I file con estensione .XLT sono file modello creati con Microsoft Excel unapplicazione per fogli di calcolo che fa parte della suite Microsoft Office. Microsoft Office 972003 supportava la creazione di nuovi file XLT e lapertura di questi. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
 weight: 150
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlt/
 ---
 ## SpreadsheetFileType.Xlt field
 
-I file con estensione .XLT sono file modello creati con Microsoft Excel, un'applicazione per fogli di calcolo che fa parte della suite Microsoft Office. Microsoft Office 97-2003 supportava la creazione di nuovi file XLT e l'apertura di questi. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlt) .
+I file con estensione .XLT sono file modello creati con Microsoft Excel, un'applicazione per fogli di calcolo che fa parte della suite Microsoft Office. Microsoft Office 97-2003 supportava la creazione di nuovi file XLT e l'apertura di questi. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlt) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlt;

@@ -1,14 +1,14 @@
 ---
 title: CadConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diCadConvertOptionsgroupdocs.conversion.options.convert/cadconvertoptions classe.
+description: Inizializza una nuova istanza diCadConvertOptionsgroupdocs.conversion.options.convert/cadconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/cadconvertoptions/cadconvertoptions/
 ---
 ## CadConvertOptions constructor
 
-Inizializza la nuova istanza di[`CadConvertOptions`](../../cadconvertoptions) classe.
+Inizializza una nuova istanza di[`CadConvertOptions`](../../cadconvertoptions) classe.
 
 ```csharp
 public CadConvertOptions()

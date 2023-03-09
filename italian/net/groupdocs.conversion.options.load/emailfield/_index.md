@@ -1,14 +1,14 @@
 ---
 title: EmailField
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Descrive lenumerazione dei campi di posta elettronica
+description: Descrive lenumerazione dei campi email
 type: docs
-weight: 1890
+weight: 2100
 url: /it/net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class
 
-Descrive l'enumerazione dei campi di posta elettronica
+Descrive l'enumerazione dei campi email
 
 ```csharp
 public class EmailField : Enumeration
@@ -27,7 +27,7 @@ public class EmailField : Enumeration
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
 | virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |
 
 ## Campi
@@ -40,8 +40,8 @@ public class EmailField : Enumeration
 | static readonly [End](../../groupdocs.conversion.options.load/emailfield/end) | Il testo del campo predefinito è "Fine". |
 | static readonly [From](../../groupdocs.conversion.options.load/emailfield/from) | Il testo del campo predefinito è "Da". |
 | static readonly [Importance](../../groupdocs.conversion.options.load/emailfield/importance) | Il campo di testo predefinito è "Importanza". |
-| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | Il testo del campo predefinito è "Posizione". |
-| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | Il testo del campo predefinito è "Organizer". |
+| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | Il campo di testo predefinito è "Posizione". |
+| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | Il campo di testo predefinito è "Organizer". |
 | static readonly [PageHeader](../../groupdocs.conversion.options.load/emailfield/pageheader) | Il testo del campo predefinito è "PageHeader". |
 | static readonly [Recurrence](../../groupdocs.conversion.options.load/emailfield/recurrence) | Il campo di testo predefinito è "Ricorrenza". |
 | static readonly [RecurrencePattern](../../groupdocs.conversion.options.load/emailfield/recurrencepattern) | Il testo del campo predefinito è "RecurrencePattern". |

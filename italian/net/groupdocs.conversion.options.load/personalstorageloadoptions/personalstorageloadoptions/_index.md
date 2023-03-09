@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diPersonalStorageLoadOptionsgroupdocs.conversion.options.load/personalstorageloadoptions classe.
+description: Inizializza una nuova istanza diPersonalStorageLoadOptionsgroupdocs.conversion.options.load/personalstorageloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/personalstorageloadoptions/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions constructor
 
-Inizializza la nuova istanza di[`PersonalStorageLoadOptions`](../../personalstorageloadoptions) classe.
+Inizializza una nuova istanza di[`PersonalStorageLoadOptions`](../../personalstorageloadoptions) classe.
 
 ```csharp
 public PersonalStorageLoadOptions()

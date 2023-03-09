@@ -1,14 +1,14 @@
 ---
 title: Usdz
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con .usdz è un archivio ZIP non compresso e non crittografato per il formato di file USD Universal Scene Description che contiene e proxy per file di altri formati come trame e animazioni incorporati nellarchivio e li esegue direttamente con il Tempo di esecuzione USD senza necessità di decompressione. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/usdz .
+description: Un file con .usdz è un archivio ZIP non compresso e non crittografato per il formato di file USD Universal Scene Description che contiene e proxy per file di altri formati come trame e animazioni incorporati nellarchivio e li esegue direttamente con il Tempo di esecuzione USD senza necessità di decompressione. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/usdz .
 type: docs
 weight: 160
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/usdz/
 ---
 ## ThreeDFileType.Usdz field
 
-Un file con .usdz è un archivio ZIP non compresso e non crittografato per il formato di file USD (Universal Scene Description) che contiene e proxy per file di altri formati (come trame e animazioni) incorporati nell'archivio e li esegue direttamente con il Tempo di esecuzione USD senza necessità di decompressione. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/usdz) .
+Un file con .usdz è un archivio ZIP non compresso e non crittografato per il formato di file USD (Universal Scene Description) che contiene e proxy per file di altri formati (come trame e animazioni) incorporati nell'archivio e li esegue direttamente con il Tempo di esecuzione USD senza necessità di decompressione. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/usdz) .
 
 ```csharp
 public static readonly ThreeDFileType Usdz;

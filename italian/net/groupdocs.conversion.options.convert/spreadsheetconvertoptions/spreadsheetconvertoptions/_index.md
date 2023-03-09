@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diSpreadsheetConvertOptionsgroupdocs.conversion.options.convert/spreadsheetconvertoptions classe.
+description: Inizializza una nuova istanza diSpreadsheetConvertOptionsgroupdocs.conversion.options.convert/spreadsheetconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions constructor
 
-Inizializza la nuova istanza di[`SpreadsheetConvertOptions`](../../spreadsheetconvertoptions) classe.
+Inizializza una nuova istanza di[`SpreadsheetConvertOptions`](../../spreadsheetconvertoptions) classe.
 
 ```csharp
 public SpreadsheetConvertOptions()

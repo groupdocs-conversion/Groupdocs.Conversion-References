@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento dei documenti One.
 type: docs
-weight: 1960
+weight: 2190
 url: /it/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -18,13 +18,13 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [NoteLoadOptions](noteloadoptions)() | Inizializza la nuova istanza di[`NoteLoadOptions`](../noteloadoptions) classe. |
+| [NoteLoadOptions](noteloadoptions)() | Inizializza una nuova istanza di[`NoteLoadOptions`](../noteloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Note. Se manca un carattere, verrà utilizzato il seguente carattere. È necessario fornire un percorso assoluto al file del carattere. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Note. Se manca un carattere, verrà utilizzato il seguente carattere. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Sostituisci caratteri specifici durante la conversione del documento Note. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
@@ -36,7 +36,7 @@ public sealed class NoteLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

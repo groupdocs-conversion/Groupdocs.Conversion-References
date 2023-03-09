@@ -1,14 +1,14 @@
 ---
 title: Xlsx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: XLSX è un formato noto per i documenti Microsoft Excel introdotto da Microsoft con il rilascio di Microsoft Office 2007. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlsx .
+description: XLSX è un formato ben noto per i documenti di Microsoft Excel introdotto da Microsoft con il rilascio di Microsoft Office 2007. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlsx .
 type: docs
 weight: 140
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsx/
 ---
 ## SpreadsheetFileType.Xlsx field
 
-XLSX è un formato noto per i documenti Microsoft Excel introdotto da Microsoft con il rilascio di Microsoft Office 2007. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlsx) .
+XLSX è un formato ben noto per i documenti di Microsoft Excel introdotto da Microsoft con il rilascio di Microsoft Office 2007. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlsx) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlsx;

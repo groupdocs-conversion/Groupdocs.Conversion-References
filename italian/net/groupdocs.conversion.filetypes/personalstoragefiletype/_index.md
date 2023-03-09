@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Definisce i formati di file di archiviazione personale utilizzati dalle applicazioni di posta elettronica per archiviare i vari dati inclusi messaggi di posta elettronica allegati cartelle rubriche ecc. Include i seguenti tipi di file Ost./personalstoragefiletype/ost  Pst./personalstoragefiletype/pst  Ulteriori informazioni sui formati di posta elettronicaquihttps//wiki.fileformat.com/email .
+description: Definisce i formati di file di archiviazione personale utilizzati dalle applicazioni di posta elettronica per archiviare i vari dati inclusi messaggi di posta elettronica allegati cartelle rubriche ecc. Include i seguenti tipi di file Ost  Pst  Ulteriori informazioni sui formati di posta elettronicaQuihttps//wiki.fileformat.com/email .
 type: docs
-weight: 900
+weight: 1010
 url: /it/net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-Definisce i formati di file di archiviazione personale utilizzati dalle applicazioni di posta elettronica per archiviare i vari dati inclusi messaggi di posta elettronica, allegati, cartelle, rubriche ecc. Include i seguenti tipi di file: [`Ost`](./ost) , [`Pst`](./pst) , Ulteriori informazioni sui formati di posta elettronica[qui](https://wiki.fileformat.com/email) .
+Definisce i formati di file di archiviazione personale utilizzati dalle applicazioni di posta elettronica per archiviare i vari dati inclusi messaggi di posta elettronica, allegati, cartelle, rubriche ecc. Include i seguenti tipi di file: Ost , Pst , Ulteriori informazioni sui formati di posta elettronica[Qui](https://wiki.fileformat.com/email) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## Costruttori
-
-| Nome | Descrizione |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Costruttore di serializzazione |
 
 ## Proprietà
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | Nome | Descrizione |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Rappresentazione di stringa |
-
-## Campi
-
-| Nome | Descrizione |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | Un file con estensione .nsf (Notes Storage Facility) è un formato di file di database utilizzato dal software IBM Notes, precedentemente noto come Lotus Notes. Definisce lo schema per archiviare diversi tipi di oggetti come e-mail, appuntamenti, documenti, moduli e visualizzazioni. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/database/nsf) . |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST o Offline Storage Files rappresentano i dati della cassetta postale dell'utente in modalità offline sulla macchina locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/ost) . |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | I file con estensione .PST rappresentano i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/pst) . |
 
 ### Guarda anche
 

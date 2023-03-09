@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento di markup
 type: docs
-weight: 310
+weight: 330
 url: /it/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
@@ -11,7 +11,8 @@ url: /it/net/groupdocs.conversion.contracts/markupdocumentinfo/
 Contiene i metadati del documento di markup
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## Proprietà
@@ -19,7 +20,7 @@ public class MarkupDocumentInfo : DocumentInfo
 | Nome | Descrizione |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Codifica documento rilevato |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Codifica documento rilevata |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Ottieni il valore per una proprietà fornita come chiave |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Conteggio delle pagine del documento. |
@@ -28,7 +29,7 @@ public class MarkupDocumentInfo : DocumentInfo
 
 ### Guarda anche
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * spazio dei nomi [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assemblea [GroupDocs.Conversion](../../)
 

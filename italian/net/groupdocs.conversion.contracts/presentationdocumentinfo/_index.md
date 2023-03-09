@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento di presentazione
 type: docs
-weight: 380
+weight: 410
 url: /it/net/groupdocs.conversion.contracts/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo class
@@ -18,7 +18,7 @@ public class PresentationDocumentInfo : DocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/presentationdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/presentationdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/presentationdocumentinfo/ispasswordprotected) { get; } | Ottiene è il documento protetto da password |

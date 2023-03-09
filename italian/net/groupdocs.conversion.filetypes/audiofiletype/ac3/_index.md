@@ -1,14 +1,14 @@
 ---
 title: Ac3
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .ac3 è un file Audio Codec 3 introdotto da Dolby Laboratories. È un formato audio che può contenere fino a sei canali di uscita audio. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/audio/ac3/ .
+description: Un file con estensione .ac3 è un file Audio Codec 3 introdotto da Dolby Laboratories. È un formato audio che può contenere fino a sei canali di uscita audio. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/audio/ac3/ .
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.filetypes/audiofiletype/ac3/
 ---
 ## AudioFileType.Ac3 field
 
-Un file con estensione .ac3 è un file Audio Codec 3, introdotto da Dolby Laboratories. È un formato audio che può contenere fino a sei canali di uscita audio. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/audio/ac3/) .
+Un file con estensione .ac3 è un file Audio Codec 3, introdotto da Dolby Laboratories. È un formato audio che può contenere fino a sei canali di uscita audio. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/audio/ac3/) .
 
 ```csharp
 public static readonly AudioFileType Ac3;

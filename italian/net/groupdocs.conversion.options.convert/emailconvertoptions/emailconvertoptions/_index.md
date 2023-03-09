@@ -1,14 +1,14 @@
 ---
 title: EmailConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diEmailConvertOptionsgroupdocs.conversion.options.convert/emailconvertoptions classe.
+description: Inizializza una nuova istanza diEmailConvertOptionsgroupdocs.conversion.options.convert/emailconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/emailconvertoptions/emailconvertoptions/
 ---
 ## EmailConvertOptions constructor
 
-Inizializza la nuova istanza di[`EmailConvertOptions`](../../emailconvertoptions) classe.
+Inizializza una nuova istanza di[`EmailConvertOptions`](../../emailconvertoptions) classe.
 
 ```csharp
 public EmailConvertOptions()

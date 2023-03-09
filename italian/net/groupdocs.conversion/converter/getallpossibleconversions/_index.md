@@ -16,7 +16,7 @@ public static IEnumerable<PossibleConversions> GetAllPossibleConversions()
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle conversioni supportate: [Elenco completo delle conversioni supportate](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Ulteriori informazioni sulle conversioni disponibili: [Come ottenere conversioni supportate nel codice](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)

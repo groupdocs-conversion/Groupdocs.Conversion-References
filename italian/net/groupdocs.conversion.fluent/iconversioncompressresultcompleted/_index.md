@@ -3,7 +3,7 @@ title: IConversionCompressResultCompleted
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Compressione maniglia completata
 type: docs
-weight: 1020
+weight: 1150
 url: /it/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | Nome | Descrizione |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | Ricevi flusso di documenti compressi. Verrà attivato solo se Compression(CompressionConvertOptions options)" è impostato. |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | Ricevi flusso di documenti compressi. Verrà attivato solo se Compression(CompressionConvertOptions options)" è impostato. |
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: Odg
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il formato file ODG viene utilizzato dallapplicazione Draw di Apache OpenOffice per memorizzare elementi di disegno come immagine vettoriale. Ulteriori informazioni su questo formato filequihttps//wiki.fileformat.com/image/odg .
+description: Il formato file ODG viene utilizzato dallapplicazione Draw di Apache OpenOffice per memorizzare elementi di disegno come immagine vettoriale. Ulteriori informazioni su questo formato fileQuihttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 280
+weight: 260
 url: /it/net/groupdocs.conversion.filetypes/imagefiletype/odg/
 ---
 ## ImageFileType.Odg field
 
-Il formato file ODG viene utilizzato dall'applicazione Draw di Apache OpenOffice per memorizzare elementi di disegno come immagine vettoriale. Ulteriori informazioni su questo formato file[qui](https://wiki.fileformat.com/image/odg) .
+Il formato file ODG viene utilizzato dall'applicazione Draw di Apache OpenOffice per memorizzare elementi di disegno come immagine vettoriale. Ulteriori informazioni su questo formato file[Qui](https://wiki.fileformat.com/image/odg) .
 
 ```csharp
 public static readonly ImageFileType Odg;

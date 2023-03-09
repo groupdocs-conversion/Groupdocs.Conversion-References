@@ -1,14 +1,14 @@
 ---
 title: XmlLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diXmlLoadOptionsgroupdocs.conversion.options.load/xmlloadoptions classe.
+description: Inizializza una nuova istanza diXmlLoadOptionsgroupdocs.conversion.options.load/xmlloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/xmlloadoptions/xmlloadoptions/
 ---
 ## XmlLoadOptions constructor
 
-Inizializza la nuova istanza di[`XmlLoadOptions`](../../xmlloadoptions) classe.
+Inizializza una nuova istanza di[`XmlLoadOptions`](../../xmlloadoptions) classe.
 
 ```csharp
 public XmlLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: IConversionConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni di conversione conversione
+description: Opzioni conversione conversione
 type: docs
-weight: 1080
+weight: 1210
 url: /it/net/groupdocs.conversion.fluent/iconversionconvertoptions/
 ---
 ## IConversionConvertOptions interface
 
-Opzioni di conversione conversione
+Opzioni conversione conversione
 
 ```csharp
 public interface IConversionConvertOptions
@@ -18,8 +18,8 @@ public interface IConversionConvertOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(ConvertOptions) | Imposta opzioni di conversione |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptionsProvider) | Imposta opzioni di conversione |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptions) | Imposta le opzioni di conversione |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | Imposta le opzioni di conversione |
 
 ### Guarda anche
 

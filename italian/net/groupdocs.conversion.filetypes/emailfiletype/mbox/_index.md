@@ -1,14 +1,14 @@
 ---
 title: Mbox
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il formato file MBox è un termine generico che rappresenta un contenitore per la raccolta di messaggi di posta elettronica. I messaggi vengono archiviati allinterno del contenitore insieme ai relativi allegati. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/email/mbox/ .
+description: Formato file MBox è un termine generico che rappresenta un contenitore per la raccolta di messaggi di posta elettronica. I messaggi vengono archiviati allinterno del contenitore insieme ai relativi allegati. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/email/mbox/ .
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion.filetypes/emailfiletype/mbox/
 ---
 ## EmailFileType.Mbox field
 
-Il formato file MBox è un termine generico che rappresenta un contenitore per la raccolta di messaggi di posta elettronica. I messaggi vengono archiviati all'interno del contenitore insieme ai relativi allegati. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/email/mbox/) .
+Formato file MBox è un termine generico che rappresenta un contenitore per la raccolta di messaggi di posta elettronica. I messaggi vengono archiviati all'interno del contenitore insieme ai relativi allegati. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/email/mbox/) .
 
 ```csharp
 public static readonly EmailFileType Mbox;

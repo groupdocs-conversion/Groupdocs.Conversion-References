@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Foglio di calcolo OpenDocument Flat XML
+description: Un file con estensione .fods è un tipo di formato di documento OpenDocument Spreadsheet che memorizza i dati in righe e colonne. Il formato è specificato come parte delle specifiche ODF 1.2 pubblicate e gestite da OASIS. Ulteriori informazioni su questo formato fileQuihttps//wiki.fileformat.com/spreadsheet/fods .
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-Foglio di calcolo OpenDocument Flat XML
+Un file con estensione .fods è un tipo di formato di documento OpenDocument Spreadsheet che memorizza i dati in righe e colonne. Il formato è specificato come parte delle specifiche ODF 1.2 pubblicate e gestite da OASIS. Ulteriori informazioni su questo formato file[Qui](https://wiki.fileformat.com/spreadsheet/fods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

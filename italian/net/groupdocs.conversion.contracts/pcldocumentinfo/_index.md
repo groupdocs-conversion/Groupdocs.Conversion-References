@@ -1,14 +1,14 @@
 ---
 title: PclDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Contiene i metadati del documento PCl
+description: Contiene i metadati del documento Pcl
 type: docs
-weight: 340
+weight: 360
 url: /it/net/groupdocs.conversion.contracts/pcldocumentinfo/
 ---
 ## PclDocumentInfo class
 
-Contiene i metadati del documento PCl
+Contiene i metadati del documento Pcl
 
 ```csharp
 public class PclDocumentInfo : PdfDocumentInfo
@@ -18,11 +18,11 @@ public class PclDocumentInfo : PdfDocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/pdfdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/pdfdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [Height](../../groupdocs.conversion.contracts/pdfdocumentinfo/height) { get; } | Ottiene l'altezza della pagina |
-| [IsLandscape](../../groupdocs.conversion.contracts/pdfdocumentinfo/islandscape) { get; } | Ottiene la pagina orizzontale |
+| [IsLandscape](../../groupdocs.conversion.contracts/pdfdocumentinfo/islandscape) { get; } | Ottiene la pagina in orizzontale |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/pdfdocumentinfo/ispasswordprotected) { get; } | Ottiene il documento protetto da password |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Ottieni il valore per una proprietà fornita come chiave |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Conteggio delle pagine del documento. |

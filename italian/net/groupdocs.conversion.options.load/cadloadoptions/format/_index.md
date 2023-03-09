@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Tipo di file del documento di input
+description: Tipo file documento di input
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion.options.load/cadloadoptions/format/
 ---
 ## CadLoadOptions.Format property
 
-Tipo di file del documento di input
+Tipo file documento di input
 
 ```csharp
 public CadFileType Format { get; set; }

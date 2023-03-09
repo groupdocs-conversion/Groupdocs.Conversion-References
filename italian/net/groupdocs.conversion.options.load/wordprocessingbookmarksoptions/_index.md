@@ -1,14 +1,14 @@
 ---
 title: WordProcessingBookmarksOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per la gestione dei segnalibri in Elaborazione testi
+description: Opzioni per la gestione dei segnalibri in WordProcessing
 type: docs
-weight: 2090
+weight: 2350
 url: /it/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class
 
-Opzioni per la gestione dei segnalibri in Elaborazione testi
+Opzioni per la gestione dei segnalibri in WordProcessing
 
 ```csharp
 public class WordProcessingBookmarksOptions : ValueObject
@@ -34,7 +34,7 @@ public class WordProcessingBookmarksOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

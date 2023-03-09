@@ -1,14 +1,14 @@
 ---
 title: IConversionFrom
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Sorgente di configurazione per la conversione
+description: Imposta la sorgente per la conversione
 type: docs
-weight: 1100
+weight: 1230
 url: /it/net/groupdocs.conversion.fluent/iconversionfrom/
 ---
 ## IConversionFrom interface
 
-Sorgente di configurazione per la conversione
+Imposta la sorgente per la conversione
 
 ```csharp
 public interface IConversionFrom
@@ -18,10 +18,10 @@ public interface IConversionFrom
 
 | Nome | Descrizione |
 | --- | --- |
-| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_1)(Func&lt;Stream&gt;) | Imposta flusso di documenti di origine |
-| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load)(Func&lt;Stream[]&gt;) | Imposta flussi di documenti di origine array |
-| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_2)(string) | Imposta il nome del file del documento di origine |
-| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_3)(string[]) | Imposta l'array dei documenti di origine |
+| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_1)(Func&lt;Stream&gt;) | Imposta il flusso del documento di origine |
+| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load)(Func&lt;Stream[]&gt;) | Imposta l'array dei flussi dei documenti di origine |
+| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_2)(string) | Imposta il documento di origine fileName |
+| [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_3)(string[]) | Imposta la matrice dei documenti di origine |
 
 ### Guarda anche
 

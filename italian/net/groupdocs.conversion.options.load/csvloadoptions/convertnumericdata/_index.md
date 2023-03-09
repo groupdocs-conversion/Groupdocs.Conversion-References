@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Indica se la stringa nel file viene convertita in numerica. Limpostazione predefinita è True.
+description: Indica se la stringa nel file è convertita in numerico. Il valore predefinito è True.
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.options.load/csvloadoptions/convertnumericdata/
 ---
 ## CsvLoadOptions.ConvertNumericData property
 
-Indica se la stringa nel file viene convertita in numerica. L'impostazione predefinita è True.
+Indica se la stringa nel file è convertita in numerico. Il valore predefinito è True.
 
 ```csharp
 public bool ConvertNumericData { get; set; }

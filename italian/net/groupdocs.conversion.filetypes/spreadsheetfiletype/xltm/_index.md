@@ -1,14 +1,14 @@
 ---
 title: Xltm
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Lestensione file XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xltm .
+description: Lestensione file XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
 weight: 160
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/
 ---
 ## SpreadsheetFileType.Xltm field
 
-L'estensione file XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xltm) .
+L'estensione file XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xltm;

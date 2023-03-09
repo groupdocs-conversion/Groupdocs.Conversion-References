@@ -1,14 +1,14 @@
 ---
 title: FullScreen
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: FullScreenModalità a schermo intero senza barra dei menu controlli della finestra o qualsiasi altra finestra visibile.
+description: FullScreenModalità a schermo intero senza barra dei menu controlli delle finestre o qualsiasi altra finestra visibile.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.options.convert/pdfpagemode/fullscreen/
 ---
 ## PdfPageMode.FullScreen field
 
-FullScreenModalità a schermo intero, senza barra dei menu, controlli della finestra o qualsiasi altra finestra visibile.
+FullScreenModalità a schermo intero, senza barra dei menu, controlli delle finestre o qualsiasi altra finestra visibile.
 
 ```csharp
 public static readonly PdfPageMode FullScreen;

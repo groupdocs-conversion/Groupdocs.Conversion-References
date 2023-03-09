@@ -1,14 +1,14 @@
 ---
 title: Ifc
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione IFC si riferiscono al formato di file Industry Foundation Classes IFC che stabilisce gli standard internazionali per importare ed esportare oggetti di costruzione e le loro proprietà. Questo formato di file fornisce linteroperabilità tra diverse applicazioni software. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/cad/ifc .
+description: I file con estensione IFC si riferiscono al formato di file Industry Foundation Classes IFC che stabilisce gli standard internazionali per importare ed esportare oggetti di costruzione e le loro proprietà. Questo formato di file fornisce linteroperabilità tra diverse applicazioni software. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/cad/ifc .
 type: docs
 weight: 90
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/ifc/
 ---
 ## CadFileType.Ifc field
 
-I file con estensione IFC si riferiscono al formato di file Industry Foundation Classes (IFC) che stabilisce gli standard internazionali per importare ed esportare oggetti di costruzione e le loro proprietà. Questo formato di file fornisce l'interoperabilità tra diverse applicazioni software. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/cad/ifc) .
+I file con estensione IFC si riferiscono al formato di file Industry Foundation Classes (IFC) che stabilisce gli standard internazionali per importare ed esportare oggetti di costruzione e le loro proprietà. Questo formato di file fornisce l'interoperabilità tra diverse applicazioni software. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/cad/ifc) .
 
 ```csharp
 public static readonly CadFileType Ifc;

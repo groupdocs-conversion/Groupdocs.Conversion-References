@@ -1,14 +1,14 @@
 ---
 title: CompressionLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diCompressionLoadOptionsgroupdocs.conversion.options.load/compressionloadoptions classe.
+description: Inizializza una nuova istanza diCompressionLoadOptionsgroupdocs.conversion.options.load/compressionloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/compressionloadoptions/compressionloadoptions/
 ---
 ## CompressionLoadOptions constructor
 
-Inizializza la nuova istanza di[`CompressionLoadOptions`](../../compressionloadoptions) classe.
+Inizializza una nuova istanza di[`CompressionLoadOptions`](../../compressionloadoptions) classe.
 
 ```csharp
 public CompressionLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: Vstx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensioni VSTX disegnano file modello creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni di Visio salvati come file .VSDX con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vstx .
+description: I file con estensioni VSTX sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni Visio salvati come file .VSDX con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vstx .
 type: docs
 weight: 120
 url: /it/net/groupdocs.conversion.filetypes/diagramfiletype/vstx/
 ---
 ## DiagramFileType.Vstx field
 
-I file con estensioni VSTX disegnano file modello creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni di Visio, salvati come file .VSDX, con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vstx) .
+I file con estensioni VSTX sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni Visio, salvati come file .VSDX, con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vstx) .
 
 ```csharp
 public static readonly DiagramFileType Vstx;

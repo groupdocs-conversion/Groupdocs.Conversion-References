@@ -1,14 +1,14 @@
 ---
 title: Dwg
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione DWG rappresentano file binari proprietari utilizzati per contenere dati di progettazione 2D e 3D. Come i DXF che sono file ASCII i DWG rappresentano il formato di file binario per i disegni CAD Computer Aided Design. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/cad/dwg .
+description: I file con estensione DWG rappresentano file binari proprietari utilizzati per contenere dati di progettazione 2D e 3D. Come i DXF che sono file ASCII i DWG rappresentano il formato di file binario per i disegni CAD Computer Aided Design. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/cad/dwg .
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/dwg/
 ---
 ## CadFileType.Dwg field
 
-I file con estensione DWG rappresentano file binari proprietari utilizzati per contenere dati di progettazione 2D e 3D. Come i DXF, che sono file ASCII, i DWG rappresentano il formato di file binario per i disegni CAD (Computer Aided Design). Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/cad/dwg) .
+I file con estensione DWG rappresentano file binari proprietari utilizzati per contenere dati di progettazione 2D e 3D. Come i DXF, che sono file ASCII, i DWG rappresentano il formato di file binario per i disegni CAD (Computer Aided Design). Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/cad/dwg) .
 
 ```csharp
 public static readonly CadFileType Dwg;

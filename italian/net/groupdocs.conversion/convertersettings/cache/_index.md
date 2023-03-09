@@ -1,14 +1,14 @@
 ---
 title: Cache
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Limplementazione della cache utilizzata per memorizzare i risultati di conversione.
+description: Limplementazione della cache utilizzata per archiviare i risultati della conversione.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion/convertersettings/cache/
 ---
 ## ConverterSettings.Cache property
 
-L'implementazione della cache utilizzata per memorizzare i risultati di conversione.
+L'implementazione della cache utilizzata per archiviare i risultati della conversione.
 
 ```csharp
 public ICache Cache { get; set; }

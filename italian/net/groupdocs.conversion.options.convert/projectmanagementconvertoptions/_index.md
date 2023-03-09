@@ -3,7 +3,7 @@ title: ProjectManagementConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file di gestione del progetto.
 type: docs
-weight: 1660
+weight: 1840
 url: /it/net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/
 ---
 ## ProjectManagementConvertOptions class
@@ -18,7 +18,7 @@ public class ProjectManagementConvertOptions : ConvertOptions<ProjectManagementF
 
 | Nome | Descrizione |
 | --- | --- |
-| [ProjectManagementConvertOptions](projectmanagementconvertoptions)() | Inizializza la nuova istanza di[`ProjectManagementConvertOptions`](../projectmanagementconvertoptions) classe. |
+| [ProjectManagementConvertOptions](projectmanagementconvertoptions)() | Inizializza una nuova istanza di[`ProjectManagementConvertOptions`](../projectmanagementconvertoptions) classe. |
 
 ## Proprietà
 
@@ -34,7 +34,7 @@ public class ProjectManagementConvertOptions : ConvertOptions<ProjectManagementF
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

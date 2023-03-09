@@ -1,14 +1,14 @@
 ---
 title: UseOutlines
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Profilo del documento visibile.
+description: Contorno del documento visibile.
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.options.convert/pdfpagemode/useoutlines/
 ---
 ## PdfPageMode.UseOutlines field
 
-Profilo del documento visibile.
+Contorno del documento visibile.
 
 ```csharp
 public static readonly PdfPageMode UseOutlines;

@@ -1,14 +1,14 @@
 ---
 title: DiagramLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per il caricamento di documenti Diagramma.
+description: Opzioni per il caricamento dei documenti Diagramma.
 type: docs
-weight: 1880
+weight: 2080
 url: /it/net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class
 
-Opzioni per il caricamento di documenti Diagramma.
+Opzioni per il caricamento dei documenti Diagramma.
 
 ```csharp
 public sealed class DiagramLoadOptions : LoadOptions
@@ -18,13 +18,13 @@ public sealed class DiagramLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DiagramLoadOptions](diagramloadoptions)() | Inizializza la nuova istanza di[`DiagramLoadOptions`](../diagramloadoptions) classe. |
+| [DiagramLoadOptions](diagramloadoptions)() | Inizializza una nuova istanza di[`DiagramLoadOptions`](../diagramloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/diagramloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Diagramma. Se manca un carattere verrà utilizzato il seguente carattere. |
+| [DefaultFont](../../groupdocs.conversion.options.load/diagramloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Diagramma. Se manca un carattere, verrà utilizzato il seguente carattere. |
 | [Format](../../groupdocs.conversion.options.load/diagramloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
 
@@ -34,7 +34,7 @@ public sealed class DiagramLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

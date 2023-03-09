@@ -1,14 +1,14 @@
 ---
 title: IConversionSettingsOrConversionFrom
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Impostazioni di conversione o origine di conversione
+description: Impostazioni di conversione o sorgente di conversione
 type: docs
-weight: 1160
+weight: 1290
 url: /it/net/groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/
 ---
 ## IConversionSettingsOrConversionFrom interface
 
-Impostazioni di conversione o origine di conversione
+Impostazioni di conversione o sorgente di conversione
 
 ```csharp
 public interface IConversionSettingsOrConversionFrom : IConversionFrom, IConversionSettings

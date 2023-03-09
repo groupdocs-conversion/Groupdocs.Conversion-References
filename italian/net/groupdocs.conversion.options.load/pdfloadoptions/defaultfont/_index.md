@@ -8,7 +8,7 @@ url: /it/net/groupdocs.conversion.options.load/pdfloadoptions/defaultfont/
 ---
 ## PdfLoadOptions.DefaultFont property
 
-Carattere predefinito per il documento Pdf. Se manca un carattere verrà utilizzato il seguente carattere.
+Carattere predefinito per il documento Pdf. Se manca un carattere, verrà utilizzato il seguente carattere.
 
 ```csharp
 public string DefaultFont { get; set; }

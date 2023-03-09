@@ -1,14 +1,14 @@
 ---
 title: AudioConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diAudioConvertOptionsgroupdocs.conversion.options.convert/audioconvertoptions classe.
+description: Inizializza una nuova istanza diAudioConvertOptionsgroupdocs.conversion.options.convert/audioconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/audioconvertoptions/audioconvertoptions/
 ---
 ## AudioConvertOptions constructor
 
-Inizializza la nuova istanza di[`AudioConvertOptions`](../../audioconvertoptions) classe.
+Inizializza una nuova istanza di[`AudioConvertOptions`](../../audioconvertoptions) classe.
 
 ```csharp
 public AudioConvertOptions()

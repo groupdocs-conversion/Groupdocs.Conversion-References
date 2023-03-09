@@ -1,14 +1,14 @@
 ---
 title: EpubLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diEpubLoadOptionsgroupdocs.conversion.options.load/epubloadoptions classe.
+description: Inizializza una nuova istanza diEpubLoadOptionsgroupdocs.conversion.options.load/epubloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/epubloadoptions/epubloadoptions/
 ---
 ## EpubLoadOptions constructor
 
-Inizializza la nuova istanza di[`EpubLoadOptions`](../../epubloadoptions) classe.
+Inizializza una nuova istanza di[`EpubLoadOptions`](../../epubloadoptions) classe.
 
 ```csharp
 public EpubLoadOptions()

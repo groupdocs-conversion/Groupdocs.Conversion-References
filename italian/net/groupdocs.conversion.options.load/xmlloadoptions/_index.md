@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti XML.
 type: docs
-weight: 2110
+weight: 2370
 url: /it/net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -18,14 +18,18 @@ public sealed class XmlLoadOptions : DataLoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [XmlLoadOptions](xmlloadoptions)() | Inizializza la nuova istanza di[`XmlLoadOptions`](../xmlloadoptions) classe. |
+| [XmlLoadOptions](xmlloadoptions)() | Inizializza una nuova istanza di[`XmlLoadOptions`](../xmlloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Tipo di file del documento di input. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Il percorso/URL di base per html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Ottiene o imposta la codifica da utilizzare durante il caricamento del documento di markup. Se la proprietà è nulla, la codifica sarà determinata dal set di caratteri del documento attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Abilita o disabilita la generazione della numerazione delle pagine nel documento convertito. Predefinito: falso |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout per il caricamento di risorse esterne |
 | [UseAsDataSource](../../groupdocs.conversion.options.load/xmlloadoptions/useasdatasource) { get; set; } | Usa documento XML come origine dati |
 | [XslFoFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xslfofactory) { get; set; } | Flusso di documenti XSL per convertire XML-FO utilizzando XSL. |
 
@@ -35,7 +39,7 @@ public sealed class XmlLoadOptions : DataLoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

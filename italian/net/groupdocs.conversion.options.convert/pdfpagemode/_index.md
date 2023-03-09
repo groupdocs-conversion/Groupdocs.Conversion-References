@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Descrive la modalità pagina Pdf
 type: docs
-weight: 1630
+weight: 1810
 url: /it/net/groupdocs.conversion.options.convert/pdfpagemode/
 ---
 ## PdfPageMode class
@@ -27,18 +27,18 @@ public class PdfPageMode : Enumeration
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
 | virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |
 
 ## Campi
 
 | Nome | Descrizione |
 | --- | --- |
-| static readonly [FullScreen](../../groupdocs.conversion.options.convert/pdfpagemode/fullscreen) | FullScreenModalità a schermo intero, senza barra dei menu, controlli della finestra o qualsiasi altra finestra visibile. |
+| static readonly [FullScreen](../../groupdocs.conversion.options.convert/pdfpagemode/fullscreen) | FullScreenModalità a schermo intero, senza barra dei menu, controlli delle finestre o qualsiasi altra finestra visibile. |
 | static readonly [UseAttachments](../../groupdocs.conversion.options.convert/pdfpagemode/useattachments) | Pannello allegati visibile. |
 | static readonly [UseNone](../../groupdocs.conversion.options.convert/pdfpagemode/usenone) | Non utilizzare alcun componente. |
-| static readonly [UseOC](../../groupdocs.conversion.options.convert/pdfpagemode/useoc) | Riquadro del gruppo di contenuti opzionale visibile. |
-| static readonly [UseOutlines](../../groupdocs.conversion.options.convert/pdfpagemode/useoutlines) | Profilo del documento visibile. |
+| static readonly [UseOC](../../groupdocs.conversion.options.convert/pdfpagemode/useoc) | Riquadro del gruppo di contenuti facoltativo visibile. |
+| static readonly [UseOutlines](../../groupdocs.conversion.options.convert/pdfpagemode/useoutlines) | Contorno del documento visibile. |
 | static readonly [UseThumbs](../../groupdocs.conversion.options.convert/pdfpagemode/usethumbs) | Immagini in miniatura visibili. |
 
 ### Guarda anche

@@ -3,7 +3,7 @@ title: EpubLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti Epub.
 type: docs
-weight: 1910
+weight: 2120
 url: /it/net/groupdocs.conversion.options.load/epubloadoptions/
 ---
 ## EpubLoadOptions class
@@ -18,7 +18,7 @@ public sealed class EpubLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [EpubLoadOptions](epubloadoptions)() | Inizializza la nuova istanza di[`EpubLoadOptions`](../epubloadoptions) classe. |
+| [EpubLoadOptions](epubloadoptions)() | Inizializza una nuova istanza di[`EpubLoadOptions`](../epubloadoptions) classe. |
 
 ## Proprietà
 
@@ -32,7 +32,7 @@ public sealed class EpubLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

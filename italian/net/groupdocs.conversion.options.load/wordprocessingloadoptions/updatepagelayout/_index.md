@@ -1,14 +1,14 @@
 ---
 title: UpdatePageLayout
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Aggiorna il layout della pagina dopo il caricamento. Predefinito false
+description: Aggiorna il layout della pagina dopo il caricamento. Predefinito falso
 type: docs
 weight: 140
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout/
 ---
 ## WordProcessingLoadOptions.UpdatePageLayout property
 
-Aggiorna il layout della pagina dopo il caricamento. Predefinito: false
+Aggiorna il layout della pagina dopo il caricamento. Predefinito: falso
 
 ```csharp
 public bool UpdatePageLayout { get; set; }

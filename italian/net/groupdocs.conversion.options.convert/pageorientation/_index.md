@@ -3,7 +3,7 @@ title: PageOrientation
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Specifica lorientamento della pagina
 type: docs
-weight: 1540
+weight: 1710
 url: /it/net/groupdocs.conversion.options.convert/pageorientation/
 ---
 ## PageOrientation class
@@ -27,15 +27,15 @@ public sealed class PageOrientation : Enumeration
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
 | virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |
 
 ## Campi
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Landscape](../../groupdocs.conversion.options.convert/pageorientation/landscape) | Orientamento della pagina orizzontale (ampia e corta). |
-| static [Portrait](../../groupdocs.conversion.options.convert/pageorientation/portrait) | Orientamento della pagina verticale (stretto e alto). |
+| static [Landscape](../../groupdocs.conversion.options.convert/pageorientation/landscape) | Orientamento orizzontale della pagina (largo e corto). |
+| static [Portrait](../../groupdocs.conversion.options.convert/pageorientation/portrait) | Orientamento verticale della pagina (stretto e alto). |
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: CsvLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diCsvLoadOptionsgroupdocs.conversion.options.load/csvloadoptions classe.
+description: Inizializza una nuova istanza diCsvLoadOptionsgroupdocs.conversion.options.load/csvloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/csvloadoptions/csvloadoptions/
 ---
 ## CsvLoadOptions constructor
 
-Inizializza la nuova istanza di[`CsvLoadOptions`](../../csvloadoptions) classe.
+Inizializza una nuova istanza di[`CsvLoadOptions`](../../csvloadoptions) classe.
 
 ```csharp
 public CsvLoadOptions()

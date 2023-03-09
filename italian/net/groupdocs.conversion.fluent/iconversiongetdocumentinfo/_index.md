@@ -1,14 +1,14 @@
 ---
 title: IConversionGetDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene informazioni sul documento di origine  conteggio delle pagine e altre proprietà del documento specifiche per il tipo di file.
+description: Ottiene informazioni sul documento di origine numero di pagine e altre proprietà del documento specifiche per il tipo di file.
 type: docs
-weight: 1110
+weight: 1240
 url: /it/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface
 
-Ottiene informazioni sul documento di origine - conteggio delle pagine e altre proprietà del documento specifiche per il tipo di file.
+Ottiene informazioni sul documento di origine: numero di pagine e altre proprietà del documento specifiche per il tipo di file.
 
 ```csharp
 public interface IConversionGetDocumentInfo
@@ -18,7 +18,7 @@ public interface IConversionGetDocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetDocumentInfo](../../groupdocs.conversion.fluent/iconversiongetdocumentinfo/getdocumentinfo)() | Ottiene informazioni sul documento di origine - conteggio delle pagine e altre proprietà del documento specifiche per il tipo di file. |
+| [GetDocumentInfo](../../groupdocs.conversion.fluent/iconversiongetdocumentinfo/getdocumentinfo)() | Ottiene informazioni sul documento di origine: numero di pagine e altre proprietà del documento specifiche per il tipo di file. |
 
 ### Guarda anche
 

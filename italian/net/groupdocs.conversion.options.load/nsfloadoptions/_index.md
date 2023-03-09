@@ -1,14 +1,14 @@
 ---
 title: NsfLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per il caricamento di documenti Nsf.
+description: Opzioni per caricare documenti Nsf.
 type: docs
-weight: 1970
+weight: 2200
 url: /it/net/groupdocs.conversion.options.load/nsfloadoptions/
 ---
 ## NsfLoadOptions class
 
-Opzioni per il caricamento di documenti Nsf.
+Opzioni per caricare documenti Nsf.
 
 ```csharp
 public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -18,7 +18,7 @@ public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [NsfLoadOptions](nsfloadoptions)() | Inizializza la nuova istanza di[`NsfLoadOptions`](../nsfloadoptions) classe. |
+| [NsfLoadOptions](nsfloadoptions)() | Inizializza una nuova istanza di[`NsfLoadOptions`](../nsfloadoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [Clone](../../groupdocs.conversion.options.load/nsfloadoptions/clone)() | Clona l'istanza corrente. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

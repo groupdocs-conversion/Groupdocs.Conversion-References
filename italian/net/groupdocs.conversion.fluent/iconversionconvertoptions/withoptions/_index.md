@@ -1,14 +1,14 @@
 ---
 title: WithOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta opzioni di conversione
+description: Imposta le opzioni di conversione
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
-Imposta opzioni di conversione
+Imposta le opzioni di conversione
 
 ```csharp
 public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
@@ -16,7 +16,7 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| convertOptions | ConvertOptions | Converti opzioni |
+| convertOptions | ConvertOptions | Opzioni di conversione |
 
 ### Valore di ritorno
 
@@ -32,17 +32,19 @@ Interfaccia per continuare la costruzione della conversione
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
-Imposta opzioni di conversione
+Imposta le opzioni di conversione
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Parametro | Tipo | Descrizione |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Converti fornitore di opzioni |
+| Parametro | Descrizione |
+| --- | --- |
+| convertOptionsProvider | Converti fornitore di opzioni |
+| convertOptionsProvider arg2arg2 | Il tipo di file di origine |
 
 ### Valore di ritorno
 
@@ -51,7 +53,8 @@ Interfaccia per continuare la costruzione della conversione
 ### Guarda anche
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * spazio dei nomi [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * assemblea [GroupDocs.Conversion](../../../)

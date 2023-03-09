@@ -1,14 +1,14 @@
 ---
 title: Txt
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/txt .
+description: Un file con estensione .TXT rappresenta un documento di testo che contiene testo semplice sotto forma di righe. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field
 
-Un file con estensione .TXT rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/txt) .
+Un file con estensione .TXT rappresenta un documento di testo che contiene testo semplice sotto forma di righe. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/txt) .
 
 ```csharp
 public static readonly WordProcessingFileType Txt;

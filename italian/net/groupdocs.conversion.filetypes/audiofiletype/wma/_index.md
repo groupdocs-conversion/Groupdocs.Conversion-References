@@ -1,14 +1,14 @@
 ---
 title: Wma
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .wma rappresenta un file audio salvato nel formato Advanced Systems Format ASF. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/audio/wma/ .
+description: Un file con estensione .wma rappresenta un file audio salvato nel formato Advanced Systems Format ASF. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/audio/wma/ .
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.filetypes/audiofiletype/wma/
 ---
 ## AudioFileType.Wma field
 
-Un file con estensione .wma rappresenta un file audio salvato nel formato Advanced Systems Format (ASF). Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/audio/wma/) .
+Un file con estensione .wma rappresenta un file audio salvato nel formato Advanced Systems Format (ASF). Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/audio/wma/) .
 
 ```csharp
 public static readonly AudioFileType Wma;

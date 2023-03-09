@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per caricare documenti Mbox.
 type: docs
-weight: 1950
+weight: 2180
 url: /it/net/groupdocs.conversion.options.load/mboxloadoptions/
 ---
 ## MboxLoadOptions class
@@ -18,7 +18,7 @@ public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 
 | Nome | Descrizione |
 | --- | --- |
-| [MboxLoadOptions](mboxloadoptions)() | Inizializza la nuova istanza di[`MboxLoadOptions`](../mboxloadoptions) classe. |
+| [MboxLoadOptions](mboxloadoptions)() | Inizializza una nuova istanza di[`MboxLoadOptions`](../mboxloadoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [Clone](../../groupdocs.conversion.options.load/mboxloadoptions/clone)() | Clona l'istanza corrente. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

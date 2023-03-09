@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione OTT rappresentano documenti modello generati da applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/ott .
+description: I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field
 
-I file con estensione OTT rappresentano documenti modello generati da applicazioni in conformità con il formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/ott) .
+I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly WordProcessingFileType Ott;

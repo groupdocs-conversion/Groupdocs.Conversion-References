@@ -1,14 +1,14 @@
 ---
 title: AudioLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diAudioLoadOptionsgroupdocs.conversion.options.load/audioloadoptions classe.
+description: Inizializza una nuova istanza diAudioLoadOptionsgroupdocs.conversion.options.load/audioloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/audioloadoptions/audioloadoptions/
 ---
 ## AudioLoadOptions constructor
 
-Inizializza la nuova istanza di[`AudioLoadOptions`](../../audioloadoptions) classe.
+Inizializza una nuova istanza di[`AudioLoadOptions`](../../audioloadoptions) classe.
 
 ```csharp
 public AudioLoadOptions()

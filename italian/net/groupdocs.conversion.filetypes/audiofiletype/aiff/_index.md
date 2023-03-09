@@ -1,14 +1,14 @@
 ---
 title: Aiff
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: LAIFF Audio Interchange File Format è un formato di file audio non compresso sviluppato da Apple nel 1998 ma si basa su EA IFF 85 Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/audio/aiff/ .
+description: LAIFF Audio Interchange File Format è un formato di file audio non compresso sviluppato da Apple nel 1998 ma si basa su EA IFF 85 Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/audio/aiff/ .
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion.filetypes/audiofiletype/aiff/
 ---
 ## AudioFileType.Aiff field
 
-L'AIFF (Audio Interchange File Format) è un formato di file audio non compresso sviluppato da Apple nel 1998, ma si basa su EA IFF 85 Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/audio/aiff/) .
+L'AIFF (Audio Interchange File Format) è un formato di file audio non compresso sviluppato da Apple nel 1998, ma si basa su EA IFF 85 Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/audio/aiff/) .
 
 ```csharp
 public static readonly AudioFileType Aiff;

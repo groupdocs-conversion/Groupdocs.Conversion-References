@@ -3,7 +3,7 @@ title: EmailConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file email.
 type: docs
-weight: 1370
+weight: 1510
 url: /it/net/groupdocs.conversion.options.convert/emailconvertoptions/
 ---
 ## EmailConvertOptions class
@@ -18,7 +18,7 @@ public class EmailConvertOptions : ConvertOptions<EmailFileType>
 
 | Nome | Descrizione |
 | --- | --- |
-| [EmailConvertOptions](emailconvertoptions)() | Inizializza la nuova istanza di[`EmailConvertOptions`](../emailconvertoptions) classe. |
+| [EmailConvertOptions](emailconvertoptions)() | Inizializza una nuova istanza di[`EmailConvertOptions`](../emailconvertoptions) classe. |
 
 ## Proprietà
 
@@ -34,7 +34,7 @@ public class EmailConvertOptions : ConvertOptions<EmailFileType>
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

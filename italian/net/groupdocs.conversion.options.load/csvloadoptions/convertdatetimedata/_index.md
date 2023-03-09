@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Indica se la stringa nel file viene convertita in data. Limpostazione predefinita è True.
+description: Indica se la stringa nel file è convertita in data. Il valore predefinito è True.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.options.load/csvloadoptions/convertdatetimedata/
 ---
 ## CsvLoadOptions.ConvertDateTimeData property
 
-Indica se la stringa nel file viene convertita in data. L'impostazione predefinita è True.
+Indica se la stringa nel file è convertita in data. Il valore predefinito è True.
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

@@ -31,18 +31,17 @@ Interfaccia per continuare la costruzione della conversione
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 Salva il documento convertito come stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | Provider di flussi di documenti convertito |
+| convertedStreamProvider | Func`1 | Fornitore di flussi di documenti convertito |
 
 ### Valore di ritorno
 
@@ -51,25 +50,24 @@ Interfaccia per continuare la costruzione della conversione
 ### Guarda anche
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * spazio dei nomi [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assemblea [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
 Salva il documento convertito come stream per tipo
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | Provider di flussi di documenti convertito |
+| convertedStreamProvider | Func`2 | Provider del flusso di documenti convertito |
 
 ### Valore di ritorno
 
@@ -78,7 +76,7 @@ Interfaccia per continuare la costruzione della conversione
 ### Guarda anche
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * spazio dei nomi [GroupDocs.Conversion.Fluent](../../iconversionto)
 * assemblea [GroupDocs.Conversion](../../../)

@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diJpegOptionsgroupdocs.conversion.options.convert/jpegoptions classe.
+description: Inizializza una nuova istanza diJpegOptionsgroupdocs.conversion.options.convert/jpegoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/jpegoptions/jpegoptions/
 ---
 ## JpegOptions constructor
 
-Inizializza la nuova istanza di[`JpegOptions`](../../jpegoptions) classe.
+Inizializza una nuova istanza di[`JpegOptions`](../../jpegoptions) classe.
 
 ```csharp
 public JpegOptions()

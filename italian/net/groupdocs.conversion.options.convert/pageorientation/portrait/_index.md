@@ -1,14 +1,14 @@
 ---
 title: Portrait
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Orientamento della pagina verticale stretto e alto.
+description: Orientamento verticale della pagina stretto e alto.
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.options.convert/pageorientation/portrait/
 ---
 ## PageOrientation.Portrait field
 
-Orientamento della pagina verticale (stretto e alto).
+Orientamento verticale della pagina (stretto e alto).
 
 ```csharp
 public static PageOrientation Portrait;

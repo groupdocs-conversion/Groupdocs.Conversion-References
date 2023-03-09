@@ -1,14 +1,14 @@
 ---
 title: Vrml
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il Virtual Reality Modeling Language VRML è un formato di file per la rappresentazione di oggetti del mondo 3D interattivi sul World Wide Web www. Trova il suo utilizzo nella creazione di rappresentazioni tridimensionali di scene complesse come illustrazioni definizioni e presentazioni di realtà virtuale. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/vrml .
+description: Il Virtual Reality Modeling Language VRML è un formato di file per la rappresentazione di oggetti del mondo 3D interattivi sul World Wide Web www. Trova il suo utilizzo nella creazione di rappresentazioni tridimensionali di scene complesse come illustrazioni definizione e presentazioni di realtà virtuale. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/vrml .
 type: docs
 weight: 170
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/vrml/
 ---
 ## ThreeDFileType.Vrml field
 
-Il Virtual Reality Modeling Language (VRML) è un formato di file per la rappresentazione di oggetti del mondo 3D interattivi sul World Wide Web (www). Trova il suo utilizzo nella creazione di rappresentazioni tridimensionali di scene complesse come illustrazioni, definizioni e presentazioni di realtà virtuale. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/vrml) .
+Il Virtual Reality Modeling Language (VRML) è un formato di file per la rappresentazione di oggetti del mondo 3D interattivi sul World Wide Web (www). Trova il suo utilizzo nella creazione di rappresentazioni tridimensionali di scene complesse come illustrazioni, definizione e presentazioni di realtà virtuale. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/vrml) .
 
 ```csharp
 public static readonly ThreeDFileType Vrml;

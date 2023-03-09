@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni specifiche per filigrana
+description: Opzioni specifiche filigrana
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/watermark/
 ---
 ## IWatermarkedConvertOptions.Watermark property
 
-Opzioni specifiche per filigrana
+Opzioni specifiche filigrana
 
 ```csharp
 public WatermarkOptions Watermark { get; set; }

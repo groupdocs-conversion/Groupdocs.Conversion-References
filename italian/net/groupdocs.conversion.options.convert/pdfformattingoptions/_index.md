@@ -3,7 +3,7 @@ title: PdfFormattingOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Definisce le opzioni di formattazione Pdf.
 type: docs
-weight: 1590
+weight: 1770
 url: /it/net/groupdocs.conversion.options.convert/pdfformattingoptions/
 ---
 ## PdfFormattingOptions class
@@ -27,12 +27,12 @@ public sealed class PdfFormattingOptions : ValueObject
 | [CenterWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/centerwindow) { get; set; } | Specifica se la posizione della finestra del documento sarà centrata sullo schermo. Predefinito: falso. |
 | [Direction](../../groupdocs.conversion.options.convert/pdfformattingoptions/direction) { get; set; } | Imposta l'ordine di lettura del testo: L2R (da sinistra a destra) o R2L (da destra a sinistra). Predefinito: L2R. |
 | [DisplayDocTitle](../../groupdocs.conversion.options.convert/pdfformattingoptions/displaydoctitle) { get; set; } | Specifica se la barra del titolo della finestra del documento deve visualizzare il titolo del documento. Predefinito: falso. |
-| [FitWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow) { get; set; } | Specifica se la finestra del documento deve essere ridimensionata per adattarla alla prima pagina visualizzata. Predefinito: falso. |
+| [FitWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow) { get; set; } | Specifica se la finestra del documento deve essere ridimensionata per adattarsi alla prima pagina visualizzata. Predefinito: falso. |
 | [HideMenuBar](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidemenubar) { get; set; } | Specifica se la barra dei menu deve essere nascosta quando il documento è attivo. Predefinito: falso. |
 | [HideToolBar](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidetoolbar) { get; set; } | Specifica se la barra degli strumenti deve essere nascosta quando il documento è attivo. Predefinito: falso. |
 | [HideWindowUI](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidewindowui) { get; set; } | Specifica se gli elementi dell'interfaccia utente devono essere nascosti quando il documento è attivo. Predefinito: falso. |
 | [NonFullScreenPageMode](../../groupdocs.conversion.options.convert/pdfformattingoptions/nonfullscreenpagemode) { get; set; } | Imposta la modalità pagina, specificando come visualizzare il documento all'uscita dalla modalità a schermo intero. |
-| [PageLayout](../../groupdocs.conversion.options.convert/pdfformattingoptions/pagelayout) { get; set; } | Imposta il layout della pagina da utilizzare all'apertura del documento. |
+| [PageLayout](../../groupdocs.conversion.options.convert/pdfformattingoptions/pagelayout) { get; set; } | Imposta il layout di pagina che verrà utilizzato all'apertura del documento. |
 | [PageMode](../../groupdocs.conversion.options.convert/pdfformattingoptions/pagemode) { get; set; } | Imposta la modalità pagina, specificando come deve essere visualizzato il documento una volta aperto. |
 
 ## Metodi
@@ -41,7 +41,7 @@ public sealed class PdfFormattingOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

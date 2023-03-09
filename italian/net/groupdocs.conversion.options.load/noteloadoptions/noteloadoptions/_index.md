@@ -1,14 +1,14 @@
 ---
 title: NoteLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diNoteLoadOptionsgroupdocs.conversion.options.load/noteloadoptions classe.
+description: Inizializza una nuova istanza diNoteLoadOptionsgroupdocs.conversion.options.load/noteloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/noteloadoptions/noteloadoptions/
 ---
 ## NoteLoadOptions constructor
 
-Inizializza la nuova istanza di[`NoteLoadOptions`](../../noteloadoptions) classe.
+Inizializza una nuova istanza di[`NoteLoadOptions`](../../noteloadoptions) classe.
 
 ```csharp
 public NoteLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diEmailLoadOptionsgroupdocs.conversion.options.load/emailloadoptions classe.
+description: Inizializza una nuova istanza diEmailLoadOptionsgroupdocs.conversion.options.load/emailloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/presentationloadoptions/presentationloadoptions/
 ---
 ## PresentationLoadOptions constructor
 
-Inizializza la nuova istanza di[`EmailLoadOptions`](../../emailloadoptions) classe.
+Inizializza una nuova istanza di[`EmailLoadOptions`](../../emailloadoptions) classe.
 
 ```csharp
 public PresentationLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: Vssx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Il formato file VSSX può essere aperto con Visio 2013 e versioni successive. I file Visio sono noti per la rappresentazione di una varietà di elementi di disegno come raccolta di forme connettori diagrammi di flusso layout di rete diagrammi UML Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vssx .
+description: I file con estensione .VSSX disegnano stencil creati con Microsoft Visio 2013 e versioni successive. Il formato file VSSX può essere aperto con Visio 2013 e versioni successive. I file Visio sono noti per la rappresentazione di una varietà di elementi di disegno come raccolta di forme connettori diagrammi di flusso layout di rete diagrammi UML Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vssx .
 type: docs
 weight: 90
 url: /it/net/groupdocs.conversion.filetypes/diagramfiletype/vssx/
 ---
 ## DiagramFileType.Vssx field
 
-I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Il formato file VSSX può essere aperto con Visio 2013 e versioni successive. I file Visio sono noti per la rappresentazione di una varietà di elementi di disegno come raccolta di forme, connettori, diagrammi di flusso, layout di rete, diagrammi UML, Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vssx) .
+I file con estensione .VSSX disegnano stencil creati con Microsoft Visio 2013 e versioni successive. Il formato file VSSX può essere aperto con Visio 2013 e versioni successive. I file Visio sono noti per la rappresentazione di una varietà di elementi di disegno come raccolta di forme, connettori, diagrammi di flusso, layout di rete, diagrammi UML, Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vssx) .
 
 ```csharp
 public static readonly DiagramFileType Vssx;

@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti Txt.
 type: docs
-weight: 2050
+weight: 2300
 url: /it/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -18,7 +18,7 @@ public sealed class TxtLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions)() | Inizializza la nuova istanza di[`TxtLoadOptions`](../txtloadoptions) classe. |
+| [TxtLoadOptions](txtloadoptions)() | Inizializza una nuova istanza di[`TxtLoadOptions`](../txtloadoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public sealed class TxtLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

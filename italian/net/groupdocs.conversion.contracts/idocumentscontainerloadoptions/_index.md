@@ -3,7 +3,7 @@ title: IDocumentsContainerLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni di caricamento per contenitore documenti
 type: docs
-weight: 250
+weight: 260
 url: /it/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface

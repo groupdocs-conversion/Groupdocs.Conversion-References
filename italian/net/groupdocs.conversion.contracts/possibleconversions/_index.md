@@ -3,7 +3,7 @@ title: PossibleConversions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Rappresenta una mappatura delle coppie di conversione supportate per un formato file di origine specifico
 type: docs
-weight: 370
+weight: 400
 url: /it/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class
@@ -31,7 +31,7 @@ public sealed class PossibleConversions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

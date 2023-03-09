@@ -1,14 +1,14 @@
 ---
 title: SevenZ
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: 7z è un formato di archiviazione per la compressione di file e cartelle con un elevato rapporto di compressione. Si basa su unarchitettura Open Source che consente di utilizzare qualsiasi algoritmo di compressione e crittografia. Scopri di più su questo formato di filequihttps//docs.fileformat.com/compression/7z/ .
+description: 7z è un formato di archiviazione per la compressione di file e cartelle con un elevato rapporto di compressione. Si basa su unarchitettura Open Source che consente di utilizzare qualsiasi algoritmo di compressione e crittografia. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/compression/7z/ .
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.filetypes/compressionfiletype/sevenz/
 ---
 ## CompressionFileType.SevenZ field
 
-7z è un formato di archiviazione per la compressione di file e cartelle con un elevato rapporto di compressione. Si basa su un'architettura Open Source che consente di utilizzare qualsiasi algoritmo di compressione e crittografia. Scopri di più su questo formato di file[qui](https://docs.fileformat.com/compression/7z/) .
+7z è un formato di archiviazione per la compressione di file e cartelle con un elevato rapporto di compressione. Si basa su un'architettura Open Source che consente di utilizzare qualsiasi algoritmo di compressione e crittografia. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/compression/7z/) .
 
 ```csharp
 public static readonly CompressionFileType SevenZ;

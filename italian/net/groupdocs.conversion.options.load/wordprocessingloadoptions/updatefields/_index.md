@@ -1,14 +1,14 @@
 ---
 title: UpdateFields
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Aggiorna i campi dopo il caricamento. Predefinito false
+description: Aggiorna i campi dopo il caricamento. Predefinito falso
 type: docs
 weight: 130
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields/
 ---
 ## WordProcessingLoadOptions.UpdateFields property
 
-Aggiorna i campi dopo il caricamento. Predefinito: false
+Aggiorna i campi dopo il caricamento. Predefinito: falso
 
 ```csharp
 public bool UpdateFields { get; set; }

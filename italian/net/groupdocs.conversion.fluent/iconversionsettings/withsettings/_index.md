@@ -16,7 +16,7 @@ public IConversionFrom WithSettings(Func<ConverterSettings> settingsProvider)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| settingsProvider | Func`1 | Provider di impostazioni |
+| settingsProvider | Func`1 | Fornitore di impostazioni |
 
 ### Guarda anche
 

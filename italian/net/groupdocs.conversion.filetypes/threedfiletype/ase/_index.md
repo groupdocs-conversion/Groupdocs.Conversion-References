@@ -1,14 +1,14 @@
 ---
 title: Ase
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .ase è un formato di file di esportazione della scena ASCII di Autodesk che è una rappresentazione ASCII di una scena contenente informazioni 2D o 3D durante lesportazione dei dati della scena utilizzando Autodesk. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/ase .
+description: Un file con estensione .ase è un formato di file di esportazione della scena ASCII di Autodesk che è una rappresentazione ASCII di una scena contenente informazioni 2D o 3D durante lesportazione dei dati della scena utilizzando Autodesk. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/ase .
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/ase/
 ---
 ## ThreeDFileType.Ase field
 
-Un file con estensione .ase è un formato di file di esportazione della scena ASCII di Autodesk che è una rappresentazione ASCII di una scena, contenente informazioni 2D o 3D durante l'esportazione dei dati della scena utilizzando Autodesk. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/ase) .
+Un file con estensione .ase è un formato di file di esportazione della scena ASCII di Autodesk che è una rappresentazione ASCII di una scena, contenente informazioni 2D o 3D durante l'esportazione dei dati della scena utilizzando Autodesk. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/ase) .
 
 ```csharp
 public static readonly ThreeDFileType Ase;

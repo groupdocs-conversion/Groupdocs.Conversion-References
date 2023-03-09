@@ -3,7 +3,7 @@ title: GetAll
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Restituisce tutti i valori di enumerazione.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

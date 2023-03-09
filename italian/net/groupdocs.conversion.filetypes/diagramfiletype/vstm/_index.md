@@ -1,14 +1,14 @@
 ---
 title: Vstm
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. A differenza dei file VSDX i file creati da modelli VSTM possono eseguire macro sviluppate nel codice Visual Basic Applications Edition VBA. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vstm .
+description: I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. A differenza dei file VSDX i file creati dai modelli VSTM possono eseguire macro sviluppate nel codice Visual Basic for Applications VBA. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vstm .
 type: docs
 weight: 110
 url: /it/net/groupdocs.conversion.filetypes/diagramfiletype/vstm/
 ---
 ## DiagramFileType.Vstm field
 
-I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. A differenza dei file VSDX, i file creati da modelli VSTM possono eseguire macro sviluppate nel codice Visual Basic, Applications Edition (VBA). Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vstm) .
+I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. A differenza dei file VSDX, i file creati dai modelli VSTM possono eseguire macro sviluppate nel codice Visual Basic for Applications (VBA). Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vstm) .
 
 ```csharp
 public static readonly DiagramFileType Vstm;

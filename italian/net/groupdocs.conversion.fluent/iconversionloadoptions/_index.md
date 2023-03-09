@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni di caricamento delle conversioni
 type: docs
-weight: 1130
+weight: 1260
 url: /it/net/groupdocs.conversion.fluent/iconversionloadoptions/
 ---
 ## IConversionLoadOptions interface
@@ -19,8 +19,8 @@ public interface IConversionLoadOptions
 | Nome | Descrizione |
 | --- | --- |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_2)(Func&lt;FileType, LoadOptions&gt;) | Imposta le opzioni di caricamento per il tipo di file specificato |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_1)(Func&lt;LoadOptions&gt;) | Imposta opzioni di caricamento |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions)(LoadOptions) | Imposta opzioni di caricamento |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_1)(Func&lt;LoadOptions&gt;) | Imposta le opzioni di caricamento |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions)(LoadOptions) | Imposta le opzioni di caricamento |
 
 ### Guarda anche
 

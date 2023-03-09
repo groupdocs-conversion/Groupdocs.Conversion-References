@@ -1,14 +1,14 @@
 ---
 title: TsvLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diTsvLoadOptionsgroupdocs.conversion.options.load/tsvloadoptions classe.
+description: Inizializza una nuova istanza diTsvLoadOptionsgroupdocs.conversion.options.load/tsvloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/tsvloadoptions/tsvloadoptions/
 ---
 ## TsvLoadOptions constructor
 
-Inizializza la nuova istanza di[`TsvLoadOptions`](../../tsvloadoptions) classe.
+Inizializza una nuova istanza di[`TsvLoadOptions`](../../tsvloadoptions) classe.
 
 ```csharp
 public TsvLoadOptions()

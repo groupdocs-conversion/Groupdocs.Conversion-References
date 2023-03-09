@@ -1,14 +1,14 @@
 ---
 title: ConverterSettings
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Default_Costruttore
+description: Costruttore predefinito
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion/convertersettings/convertersettings/
 ---
 ## ConverterSettings constructor
 
-Default_Costruttore
+Costruttore predefinito
 
 ```csharp
 public ConverterSettings()

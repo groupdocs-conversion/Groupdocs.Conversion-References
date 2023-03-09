@@ -30,9 +30,9 @@ public sealed class FileCache : ICache
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sulla memorizzazione nella cache e sull'ottimizzazione delle prestazioni del processo di conversione: [Memorizzazione nella cache dei risultati di conversione](https://docs.groupdocs.com/display/conversionnet/Caching)
+* Ulteriori informazioni sulla memorizzazione nella cache e sull'ottimizzazione delle prestazioni del processo di conversione: [Risultati della conversione nella cache](https://docs.groupdocs.com/display/conversionnet/Caching)
 
 ### Guarda anche
 

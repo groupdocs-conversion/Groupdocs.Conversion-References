@@ -1,14 +1,14 @@
 ---
 title: Wmv
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: LAdvanced Systems Format ASF è un contenitore multimediale digitale progettato principalmente per larchiviazione e la trasmissione di flussi multimediali. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/video/wmv/ .
+description: LAdvanced Systems Format ASF è un contenitore multimediale digitale progettato principalmente per larchiviazione e la trasmissione di flussi multimediali. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/video/wmv/ .
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.filetypes/videofiletype/wmv/
 ---
 ## VideoFileType.Wmv field
 
-L'Advanced Systems Format (ASF) è un contenitore multimediale digitale progettato principalmente per l'archiviazione e la trasmissione di flussi multimediali. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/video/wmv/) .
+L'Advanced Systems Format (ASF) è un contenitore multimediale digitale progettato principalmente per l'archiviazione e la trasmissione di flussi multimediali. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/video/wmv/) .
 
 ```csharp
 public static readonly VideoFileType Wmv;

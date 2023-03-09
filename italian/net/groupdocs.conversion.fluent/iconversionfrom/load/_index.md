@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta il nome del file del documento di origine
+description: Imposta il documento di origine fileName
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.fluent/iconversionfrom/load/
 ---
 ## Load(string) {#load_2}
 
-Imposta il nome del file del documento di origine
+Imposta il documento di origine fileName
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
@@ -29,7 +29,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
 
 ## Load(string[]) {#load_3}
 
-Imposta l'array dei documenti di origine
+Imposta la matrice dei documenti di origine
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
@@ -50,7 +50,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
 
 ## Load(Func&lt;Stream&gt;) {#load_1}
 
-Imposta flusso di documenti di origine
+Imposta il flusso del documento di origine
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentStreamProvider)
@@ -77,7 +77,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentSt
 
 ## Load(Func&lt;Stream[]&gt;) {#load}
 
-Imposta flussi di documenti di origine array
+Imposta l'array dei flussi dei documenti di origine
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> documentStreamProvider)
@@ -85,7 +85,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> document
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| documentStreamProvider | Func`1 | Provider di flussi di documenti di origine |
+| documentStreamProvider | Func`1 | Fornitore di flussi di documenti di origine |
 
 ### Eccezioni
 

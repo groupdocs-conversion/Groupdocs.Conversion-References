@@ -1,14 +1,14 @@
 ---
 title: Pptx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione PPTX sono file di presentazione creati con la popolare applicazione Microsoft PowerPoint. A differenza della versione precedente del formato di file di presentazione PPT che era binario il formato PPTX si basa sul formato di file di presentazione XML aperto di Microsoft PowerPoint. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/pptx .
+description: I file con estensione PPTX sono file di presentazione creati con la popolare applicazione Microsoft PowerPoint. A differenza della versione precedente del formato di file di presentazione PPT che era binario il formato PPTX si basa sul formato di file di presentazione XML aperto di Microsoft PowerPoint. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/pptx .
 type: docs
 weight: 130
 url: /it/net/groupdocs.conversion.filetypes/presentationfiletype/pptx/
 ---
 ## PresentationFileType.Pptx field
 
-I file con estensione PPTX sono file di presentazione creati con la popolare applicazione Microsoft PowerPoint. A differenza della versione precedente del formato di file di presentazione PPT che era binario, il formato PPTX si basa sul formato di file di presentazione XML aperto di Microsoft PowerPoint. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/pptx) .
+I file con estensione PPTX sono file di presentazione creati con la popolare applicazione Microsoft PowerPoint. A differenza della versione precedente del formato di file di presentazione PPT che era binario, il formato PPTX si basa sul formato di file di presentazione XML aperto di Microsoft PowerPoint. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/pptx) .
 
 ```csharp
 public static readonly PresentationFileType Pptx;

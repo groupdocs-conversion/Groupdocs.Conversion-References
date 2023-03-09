@@ -11,7 +11,7 @@ url: /it/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Livelli nel documento
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Guarda anche

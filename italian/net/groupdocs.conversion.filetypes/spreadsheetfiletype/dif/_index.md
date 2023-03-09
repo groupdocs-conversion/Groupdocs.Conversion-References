@@ -1,14 +1,14 @@
 ---
 title: Dif
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: DIF è lacronimo di Data Interchange Format che viene utilizzato per importare/esportare i dati dei fogli di calcolo tra diverse applicazioni. Questi includono Microsoft Excel OpenOffice Calc StarCalc e molti altri. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/dif .
+description: DIF è lacronimo di Data Interchange Format che viene utilizzato per importare/esportare i dati dei fogli di calcolo tra diverse applicazioni. Questi includono Microsoft Excel OpenOffice Calc StarCalc e molti altri. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/dif .
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/dif/
 ---
 ## SpreadsheetFileType.Dif field
 
-DIF è l'acronimo di Data Interchange Format che viene utilizzato per importare/esportare i dati dei fogli di calcolo tra diverse applicazioni. Questi includono Microsoft Excel, OpenOffice Calc, StarCalc e molti altri. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/dif) .
+DIF è l'acronimo di Data Interchange Format che viene utilizzato per importare/esportare i dati dei fogli di calcolo tra diverse applicazioni. Questi includono Microsoft Excel, OpenOffice Calc, StarCalc e molti altri. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/dif) .
 
 ```csharp
 public static readonly SpreadsheetFileType Dif;

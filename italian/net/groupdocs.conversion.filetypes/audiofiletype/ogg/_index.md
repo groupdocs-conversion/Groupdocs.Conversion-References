@@ -1,14 +1,14 @@
 ---
 title: Ogg
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: OGG è un file audio compresso Ogg Vorbis che viene salvato con lestensione .ogg. I file OGG vengono utilizzati per la memorizzazione di dati audio e possono includere anche informazioni sullartista e sulla traccia e metadati. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/audio/ogg/ .
+description: OGG è un file audio compresso Ogg Vorbis che viene salvato con lestensione .ogg. I file OGG vengono utilizzati per la memorizzazione di dati audio e possono includere anche informazioni sullartista e sulla traccia e metadati. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/audio/ogg/ .
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.filetypes/audiofiletype/ogg/
 ---
 ## AudioFileType.Ogg field
 
-OGG è un file audio compresso Ogg Vorbis che viene salvato con l'estensione .ogg. I file OGG vengono utilizzati per la memorizzazione di dati audio e possono includere anche informazioni sull'artista e sulla traccia e metadati. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/audio/ogg/) .
+OGG è un file audio compresso Ogg Vorbis che viene salvato con l'estensione .ogg. I file OGG vengono utilizzati per la memorizzazione di dati audio e possono includere anche informazioni sull'artista e sulla traccia e metadati. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/audio/ogg/) .
 
 ```csharp
 public static readonly AudioFileType Ogg;

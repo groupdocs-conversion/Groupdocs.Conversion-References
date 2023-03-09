@@ -1,14 +1,14 @@
 ---
 title: VideoConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diVideoConvertOptionsgroupdocs.conversion.options.convert/videoconvertoptions classe.
+description: Inizializza una nuova istanza diVideoConvertOptionsgroupdocs.conversion.options.convert/videoconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/videoconvertoptions/videoconvertoptions/
 ---
 ## VideoConvertOptions constructor
 
-Inizializza la nuova istanza di[`VideoConvertOptions`](../../videoconvertoptions) classe.
+Inizializza una nuova istanza di[`VideoConvertOptions`](../../videoconvertoptions) classe.
 
 ```csharp
 public VideoConvertOptions()

@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati dellelemento del sommario
 type: docs
-weight: 500
+weight: 540
 url: /it/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

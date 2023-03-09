@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file immagine.
 type: docs
-weight: 1470
+weight: 1630
 url: /it/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -18,7 +18,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 
 | Nome | Descrizione |
 | --- | --- |
-| [ImageConvertOptions](imageconvertoptions)() | Inizializza la nuova istanza di[`ImageConvertOptions`](../imageconvertoptions) classe. |
+| [ImageConvertOptions](imageconvertoptions)() | Inizializza una nuova istanza di[`ImageConvertOptions`](../imageconvertoptions) classe. |
 
 ## Proprietà
 
@@ -36,14 +36,14 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Risoluzione orizzontale dell'immagine desiderata dopo la conversione. La risoluzione predefinita è la risoluzione del file di input o 96 dpi. |
 | [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Opzioni di conversione specifiche Jpeg. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Il numero di pagina da cui iniziare la conversione. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Numero di pagine da convertire a partire da`Numero di pagina` . |
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Opzioni di conversione specifiche per Psd. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Angolo di rotazione dell'immagine. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Opzioni di conversione specifiche per Tiff. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Se`VERO` l'input viene prima convertito in PDF e successivamente nel formato desiderato. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Se`VERO` , l'input viene prima convertito in PDF e successivamente nel formato desiderato. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Risoluzione verticale dell'immagine desiderata dopo la conversione. La risoluzione predefinita è la risoluzione del file di input o 96 dpi. |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche per filigrana |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche filigrana |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Opzioni di conversione specifiche per Webp. |
 | [Width](../../groupdocs.conversion.options.convert/imageconvertoptions/width) { get; set; } | Larghezza dell'immagine desiderata dopo la conversione. |
 
@@ -54,7 +54,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 
