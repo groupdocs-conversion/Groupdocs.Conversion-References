@@ -3,7 +3,7 @@ title: Ott
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers avec lextension OTT représentent des modèles de documents générés par des applications conformes au format standard OpenDocument dOASIS. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field

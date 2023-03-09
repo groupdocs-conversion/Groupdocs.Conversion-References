@@ -3,7 +3,7 @@ title: License
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Fournit des méthodes pour licencier le composant. En savoir plus sur les licencesicihttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 1250
+weight: 1380
 url: /fr/net/groupdocs.conversion/license/
 ---
 ## License class

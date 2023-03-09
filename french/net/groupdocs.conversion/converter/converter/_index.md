@@ -140,7 +140,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | document | Func`1 | La méthode qui renvoie un flux lisible. |
-| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. |
+| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. Le type du fichier source |
 
 ### Remarques
 
@@ -171,7 +171,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | document | Func`1 | La méthode qui renvoie un flux lisible. |
-| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. |
+| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. Le type du fichier source |
 | settings | Func`1 | Les paramètres du convertisseur. |
 
 ### Remarques
@@ -319,7 +319,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | filePath | String | Le chemin du fichier vers le document source. |
-| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. |
+| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. Le type du fichier source |
 
 ### Remarques
 
@@ -350,7 +350,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | filePath | String | Le chemin du fichier vers le document source. |
-| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. |
+| loadOptions | Func`2 | Les méthodes qui renvoient les options de chargement de document. Le type du fichier source |
 | settings | Func`1 | Les paramètres du convertisseur. |
 
 ### Remarques

@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Définit les documents CAO conception assistée par ordinateur qui sont utilisés pour un format de fichier graphique 3D et peuvent contenir des conceptions 2D ou 3D. Inclut les types suivants  Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . En savoir plus sur les formats CAOicihttps//wiki.fileformat.com/cad .
+description: Définit les documents CAO conception assistée par ordinateur qui sont utilisés pour un format de fichier graphique 3D et peuvent contenir des conceptions 2D ou 3D. Inclut les types suivants  Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . En savoir plus sur les formats CAOicihttps//wiki.fileformat.com/cad .
 type: docs
-weight: 800
+weight: 860
 url: /fr/net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-Définit les documents CAO (conception assistée par ordinateur) qui sont utilisés pour un format de fichier graphique 3D et peuvent contenir des conceptions 2D ou 3D. Inclut les types suivants : [`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . En savoir plus sur les formats CAO[ici](https://wiki.fileformat.com/cad) .
+Définit les documents CAO (conception assistée par ordinateur) qui sont utilisés pour un format de fichier graphique 3D et peuvent contenir des conceptions 2D ou 3D. Inclut les types suivants : [`Cf2`](./cf2)[`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwfx`](./dwfx)[`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . En savoir plus sur les formats CAO[ici](https://wiki.fileformat.com/cad) .
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -34,7 +34,7 @@ public sealed class CadFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

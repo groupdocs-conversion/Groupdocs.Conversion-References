@@ -20,8 +20,11 @@ L'espace de noms fournit des classes pour spécifier des options supplémentaire
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Classe d'options de conversion générique abstraite. |
 | [DataConvertOptions](./dataconvertoptions) | Options de conversion en type de fichier de données. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Options de conversion en type de fichier Diagramme. |
+| [EBookConvertOptions](./ebookconvertoptions) | Options de conversion en type de fichier EBook. |
 | [EmailConvertOptions](./emailconvertoptions) | Options de conversion en type de fichier e-mail. |
+| [FinanceConvertOptions](./financeconvertoptions) | Options de conversion en type de financement. |
 | [Font](./font) | Paramètres de police |
+| [FontConvertOptions](./fontconvertoptions) | Options de conversion en type de police. |
 | [ImageConvertOptions](./imageconvertoptions) | Options de conversion en type de fichier image. |
 | [ImageFlipModes](./imageflipmodes) | Décrit les modes de retournement d'image. |
 | [JpegOptions](./jpegoptions) | Options de conversion vers le type de fichier Jpeg. |
@@ -29,10 +32,12 @@ L'espace de noms fournit des classes pour spécifier des options supplémentaire
 | [JpgCompressionMethods](./jpgcompressionmethods) | Décrit les modes de compression Jpg |
 | [MarkupConvertOptions](./markupconvertoptions) | Options de conversion vers le type de fichier Markup. |
 | [NoConvertOptions](./noconvertoptions) | Classe d'option de conversion spéciale, qui demande au convertisseur de copier le document source sans aucun traitement |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options de conversion vers le type de fichier de langue des descriptions de page. |
 | [PageOrientation](./pageorientation) | Spécifie l'orientation de la page |
 | [PageSize](./pagesize) | Spécifie la taille de la page |
 | [PdfConvertOptions](./pdfconvertoptions) | Options de conversion vers le type de fichier Pdf. |
 | [PdfDirection](./pdfdirection) | Décrit la direction du texte PDF. |
+| [PdfDocumentInfo](./pdfdocumentinfo) | Représente les méta-informations du document PDF. |
 | [PdfFormats](./pdfformats) | Décrit l'énumération des formats PDF. |
 | [PdfFormattingOptions](./pdfformattingoptions) | Définit les options de formatage PDF. |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | Définit les options d'optimisation du PDF. |
@@ -55,6 +60,7 @@ L'espace de noms fournit des classes pour spécifier des options supplémentaire
 | [WatermarkImageOptions](./watermarkimageoptions) | Options pour les paramètres de filigrane sur le document converti |
 | [WatermarkOptions](./watermarkoptions) | Options pour les paramètres de filigrane sur le document converti |
 | [WatermarkTextOptions](./watermarktextoptions) | Options pour les paramètres de texte filigrane sur le document converti |
+| [WebConvertOptions](./webconvertoptions) | Options de conversion en type de fichier Web. |
 | [WebpOptions](./webpoptions) | Options de conversion vers le type de fichier Webp. |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | Options de conversion vers le type de fichier WordProcessing. |
 ## Interfaces

@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents de données.
 type: docs
-weight: 1870
+weight: 2060
 url: /fr/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /fr/net/groupdocs.conversion.options.load/dataloadoptions/
 Options de chargement des documents de données.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Constructeurs
-
-| Nom | La description |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Initialise la nouvelle instance de[`DataLoadOptions`](../dataloadoptions) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Type de fichier du document d'entrée. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Le chemin/URL de base pour le html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Obtient ou définit l'encodage à utiliser lors du chargement du document de balisage. Si la propriété est nulle, l'encodage sera déterminé à partir du jeu de caractères du document attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Type de fichier du document d'entrée. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Type de fichier du document d'entrée. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Activer ou désactiver la génération de la numérotation des pages dans le document converti. Par défaut : false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout pour le chargement des ressources externes |
 
 ## Méthodes
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Voir également
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * espace de noms [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * Assemblée [GroupDocs.Conversion](../../)
 

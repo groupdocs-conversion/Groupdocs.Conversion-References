@@ -3,7 +3,7 @@ title: IConversionGetPossibleConversions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Obtient les conversions possibles pour le document source.
 type: docs
-weight: 1120
+weight: 1250
 url: /fr/net/groupdocs.conversion.fluent/iconversiongetpossibleconversions/
 ---
 ## IConversionGetPossibleConversions interface

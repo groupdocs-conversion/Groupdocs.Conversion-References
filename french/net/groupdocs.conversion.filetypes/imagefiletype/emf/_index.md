@@ -3,7 +3,7 @@ title: Emf
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Le format de métafichier amélioré EMF stocke les images graphiques indépendamment du périphérique. Les métafichiers dEMF comprennent des enregistrements de longueur variable dans lordre chronologique qui peuvent restituer limage stockée après analyse sur nimporte quel périphérique de sortie. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 120
+weight: 110
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field

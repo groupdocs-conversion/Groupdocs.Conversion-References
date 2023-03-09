@@ -3,7 +3,7 @@ title: FileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Classe de base du type de fichier
 type: docs
-weight: 850
+weight: 930
 url: /fr/net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class
@@ -37,7 +37,7 @@ public class FileType : Enumeration
 | static [FromFilename](../../groupdocs.conversion.filetypes/filetype/fromfilename)(string) | Renvoie le type de fichier pour le nom de fichier spécifié |
 | static [FromStream](../../groupdocs.conversion.filetypes/filetype/fromstream)(Stream) | Renvoie le type de fichier pour le flux de documents fourni |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals#equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

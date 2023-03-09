@@ -3,7 +3,7 @@ title: EmailField
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit les champs demail enumeration
 type: docs
-weight: 1890
+weight: 2100
 url: /fr/net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class

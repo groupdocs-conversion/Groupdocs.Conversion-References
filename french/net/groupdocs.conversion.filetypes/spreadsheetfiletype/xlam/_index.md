@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Format de document Xlam
+description: XLAM est un fichier de macro complémentaire qui est utilisé pour ajouter de nouvelles fonctions aux feuilles de calcul. Un complément est un programme supplémentaire qui exécute du code supplémentaire et fournit des fonctionnalités supplémentaires pour les feuilles de calcul. En savoir plus sur ce format de fichiericihttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /fr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Format de document Xlam
+XLAM est un fichier de macro complémentaire qui est utilisé pour ajouter de nouvelles fonctions aux feuilles de calcul. Un complément est un programme supplémentaire qui exécute du code supplémentaire et fournit des fonctionnalités supplémentaires pour les feuilles de calcul. En savoir plus sur ce format de fichier[ici](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

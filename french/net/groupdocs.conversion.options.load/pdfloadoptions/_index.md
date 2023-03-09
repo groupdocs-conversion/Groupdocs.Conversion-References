@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents Pdf.
 type: docs
-weight: 1980
+weight: 2220
 url: /fr/net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class

@@ -3,7 +3,7 @@ title: Doc
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers avec lextension .doc représentent des documents générés par Microsoft Word ou dautres documents de traitement de texte au format de fichier binaire. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field

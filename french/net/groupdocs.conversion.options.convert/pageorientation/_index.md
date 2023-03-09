@@ -3,7 +3,7 @@ title: PageOrientation
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Spécifie lorientation de la page
 type: docs
-weight: 1540
+weight: 1710
 url: /fr/net/groupdocs.conversion.options.convert/pageorientation/
 ---
 ## PageOrientation class

@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante. Un chemin absolu vers le fichier de police doit être fourni.
+description: Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante.
 type: docs
 weight: 20
 url: /fr/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante. Un chemin absolu vers le fichier de police doit être fourni.
+Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante.
 
 ```csharp
 public string DefaultFont { get; set; }

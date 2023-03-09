@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les formats de prise de notes. Inclut les types de fichiers suivants  One./notefiletype/one . En savoir plus sur les formats de prise de notesicihttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /fr/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

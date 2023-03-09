@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Contient les métadonnées dun document.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/groupdocs.conversion.contracts/idocumentinfo/
 ---
 ## IDocumentInfo interface

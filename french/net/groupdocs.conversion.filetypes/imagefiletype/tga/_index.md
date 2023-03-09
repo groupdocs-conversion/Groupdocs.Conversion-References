@@ -3,7 +3,7 @@ title: Tga
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Un fichier avec lextension .tga est un format graphique raster et a été créé par Truevision Inc. En savoir plus sur ce format de fichiericihttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Levé si le substitut de police est illégal
 type: docs
-weight: 720
+weight: 780
 url: /fr/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Définit les documents de données. Inclut les types de fichiers suivants  Xml./datafiletype/xml . Json./datafiletype/json .
+description: Définit les documents de données. Inclut les types de fichiers suivants  Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /fr/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Définit les documents de données. Inclut les types de fichiers suivants : [`Xml`](./xml) . [`Json`](./json) .
+Définit les documents de données. Inclut les types de fichiers suivants : Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Constructeurs
-
-| Nom | La description |
-| --- | --- |
-| [DataFileType](datafiletype)() | Constructeur de sérialisation |
 
 ## Propriétés
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |
-
-## Des champs
-
-| Nom | La description |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) est un format de fichier standard ouvert pour le partage de données qui utilise du texte lisible par l'homme pour stocker et transmettre des données. En savoir plus sur ce format de fichier[ici](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML signifie Extensible Markup Language qui est similaire à HTML mais différent dans l'utilisation de balises pour définir des objets. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/web/xml) . |
 
 ### Voir également
 

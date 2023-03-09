@@ -3,7 +3,7 @@ title: IConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Représente les options de conversion
 type: docs
-weight: 1390
+weight: 1550
 url: /fr/net/groupdocs.conversion.options.convert/iconvertoptions/
 ---
 ## IConvertOptions interface

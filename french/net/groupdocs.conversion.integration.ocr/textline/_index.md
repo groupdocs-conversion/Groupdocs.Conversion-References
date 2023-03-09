@@ -3,7 +3,7 @@ title: TextLine
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Représente du texte extrait dune image à la suite de son processus de reconnaissance.
 type: docs
-weight: 1230
+weight: 1360
 url: /fr/net/groupdocs.conversion.integration.ocr/textline/
 ---
 ## TextLine class

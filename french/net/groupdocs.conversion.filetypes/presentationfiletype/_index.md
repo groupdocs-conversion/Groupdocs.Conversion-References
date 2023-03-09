@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les formats de fichier de présentation qui stockent une collection denregistrements pour accueillir des données de présentation telles que des diapositives des formes du texte des animations de la vidéo de laudio et des objets intégrés. Inclut les types de fichiers suivants  Odp./presentationfiletype/odp  Otp./presentationfiletype/otp  Pot./presentationfiletype/pot  Potm./presentationfiletype/potm  Potx./presentationfiletype/potx  Pps./presentationfiletype/pps  Ppsm./presentationfiletype/ppsm  Ppsx./presentationfiletype/ppsx  Ppt./presentationfiletype/ppt  Pptm./presentationfiletype/pptm  Pptx./presentationfiletype/pptx . En savoir plus sur les formats de présentationicihttps//wiki.fileformat.com/presentation .
 type: docs
-weight: 910
+weight: 1020
 url: /fr/net/groupdocs.conversion.filetypes/presentationfiletype/
 ---
 ## PresentationFileType class
@@ -34,7 +34,7 @@ public sealed class PresentationFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

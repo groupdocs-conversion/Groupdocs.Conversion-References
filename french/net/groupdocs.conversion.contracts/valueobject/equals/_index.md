@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Return_Value
 
-`vrai` si l'objet spécifié est égal à l'objet courant ; Par ailleurs,`faux`.
+`vrai` si l'objet spécifié est égal à l'objet courant ; sinon,`FAUX`.
 
 ### Voir également
 
@@ -44,7 +44,7 @@ public virtual bool Equals(ValueObject other)
 
 ### Return_Value
 
-`vrai` si l'objet spécifié est égal à l'objet courant ; Par ailleurs,`faux`.
+`vrai` si l'objet spécifié est égal à l'objet courant ; sinon,`FAUX`.
 
 ### Voir également
 

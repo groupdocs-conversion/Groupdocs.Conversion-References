@@ -3,7 +3,7 @@ title: RtfOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion vers le type de fichier RTF.
 type: docs
-weight: 1710
+weight: 1890
 url: /fr/net/groupdocs.conversion.options.convert/rtfoptions/
 ---
 ## RtfOptions class

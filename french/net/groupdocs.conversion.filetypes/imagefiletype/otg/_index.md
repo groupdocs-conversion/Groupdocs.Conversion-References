@@ -3,7 +3,7 @@ title: Otg
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Un fichier OTG est un modèle de dessin créé à laide de la norme OpenDocument qui suit la spécification OASIS Office Applications 1.0. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field

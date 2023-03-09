@@ -3,7 +3,7 @@ title: TsvDocumentInfo
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Contient les métadonnées du document Tsv
 type: docs
-weight: 550
+weight: 590
 url: /fr/net/groupdocs.conversion.contracts/tsvdocumentinfo/
 ---
 ## TsvDocumentInfo class

@@ -3,7 +3,7 @@ title: XslFoDocumentInfo
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Contient les métadonnées du document XslFo
 type: docs
-weight: 630
+weight: 690
 url: /fr/net/groupdocs.conversion.contracts/xslfodocumentinfo/
 ---
 ## XslFoDocumentInfo class

@@ -3,7 +3,7 @@ title: DjVu
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: DjVu est un format de fichier graphique destiné aux documents numérisés et aux livres en particulier ceux qui contiennent une combinaison de texte de dessins dimages et de photographies. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/djvu .
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/djvu/
 ---
 ## ImageFileType.DjVu field

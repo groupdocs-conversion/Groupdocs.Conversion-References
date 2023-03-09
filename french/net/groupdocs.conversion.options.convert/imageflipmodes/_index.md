@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit les modes de retournement dimage.
 type: docs
-weight: 1480
+weight: 1640
 url: /fr/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class

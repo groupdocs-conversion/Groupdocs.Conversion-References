@@ -3,7 +3,7 @@ title: PdfFormat
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit le format pdf du document converti.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/groupdocs.conversion.options.convert/pdfoptions/pdfformat/
 ---
 ## PdfOptions.PdfFormat property

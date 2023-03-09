@@ -3,7 +3,7 @@ title: Dotx
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers avec lextension DOTX sont des fichiers modèles créés par Microsoft Word pour avoir des paramètres préformatés pour la génération dautres fichiers DOCX. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 80
+weight: 70
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

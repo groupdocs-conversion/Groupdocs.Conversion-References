@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents de stockage personnels.
 type: docs
-weight: 1990
+weight: 2230
 url: /fr/net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class

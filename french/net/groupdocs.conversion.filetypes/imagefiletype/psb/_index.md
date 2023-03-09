@@ -3,7 +3,7 @@ title: Psb
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Adobe Photoshop enregistre les fichiers dans deux formats. Les fichiers dune taille de 30 000 sur 30 000 pixels sont enregistrés avec lextension PSD et les fichiers plus grands que PSD jusquà 300 000 sur 300 000 pixels sont enregistrés avec lextension PSB connue sous le nom de Photoshop Big. En savoir plus sur ce format de fichiericihttps//docs.fileformat.com/image/psb .
 type: docs
-weight: 310
+weight: 290
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field

@@ -3,7 +3,7 @@ title: Dng
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: DNG est un format dimage dappareil photo numérique utilisé pour le stockage de fichiers bruts. Il a été développé par Adobe en septembre 2004. Il a été essentiellement développé pour la photographie numérique. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 110
+weight: 100
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/dng/
 ---
 ## ImageFileType.Dng field

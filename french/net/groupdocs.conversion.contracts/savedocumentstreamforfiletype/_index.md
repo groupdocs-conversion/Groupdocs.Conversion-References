@@ -3,7 +3,7 @@ title: SaveDocumentStreamForFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit le délégué pour enregistrer le document converti dans le flux.
 type: docs
-weight: 440
+weight: 480
 url: /fr/net/groupdocs.conversion.contracts/savedocumentstreamforfiletype/
 ---
 ## SaveDocumentStreamForFileType delegate

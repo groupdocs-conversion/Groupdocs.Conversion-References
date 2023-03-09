@@ -3,7 +3,7 @@ title: IPdfRecognitionModeOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Représente les options de conversion qui contrôlent le mode de reconnaissance lors de la conversion à partir de PDF
 type: docs
-weight: 1450
+weight: 1610
 url: /fr/net/groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/
 ---
 ## IPdfRecognitionModeOptions interface

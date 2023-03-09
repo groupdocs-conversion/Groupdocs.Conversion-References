@@ -3,7 +3,7 @@ title: Md
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers texte créés avec les dialectes du langage Markdown sont enregistrés avec lextension de fichier .MD ou .MARKDOWN. Les fichiers MD sont enregistrés au format texte brut qui utilise le langage Markdown qui comprend également des symboles de texte en ligne définissant la manière dont un texte peut être formaté comme les indentations le formatage des tableaux les polices et les entêtes. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field

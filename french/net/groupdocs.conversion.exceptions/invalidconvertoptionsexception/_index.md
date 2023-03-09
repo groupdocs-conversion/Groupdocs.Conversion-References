@@ -3,7 +3,7 @@ title: InvalidConvertOptionsException
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Levé si les options de conversion fournies ne sont pas valides
 type: docs
-weight: 750
+weight: 810
 url: /fr/net/groupdocs.conversion.exceptions/invalidconvertoptionsexception/
 ---
 ## InvalidConvertOptionsException class

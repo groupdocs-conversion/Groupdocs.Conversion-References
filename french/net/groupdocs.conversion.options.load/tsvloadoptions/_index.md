@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents Tsv.
 type: docs
-weight: 2030
+weight: 2280
 url: /fr/net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -35,6 +35,7 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | Si OnePagePerSheet est vrai, le contenu de la feuille sera converti en une page dans le document PDF. La valeur par défaut est true. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | Si True et conversion en PDF, la conversion est optimisée pour une meilleure taille de fichier que la qualité d'impression. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Définir le mot de passe pour déprotéger le document protégé. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Liste des index de feuille à convertir. Les index doivent être de base zéro |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Nom de la feuille à convertir |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Afficher les lignes de grille lors de la conversion de fichiers Excel. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Afficher les feuilles masquées lors de la conversion de fichiers Excel. |

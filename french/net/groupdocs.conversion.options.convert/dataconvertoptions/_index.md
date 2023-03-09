@@ -3,7 +3,7 @@ title: DataConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion en type de fichier de données.
 type: docs
-weight: 1350
+weight: 1480
 url: /fr/net/groupdocs.conversion.options.convert/dataconvertoptions/
 ---
 ## DataConvertOptions class
@@ -11,14 +11,9 @@ url: /fr/net/groupdocs.conversion.options.convert/dataconvertoptions/
 Options de conversion en type de fichier de données.
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
 public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOptions
 ```
-
-## Constructeurs
-
-| Nom | La description |
-| --- | --- |
-| [DataConvertOptions](dataconvertoptions)() | Initialise la nouvelle instance de[`DataConvertOptions`](../dataconvertoptions) classe. |
 
 ## Propriétés
 
@@ -26,8 +21,6 @@ public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOpt
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Le type de fichier souhaité vers lequel le document d'entrée doit être converti. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Le type de fichier souhaité vers lequel le document d'entrée doit être converti. |
-| [PageNumber](../../groupdocs.conversion.options.convert/dataconvertoptions/pagenumber) { get; set; } | Le numéro de page à partir duquel commencer la conversion. |
-| [PagesCount](../../groupdocs.conversion.options.convert/dataconvertoptions/pagescount) { get; set; } | Nombre de pages à convertir à partir de`Numéro de page` . |
 
 ## Méthodes
 

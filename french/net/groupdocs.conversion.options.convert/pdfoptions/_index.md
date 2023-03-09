@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion vers le type de fichier Pdf.
 type: docs
-weight: 1610
+weight: 1790
 url: /fr/net/groupdocs.conversion.options.convert/pdfoptions/
 ---
 ## PdfOptions class
@@ -24,6 +24,7 @@ public sealed class PdfOptions : ValueObject
 
 | Nom | La description |
 | --- | --- |
+| [DocumentInfo](../../groupdocs.conversion.options.convert/pdfoptions/documentinfo) { get; set; } | Méta-informations du document PDF. |
 | [FormattingOptions](../../groupdocs.conversion.options.convert/pdfoptions/formattingoptions) { get; set; } | Options de formatage PDF |
 | [Grayscale](../../groupdocs.conversion.options.convert/pdfoptions/grayscale) { get; set; } | Convertir un PDF de l'espace colorimétrique RVB en niveaux de gris |
 | [Linearize](../../groupdocs.conversion.options.convert/pdfoptions/linearize) { get; set; } | Linéarise le document PDF pour le Web |
