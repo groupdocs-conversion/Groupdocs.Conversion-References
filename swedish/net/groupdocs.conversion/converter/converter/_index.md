@@ -140,7 +140,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | document | Func`1 | Metoden som returnerar läsbar ström. |
-| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. |
+| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. Typen av källfil |
 
 ### Anmärkningar
 
@@ -171,7 +171,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | document | Func`1 | Metoden som returnerar läsbar ström. |
-| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. |
+| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. Typen av källfil |
 | settings | Func`1 | Konverterinställningarna. |
 
 ### Anmärkningar
@@ -319,7 +319,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | filePath | String | Filsökvägen till källdokumentet. |
-| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. |
+| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. Typen av källfil |
 
 ### Anmärkningar
 
@@ -350,7 +350,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | filePath | String | Filsökvägen till källdokumentet. |
-| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. |
+| loadOptions | Func`2 | Metoderna som returnerar alternativ för dokumentladdning. Typen av källfil |
 | settings | Func`1 | Konverterinställningarna. |
 
 ### Anmärkningar

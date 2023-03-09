@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar CADdokument Computer Aided Design som används för 3Dgrafikfilformat och kan innehålla 2D eller 3Ddesign. Innehåller följande typer Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . Läs mer om CADformathärhttps//wiki.fileformat.com/cad .
+description: Definierar CADdokument Computer Aided Design som används för 3Dgrafikfilformat och kan innehålla 2D eller 3Ddesign. Innehåller följande typer Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . Läs mer om CADformathärhttps//wiki.fileformat.com/cad .
 type: docs
-weight: 800
+weight: 860
 url: /sv/net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-Definierar CAD-dokument (Computer Aided Design) som används för 3D-grafikfilformat och kan innehålla 2D- eller 3D-design. Innehåller följande typer: [`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . Läs mer om CAD-format[här](https://wiki.fileformat.com/cad) .
+Definierar CAD-dokument (Computer Aided Design) som används för 3D-grafikfilformat och kan innehålla 2D- eller 3D-design. Innehåller följande typer: [`Cf2`](./cf2)[`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwfx`](./dwfx)[`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . Läs mer om CAD-format[här](https://wiki.fileformat.com/cad) .
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -34,7 +34,7 @@ public sealed class CadFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

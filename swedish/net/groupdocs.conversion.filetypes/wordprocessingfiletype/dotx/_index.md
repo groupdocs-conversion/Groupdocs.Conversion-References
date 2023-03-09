@@ -3,7 +3,7 @@ title: Dotx
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med DOTXtillägg är mallfiler skapade av Microsoft Word för att ha förformaterade inställningar för generering av ytterligare DOCXfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 80
+weight: 70
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

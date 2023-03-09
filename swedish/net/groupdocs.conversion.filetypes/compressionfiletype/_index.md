@@ -3,7 +3,7 @@ title: CompressionFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar komprimeringsformat. Inkluderar följande filtyper Zip./compressionfiletype/zip . Rar./compressionfiletype/rar . SevenZ./compressionfiletype/sevenz . Tar./compressionfiletype/tar . Gz./compressionfiletype/gz . Gzip./compressionfiletype/gzip . Bz2./compressionfiletype/bz2 . Läs mer om komprimeringsformathärhttps//docs.fileformat.com/compression/ .
 type: docs
-weight: 810
+weight: 870
 url: /sv/net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
@@ -34,7 +34,7 @@ public sealed class CompressionFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

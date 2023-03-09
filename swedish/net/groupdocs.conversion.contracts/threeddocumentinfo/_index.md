@@ -3,7 +3,7 @@ title: ThreeDDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller 3Ddokumentmetadata
 type: docs
-weight: 540
+weight: 580
 url: /sv/net/groupdocs.conversion.contracts/threeddocumentinfo/
 ---
 ## ThreeDDocumentInfo class

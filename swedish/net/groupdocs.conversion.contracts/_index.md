@@ -30,10 +30,12 @@ Namnutrymmet ger medlemmarna möjlighet att instansiera och släppa utdatadokume
 | [Enumeration](./enumeration) | Generisk uppräkningsklass. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Innehåller Ps-dokumentmetadata |
 | [EpubDocumentInfo](./epubdocumentinfo) | Innehåller Epub-dokumentmetadata |
+| [FontDocumentInfo](./fontdocumentinfo) | Innehåller teckensnittsdokumentmetadata |
 | [FontSubstitute](./fontsubstitute) | Beskriver ersättning för saknat teckensnitt. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Innehåller Gzip-dokumentmetadata |
 | [IcoDocumentInfo](./icodocumentinfo) | Innehåller Ico-dokumentmetadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Innehåller bilddokumentmetadata |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Innehåller iXbrl-dokumentmetadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Innehåller Json-dokumentmetadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Innehåller Lzip-dokumentmetadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Innehåller Lzma-dokumentmetadata |
@@ -43,11 +45,13 @@ Namnutrymmet ger medlemmarna möjlighet att instansiera och släppa utdatadokume
 | [PclDocumentInfo](./pcldocumentinfo) | Innehåller Pcl-dokumentmetadata |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Innehåller PDF-dokumentmetadata |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Innehåller personlig lagringsdokumentmetadata |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Personlig lagringsmapp info |
 | [PossibleConversions](./possibleconversions) | Representerar en mappning av vilka konverteringspar som stöds för specifikt källfil format |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Innehåller presentationsdokumentets metadata |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Innehåller ProjectManagement-dokumentmetadata |
 | [PsdDocumentInfo](./psddocumentinfo) | Innehåller Psd-dokumentmetadata |
 | [PsDocumentInfo](./psdocumentinfo) | Innehåller Ps-dokumentmetadata |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Innehåller metadata för utgivarens dokument |
 | [RarDocumentInfo](./rardocumentinfo) | Innehåller Rar-dokumentmetadata |
 | [SaveDocumentStream](./savedocumentstream) | Beskriver ombud för att spara konverterat dokument i ström. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Beskriver ombud för att spara konverterat dokument i ström. |
@@ -66,7 +70,9 @@ Namnutrymmet ger medlemmarna möjlighet att instansiera och släppa utdatadokume
 | [ValueObject](./valueobject) | Abstrakt värde objektklass. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Innehåller Vcf-dokumentmetadata |
 | [VideoDocumentInfo](./videodocumentinfo) | Innehåller videodokumentmetadata |
+| [WebDocumentInfo](./webdocumentinfo) | Innehåller markup-dokumentmetadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Innehåller WordProcessing-dokumentmetadata |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Innehåller Xbrl-dokumentmetadata |
 | [XmlDocumentInfo](./xmldocumentinfo) | Innehåller XML-dokumentmetadata |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Innehåller Xps-dokumentmetadata |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Innehåller XslFo-dokumentmetadata |

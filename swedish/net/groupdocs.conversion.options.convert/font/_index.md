@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Teckensnittsinställningar
 type: docs
-weight: 1380
+weight: 1530
 url: /sv/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class

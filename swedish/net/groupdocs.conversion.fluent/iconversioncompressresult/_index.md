@@ -3,7 +3,7 @@ title: IConversionCompressResult
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Kan komprimera alla konverteringsresultat i ett enda arkiv
 type: docs
-weight: 1010
+weight: 1140
 url: /sv/net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface

@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filtyp basklass
 type: docs
-weight: 850
+weight: 930
 url: /sv/net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class
@@ -37,7 +37,7 @@ public class FileType : Enumeration
 | static [FromFilename](../../groupdocs.conversion.filetypes/filetype/fromfilename)(string) | Returnerar filtyp för angivet filnamn |
 | static [FromStream](../../groupdocs.conversion.filetypes/filetype/fromstream)(Stream) | Returnerar filtyp för tillhandahållen dokumentström |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals#equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

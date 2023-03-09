@@ -3,7 +3,7 @@ title: Txt
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En fil med filtillägget .TXT representerar ett textdokument som innehåller vanlig text i form av rader. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field

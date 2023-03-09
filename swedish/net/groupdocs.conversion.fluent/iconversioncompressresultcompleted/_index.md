@@ -3,7 +3,7 @@ title: IConversionCompressResultCompleted
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Handtagskomprimering slutförd
 type: docs
-weight: 1020
+weight: 1150
 url: /sv/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | namn | Beskrivning |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | Ta emot komprimerad dokumentström. Aktiveras endast om Compression (CompressionConvertOptions options)" är inställt. |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | Ta emot komprimerad dokumentström. Aktiveras endast om Compression (CompressionConvertOptions options)" är inställt. |
 
 ### Se även
 

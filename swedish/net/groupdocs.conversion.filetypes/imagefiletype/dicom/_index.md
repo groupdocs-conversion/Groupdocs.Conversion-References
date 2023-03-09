@@ -3,7 +3,7 @@ title: Dicom
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med filtillägget .DICOM representerar digitala bilder som lagrar medicinsk information om patienter såsom MRI datortomografi och ultraljudsbilder. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field

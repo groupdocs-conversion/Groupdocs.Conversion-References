@@ -3,7 +3,7 @@ title: PasswordProtectedDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Förutsatt att dokumentet är lösenordsskyddat
 type: docs
-weight: 330
+weight: 350
 url: /sv/net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/
 ---
 ## PasswordProtectedDocumentInfo class

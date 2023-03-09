@@ -3,7 +3,7 @@ title: VideoFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar videodokument Inkluderar följande typer Mp4./videofiletype/mp4  Avi./videofiletype/avi  Flv./videofiletype/flv  Mkv./videofiletype/mkv  Mov./videofiletype/mov  Webm./videofiletype/webm  Wmv./videofiletype/wmv  Läs mer om videoformathärhttps//docs.fileformat.com/video/ .
 type: docs
-weight: 950
+weight: 1070
 url: /sv/net/groupdocs.conversion.filetypes/videofiletype/
 ---
 ## VideoFileType class
@@ -34,7 +34,7 @@ public sealed class VideoFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

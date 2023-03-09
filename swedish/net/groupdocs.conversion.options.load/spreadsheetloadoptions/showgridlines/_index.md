@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Visa rutnätslinjer vid konvertering av Excelfiler.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

@@ -3,7 +3,7 @@ title: SpreadsheetFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar kalkylarksdokument. Inkluderar följande filtyper Csv./spreadsheetfiletype/csv  Fods./spreadsheetfiletype/fods  Ods./spreadsheetfiletype/ods  Ots./spreadsheetfiletype/ots  Tsv./spreadsheetfiletype/tsv  Xlam./spreadsheetfiletype/xlam  Xls./spreadsheetfiletype/xls  Xlsb./spreadsheetfiletype/xlsb  Xlsm./spreadsheetfiletype/xlsm  Xlsx./spreadsheetfiletype/xlsx  Xlt./spreadsheetfiletype/xlt  Xltm./spreadsheetfiletype/xltm  Xltx./spreadsheetfiletype/xltx . Läs mer om kalkylarksformathärhttps//wiki.fileformat.com/spreadsheet .
 type: docs
-weight: 930
+weight: 1050
 url: /sv/net/groupdocs.conversion.filetypes/spreadsheetfiletype/
 ---
 ## SpreadsheetFileType class
@@ -34,7 +34,7 @@ public sealed class SpreadsheetFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
@@ -45,13 +45,13 @@ public sealed class SpreadsheetFileType : FileType
 | --- | --- |
 | static readonly [Csv](../../groupdocs.conversion.filetypes/spreadsheetfiletype/csv) | Filer med tillägget CSV (Comma Separated Values) representerar vanliga textfiler som innehåller dataposter med kommaseparerade värden. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/csv) . |
 | static readonly [Dif](../../groupdocs.conversion.filetypes/spreadsheetfiletype/dif) | DIF står för Data Interchange Format som används för att importera/exportera kalkylbladsdata mellan olika applikationer. Dessa inkluderar Microsoft Excel, OpenOffice Calc, StarCalc och många andra. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/dif) . |
-| static readonly [Fods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/fods) | OpenDocument Flat XML Spreadsheet |
+| static readonly [Fods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/fods) | En fil med filtillägget .fods är en typ av OpenDocument Spreadsheet-dokumentformat som lagrar data i rader och kolumner. Formatet anges som en del av ODF 1.2-specifikationerna publicerade och underhållna av OASIS. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/fods) . |
 | static readonly [Numbers](../../groupdocs.conversion.filetypes/spreadsheetfiletype/numbers) | Filerna med tillägget .numbers klassificeras som kalkylbladsfiltyp, det är därför de liknar .xlsx-filerna; men Numbers-filerna skapas med hjälp av Apple iWork Numbers-kalkylprogram. Läs mer om det här filformatet[här](https://docs.fileformat.com/spreadsheet/numbers) . |
 | static readonly [Ods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ods) | Filer med ODS-tillägg står för OpenDocument Spreadsheet Document-format som kan redigeras av användaren. Data lagras i ODF-filen i rader och kolumner. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/ods) . |
-| static readonly [Ots](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ots) | OpenDocument Spreadsheet Template |
-| static readonly [Sxc](../../groupdocs.conversion.filetypes/spreadsheetfiletype/sxc) | Ett XML-baserat format som används av OpenOffice och StarOffice |
+| static readonly [Ots](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ots) | En fil med filtillägget .ots är en OpenDocument Spreadsheet Template-fil som skapas med Calc-programvaran som ingår i Apache OpenOffice. Calc-programvaran liknar Excel som finns i Microsoft Office. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/ots) . |
+| static readonly [Sxc](../../groupdocs.conversion.filetypes/spreadsheetfiletype/sxc) | Filformatet SXC(Sun XML Calc) tillhör en kontorssvit som heter OpenOffice.org. Detta format hanterar i allmänhet användarnas kalkylbladsbehov eftersom det är ett XML-baserat kalkylarksfilformat. SXC-format stöder formler, funktioner, makron och diagram tillsammans med DataPilot. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/sxc) . |
 | static readonly [Tsv](../../groupdocs.conversion.filetypes/spreadsheetfiletype/tsv) | Filformatet Tab-Separated Values (TSV) representerar data separerade med flikar i vanligt textformat. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/tsv) . |
-| static readonly [Xlam](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlam) | Xlam-dokumentformat |
+| static readonly [Xlam](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlam) | XLAM är en makroaktiverad tilläggsfil som används för att lägga till nya funktioner i kalkylblad. Ett tillägg är ett tilläggsprogram som kör ytterligare kod och ger ytterligare funktionalitet för kalkylblad. Läs mer om detta filformat[här](https://docs.fileformat.com/spreadsheet/xlam/) . |
 | static readonly [Xls](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xls) | XLS representerar det binära filformatet i Excel. Sådana filer kan skapas av Microsoft Excel såväl som andra liknande kalkylprogram som OpenOffice Calc eller Apple Numbers. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/xls) . |
 | static readonly [Xlsb](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlsb) | XLSB-filformatet anger det binära filformatet för Excel, som är en samling poster och strukturer som anger innehållet i Excel-arbetsboken. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/xlsb) . |
 | static readonly [Xlsm](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm) | XLSM är en typ av kalkylbladsfiler som stöder makron. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/xlsm) . |

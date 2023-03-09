@@ -3,7 +3,7 @@ title: AudioFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar ljuddokument Innehåller följande typer Mp3./audiofiletype/mp3  Aac./audiofiletype/aac  Aiff./audiofiletype/aiff  Flac./audiofiletype/flac  M4a./audiofiletype/m4a  Wma./audiofiletype/wma  Ac3./audiofiletype/ac3  Ogg./audiofiletype/ogg  Wav./audiofiletype/wav  Lär dig mer om ljudformathärhttps//docs.fileformat.com/audio/ .
 type: docs
-weight: 790
+weight: 850
 url: /sv/net/groupdocs.conversion.filetypes/audiofiletype/
 ---
 ## AudioFileType class
@@ -34,7 +34,7 @@ public sealed class AudioFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

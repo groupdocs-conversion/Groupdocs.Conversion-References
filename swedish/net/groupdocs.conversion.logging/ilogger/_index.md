@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar metoderna som används för att utföra loggning.
 type: docs
-weight: 1270
+weight: 1400
 url: /sv/net/groupdocs.conversion.logging/ilogger/
 ---
 ## ILogger interface

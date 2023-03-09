@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Kastas om teckensnittsersättning är olagligt
 type: docs
-weight: 720
+weight: 780
 url: /sv/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

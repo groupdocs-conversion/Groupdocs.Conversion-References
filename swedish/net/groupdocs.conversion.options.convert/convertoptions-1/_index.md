@@ -3,7 +3,7 @@ title: ConvertOptionsTFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Abstrakt generisk konverteringsalternativklass.
 type: docs
-weight: 1340
+weight: 1470
 url: /sv/net/groupdocs.conversion.options.convert/convertoptions-1/
 ---
 ## ConvertOptions&lt;TFileType&gt; class

@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till bildfiltyp.
 type: docs
-weight: 1470
+weight: 1630
 url: /sv/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -41,7 +41,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd-specifika konverteringsalternativ. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Bildrotationsvinkel. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff-specifika konverteringsalternativ. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Om`Sann` indata konverteras först till PDF och därefter till önskat format. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Om`Sann` , indata konverteras först till PDF och därefter till önskat format. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Önskad vertikal bildupplösning efter konvertering. Standardupplösningen är indatafilens upplösning eller 96 dpi. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Vattenstämpelspecifika alternativ |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp-specifika konverteringsalternativ. |

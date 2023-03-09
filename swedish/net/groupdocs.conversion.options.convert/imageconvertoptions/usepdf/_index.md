@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: GroupDocs.Conversion for .NET API Referens
-description: OmSann indata konverteras först till PDF och därefter till önskat format.
+description: OmSann  indata konverteras först till PDF och därefter till önskat format.
 type: docs
 weight: 140
 url: /sv/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-Om`Sann` indata konverteras först till PDF och därefter till önskat format.
+Om`Sann` , indata konverteras först till PDF och därefter till önskat format.
 
 ```csharp
 public bool UsePdf { get; set; }

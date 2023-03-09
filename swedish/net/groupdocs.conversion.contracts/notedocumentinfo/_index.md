@@ -3,7 +3,7 @@ title: NoteDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller anteckningsdokumentets metadata
 type: docs
-weight: 320
+weight: 340
 url: /sv/net/groupdocs.conversion.contracts/notedocumentinfo/
 ---
 ## NoteDocumentInfo class

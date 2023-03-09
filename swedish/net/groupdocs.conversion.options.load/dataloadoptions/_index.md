@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda datadokument.
 type: docs
-weight: 1870
+weight: 2060
 url: /sv/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /sv/net/groupdocs.conversion.options.load/dataloadoptions/
 Alternativ för att ladda datadokument.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Initierar ny instans av[`DataLoadOptions`](../dataloadoptions) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Bassökvägen/url för html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Hämta eller ställer in kodningen som ska användas när uppmärkningsdokumentet laddas. Om egenskapen är null kommer kodningen att bestämmas från dokumentets teckenuppsättning attribut |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Inmatningsdokumentfiltyp. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Aktivera eller inaktivera generering av sidnumrering i konverterade dokument. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout för laddning av externa resurser |
 
 ## Metoder
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Se även
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * namnutrymme [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * hopsättning [GroupDocs.Conversion](../../)
 

@@ -3,7 +3,7 @@ title: Rtf
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Introducerat och dokumenterat av Microsoft Rich Text Format RTF representerar en metod för att koda formaterad text och grafik för användning i applikationer. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
-weight: 140
+weight: 110
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/rtf/
 ---
 ## WordProcessingFileType.Rtf field

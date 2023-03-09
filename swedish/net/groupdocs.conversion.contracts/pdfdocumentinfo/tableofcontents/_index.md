@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents/
 Innehållsförteckning
 
 ```csharp
-public IEnumerable<TableOfContentsItem> TableOfContents { get; }
+public IList<TableOfContentsItem> TableOfContents { get; }
 ```
 
 ### Se även

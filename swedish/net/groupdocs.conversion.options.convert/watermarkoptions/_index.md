@@ -3,7 +3,7 @@ title: WatermarkOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ställa in vattenstämpel till det konverterade dokumentet
 type: docs
-weight: 1780
+weight: 1960
 url: /sv/net/groupdocs.conversion.options.convert/watermarkoptions/
 ---
 ## WatermarkOptions class

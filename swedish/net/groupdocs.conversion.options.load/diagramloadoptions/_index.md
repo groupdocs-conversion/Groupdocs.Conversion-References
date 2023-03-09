@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda diagramdokument.
 type: docs
-weight: 1880
+weight: 2080
 url: /sv/net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class

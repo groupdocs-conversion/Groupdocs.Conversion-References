@@ -3,7 +3,7 @@ title: InvalidConverterSettingsException
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Kastas om de angivna omvandlingsinställningarna är ogiltiga
 type: docs
-weight: 760
+weight: 820
 url: /sv/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class

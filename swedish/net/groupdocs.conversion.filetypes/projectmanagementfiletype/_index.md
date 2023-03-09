@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar projektfilformat som skapas av projektledningsprogram som Microsoft Project Primavera P6 etc. En projektfil är en samling av uppgifter resurser och deras schemaläggning för att få en mätbar utdata i form av en produkt eller en tjänst. Projektledningsdokument. Inkluderar följande filtyper Mpp./projectmanagementfiletype/mpp  Mpt./projectmanagementfiletype/mpt  Mpx./projectmanagementfiletype/mpx . Läs mer om projektledningsformathärhttps//wiki.fileformat.com/projectmanagement .
 type: docs
-weight: 920
+weight: 1030
 url: /sv/net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class
@@ -34,7 +34,7 @@ public sealed class ProjectManagementFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

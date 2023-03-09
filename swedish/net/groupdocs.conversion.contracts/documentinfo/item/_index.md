@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/documentinfo/item/
 Få värde för en egenskap som tillhandahålls som en nyckel
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 ### Se även

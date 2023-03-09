@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar möjliga lägen för färgläggning av objekt.
 type: docs
-weight: 1830
+weight: 2020
 url: /sv/net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class

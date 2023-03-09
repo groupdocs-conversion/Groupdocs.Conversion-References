@@ -3,7 +3,7 @@ title: IPagedConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar konverteringsalternativ som tillåter konvertering att utföra sidbegränsning genom att ange startsida och antal sidor
 type: docs
-weight: 1440
+weight: 1600
 url: /sv/net/groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 ## IPagedConvertOptions interface

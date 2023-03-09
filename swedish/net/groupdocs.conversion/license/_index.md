@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Tillhandahåller metoder för att licensiera komponenten. Läs mer om licensieringhärhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 1250
+weight: 1380
 url: /sv/net/groupdocs.conversion/license/
 ---
 ## License class
@@ -31,7 +31,7 @@ public sealed class License
 
 **Läs mer**
 
-* Mer om licensiering: [Vanliga frågor om GroupDocs-licensering](https://purchase.groupdocs.com/faqs/licensing)
+* Mer om licensiering: [Vanliga frågor om GroupDocs-licensiering](https://purchase.groupdocs.com/faqs/licensing)
 * Mer om GroupDocs.Conversion licensing: [Utvärderingsbegränsningar och licensiering](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)
 
 ### Se även

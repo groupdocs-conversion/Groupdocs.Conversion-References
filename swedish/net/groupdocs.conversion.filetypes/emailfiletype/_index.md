@@ -1,14 +1,14 @@
 ---
 title: EmailFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar epostfilformat som används av epostprogram för att lagra deras olika data inklusive epostmeddelanden bilagor mappar adressböcker etc. Innehåller följande filtyper Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf . Mbox./emailfiletype/mbox . Läs mer om epostformathärhttps//wiki.fileformat.com/email .
+description: Definierar epostfilformat som används av epostprogram för att lagra deras olika data inklusive epostmeddelanden bilagor mappar adressböcker etc. Innehåller följande filtyper Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf . Mbox./emailfiletype/mbox . Pst./emailfiletype/pst . Ost./emailfiletype/ost . Läs mer om epostformathärhttps//wiki.fileformat.com/email .
 type: docs
-weight: 840
+weight: 920
 url: /sv/net/groupdocs.conversion.filetypes/emailfiletype/
 ---
 ## EmailFileType class
 
-Definierar e-postfilformat som används av e-postprogram för att lagra deras olika data inklusive e-postmeddelanden, bilagor, mappar, adressböcker etc. Innehåller följande filtyper: [`Eml`](./eml) , [`Emlx`](./emlx) , [`Msg`](./msg) , [`Vcf`](./vcf) . [`Mbox`](./mbox) . Läs mer om e-postformat[här](https://wiki.fileformat.com/email) .
+Definierar e-postfilformat som används av e-postprogram för att lagra deras olika data inklusive e-postmeddelanden, bilagor, mappar, adressböcker etc. Innehåller följande filtyper: [`Eml`](./eml) , [`Emlx`](./emlx) , [`Msg`](./msg) , [`Vcf`](./vcf) . [`Mbox`](./mbox) . [`Pst`](./pst) . [`Ost`](./ost) . Läs mer om e-postformat[här](https://wiki.fileformat.com/email) .
 
 ```csharp
 public sealed class EmailFileType : FileType
@@ -34,7 +34,7 @@ public sealed class EmailFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
@@ -47,6 +47,8 @@ public sealed class EmailFileType : FileType
 | static readonly [Emlx](../../groupdocs.conversion.filetypes/emailfiletype/emlx) | EMLX-filformatet är implementerat och utvecklat av Apple. Apple Mail-applikationen använder filformatet EMLX för att exportera e-postmeddelanden. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/emlx) . |
 | static readonly [Mbox](../../groupdocs.conversion.filetypes/emailfiletype/mbox) | MBox-filformat är en generisk term som representerar en behållare för insamling av e-postmeddelanden. Meddelanden lagras i behållaren tillsammans med deras bilagor. Läs mer om detta filformat[här](https://docs.fileformat.com/email/mbox/) . |
 | static readonly [Msg](../../groupdocs.conversion.filetypes/emailfiletype/msg) | MSG är ett filformat som används av Microsoft Outlook och Exchange för att lagra e-postmeddelanden, kontakter, möten eller andra uppgifter. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/msg) . |
+| static readonly [Ost](../../groupdocs.conversion.filetypes/emailfiletype/ost) | OST eller offlinelagringsfiler representerar användarens postlådedata i offlineläge på lokal dator vid registrering med Exchange Server med Microsoft Outlook. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/ost) . |
+| static readonly [Pst](../../groupdocs.conversion.filetypes/emailfiletype/pst) | Filer med tillägget .PST representerar Outlook Personal Storage Files (även kallade Personal Storage Table) som lagrar olika användarinformation. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/pst) . |
 | static readonly [Vcf](../../groupdocs.conversion.filetypes/emailfiletype/vcf) | VCF (Virtual Card Format) eller vCard är ett digitalt filformat för att lagra kontaktinformation. Formatet används ofta för datautbyte bland populära program för informationsutbyte. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/vcf) . |
 
 ### Se även

@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver bildvändningslägen.
 type: docs
-weight: 1480
+weight: 1640
 url: /sv/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class

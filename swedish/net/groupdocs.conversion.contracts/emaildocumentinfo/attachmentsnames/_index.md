@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 Hämtar bilagor names
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### Se även

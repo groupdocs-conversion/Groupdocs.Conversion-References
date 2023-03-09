@@ -3,7 +3,7 @@ title: DiagramConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till diagramfiltyp.
 type: docs
-weight: 1360
+weight: 1490
 url: /sv/net/groupdocs.conversion.options.convert/diagramconvertoptions/
 ---
 ## DiagramConvertOptions class

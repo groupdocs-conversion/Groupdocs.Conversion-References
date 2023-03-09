@@ -3,7 +3,7 @@ title: Emf
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Enhanced metafile format EMF lagrar grafiska bilder enhetsoberoende. Metafiler av EMF består av poster med variabel längd i kronologisk ordning som kan återge den lagrade bilden efter analys på valfri utenhet. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field

@@ -6,17 +6,17 @@ type: docs
 weight: 20
 url: /sv/net/groupdocs.conversion/converter/convert/
 ---
-## Convert(SaveDocumentStream, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, ConvertOptions) {#convert}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStream | Ombudet som sparar konverterat dokument till en ström. |
+| document | Func`1 | Ombudet som sparar konverterat dokument till en ström. |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -28,7 +28,6 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ### Se även
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -36,19 +35,19 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStream | Ombudet som sparar konverterat dokument till en ström. |
-| documentCompleted | ConvertedDocumentStream | Delegaten som tar emot konverterad dokumentström. |
+| document | Func`1 | Ombudet som sparar konverterat dokument till en ström. |
+| documentCompleted | Action`2 | Delegaten som tar emot konverterad dokumentström. FilinnehållsströmmenNamnet på filen |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -60,8 +59,6 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ### Se även
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -69,18 +66,19 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ---
 
-## Convert(SaveDocumentStream, ConvertOptionsProvider) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStream | Ombudet som sparar konverterat dokument till en ström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`1 | Ombudet som sparar konverterat dokument till en ström. |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -91,28 +89,28 @@ public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertO
 
 ### Se även
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) {#convert}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStream | Ombudet som sparar konverterat dokument till en ström. |
-| documentCompleted | ConvertedDocumentStream | Delegaten som tar emot konverterad dokumentström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`1 | Ombudet som sparar konverterat dokument till en ström. |
+| documentCompleted | Action`2 | Delegaten som tar emot konverterad dokumentström. FilinnehållsströmmenNamnet på filen |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -123,26 +121,25 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ### Se även
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptions) {#convert_7}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, ConvertOptions convertOptions)
+public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Typen av källfil |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -154,7 +151,7 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ### Se även
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -162,19 +159,19 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) {#convert_5}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
-| documentCompleted | ConvertedDocumentStream | Delegaten som tar emot konverterad dokumentström. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Typen av källfil |
+| documentCompleted | Action`2 | Delegaten som tar emot konverterad dokumentström. FilinnehållsströmmenNamnet på filen |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -186,8 +183,7 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### Se även
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -195,19 +191,19 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptionsProvider) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Typen av källfil |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -218,28 +214,28 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### Se även
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
 
 Konverterar källdokument. Sparar hela det konverterade dokumentet.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
-| documentCompleted | ConvertedDocumentStream | Delegaten som tar emot konverterad dokumentström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Typen av källfil |
+| documentCompleted | Action`2 | Delegaten som tar emot konverterad dokumentström. FilinnehållsströmmenNamnet på filen |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -250,9 +246,8 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### Se även
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
@@ -288,17 +283,17 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertOptions) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStream | Ombudet som sparar konverterat dokument till en ström. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Sidonummer |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -310,7 +305,6 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ### Se även
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -318,19 +312,19 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStream | Ombudet som sparar den konverterade dokumentsidan till en ström. |
-| documentCompleted | ConvertedPageStream | Delegaten som tar emot konverterad dokumentsidaström. |
+| document | Func`2 | Ombudet som sparar den konverterade dokumentsidan till en ström. Sidonummer |
+| documentCompleted | Action`3 | Delegaten som tar emot konverterad dokumentsidaström. SidonummerFilinnehållsströmmenNamnet på filen |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -342,8 +336,6 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ### Se även
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -351,18 +343,19 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ---
 
-## Convert(SavePageStream, ConvertOptionsProvider) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStream | Ombudet som sparar konverterat dokument till en ström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`2 | Ombudet som sparar konverterat dokument till en ström. Sidonummer |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -373,28 +366,28 @@ public void Convert(SavePageStream document, ConvertOptionsProvider convertOptio
 
 ### Se även
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) {#convert_8}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStream | Ombudet som sparar den konverterade dokumentsidan till en ström. |
-| documentCompleted | ConvertedPageStream | Delegaten som tar emot konverterad dokumentsidaström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`2 | Ombudet som sparar den konverterade dokumentsidan till en ström. Sidonummer |
+| documentCompleted | Action`3 | Delegaten som tar emot konverterad dokumentsidaström. SidonummerFilinnehållsströmmenNamnet på filen |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -405,26 +398,25 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ### Se även
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptions) {#convert_15}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertOptions convertOptions)
+public void Convert(Func<int, FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
+| document | Func`3 | Ombudet som sparar konverterat dokument till en ström. Sidonummer |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -436,7 +428,7 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ### Se även
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -444,19 +436,19 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Ombudet som sparar den konverterade dokumentsidan till en ström. |
-| documentCompleted | ConvertedPageStream | Delegaten som tar emot konverterad dokumentsidaström. |
+| document | Func`3 | Ombudet som sparar den konverterade dokumentsidan till en ström. SidonummerFiltyp |
+| documentCompleted | Action`3 | Delegaten som tar emot konverterad dokumentsidaström. SidonummerFilinnehållsströmmenNamnet på filen |
 | convertOptions | ConvertOptions | Konverteringsalternativen specifika för önskad målfiltyp. |
 
 ### Anmärkningar
@@ -468,8 +460,7 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ### Se även
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
@@ -477,19 +468,19 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptionsProvider) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Ombudet som sparar konverterat dokument till en ström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`3 | Ombudet som sparar konverterat dokument till en ström. SidonummerFiltyp |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -500,28 +491,29 @@ public void Convert(SavePageStreamForFileType document,
 
 ### Se även
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
 
 Konverterar källdokument. Sparar det konverterade dokumentet sida för sida.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Ombudet som sparar den konverterade dokumentsidan till en ström. |
-| documentCompleted | ConvertedPageStream | Delegaten som tar emot konverterad dokumentsidaström. |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att ge specifika konverteringsalternativ till önskad måldokumenttyp. |
+| document | Func`3 | Ombudet som sparar den konverterade dokumentsidan till en ström. SidonummerFiltyp |
+| documentCompleted | Action`3 | Delegaten som tar emot konverterad dokumentsidaström. SidonummerFilinnehållsströmmenNamnet på filen |
+| convertOptionsProvider | Func`3 | Konvertera alternativleverantör. Kommer att anropas för varje konvertering för att tillhandahålla specifika konverteringsalternativ till önskad måldokumenttyp. Namnet på filenTypen av fil |
 
 ### Anmärkningar
 
@@ -532,9 +524,8 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ### Se även
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namnutrymme [GroupDocs.Conversion](../../converter)
 * hopsättning [GroupDocs.Conversion](../../../)

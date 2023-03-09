@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Hoppa över tomma rader och kolumner vid konvertering. Standard är True.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

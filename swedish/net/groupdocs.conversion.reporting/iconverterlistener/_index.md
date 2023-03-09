@@ -3,7 +3,7 @@ title: IConverterListener
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar metoderna som används för att utföra omvandlarlyssning.
 type: docs
-weight: 2120
+weight: 2380
 url: /sv/net/groupdocs.conversion.reporting/iconverterlistener/
 ---
 ## IConverterListener interface

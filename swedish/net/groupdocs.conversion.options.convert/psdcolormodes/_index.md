@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar uppräkning av Psdfärglägen.
 type: docs
-weight: 1670
+weight: 1850
 url: /sv/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class

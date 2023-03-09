@@ -3,7 +3,7 @@ title: IDocumentsContainerLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Ladda alternativ för dokument container
 type: docs
-weight: 250
+weight: 260
 url: /sv/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface

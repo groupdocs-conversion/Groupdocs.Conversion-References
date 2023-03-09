@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar konverteringsalternativ som stöder sidmarginaler
 type: docs
-weight: 1400
+weight: 1560
 url: /sv/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

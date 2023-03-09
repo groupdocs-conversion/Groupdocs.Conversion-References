@@ -3,7 +3,7 @@ title: SaveDocumentStream
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver ombud för att spara konverterat dokument i ström.
 type: docs
-weight: 430
+weight: 470
 url: /sv/net/groupdocs.conversion.contracts/savedocumentstream/
 ---
 ## SaveDocumentStream delegate

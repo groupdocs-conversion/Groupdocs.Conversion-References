@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver uppräkning av pdfformat.
 type: docs
-weight: 1580
+weight: 1760
 url: /sv/net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class

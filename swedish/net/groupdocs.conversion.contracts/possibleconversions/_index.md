@@ -3,7 +3,7 @@ title: PossibleConversions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar en mappning av vilka konverteringspar som stöds för specifikt källfil format
 type: docs
-weight: 370
+weight: 400
 url: /sv/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class

@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar personliga lagringsfilformat som används av epostprogram för att lagra deras olika data inklusive epostmeddelanden bilagor mappar adressböcker etc. Innehåller följande filtyper Ost./personalstoragefiletype/ost  Pst./personalstoragefiletype/pst  Läs mer om epostformathärhttps//wiki.fileformat.com/email .
+description: Definierar personliga lagringsfilformat som används av epostprogram för att lagra deras olika data inklusive epostmeddelanden bilagor mappar adressböcker etc. Innehåller följande filtyper Ost  Pst  Läs mer om epostformathärhttps//wiki.fileformat.com/email .
 type: docs
-weight: 900
+weight: 1010
 url: /sv/net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-Definierar personliga lagringsfilformat som används av e-postprogram för att lagra deras olika data inklusive e-postmeddelanden, bilagor, mappar, adressböcker etc. Innehåller följande filtyper: [`Ost`](./ost) , [`Pst`](./pst) , Läs mer om e-postformat[här](https://wiki.fileformat.com/email) .
+Definierar personliga lagringsfilformat som används av e-postprogram för att lagra deras olika data inklusive e-postmeddelanden, bilagor, mappar, adressböcker etc. Innehåller följande filtyper: Ost , Pst , Läs mer om e-postformat[här](https://wiki.fileformat.com/email) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Serialiseringskonstruktor |
 
 ## Egenskaper
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
-
-## Fält
-
-| namn | Beskrivning |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | En fil med filtillägget .nsf (Notes Storage Facility) är ett databasfilformat som används av programvaran IBM Notes, som tidigare var känt som Lotus Notes. Det definierar schemat för att lagra olika typer av objekt såsom e-postmeddelanden, möten, dokument, formulär och vyer. Läs mer om detta filformat[här](https://docs.fileformat.com/database/nsf) . |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST eller offlinelagringsfiler representerar användarens postlådedata i offlineläge på lokal dator vid registrering med Exchange Server med Microsoft Outlook. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/ost) . |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | Filer med tillägget .PST representerar Outlook Personal Storage Files (även kallade Personal Storage Table) som lagrar olika användarinformation. Läs mer om detta filformat[här](https://wiki.fileformat.com/email/pst) . |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: CommonConvertOptionsTFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Abstrakt allmän klass för vanliga konverteringsalternativ.
 type: docs
-weight: 1310
+weight: 1440
 url: /sv/net/groupdocs.conversion.options.convert/commonconvertoptions-1/
 ---
 ## CommonConvertOptions&lt;TFileType&gt; class

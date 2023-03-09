@@ -3,7 +3,7 @@ title: Dib
 second_title: GroupDocs.Conversion for .NET API Referens
 description: DIBfilen Device Independent Bitmap är en rasterbildsfil som har liknande struktur som standardbitmappsfilerna BMP men har en annan rubrik. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dib .
 type: docs
-weight: 80
+weight: 70
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/dib/
 ---
 ## ImageFileType.Dib field

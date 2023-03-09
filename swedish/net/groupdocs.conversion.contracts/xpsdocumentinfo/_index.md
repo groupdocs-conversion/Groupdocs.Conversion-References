@@ -3,7 +3,7 @@ title: XpsDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller Xpsdokumentmetadata
 type: docs
-weight: 620
+weight: 680
 url: /sv/net/groupdocs.conversion.contracts/xpsdocumentinfo/
 ---
 ## XpsDocumentInfo class

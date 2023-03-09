@@ -3,7 +3,7 @@ title: Fodg
 second_title: GroupDocs.Conversion for .NET API Referens
 description: FODG är en okomprimerad fil i XMLformat som används för att lagra OpenDocumenttextdata. FODGtillägget är associerat med kontorsproduktivitetssviterna med öppen källkod Libre Office och OpenOffice.org.
 type: docs
-weight: 150
+weight: 130
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/fodg/
 ---
 ## ImageFileType.Fodg field

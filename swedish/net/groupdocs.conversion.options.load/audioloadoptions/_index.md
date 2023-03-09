@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda ljuddokument.
 type: docs
-weight: 1820
+weight: 2010
 url: /sv/net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class

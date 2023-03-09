@@ -3,7 +3,7 @@ title: EmailField
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver epostfält enumeration
 type: docs
-weight: 1890
+weight: 2100
 url: /sv/net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class

@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda kalkylarksdokument.
 type: docs
-weight: 2010
+weight: 2260
 url: /sv/net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -35,6 +35,7 @@ public class SpreadsheetLoadOptions : LoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | Om OnePagePerSheet är sant kommer innehållet i arket att konverteras till en sida i PDF-dokumentet. Standardvärdet är sant. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | Om True och konverterar till PDF är konverteringen optimerad för bättre filstorlek än utskriftskvalitet. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Ange lösenord för att avskydda skyddat dokument. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Lista över arkindex som ska konverteras. Indexen måste vara nollbaserade |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Bladnamn att konvertera |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Visa rutnätslinjer vid konvertering av Excel-filer. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Visa dolda ark när du konverterar Excel-filer. |

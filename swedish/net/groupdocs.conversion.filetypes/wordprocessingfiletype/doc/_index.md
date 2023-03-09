@@ -3,7 +3,7 @@ title: Doc
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med filtillägget .doc representerar dokument som genererats av Microsoft Word eller andra ordbehandlingsdokument i binärt filformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field

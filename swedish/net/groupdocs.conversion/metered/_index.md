@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Tillhandahåller metoder för tillämpningUppmätthttps//purchase.groupdocs.com/faqs/licensing/metered licens.
+description: Tillhandahåller metoder för tillämpningUppmätthttps//purchase.groupdocs.com/faqs/licensing/meteredlicens.
 type: docs
-weight: 1280
+weight: 1410
 url: /sv/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-Tillhandahåller metoder för tillämpning[Uppmätt](https://purchase.groupdocs.com/faqs/licensing/metered) licens.
+Tillhandahåller metoder för tillämpning[Uppmätt](https://purchase.groupdocs.com/faqs/licensing/metered)licens.
 
 ```csharp
 public class Metered

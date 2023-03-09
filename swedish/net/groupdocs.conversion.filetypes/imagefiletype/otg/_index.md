@@ -3,7 +3,7 @@ title: Otg
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En OTGfil är en ritmall som skapas med OpenDocumentstandarden som följer OASIS Office Applications 1.0specifikationen. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field

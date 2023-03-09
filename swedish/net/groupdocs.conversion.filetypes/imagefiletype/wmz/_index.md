@@ -3,7 +3,7 @@ title: Wmz
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En WMZfil är faktiskt en komprimerad version av en Microsoft WMFfil. Detta möjliggör enklare distribution av filen online. När en EWMFMFfil komprimeras med .GZIPkomprimeringsalgoritmen får den filtillägget .wmz.
 type: docs
-weight: 400
+weight: 370
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

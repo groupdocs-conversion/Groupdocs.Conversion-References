@@ -3,7 +3,7 @@ title: VideoConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till videotyp.
 type: docs
-weight: 1760
+weight: 1940
 url: /sv/net/groupdocs.conversion.options.convert/videoconvertoptions/
 ---
 ## VideoConvertOptions class
@@ -24,6 +24,8 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 
 | namn | Beskrivning |
 | --- | --- |
+| [AudioFormat](../../groupdocs.conversion.options.convert/videoconvertoptions/audioformat) { get; set; } | Vilket ljudformat som ska användas |
+| [ExtractAudioOnly](../../groupdocs.conversion.options.convert/videoconvertoptions/extractaudioonly) { get; set; } | Om satt till true extraherar ljudet från video |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Den önskade filtypen som inmatningsdokumentet ska konverteras till. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Den önskade filtypen som inmatningsdokumentet ska konverteras till. |
 

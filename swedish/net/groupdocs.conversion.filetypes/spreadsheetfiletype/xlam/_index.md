@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Xlamdokumentformat
+description: XLAM är en makroaktiverad tilläggsfil som används för att lägga till nya funktioner i kalkylblad. Ett tillägg är ett tilläggsprogram som kör ytterligare kod och ger ytterligare funktionalitet för kalkylblad. Läs mer om detta filformathärhttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /sv/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Xlam-dokumentformat
+XLAM är en makroaktiverad tilläggsfil som används för att lägga till nya funktioner i kalkylblad. Ett tillägg är ett tilläggsprogram som kör ytterligare kod och ger ytterligare funktionalitet för kalkylblad. Läs mer om detta filformat[här](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

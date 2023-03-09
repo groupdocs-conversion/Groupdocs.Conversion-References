@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: GroupDocs.Conversion for .NET API Referens
-description: OpenDocument Flat XML Spreadsheet
+description: En fil med filtillägget .fods är en typ av OpenDocument Spreadsheetdokumentformat som lagrar data i rader och kolumner. Formatet anges som en del av ODF 1.2specifikationerna publicerade och underhållna av OASIS. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/fods .
 type: docs
 weight: 40
 url: /sv/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-OpenDocument Flat XML Spreadsheet
+En fil med filtillägget .fods är en typ av OpenDocument Spreadsheet-dokumentformat som lagrar data i rader och kolumner. Formatet anges som en del av ODF 1.2-specifikationerna publicerade och underhållna av OASIS. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/fods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

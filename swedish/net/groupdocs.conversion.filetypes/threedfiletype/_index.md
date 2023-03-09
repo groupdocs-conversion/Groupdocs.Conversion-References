@@ -1,14 +1,14 @@
 ---
 title: ThreeDFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar 3Ddokument Inkluderar följande typer Fbx./threedfiletype/fbx Lär dig mer om 3Dformathärhttps//wiki.fileformat.com/3d .
+description: Definierar 3Ddokument Inkluderar följande typer Fbx./threedfiletype/fbxThreeDS./threedfiletype/threedsThreeMF./threedfiletype/threemfAmf./threedfiletype/amfAse./threedfiletype/aseRvm./threedfiletype/rvmDae./threedfiletype/daeDrc./threedfiletype/drcGltf./threedfiletype/gltfObj./threedfiletype/objPly./threedfiletype/plyJt./threedfiletype/jtU3d./threedfiletype/u3dUsd./threedfiletype/usdUsdz./threedfiletype/usdzVrml./threedfiletype/vrmlX./threedfiletype/x Lär dig mer om 3Dformathärhttps//wiki.fileformat.com/3d .
 type: docs
-weight: 940
+weight: 1060
 url: /sv/net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class
 
-Definierar 3D-dokument Inkluderar följande typer: [`Fbx`](./fbx) Lär dig mer om 3D-format[här](https://wiki.fileformat.com/3d) .
+Definierar 3D-dokument Inkluderar följande typer: [`Fbx`](./fbx)[`ThreeDS`](./threeds)[`ThreeMF`](./threemf)[`Amf`](./amf)[`Ase`](./ase)[`Rvm`](./rvm)[`Dae`](./dae)[`Drc`](./drc)[`Gltf`](./gltf)[`Obj`](./obj)[`Ply`](./ply)[`Jt`](./jt)[`U3d`](./u3d)[`Usd`](./usd)[`Usdz`](./usdz)[`Vrml`](./vrml)[`X`](./x) Lär dig mer om 3D-format[här](https://wiki.fileformat.com/3d) .
 
 ```csharp
 public sealed class ThreeDFileType : FileType
@@ -34,7 +34,7 @@ public sealed class ThreeDFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

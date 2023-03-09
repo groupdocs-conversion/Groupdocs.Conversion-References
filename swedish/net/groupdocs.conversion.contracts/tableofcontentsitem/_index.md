@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller innehållsförteckningsobjektets metadata
 type: docs
-weight: 500
+weight: 540
 url: /sv/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

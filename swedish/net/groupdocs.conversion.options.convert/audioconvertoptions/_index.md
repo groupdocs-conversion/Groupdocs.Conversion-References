@@ -3,7 +3,7 @@ title: AudioConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till ljudtyp.
 type: docs
-weight: 1290
+weight: 1420
 url: /sv/net/groupdocs.conversion.options.convert/audioconvertoptions/
 ---
 ## AudioConvertOptions class

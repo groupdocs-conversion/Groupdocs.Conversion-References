@@ -3,7 +3,7 @@ title: ConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Klassen för allmänna konverteringsalternativ.
 type: docs
-weight: 1330
+weight: 1460
 url: /sv/net/groupdocs.conversion.options.convert/convertoptions/
 ---
 ## ConvertOptions class
