@@ -3,7 +3,7 @@ title: Odg
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يتم استخدام تنسيق ملف ODG بواسطة تطبيق رسم Apache OpenOffice لتخزين عناصر الرسم كصورة متجهة . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 280
+weight: 260
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/odg/
 ---
 ## ImageFileType.Odg field

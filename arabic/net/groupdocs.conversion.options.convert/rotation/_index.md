@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد تناوب الصفحة
 type: docs
-weight: 1700
+weight: 1880
 url: /ar/net/groupdocs.conversion.options.convert/rotation/
 ---
 ## Rotation class

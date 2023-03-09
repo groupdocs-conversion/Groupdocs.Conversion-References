@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 تعيين خيارات التحويل
 
@@ -32,17 +32,19 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 تعيين خيارات التحويل
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات |
+| معامل | وصف |
+| --- | --- |
+| convertOptionsProvider | تحويل مزود الخيارات |
+| convertOptionsProvider arg2arg2 | نوع الملف المصدر |
 
 ### قيمة الإرجاع
 
@@ -51,7 +53,8 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertO
 ### أنظر أيضا
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * المجسم [GroupDocs.Conversion](../../../)

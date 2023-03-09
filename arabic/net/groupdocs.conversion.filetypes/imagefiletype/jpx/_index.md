@@ -3,7 +3,7 @@ title: Jpx
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنسيق مستند Jpx
 type: docs
-weight: 270
+weight: 250
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/jpx/
 ---
 ## ImageFileType.Jpx field

@@ -3,7 +3,7 @@ title: GetAll
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: إرجاع كافة قيم التعداد.
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

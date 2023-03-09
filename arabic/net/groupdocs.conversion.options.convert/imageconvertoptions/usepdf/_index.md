@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: إذاحقيقي يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب.
+description: إذاحقيقي  يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب.
 type: docs
 weight: 140
 url: /ar/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-إذا`حقيقي`، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب.
+إذا`حقيقي` ، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب.
 
 ```csharp
 public bool UsePdf { get; set; }

@@ -3,7 +3,7 @@ title: Doc
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تمثل الملفات ذات الامتداد .doc المستندات التي تم إنشاؤها بواسطة Microsoft Word أو مستندات معالجة النصوص الأخرى بتنسيق ملف ثنائي . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field

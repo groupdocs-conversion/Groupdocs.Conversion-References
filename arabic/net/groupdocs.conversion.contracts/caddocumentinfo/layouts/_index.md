@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 التخطيطات في المستند
 
 ```csharp
-public IEnumerable<string> Layouts { get; }
+public IList<string> Layouts { get; }
 ```
 
 ### أنظر أيضا

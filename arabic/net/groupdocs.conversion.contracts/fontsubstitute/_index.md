@@ -3,7 +3,7 @@ title: FontSubstitute
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف استبدال الخط المفقود.
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class

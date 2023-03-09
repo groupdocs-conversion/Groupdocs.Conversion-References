@@ -3,7 +3,7 @@ title: Otg
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف OTG هو قالب رسم تم إنشاؤه باستخدام معيار OpenDocument الذي يتبع مواصفات OASIS Office Applications 1.0. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field

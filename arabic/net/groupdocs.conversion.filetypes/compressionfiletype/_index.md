@@ -3,7 +3,7 @@ title: CompressionFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد تنسيقات الضغط. يتضمن أنواع الملفات التالية Zip./compressionfiletype/zip . Rar./compressionfiletype/rar . SevenZ./compressionfiletype/sevenz . Tar./compressionfiletype/tar . Gz./compressionfiletype/gz . Gzip./compressionfiletype/gzip . Bz2./compressionfiletype/bz2 . اعرف المزيد حول تنسيقات الضغطهناhttps//docs.fileformat.com/compression/ .
 type: docs
-weight: 810
+weight: 870
 url: /ar/net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
@@ -34,7 +34,7 @@ public sealed class CompressionFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

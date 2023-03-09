@@ -3,7 +3,7 @@ title: CompressionConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف الضغط.
 type: docs
-weight: 1320
+weight: 1450
 url: /ar/net/groupdocs.conversion.options.convert/compressionconvertoptions/
 ---
 ## CompressionConvertOptions class

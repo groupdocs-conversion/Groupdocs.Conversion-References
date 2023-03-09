@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات تعريف لمستند .
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/groupdocs.conversion.contracts/idocumentinfo/
 ---
 ## IDocumentInfo interface

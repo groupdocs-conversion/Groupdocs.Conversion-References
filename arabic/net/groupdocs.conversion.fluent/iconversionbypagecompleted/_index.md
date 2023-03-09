@@ -3,7 +3,7 @@ title: IConversionByPageCompleted
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: معالجة صفحة التحويل مكتملة
 type: docs
-weight: 970
+weight: 1100
 url: /ar/net/groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---
 ## IConversionByPageCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | اسم | وصف |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | تلقي دفق الصفحة المحول. سيتم إطلاقه فقط إذا تم تعيين "حفظ (SaveDocumentStreamForFileType)". |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | تلقي دفق الصفحة المحول. سيتم إطلاقه فقط إذا تم تعيين "ConvertTo (convertStreamProvider)". |
 
 ### أنظر أيضا
 

@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد الطرق المطلوبة لتطبيق التعرف الضوئي على الحروف على مستندات الصور والصور المضمنة.
 type: docs
-weight: 1200
+weight: 1330
 url: /ar/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

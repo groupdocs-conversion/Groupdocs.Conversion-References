@@ -3,7 +3,7 @@ title: Txt
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل الملف بامتداد .TXT مستندًا نصيًا يحتوي على نص عادي في شكل أسطر. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field

@@ -3,7 +3,7 @@ title: ZipDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند الضغط
 type: docs
-weight: 660
+weight: 720
 url: /ar/net/groupdocs.conversion.contracts/zipdocumentinfo/
 ---
 ## ZipDocumentInfo class

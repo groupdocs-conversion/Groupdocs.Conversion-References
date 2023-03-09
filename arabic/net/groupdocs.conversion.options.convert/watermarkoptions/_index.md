@@ -3,7 +3,7 @@ title: WatermarkOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات إعدادات العلامة المائية للمستند المحول
 type: docs
-weight: 1780
+weight: 1960
 url: /ar/net/groupdocs.conversion.options.convert/watermarkoptions/
 ---
 ## WatermarkOptions class

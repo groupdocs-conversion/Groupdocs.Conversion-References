@@ -3,7 +3,7 @@ title: ProjectManagementConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف إدارة المشروع.
 type: docs
-weight: 1660
+weight: 1840
 url: /ar/net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/
 ---
 ## ProjectManagementConvertOptions class

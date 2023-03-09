@@ -3,7 +3,7 @@ title: IConversionGetDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: الحصول على معلومات المستند المصدر  عدد الصفحات وخصائص المستند الأخرى الخاصة بنوع الملف.
 type: docs
-weight: 1110
+weight: 1240
 url: /ar/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface

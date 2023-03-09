@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 الحصول على أسماء المرفقات
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### أنظر أيضا

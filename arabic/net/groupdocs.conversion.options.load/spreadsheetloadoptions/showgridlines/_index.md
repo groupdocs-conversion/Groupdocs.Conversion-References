@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: إظهار خطوط الشبكة عند تحويل ملفات Excel.
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

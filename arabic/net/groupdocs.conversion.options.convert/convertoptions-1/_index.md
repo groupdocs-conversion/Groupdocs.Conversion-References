@@ -3,7 +3,7 @@ title: ConvertOptionsTFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: فئة خيارات التحويل العامة المجردة.
 type: docs
-weight: 1340
+weight: 1470
 url: /ar/net/groupdocs.conversion.options.convert/convertoptions-1/
 ---
 ## ConvertOptions&lt;TFileType&gt; class

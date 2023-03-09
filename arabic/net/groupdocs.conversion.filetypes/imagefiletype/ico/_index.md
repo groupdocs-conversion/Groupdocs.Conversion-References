@@ -3,7 +3,7 @@ title: Ico
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: الملفات ذات الامتداد ICO هي أنواع ملفات الصور المستخدمة كأيقونة لتمثيل تطبيق على Microsoft Windows . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 170
+weight: 150
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/ico/
 ---
 ## ImageFileType.Ico field

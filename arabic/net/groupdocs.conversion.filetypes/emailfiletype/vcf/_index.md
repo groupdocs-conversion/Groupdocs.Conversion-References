@@ -3,7 +3,7 @@ title: Vcf
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: VCF تنسيق البطاقة الافتراضية أو vCard هو تنسيق ملف رقمي لتخزين معلومات جهات الاتصال. يستخدم التنسيق على نطاق واسع لتبادل البيانات بين تطبيقات تبادل المعلومات الشائعة . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/email/vcf .
 type: docs
-weight: 60
+weight: 80
 url: /ar/net/groupdocs.conversion.filetypes/emailfiletype/vcf/
 ---
 ## EmailFileType.Vcf field

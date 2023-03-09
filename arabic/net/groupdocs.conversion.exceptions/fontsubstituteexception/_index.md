@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يتم إلقاؤه إذا كان بديل الخط غير قانوني
 type: docs
-weight: 720
+weight: 780
 url: /ar/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

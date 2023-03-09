@@ -6,17 +6,17 @@ type: docs
 weight: 20
 url: /ar/net/groupdocs.conversion/converter/convert/
 ---
-## Convert(SaveDocumentStream, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, ConvertOptions) {#convert}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| document | Func`1 | المفوض الذي يحفظ المستند المحول إلى دفق. |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -28,7 +28,6 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -36,19 +35,19 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| documentCompleted | ConvertedDocumentStream | المفوض الذي يتلقى دفق المستند المحول. |
+| document | Func`1 | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| documentCompleted | Action`2 | المفوض الذي يتلقى دفق المستند المحول.دفق محتوى الملفاسم الملف |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -60,8 +59,6 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -69,18 +66,19 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ---
 
-## Convert(SaveDocumentStream, ConvertOptionsProvider) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`1 | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -91,28 +89,28 @@ public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertO
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) {#convert}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| documentCompleted | ConvertedDocumentStream | المفوض الذي يتلقى دفق المستند المحول. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`1 | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| documentCompleted | Action`2 | المفوض الذي يتلقى دفق المستند المحول.دفق محتوى الملفاسم الملف |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -123,26 +121,25 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptions) {#convert_7}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, ConvertOptions convertOptions)
+public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.نوع الملف المصدر |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -154,7 +151,7 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -162,19 +159,19 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) {#convert_5}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| documentCompleted | ConvertedDocumentStream | المفوض الذي يتلقى دفق المستند المحول. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.نوع الملف المصدر |
+| documentCompleted | Action`2 | المفوض الذي يتلقى دفق المستند المحول.دفق محتوى الملفاسم الملف |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -186,8 +183,7 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -195,19 +191,19 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptionsProvider) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.نوع الملف المصدر |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -218,28 +214,28 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
 
 تحويل المستند المصدر. يحفظ المستند المحول بالكامل.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| documentCompleted | ConvertedDocumentStream | المفوض الذي يتلقى دفق المستند المحول. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.نوع الملف المصدر |
+| documentCompleted | Action`2 | المفوض الذي يتلقى دفق المستند المحول.دفق محتوى الملفاسم الملف |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -250,9 +246,8 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ### أنظر أيضا
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
@@ -288,17 +283,17 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertOptions) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.رقم الصفحة |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -310,7 +305,6 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ### أنظر أيضا
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -318,19 +312,19 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStream | المفوض الذي يحفظ صفحة المستند المحولة إلى دفق. |
-| documentCompleted | ConvertedPageStream | المفوض الذي يتلقى تدفق صفحة المستند المحول. |
+| document | Func`2 | المفوض الذي يحفظ صفحة المستند المحولة إلى تدفق.رقم الصفحة |
+| documentCompleted | Action`3 | المفوض الذي يتلقى دفق صفحة المستند المحول.رقم الصفحةدفق محتوى الملفاسم الملف |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -342,8 +336,6 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ### أنظر أيضا
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -351,18 +343,19 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ---
 
-## Convert(SavePageStream, ConvertOptionsProvider) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStream | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`2 | المفوض الذي يحفظ المستند المحول إلى دفق.رقم الصفحة |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -373,28 +366,28 @@ public void Convert(SavePageStream document, ConvertOptionsProvider convertOptio
 
 ### أنظر أيضا
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) {#convert_8}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStream | المفوض الذي يحفظ صفحة المستند المحولة إلى دفق. |
-| documentCompleted | ConvertedPageStream | المفوض الذي يتلقى تدفق صفحة المستند المحول. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`2 | المفوض الذي يحفظ صفحة المستند المحولة إلى تدفق.رقم الصفحة |
+| documentCompleted | Action`3 | المفوض الذي يتلقى دفق صفحة المستند المحول.رقم الصفحةدفق محتوى الملفاسم الملف |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -405,26 +398,25 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ### أنظر أيضا
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptions) {#convert_15}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertOptions convertOptions)
+public void Convert(Func<int, FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
+| document | Func`3 | المفوض الذي يحفظ المستند المحول إلى دفق.رقم الصفحة |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -436,7 +428,7 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ### أنظر أيضا
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -444,19 +436,19 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | المفوض الذي يحفظ صفحة المستند المحولة إلى دفق. |
-| documentCompleted | ConvertedPageStream | المفوض الذي يتلقى تدفق صفحة المستند المحول. |
+| document | Func`3 | المفوض الذي يحفظ صفحة المستند المحولة إلى تدفق.رقم الصفحةنوع الملف |
+| documentCompleted | Action`3 | المفوض الذي يتلقى دفق صفحة المستند المحول.رقم الصفحةدفق محتوى الملفاسم الملف |
 | convertOptions | ConvertOptions | خيارات التحويل الخاصة بنوع الملف الهدف المطلوب. |
 
 ### ملاحظات
@@ -468,8 +460,7 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ### أنظر أيضا
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
@@ -477,19 +468,19 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptionsProvider) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | المفوض الذي يحفظ المستند المحول إلى دفق. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`3 | المفوض الذي يحفظ المستند المحول إلى دفق.رقم الصفحةنوع الملف |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -500,28 +491,29 @@ public void Convert(SavePageStreamForFileType document,
 
 ### أنظر أيضا
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
 
 تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | المفوض الذي يحفظ صفحة المستند المحولة إلى دفق. |
-| documentCompleted | ConvertedPageStream | المفوض الذي يتلقى تدفق صفحة المستند المحول. |
-| convertOptionsProvider | ConvertOptionsProvider | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب. |
+| document | Func`3 | المفوض الذي يحفظ صفحة المستند المحولة إلى تدفق.رقم الصفحةنوع الملف |
+| documentCompleted | Action`3 | المفوض الذي يتلقى دفق صفحة المستند المحول.رقم الصفحةدفق محتوى الملفاسم الملف |
+| convertOptionsProvider | Func`3 | تحويل مزود الخيارات. سيتم استدعاؤها لكل تحويل لتوفير خيارات تحويل محددة لنوع المستند المستهدف المطلوب.اسم الملفنوع الملف |
 
 ### ملاحظات
 
@@ -532,9 +524,8 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ### أنظر أيضا
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * مساحة الاسم [GroupDocs.Conversion](../../converter)
 * المجسم [GroupDocs.Conversion](../../../)

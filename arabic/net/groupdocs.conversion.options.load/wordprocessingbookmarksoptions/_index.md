@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتعامل مع الإشارات المرجعية في WordProcessing
 type: docs
-weight: 2090
+weight: 2350
 url: /ar/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class

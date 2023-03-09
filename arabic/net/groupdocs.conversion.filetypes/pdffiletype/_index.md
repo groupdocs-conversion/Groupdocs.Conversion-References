@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يحدد مستندات PDF. يتضمن أنواع الملفات التالية Epub./pdffiletype/epub  Pdf./pdffiletype/pdf  Xps./pdffiletype/xps .
+description: يحدد مستندات PDF. يتضمن أنواع الملفات التالية Epub  Pdf./pdffiletype/pdf  Xps .
 type: docs
-weight: 890
+weight: 1000
 url: /ar/net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-يحدد مستندات PDF. يتضمن أنواع الملفات التالية: [`Epub`](./epub) ، [`Pdf`](./pdf) ، [`Xps`](./xps) .
+يحدد مستندات PDF. يتضمن أنواع الملفات التالية: Epub ، [`Pdf`](./pdf) ، Xps .
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -34,7 +34,7 @@ public sealed class PdfFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |
@@ -43,13 +43,7 @@ public sealed class PdfFileType : FileType
 
 | اسم | وصف |
 | --- | --- |
-| static readonly [Epub](../../groupdocs.conversion.filetypes/pdffiletype/epub) | امتداد EPUB هو تنسيق ملف كتاب إلكتروني يوفر تنسيقًا قياسيًا للنشر الرقمي للناشرين والمستهلكين. أصبح التنسيق شائعًا جدًا حتى الآن لدرجة أنه مدعوم من قبل العديد من برامج القراءة الإلكترونية وتطبيقات البرامج . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/ebook/epub) . |
-| static readonly [Oxps](../../groupdocs.conversion.filetypes/pdffiletype/oxps) | تنسيق مستند Oxps |
-| static readonly [Pcl](../../groupdocs.conversion.filetypes/pdffiletype/pcl) | يرمز PCL إلى لغة أوامر الطابعة وهي لغة وصف الصفحة التي تقدمها Hewlett Packard (HP) . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/page-description-language/pcl) . |
 | static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | تنسيق المستند المحمول (PDF) هو نوع من المستندات التي أنشأتها Adobe في التسعينيات. كان الغرض من تنسيق الملف هذا هو تقديم معيار لتمثيل المستندات والمواد المرجعية الأخرى بتنسيق مستقل عن برامج التطبيقات والأجهزة وكذلك نظام التشغيل. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/view/pdf) . |
-| static readonly [Ps](../../groupdocs.conversion.filetypes/pdffiletype/ps) | PostScript (PS) هي لغة وصف صفحة للأغراض العامة تُستخدم في أعمال النشر المكتبي والنشر الإلكتروني. ينصب التركيز الأساسي لـ PostScript (PS) على تسهيل تصميم الرسومات ثنائي الأبعاد . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/page-description-language/ps) . |
-| static readonly [Tex](../../groupdocs.conversion.filetypes/pdffiletype/tex) | TeX هي لغة تتكون من ميزات البرمجة والترميز المستخدمة في طباعة المستندات. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/page-description-language/tex) . |
-| static readonly [Xps](../../groupdocs.conversion.filetypes/pdffiletype/xps) | يمثل ملف XPS ملفات تخطيط الصفحة التي تستند إلى مواصفات ورق XML التي أنشأتها Microsoft. تم تطوير هذا التنسيق بواسطة Microsoft كبديل لتنسيق ملف EMF وهو مشابه لتنسيق ملف PDF ، ولكنه يستخدم XML في معلومات التخطيط والمظهر والطباعة لمستند . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/page-description-language/xps) . |
 
 ### أنظر أيضا
 

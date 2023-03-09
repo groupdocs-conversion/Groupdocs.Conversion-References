@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد تنسيقات ملفات المشروع التي تم إنشاؤها بواسطة برامج إدارة المشاريع مثل Microsoft Project و Primavera P6 وما إلى ذلك. ملف المشروع عبارة عن مجموعة من المهام والموارد وجدولتها للحصول على مخرجات قابلة للقياس في النموذج أو المنتج أو الخدمة. وثائق إدارة المشروع. يتضمن أنواع الملفات التالية Mpp./projectmanagementfiletype/mpp  Mpt./projectmanagementfiletype/mpt  Mpx./projectmanagementfiletype/mpx . اعرف المزيد حول تنسيقات إدارة المشاريعهناhttps//wiki.fileformat.com/projectmanagement .
 type: docs
-weight: 920
+weight: 1030
 url: /ar/net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class
@@ -34,7 +34,7 @@ public sealed class ProjectManagementFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

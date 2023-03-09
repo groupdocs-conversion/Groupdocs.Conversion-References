@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات معالجة الكلمات.
 type: docs
-weight: 2100
+weight: 2360
 url: /ar/net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -24,7 +24,7 @@ public class WordProcessingLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | إذا تم تعطيل AutoFontSubstitution ، فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution ، فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo (Panose ، Sig وما إلى ذلك) للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True . |
+| [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | إذا تم تعطيل AutoFontSubstitution ، فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution ، فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo (Panose ، Sig ، إلخ) للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True . |
 | [BookmarkOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/bookmarkoptions) { get; set; } | خيارات الإشارات المرجعية |
 | [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | الخط الافتراضي لمستند Words. سيتم استخدام الخط التالي إذا كان الخط مفقودًا. |
 | [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | إذا كانت EmbedTrueTypeFonts صحيحة ، فإن GroupDocs.Conversion تدمج خطوط الكتابة الحقيقية في مستند الإخراج. الافتراضي: false |

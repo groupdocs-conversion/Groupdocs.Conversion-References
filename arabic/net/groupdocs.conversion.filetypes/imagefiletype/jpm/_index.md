@@ -3,7 +3,7 @@ title: Jpm
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنسيق مستند Jpm
 type: docs
-weight: 260
+weight: 240
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 ---
 ## ImageFileType.Jpm field

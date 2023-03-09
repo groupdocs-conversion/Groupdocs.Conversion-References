@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: فئة خيارات تحميل مستند الملخص .
 type: docs
-weight: 1930
+weight: 2160
 url: /ar/net/groupdocs.conversion.options.load/loadoptions/
 ---
 ## LoadOptions class

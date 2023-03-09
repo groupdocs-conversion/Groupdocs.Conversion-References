@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يوفر طرقًا للتطبيقمقننةhttps//purchase.groupdocs.com/faqs/licensing/metered ترخيص .
+description: يوفر طرقًا للتطبيقمقننةhttps//purchase.groupdocs.com/faqs/licensing/meteredترخيص .
 type: docs
-weight: 1280
+weight: 1410
 url: /ar/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-يوفر طرقًا للتطبيق[مقننة](https://purchase.groupdocs.com/faqs/licensing/metered) ترخيص .
+يوفر طرقًا للتطبيق[مقننة](https://purchase.groupdocs.com/faqs/licensing/metered)ترخيص .
 
 ```csharp
 public class Metered

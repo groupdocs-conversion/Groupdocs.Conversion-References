@@ -3,7 +3,7 @@ title: VideoLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات الفيديو.
 type: docs
-weight: 2080
+weight: 2330
 url: /ar/net/groupdocs.conversion.options.load/videoloadoptions/
 ---
 ## VideoLoadOptions class

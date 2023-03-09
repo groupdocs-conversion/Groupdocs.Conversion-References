@@ -140,7 +140,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | document | Func`1 | الطريقة التي ترجع الدفق المقروء. |
-| loadOptions | Func`2 | الطرق التي ترجع خيارات تحميل المستند. |
+| loadOptions | Func`2 | الطرق التي تُرجع خيارات تحميل المستند.نوع الملف المصدر |
 
 ### ملاحظات
 
@@ -171,7 +171,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | document | Func`1 | الطريقة التي ترجع الدفق المقروء. |
-| loadOptions | Func`2 | الطرق التي ترجع خيارات تحميل المستند. |
+| loadOptions | Func`2 | الطرق التي تُرجع خيارات تحميل المستند.نوع الملف المصدر |
 | settings | Func`1 | إعدادات المحول. |
 
 ### ملاحظات
@@ -319,7 +319,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف إلى المستند المصدر. |
-| loadOptions | Func`2 | الطرق التي ترجع خيارات تحميل المستند. |
+| loadOptions | Func`2 | الطرق التي تُرجع خيارات تحميل المستند.نوع الملف المصدر |
 
 ### ملاحظات
 
@@ -350,7 +350,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | filePath | String | مسار الملف إلى المستند المصدر. |
-| loadOptions | Func`2 | الطرق التي ترجع خيارات تحميل المستند. |
+| loadOptions | Func`2 | الطرق التي تُرجع خيارات تحميل المستند.نوع الملف المصدر |
 | settings | Func`1 | إعدادات المحول. |
 
 ### ملاحظات

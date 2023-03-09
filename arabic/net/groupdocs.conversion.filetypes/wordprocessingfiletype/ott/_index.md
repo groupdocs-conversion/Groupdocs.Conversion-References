@@ -3,7 +3,7 @@ title: Ott
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تمثل الملفات ذات الامتداد OTT مستندات النماذج التي تم إنشاؤها بواسطة التطبيقات وفقًا للتنسيق القياسي OpenDocument الخاص بـ OASIS. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field

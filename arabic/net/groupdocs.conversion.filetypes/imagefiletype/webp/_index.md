@@ -3,7 +3,7 @@ title: Webp
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: WebP  الذي قدمته Google  هو تنسيق ملف صورة ويب نقطية حديث يعتمد على ضغط بدون فقد وفقدان. إنه يوفر نفس جودة الصورة مع تقليل حجم الصورة بشكل كبير. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/webp .
 type: docs
-weight: 380
+weight: 350
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/webp/
 ---
 ## ImageFileType.Webp field

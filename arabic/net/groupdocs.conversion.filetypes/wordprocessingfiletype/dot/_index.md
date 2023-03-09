@@ -3,7 +3,7 @@ title: Dot
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: الملفات ذات الامتداد .DOT هي ملفات قوالب تم إنشاؤها بواسطة Microsoft Word للحصول على إعدادات مهيأة مسبقًا لإنشاء المزيد من ملفات DOC أو DOCX. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field

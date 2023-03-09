@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد أوضاع ألوان Jpg .
 type: docs
-weight: 1500
+weight: 1660
 url: /ar/net/groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 ## JpgColorModes class

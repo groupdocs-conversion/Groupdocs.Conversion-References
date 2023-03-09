@@ -3,7 +3,7 @@ title: InvalidConvertOptionsException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تم إلقاؤه إذا كانت خيارات التحويل المقدمة غير صالحة
 type: docs
-weight: 750
+weight: 810
 url: /ar/net/groupdocs.conversion.exceptions/invalidconvertoptionsexception/
 ---
 ## InvalidConvertOptionsException class

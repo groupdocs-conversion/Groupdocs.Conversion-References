@@ -3,7 +3,7 @@ title: Gif
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنسيق GIF أو تنسيق التبادل الرسومي هو نوع من الصور شديدة الضغط. لكل صورة  يسمح GIF عادةً بما يصل إلى 8 بت لكل بكسل وما يصل إلى 256 لونًا مسموح به عبر الصورة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 160
+weight: 140
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field

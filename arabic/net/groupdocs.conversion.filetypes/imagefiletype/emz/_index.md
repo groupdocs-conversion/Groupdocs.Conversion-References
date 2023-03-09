@@ -3,7 +3,7 @@ title: Emz
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف EMZ هو في الواقع نسخة مضغوطة من ملف Microsoft EMF. هذا يسمح لتوزيع الملف بسهولة عبر الإنترنت. عندما يتم ضغط ملف EMF باستخدام خوارزمية ضغط .GZIP  يتم منحه بعد ذلك امتداد الملف .emz.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/emz/
 ---
 ## ImageFileType.Emz field

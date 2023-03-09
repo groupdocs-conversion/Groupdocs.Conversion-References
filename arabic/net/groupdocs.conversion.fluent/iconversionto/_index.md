@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تعيين كيفية تخزين المستند المحول
 type: docs
-weight: 1180
+weight: 1310
 url: /ar/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | اسم | وصف |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | حفظ الصفحة المحولة باسم stream |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | حفظ الصفحة المحولة كتدفق حسب النوع |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | احفظ المستند المحول باسم stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | حفظ المستند المحول كتدفق حسب النوع |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | حفظ الصفحة المحولة كتدفق حسب النوع |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | حفظ الصفحة المحولة باسم stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | حفظ المستند المحول كتدفق حسب النوع |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | احفظ المستند المحول باسم stream |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | احفظ المستند المحول بتنسيق file |
 
 ### أنظر أيضا

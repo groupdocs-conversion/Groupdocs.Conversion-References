@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تمثيل السلسلة
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/groupdocs.conversion.filetypes/filetype/tostring/
 ---
 ## FileType.ToString method

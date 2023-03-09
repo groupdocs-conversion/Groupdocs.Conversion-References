@@ -3,7 +3,7 @@ title: Zoom
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد مستوى التكبير بالنسبة المئوية. الافتراضي هو 100.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/groupdocs.conversion.options.convert/pdfoptions/zoom/
 ---
 ## PdfOptions.Zoom property

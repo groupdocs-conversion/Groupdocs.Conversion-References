@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يتخطى الصفوف والأعمدة الفارغة عند التحويل. الافتراضي هو صحيح.
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

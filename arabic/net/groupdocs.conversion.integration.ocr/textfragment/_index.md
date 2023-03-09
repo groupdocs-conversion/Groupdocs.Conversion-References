@@ -3,7 +3,7 @@ title: TextFragment
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل جزءًا من نص تم التعرف عليه كلمة  رمز  إلخ  مستخرج بواسطة محرك التعرف الضوئي على الحروف.
 type: docs
-weight: 1220
+weight: 1350
 url: /ar/net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class

@@ -3,7 +3,7 @@ title: InvalidConverterSettingsException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تم إلقاؤه إذا كانت إعدادات المحول المتوفرة غير صالحة
 type: docs
-weight: 760
+weight: 820
 url: /ar/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class

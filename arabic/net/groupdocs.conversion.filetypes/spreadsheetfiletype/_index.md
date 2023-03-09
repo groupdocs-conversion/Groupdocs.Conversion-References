@@ -3,7 +3,7 @@ title: SpreadsheetFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد مستندات جداول البيانات. يتضمن أنواع الملفات التالية Csv./spreadsheetfiletype/csv  Fods./spreadsheetfiletype/fods  Ods./spreadsheetfiletype/ods  Ots./spreadsheetfiletype/ots  Tsv./spreadsheetfiletype/tsv  Xlam./spreadsheetfiletype/xlam  Xls./spreadsheetfiletype/xls  Xlsb./spreadsheetfiletype/xlsb  Xlsm./spreadsheetfiletype/xlsm  Xlsx./spreadsheetfiletype/xlsx  Xlt./spreadsheetfiletype/xlt  Xltm./spreadsheetfiletype/xltm  Xltx./spreadsheetfiletype/xltx . تعرف على المزيد حول تنسيقات جداول البياناتهناhttps//wiki.fileformat.com/spreadsheet .
 type: docs
-weight: 930
+weight: 1050
 url: /ar/net/groupdocs.conversion.filetypes/spreadsheetfiletype/
 ---
 ## SpreadsheetFileType class
@@ -34,7 +34,7 @@ public sealed class SpreadsheetFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |
@@ -45,13 +45,13 @@ public sealed class SpreadsheetFileType : FileType
 | --- | --- |
 | static readonly [Csv](../../groupdocs.conversion.filetypes/spreadsheetfiletype/csv) | تمثل الملفات ذات الامتداد CSV (قيم مفصولة بفواصل) ملفات نصية عادية تحتوي على سجلات بيانات بقيم مفصولة بفواصل . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/csv) . |
 | static readonly [Dif](../../groupdocs.conversion.filetypes/spreadsheetfiletype/dif) | يرمز DIF إلى تنسيق تبادل البيانات المستخدم لاستيراد / تصدير بيانات جداول البيانات بين التطبيقات المختلفة. وتشمل هذه Microsoft Excel و OpenOffice Calc و StarCalc وغيرها الكثير. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/dif) . |
-| static readonly [Fods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/fods) | جدول بيانات XML مسطح OpenDocument |
+| static readonly [Fods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/fods) | الملف بامتداد .fods هو نوع من تنسيق مستند OpenDocument Spreadsheet الذي يخزن البيانات في صفوف وأعمدة. تم تحديد التنسيق كجزء من مواصفات ODF 1.2 المنشورة والمحافظة عليها بواسطة OASIS . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/fods) . |
 | static readonly [Numbers](../../groupdocs.conversion.filetypes/spreadsheetfiletype/numbers) | تم تصنيف الملفات ذات الامتداد .numbers كنوع ملف جدول بيانات ، وهذا هو سبب تشابهها مع ملفات .xlsx ؛ ولكن يتم إنشاء ملفات Numbers باستخدام برنامج جداول بيانات Apple iWork Numbers . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/spreadsheet/numbers) . |
 | static readonly [Ods](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ods) | تمثل الملفات ذات ملحق ODS تنسيق OpenDocument Spreadsheet Document الذي يمكن للمستخدم تحريره. يتم تخزين البيانات داخل ملف ODF في صفوف وأعمدة. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/ods) . |
-| static readonly [Ots](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ots) | قالب جدول بيانات OpenDocument |
-| static readonly [Sxc](../../groupdocs.conversion.filetypes/spreadsheetfiletype/sxc) | تنسيق مستند إلى XML يستخدمه OpenOffice و StarOffice |
+| static readonly [Ots](../../groupdocs.conversion.filetypes/spreadsheetfiletype/ots) | الملف ذو الامتداد .ots هو ملف OpenDocument Spreadsheet Template الذي تم إنشاؤه باستخدام برنامج تطبيق Calc المضمن في Apache OpenOffice. برنامج تطبيق Calc مشابه لبرنامج Excel المتاح في Microsoft Office. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/ots) . |
+| static readonly [Sxc](../../groupdocs.conversion.filetypes/spreadsheetfiletype/sxc) | ينتمي تنسيق الملف SXC (Sun XML Calc) إلى مجموعة Office تسمى OpenOffice.org. يتعامل هذا التنسيق بشكل عام مع احتياجات جداول البيانات للمستخدمين لأنه تنسيق ملف جدول بيانات يعتمد على XML. يدعم تنسيق SXC الصيغ والوظائف ووحدات الماكرو والمخططات مع DataPilot . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/sxc) . |
 | static readonly [Tsv](../../groupdocs.conversion.filetypes/spreadsheetfiletype/tsv) | يمثل تنسيق ملف قيم مفصولة بعلامات جدولة (TSV) بيانات مفصولة بعلامات تبويب بتنسيق نص عادي. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/tsv) . |
-| static readonly [Xlam](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlam) | تنسيق مستند Xlam |
+| static readonly [Xlam](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlam) | XLAM هو ملف إضافي ممكن بماكرو يُستخدم لإضافة وظائف جديدة إلى جداول البيانات. الوظيفة الإضافية هي برنامج تكميلي يقوم بتشغيل تعليمات برمجية إضافية ويوفر وظائف إضافية لجداول البيانات. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/spreadsheet/xlam/) . |
 | static readonly [Xls](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xls) | يمثل XLS تنسيق ملف Excel الثنائي. يمكن إنشاء مثل هذه الملفات بواسطة Microsoft Excel بالإضافة إلى برامج جداول البيانات المماثلة الأخرى مثل OpenOffice Calc أو Apple Numbers. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/xls) . |
 | static readonly [Xlsb](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlsb) | يحدد تنسيق ملف XLSB تنسيق ملف Excel الثنائي ، وهو عبارة عن مجموعة من السجلات والهياكل التي تحدد محتوى مصنف Excel. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/xlsb) . |
 | static readonly [Xlsm](../../groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm) | XLSM هو نوع من ملفات جداول البيانات التي تدعم وحدات الماكرو . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/xlsm) . |

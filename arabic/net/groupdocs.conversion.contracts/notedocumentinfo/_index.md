@@ -3,7 +3,7 @@ title: NoteDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند الملاحظات
 type: docs
-weight: 320
+weight: 340
 url: /ar/net/groupdocs.conversion.contracts/notedocumentinfo/
 ---
 ## NoteDocumentInfo class

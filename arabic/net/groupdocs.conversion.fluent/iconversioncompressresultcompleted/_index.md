@@ -3,7 +3,7 @@ title: IConversionCompressResultCompleted
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: اكتمل ضغط المقبض
 type: docs
-weight: 1020
+weight: 1150
 url: /ar/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | اسم | وصف |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | تلقي دفق مستند مضغوط. سيتم تشغيله فقط إذا تم تعيين الضغط (خيارات CompressionConvertOptions) ". |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | تلقي دفق مستند مضغوط. سيتم تشغيله فقط إذا تم تعيين الضغط (خيارات CompressionConvertOptions) ". |
 
 ### أنظر أيضا
 

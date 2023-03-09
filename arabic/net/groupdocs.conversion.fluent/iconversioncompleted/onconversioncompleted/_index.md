@@ -1,23 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين حفظ سلسلة أو حفظ SaveDocumentStreamForFileType.
+description: تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين ConvertTo اسم ملف سلسلة أو ConvertTo convertStreamProvider .
 type: docs
 weight: 10
 url: /ar/net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين "حفظ (سلسلة)" أو "حفظ (SaveDocumentStreamForFileType)".
+تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين "ConvertTo (اسم ملف سلسلة)" أو ConvertTo (convertStreamProvider) ".
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | مزود دفق الوثيقة المحول |
+| convertedFileStream | Action`2 | مزود تدفق المستندات المحول |
 
 ### قيمة الإرجاع
 
@@ -26,7 +26,6 @@ public IConversionConvertOrCompress OnConversionCompleted(
 ### أنظر أيضا
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * المجسم [GroupDocs.Conversion](../../../)

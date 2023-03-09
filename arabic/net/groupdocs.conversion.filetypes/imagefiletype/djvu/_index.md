@@ -3,7 +3,7 @@ title: DjVu
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: DjVu هو تنسيق ملف رسومي مخصص للمستندات والكتب الممسوحة ضوئيًا وخاصة تلك التي تحتوي على مجموعة من النصوص والرسومات والصور والصور الفوتوغرافية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/djvu .
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/djvu/
 ---
 ## ImageFileType.DjVu field

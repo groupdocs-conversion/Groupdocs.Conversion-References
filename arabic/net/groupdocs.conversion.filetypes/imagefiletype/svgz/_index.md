@@ -3,7 +3,7 @@ title: Svgz
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف SVGZ هو في الواقع نسخة مضغوطة من ملف SVG. هذا يسمح لتوزيع الملف بسهولة عبر الإنترنت. عندما يتم ضغط ملف SVG باستخدام خوارزمية ضغط .GZIP  يتم منحه بعد ذلك امتداد الملف .svgz.
 type: docs
-weight: 340
+weight: 310
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 ---
 ## ImageFileType.Svgz field

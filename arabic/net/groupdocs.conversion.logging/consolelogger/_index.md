@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنفيذ مسجل وحدة التحكم .
 type: docs
-weight: 1260
+weight: 1390
 url: /ar/net/groupdocs.conversion.logging/consolelogger/
 ---
 ## ConsoleLogger class

@@ -3,7 +3,7 @@ title: JpgCompressionMethods
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف أوضاع ضغط Jpg
 type: docs
-weight: 1510
+weight: 1670
 url: /ar/net/groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 ## JpgCompressionMethods class

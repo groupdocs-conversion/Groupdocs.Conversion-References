@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد الطرق المستخدمة لإجراء التسجيل.
 type: docs
-weight: 1270
+weight: 1400
 url: /ar/net/groupdocs.conversion.logging/ilogger/
 ---
 ## ILogger interface

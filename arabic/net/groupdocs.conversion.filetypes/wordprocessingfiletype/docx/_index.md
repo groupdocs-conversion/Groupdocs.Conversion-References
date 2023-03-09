@@ -3,7 +3,7 @@ title: Docx
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: DOCX هو تنسيق معروف لمستندات Microsoft Word. تم تقديمه من عام 2007 مع إصدار Microsoft Office 2007  تم تغيير هيكل تنسيق المستند الجديد هذا من ثنائي عادي إلى مجموعة من ملفات XML والملفات الثنائية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx/
 ---
 ## WordProcessingFileType.Docx field

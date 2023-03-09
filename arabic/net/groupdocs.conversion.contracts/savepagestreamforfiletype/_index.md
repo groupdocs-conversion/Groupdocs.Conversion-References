@@ -3,7 +3,7 @@ title: SavePageStreamForFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف المفوض لحفظ صفحة المستند المحولة في التدفق.
 type: docs
-weight: 460
+weight: 500
 url: /ar/net/groupdocs.conversion.contracts/savepagestreamforfiletype/
 ---
 ## SavePageStreamForFileType delegate

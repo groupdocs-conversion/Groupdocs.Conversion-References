@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد إعدادات التخصيصConverter./converter السلوك .
 type: docs
-weight: 680
+weight: 740
 url: /ar/net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -18,7 +18,7 @@ public sealed class ConverterSettings
 
 | اسم | وصف |
 | --- | --- |
-| [ConverterSettings](convertersettings)() | Default_Constructor |
+| [ConverterSettings](convertersettings)() | المُنشئ الافتراضي |
 
 ## الخصائص
 

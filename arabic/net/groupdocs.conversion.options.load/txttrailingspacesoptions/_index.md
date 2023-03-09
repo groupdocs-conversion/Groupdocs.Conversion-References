@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد خيارات مسافات زائدة txt .
 type: docs
-weight: 2060
+weight: 2310
 url: /ar/net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

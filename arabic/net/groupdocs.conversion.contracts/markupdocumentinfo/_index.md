@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند التوصيف
 type: docs
-weight: 310
+weight: 330
 url: /ar/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
@@ -11,7 +11,8 @@ url: /ar/net/groupdocs.conversion.contracts/markupdocumentinfo/
 يحتوي على بيانات وصفية لمستند التوصيف
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## الخصائص
@@ -19,7 +20,7 @@ public class MarkupDocumentInfo : DocumentInfo
 | اسم | وصف |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | تاريخ إنشاء المستند |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | ترميز المستند المكتشف |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | ترميز المستند المكتشف |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | تنسيق المستند |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | الحصول على قيمة لخاصية مقدمة كمفتاح |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | عدد صفحات المستند . |
@@ -28,7 +29,7 @@ public class MarkupDocumentInfo : DocumentInfo
 
 ### أنظر أيضا
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * مساحة الاسم [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * المجسم [GroupDocs.Conversion](../../)
 

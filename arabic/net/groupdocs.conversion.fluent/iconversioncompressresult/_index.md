@@ -3,7 +3,7 @@ title: IConversionCompressResult
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمكن ضغط جميع نتائج التحويل في أرشيف واحد
 type: docs
-weight: 1010
+weight: 1140
 url: /ar/net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface

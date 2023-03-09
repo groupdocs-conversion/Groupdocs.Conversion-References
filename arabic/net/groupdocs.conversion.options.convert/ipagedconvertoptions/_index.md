@@ -3,7 +3,7 @@ title: IPagedConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل خيارات التحويل التي تسمح للتحويل بأداء قيود الصفحة عن طريق تحديد صفحة البداية وعدد الصفحات
 type: docs
-weight: 1440
+weight: 1600
 url: /ar/net/groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 ## IPagedConvertOptions interface

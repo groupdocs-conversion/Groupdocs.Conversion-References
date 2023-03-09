@@ -3,7 +3,7 @@ title: TiffCompressionMethods
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد طرق ضغط Tiff .
 type: docs
-weight: 1740
+weight: 1920
 url: /ar/net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 ## TiffCompressionMethods class

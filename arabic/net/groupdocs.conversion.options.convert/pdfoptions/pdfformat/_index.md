@@ -3,7 +3,7 @@ title: PdfFormat
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يضبط تنسيق pdf للمستند المحول.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/groupdocs.conversion.options.convert/pdfoptions/pdfformat/
 ---
 ## PdfOptions.PdfFormat property

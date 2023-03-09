@@ -17,20 +17,26 @@ url: /ar/net/groupdocs.conversion.options.load/
 | [CadLoadOptions](./cadloadoptions) | خيارات لتحميل مستندات CAD . |
 | [CompressionLoadOptions](./compressionloadoptions) | خيارات لتحميل مستندات الضغط . |
 | [CsvLoadOptions](./csvloadoptions) | خيارات لتحميل مستندات Csv . |
+| [DatabaseLoadOptions](./databaseloadoptions) | خيارات لتحميل مستندات قاعدة البيانات. |
 | [DataLoadOptions](./dataloadoptions) | خيارات لتحميل مستندات البيانات. |
 | [DiagramLoadOptions](./diagramloadoptions) | خيارات لتحميل مستندات الرسم التخطيطي . |
+| [EBookLoadOptions](./ebookloadoptions) | خيارات لتحميل مستندات الكتاب الإلكتروني. |
 | [EmailField](./emailfield) | يصف تعداد حقول البريد الإلكتروني |
 | [EmailLoadOptions](./emailloadoptions) | خيارات لتحميل مستندات البريد الإلكتروني. |
 | [EpubLoadOptions](./epubloadoptions) | خيارات لتحميل مستندات Epub . |
+| [FinanceLoadOptions](./financeloadoptions) | خيارات لتحميل المستندات المالية. |
+| [FontLoadOptions](./fontloadoptions) | خيارات لتحميل مستندات الخط. |
 | [ImageLoadOptions](./imageloadoptions) | خيارات لتحميل مستندات الصورة . |
 | [LoadOptions](./loadoptions) | فئة خيارات تحميل مستند الملخص . |
 | [MarkupLoadOptions](./markuploadoptions) | خيارات لتحميل مستندات التوصيف . |
 | [MboxLoadOptions](./mboxloadoptions) | خيارات لتحميل مستندات Mbox . |
 | [NoteLoadOptions](./noteloadoptions) | خيارات لتحميل مستندات واحدة. |
 | [NsfLoadOptions](./nsfloadoptions) | خيارات لتحميل مستندات Nsf . |
+| [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | خيارات لتحميل مستندات لغة وصف الصفحة. |
 | [PdfLoadOptions](./pdfloadoptions) | خيارات لتحميل مستندات PDF . |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | خيارات لتحميل مستندات التخزين الشخصية. |
 | [PresentationLoadOptions](./presentationloadoptions) | خيارات لتحميل مستندات العرض التقديمي. |
+| [PublisherLoadOptions](./publisherloadoptions) | خيارات لتحميل مستندات Publisher. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | خيارات لتحميل مستندات جدول البيانات . |
 | [ThreeDLoadOptions](./threedloadoptions) | خيارات لتحميل المستندات ثلاثية الأبعاد . |
 | [TsvLoadOptions](./tsvloadoptions) | خيارات لتحميل مستندات Tsv . |
@@ -39,6 +45,7 @@ url: /ar/net/groupdocs.conversion.options.load/
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | يصف تعداد خيارات مسافات زائدة txt . |
 | [VcfLoadOptions](./vcfloadoptions) | خيارات لتحميل مستندات Vcf . |
 | [VideoLoadOptions](./videoloadoptions) | خيارات لتحميل مستندات الفيديو. |
+| [WebLoadOptions](./webloadoptions) | خيارات لتحميل مستندات الويب. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | خيارات للتعامل مع الإشارات المرجعية في WordProcessing |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | خيارات لتحميل مستندات معالجة الكلمات. |
 | [XmlLoadOptions](./xmlloadoptions) | خيارات لتحميل مستندات XML . |

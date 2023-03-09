@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات تعريف عنصر جدول المحتويات
 type: docs
-weight: 500
+weight: 540
 url: /ar/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

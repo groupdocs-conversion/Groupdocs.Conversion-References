@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | مزود خيارات التحميل |
+| loadOptionsProvider | Func`2 | تحميل خيارات المزود نوع الملف الذي تم تحميله |
 
 ### أنظر أيضا
 

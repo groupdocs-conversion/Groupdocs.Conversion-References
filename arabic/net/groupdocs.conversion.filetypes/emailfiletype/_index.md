@@ -1,14 +1,14 @@
 ---
 title: EmailFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يحدد تنسيقات ملفات البريد الإلكتروني التي تستخدمها تطبيقات البريد الإلكتروني لتخزين بياناتها المختلفة بما في ذلك رسائل البريد الإلكتروني والمرفقات والمجلدات ودفاتر العناوين وما إلى ذلك يتضمن أنواع الملفات التالية Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf . Mbox./emailfiletype/mbox . اعرف المزيد حول تنسيقات البريد الإلكترونيهناhttps//wiki.fileformat.com/email .
+description: يحدد تنسيقات ملفات البريد الإلكتروني التي تستخدمها تطبيقات البريد الإلكتروني لتخزين بياناتها المختلفة بما في ذلك رسائل البريد الإلكتروني والمرفقات والمجلدات ودفاتر العناوين وما إلى ذلك يتضمن أنواع الملفات التالية Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf . Mbox./emailfiletype/mbox . Pst./emailfiletype/pst . Ost./emailfiletype/ost . اعرف المزيد حول تنسيقات البريد الإلكترونيهناhttps//wiki.fileformat.com/email .
 type: docs
-weight: 840
+weight: 920
 url: /ar/net/groupdocs.conversion.filetypes/emailfiletype/
 ---
 ## EmailFileType class
 
-يحدد تنسيقات ملفات البريد الإلكتروني التي تستخدمها تطبيقات البريد الإلكتروني لتخزين بياناتها المختلفة بما في ذلك رسائل البريد الإلكتروني والمرفقات والمجلدات ودفاتر العناوين وما إلى ذلك يتضمن أنواع الملفات التالية: [`Eml`](./eml) ، [`Emlx`](./emlx) ، [`Msg`](./msg) ، [`Vcf`](./vcf) . [`Mbox`](./mbox) . اعرف المزيد حول تنسيقات البريد الإلكتروني[هنا](https://wiki.fileformat.com/email) .
+يحدد تنسيقات ملفات البريد الإلكتروني التي تستخدمها تطبيقات البريد الإلكتروني لتخزين بياناتها المختلفة بما في ذلك رسائل البريد الإلكتروني والمرفقات والمجلدات ودفاتر العناوين وما إلى ذلك يتضمن أنواع الملفات التالية: [`Eml`](./eml) ، [`Emlx`](./emlx) ، [`Msg`](./msg) ، [`Vcf`](./vcf) . [`Mbox`](./mbox) . [`Pst`](./pst) . [`Ost`](./ost) . اعرف المزيد حول تنسيقات البريد الإلكتروني[هنا](https://wiki.fileformat.com/email) .
 
 ```csharp
 public sealed class EmailFileType : FileType
@@ -34,7 +34,7 @@ public sealed class EmailFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |
@@ -47,6 +47,8 @@ public sealed class EmailFileType : FileType
 | static readonly [Emlx](../../groupdocs.conversion.filetypes/emailfiletype/emlx) | تم تنفيذ وتطوير تنسيق ملف EMLX بواسطة Apple. يستخدم تطبيق Apple Mail تنسيق ملف EMLX لتصدير رسائل البريد الإلكتروني . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/email/emlx) . |
 | static readonly [Mbox](../../groupdocs.conversion.filetypes/emailfiletype/mbox) | تنسيق ملف MBox هو مصطلح عام يمثل حاوية لتجميع رسائل البريد الإلكتروني. يتم تخزين الرسائل داخل الحاوية مع مرفقاتها . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/email/mbox/) . |
 | static readonly [Msg](../../groupdocs.conversion.filetypes/emailfiletype/msg) | MSG هو تنسيق ملف يستخدمه Microsoft Outlook و Exchange لتخزين رسائل البريد الإلكتروني أو جهة الاتصال أو الموعد أو المهام الأخرى. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/email/msg) . |
+| static readonly [Ost](../../groupdocs.conversion.filetypes/emailfiletype/ost) | تمثل ملفات OST أو Offline Storage بيانات صندوق بريد المستخدم في وضع عدم الاتصال على الجهاز المحلي عند التسجيل مع Exchange Server باستخدام Microsoft Outlook. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/email/ost) . |
+| static readonly [Pst](../../groupdocs.conversion.filetypes/emailfiletype/pst) | تمثل الملفات ذات الامتداد .PST ملفات التخزين الشخصية في Outlook (تسمى أيضًا جدول التخزين الشخصي) التي تخزن مجموعة متنوعة من معلومات المستخدم . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/email/pst) . |
 | static readonly [Vcf](../../groupdocs.conversion.filetypes/emailfiletype/vcf) | VCF (تنسيق البطاقة الافتراضية) أو vCard هو تنسيق ملف رقمي لتخزين معلومات جهات الاتصال. يستخدم التنسيق على نطاق واسع لتبادل البيانات بين تطبيقات تبادل المعلومات الشائعة . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/email/vcf) . |
 
 ### أنظر أيضا

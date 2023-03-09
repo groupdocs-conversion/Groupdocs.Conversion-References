@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل المستندات الصوتية.
 type: docs
-weight: 1820
+weight: 2010
 url: /ar/net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class

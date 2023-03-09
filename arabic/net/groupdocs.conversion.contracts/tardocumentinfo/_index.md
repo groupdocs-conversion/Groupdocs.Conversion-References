@@ -3,7 +3,7 @@ title: TarDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات تعريف مستند Tar
 type: docs
-weight: 510
+weight: 550
 url: /ar/net/groupdocs.conversion.contracts/tardocumentinfo/
 ---
 ## TarDocumentInfo class

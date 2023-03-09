@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يحدد تنسيقات ملفات الويب والعلامات. يتضمن أنواع الملفات التالية Htm./markupfiletype/htm  Html./markupfiletype/html . تعرف على المزيد حول تنسيقات الصورهناhttps//wiki.fileformat.com/web .
+description: يحدد تنسيقات ملفات الويب والعلامات. يتضمن أنواع الملفات التالية Htm  Html . تعرف على المزيد حول تنسيقات الصورهناhttps//wiki.fileformat.com/web .
 type: docs
-weight: 870
+weight: 970
 url: /ar/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-يحدد تنسيقات ملفات الويب والعلامات. يتضمن أنواع الملفات التالية: [`Htm`](./htm) ، [`Html`](./html) . تعرف على المزيد حول تنسيقات الصور[هنا](https://wiki.fileformat.com/web) .
+يحدد تنسيقات ملفات الويب والعلامات. يتضمن أنواع الملفات التالية: Htm ، Html . تعرف على المزيد حول تنسيقات الصور[هنا](https://wiki.fileformat.com/web) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | مُنشئ التسلسل |
 
 ## الخصائص
 
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |
-
-## مجالات
-
-| اسم | وصف |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | يمثل تنسيق ملف CHM ملف تعليمات Microsoft HTML الذي يتكون من مجموعة من صفحات HTML. يوفر فهرسًا للوصول السريع إلى الموضوعات والتنقل إلى أجزاء مختلفة من مستند المساعدة. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/web/chm) . |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM (لغة ترميز النص التشعبي) هي امتداد لصفحات الويب التي تم إنشاؤها للعرض في المستعرضات. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/web/html) . |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML (لغة ترميز النص التشعبي) هي امتداد لصفحات الويب التي تم إنشاؤها للعرض في المتصفحات. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/web/html) . |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | تمثل الملفات ذات الامتداد MHTML تنسيق أرشيف لصفحة الويب يمكن إنشاؤه بواسطة عدد من التطبيقات المختلفة. يُعرف التنسيق باسم تنسيق الأرشيف لأنه يحفظ رمز الويب HTML والموارد المرتبطة به في ملف واحد. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/web/mhtml) . |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | تمثل الملفات ذات الامتداد MHTML تنسيق أرشيف لصفحة الويب يمكن إنشاؤه بواسطة عدد من التطبيقات المختلفة. يُعرف التنسيق باسم تنسيق الأرشيف لأنه يحفظ رمز الويب HTML والموارد المرتبطة به في ملف واحد. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/web/mhtml) . |
 
 ### أنظر أيضا
 

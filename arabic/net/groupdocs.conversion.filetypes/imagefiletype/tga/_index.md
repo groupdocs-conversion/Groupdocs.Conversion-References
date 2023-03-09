@@ -3,7 +3,7 @@ title: Tga
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف بامتداد .tga هو تنسيق رسومي نقطي تم إنشاؤه بواسطة Truevision Inc. تعرف على المزيد حول تنسيق الملف هذاهناhttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

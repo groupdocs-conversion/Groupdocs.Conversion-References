@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يسمح بالتحكم في كيفية تحويل مستند PDF إلى مستند معالجة كلمات.
 type: docs
-weight: 1640
+weight: 1820
 url: /ar/net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 ## PdfRecognitionMode class
