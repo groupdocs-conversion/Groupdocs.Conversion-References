@@ -26,7 +26,7 @@ public Converter(Func<Stream> document)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -54,7 +54,7 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -83,7 +83,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -114,7 +114,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -140,11 +140,11 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | document | Func`1 | Метод, который возвращает читаемый поток. |
-| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. |
+| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. Тип исходного файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -171,12 +171,12 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | document | Func`1 | Метод, который возвращает читаемый поток. |
-| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. |
+| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. Тип исходного файла |
 | settings | Func`1 | Настройки конвертера. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -206,7 +206,7 @@ public Converter(string filePath)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -234,7 +234,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -263,7 +263,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -293,7 +293,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -319,11 +319,11 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к исходному документу. |
-| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. |
+| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. Тип исходного файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -350,12 +350,12 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к исходному документу. |
-| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. |
+| loadOptions | Func`2 | Методы, возвращающие параметры загрузки документа. Тип исходного файла |
 | settings | Func`1 | Настройки конвертера. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о том, как загружать и преобразовывать документы, хранящиеся на FTP, в хранилище Amazon S3, Windows Azure или любом другом стороннем хранилище: [Загрузка документа из разных источников](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Подробнее о параметрах загрузки документов в зависимости от типа файла: [Параметры загрузки для разных типов документов](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)

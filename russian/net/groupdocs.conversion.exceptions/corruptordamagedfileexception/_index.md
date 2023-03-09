@@ -3,7 +3,7 @@ title: CorruptOrDamagedFileException
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Исключение GroupDocs возникает когда файл поврежден или поврежден
 type: docs
-weight: 700
+weight: 760
 url: /ru/net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 ---
 ## CorruptOrDamagedFileException class

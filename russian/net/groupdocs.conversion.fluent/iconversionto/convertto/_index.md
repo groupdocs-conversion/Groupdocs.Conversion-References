@@ -31,18 +31,17 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 Сохранить преобразованный документ как stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | Поставщик преобразованного потока документов |
+| convertedStreamProvider | Func`1 | Поставщик преобразованного потока документов |
 
 ### Возвращаемое значение
 
@@ -51,25 +50,24 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 ### Смотрите также
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * пространство имен [GroupDocs.Conversion.Fluent](../../iconversionto)
 * сборка [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
 Сохранить конвертированный документ как поток по типу
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | Поставщик преобразованного потока документов |
+| convertedStreamProvider | Func`2 | Преобразованный поток документов provider |
 
 ### Возвращаемое значение
 
@@ -78,7 +76,7 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 ### Смотрите также
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * пространство имен [GroupDocs.Conversion.Fluent](../../iconversionto)
 * сборка [GroupDocs.Conversion](../../../)

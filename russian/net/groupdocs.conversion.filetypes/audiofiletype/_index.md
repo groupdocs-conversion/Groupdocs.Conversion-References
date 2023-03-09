@@ -3,7 +3,7 @@ title: AudioFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет аудио документы Включает следующие типы Mp3./audiofiletype/mp3  Aac./audiofiletype/aac  Aiff./audiofiletype/aiff  Flac./audiofiletype/flac  M4a./audiofiletype/m4a  Wma./audiofiletype/wma  Ac3./audiofiletype/ac3  Ogg./audiofiletype/ogg  Wav./audiofiletype/wav  Подробнее об аудиоформатахздесьhttps//docs.fileformat.com/audio/ .
 type: docs
-weight: 790
+weight: 850
 url: /ru/net/groupdocs.conversion.filetypes/audiofiletype/
 ---
 ## AudioFileType class
@@ -34,7 +34,7 @@ public sealed class AudioFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

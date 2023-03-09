@@ -30,10 +30,12 @@ url: /ru/net/groupdocs.conversion.contracts/
 | [Enumeration](./enumeration) | Общий класс перечисления. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Содержит метаданные документа Ps |
 | [EpubDocumentInfo](./epubdocumentinfo) | Содержит метаданные документа Epub |
+| [FontDocumentInfo](./fontdocumentinfo) | Содержит метаданные документа шрифта |
 | [FontSubstitute](./fontsubstitute) | Описывает замену отсутствующего шрифта. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Содержит метаданные документа Gzip |
 | [IcoDocumentInfo](./icodocumentinfo) | Содержит метаданные документа Ico |
 | [ImageDocumentInfo](./imagedocumentinfo) | Содержит метаданные документа изображения |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Содержит метаданные документа iXbrl |
 | [JsonDocumentInfo](./jsondocumentinfo) | Содержит метаданные документа Json |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Содержит метаданные документа Lzip |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Содержит метаданные документа Lzma |
@@ -43,11 +45,13 @@ url: /ru/net/groupdocs.conversion.contracts/
 | [PclDocumentInfo](./pcldocumentinfo) | Содержит метаданные документа Pcl |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Содержит метаданные PDF-документа |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Содержит метаданные документа личного хранилища |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Личная папка хранения info |
 | [PossibleConversions](./possibleconversions) | Представляет сопоставление, какие пары преобразования поддерживаются для определенного формата исходного файла |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Содержит метаданные документа презентации |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Содержит метаданные документа ProjectManagement |
 | [PsdDocumentInfo](./psddocumentinfo) | Содержит метаданные документа Psd |
 | [PsDocumentInfo](./psdocumentinfo) | Содержит метаданные документа Ps |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Содержит метаданные документа издателя |
 | [RarDocumentInfo](./rardocumentinfo) | Содержит метаданные документа Rar |
 | [SaveDocumentStream](./savedocumentstream) | Описывает делегат для сохранения преобразованного документа в поток. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Описывает делегат для сохранения преобразованного документа в поток. |
@@ -66,7 +70,9 @@ url: /ru/net/groupdocs.conversion.contracts/
 | [ValueObject](./valueobject) | Класс объекта абстрактного значения. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Содержит метаданные документа Vcf |
 | [VideoDocumentInfo](./videodocumentinfo) | Содержит метаданные видеодокумента |
+| [WebDocumentInfo](./webdocumentinfo) | Содержит метаданные документа разметки |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Содержит метаданные документа WordProcessing |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Содержит метаданные документа Xbrl |
 | [XmlDocumentInfo](./xmldocumentinfo) | Содержит метаданные XML-документа |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Содержит метаданные документа XPS |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Содержит метаданные документа XslFo |

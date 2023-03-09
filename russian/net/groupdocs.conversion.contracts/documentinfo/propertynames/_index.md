@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.conversion.contracts/documentinfo/propertynames/
 Перечисление всех свойств, которые можно получить для текущего документа info
 
 ```csharp
-public IEnumerable<string> PropertyNames { get; }
+public string[] PropertyNames { get; }
 ```
 
 ### Смотрите также

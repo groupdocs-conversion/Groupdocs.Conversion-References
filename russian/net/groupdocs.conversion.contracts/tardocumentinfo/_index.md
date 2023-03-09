@@ -3,7 +3,7 @@ title: TarDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные документа Tar
 type: docs
-weight: 510
+weight: 550
 url: /ru/net/groupdocs.conversion.contracts/tardocumentinfo/
 ---
 ## TarDocumentInfo class

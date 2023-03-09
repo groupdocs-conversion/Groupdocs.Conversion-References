@@ -30,7 +30,7 @@ public sealed class FileCache : ICache
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о кэшировании и оптимизации производительности процесса преобразования: [Кэширование результатов конвертации](https://docs.groupdocs.com/display/conversionnet/Caching)
 

@@ -3,7 +3,7 @@ title: Psd
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: PSD Документ Photoshop представляет собственный формат файлов Adobe Photoshop используемый для графического дизайна и разработки. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 320
+weight: 300
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/psd/
 ---
 ## ImageFileType.Psd field

@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Еслиистинный ввод сначала преобразуется в PDF а затем в желаемый формат.
+description: Еслиистинный  ввод сначала преобразуется в PDF а затем в желаемый формат.
 type: docs
 weight: 140
 url: /ru/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-Если`истинный` ввод сначала преобразуется в PDF, а затем в желаемый формат.
+Если`истинный` , ввод сначала преобразуется в PDF, а затем в желаемый формат.
 
 ```csharp
 public bool UsePdf { get; set; }

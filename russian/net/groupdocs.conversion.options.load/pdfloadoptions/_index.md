@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки PDFдокументов.
 type: docs
-weight: 1980
+weight: 2220
 url: /ru/net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class

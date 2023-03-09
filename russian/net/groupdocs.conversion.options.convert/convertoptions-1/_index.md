@@ -3,7 +3,7 @@ title: ConvertOptionsTFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Абстрактный универсальный класс параметров преобразования.
 type: docs
-weight: 1340
+weight: 1470
 url: /ru/net/groupdocs.conversion.options.convert/convertoptions-1/
 ---
 ## ConvertOptions&lt;TFileType&gt; class

@@ -3,7 +3,7 @@ title: InvalidConvertOptionsException
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Выбрасывается если предоставленные параметры преобразования недействительны
 type: docs
-weight: 750
+weight: 810
 url: /ru/net/groupdocs.conversion.exceptions/invalidconvertoptionsexception/
 ---
 ## InvalidConvertOptionsException class

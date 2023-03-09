@@ -3,7 +3,7 @@ title: Otg
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файл OTG  это шаблон чертежа созданный с использованием стандарта OpenDocument который соответствует спецификации OASIS Office Applications 1.0. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field

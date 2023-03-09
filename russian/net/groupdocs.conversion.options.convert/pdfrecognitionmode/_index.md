@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Позволяет управлять преобразованием PDFдокумента в текстовый документ.
 type: docs
-weight: 1640
+weight: 1820
 url: /ru/net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 ## PdfRecognitionMode class

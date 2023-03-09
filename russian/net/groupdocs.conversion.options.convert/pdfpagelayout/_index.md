@@ -3,7 +3,7 @@ title: PdfPageLayout
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает макет страницы PDF.
 type: docs
-weight: 1620
+weight: 1800
 url: /ru/net/groupdocs.conversion.options.convert/pdfpagelayout/
 ---
 ## PdfPageLayout class

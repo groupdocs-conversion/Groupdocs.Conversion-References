@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет параметры преобразования поддерживающие поля страницы
 type: docs
-weight: 1400
+weight: 1560
 url: /ru/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

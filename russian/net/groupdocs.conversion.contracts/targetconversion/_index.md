@@ -3,7 +3,7 @@ title: TargetConversion
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет возможное целевое преобразование и флаг является ли оно первичным или вторичным
 type: docs
-weight: 520
+weight: 560
 url: /ru/net/groupdocs.conversion.contracts/targetconversion/
 ---
 ## TargetConversion class

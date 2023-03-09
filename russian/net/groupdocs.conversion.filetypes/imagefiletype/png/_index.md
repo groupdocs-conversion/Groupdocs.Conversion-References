@@ -3,7 +3,7 @@ title: Png
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: PNG переносимая сетевая графика относится к типу формата файла растрового изображения в котором используется сжатие без потерь. Этот формат файла был создан в качестве замены формата обмена графикой GIF и не имеет ограничений авторского права. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 300
+weight: 280
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field

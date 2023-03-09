@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.conversion.contracts/idocumentinfo/item/
 Получить значение свойства, предоставленного в виде ключа
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 | Параметр | Описание |

@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры для преобразования в тип файла Pdf.
 type: docs
-weight: 1560
+weight: 1730
 url: /ru/net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -35,7 +35,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Требуемое верхнее поле страницы в пикселях после преобразования. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Номер страницы, с которой начинается преобразование. |
 | [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Желаемая ориентация страницы после преобразования |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Количество страниц для конвертации, начиная с`Номер страницы` . |
 | [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Желаемый размер страницы после преобразования |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Установите это свойство, если хотите защитить преобразованный документ паролем. |

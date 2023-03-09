@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет возможные режимы раскрашивания объектов.
 type: docs
-weight: 1830
+weight: 2020
 url: /ru/net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class

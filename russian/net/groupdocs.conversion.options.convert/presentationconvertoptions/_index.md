@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает параметры для преобразования в тип файла презентации.
 type: docs
-weight: 1650
+weight: 1830
 url: /ru/net/groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 ## PresentationConvertOptions class
@@ -27,7 +27,7 @@ public class PresentationConvertOptions : CommonConvertOptions<PresentationFileT
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Желаемый тип файла, в который должен быть преобразован входной документ. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Желаемый тип файла, в который должен быть преобразован входной документ. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Номер страницы, с которой начинается преобразование. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Количество страниц для конвертации, начиная с`Номер страницы` . |
 | [Password](../../groupdocs.conversion.options.convert/presentationconvertoptions/password) { get; set; } | Установите это свойство, если хотите защитить преобразованный документ паролем. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Специальные параметры водяного знака |

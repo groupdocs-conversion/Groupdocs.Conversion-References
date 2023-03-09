@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет форматы создания заметок. Включает следующие типы файлов One./notefiletype/one . Подробнее о форматах создания заметокздесьhttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /ru/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

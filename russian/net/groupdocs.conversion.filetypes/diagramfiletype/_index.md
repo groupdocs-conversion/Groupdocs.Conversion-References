@@ -3,7 +3,7 @@ title: DiagramFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет документы диаграммы. Включает следующие типы Vdw./diagramfiletype/vdw  Vdx./diagramfiletype/vdx  Vsd./diagramfiletype/vsd  Vsdm./diagramfiletype/vsdm  Vsdx./diagramfiletype/vsdx  Vss./diagramfiletype/vss  Vssm./diagramfiletype/vssm  Vssx./diagramfiletype/vssx  Vst./diagramfiletype/vst  Vstm./diagramfiletype/vstm  Vstx./diagramfiletype/vstx  Vsx./diagramfiletype/vsx  Vtx./diagramfiletype/vtx .
 type: docs
-weight: 830
+weight: 900
 url: /ru/net/groupdocs.conversion.filetypes/diagramfiletype/
 ---
 ## DiagramFileType class
@@ -34,7 +34,7 @@ public sealed class DiagramFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

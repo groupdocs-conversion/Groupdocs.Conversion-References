@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Выбрасывается если замена шрифта недопустима
 type: docs
-weight: 720
+weight: 780
 url: /ru/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

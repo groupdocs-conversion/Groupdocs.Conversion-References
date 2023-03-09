@@ -3,7 +3,7 @@ title: ILogger
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет методы используемые для ведения журнала.
 type: docs
-weight: 1270
+weight: 1400
 url: /ru/net/groupdocs.conversion.logging/ilogger/
 ---
 ## ILogger interface

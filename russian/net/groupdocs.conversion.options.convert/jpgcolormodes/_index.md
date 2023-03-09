@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает перечисление цветовых режимов Jpg.
 type: docs
-weight: 1500
+weight: 1660
 url: /ru/net/groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 ## JpgColorModes class

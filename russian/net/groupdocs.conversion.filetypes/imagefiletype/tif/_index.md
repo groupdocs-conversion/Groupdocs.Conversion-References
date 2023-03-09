@@ -3,7 +3,7 @@ title: Tif
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: TIF Tagged Image File Format представляет собой растровые изображения которые предназначены для использования на различных устройствах соответствующих этому стандарту формата файлов. Он способен описывать двухуровневые полутоновые палитры и полноцветные данные изображения в нескольких цветовых пространствах. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 360
+weight: 330
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/tif/
 ---
 ## ImageFileType.Tif field

@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов Txt.
 type: docs
-weight: 2050
+weight: 2300
 url: /ru/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class

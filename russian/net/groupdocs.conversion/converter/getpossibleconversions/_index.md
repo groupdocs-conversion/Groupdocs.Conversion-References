@@ -16,7 +16,7 @@ public PossibleConversions GetPossibleConversions()
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о поддерживаемых преобразованиях: [Полный список поддерживаемых преобразований](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Узнайте больше о доступных преобразованиях: [Как получить поддерживаемые конверсии в коде](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
@@ -44,7 +44,7 @@ public static PossibleConversions GetPossibleConversions(string extension)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о поддерживаемых преобразованиях: [Полный список поддерживаемых преобразований](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Узнайте больше о доступных преобразованиях: [Как получить поддерживаемые конверсии в коде](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)

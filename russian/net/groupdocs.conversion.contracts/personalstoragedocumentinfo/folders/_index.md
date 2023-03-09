@@ -11,11 +11,12 @@ url: /ru/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Папки в хранилище
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### Смотрите также
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * пространство имен [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * сборка [GroupDocs.Conversion](../../../)

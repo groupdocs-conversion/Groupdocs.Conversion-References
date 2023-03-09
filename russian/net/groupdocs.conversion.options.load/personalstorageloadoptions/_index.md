@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов личного хранилища.
 type: docs
-weight: 1990
+weight: 2230
 url: /ru/net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class

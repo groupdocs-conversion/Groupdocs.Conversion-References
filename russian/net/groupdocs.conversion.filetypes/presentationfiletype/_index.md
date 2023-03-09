@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет форматы файлов презентаций в которых хранится коллекция записей для размещения данных презентации таких как слайды фигуры текст анимация видео аудио и встроенные объекты. Включает следующие типы файлов Odp./presentationfiletype/odp  Otp./presentationfiletype/otp  Pot./presentationfiletype/pot  Potm./presentationfiletype/potm  Potx./presentationfiletype/potx  Pps./presentationfiletype/pps  Ppsm./presentationfiletype/ppsm  Ppsx./presentationfiletype/ppsx  Ppt./presentationfiletype/ppt  Pptm./presentationfiletype/pptm  Pptx./presentationfiletype/pptx . Подробнее о форматах презентацийздесьhttps//wiki.fileformat.com/presentation .
 type: docs
-weight: 910
+weight: 1020
 url: /ru/net/groupdocs.conversion.filetypes/presentationfiletype/
 ---
 ## PresentationFileType class
@@ -34,7 +34,7 @@ public sealed class PresentationFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

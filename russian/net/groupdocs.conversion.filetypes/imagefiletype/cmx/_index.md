@@ -3,7 +3,7 @@ title: Cmx
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением CMX представляют собой формат файла изображения Corel Exchange который используется в качестве презентации приложениями CorelSuite. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field

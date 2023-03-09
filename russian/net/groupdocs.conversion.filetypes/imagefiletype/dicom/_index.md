@@ -3,7 +3,7 @@ title: Dicom
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением .DICOM представляют собой цифровые изображения в которых хранится медицинская информация о пациентах такая как МРТ компьютерная томография и ультразвуковые изображения. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field

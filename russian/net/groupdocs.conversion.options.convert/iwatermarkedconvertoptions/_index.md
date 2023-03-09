@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет параметры преобразования которые позволяют наносить водяные знаки на результат преобразования
 type: docs
-weight: 1460
+weight: 1620
 url: /ru/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

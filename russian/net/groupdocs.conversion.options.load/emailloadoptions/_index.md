@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов электронной почты.
 type: docs
-weight: 1900
+weight: 2110
 url: /ru/net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class

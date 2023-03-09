@@ -3,7 +3,7 @@ title: Dotx
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением DOTX представляют собой файлы шаблонов созданные Microsoft Word для предварительно отформатированных настроек для создания дополнительных файлов DOCX. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

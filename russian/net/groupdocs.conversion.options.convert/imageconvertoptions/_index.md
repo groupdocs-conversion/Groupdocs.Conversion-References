@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры для преобразования в тип файла изображения.
 type: docs
-weight: 1470
+weight: 1630
 url: /ru/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -36,12 +36,12 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Желаемое разрешение изображения по горизонтали после преобразования. Разрешение по умолчанию — это разрешение входного файла или 96 dpi. |
 | [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Конкретные параметры преобразования Jpeg. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Номер страницы, с которой начинается преобразование. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Количество страниц для конвертации, начиная с`Номер страницы` . |
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Конкретные параметры преобразования Psd. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Угол поворота изображения. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Специальные параметры преобразования Tiff. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Если`истинный` ввод сначала преобразуется в PDF, а затем в желаемый формат. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Если`истинный` , ввод сначала преобразуется в PDF, а затем в желаемый формат. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Желаемое вертикальное разрешение изображения после преобразования. Разрешение по умолчанию — это разрешение входного файла или 96 dpi. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Специальные параметры водяного знака |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Конкретные параметры преобразования Webp. |

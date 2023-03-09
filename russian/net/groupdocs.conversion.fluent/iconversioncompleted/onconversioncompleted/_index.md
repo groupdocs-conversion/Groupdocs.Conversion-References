@@ -1,23 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Получить преобразованный поток документов. Будет запущено только если установлено Сохранить строка или Сохранить SaveDocumentStreamForFileType.
+description: Получить преобразованный поток документов. Будет запущено только если установлено ConvertTostring fileName или ConvertToconvertedStreamProvider.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-Получить преобразованный поток документов. Будет запущено, только если установлено «Сохранить (строка)» или «Сохранить (SaveDocumentStreamForFileType)».
+Получить преобразованный поток документов. Будет запущено, только если установлено "ConvertTo(string fileName)" или ConvertTo(convertedStreamProvider)".
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | Поставщик преобразованного потока документов |
+| convertedFileStream | Action`2 | Преобразованный поток документов provider |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,6 @@ public IConversionConvertOrCompress OnConversionCompleted(
 ### Смотрите также
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * пространство имен [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * сборка [GroupDocs.Conversion](../../../)

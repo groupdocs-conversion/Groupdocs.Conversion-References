@@ -3,7 +3,7 @@ title: Rotation
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает перечисление чередования страниц
 type: docs
-weight: 1700
+weight: 1880
 url: /ru/net/groupdocs.conversion.options.convert/rotation/
 ---
 ## Rotation class

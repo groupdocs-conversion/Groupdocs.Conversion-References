@@ -6,29 +6,28 @@ type: docs
 weight: 20
 url: /ru/net/groupdocs.conversion/converter/convert/
 ---
-## Convert(SaveDocumentStream, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, ConvertOptions) {#convert}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStream | Делегат, сохраняющий преобразованный документ в поток. |
+| document | Func`1 | Делегат, сохраняющий преобразованный документ в поток. |
 | convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -36,32 +35,30 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStream | Делегат, сохраняющий преобразованный документ в поток. |
-| documentCompleted | ConvertedDocumentStream | Делегат, который получает преобразованный поток документов. |
+| document | Func`1 | Делегат, сохраняющий преобразованный документ в поток. |
+| documentCompleted | Action`2 | Делегат, который получает преобразованный поток документов. Поток содержимого файлаИмя файла |
 | convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -69,92 +66,30 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ---
 
-## Convert(SaveDocumentStream, ConvertOptionsProvider) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStream | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`1 | Делегат, сохраняющий преобразованный документ в поток. |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* пространство имен [GroupDocs.Conversion](../../converter)
-* сборка [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) {#convert}
-
-Преобразует исходный документ. Сохраняет весь преобразованный документ.
-
-```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| document | SaveDocumentStream | Делегат, сохраняющий преобразованный документ в поток. |
-| documentCompleted | ConvertedDocumentStream | Делегат, который получает преобразованный поток документов. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
-
-### Примечания
-
-**Учить больше**
-
-* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Смотрите также
-
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* пространство имен [GroupDocs.Conversion](../../converter)
-* сборка [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStreamForFileType, ConvertOptions) {#convert_7}
-
-Преобразует исходный документ. Сохраняет весь преобразованный документ.
-
-```csharp
-public void Convert(SaveDocumentStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
-
-### Примечания
-
-**Учить больше**
-
-* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Смотрите также
-
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -162,32 +97,31 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) {#convert_5}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| documentCompleted | ConvertedDocumentStream | Делегат, который получает преобразованный поток документов. |
-| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
+| document | Func`1 | Делегат, сохраняющий преобразованный документ в поток. |
+| documentCompleted | Action`2 | Делегат, который получает преобразованный поток документов. Поток содержимого файлаИмя файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -195,64 +129,125 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptionsProvider) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Тип исходного файла |
+| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
 * сборка [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
 
 Преобразует исходный документ. Сохраняет весь преобразованный документ.
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| documentCompleted | ConvertedDocumentStream | Делегат, который получает преобразованный поток документов. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Тип исходного файла |
+| documentCompleted | Action`2 | Делегат, который получает преобразованный поток документов. Поток содержимого файлаИмя файла |
+| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* пространство имен [GroupDocs.Conversion](../../converter)
+* сборка [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
+
+Преобразует исходный документ. Сохраняет весь преобразованный документ.
+
+```csharp
+public void Convert(Func<FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Тип исходного файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
+
+### Примечания
+
+**Узнать больше**
+
+* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Смотрите также
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* пространство имен [GroupDocs.Conversion](../../converter)
+* сборка [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
+
+Преобразует исходный документ. Сохраняет весь преобразованный документ.
+
+```csharp
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Тип исходного файла |
+| documentCompleted | Action`2 | Делегат, который получает преобразованный поток документов. Поток содержимого файлаИмя файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
+
+### Примечания
+
+**Узнать больше**
+
+* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Смотрите также
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
 * сборка [GroupDocs.Conversion](../../../)
@@ -274,7 +269,7 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
@@ -288,29 +283,28 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertOptions) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStream | Делегат, сохраняющий преобразованный документ в поток. |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Номер страницы |
 | convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -318,32 +312,30 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStream | Делегат, сохраняющий преобразованную страницу документа в поток. |
-| documentCompleted | ConvertedPageStream | Делегат, который получает преобразованный поток страниц документа. |
+| document | Func`2 | Делегат, сохраняющий преобразованную страницу документа в поток. Номер страницы |
+| documentCompleted | Action`3 | Делегат, который получает преобразованный поток страниц документа. Номер страницыПоток содержимого файлаИмя файла |
 | convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -351,92 +343,30 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ---
 
-## Convert(SavePageStream, ConvertOptionsProvider) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStream | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`2 | Делегат, сохраняющий преобразованный документ в поток. Номер страницы |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* пространство имен [GroupDocs.Conversion](../../converter)
-* сборка [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) {#convert_8}
-
-Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
-
-```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| document | SavePageStream | Делегат, сохраняющий преобразованную страницу документа в поток. |
-| documentCompleted | ConvertedPageStream | Делегат, который получает преобразованный поток страниц документа. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
-
-### Примечания
-
-**Учить больше**
-
-* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Смотрите также
-
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* пространство имен [GroupDocs.Conversion](../../converter)
-* сборка [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStreamForFileType, ConvertOptions) {#convert_15}
-
-Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
-
-```csharp
-public void Convert(SavePageStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| document | SavePageStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
-
-### Примечания
-
-**Учить больше**
-
-* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### Смотрите также
-
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -444,32 +374,31 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Делегат, сохраняющий преобразованную страницу документа в поток. |
-| documentCompleted | ConvertedPageStream | Делегат, который получает преобразованный поток страниц документа. |
-| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
+| document | Func`2 | Делегат, сохраняющий преобразованную страницу документа в поток. Номер страницы |
+| documentCompleted | Action`3 | Делегат, который получает преобразованный поток страниц документа. Номер страницыПоток содержимого файлаИмя файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
@@ -477,64 +406,126 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptionsProvider) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Делегат, сохраняющий преобразованный документ в поток. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`3 | Делегат, сохраняющий преобразованный документ в поток. Номер страницы |
+| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
 * сборка [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
 
 Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | Делегат, сохраняющий преобразованную страницу документа в поток. |
-| documentCompleted | ConvertedPageStream | Делегат, который получает преобразованный поток страниц документа. |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. |
+| document | Func`3 | Делегат, сохраняющий преобразованную страницу документа в поток. Номер страницыТип файла |
+| documentCompleted | Action`3 | Делегат, который получает преобразованный поток страниц документа. Номер страницыПоток содержимого файлаИмя файла |
+| convertOptions | ConvertOptions | Параметры преобразования, специфичные для желаемого целевого типа файла. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### Смотрите также
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* пространство имен [GroupDocs.Conversion](../../converter)
+* сборка [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
+
+Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| document | Func`3 | Делегат, сохраняющий преобразованный документ в поток. Номер страницыТип файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
+
+### Примечания
+
+**Узнать больше**
+
+* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Смотрите также
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* пространство имен [GroupDocs.Conversion](../../converter)
+* сборка [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
+
+Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей.
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| document | Func`3 | Делегат, сохраняющий преобразованную страницу документа в поток. Номер страницыТип файла |
+| documentCompleted | Action`3 | Делегат, который получает преобразованный поток страниц документа. Номер страницыПоток содержимого файлаИмя файла |
+| convertOptionsProvider | Func`3 | Конвертировать поставщик опций. Будет вызываться для каждого преобразования, чтобы предоставить определенные параметры преобразования в желаемый тип целевого документа. Имя файлаТип файла |
+
+### Примечания
+
+**Узнать больше**
+
+* Подробнее о базовых сценариях преобразования документов: [Как преобразовать документ в 3 шага](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* Варианты использования преобразования, дополнительные настройки и настройки: [Конвертировать документ с дополнительными настройками](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### Смотрите также
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * пространство имен [GroupDocs.Conversion](../../converter)
 * сборка [GroupDocs.Conversion](../../../)

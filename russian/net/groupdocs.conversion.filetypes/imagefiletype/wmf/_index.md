@@ -3,7 +3,7 @@ title: Wmf
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением WMF представляют собой метафайл Microsoft Windows WMF для хранения данных векторных и растровых изображений. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 390
+weight: 360
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/wmf/
 ---
 ## ImageFileType.Wmf field

@@ -3,7 +3,7 @@ title: IConversionGetDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Получает информацию об исходном документе  количество страниц и другие свойства документа относящиеся к типу файла.
 type: docs
-weight: 1110
+weight: 1240
 url: /ru/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface

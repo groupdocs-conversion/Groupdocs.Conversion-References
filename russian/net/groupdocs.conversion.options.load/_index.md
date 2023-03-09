@@ -17,20 +17,26 @@ url: /ru/net/groupdocs.conversion.options.load/
 | [CadLoadOptions](./cadloadoptions) | Параметры загрузки CAD-документов. |
 | [CompressionLoadOptions](./compressionloadoptions) | Параметры загрузки сжатых документов. |
 | [CsvLoadOptions](./csvloadoptions) | Опции для загрузки CSV-документов. |
+| [DatabaseLoadOptions](./databaseloadoptions) | Параметры загрузки документов базы данных. |
 | [DataLoadOptions](./dataloadoptions) | Опции для загрузки документов данных. |
 | [DiagramLoadOptions](./diagramloadoptions) | Параметры загрузки документов диаграмм. |
+| [EBookLoadOptions](./ebookloadoptions) | Опции для загрузки документов электронных книг. |
 | [EmailField](./emailfield) | Описывает поля электронной почты enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Параметры загрузки документов электронной почты. |
 | [EpubLoadOptions](./epubloadoptions) | Параметры загрузки документов Epub. |
+| [FinanceLoadOptions](./financeloadoptions) | Параметры загрузки финансовых документов. |
+| [FontLoadOptions](./fontloadoptions) | Параметры загрузки документов шрифтов. |
 | [ImageLoadOptions](./imageloadoptions) | Параметры загрузки документов изображений. |
 | [LoadOptions](./loadoptions) | Класс параметров загрузки абстрактного документа. |
 | [MarkupLoadOptions](./markuploadoptions) | Параметры загрузки документов разметки. |
 | [MboxLoadOptions](./mboxloadoptions) | Параметры загрузки документов Mbox. |
 | [NoteLoadOptions](./noteloadoptions) | Параметры загрузки документов One. |
 | [NsfLoadOptions](./nsfloadoptions) | Опции для загрузки документов NSF. |
+| [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Параметры загрузки документов на языке описания страниц. |
 | [PdfLoadOptions](./pdfloadoptions) | Параметры загрузки PDF-документов. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Параметры загрузки документов личного хранилища. |
 | [PresentationLoadOptions](./presentationloadoptions) | Параметры загрузки документов презентации. |
+| [PublisherLoadOptions](./publisherloadoptions) | Параметры загрузки документов Publisher. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Параметры загрузки электронных таблиц. |
 | [ThreeDLoadOptions](./threedloadoptions) | Параметры загрузки 3D-документов. |
 | [TsvLoadOptions](./tsvloadoptions) | Варианты загрузки документов Tsv. |
@@ -39,6 +45,7 @@ url: /ru/net/groupdocs.conversion.options.load/
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | Описывает перечисление опций завершающих пробелов txt. |
 | [VcfLoadOptions](./vcfloadoptions) | Параметры загрузки документов Vcf. |
 | [VideoLoadOptions](./videoloadoptions) | Параметры загрузки видеодокументов. |
+| [WebLoadOptions](./webloadoptions) | Опции для загрузки веб-документов. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Параметры обработки закладок в WordProcessing |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Параметры загрузки документов WordProcessing. |
 | [XmlLoadOptions](./xmlloadoptions) | Опции для загрузки XML-документов. |

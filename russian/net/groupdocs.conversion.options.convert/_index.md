@@ -20,8 +20,11 @@ url: /ru/net/groupdocs.conversion.options.convert/
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Абстрактный универсальный класс параметров преобразования. |
 | [DataConvertOptions](./dataconvertoptions) | Параметры преобразования в тип файла данных. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Параметры для преобразования в тип файла диаграммы. |
+| [EBookConvertOptions](./ebookconvertoptions) | Параметры для преобразования в тип файла электронной книги. |
 | [EmailConvertOptions](./emailconvertoptions) | Параметры для преобразования в тип файла электронной почты. |
+| [FinanceConvertOptions](./financeconvertoptions) | Параметры преобразования в финансовый тип. |
 | [Font](./font) | Настройки шрифта |
+| [FontConvertOptions](./fontconvertoptions) | Параметры преобразования в тип шрифта. |
 | [ImageConvertOptions](./imageconvertoptions) | Параметры для преобразования в тип файла изображения. |
 | [ImageFlipModes](./imageflipmodes) | Описывает режимы переворота изображения. |
 | [JpegOptions](./jpegoptions) | Параметры для преобразования в формат файла Jpeg. |
@@ -29,10 +32,12 @@ url: /ru/net/groupdocs.conversion.options.convert/
 | [JpgCompressionMethods](./jpgcompressionmethods) | Описывает режимы сжатия Jpg |
 | [MarkupConvertOptions](./markupconvertoptions) | Параметры для преобразования в тип файла разметки. |
 | [NoConvertOptions](./noconvertoptions) | Специальный класс параметров преобразования, который указывает преобразователю копировать исходный документ без какой-либо обработки |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Параметры преобразования в тип файла языка описания страниц. |
 | [PageOrientation](./pageorientation) | Указывает ориентацию страницы |
 | [PageSize](./pagesize) | Определяет размер страницы |
 | [PdfConvertOptions](./pdfconvertoptions) | Параметры для преобразования в тип файла Pdf. |
 | [PdfDirection](./pdfdirection) | Описывает направление текста в PDF. |
+| [PdfDocumentInfo](./pdfdocumentinfo) | Представляет метаинформацию документа PDF. |
 | [PdfFormats](./pdfformats) | Описывает перечисление форматов Pdf. |
 | [PdfFormattingOptions](./pdfformattingoptions) | Определяет параметры форматирования PDF. |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | Определяет параметры оптимизации PDF. |
@@ -55,6 +60,7 @@ url: /ru/net/groupdocs.conversion.options.convert/
 | [WatermarkImageOptions](./watermarkimageoptions) | Варианты установки водяного знака для конвертируемого документа |
 | [WatermarkOptions](./watermarkoptions) | Варианты установки водяного знака для конвертируемого документа |
 | [WatermarkTextOptions](./watermarktextoptions) | Варианты настройки текстового водяного знака для конвертируемого документа |
+| [WebConvertOptions](./webconvertoptions) | Параметры для преобразования в тип веб-файла. |
 | [WebpOptions](./webpoptions) | Параметры для преобразования в тип файла Webp. |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | Параметры для преобразования в тип файла WordProcessing. |
 ## Интерфейсы

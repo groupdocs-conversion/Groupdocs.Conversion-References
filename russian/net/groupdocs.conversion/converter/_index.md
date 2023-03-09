@@ -3,7 +3,7 @@ title: Converter
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет основной класс управляющий процессом преобразования документа.
 type: docs
-weight: 670
+weight: 730
 url: /ru/net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -36,23 +36,23 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(SaveDocumentStream, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(SaveDocumentStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(SaveDocumentStreamForFileType, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(SaveDocumentStreamForFileType, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(SavePageStream, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(SavePageStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(SavePageStreamForFileType, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(SavePageStreamForFileType, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(Func&lt;FileType, Stream&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(Func&lt;int, FileType, Stream&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(Func&lt;int, Stream&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert)(Func&lt;Stream&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_16)(string, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(SavePageStream, ConvertedPageStream, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет преобразованный документ страница за страницей. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Преобразует исходный документ. Сохраняет весь преобразованный документ. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Освобождает ресурсы. |
 | [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Получает информацию об исходном документе — количество страниц и другие свойства документа, относящиеся к типу файла. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | Получает возможные преобразования исходного документа. |

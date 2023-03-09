@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные документа электронной таблицы
 type: docs
-weight: 480
+weight: 520
 url: /ru/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class

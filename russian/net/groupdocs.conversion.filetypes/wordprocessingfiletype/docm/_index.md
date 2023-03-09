@@ -3,7 +3,7 @@ title: Docm
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы DOCM представляют собой документы Microsoft Word 2007 или более поздней версии с возможностью запуска макросов. Подробнее об этом формате файловздесьhttps//wiki.fileformat.com/wordprocessing/docm .
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm/
 ---
 ## WordProcessingFileType.Docm field

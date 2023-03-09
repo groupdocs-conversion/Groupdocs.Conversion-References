@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 Установить параметры преобразования
 
@@ -32,17 +32,19 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 Установить параметры преобразования
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Конвертировать поставщик опций |
+| Параметр | Описание |
+| --- | --- |
+| convertOptionsProvider | Конвертировать поставщик опций |
+| convertOptionsProvider arg2arg2 | Тип исходного файла |
 
 ### Возвращаемое значение
 
@@ -51,7 +53,8 @@ public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertO
 ### Смотрите также
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * пространство имен [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * сборка [GroupDocs.Conversion](../../../)

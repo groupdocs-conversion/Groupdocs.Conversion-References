@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Список индексов страниц которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц.
+description: Список индексов страниц которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц.
 type: docs
 weight: 20
 url: /ru/net/groupdocs.conversion.options.convert/commonconvertoptions-1/pages/
 ---
 ## CommonConvertOptions&lt;TFileType&gt;.Pages property
 
-Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц.
+Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц.
 
 ```csharp
 public List<int> Pages { get; set; }

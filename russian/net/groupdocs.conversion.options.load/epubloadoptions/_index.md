@@ -3,7 +3,7 @@ title: EpubLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов Epub.
 type: docs
-weight: 1910
+weight: 2120
 url: /ru/net/groupdocs.conversion.options.load/epubloadoptions/
 ---
 ## EpubLoadOptions class

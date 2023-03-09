@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Реализация консольного регистратора.
 type: docs
-weight: 1260
+weight: 1390
 url: /ru/net/groupdocs.conversion.logging/consolelogger/
 ---
 ## ConsoleLogger class

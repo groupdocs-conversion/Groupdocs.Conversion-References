@@ -3,7 +3,7 @@ title: Wmz
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файл WMZ на самом деле представляет собой сжатую версию файла Microsoft WMF. Это позволяет упростить распространение файла в Интернете. Когда файл EWMMFF сжимается с использованием алгоритма сжатия .GZIP ему присваивается расширение .wmz.
 type: docs
-weight: 400
+weight: 370
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

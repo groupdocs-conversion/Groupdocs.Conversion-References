@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов разметки.
 type: docs
-weight: 1940
+weight: 2170
 url: /ru/net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class
@@ -11,25 +11,20 @@ url: /ru/net/groupdocs.conversion.options.load/markuploadoptions/
 Параметры загрузки документов разметки.
 
 ```csharp
-public sealed class MarkupLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public sealed class MarkupLoadOptions : WebLoadOptions
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [MarkupLoadOptions](markuploadoptions)() | cтор |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BasePath](../../groupdocs.conversion.options.load/markuploadoptions/basepath) { get; set; } | Базовый путь/URL для html |
-| [Encoding](../../groupdocs.conversion.options.load/markuploadoptions/encoding) { get; set; } | Получить или установить кодировку, которая будет использоваться при загрузке документа разметки. Если свойство равно null, кодировка будет определяться набором символов документа attribute |
-| [Format](../../groupdocs.conversion.options.load/markuploadoptions/format) { get; set; } | Тип файла входного документа. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Базовый путь/URL для html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Получить или установить кодировку, которая будет использоваться при загрузке документа разметки. Если свойство равно null, кодировка будет определяться набором символов документа attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Тип файла входного документа. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Тип файла входного документа. |
-| [PageNumbering](../../groupdocs.conversion.options.load/markuploadoptions/pagenumbering) { get; set; } | Включить или отключить генерацию нумерации страниц в преобразованном документе. По умолчанию: false |
-| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/markuploadoptions/resourceloadingtimeout) { get; set; } | Тайм-аут для загрузки внешних ресурсов |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Включить или отключить генерацию нумерации страниц в преобразованном документе. По умолчанию: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Тайм-аут для загрузки внешних ресурсов |
 
 ## Методы
 
@@ -41,7 +36,7 @@ public sealed class MarkupLoadOptions : LoadOptions
 
 ### Смотрите также
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * пространство имен [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * сборка [GroupDocs.Conversion](../../)
 

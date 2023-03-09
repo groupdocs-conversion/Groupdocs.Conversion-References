@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки преобразования
 type: docs
-weight: 1130
+weight: 1260
 url: /ru/net/groupdocs.conversion.fluent/iconversionloadoptions/
 ---
 ## IConversionLoadOptions interface

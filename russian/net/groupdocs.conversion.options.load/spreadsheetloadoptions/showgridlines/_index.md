@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Показывать линии сетки при преобразовании файлов Excel.
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

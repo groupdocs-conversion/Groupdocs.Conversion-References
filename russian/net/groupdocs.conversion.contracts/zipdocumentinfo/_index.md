@@ -3,7 +3,7 @@ title: ZipDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные сжатого документа
 type: docs
-weight: 660
+weight: 720
 url: /ru/net/groupdocs.conversion.contracts/zipdocumentinfo/
 ---
 ## ZipDocumentInfo class

@@ -3,7 +3,7 @@ title: IPageRangedConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Представляет параметры преобразования которые поддерживают преобразование определенного списка страниц
 type: docs
-weight: 1420
+weight: 1580
 url: /ru/net/groupdocs.conversion.options.convert/ipagerangedconvertoptions/
 ---
 ## IPageRangedConvertOptions interface
@@ -18,7 +18,7 @@ public interface IPageRangedConvertOptions : IConvertOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Pages](../../groupdocs.conversion.options.convert/ipagerangedconvertoptions/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц. |
+| [Pages](../../groupdocs.conversion.options.convert/ipagerangedconvertoptions/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц. |
 
 ### Смотрите также
 

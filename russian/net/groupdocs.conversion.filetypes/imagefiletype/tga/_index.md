@@ -3,7 +3,7 @@ title: Tga
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файл с расширением .tga представляет собой растровый графический формат и был создан Truevision Inc. Узнайте больше об этом формате файлаздесьhttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

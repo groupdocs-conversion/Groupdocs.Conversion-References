@@ -3,7 +3,7 @@ title: License
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Предоставляет методы лицензирования компонента. Узнать больше о лицензированииздесьhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 1250
+weight: 1380
 url: /ru/net/groupdocs.conversion/license/
 ---
 ## License class
@@ -29,7 +29,7 @@ public sealed class License
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о лицензировании: [Часто задаваемые вопросы о лицензировании GroupDocs](https://purchase.groupdocs.com/faqs/licensing)
 * Подробнее о лицензировании GroupDocs.Conversion: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)

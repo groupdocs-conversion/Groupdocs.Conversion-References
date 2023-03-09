@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Шрифт по умолчанию для документа Note. Если шрифт отсутствует будет использоваться следующий шрифт. Должен быть указан абсолютный путь к файлу шрифта.
+description: Шрифт по умолчанию для документа Note. Если шрифт отсутствует будет использоваться следующий шрифт.
 type: docs
 weight: 20
 url: /ru/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Шрифт по умолчанию для документа Note. Если шрифт отсутствует, будет использоваться следующий шрифт. Должен быть указан абсолютный путь к файлу шрифта.
+Шрифт по умолчанию для документа Note. Если шрифт отсутствует, будет использоваться следующий шрифт.
 
 ```csharp
 public string DefaultFont { get; set; }

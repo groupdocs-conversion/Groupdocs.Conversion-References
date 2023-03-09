@@ -3,7 +3,7 @@ title: InvalidConverterSettingsException
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Выбрасывается если предоставленные настройки преобразователя недействительны
 type: docs
-weight: 760
+weight: 820
 url: /ru/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class

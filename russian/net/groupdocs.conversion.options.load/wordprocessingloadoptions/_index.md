@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов WordProcessing.
 type: docs
-weight: 2100
+weight: 2360
 url: /ru/net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Определяет документы САПР автоматизированное проектирование которые используются для форматов файлов 3Dграфики и могут содержать 2D или 3Dпроекты. Включает следующие типы Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . Подробнее о форматах САПРздесьhttps//wiki.fileformat.com/cad .
+description: Определяет документы САПР автоматизированное проектирование которые используются для форматов файлов 3Dграфики и могут содержать 2D или 3Dпроекты. Включает следующие типы Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . Подробнее о форматах САПРздесьhttps//wiki.fileformat.com/cad .
 type: docs
-weight: 800
+weight: 860
 url: /ru/net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-Определяет документы САПР (автоматизированное проектирование), которые используются для форматов файлов 3D-графики и могут содержать 2D- или 3D-проекты. Включает следующие типы: [`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . Подробнее о форматах САПР[здесь](https://wiki.fileformat.com/cad) .
+Определяет документы САПР (автоматизированное проектирование), которые используются для форматов файлов 3D-графики и могут содержать 2D- или 3D-проекты. Включает следующие типы: [`Cf2`](./cf2)[`Dgn`](./dgn) , [`Dwf`](./dwf) , [`Dwfx`](./dwfx)[`Dwg`](./dwg) , [`Dwt`](./dwt) , [`Dxf`](./dxf) , [`Ifc`](./ifc) , [`Igs`](./igs) , [`Plt`](./plt) , [`Stl`](./stl) . Подробнее о форматах САПР[здесь](https://wiki.fileformat.com/cad) .
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -34,7 +34,7 @@ public sealed class CadFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

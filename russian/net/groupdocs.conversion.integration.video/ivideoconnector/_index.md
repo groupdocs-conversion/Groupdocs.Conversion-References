@@ -3,7 +3,7 @@ title: IVideoConnector
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет методы необходимые для преобразования видеодокументов.
 type: docs
-weight: 1240
+weight: 1370
 url: /ru/net/groupdocs.conversion.integration.video/ivideoconnector/
 ---
 ## IVideoConnector interface

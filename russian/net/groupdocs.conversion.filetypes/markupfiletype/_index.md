@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Определяет форматы разметки и вебфайлов. Включает следующие типы файлов Htm./markupfiletype/htm  Html./markupfiletype/html . Подробнее о форматах изображенийздесьhttps//wiki.fileformat.com/web .
+description: Определяет форматы разметки и вебфайлов. Включает следующие типы файлов Htm  Html . Подробнее о форматах изображенийздесьhttps//wiki.fileformat.com/web .
 type: docs
-weight: 870
+weight: 970
 url: /ru/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-Определяет форматы разметки и веб-файлов. Включает следующие типы файлов: [`Htm`](./htm) , [`Html`](./html) . Подробнее о форматах изображений[здесь](https://wiki.fileformat.com/web) .
+Определяет форматы разметки и веб-файлов. Включает следующие типы файлов: Htm , Html . Подробнее о форматах изображений[здесь](https://wiki.fileformat.com/web) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | Конструктор сериализации |
 
 ## Характеристики
 
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |
-
-## Поля
-
-| Имя | Описание |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | Формат файла CHM представляет файл справки Microsoft HTML, который состоит из набора HTML-страниц. Он предоставляет указатель для быстрого доступа к разделам и навигации по различным частям справочного документа. Узнайте больше об этом формате файла[здесь](https://docs.fileformat.com/web/chm) . |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM (Hyper Text Markup Language) — это расширение для веб-страниц, созданных для отображения в браузерах. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/web/html) . |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML (Hyper Text Markup Language) — это расширение для веб-страниц, созданных для отображения в браузерах. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/web/html) . |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | Файлы с расширением MHTML представляют формат архива веб-страницы, который может быть создан рядом различных приложений. Этот формат известен как формат архива, поскольку он сохраняет веб-код HTML и связанные ресурсы в одном файле. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/web/mhtml) . |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | Файлы с расширением MHTML представляют формат архива веб-страницы, который может быть создан рядом различных приложений. Этот формат известен как формат архива, поскольку он сохраняет веб-код HTML и связанные ресурсы в одном файле. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/web/mhtml) . |
 
 ### Смотрите также
 

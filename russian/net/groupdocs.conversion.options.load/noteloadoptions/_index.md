@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов One.
 type: docs
-weight: 1960
+weight: 2190
 url: /ru/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Шрифт по умолчанию для документа Note. Если шрифт отсутствует, будет использоваться следующий шрифт. Должен быть указан абсолютный путь к файлу шрифта. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Шрифт по умолчанию для документа Note. Если шрифт отсутствует, будет использоваться следующий шрифт. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Замена определенных шрифтов при преобразовании документа Note. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Тип файла входного документа. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Тип файла входного документа. |

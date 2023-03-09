@@ -3,7 +3,7 @@ title: WebpOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры для преобразования в тип файла Webp.
 type: docs
-weight: 1800
+weight: 1990
 url: /ru/net/groupdocs.conversion.options.convert/webpoptions/
 ---
 ## WebpOptions class
