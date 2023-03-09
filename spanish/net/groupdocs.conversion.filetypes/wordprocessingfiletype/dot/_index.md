@@ -3,7 +3,7 @@ title: Dot
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos con la extensión .DOT son archivos de plantilla creados por Microsoft Word para tener configuraciones preformateadas para la generación de más archivos DOC o DOCX. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field

@@ -3,7 +3,7 @@ title: GroupDocsConversionException
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: GroupDocs.Excepción general de conversión
 type: docs
-weight: 730
+weight: 790
 url: /es/net/groupdocs.conversion.exceptions/groupdocsconversionexception/
 ---
 ## GroupDocsConversionException class

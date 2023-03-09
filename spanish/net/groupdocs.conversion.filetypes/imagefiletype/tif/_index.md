@@ -3,7 +3,7 @@ title: Tif
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: TIF formato de archivo de imagen etiquetado representa imágenes de trama diseñadas para su uso en una variedad de dispositivos que cumplen con este estándar de formato de archivo. Es capaz de describir datos de imagen de dos niveles escala de grises colores de paleta y a todo color en varios espacios de color. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 360
+weight: 330
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/tif/
 ---
 ## ImageFileType.Tif field

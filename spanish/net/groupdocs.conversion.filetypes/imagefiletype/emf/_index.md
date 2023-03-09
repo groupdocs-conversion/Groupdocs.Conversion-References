@@ -3,7 +3,7 @@ title: Emf
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: El formato de metarchivo mejorado EMF almacena imágenes gráficas independientemente del dispositivo. Los metarchivos de EMF se componen de registros de longitud variable en orden cronológico que pueden representar la imagen almacenada después de analizarla en cualquier dispositivo de salida. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 120
+weight: 110
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field

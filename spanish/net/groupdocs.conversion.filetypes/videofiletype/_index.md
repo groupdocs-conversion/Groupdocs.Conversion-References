@@ -3,7 +3,7 @@ title: VideoFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define documentos de video Incluye los siguientes tipos Mp4./videofiletype/mp4  Avi./videofiletype/avi  Flv./videofiletype/flv  Mkv./videofiletype/mkv  Mov./videofiletype/mov  Webm./videofiletype/webm  Wmv./videofiletype/wmv  Más información sobre los formatos de vídeoaquíhttps//docs.fileformat.com/video/ .
 type: docs
-weight: 950
+weight: 1070
 url: /es/net/groupdocs.conversion.filetypes/videofiletype/
 ---
 ## VideoFileType class
@@ -34,7 +34,7 @@ public sealed class VideoFileType : FileType
 | Nombre | Descripción |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compara el objeto actual con otro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina si dos instancias de objeto son iguales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sirve como la función hash predeterminada. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Representación de cadena |

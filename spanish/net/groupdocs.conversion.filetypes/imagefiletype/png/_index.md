@@ -3,7 +3,7 @@ title: Png
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: PNG Portable Network Graphics hace referencia a un tipo de formato de archivo de imagen de trama que utiliza compresión sin pérdidas. Este formato de archivo se creó como reemplazo del formato de intercambio de gráficos GIF y no tiene limitaciones de derechos de autor. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 300
+weight: 280
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field

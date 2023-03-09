@@ -3,7 +3,7 @@ title: PasswordProtectedDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: El documento proporcionado está protegido con contraseña
 type: docs
-weight: 330
+weight: 350
 url: /es/net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/
 ---
 ## PasswordProtectedDocumentInfo class

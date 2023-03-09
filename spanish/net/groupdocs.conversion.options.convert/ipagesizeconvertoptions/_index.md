@@ -3,7 +3,7 @@ title: IPageSizeConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Representa opciones de conversión que admiten el tamaño de página
 type: docs
-weight: 1430
+weight: 1590
 url: /es/net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/
 ---
 ## IPageSizeConvertOptions interface

@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos Txt.
 type: docs
-weight: 2050
+weight: 2300
 url: /es/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class

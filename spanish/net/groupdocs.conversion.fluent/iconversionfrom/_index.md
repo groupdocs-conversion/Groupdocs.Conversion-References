@@ -3,7 +3,7 @@ title: IConversionFrom
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Fuente de configuración para conversión
 type: docs
-weight: 1100
+weight: 1230
 url: /es/net/groupdocs.conversion.fluent/iconversionfrom/
 ---
 ## IConversionFrom interface

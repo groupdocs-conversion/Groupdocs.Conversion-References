@@ -3,7 +3,7 @@ title: SavePageStreamForFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Describe el delegado para guardar la página del documento convertido en flujo.
 type: docs
-weight: 460
+weight: 500
 url: /es/net/groupdocs.conversion.contracts/savepagestreamforfiletype/
 ---
 ## SavePageStreamForFileType delegate

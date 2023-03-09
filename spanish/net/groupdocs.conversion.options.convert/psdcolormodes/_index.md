@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define la enumeración de modos de color Psd.
 type: docs
-weight: 1670
+weight: 1850
 url: /es/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class

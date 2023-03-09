@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Mostrar líneas de cuadrícula al convertir archivos de Excel.
 type: docs
-weight: 130
+weight: 140
 url: /es/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

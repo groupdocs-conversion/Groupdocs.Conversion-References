@@ -3,7 +3,7 @@ title: CompressionFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define formatos de compresión. Incluye los siguientes tipos de archivo Zip./compressionfiletype/zip . Rar./compressionfiletype/rar . SevenZ./compressionfiletype/sevenz . Tar./compressionfiletype/tar . Gz./compressionfiletype/gz . Gzip./compressionfiletype/gzip . Bz2./compressionfiletype/bz2 . Más información sobre los formatos de compresiónaquíhttps//docs.fileformat.com/compression/ .
 type: docs
-weight: 810
+weight: 870
 url: /es/net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
@@ -34,7 +34,7 @@ public sealed class CompressionFileType : FileType
 | Nombre | Descripción |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compara el objeto actual con otro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina si dos instancias de objeto son iguales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sirve como la función hash predeterminada. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Representación de cadena |

@@ -3,7 +3,7 @@ title: IConversionCompletedOrConvert
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Manejar conversión completada o ejecutar conversion
 type: docs
-weight: 1000
+weight: 1130
 url: /es/net/groupdocs.conversion.fluent/iconversioncompletedorconvert/
 ---
 ## IConversionCompletedOrConvert interface

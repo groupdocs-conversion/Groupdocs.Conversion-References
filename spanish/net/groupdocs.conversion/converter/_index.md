@@ -3,7 +3,7 @@ title: Converter
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Representa la clase principal que controla el proceso de conversión de documentos.
 type: docs
-weight: 670
+weight: 730
 url: /es/net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -36,23 +36,23 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 
 | Nombre | Descripción |
 | --- | --- |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(SaveDocumentStream, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(SaveDocumentStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(SaveDocumentStreamForFileType, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(SaveDocumentStreamForFileType, ConvertOptionsProvider) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(SavePageStream, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(SavePageStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(SavePageStreamForFileType, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(SavePageStreamForFileType, ConvertOptionsProvider) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(Func&lt;FileType, Stream&gt;, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(Func&lt;int, FileType, Stream&gt;, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(Func&lt;int, Stream&gt;, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert)(Func&lt;Stream&gt;, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda todo el documento convertido. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_16)(string, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda todo el documento convertido. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(SavePageStream, ConvertedPageStream, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda el documento convertido página por página. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Convierte el documento de origen. Guarda todo el documento convertido. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Convierte el documento de origen. Guarda todo el documento convertido. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Libera recursos. |
 | [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Obtiene información del documento de origen: recuento de páginas y otras propiedades del documento específicas del tipo de archivo. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | Obtiene posibles conversiones para el documento fuente. |

@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento de almacenamiento personal
 type: docs
-weight: 360
+weight: 380
 url: /es/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 ---
 ## PersonalStorageDocumentInfo class

@@ -3,7 +3,7 @@ title: Odg
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: La aplicación Draw de Apache OpenOffice utiliza el formato de archivo ODG para almacenar elementos de dibujo como una imagen vectorial. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 280
+weight: 260
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/odg/
 ---
 ## ImageFileType.Odg field

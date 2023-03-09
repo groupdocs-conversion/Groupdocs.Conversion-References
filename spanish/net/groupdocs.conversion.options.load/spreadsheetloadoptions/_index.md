@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos de Hoja de Cálculo.
 type: docs
-weight: 2010
+weight: 2260
 url: /es/net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -35,6 +35,7 @@ public class SpreadsheetLoadOptions : LoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | Si OnePagePerSheet es verdadero, el contenido de la hoja se convertirá en una página en el documento PDF. El valor predeterminado es verdadero. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | Si es Verdadero y se convierte a Pdf, la conversión está optimizada para un mejor tamaño de archivo que la calidad de impresión. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Establecer contraseña para desproteger documento protegido. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Lista de índices de hojas a convertir. Los índices deben ser de base cero |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Nombre de hoja a convertir |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Mostrar líneas de cuadrícula al convertir archivos de Excel. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Mostrar hojas ocultas al convertir archivos de Excel. |

@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Valor_devuelto
 
-`verdadero` si el objeto especificado es igual al objeto actual; de lo contrario,`falso`.
+`verdadero` si el objeto especificado es igual al objeto actual; de lo contrario,`FALSO`.
 
 ### Ver también
 
@@ -44,7 +44,7 @@ public virtual bool Equals(Enumeration other)
 
 ### Valor_devuelto
 
-`verdadero` si el objeto especificado es igual al objeto actual; de lo contrario,`falso`.
+`verdadero` si el objeto especificado es igual al objeto actual; de lo contrario,`FALSO`.
 
 ### Ver también
 

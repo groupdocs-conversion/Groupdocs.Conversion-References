@@ -3,7 +3,7 @@ title: ImageDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento de imagen
 type: docs
-weight: 270
+weight: 280
 url: /es/net/groupdocs.conversion.contracts/imagedocumentinfo/
 ---
 ## ImageDocumentInfo class

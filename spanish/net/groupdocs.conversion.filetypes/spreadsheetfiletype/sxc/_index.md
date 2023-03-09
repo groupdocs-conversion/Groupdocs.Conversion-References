@@ -1,14 +1,14 @@
 ---
 title: Sxc
 second_title: Referencia de API de GroupDocs.Conversion para .NET
-description: Un formato basado en XML utilizado por OpenOffice y StarOffice
+description: El formato de archivo SXC Sun XML Calc pertenece a una suite ofimática llamada OpenOffice.org. Este formato generalmente se ocupa de las necesidades de hojas de cálculo de los usuarios ya que es un formato de archivo de hoja de cálculo basado en XML. El formato SXC admite fórmulas funciones macros y gráficos junto con DataPilot. Obtenga más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/sxc .
 type: docs
 weight: 80
 url: /es/net/groupdocs.conversion.filetypes/spreadsheetfiletype/sxc/
 ---
 ## SpreadsheetFileType.Sxc field
 
-Un formato basado en XML utilizado por OpenOffice y StarOffice
+El formato de archivo SXC (Sun XML Calc) pertenece a una suite ofimática llamada OpenOffice.org. Este formato generalmente se ocupa de las necesidades de hojas de cálculo de los usuarios, ya que es un formato de archivo de hoja de cálculo basado en XML. El formato SXC admite fórmulas, funciones, macros y gráficos junto con DataPilot. Obtenga más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/spreadsheet/sxc) .
 
 ```csharp
 public static readonly SpreadsheetFileType Sxc;

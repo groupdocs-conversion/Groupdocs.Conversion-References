@@ -11,7 +11,7 @@ url: /es/net/groupdocs.conversion.contracts/idocumentinfo/propertynames/
 Enumerable de todas las propiedades que se pueden obtener para el documento actual info
 
 ```csharp
-public IEnumerable<string> PropertyNames { get; }
+public string[] PropertyNames { get; }
 ```
 
 ### Ver también

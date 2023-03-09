@@ -11,11 +11,12 @@ url: /es/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Carpetas en el almacenamiento
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### Ver también
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * espacio de nombres [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * asamblea [GroupDocs.Conversion](../../../)

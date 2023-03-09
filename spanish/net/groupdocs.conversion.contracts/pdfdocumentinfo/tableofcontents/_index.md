@@ -11,7 +11,7 @@ url: /es/net/groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents/
 Tabla de contenido
 
 ```csharp
-public IEnumerable<TableOfContentsItem> TableOfContents { get; }
+public IList<TableOfContentsItem> TableOfContents { get; }
 ```
 
 ### Ver también

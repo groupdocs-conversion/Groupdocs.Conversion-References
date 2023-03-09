@@ -3,7 +3,7 @@ title: IcoDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento ICO
 type: docs
-weight: 260
+weight: 270
 url: /es/net/groupdocs.conversion.contracts/icodocumentinfo/
 ---
 ## IcoDocumentInfo class

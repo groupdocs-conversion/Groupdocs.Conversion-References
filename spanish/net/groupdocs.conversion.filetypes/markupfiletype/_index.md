@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
-description: Define los formatos de archivo web y marcado. Incluye los siguientes tipos de archivo Htm./markupfiletype/htm  Html./markupfiletype/html . Obtenga más información sobre los formatos de imagenaquíhttps//wiki.fileformat.com/web .
+description: Define los formatos de archivo web y marcado. Incluye los siguientes tipos de archivo Htm  Html . Obtenga más información sobre los formatos de imagenaquíhttps//wiki.fileformat.com/web .
 type: docs
-weight: 870
+weight: 970
 url: /es/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-Define los formatos de archivo web y marcado. Incluye los siguientes tipos de archivo: [`Htm`](./htm) , [`Html`](./html) . Obtenga más información sobre los formatos de imagen[aquí](https://wiki.fileformat.com/web) .
+Define los formatos de archivo web y marcado. Incluye los siguientes tipos de archivo: Htm , Html . Obtenga más información sobre los formatos de imagen[aquí](https://wiki.fileformat.com/web) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## Constructores
-
-| Nombre | Descripción |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | Constructor de serialización |
 
 ## Propiedades
 
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | Nombre | Descripción |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compara el objeto actual con otro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina si dos instancias de objeto son iguales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sirve como la función hash predeterminada. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Representación de cadena |
-
-## Campos
-
-| Nombre | Descripción |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | El formato de archivo CHM representa un archivo de ayuda HTML de Microsoft que consta de una colección de páginas HTML. Proporciona un índice para acceder rápidamente a los temas y navegar a diferentes partes del documento de ayuda. Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/web/chm) . |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM (Hyper Text Markup Language) es la extensión para páginas web creada para mostrarse en los navegadores. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/web/html) . |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML (Hyper Text Markup Language) es la extensión para páginas web creadas para mostrarse en los navegadores. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/web/html) . |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | Los archivos con extensión MHTML representan un formato de archivo de página web que pueden crear varias aplicaciones diferentes. El formato se conoce como formato de archivo porque guarda el código HTML web y los recursos asociados en un solo archivo. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/web/mhtml) . |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | Los archivos con extensión MHTML representan un formato de archivo de página web que pueden crear varias aplicaciones diferentes. El formato se conoce como formato de archivo porque guarda el código HTML web y los recursos asociados en un solo archivo. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/web/mhtml) . |
 
 ### Ver también
 

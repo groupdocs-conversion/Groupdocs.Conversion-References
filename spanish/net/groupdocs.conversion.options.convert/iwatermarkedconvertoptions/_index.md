@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Representa opciones de conversión que permiten que la salida de la conversión tenga una marca de agua
 type: docs
-weight: 1460
+weight: 1620
 url: /es/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

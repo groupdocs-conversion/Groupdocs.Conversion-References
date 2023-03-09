@@ -3,7 +3,7 @@ title: IAudioConnector
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define los métodos necesarios para convertir audio en documentos de audio.
 type: docs
-weight: 1190
+weight: 1320
 url: /es/net/groupdocs.conversion.integration.audio/iaudioconnector/
 ---
 ## IAudioConnector interface

@@ -3,7 +3,7 @@ title: Ott
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos con extensión OTT representan documentos de plantilla generados por aplicaciones de conformidad con el formato estándar OpenDocument de OASIS. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field

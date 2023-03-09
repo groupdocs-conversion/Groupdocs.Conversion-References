@@ -3,7 +3,7 @@ title: IConversionCompressResultCompletedOrConvert
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Manejar la compresión completada o ejecutar conversion
 type: docs
-weight: 1030
+weight: 1160
 url: /es/net/groupdocs.conversion.fluent/iconversioncompressresultcompletedorconvert/
 ---
 ## IConversionCompressResultCompletedOrConvert interface

@@ -3,7 +3,7 @@ title: PageSize
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Especifica el tamaño de página
 type: docs
-weight: 1550
+weight: 1720
 url: /es/net/groupdocs.conversion.options.convert/pagesize/
 ---
 ## PageSize class

@@ -1,23 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: Referencia de API de GroupDocs.Conversion para .NET
-description: Recibe el flujo de documentos convertidos. Se activará solo si se establece Guardar cadena o Guardar SaveDocumentStreamForFileType.
+description: Recibe el flujo de documentos convertidos. Se activará solo si se establece ConvertTostring fileName o ConvertToconvertedStreamProvider.
 type: docs
 weight: 10
 url: /es/net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-Recibe el flujo de documentos convertidos. Se activará solo si se establece "Guardar (cadena)" o "Guardar (SaveDocumentStreamForFileType)".
+Recibe el flujo de documentos convertidos. Se activará solo si se establece "ConvertTo(string fileName)" o ConvertTo(convertedStreamProvider)".
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | Proveedor de flujo de documentos convertidos |
+| convertedFileStream | Action`2 | Proveedor de flujo de documentos convertido |
 
 ### Valor_devuelto
 
@@ -26,7 +26,6 @@ Interfaz para continuar construyendo conversión
 ### Ver también
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * espacio de nombres [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * asamblea [GroupDocs.Conversion](../../../)

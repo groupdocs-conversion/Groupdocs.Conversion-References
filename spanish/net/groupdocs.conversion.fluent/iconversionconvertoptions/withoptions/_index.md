@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 Establecer opciones de conversión
 
@@ -32,17 +32,19 @@ Interfaz para continuar construyendo conversión
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 Establecer opciones de conversión
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Proveedor de opciones de conversión |
+| Parámetro | Descripción |
+| --- | --- |
+| convertOptionsProvider | Proveedor de opciones de conversión |
+| convertOptionsProvider arg2arg2 | El tipo del archivo fuente |
 
 ### Valor_devuelto
 
@@ -51,7 +53,8 @@ Interfaz para continuar construyendo conversión
 ### Ver también
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * espacio de nombres [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * asamblea [GroupDocs.Conversion](../../../)

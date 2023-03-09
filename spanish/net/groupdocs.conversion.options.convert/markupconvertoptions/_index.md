@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para la conversión a tipo de archivo de marcado.
 type: docs
-weight: 1520
+weight: 1680
 url: /es/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /es/net/groupdocs.conversion.options.convert/markupconvertoptions/
 Opciones para la conversión a tipo de archivo de marcado.
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## Constructores
-
-| Nombre | Descripción |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | Inicializa una nueva instancia de[`MarkupConvertOptions`](../markupconvertoptions) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | Si`verdadero` se utilizará un diseño fijo, por ejemplo, elementos html absolutamente posicionados Predeterminado: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Mostrar bordes de página al convertir a diseño fijo. El valor predeterminado es Verdadero. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | Si`verdadero` se utilizará un diseño fijo, por ejemplo, elementos html absolutamente posicionados Predeterminado: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Mostrar bordes de página al convertir a diseño fijo. El valor predeterminado es Verdadero. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | El tipo de archivo deseado al que se debe convertir el documento de entrada. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | El tipo de archivo deseado al que se debe convertir el documento de entrada. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | El número de página desde el que iniciar la conversión. |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | La lista de índices de página que se van a convertir. Debe especificarse para convertir páginas específicas. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Número de páginas para convertir a partir de`Número de página` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | Si`verdadero` , la entrada primero se convierte a PDF y luego al formato deseado |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | Si`verdadero` , la entrada primero se convierte a PDF y luego al formato deseado |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opciones específicas de marca de agua |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Especifica el nivel de zoom en porcentaje. El valor predeterminado es 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Especifica el nivel de zoom en porcentaje. El valor predeterminado es 100. |
 
 ## Métodos
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### Ver también
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * espacio de nombres [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * asamblea [GroupDocs.Conversion](../../)
 

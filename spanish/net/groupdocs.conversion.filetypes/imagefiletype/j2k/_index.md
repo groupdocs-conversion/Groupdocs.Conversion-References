@@ -3,7 +3,7 @@ title: J2k
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: El archivo J2K es una imagen que se comprime mediante la compresión wavelet en lugar de la compresión DCT. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 190
+weight: 170
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/j2k/
 ---
 ## ImageFileType.J2k field

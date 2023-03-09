@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento de hoja de cálculo
 type: docs
-weight: 480
+weight: 520
 url: /es/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class

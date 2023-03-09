@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para la conversión a tipo de archivo WordProcessing.
 type: docs
-weight: 1810
+weight: 2000
 url: /es/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class

@@ -3,7 +3,7 @@ title: Txt
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Un archivo con extensión .TXT representa un documento de texto que contiene texto plano en forma de líneas. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field

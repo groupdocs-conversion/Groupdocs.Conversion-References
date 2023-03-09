@@ -3,7 +3,7 @@ title: IConverterListener
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define los métodos que se utilizan para realizar la escucha del convertidor.
 type: docs
-weight: 2120
+weight: 2380
 url: /es/net/groupdocs.conversion.reporting/iconverterlistener/
 ---
 ## IConverterListener interface

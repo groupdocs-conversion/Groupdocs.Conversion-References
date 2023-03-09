@@ -3,7 +3,7 @@ title: Doc
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos con extensión .doc representan documentos generados por Microsoft Word u otros documentos de procesamiento de texto en formato de archivo binario. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field

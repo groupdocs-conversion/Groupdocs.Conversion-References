@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos Mbox.
 type: docs
-weight: 1950
+weight: 2180
 url: /es/net/groupdocs.conversion.options.load/mboxloadoptions/
 ---
 ## MboxLoadOptions class
