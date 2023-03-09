@@ -1,14 +1,14 @@
 ---
 title: Rar
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .rar uzantılı dosyalar bilgilerin sıkıştırılmış veya normal biçimde saklanması için oluşturulmuş arşiv dosyalarıdır. Roshal ARchive dosya formatı anlamına gelen RAR. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/rar/ .
+description: .rar uzantılı dosyalar bilgilerin sıkıştırılmış veya normal biçimde saklanması için oluşturulmuş arşiv dosyalarıdır. Roshal ARchive dosya formatı anlamına gelen RAR. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/rar/ .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/rar/
 ---
 ## CompressionFileType.Rar field
 
-.rar uzantılı dosyalar, bilgilerin sıkıştırılmış veya normal biçimde saklanması için oluşturulmuş arşiv dosyalarıdır. Roshal ARchive dosya formatı anlamına gelen RAR. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/rar/) .
+.rar uzantılı dosyalar, bilgilerin sıkıştırılmış veya normal biçimde saklanması için oluşturulmuş arşiv dosyalarıdır. Roshal ARchive dosya formatı anlamına gelen RAR. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/rar/) .
 
 ```csharp
 public static readonly CompressionFileType Rar;

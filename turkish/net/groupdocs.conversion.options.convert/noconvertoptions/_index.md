@@ -3,7 +3,7 @@ title: NoConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürücüye herhangi bir işlem yapmadan kaynak belgeyi kopyalama talimatı veren özel dönüştürme seçeneği sınıfı
 type: docs
-weight: 1530
+weight: 1690
 url: /tr/net/groupdocs.conversion.options.convert/noconvertoptions/
 ---
 ## NoConvertOptions class

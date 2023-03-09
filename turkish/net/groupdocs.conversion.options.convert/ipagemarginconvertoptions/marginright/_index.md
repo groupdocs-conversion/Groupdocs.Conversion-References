@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra piksel cinsinden istenen sayfa sağ marjı.
+description: Dönüştürmeden sonra piksel olarak istenen sayfa sağ kenar boşluğu.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright/
 ---
 ## IPageMarginConvertOptions.MarginRight property
 
-Dönüştürmeden sonra piksel cinsinden istenen sayfa sağ marjı.
+Dönüştürmeden sonra piksel olarak istenen sayfa sağ kenar boşluğu.
 
 ```csharp
 public int MarginRight { get; set; }

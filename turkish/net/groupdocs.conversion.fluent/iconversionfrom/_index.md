@@ -3,7 +3,7 @@ title: IConversionFrom
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüşüm için kurulum kaynağı
 type: docs
-weight: 1100
+weight: 1230
 url: /tr/net/groupdocs.conversion.fluent/iconversionfrom/
 ---
 ## IConversionFrom interface

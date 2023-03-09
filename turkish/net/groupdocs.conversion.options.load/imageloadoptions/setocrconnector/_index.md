@@ -1,14 +1,14 @@
 ---
 title: SetOcrConnector
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Görüntü OCR bağlayıcısını ayarla
+description: Görüntü OCR konektörünü ayarla
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.options.load/imageloadoptions/setocrconnector/
 ---
 ## ImageLoadOptions.SetOcrConnector method
 
-Görüntü OCR bağlayıcısını ayarla
+Görüntü OCR konektörünü ayarla
 
 ```csharp
 public void SetOcrConnector(IOcrConnector ocrConnector)

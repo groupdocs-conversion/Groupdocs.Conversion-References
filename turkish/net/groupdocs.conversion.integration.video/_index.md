@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Conversion.Integration.Video
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Ad alanı video dönüştürme desteği için gerekli arabirimleri ve sınıfları sağlar.
+description: Ad alanı video dönüştürme desteği için gereken arabirimleri ve sınıfları sağlar.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.integration.video/
 ---
-Ad alanı, video dönüştürme desteği için gerekli arabirimleri ve sınıfları sağlar.
+Ad alanı, video dönüştürme desteği için gereken arabirimleri ve sınıfları sağlar.
 
 ## Arayüzler
 

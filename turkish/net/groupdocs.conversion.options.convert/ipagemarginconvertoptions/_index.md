@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sayfa kenar boşluklarını destekleyen dönüştürme seçeneklerini temsil eder
 type: docs
-weight: 1400
+weight: 1560
 url: /tr/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface
@@ -19,9 +19,9 @@ public interface IPageMarginConvertOptions : IConvertOptions
 | İsim | Tanım |
 | --- | --- |
 | [MarginBottom](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa alt kenar boşluğu. |
-| [MarginLeft](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra istenen sayfa sol kenar boşluğu piksel cinsinden. |
-| [MarginRight](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sağ marjı. |
-| [MarginTop](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst kenar boşluğu. |
+| [MarginLeft](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sol kenar boşluğu. |
+| [MarginRight](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel olarak istenen sayfa sağ kenar boşluğu. |
+| [MarginTop](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst marjı. |
 
 ### Ayrıca bakınız
 

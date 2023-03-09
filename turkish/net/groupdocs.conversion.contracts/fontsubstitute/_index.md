@@ -3,7 +3,7 @@ title: FontSubstitute
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Eksik yazı tipinin değiştirilmesini açıklar.
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class
@@ -25,7 +25,7 @@ public class FontSubstitute : ValueObject
 
 | İsim | Tanım |
 | --- | --- |
-| static [Create](../../groupdocs.conversion.contracts/fontsubstitute/create)(string, string) | Yeni yazı tipi değiştirme çiftini örnekleyin. |
+| static [Create](../../groupdocs.conversion.contracts/fontsubstitute/create)(string, string) | Yeni yazı tipi değiştirme çiftini başlat. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |

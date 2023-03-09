@@ -1,14 +1,14 @@
 ---
 title: ConvertOwned
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği
+description: Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.load/nsfloadoptions/convertowned/
 ---
 ## NsfLoadOptions.ConvertOwned property
 
-Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği
+Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği
 
 ```csharp
 public bool ConvertOwned { get; }

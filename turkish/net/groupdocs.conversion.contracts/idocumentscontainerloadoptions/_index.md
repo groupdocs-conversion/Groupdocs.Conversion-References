@@ -3,7 +3,7 @@ title: IDocumentsContainerLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Belgeler için yükleme seçenekleri container
 type: docs
-weight: 250
+weight: 260
 url: /tr/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface
@@ -18,9 +18,9 @@ public interface IDocumentsContainerLoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) { get; } | Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
-| [ConvertOwner](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur |
-| [Depth](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) { get; } | Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği |
+| [ConvertOwned](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) { get; } | Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
+| [ConvertOwner](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır |
+| [Depth](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) { get; } | Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği |
 
 ### Ayrıca bakınız
 

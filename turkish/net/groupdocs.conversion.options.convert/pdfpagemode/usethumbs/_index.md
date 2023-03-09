@@ -1,14 +1,14 @@
 ---
 title: UseThumbs
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Küçük resimler görülebilir.
+description: Küçük resimler görünür.
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagemode/usethumbs/
 ---
 ## PdfPageMode.UseThumbs field
 
-Küçük resimler görülebilir.
+Küçük resimler görünür.
 
 ```csharp
 public static readonly PdfPageMode UseThumbs;

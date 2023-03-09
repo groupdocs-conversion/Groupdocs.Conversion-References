@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Elektronik Tablo dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1720
+weight: 1900
 url: /tr/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions class

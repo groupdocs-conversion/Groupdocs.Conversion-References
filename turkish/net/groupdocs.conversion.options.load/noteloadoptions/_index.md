@@ -1,14 +1,14 @@
 ---
 title: NoteLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Tek belge yükleme seçenekleri.
+description: One belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1960
+weight: 2190
 url: /tr/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
 
-Tek belge yükleme seçenekleri.
+One belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class NoteLoadOptions : LoadOptions
@@ -24,11 +24,11 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır. Yazı tipi dosyasına mutlak bir yol sağlanmalıdır. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Not belgesini dönüştürürken belirli yazı tiplerini değiştirin. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
-| [Password](../../groupdocs.conversion.options.load/noteloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/noteloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
 
 ## yöntemler
 

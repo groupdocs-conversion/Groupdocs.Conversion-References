@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdf belgelerini yükleme seçenekleri.
+description: Pdf belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1980
+weight: 2220
 url: /tr/net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
 
-Pdf belgelerini yükleme seçenekleri.
+Pdf belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions
@@ -29,8 +29,8 @@ public sealed class PdfLoadOptions : LoadOptions
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Pdf belgesini dönüştürürken belirli yazı tiplerini değiştirin. |
 | [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
-| [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Pdf belgelerindeki açıklamaları gizleyin. |
-| [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Pdf belgelerindeki ek açıklamaları gizle. |
+| [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | Gömülü dosyaları kaldırın. |
 
 ## yöntemler

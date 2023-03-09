@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır. Yazı tipi dosyasına mutlak bir yol sağlanmalıdır.
+description: Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır. Yazı tipi dosyasına mutlak bir yol sağlanmalıdır.
+Not belgesi için varsayılan yazı tipi. Bir yazı tipi eksikse aşağıdaki yazı tipi kullanılacaktır.
 
 ```csharp
 public string DefaultFont { get; set; }

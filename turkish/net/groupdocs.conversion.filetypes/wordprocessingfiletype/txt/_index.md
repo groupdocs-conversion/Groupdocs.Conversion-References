@@ -1,14 +1,14 @@
 ---
 title: Txt
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .TXT uzantılı bir dosya satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/txt .
+description: .TXT uzantılı bir dosya satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field
 
-.TXT uzantılı bir dosya, satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/txt) .
+.TXT uzantılı bir dosya, satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/txt) .
 
 ```csharp
 public static readonly WordProcessingFileType Txt;

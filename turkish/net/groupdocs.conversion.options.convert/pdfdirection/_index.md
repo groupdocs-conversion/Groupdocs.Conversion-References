@@ -3,7 +3,7 @@ title: PdfDirection
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf metin yönünü açıklar.
 type: docs
-weight: 1570
+weight: 1740
 url: /tr/net/groupdocs.conversion.options.convert/pdfdirection/
 ---
 ## PdfDirection class
@@ -18,7 +18,7 @@ public class PdfDirection : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfDirection](pdfdirection)() | Serileştirme yapıcısı |
+| [PdfDirection](pdfdirection)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

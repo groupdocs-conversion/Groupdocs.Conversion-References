@@ -24,7 +24,7 @@ public sealed class MemoryCache : ICache
 
 | İsim | Tanım |
 | --- | --- |
-| [GetKeys](../../groupdocs.conversion.caching/memorycache/getkeys)(string) | Filtreyle eşleşen tüm anahtarları döndürür. |
+| [GetKeys](../../groupdocs.conversion.caching/memorycache/getkeys)(string) | filter. ile eşleşen tüm anahtarları döndürür |
 | [Set](../../groupdocs.conversion.caching/memorycache/set)(string, object) | Önbelleğe bir önbellek girişi ekler. |
 | [TryGetValue](../../groupdocs.conversion.caching/memorycache/trygetvalue)(string, out object) | Varsa, bu anahtarla ilişkili girişi alır. |
 

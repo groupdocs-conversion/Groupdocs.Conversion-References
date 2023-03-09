@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Serileştirme yapıcısı
+description: Serileştirme oluşturucu
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.filetypes/projectmanagementfiletype/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType constructor
 
-Serileştirme yapıcısı
+Serileştirme oluşturucu
 
 ```csharp
 public ProjectManagementFileType()

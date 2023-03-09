@@ -1,14 +1,14 @@
 ---
 title: U3d
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: U3D Evrensel 3D 3D bilgisayar grafikleri için sıkıştırılmış bir dosya formatı ve veri yapısıdır. Renk ve yapı ile üçgen kafesler aydınlatma gölgeleme hareket verileri çizgiler ve noktalar gibi 3D model bilgilerini içerir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/u3d .
+description: U3D Universal 3D 3D bilgisayar grafikleri için sıkıştırılmış bir dosya formatı ve veri yapısıdır. Üçgen kafesler aydınlatma gölgeleme hareket verileri çizgiler ve noktalar gibi renk ve yapıya sahip 3B model bilgilerini içerir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/u3d .
 type: docs
 weight: 140
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/u3d/
 ---
 ## ThreeDFileType.U3d field
 
-U3D (Evrensel 3D), 3D bilgisayar grafikleri için sıkıştırılmış bir dosya formatı ve veri yapısıdır. Renk ve yapı ile üçgen kafesler, aydınlatma, gölgeleme, hareket verileri, çizgiler ve noktalar gibi 3D model bilgilerini içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/u3d) .
+U3D (Universal 3D), 3D bilgisayar grafikleri için sıkıştırılmış bir dosya formatı ve veri yapısıdır. Üçgen kafesler, aydınlatma, gölgeleme, hareket verileri, çizgiler ve noktalar gibi renk ve yapıya sahip 3B model bilgilerini içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/u3d) .
 
 ```csharp
 public static readonly ThreeDFileType U3d;

@@ -3,7 +3,7 @@ title: Fodg
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: FODG OpenDocument metin verilerini depolamak için kullanılan sıkıştırılmamış bir XML biçimli dosyadır. FODG uzantısı açık kaynaklı ofis üretkenlik paketleri Libre Office ve OpenOffice.org. ile ilişkilidir.
 type: docs
-weight: 150
+weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/fodg/
 ---
 ## ImageFileType.Fodg field

@@ -1,14 +1,14 @@
 ---
 title: Rvm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: RVM veri dosyaları AVEVA PDMS ile ilgilidir. RVM dosyası bir AVEVA Plant Design Management System Model proje dosyasıdır. AVEVAnın Tesis Tasarım Yönetim Sistemi PDMS projeleri yönetmek için veri merkezli teknolojiyi kullanan en popüler 3B tasarım sistemidir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/rvm .
+description: RVM veri dosyaları AVEVA PDMS ile ilişkilidir. RVM dosyası bir AVEVA Tesis Tasarım Yönetim Sistemi Modeli proje dosyasıdır. AVEVAnın Tesis Tasarım Yönetim Sistemi PDMS projeleri yönetmek için veri merkezli teknolojiyi kullanan en popüler 3B tasarım sistemidir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/rvm .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/rvm/
 ---
 ## ThreeDFileType.Rvm field
 
-RVM veri dosyaları, AVEVA PDMS ile ilgilidir. RVM dosyası, bir AVEVA Plant Design Management System Model proje dosyasıdır. AVEVA'nın Tesis Tasarım Yönetim Sistemi (PDMS), projeleri yönetmek için veri merkezli teknolojiyi kullanan en popüler 3B tasarım sistemidir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/rvm) .
+RVM veri dosyaları, AVEVA PDMS ile ilişkilidir. RVM dosyası, bir AVEVA Tesis Tasarım Yönetim Sistemi Modeli proje dosyasıdır. AVEVA'nın Tesis Tasarım Yönetim Sistemi (PDMS), projeleri yönetmek için veri merkezli teknolojiyi kullanan en popüler 3B tasarım sistemidir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/rvm) .
 
 ```csharp
 public static readonly ThreeDFileType Rvm;

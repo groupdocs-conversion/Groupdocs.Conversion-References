@@ -3,7 +3,7 @@ title: TextFragment
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: OCR motoru tarafından çıkarılan tanınan metnin sözcük sembol vb. bir bölümünü temsil eder.
 type: docs
-weight: 1220
+weight: 1350
 url: /tr/net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class

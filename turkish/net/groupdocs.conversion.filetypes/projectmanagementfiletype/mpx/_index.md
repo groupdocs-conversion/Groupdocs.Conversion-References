@@ -1,14 +1,14 @@
 ---
 title: Mpx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Microsoft Exchange Dosya Biçimi Microsoft Project MSP ile Primavera Project Planner Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/projectmanagement/mpx .
+description: Microsoft Exchange Dosya Biçimi Microsoft Project MSP ile Primavera Project Planner Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılmasına yönelik bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/projectmanagementfiletype/mpx/
 ---
 ## ProjectManagementFileType.Mpx field
 
-Microsoft Exchange Dosya Biçimi, Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpx) .
+Microsoft Exchange Dosya Biçimi, Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılmasına yönelik bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpx) .
 
 ```csharp
 public static readonly ProjectManagementFileType Mpx;

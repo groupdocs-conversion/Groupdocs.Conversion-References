@@ -1,14 +1,14 @@
 ---
 title: Drc
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .drc uzantılı bir dosya Google Draco kitaplığı ile oluşturulmuş sıkıştırılmış bir 3D dosya biçimidir. Google Dracoyu 3B geometrik ağları ve nokta bulutlarını sıkıştırmak ve sıkıştırmasını açmak için açık kaynak kitaplık olarak sunar ve 3B grafiklerin depolanmasını ve iletimini geliştirir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/drc .
+description: .drc uzantılı bir dosya Google Draco kitaplığı ile oluşturulan sıkıştırılmış bir 3B dosya biçimidir. Google Dracoyu 3B geometrik ağları ve nokta bulutlarını sıkıştırmak ve açmak için açık kaynak kitaplığı olarak sunar ve 3B grafiklerin depolanmasını ve iletilmesini iyileştirir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/drc .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/drc/
 ---
 ## ThreeDFileType.Drc field
 
-.drc uzantılı bir dosya, Google Draco kitaplığı ile oluşturulmuş sıkıştırılmış bir 3D dosya biçimidir. Google, Draco'yu 3B geometrik ağları ve nokta bulutlarını sıkıştırmak ve sıkıştırmasını açmak için açık kaynak kitaplık olarak sunar ve 3B grafiklerin depolanmasını ve iletimini geliştirir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/drc) .
+.drc uzantılı bir dosya, Google Draco kitaplığı ile oluşturulan sıkıştırılmış bir 3B dosya biçimidir. Google, Draco'yu 3B geometrik ağları ve nokta bulutlarını sıkıştırmak ve açmak için açık kaynak kitaplığı olarak sunar ve 3B grafiklerin depolanmasını ve iletilmesini iyileştirir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/drc) .
 
 ```csharp
 public static readonly ThreeDFileType Drc;

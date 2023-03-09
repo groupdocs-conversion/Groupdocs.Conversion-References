@@ -1,14 +1,14 @@
 ---
 title: CadLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: CAD belgelerini yükleme seçenekleri.
+description: CAD belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1840
+weight: 2030
 url: /tr/net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class
 
-CAD belgelerini yükleme seçenekleri.
+CAD belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class CadLoadOptions : LoadOptions
@@ -26,7 +26,7 @@ public sealed class CadLoadOptions : LoadOptions
 | --- | --- |
 | [BackgroundColor](../../groupdocs.conversion.options.load/cadloadoptions/backgroundcolor) { get; set; } | Bir arka plan rengi alır veya ayarlar. |
 | [DrawType](../../groupdocs.conversion.options.load/cadloadoptions/drawtype) { get; set; } | Çizim türünü alır veya ayarlar. |
-| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Belge dosyası türünü girin |
+| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Girdi belgesi dosya türü |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
 | [Height](../../groupdocs.conversion.options.load/cadloadoptions/height) { get; set; } | CAD belgesini dönüştürmek için istenen sayfa yüksekliğini ayarlar |
 | [LayoutNames](../../groupdocs.conversion.options.load/cadloadoptions/layoutnames) { get; set; } | Hangi CAD düzenlerinin dönüştürüleceğini belirtir |

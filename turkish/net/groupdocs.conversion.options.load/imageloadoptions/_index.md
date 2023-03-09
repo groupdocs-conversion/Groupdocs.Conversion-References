@@ -1,14 +1,14 @@
 ---
 title: ImageLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Görüntü belgelerini yükleme seçenekleri.
+description: Görüntü belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1920
+weight: 2150
 url: /tr/net/groupdocs.conversion.options.load/imageloadoptions/
 ---
 ## ImageLoadOptions class
 
-Görüntü belgelerini yükleme seçenekleri.
+Görüntü belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class ImageLoadOptions : LoadOptions
@@ -35,7 +35,7 @@ public sealed class ImageLoadOptions : LoadOptions
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
-| [SetOcrConnector](../../groupdocs.conversion.options.load/imageloadoptions/setocrconnector)(IOcrConnector) | Görüntü OCR bağlayıcısını ayarla |
+| [SetOcrConnector](../../groupdocs.conversion.options.load/imageloadoptions/setocrconnector)(IOcrConnector) | Görüntü OCR konektörünü ayarla |
 
 ### Ayrıca bakınız
 

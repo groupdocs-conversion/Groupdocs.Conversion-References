@@ -3,7 +3,7 @@ title: JpgCompressionMethods
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jpg sıkıştırma modlarını açıklar
 type: docs
-weight: 1510
+weight: 1670
 url: /tr/net/groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 ## JpgCompressionMethods class
@@ -18,7 +18,7 @@ public class JpgCompressionMethods : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [JpgCompressionMethods](jpgcompressionmethods)() | Serileştirme yapıcısı |
+| [JpgCompressionMethods](jpgcompressionmethods)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

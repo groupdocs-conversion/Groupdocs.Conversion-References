@@ -1,14 +1,14 @@
 ---
 title: ThreeMF
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: 3MF 3B Üretim Formatı uygulamalar tarafından 3B nesne modellerini çeşitli diğer uygulamalara platformlara hizmetlere ve yazıcılara işlemek için kullanılır. 3D yazıcıların en son sürümleriyle çalışmak için STL gibi diğer 3D dosya biçimlerindeki sınırlamalardan ve sorunlardan kaçınmak için oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/3mf .
+description: 3MF 3B Üretim Formatı uygulamalar tarafından 3B nesne modellerini çeşitli diğer uygulamalara platformlara hizmetlere ve yazıcılara dönüştürmek için kullanılır. 3B yazıcıların en son sürümleriyle çalışmak için STL gibi diğer 3B dosya biçimlerindeki sınırlamaları ve sorunları ortadan kaldırmak için oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/3mf .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/threemf/
 ---
 ## ThreeDFileType.ThreeMF field
 
-3MF, 3B Üretim Formatı, uygulamalar tarafından 3B nesne modellerini çeşitli diğer uygulamalara, platformlara, hizmetlere ve yazıcılara işlemek için kullanılır. 3D yazıcıların en son sürümleriyle çalışmak için STL gibi diğer 3D dosya biçimlerindeki sınırlamalardan ve sorunlardan kaçınmak için oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/3mf) .
+3MF, 3B Üretim Formatı, uygulamalar tarafından 3B nesne modellerini çeşitli diğer uygulamalara, platformlara, hizmetlere ve yazıcılara dönüştürmek için kullanılır. 3B yazıcıların en son sürümleriyle çalışmak için STL gibi diğer 3B dosya biçimlerindeki sınırlamaları ve sorunları ortadan kaldırmak için oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/3mf) .
 
 ```csharp
 public static readonly ThreeDFileType ThreeMF;

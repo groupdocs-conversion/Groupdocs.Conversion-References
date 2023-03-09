@@ -3,7 +3,7 @@ title: IConversionCompressResultCompletedOrConvert
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sıkıştırma işlemi tamamlandı veya dönüştürmeyi yürütün
 type: docs
-weight: 1030
+weight: 1160
 url: /tr/net/groupdocs.conversion.fluent/iconversioncompressresultcompletedorconvert/
 ---
 ## IConversionCompressResultCompletedOrConvert interface

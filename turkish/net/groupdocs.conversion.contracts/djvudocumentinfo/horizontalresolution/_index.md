@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Yatay çözünürlük elde edin
+description: Yatay çözünürlük alın
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.contracts/djvudocumentinfo/horizontalresolution/
 ---
 ## DjVuDocumentInfo.HorizontalResolution property
 
-Yatay çözünürlük elde edin
+Yatay çözünürlük alın
 
 ```csharp
 public double HorizontalResolution { get; }

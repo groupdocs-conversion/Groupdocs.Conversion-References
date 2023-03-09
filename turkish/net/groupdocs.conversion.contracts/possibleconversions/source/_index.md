@@ -1,14 +1,14 @@
 ---
 title: Source
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Kaynak dosya biçimleri
+description: Kaynak dosya formatları
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.contracts/possibleconversions/source/
 ---
 ## PossibleConversions.Source property
 
-Kaynak dosya biçimleri
+Kaynak dosya formatları
 
 ```csharp
 public FileType Source { get; }

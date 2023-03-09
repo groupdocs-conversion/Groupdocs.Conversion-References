@@ -1,14 +1,14 @@
 ---
 title: Bzip2DocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bzip2 belge meta verilerini içerir
+description: Bzip2 belgesi meta verilerini içerir
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.contracts/bzip2documentinfo/
 ---
 ## Bzip2DocumentInfo class
 
-Bzip2 belge meta verilerini içerir
+Bzip2 belgesi meta verilerini içerir
 
 ```csharp
 public class Bzip2DocumentInfo : DocumentInfo
@@ -21,9 +21,9 @@ public class Bzip2DocumentInfo : DocumentInfo
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Belge oluşturma tarihi |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

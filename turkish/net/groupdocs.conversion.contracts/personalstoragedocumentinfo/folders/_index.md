@@ -11,11 +11,12 @@ url: /tr/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Depolama alanındaki klasörler
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### Ayrıca bakınız
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * ad alanı [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * toplantı [GroupDocs.Conversion](../../../)

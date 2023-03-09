@@ -1,14 +1,14 @@
 ---
 title: Gif
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: GIF veya Grafik Değişim Biçimi yüksek oranda sıkıştırılmış bir görüntü türüdür. Her görüntü için GIF tipik olarak piksel başına 8 bite kadar izin verir ve görüntü genelinde 256 renge kadar izin verilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/gif .
+description: GIF veya Grafik Değişim Biçimi yüksek oranda sıkıştırılmış bir görüntü türüdür. Her görüntü için GIF tipik olarak piksel başına 8 bite kadar izin verir ve görüntü genelinde 256ya kadar renge izin verilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 160
+weight: 140
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field
 
-GIF veya Grafik Değişim Biçimi, yüksek oranda sıkıştırılmış bir görüntü türüdür. Her görüntü için GIF tipik olarak piksel başına 8 bite kadar izin verir ve görüntü genelinde 256 renge kadar izin verilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/gif) .
+GIF veya Grafik Değişim Biçimi, yüksek oranda sıkıştırılmış bir görüntü türüdür. Her görüntü için GIF tipik olarak piksel başına 8 bit'e kadar izin verir ve görüntü genelinde 256'ya kadar renge izin verilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/gif) .
 
 ```csharp
 public static readonly ImageFileType Gif;

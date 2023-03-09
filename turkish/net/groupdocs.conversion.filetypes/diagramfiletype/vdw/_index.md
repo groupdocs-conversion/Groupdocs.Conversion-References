@@ -1,14 +1,14 @@
 ---
 title: Vdw
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: VDW bir Web çizimini işlemek için gereken akışları ve depoları belirten Visio Graphics Service dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/web/vdw .
+description: VDW bir Web çizimini işlemek için gereken akışları ve depoları belirten Visio Graphics Service dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/web/vdw .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vdw/
 ---
 ## DiagramFileType.Vdw field
 
-VDW, bir Web çizimini işlemek için gereken akışları ve depoları belirten Visio Graphics Service dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/vdw) .
+VDW, bir Web çizimini işlemek için gereken akışları ve depoları belirten Visio Graphics Service dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/web/vdw) .
 
 ```csharp
 public static readonly DiagramFileType Vdw;

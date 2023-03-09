@@ -1,14 +1,14 @@
 ---
 title: GetDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Kaynak belge bilgilerini alır  sayfa sayısı ve dosya türüne özgü diğer belge özellikleri.
+description: Kaynak belge bilgilerini alır  dosya türüne özgü sayfa sayısı ve diğer belge özellikleri.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/getdocumentinfo/
 ---
 ## IConversionGetDocumentInfo.GetDocumentInfo method
 
-Kaynak belge bilgilerini alır - sayfa sayısı ve dosya türüne özgü diğer belge özellikleri.
+Kaynak belge bilgilerini alır - dosya türüne özgü sayfa sayısı ve diğer belge özellikleri.
 
 ```csharp
 public IDocumentInfo GetDocumentInfo()

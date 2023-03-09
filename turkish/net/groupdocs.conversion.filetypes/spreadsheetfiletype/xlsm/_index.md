@@ -1,14 +1,14 @@
 ---
 title: Xlsm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XLSM makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlsm .
+description: XLSM makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm/
 ---
 ## SpreadsheetFileType.Xlsm field
 
-XLSM, makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlsm) .
+XLSM, makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlsm) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlsm;

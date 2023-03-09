@@ -1,14 +1,14 @@
 ---
 title: ThreeDS
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .3ds uzantılı bir dosya Autodesk 3D Studio tarafından kullanılan 3D Sudio DOS ağ dosyası biçimini temsil eder. Autodesk 3D Studio 1990lardan beri 3D dosya formatı pazarındadır ve şimdi 3D modelleme animasyon ve işleme ile çalışmak için 3D Studio MAXa dönüşmüştür. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/3ds .
+description: .3ds uzantılı bir dosya Autodesk 3D Studio tarafından kullanılan 3D Ses DOS ağ dosyası formatını temsil eder. Autodesk 3D Studio 1990lardan beri 3D dosya formatı pazarında yer alıyor ve şimdi 3D modelleme animasyon ve işleme ile çalışmak için 3D Studio MAXa dönüştü. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/3ds .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/threeds/
 ---
 ## ThreeDFileType.ThreeDS field
 
-.3ds uzantılı bir dosya, Autodesk 3D Studio tarafından kullanılan 3D Sudio (DOS) ağ dosyası biçimini temsil eder. Autodesk 3D Studio, 1990'lardan beri 3D dosya formatı pazarındadır ve şimdi 3D modelleme, animasyon ve işleme ile çalışmak için 3D Studio MAX'a dönüşmüştür. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/3ds) .
+.3ds uzantılı bir dosya, Autodesk 3D Studio tarafından kullanılan 3D Ses (DOS) ağ dosyası formatını temsil eder. Autodesk 3D Studio, 1990'lardan beri 3D dosya formatı pazarında yer alıyor ve şimdi 3D modelleme, animasyon ve işleme ile çalışmak için 3D Studio MAX'a dönüştü. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/3ds) .
 
 ```csharp
 public static readonly ThreeDFileType ThreeDS;

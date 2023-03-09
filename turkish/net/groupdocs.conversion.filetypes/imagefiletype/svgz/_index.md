@@ -3,7 +3,7 @@ title: Svgz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Bir SVGZ dosyası aslında bir SVG dosyasının sıkıştırılmış bir versiyonudur. Bu dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir SVG dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında dosyaya .svgz dosya uzantısı verilir.
 type: docs
-weight: 340
+weight: 310
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 ---
 ## ImageFileType.Svgz field

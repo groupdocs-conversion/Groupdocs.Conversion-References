@@ -1,14 +1,14 @@
 ---
 title: Ac3
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .ac3 uzantılı bir dosya Dolby Laboratories tarafından tanıtılan bir Audio Codec 3 dosyasıdır. Altı kanala kadar ses çıkışı içerebilen bir ses biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/ac3/ .
+description: .ac3 uzantılı bir dosya Dolby Laboratories tarafından sunulan bir Audio Codec 3 dosyasıdır. Altı adede kadar ses çıkışı kanalı içerebilen bir ses formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/ac3/ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/ac3/
 ---
 ## AudioFileType.Ac3 field
 
-.ac3 uzantılı bir dosya, Dolby Laboratories tarafından tanıtılan bir Audio Codec 3 dosyasıdır. Altı kanala kadar ses çıkışı içerebilen bir ses biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/ac3/) .
+.ac3 uzantılı bir dosya, Dolby Laboratories tarafından sunulan bir Audio Codec 3 dosyasıdır. Altı adede kadar ses çıkışı kanalı içerebilen bir ses formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/ac3/) .
 
 ```csharp
 public static readonly AudioFileType Ac3;

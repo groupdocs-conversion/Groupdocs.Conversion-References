@@ -1,14 +1,14 @@
 ---
 title: Recurrence
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Varsayılan alan metni Yinelemedir.
+description: Varsayılan alan metni Tekrar şeklindedir.
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.options.load/emailfield/recurrence/
 ---
 ## EmailField.Recurrence field
 
-Varsayılan alan metni "Yineleme"dir.
+Varsayılan alan metni "Tekrar" şeklindedir.
 
 ```csharp
 public static readonly EmailField Recurrence;

@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Uygulama için yöntemler sağlarölçülühttps//purchase.groupdocs.com/faqs/licensing/metered lisans.
+description: Uygulama için yöntemler sağlarölçülühttps//purchase.groupdocs.com/faqs/licensing/meteredlisans.
 type: docs
-weight: 1280
+weight: 1410
 url: /tr/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-Uygulama için yöntemler sağlar[ölçülü](https://purchase.groupdocs.com/faqs/licensing/metered) lisans.
+Uygulama için yöntemler sağlar[ölçülü](https://purchase.groupdocs.com/faqs/licensing/metered)lisans.
 
 ```csharp
 public class Metered

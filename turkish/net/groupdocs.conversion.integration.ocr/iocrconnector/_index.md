@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Görüntü belgelerine ve katıştırılmış görüntülere OCR uygulamak için gereken yöntemleri tanımlar.
 type: docs
-weight: 1200
+weight: 1330
 url: /tr/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

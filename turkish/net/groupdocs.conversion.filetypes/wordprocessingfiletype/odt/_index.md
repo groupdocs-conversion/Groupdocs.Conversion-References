@@ -1,14 +1,14 @@
 ---
 title: Odt
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: ODT dosyaları OpenDocument Metin Dosyası formatına dayalı kelime işlemci uygulamaları ile oluşturulan belge türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/odt .
+description: ODT dosyaları OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 120
+weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/
 ---
 ## WordProcessingFileType.Odt field
 
-ODT dosyaları, OpenDocument Metin Dosyası formatına dayalı kelime işlemci uygulamaları ile oluşturulan belge türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/odt) .
+ODT dosyaları, OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/odt) .
 
 ```csharp
 public static readonly WordProcessingFileType Odt;

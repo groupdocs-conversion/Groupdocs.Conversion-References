@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: WordProcessing dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1810
+weight: 2000
 url: /tr/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class
@@ -26,16 +26,16 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 
 | İsim | Tanım |
 | --- | --- |
-| [Dpi](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi) { get; set; } | Dönüştürmeden sonra istenen sayfa DPI. Varsayılan çözünürlük: 96 dpi. |
+| [Dpi](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi) { get; set; } | Dönüştürmeden sonra istenen sayfa DPI'sı. Varsayılan çözünürlük: 96 dpi. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | [Height](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/height) { get; set; } | Dönüşümden sonra istenen sayfa yüksekliği. |
 | [MarginBottom](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginbottom) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa alt kenar boşluğu. |
-| [MarginLeft](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra istenen sayfa sol kenar boşluğu piksel cinsinden. |
-| [MarginRight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sağ marjı. |
-| [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst kenar boşluğu. |
+| [MarginLeft](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sol kenar boşluğu. |
+| [MarginRight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel olarak istenen sayfa sağ kenar boşluğu. |
+| [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst marjı. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |
-| [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } | Dönüştürmeden sonra istenen sayfa yönlendirmesi |
+| [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } | Dönüşümden sonra istenen sayfa yönü |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Belirli sayfaları dönüştürmek için belirtilmelidir. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Başlangıç olarak dönüştürülecek sayfa sayısı`Sayfa numarası` . |
 | [PageSize](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize) { get; set; } | Dönüşümden sonra istenen sayfa boyutu |

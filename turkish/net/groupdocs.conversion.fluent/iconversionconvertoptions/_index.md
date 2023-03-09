@@ -3,7 +3,7 @@ title: IConversionConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüşüm dönüştürme seçenekleri
 type: docs
-weight: 1080
+weight: 1210
 url: /tr/net/groupdocs.conversion.fluent/iconversionconvertoptions/
 ---
 ## IConversionConvertOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(ConvertOptions) | Dönüştürme seçeneklerini ayarlayın |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptionsProvider) | Dönüştürme seçeneklerini ayarlayın |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptions) | Dönüştürme seçeneklerini ayarla |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | Dönüştürme seçeneklerini ayarla |
 
 ### Ayrıca bakınız
 

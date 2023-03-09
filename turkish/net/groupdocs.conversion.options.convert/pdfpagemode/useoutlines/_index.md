@@ -1,14 +1,14 @@
 ---
 title: UseOutlines
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge anahattı görünür.
+description: Belge taslağı görünür.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagemode/useoutlines/
 ---
 ## PdfPageMode.UseOutlines field
 
-Belge anahattı görünür.
+Belge taslağı görünür.
 
 ```csharp
 public static readonly PdfPageMode UseOutlines;

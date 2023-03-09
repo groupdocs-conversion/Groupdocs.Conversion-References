@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Görüntü çevirme modlarını açıklar.
 type: docs
-weight: 1480
+weight: 1640
 url: /tr/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class
@@ -18,7 +18,7 @@ public class ImageFlipModes : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [ImageFlipModes](imageflipmodes)() | Serileştirme yapıcısı |
+| [ImageFlipModes](imageflipmodes)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

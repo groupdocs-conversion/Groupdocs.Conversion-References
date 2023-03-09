@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OpenDocument Düz XML Hesap Tablosu
+description: .fods uzantılı bir dosya verileri satırlar ve sütunlar halinde depolayan bir OpenDocument Elektronik Tablo belge biçimi türüdür. Biçim OASIS tarafından yayınlanan ve sürdürülen ODF 1.2 belirtimlerinin bir parçası olarak belirtilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/fods .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-OpenDocument Düz XML Hesap Tablosu
+.fods uzantılı bir dosya, verileri satırlar ve sütunlar halinde depolayan bir OpenDocument Elektronik Tablo belge biçimi türüdür. Biçim, OASIS tarafından yayınlanan ve sürdürülen ODF 1.2 belirtimlerinin bir parçası olarak belirtilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/fods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

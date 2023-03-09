@@ -1,14 +1,14 @@
 ---
 title: MarginLeft
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra istenen sayfa sol kenar boşluğu piksel cinsinden.
+description: Dönüştürmeden sonra piksel cinsinden istenen sayfa sol kenar boşluğu.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft/
 ---
 ## IPageMarginConvertOptions.MarginLeft property
 
-Dönüştürmeden sonra istenen sayfa sol kenar boşluğu piksel cinsinden.
+Dönüştürmeden sonra piksel cinsinden istenen sayfa sol kenar boşluğu.
 
 ```csharp
 public int MarginLeft { get; set; }

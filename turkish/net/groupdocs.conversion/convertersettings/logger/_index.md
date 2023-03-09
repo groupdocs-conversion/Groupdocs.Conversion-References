@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürme sürecini günlüğe kaydetmek için kullanılan günlükçü uygulaması.
+description: Dönüştürme işleminin günlüğe kaydedilmesi için kullanılan kaydedici uygulaması.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion/convertersettings/logger/
 ---
 ## ConverterSettings.Logger property
 
-Dönüştürme sürecini günlüğe kaydetmek için kullanılan günlükçü uygulaması.
+Dönüştürme işleminin günlüğe kaydedilmesi için kullanılan kaydedici uygulaması.
 
 ```csharp
 public ILogger Logger { get; set; }

@@ -3,7 +3,7 @@ title: DataConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Veri dosyası türüne dönüştürme seçenekleri.
 type: docs
-weight: 1350
+weight: 1480
 url: /tr/net/groupdocs.conversion.options.convert/dataconvertoptions/
 ---
 ## DataConvertOptions class
@@ -11,14 +11,9 @@ url: /tr/net/groupdocs.conversion.options.convert/dataconvertoptions/
 Veri dosyası türüne dönüştürme seçenekleri.
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
 public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOptions
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [DataConvertOptions](dataconvertoptions)() | Yeni örneğini başlatır[`DataConvertOptions`](../dataconvertoptions) sınıf. |
 
 ## Özellikleri
 
@@ -26,8 +21,6 @@ public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOpt
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
-| [PageNumber](../../groupdocs.conversion.options.convert/dataconvertoptions/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |
-| [PagesCount](../../groupdocs.conversion.options.convert/dataconvertoptions/pagescount) { get; set; } | Başlangıç olarak dönüştürülecek sayfa sayısı`Sayfa numarası` . |
 
 ## yöntemler
 

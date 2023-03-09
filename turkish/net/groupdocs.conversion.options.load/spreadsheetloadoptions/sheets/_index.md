@@ -3,7 +3,7 @@ title: Sheets
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürülecek sayfa adı
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheets/
 ---
 ## SpreadsheetLoadOptions.Sheets property

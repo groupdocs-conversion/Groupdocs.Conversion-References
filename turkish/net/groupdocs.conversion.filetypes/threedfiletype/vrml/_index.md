@@ -1,14 +1,14 @@
 ---
 title: Vrml
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sanal Gerçeklik Modelleme Dili VRML World Wide Web www üzerinde etkileşimli 3B dünya nesnelerinin temsili için bir dosya biçimidir. Kullanımını illüstrasyonlar tanım ve sanal gerçeklik sunumları gibi karmaşık sahnelerin üç boyutlu temsillerini oluştururken bulur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/vrml .
+description: Sanal Gerçeklik Modelleme Dili VRML World Wide Web www üzerinde etkileşimli 3B dünya nesnelerinin temsili için bir dosya biçimidir. Kullanımını illüstrasyonlar tanım ve sanal gerçeklik sunumları gibi karmaşık sahnelerin üç boyutlu temsillerini oluştururken bulur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/vrml .
 type: docs
 weight: 170
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/vrml/
 ---
 ## ThreeDFileType.Vrml field
 
-Sanal Gerçeklik Modelleme Dili (VRML), World Wide Web (www) üzerinde etkileşimli 3B dünya nesnelerinin temsili için bir dosya biçimidir. Kullanımını, illüstrasyonlar, tanım ve sanal gerçeklik sunumları gibi karmaşık sahnelerin üç boyutlu temsillerini oluştururken bulur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/vrml) .
+Sanal Gerçeklik Modelleme Dili (VRML), World Wide Web (www) üzerinde etkileşimli 3B dünya nesnelerinin temsili için bir dosya biçimidir. Kullanımını, illüstrasyonlar, tanım ve sanal gerçeklik sunumları gibi karmaşık sahnelerin üç boyutlu temsillerini oluştururken bulur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/vrml) .
 
 ```csharp
 public static readonly ThreeDFileType Vrml;

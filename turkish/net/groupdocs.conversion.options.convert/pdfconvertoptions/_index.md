@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1560
+weight: 1730
 url: /tr/net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -25,21 +25,21 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 
 | İsim | Tanım |
 | --- | --- |
-| [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Dönüştürmeden sonra istenen sayfa DPI. Varsayılan çözünürlük: 96 dpi. |
+| [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Dönüştürmeden sonra istenen sayfa DPI'sı. Varsayılan çözünürlük: 96 dpi. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | [Height](../../groupdocs.conversion.options.convert/pdfconvertoptions/height) { get; set; } | Dönüştürmeden sonra piksel olarak istenen sayfa yüksekliği. |
 | [MarginBottom](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa alt kenar boşluğu. |
-| [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra istenen sayfa sol kenar boşluğu piksel cinsinden. |
-| [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sağ marjı. |
-| [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst kenar boşluğu. |
+| [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa sol kenar boşluğu. |
+| [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Dönüştürmeden sonra piksel olarak istenen sayfa sağ kenar boşluğu. |
+| [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Dönüştürmeden sonra piksel cinsinden istenen sayfa üst marjı. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |
-| [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Dönüştürmeden sonra istenen sayfa yönlendirmesi |
+| [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Dönüşümden sonra istenen sayfa yönü |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Belirli sayfaları dönüştürmek için belirtilmelidir. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Başlangıç olarak dönüştürülecek sayfa sayısı`Sayfa numarası` . |
 | [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Dönüşümden sonra istenen sayfa boyutu |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Dönüştürülen belgeyi bir parola ile korumak istiyorsanız bu özelliği ayarlayın. |
-| [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf'ye özel dönüştürme seçenekleri |
+| [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf'ye özgü dönüştürme seçenekleri |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Sayfa döndürme |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Filigrana özel seçenekler |
 | [Width](../../groupdocs.conversion.options.convert/pdfconvertoptions/width) { get; set; } | Dönüştürmeden sonra piksel olarak istenen sayfa genişliği. |

@@ -1,14 +1,14 @@
 ---
 title: Jpeg
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: JPEG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Çıktı görüntüsü sıkıştırmanın bir sonucu olarak depolama boyutu ile görüntü kalitesi arasında bir değiş tokuştur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/jpeg .
+description: JPEG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Çıktı görüntüsü sıkıştırmanın bir sonucu olarak depolama boyutu ile görüntü kalitesi arasında bir değiş tokuştur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 230
+weight: 210
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/jpeg/
 ---
 ## ImageFileType.Jpeg field
 
-JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Çıktı görüntüsü, sıkıştırmanın bir sonucu olarak, depolama boyutu ile görüntü kalitesi arasında bir değiş tokuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/jpeg) .
+JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Çıktı görüntüsü, sıkıştırmanın bir sonucu olarak, depolama boyutu ile görüntü kalitesi arasında bir değiş tokuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/jpeg) .
 
 ```csharp
 public static readonly ImageFileType Jpeg;

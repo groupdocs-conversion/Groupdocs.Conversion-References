@@ -3,7 +3,7 @@ title: ShowHiddenSheets
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Excel dosyalarını dönüştürürken gizli sayfaları göster.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets/
 ---
 ## SpreadsheetLoadOptions.ShowHiddenSheets property

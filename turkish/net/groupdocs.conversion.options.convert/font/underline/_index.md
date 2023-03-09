@@ -1,14 +1,14 @@
 ---
 title: Underline
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Yazı tipi underline
+description: Yazı tipi altı çizili
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.options.convert/font/underline/
 ---
 ## Font.Underline property
 
-Yazı tipi underline
+Yazı tipi altı çizili
 
 ```csharp
 public bool Underline { get; set; }

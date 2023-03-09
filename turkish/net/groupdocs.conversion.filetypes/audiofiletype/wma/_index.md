@@ -1,14 +1,14 @@
 ---
 title: Wma
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .wma uzantılı bir dosya Gelişmiş Sistemler Biçimi ASF biçiminde kaydedilmiş bir ses dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/wma/ .
+description: .wma uzantılı bir dosya Gelişmiş Sistem Biçimi ASF biçiminde kaydedilen bir ses dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/wma/ .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/wma/
 ---
 ## AudioFileType.Wma field
 
-.wma uzantılı bir dosya, Gelişmiş Sistemler Biçimi (ASF) biçiminde kaydedilmiş bir ses dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/wma/) .
+.wma uzantılı bir dosya, Gelişmiş Sistem Biçimi (ASF) biçiminde kaydedilen bir ses dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/wma/) .
 
 ```csharp
 public static readonly AudioFileType Wma;

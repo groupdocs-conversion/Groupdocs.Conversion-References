@@ -1,14 +1,14 @@
 ---
 title: Ppsx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PPSX Power Point Slayt Gösterisi dosya Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/ppsx .
+description: PPSX Power Point Slayt Gösterisi dosyası Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üstü kullanılarak oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/ppsx .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/
 ---
 ## PresentationFileType.Ppsx field
 
-PPSX, Power Point Slayt Gösterisi, dosya, Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/ppsx) .
+PPSX, Power Point Slayt Gösterisi dosyası, Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üstü kullanılarak oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/ppsx) .
 
 ```csharp
 public static readonly PresentationFileType Ppsx;

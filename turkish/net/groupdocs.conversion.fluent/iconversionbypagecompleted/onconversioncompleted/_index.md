@@ -1,22 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürülen sayfa akışını alın. Yalnızca SaveSaveDocumentStreamForFileType ayarlandıysa tetiklenir.
+description: Dönüştürülen sayfa akışını alın. Yalnızca ConvertToconvertedStreamProvider ayarlandıysa tetiklenir.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted/
 ---
 ## IConversionByPageCompleted.OnConversionCompleted method
 
-Dönüştürülen sayfa akışını alın. Yalnızca "Save(SaveDocumentStreamForFileType)" ayarlandıysa tetiklenir.
+Dönüştürülen sayfa akışını alın. Yalnızca "ConvertTo(convertedStreamProvider)" ayarlandıysa tetiklenir.
 
 ```csharp
-public IConversionConvertOrCompress OnConversionCompleted(ConvertedPageStream convertedPageStream)
+public IConversionConvertOrCompress OnConversionCompleted(
+    Action<int, Stream, string> convertedPageStream)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedPageStream | ConvertedPageStream | Dönüştürülen sayfa akışı sağlayıcısı |
+| convertedPageStream | Action`3 | Dönüştürülen sayfa akış sağlayıcısı Dosyanın adı |
 
 ### Geri dönüş değeri
 
@@ -25,7 +26,6 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionbypagecompleted)
 * toplantı [GroupDocs.Conversion](../../../)

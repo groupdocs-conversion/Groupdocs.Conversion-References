@@ -3,7 +3,7 @@ title: PasswordProtectedDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sağlanan belge parola korumalıdır
 type: docs
-weight: 330
+weight: 350
 url: /tr/net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/
 ---
 ## PasswordProtectedDocumentInfo class
@@ -22,9 +22,9 @@ public class PasswordProtectedDocumentInfo : DocumentInfo
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/passwordprotecteddocumentinfo/ispasswordprotected) { get; } | Belge parola korumalı alır |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

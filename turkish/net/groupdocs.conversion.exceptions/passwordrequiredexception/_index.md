@@ -1,14 +1,14 @@
 ---
 title: PasswordRequiredException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya parola korumalı olduğunda ve parola sağlanmadığında GroupDocs istisnası atılır
+description: Dosya parola korumalı olduğunda ve parola sağlanmadığında GroupDocs istisnası oluştu
 type: docs
-weight: 770
+weight: 830
 url: /tr/net/groupdocs.conversion.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-Dosya parola korumalı olduğunda ve parola sağlanmadığında GroupDocs istisnası atılır
+Dosya parola korumalı olduğunda ve parola sağlanmadığında GroupDocs istisnası oluştu
 
 ```csharp
 public sealed class PasswordRequiredException : GroupDocsConversionException

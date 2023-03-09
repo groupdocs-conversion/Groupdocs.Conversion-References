@@ -1,14 +1,14 @@
 ---
 title: Aiff
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: AIFF Ses Değişim Dosyası Formatı Apple tarafından 1998de geliştirilen sıkıştırılmamış bir ses dosyası formatıdır ancak EA IFF 85e dayanmaktadır Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/aiff/ .
+description: AIFF Ses Değişim Dosyası Biçimi Apple tarafından 1998de geliştirilen sıkıştırılmamış bir ses dosyası biçimidir ancak EA IFF 85i temel alır Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/aiff/ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/aiff/
 ---
 ## AudioFileType.Aiff field
 
-AIFF (Ses Değişim Dosyası Formatı), Apple tarafından 1998'de geliştirilen sıkıştırılmamış bir ses dosyası formatıdır, ancak EA IFF 85'e dayanmaktadır Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/aiff/) .
+AIFF (Ses Değişim Dosyası Biçimi), Apple tarafından 1998'de geliştirilen sıkıştırılmamış bir ses dosyası biçimidir, ancak EA IFF 85'i temel alır Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/aiff/) .
 
 ```csharp
 public static readonly AudioFileType Aiff;

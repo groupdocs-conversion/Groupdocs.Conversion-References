@@ -19,7 +19,7 @@ public static IEnumerable<PossibleConversions> GetAllPossibleConversions()
 **Daha fazla bilgi edin**
 
 * Desteklenen dönüşümler hakkında daha fazla bilgi edinin: [Desteklenen dönüşümlerin tam listesi](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
-* Kullanılabilir dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
+* Mevcut dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
 
 ### Ayrıca bakınız
 

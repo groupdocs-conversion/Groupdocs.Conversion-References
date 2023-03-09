@@ -3,7 +3,7 @@ title: IConversionCompressResult
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tüm dönüştürme sonuçlarını tek bir arşivde sıkıştırabilir
 type: docs
-weight: 1010
+weight: 1140
 url: /tr/net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface

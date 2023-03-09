@@ -1,14 +1,14 @@
 ---
 title: SevenZ
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: 7z dosya ve klasörleri yüksek sıkıştırma oranıyla sıkıştırmak için kullanılan bir arşivleme biçimidir. Herhangi bir sıkıştırma ve şifreleme algoritmasının kullanılmasını mümkün kılan Açık Kaynak mimarisine dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/7z/ .
+description: 7z dosya ve klasörleri yüksek sıkıştırma oranıyla sıkıştırmak için kullanılan bir arşivleme biçimidir. Herhangi bir sıkıştırma ve şifreleme algoritmasının kullanılmasını mümkün kılan Açık Kaynak mimarisine dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/7z/ .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/sevenz/
 ---
 ## CompressionFileType.SevenZ field
 
-7z, dosya ve klasörleri yüksek sıkıştırma oranıyla sıkıştırmak için kullanılan bir arşivleme biçimidir. Herhangi bir sıkıştırma ve şifreleme algoritmasının kullanılmasını mümkün kılan Açık Kaynak mimarisine dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/7z/) .
+7z, dosya ve klasörleri yüksek sıkıştırma oranıyla sıkıştırmak için kullanılan bir arşivleme biçimidir. Herhangi bir sıkıştırma ve şifreleme algoritmasının kullanılmasını mümkün kılan Açık Kaynak mimarisine dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/7z/) .
 
 ```csharp
 public static readonly CompressionFileType SevenZ;

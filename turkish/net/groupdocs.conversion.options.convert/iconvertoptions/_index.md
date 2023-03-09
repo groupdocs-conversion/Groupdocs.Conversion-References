@@ -3,7 +3,7 @@ title: IConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürme seçeneklerini temsil eder
 type: docs
-weight: 1390
+weight: 1550
 url: /tr/net/groupdocs.conversion.options.convert/iconvertoptions/
 ---
 ## IConvertOptions interface

@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Konsol günlüğü uygulaması.
 type: docs
-weight: 1260
+weight: 1390
 url: /tr/net/groupdocs.conversion.logging/consolelogger/
 ---
 ## ConsoleLogger class

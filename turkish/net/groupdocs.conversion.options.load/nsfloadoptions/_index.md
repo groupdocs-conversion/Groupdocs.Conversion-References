@@ -1,14 +1,14 @@
 ---
 title: NsfLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: NSF belgelerini yükleme seçenekleri.
+description: Nsf belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1970
+weight: 2200
 url: /tr/net/groupdocs.conversion.options.load/nsfloadoptions/
 ---
 ## NsfLoadOptions class
 
-NSF belgelerini yükleme seçenekleri.
+Nsf belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -24,9 +24,9 @@ public sealed class NsfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/nsfloadoptions/convertowned) { get; } | Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
-| [ConvertOwner](../../groupdocs.conversion.options.load/nsfloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur |
-| [Depth](../../groupdocs.conversion.options.load/nsfloadoptions/depth) { get; set; } | Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği |
+| [ConvertOwned](../../groupdocs.conversion.options.load/nsfloadoptions/convertowned) { get; } | Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
+| [ConvertOwner](../../groupdocs.conversion.options.load/nsfloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır |
+| [Depth](../../groupdocs.conversion.options.load/nsfloadoptions/depth) { get; set; } | Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
 
 ## yöntemler

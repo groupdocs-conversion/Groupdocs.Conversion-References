@@ -1,14 +1,14 @@
 ---
 title: Xer
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XER dosya formatı Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/projectmanagement/xer .
+description: XER dosya formatı Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/projectmanagement/xer .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.filetypes/projectmanagementfiletype/xer/
 ---
 ## ProjectManagementFileType.Xer field
 
-XER dosya formatı, Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/project-management/xer) .
+XER dosya formatı, Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/project-management/xer) .
 
 ```csharp
 public static readonly ProjectManagementFileType Xer;

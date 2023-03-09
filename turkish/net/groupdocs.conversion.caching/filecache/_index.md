@@ -24,7 +24,7 @@ public sealed class FileCache : ICache
 
 | İsim | Tanım |
 | --- | --- |
-| [GetKeys](../../groupdocs.conversion.caching/filecache/getkeys)(string) | Filtreyle eşleşen tüm anahtarları döndürür. |
+| [GetKeys](../../groupdocs.conversion.caching/filecache/getkeys)(string) | filter. ile eşleşen tüm anahtarları döndürür |
 | [Set](../../groupdocs.conversion.caching/filecache/set)(string, object) | Önbelleğe bir önbellek girişi ekler. |
 | [TryGetValue](../../groupdocs.conversion.caching/filecache/trygetvalue)(string, out object) | Varsa, bu anahtarla ilişkili girişi alır. |
 

@@ -1,17 +1,17 @@
 ---
 title: PropertyNames
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info
+description: Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.contracts/documentinfo/propertynames/
 ---
 ## DocumentInfo.PropertyNames property
 
-Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info
+Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info
 
 ```csharp
-public IEnumerable<string> PropertyNames { get; }
+public string[] PropertyNames { get; }
 ```
 
 ### Ayrıca bakınız

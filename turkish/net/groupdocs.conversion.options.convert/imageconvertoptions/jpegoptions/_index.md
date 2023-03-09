@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Jpege özel dönüştürme seçenekleri.
+description: Jpege özgü dönüştürme seçenekleri.
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions/
 ---
 ## ImageConvertOptions.JpegOptions property
 
-Jpeg'e özel dönüştürme seçenekleri.
+Jpeg'e özgü dönüştürme seçenekleri.
 
 ```csharp
 public JpegOptions JpegOptions { get; set; }

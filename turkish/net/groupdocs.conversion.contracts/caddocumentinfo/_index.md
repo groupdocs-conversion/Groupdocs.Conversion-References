@@ -24,9 +24,9 @@ public class CadDocumentInfo : DocumentInfo
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
 | [Layers](../../groupdocs.conversion.contracts/caddocumentinfo/layers) { get; } | Belgedeki katmanlar |
 | [Layouts](../../groupdocs.conversion.contracts/caddocumentinfo/layouts) { get; } | Belgedeki düzenler |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 | [Width](../../groupdocs.conversion.contracts/caddocumentinfo/width) { get; } | Genişlik |
 
 ### Ayrıca bakınız

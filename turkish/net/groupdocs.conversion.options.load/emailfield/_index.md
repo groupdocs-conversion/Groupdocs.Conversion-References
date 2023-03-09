@@ -3,7 +3,7 @@ title: EmailField
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Eposta alanlarının numaralandırmasını açıklar
 type: docs
-weight: 1890
+weight: 2100
 url: /tr/net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class
@@ -18,7 +18,7 @@ public class EmailField : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [EmailField](emailfield)() | Serileştirme yapıcısı |
+| [EmailField](emailfield)() | Serileştirme oluşturucu |
 
 ## yöntemler
 
@@ -40,10 +40,10 @@ public class EmailField : Enumeration
 | static readonly [End](../../groupdocs.conversion.options.load/emailfield/end) | Varsayılan alan metni "Bitiş"tir. |
 | static readonly [From](../../groupdocs.conversion.options.load/emailfield/from) | Varsayılan alan metni "Kimden" şeklindedir. |
 | static readonly [Importance](../../groupdocs.conversion.options.load/emailfield/importance) | Varsayılan alan metni "Önem"dir. |
-| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | Varsayılan alan metni "Konum"dur. |
-| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | Varsayılan alan metni "Düzenleyici"dir. |
+| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | Varsayılan alan metni "Konum" şeklindedir. |
+| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | Varsayılan alan metni "Düzenleyici" şeklindedir. |
 | static readonly [PageHeader](../../groupdocs.conversion.options.load/emailfield/pageheader) | Varsayılan alan metni "PageHeader"dır. |
-| static readonly [Recurrence](../../groupdocs.conversion.options.load/emailfield/recurrence) | Varsayılan alan metni "Yineleme"dir. |
+| static readonly [Recurrence](../../groupdocs.conversion.options.load/emailfield/recurrence) | Varsayılan alan metni "Tekrar" şeklindedir. |
 | static readonly [RecurrencePattern](../../groupdocs.conversion.options.load/emailfield/recurrencepattern) | Varsayılan alan metni "RecurrencePattern"dir. |
 | static readonly [RequiredAttendees](../../groupdocs.conversion.options.load/emailfield/requiredattendees) | Varsayılan alan metni "Gerekli Katılımcılar" şeklindedir. |
 | static readonly [Sent](../../groupdocs.conversion.options.load/emailfield/sent) | Varsayılan alan metni "Gönderildi" şeklindedir. |

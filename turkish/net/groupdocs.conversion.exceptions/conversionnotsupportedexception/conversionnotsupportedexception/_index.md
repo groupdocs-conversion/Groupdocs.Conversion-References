@@ -32,8 +32,8 @@ public ConversionNotSupportedException(FileType source, FileType target)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| source | FileType | Kaynak dosya türü |
-| target | FileType | Hedef dosya türü |
+| source | FileType | kaynak dosya türü |
+| target | FileType | hedef dosya türü |
 
 ### Ayrıca bakınız
 

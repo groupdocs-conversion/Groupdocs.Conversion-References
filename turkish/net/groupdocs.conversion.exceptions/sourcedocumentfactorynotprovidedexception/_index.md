@@ -3,7 +3,7 @@ title: SourceDocumentFactoryNotProvidedException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Kaynak belge fabrikası sağlanmadığında GroupDocs istisnası oluşturuldu
 type: docs
-weight: 780
+weight: 840
 url: /tr/net/groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/
 ---
 ## SourceDocumentFactoryNotProvidedException class

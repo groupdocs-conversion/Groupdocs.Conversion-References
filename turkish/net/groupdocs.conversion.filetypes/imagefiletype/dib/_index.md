@@ -1,14 +1,14 @@
 ---
 title: Dib
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: DIB Aygıttan Bağımsız Bit Eşlem dosyası yapı olarak standart Bit Eşlem dosyalarına BMP benzer ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/dib .
+description: DIB Aygıttan Bağımsız Bit Eşlem dosyası yapı olarak standart Bit Eşlem dosyalarına BMP benzer ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/dib .
 type: docs
-weight: 80
+weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/dib/
 ---
 ## ImageFileType.Dib field
 
-DIB (Aygıttan Bağımsız Bit Eşlem) dosyası, yapı olarak standart Bit Eşlem dosyalarına (BMP) benzer, ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/dib) .
+DIB (Aygıttan Bağımsız Bit Eşlem) dosyası, yapı olarak standart Bit Eşlem dosyalarına (BMP) benzer, ancak farklı bir başlığa sahip bir raster görüntü dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/dib) .
 
 ```csharp
 public static readonly ImageFileType Dib;

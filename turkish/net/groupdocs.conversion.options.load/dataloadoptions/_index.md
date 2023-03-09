@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Veri belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1870
+weight: 2060
 url: /tr/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /tr/net/groupdocs.conversion.options.load/dataloadoptions/
 Veri belgelerini yüklemek için seçenekler.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Yeni örneğini başlatır[`DataLoadOptions`](../dataloadoptions) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | html için temel yol/url |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | İşaretleme belgesini yüklerken kullanılacak kodlamayı alır veya ayarlar. Özellik null ise, kodlama belge karakter kümesinin niteliğine göre belirlenir. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Dönüştürülen belgede sayfa numaralandırma oluşturmayı etkinleştirin veya devre dışı bırakın. Varsayılan: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Harici kaynakları yüklemek için zaman aşımı |
 
 ## yöntemler
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * ad alanı [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * toplantı [GroupDocs.Conversion](../../)
 

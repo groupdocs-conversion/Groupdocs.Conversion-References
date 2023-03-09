@@ -3,7 +3,7 @@ title: IConverterListener
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürücü dinlemeyi gerçekleştirmek için kullanılan yöntemleri tanımlar.
 type: docs
-weight: 2120
+weight: 2380
 url: /tr/net/groupdocs.conversion.reporting/iconverterlistener/
 ---
 ## IConverterListener interface

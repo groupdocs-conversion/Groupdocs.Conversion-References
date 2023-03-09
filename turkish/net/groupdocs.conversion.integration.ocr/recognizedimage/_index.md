@@ -3,7 +3,7 @@ title: RecognizedImage
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tanıma işleminin bir sonucu olarak bir görüntüden çıkarılan metni temsil eder.
 type: docs
-weight: 1210
+weight: 1340
 url: /tr/net/groupdocs.conversion.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class

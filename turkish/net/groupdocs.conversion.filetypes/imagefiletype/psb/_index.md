@@ -1,14 +1,14 @@
 ---
 title: Psb
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Adobe photoshop dosyaları iki biçimde kaydeder. 30.000 x 30.000 piksel boyutundaki dosyalar PSD uzantısıyla kaydedilir ve PSDden daha büyük dosyalar 300.000 x 300.000 piksele kadar Photoshop Big olarak bilinen PSB uzantısıyla kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/image/psb .
+description: Adobe photoshop dosyaları iki biçimde kaydeder. 30.000 x 30.000 piksel boyutundaki dosyalar PSD uzantısıyla kaydedilir ve PSDden daha büyük dosyalar 300.000 x 300.000 piksele kadar Photoshop Big olarak bilinen PSB uzantısıyla kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/image/psb .
 type: docs
-weight: 310
+weight: 290
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field
 
-Adobe photoshop dosyaları iki biçimde kaydeder. 30.000 x 30.000 piksel boyutundaki dosyalar PSD uzantısıyla kaydedilir ve PSD'den daha büyük dosyalar 300.000 x 300.000 piksele kadar "Photoshop Big" olarak bilinen PSB uzantısıyla kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/image/psb) .
+Adobe photoshop dosyaları iki biçimde kaydeder. 30.000 x 30.000 piksel boyutundaki dosyalar PSD uzantısıyla kaydedilir ve PSD'den daha büyük dosyalar 300.000 x 300.000 piksele kadar "Photoshop Big" olarak bilinen PSB uzantısıyla kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/image/psb) .
 
 ```csharp
 public static readonly ImageFileType Psb;

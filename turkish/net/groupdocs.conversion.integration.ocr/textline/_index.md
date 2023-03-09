@@ -3,7 +3,7 @@ title: TextLine
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tanıma işleminin bir sonucu olarak bir görüntüden çıkarılan metni temsil eder.
 type: docs
-weight: 1230
+weight: 1360
 url: /tr/net/groupdocs.conversion.integration.ocr/textline/
 ---
 ## TextLine class

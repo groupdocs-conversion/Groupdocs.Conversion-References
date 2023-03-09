@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Korunan belgenin korumasını kaldırmak için parola belirleyin.
+description: Korumalı belgenin korumasını kaldırmak için parola ayarlayın.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.options.load/presentationloadoptions/password/
 ---
 ## PresentationLoadOptions.Password property
 
-Korunan belgenin korumasını kaldırmak için parola belirleyin.
+Korumalı belgenin korumasını kaldırmak için parola ayarlayın.
 
 ```csharp
 public string Password { get; set; }

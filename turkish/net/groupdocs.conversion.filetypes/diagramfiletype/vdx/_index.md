@@ -1,14 +1,14 @@
 ---
 title: Vdx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Microsoft Visioda oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Microsoft tarafından geliştirilen Visio yazılımında bir Visio çizim XML dosyası oluşturulur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vdx .
+description: Microsoft Visioda oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Microsoft tarafından geliştirilen Visio yazılımında bir Visio çizim XML dosyası oluşturulur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vdx .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vdx/
 ---
 ## DiagramFileType.Vdx field
 
-Microsoft Visio'da oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Microsoft tarafından geliştirilen Visio yazılımında bir Visio çizim XML dosyası oluşturulur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vdx) .
+Microsoft Visio'da oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Microsoft tarafından geliştirilen Visio yazılımında bir Visio çizim XML dosyası oluşturulur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vdx) .
 
 ```csharp
 public static readonly DiagramFileType Vdx;

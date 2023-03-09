@@ -1,14 +1,14 @@
 ---
 title: WebpOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Webpye özel dönüştürme seçenekleri.
+description: Webpe özgü dönüştürme seçenekleri.
 type: docs
 weight: 160
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/webpoptions/
 ---
 ## ImageConvertOptions.WebpOptions property
 
-Webp'ye özel dönüştürme seçenekleri.
+Webp'e özgü dönüştürme seçenekleri.
 
 ```csharp
 public WebpOptions WebpOptions { get; set; }

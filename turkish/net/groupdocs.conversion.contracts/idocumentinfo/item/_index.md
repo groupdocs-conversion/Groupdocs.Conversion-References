@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.conversion.contracts/idocumentinfo/item/
 key olarak sağlanan bir özellik için değer alın
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 | Parametre | Tanım |

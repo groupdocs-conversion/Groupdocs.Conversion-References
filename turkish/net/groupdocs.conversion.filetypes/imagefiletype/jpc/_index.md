@@ -3,7 +3,7 @@ title: Jpc
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jpc belge formatı
 type: docs
-weight: 220
+weight: 200
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/jpc/
 ---
 ## ImageFileType.Jpc field

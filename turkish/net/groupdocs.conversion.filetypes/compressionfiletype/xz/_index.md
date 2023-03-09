@@ -1,14 +1,14 @@
 ---
 title: Xz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XZ LZMA2 sıkıştırma algoritmasını kullanan sıkıştırılmış bir dosya biçimidir. Popüler gzip ve bzip2 biçimlerinin yerine geçecek şekilde tasarlanmıştır ve bu eski standartlara göre çeşitli avantajlar sunar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/xz/ .
+description: XZ LZMA2 sıkıştırma algoritmasını kullanan sıkıştırılmış bir dosya biçimidir. Popüler gzip ve bzip2 biçimlerinin yerine geçecek şekilde tasarlanmıştır ve bu eski standartlara göre çeşitli avantajlar sunar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/xz/ .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/xz/
 ---
 ## CompressionFileType.Xz field
 
-XZ, LZMA2 sıkıştırma algoritmasını kullanan sıkıştırılmış bir dosya biçimidir. Popüler gzip ve bzip2 biçimlerinin yerine geçecek şekilde tasarlanmıştır ve bu eski standartlara göre çeşitli avantajlar sunar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/xz/) .
+XZ, LZMA2 sıkıştırma algoritmasını kullanan sıkıştırılmış bir dosya biçimidir. Popüler gzip ve bzip2 biçimlerinin yerine geçecek şekilde tasarlanmıştır ve bu eski standartlara göre çeşitli avantajlar sunar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/xz/) .
 
 ```csharp
 public static readonly CompressionFileType Xz;

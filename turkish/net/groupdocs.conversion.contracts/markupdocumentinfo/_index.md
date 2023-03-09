@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: İşaretleme belgesi meta verilerini içerir
 type: docs
-weight: 310
+weight: 330
 url: /tr/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
@@ -11,7 +11,8 @@ url: /tr/net/groupdocs.conversion.contracts/markupdocumentinfo/
 İşaretleme belgesi meta verilerini içerir
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## Özellikleri
@@ -19,16 +20,16 @@ public class MarkupDocumentInfo : DocumentInfo
 | İsim | Tanım |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Belge oluşturma tarihi |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Algılanan belge kodlaması |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Algılanan belge kodlaması |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * ad alanı [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * toplantı [GroupDocs.Conversion](../../)
 

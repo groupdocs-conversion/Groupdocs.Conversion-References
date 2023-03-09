@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Ses belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1820
+weight: 2010
 url: /tr/net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class

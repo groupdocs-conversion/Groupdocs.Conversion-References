@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Eğerdoğru girdi önce PDFye ardından istenen biçime dönüştürülür.
+description: Eğerdoğru  giriş önce PDFye ve ardından istenen formata dönüştürülür.
 type: docs
 weight: 140
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-Eğer`doğru` girdi önce PDF'ye, ardından istenen biçime dönüştürülür.
+Eğer`doğru` , giriş önce PDF'ye ve ardından istenen formata dönüştürülür.
 
 ```csharp
 public bool UsePdf { get; set; }

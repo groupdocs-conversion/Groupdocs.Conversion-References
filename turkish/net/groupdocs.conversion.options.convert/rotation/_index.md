@@ -3,7 +3,7 @@ title: Rotation
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: sayfa döndürme sıralamasını açıklar
 type: docs
-weight: 1700
+weight: 1880
 url: /tr/net/groupdocs.conversion.options.convert/rotation/
 ---
 ## Rotation class
@@ -18,7 +18,7 @@ public class Rotation : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [Rotation](rotation)() | Serileştirme yapıcısı |
+| [Rotation](rotation)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

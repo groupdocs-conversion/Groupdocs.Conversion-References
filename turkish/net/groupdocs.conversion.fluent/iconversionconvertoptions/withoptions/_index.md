@@ -1,14 +1,14 @@
 ---
 title: WithOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürme seçeneklerini ayarlayın
+description: Dönüştürme seçeneklerini ayarla
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
-Dönüştürme seçeneklerini ayarlayın
+Dönüştürme seçeneklerini ayarla
 
 ```csharp
 public IConversionCompletedOrConvert WithOptions(ConvertOptions convertOptions)
@@ -32,17 +32,19 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
-Dönüştürme seçeneklerini ayarlayın
+Dönüştürme seçeneklerini ayarla
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Parametre | Tip | Tanım |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Dönüştürme seçenekleri sağlayıcısı |
+| Parametre | Tanım |
+| --- | --- |
+| convertOptionsProvider | Dönüştürme seçenekleri sağlayıcısı |
+| convertOptionsProvider arg2arg2 | Kaynak dosyanın türü |
 
 ### Geri dönüş değeri
 
@@ -51,7 +53,8 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * toplantı [GroupDocs.Conversion](../../../)

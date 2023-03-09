@@ -3,7 +3,7 @@ title: ProjectManagementConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Proje yönetimi dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1660
+weight: 1840
 url: /tr/net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/
 ---
 ## ProjectManagementConvertOptions class

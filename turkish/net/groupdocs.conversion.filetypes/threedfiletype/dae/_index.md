@@ -1,14 +1,14 @@
 ---
 title: Dae
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bir DAE dosyası etkileşimli 3B uygulamalar arasında veri alışverişi için kullanılan bir Dijital Varlık Değişimi dosya biçimidir. Bu dosya formatı dijital varlıkların grafik yazılım uygulamaları arasında değiş tokuşu için açık standart bir XML şeması olan COLLADA COLLAborative Design Activity XML şemasına dayanmaktadır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/dae .
+description: DAE dosyası etkileşimli 3B uygulamalar arasında veri alışverişi için kullanılan bir Dijital Varlık Değişimi dosya biçimidir. Bu dosya formatı grafik yazılım uygulamaları arasında dijital varlıkların değiş tokuşu için açık standart bir XML şeması olan COLLADA COLLAborative Design Activity XML şemasına dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/dae .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/dae/
 ---
 ## ThreeDFileType.Dae field
 
-Bir DAE dosyası, etkileşimli 3B uygulamalar arasında veri alışverişi için kullanılan bir Dijital Varlık Değişimi dosya biçimidir. Bu dosya formatı, dijital varlıkların grafik yazılım uygulamaları arasında değiş tokuşu için açık standart bir XML şeması olan COLLADA (COLLAborative Design Activity) XML şemasına dayanmaktadır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/dae) .
+DAE dosyası, etkileşimli 3B uygulamalar arasında veri alışverişi için kullanılan bir Dijital Varlık Değişimi dosya biçimidir. Bu dosya formatı, grafik yazılım uygulamaları arasında dijital varlıkların değiş tokuşu için açık standart bir XML şeması olan COLLADA (COLLAborative Design Activity) XML şemasına dayalıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/dae) .
 
 ```csharp
 public static readonly ThreeDFileType Dae;

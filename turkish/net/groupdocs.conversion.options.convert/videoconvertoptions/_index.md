@@ -3,7 +3,7 @@ title: VideoConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Video türüne dönüştürme seçenekleri.
 type: docs
-weight: 1760
+weight: 1940
 url: /tr/net/groupdocs.conversion.options.convert/videoconvertoptions/
 ---
 ## VideoConvertOptions class
@@ -24,6 +24,8 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 
 | İsim | Tanım |
 | --- | --- |
+| [AudioFormat](../../groupdocs.conversion.options.convert/videoconvertoptions/audioformat) { get; set; } | Hangi ses formatı kullanılacak |
+| [ExtractAudioOnly](../../groupdocs.conversion.options.convert/videoconvertoptions/extractaudioonly) { get; set; } | Doğru olarak ayarlanırsa, sesi videodan çıkarır |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 

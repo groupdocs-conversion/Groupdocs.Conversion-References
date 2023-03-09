@@ -1,14 +1,14 @@
 ---
 title: Folder
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: İşlenecek klasör Varsayılan Gelen Kutusu dir
+description: İşlenecek klasör Varsayılan Inbox
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.options.load/personalstorageloadoptions/folder/
 ---
 ## PersonalStorageLoadOptions.Folder property
 
-İşlenecek klasör Varsayılan Gelen Kutusu 'dir
+İşlenecek klasör Varsayılan Inbox
 
 ```csharp
 public string Folder { get; set; }

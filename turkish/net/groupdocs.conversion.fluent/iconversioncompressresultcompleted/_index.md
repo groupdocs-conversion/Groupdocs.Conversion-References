@@ -3,7 +3,7 @@ title: IConversionCompressResultCompleted
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Kol sıkıştırması tamamlandı
 type: docs
-weight: 1020
+weight: 1150
 url: /tr/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | İsim | Tanım |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | Sıkıştırılmış belge akışını alın. Yalnızca Compression(CompressionConvertOptions options)" ayarlanırsa tetiklenir. |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | Sıkıştırılmış belge akışını alın. Yalnızca Compression(CompressionConvertOptions options)" ayarlanırsa tetiklenir. |
 
 ### Ayrıca bakınız
 

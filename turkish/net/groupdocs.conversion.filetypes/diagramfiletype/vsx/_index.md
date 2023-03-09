@@ -1,14 +1,14 @@
 ---
 title: Vsx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .VSX uzantılı dosyalar Microsoft Visioda diyagram oluşturmak için kullanılan çizimlerden ve şekillerden oluşan kalıpları ifade eder. VSX dosyaları XML dosya biçiminde kaydedilir ve Visio 2013e kadar desteklenirdi. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vsx .
+description: .VSX uzantılı dosyalar Microsoft Visioda diyagram oluşturmak için kullanılan çizimlerden ve şekillerden oluşan kalıpları ifade eder. VSX dosyaları XML dosya biçiminde kaydedilir ve Visio 2013e kadar desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vsx .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vsx/
 ---
 ## DiagramFileType.Vsx field
 
-.VSX uzantılı dosyalar, Microsoft Visio'da diyagram oluşturmak için kullanılan çizimlerden ve şekillerden oluşan kalıpları ifade eder. VSX dosyaları XML dosya biçiminde kaydedilir ve Visio 2013'e kadar desteklenirdi. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vsx) .
+.VSX uzantılı dosyalar, Microsoft Visio'da diyagram oluşturmak için kullanılan çizimlerden ve şekillerden oluşan kalıpları ifade eder. VSX dosyaları XML dosya biçiminde kaydedilir ve Visio 2013'e kadar desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vsx) .
 
 ```csharp
 public static readonly DiagramFileType Vsx;

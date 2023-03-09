@@ -65,7 +65,7 @@ public CorruptOrDamagedFileException(string message)
 
 ## CorruptOrDamagedFileException(string, Exception) {#constructor_3}
 
-Bir mesaj içeren bir istisna örneği oluşturur ve iç istisnayı yayar
+Bir mesajla bir istisna örneği oluşturur ve iç istisnayı yayar
 
 ```csharp
 public CorruptOrDamagedFileException(string message, Exception exception)

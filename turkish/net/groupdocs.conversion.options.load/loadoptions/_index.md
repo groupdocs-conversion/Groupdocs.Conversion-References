@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Soyut belge yükleme seçenekleri sınıfı.
+description: Soyut belge yükleme seçenekleri class.
 type: docs
-weight: 1930
+weight: 2160
 url: /tr/net/groupdocs.conversion.options.load/loadoptions/
 ---
 ## LoadOptions class
 
-Soyut belge yükleme seçenekleri sınıfı.
+Soyut belge yükleme seçenekleri class.
 
 ```csharp
 public abstract class LoadOptions : ValueObject

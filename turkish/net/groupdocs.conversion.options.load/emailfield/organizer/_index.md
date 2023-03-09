@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Varsayılan alan metni Düzenleyicidir.
+description: Varsayılan alan metni Düzenleyici şeklindedir.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.options.load/emailfield/organizer/
 ---
 ## EmailField.Organizer field
 
-Varsayılan alan metni "Düzenleyici"dir.
+Varsayılan alan metni "Düzenleyici" şeklindedir.
 
 ```csharp
 public static readonly EmailField Organizer;

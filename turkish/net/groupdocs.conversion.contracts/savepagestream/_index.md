@@ -3,7 +3,7 @@ title: SavePageStream
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürülen belge sayfasını akışa kaydetmek için temsilciyi açıklar.
 type: docs
-weight: 450
+weight: 490
 url: /tr/net/groupdocs.conversion.contracts/savepagestream/
 ---
 ## SavePageStream delegate

@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya türü temel sınıf
+description: Dosya tipi temel class
 type: docs
-weight: 850
+weight: 930
 url: /tr/net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class
 
-Dosya türü temel sınıf
+Dosya tipi temel class
 
 ```csharp
 public class FileType : Enumeration
@@ -18,7 +18,7 @@ public class FileType : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](filetype)() | Serileştirme yapıcısı |
+| [FileType](filetype)() | Serileştirme oluşturucu |
 
 ## Özellikleri
 
@@ -37,7 +37,7 @@ public class FileType : Enumeration
 | static [FromFilename](../../groupdocs.conversion.filetypes/filetype/fromfilename)(string) | Belirtilen fileName için FileType döndürür |
 | static [FromStream](../../groupdocs.conversion.filetypes/filetype/fromstream)(Stream) | Sağlanan belge akışı için FileType'ı döndürür |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals#equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |

@@ -1,14 +1,14 @@
 ---
 title: Gz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bir GZ dosyası standart gzip GNU zip sıkıştırma algoritması kullanılarak oluşturulan sıkıştırılmış bir arşivdir. Birden çok sıkıştırılmış dosya dizin ve dosya taslakları içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/gz/ .
+description: Bir GZ dosyası standart gzip GNU zip sıkıştırma algoritması kullanılarak oluşturulan sıkıştırılmış bir arşivdir. Birden çok sıkıştırılmış dosya dizin ve dosya koçanı içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/gz/ .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/gz/
 ---
 ## CompressionFileType.Gz field
 
-Bir GZ dosyası, standart gzip (GNU zip) sıkıştırma algoritması kullanılarak oluşturulan sıkıştırılmış bir arşivdir. Birden çok sıkıştırılmış dosya, dizin ve dosya taslakları içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/gz/) .
+Bir GZ dosyası, standart gzip (GNU zip) sıkıştırma algoritması kullanılarak oluşturulan sıkıştırılmış bir arşivdir. Birden çok sıkıştırılmış dosya, dizin ve dosya koçanı içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/gz/) .
 
 ```csharp
 public static readonly CompressionFileType Gz;

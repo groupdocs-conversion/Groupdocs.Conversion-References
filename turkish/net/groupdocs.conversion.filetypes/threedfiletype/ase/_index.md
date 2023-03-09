@@ -1,14 +1,14 @@
 ---
 title: Ase
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .ase uzantılı bir dosya sahne verilerini Autodesk kullanarak dışa aktarırken 2B veya 3B bilgileri içeren bir sahnenin ASCII temsili olan bir Autodesk ASCII Scene Export dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/ase .
+description: .ase uzantılı bir dosya sahne verilerini Autodesk kullanarak dışa aktarırken 2B veya 3B bilgiler içeren bir sahnenin ASCII temsili olan bir Autodesk ASCII Sahne Dışa Aktarma dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/ase .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/ase/
 ---
 ## ThreeDFileType.Ase field
 
-.ase uzantılı bir dosya, sahne verilerini Autodesk kullanarak dışa aktarırken 2B veya 3B bilgileri içeren, bir sahnenin ASCII temsili olan bir Autodesk ASCII Scene Export dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/ase) .
+.ase uzantılı bir dosya, sahne verilerini Autodesk kullanarak dışa aktarırken 2B veya 3B bilgiler içeren, bir sahnenin ASCII temsili olan bir Autodesk ASCII Sahne Dışa Aktarma dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/ase) .
 
 ```csharp
 public static readonly ThreeDFileType Ase;

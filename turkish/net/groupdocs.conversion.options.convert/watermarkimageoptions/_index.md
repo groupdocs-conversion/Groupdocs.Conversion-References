@@ -3,7 +3,7 @@ title: WatermarkImageOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürülen belgeye ayar filigranı için seçenekler
 type: docs
-weight: 1770
+weight: 1950
 url: /tr/net/groupdocs.conversion.options.convert/watermarkimageoptions/
 ---
 ## WatermarkImageOptions class

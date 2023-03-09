@@ -1,14 +1,14 @@
 ---
 title: Avi
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: AVI dosya biçimi Microsoft tarafından tanıtılan bir Audio Video multimedya kapsayıcı dosya biçimidir. XVid ve DivX gibi çeşitli codecler Kodlayıcılar/Kod Çözücüler kullanılarak oluşturulan ve sıkıştırılan ses ve video verilerini tutar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/video/avi/ .
+description: AVI dosya biçimi Microsoft tarafından tanıtılan bir Audio Video multimedya kapsayıcı dosya biçimidir. XVid ve DivX gibi çeşitli codecler Kodlayıcılar/Kod Çözücüler kullanılarak oluşturulan ve sıkıştırılan ses ve video verilerini tutar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/video/avi/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.filetypes/videofiletype/avi/
 ---
 ## VideoFileType.Avi field
 
-AVI dosya biçimi, Microsoft tarafından tanıtılan bir Audio Video multimedya kapsayıcı dosya biçimidir. XVid ve DivX gibi çeşitli codec'ler (Kodlayıcılar/Kod Çözücüler) kullanılarak oluşturulan ve sıkıştırılan ses ve video verilerini tutar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/video/avi/) .
+AVI dosya biçimi, Microsoft tarafından tanıtılan bir Audio Video multimedya kapsayıcı dosya biçimidir. XVid ve DivX gibi çeşitli codec'ler (Kodlayıcılar/Kod Çözücüler) kullanılarak oluşturulan ve sıkıştırılan ses ve video verilerini tutar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/video/avi/) .
 
 ```csharp
 public static readonly VideoFileType Avi;

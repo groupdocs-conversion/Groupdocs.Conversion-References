@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Txt belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2050
+weight: 2300
 url: /tr/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class

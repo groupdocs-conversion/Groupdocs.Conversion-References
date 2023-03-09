@@ -1,14 +1,14 @@
 ---
 title: IPageOrientationConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sayfa yönlendirmesini destekleyen dönüştürme seçeneklerini temsil eder
+description: Sayfa yönünü destekleyen dönüştürme seçeneklerini temsil eder
 type: docs
-weight: 1410
+weight: 1570
 url: /tr/net/groupdocs.conversion.options.convert/ipageorientationconvertoptions/
 ---
 ## IPageOrientationConvertOptions interface
 
-Sayfa yönlendirmesini destekleyen dönüştürme seçeneklerini temsil eder
+Sayfa yönünü destekleyen dönüştürme seçeneklerini temsil eder
 
 ```csharp
 public interface IPageOrientationConvertOptions : IConvertOptions
@@ -18,7 +18,7 @@ public interface IPageOrientationConvertOptions : IConvertOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [PageOrientation](../../groupdocs.conversion.options.convert/ipageorientationconvertoptions/pageorientation) { get; set; } | Dönüştürmeden sonra istenen sayfa yönlendirmesi |
+| [PageOrientation](../../groupdocs.conversion.options.convert/ipageorientationconvertoptions/pageorientation) { get; set; } | Dönüşümden sonra istenen sayfa yönü |
 
 ### Ayrıca bakınız
 

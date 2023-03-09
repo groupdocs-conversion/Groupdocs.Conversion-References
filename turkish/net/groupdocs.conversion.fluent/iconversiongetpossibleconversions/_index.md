@@ -3,7 +3,7 @@ title: IConversionGetPossibleConversions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Kaynak belge için olası dönüşümleri alır.
 type: docs
-weight: 1120
+weight: 1250
 url: /tr/net/groupdocs.conversion.fluent/iconversiongetpossibleconversions/
 ---
 ## IConversionGetPossibleConversions interface

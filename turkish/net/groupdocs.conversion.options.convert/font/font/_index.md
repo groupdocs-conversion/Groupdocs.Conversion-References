@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: yeni Yazı Tipi örneği oluşturur
+description:  yeni Yazı Tipi örneği oluşturur
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.options.convert/font/font/
 ---
 ## Font constructor
 
-yeni Yazı Tipi örneği oluşturur
+, yeni Yazı Tipi örneği oluşturur
 
 ```csharp
 public Font(string fontFamilyName, float size)

@@ -1,14 +1,14 @@
 ---
 title: HidePdfAnnotations
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdf belgelerindeki açıklamaları gizleyin.
+description: Pdf belgelerindeki ek açıklamaları gizle.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations/
 ---
 ## PdfLoadOptions.HidePdfAnnotations property
 
-Pdf belgelerindeki açıklamaları gizleyin.
+Pdf belgelerindeki ek açıklamaları gizle.
 
 ```csharp
 public bool HidePdfAnnotations { get; set; }

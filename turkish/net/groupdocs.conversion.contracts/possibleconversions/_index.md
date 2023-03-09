@@ -1,14 +1,14 @@
 ---
 title: PossibleConversions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belirli kaynak dosya formatı için hangi dönüşüm çiftlerinin desteklendiğini gösteren bir eşlemeyi temsil eder.
+description: Belirli kaynak dosyası format için hangi dönüşüm çiftlerinin desteklendiğinin eşlemesini temsil eder
 type: docs
-weight: 370
+weight: 400
 url: /tr/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class
 
-Belirli kaynak dosya formatı için hangi dönüşüm çiftlerinin desteklendiğini gösteren bir eşlemeyi temsil eder.
+Belirli kaynak dosyası format için hangi dönüşüm çiftlerinin desteklendiğinin eşlemesini temsil eder
 
 ```csharp
 public sealed class PossibleConversions : ValueObject
@@ -18,12 +18,12 @@ public sealed class PossibleConversions : ValueObject
 
 | İsim | Tanım |
 | --- | --- |
-| [All](../../groupdocs.conversion.contracts/possibleconversions/all) { get; } | Tüm hedef dosya türleri ve birincil/ikincil bayrak  IEnumerable of[`TargetConversion`](../targetconversion) |
+| [All](../../groupdocs.conversion.contracts/possibleconversions/all) { get; } | Tüm hedef dosya türleri ve birincil/ikincil bayrak  Sayısız[`TargetConversion`](../targetconversion) |
 | [Item](../../groupdocs.conversion.contracts/possibleconversions/item) { get; } | Belirtilen hedef dosya türü için hedef dönüştürmeyi döndürür (2 indexers) |
-| [LoadOptions](../../groupdocs.conversion.contracts/possibleconversions/loadoptions) { get; } | Geçerli türden dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri |
+| [LoadOptions](../../groupdocs.conversion.contracts/possibleconversions/loadoptions) { get; } | Geçerli type 'den dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri |
 | [Primary](../../groupdocs.conversion.contracts/possibleconversions/primary) { get; } | Birincil hedef dosya türleri |
 | [Secondary](../../groupdocs.conversion.contracts/possibleconversions/secondary) { get; } | İkincil hedef dosya türleri |
-| [Source](../../groupdocs.conversion.contracts/possibleconversions/source) { get; } | Kaynak dosya biçimleri |
+| [Source](../../groupdocs.conversion.contracts/possibleconversions/source) { get; } | Kaynak dosya formatları |
 
 ## yöntemler
 

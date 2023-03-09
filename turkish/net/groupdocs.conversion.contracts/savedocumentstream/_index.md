@@ -1,14 +1,14 @@
 ---
 title: SaveDocumentStream
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürülen belgeyi akışa kaydetmek için temsilciyi açıklar.
+description: Dönüştürülen belgeyi akışa kaydetmek için temsilciyi tanımlar.
 type: docs
-weight: 430
+weight: 470
 url: /tr/net/groupdocs.conversion.contracts/savedocumentstream/
 ---
 ## SaveDocumentStream delegate
 
-Dönüştürülen belgeyi akışa kaydetmek için temsilciyi açıklar.
+Dönüştürülen belgeyi akışa kaydetmek için temsilciyi tanımlar.
 
 ```csharp
 public delegate Stream SaveDocumentStream();

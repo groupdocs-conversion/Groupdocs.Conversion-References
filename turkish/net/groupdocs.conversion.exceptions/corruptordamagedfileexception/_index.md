@@ -1,14 +1,14 @@
 ---
 title: CorruptOrDamagedFileException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya bozuk veya hasarlı olduğunda oluşturulan GroupDocs istisnası
+description: Dosya bozuk veya hasarlı olduğunda GroupDocs istisnası oluşturulur
 type: docs
-weight: 700
+weight: 760
 url: /tr/net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 ---
 ## CorruptOrDamagedFileException class
 
-Dosya bozuk veya hasarlı olduğunda oluşturulan GroupDocs istisnası
+Dosya bozuk veya hasarlı olduğunda GroupDocs istisnası oluşturulur
 
 ```csharp
 public sealed class CorruptOrDamagedFileException : GroupDocsConversionException
@@ -21,7 +21,7 @@ public sealed class CorruptOrDamagedFileException : GroupDocsConversionException
 | [CorruptOrDamagedFileException](corruptordamagedfileexception#constructor)() | Varsayılan yapıcı |
 | [CorruptOrDamagedFileException](corruptordamagedfileexception#constructor_1)(FileType) | FileType ile bir istisna örneği oluşturur |
 | [CorruptOrDamagedFileException](corruptordamagedfileexception#constructor_2)(string) | Bir mesajla bir istisna örneği oluşturur |
-| [CorruptOrDamagedFileException](corruptordamagedfileexception#constructor_3)(string, Exception) | Bir mesaj içeren bir istisna örneği oluşturur ve iç istisnayı yayar |
+| [CorruptOrDamagedFileException](corruptordamagedfileexception#constructor_3)(string, Exception) | Bir mesajla bir istisna örneği oluşturur ve iç istisnayı yayar |
 
 ### Ayrıca bakınız
 

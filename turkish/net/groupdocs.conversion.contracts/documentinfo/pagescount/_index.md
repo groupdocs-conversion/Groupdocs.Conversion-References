@@ -1,14 +1,14 @@
 ---
 title: PagesCount
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge sayfaları sayısı.
+description: Belge sayfa sayısı.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.contracts/documentinfo/pagescount/
 ---
 ## DocumentInfo.PagesCount property
 
-Belge sayfaları sayısı.
+Belge sayfa sayısı.
 
 ```csharp
 public int PagesCount { get; }

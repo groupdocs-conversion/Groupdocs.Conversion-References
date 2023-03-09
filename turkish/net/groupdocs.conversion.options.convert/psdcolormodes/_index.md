@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Psd renk modları numaralandırmasını tanımlar.
 type: docs
-weight: 1670
+weight: 1850
 url: /tr/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class
@@ -18,7 +18,7 @@ public class PsdColorModes : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PsdColorModes](psdcolormodes)() | Serileştirme yapıcısı |
+| [PsdColorModes](psdcolormodes)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

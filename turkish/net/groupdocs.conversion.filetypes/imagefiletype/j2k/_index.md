@@ -1,14 +1,14 @@
 ---
 title: J2k
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: J2K dosyası DCT sıkıştırması yerine wavelet sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/j2k .
+description: J2K dosyası DCT sıkıştırması yerine wavelet sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 190
+weight: 170
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/j2k/
 ---
 ## ImageFileType.J2k field
 
-J2K dosyası, DCT sıkıştırması yerine wavelet sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/j2k) .
+J2K dosyası, DCT sıkıştırması yerine wavelet sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/j2k) .
 
 ```csharp
 public static readonly ImageFileType J2k;

@@ -3,7 +3,7 @@ title: GroupDocsConversionException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: GroupDocs.Dönüşüm genel istisnası
 type: docs
-weight: 730
+weight: 790
 url: /tr/net/groupdocs.conversion.exceptions/groupdocsconversionexception/
 ---
 ## GroupDocsConversionException class
@@ -20,7 +20,7 @@ public class GroupDocsConversionException : Exception
 | --- | --- |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor)() | Varsayılan yapıcı |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor_1)(string) | Belirli bir mesajla bir istisna oluşturur |
-| [GroupDocsConversionException](groupdocsconversionexception#constructor_2)(string, Exception) | Belirli bir mesajla bir istisna oluşturun ve iç istisnayı yayınlayın |
+| [GroupDocsConversionException](groupdocsconversionexception#constructor_2)(string, Exception) | Belirli bir mesajla bir istisna oluşturun ve iç istisnayı yayın |
 
 ### Ayrıca bakınız
 

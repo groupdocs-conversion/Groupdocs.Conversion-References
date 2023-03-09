@@ -1,14 +1,14 @@
 ---
 title: IConversionLoadOptionsOrSourceDocumentLoaded
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Yüklenen belgeyle dönüştürme yükleme seçenekleri veya eylemleri
+description: Dönüştürme yükleme seçenekleri veya yüklenen belge ile eylemler
 type: docs
-weight: 1140
+weight: 1270
 url: /tr/net/groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded/
 ---
 ## IConversionLoadOptionsOrSourceDocumentLoaded interface
 
-Yüklenen belgeyle dönüştürme yükleme seçenekleri veya eylemleri
+Dönüştürme yükleme seçenekleri veya yüklenen belge ile eylemler
 
 ```csharp
 public interface IConversionLoadOptionsOrSourceDocumentLoaded : IConversionLoadOptions, 

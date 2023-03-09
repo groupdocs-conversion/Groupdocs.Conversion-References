@@ -1,14 +1,14 @@
 ---
 title: Textbox
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bu mod PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için hızlı ve iyidir ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasında görsel olarak gruplandırılmış her metin bloğu sonuçta ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu the çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek ancak tamamen metin kutularından oluşacak ve Microsoft Wordde belgenin daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu varsayılan moddur.
+description: Bu mod hızlıdır ve PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için iyidir ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasındaki görsel olarak gruplandırılmış her metin bloğu ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek ancak tamamen metin kutularından oluşacak ve Microsoft Wordde belgenin üzerinde daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu varsayılan moddur.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.convert/pdfrecognitionmode/textbox/
 ---
 ## PdfRecognitionMode.Textbox field
 
-Bu mod, PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için hızlı ve iyidir, ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasında görsel olarak gruplandırılmış her metin bloğu, sonuçta ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu, the çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek, ancak tamamen metin kutularından oluşacak ve Microsoft Word'de belgenin daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu varsayılan moddur.
+Bu mod hızlıdır ve PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için iyidir, ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasındaki görsel olarak gruplandırılmış her metin bloğu, ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu, çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek, ancak tamamen metin kutularından oluşacak ve Microsoft Word'de belgenin üzerinde daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu, varsayılan moddur.
 
 ```csharp
 public static readonly PdfRecognitionMode Textbox;

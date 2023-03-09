@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Yeni yazı tipi değiştirme çiftini örnekleyin.
+description: Yeni yazı tipi değiştirme çiftini başlat.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.contracts/fontsubstitute/create/
 ---
 ## FontSubstitute.Create method
 
-Yeni yazı tipi değiştirme çiftini örnekleyin.
+Yeni yazı tipi değiştirme çiftini başlat.
 
 ```csharp
 public static FontSubstitute Create(string originalFont, string substituteWith)
@@ -17,7 +17,7 @@ public static FontSubstitute Create(string originalFont, string substituteWith)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | originalFont | String | Kaynak belgeden yazı tipi. |
-| substituteWith | String | "OrijinalFont.dll" yerine kullanılacak yazı tipi. |
+| substituteWith | String | "originalFont.txt" yerine kullanılacak yazı tipi. |
 
 ### Ayrıca bakınız
 

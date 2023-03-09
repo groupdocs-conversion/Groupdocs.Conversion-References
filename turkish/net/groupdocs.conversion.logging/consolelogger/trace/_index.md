@@ -16,7 +16,7 @@ public void Trace(string message)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| message | String | İz mesajı. |
+| message | String | İzleme mesajı. |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ConvertVideo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Video dönüştürme bir akış olarak mı sağlanıyor
+description: Video dönüştürme bir akış olarak sağlanır mı.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.integration.video/ivideoconnector/convertvideo/
 ---
 ## IVideoConnector.ConvertVideo method
 
-Video dönüştürme bir akış olarak mı sağlanıyor?
+Video dönüştürme bir akış olarak sağlanır mı.
 
 ```csharp
 public Stream ConvertVideo(Stream sourceStream, VideoConvertOptions convertOptions)
@@ -21,7 +21,7 @@ public Stream ConvertVideo(Stream sourceStream, VideoConvertOptions convertOptio
 
 ### Geri dönüş değeri
 
-dönüştürülmüş video
+Dönüştürülen video
 
 ### Ayrıca bakınız
 

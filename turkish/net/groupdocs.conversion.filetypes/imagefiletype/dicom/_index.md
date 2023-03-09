@@ -1,14 +1,14 @@
 ---
 title: Dicom
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .DICOM uzantılı dosyalar hastaların MRI CT taramaları ve ultrason görüntüleri gibi tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/dicom .
+description: .DICOM uzantılı dosyalar hastaların MRI CT taramaları ve ultrason görüntüleri gibi tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field
 
-.DICOM uzantılı dosyalar, hastaların MRI, CT taramaları ve ultrason görüntüleri gibi tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/dicom) .
+.DICOM uzantılı dosyalar, hastaların MRI, CT taramaları ve ultrason görüntüleri gibi tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/dicom) .
 
 ```csharp
 public static readonly ImageFileType Dicom;

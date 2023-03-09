@@ -3,7 +3,7 @@ title: Jpm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jpm belge biçimi
 type: docs
-weight: 260
+weight: 240
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 ---
 ## ImageFileType.Jpm field

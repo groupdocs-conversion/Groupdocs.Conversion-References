@@ -1,14 +1,14 @@
 ---
 title: Obj
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OBJ dosyaları geometrik nesneleri tanımlamak ve saklamak için Wavefrontun Advanced Visualizer uygulaması tarafından kullanılır. Geometrik verilerin ileri ve geri iletimi OBJ dosyaları aracılığıyla mümkün olur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/obj .
+description: OBJ dosyaları geometrik nesneleri tanımlamak ve depolamak için Wavefrontun Advanced Visualizer uygulaması tarafından kullanılır. Geometrik verilerin geriye ve ileriye iletimi OBJ dosyaları aracılığıyla mümkün olmaktadır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/obj .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/obj/
 ---
 ## ThreeDFileType.Obj field
 
-OBJ dosyaları, geometrik nesneleri tanımlamak ve saklamak için Wavefront'un Advanced Visualizer uygulaması tarafından kullanılır. Geometrik verilerin ileri ve geri iletimi OBJ dosyaları aracılığıyla mümkün olur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/obj) .
+OBJ dosyaları, geometrik nesneleri tanımlamak ve depolamak için Wavefront'un Advanced Visualizer uygulaması tarafından kullanılır. Geometrik verilerin geriye ve ileriye iletimi OBJ dosyaları aracılığıyla mümkün olmaktadır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/obj) .
 
 ```csharp
 public static readonly ThreeDFileType Obj;

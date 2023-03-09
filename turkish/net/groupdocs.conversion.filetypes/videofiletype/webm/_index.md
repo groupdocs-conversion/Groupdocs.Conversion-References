@@ -1,14 +1,14 @@
 ---
 title: Webm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .webm uzantılı bir dosya açık telifsiz WebM dosya biçimini temel alan bir video dosyasıdır. Webde video paylaşmak için tasarlanmıştır ve video ve ses formatlarını içeren dosya taşıyıcı yapısını tanımlar. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/video/webm// .
+description: .webm uzantılı bir dosya açık telifsiz WebM dosya biçimini temel alan bir video dosyasıdır. Webde video paylaşmak için tasarlanmıştır ve video ve ses formatlarını içeren dosya taşıyıcı yapısını tanımlar. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/video/webm// .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/videofiletype/webm/
 ---
 ## VideoFileType.Webm field
 
-.webm uzantılı bir dosya, açık, telifsiz WebM dosya biçimini temel alan bir video dosyasıdır. Web'de video paylaşmak için tasarlanmıştır ve video ve ses formatlarını içeren dosya taşıyıcı yapısını tanımlar. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/video/webm//) .
+.webm uzantılı bir dosya, açık, telifsiz WebM dosya biçimini temel alan bir video dosyasıdır. Web'de video paylaşmak için tasarlanmıştır ve video ve ses formatlarını içeren dosya taşıyıcı yapısını tanımlar. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/video/webm//) .
 
 ```csharp
 public static readonly VideoFileType Webm;

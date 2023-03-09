@@ -1,14 +1,14 @@
 ---
 title: ConvertOptionsProvider
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belirli kaynak belge için dönüştürme seçenekleri sağlamak üzere temsilciyi tanımlar. Temsilci her dönüştürmeden önce çağrılır ve istenen hedef dönüştürme için belirli dönüştürme seçenekleri sağlama şansı sağlar. Karar sağlanan kaynak dosya adı ve kaynak dosyaya göre verilebilir. type.
+description: Belirli kaynak belge için dönüştürme seçenekleri sağlamak üzere temsilciyi açıklar. Temsilci her dönüştürmeden önce çağrılacak ve istenen hedef dönüştürme için belirli dönüştürme seçenekleri sağlama şansı sağlayacaktır. Verilen kaynak dosya adı ve kaynak dosyaya göre karar verilebilir yazın.
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.contracts/convertoptionsprovider/
 ---
 ## ConvertOptionsProvider delegate
 
-Belirli kaynak belge için dönüştürme seçenekleri sağlamak üzere temsilciyi tanımlar. Temsilci, her dönüştürmeden önce çağrılır ve istenen hedef dönüştürme için belirli dönüştürme seçenekleri sağlama şansı sağlar. Karar, sağlanan kaynak dosya adı ve kaynak dosyaya göre verilebilir. type.
+Belirli kaynak belge için dönüştürme seçenekleri sağlamak üzere temsilciyi açıklar. Temsilci, her dönüştürmeden önce çağrılacak ve istenen hedef dönüştürme için belirli dönüştürme seçenekleri sağlama şansı sağlayacaktır. Verilen kaynak dosya adı ve kaynak dosyaya göre karar verilebilir yazın.
 
 ```csharp
 public delegate ConvertOptions ConvertOptionsProvider(string sourceDocumentName, 

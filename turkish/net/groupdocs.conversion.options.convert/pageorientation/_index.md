@@ -3,7 +3,7 @@ title: PageOrientation
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sayfa yönünü belirtir
 type: docs
-weight: 1540
+weight: 1710
 url: /tr/net/groupdocs.conversion.options.convert/pageorientation/
 ---
 ## PageOrientation class
@@ -18,7 +18,7 @@ public sealed class PageOrientation : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PageOrientation](pageorientation)() | Serileştirme yapıcısı |
+| [PageOrientation](pageorientation)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

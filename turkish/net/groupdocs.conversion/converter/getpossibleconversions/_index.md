@@ -19,7 +19,7 @@ public PossibleConversions GetPossibleConversions()
 **Daha fazla bilgi edin**
 
 * Desteklenen dönüşümler hakkında daha fazla bilgi edinin: [Desteklenen dönüşümlerin tam listesi](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
-* Kullanılabilir dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
+* Mevcut dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
 
 ### Ayrıca bakınız
 
@@ -32,7 +32,7 @@ public PossibleConversions GetPossibleConversions()
 
 ## GetPossibleConversions(string)
 
-Sağlanan belge uzantısı için desteklenen dönüştürmeleri alır
+Sağlanan belge uzantısı için desteklenen dönüşümleri alır
 
 ```csharp
 public static PossibleConversions GetPossibleConversions(string extension)
@@ -47,7 +47,7 @@ public static PossibleConversions GetPossibleConversions(string extension)
 **Daha fazla bilgi edin**
 
 * Desteklenen dönüşümler hakkında daha fazla bilgi edinin: [Desteklenen dönüşümlerin tam listesi](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
-* Kullanılabilir dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
+* Mevcut dönüşümler hakkında daha fazla bilgi edinin: [Kodda desteklenen dönüşümler nasıl elde edilir?](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
 
 ### Örnekler
 

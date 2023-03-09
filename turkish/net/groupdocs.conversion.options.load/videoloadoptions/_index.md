@@ -3,7 +3,7 @@ title: VideoLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Video belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2080
+weight: 2330
 url: /tr/net/groupdocs.conversion.options.load/videoloadoptions/
 ---
 ## VideoLoadOptions class

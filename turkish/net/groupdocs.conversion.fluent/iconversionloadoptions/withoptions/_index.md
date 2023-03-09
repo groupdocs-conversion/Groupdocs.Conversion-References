@@ -16,7 +16,7 @@ public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| loadOptions | LoadOptions | Seçenekleri yükle |
+| loadOptions | LoadOptions | Yükleme seçenekleri |
 
 ### Ayrıca bakınız
 
@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | Yükleme seçenekleri sağlayıcısı |
+| loadOptionsProvider | Func`2 | Yükleme seçenekleri sağlayıcı Yüklenen dosyanın türü |
 
 ### Ayrıca bakınız
 

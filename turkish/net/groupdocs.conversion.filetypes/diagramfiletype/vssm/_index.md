@@ -1,14 +1,14 @@
 ---
 title: Vssm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .VSSM uzantılı dosyalar makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Bir VSSM dosyası açıldığında istenen biçimlendirmeyi ve şekillerin bir diyagramda yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vssm .
+description: .VSSM uzantılı dosyalar makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Açıldığında bir VSSM dosyası bir şemada şekillerin istenen biçimlendirmesini ve yerleşimini elde etmek için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vssm .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vssm/
 ---
 ## DiagramFileType.Vssm field
 
-.VSSM uzantılı dosyalar, makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Bir VSSM dosyası açıldığında, istenen biçimlendirmeyi ve şekillerin bir diyagramda yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vssm) .
+.VSSM uzantılı dosyalar, makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Açıldığında bir VSSM dosyası, bir şemada şekillerin istenen biçimlendirmesini ve yerleşimini elde etmek için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vssm) .
 
 ```csharp
 public static readonly DiagramFileType Vssm;

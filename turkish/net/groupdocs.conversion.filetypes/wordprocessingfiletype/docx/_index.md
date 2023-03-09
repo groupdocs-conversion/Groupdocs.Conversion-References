@@ -1,14 +1,14 @@
 ---
 title: Docx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: DOCX Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den itibaren Microsoft Office 2007nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/docx .
+description: DOCX Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den itibaren Microsoft Office 2007nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx/
 ---
 ## WordProcessingFileType.Docx field
 
-DOCX, Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den itibaren Microsoft Office 2007'nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/docx) .
+DOCX, Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den itibaren Microsoft Office 2007'nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/docx) .
 
 ```csharp
 public static readonly WordProcessingFileType Docx;

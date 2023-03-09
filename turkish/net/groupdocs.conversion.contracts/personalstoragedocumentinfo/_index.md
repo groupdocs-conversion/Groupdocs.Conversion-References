@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Kişisel depolama belgesi metadata içerir
 type: docs
-weight: 360
+weight: 380
 url: /tr/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 ---
 ## PersonalStorageDocumentInfo class
@@ -24,10 +24,10 @@ public class PersonalStorageDocumentInfo : DocumentInfo
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/ispasswordprotected) { get; } | Depolama parola korumalı mı |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
 | [RootFolderName](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/rootfoldername) { get; } | Kök klasör adı |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IConversionCompleted
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: İşleme dönüştürme tamamlandı
+description: İşlemci dönüştürme tamamlandı
 type: docs
-weight: 990
+weight: 1120
 url: /tr/net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
 
-İşleme dönüştürme tamamlandı
+İşlemci dönüştürme tamamlandı
 
 ```csharp
 public interface IConversionCompleted
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | İsim | Tanım |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(ConvertedDocumentStream) | Dönüştürülen belge akışını alın. Yalnızca "Kaydet(dize)" veya "Kaydet(SaveDocumentStreamForFileType)" ayarlanmışsa tetiklenir. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | Dönüştürülen belge akışını alın. Yalnızca "ConvertTo(string fileName)" veya ConvertTo(convertedStreamProvider)" ayarlanmışsa tetiklenir. |
 
 ### Ayrıca bakınız
 

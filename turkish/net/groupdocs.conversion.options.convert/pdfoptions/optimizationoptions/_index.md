@@ -3,7 +3,7 @@ title: OptimizationOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf optimizasyon seçenekleri
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/optimizationoptions/
 ---
 ## PdfOptions.OptimizationOptions property

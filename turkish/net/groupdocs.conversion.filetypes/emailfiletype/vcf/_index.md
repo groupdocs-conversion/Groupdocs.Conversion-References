@@ -1,14 +1,14 @@
 ---
 title: Vcf
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: VCF Sanal Kart Formatı veya vCard kişi bilgilerini depolamak için kullanılan dijital bir dosya formatıdır. Biçim popüler bilgi alışverişi uygulamaları arasında veri alışverişi için yaygın olarak kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email/vcf .
+description: VCF Sanal Kart Formatı veya vCard iletişim bilgilerini saklamak için kullanılan bir dijital dosya formatıdır. Biçim popüler bilgi alışverişi uygulamaları arasında veri alışverişi için yaygın olarak kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email/vcf .
 type: docs
-weight: 60
+weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/emailfiletype/vcf/
 ---
 ## EmailFileType.Vcf field
 
-VCF (Sanal Kart Formatı) veya vCard, kişi bilgilerini depolamak için kullanılan dijital bir dosya formatıdır. Biçim, popüler bilgi alışverişi uygulamaları arasında veri alışverişi için yaygın olarak kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/vcf) .
+VCF (Sanal Kart Formatı) veya vCard, iletişim bilgilerini saklamak için kullanılan bir dijital dosya formatıdır. Biçim, popüler bilgi alışverişi uygulamaları arasında veri alışverişi için yaygın olarak kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email/vcf) .
 
 ```csharp
 public static readonly EmailFileType Vcf;

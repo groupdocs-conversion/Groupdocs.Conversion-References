@@ -3,7 +3,7 @@ title: J2c
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: J2c belge biçimi
 type: docs
-weight: 180
+weight: 160
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/j2c/
 ---
 ## ImageFileType.J2c field

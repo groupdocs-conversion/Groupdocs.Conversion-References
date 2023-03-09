@@ -1,14 +1,14 @@
 ---
 title: Cmx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: CMX uzantılı dosyalar CorelSuite uygulamaları tarafından sunum olarak kullanılan Corel Exchange resim dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/cmx .
+description: CMX uzantılı dosyalar CorelSuite uygulamaları tarafından sunum olarak kullanılan Corel Exchange resim dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field
 
-CMX uzantılı dosyalar CorelSuite uygulamaları tarafından sunum olarak kullanılan Corel Exchange resim dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/cmx) .
+CMX uzantılı dosyalar CorelSuite uygulamaları tarafından sunum olarak kullanılan Corel Exchange resim dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/cmx) .
 
 ```csharp
 public static readonly ImageFileType Cmx;

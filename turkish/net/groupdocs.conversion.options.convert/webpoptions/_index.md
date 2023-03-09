@@ -3,7 +3,7 @@ title: WebpOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Webp dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1800
+weight: 1990
 url: /tr/net/groupdocs.conversion.options.convert/webpoptions/
 ---
 ## WebpOptions class

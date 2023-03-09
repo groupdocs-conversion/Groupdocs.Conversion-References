@@ -1,14 +1,14 @@
 ---
 title: FromValue
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Nesneyi anahtara göre döndürür.
+description: Anahtara göre nesneyi döndürür.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.contracts/enumeration/fromvalue/
 ---
 ## Enumeration.FromValue&lt;T&gt; method
 
-Nesneyi anahtara göre döndürür.
+Anahtara göre nesneyi döndürür.
 
 ```csharp
 public static T FromValue<T>(string value)

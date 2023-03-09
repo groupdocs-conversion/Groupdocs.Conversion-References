@@ -3,7 +3,7 @@ title: ILogger
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Günlük kaydı gerçekleştirmek için kullanılan yöntemleri tanımlar.
 type: docs
-weight: 1270
+weight: 1400
 url: /tr/net/groupdocs.conversion.logging/ilogger/
 ---
 ## ILogger interface

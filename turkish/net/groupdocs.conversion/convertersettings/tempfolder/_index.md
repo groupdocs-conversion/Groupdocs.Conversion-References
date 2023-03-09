@@ -1,14 +1,14 @@
 ---
 title: TempFolder
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürme için kullanılan geçici klasör
+description: Dönüşüm için kullanılan Temp klasörü
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion/convertersettings/tempfolder/
 ---
 ## ConverterSettings.TempFolder property
 
-Dönüştürme için kullanılan geçici klasör
+Dönüşüm için kullanılan Temp klasörü
 
 ```csharp
 public string TempFolder { get; set; }

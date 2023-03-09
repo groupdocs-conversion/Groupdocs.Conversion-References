@@ -23,8 +23,8 @@ public abstract class Enumeration : IComparable, IEquatable<Enumeration>
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals_1)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Geçerli nesneyi temsil eden bir dize döndürür. |
-| static [FromDisplayName&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromdisplayname)(string) | Nesneyi görünen ada göre döndürür. |
-| static [FromValue&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromvalue)(string) | Nesneyi anahtara göre döndürür. |
+| static [FromDisplayName&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromdisplayname)(string) | Görünen ada göre nesneyi döndürür. |
+| static [FromValue&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromvalue)(string) | Anahtara göre nesneyi döndürür. |
 | static [GetAll&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/getall)() | Tüm numaralandırma değerlerini döndürür. |
 | [operator ==](../../groupdocs.conversion.contracts/enumeration/op_equality) | Eşitlik operatörü. |
 | [operator !=](../../groupdocs.conversion.contracts/enumeration/op_inequality) | Eşitsizlik operatörü. |

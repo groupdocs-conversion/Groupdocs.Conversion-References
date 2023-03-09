@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tsv belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2030
+weight: 2280
 url: /tr/net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -34,7 +34,8 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Yorumları gizle. |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | OnePagePerSheet true ise, sayfanın içeriği PDF belgesinde bir sayfaya dönüştürülür. Varsayılan değer true. 'dir. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | True ise ve PDF'ye dönüştürülüyorsa, dönüştürme, baskı kalitesinden daha iyi dosya boyutu için optimize edilir. |
-| [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Dizinler sıfır tabanlı olmalıdır |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Dönüştürülecek sayfa adı |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Excel dosyalarını dönüştürürken ızgara çizgilerini göster. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Excel dosyalarını dönüştürürken gizli sayfaları göster. |

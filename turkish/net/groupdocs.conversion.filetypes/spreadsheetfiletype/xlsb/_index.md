@@ -1,14 +1,14 @@
 ---
 title: Xlsb
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XLSB dosya formatı Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Formatını belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlsb .
+description: XLSB dosya formatı Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Formatını belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsb/
 ---
 ## SpreadsheetFileType.Xlsb field
 
-XLSB dosya formatı, Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Formatını belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlsb) .
+XLSB dosya formatı, Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Formatını belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlsb) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlsb;

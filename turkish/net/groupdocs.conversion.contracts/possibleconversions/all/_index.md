@@ -1,14 +1,14 @@
 ---
 title: All
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Tüm hedef dosya türleri ve birincil/ikincil bayrak  IEnumerable ofTargetConversiongroupdocs.conversion.contracts/targetconversion
+description: Tüm hedef dosya türleri ve birincil/ikincil bayrak  SayısızTargetConversiongroupdocs.conversion.contracts/targetconversion
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.contracts/possibleconversions/all/
 ---
 ## PossibleConversions.All property
 
-Tüm hedef dosya türleri ve birincil/ikincil bayrak  IEnumerable of[`TargetConversion`](../../targetconversion)
+Tüm hedef dosya türleri ve birincil/ikincil bayrak  Sayısız[`TargetConversion`](../../targetconversion)
 
 ```csharp
 public IEnumerable<TargetConversion> All { get; }

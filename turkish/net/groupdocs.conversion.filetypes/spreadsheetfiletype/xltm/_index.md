@@ -1,14 +1,14 @@
 ---
 title: Xltm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XLTM dosya uzantısı Microsoft Excel tarafından Makro özellikli şablon dosyaları olarak oluşturulan dosyaları temsil eder. XLTM dosyaları daha sonra makrolarla şablon dosyaları oluşturmayı desteklememesi dışında yapı olarak XLTXe benzer. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xltm .
+description: XLTM dosya uzantısı Microsoft Excel tarafından Makro özellikli şablon dosyaları olarak oluşturulan dosyaları temsil eder. XLTM dosyaları daha sonra makrolarla şablon dosyaları oluşturmayı desteklememesi dışında yapı olarak XLTXe benzer. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
 weight: 160
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/
 ---
 ## SpreadsheetFileType.Xltm field
 
-XLTM dosya uzantısı, Microsoft Excel tarafından Makro özellikli şablon dosyaları olarak oluşturulan dosyaları temsil eder. XLTM dosyaları, daha sonra makrolarla şablon dosyaları oluşturmayı desteklememesi dışında yapı olarak XLTX'e benzer. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xltm) .
+XLTM dosya uzantısı, Microsoft Excel tarafından Makro özellikli şablon dosyaları olarak oluşturulan dosyaları temsil eder. XLTM dosyaları, daha sonra makrolarla şablon dosyaları oluşturmayı desteklememesi dışında yapı olarak XLTX'e benzer. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xltm;

@@ -1,14 +1,14 @@
 ---
 title: Plt
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PLT dosya biçimi Autodesk Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığı için PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/plt .
+description: PLT dosya biçimi Autodesk Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığından PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/plt .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.filetypes/cadfiletype/plt/
 ---
 ## CadFileType.Plt field
 
-PLT dosya biçimi, Autodesk, Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları, üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığı için PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/plt) .
+PLT dosya biçimi, Autodesk, Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları, üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığından PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/plt) .
 
 ```csharp
 public static readonly CadFileType Plt;

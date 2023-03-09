@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Eposta uygulamaları tarafından eposta mesajları ekler klasörler adres defterleri vb. dahil çeşitli verileri depolamak için kullanılan Kişisel depolama dosyası biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir Ost./personalstoragefiletype/ost  Pst./personalstoragefiletype/pst  Eposta biçimleri hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email .
+description: Eposta uygulamaları tarafından eposta mesajları ekler klasörler adres defterleri vb. dahil çeşitli verileri depolamak için kullanılan Kişisel depolama dosyası biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir Ost  Pst  Eposta biçimleri hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email .
 type: docs
-weight: 900
+weight: 1010
 url: /tr/net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-E-posta uygulamaları tarafından e-posta mesajları, ekler, klasörler, adres defterleri vb. dahil çeşitli verileri depolamak için kullanılan Kişisel depolama dosyası biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir: [`Ost`](./ost) , [`Pst`](./pst) , E-posta biçimleri hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email) .
+E-posta uygulamaları tarafından e-posta mesajları, ekler, klasörler, adres defterleri vb. dahil çeşitli verileri depolamak için kullanılan Kişisel depolama dosyası biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir: Ost , Pst , E-posta biçimleri hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Serileştirme yapıcısı |
 
 ## Özellikleri
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | İsim | Tanım |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |
-
-## Alanlar
-
-| İsim | Tanım |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | .nsf (Notes Storage Facility) uzantılı bir dosya, daha önce Lotus Notes olarak bilinen IBM Notes yazılımı tarafından kullanılan bir veritabanı dosyası biçimidir. E-postalar, randevular, belgeler, formlar ve görünümler gibi farklı türde nesneleri depolamak için şemayı tanımlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/database/nsf) . |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST veya Çevrimdışı Depolama Dosyaları, Microsoft Outlook kullanılarak Exchange Server'a kaydolduktan sonra yerel makinede çevrimdışı modda kullanıcının posta kutusu verilerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/ost) . |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | .PST uzantılı dosyalar, çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını (Kişisel Depolama Tablosu olarak da adlandırılır) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/pst) . |
 
 ### Ayrıca bakınız
 

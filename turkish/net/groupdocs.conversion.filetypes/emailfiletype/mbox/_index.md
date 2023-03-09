@@ -1,14 +1,14 @@
 ---
 title: Mbox
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: MBox dosya biçimi elektronik posta iletilerinin toplanması için bir kapsayıcıyı temsil eden genel bir terimdir. İletiler ekleriyle birlikte kapsayıcının içinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/mbox/ .
+description: MBox dosya formatı elektronik posta mesajlarının toplanması için bir kapsayıcıyı temsil eden genel bir terimdir. İletiler ekleriyle birlikte kabın içinde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/mbox/ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/emailfiletype/mbox/
 ---
 ## EmailFileType.Mbox field
 
-MBox dosya biçimi, elektronik posta iletilerinin toplanması için bir kapsayıcıyı temsil eden genel bir terimdir. İletiler, ekleriyle birlikte kapsayıcının içinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/mbox/) .
+MBox dosya formatı, elektronik posta mesajlarının toplanması için bir kapsayıcıyı temsil eden genel bir terimdir. İletiler, ekleriyle birlikte kabın içinde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/mbox/) .
 
 ```csharp
 public static readonly EmailFileType Mbox;

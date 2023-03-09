@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Conversion.Logging
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Ad alanı günlüğe kaydetme davranışını özelleştirmek için sınıflar sağlar.
+description: Ad alanı günlük tutma davranışını özelleştirmek için sınıflar sağlar.
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.logging/
 ---
-Ad alanı, günlüğe kaydetme davranışını özelleştirmek için sınıflar sağlar.
+Ad alanı, günlük tutma davranışını özelleştirmek için sınıflar sağlar.
 
 ## sınıflar
 

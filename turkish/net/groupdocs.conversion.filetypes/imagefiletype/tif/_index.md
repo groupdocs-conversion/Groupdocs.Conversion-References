@@ -1,14 +1,14 @@
 ---
 title: Tif
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: TIF Etiketli Görüntü Dosyası Biçimi bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanılması amaçlanan taramalı görüntüleri temsil eder. Birkaç renk uzayında çift seviyeli gri tonlamalı palet renkli ve tam renkli görüntü verilerini tanımlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/tiff .
+description: TIF Etiketli Görüntü Dosyası Biçimi bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanılması amaçlanan raster görüntüleri temsil eder. Birkaç renk uzayında çift seviyeli gri tonlamalı palet renkli ve tam renkli görüntü verilerini tanımlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 360
+weight: 330
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/tif/
 ---
 ## ImageFileType.Tif field
 
-TIF, Etiketli Görüntü Dosyası Biçimi, bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanılması amaçlanan taramalı görüntüleri temsil eder. Birkaç renk uzayında çift seviyeli, gri tonlamalı, palet renkli ve tam renkli görüntü verilerini tanımlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/tiff) .
+TIF, Etiketli Görüntü Dosyası Biçimi, bu dosya biçimi standardına uyan çeşitli aygıtlarda kullanılması amaçlanan raster görüntüleri temsil eder. Birkaç renk uzayında çift seviyeli, gri tonlamalı, palet renkli ve tam renkli görüntü verilerini tanımlayabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/tiff) .
 
 ```csharp
 public static readonly ImageFileType Tif;

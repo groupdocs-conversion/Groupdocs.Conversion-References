@@ -1,14 +1,14 @@
 ---
 title: PdfRecognitionMode
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bir PDF belgesinin nasıl kelime işlem belgesine dönüştürüleceğini kontrol etmenizi sağlar.
+description: Bir PDF belgesinin bir kelime işlem belgesine nasıl dönüştürüleceğini kontrol etmeyi sağlar.
 type: docs
-weight: 1640
+weight: 1820
 url: /tr/net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 ## PdfRecognitionMode class
 
-Bir PDF belgesinin nasıl kelime işlem belgesine dönüştürüleceğini kontrol etmenizi sağlar.
+Bir PDF belgesinin bir kelime işlem belgesine nasıl dönüştürüleceğini kontrol etmeyi sağlar.
 
 ```csharp
 public sealed class PdfRecognitionMode : Enumeration
@@ -18,7 +18,7 @@ public sealed class PdfRecognitionMode : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfRecognitionMode](pdfrecognitionmode)() | Serileştirme yapıcısı |
+| [PdfRecognitionMode](pdfrecognitionmode)() | Serileştirme oluşturucu |
 
 ## yöntemler
 
@@ -35,7 +35,7 @@ public sealed class PdfRecognitionMode : Enumeration
 | İsim | Tanım |
 | --- | --- |
 | static readonly [Flow](../../groupdocs.conversion.options.convert/pdfrecognitionmode/flow) | Tam tanıma modu, motor, orijinal belge yazarının amacını geri yüklemek ve maksimum düzenlenebilir belgesi oluşturmak için gruplama ve çok düzeyli analiz gerçekleştirir. Dezavantajı, çıktı belgesinin orijinal PDF dosyasından farklı görünebilmesidir. |
-| static readonly [Textbox](../../groupdocs.conversion.options.convert/pdfrecognitionmode/textbox) | Bu mod, PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için hızlı ve iyidir, ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasında görsel olarak gruplandırılmış her metin bloğu, sonuçta ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu, the çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek, ancak tamamen metin kutularından oluşacak ve Microsoft Word'de belgenin daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu varsayılan moddur. |
+| static readonly [Textbox](../../groupdocs.conversion.options.convert/pdfrecognitionmode/textbox) | Bu mod hızlıdır ve PDF dosyasının orijinal görünümünü maksimum düzeyde korumak için iyidir, ancak ortaya çıkan belgenin düzenlenebilirliği sınırlı olabilir. Orijinal PDF dosyasındaki görsel olarak gruplandırılmış her metin bloğu, ortaya çıkan belgede bir metin kutusuna dönüştürülür. Bu, çıktı belgesinin orijinal PDF dosyasına maksimum benzerliğini sağlar. Çıktı belgesi iyi görünecek, ancak tamamen metin kutularından oluşacak ve Microsoft Word'de belgenin üzerinde daha fazla düzenlenmesini oldukça zorlaştırabilir. Bu, varsayılan moddur. |
 
 ### Ayrıca bakınız
 

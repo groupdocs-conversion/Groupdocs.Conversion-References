@@ -3,7 +3,7 @@ title: TsvDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tsv belgesi meta verilerini içerir
 type: docs
-weight: 550
+weight: 590
 url: /tr/net/groupdocs.conversion.contracts/tsvdocumentinfo/
 ---
 ## TsvDocumentInfo class
@@ -23,9 +23,9 @@ public class TsvDocumentInfo : SpreadsheetDocumentInfo
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected) { get; } | Belge parola korumalı alır |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 | [Title](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/title) { get; } | Title alır |
 | [WorksheetsCount](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheetscount) { get; } | Çalışma sayfası sayısını alır |
 

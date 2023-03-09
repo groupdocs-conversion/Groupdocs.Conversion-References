@@ -1,14 +1,14 @@
 ---
 title: PdfPageLayout
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Serileştirme yapıcısı
+description: Serileştirme oluşturucu
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagelayout/pdfpagelayout/
 ---
 ## PdfPageLayout constructor
 
-Serileştirme yapıcısı
+Serileştirme oluşturucu
 
 ```csharp
 public PdfPageLayout()

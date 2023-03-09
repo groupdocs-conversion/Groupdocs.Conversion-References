@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OpenDocument Elektronik Tablo Şablonu
+description: .ots uzantılı bir dosya Apache OpenOfficete bulunan Calc uygulama yazılımıyla oluşturulan bir OpenDocument Elektronik Tablo Şablonu dosyasıdır. Calc uygulama yazılımı Microsoft Officete bulunan Excele benzer. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-OpenDocument Elektronik Tablo Şablonu
+.ots uzantılı bir dosya, Apache OpenOffice'te bulunan Calc uygulama yazılımıyla oluşturulan bir OpenDocument Elektronik Tablo Şablonu dosyasıdır. Calc uygulama yazılımı, Microsoft Office'te bulunan Excel'e benzer. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;
