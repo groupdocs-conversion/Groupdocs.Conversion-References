@@ -1,14 +1,14 @@
 ---
 title: IConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 代表转换选项
+description: 表示转换选项
 type: docs
-weight: 1390
+weight: 1550
 url: /zh/net/groupdocs.conversion.options.convert/iconvertoptions/
 ---
 ## IConvertOptions interface
 
-代表转换选项
+表示转换选项
 
 ```csharp
 public interface IConvertOptions
@@ -18,7 +18,7 @@ public interface IConvertOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.convert/iconvertoptions/format) { get; set; } | 输入文档应转换为所需的文件类型。 |
+| [Format](../../groupdocs.conversion.options.convert/iconvertoptions/format) { get; set; } | 输入文档应转换为的所需文件类型。 |
 
 ### 也可以看看
 

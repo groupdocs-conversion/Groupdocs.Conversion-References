@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürülen belgenin nasıl saklanacağını ayarlayın
 type: docs
-weight: 1180
+weight: 1310
 url: /tr/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | Dönüştürülen sayfayı stream olarak kaydet |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | Dönüştürülen sayfayı akış olarak type türüne göre kaydedin |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | Dönüştürülen belgeyi stream olarak kaydet |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | Dönüştürülen belgeyi type türüne göre akış olarak kaydedin |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | Dönüştürülen sayfayı type ile akış olarak kaydet |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | Dönüştürülen sayfayı stream olarak kaydet |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | Dönüştürülen belgeyi type ile akış olarak kaydet |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | Dönüştürülen belgeyi stream olarak kaydet |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | Dönüştürülen belgeyi file olarak kaydet |
 
 ### Ayrıca bakınız

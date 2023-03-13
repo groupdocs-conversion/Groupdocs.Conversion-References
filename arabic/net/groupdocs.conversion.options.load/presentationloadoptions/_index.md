@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات العرض التقديمي.
 type: docs
-weight: 2000
+weight: 2240
 url: /ar/net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

@@ -1,14 +1,14 @@
 ---
 title: UnembedFonts
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果设置为 true 则使字体不嵌入
+description: 如果设置为 true 则不嵌入字体
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/unembedfonts/
 ---
 ## PdfOptimizationOptions.UnembedFonts property
 
-如果设置为 true ，则使字体不嵌入
+如果设置为 true ，则不嵌入字体
 
 ```csharp
 public bool UnembedFonts { get; set; }

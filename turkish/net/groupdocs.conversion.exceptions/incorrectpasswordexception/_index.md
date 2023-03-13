@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya parola korumalı olduğunda parola sağlandığında ancak yanlış olduğunda GroupDocs istisnası atılır
+description: Dosya parola korumalı olduğunda GroupDocs istisnası atıldı parola sağlandı ancak yanlış
 type: docs
-weight: 740
+weight: 800
 url: /tr/net/groupdocs.conversion.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-Dosya parola korumalı olduğunda, parola sağlandığında ancak yanlış olduğunda GroupDocs istisnası atılır
+Dosya parola korumalı olduğunda GroupDocs istisnası atıldı, parola sağlandı ancak yanlış
 
 ```csharp
 public sealed class IncorrectPasswordException : GroupDocsConversionException

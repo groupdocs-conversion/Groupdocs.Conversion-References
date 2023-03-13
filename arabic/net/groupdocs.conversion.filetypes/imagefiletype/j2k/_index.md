@@ -3,7 +3,7 @@ title: J2k
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف J2K هو صورة يتم ضغطها باستخدام ضغط الموجة بدلاً من ضغط DCT . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 190
+weight: 170
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/j2k/
 ---
 ## ImageFileType.J2k field

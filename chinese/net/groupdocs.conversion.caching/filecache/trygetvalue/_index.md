@@ -17,11 +17,11 @@ public bool TryGetValue(string key, out object value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | String | 标识所请求条目的键。 |
-| value | Object& | 定位的值或空值。 |
+| value | Object& | 定位的值或 null。 |
 
 ### 返回值
 
-如果找到密钥。
+如果找到钥匙。
 
 ```csharp
 True

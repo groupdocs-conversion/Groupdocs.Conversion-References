@@ -1,14 +1,14 @@
 ---
 title: FullScreen
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Tam Ekran Menü çubuğu pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu.
+description: FullScreenMenü çubuğu pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagemode/fullscreen/
 ---
 ## PdfPageMode.FullScreen field
 
-Tam Ekran Menü çubuğu, pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu.
+FullScreenMenü çubuğu, pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu.
 
 ```csharp
 public static readonly PdfPageMode FullScreen;

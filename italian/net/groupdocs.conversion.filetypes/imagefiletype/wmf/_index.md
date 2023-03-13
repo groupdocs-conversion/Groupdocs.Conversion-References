@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione WMF rappresentano Microsoft Windows Metafile WMF per larchiviazione di dati di immagini in formato vettoriale e bitmap. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/wmf .
+description: I file con estensione WMF rappresentano Microsoft Windows Metafile WMF per larchiviazione di dati di immagini in formato vettoriale e bitmap. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 390
+weight: 360
 url: /it/net/groupdocs.conversion.filetypes/imagefiletype/wmf/
 ---
 ## ImageFileType.Wmf field
 
-I file con estensione WMF rappresentano Microsoft Windows Metafile (WMF) per l'archiviazione di dati di immagini in formato vettoriale e bitmap. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/wmf) .
+I file con estensione WMF rappresentano Microsoft Windows Metafile (WMF) per l'archiviazione di dati di immagini in formato vettoriale e bitmap. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/wmf) .
 
 ```csharp
 public static readonly ImageFileType Wmf;

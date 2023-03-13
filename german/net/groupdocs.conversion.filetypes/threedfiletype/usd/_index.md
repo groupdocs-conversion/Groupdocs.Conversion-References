@@ -1,14 +1,14 @@
 ---
 title: Usd
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .usd ist ein Universal Scene DescriptionDateiformat das Daten zum Zwecke des Datenaustauschs und der Erweiterung zwischen Anwendungen zur Erstellung digitaler Inhalte codiert. USD wurde von Pixar entwickelt und bietet die Möglichkeit elementare Assets z. B. Modelle oder Animationen auszutauschen. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/usd .
+description: Eine Datei mit der Erweiterung .usd ist ein Universal Scene DescriptionDateiformat das Daten zum Zwecke des Datenaustauschs und der Erweiterung zwischen Anwendungen zur Erstellung digitaler Inhalte codiert. USD wurde von Pixar entwickelt und bietet die Möglichkeit elementare Assets z. B. Modelle oder Animationen auszutauschen. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/usd .
 type: docs
 weight: 150
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/usd/
 ---
 ## ThreeDFileType.Usd field
 
-Eine Datei mit der Erweiterung .usd ist ein Universal Scene Description-Dateiformat, das Daten zum Zwecke des Datenaustauschs und der Erweiterung zwischen Anwendungen zur Erstellung digitaler Inhalte codiert. USD wurde von Pixar entwickelt und bietet die Möglichkeit, elementare Assets (z. B. Modelle) oder Animationen auszutauschen. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/usd) .
+Eine Datei mit der Erweiterung .usd ist ein Universal Scene Description-Dateiformat, das Daten zum Zwecke des Datenaustauschs und der Erweiterung zwischen Anwendungen zur Erstellung digitaler Inhalte codiert. USD wurde von Pixar entwickelt und bietet die Möglichkeit, elementare Assets (z. B. Modelle) oder Animationen auszutauschen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/usd) .
 
 ```csharp
 public static readonly ThreeDFileType Usd;

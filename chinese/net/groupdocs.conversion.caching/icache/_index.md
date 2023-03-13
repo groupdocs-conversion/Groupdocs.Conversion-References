@@ -18,8 +18,8 @@ public interface ICache
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetKeys](../../groupdocs.conversion.caching/icache/getkeys)(string) | 返回所有匹配过滤器的键。 |
-| [Set](../../groupdocs.conversion.caching/icache/set)(string, object) | 将缓存条目插入缓存。 |
+| [GetKeys](../../groupdocs.conversion.caching/icache/getkeys)(string) | 返回匹配过滤器的所有键。 |
+| [Set](../../groupdocs.conversion.caching/icache/set)(string, object) | 将缓存条目插入到缓存中。 |
 | [TryGetValue](../../groupdocs.conversion.caching/icache/trygetvalue)(string, out object) | 获取与此键关联的条目（如果存在）。 |
 
 ### 也可以看看

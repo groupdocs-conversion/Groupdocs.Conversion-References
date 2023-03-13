@@ -1,14 +1,14 @@
 ---
 title: EmailConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例EmailConvertOptionsgroupdocs.conversion.options.convert/emailconvertoptions类.
+description: 初始化新实例EmailConvertOptionsgroupdocs.conversion.options.convert/emailconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/emailconvertoptions/emailconvertoptions/
 ---
 ## EmailConvertOptions constructor
 
-初始化的新实例[`EmailConvertOptions`](../../emailconvertoptions)类.
+初始化新实例[`EmailConvertOptions`](../../emailconvertoptions)类.
 
 ```csharp
 public EmailConvertOptions()

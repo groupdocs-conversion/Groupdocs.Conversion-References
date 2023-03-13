@@ -1,14 +1,14 @@
 ---
 title: SkipEmptyRowsAndColumns
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Salta righe e colonne vuote durante la conversione. Limpostazione predefinita è True.
+description: Salta righe e colonne vuote durante la conversione. Il valore predefinito è True.
 type: docs
-weight: 150
+weight: 160
 url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property
 
-Salta righe e colonne vuote durante la conversione. L'impostazione predefinita è True.
+Salta righe e colonne vuote durante la conversione. Il valore predefinito è True.
 
 ```csharp
 public bool SkipEmptyRowsAndColumns { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Paper10x14
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 10 x 14 英寸
+description: 10 x 14 英寸.
 type: docs
 weight: 140
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/paper10x14/
 ---
 ## PageSize.Paper10x14 field
 
-10 x 14 英寸。
+10 x 14 英寸.
 
 ```csharp
 public static readonly PageSize Paper10x14;

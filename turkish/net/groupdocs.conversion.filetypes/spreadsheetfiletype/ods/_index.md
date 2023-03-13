@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: ODS uzantılı dosyalar kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimi anlamına gelir. Veriler ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/ods .
+description: ODS uzantılı dosyalar kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimi anlamına gelir. Veriler ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 ---
 ## SpreadsheetFileType.Ods field
 
-ODS uzantılı dosyalar, kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimi anlamına gelir. Veriler, ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/ods) .
+ODS uzantılı dosyalar, kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimi anlamına gelir. Veriler, ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ods;

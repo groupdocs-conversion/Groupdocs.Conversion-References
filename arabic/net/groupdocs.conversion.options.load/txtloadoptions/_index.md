@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات Txt .
 type: docs
-weight: 2050
+weight: 2300
 url: /ar/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class

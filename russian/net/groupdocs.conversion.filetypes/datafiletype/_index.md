@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Определяет документы данных. Включает следующие типы файлов Xml./datafiletype/xml . Json./datafiletype/json .
+description: Определяет документы данных. Включает следующие типы файлов Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /ru/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Определяет документы данных. Включает следующие типы файлов: [`Xml`](./xml) . [`Json`](./json) .
+Определяет документы данных. Включает следующие типы файлов: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [DataFileType](datafiletype)() | Конструктор сериализации |
 
 ## Характеристики
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |
-
-## Поля
-
-| Имя | Описание |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) — это открытый стандартный формат файла для обмена данными, который использует удобочитаемый текст для хранения и передачи данных. Подробнее об этом формате файла[здесь](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML означает расширяемый язык разметки, похожий на HTML, но отличающийся использованием тегов для определения объектов. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/web/xml) . |
 
 ### Смотрите также
 

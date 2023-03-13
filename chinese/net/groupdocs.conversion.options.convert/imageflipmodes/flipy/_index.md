@@ -1,14 +1,14 @@
 ---
 title: FlipY
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 垂直翻转
+description: 垂直翻转.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/imageflipmodes/flipy/
 ---
 ## ImageFlipModes.FlipY field
 
-垂直翻转。
+垂直翻转.
 
 ```csharp
 public static readonly ImageFlipModes FlipY;

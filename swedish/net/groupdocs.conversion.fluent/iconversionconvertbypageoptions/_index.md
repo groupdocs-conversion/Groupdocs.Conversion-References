@@ -3,7 +3,7 @@ title: IConversionConvertByPageOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Konverteringsalternativ
 type: docs
-weight: 1050
+weight: 1180
 url: /sv/net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/
 ---
 ## IConversionConvertByPageOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertByPageOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(ConvertOptions) | Ställ in konverteringsalternativ |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptionsProvider) | Ställ in konverteringsalternativ |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptions) | Ställ in konverteringsalternativ |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | Ställ in konverteringsalternativ |
 
 ### Se även
 

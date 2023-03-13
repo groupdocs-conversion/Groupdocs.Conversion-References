@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف معالجة الكلمات.
 type: docs
-weight: 1810
+weight: 2000
 url: /ar/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class

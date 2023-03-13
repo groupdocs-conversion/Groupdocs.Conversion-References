@@ -3,7 +3,7 @@ title: PdfFormattingOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les options de formatage PDF.
 type: docs
-weight: 1590
+weight: 1770
 url: /fr/net/groupdocs.conversion.options.convert/pdfformattingoptions/
 ---
 ## PdfFormattingOptions class

@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jpg renk modlarının numaralandırmasını açıklar.
 type: docs
-weight: 1500
+weight: 1660
 url: /tr/net/groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 ## JpgColorModes class
@@ -18,7 +18,7 @@ public class JpgColorModes : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [JpgColorModes](jpgcolormodes)() | Serileştirme yapıcısı |
+| [JpgColorModes](jpgcolormodes)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

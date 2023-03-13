@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-`doğru` belirtilen nesne geçerli nesneye eşitse; aksi halde,`yanlış`.
+`doğru` belirtilen nesne mevcut nesneye eşitse; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 
@@ -44,7 +44,7 @@ public virtual bool Equals(Enumeration other)
 
 ### Geri dönüş değeri
 
-`doğru` belirtilen nesne geçerli nesneye eşitse; aksi halde,`yanlış`.
+`doğru` belirtilen nesne mevcut nesneye eşitse; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

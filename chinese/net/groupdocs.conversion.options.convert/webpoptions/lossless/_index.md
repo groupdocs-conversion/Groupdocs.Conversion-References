@@ -1,14 +1,14 @@
 ---
 title: Lossless
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示转换后的文件的压缩是否会无损
+description: 表示转换文件的压缩是否无损
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/webpoptions/lossless/
 ---
 ## WebpOptions.Lossless property
 
-表示转换后的文件的压缩是否会无损。
+表示转换文件的压缩是否无损。
 
 ```csharp
 public bool Lossless { get; set; }

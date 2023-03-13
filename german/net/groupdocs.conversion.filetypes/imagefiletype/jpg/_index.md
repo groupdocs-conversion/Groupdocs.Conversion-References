@@ -1,14 +1,14 @@
 ---
 title: Jpg
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Ein JPG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Das Ausgabebild ist als Ergebnis der Komprimierung ein Kompromiss zwischen Speichergröße und Bildqualität. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/jpeg .
+description: Ein JPG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Das Ausgabebild ist als Ergebnis der Komprimierung ein Kompromiss zwischen Speichergröße und Bildqualität. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 250
+weight: 230
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/jpg/
 ---
 ## ImageFileType.Jpg field
 
-Ein JPG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Das Ausgabebild ist als Ergebnis der Komprimierung ein Kompromiss zwischen Speichergröße und Bildqualität. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/jpeg) .
+Ein JPG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Das Ausgabebild ist als Ergebnis der Komprimierung ein Kompromiss zwischen Speichergröße und Bildqualität. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/jpeg) .
 
 ```csharp
 public static readonly ImageFileType Jpg;

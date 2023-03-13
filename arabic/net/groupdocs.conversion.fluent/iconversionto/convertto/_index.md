@@ -31,18 +31,17 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 احفظ المستند المحول باسم stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | مزود دفق الوثيقة المحول |
+| convertedStreamProvider | Func`1 | مزود دفق الوثيقة المحول |
 
 ### قيمة الإرجاع
 
@@ -51,25 +50,24 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 ### أنظر أيضا
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversionto)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
 حفظ المستند المحول كتدفق حسب النوع
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | مزود دفق الوثيقة المحول |
+| convertedStreamProvider | Func`2 | مزود تدفق المستندات المحول |
 
 ### قيمة الإرجاع
 
@@ -78,7 +76,7 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 ### أنظر أيضا
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversionto)
 * المجسم [GroupDocs.Conversion](../../../)

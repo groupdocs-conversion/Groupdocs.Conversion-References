@@ -1,14 +1,14 @@
 ---
 title: Tsv
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Ein TSVDateiformat TabSeparated Values stellt durch Tabulatoren getrennte Daten im NurTextFormat dar. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/tsv .
+description: Ein TSVDateiformat TabSeparated Values stellt durch Tabulatoren getrennte Daten im NurTextFormat dar. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/tsv .
 type: docs
 weight: 90
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/
 ---
 ## SpreadsheetFileType.Tsv field
 
-Ein TSV-Dateiformat (Tab-Separated Values) stellt durch Tabulatoren getrennte Daten im Nur-Text-Format dar. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/tsv) .
+Ein TSV-Dateiformat (Tab-Separated Values) stellt durch Tabulatoren getrennte Daten im Nur-Text-Format dar. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/tsv) .
 
 ```csharp
 public static readonly SpreadsheetFileType Tsv;

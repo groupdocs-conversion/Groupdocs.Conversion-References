@@ -3,7 +3,7 @@ title: Psb
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحفظ Adobe Photoshop الملفات بتنسيقين. يتم حفظ الملفات التي يبلغ حجمها 30.000  30.000 بكسل بامتداد PSD ويتم حفظ الملفات الأكبر من PSD حتى 300000  300000 بكسل بامتداد PSB المعروف باسم Photoshop Big . تعرف على المزيد حول تنسيق الملف هذاهناhttps//docs.fileformat.com/image/psb .
 type: docs
-weight: 310
+weight: 290
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field

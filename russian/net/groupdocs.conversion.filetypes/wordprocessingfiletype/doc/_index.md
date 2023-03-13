@@ -3,7 +3,7 @@ title: Doc
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением .doc представляют собой документы сгенерированные Microsoft Word или другими текстовыми редакторами в двоичном формате. Подробнее об этом формате файловздесьhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field

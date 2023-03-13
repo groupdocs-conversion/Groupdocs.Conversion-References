@@ -1,14 +1,14 @@
 ---
 title: Pps
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PPS PowerPoint Slayt Gösterisi dosyalar Slayt Gösterisi amacıyla Microsoft PowerPoint kullanılarak oluşturulur. PPS dosyası okuma ve oluşturma Microsoft PowerPoint 972003 tarafından desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/pps .
+description: PPS PowerPoint Slayt Gösterisi dosyalar Slayt Gösterisi amacıyla Microsoft PowerPoint kullanılarak oluşturulur. PPS dosyası okuma ve oluşturma Microsoft PowerPoint 972003 tarafından desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/pps .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/presentationfiletype/pps/
 ---
 ## PresentationFileType.Pps field
 
-PPS, PowerPoint Slayt Gösterisi, dosyalar Slayt Gösterisi amacıyla Microsoft PowerPoint kullanılarak oluşturulur. PPS dosyası okuma ve oluşturma, Microsoft PowerPoint 97-2003 tarafından desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/pps) .
+PPS, PowerPoint Slayt Gösterisi, dosyalar Slayt Gösterisi amacıyla Microsoft PowerPoint kullanılarak oluşturulur. PPS dosyası okuma ve oluşturma, Microsoft PowerPoint 97-2003 tarafından desteklenir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/pps) .
 
 ```csharp
 public static readonly PresentationFileType Pps;

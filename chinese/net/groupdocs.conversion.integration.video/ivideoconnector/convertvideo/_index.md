@@ -1,14 +1,14 @@
 ---
 title: ConvertVideo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 是否将视频转换作为流提供
+description: 视频转换是否作为流提供
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.integration.video/ivideoconnector/convertvideo/
 ---
 ## IVideoConnector.ConvertVideo method
 
-是否将视频转换作为流提供。
+视频转换是否作为流提供。
 
 ```csharp
 public Stream ConvertVideo(Stream sourceStream, VideoConvertOptions convertOptions)

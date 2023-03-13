@@ -3,7 +3,7 @@ title: Grayscale
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Convertir un PDF de lespace colorimétrique RVB en niveaux de gris
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 ---
 ## PdfOptions.Grayscale property

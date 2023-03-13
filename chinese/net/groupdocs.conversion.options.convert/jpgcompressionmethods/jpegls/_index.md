@@ -1,14 +1,14 @@
 ---
 title: JpegLs
 second_title: GroupDocs.Conversion for .NET API 参考
-description: JpegLs 压缩
+description: JpegLs 压缩.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/jpgcompressionmethods/jpegls/
 ---
 ## JpgCompressionMethods.JpegLs field
 
-JpegLs 压缩。
+JpegLs 压缩.
 
 ```csharp
 public static readonly JpgCompressionMethods JpegLs;

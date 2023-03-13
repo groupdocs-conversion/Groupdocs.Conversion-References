@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Enthält Metadaten des WordProcessingDokuments
 type: docs
-weight: 600
+weight: 650
 url: /de/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo class

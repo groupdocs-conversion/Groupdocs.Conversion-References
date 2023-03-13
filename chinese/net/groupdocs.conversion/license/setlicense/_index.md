@@ -20,7 +20,7 @@ public void SetLicense(Stream licenseStream)
 
 ### 例子
 
-下面的例子演示了如何设置一个license 通过许可文件的Stream。
+下面的例子演示了如何设置一个license passing Stream of the license file.
 
 ```csharp
 using (FileStream licenseStream = new FileStream("LicenseFile.lic", FileMode.Open))
@@ -52,7 +52,7 @@ public void SetLicense(string licensePath)
 
 ### 例子
 
-以下示例演示如何设置许可证 将路径传递给许可证文件。
+以下示例演示如何设置许可证 传递许可证文件的路径。
 
 ```csharp
 string licensePath = "GroupDocs.Conversion.lic";

@@ -1,14 +1,14 @@
 ---
 title: Pptm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PPTM uzantılı dosyalar Microsoft PowerPoint 2007 veya daha yüksek sürümleriyle oluşturulan Makro etkin Sunum dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/pptm .
+description: PPTM uzantılı dosyalar Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro etkin Sunum dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/pptm .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/presentationfiletype/pptm/
 ---
 ## PresentationFileType.Pptm field
 
-PPTM uzantılı dosyalar, Microsoft PowerPoint 2007 veya daha yüksek sürümleriyle oluşturulan Makro etkin Sunum dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/pptm) .
+PPTM uzantılı dosyalar, Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Makro etkin Sunum dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/pptm) .
 
 ```csharp
 public static readonly PresentationFileType Pptm;

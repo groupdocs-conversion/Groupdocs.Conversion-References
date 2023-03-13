@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные документа разметки
 type: docs
-weight: 310
+weight: 330
 url: /ru/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
@@ -11,7 +11,8 @@ url: /ru/net/groupdocs.conversion.contracts/markupdocumentinfo/
 Содержит метаданные документа разметки
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## Характеристики
@@ -19,7 +20,7 @@ public class MarkupDocumentInfo : DocumentInfo
 | Имя | Описание |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Дата создания документа |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Обнаруженная кодировка документа |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Обнаруженная кодировка документа |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Формат документа |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Получить значение свойства, предоставленного в виде ключа |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Количество страниц документа. |
@@ -28,7 +29,7 @@ public class MarkupDocumentInfo : DocumentInfo
 
 ### Смотрите также
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * пространство имен [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * сборка [GroupDocs.Conversion](../../)
 

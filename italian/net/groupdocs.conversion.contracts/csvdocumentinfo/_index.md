@@ -1,14 +1,14 @@
 ---
 title: CsvDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Contiene i metadati del documento Csv
+description: Contiene i metadati del documento CSV
 type: docs
 weight: 140
 url: /it/net/groupdocs.conversion.contracts/csvdocumentinfo/
 ---
 ## CsvDocumentInfo class
 
-Contiene i metadati del documento Csv
+Contiene i metadati del documento CSV
 
 ```csharp
 public class CsvDocumentInfo : SpreadsheetDocumentInfo
@@ -18,7 +18,7 @@ public class CsvDocumentInfo : SpreadsheetDocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected) { get; } | Ottiene il documento protetto da password |

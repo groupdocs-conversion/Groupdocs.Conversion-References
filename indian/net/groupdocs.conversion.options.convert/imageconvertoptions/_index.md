@@ -1,0 +1,66 @@
+---
+title: ImageConvertOptions
+second_title: .NET API संदर्भ के लिए GroupDocs.Conversion
+description: छव फ़इल प्रकर में रूपंतरण के लए वकल्प.
+type: docs
+weight: 1630
+url: /hi/net/groupdocs.conversion.options.convert/imageconvertoptions/
+---
+## ImageConvertOptions class
+
+छवि फ़ाइल प्रकार में रूपांतरण के लिए विकल्प.
+
+```csharp
+public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
+```
+
+## कंस्ट्रक्टर्स
+
+| नाम | विवरण |
+| --- | --- |
+| [ImageConvertOptions](imageconvertoptions)() | का नया उदाहरण शुरू करता है[`ImageConvertOptions`](../imageconvertoptions) वर्ग. |
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [BackgroundColor](../../groupdocs.conversion.options.convert/imageconvertoptions/backgroundcolor) { get; set; } | जहां स्रोत प्रारूप द्वारा समर्थित पृष्ठभूमि रंग सेट करता है |
+| [Brightness](../../groupdocs.conversion.options.convert/imageconvertoptions/brightness) { get; set; } | छवि चमक समायोजित करता है। |
+| [Contrast](../../groupdocs.conversion.options.convert/imageconvertoptions/contrast) { get; set; } | इमेज कंट्रास्ट एडजस्ट करता है. |
+| [FlipMode](../../groupdocs.conversion.options.convert/imageconvertoptions/flipmode) { get; set; } | इमेज फ्लिप मोड. |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | वांछित फ़ाइल प्रकार इनपुट दस्तावेज़ में परिवर्तित किया जाना चाहिए। |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | वांछित फ़ाइल प्रकार इनपुट दस्तावेज़ में परिवर्तित किया जाना चाहिए। |
+| [Gamma](../../groupdocs.conversion.options.convert/imageconvertoptions/gamma) { get; set; } | छवि गामा समायोजित करता है। |
+| [Grayscale](../../groupdocs.conversion.options.convert/imageconvertoptions/grayscale) { get; set; } | इंगित करता है कि ग्रेस्केल छवि में कनवर्ट करना है या नहीं. |
+| [Height](../../groupdocs.conversion.options.convert/imageconvertoptions/height) { get; set; } | रूपांतरण के बाद वांछित छवि ऊंचाई। |
+| [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | वांछित छवि क्षैतिज संकल्प रूपांतरण के बाद। डिफ़ॉल्ट रिज़ॉल्यूशन इनपुट फ़ाइल या 96 dpi. का रिज़ॉल्यूशन है |
+| [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | जेपीईजी विशिष्ट कन्वर्ट विकल्प। |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | रूपांतरण शुरू करने के लिए पृष्ठ संख्या. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | कनवर्ट किए जाने वाले पेज इंडेक्स की सूची। विशिष्ट पृष्ठों को परिवर्तित करने के लिए निर्दिष्ट किया जाना चाहिए। |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | से शुरू करने के लिए पृष्ठों की संख्या`पृष्ठ संख्या` . |
+| [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd विशिष्ट कन्वर्ट विकल्प। |
+| [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | इमेज रोटेशन एंगल. |
+| [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | टिफ़ विशिष्ट कन्वर्ट विकल्प। |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | अगर`सत्य` , इनपुट पहले पीडीएफ में और उसके बाद वांछित प्रारूप में परिवर्तित हो जाता है। |
+| [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | रूपांतरण के बाद वांछित छवि ऊर्ध्वाधर संकल्प। डिफ़ॉल्ट रिज़ॉल्यूशन इनपुट फ़ाइल या 96 dpi. का रिज़ॉल्यूशन है |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | वॉटरमार्क विशिष्ट विकल्प |
+| [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | वेबप विशिष्ट कन्वर्ट विकल्प। |
+| [Width](../../groupdocs.conversion.options.convert/imageconvertoptions/width) { get; set; } | रूपांतरण के बाद वांछित छवि चौड़ाई। |
+
+## तरीकों
+
+| नाम | विवरण |
+| --- | --- |
+| [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | क्लोन वर्तमान विकल्प उदाहरण। |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | निर्धारित करता है कि क्या दो वस्तु उदाहरण समान हैं। |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | निर्धारित करता है कि क्या दो वस्तु उदाहरण समान हैं। |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | डिफ़ॉल्ट हैश फ़ंक्शन के रूप में कार्य करता है। |
+
+### यह सभी देखें
+
+* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
+* class [ImageFileType](../../groupdocs.conversion.filetypes/imagefiletype)
+* नाम स्थान [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
+* सभा [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Conversion.dll -->

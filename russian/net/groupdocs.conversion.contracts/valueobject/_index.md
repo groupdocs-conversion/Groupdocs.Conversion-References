@@ -3,7 +3,7 @@ title: ValueObject
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Класс объекта абстрактного значения.
 type: docs
-weight: 570
+weight: 610
 url: /ru/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class

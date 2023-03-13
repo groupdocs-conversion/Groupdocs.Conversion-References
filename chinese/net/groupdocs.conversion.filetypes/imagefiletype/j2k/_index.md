@@ -1,14 +1,14 @@
 ---
 title: J2k
 second_title: GroupDocs.Conversion for .NET API 参考
-description: J2K 文件是使用小波压缩而不是 DCT 压缩压缩的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/j2k
+description: J2K 文件是使用小波压缩而非 DCT 压缩进行压缩的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/j2k
 type: docs
-weight: 190
+weight: 170
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/j2k/
 ---
 ## ImageFileType.J2k field
 
-J2K 文件是使用小波压缩而不是 DCT 压缩压缩的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/j2k)
+J2K 文件是使用小波压缩而非 DCT 压缩进行压缩的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/j2k)
 
 ```csharp
 public static readonly ImageFileType J2k;

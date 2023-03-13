@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Standardteckensnitt för Notedokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas. En absolut sökväg till teckensnittsfilen måste anges.
+description: Standardteckensnitt för Notedokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas.
 type: docs
 weight: 20
 url: /sv/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Standardteckensnitt för Note-dokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas. En absolut sökväg till teckensnittsfilen måste anges.
+Standardteckensnitt för Note-dokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas.
 
 ```csharp
 public string DefaultFont { get; set; }

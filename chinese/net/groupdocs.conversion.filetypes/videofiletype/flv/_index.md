@@ -1,14 +1,14 @@
 ---
 title: Flv
 second_title: GroupDocs.Conversion for .NET API 参考
-description: FLVFlash 视频是一种扩展名为 .flv 的容器文件格式 FLV 用于通过使用 Adobe Flash Player 或 Adobe Air 在 Internet 上传送音频/视频内容 了解有关此文件格式的更多信息这里https//docs.fileformat.com/video/flv/
+description: FLVFlash 视频是一种容器文件格式扩展名为 .flv FLV 用于使用 Adobe Flash Player 或 Adobe Air 通过 Internet 传送音频/视频内容 了解有关此文件格式的更多信息这里https//docs.fileformat.com/video/flv/
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/videofiletype/flv/
 ---
 ## VideoFileType.Flv field
 
-FLV（Flash 视频）是一种扩展名为 .flv 的容器文件格式。 FLV 用于通过使用 Adobe Flash Player 或 Adobe Air 在 Internet 上传送音频/视频内容。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/flv/)
+FLV（Flash 视频）是一种容器文件格式，扩展名为 .flv。 FLV 用于使用 Adobe Flash Player 或 Adobe Air 通过 Internet 传送音频/视频内容。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/video/flv/)
 
 ```csharp
 public static readonly VideoFileType Flv;

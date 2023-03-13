@@ -3,7 +3,7 @@ title: RemoveUnusedObjects
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Remove unused objects
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.convert/pdfoptimizationoptions/removeunusedobjects/
 ---
 ## PdfOptimizationOptions.RemoveUnusedObjects property

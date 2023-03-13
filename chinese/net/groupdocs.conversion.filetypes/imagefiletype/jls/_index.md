@@ -1,14 +1,14 @@
 ---
 title: Jls
 second_title: GroupDocs.Conversion for .NET API 参考
-description: Jls 文档格式
+description: jls文档格式
 type: docs
-weight: 200
+weight: 180
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/jls/
 ---
 ## ImageFileType.Jls field
 
-Jls 文档格式
+jls文档格式
 
 ```csharp
 public static readonly ImageFileType Jls;

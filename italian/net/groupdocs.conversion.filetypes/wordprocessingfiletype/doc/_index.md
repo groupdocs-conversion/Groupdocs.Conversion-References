@@ -1,14 +1,14 @@
 ---
 title: Doc
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .doc rappresentano documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/doc .
+description: I file con estensione .doc rappresentano documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 30
+weight: 20
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/
 ---
 ## WordProcessingFileType.Doc field
 
-I file con estensione .doc rappresentano documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/doc) .
+I file con estensione .doc rappresentano documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/doc) .
 
 ```csharp
 public static readonly WordProcessingFileType Doc;

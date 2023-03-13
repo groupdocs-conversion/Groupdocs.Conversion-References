@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Veri belgelerini tanımlar. Aşağıdaki dosya türlerini içerir Xml./datafiletype/xml . Json./datafiletype/json .
+description: Veri belgelerini tanımlar. Aşağıdaki dosya türlerini içerir Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /tr/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Veri belgelerini tanımlar. Aşağıdaki dosya türlerini içerir: [`Xml`](./xml) . [`Json`](./json) .
+Veri belgelerini tanımlar. Aşağıdaki dosya türlerini içerir: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [DataFileType](datafiletype)() | Serileştirme yapıcısı |
 
 ## Özellikleri
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | İsim | Tanım |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |
-
-## Alanlar
-
-| İsim | Tanım |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation), verileri depolamak ve iletmek için insanlar tarafından okunabilir metin kullanan, verileri paylaşmak için açık standart bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML, HTML'ye benzeyen ancak nesneleri tanımlamak için etiket kullanımında farklı olan Genişletilebilir İşaretleme Dili anlamına gelir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/xml) . |
 
 ### Ayrıca bakınız
 

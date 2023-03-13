@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/idocumentinfo/propertynames/
 Uppräknad av alla egenskaper som kan fås för det aktuella dokumentet info
 
 ```csharp
-public IEnumerable<string> PropertyNames { get; }
+public string[] PropertyNames { get; }
 ```
 
 ### Se även

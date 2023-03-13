@@ -1,14 +1,14 @@
 ---
 title: Webp
 second_title: GroupDocs.Conversion for .NET API 参考
-description: WebP由谷歌推出是一种基于无损和有损压缩的现代光栅网络图像文件格式它提供相同的图像质量同时大大减小了图像尺寸 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/webp
+description: WebP由谷歌推出是一种基于无损和有损压缩的现代光栅网络图像文件格式它提供相同的图像质量同时显着减小图像尺寸 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/webp
 type: docs
-weight: 380
+weight: 350
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/webp/
 ---
 ## ImageFileType.Webp field
 
-WebP，由谷歌推出，是一种基于无损和有损压缩的现代光栅网络图像文件格式。它提供相同的图像质量，同时大大减小了图像尺寸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/webp)
+WebP，由谷歌推出，是一种基于无损和有损压缩的现代光栅网络图像文件格式。它提供相同的图像质量，同时显着减小图像尺寸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/webp)
 
 ```csharp
 public static readonly ImageFileType Webp;

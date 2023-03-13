@@ -1,14 +1,14 @@
 ---
 title: PresentationConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例PresentationConvertOptionsgroupdocs.conversion.options.convert/presentationconvertoptions类.
+description: 初始化新实例PresentationConvertOptionsgroupdocs.conversion.options.convert/presentationconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/presentationconvertoptions/presentationconvertoptions/
 ---
 ## PresentationConvertOptions constructor
 
-初始化的新实例[`PresentationConvertOptions`](../../presentationconvertoptions)类.
+初始化新实例[`PresentationConvertOptions`](../../presentationconvertoptions)类.
 
 ```csharp
 public PresentationConvertOptions()

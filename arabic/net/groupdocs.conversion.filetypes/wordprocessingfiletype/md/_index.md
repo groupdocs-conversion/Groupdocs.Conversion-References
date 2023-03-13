@@ -3,7 +3,7 @@ title: Md
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يتم حفظ الملفات النصية التي تم إنشاؤها باستخدام لهجات لغة Markdown بامتداد الملف .MD أو .MARKDOWN. يتم حفظ ملفات MD بتنسيق نص عادي يستخدم لغة Markdown التي تتضمن أيضًا رموز نص مضمنة  وتحديد كيفية تنسيق النص مثل المسافات البادئة وتنسيق الجدول والخطوط والعناوين. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field

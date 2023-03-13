@@ -1,14 +1,14 @@
 ---
 title: Ply
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: PLY Polygon File Format rappresenta il formato di file 3D che memorizza oggetti grafici descritti come una raccolta di poligoni. Lo scopo di questo formato di file era quello di stabilire un tipo di file semplice e facile che fosse abbastanza generale da essere utile per unampia gamma di modelli. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/ply .
+description: PLY Polygon File Format rappresenta il formato di file 3D che memorizza oggetti grafici descritti come una raccolta di poligoni. Lo scopo di questo formato di file era quello di stabilire un tipo di file semplice e facile che fosse abbastanza generale da essere utile per unampia gamma di modelli. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/ply .
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/ply/
 ---
 ## ThreeDFileType.Ply field
 
-PLY, Polygon File Format, rappresenta il formato di file 3D che memorizza oggetti grafici descritti come una raccolta di poligoni. Lo scopo di questo formato di file era quello di stabilire un tipo di file semplice e facile che fosse abbastanza generale da essere utile per un'ampia gamma di modelli. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/ply) .
+PLY, Polygon File Format, rappresenta il formato di file 3D che memorizza oggetti grafici descritti come una raccolta di poligoni. Lo scopo di questo formato di file era quello di stabilire un tipo di file semplice e facile che fosse abbastanza generale da essere utile per un'ampia gamma di modelli. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/ply) .
 
 ```csharp
 public static readonly ThreeDFileType Ply;

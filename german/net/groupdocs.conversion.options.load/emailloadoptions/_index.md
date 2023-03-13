@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von EMailDokumenten.
 type: docs
-weight: 1900
+weight: 2110
 url: /de/net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class

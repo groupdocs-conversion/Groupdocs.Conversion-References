@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar anteckningsformat. Inkluderar följande filtyper One./notefiletype/one . Läs mer om anteckningsformathärhttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /sv/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |

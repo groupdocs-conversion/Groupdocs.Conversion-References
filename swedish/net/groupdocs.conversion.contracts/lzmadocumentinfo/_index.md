@@ -3,7 +3,7 @@ title: LzmaDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller Lzmadokumentmetadata
 type: docs
-weight: 300
+weight: 320
 url: /sv/net/groupdocs.conversion.contracts/lzmadocumentinfo/
 ---
 ## LzmaDocumentInfo class

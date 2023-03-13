@@ -3,7 +3,7 @@ title: Tga
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En fil med filtillägget .tga är ett rastergrafikformat och skapades av Truevision Inc. Läs mer om detta filformathärhttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

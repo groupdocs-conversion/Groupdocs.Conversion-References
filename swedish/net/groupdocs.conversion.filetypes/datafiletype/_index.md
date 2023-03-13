@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar datadokument. Inkluderar följande filtyper Xml./datafiletype/xml . Json./datafiletype/json .
+description: Definierar datadokument. Inkluderar följande filtyper Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /sv/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Definierar datadokument. Inkluderar följande filtyper: [`Xml`](./xml) . [`Json`](./json) .
+Definierar datadokument. Inkluderar följande filtyper: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [DataFileType](datafiletype)() | Serialiseringskonstruktor |
 
 ## Egenskaper
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
-
-## Fält
-
-| namn | Beskrivning |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) är ett öppet standardfilformat för att dela data som använder läsbar text för att lagra och överföra data. Läs mer om detta filformat[här](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML står för Extensible Markup Language som liknar HTML men skiljer sig från att använda taggar för att definiera objekt. Läs mer om detta filformat[här](https://wiki.fileformat.com/web/xml) . |
 
 ### Se även
 

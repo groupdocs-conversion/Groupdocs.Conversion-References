@@ -3,7 +3,7 @@ title: CommonConvertOptionsTFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Clase de opciones de conversión comunes genéricas abstractas.
 type: docs
-weight: 1310
+weight: 1440
 url: /es/net/groupdocs.conversion.options.convert/commonconvertoptions-1/
 ---
 ## CommonConvertOptions&lt;TFileType&gt; class

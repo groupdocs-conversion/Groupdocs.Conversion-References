@@ -21,7 +21,7 @@ public static IEnumerable<T> GetAll<T>()
 
 ### 返回值
 
-提供的类型的可枚举
+提供类型的枚举
 
 ### 也可以看看
 

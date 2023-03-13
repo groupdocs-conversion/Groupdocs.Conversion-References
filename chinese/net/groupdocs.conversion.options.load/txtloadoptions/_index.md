@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 加载 Txt 文档的选项
 type: docs
-weight: 2050
+weight: 2300
 url: /zh/net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -18,15 +18,15 @@ public sealed class TxtLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions)() | 初始化的新实例[`TxtLoadOptions`](../txtloadoptions)类. |
+| [TxtLoadOptions](txtloadoptions)() | 初始化新实例[`TxtLoadOptions`](../txtloadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [DetectNumberingWithWhitespaces](../../groupdocs.conversion.options.load/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | 允许指定在转换纯文本文档时如何识别编号列表项。 默认值为 true。 |
-| [Encoding](../../groupdocs.conversion.options.load/txtloadoptions/encoding) { get; set; } | 获取或设置加载 Txt 文档时将使用的编码。可以为空。默认为空。 |
-| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | 输入文档文件类型。 (2 properties) |
+| [Encoding](../../groupdocs.conversion.options.load/txtloadoptions/encoding) { get; set; } | 获取或设置加载 Txt 文档时将使用的编码。可以为空。默认为 null. |
+| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | 输入文档文件类型. (2 properties) |
 | [LeadingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/leadingspacesoptions) { get; set; } | 获取或设置前导空格处理的首选选项。 默认值为[`ConvertToIndent`](../txtleadingspacesoptions/converttoindent). |
 | [TrailingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/trailingspacesoptions) { get; set; } | 获取或设置尾随空格处理的首选选项。 默认值为[`Trim`](../txttrailingspacesoptions/trim). |
 
@@ -34,9 +34,9 @@ public sealed class TxtLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

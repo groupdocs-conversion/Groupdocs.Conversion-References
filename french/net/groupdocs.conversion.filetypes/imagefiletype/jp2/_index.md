@@ -3,7 +3,7 @@ title: Jp2
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: JPEG 2000 JP2 est un système de codage dimage et une norme de compression dimage de pointe. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/jp2 .
 type: docs
-weight: 210
+weight: 190
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/jp2/
 ---
 ## ImageFileType.Jp2 field

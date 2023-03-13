@@ -3,7 +3,7 @@ title: Png
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: PNG  رسومات الشبكة المحمولة  يشير إلى نوع تنسيق ملف الصورة النقطية الذي يستخدم ضغطًا بلا فقدان. تم إنشاء تنسيق الملف هذا كبديل لتنسيق تبادل الرسومات GIF وليس له قيود على حقوق النشر . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 300
+weight: 280
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field

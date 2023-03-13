@@ -3,7 +3,7 @@ title: IConversionCompleted
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: اكتمل تحويل المعالجة
 type: docs
-weight: 990
+weight: 1120
 url: /ar/net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | اسم | وصف |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(ConvertedDocumentStream) | تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين "حفظ (سلسلة)" أو "حفظ (SaveDocumentStreamForFileType)". |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | تلقي دفق المستند المحول. سيتم إطلاقه فقط إذا تم تعيين "ConvertTo (اسم ملف سلسلة)" أو ConvertTo (convertStreamProvider) ". |
 
 ### أنظر أيضا
 

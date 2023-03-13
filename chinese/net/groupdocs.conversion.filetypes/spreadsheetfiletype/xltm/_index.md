@@ -1,14 +1,14 @@
 ---
 title: Xltm
 second_title: GroupDocs.Conversion for .NET API 参考
-description: XLTM 文件扩展名表示由 Microsoft Excel 生成的文件作为启用宏的模板文件 XLTM 文件在结构上与 XLTX 相似只是后者不支持使用宏创建模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xltm
+description: XLTM 文件扩展名表示由 Microsoft Excel 作为启用宏的模板文件生成的文件 XLTM 文件在结构上类似于 XLTX只是后者不支持使用宏创建模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xltm
 type: docs
 weight: 160
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/
 ---
 ## SpreadsheetFileType.Xltm field
 
-XLTM 文件扩展名表示由 Microsoft Excel 生成的文件作为启用宏的模板文件。 XLTM 文件在结构上与 XLTX 相似，只是后者不支持使用宏创建模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xltm)
+XLTM 文件扩展名表示由 Microsoft Excel 作为启用宏的模板文件生成的文件。 XLTM 文件在结构上类似于 XLTX，只是后者不支持使用宏创建模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xltm)
 
 ```csharp
 public static readonly SpreadsheetFileType Xltm;

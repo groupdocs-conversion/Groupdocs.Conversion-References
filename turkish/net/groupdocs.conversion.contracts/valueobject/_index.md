@@ -3,7 +3,7 @@ title: ValueObject
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Soyut değer nesne sınıfı.
 type: docs
-weight: 570
+weight: 610
 url: /tr/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class

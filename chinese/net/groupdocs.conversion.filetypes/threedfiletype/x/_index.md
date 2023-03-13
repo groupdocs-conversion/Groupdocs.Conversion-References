@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .x 扩展名的文件是指 Microsoft DirectX 2.0 引入的 DirectX 3D 图形旧文件格式它用于游戏中的 3D 图形渲染并指定网格纹理动画和用户定义对象的结构自 2014 年以来它已被弃用因为 Autodesk FBX 文件格式更适合作为更现代的格式 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/x
+description: 扩展名为 .x 的文件是指随 Microsoft DirectX 2.0 引入的 DirectX 3D 图形旧文件格式它用于游戏中的 3D 图形渲染并指定网格纹理动画和用户定义对象的结构自 2014 年以来它已被弃用因为 Autodesk FBX 文件格式作为一种更现代的格式可以更好地发挥作用 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/x
 type: docs
 weight: 180
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/x/
 ---
 ## ThreeDFileType.X field
 
-带有 .x 扩展名的文件是指 Microsoft DirectX 2.0 引入的 DirectX 3D 图形旧文件格式。它用于游戏中的 3D 图形渲染，并指定网格、纹理、动画和用户定义对象的结构。自 2014 年以来，它已被弃用，因为 Autodesk FBX 文件格式更适合作为更现代的格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/x)
+扩展名为 .x 的文件是指随 Microsoft DirectX 2.0 引入的 DirectX 3D 图形旧文件格式。它用于游戏中的 3D 图形渲染，并指定网格、纹理、动画和用户定义对象的结构。自 2014 年以来，它已被弃用，因为 Autodesk FBX 文件格式作为一种更现代的格式可以更好地发挥作用。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/x)
 
 ```csharp
 public static readonly ThreeDFileType X;

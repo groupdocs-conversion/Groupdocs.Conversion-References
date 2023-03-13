@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento de presentación
 type: docs
-weight: 380
+weight: 410
 url: /es/net/groupdocs.conversion.contracts/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo class

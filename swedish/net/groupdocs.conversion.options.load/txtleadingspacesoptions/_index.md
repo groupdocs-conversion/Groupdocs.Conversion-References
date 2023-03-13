@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver txtuppräkning av ledande mellanslagsalternativ.
 type: docs
-weight: 2040
+weight: 2290
 url: /sv/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class

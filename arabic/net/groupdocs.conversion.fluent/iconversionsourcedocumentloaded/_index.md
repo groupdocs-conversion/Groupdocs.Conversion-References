@@ -3,7 +3,7 @@ title: IConversionSourceDocumentLoaded
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يوفر الإجراءات الممكنة مع تحميل المستند
 type: docs
-weight: 1170
+weight: 1300
 url: /ar/net/groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 ## IConversionSourceDocumentLoaded interface

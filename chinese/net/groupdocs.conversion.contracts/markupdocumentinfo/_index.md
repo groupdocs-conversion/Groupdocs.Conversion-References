@@ -1,17 +1,18 @@
 ---
 title: MarkupDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 包含标记文档元数据
+description: 包含标记文档 metadata
 type: docs
-weight: 310
+weight: 330
 url: /zh/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
 
-包含标记文档元数据
+包含标记文档 metadata
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## 特性
@@ -19,16 +20,16 @@ public class MarkupDocumentInfo : DocumentInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | 检测到的文档编码 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | 检测到文档编码 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 
 ### 也可以看看
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * 命名空间 [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * 部件 [GroupDocs.Conversion](../../)
 

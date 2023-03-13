@@ -1,14 +1,14 @@
 ---
 title: EmbedTrueTypeFonts
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Se EmbedTrueTypeFonts è true GroupDocs.Conversion incorpora i caratteri di tipo true nel documento di output. Predefinito false
+description: Se EmbedTrueTypeFonts è true GroupDocs.Conversion incorpora i font true type nel documento di output. Predefinito falso
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts/
 ---
 ## WordProcessingLoadOptions.EmbedTrueTypeFonts property
 
-Se EmbedTrueTypeFonts è true, GroupDocs.Conversion incorpora i caratteri di tipo true nel documento di output. Predefinito: false
+Se EmbedTrueTypeFonts è true, GroupDocs.Conversion incorpora i font true type nel documento di output. Predefinito: falso
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }

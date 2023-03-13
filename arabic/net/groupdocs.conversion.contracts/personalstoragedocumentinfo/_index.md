@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند التخزين الشخصي
 type: docs
-weight: 360
+weight: 380
 url: /ar/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 ---
 ## PersonalStorageDocumentInfo class

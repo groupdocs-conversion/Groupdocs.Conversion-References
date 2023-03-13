@@ -1,14 +1,14 @@
 ---
 title: RemovePdfACompliance
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 删除 PdfA 合规性
+description: 删除 PdfA Compliance
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptions/removepdfacompliance/
 ---
 ## PdfOptions.RemovePdfACompliance property
 
-删除 Pdf-A 合规性
+删除 Pdf-A Compliance
 
 ```csharp
 public bool RemovePdfACompliance { get; set; }

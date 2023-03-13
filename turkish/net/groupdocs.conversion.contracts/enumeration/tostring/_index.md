@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Geri dönüş değeri
 
-dize temsili
+Dize gösterimi
 
 ### Ayrıca bakınız
 

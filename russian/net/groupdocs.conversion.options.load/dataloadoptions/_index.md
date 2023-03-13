@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Опции для загрузки документов данных.
 type: docs
-weight: 1870
+weight: 2060
 url: /ru/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /ru/net/groupdocs.conversion.options.load/dataloadoptions/
 Опции для загрузки документов данных.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Инициализирует новый экземпляр[`DataLoadOptions`](../dataloadoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Тип файла входного документа. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Базовый путь/URL для html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Получить или установить кодировку, которая будет использоваться при загрузке документа разметки. Если свойство равно null, кодировка будет определяться набором символов документа attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Тип файла входного документа. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Тип файла входного документа. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Включить или отключить генерацию нумерации страниц в преобразованном документе. По умолчанию: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Тайм-аут для загрузки внешних ресурсов |
 
 ## Методы
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Смотрите также
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * пространство имен [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * сборка [GroupDocs.Conversion](../../)
 

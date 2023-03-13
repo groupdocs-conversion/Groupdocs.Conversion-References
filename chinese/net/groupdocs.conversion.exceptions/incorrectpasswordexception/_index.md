@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文件受密码保护时抛出GroupDocs异常提供密码但不正确
+description: 文件受密码保护时抛出 GroupDocs 异常提供密码但不正确
 type: docs
-weight: 740
+weight: 800
 url: /zh/net/groupdocs.conversion.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-文件受密码保护时抛出GroupDocs异常，提供密码但不正确
+文件受密码保护时抛出 GroupDocs 异常，提供密码但不正确
 
 ```csharp
 public sealed class IncorrectPasswordException : GroupDocsConversionException
@@ -19,8 +19,8 @@ public sealed class IncorrectPasswordException : GroupDocsConversionException
 | 姓名 | 描述 |
 | --- | --- |
 | [IncorrectPasswordException](incorrectpasswordexception#constructor)() | 默认构造函数 |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(FileType) | 创建一个带有 FileType 的异常实例 |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_2)(string) | 创建带有消息的异常实例 |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(FileType) | 创建具有 FileType 的异常实例 |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor_2)(string) | 创建一个带有消息 的异常实例 |
 
 ### 也可以看看
 

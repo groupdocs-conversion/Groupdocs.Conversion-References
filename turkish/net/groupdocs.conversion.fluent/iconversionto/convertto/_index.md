@@ -31,18 +31,17 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 Dönüştürülen belgeyi stream olarak kaydet
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | Dönüştürülen belge akışı sağlayıcısı |
+| convertedStreamProvider | Func`1 | Dönüştürülmüş belge akışı sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -51,25 +50,24 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionto)
 * toplantı [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
-Dönüştürülen belgeyi type türüne göre akış olarak kaydedin
+Dönüştürülen belgeyi type ile akış olarak kaydet
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | Dönüştürülen belge akışı sağlayıcısı |
+| convertedStreamProvider | Func`2 | Dönüştürülen belge akışı sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -78,7 +76,7 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionto)
 * toplantı [GroupDocs.Conversion](../../../)

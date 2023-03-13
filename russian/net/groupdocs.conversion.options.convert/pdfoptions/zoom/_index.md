@@ -3,7 +3,7 @@ title: Zoom
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет уровень масштабирования в процентах. По умолчанию 100.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/groupdocs.conversion.options.convert/pdfoptions/zoom/
 ---
 ## PdfOptions.Zoom property

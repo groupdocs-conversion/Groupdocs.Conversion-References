@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Microsoft Project Primavera P6 vb. Proje Yönetimi yazılımı tarafından oluşturulan Proje dosyası formatlarını tanımlar. Bir proje dosyası bir formda veya bir üründe veya bir hizmette ölçülebilir bir çıktı elde etmek için görevler kaynaklar ve bunların çizelgelenmesinden oluşan bir koleksiyondur. Proje yönetimi belgeleri. Aşağıdaki dosya türlerini içerir Mpp./projectmanagementfiletype/mpp  Mpt./projectmanagementfiletype/mpt  Mpx./projectmanagementfiletype/mpx . Proje Yönetimi formatları hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/projectmanagement .
+description: Microsoft Project Primavera P6 vb. Proje Yönetimi yazılımı tarafından oluşturulan Proje dosyası formatlarını tanımlar. Bir proje dosyası bir formda veya bir üründe veya bir hizmette ölçülebilir bir çıktı elde etmek için görevler kaynaklar ve bunların çizelgelenmesinden oluşan bir koleksiyondur. Proje yönetimi belgeleri. Aşağıdaki dosya türlerini içerir Mpp./projectmanagementfiletype/mpp  Mpt./projectmanagementfiletype/mpt  Mpx./projectmanagementfiletype/mpx . Proje Yönetimi formatları hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/projectmanagement .
 type: docs
-weight: 920
+weight: 1030
 url: /tr/net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class
 
-Microsoft Project, Primavera P6 vb. Proje Yönetimi yazılımı tarafından oluşturulan Proje dosyası formatlarını tanımlar. Bir proje dosyası, bir formda veya bir üründe veya bir hizmette ölçülebilir bir çıktı elde etmek için görevler, kaynaklar ve bunların çizelgelenmesinden oluşan bir koleksiyondur. Proje yönetimi belgeleri. Aşağıdaki dosya türlerini içerir: [`Mpp`](./mpp) , [`Mpt`](./mpt) , [`Mpx`](./mpx) . Proje Yönetimi formatları hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management) .
+Microsoft Project, Primavera P6 vb. Proje Yönetimi yazılımı tarafından oluşturulan Proje dosyası formatlarını tanımlar. Bir proje dosyası, bir formda veya bir üründe veya bir hizmette ölçülebilir bir çıktı elde etmek için görevler, kaynaklar ve bunların çizelgelenmesinden oluşan bir koleksiyondur. Proje yönetimi belgeleri. Aşağıdaki dosya türlerini içerir: [`Mpp`](./mpp) , [`Mpt`](./mpt) , [`Mpx`](./mpx) . Proje Yönetimi formatları hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management) .
 
 ```csharp
 public sealed class ProjectManagementFileType : FileType
@@ -18,7 +18,7 @@ public sealed class ProjectManagementFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| [ProjectManagementFileType](projectmanagementfiletype)() | Serileştirme yapıcısı |
+| [ProjectManagementFileType](projectmanagementfiletype)() | Serileştirme oluşturucu |
 
 ## Özellikleri
 
@@ -34,7 +34,7 @@ public sealed class ProjectManagementFileType : FileType
 | İsim | Tanım |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |
@@ -43,10 +43,10 @@ public sealed class ProjectManagementFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [Mpp](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpp) | MPP, proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpp) . |
-| static readonly [Mpt](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpt) | Microsoft Project şablon dosyaları, .MPP dosyaları oluşturmak için belge ayarlarıyla birlikte temel bilgileri ve yapıyı içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpt) . |
-| static readonly [Mpx](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpx) | Microsoft Exchange Dosya Biçimi, Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpx) . |
-| static readonly [Xer](../../groupdocs.conversion.filetypes/projectmanagementfiletype/xer) | XER dosya formatı, Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/project-management/xer) . |
+| static readonly [Mpp](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpp) | MPP, proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpp) . |
+| static readonly [Mpt](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpt) | Microsoft Project şablon dosyaları, .MPP dosyaları oluşturmak için belge ayarlarının yanı sıra temel bilgileri ve yapıyı içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpt) . |
+| static readonly [Mpx](../../groupdocs.conversion.filetypes/projectmanagementfiletype/mpx) | Microsoft Exchange Dosya Biçimi, Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya biçimini destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılmasına yönelik bir ASCII dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpx) . |
+| static readonly [Xer](../../groupdocs.conversion.filetypes/projectmanagementfiletype/xer) | XER dosya formatı, Primavera P6 proje planlama ve yönetim uygulaması tarafından kullanılan tescilli bir proje dosyası formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/project-management/xer) . |
 
 ### Ayrıca bakınız
 

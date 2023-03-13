@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Bir belge için meta veri içerir.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/groupdocs.conversion.contracts/idocumentinfo/
 ---
 ## IDocumentInfo interface
@@ -21,9 +21,9 @@ public interface IDocumentInfo
 | [CreationDate](../../groupdocs.conversion.contracts/idocumentinfo/creationdate) { get; } | Belge oluşturma tarihi |
 | [Format](../../groupdocs.conversion.contracts/idocumentinfo/format) { get; } | Belge biçimi |
 | [Item](../../groupdocs.conversion.contracts/idocumentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/idocumentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/idocumentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/idocumentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/idocumentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/idocumentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/idocumentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

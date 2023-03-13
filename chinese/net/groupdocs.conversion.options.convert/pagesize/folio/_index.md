@@ -1,14 +1,14 @@
 ---
 title: Folio
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 8.5 x 13 英寸
+description: 8.5 x 13 英寸.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/folio/
 ---
 ## PageSize.Folio field
 
-8.5 x 13 英寸。
+8.5 x 13 英寸.
 
 ```csharp
 public static readonly PageSize Folio;

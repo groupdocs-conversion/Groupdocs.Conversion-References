@@ -3,7 +3,7 @@ title: Jpf
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنسيق مستند Jpf
 type: docs
-weight: 240
+weight: 220
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/jpf/
 ---
 ## ImageFileType.Jpf field

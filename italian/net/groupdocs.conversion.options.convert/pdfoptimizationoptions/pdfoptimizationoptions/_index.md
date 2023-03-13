@@ -1,14 +1,14 @@
 ---
 title: PdfOptimizationOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diPdfOptimizationOptionsgroupdocs.conversion.options.convert/pdfoptimizationoptions classe.
+description: Inizializza una nuova istanza diPdfOptimizationOptionsgroupdocs.conversion.options.convert/pdfoptimizationoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions constructor
 
-Inizializza la nuova istanza di[`PdfOptimizationOptions`](../../pdfoptimizationoptions) classe.
+Inizializza una nuova istanza di[`PdfOptimizationOptions`](../../pdfoptimizationoptions) classe.
 
 ```csharp
 public PdfOptimizationOptions()

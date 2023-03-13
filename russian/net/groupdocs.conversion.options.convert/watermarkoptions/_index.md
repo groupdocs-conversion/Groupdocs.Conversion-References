@@ -3,7 +3,7 @@ title: WatermarkOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Варианты установки водяного знака для конвертируемого документа
 type: docs
-weight: 1780
+weight: 1960
 url: /ru/net/groupdocs.conversion.options.convert/watermarkoptions/
 ---
 ## WatermarkOptions class

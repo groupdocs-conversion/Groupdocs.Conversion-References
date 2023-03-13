@@ -20,8 +20,11 @@ url: /ar/net/groupdocs.conversion.options.convert/
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | فئة خيارات التحويل العامة المجردة. |
 | [DataConvertOptions](./dataconvertoptions) | خيارات للتحويل إلى نوع ملف البيانات . |
 | [DiagramConvertOptions](./diagramconvertoptions) | خيارات للتحويل إلى نوع ملف الرسم التخطيطي . |
+| [EBookConvertOptions](./ebookconvertoptions) | خيارات للتحويل إلى نوع ملف EBook . |
 | [EmailConvertOptions](./emailconvertoptions) | خيارات للتحويل إلى نوع ملف البريد الإلكتروني. |
+| [FinanceConvertOptions](./financeconvertoptions) | خيارات للتحويل إلى نوع التمويل . |
 | [Font](./font) | إعدادات الخط |
+| [FontConvertOptions](./fontconvertoptions) | خيارات للتحويل إلى نوع الخط. |
 | [ImageConvertOptions](./imageconvertoptions) | خيارات للتحويل إلى نوع ملف الصورة. |
 | [ImageFlipModes](./imageflipmodes) | يصف أوضاع قلب الصورة. |
 | [JpegOptions](./jpegoptions) | خيارات التحويل إلى نوع ملف Jpeg . |
@@ -29,10 +32,12 @@ url: /ar/net/groupdocs.conversion.options.convert/
 | [JpgCompressionMethods](./jpgcompressionmethods) | يصف أوضاع ضغط Jpg |
 | [MarkupConvertOptions](./markupconvertoptions) | خيارات التحويل إلى نوع ملف التوصيف . |
 | [NoConvertOptions](./noconvertoptions) | فئة خيار التحويل الخاصة ، والتي ترشد المحول لنسخ المستند المصدر دون أي معالجة |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | خيارات التحويل إلى نوع ملف لغة أوصاف الصفحة. |
 | [PageOrientation](./pageorientation) | يحدد اتجاه الصفحة |
 | [PageSize](./pagesize) | يحدد حجم الصفحة |
 | [PdfConvertOptions](./pdfconvertoptions) | خيارات التحويل إلى نوع ملف PDF . |
 | [PdfDirection](./pdfdirection) | يصف اتجاه نص PDF . |
+| [PdfDocumentInfo](./pdfdocumentinfo) | يمثل المعلومات الوصفية لمستند PDF . |
 | [PdfFormats](./pdfformats) | يصف تعداد تنسيقات PDF . |
 | [PdfFormattingOptions](./pdfformattingoptions) | يحدد خيارات تنسيق PDF . |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | يحدد خيارات تحسين ملف PDF . |
@@ -55,6 +60,7 @@ url: /ar/net/groupdocs.conversion.options.convert/
 | [WatermarkImageOptions](./watermarkimageoptions) | خيارات إعدادات العلامة المائية للمستند المحول |
 | [WatermarkOptions](./watermarkoptions) | خيارات إعدادات العلامة المائية للمستند المحول |
 | [WatermarkTextOptions](./watermarktextoptions) | خيارات إعدادات نص العلامة المائية للمستند المحول |
+| [WebConvertOptions](./webconvertoptions) | خيارات التحويل إلى نوع ملف الويب . |
 | [WebpOptions](./webpoptions) | خيارات التحويل إلى نوع ملف Webp . |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | خيارات للتحويل إلى نوع ملف معالجة الكلمات. |
 ## واجهات

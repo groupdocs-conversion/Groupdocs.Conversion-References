@@ -1,14 +1,14 @@
 ---
 title: VcfLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diVcfLoadOptionsgroupdocs.conversion.options.load/vcfloadoptions classe.
+description: Inizializza una nuova istanza diVcfLoadOptionsgroupdocs.conversion.options.load/vcfloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/vcfloadoptions/vcfloadoptions/
 ---
 ## VcfLoadOptions constructor
 
-Inizializza la nuova istanza di[`VcfLoadOptions`](../../vcfloadoptions) classe.
+Inizializza una nuova istanza di[`VcfLoadOptions`](../../vcfloadoptions) classe.
 
 ```csharp
 public VcfLoadOptions()

@@ -3,7 +3,7 @@ title: ShowHiddenSheets
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Visa dolda ark när du konverterar Excelfiler.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets/
 ---
 ## SpreadsheetLoadOptions.ShowHiddenSheets property

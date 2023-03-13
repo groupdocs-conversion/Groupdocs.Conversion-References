@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Überspringt leere Zeilen und Spalten beim Konvertieren. Standard ist True.
 type: docs
-weight: 150
+weight: 160
 url: /de/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

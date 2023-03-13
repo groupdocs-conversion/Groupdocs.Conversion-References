@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till Markup filtyp.
 type: docs
-weight: 1520
+weight: 1680
 url: /sv/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /sv/net/groupdocs.conversion.options.convert/markupconvertoptions/
 Alternativ för konvertering till Markup filtyp.
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | Initierar ny instans av[`MarkupConvertOptions`](../markupconvertoptions) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | Om`Sann` fast layout kommer att användas t.ex. absolut positionerade html elements Standard: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Visa sidkanter vid konvertering till fast layout. Standard är True. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | Om`Sann` fast layout kommer att användas t.ex. absolut positionerade html elements Standard: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Visa sidkanter vid konvertering till fast layout. Standard är True. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Den önskade filtypen som inmatningsdokumentet ska konverteras till. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Den önskade filtypen som inmatningsdokumentet ska konverteras till. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Sidnumret att börja konverteringen från. |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Listan över sidindex som ska konverteras. Bör specificeras för att konvertera specifika sidor. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Antal sidor att konvertera från`Sidonummer` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | Om`Sann` , indata konverteras först till PDF och därefter till önskat format |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | Om`Sann` , indata konverteras först till PDF och därefter till önskat format |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Vattenstämpelspecifika alternativ |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Anger zoomnivån i procent. Standard är 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Anger zoomnivån i procent. Standard är 100. |
 
 ## Metoder
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### Se även
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * namnutrymme [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * hopsättning [GroupDocs.Conversion](../../)
 

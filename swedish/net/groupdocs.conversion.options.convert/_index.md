@@ -20,8 +20,11 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ för 
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Abstrakt generisk konverteringsalternativklass. |
 | [DataConvertOptions](./dataconvertoptions) | Alternativ för konvertering till datafiltyp. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Alternativ för konvertering till diagramfiltyp. |
+| [EBookConvertOptions](./ebookconvertoptions) | Alternativ för konvertering till E-bok filtyp. |
 | [EmailConvertOptions](./emailconvertoptions) | Alternativ för konvertering till e-postfiltyp. |
+| [FinanceConvertOptions](./financeconvertoptions) | Alternativ för konvertering till finansieringstyp. |
 | [Font](./font) | Teckensnittsinställningar |
+| [FontConvertOptions](./fontconvertoptions) | Alternativ för konvertering till teckensnittstyp. |
 | [ImageConvertOptions](./imageconvertoptions) | Alternativ för konvertering till bildfiltyp. |
 | [ImageFlipModes](./imageflipmodes) | Beskriver bildvändningslägen. |
 | [JpegOptions](./jpegoptions) | Alternativ för konvertering till Jpeg-filtyp. |
@@ -29,10 +32,12 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ för 
 | [JpgCompressionMethods](./jpgcompressionmethods) | Beskriver Jpg-komprimeringslägen |
 | [MarkupConvertOptions](./markupconvertoptions) | Alternativ för konvertering till Markup filtyp. |
 | [NoConvertOptions](./noconvertoptions) | Speciell konverteringsalternativklass, som instruerar omvandlaren att kopiera källdokument utan någon process |
+| [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Alternativ för konvertering till sidbeskrivningar språk filtyp. |
 | [PageOrientation](./pageorientation) | Anger sidorientering |
 | [PageSize](./pagesize) | Anger sidstorlek |
 | [PdfConvertOptions](./pdfconvertoptions) | Alternativ för konvertering till Pdf-filtyp. |
 | [PdfDirection](./pdfdirection) | Beskriver pdf-textriktning. |
+| [PdfDocumentInfo](./pdfdocumentinfo) | Representerar metainformation för PDF-dokument. |
 | [PdfFormats](./pdfformats) | Beskriver uppräkning av pdf-format. |
 | [PdfFormattingOptions](./pdfformattingoptions) | Definierar PDF-formateringsalternativ. |
 | [PdfOptimizationOptions](./pdfoptimizationoptions) | Definierar PDF-optimeringsalternativ. |
@@ -55,6 +60,7 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ för 
 | [WatermarkImageOptions](./watermarkimageoptions) | Alternativ för att ställa in vattenstämpel till det konverterade dokumentet |
 | [WatermarkOptions](./watermarkoptions) | Alternativ för att ställa in vattenstämpel till det konverterade dokumentet |
 | [WatermarkTextOptions](./watermarktextoptions) | Alternativ för inställning av textvattenstämpel till det konverterade dokumentet |
+| [WebConvertOptions](./webconvertoptions) | Alternativ för konvertering till webbfiltyp. |
 | [WebpOptions](./webpoptions) | Alternativ för konvertering till Webp-filtyp. |
 | [WordProcessingConvertOptions](./wordprocessingconvertoptions) | Alternativ för konvertering till WordProcessing filtyp. |
 ## Gränssnitt

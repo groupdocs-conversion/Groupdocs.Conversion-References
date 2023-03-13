@@ -1,14 +1,14 @@
 ---
 title: Rar
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .rar sind Archivdateien die zum Speichern von Informationen in komprimierter oder normaler Form erstellt werden. RAR steht für Roshal ARchive file format. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/rar/ .
+description: Dateien mit der Erweiterung .rar sind Archivdateien die zum Speichern von Informationen in komprimierter oder normaler Form erstellt werden. RAR steht für Roshal ARchive file format. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/rar/ .
 type: docs
 weight: 90
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/rar/
 ---
 ## CompressionFileType.Rar field
 
-Dateien mit der Erweiterung .rar sind Archivdateien, die zum Speichern von Informationen in komprimierter oder normaler Form erstellt werden. RAR steht für Roshal ARchive file format. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/rar/) .
+Dateien mit der Erweiterung .rar sind Archivdateien, die zum Speichern von Informationen in komprimierter oder normaler Form erstellt werden. RAR steht für Roshal ARchive file format. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/rar/) .
 
 ```csharp
 public static readonly CompressionFileType Rar;

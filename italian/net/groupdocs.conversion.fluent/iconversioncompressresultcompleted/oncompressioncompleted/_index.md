@@ -11,12 +11,12 @@ url: /it/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/onco
 Ricevi flusso di documenti compressi. Verrà attivato solo se Compression(CompressionConvertOptions options)" è impostato.
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | Fornitore di flussi di documenti compressi |
+| compressedDocumentStream | Action`1 | Fornitore di flussi di documenti compressi |
 
 ### Valore di ritorno
 
@@ -25,7 +25,6 @@ Interfaccia per continuare la costruzione della conversione
 ### Guarda anche
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * spazio dei nomi [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * assemblea [GroupDocs.Conversion](../../../)

@@ -3,7 +3,7 @@ title: IConversionConvertByPageOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换转换选项
 type: docs
-weight: 1050
+weight: 1180
 url: /zh/net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/
 ---
 ## IConversionConvertByPageOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertByPageOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(ConvertOptions) | 设置转换选项 |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptionsProvider) | 设置转换选项 |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptions) | 设置转换选项 |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | 设置转换选项 |
 
 ### 也可以看看
 

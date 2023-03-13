@@ -1,14 +1,14 @@
 ---
 title: ConverterSettings
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Default_Constructor
+description: Varsayılan yapıcı
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion/convertersettings/convertersettings/
 ---
 ## ConverterSettings constructor
 
-Default_Constructor
+Varsayılan yapıcı
 
 ```csharp
 public ConverterSettings()

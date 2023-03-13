@@ -3,7 +3,7 @@ title: op_Implicit
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Conversion implicite en string
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/groupdocs.conversion.filetypes/filetype/op_implicit/
 ---
 ## FileType Implicit operator

@@ -1,14 +1,14 @@
 ---
 title: ConvertOwner
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa belge kabı dönüştürülen ilk belge olur
+description: Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa belge kabı dönüştürülen ilk belge olacaktır
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.load/emailloadoptions/convertowner/
 ---
 ## EmailLoadOptions.ConvertOwner property
 
-Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur
+Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır
 
 ```csharp
 public bool ConvertOwner { get; set; }

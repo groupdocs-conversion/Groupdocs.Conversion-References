@@ -1,14 +1,14 @@
 ---
 title: Png
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PNG Taşınabilir Ağ Grafikleri kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya biçimi Grafik Değişim Biçiminin GIF yerini almak üzere oluşturulmuştur ve hiçbir telif hakkı sınırlaması yoktur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/png .
+description: PNG Taşınabilir Ağ Grafikleri kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya biçimi Grafik Değişim Biçiminin GIF yerini alması için oluşturulmuştur ve herhangi bir telif hakkı sınırlaması yoktur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 300
+weight: 280
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field
 
-PNG, Taşınabilir Ağ Grafikleri, kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya biçimi, Grafik Değişim Biçimi'nin (GIF) yerini almak üzere oluşturulmuştur ve hiçbir telif hakkı sınırlaması yoktur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/png) .
+PNG, Taşınabilir Ağ Grafikleri, kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya biçimi, Grafik Değişim Biçimi'nin (GIF) yerini alması için oluşturulmuştur ve herhangi bir telif hakkı sınırlaması yoktur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/png) .
 
 ```csharp
 public static readonly ImageFileType Png;

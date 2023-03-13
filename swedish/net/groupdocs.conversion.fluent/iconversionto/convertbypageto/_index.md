@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(SavePageStream) {#convertbypageto}
+## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
 
 Spara konverterad sida som stream
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStream convertedPageProvider)
+    Func<int, Stream> convertedPageProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| convertedPageProvider | SavePageStream | Konverterad dokumentsidaströmleverantör |
+| convertedPageProvider | Func`2 | Konverterad dokumentsidaström provider |
 
 ### Returvärde
 
@@ -26,25 +26,24 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * interface [IConversionTo](../../iconversionto)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionto)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertByPageTo(SavePageStreamForFileType) {#convertbypageto_1}
+## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
 
 Spara konverterad sida som ström efter typ
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStreamForFileType convertedStreamProvider)
+    Func<int, FileType, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| convertedStreamProvider | SavePageStreamForFileType | Konverterad dokumentsidaströmleverantör |
+| convertedStreamProvider | Func`3 | Konverterad dokumentsidaström provider |
 
 ### Returvärde
 
@@ -53,7 +52,7 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionto)
 * hopsättning [GroupDocs.Conversion](../../../)

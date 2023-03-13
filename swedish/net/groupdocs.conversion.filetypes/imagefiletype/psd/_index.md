@@ -3,7 +3,7 @@ title: Psd
 second_title: GroupDocs.Conversion for .NET API Referens
 description: PSD Photoshop Document representerar Adobe Photoshops ursprungliga filformat som används för grafisk design och utveckling. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 320
+weight: 300
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/psd/
 ---
 ## ImageFileType.Psd field

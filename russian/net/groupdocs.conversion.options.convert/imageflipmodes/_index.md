@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает режимы переворота изображения.
 type: docs
-weight: 1480
+weight: 1640
 url: /ru/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class

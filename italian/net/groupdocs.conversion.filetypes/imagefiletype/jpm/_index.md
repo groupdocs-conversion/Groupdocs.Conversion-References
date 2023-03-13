@@ -1,14 +1,14 @@
 ---
 title: Jpm
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: formato documento Jpm
+description: Formato documento Jpm
 type: docs
-weight: 260
+weight: 240
 url: /it/net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 ---
 ## ImageFileType.Jpm field
 
-formato documento Jpm
+Formato documento Jpm
 
 ```csharp
 public static readonly ImageFileType Jpm;

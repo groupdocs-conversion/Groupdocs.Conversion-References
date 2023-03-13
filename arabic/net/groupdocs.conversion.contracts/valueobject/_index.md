@@ -3,7 +3,7 @@ title: ValueObject
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: فئة كائن القيمة المجردة.
 type: docs
-weight: 570
+weight: 610
 url: /ar/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class

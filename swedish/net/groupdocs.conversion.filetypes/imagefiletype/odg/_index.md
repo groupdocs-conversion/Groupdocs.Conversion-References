@@ -3,7 +3,7 @@ title: Odg
 second_title: GroupDocs.Conversion for .NET API Referens
 description: ODGfilformatet används av Apache OpenOffices Drawapplikation för att lagra ritelement som en vektorbild. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 280
+weight: 260
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/odg/
 ---
 ## ImageFileType.Odg field

@@ -1,14 +1,14 @@
 ---
 title: Ppt
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione PPT rappresenta un file PowerPoint costituito da una raccolta di diapositive da visualizzare come SlideShow. Specifica il formato di file binario utilizzato da Microsoft PowerPoint 972003. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/ppt .
+description: Un file con estensione PPT rappresenta un file PowerPoint costituito da una raccolta di diapositive da visualizzare come SlideShow. Specifica il formato di file binario utilizzato da Microsoft PowerPoint 972003. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/ppt .
 type: docs
 weight: 110
 url: /it/net/groupdocs.conversion.filetypes/presentationfiletype/ppt/
 ---
 ## PresentationFileType.Ppt field
 
-Un file con estensione PPT rappresenta un file PowerPoint costituito da una raccolta di diapositive da visualizzare come SlideShow. Specifica il formato di file binario utilizzato da Microsoft PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/ppt) .
+Un file con estensione PPT rappresenta un file PowerPoint costituito da una raccolta di diapositive da visualizzare come SlideShow. Specifica il formato di file binario utilizzato da Microsoft PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/ppt) .
 
 ```csharp
 public static readonly PresentationFileType Ppt;

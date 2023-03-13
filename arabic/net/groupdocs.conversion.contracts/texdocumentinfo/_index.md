@@ -3,7 +3,7 @@ title: TexDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات تعريف مستند Tex
 type: docs
-weight: 530
+weight: 570
 url: /ar/net/groupdocs.conversion.contracts/texdocumentinfo/
 ---
 ## TexDocumentInfo class

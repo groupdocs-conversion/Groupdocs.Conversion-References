@@ -3,7 +3,7 @@ title: ConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Genel dönüştürme seçenekleri class.
 type: docs
-weight: 1330
+weight: 1460
 url: /tr/net/groupdocs.conversion.options.convert/convertoptions/
 ---
 ## ConvertOptions class

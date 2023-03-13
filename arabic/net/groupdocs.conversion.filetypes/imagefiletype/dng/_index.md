@@ -3,7 +3,7 @@ title: Dng
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: DNG هو تنسيق صورة كاميرا رقمية يستخدم لتخزين الملفات الأولية. تم تطويره بواسطة Adobe في سبتمبر 2004. تم تطويره بشكل أساسي للتصوير الرقمي. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/dng/
 ---
 ## ImageFileType.Dng field

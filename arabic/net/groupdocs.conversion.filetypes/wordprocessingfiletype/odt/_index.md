@@ -3,7 +3,7 @@ title: Odt
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملفات ODT هي نوع من المستندات التي تم إنشاؤها باستخدام تطبيقات معالجة الكلمات التي تعتمد على تنسيق OpenDocument Text File. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 120
+weight: 90
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/
 ---
 ## WordProcessingFileType.Odt field

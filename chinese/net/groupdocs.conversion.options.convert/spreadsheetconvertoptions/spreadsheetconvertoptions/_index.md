@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例SpreadsheetConvertOptionsgroupdocs.conversion.options.convert/spreadsheetconvertoptions类.
+description: 初始化新实例SpreadsheetConvertOptionsgroupdocs.conversion.options.convert/spreadsheetconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions constructor
 
-初始化的新实例[`SpreadsheetConvertOptions`](../../spreadsheetconvertoptions)类.
+初始化新实例[`SpreadsheetConvertOptions`](../../spreadsheetconvertoptions)类.
 
 ```csharp
 public SpreadsheetConvertOptions()

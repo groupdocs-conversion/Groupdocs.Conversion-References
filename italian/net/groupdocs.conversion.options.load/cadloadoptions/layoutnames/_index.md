@@ -1,14 +1,14 @@
 ---
 title: LayoutNames
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Specifica quali layout CAD devono essere convertiti
+description: Specifica quali layout CAD convertire
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.options.load/cadloadoptions/layoutnames/
 ---
 ## CadLoadOptions.LayoutNames property
 
-Specifica quali layout CAD devono essere convertiti
+Specifica quali layout CAD convertire
 
 ```csharp
 public string[] LayoutNames { get; set; }

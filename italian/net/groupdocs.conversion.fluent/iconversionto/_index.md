@@ -1,14 +1,14 @@
 ---
 title: IConversionTo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta come archiviare il documento convertito
+description: Imposta la modalità di archiviazione del documento convertito
 type: docs
-weight: 1180
+weight: 1310
 url: /it/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
 
-Imposta come archiviare il documento convertito
+Imposta la modalità di archiviazione del documento convertito
 
 ```csharp
 public interface IConversionTo
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | Nome | Descrizione |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | Salva la pagina convertita come stream |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | Salva la pagina convertita come stream per tipo |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | Salva il documento convertito come stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | Salva il documento convertito come stream per tipo |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | Salva la pagina convertita come stream per tipo |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | Salva la pagina convertita come stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | Salva il documento convertito come stream per tipo |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | Salva il documento convertito come stream |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | Salva il documento convertito come file |
 
 ### Guarda anche

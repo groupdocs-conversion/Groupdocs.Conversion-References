@@ -1,23 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürülen belge akışını alın. Yalnızca Kaydetdize veya KaydetSaveDocumentStreamForFileType ayarlanmışsa tetiklenir.
+description: Dönüştürülen belge akışını alın. Yalnızca ConvertTostring fileName veya ConvertToconvertedStreamProvider ayarlanmışsa tetiklenir.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted/
 ---
 ## IConversionCompleted.OnConversionCompleted method
 
-Dönüştürülen belge akışını alın. Yalnızca "Kaydet(dize)" veya "Kaydet(SaveDocumentStreamForFileType)" ayarlanmışsa tetiklenir.
+Dönüştürülen belge akışını alın. Yalnızca "ConvertTo(string fileName)" veya ConvertTo(convertedStreamProvider)" ayarlanmışsa tetiklenir.
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    ConvertedDocumentStream convertedDocumentStream)
+    Action<Stream, string> convertedFileStream)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedDocumentStream | ConvertedDocumentStream | Dönüştürülen belge akışı sağlayıcısı |
+| convertedFileStream | Action`2 | Dönüştürülen belge akışı sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -26,7 +26,6 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversioncompleted)
 * toplantı [GroupDocs.Conversion](../../../)

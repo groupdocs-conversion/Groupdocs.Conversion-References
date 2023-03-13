@@ -3,7 +3,7 @@ title: VcfLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos Vcf.
 type: docs
-weight: 2070
+weight: 2320
 url: /es/net/groupdocs.conversion.options.load/vcfloadoptions/
 ---
 ## VcfLoadOptions class

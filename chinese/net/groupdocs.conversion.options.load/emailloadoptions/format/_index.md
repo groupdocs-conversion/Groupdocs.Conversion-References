@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 输入文档文件类型
+description: 输入文档文件类型.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.options.load/emailloadoptions/format/
 ---
 ## EmailLoadOptions.Format property
 
-输入文档文件类型。
+输入文档文件类型.
 
 ```csharp
 public EmailFileType Format { get; set; }

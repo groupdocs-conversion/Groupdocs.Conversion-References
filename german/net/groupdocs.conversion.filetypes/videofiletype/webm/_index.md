@@ -1,14 +1,14 @@
 ---
 title: Webm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .webm ist eine Videodatei die auf dem offenen lizenzfreien WebMDateiformat basiert. Es wurde für die gemeinsame Nutzung von Videos im Web entwickelt und definiert die Dateicontainerstruktur einschließlich Video und Audioformaten. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/webm// .
+description: Eine Datei mit der Erweiterung .webm ist eine Videodatei die auf dem offenen lizenzfreien WebMDateiformat basiert. Es wurde für die gemeinsame Nutzung von Videos im Web entwickelt und definiert die Dateicontainerstruktur einschließlich Video und Audioformaten. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/webm// .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/webm/
 ---
 ## VideoFileType.Webm field
 
-Eine Datei mit der Erweiterung .webm ist eine Videodatei, die auf dem offenen, lizenzfreien WebM-Dateiformat basiert. Es wurde für die gemeinsame Nutzung von Videos im Web entwickelt und definiert die Dateicontainerstruktur einschließlich Video- und Audioformaten. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/webm//) .
+Eine Datei mit der Erweiterung .webm ist eine Videodatei, die auf dem offenen, lizenzfreien WebM-Dateiformat basiert. Es wurde für die gemeinsame Nutzung von Videos im Web entwickelt und definiert die Dateicontainerstruktur einschließlich Video- und Audioformaten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/webm//) .
 
 ```csharp
 public static readonly VideoFileType Webm;

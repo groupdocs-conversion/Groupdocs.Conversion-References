@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Ange hur konverterat dokument ska lagras
 type: docs
-weight: 1180
+weight: 1310
 url: /sv/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | namn | Beskrivning |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | Spara konverterad sida som stream |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | Spara konverterad sida som ström efter typ |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | Spara konverterat dokument som stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | Spara konverterat dokument som ström efter typ |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | Spara konverterad sida som ström efter typ |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | Spara konverterad sida som stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | Spara konverterat dokument som ström efter typ |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | Spara konverterat dokument som stream |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | Spara konverterat dokument som file |
 
 ### Se även

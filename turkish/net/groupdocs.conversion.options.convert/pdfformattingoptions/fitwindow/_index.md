@@ -1,14 +1,14 @@
 ---
 title: FitWindow
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge penceresinin ilk görüntülenen sayfaya sığacak şekilde yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan false.
+description: Belge penceresinin görüntülenen ilk sayfaya sığması için yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan false.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow/
 ---
 ## PdfFormattingOptions.FitWindow property
 
-Belge penceresinin ilk görüntülenen sayfaya sığacak şekilde yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan: false.
+Belge penceresinin görüntülenen ilk sayfaya sığması için yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan: false.
 
 ```csharp
 public bool FitWindow { get; set; }

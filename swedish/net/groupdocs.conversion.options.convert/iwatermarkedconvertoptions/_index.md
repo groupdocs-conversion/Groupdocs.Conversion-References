@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar konverteringsalternativ som gör att utdata från konverteringen kan vattenmärkas
 type: docs
-weight: 1460
+weight: 1620
 url: /sv/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

@@ -3,7 +3,7 @@ title: TiffCompressionMethods
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit lénumération des méthodes de compression Tiff.
 type: docs
-weight: 1740
+weight: 1920
 url: /fr/net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 ## TiffCompressionMethods class

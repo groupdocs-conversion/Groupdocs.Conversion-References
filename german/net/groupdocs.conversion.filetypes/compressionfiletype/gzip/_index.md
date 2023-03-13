@@ -1,14 +1,14 @@
 ---
 title: Gzip
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine GzipDatei ist ein komprimiertes Archiv das mit dem Standardkomprimierungsalgorithmus gzip GNU zip erstellt wird. Es kann mehrere komprimierte Dateien Verzeichnisse und DateiStubs enthalten. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/gz/ .
+description: Eine GzipDatei ist ein komprimiertes Archiv das mit dem Standardkomprimierungsalgorithmus gzip GNU zip erstellt wird. Es kann mehrere komprimierte Dateien Verzeichnisse und DateiStubs enthalten. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/gz/ .
 type: docs
 weight: 60
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/gzip/
 ---
 ## CompressionFileType.Gzip field
 
-Eine Gzip-Datei ist ein komprimiertes Archiv, das mit dem Standardkomprimierungsalgorithmus gzip (GNU zip) erstellt wird. Es kann mehrere komprimierte Dateien, Verzeichnisse und Datei-Stubs enthalten. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/gz/) .
+Eine Gzip-Datei ist ein komprimiertes Archiv, das mit dem Standardkomprimierungsalgorithmus gzip (GNU zip) erstellt wird. Es kann mehrere komprimierte Dateien, Verzeichnisse und Datei-Stubs enthalten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/gz/) .
 
 ```csharp
 public static readonly CompressionFileType Gzip;

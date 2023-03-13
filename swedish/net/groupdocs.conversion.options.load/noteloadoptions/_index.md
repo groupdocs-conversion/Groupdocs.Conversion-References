@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda Onedokument.
 type: docs
-weight: 1960
+weight: 2190
 url: /sv/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Standardteckensnitt för Note-dokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas. En absolut sökväg till teckensnittsfilen måste anges. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Standardteckensnitt för Note-dokument. Följande teckensnitt kommer att användas om ett teckensnitt saknas. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Ersätt specifika teckensnitt vid konvertering av Note-dokument. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Inmatningsdokumentfiltyp. |

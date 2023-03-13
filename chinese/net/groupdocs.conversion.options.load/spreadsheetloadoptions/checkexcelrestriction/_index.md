@@ -1,14 +1,14 @@
 ---
 title: CheckExcelRestriction
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 用户修改单元格相关对象时是否检查excel文件的限制例如excel 不允许输入超过 32K 的字符串值当你输入一个超过 32K 的值时如果这个属性为真你会得到一个 Exception如果此属性为 false我们将接受您输入的字符串值作为单元格的值以便稍后您可以为其他文件格式例如 CSV输出完整的字符串值但是如果您设置了此类对 excel 文件格式无效的值则以后不应将工作簿另存为 excel 文件格式否则生成的excel文件可能会出现意外错误
+description: 用户修改单元格相关对象时是否检查excel文件的限制例如excel 不允许输入超过 32K 的字符串值当你输入一个大于 32K 的值时如果这个属性为 true你将得到一个 Exception如果此属性为 false我们将接受您输入的字符串值作为单元格的值以便稍后您可以输出其他文件格式例如 CSV的完整字符串值但是如果您设置了这种对 excel 文件格式无效的值则以后不应将工作簿另存为 excel 文件格式否则生成的excel文件可能出现意外错误.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/checkexcelrestriction/
 ---
 ## SpreadsheetLoadOptions.CheckExcelRestriction property
 
-用户修改单元格相关对象时是否检查excel文件的限制。例如，excel 不允许输入超过 32K 的字符串值。当你输入一个超过 32K 的值时，如果这个属性为真，你会得到一个 Exception。如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后您可以为其他文件格式（例如 CSV）输出完整的字符串值。但是，如果您设置了此类对 excel 文件格式无效的值，则以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。
+用户修改单元格相关对象时是否检查excel文件的限制。例如，excel 不允许输入超过 32K 的字符串值。当你输入一个大于 32K 的值时，如果这个属性为 true，你将得到一个 Exception。如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后您可以输出其他文件格式（例如 CSV）的完整字符串值。但是，如果您设置了这种对 excel 文件格式无效的值，则以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能出现意外错误.
 
 ```csharp
 public bool CheckExcelRestriction { get; set; }

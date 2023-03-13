@@ -3,7 +3,7 @@ title: Dng
 second_title: GroupDocs.Conversion for .NET API Referens
 description: DNG är ett digitalkamerabildformat som används för lagring av råfiler. Den har utvecklats av Adobe i september 2004. Den utvecklades i princip för digital fotografering. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/dng/
 ---
 ## ImageFileType.Dng field

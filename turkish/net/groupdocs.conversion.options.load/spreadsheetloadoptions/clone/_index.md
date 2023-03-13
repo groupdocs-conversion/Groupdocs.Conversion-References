@@ -3,7 +3,7 @@ title: Clone
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Geçerli örneği klonlar.
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/clone/
 ---
 ## SpreadsheetLoadOptions.Clone method

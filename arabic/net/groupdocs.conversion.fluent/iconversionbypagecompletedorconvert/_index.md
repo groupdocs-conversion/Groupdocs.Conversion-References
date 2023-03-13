@@ -3,7 +3,7 @@ title: IConversionByPageCompletedOrConvert
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: معالجة التحويل المكتمل أو تنفيذ التحويل
 type: docs
-weight: 980
+weight: 1110
 url: /ar/net/groupdocs.conversion.fluent/iconversionbypagecompletedorconvert/
 ---
 ## IConversionByPageCompletedOrConvert interface

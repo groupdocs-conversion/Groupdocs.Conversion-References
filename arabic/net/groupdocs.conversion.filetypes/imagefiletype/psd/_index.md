@@ -3,7 +3,7 @@ title: Psd
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: PSD  Photoshop Document  يمثل تنسيق ملف Adobe Photoshop الأصلي المستخدم لتصميم الرسومات وتطويرها. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 320
+weight: 300
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/psd/
 ---
 ## ImageFileType.Psd field

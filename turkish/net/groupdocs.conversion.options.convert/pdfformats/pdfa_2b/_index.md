@@ -1,14 +1,14 @@
 ---
 title: PdfA_2B
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PDF/A2b uyumluluğu.
+description: PDF/A2b uygunluğu.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.options.convert/pdfformats/pdfa_2b/
 ---
 ## PdfFormats.PdfA_2B field
 
-PDF/A-2b uyumluluğu.
+PDF/A-2b uygunluğu.
 
 ```csharp
 public static readonly PdfFormats PdfA_2B;

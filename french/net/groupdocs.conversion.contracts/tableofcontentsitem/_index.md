@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Contient les métadonnées de lélément de table des matières
 type: docs
-weight: 500
+weight: 540
 url: /fr/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

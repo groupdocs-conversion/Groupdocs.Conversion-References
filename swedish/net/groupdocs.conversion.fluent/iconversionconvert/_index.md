@@ -3,7 +3,7 @@ title: IConversionConvert
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Utför konvertering
 type: docs
-weight: 1040
+weight: 1170
 url: /sv/net/groupdocs.conversion.fluent/iconversionconvert/
 ---
 ## IConversionConvert interface

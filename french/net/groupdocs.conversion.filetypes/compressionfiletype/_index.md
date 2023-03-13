@@ -3,7 +3,7 @@ title: CompressionFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les formats de compression. Inclut les types de fichiers suivants  Zip./compressionfiletype/zip . Rar./compressionfiletype/rar . SevenZ./compressionfiletype/sevenz . Tar./compressionfiletype/tar . Gz./compressionfiletype/gz . Gzip./compressionfiletype/gzip . Bz2./compressionfiletype/bz2 . En savoir plus sur les formats de compressionicihttps//docs.fileformat.com/compression/ .
 type: docs
-weight: 810
+weight: 870
 url: /fr/net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
@@ -34,7 +34,7 @@ public sealed class CompressionFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

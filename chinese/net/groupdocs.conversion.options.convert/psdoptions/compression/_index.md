@@ -1,14 +1,14 @@
 ---
 title: Compression
 second_title: GroupDocs.Conversion for .NET API 参考
-description: psd压缩方式.
+description: psd压缩方法.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.options.convert/psdoptions/compression/
 ---
 ## PsdOptions.Compression property
 
-psd压缩方式.
+psd压缩方法.
 
 ```csharp
 public PsdCompressionMethods Compression { get; set; }

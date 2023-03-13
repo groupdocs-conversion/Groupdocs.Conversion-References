@@ -1,14 +1,14 @@
 ---
 title: VideoLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diVideoLoadOptionsgroupdocs.conversion.options.load/videoloadoptions classe.
+description: Inizializza una nuova istanza diVideoLoadOptionsgroupdocs.conversion.options.load/videoloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/videoloadoptions/videoloadoptions/
 ---
 ## VideoLoadOptions constructor
 
-Inizializza la nuova istanza di[`VideoLoadOptions`](../../videoloadoptions) classe.
+Inizializza una nuova istanza di[`VideoLoadOptions`](../../videoloadoptions) classe.
 
 ```csharp
 public VideoLoadOptions()

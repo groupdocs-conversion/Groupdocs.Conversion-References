@@ -1,14 +1,14 @@
 ---
 title: SkipEmptyRowsAndColumns
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 转换时跳过空行和列默认为真
+description: 转换时跳过空行和空列默认为 True.
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property
 
-转换时跳过空行和列。默认为真。
+转换时跳过空行和空列。默认为 True.
 
 ```csharp
 public bool SkipEmptyRowsAndColumns { get; set; }

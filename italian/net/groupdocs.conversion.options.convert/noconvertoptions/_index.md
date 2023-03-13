@@ -1,14 +1,14 @@
 ---
 title: NoConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Speciale classe di opzioni di conversione che indica al convertitore di copiare il documento sorgente senza alcuna elaborazione
+description: Classe di opzione di conversione speciale che indica al convertitore di copiare il documento di origine senza alcuna elaborazione
 type: docs
-weight: 1530
+weight: 1690
 url: /it/net/groupdocs.conversion.options.convert/noconvertoptions/
 ---
 ## NoConvertOptions class
 
-Speciale classe di opzioni di conversione, che indica al convertitore di copiare il documento sorgente senza alcuna elaborazione
+Classe di opzione di conversione speciale, che indica al convertitore di copiare il documento di origine senza alcuna elaborazione
 
 ```csharp
 public sealed class NoConvertOptions : ConvertOptions<FileType>
@@ -34,7 +34,7 @@ public sealed class NoConvertOptions : ConvertOptions<FileType>
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

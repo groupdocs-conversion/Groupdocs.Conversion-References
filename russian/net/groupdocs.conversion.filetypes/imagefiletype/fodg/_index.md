@@ -3,7 +3,7 @@ title: Fodg
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: FODG  несжатый файл формата XML используемый для хранения текстовых данных OpenDocument. Расширение FODG связано с офисными пакетами с открытым исходным кодом Libre Office и OpenOffice.org.
 type: docs
-weight: 150
+weight: 130
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/fodg/
 ---
 ## ImageFileType.Fodg field

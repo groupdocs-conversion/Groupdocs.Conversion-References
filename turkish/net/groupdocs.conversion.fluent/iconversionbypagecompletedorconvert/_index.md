@@ -3,7 +3,7 @@ title: IConversionByPageCompletedOrConvert
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürme işlemi tamamlandı veya dönüştürmeyi yürütün
 type: docs
-weight: 980
+weight: 1110
 url: /tr/net/groupdocs.conversion.fluent/iconversionbypagecompletedorconvert/
 ---
 ## IConversionByPageCompletedOrConvert interface

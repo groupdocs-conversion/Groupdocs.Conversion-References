@@ -1,14 +1,14 @@
 ---
 title: Indexed
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 已编入索引
+description: 索引.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.options.convert/psdcolormodes/indexed/
 ---
 ## PsdColorModes.Indexed field
 
-已编入索引。
+索引.
 
 ```csharp
 public static readonly PsdColorModes Indexed;

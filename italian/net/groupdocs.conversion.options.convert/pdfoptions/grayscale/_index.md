@@ -3,7 +3,7 @@ title: Grayscale
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Converti un PDF dallo spazio colore RGB alla scala di grigi
 type: docs
-weight: 30
+weight: 40
 url: /it/net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 ---
 ## PdfOptions.Grayscale property

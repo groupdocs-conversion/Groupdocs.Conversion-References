@@ -3,7 +3,7 @@ title: Docm
 second_title: GroupDocs.Conversion for .NET API Referens
 description: DOCMfiler är Microsoft Word 2007 eller högre genererade dokument med möjlighet att köra makron. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/docm .
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm/
 ---
 ## WordProcessingFileType.Docm field

@@ -3,7 +3,7 @@ title: Pdf
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تنسيق المستند المحمول PDF هو نوع من المستندات التي أنشأتها Adobe في التسعينيات. كان الغرض من تنسيق الملف هذا هو تقديم معيار لتمثيل المستندات والمواد المرجعية الأخرى بتنسيق مستقل عن برامج التطبيقات والأجهزة وكذلك نظام التشغيل. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/view/pdf .
 type: docs
-weight: 50
+weight: 20
 url: /ar/net/groupdocs.conversion.filetypes/pdffiletype/pdf/
 ---
 ## PdfFileType.Pdf field

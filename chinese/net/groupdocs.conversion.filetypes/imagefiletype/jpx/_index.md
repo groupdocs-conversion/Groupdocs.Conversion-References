@@ -1,14 +1,14 @@
 ---
 title: Jpx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: jpx 文档格式
+description: jpx文档格式
 type: docs
-weight: 270
+weight: 250
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/jpx/
 ---
 ## ImageFileType.Jpx field
 
-jpx 文档格式
+jpx文档格式
 
 ```csharp
 public static readonly ImageFileType Jpx;

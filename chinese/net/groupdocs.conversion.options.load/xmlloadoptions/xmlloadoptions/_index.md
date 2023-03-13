@@ -1,14 +1,14 @@
 ---
 title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例XmlLoadOptionsgroupdocs.conversion.options.load/xmlloadoptions类.
+description: 初始化新实例XmlLoadOptionsgroupdocs.conversion.options.load/xmlloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/xmlloadoptions/xmlloadoptions/
 ---
 ## XmlLoadOptions constructor
 
-初始化的新实例[`XmlLoadOptions`](../../xmlloadoptions)类.
+初始化新实例[`XmlLoadOptions`](../../xmlloadoptions)类.
 
 ```csharp
 public XmlLoadOptions()

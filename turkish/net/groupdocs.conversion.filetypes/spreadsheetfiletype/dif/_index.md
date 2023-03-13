@@ -1,14 +1,14 @@
 ---
 title: Dif
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: DIF farklı uygulamalar arasında elektronik tablo verilerini içe/dışa aktarmak için kullanılan Veri Değişim Biçimi anlamına gelir. Bunlara Microsoft Excel OpenOffice Calc StarCalc ve diğerleri dahildir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/dif .
+description: DIF elektronik tablo verilerini farklı uygulamalar arasında içe/dışa aktarmak için kullanılan Veri Değişim Biçimi anlamına gelir. Bunlara Microsoft Excel OpenOffice Calc StarCalc ve diğerleri dahildir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/dif .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/dif/
 ---
 ## SpreadsheetFileType.Dif field
 
-DIF, farklı uygulamalar arasında elektronik tablo verilerini içe/dışa aktarmak için kullanılan Veri Değişim Biçimi anlamına gelir. Bunlara Microsoft Excel, OpenOffice Calc, StarCalc ve diğerleri dahildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/dif) .
+DIF, elektronik tablo verilerini farklı uygulamalar arasında içe/dışa aktarmak için kullanılan Veri Değişim Biçimi anlamına gelir. Bunlara Microsoft Excel, OpenOffice Calc, StarCalc ve diğerleri dahildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/dif) .
 
 ```csharp
 public static readonly SpreadsheetFileType Dif;

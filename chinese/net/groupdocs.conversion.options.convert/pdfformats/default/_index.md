@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认pdf格式
+description: 默认 pdf 格式
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/pdfformats/default/
 ---
 ## PdfFormats.Default field
 
-默认pdf格式
+默认 pdf 格式
 
 ```csharp
 public static readonly PdfFormats Default;

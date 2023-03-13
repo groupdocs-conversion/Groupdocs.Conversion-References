@@ -1,14 +1,14 @@
 ---
 title: FieldTextMap
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 邮件信息之间的映射EmailFieldgroupdocs.conversion.options.load/emailfield和字段文本表示
+description: 电子邮件之间的映射EmailFieldgroupdocs.conversion.options.load/emailfield和字段文本 representation
 type: docs
 weight: 110
 url: /zh/net/groupdocs.conversion.options.load/emailloadoptions/fieldtextmap/
 ---
 ## EmailLoadOptions.FieldTextMap property
 
-邮件信息之间的映射[`EmailField`](../../emailfield)和字段文本表示
+电子邮件之间的映射[`EmailField`](../../emailfield)和字段文本 representation
 
 ```csharp
 public Dictionary<EmailField, string> FieldTextMap { get; set; }

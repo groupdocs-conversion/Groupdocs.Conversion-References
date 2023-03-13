@@ -26,9 +26,9 @@ public class EmailDocumentInfo : DocumentInfo
 | [IsHtml](../../groupdocs.conversion.contracts/emaildocumentinfo/ishtml) { get; } | Alır: html |
 | [IsSigned](../../groupdocs.conversion.contracts/emaildocumentinfo/issigned) { get; } | Alır imzalanır |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

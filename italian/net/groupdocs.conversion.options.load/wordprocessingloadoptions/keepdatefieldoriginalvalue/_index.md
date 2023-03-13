@@ -1,14 +1,14 @@
 ---
 title: KeepDateFieldOriginalValue
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Mantieni il valore originale del campo data. Predefinito false
+description: Conserva il valore originale del campo data. Predefinito false
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue/
 ---
 ## WordProcessingLoadOptions.KeepDateFieldOriginalValue property
 
-Mantieni il valore originale del campo data. Predefinito: false
+Conserva il valore originale del campo data. Predefinito: false
 
 ```csharp
 public bool KeepDateFieldOriginalValue { get; set; }

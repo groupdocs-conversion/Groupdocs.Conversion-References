@@ -3,7 +3,7 @@ title: PsdOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file Psd.
 type: docs
-weight: 1690
+weight: 1870
 url: /it/net/groupdocs.conversion.options.convert/psdoptions/
 ---
 ## PsdOptions class
@@ -18,7 +18,7 @@ public sealed class PsdOptions : ValueObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [PsdOptions](psdoptions)() | Inizializza la nuova istanza di[`PsdOptions`](../psdoptions) classe. |
+| [PsdOptions](psdoptions)() | Inizializza una nuova istanza di[`PsdOptions`](../psdoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public sealed class PsdOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

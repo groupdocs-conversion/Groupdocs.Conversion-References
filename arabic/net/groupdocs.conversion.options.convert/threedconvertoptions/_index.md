@@ -3,7 +3,7 @@ title: ThreeDConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى النوع ثلاثي الأبعاد .
 type: docs
-weight: 1730
+weight: 1910
 url: /ar/net/groupdocs.conversion.options.convert/threedconvertoptions/
 ---
 ## ThreeDConvertOptions class

@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Describe la enumeración de opciones de espacios iniciales de txt.
 type: docs
-weight: 2040
+weight: 2290
 url: /es/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class

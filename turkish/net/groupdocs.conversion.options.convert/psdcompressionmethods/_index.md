@@ -3,7 +3,7 @@ title: PsdCompressionMethods
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Psd sıkıştırma yöntemlerini açıklar.
 type: docs
-weight: 1680
+weight: 1860
 url: /tr/net/groupdocs.conversion.options.convert/psdcompressionmethods/
 ---
 ## PsdCompressionMethods class
@@ -18,7 +18,7 @@ public class PsdCompressionMethods : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PsdCompressionMethods](psdcompressionmethods)() | Serileştirme yapıcısı |
+| [PsdCompressionMethods](psdcompressionmethods)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

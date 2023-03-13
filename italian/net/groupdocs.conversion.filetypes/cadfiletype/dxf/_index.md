@@ -1,14 +1,14 @@
 ---
 title: Dxf
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: DXF Drawing Interchange Format o Drawing Exchange Format è una rappresentazione di dati con tag del file di disegno di AutoCAD. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/cad/dxf .
+description: DXF Drawing Interchange Format o Drawing Exchange Format è una rappresentazione dei dati con tag del file di disegno di AutoCAD. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/cad/dxf .
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/dxf/
 ---
 ## CadFileType.Dxf field
 
-DXF, Drawing Interchange Format, o Drawing Exchange Format, è una rappresentazione di dati con tag del file di disegno di AutoCAD. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/cad/dxf) .
+DXF, Drawing Interchange Format o Drawing Exchange Format, è una rappresentazione dei dati con tag del file di disegno di AutoCAD. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/cad/dxf) .
 
 ```csharp
 public static readonly CadFileType Dxf;

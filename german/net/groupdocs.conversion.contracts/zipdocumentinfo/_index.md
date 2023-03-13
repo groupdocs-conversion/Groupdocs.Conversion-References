@@ -3,7 +3,7 @@ title: ZipDocumentInfo
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Enthält Metadaten des Komprimierungsdokuments
 type: docs
-weight: 660
+weight: 720
 url: /de/net/groupdocs.conversion.contracts/zipdocumentinfo/
 ---
 ## ZipDocumentInfo class

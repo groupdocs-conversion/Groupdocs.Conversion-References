@@ -3,7 +3,7 @@ title: Font
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Yazı tipi ayarları
 type: docs
-weight: 1380
+weight: 1530
 url: /tr/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class
@@ -18,7 +18,7 @@ public class Font : ValueObject
 
 | İsim | Tanım |
 | --- | --- |
-| [Font](font)(string, float) | yeni Yazı Tipi örneği oluşturur |
+| [Font](font)(string, float) | , yeni Yazı Tipi örneği oluşturur |
 
 ## Özellikleri
 
@@ -28,7 +28,7 @@ public class Font : ValueObject
 | [FamilyName](../../groupdocs.conversion.options.convert/font/familyname) { get; } | Yazı tipi ailesi adı |
 | [Italic](../../groupdocs.conversion.options.convert/font/italic) { get; set; } | Yazı tipi italik |
 | [Size](../../groupdocs.conversion.options.convert/font/size) { get; } | Yazı tipi boyutu |
-| [Underline](../../groupdocs.conversion.options.convert/font/underline) { get; set; } | Yazı tipi underline |
+| [Underline](../../groupdocs.conversion.options.convert/font/underline) { get; set; } | Yazı tipi altı çizili |
 
 ## yöntemler
 

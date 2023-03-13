@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | Fournisseur d'options de chargement |
+| loadOptionsProvider | Func`2 | Fournisseur d'options de chargement Le type de fichier chargé |
 
 ### Voir également
 

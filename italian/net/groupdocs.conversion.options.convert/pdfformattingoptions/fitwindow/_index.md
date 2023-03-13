@@ -1,14 +1,14 @@
 ---
 title: FitWindow
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Specifica se la finestra del documento deve essere ridimensionata per adattarla alla prima pagina visualizzata. Predefinito falso.
+description: Specifica se la finestra del documento deve essere ridimensionata per adattarsi alla prima pagina visualizzata. Predefinito falso.
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow/
 ---
 ## PdfFormattingOptions.FitWindow property
 
-Specifica se la finestra del documento deve essere ridimensionata per adattarla alla prima pagina visualizzata. Predefinito: falso.
+Specifica se la finestra del documento deve essere ridimensionata per adattarsi alla prima pagina visualizzata. Predefinito: falso.
 
 ```csharp
 public bool FitWindow { get; set; }

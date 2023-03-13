@@ -3,7 +3,7 @@ title: IConversionLoadOptionsOrSourceDocumentLoaded
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Konvertierungsladeoptionen oder Aktionen mit geladenem Dokument
 type: docs
-weight: 1140
+weight: 1270
 url: /de/net/groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded/
 ---
 ## IConversionLoadOptionsOrSourceDocumentLoaded interface

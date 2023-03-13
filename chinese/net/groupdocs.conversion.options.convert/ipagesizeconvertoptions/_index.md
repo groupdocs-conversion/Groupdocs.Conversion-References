@@ -1,14 +1,14 @@
 ---
 title: IPageSizeConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示支持页面大小的转换选项
+description: 表示转换选项支持page size
 type: docs
-weight: 1430
+weight: 1590
 url: /zh/net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/
 ---
 ## IPageSizeConvertOptions interface
 
-表示支持页面大小的转换选项
+表示转换选项，支持page size
 
 ```csharp
 public interface IPageSizeConvertOptions : IConvertOptions

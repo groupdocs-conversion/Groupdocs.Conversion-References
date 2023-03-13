@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 用于加载演示文档的选项
+description: 加载演示文档的选项
 type: docs
-weight: 2000
+weight: 2240
 url: /zh/net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
 
-用于加载演示文档的选项。
+加载演示文档的选项。
 
 ```csharp
 public class PresentationLoadOptions : LoadOptions
@@ -18,16 +18,16 @@ public class PresentationLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationLoadOptions](presentationloadoptions)() | 初始化的新实例[`EmailLoadOptions`](../emailloadoptions)类. |
+| [PresentationLoadOptions](presentationloadoptions)() | 初始化新实例[`EmailLoadOptions`](../emailloadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/presentationloadoptions/defaultfont) { get; set; } | 呈现演示文稿的默认字体。如果缺少演示字体，将使用以下字体。 |
+| [DefaultFont](../../groupdocs.conversion.options.load/presentationloadoptions/defaultfont) { get; set; } | 呈现演示文稿的默认字体。如果缺少演示文稿字体，将使用以下字体。 |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/presentationloadoptions/fontsubstitutes) { get; set; } | 转换演示文档时替换特定字体。 |
-| [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 | [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | 隐藏评论。 |
 | [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | 设置密码以取消保护受保护的文档。 |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | 显示隐藏的幻灯片。 |
@@ -36,9 +36,9 @@ public class PresentationLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

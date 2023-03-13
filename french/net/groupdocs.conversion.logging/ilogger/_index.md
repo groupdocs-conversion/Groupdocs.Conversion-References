@@ -3,7 +3,7 @@ title: ILogger
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les méthodes utilisées pour effectuer la journalisation.
 type: docs
-weight: 1270
+weight: 1400
 url: /fr/net/groupdocs.conversion.logging/ilogger/
 ---
 ## ILogger interface

@@ -11,12 +11,12 @@ url: /sv/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/onco
 Ta emot komprimerad dokumentström. Aktiveras endast om Compression (CompressionConvertOptions options)" är inställt.
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | Leverantör av komprimerad dokumentström |
+| compressedDocumentStream | Action`1 | Leverantör av komprimerad dokumentström |
 
 ### Returvärde
 
@@ -25,7 +25,6 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * hopsättning [GroupDocs.Conversion](../../../)

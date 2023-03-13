@@ -1,14 +1,14 @@
 ---
 title: NoteFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Not alma biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir One./notefiletype/one . Not alma biçimleri hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/notetaking .
+description: Not alma biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir One./notefiletype/one . Not alma biçimleri hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /tr/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
 
-Not alma biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir: [`One`](./one) . Not alma biçimleri hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/note-taking) .
+Not alma biçimlerini tanımlar. Aşağıdaki dosya türlerini içerir: [`One`](./one) . Not alma biçimleri hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/note-taking) .
 
 ```csharp
 public sealed class NoteFileType : FileType
@@ -18,7 +18,7 @@ public sealed class NoteFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| [NoteFileType](notefiletype)() | Serileştirme yapıcısı |
+| [NoteFileType](notefiletype)() | Serileştirme oluşturucu |
 
 ## Özellikleri
 
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | İsim | Tanım |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |
@@ -43,7 +43,7 @@ public sealed class NoteFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | .ONE uzantılı dosya, Microsoft OneNote uygulaması tarafından oluşturulur. OneNote, not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/note-taking/one) . |
+| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | .ONE uzantılı dosya, Microsoft OneNote uygulaması tarafından oluşturulur. OneNote, not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/note-taking/one) . |
 
 ### Ayrıca bakınız
 

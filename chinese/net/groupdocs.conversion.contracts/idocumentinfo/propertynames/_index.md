@@ -1,17 +1,17 @@
 ---
 title: PropertyNames
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 可以为当前文档获取的所有属性的枚举 info
+description: 当前文档可获取的所有属性的可枚举信息
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.contracts/idocumentinfo/propertynames/
 ---
 ## IDocumentInfo.PropertyNames property
 
-可以为当前文档获取的所有属性的枚举 info
+当前文档可获取的所有属性的可枚举信息
 
 ```csharp
-public IEnumerable<string> PropertyNames { get; }
+public string[] PropertyNames { get; }
 ```
 
 ### 也可以看看

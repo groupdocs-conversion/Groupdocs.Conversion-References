@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Definiert Datendokumente. Enthält die folgenden Dateitypen Xml./datafiletype/xml . Json./datafiletype/json .
+description: Definiert Datendokumente. Enthält die folgenden Dateitypen Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /de/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Definiert Datendokumente. Enthält die folgenden Dateitypen: [`Xml`](./xml) . [`Json`](./json) .
+Definiert Datendokumente. Enthält die folgenden Dateitypen: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [DataFileType](datafiletype)() | Serialisierungskonstruktor |
 
 ## Eigenschaften
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | Name | Beschreibung |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Vergleicht aktuelles Objekt mit anderem. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Dient als Standard-Hash-Funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Zeichenfolgendarstellung |
-
-## Felder
-
-| Name | Beschreibung |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML steht für Extensible Markup Language, die HTML ähnlich ist, sich jedoch in der Verwendung von Tags zum Definieren von Objekten unterscheidet. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/xml) . |
 
 ### Siehe auch
 

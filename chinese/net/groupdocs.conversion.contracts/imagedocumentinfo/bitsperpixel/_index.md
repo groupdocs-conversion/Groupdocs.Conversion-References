@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取每个像素的位数
+description: 获取每像素位数
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.contracts/imagedocumentinfo/bitsperpixel/
 ---
 ## ImageDocumentInfo.BitsPerPixel property
 
-获取每个像素的位数
+获取每像素位数
 
 ```csharp
 public int BitsPerPixel { get; }

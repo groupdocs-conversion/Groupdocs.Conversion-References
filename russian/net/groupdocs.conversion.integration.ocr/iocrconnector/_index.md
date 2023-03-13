@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет методы необходимые для применения оптического распознавания символов к документам с изображениями и встроенным изображениям.
 type: docs
-weight: 1200
+weight: 1330
 url: /ru/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

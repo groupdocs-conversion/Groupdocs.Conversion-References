@@ -3,7 +3,7 @@ title: Tga
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Un archivo con extensión .tga es un formato gráfico de trama y fue creado por Truevision Inc. Más información sobre este formato de archivoaquíhttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field

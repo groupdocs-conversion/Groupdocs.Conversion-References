@@ -1,14 +1,14 @@
 ---
 title: Lz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .lz uzantılı bir dosya sıkıştırma için ücretsiz bir komut satırı aracı olan Lzip ile oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Destek dosyalarını sıkıştırmak için birleştirmeyi destekler. LZ dosyalarının uygulama/lzip ortam türü vardır ve BZ2. den daha yüksek sıkıştırma oranlarını destekler. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/bz2/ .
+description: .lz uzantılı bir dosya sıkıştırma için ücretsiz bir komut satırı aracı olan Lzip ile oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Destek dosyalarını sıkıştırmak için birleştirmeyi destekler. LZ dosyalarının uygulama/lzip ortam türü vardır ve BZ2. den daha yüksek sıkıştırma oranlarını destekler. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/bz2/ .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/lz/
 ---
 ## CompressionFileType.Lz field
 
-.lz uzantılı bir dosya, sıkıştırma için ücretsiz bir komut satırı aracı olan Lzip ile oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Destek dosyalarını sıkıştırmak için birleştirmeyi destekler. LZ dosyalarının uygulama/lzip ortam türü vardır ve BZ2. 'den daha yüksek sıkıştırma oranlarını destekler. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/bz2/) .
+.lz uzantılı bir dosya, sıkıştırma için ücretsiz bir komut satırı aracı olan Lzip ile oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Destek dosyalarını sıkıştırmak için birleştirmeyi destekler. LZ dosyalarının uygulama/lzip ortam türü vardır ve BZ2. 'den daha yüksek sıkıştırma oranlarını destekler. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/bz2/) .
 
 ```csharp
 public static readonly CompressionFileType Lz;

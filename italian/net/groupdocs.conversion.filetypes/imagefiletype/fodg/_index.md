@@ -3,7 +3,7 @@ title: Fodg
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: FODG è un file in formato XML non compresso utilizzato per memorizzare dati di testo OpenDocument. Lestensione FODG è associata alle suite di produttività per ufficio open source Libre Office e OpenOffice.org.
 type: docs
-weight: 150
+weight: 130
 url: /it/net/groupdocs.conversion.filetypes/imagefiletype/fodg/
 ---
 ## ImageFileType.Fodg field

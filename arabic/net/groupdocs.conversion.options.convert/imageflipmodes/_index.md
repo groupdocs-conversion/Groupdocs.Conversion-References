@@ -3,7 +3,7 @@ title: ImageFlipModes
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف أوضاع قلب الصورة.
 type: docs
-weight: 1480
+weight: 1640
 url: /ar/net/groupdocs.conversion.options.convert/imageflipmodes/
 ---
 ## ImageFlipModes class

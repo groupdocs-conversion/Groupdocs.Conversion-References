@@ -1,14 +1,14 @@
 ---
 title: OnePagePerSheet
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Se OnePagePerSheet è true il contenuto del foglio verrà convertito in una pagina nel documento PDF. Il valore predefinito è true.
+description: Se OnePagePerSheet è vero il contenuto del foglio verrà convertito in una pagina nel documento PDF. Il valore predefinito è true.
 type: docs
 weight: 90
 url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet/
 ---
 ## SpreadsheetLoadOptions.OnePagePerSheet property
 
-Se OnePagePerSheet è true, il contenuto del foglio verrà convertito in una pagina nel documento PDF. Il valore predefinito è true.
+Se OnePagePerSheet è vero, il contenuto del foglio verrà convertito in una pagina nel documento PDF. Il valore predefinito è true.
 
 ```csharp
 public bool OnePagePerSheet { get; set; }

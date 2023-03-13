@@ -3,7 +3,7 @@ title: SevenZipDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية للمستند بحجم 7Zip
 type: docs
-weight: 470
+weight: 510
 url: /ar/net/groupdocs.conversion.contracts/sevenzipdocumentinfo/
 ---
 ## SevenZipDocumentInfo class

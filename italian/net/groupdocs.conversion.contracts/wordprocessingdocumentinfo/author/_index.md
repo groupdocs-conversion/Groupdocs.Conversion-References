@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene lautore
+description: Ottiene autore
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/author/
 ---
 ## WordProcessingDocumentInfo.Author property
 
-Ottiene l'autore
+Ottiene autore
 
 ```csharp
 public string Author { get; }

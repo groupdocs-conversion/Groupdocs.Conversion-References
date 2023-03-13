@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar markerings och webbfilformat. Inkluderar följande filtyper Htm./markupfiletype/htm  Html./markupfiletype/html . Läs mer om bildformathärhttps//wiki.fileformat.com/web .
+description: Definierar markerings och webbfilformat. Inkluderar följande filtyper Htm  Html . Läs mer om bildformathärhttps//wiki.fileformat.com/web .
 type: docs
-weight: 870
+weight: 970
 url: /sv/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-Definierar markerings- och webbfilformat. Inkluderar följande filtyper: [`Htm`](./htm) , [`Html`](./html) . Läs mer om bildformat[här](https://wiki.fileformat.com/web) .
+Definierar markerings- och webbfilformat. Inkluderar följande filtyper: Htm , Html . Läs mer om bildformat[här](https://wiki.fileformat.com/web) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | Serialiseringskonstruktor |
 
 ## Egenskaper
 
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
-
-## Fält
-
-| namn | Beskrivning |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | CHM-filformatet representerar Microsoft HTML-hjälpfil som består av en samling HTML-sidor. Den tillhandahåller ett index för snabb åtkomst till ämnena och navigering till olika delar av hjälpdokumentet. Läs mer om detta filformat[här](https://docs.fileformat.com/web/chm) . |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM (Hyper Text Markup Language) är tillägget för webbsidor som skapats för visning i webbläsare. Läs mer om detta filformat[här](https://wiki.fileformat.com/web/html) . |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML (Hyper Text Markup Language) är tillägget för webbsidor som skapats för visning i webbläsare. Läs mer om detta filformat[här](https://wiki.fileformat.com/web/html) . |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | Filer med MHTML-tillägg representerar ett webbsidearkivformat som kan skapas av ett antal olika applikationer. Formatet är känt som arkivformat eftersom det sparar webbens HTML-kod och tillhörande resurser i en enda fil. Läs mer om detta filformat[här](https://wiki.fileformat.com/web/mhtml) . |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | Filer med MHTML-tillägg representerar ett webbsidearkivformat som kan skapas av ett antal olika applikationer. Formatet är känt som arkivformat eftersom det sparar webbens HTML-kod och tillhörande resurser i en enda fil. Läs mer om detta filformat[här](https://wiki.fileformat.com/web/mhtml) . |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: Emz
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En EMZfil är faktiskt en komprimerad version av en Microsoft EMFfil. Detta möjliggör enklare distribution av filen online. När en EMFfil komprimeras med .GZIPkomprimeringsalgoritmen får den filtillägget .emz.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/emz/
 ---
 ## ImageFileType.Emz field

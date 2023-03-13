@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Fournit des méthodes pour appliquerCompteurhttps//purchase.groupdocs.com/faqs/licensing/metered licence.
+description: Fournit des méthodes pour appliquerCompteurhttps//purchase.groupdocs.com/faqs/licensing/meteredlicence.
 type: docs
-weight: 1280
+weight: 1410
 url: /fr/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-Fournit des méthodes pour appliquer[Compteur](https://purchase.groupdocs.com/faqs/licensing/metered) licence.
+Fournit des méthodes pour appliquer[Compteur](https://purchase.groupdocs.com/faqs/licensing/metered)licence.
 
 ```csharp
 public class Metered

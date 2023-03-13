@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 转换PDF文档时替换特定字体
+description: 转换 Pdf 文档时替换特定字体
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes/
 ---
 ## PdfLoadOptions.FontSubstitutes property
 
-转换PDF文档时替换特定字体。
+转换 Pdf 文档时替换特定字体。
 
 ```csharp
 public IList<FontSubstitute> FontSubstitutes { get; set; }

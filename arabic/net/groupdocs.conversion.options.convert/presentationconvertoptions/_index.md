@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف خيارات التحويل إلى نوع ملف العرض التقديمي.
 type: docs
-weight: 1650
+weight: 1830
 url: /ar/net/groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 ## PresentationConvertOptions class

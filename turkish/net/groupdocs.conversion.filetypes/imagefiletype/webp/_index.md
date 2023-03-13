@@ -1,14 +1,14 @@
 ---
 title: Webp
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Google tarafından sunulan WebP kayıpsız ve kayıplı sıkıştırmaya dayalı modern bir raster web görüntü dosyası biçimidir. Görüntü boyutunu önemli ölçüde azaltırken aynı görüntü kalitesini sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/webp .
+description: Google tarafından sunulan WebP kayıpsız ve kayıplı sıkıştırmaya dayalı modern bir raster web görüntü dosyası biçimidir. Görüntü boyutunu önemli ölçüde azaltırken aynı görüntü kalitesini sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/webp .
 type: docs
-weight: 380
+weight: 350
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/webp/
 ---
 ## ImageFileType.Webp field
 
-Google tarafından sunulan WebP, kayıpsız ve kayıplı sıkıştırmaya dayalı modern bir raster web görüntü dosyası biçimidir. Görüntü boyutunu önemli ölçüde azaltırken aynı görüntü kalitesini sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/webp) .
+Google tarafından sunulan WebP, kayıpsız ve kayıplı sıkıştırmaya dayalı modern bir raster web görüntü dosyası biçimidir. Görüntü boyutunu önemli ölçüde azaltırken aynı görüntü kalitesini sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/webp) .
 
 ```csharp
 public static readonly ImageFileType Webp;

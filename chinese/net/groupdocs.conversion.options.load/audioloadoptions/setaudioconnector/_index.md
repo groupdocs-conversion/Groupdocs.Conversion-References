@@ -1,14 +1,14 @@
 ---
 title: SetAudioConnector
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置音频文件连接器
+description: 设置音频文档连接器
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.load/audioloadoptions/setaudioconnector/
 ---
 ## AudioLoadOptions.SetAudioConnector method
 
-设置音频文件连接器
+设置音频文档连接器
 
 ```csharp
 public void SetAudioConnector(IAudioConnector audioConnector)

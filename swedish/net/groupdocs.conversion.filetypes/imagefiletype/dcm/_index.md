@@ -3,7 +3,7 @@ title: Dcm
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med filtillägget .DCM representerar digitala bilder som lagrar medicinsk information om patienter som MRI datortomografi och ultraljudsbilder. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/dcm/
 ---
 ## ImageFileType.Dcm field

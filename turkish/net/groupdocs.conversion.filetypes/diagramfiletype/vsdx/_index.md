@@ -1,14 +1,14 @@
 ---
 title: Vsdx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .VSDX uzantılı dosyalar Microsoft Office 2013ten itibaren tanıtılan Microsoft Visio dosya biçimini temsil eder. Microsoft Visionun önceki sürümleri tarafından desteklenen ikili dosya biçimi .VSDnin yerini almak üzere geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vsdx .
+description: .VSDX uzantılı dosyalar Microsoft Office 2013ten itibaren sunulan Microsoft Visio dosya biçimini temsil eder. Microsoft Visionun önceki sürümleri tarafından desteklenen ikili dosya biçimi .VSDnin yerini almak üzere geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vsdx .
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vsdx/
 ---
 ## DiagramFileType.Vsdx field
 
-.VSDX uzantılı dosyalar, Microsoft Office 2013'ten itibaren tanıtılan Microsoft Visio dosya biçimini temsil eder. Microsoft Visio'nun önceki sürümleri tarafından desteklenen ikili dosya biçimi .VSD'nin yerini almak üzere geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vsdx) .
+.VSDX uzantılı dosyalar, Microsoft Office 2013'ten itibaren sunulan Microsoft Visio dosya biçimini temsil eder. Microsoft Visio'nun önceki sürümleri tarafından desteklenen ikili dosya biçimi .VSD'nin yerini almak üzere geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vsdx) .
 
 ```csharp
 public static readonly DiagramFileType Vsdx;

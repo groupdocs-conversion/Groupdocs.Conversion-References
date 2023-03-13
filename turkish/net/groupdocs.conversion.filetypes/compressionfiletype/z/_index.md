@@ -1,14 +1,14 @@
 ---
 title: Z
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: AZ dosyası UNIX Sıkıştırılmış veri dosyalarına ait bir dosya kategorisidir. Sıkıştırılmış Unix dosyaları Z dosyasının en popüler ve yaygın olarak kullanılan uzantı türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/z/ .
+description: AZ dosyası UNIX Sıkıştırılmış veri dosyalarına ait bir dosya kategorisidir. Sıkıştırılmış Unix dosyaları Z dosyasının en popüler ve yaygın olarak kullanılan uzantı türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/z/ .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/z/
 ---
 ## CompressionFileType.Z field
 
-AZ dosyası, UNIX Sıkıştırılmış veri dosyalarına ait bir dosya kategorisidir. Sıkıştırılmış Unix dosyaları, Z dosyasının en popüler ve yaygın olarak kullanılan uzantı türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/z/) .
+AZ dosyası, UNIX Sıkıştırılmış veri dosyalarına ait bir dosya kategorisidir. Sıkıştırılmış Unix dosyaları, Z dosyasının en popüler ve yaygın olarak kullanılan uzantı türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/z/) .
 
 ```csharp
 public static readonly CompressionFileType Z;

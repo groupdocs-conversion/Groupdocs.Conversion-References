@@ -1,14 +1,14 @@
 ---
 title: FontSubstituteException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Yazı tipi ikamesi yasa dışıysa atılır
+description: Yazı tipi değişikliği geçersizse atılır
 type: docs
-weight: 720
+weight: 780
 url: /tr/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class
 
-Yazı tipi ikamesi yasa dışıysa atılır
+Yazı tipi değişikliği geçersizse atılır
 
 ```csharp
 public sealed class FontSubstituteException : GroupDocsConversionException

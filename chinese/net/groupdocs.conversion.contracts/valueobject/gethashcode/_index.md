@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 用作默认哈希函数
+description: 作为默认哈希函数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.contracts/valueobject/gethashcode/
 ---
 ## ValueObject.GetHashCode method
 
-用作默认哈希函数。
+作为默认哈希函数。
 
 ```csharp
 public override int GetHashCode()

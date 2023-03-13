@@ -1,14 +1,14 @@
 ---
 title: EmailFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义电子邮件应用程序用来存储各种数据的电子邮件文件格式包括电子邮件消息附件文件夹地址簿等 包括以下文件类型 Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf. Mbox./emailfiletype/mbox . 了解有关电子邮件格式的更多信息这里https//wiki.fileformat.com/email.
+description: 定义电子邮件应用程序用来存储其各种数据包括电子邮件消息附件文件夹地址簿等的电子邮件文件格式 包括以下文件类型 Eml./emailfiletype/eml  Emlx./emailfiletype/emlx  Msg./emailfiletype/msg  Vcf./emailfiletype/vcf. Mbox./emailfiletype/mbox. Pst./emailfiletype/pst. Ost./emailfiletype/ost . 了解有关电子邮件格式的更多信息这里https//wiki.fileformat.com/email.
 type: docs
-weight: 840
+weight: 920
 url: /zh/net/groupdocs.conversion.filetypes/emailfiletype/
 ---
 ## EmailFileType class
 
-定义电子邮件应用程序用来存储各种数据的电子邮件文件格式，包括电子邮件消息、附件、文件夹、地址簿等。 包括以下文件类型： [`Eml`](./eml) , [`Emlx`](./emlx) , [`Msg`](./msg) , [`Vcf`](./vcf). [`Mbox`](./mbox) . 了解有关电子邮件格式的更多信息[这里](https://wiki.fileformat.com/email).
+定义电子邮件应用程序用来存储其各种数据（包括电子邮件消息、附件、文件夹、地址簿等）的电子邮件文件格式。 包括以下文件类型： [`Eml`](./eml) , [`Emlx`](./emlx) , [`Msg`](./msg) , [`Vcf`](./vcf). [`Mbox`](./mbox). [`Pst`](./pst). [`Ost`](./ost) . 了解有关电子邮件格式的更多信息[这里](https://wiki.fileformat.com/email).
 
 ```csharp
 public sealed class EmailFileType : FileType
@@ -26,7 +26,7 @@ public sealed class EmailFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,20 +34,22 @@ public sealed class EmailFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Eml](../../groupdocs.conversion.filetypes/emailfiletype/eml) | EML 文件格式表示使用 Outlook 和其他相关应用程序保存的电子邮件。几乎所有的电子邮件客户端都支持这种文件格式，因为它符合 RFC-822 Internet 消息格式标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/eml) |
-| static readonly [Emlx](../../groupdocs.conversion.filetypes/emailfiletype/emlx) | EMLX 文件格式由 Apple 实现和开发。 Apple Mail 应用程序使用 EMLX 文件格式导出电子邮件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/emlx) |
-| static readonly [Mbox](../../groupdocs.conversion.filetypes/emailfiletype/mbox) | MBox 文件格式是一个通用术语，表示用于收集电子邮件消息的容器。消息及其附件存储在容器内。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/mbox/) |
-| static readonly [Msg](../../groupdocs.conversion.filetypes/emailfiletype/msg) | MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件、联系人、约会或其他任务的文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/msg) |
-| static readonly [Vcf](../../groupdocs.conversion.filetypes/emailfiletype/vcf) | VCF（虚拟卡格式）或 vCard 是一种用于存储联系信息的数字文件格式。该格式广泛用于流行的信息交换应用程序之间的数据交换。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/vcf) |
+| static readonly [Eml](../../groupdocs.conversion.filetypes/emailfiletype/eml) | EML 文件格式表示使用 Outlook 和其他相关应用程序保存的电子邮件。几乎所有电子邮件客户端都支持此文件格式，因为它符合 RFC-822 Internet 消息格式标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/eml) |
+| static readonly [Emlx](../../groupdocs.conversion.filetypes/emailfiletype/emlx) | EMLX 文件格式由 Apple 实施和开发。 Apple Mail 应用程序使用 EMLX 文件格式导出电子邮件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/emlx) |
+| static readonly [Mbox](../../groupdocs.conversion.filetypes/emailfiletype/mbox) | MBox 文件格式是一个通用术语，表示用于收集电子邮件消息的容器。邮件与其附件一起存储在容器内。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/mbox/) |
+| static readonly [Msg](../../groupdocs.conversion.filetypes/emailfiletype/msg) | MSG 是 Microsoft Outlook 和 Exchange 用来存储电子邮件、联系人、约会或其他任务的文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/msg) |
+| static readonly [Ost](../../groupdocs.conversion.filetypes/emailfiletype/ost) | OST 或脱机存储文件表示在使用 Microsoft Outlook 向 Exchange Server 注册后，用户在本地计算机上处于脱机模式的邮箱数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/ost) |
+| static readonly [Pst](../../groupdocs.conversion.filetypes/emailfiletype/pst) | 扩展名为 .PST 的文件表示存储各种用户信息的 Outlook 个人存储文件（也称为个人存储表）。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/pst) |
+| static readonly [Vcf](../../groupdocs.conversion.filetypes/emailfiletype/vcf) | VCF（虚拟卡格式）或 vCard 是一种用于存储联系人信息的数字文件格式。该格式广泛用于流行信息交换应用程序之间的数据交换。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/vcf) |
 
 ### 也可以看看
 

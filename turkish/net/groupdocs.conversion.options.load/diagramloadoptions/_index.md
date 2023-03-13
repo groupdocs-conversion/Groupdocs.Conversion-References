@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Diyagram belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1880
+weight: 2080
 url: /tr/net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class

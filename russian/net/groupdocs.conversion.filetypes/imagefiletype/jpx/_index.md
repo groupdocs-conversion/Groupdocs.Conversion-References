@@ -3,7 +3,7 @@ title: Jpx
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Формат документа Jpx
 type: docs
-weight: 270
+weight: 250
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/jpx/
 ---
 ## ImageFileType.Jpx field

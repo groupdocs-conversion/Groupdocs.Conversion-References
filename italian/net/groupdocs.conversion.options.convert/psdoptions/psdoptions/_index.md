@@ -1,14 +1,14 @@
 ---
 title: PsdOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diPsdOptionsgroupdocs.conversion.options.convert/psdoptions classe.
+description: Inizializza una nuova istanza diPsdOptionsgroupdocs.conversion.options.convert/psdoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/psdoptions/psdoptions/
 ---
 ## PsdOptions constructor
 
-Inizializza la nuova istanza di[`PsdOptions`](../../psdoptions) classe.
+Inizializza una nuova istanza di[`PsdOptions`](../../psdoptions) classe.
 
 ```csharp
 public PsdOptions()

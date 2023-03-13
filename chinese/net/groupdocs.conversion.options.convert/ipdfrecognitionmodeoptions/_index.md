@@ -3,7 +3,7 @@ title: IPdfRecognitionModeOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 表示从 PDF 转换时控制识别模式的转换选项
 type: docs
-weight: 1450
+weight: 1610
 url: /zh/net/groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/
 ---
 ## IPdfRecognitionModeOptions interface
@@ -18,7 +18,7 @@ public interface IPdfRecognitionModeOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfRecognitionMode](../../groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/pdfrecognitionmode) { get; set; } | 从pdf转换时的识别模式 |
+| [PdfRecognitionMode](../../groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/pdfrecognitionmode) { get; set; } | 从pdf 转换时的识别模式 |
 
 ### 也可以看看
 

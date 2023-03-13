@@ -1,14 +1,14 @@
 ---
 title: Aiff
 second_title: GroupDocs.Conversion for .NET API 参考
-description: AIFF音频交换文件格式是 Apple 于 1998 年开发的未压缩音频文件格式但基于 EA IFF 85 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/aiff/
+description: AIFF音频交换文件格式是 Apple 于 1998 年开发的一种未压缩音频文件格式但它基于 EA IFF 85 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/aiff/
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.filetypes/audiofiletype/aiff/
 ---
 ## AudioFileType.Aiff field
 
-AIFF（音频交换文件格式）是 Apple 于 1998 年开发的未压缩音频文件格式，但基于 EA IFF 85 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/aiff/)
+AIFF（音频交换文件格式）是 Apple 于 1998 年开发的一种未压缩音频文件格式，但它基于 EA IFF 85 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/aiff/)
 
 ```csharp
 public static readonly AudioFileType Aiff;

@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il testo del campo predefinito è Posizione.
+description: Il campo di testo predefinito è Posizione.
 type: docs
 weight: 80
 url: /it/net/groupdocs.conversion.options.load/emailfield/location/
 ---
 ## EmailField.Location field
 
-Il testo del campo predefinito è "Posizione".
+Il campo di testo predefinito è "Posizione".
 
 ```csharp
 public static readonly EmailField Location;

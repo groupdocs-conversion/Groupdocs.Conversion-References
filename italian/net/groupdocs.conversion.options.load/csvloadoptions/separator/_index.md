@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Delimitatore di un file Csv.
+description: Delimitatore di un file CSV.
 type: docs
 weight: 70
 url: /it/net/groupdocs.conversion.options.load/csvloadoptions/separator/
 ---
 ## CsvLoadOptions.Separator property
 
-Delimitatore di un file Csv.
+Delimitatore di un file CSV.
 
 ```csharp
 public char Separator { get; set; }

@@ -3,7 +3,7 @@ title: IAudioConnector
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sesi ses belgelerine dönüştürmek için gereken yöntemleri tanımlar.
 type: docs
-weight: 1190
+weight: 1320
 url: /tr/net/groupdocs.conversion.integration.audio/iaudioconnector/
 ---
 ## IAudioConnector interface

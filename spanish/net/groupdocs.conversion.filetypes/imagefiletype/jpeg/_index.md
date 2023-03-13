@@ -3,7 +3,7 @@ title: Jpeg
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Un JPEG es un tipo de formato de imagen que se guarda mediante el método de compresión con pérdida. La imagen de salida como resultado de la compresión es una compensación entre el tamaño de almacenamiento y la calidad de la imagen. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 230
+weight: 210
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/jpeg/
 ---
 ## ImageFileType.Jpeg field

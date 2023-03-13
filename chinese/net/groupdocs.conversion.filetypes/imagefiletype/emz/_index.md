@@ -3,7 +3,7 @@ title: Emz
 second_title: GroupDocs.Conversion for .NET API 参考
 description: EMZ 文件实际上是 Microsoft EMF 文件的压缩版本这样可以更轻松地在线分发文件当使用 .GZIP 压缩算法压缩 EMF 文件时它会被赋予 .emz 文件扩展名
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/emz/
 ---
 ## ImageFileType.Emz field

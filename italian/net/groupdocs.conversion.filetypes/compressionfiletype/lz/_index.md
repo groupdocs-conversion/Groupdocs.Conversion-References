@@ -1,14 +1,14 @@
 ---
 title: Lz
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .lz è un file di archivio compresso creato con Lzip che è uno strumento gratuito da riga di comando per la compressione. Supporta la concatenazione per comprimere i file di supporto. I file LZ hanno il tipo di supporto application/lzip e supportano rapporti di compressione più elevati rispetto a BZ2. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/compression/bz2/ .
+description: Un file con estensione .lz è un file di archivio compresso creato con Lzip uno strumento da riga di comando gratuito per la compressione. Supporta la concatenazione per comprimere i file di supporto. I file LZ hanno il tipo di supporto application/lzip e supportano rapporti di compressione più elevati rispetto a BZ2. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/compression/bz2/ .
 type: docs
 weight: 70
 url: /it/net/groupdocs.conversion.filetypes/compressionfiletype/lz/
 ---
 ## CompressionFileType.Lz field
 
-Un file con estensione .lz è un file di archivio compresso creato con Lzip, che è uno strumento gratuito da riga di comando per la compressione. Supporta la concatenazione per comprimere i file di supporto. I file LZ hanno il tipo di supporto application/lzip e supportano rapporti di compressione più elevati rispetto a BZ2. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/compression/bz2/) .
+Un file con estensione .lz è un file di archivio compresso creato con Lzip, uno strumento da riga di comando gratuito per la compressione. Supporta la concatenazione per comprimere i file di supporto. I file LZ hanno il tipo di supporto application/lzip e supportano rapporti di compressione più elevati rispetto a BZ2. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/compression/bz2/) .
 
 ```csharp
 public static readonly CompressionFileType Lz;

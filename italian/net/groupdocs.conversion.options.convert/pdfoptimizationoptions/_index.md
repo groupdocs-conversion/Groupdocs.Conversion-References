@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Definisce le opzioni di ottimizzazione Pdf.
 type: docs
-weight: 1600
+weight: 1780
 url: /it/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class
@@ -18,7 +18,7 @@ public sealed class PdfOptimizationOptions : ValueObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [PdfOptimizationOptions](pdfoptimizationoptions)() | Inizializza la nuova istanza di[`PdfOptimizationOptions`](../pdfoptimizationoptions) classe. |
+| [PdfOptimizationOptions](pdfoptimizationoptions)() | Inizializza una nuova istanza di[`PdfOptimizationOptions`](../pdfoptimizationoptions) classe. |
 
 ## Proprietà
 
@@ -37,7 +37,7 @@ public sealed class PdfOptimizationOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

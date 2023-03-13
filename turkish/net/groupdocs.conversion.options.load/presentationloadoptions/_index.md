@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sunum belgelerini yükleme seçenekleri.
+description: Sunum belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2000
+weight: 2240
 url: /tr/net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
 
-Sunum belgelerini yükleme seçenekleri.
+Sunum belgelerini yüklemek için seçenekler.
 
 ```csharp
 public class PresentationLoadOptions : LoadOptions
@@ -29,7 +29,7 @@ public class PresentationLoadOptions : LoadOptions
 | [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
 | [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | Yorumları gizle. |
-| [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | Gizli slaytları göster. |
 
 ## yöntemler

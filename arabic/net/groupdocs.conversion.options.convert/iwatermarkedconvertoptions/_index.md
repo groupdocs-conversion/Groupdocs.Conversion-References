@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل خيارات التحويل التي تسمح بوضع علامة مائية على ناتج التحويل
 type: docs
-weight: 1460
+weight: 1620
 url: /ar/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

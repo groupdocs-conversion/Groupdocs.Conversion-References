@@ -3,7 +3,7 @@ title: VcfDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento Vcf
 type: docs
-weight: 580
+weight: 620
 url: /es/net/groupdocs.conversion.contracts/vcfdocumentinfo/
 ---
 ## VcfDocumentInfo class

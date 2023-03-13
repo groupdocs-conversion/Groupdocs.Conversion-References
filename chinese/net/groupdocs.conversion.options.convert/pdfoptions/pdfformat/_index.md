@@ -1,14 +1,14 @@
 ---
 title: PdfFormat
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置转换后文档的pdf格式
+description: 设置转换文档的pdf格式
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptions/pdfformat/
 ---
 ## PdfOptions.PdfFormat property
 
-设置转换后文档的pdf格式。
+设置转换文档的pdf格式。
 
 ```csharp
 public PdfFormats PdfFormat { get; set; }

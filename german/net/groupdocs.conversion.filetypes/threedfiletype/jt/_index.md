@@ -1,14 +1,14 @@
 ---
 title: Jt
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: JT Jupiter Tessellation ist ein effizientes branchenorientiertes und flexibles ISOstandardisiertes 3DDatenformat das von Siemens PLM Software entwickelt wurde. Mechanische CADDomänen der Luft und Raumfahrt Automobilindustrie und Schwermaschinen verwenden JT als ihr führendes 3DVisualisierungsformat. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/jt .
+description: JT Jupiter Tessellation ist ein effizientes branchenorientiertes und flexibles ISOstandardisiertes 3DDatenformat das von Siemens PLM Software entwickelt wurde. Mechanische CADDomänen der Luft und Raumfahrt Automobilindustrie und Schwermaschinen verwenden JT als ihr führendes 3DVisualisierungsformat. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/jt .
 type: docs
 weight: 80
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/jt/
 ---
 ## ThreeDFileType.Jt field
 
-JT (Jupiter Tessellation) ist ein effizientes, branchenorientiertes und flexibles ISO-standardisiertes 3D-Datenformat, das von Siemens PLM Software entwickelt wurde. Mechanische CAD-Domänen der Luft- und Raumfahrt, Automobilindustrie und Schwermaschinen verwenden JT als ihr führendes 3D-Visualisierungsformat. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/jt) .
+JT (Jupiter Tessellation) ist ein effizientes, branchenorientiertes und flexibles ISO-standardisiertes 3D-Datenformat, das von Siemens PLM Software entwickelt wurde. Mechanische CAD-Domänen der Luft- und Raumfahrt, Automobilindustrie und Schwermaschinen verwenden JT als ihr führendes 3D-Visualisierungsformat. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/jt) .
 
 ```csharp
 public static readonly ThreeDFileType Jt;

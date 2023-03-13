@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit les options de conversion vers le type de fichier Présentation.
 type: docs
-weight: 1650
+weight: 1830
 url: /fr/net/groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 ## PresentationConvertOptions class

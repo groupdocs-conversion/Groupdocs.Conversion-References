@@ -1,14 +1,14 @@
 ---
 title: AutoFontSubstitution
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: إذا تم تعطيل AutoFontSubstitution  فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution  فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo Panose  Sig وما إلى ذلك للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True .
+description: إذا تم تعطيل AutoFontSubstitution  فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution  فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo Panose  Sig  إلخ للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution/
 ---
 ## WordProcessingLoadOptions.AutoFontSubstitution property
 
-إذا تم تعطيل AutoFontSubstitution ، فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution ، فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo (Panose ، Sig وما إلى ذلك) للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True .
+إذا تم تعطيل AutoFontSubstitution ، فإن GroupDocs.Conversion تستخدم DefaultFont لاستبدال الخطوط المفقودة. إذا تم تمكين AutoFontSubstitution ، فستقوم GroupDocs.Conversion بتقييم جميع الحقول ذات الصلة في FontInfo (Panose ، Sig ، إلخ) للخط المفقود والعثور على أقرب تطابق بين مصادر الخطوط المتاحة. لاحظ أن آلية استبدال الخط ستتجاوز DefaultFont في الحالات التي يتوفر FontInfo للخط المفقود في المستند. القيمة الافتراضية هي True .
 
 ```csharp
 public bool AutoFontSubstitution { get; set; }

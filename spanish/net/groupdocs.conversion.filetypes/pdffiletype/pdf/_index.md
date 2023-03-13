@@ -3,7 +3,7 @@ title: Pdf
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: El formato de documento portátil PDF es un tipo de documento creado por Adobe en la década de 1990. El propósito de este formato de archivo era introducir un estándar para la representación de documentos y otro material de referencia en un formato que es independiente del software de la aplicación el hardware y el sistema operativo. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/view/pdf .
 type: docs
-weight: 50
+weight: 20
 url: /es/net/groupdocs.conversion.filetypes/pdffiletype/pdf/
 ---
 ## PdfFileType.Pdf field

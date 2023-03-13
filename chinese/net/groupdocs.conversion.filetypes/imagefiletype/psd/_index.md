@@ -1,14 +1,14 @@
 ---
 title: Psd
 second_title: GroupDocs.Conversion for .NET API 参考
-description: PSDPhotoshop 文档代表 Adobe Photoshop 用于图形设计和开发的原生文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psd
+description: PSDPhotoshop 文档代表 Adobe Photoshop 用于图形设计和开发的本机文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psd
 type: docs
-weight: 320
+weight: 300
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/psd/
 ---
 ## ImageFileType.Psd field
 
-PSD，Photoshop 文档，代表 Adobe Photoshop 用于图形设计和开发的原生文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psd)
+PSD，Photoshop 文档，代表 Adobe Photoshop 用于图形设计和开发的本机文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psd)
 
 ```csharp
 public static readonly ImageFileType Psd;

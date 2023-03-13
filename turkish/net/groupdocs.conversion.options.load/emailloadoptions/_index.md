@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Eposta belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1900
+weight: 2110
 url: /tr/net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class
@@ -24,9 +24,9 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
-| [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur |
-| [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } | Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği |
+| [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
+| [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır |
+| [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } | Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği |
 | [DisplayBccEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaybccemailaddress) { get; set; } | "Gizli" e-posta adresini görüntüleme veya gizleme seçeneği. Varsayılan: false. |
 | [DisplayCcEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayccemailaddress) { get; set; } | "Cc" e-posta adresini görüntüleme veya gizleme seçeneği. Varsayılan: false. |
 | [DisplayEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayemailaddress) { get; set; } | E-posta adresini görüntüleme veya gizleme seçeneği. Varsayılan: true. |

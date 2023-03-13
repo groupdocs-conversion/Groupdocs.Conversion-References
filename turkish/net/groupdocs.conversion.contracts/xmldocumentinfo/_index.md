@@ -3,7 +3,7 @@ title: XmlDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Xml belgesi meta verilerini içerir
 type: docs
-weight: 610
+weight: 670
 url: /tr/net/groupdocs.conversion.contracts/xmldocumentinfo/
 ---
 ## XmlDocumentInfo class
@@ -21,9 +21,9 @@ public class XmlDocumentInfo : DocumentInfo
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Belge oluşturma tarihi |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Belge biçimi |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取已识别文本片段的文本内容
+description: 获取识别文本片段的文本内容
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.integration.ocr/textfragment/text/
 ---
 ## TextFragment.Text property
 
-获取已识别文本片段的文本内容。
+获取识别文本片段的文本内容。
 
 ```csharp
 public string Text { get; }

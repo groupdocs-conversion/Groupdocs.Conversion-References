@@ -3,7 +3,7 @@ title: ValueObject
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Abstrakte Wertobjektklasse.
 type: docs
-weight: 570
+weight: 610
 url: /de/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class

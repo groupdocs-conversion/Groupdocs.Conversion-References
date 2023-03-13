@@ -1,14 +1,14 @@
 ---
 title: Stl
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: STL stereolitrografinin kısaltması 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı hızlı prototip oluşturma 3D baskı ve bilgisayar destekli üretim gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/stl .
+description: STL stereolitrografinin kısaltması 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı hızlı prototipleme 3D baskı ve bilgisayar destekli imalat gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/stl .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/cadfiletype/stl/
 ---
 ## CadFileType.Stl field
 
-STL, stereolitrografinin kısaltması, 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı, hızlı prototip oluşturma, 3D baskı ve bilgisayar destekli üretim gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/stl) .
+STL, stereolitrografinin kısaltması, 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı, hızlı prototipleme, 3D baskı ve bilgisayar destekli imalat gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/stl) .
 
 ```csharp
 public static readonly CadFileType Stl;

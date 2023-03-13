@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Korumalı belgeyi yüklemek için parola belirleyin.
+description: Korumalı belgeyi yüklemek için parola ayarlayın.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.options.load/compressionloadoptions/password/
 ---
 ## CompressionLoadOptions.Password property
 
-Korumalı belgeyi yüklemek için parola belirleyin.
+Korumalı belgeyi yüklemek için parola ayarlayın.
 
 ```csharp
 public string Password { get; set; }

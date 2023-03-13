@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 Получает имена вложений
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### Смотрите также

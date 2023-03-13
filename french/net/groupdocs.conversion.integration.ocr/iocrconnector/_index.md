@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les méthodes requises pour appliquer lOCR aux documents image et aux images incorporées.
 type: docs
-weight: 1200
+weight: 1330
 url: /fr/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

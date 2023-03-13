@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات XML .
 type: docs
-weight: 2110
+weight: 2370
 url: /ar/net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -24,8 +24,12 @@ public sealed class XmlLoadOptions : DataLoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | نوع ملف مستند الإدخال . |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | المسار الأساسي / عنوان url الخاص بـ html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | احصل على الترميز الذي سيتم استخدامه عند تحميل مستند العلامات أو تعيينه. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | نوع ملف مستند الإدخال . |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | نوع ملف مستند الإدخال . |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | تمكين أو تعطيل إنشاء ترقيم الصفحات في المستند المحول. الافتراضي: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | مهلة تحميل الموارد الخارجية |
 | [UseAsDataSource](../../groupdocs.conversion.options.load/xmlloadoptions/useasdatasource) { get; set; } | استخدم مستند Xml كمصدر بيانات |
 | [XslFoFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xslfofactory) { get; set; } | دفق مستند XSL لتحويل XML-FO باستخدام XSL. |
 

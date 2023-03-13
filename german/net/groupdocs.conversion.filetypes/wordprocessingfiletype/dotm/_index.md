@@ -1,14 +1,14 @@
 ---
 title: Dotm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit DOTMErweiterung stellt eine Vorlagendatei dar die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/dotm .
+description: Eine Datei mit DOTMErweiterung stellt eine Vorlagendatei dar die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 70
+weight: 60
 url: /de/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field
 
-Eine Datei mit DOTM-Erweiterung stellt eine Vorlagendatei dar, die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/dotm) .
+Eine Datei mit DOTM-Erweiterung stellt eine Vorlagendatei dar, die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/dotm) .
 
 ```csharp
 public static readonly WordProcessingFileType Dotm;

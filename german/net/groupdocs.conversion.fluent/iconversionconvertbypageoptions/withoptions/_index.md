@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 Konvertierungsoptionen festlegen
 
@@ -32,18 +32,18 @@ Schnittstelle zum Fortsetzen des Umbaus
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 Konvertierungsoptionen festlegen
 
 ```csharp
 public IConversionByPageCompletedOrConvert WithOptions(
-    ConvertOptionsProvider convertOptionsProvider)
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertieren Sie Optionen |
+| convertOptionsProvider | Func`3 | Optionen umwandeln |
 
 ### Rückgabewert
 
@@ -52,7 +52,8 @@ Schnittstelle zum Fortsetzen des Umbaus
 ### Siehe auch
 
 * interface [IConversionByPageCompletedOrConvert](../../iconversionbypagecompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertByPageOptions](../../iconversionconvertbypageoptions)
 * namensraum [GroupDocs.Conversion.Fluent](../../iconversionconvertbypageoptions)
 * Montage [GroupDocs.Conversion](../../../)

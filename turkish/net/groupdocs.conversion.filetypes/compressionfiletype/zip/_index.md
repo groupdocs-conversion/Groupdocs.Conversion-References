@@ -1,14 +1,14 @@
 ---
 title: Zip
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .zip uzantılı bir dosya bir veya daha fazla dosya veya dizini tutabilen bir arşivdir. ZIP dosya boyutunu azaltmak için arşive dahil edilen dosyalara sıkıştırma uygulanabilir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/zip/ .
+description: .zip uzantılı bir dosya bir veya daha fazla dosya veya dizini tutabilen bir arşivdir. ZIP dosya boyutunu azaltmak için arşive dahil edilen dosyalara sıkıştırma uygulanabilir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/zip/ .
 type: docs
 weight: 140
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/zip/
 ---
 ## CompressionFileType.Zip field
 
-.zip uzantılı bir dosya, bir veya daha fazla dosya veya dizini tutabilen bir arşivdir. ZIP dosya boyutunu azaltmak için arşive dahil edilen dosyalara sıkıştırma uygulanabilir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/zip/) .
+.zip uzantılı bir dosya, bir veya daha fazla dosya veya dizini tutabilen bir arşivdir. ZIP dosya boyutunu azaltmak için arşive dahil edilen dosyalara sıkıştırma uygulanabilir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/zip/) .
 
 ```csharp
 public static readonly CompressionFileType Zip;

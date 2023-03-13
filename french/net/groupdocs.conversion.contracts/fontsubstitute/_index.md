@@ -3,7 +3,7 @@ title: FontSubstitute
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Décrit la substitution de la police manquante.
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class

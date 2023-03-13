@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Xlam belge biçimi
+description: XLAM elektronik tablolara yeni işlevler eklemek için kullanılan Makro Etkin bir Eklenti dosyasıdır. Eklenti ek kod çalıştıran ve elektronik tablolar için ek işlevsellik sağlayan tamamlayıcı bir programdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Xlam belge biçimi
+XLAM, elektronik tablolara yeni işlevler eklemek için kullanılan Makro Etkin bir Eklenti dosyasıdır. Eklenti, ek kod çalıştıran ve elektronik tablolar için ek işlevsellik sağlayan tamamlayıcı bir programdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

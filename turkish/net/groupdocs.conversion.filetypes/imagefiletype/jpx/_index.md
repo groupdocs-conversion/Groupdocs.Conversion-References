@@ -3,7 +3,7 @@ title: Jpx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jpx belge formatı
 type: docs
-weight: 270
+weight: 250
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/jpx/
 ---
 ## ImageFileType.Jpx field

@@ -1,14 +1,14 @@
 ---
 title: Amf
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine AMFDatei besteht aus Richtlinien für die Beschreibung von Objekten die von Additive ManufacturingProzessen verwendet werden sollen. Es enthält ein öffnendes XMLTag und endet mit einem Element. Davor steht eine XMLDeklarationszeile die die XMLVersion und die Kodierung der Datei angibt. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/amf .
+description: Eine AMFDatei besteht aus Richtlinien für die Beschreibung von Objekten die von Additive ManufacturingProzessen verwendet werden sollen. Es enthält ein öffnendes XMLTag und endet mit einem Element. Davor steht eine XMLDeklarationszeile die die XMLVersion und die Kodierung der Datei angibt. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/amf .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/amf/
 ---
 ## ThreeDFileType.Amf field
 
-Eine AMF-Datei besteht aus Richtlinien für die Beschreibung von Objekten, die von Additive Manufacturing-Prozessen verwendet werden sollen. Es enthält ein öffnendes XML-Tag und endet mit einem Element. Davor steht eine XML-Deklarationszeile, die die XML-Version und die Kodierung der Datei angibt. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/amf) .
+Eine AMF-Datei besteht aus Richtlinien für die Beschreibung von Objekten, die von Additive Manufacturing-Prozessen verwendet werden sollen. Es enthält ein öffnendes XML-Tag und endet mit einem Element. Davor steht eine XML-Deklarationszeile, die die XML-Version und die Kodierung der Datei angibt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/amf) .
 
 ```csharp
 public static readonly ThreeDFileType Amf;

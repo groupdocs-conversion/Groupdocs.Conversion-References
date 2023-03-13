@@ -3,7 +3,7 @@ title: Txt
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Un fichier avec lextension .TXT représente un document texte qui contient du texte brut sous forme de lignes. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field

@@ -3,7 +3,7 @@ title: Dot
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением .DOT представляют собой файлы шаблонов созданные Microsoft Word с предварительно отформатированными настройками для создания дополнительных файлов DOC или DOCX. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field

@@ -3,7 +3,7 @@ title: Grayscale
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تحويل ملف PDF من مساحة ألوان RGB إلى تدرج الرمادي
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 ---
 ## PdfOptions.Grayscale property

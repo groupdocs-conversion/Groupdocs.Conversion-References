@@ -3,7 +3,7 @@ title: CorruptOrDamagedFileException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: طرح استثناء GroupDocs عندما يكون الملف تالفًا أو تالفًا
 type: docs
-weight: 700
+weight: 760
 url: /ar/net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 ---
 ## CorruptOrDamagedFileException class

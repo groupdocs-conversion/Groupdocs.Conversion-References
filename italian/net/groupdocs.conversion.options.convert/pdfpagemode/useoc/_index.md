@@ -1,14 +1,14 @@
 ---
 title: UseOC
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Riquadro del gruppo di contenuti opzionale visibile.
+description: Riquadro del gruppo di contenuti facoltativo visibile.
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.options.convert/pdfpagemode/useoc/
 ---
 ## PdfPageMode.UseOC field
 
-Riquadro del gruppo di contenuti opzionale visibile.
+Riquadro del gruppo di contenuti facoltativo visibile.
 
 ```csharp
 public static readonly PdfPageMode UseOC;

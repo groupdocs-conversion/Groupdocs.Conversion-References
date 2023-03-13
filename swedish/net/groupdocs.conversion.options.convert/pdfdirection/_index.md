@@ -3,7 +3,7 @@ title: PdfDirection
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver pdftextriktning.
 type: docs
-weight: 1570
+weight: 1740
 url: /sv/net/groupdocs.conversion.options.convert/pdfdirection/
 ---
 ## PdfDirection class

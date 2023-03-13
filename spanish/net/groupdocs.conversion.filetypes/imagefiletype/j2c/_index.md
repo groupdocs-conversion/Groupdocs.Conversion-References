@@ -3,7 +3,7 @@ title: J2c
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: formato de documento J2c
 type: docs
-weight: 180
+weight: 160
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/j2c/
 ---
 ## ImageFileType.J2c field

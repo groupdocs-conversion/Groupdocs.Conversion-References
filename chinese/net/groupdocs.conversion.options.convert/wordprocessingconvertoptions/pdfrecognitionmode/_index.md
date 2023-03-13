@@ -1,14 +1,14 @@
 ---
 title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 从pdf转换时的识别模式
+description: 从pdf 转换时的识别模式
 type: docs
 weight: 110
 url: /zh/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode/
 ---
 ## WordProcessingConvertOptions.PdfRecognitionMode property
 
-从pdf转换时的识别模式
+从pdf 转换时的识别模式
 
 ```csharp
 public PdfRecognitionMode PdfRecognitionMode { get; set; }

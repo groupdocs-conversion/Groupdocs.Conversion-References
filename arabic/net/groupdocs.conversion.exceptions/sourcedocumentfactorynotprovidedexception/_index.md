@@ -3,7 +3,7 @@ title: SourceDocumentFactoryNotProvidedException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: طرح استثناء GroupDocs عندما لا يتم توفير مصنع المستند المصدر
 type: docs
-weight: 780
+weight: 840
 url: /ar/net/groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/
 ---
 ## SourceDocumentFactoryNotProvidedException class

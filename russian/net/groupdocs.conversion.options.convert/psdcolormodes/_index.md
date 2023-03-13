@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет перечисление цветовых режимов Psd.
 type: docs
-weight: 1670
+weight: 1850
 url: /ru/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class

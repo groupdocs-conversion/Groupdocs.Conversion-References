@@ -1,14 +1,14 @@
 ---
 title: PageHeader
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是PageHeader
+description: 默认字段文本为PageHeader
 type: docs
 weight: 100
 url: /zh/net/groupdocs.conversion.options.load/emailfield/pageheader/
 ---
 ## EmailField.PageHeader field
 
-默认字段文本是“PageHeader”。
+默认字段文本为“PageHeader”。
 
 ```csharp
 public static readonly EmailField PageHeader;

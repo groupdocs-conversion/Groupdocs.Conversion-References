@@ -3,7 +3,7 @@ title: ConvertOptionsTFileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Classe di opzioni di conversione generica astratta.
 type: docs
-weight: 1340
+weight: 1470
 url: /it/net/groupdocs.conversion.options.convert/convertoptions-1/
 ---
 ## ConvertOptions&lt;TFileType&gt; class
@@ -29,7 +29,7 @@ public abstract class ConvertOptions<TFileType> : ConvertOptions
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

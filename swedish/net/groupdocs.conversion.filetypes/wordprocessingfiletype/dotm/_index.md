@@ -3,7 +3,7 @@ title: Dotm
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En fil med DOTMtillägget representerar en mallfil skapad med Microsoft Word 2007 eller högre. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field

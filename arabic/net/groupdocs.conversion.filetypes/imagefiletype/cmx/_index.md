@@ -3,7 +3,7 @@ title: Cmx
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: الملفات ذات الامتداد CMX هي تنسيق ملف صورة Corel Exchange يتم استخدامه كعرض تقديمي بواسطة تطبيقات CorelSuite . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field

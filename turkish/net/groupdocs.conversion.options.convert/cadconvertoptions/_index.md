@@ -3,7 +3,7 @@ title: CadConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Cad tipine dönüştürme seçenekleri.
 type: docs
-weight: 1300
+weight: 1430
 url: /tr/net/groupdocs.conversion.options.convert/cadconvertoptions/
 ---
 ## CadConvertOptions class

@@ -1,31 +1,30 @@
 ---
 title: OnCompressionCompleted
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 接收压缩文档流仅在设置了 CompressionCompressionConvertOptions options 时才会触发
+description: 接收压缩文档流仅当压缩CompressionConvertOptions 选项设置时才会触发
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted/
 ---
 ## IConversionCompressResultCompleted.OnCompressionCompleted method
 
-接收压缩文档流。仅在设置了 Compression(CompressionConvertOptions options)" 时才会触发。
+接收压缩文档流。仅当压缩（CompressionConvertOptions 选项）设置时才会触发。
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | 压缩文档流提供程序 |
+| compressedDocumentStream | Action`1 | 压缩文档流提供者 |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * 部件 [GroupDocs.Conversion](../../../)

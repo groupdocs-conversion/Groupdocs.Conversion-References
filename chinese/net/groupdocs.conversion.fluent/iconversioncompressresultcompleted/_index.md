@@ -1,14 +1,14 @@
 ---
 title: IConversionCompressResultCompleted
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 处理压缩完成
+description: 句柄压缩完成
 type: docs
-weight: 1020
+weight: 1150
 url: /zh/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/
 ---
 ## IConversionCompressResultCompleted interface
 
-处理压缩完成
+句柄压缩完成
 
 ```csharp
 public interface IConversionCompressResultCompleted
@@ -18,7 +18,7 @@ public interface IConversionCompressResultCompleted
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(CompressedDocumentStream) | 接收压缩文档流。仅在设置了 Compression(CompressionConvertOptions options)" 时才会触发。 |
+| [OnCompressionCompleted](../../groupdocs.conversion.fluent/iconversioncompressresultcompleted/oncompressioncompleted)(Action&lt;Stream&gt;) | 接收压缩文档流。仅当压缩（CompressionConvertOptions 选项）设置时才会触发。 |
 
 ### 也可以看看
 

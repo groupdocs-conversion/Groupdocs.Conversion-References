@@ -1,14 +1,14 @@
 ---
 title: IConversionGetDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Kaynak belge bilgilerini alır  sayfa sayısı ve dosya türüne özgü diğer belge özellikleri.
+description: Kaynak belge bilgilerini alır  dosya türüne özgü sayfa sayısı ve diğer belge özellikleri.
 type: docs
-weight: 1110
+weight: 1240
 url: /tr/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface
 
-Kaynak belge bilgilerini alır - sayfa sayısı ve dosya türüne özgü diğer belge özellikleri.
+Kaynak belge bilgilerini alır - dosya türüne özgü sayfa sayısı ve diğer belge özellikleri.
 
 ```csharp
 public interface IConversionGetDocumentInfo
@@ -18,7 +18,7 @@ public interface IConversionGetDocumentInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [GetDocumentInfo](../../groupdocs.conversion.fluent/iconversiongetdocumentinfo/getdocumentinfo)() | Kaynak belge bilgilerini alır - sayfa sayısı ve dosya türüne özgü diğer belge özellikleri. |
+| [GetDocumentInfo](../../groupdocs.conversion.fluent/iconversiongetdocumentinfo/getdocumentinfo)() | Kaynak belge bilgilerini alır - dosya türüne özgü sayfa sayısı ve diğer belge özellikleri. |
 
 ### Ayrıca bakınız
 

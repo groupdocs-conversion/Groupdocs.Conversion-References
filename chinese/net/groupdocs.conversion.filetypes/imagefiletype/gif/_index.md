@@ -3,7 +3,7 @@ title: Gif
 second_title: GroupDocs.Conversion for .NET API 参考
 description: GIF 或图形交换格式是一种高度压缩的图像对于每个图像GIF 通常允许每个像素最多 8 位并且整个图像最多允许 256 种颜色 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/gif
 type: docs
-weight: 160
+weight: 140
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field

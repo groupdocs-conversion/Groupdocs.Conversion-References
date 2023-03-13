@@ -3,12 +3,12 @@ title: InvalidConvertOptionsException
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 如果提供的转换选项无效则抛出
 type: docs
-weight: 750
+weight: 810
 url: /zh/net/groupdocs.conversion.exceptions/invalidconvertoptionsexception/
 ---
 ## InvalidConvertOptionsException class
 
-如果提供的转换选项无效，则抛出
+如果提供的转换选项无效则抛出
 
 ```csharp
 public sealed class InvalidConvertOptionsException : GroupDocsConversionException
@@ -19,7 +19,7 @@ public sealed class InvalidConvertOptionsException : GroupDocsConversionExceptio
 | 姓名 | 描述 |
 | --- | --- |
 | [InvalidConvertOptionsException](invalidconvertoptionsexception#constructor)() | 默认构造函数 |
-| [InvalidConvertOptionsException](invalidconvertoptionsexception#constructor_1)(string) | 创建带有特定消息的异常 |
+| [InvalidConvertOptionsException](invalidconvertoptionsexception#constructor_1)(string) | 使用特定消息创建异常 |
 
 ### 也可以看看
 

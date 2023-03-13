@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 Ekleri alır name
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### Ayrıca bakınız

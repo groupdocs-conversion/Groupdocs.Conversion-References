@@ -3,7 +3,7 @@ title: JpegOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات التحويل إلى نوع ملف Jpeg .
 type: docs
-weight: 1490
+weight: 1650
 url: /ar/net/groupdocs.conversion.options.convert/jpegoptions/
 ---
 ## JpegOptions class

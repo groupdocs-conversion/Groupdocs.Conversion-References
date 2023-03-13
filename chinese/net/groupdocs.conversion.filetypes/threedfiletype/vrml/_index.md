@@ -1,14 +1,14 @@
 ---
 title: Vrml
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 虚拟现实建模语言 VRML 是一种文件格式用于在万维网 www 上表示交互式 3D 世界对象它可用于创建复杂场景的三维表示例如插图定义和虚拟现实演示 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/vrml
+description: 虚拟现实建模语言 VRML 是一种文件格式用于表示万维网 www 上的交互式 3D 世界对象它可用于创建复杂场景的三维表示例如插图定义和虚拟现实演示 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/vrml
 type: docs
 weight: 170
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/vrml/
 ---
 ## ThreeDFileType.Vrml field
 
-虚拟现实建模语言 (VRML) 是一种文件格式，用于在万维网 (www) 上表示交互式 3D 世界对象。它可用于创建复杂场景的三维表示，例如插图、定义和虚拟现实演示。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/vrml)
+虚拟现实建模语言 (VRML) 是一种文件格式，用于表示万维网 (www) 上的交互式 3D 世界对象。它可用于创建复杂场景的三维表示，例如插图、定义和虚拟现实演示。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/vrml)
 
 ```csharp
 public static readonly ThreeDFileType Vrml;

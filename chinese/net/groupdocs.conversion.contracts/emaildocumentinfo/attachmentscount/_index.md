@@ -1,14 +1,14 @@
 ---
 title: AttachmentsCount
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取附件计数
+description: 获取附件 count
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentscount/
 ---
 ## EmailDocumentInfo.AttachmentsCount property
 
-获取附件计数
+获取附件 count
 
 ```csharp
 public int AttachmentsCount { get; }

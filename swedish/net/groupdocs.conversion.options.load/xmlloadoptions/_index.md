@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda XMLdokument.
 type: docs
-weight: 2110
+weight: 2370
 url: /sv/net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -24,8 +24,12 @@ public sealed class XmlLoadOptions : DataLoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Bassökvägen/url för html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Hämta eller ställer in kodningen som ska användas när uppmärkningsdokumentet laddas. Om egenskapen är null kommer kodningen att bestämmas från dokumentets teckenuppsättning attribut |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Inmatningsdokumentfiltyp. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Aktivera eller inaktivera generering av sidnumrering i konverterade dokument. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout för laddning av externa resurser |
 | [UseAsDataSource](../../groupdocs.conversion.options.load/xmlloadoptions/useasdatasource) { get; set; } | Använd XML-dokument som datakälla |
 | [XslFoFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xslfofactory) { get; set; } | XSL-dokumentström för att konvertera XML-FO med XSL. |
 

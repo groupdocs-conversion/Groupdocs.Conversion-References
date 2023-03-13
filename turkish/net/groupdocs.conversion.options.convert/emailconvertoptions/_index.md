@@ -3,7 +3,7 @@ title: EmailConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Eposta dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1370
+weight: 1510
 url: /tr/net/groupdocs.conversion.options.convert/emailconvertoptions/
 ---
 ## EmailConvertOptions class

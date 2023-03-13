@@ -11,7 +11,7 @@ url: /es/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Capas en el documento
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Ver también

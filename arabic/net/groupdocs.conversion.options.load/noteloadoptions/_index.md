@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات واحدة.
 type: docs
-weight: 1960
+weight: 2190
 url: /ar/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | الخط الافتراضي لوثيقة الملاحظات. سيتم استخدام الخط التالي إذا كان الخط مفقودًا. يجب توفير مسار مطلق لملف الخط. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | الخط الافتراضي لوثيقة الملاحظات. سيتم استخدام الخط التالي إذا كان الخط مفقودًا. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | استبدال خطوط معينة عند تحويل مستند الملاحظة. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | نوع ملف مستند الإدخال . |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | نوع ملف مستند الإدخال . |

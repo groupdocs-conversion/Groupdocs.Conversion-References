@@ -1,14 +1,14 @@
 ---
 title: Vssm
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .VSSM 扩展名的文件是 Microsoft Visio Stencil 文件支持提供对宏的支持 VSSM 文件在打开时允许运行宏以在图表中实现所需的格式和形状放置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssm.
+description: 扩展名为 .VSSM 的文件是支持宏的 Microsoft Visio Stencil 文件 VSSM 文件打开后允许运行宏以在图表中实现所需的格式设置和形状放置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssm.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.filetypes/diagramfiletype/vssm/
 ---
 ## DiagramFileType.Vssm field
 
-带有 .VSSM 扩展名的文件是 Microsoft Visio Stencil 文件，支持提供对宏的支持。 VSSM 文件在打开时允许运行宏以在图表中实现所需的格式和形状放置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssm).
+扩展名为 .VSSM 的文件是支持宏的 Microsoft Visio Stencil 文件。 VSSM 文件打开后允许运行宏以在图表中实现所需的格式设置和形状放置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssm).
 
 ```csharp
 public static readonly DiagramFileType Vssm;

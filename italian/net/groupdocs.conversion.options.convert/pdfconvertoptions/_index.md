@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione in formato file Pdf.
 type: docs
-weight: 1560
+weight: 1730
 url: /it/net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -19,7 +19,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 
 | Nome | Descrizione |
 | --- | --- |
-| [PdfConvertOptions](pdfconvertoptions)() | Inizializza la nuova istanza di[`PdfConvertOptions`](../pdfconvertoptions) classe. |
+| [PdfConvertOptions](pdfconvertoptions)() | Inizializza una nuova istanza di[`PdfConvertOptions`](../pdfconvertoptions) classe. |
 
 ## Proprietà
 
@@ -35,13 +35,13 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Margine superiore della pagina desiderato in pixel dopo la conversione. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Il numero di pagina da cui iniziare la conversione. |
 | [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Orientamento della pagina desiderato dopo la conversione |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Numero di pagine da convertire a partire da`Numero di pagina` . |
 | [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Dimensione pagina desiderata dopo la conversione |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Imposta questa proprietà se vuoi proteggere il documento convertito con una password. |
 | [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Opzioni di conversione specifiche per PDF |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Rotazione pagina |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche per filigrana |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche filigrana |
 | [Width](../../groupdocs.conversion.options.convert/pdfconvertoptions/width) { get; set; } | Larghezza pagina desiderata in pixel dopo la conversione. |
 
 ## Metodi
@@ -51,7 +51,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

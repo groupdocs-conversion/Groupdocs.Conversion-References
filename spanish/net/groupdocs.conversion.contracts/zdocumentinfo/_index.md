@@ -3,7 +3,7 @@ title: ZDocumentInfo
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Contiene metadatos del documento Z
 type: docs
-weight: 650
+weight: 710
 url: /es/net/groupdocs.conversion.contracts/zdocumentinfo/
 ---
 ## ZDocumentInfo class

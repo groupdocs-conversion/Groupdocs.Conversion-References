@@ -3,7 +3,7 @@ title: IDocumentsContainerLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки документов container
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface

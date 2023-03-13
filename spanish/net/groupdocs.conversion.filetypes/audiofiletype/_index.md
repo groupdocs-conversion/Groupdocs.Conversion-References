@@ -3,7 +3,7 @@ title: AudioFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define documentos de audio Incluye los siguientes tipos Mp3./audiofiletype/mp3  Aac./audiofiletype/aac  Aiff./audiofiletype/aiff  Flac./audiofiletype/flac  M4a./audiofiletype/m4a  Wma./audiofiletype/wma  Ac3./audiofiletype/ac3  Ogg./audiofiletype/ogg  Wav./audiofiletype/wav  Más información sobre los formatos de audioaquíhttps//docs.fileformat.com/audio/ .
 type: docs
-weight: 790
+weight: 850
 url: /es/net/groupdocs.conversion.filetypes/audiofiletype/
 ---
 ## AudioFileType class
@@ -34,7 +34,7 @@ public sealed class AudioFileType : FileType
 | Nombre | Descripción |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compara el objeto actual con otro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina si dos instancias de objeto son iguales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sirve como la función hash predeterminada. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Representación de cadena |
@@ -49,7 +49,7 @@ public sealed class AudioFileType : FileType
 | static readonly [Flac](../../groupdocs.conversion.filetypes/audiofiletype/flac) | FLAC (Free Lossless Audio Codec) es un formato de codificación de audio de compresión sin pérdidas desarrollado por Xiph.Org Foundation Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/flac/) . |
 | static readonly [M4a](../../groupdocs.conversion.filetypes/audiofiletype/m4a) | El formato de archivo M4A es un archivo de audio creado mediante AAC (Codificación de audio avanzada), que se conoce como compresión con pérdida. Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/m4a/) . |
 | static readonly [Mp3](../../groupdocs.conversion.filetypes/audiofiletype/mp3) | Los archivos con la extensión .mp3 son formatos de archivo codificados digitalmente para archivos de audio que se basan formalmente en MPEG-1 Audio Layer III o MPEG-2 Audio Layer III. Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/mp3/) . |
-| static readonly [Ogg](../../groupdocs.conversion.filetypes/audiofiletype/ogg) | OGG es un archivo de audio comprimido Ogg Vorbis que se guarda con la extensión .ogg. Los archivos OGG se utilizan para almacenar datos de audio y también pueden incluir información de artistas y pistas y metadatos. Obtenga más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/ogg/) . |
+| static readonly [Ogg](../../groupdocs.conversion.filetypes/audiofiletype/ogg) | OGG es un archivo de audio comprimido Ogg Vorbis que se guarda con la extensión .ogg. Los archivos OGG se utilizan para almacenar datos de audio y también pueden incluir información de artistas y pistas y metadatos. Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/ogg/) . |
 | static readonly [Wav](../../groupdocs.conversion.filetypes/audiofiletype/wav) | WAV, conocido por WAVE (formato de archivo de audio de forma de onda), es un subconjunto de la especificación de formato de archivo de intercambio de recursos (RIFF) de Microsoft para almacenar archivos de audio digital. Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/ogg/) . |
 | static readonly [Wma](../../groupdocs.conversion.filetypes/audiofiletype/wma) | Un archivo con la extensión .wma representa un archivo de audio que se guarda en formato de sistemas avanzados (ASF). Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/audio/wma/) . |
 

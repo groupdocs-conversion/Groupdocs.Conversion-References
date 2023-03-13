@@ -1,14 +1,14 @@
 ---
 title: Landscape
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Orientamento della pagina orizzontale ampia e corta.
+description: Orientamento orizzontale della pagina largo e corto.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.options.convert/pageorientation/landscape/
 ---
 ## PageOrientation.Landscape field
 
-Orientamento della pagina orizzontale (ampia e corta).
+Orientamento orizzontale della pagina (largo e corto).
 
 ```csharp
 public static PageOrientation Landscape;

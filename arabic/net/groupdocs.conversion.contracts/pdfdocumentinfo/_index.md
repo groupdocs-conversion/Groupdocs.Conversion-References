@@ -3,7 +3,7 @@ title: PdfDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند Pdf
 type: docs
-weight: 350
+weight: 370
 url: /ar/net/groupdocs.conversion.contracts/pdfdocumentinfo/
 ---
 ## PdfDocumentInfo class

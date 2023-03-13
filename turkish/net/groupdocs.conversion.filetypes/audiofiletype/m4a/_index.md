@@ -1,14 +1,14 @@
 ---
 title: M4a
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: M4A dosya biçimi kayıplı sıkıştırma olarak bilinen AAC Gelişmiş Ses Kodlaması kullanılarak oluşturulmuş bir ses dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/m4a/ .
+description: M4A dosya biçimi kayıplı sıkıştırma olarak bilinen AAC Gelişmiş Ses Kodlaması kullanılarak oluşturulan bir ses dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/m4a/ .
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/m4a/
 ---
 ## AudioFileType.M4a field
 
-M4A dosya biçimi, kayıplı sıkıştırma olarak bilinen AAC (Gelişmiş Ses Kodlaması) kullanılarak oluşturulmuş bir ses dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/m4a/) .
+M4A dosya biçimi, kayıplı sıkıştırma olarak bilinen AAC (Gelişmiş Ses Kodlaması) kullanılarak oluşturulan bir ses dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/m4a/) .
 
 ```csharp
 public static readonly AudioFileType M4a;

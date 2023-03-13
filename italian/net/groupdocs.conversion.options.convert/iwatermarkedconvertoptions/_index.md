@@ -1,14 +1,14 @@
 ---
 title: IWatermarkedConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Rappresenta le opzioni di conversione che consentono la filigrana delloutput della conversione
+description: Rappresenta le opzioni di conversione che consentono di filigranare loutput della conversione
 type: docs
-weight: 1460
+weight: 1620
 url: /it/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface
 
-Rappresenta le opzioni di conversione che consentono la filigrana dell'output della conversione
+Rappresenta le opzioni di conversione che consentono di filigranare l'output della conversione
 
 ```csharp
 public interface IWatermarkedConvertOptions : IConvertOptions
@@ -18,7 +18,7 @@ public interface IWatermarkedConvertOptions : IConvertOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [Watermark](../../groupdocs.conversion.options.convert/iwatermarkedconvertoptions/watermark) { get; set; } | Opzioni specifiche per filigrana |
+| [Watermark](../../groupdocs.conversion.options.convert/iwatermarkedconvertoptions/watermark) { get; set; } | Opzioni specifiche filigrana |
 
 ### Guarda anche
 

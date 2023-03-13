@@ -3,7 +3,7 @@ title: CompressionLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры загрузки сжатых документов.
 type: docs
-weight: 1850
+weight: 2040
 url: /ru/net/groupdocs.conversion.options.load/compressionloadoptions/
 ---
 ## CompressionLoadOptions class

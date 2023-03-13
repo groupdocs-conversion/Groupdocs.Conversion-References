@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der ODSErweiterung stehen für OpenDocument Spreadsheet DocumentFormat das vom Benutzer bearbeitet werden kann. Daten werden in der ODFDatei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/ods .
+description: Dateien mit der ODSErweiterung stehen für OpenDocument Spreadsheet DocumentFormat das vom Benutzer bearbeitet werden kann. Daten werden in der ODFDatei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
 weight: 60
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 ---
 ## SpreadsheetFileType.Ods field
 
-Dateien mit der ODS-Erweiterung stehen für OpenDocument Spreadsheet Document-Format, das vom Benutzer bearbeitet werden kann. Daten werden in der ODF-Datei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/ods) .
+Dateien mit der ODS-Erweiterung stehen für OpenDocument Spreadsheet Document-Format, das vom Benutzer bearbeitet werden kann. Daten werden in der ODF-Datei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ods;

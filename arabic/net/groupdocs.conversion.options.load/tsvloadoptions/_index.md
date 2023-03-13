@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات Tsv .
 type: docs
-weight: 2030
+weight: 2280
 url: /ar/net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -35,6 +35,7 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | إذا كان OnePagePerSheet صحيحًا ، فسيتم تحويل محتوى الورقة إلى صفحة واحدة في مستند PDF. القيمة الافتراضية هي صحيحة. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | إذا كان True والتحويل إلى Pdf ، فسيتم تحسين التحويل للحصول على حجم ملف أفضل من جودة الطباعة. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | تعيين كلمة المرور لإلغاء حماية المستند المحمي . |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | قائمة فهارس الأوراق المراد تحويلها. يجب أن تكون الفهارس صفرية |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | اسم الورقة للتحويل |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | إظهار خطوط الشبكة عند تحويل ملفات Excel. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | إظهار الأوراق المخفية عند تحويل ملفات Excel. |

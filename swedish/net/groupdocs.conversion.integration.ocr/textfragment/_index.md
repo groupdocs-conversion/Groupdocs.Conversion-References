@@ -3,7 +3,7 @@ title: TextFragment
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar en del av igenkänd text ord symbol etc extraherad av OCRmotor.
 type: docs
-weight: 1220
+weight: 1350
 url: /sv/net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class

@@ -8,7 +8,7 @@ url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepd
 ---
 ## SpreadsheetLoadOptions.OptimizePdfSize property
 
-Se True e la conversione in Pdf la conversione è ottimizzata per una dimensione del file migliore rispetto alla qualità di stampa.
+Se True e la conversione in Pdf, la conversione è ottimizzata per una dimensione del file migliore rispetto alla qualità di stampa.
 
 ```csharp
 public bool OptimizePdfSize { get; set; }

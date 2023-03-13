@@ -1,14 +1,14 @@
 ---
 title: PdfFormats
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdf biçimlerinin numaralandırılmasını açıklar.
+description: Pdf biçimlerinin numaralandırmasını açıklar.
 type: docs
-weight: 1580
+weight: 1760
 url: /tr/net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class
 
-Pdf biçimlerinin numaralandırılmasını açıklar.
+Pdf biçimlerinin numaralandırmasını açıklar.
 
 ```csharp
 public sealed class PdfFormats : Enumeration
@@ -18,7 +18,7 @@ public sealed class PdfFormats : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfFormats](pdfformats)() | Serileştirme yapıcısı |
+| [PdfFormats](pdfformats)() | Serileştirme oluşturucu |
 
 ## yöntemler
 
@@ -35,10 +35,10 @@ public sealed class PdfFormats : Enumeration
 | İsim | Tanım |
 | --- | --- |
 | static readonly [Default](../../groupdocs.conversion.options.convert/pdfformats/default) | Varsayılan pdf formatı |
-| static readonly [PdfA_1A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_1a) | PDF/A-1a – Düzey A (erişilebilir) uygunluk. |
+| static readonly [PdfA_1A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_1a) | PDF/A-1a – A Düzeyi (erişilebilir) uygunluk. |
 | static readonly [PdfA_1B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_1b) | PDF/A-1b – Düzey B (temel) uygunluk. |
 | static readonly [PdfA_2A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_2a) | PDF/A-2a uygunluğu. |
-| static readonly [PdfA_2B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_2b) | PDF/A-2b uyumluluğu. |
+| static readonly [PdfA_2B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_2b) | PDF/A-2b uygunluğu. |
 | static readonly [PdfA_2U](../../groupdocs.conversion.options.convert/pdfformats/pdfa_2u) | PDF/A-2u uyumluluğu. |
 | static readonly [PdfA_3A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3a) | PDF/A-3a uygunluğu. |
 | static readonly [PdfA_3B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3b) | PDF/A-3b uygunluğu. |

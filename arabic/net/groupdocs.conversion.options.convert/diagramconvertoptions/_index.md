@@ -3,7 +3,7 @@ title: DiagramConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف الرسم التخطيطي .
 type: docs
-weight: 1360
+weight: 1490
 url: /ar/net/groupdocs.conversion.options.convert/diagramconvertoptions/
 ---
 ## DiagramConvertOptions class

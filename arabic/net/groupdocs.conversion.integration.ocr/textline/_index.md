@@ -3,7 +3,7 @@ title: TextLine
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل نصًا مستخرجًا من صورة نتيجة لعملية التعرف عليها.
 type: docs
-weight: 1230
+weight: 1360
 url: /ar/net/groupdocs.conversion.integration.ocr/textline/
 ---
 ## TextLine class

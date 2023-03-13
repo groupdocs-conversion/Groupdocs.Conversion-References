@@ -3,7 +3,7 @@ title: Md
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Текстовые файлы созданные с использованием диалектов языка Markdown сохраняются с расширением .MD или .MARKDOWN. Файлы MD сохраняются в текстовом формате с использованием языка Markdown который также включает встроенные текстовые символы определяющие способ форматирования текста например отступы форматирование таблиц шрифты и заголовки. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field

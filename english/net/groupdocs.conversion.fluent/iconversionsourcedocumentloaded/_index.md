@@ -3,7 +3,7 @@ title: IConversionSourceDocumentLoaded
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Provides possible actions with loaded document
 type: docs
-weight: 1300
+weight: 1310
 url: /net/groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 ## IConversionSourceDocumentLoaded interface
@@ -12,13 +12,14 @@ Provides possible actions with loaded document
 
 ```csharp
 public interface IConversionSourceDocumentLoaded : IConversionGetDocumentInfo, 
-    IConversionGetPossibleConversions, IConversionTo
+    IConversionGetPossibleConversions, IConversionIsPasswordProtected, IConversionTo
 ```
 
 ### See Also
 
 * interface [IConversionGetDocumentInfo](../iconversiongetdocumentinfo)
 * interface [IConversionGetPossibleConversions](../iconversiongetpossibleconversions)
+* interface [IConversionIsPasswordProtected](../iconversionispasswordprotected)
 * interface [IConversionTo](../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../)

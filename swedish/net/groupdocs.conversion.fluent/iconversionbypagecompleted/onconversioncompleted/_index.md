@@ -1,22 +1,23 @@
 ---
 title: OnConversionCompleted
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Ta emot konverterad sidström. Aktiveras endast om SaveSaveDocumentStreamForFileType är inställt.
+description: Ta emot konverterad sidström. Aktiveras endast om ConvertToconvertedStreamProvider är inställt.
 type: docs
 weight: 10
 url: /sv/net/groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted/
 ---
 ## IConversionByPageCompleted.OnConversionCompleted method
 
-Ta emot konverterad sidström. Aktiveras endast om "Save(SaveDocumentStreamForFileType)" är inställt.
+Ta emot konverterad sidström. Aktiveras endast om "ConvertTo(convertedStreamProvider)" är inställt.
 
 ```csharp
-public IConversionConvertOrCompress OnConversionCompleted(ConvertedPageStream convertedPageStream)
+public IConversionConvertOrCompress OnConversionCompleted(
+    Action<int, Stream, string> convertedPageStream)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| convertedPageStream | ConvertedPageStream | Konverterad sidströmsleverantör |
+| convertedPageStream | Action`3 | Konverterad sidströmsleverantör Namnet på filen |
 
 ### Returvärde
 
@@ -25,7 +26,6 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionbypagecompleted)
 * hopsättning [GroupDocs.Conversion](../../../)

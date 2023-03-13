@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 空识别图像
+description: 清空识别图像
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.integration.ocr/recognizedimage/empty/
 ---
 ## RecognizedImage.Empty field
 
-空识别图像
+清空识别图像
 
 ```csharp
 public static readonly RecognizedImage Empty;

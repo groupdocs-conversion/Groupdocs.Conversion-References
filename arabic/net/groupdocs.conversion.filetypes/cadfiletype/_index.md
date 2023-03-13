@@ -1,14 +1,14 @@
 ---
 title: CadFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يحدد مستندات CAD التصميم بمساعدة الكمبيوتر التي تُستخدم لتنسيقات ملفات رسومات ثلاثية الأبعاد وقد تحتوي على تصميمات ثنائية أو ثلاثية الأبعاد . تتضمن الأنواع التالية Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . تعرف على المزيد حول تنسيقات CADهناhttps//wiki.fileformat.com/cad .
+description: يحدد مستندات CAD التصميم بمساعدة الكمبيوتر التي تُستخدم لتنسيقات ملفات رسومات ثلاثية الأبعاد وقد تحتوي على تصميمات ثنائية أو ثلاثية الأبعاد . تتضمن الأنواع التالية Cf2./cadfiletype/cf2Dgn./cadfiletype/dgn  Dwf./cadfiletype/dwf  Dwfx./cadfiletype/dwfxDwg./cadfiletype/dwg  Dwt./cadfiletype/dwt  Dxf./cadfiletype/dxf  Ifc./cadfiletype/ifc  Igs./cadfiletype/igs  Plt./cadfiletype/plt  Stl./cadfiletype/stl . تعرف على المزيد حول تنسيقات CADهناhttps//wiki.fileformat.com/cad .
 type: docs
-weight: 800
+weight: 860
 url: /ar/net/groupdocs.conversion.filetypes/cadfiletype/
 ---
 ## CadFileType class
 
-يحدد مستندات CAD (التصميم بمساعدة الكمبيوتر) التي تُستخدم لتنسيقات ملفات رسومات ثلاثية الأبعاد وقد تحتوي على تصميمات ثنائية أو ثلاثية الأبعاد . تتضمن الأنواع التالية: [`Dgn`](./dgn) ، [`Dwf`](./dwf) ، [`Dwg`](./dwg) ، [`Dwt`](./dwt) ، [`Dxf`](./dxf) ، [`Ifc`](./ifc) ، [`Igs`](./igs) ، [`Plt`](./plt) ، [`Stl`](./stl) . تعرف على المزيد حول تنسيقات CAD[هنا](https://wiki.fileformat.com/cad) .
+يحدد مستندات CAD (التصميم بمساعدة الكمبيوتر) التي تُستخدم لتنسيقات ملفات رسومات ثلاثية الأبعاد وقد تحتوي على تصميمات ثنائية أو ثلاثية الأبعاد . تتضمن الأنواع التالية: [`Cf2`](./cf2)[`Dgn`](./dgn) ، [`Dwf`](./dwf) ، [`Dwfx`](./dwfx)[`Dwg`](./dwg) ، [`Dwt`](./dwt) ، [`Dxf`](./dxf) ، [`Ifc`](./ifc) ، [`Igs`](./igs) ، [`Plt`](./plt) ، [`Stl`](./stl) . تعرف على المزيد حول تنسيقات CAD[هنا](https://wiki.fileformat.com/cad) .
 
 ```csharp
 public sealed class CadFileType : FileType
@@ -34,7 +34,7 @@ public sealed class CadFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

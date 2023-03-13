@@ -3,7 +3,7 @@ title: PsdCompressionMethods
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف طرق ضغط Psd .
 type: docs
-weight: 1680
+weight: 1860
 url: /ar/net/groupdocs.conversion.options.convert/psdcompressionmethods/
 ---
 ## PsdCompressionMethods class

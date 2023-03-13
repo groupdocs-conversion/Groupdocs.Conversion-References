@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet wenn eine Schriftart fehlt. Es muss ein absoluter Pfad zur Schriftartdatei angegeben werden.
+description: Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet wenn eine Schriftart fehlt.
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet, wenn eine Schriftart fehlt. Es muss ein absoluter Pfad zur Schriftartdatei angegeben werden.
+Standardschriftart für Notizdokument. Die folgende Schriftart wird verwendet, wenn eine Schriftart fehlt.
 
 ```csharp
 public string DefaultFont { get; set; }

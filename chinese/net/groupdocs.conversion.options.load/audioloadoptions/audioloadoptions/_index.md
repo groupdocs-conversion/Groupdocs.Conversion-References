@@ -1,14 +1,14 @@
 ---
 title: AudioLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例AudioLoadOptionsgroupdocs.conversion.options.load/audioloadoptions类.
+description: 初始化新实例AudioLoadOptionsgroupdocs.conversion.options.load/audioloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/audioloadoptions/audioloadoptions/
 ---
 ## AudioLoadOptions constructor
 
-初始化的新实例[`AudioLoadOptions`](../../audioloadoptions)类.
+初始化新实例[`AudioLoadOptions`](../../audioloadoptions)类.
 
 ```csharp
 public AudioLoadOptions()

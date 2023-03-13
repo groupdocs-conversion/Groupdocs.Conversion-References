@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 定义 Pdf 优化选项
 type: docs
-weight: 1600
+weight: 1780
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class
@@ -18,7 +18,7 @@ public sealed class PdfOptimizationOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfOptimizationOptions](pdfoptimizationoptions)() | 初始化的新实例[`PdfOptimizationOptions`](../pdfoptimizationoptions)类. |
+| [PdfOptimizationOptions](pdfoptimizationoptions)() | 初始化新实例[`PdfOptimizationOptions`](../pdfoptimizationoptions)类. |
 
 ## 特性
 
@@ -26,18 +26,18 @@ public sealed class PdfOptimizationOptions : ValueObject
 | --- | --- |
 | [CompressImages](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/compressimages) { get; set; } | 如果 CompressImages 设置为`真的`，文档中的所有图像都被重新压缩。压缩由 ImageQuality 属性定义。 |
 | [ImageQuality](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/imagequality) { get; set; } | 以百分比表示的值，其中 100% 表示质量和图像大小不变。要减小图像大小，请将此属性设置为小于 100 |
-| [LinkDuplicateStreams](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/linkduplicatestreams) { get; set; } | 链接重复的流 |
+| [LinkDuplicateStreams](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/linkduplicatestreams) { get; set; } | 链接重复流 |
 | [RemoveUnusedObjects](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/removeunusedobjects) { get; set; } | 删除未使用的对象 |
 | [RemoveUnusedStreams](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/removeunusedstreams) { get; set; } | 删除未使用的流 |
-| [UnembedFonts](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/unembedfonts) { get; set; } | 如果设置为 true ，则使字体不嵌入 |
+| [UnembedFonts](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/unembedfonts) { get; set; } | 如果设置为 true ，则不嵌入字体 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

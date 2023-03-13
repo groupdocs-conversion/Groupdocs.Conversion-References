@@ -1,14 +1,14 @@
 ---
 title: Listener
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürme durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması
+description: Dönüşüm durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion/convertersettings/listener/
 ---
 ## ConverterSettings.Listener property
 
-Dönüştürme durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması
+Dönüşüm durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması
 
 ```csharp
 public IConverterListener Listener { get; set; }

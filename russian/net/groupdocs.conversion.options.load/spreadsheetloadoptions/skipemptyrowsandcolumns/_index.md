@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Пропускает пустые строки и столбцы при преобразовании. По умолчанию Истина.
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

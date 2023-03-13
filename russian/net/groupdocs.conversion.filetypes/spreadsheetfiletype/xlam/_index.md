@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Формат документа Xlam
+description: XLAM  это файл надстройки с поддержкой макросов который используется для добавления новых функций в электронные таблицы. Надстройка  это дополнительная программа которая запускает дополнительный код и предоставляет дополнительные функции для электронных таблиц. Узнайте больше об этом формате файлаздесьhttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /ru/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Формат документа Xlam
+XLAM — это файл надстройки с поддержкой макросов, который используется для добавления новых функций в электронные таблицы. Надстройка — это дополнительная программа, которая запускает дополнительный код и предоставляет дополнительные функции для электронных таблиц. Узнайте больше об этом формате файла[здесь](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

@@ -1,14 +1,14 @@
 ---
 title: Mp4
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: MP4 kurz für MPEG4 Part 14 ist ein Dateiformat basierend auf ISO/IEC 14496122004 das auf dem QuickTimeDateiformat basiert aber formell die Unterstützung für Initial Object Descriptors IOD und andere MPEGFunktionen festlegt. Lernen mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/mp4/ .
+description: MP4 kurz für MPEG4 Part 14 ist ein Dateiformat basierend auf ISO/IEC 14496122004 das auf dem QuickTimeDateiformat basiert aber formell die Unterstützung für Initial Object Descriptors IOD und andere MPEGFunktionen festlegt. Lernen mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/mp4/ .
 type: docs
 weight: 60
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/mp4/
 ---
 ## VideoFileType.Mp4 field
 
-MP4 (kurz für MPEG-4 Part 14) ist ein Dateiformat basierend auf ISO/IEC 14496-12:2004, das auf dem QuickTime-Dateiformat basiert, aber formell die Unterstützung für Initial Object Descriptors (IOD) und andere MPEG-Funktionen festlegt. Lernen mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/mp4/) .
+MP4 (kurz für MPEG-4 Part 14) ist ein Dateiformat basierend auf ISO/IEC 14496-12:2004, das auf dem QuickTime-Dateiformat basiert, aber formell die Unterstützung für Initial Object Descriptors (IOD) und andere MPEG-Funktionen festlegt. Lernen mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/mp4/) .
 
 ```csharp
 public static readonly VideoFileType Mp4;

@@ -1,24 +1,19 @@
 ---
 title: PersonalStorageFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Определяет форматы файлов личного хранилища которые используются почтовыми приложениями для хранения их различных данных включая сообщения электронной почты вложения папки адресные книги и т. д. Включает следующие типы файлов Ost./personalstoragefiletype/ost  Pst./personalstoragefiletype/pst  Подробнее о форматах электронной почтыздесьhttps//wiki.fileformat.com/email .
+description: Определяет форматы файлов личного хранилища которые используются почтовыми приложениями для хранения их различных данных включая сообщения электронной почты вложения папки адресные книги и т. д. Включает следующие типы файлов Ost  Pst  Подробнее о форматах электронной почтыздесьhttps//wiki.fileformat.com/email .
 type: docs
-weight: 900
+weight: 1010
 url: /ru/net/groupdocs.conversion.filetypes/personalstoragefiletype/
 ---
 ## PersonalStorageFileType class
 
-Определяет форматы файлов личного хранилища, которые используются почтовыми приложениями для хранения их различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Включает следующие типы файлов: [`Ost`](./ost) , [`Pst`](./pst) , Подробнее о форматах электронной почты[здесь](https://wiki.fileformat.com/email) .
+Определяет форматы файлов личного хранилища, которые используются почтовыми приложениями для хранения их различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Включает следующие типы файлов: Ost , Pst , Подробнее о форматах электронной почты[здесь](https://wiki.fileformat.com/email) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use EmailFileType and DatabaseFileType instead.")]
 public sealed class PersonalStorageFileType : FileType
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [PersonalStorageFileType](personalstoragefiletype)() | Конструктор сериализации |
 
 ## Характеристики
 
@@ -34,18 +29,10 @@ public sealed class PersonalStorageFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |
-
-## Поля
-
-| Имя | Описание |
-| --- | --- |
-| static readonly [Nsf](../../groupdocs.conversion.filetypes/personalstoragefiletype/nsf) | Файл с расширением .nsf (Notes Storage Facility) — это формат файла базы данных, используемый программным обеспечением IBM Notes, ранее известным как Lotus Notes. Он определяет схему для хранения различных типов объектов, таких как электронные письма, встречи, документы, формы и представления. Подробнее об этом формате файла[здесь](https://docs.fileformat.com/database/nsf) . |
-| static readonly [Ost](../../groupdocs.conversion.filetypes/personalstoragefiletype/ost) | OST или файлы автономного хранилища представляют данные почтового ящика пользователя в автономном режиме на локальном компьютере после регистрации на сервере Exchange с использованием Microsoft Outlook. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/email/ost) . |
-| static readonly [Pst](../../groupdocs.conversion.filetypes/personalstoragefiletype/pst) | Файлы с расширением .PST представляют собой файлы личного хранилища Outlook (также называемые таблицей личного хранилища), в которых хранится разнообразная информация о пользователях. Подробнее об этом формате файлов[здесь](https://wiki.fileformat.com/email/pst) . |
 
 ### Смотрите также
 

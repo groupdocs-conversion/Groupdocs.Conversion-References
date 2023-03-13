@@ -3,7 +3,7 @@ title: Docx
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: DOCX es un formato muy conocido para documentos de Microsoft Word. Introducido a partir de 2007 con el lanzamiento de Microsoft Office 2007 la estructura de este nuevo formato de documento se cambió de binario simple a una combinación de XML y archivos binarios. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 50
+weight: 40
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx/
 ---
 ## WordProcessingFileType.Docx field

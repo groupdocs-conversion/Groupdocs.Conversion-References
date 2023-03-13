@@ -1,14 +1,14 @@
 ---
 title: Lines
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene le righe di testo con i relativi frammenti riconosciute allinterno del documento.
+description: Recupera righe di testo con i relativi frammenti riconosciute allinterno del documento.
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.integration.ocr/recognizedimage/lines/
 ---
 ## RecognizedImage.Lines property
 
-Ottiene le righe di testo, con i relativi frammenti, riconosciute all'interno del documento.
+Recupera righe di testo, con i relativi frammenti, riconosciute all'interno del documento.
 
 ```csharp
 public TextLine[] Lines { get; }

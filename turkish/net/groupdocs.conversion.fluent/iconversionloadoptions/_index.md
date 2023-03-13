@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüşüm yükleme seçenekleri
 type: docs
-weight: 1130
+weight: 1260
 url: /tr/net/groupdocs.conversion.fluent/iconversionloadoptions/
 ---
 ## IConversionLoadOptions interface

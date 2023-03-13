@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(SavePageStream) {#convertbypageto}
+## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
 
 Dönüştürülen sayfayı stream olarak kaydet
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStream convertedPageProvider)
+    Func<int, Stream> convertedPageProvider)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedPageProvider | SavePageStream | Dönüştürülen belge sayfası akışı sağlayıcısı |
+| convertedPageProvider | Func`2 | Dönüştürülen belge sayfası akış sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -26,25 +26,24 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * interface [IConversionTo](../../iconversionto)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionto)
 * toplantı [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertByPageTo(SavePageStreamForFileType) {#convertbypageto_1}
+## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
 
-Dönüştürülen sayfayı akış olarak type türüne göre kaydedin
+Dönüştürülen sayfayı type ile akış olarak kaydet
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStreamForFileType convertedStreamProvider)
+    Func<int, FileType, Stream> convertedStreamProvider)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| convertedStreamProvider | SavePageStreamForFileType | Dönüştürülen belge sayfası akışı sağlayıcısı |
+| convertedStreamProvider | Func`3 | Dönüştürülen belge sayfası akış sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -53,7 +52,7 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversionto)
 * toplantı [GroupDocs.Conversion](../../../)

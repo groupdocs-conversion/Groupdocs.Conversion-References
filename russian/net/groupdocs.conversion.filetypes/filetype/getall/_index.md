@@ -3,7 +3,7 @@ title: GetAll
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Возвращает все значения перечисления.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

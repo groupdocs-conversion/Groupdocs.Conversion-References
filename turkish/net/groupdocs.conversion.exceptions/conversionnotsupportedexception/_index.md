@@ -1,14 +1,14 @@
 ---
 title: ConversionNotSupportedException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Kaynak dosyadan hedef dosya türüne dönüştürme desteklenmediğinde GroupDocs istisnası atılır
+description: Kaynak dosyadan hedef dosya türüne dönüştürme desteklenmediğinde GroupDocs istisnası oluşturuldu
 type: docs
-weight: 690
+weight: 750
 url: /tr/net/groupdocs.conversion.exceptions/conversionnotsupportedexception/
 ---
 ## ConversionNotSupportedException class
 
-Kaynak dosyadan hedef dosya türüne dönüştürme desteklenmediğinde GroupDocs istisnası atılır
+Kaynak dosyadan hedef dosya türüne dönüştürme desteklenmediğinde GroupDocs istisnası oluşturuldu
 
 ```csharp
 public sealed class ConversionNotSupportedException : GroupDocsConversionException

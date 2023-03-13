@@ -3,7 +3,7 @@ title: Dot
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers avec lextension .DOT sont des fichiers modèles créés par Microsoft Word pour avoir des paramètres préformatés pour la génération dautres fichiers DOC ou DOCX. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /fr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field

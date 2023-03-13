@@ -20,7 +20,7 @@ public TargetConversion this[FileType target] { get; }
 
 ### 返回值
 
-[`TargetConversion`](../../targetconversion)或为空
+[`TargetConversion`](../../targetconversion)或空
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public TargetConversion this[FileType target] { get; }
 
 ## PossibleConversions indexer (2 of 2)
 
-返回指定目标文件类型扩展的目标转换
+返回指定目标文件类型扩展名 的目标转换
 
 ```csharp
 public TargetConversion this[string extension] { get; }
@@ -46,7 +46,7 @@ public TargetConversion this[string extension] { get; }
 
 ### 返回值
 
-[`TargetConversion`](../../targetconversion)或为空
+[`TargetConversion`](../../targetconversion)或空
 
 ### 也可以看看
 

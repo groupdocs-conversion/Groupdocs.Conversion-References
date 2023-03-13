@@ -1,14 +1,14 @@
 ---
 title: ConvertedPageStream
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürülen belge sayfası akışını alacak temsilciyi tanımlar.
+description: Dönüştürülen belge sayfası akışını alacak temsilciyi açıklar.
 type: docs
 weight: 120
 url: /tr/net/groupdocs.conversion.contracts/convertedpagestream/
 ---
 ## ConvertedPageStream delegate
 
-Dönüştürülen belge sayfası akışını alacak temsilciyi tanımlar.
+Dönüştürülen belge sayfası akışını alacak temsilciyi açıklar.
 
 ```csharp
 public delegate void ConvertedPageStream(int pageNumber, Stream stream, string sourceFileName);

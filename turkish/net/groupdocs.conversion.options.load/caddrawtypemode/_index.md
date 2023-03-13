@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Nesnelerin renklendirilmesi için olası modları temsil eder.
 type: docs
-weight: 1830
+weight: 2020
 url: /tr/net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class
@@ -18,7 +18,7 @@ public class CadDrawTypeMode : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [CadDrawTypeMode](caddrawtypemode)() | Serileştirme yapıcısı |
+| [CadDrawTypeMode](caddrawtypemode)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

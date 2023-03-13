@@ -1,14 +1,14 @@
 ---
 title: FontSubstitute
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 描述替换缺失字体
+description: 描述了对缺失字体的替换
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class
 
-描述替换缺失字体。
+描述了对缺失字体的替换。
 
 ```csharp
 public class FontSubstitute : ValueObject
@@ -26,9 +26,9 @@ public class FontSubstitute : ValueObject
 | 姓名 | 描述 |
 | --- | --- |
 | static [Create](../../groupdocs.conversion.contracts/fontsubstitute/create)(string, string) | 实例化新的字体替换对。 |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

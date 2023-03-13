@@ -1,14 +1,14 @@
 ---
 title: Msg
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: MSG ist ein Dateiformat das von Microsoft Outlook und Exchange zum Speichern von EMailNachrichten Kontakten Terminen oder anderen Aufgaben verwendet wird. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/msg .
+description: MSG ist ein Dateiformat das von Microsoft Outlook und Exchange zum Speichern von EMailNachrichten Kontakten Terminen oder anderen Aufgaben verwendet wird. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/msg .
 type: docs
 weight: 50
 url: /de/net/groupdocs.conversion.filetypes/emailfiletype/msg/
 ---
 ## EmailFileType.Msg field
 
-MSG ist ein Dateiformat, das von Microsoft Outlook und Exchange zum Speichern von E-Mail-Nachrichten, Kontakten, Terminen oder anderen Aufgaben verwendet wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/msg) .
+MSG ist ein Dateiformat, das von Microsoft Outlook und Exchange zum Speichern von E-Mail-Nachrichten, Kontakten, Terminen oder anderen Aufgaben verwendet wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/msg) .
 
 ```csharp
 public static readonly EmailFileType Msg;

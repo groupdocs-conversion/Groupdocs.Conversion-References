@@ -3,7 +3,7 @@ title: XmlDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات تعريف مستند Xml
 type: docs
-weight: 610
+weight: 670
 url: /ar/net/groupdocs.conversion.contracts/xmldocumentinfo/
 ---
 ## XmlDocumentInfo class

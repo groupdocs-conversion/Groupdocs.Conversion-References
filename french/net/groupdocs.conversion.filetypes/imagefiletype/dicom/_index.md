@@ -3,7 +3,7 @@ title: Dicom
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Les fichiers avec lextension .DICOM représentent une image numérique qui stocke les informations médicales des patients telles que les IRM les tomodensitogrammes et les images échographiques. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /fr/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field

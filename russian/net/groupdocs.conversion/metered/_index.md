@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Предоставляет методы для примененияИзмеренныйhttps//purchase.groupdocs.com/faqs/licensing/metered лицензия.
+description: Предоставляет методы для примененияИзмеренныйhttps//purchase.groupdocs.com/faqs/licensing/meteredлицензия.
 type: docs
-weight: 1280
+weight: 1410
 url: /ru/net/groupdocs.conversion/metered/
 ---
 ## Metered class
 
-Предоставляет методы для применения[Измеренный](https://purchase.groupdocs.com/faqs/licensing/metered) лицензия.
+Предоставляет методы для применения[Измеренный](https://purchase.groupdocs.com/faqs/licensing/metered)лицензия.
 
 ```csharp
 public class Metered
@@ -30,7 +30,7 @@ public class Metered
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об ограниченном лицензировании: [Часто задаваемые вопросы об ограниченном лицензировании](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Подробнее о лицензировании GroupDocs.Conversion: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)

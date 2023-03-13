@@ -3,7 +3,7 @@ title: PageSize
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет размер страницы
 type: docs
-weight: 1550
+weight: 1720
 url: /ru/net/groupdocs.conversion.options.convert/pagesize/
 ---
 ## PageSize class

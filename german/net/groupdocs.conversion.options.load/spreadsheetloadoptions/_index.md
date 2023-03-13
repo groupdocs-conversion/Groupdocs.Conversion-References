@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von Tabellendokumenten.
 type: docs
-weight: 2010
+weight: 2260
 url: /de/net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -35,6 +35,7 @@ public class SpreadsheetLoadOptions : LoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | Wenn OnePagePerSheet wahr ist, wird der Inhalt des Blattes in eine Seite im PDF-Dokument konvertiert. Der Standardwert ist wahr. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | Bei True und Konvertierung in PDF wird die Konvertierung für eine bessere Dateigröße als Druckqualität optimiert. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Kennwort festlegen, um den Schutz des geschützten Dokuments aufzuheben. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Liste der zu konvertierenden Blattindizes. Die Indizes müssen nullbasiert sein |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Zu konvertierender Blattname |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Gitterlinien beim Konvertieren von Excel-Dateien anzeigen. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Beim Konvertieren von Excel-Dateien ausgeblendete Blätter anzeigen. |

@@ -1,14 +1,14 @@
 ---
 title: U3d
 second_title: GroupDocs.Conversion for .NET API 参考
-description: U3DUniversal 3D是一种用于 3D 计算机图形的压缩文件格式和数据结构它包含 3D 模型信息例如三角形网格照明阴影运动数据具有颜色和结构的线和点 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/u3d
+description: U3D通用 3D是一种用于 3D 计算机图形的压缩文件格式和数据结构它包含 3D 模型信息例如三角形网格光照阴影运动数据具有颜色和结构的线和点 了解有关此文件格式的更多信息这里https//docs.fileformat.com/3d/u3d
 type: docs
 weight: 140
 url: /zh/net/groupdocs.conversion.filetypes/threedfiletype/u3d/
 ---
 ## ThreeDFileType.U3d field
 
-U3D（Universal 3D）是一种用于 3D 计算机图形的压缩文件格式和数据结构。它包含 3D 模型信息，例如三角形网格、照明、阴影、运动数据、具有颜色和结构的线和点。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/u3d)
+U3D（通用 3D）是一种用于 3D 计算机图形的压缩文件格式和数据结构。它包含 3D 模型信息，例如三角形网格、光照、阴影、运动数据、具有颜色和结构的线和点。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/3d/u3d)
 
 ```csharp
 public static readonly ThreeDFileType U3d;

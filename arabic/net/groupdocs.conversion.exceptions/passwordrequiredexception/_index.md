@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: طرح استثناء GroupDocs عندما يكون الملف محميًا بكلمة مرور ولم يتم توفير كلمة المرور
 type: docs
-weight: 770
+weight: 830
 url: /ar/net/groupdocs.conversion.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

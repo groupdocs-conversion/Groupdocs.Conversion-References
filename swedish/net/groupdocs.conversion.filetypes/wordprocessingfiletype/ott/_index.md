@@ -3,7 +3,7 @@ title: Ott
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med OTTtillägg representerar malldokument som genereras av applikationer i enlighet med OASIS OpenDocumentstandardformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field

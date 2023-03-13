@@ -31,18 +31,17 @@ Gränssnitt för att fortsätta bygga omvandlingen
 
 ---
 
-## ConvertTo(SaveDocumentStream) {#convertto}
+## ConvertTo(Func&lt;Stream&gt;) {#convertto}
 
 Spara konverterat dokument som stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStream convertedStreamProvider)
+public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStream | Konverterad dokumentströmleverantör |
+| convertedStreamProvider | Func`1 | Konverterad dokumentströmleverantör |
 
 ### Returvärde
 
@@ -51,25 +50,24 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * interface [IConversionTo](../../iconversionto)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionto)
 * hopsättning [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertTo(SaveDocumentStreamForFileType) {#convertto_1}
+## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
 
 Spara konverterat dokument som ström efter typ
 
 ```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    SaveDocumentStreamForFileType convertedStreamProvider)
+    Func<FileType, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| convertedStreamProvider | SaveDocumentStreamForFileType | Konverterad dokumentströmleverantör |
+| convertedStreamProvider | Func`2 | Konverterad dokumentströmleverantör |
 
 ### Returvärde
 
@@ -78,7 +76,7 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionto)
 * hopsättning [GroupDocs.Conversion](../../../)

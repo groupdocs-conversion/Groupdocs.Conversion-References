@@ -1,14 +1,14 @@
 ---
 title: Bz2
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: BZ2 çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Tek bir dosyanın sıkıştırılması için kullanılır ve birden fazla dosyanın arşivlenmesi için değildir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/bz2/ .
+description: BZ2 çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Tek bir dosyanın sıkıştırılması için kullanılır ve birden fazla dosyanın arşivlenmesi amaçlanmamıştır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/bz2/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/bz2/
 ---
 ## CompressionFileType.Bz2 field
 
-BZ2, çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Tek bir dosyanın sıkıştırılması için kullanılır ve birden fazla dosyanın arşivlenmesi için değildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/bz2/) .
+BZ2, çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Tek bir dosyanın sıkıştırılması için kullanılır ve birden fazla dosyanın arşivlenmesi amaçlanmamıştır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/bz2/) .
 
 ```csharp
 public static readonly CompressionFileType Bz2;

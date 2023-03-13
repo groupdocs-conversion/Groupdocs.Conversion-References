@@ -1,14 +1,14 @@
 ---
 title: Jpm
 second_title: GroupDocs.Conversion for .NET API 参考
-description: jpm 文档格式
+description: jpm文件格式
 type: docs
-weight: 260
+weight: 240
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 ---
 ## ImageFileType.Jpm field
 
-jpm 文档格式
+jpm文件格式
 
 ```csharp
 public static readonly ImageFileType Jpm;

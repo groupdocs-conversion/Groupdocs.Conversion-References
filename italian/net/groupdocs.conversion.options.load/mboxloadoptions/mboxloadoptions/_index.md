@@ -1,14 +1,14 @@
 ---
 title: MboxLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diMboxLoadOptionsgroupdocs.conversion.options.load/mboxloadoptions classe.
+description: Inizializza una nuova istanza diMboxLoadOptionsgroupdocs.conversion.options.load/mboxloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/mboxloadoptions/mboxloadoptions/
 ---
 ## MboxLoadOptions constructor
 
-Inizializza la nuova istanza di[`MboxLoadOptions`](../../mboxloadoptions) classe.
+Inizializza una nuova istanza di[`MboxLoadOptions`](../../mboxloadoptions) classe.
 
 ```csharp
 public MboxLoadOptions()

@@ -3,7 +3,7 @@ title: ConversionNotSupportedException
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Exception GroupDocs levée lorsque la conversion du fichier source au type de fichier cible nest pas prise en charge
 type: docs
-weight: 690
+weight: 750
 url: /fr/net/groupdocs.conversion.exceptions/conversionnotsupportedexception/
 ---
 ## ConversionNotSupportedException class

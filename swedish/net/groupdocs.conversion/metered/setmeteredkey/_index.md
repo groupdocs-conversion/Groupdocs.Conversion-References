@@ -16,7 +16,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| publicKey | String | Den offentliga nyckeln. |
+| publicKey | String | Den publika nyckeln. |
 | privateKey | String | Den privata nyckeln. |
 
 ### Exempel

@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Varsayılan alan metni Konumdur.
+description: Varsayılan alan metni Konum şeklindedir.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.options.load/emailfield/location/
 ---
 ## EmailField.Location field
 
-Varsayılan alan metni "Konum"dur.
+Varsayılan alan metni "Konum" şeklindedir.
 
 ```csharp
 public static readonly EmailField Location;

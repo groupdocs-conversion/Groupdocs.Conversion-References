@@ -1,14 +1,14 @@
 ---
 title: TextLine
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示文本作为识别过程的结果从图像中提取
+description: 表示文本作为其识别过程的结果从图像中提取
 type: docs
-weight: 1230
+weight: 1360
 url: /zh/net/groupdocs.conversion.integration.ocr/textline/
 ---
 ## TextLine class
 
-表示文本，作为识别过程的结果从图像中提取。
+表示文本，作为其识别过程的结果从图像中提取。
 
 ```csharp
 public class TextLine

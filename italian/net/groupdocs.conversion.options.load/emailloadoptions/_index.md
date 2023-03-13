@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti email.
 type: docs
-weight: 1900
+weight: 2110
 url: /it/net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class
@@ -18,7 +18,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | Nome | Descrizione |
 | --- | --- |
-| [EmailLoadOptions](emailloadoptions)() | Inizializza la nuova istanza di[`EmailLoadOptions`](../emailloadoptions) classe. |
+| [EmailLoadOptions](emailloadoptions)() | Inizializza una nuova istanza di[`EmailLoadOptions`](../emailloadoptions) classe. |
 
 ## Proprietà
 
@@ -47,7 +47,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [Clone](../../groupdocs.conversion.options.load/emailloadoptions/clone)() | Clona l'istanza corrente. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

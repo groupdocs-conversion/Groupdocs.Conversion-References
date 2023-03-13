@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: Referencia de API de GroupDocs.Conversion para .NET
-description: Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente. Se debe proporcionar una ruta absoluta al archivo de fuente.
+description: Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente.
 type: docs
 weight: 20
 url: /es/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente. Se debe proporcionar una ruta absoluta al archivo de fuente.
+Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente.
 
 ```csharp
 public string DefaultFont { get; set; }

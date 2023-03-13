@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Definisce le impostazioni per la personalizzazioneConverter./converter comportamento.
 type: docs
-weight: 680
+weight: 740
 url: /it/net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -18,16 +18,16 @@ public sealed class ConverterSettings
 
 | Nome | Descrizione |
 | --- | --- |
-| [ConverterSettings](convertersettings)() | Default_Costruttore |
+| [ConverterSettings](convertersettings)() | Costruttore predefinito |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | L'implementazione della cache utilizzata per memorizzare i risultati di conversione. |
+| [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | L'implementazione della cache utilizzata per archiviare i risultati della conversione. |
 | [FontDirectories](../../groupdocs.conversion/convertersettings/fontdirectories) { get; set; } | Le directory dei caratteri personalizzati percorsi |
 | [Listener](../../groupdocs.conversion/convertersettings/listener) { get; set; } | L'implementazione del listener del convertitore utilizzata per monitorare lo stato e l'avanzamento della conversione |
-| [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | L'implementazione del logger utilizzata per la registrazione del processo di conversione. |
+| [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | L'implementazione del logger utilizzata per registrare il processo di conversione. |
 | [TempFolder](../../groupdocs.conversion/convertersettings/tempfolder) { get; set; } | Cartella temporanea utilizzata per la conversione |
 
 ### Guarda anche

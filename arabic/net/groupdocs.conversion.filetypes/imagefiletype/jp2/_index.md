@@ -3,7 +3,7 @@ title: Jp2
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: JPEG 2000 JP2 هو نظام ترميز للصور وأحدث معايير ضغط الصور. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/jp2 .
 type: docs
-weight: 210
+weight: 190
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/jp2/
 ---
 ## ImageFileType.Jp2 field

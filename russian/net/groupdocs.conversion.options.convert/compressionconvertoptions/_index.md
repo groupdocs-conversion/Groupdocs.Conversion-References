@@ -3,7 +3,7 @@ title: CompressionConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры для преобразования в тип файла сжатия.
 type: docs
-weight: 1320
+weight: 1450
 url: /ru/net/groupdocs.conversion.options.convert/compressionconvertoptions/
 ---
 ## CompressionConvertOptions class

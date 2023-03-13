@@ -3,7 +3,7 @@ title: GetAll
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Gibt alle Aufzählungswerte zurück.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

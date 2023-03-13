@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diTxtLoadOptionsgroupdocs.conversion.options.load/txtloadoptions classe.
+description: Inizializza una nuova istanza diTxtLoadOptionsgroupdocs.conversion.options.load/txtloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/txtloadoptions/txtloadoptions/
 ---
 ## TxtLoadOptions constructor
 
-Inizializza la nuova istanza di[`TxtLoadOptions`](../../txtloadoptions) classe.
+Inizializza una nuova istanza di[`TxtLoadOptions`](../../txtloadoptions) classe.
 
 ```csharp
 public TxtLoadOptions()

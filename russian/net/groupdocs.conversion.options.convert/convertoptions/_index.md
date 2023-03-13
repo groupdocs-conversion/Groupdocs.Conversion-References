@@ -3,7 +3,7 @@ title: ConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Класс общих параметров преобразования.
 type: docs
-weight: 1330
+weight: 1460
 url: /ru/net/groupdocs.conversion.options.convert/convertoptions/
 ---
 ## ConvertOptions class

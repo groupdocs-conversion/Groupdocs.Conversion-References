@@ -11,8 +11,8 @@ is_root: true
 | Spazio dei nomi | Descrizione |
 | --- | --- |
 | [GroupDocs.Conversion](./groupdocs.conversion) | Lo spazio dei nomi fornisce classi per convertire i documenti in tutti i formati di file più diffusi in modo semplice e intuitivo. |
-| [GroupDocs.Conversion.Caching](./groupdocs.conversion.caching) | Lo spazio dei nomi fornisce classi per la personalizzazione del comportamento di memorizzazione nella cache. |
-| [GroupDocs.Conversion.Contracts](./groupdocs.conversion.contracts) | Lo spazio dei nomi fornisce ai membri la possibilità di creare un'istanza e rilasciare il documento di output, gestire le sostituzioni dei caratteri ecc. |
+| [GroupDocs.Conversion.Caching](./groupdocs.conversion.caching) | Lo spazio dei nomi fornisce classi per personalizzare il comportamento della memorizzazione nella cache. |
+| [GroupDocs.Conversion.Contracts](./groupdocs.conversion.contracts) | Lo spazio dei nomi fornisce ai membri la creazione di un'istanza e il rilascio del documento di output, la gestione delle sostituzioni dei caratteri, ecc. |
 | [GroupDocs.Conversion.Exceptions](./groupdocs.conversion.exceptions) | Lo spazio dei nomi fornisce diverse classi di eccezioni. |
 | [GroupDocs.Conversion.FileTypes](./groupdocs.conversion.filetypes) | Lo spazio dei nomi fornisce classi che rappresentano i tipi di file supportati. |
 | [GroupDocs.Conversion.Fluent](./groupdocs.conversion.fluent) | Lo spazio dei nomi fornisce interfacce per la conversione fluida. |

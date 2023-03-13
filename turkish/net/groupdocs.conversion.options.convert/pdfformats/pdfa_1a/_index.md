@@ -1,14 +1,14 @@
 ---
 title: PdfA_1A
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PDF/A1a  Düzey A erişilebilir uygunluk.
+description: PDF/A1a  A Düzeyi erişilebilir uygunluk.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.convert/pdfformats/pdfa_1a/
 ---
 ## PdfFormats.PdfA_1A field
 
-PDF/A-1a – Düzey A (erişilebilir) uygunluk.
+PDF/A-1a – A Düzeyi (erişilebilir) uygunluk.
 
 ```csharp
 public static readonly PdfFormats PdfA_1A;

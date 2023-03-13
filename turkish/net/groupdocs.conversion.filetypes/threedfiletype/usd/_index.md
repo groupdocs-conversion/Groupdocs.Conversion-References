@@ -1,14 +1,14 @@
 ---
 title: Usd
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .usd uzantılı bir dosya dijital içerik oluşturma uygulamaları arasında veri alışverişi ve artırma amacıyla verileri kodlayan bir Evrensel Sahne Tanımı dosya biçimidir. Pixar tarafından geliştirilen USD temel varlıkları modeller gibi veya animasyonu değiştirme yeteneği sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/usd .
+description: .usd uzantılı bir dosya dijital içerik oluşturma uygulamaları arasında veri alışverişi ve artırma amacıyla verileri kodlayan bir Evrensel Sahne Tanımı dosya biçimidir. Pixar tarafından geliştirilen USD temel varlıkları modeller gibi veya animasyonu değiş tokuş etme yeteneği sağlar. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/usd .
 type: docs
 weight: 150
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/usd/
 ---
 ## ThreeDFileType.Usd field
 
-.usd uzantılı bir dosya, dijital içerik oluşturma uygulamaları arasında veri alışverişi ve artırma amacıyla verileri kodlayan bir Evrensel Sahne Tanımı dosya biçimidir. Pixar tarafından geliştirilen USD, temel varlıkları (modeller gibi) veya animasyonu değiştirme yeteneği sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/usd) .
+.usd uzantılı bir dosya, dijital içerik oluşturma uygulamaları arasında veri alışverişi ve artırma amacıyla verileri kodlayan bir Evrensel Sahne Tanımı dosya biçimidir. Pixar tarafından geliştirilen USD, temel varlıkları (modeller gibi) veya animasyonu değiş tokuş etme yeteneği sağlar. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/usd) .
 
 ```csharp
 public static readonly ThreeDFileType Usd;

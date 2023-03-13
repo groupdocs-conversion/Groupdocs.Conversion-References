@@ -3,7 +3,7 @@ title: PsdDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند Psd
 type: docs
-weight: 410
+weight: 440
 url: /ar/net/groupdocs.conversion.contracts/psddocumentinfo/
 ---
 ## PsdDocumentInfo class

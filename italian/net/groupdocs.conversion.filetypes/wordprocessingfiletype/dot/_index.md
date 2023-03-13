@@ -1,14 +1,14 @@
 ---
 title: Dot
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .DOT sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOC o DOCX. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/dot .
+description: I file con estensione .DOT sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOC o DOCX. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field
 
-I file con estensione .DOT sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOC o DOCX. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/dot) .
+I file con estensione .DOT sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOC o DOCX. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/dot) .
 
 ```csharp
 public static readonly WordProcessingFileType Dot;

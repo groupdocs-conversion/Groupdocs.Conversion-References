@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OTT uzantılı dosyalar OASISin OpenDocument standart biçimine uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/ott .
+description: OTT uzantılı dosyalar uygulamalar tarafından OASISin OpenDocument standart formatına uygun olarak oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field
 
-OTT uzantılı dosyalar, OASIS'in OpenDocument standart biçimine uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/ott) .
+OTT uzantılı dosyalar, uygulamalar tarafından OASIS'in OpenDocument standart formatına uygun olarak oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly WordProcessingFileType Ott;

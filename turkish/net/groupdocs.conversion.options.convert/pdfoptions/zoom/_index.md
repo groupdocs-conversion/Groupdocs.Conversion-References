@@ -3,7 +3,7 @@ title: Zoom
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Yakınlaştırma düzeyini yüzde olarak belirtir. Varsayılan 100.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/zoom/
 ---
 ## PdfOptions.Zoom property

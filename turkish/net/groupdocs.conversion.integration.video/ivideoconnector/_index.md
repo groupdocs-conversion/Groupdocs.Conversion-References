@@ -3,7 +3,7 @@ title: IVideoConnector
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Video belgelerini dönüştürmek için gereken yöntemleri tanımlar.
 type: docs
-weight: 1240
+weight: 1370
 url: /tr/net/groupdocs.conversion.integration.video/ivideoconnector/
 ---
 ## IVideoConnector interface
@@ -18,7 +18,7 @@ public interface IVideoConnector
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertVideo](../../groupdocs.conversion.integration.video/ivideoconnector/convertvideo)(Stream, VideoConvertOptions) | Video dönüştürme bir akış olarak mı sağlanıyor? |
+| [ConvertVideo](../../groupdocs.conversion.integration.video/ivideoconnector/convertvideo)(Stream, VideoConvertOptions) | Video dönüştürme bir akış olarak sağlanır mı. |
 
 ### Ayrıca bakınız
 

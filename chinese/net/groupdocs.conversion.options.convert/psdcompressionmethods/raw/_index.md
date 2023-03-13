@@ -1,14 +1,14 @@
 ---
 title: Raw
 second_title: GroupDocs.Conversion for .NET API 参考
-description: RAW.
+description: 原始.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/psdcompressionmethods/raw/
 ---
 ## PsdCompressionMethods.Raw field
 
-RAW.
+原始.
 
 ```csharp
 public static readonly PsdCompressionMethods Raw;

@@ -1,14 +1,14 @@
 ---
 title: EpsDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 包含 Ps 文档元数据
+description: 包含ps文档metadata
 type: docs
 weight: 200
 url: /zh/net/groupdocs.conversion.contracts/epsdocumentinfo/
 ---
 ## EpsDocumentInfo class
 
-包含 Ps 文档元数据
+包含ps文档metadata
 
 ```csharp
 public class EpsDocumentInfo : ImageDocumentInfo
@@ -18,14 +18,14 @@ public class EpsDocumentInfo : ImageDocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BitsPerPixel](../../groupdocs.conversion.contracts/imagedocumentinfo/bitsperpixel) { get; } | 获取每个像素的位数 |
+| [BitsPerPixel](../../groupdocs.conversion.contracts/imagedocumentinfo/bitsperpixel) { get; } | 获取每像素位数 |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
 | [Height](../../groupdocs.conversion.contracts/imagedocumentinfo/height) { get; } | 获取高度 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 | [Width](../../groupdocs.conversion.contracts/imagedocumentinfo/width) { get; } | 获取宽度 |
 
 ### 也可以看看

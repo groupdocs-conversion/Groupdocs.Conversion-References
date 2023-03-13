@@ -1,14 +1,14 @@
 ---
 title: WatermarkFont
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果应用了文本水印则为水印字体
+description: 应用文本水印时的水印字体
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/watermarktextoptions/watermarkfont/
 ---
 ## WatermarkTextOptions.WatermarkFont property
 
-如果应用了文本水印，则为水印字体
+应用文本水印时的水印字体
 
 ```csharp
 public Font WatermarkFont { get; set; }

@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Définit les paramètres de personnalisationConverter./converter comportement.
 type: docs
-weight: 680
+weight: 740
 url: /fr/net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -18,7 +18,7 @@ public sealed class ConverterSettings
 
 | Nom | La description |
 | --- | --- |
-| [ConverterSettings](convertersettings)() | Default_Constructor |
+| [ConverterSettings](convertersettings)() | Constructeur par défaut |
 
 ## Propriétés
 

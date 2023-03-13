@@ -1,14 +1,14 @@
 ---
 title: Vstm
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung VSTM sind Vorlagendateien die mit Microsoft Visio erstellt wurden und Makros unterstützen. Im Gegensatz zu VSDXDateien können aus VSTMVorlagen erstellte Dateien Makros ausführen die in VBACode Visual Basic for Applications entwickelt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vstm .
+description: Dateien mit der Erweiterung VSTM sind Vorlagendateien die mit Microsoft Visio erstellt wurden und Makros unterstützen. Im Gegensatz zu VSDXDateien können aus VSTMVorlagen erstellte Dateien Makros ausführen die in VBACode Visual Basic for Applications entwickelt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vstm .
 type: docs
 weight: 110
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vstm/
 ---
 ## DiagramFileType.Vstm field
 
-Dateien mit der Erweiterung VSTM sind Vorlagendateien, die mit Microsoft Visio erstellt wurden und Makros unterstützen. Im Gegensatz zu VSDX-Dateien können aus VSTM-Vorlagen erstellte Dateien Makros ausführen, die in VBA-Code (Visual Basic for Applications) entwickelt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vstm) .
+Dateien mit der Erweiterung VSTM sind Vorlagendateien, die mit Microsoft Visio erstellt wurden und Makros unterstützen. Im Gegensatz zu VSDX-Dateien können aus VSTM-Vorlagen erstellte Dateien Makros ausführen, die in VBA-Code (Visual Basic for Applications) entwickelt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vstm) .
 
 ```csharp
 public static readonly DiagramFileType Vstm;

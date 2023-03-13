@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdfye özel dönüştürme seçenekleri
+description: Pdfye özgü dönüştürme seçenekleri
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions/
 ---
 ## PdfConvertOptions.PdfOptions property
 
-Pdf'ye özel dönüştürme seçenekleri
+Pdf'ye özgü dönüştürme seçenekleri
 
 ```csharp
 public PdfOptions PdfOptions { get; set; }

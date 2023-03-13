@@ -17,7 +17,7 @@ public delegate void ConvertedDocumentStream(Stream stream, string sourceFileNam
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 转换后的文档流 |
-| sourceFileName | String | 转换后文档的名称 |
+| sourceFileName | String | 转换文件的名称 |
 
 ### 也可以看看
 

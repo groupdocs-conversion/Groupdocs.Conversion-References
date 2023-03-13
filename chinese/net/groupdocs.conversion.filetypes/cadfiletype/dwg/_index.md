@@ -1,14 +1,14 @@
 ---
 title: Dwg
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 DWG 扩展名的文件代表用于包含 2D 和 3D 设计数据的专有二进制文件与作为 ASCII 文件的 DXF 一样DWG 代表 CAD计算机辅助设计图纸的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dwg.
+description: 具有 DWG 扩展名的文件表示用于包含 2D 和 3D 设计数据的专有二进制文件与作为 ASCII 文件的 DXF 一样DWG 代表 CAD计算机辅助设计图纸的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dwg.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/dwg/
 ---
 ## CadFileType.Dwg field
 
-带有 DWG 扩展名的文件代表用于包含 2D 和 3D 设计数据的专有二进制文件。与作为 ASCII 文件的 DXF 一样，DWG 代表 CAD（计算机辅助设计）图纸的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwg).
+具有 DWG 扩展名的文件表示用于包含 2D 和 3D 设计数据的专有二进制文件。与作为 ASCII 文件的 DXF 一样，DWG 代表 CAD（计算机辅助设计）图纸的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwg).
 
 ```csharp
 public static readonly CadFileType Dwg;

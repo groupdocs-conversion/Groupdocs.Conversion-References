@@ -1,14 +1,14 @@
 ---
 title: ColorMode
 second_title: GroupDocs.Conversion for .NET API 参考
-description: JPG色彩模式
+description: Jpg 颜色模式.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.convert/jpegoptions/colormode/
 ---
 ## JpegOptions.ColorMode property
 
-JPG色彩模式。
+Jpg 颜色模式.
 
 ```csharp
 public JpgColorModes ColorMode { get; set; }

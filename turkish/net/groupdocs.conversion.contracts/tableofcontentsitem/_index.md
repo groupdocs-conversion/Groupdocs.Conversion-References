@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: İçerir İçindekiler öğesi metadata
 type: docs
-weight: 500
+weight: 540
 url: /tr/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

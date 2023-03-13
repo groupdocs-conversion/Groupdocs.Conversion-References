@@ -3,7 +3,7 @@ title: CompressionConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till komprimeringsfiltyp.
 type: docs
-weight: 1320
+weight: 1450
 url: /sv/net/groupdocs.conversion.options.convert/compressionconvertoptions/
 ---
 ## CompressionConvertOptions class

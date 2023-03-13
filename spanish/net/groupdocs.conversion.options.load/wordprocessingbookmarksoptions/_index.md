@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para manejar marcadores en WordProcessing
 type: docs
-weight: 2090
+weight: 2350
 url: /es/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class

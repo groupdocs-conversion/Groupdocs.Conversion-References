@@ -3,7 +3,7 @@ title: Dotx
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 带有 DOTX 扩展名的文件是由 Microsoft Word 创建的模板文件具有用于生成更多 DOCX 文件的预格式化设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/dotx
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

@@ -1,14 +1,14 @@
 ---
 title: Lossless
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 无损压缩
+description: 无损压缩.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/jpgcompressionmethods/lossless/
 ---
 ## JpgCompressionMethods.Lossless field
 
-无损压缩。
+无损压缩.
 
 ```csharp
 public static readonly JpgCompressionMethods Lossless;

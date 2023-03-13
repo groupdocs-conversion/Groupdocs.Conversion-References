@@ -3,7 +3,7 @@ title: Ico
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med tillägget ICO är bildfiltyper som används som ikon för representation av ett program på Microsoft Windows. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 170
+weight: 150
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/ico/
 ---
 ## ImageFileType.Ico field

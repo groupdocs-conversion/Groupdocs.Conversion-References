@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 CSV逗号分隔值扩展名的文件表示纯文本文件其中包含带有逗号分隔值的数据记录 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/csv
+description: 具有 CSV逗号分隔值扩展名的文件表示包含具有逗号分隔值的数据记录的纯文本文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/csv
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/
 ---
 ## SpreadsheetFileType.Csv field
 
-带有 CSV（逗号分隔值）扩展名的文件表示纯文本文件，其中包含带有逗号分隔值的数据记录。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/csv)
+具有 CSV（逗号分隔值）扩展名的文件表示包含具有逗号分隔值的数据记录的纯文本文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/csv)
 
 ```csharp
 public static readonly SpreadsheetFileType Csv;

@@ -1,14 +1,14 @@
 ---
 title: Dotm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: DOTM uzantılı bir dosya Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/dotm .
+description: DOTM uzantılı bir dosya Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field
 
-DOTM uzantılı bir dosya, Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/dotm) .
+DOTM uzantılı bir dosya, Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/dotm) .
 
 ```csharp
 public static readonly WordProcessingFileType Dotm;

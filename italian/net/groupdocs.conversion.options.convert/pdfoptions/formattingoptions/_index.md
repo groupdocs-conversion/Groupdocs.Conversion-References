@@ -3,7 +3,7 @@ title: FormattingOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni di formattazione pdf
 type: docs
-weight: 20
+weight: 30
 url: /it/net/groupdocs.conversion.options.convert/pdfoptions/formattingoptions/
 ---
 ## PdfOptions.FormattingOptions property

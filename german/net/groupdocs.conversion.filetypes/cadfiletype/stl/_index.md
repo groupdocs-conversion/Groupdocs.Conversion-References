@@ -1,14 +1,14 @@
 ---
 title: Stl
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: STL Abkürzung für Stereolithrographie ist ein austauschbares Dateiformat das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping 3DDruck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/stl .
+description: STL Abkürzung für Stereolithrographie ist ein austauschbares Dateiformat das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping 3DDruck und computergestützte Fertigung. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/stl .
 type: docs
 weight: 120
 url: /de/net/groupdocs.conversion.filetypes/cadfiletype/stl/
 ---
 ## CadFileType.Stl field
 
-STL, Abkürzung für Stereolithrographie, ist ein austauschbares Dateiformat, das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping, 3D-Druck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/stl) .
+STL, Abkürzung für Stereolithrographie, ist ein austauschbares Dateiformat, das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping, 3D-Druck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/stl) .
 
 ```csharp
 public static readonly CadFileType Stl;

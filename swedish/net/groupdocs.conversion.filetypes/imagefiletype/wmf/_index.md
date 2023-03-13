@@ -3,7 +3,7 @@ title: Wmf
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med WMFtillägg representerar Microsoft Windows Metafile WMF för lagring av vektor och bitmappsbilddata. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 390
+weight: 360
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/wmf/
 ---
 ## ImageFileType.Wmf field

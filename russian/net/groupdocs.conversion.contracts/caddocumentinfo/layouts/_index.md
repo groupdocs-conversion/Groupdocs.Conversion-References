@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 Макеты в документе
 
 ```csharp
-public IEnumerable<string> Layouts { get; }
+public IList<string> Layouts { get; }
 ```
 
 ### Смотрите также

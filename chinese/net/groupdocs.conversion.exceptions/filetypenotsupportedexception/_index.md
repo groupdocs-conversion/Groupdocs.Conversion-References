@@ -1,14 +1,14 @@
 ---
 title: FileTypeNotSupportedException
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 不支持文件类型时抛出GroupDocs异常
+description: 不支持文件类型时抛出 GroupDocs 异常
 type: docs
-weight: 710
+weight: 770
 url: /zh/net/groupdocs.conversion.exceptions/filetypenotsupportedexception/
 ---
 ## FileTypeNotSupportedException class
 
-不支持文件类型时抛出GroupDocs异常
+不支持文件类型时抛出 GroupDocs 异常
 
 ```csharp
 public sealed class FileTypeNotSupportedException : GroupDocsConversionException
@@ -19,8 +19,8 @@ public sealed class FileTypeNotSupportedException : GroupDocsConversionException
 | 姓名 | 描述 |
 | --- | --- |
 | [FileTypeNotSupportedException](filetypenotsupportedexception#constructor)() | 默认构造函数 |
-| [FileTypeNotSupportedException](filetypenotsupportedexception#constructor_1)(FileType) | 创建一个带有 FileType 的异常实例 |
-| [FileTypeNotSupportedException](filetypenotsupportedexception#constructor_2)(string) | 创建带有消息的异常实例 |
+| [FileTypeNotSupportedException](filetypenotsupportedexception#constructor_1)(FileType) | 创建具有 FileType 的异常实例 |
+| [FileTypeNotSupportedException](filetypenotsupportedexception#constructor_2)(string) | 创建一个带有消息 的异常实例 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ThreeDFileType
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Определяет 3Dдокументы Включает следующие типы Fbx./threedfiletype/fbx Узнайте больше о форматах 3Dздесьhttps//wiki.fileformat.com/3d .
+description: Определяет 3Dдокументы Включает следующие типы Fbx./threedfiletype/fbxThreeDS./threedfiletype/threedsThreeMF./threedfiletype/threemfAmf./threedfiletype/amfAse./threedfiletype/aseRvm./threedfiletype/rvmDae./threedfiletype/daeDrc./threedfiletype/drcGltf./threedfiletype/gltfObj./threedfiletype/objPly./threedfiletype/plyJt./threedfiletype/jtU3d./threedfiletype/u3dUsd./threedfiletype/usdUsdz./threedfiletype/usdzVrml./threedfiletype/vrmlX./threedfiletype/x Узнайте больше о форматах 3Dздесьhttps//wiki.fileformat.com/3d .
 type: docs
-weight: 940
+weight: 1060
 url: /ru/net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class
 
-Определяет 3D-документы Включает следующие типы: [`Fbx`](./fbx) Узнайте больше о форматах 3D[здесь](https://wiki.fileformat.com/3d) .
+Определяет 3D-документы Включает следующие типы: [`Fbx`](./fbx)[`ThreeDS`](./threeds)[`ThreeMF`](./threemf)[`Amf`](./amf)[`Ase`](./ase)[`Rvm`](./rvm)[`Dae`](./dae)[`Drc`](./drc)[`Gltf`](./gltf)[`Obj`](./obj)[`Ply`](./ply)[`Jt`](./jt)[`U3d`](./u3d)[`Usd`](./usd)[`Usdz`](./usdz)[`Vrml`](./vrml)[`X`](./x) Узнайте больше о форматах 3D[здесь](https://wiki.fileformat.com/3d) .
 
 ```csharp
 public sealed class ThreeDFileType : FileType
@@ -34,7 +34,7 @@ public sealed class ThreeDFileType : FileType
 | Имя | Описание |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит хеш-функцией по умолчанию. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Строковое представление |

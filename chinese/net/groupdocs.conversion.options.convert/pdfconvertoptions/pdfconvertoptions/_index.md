@@ -1,14 +1,14 @@
 ---
 title: PdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例PdfConvertOptionsgroupdocs.conversion.options.convert/pdfconvertoptions类.
+description: 初始化新实例PdfConvertOptionsgroupdocs.conversion.options.convert/pdfconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/pdfconvertoptions/pdfconvertoptions/
 ---
 ## PdfConvertOptions constructor
 
-初始化的新实例[`PdfConvertOptions`](../../pdfconvertoptions)类.
+初始化新实例[`PdfConvertOptions`](../../pdfconvertoptions)类.
 
 ```csharp
 public PdfConvertOptions()

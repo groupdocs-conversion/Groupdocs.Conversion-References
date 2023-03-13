@@ -3,7 +3,7 @@ title: IConversionByPageCompleted
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: ConversionSeite bearbeiten abgeschlossen
 type: docs
-weight: 970
+weight: 1100
 url: /de/net/groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---
 ## IConversionByPageCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | Name | Beschreibung |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | Konvertierten Seitenstrom empfangen. Wird nur ausgelöst, wenn „Save(SaveDocumentStreamForFileType)“ gesetzt ist. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | Konvertierten Seitenstrom empfangen. Wird nur ausgelöst, wenn „ConvertTo(convertedStreamProvider)“ gesetzt ist. |
 
 ### Siehe auch
 

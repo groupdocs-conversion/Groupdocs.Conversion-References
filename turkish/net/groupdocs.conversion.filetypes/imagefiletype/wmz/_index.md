@@ -3,7 +3,7 @@ title: Wmz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Bir WMZ dosyası aslında bir Microsoft WMF dosyasının sıkıştırılmış bir sürümüdür. Bu dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir EWMFMF dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında dosyaya .wmz dosya uzantısı verilir.
 type: docs
-weight: 400
+weight: 370
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

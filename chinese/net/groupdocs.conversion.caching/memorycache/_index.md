@@ -1,14 +1,14 @@
 ---
 title: MemoryCache
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 内存缓存行为表示缓存存储在memory 中
+description: 内存缓存行为表示cache存放在memory
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.caching/memorycache/
 ---
 ## MemoryCache class
 
-内存缓存行为。表示缓存存储在memory 中
+内存缓存行为。表示cache存放在memory
 
 ```csharp
 public sealed class MemoryCache : ICache
@@ -18,21 +18,21 @@ public sealed class MemoryCache : ICache
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MemoryCache](memorycache)() | 创建 MemoryCache 类的新实例 |
+| [MemoryCache](memorycache)() | 创建 MemoryCache class 的新实例 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetKeys](../../groupdocs.conversion.caching/memorycache/getkeys)(string) | 返回所有匹配过滤器的键。 |
-| [Set](../../groupdocs.conversion.caching/memorycache/set)(string, object) | 将缓存条目插入缓存。 |
+| [GetKeys](../../groupdocs.conversion.caching/memorycache/getkeys)(string) | 返回匹配过滤器的所有键。 |
+| [Set](../../groupdocs.conversion.caching/memorycache/set)(string, object) | 将缓存条目插入到缓存中。 |
 | [TryGetValue](../../groupdocs.conversion.caching/memorycache/trygetvalue)(string, out object) | 获取与此键关联的条目（如果存在）。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于缓存和优化转换过程性能： [缓存转换结果](https://docs.groupdocs.com/display/conversionnet/Caching)
+* 有关缓存和优化转换过程性能的更多信息： [缓存转换结果](https://docs.groupdocs.com/display/conversionnet/Caching)
 
 ### 也可以看看
 

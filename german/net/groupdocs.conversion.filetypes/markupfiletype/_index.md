@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Definiert Markup und Webdateiformate. Enthält die folgenden Dateitypen Htm./markupfiletype/htm  Html./markupfiletype/html . Erfahren Sie mehr über Bildformatehierhttps//wiki.fileformat.com/web .
+description: Definiert Markup und Webdateiformate. Enthält die folgenden Dateitypen Htm  Html . Erfahren Sie mehr über BildformateHierhttps//wiki.fileformat.com/web .
 type: docs
-weight: 870
+weight: 970
 url: /de/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-Definiert Markup- und Webdateiformate. Enthält die folgenden Dateitypen: [`Htm`](./htm) , [`Html`](./html) . Erfahren Sie mehr über Bildformate[hier](https://wiki.fileformat.com/web) .
+Definiert Markup- und Webdateiformate. Enthält die folgenden Dateitypen: Htm , Html . Erfahren Sie mehr über Bildformate[Hier](https://wiki.fileformat.com/web) .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | Serialisierungskonstruktor |
 
 ## Eigenschaften
 
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | Name | Beschreibung |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Vergleicht aktuelles Objekt mit anderem. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Dient als Standard-Hash-Funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Zeichenfolgendarstellung |
-
-## Felder
-
-| Name | Beschreibung |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | Das CHM-Dateiformat stellt eine Microsoft HTML-Hilfedatei dar, die aus einer Sammlung von HTML-Seiten besteht. Es bietet einen Index für den schnellen Zugriff auf die Themen und die Navigation zu verschiedenen Teilen des Hilfedokuments. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/web/chm) . |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM (Hyper Text Markup Language) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/html) . |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML (Hyper Text Markup Language) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/html) . |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | Dateien mit der Erweiterung MHTML stellen ein Archivformat für Webseiten dar, das von einer Reihe verschiedener Anwendungen erstellt werden kann. Das Format wird als Archivformat bezeichnet, da es den Web-HTML-Code und die zugehörigen Ressourcen in einer einzigen Datei speichert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/mhtml) . |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | Dateien mit der Erweiterung MHTML stellen ein Archivformat für Webseiten dar, das von einer Reihe verschiedener Anwendungen erstellt werden kann. Das Format wird als Archivformat bezeichnet, da es den Web-HTML-Code und die zugehörigen Ressourcen in einer einzigen Datei speichert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/mhtml) . |
 
 ### Siehe auch
 

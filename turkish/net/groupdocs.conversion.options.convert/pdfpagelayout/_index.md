@@ -3,7 +3,7 @@ title: PdfPageLayout
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf sayfa düzenini açıklar.
 type: docs
-weight: 1620
+weight: 1800
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagelayout/
 ---
 ## PdfPageLayout class
@@ -18,7 +18,7 @@ public class PdfPageLayout : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfPageLayout](pdfpagelayout)() | Serileştirme yapıcısı |
+| [PdfPageLayout](pdfpagelayout)() | Serileştirme oluşturucu |
 
 ## yöntemler
 
@@ -35,12 +35,12 @@ public class PdfPageLayout : Enumeration
 | İsim | Tanım |
 | --- | --- |
 | static readonly [Default](../../groupdocs.conversion.options.convert/pdfpagelayout/default) | Varsayılan düzen. |
-| static readonly [OneColumn](../../groupdocs.conversion.options.convert/pdfpagelayout/onecolumn) | Sayfaları tek bir sütunda görüntüleyin. |
+| static readonly [OneColumn](../../groupdocs.conversion.options.convert/pdfpagelayout/onecolumn) | Sayfaları bir sütunda görüntüleyin. |
 | static readonly [SinglePage](../../groupdocs.conversion.options.convert/pdfpagelayout/singlepage) | Tek sayfa. |
-| static readonly [TwoColumnLeft](../../groupdocs.conversion.options.convert/pdfpagelayout/twocolumnleft) | Sayfaları, solda tek sayılı sayfalar olacak şekilde iki sütun halinde görüntüleyin. |
-| static readonly [TwoColumnRight](../../groupdocs.conversion.options.convert/pdfpagelayout/twocolumnright) | Sayfaları sağda tek sayılı sayfalar olacak şekilde iki sütun halinde görüntüleyin. |
-| static readonly [TwoPagesLeft](../../groupdocs.conversion.options.convert/pdfpagelayout/twopagesleft) | Solda tek sayılı sayfalar olacak şekilde sayfaları birer birer görüntüleyin. |
-| static readonly [TwoPagesRight](../../groupdocs.conversion.options.convert/pdfpagelayout/twopagesright) | Sağda tek sayılı sayfalar olacak şekilde sayfaları birer birer görüntüleyin. |
+| static readonly [TwoColumnLeft](../../groupdocs.conversion.options.convert/pdfpagelayout/twocolumnleft) | Solda tek sayılı sayfalar olacak şekilde sayfaları iki sütun halinde görüntüleyin. |
+| static readonly [TwoColumnRight](../../groupdocs.conversion.options.convert/pdfpagelayout/twocolumnright) | Sağda tek sayılı sayfalar olacak şekilde sayfaları iki sütun halinde görüntüleyin. |
+| static readonly [TwoPagesLeft](../../groupdocs.conversion.options.convert/pdfpagelayout/twopagesleft) | Solda tek sayılı sayfalar olacak şekilde sayfaları ikişer ikişer görüntüleyin. |
+| static readonly [TwoPagesRight](../../groupdocs.conversion.options.convert/pdfpagelayout/twopagesright) | Tek sayılı sayfalar sağda olacak şekilde sayfaları ikişer ikişer görüntüleyin. |
 
 ### Ayrıca bakınız
 

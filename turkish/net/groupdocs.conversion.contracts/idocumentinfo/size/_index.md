@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: bytes olarak belge boyutu
+description: Bayt cinsinden belge boyutu
 type: docs
 weight: 60
 url: /tr/net/groupdocs.conversion.contracts/idocumentinfo/size/
 ---
 ## IDocumentInfo.Size property
 
-bytes olarak belge boyutu
+Bayt cinsinden belge boyutu
 
 ```csharp
 public long Size { get; }

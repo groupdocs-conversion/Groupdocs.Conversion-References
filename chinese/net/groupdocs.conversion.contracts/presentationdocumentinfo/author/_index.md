@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取作者
+description: 获取 author
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.contracts/presentationdocumentinfo/author/
 ---
 ## PresentationDocumentInfo.Author property
 
-获取作者
+获取 author
 
 ```csharp
 public string Author { get; }

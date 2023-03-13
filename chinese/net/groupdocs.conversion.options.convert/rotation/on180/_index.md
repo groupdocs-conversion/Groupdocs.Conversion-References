@@ -1,14 +1,14 @@
 ---
 title: On180
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 180 度
+description: 180 度.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/rotation/on180/
 ---
 ## Rotation.On180 field
 
-180 度。
+180 度.
 
 ```csharp
 public static readonly Rotation On180;

@@ -1,14 +1,14 @@
 ---
 title: Vsx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen die aus Zeichnungen und Formen bestehen die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. VSXDateien werden im XMLDateiformat gespeichert und wurden bis Visio 2013 unterstützt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vsx .
+description: Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen die aus Zeichnungen und Formen bestehen die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. VSXDateien werden im XMLDateiformat gespeichert und wurden bis Visio 2013 unterstützt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vsx .
 type: docs
 weight: 130
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vsx/
 ---
 ## DiagramFileType.Vsx field
 
-Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen, die aus Zeichnungen und Formen bestehen, die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. VSX-Dateien werden im XML-Dateiformat gespeichert und wurden bis Visio 2013 unterstützt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vsx) .
+Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen, die aus Zeichnungen und Formen bestehen, die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. VSX-Dateien werden im XML-Dateiformat gespeichert und wurden bis Visio 2013 unterstützt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vsx) .
 
 ```csharp
 public static readonly DiagramFileType Vsx;

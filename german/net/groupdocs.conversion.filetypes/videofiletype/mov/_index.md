@@ -1,14 +1,14 @@
 ---
 title: Mov
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Das MOV oder QuickTimeDateiformat ist ein MultimediaContainer der von Apple entwickelt wurde enthält einen oder mehrere Tracks jeder Track enthält einen bestimmten Datentyp dh Video Audio Text usw. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/video/mov/ .
+description: Das MOV oder QuickTimeDateiformat ist ein MultimediaContainer der von Apple entwickelt wurde enthält einen oder mehrere Tracks jeder Track enthält einen bestimmten Datentyp dh Video Audio Text usw. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/video/mov/ .
 type: docs
 weight: 50
 url: /de/net/groupdocs.conversion.filetypes/videofiletype/mov/
 ---
 ## VideoFileType.Mov field
 
-Das MOV- oder QuickTime-Dateiformat ist ein Multimedia-Container, der von Apple entwickelt wurde: enthält einen oder mehrere Tracks, jeder Track enthält einen bestimmten Datentyp, dh Video, Audio, Text usw. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/video/mov/) .
+Das MOV- oder QuickTime-Dateiformat ist ein Multimedia-Container, der von Apple entwickelt wurde: enthält einen oder mehrere Tracks, jeder Track enthält einen bestimmten Datentyp, dh Video, Audio, Text usw. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/video/mov/) .
 
 ```csharp
 public static readonly VideoFileType Mov;

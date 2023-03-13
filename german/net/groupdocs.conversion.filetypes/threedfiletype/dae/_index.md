@@ -1,14 +1,14 @@
 ---
 title: Dae
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine DAEDatei ist ein Digital Asset ExchangeDateiformat das für den Datenaustausch zwischen interaktiven 3DAnwendungen verwendet wird. Dieses Dateiformat basiert auf dem XMLSchema COLLADA COLLAborative Design Activity einem offenen StandardXMLSchema für den Austausch digitaler Assets zwischen Grafiksoftwareanwendungen. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/dae .
+description: Eine DAEDatei ist ein Digital Asset ExchangeDateiformat das für den Datenaustausch zwischen interaktiven 3DAnwendungen verwendet wird. Dieses Dateiformat basiert auf dem XMLSchema COLLADA COLLAborative Design Activity einem offenen StandardXMLSchema für den Austausch digitaler Assets zwischen Grafiksoftwareanwendungen. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/dae .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/dae/
 ---
 ## ThreeDFileType.Dae field
 
-Eine DAE-Datei ist ein Digital Asset Exchange-Dateiformat, das für den Datenaustausch zwischen interaktiven 3D-Anwendungen verwendet wird. Dieses Dateiformat basiert auf dem XML-Schema COLLADA (COLLAborative Design Activity), einem offenen Standard-XML-Schema für den Austausch digitaler Assets zwischen Grafiksoftwareanwendungen. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/dae) .
+Eine DAE-Datei ist ein Digital Asset Exchange-Dateiformat, das für den Datenaustausch zwischen interaktiven 3D-Anwendungen verwendet wird. Dieses Dateiformat basiert auf dem XML-Schema COLLADA (COLLAborative Design Activity), einem offenen Standard-XML-Schema für den Austausch digitaler Assets zwischen Grafiksoftwareanwendungen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/dae) .
 
 ```csharp
 public static readonly ThreeDFileType Dae;

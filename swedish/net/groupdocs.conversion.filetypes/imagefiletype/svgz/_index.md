@@ -3,7 +3,7 @@ title: Svgz
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En SVGZfil är faktiskt en komprimerad version av en SVGfil. Detta möjliggör enklare distribution av filen online. När en SVGfil komprimeras med .GZIPkomprimeringsalgoritmen får den filtillägget .svgz.
 type: docs
-weight: 340
+weight: 310
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 ---
 ## ImageFileType.Svgz field

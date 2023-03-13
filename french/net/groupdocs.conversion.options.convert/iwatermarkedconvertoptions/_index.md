@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Représente les options de conversion qui permettent de filigraner la sortie de la conversion
 type: docs
-weight: 1460
+weight: 1620
 url: /fr/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

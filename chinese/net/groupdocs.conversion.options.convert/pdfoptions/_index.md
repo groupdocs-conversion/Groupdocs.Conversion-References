@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换为 Pdf 文件类型的选项
 type: docs
-weight: 1610
+weight: 1790
 url: /zh/net/groupdocs.conversion.options.convert/pdfoptions/
 ---
 ## PdfOptions class
@@ -24,21 +24,22 @@ public sealed class PdfOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
+| [DocumentInfo](../../groupdocs.conversion.options.convert/pdfoptions/documentinfo) { get; set; } | PDF文档的元信息. |
 | [FormattingOptions](../../groupdocs.conversion.options.convert/pdfoptions/formattingoptions) { get; set; } | Pdf 格式选项 |
 | [Grayscale](../../groupdocs.conversion.options.convert/pdfoptions/grayscale) { get; set; } | 将 PDF 从 RGB 颜色空间转换为灰度 |
 | [Linearize](../../groupdocs.conversion.options.convert/pdfoptions/linearize) { get; set; } | 为 Web 线性化 PDF 文档 |
 | [OptimizationOptions](../../groupdocs.conversion.options.convert/pdfoptions/optimizationoptions) { get; set; } | Pdf 优化选项 |
-| [PdfFormat](../../groupdocs.conversion.options.convert/pdfoptions/pdfformat) { get; set; } | 设置转换后文档的pdf格式。 |
-| [RemovePdfACompliance](../../groupdocs.conversion.options.convert/pdfoptions/removepdfacompliance) { get; set; } | 删除 Pdf-A 合规性 |
-| [Zoom](../../groupdocs.conversion.options.convert/pdfoptions/zoom) { get; set; } | 以百分比指定缩放级别。默认值为 100. |
+| [PdfFormat](../../groupdocs.conversion.options.convert/pdfoptions/pdfformat) { get; set; } | 设置转换文档的pdf格式。 |
+| [RemovePdfACompliance](../../groupdocs.conversion.options.convert/pdfoptions/removepdfacompliance) { get; set; } | 删除 Pdf-A Compliance |
+| [Zoom](../../groupdocs.conversion.options.convert/pdfoptions/zoom) { get; set; } | 以百分比指定缩放级别。默认为 100. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

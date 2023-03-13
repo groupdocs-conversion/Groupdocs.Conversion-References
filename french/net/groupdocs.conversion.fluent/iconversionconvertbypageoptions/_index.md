@@ -3,7 +3,7 @@ title: IConversionConvertByPageOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion de conversion
 type: docs
-weight: 1050
+weight: 1180
 url: /fr/net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/
 ---
 ## IConversionConvertByPageOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertByPageOptions
 
 | Nom | La description |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(ConvertOptions) | Définir les options de conversion |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptionsProvider) | Définir les options de conversion |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions)(ConvertOptions) | Définir les options de conversion |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | Définir les options de conversion |
 
 ### Voir également
 

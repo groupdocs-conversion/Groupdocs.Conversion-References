@@ -1,14 +1,14 @@
 ---
 title: Aac
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: AAC Gelişmiş Ses Kodlaması kayıplı ses sıkıştırmasına dayalı ses dosyalarını temsil eden dijital ses kodlama standardını ifade eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/aac/ .
+description: AAC Gelişmiş Ses Kodlaması kayıplı ses sıkıştırmasına dayalı ses dosyalarını temsil eden dijital ses kodlama standardını ifade eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/aac/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/aac/
 ---
 ## AudioFileType.Aac field
 
-AAC (Gelişmiş Ses Kodlaması), kayıplı ses sıkıştırmasına dayalı ses dosyalarını temsil eden dijital ses kodlama standardını ifade eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/aac/) .
+AAC (Gelişmiş Ses Kodlaması), kayıplı ses sıkıştırmasına dayalı ses dosyalarını temsil eden dijital ses kodlama standardını ifade eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/aac/) .
 
 ```csharp
 public static readonly AudioFileType Aac;

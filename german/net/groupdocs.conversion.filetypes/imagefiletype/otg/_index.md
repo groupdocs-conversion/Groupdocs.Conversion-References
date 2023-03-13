@@ -1,14 +1,14 @@
 ---
 title: Otg
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine OTGDatei ist eine Zeichnungsvorlage die mit dem OpenDocumentStandard erstellt wird der der OASIS Office Applications 1.0Spezifikation folgt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/otg .
+description: Eine OTGDatei ist eine Zeichnungsvorlage die mit dem OpenDocumentStandard erstellt wird der der OASIS Office Applications 1.0Spezifikation folgt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field
 
-Eine OTG-Datei ist eine Zeichnungsvorlage, die mit dem OpenDocument-Standard erstellt wird, der der OASIS Office Applications 1.0-Spezifikation folgt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/otg) .
+Eine OTG-Datei ist eine Zeichnungsvorlage, die mit dem OpenDocument-Standard erstellt wird, der der OASIS Office Applications 1.0-Spezifikation folgt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/otg) .
 
 ```csharp
 public static readonly ImageFileType Otg;

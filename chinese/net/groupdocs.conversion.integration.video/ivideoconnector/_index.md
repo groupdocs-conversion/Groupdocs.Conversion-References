@@ -1,14 +1,14 @@
 ---
 title: IVideoConnector
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义转换视频文档所需的方法
+description: 定义转换视频文件所需的方法
 type: docs
-weight: 1240
+weight: 1370
 url: /zh/net/groupdocs.conversion.integration.video/ivideoconnector/
 ---
 ## IVideoConnector interface
 
-定义转换视频文档所需的方法。
+定义转换视频文件所需的方法。
 
 ```csharp
 public interface IVideoConnector
@@ -18,7 +18,7 @@ public interface IVideoConnector
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ConvertVideo](../../groupdocs.conversion.integration.video/ivideoconnector/convertvideo)(Stream, VideoConvertOptions) | 是否将视频转换作为流提供。 |
+| [ConvertVideo](../../groupdocs.conversion.integration.video/ivideoconnector/convertvideo)(Stream, VideoConvertOptions) | 视频转换是否作为流提供。 |
 
 ### 也可以看看
 

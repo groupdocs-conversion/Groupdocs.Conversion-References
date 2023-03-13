@@ -3,7 +3,7 @@ title: Rtf
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تم تقديمه وتوثيقه بواسطة Microsoft  يمثل Rich Text Format RTF طريقة لترميز النص والرسومات المنسقة للاستخدام داخل التطبيقات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
-weight: 140
+weight: 110
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/rtf/
 ---
 ## WordProcessingFileType.Rtf field

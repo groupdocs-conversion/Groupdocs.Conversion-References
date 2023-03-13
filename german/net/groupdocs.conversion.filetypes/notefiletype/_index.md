@@ -1,14 +1,14 @@
 ---
 title: NoteFileType
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Definiert Notizformate. Enthält die folgenden Dateitypen One./notefiletype/one . Erfahren Sie mehr über Notizformatehierhttps//wiki.fileformat.com/notetaking .
+description: Definiert Notizformate. Enthält die folgenden Dateitypen One./notefiletype/one . Erfahren Sie mehr über NotizformateHierhttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /de/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
 
-Definiert Notizformate. Enthält die folgenden Dateitypen: [`One`](./one) . Erfahren Sie mehr über Notizformate[hier](https://wiki.fileformat.com/note-taking) .
+Definiert Notizformate. Enthält die folgenden Dateitypen: [`One`](./one) . Erfahren Sie mehr über Notizformate[Hier](https://wiki.fileformat.com/note-taking) .
 
 ```csharp
 public sealed class NoteFileType : FileType
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | Name | Beschreibung |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Vergleicht aktuelles Objekt mit anderem. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Dient als Standard-Hash-Funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Zeichenfolgendarstellung |
@@ -43,7 +43,7 @@ public sealed class NoteFileType : FileType
 
 | Name | Beschreibung |
 | --- | --- |
-| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | Dateien mit der Erweiterung .ONE werden von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/note-taking/one) . |
+| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | Dateien mit der Erweiterung .ONE werden von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/note-taking/one) . |
 
 ### Siehe auch
 

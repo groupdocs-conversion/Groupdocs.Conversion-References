@@ -3,7 +3,7 @@ title: IConversionSettingsOrConversionFrom
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Configuración de conversión o fuente de conversión
 type: docs
-weight: 1160
+weight: 1290
 url: /es/net/groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/
 ---
 ## IConversionSettingsOrConversionFrom interface

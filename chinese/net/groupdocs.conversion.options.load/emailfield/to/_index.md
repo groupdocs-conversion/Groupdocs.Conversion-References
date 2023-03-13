@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本为收件人
+description: 默认字段文本为To.
 type: docs
 weight: 190
 url: /zh/net/groupdocs.conversion.options.load/emailfield/to/
 ---
 ## EmailField.To field
 
-默认字段文本为“收件人”。
+默认字段文本为“To”.
 
 ```csharp
 public static readonly EmailField To;

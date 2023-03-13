@@ -3,7 +3,7 @@ title: Converter
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل الفئة الرئيسية التي تتحكم في عملية تحويل المستند.
 type: docs
-weight: 670
+weight: 730
 url: /ar/net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -36,23 +36,23 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 
 | اسم | وصف |
 | --- | --- |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(SaveDocumentStream, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(SaveDocumentStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(SaveDocumentStreamForFileType, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(SaveDocumentStreamForFileType, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(SavePageStream, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(SavePageStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(SavePageStreamForFileType, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(SavePageStreamForFileType, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(Func&lt;FileType, Stream&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(Func&lt;int, FileType, Stream&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(Func&lt;int, Stream&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert)(Func&lt;Stream&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_16)(string, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(SavePageStream, ConvertedPageStream, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ صفحة الوثيقة المحولة بالصفحة. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | تحويل المستند المصدر. يحفظ المستند المحول بالكامل. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | إصدارات الموارد . |
 | [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | الحصول على معلومات المستند المصدر - عدد الصفحات وخصائص المستند الأخرى الخاصة بنوع الملف. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | يحصل على تحويلات محتملة للوثيقة المصدر. |

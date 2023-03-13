@@ -3,7 +3,7 @@ title: CadLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda CADdokument.
 type: docs
-weight: 1840
+weight: 2030
 url: /sv/net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class

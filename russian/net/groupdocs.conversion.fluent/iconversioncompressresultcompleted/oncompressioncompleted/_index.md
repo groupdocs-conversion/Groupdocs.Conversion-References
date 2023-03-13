@@ -11,12 +11,12 @@ url: /ru/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/onco
 Получить поток сжатых документов. Будет срабатывать, только если установлено «Сжатие (параметры CompressionConvertOptions)».
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | Поставщик потока сжатых документов |
+| compressedDocumentStream | Action`1 | Поставщик потока сжатых документов |
 
 ### Возвращаемое значение
 
@@ -25,7 +25,6 @@ public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compre
 ### Смотрите также
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * пространство имен [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * сборка [GroupDocs.Conversion](../../../)

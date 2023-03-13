@@ -3,7 +3,7 @@ title: IConversionByPageCompleted
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Hantera konverteringssidan färdig
 type: docs
-weight: 970
+weight: 1100
 url: /sv/net/groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---
 ## IConversionByPageCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | namn | Beskrivning |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | Ta emot konverterad sidström. Aktiveras endast om "Save(SaveDocumentStreamForFileType)" är inställt. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | Ta emot konverterad sidström. Aktiveras endast om "ConvertTo(convertedStreamProvider)" är inställt. |
 
 ### Se även
 

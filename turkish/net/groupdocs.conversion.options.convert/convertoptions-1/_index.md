@@ -3,7 +3,7 @@ title: ConvertOptionsTFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Soyut genel dönüştürme seçenekleri class.
 type: docs
-weight: 1340
+weight: 1470
 url: /tr/net/groupdocs.conversion.options.convert/convertoptions-1/
 ---
 ## ConvertOptions&lt;TFileType&gt; class

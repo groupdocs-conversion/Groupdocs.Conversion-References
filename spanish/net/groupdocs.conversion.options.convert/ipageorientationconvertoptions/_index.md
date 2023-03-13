@@ -3,7 +3,7 @@ title: IPageOrientationConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Representa opciones de conversión que admiten la orientación de la página
 type: docs
-weight: 1410
+weight: 1570
 url: /es/net/groupdocs.conversion.options.convert/ipageorientationconvertoptions/
 ---
 ## IPageOrientationConvertOptions interface

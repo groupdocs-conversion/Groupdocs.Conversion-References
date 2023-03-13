@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: OpenDocumentTabellenvorlage
+description: Eine Datei mit der Erweiterung .ots ist eine OpenDocumentTabellenvorlagendatei die mit der in Apache OpenOffice enthaltenen CalcAnwendungssoftware erstellt wird. Die CalcAnwendungssoftware ähnelt Excel das in Microsoft Office verfügbar ist. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-OpenDocument-Tabellenvorlage
+Eine Datei mit der Erweiterung .ots ist eine OpenDocument-Tabellenvorlagendatei, die mit der in Apache OpenOffice enthaltenen Calc-Anwendungssoftware erstellt wird. Die Calc-Anwendungssoftware ähnelt Excel, das in Microsoft Office verfügbar ist. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

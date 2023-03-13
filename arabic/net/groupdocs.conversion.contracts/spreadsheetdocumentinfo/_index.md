@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند جدول البيانات
 type: docs
-weight: 480
+weight: 520
 url: /ar/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class

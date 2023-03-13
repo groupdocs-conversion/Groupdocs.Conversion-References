@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل الأوضاع الممكنة لتلوين الكائنات .
 type: docs
-weight: 1830
+weight: 2020
 url: /ar/net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class

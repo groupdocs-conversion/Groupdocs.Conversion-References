@@ -1,14 +1,14 @@
 ---
 title: Md
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. I file MD vengono salvati in un formato di testo normale che utilizza il linguaggio Markdown che include anche simboli di testo in linea definendo come un testo può essere formattato come rientri formattazione della tabella caratteri e intestazioni. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/md .
+description: I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. I file MD vengono salvati in un formato di testo normale che utilizza il linguaggio Markdown che include anche simboli di testo in linea definendo come un testo può essere formattato come rientri formattazione della tabella caratteri e intestazioni. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field
 
-I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. I file MD vengono salvati in un formato di testo normale che utilizza il linguaggio Markdown che include anche simboli di testo in linea, definendo come un testo può essere formattato come rientri, formattazione della tabella, caratteri e intestazioni. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/md) .
+I file di testo creati con i dialetti della lingua Markdown vengono salvati con estensione file .MD o .MARKDOWN. I file MD vengono salvati in un formato di testo normale che utilizza il linguaggio Markdown che include anche simboli di testo in linea, definendo come un testo può essere formattato come rientri, formattazione della tabella, caratteri e intestazioni. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/md) .
 
 ```csharp
 public static readonly WordProcessingFileType Md;

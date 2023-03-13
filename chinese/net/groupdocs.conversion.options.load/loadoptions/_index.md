@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 抽象文档加载选项类
+description: 抽象文档加载选项类.
 type: docs
-weight: 1930
+weight: 2160
 url: /zh/net/groupdocs.conversion.options.load/loadoptions/
 ---
 ## LoadOptions class
 
-抽象文档加载选项类。
+抽象文档加载选项类.
 
 ```csharp
 public abstract class LoadOptions : ValueObject
@@ -18,15 +18,15 @@ public abstract class LoadOptions : ValueObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

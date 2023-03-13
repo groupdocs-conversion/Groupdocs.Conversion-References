@@ -1,14 +1,14 @@
 ---
 title: One
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 由 .ONE 扩展名表示的文件是由 Microsoft OneNote 应用程序创建的 OneNote 让您可以使用应用程序收集信息就像使用草稿板记笔记一样 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/notetaking/one
+description: .ONE 扩展名表示的文件由 Microsoft OneNote 应用程序创建 OneNote 让您可以使用该应用程序收集信息就像您使用草稿本做笔记一样 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/notetaking/one
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.filetypes/notefiletype/one/
 ---
 ## NoteFileType.One field
 
-由 .ONE 扩展名表示的文件是由 Microsoft OneNote 应用程序创建的。 OneNote 让您可以使用应用程序收集信息，就像使用草稿板记笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one)
+.ONE 扩展名表示的文件由 Microsoft OneNote 应用程序创建。 OneNote 让您可以使用该应用程序收集信息，就像您使用草稿本做笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one)
 
 ```csharp
 public static readonly NoteFileType One;

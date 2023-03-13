@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Geçerli türden dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri
+description: Geçerli type den dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.contracts/possibleconversions/loadoptions/
 ---
 ## PossibleConversions.LoadOptions property
 
-Geçerli türden dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri
+Geçerli type 'den dönüştürmek için kullanılabilecek önceden tanımlanmış yükleme seçenekleri
 
 ```csharp
 public LoadOptions LoadOptions { get; }

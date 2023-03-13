@@ -3,7 +3,7 @@ title: PsdColorModes
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد تعداد أوضاع ألوان Psd.
 type: docs
-weight: 1670
+weight: 1850
 url: /ar/net/groupdocs.conversion.options.convert/psdcolormodes/
 ---
 ## PsdColorModes class

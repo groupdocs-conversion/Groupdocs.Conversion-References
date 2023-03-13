@@ -1,14 +1,14 @@
 ---
 title: Ccitt4
 second_title: GroupDocs.Conversion for .NET API 参考
-description: CCITT4 压缩
+description: CCITT4 压缩.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/tiffcompressionmethods/ccitt4/
 ---
 ## TiffCompressionMethods.Ccitt4 field
 
-CCITT4 压缩。
+CCITT4 压缩.
 
 ```csharp
 public static readonly TiffCompressionMethods Ccitt4;

@@ -3,7 +3,7 @@ title: Converter
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Belge dönüştürme sürecini kontrol eden ana sınıfı temsil eder.
 type: docs
-weight: 670
+weight: 730
 url: /tr/net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -36,25 +36,25 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 
 | İsim | Tanım |
 | --- | --- |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(SaveDocumentStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(SaveDocumentStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(SaveDocumentStreamForFileType, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(SaveDocumentStreamForFileType, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(SavePageStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(SavePageStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(SavePageStreamForFileType, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(SavePageStreamForFileType, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(Func&lt;FileType, Stream&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(Func&lt;int, FileType, Stream&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(Func&lt;int, Stream&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_11)(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert)(Func&lt;Stream&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_16)(string, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert)(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(SavePageStream, ConvertedPageStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_9)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_10)(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgeyi sayfa sayfa kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_1)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Kaynak belgeyi dönüştürür. Dönüştürülen belgenin tamamını kaydeder. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Kaynakları serbest bırakır. |
-| [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Kaynak belge bilgilerini alır - sayfa sayısı ve dosya türüne özgü diğer belge özellikleri. |
+| [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Kaynak belge bilgilerini alır - dosya türüne özgü sayfa sayısı ve diğer belge özellikleri. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | Kaynak belge için olası dönüşümleri alır. |
 | [Load](../../groupdocs.conversion/converter/load#load_1)(Func&lt;Stream&gt;) | Kaynak belge akışını yapılandırın |
 | [Load](../../groupdocs.conversion/converter/load#load)(Func&lt;Stream[]&gt;) | Kaynak belge dizisini yapılandırın streams |
@@ -62,7 +62,7 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 | [Load](../../groupdocs.conversion/converter/load#load_3)(string[]) | Kaynak belgeler kümesini yapılandırın |
 | [WithSettings](../../groupdocs.conversion/converter/withsettings)(Func&lt;ConverterSettings&gt;) | Dönüştürme ayarlarını yapılandırın |
 | static [GetAllPossibleConversions](../../groupdocs.conversion/converter/getallpossibleconversions)() | Desteklenen tüm dönüşümleri alır |
-| static [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)(string) | Sağlanan belge uzantısı için desteklenen dönüştürmeleri alır |
+| static [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)(string) | Sağlanan belge uzantısı için desteklenen dönüşümleri alır |
 
 ### Ayrıca bakınız
 

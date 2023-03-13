@@ -1,14 +1,14 @@
 ---
 title: Drc
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .drc è un formato di file 3D compresso creato con la libreria Google Draco. Google offre Draco come libreria open source per la compressione e la decompressione di mesh geometriche 3D e nuvole di punti e migliora larchiviazione e la trasmissione della grafica 3D. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/drc .
+description: Un file con estensione .drc è un formato di file 3D compresso creato con la libreria Google Draco. Google offre Draco come libreria open source per la compressione e la decompressione di mesh geometriche 3D e nuvole di punti e migliora larchiviazione e la trasmissione della grafica 3D. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/drc .
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/drc/
 ---
 ## ThreeDFileType.Drc field
 
-Un file con estensione .drc è un formato di file 3D compresso creato con la libreria Google Draco. Google offre Draco come libreria open source per la compressione e la decompressione di mesh geometriche 3D e nuvole di punti e migliora l'archiviazione e la trasmissione della grafica 3D. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/drc) .
+Un file con estensione .drc è un formato di file 3D compresso creato con la libreria Google Draco. Google offre Draco come libreria open source per la compressione e la decompressione di mesh geometriche 3D e nuvole di punti e migliora l'archiviazione e la trasmissione della grafica 3D. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/drc) .
 
 ```csharp
 public static readonly ThreeDFileType Drc;

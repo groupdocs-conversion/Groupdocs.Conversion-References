@@ -3,7 +3,7 @@ title: Dicom
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos con extensión .DICOM representan imágenes digitales que almacenan información médica de pacientes como resonancias magnéticas tomografías computarizadas e imágenes de ultrasonido. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field

@@ -44,7 +44,7 @@ public GroupDocsConversionException(string message)
 
 ## GroupDocsConversionException(string, Exception) {#constructor_2}
 
-Belirli bir mesajla bir istisna oluşturun ve iç istisnayı yayınlayın
+Belirli bir mesajla bir istisna oluşturun ve iç istisnayı yayın
 
 ```csharp
 public GroupDocsConversionException(string message, Exception exception)

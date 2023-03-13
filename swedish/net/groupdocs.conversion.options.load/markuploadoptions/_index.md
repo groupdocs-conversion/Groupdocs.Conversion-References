@@ -3,7 +3,7 @@ title: MarkupLoadOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för att ladda uppmärkningsdokument.
 type: docs
-weight: 1940
+weight: 2170
 url: /sv/net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class
@@ -11,25 +11,20 @@ url: /sv/net/groupdocs.conversion.options.load/markuploadoptions/
 Alternativ för att ladda uppmärkningsdokument.
 
 ```csharp
-public sealed class MarkupLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public sealed class MarkupLoadOptions : WebLoadOptions
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [MarkupLoadOptions](markuploadoptions)() | ctor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BasePath](../../groupdocs.conversion.options.load/markuploadoptions/basepath) { get; set; } | Bassökvägen/url för html |
-| [Encoding](../../groupdocs.conversion.options.load/markuploadoptions/encoding) { get; set; } | Hämta eller ställer in kodningen som ska användas när uppmärkningsdokumentet laddas. Om egenskapen är null kommer kodningen att bestämmas från dokumentets teckenuppsättning attribut |
-| [Format](../../groupdocs.conversion.options.load/markuploadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Bassökvägen/url för html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Hämta eller ställer in kodningen som ska användas när uppmärkningsdokumentet laddas. Om egenskapen är null kommer kodningen att bestämmas från dokumentets teckenuppsättning attribut |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Inmatningsdokumentfiltyp. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Inmatningsdokumentfiltyp. |
-| [PageNumbering](../../groupdocs.conversion.options.load/markuploadoptions/pagenumbering) { get; set; } | Aktivera eller inaktivera generering av sidnumrering i konverterade dokument. Standard: false |
-| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/markuploadoptions/resourceloadingtimeout) { get; set; } | Timeout för laddning av externa resurser |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Aktivera eller inaktivera generering av sidnumrering i konverterade dokument. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout för laddning av externa resurser |
 
 ## Metoder
 
@@ -41,7 +36,7 @@ public sealed class MarkupLoadOptions : LoadOptions
 
 ### Se även
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * namnutrymme [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * hopsättning [GroupDocs.Conversion](../../)
 

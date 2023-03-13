@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: WennStimmt die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert.
+description: WennWAHR  die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert.
 type: docs
 weight: 140
 url: /de/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-Wenn`Stimmt` die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert.
+Wenn`WAHR` , die Eingabe wird zuerst in PDF und danach in das gewünschte Format konvertiert.
 
 ```csharp
 public bool UsePdf { get; set; }

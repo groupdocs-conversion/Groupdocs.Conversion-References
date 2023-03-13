@@ -1,14 +1,14 @@
 ---
 title: GetKeys
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Filtreyle eşleşen tüm anahtarları döndürür.
+description: filter. ile eşleşen tüm anahtarları döndürür
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.caching/filecache/getkeys/
 ---
 ## FileCache.GetKeys method
 
-Filtreyle eşleşen tüm anahtarları döndürür.
+filter. ile eşleşen tüm anahtarları döndürür
 
 ```csharp
 public IEnumerable<string> GetKeys(string filter)

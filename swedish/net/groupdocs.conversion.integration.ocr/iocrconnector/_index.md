@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Definierar metoder som krävs för att tillämpa OCR på bilddokument och inbäddade bilder.
 type: docs
-weight: 1200
+weight: 1330
 url: /sv/net/groupdocs.conversion.integration.ocr/iocrconnector/
 ---
 ## IOcrConnector interface

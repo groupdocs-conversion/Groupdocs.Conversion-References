@@ -3,7 +3,7 @@ title: Svgz
 second_title: GroupDocs.Conversion for .NET API 参考
 description: SVGZ 文件实际上是 SVG 文件的压缩版本这样可以更轻松地在线分发文件当使用 .GZIP 压缩算法压缩 SVG 文件时它会被赋予 .svgz 文件扩展名
 type: docs
-weight: 340
+weight: 310
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 ---
 ## ImageFileType.Svgz field

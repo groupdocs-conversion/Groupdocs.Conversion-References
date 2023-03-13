@@ -3,7 +3,7 @@ title: XpsDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Xps belgesi meta verilerini içerir
 type: docs
-weight: 620
+weight: 680
 url: /tr/net/groupdocs.conversion.contracts/xpsdocumentinfo/
 ---
 ## XpsDocumentInfo class
@@ -25,9 +25,9 @@ public class XpsDocumentInfo : PdfDocumentInfo
 | [IsLandscape](../../groupdocs.conversion.contracts/pdfdocumentinfo/islandscape) { get; } | Sayfanın peyzajlı olduğunu alır |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/pdfdocumentinfo/ispasswordprotected) { get; } | Belge parola korumalı alır |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 | [TableOfContents](../../groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents) { get; } | İçindekiler tablosu |
 | [Title](../../groupdocs.conversion.contracts/pdfdocumentinfo/title) { get; } | Title alır |
 | [Version](../../groupdocs.conversion.contracts/pdfdocumentinfo/version) { get; } | version alır |

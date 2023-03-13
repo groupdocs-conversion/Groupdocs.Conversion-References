@@ -1,14 +1,14 @@
 ---
 title: Vsdx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .VSDX 扩展名的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式它的开发是为了替换早期版本的 Microsoft Visio 支持的二进制文件格式 .VSD 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsdx.
+description: 扩展名为 .VSDX 的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式开发它是为了替换二进制文件格式 .VSD它受早期版本的 Microsoft Visio 支持 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsdx.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.filetypes/diagramfiletype/vsdx/
 ---
 ## DiagramFileType.Vsdx field
 
-带有 .VSDX 扩展名的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式。它的开发是为了替换早期版本的 Microsoft Visio 支持的二进制文件格式 .VSD。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsdx).
+扩展名为 .VSDX 的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式。开发它是为了替换二进制文件格式 .VSD，它受早期版本的 Microsoft Visio 支持。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsdx).
 
 ```csharp
 public static readonly DiagramFileType Vsdx;

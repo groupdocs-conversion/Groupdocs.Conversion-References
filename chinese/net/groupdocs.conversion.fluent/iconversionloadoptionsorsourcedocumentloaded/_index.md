@@ -3,7 +3,7 @@ title: IConversionLoadOptionsOrSourceDocumentLoaded
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换加载选项或加载文档的操作
 type: docs
-weight: 1140
+weight: 1270
 url: /zh/net/groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded/
 ---
 ## IConversionLoadOptionsOrSourceDocumentLoaded interface

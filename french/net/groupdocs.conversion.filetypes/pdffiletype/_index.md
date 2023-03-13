@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Définit les documents PDF. Inclut les types de fichiers suivants  Epub./pdffiletype/epub  Pdf./pdffiletype/pdf  Xps./pdffiletype/xps .
+description: Définit les documents PDF. Inclut les types de fichiers suivants  Epub  Pdf./pdffiletype/pdf  Xps .
 type: docs
-weight: 890
+weight: 1000
 url: /fr/net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-Définit les documents PDF. Inclut les types de fichiers suivants : [`Epub`](./epub) , [`Pdf`](./pdf) , [`Xps`](./xps) .
+Définit les documents PDF. Inclut les types de fichiers suivants : Epub , [`Pdf`](./pdf) , Xps .
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -34,7 +34,7 @@ public sealed class PdfFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |
@@ -43,13 +43,7 @@ public sealed class PdfFileType : FileType
 
 | Nom | La description |
 | --- | --- |
-| static readonly [Epub](../../groupdocs.conversion.filetypes/pdffiletype/epub) | L'extension EPUB est un format de fichier de livre électronique qui fournit un format de publication numérique standard pour les éditeurs et les consommateurs. Le format est maintenant si courant qu'il est pris en charge par de nombreux lecteurs électroniques et applications logicielles. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/ebook/epub) . |
-| static readonly [Oxps](../../groupdocs.conversion.filetypes/pdffiletype/oxps) | Format de document Oxps |
-| static readonly [Pcl](../../groupdocs.conversion.filetypes/pdffiletype/pcl) | PCL signifie Printer Command Language, un langage de description de page introduit par Hewlett Packard (HP). En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/page-description-language/pcl) . |
 | static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | Portable Document Format (PDF) est un type de document créé par Adobe dans les années 1990. Le but de ce format de fichier était d'introduire une norme pour la représentation des documents et autres documents de référence dans un format indépendant du logiciel d'application, du matériel ainsi que du système d'exploitation. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/view/pdf) . |
-| static readonly [Ps](../../groupdocs.conversion.filetypes/pdffiletype/ps) | PostScript (PS) est un langage de description de page à usage général utilisé dans le secteur de la publication assistée par ordinateur et électronique. L'objectif principal de PostScript (PS) est de faciliter la conception graphique en deux dimensions. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/page-description-language/ps) . |
-| static readonly [Tex](../../groupdocs.conversion.filetypes/pdffiletype/tex) | TeX est un langage qui comprend de la programmation ainsi que des fonctionnalités de balisage, utilisé pour composer des documents. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/page-description-language/tex) . |
-| static readonly [Xps](../../groupdocs.conversion.filetypes/pdffiletype/xps) | Un fichier XPS représente des fichiers de mise en page basés sur les spécifications papier XML créées par Microsoft. Ce format a été développé par Microsoft en remplacement du format de fichier EMF et est similaire au format de fichier PDF, mais utilise XML dans la mise en page, l'apparence et les informations d'impression d'un document. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/page-description-language/xps) . |
 
 ### Voir également
 

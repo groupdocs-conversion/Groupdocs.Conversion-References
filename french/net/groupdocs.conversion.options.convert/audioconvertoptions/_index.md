@@ -3,7 +3,7 @@ title: AudioConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion en type audio.
 type: docs
-weight: 1290
+weight: 1420
 url: /fr/net/groupdocs.conversion.options.convert/audioconvertoptions/
 ---
 ## AudioConvertOptions class

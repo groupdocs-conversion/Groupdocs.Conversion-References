@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per la conversione in tipo di file Jpeg.
+description: Opzioni per la conversione in formato file Jpeg.
 type: docs
-weight: 1490
+weight: 1650
 url: /it/net/groupdocs.conversion.options.convert/jpegoptions/
 ---
 ## JpegOptions class
 
-Opzioni per la conversione in tipo di file Jpeg.
+Opzioni per la conversione in formato file Jpeg.
 
 ```csharp
 public sealed class JpegOptions : ValueObject
@@ -18,7 +18,7 @@ public sealed class JpegOptions : ValueObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [JpegOptions](jpegoptions)() | Inizializza la nuova istanza di[`JpegOptions`](../jpegoptions) classe. |
+| [JpegOptions](jpegoptions)() | Inizializza una nuova istanza di[`JpegOptions`](../jpegoptions) classe. |
 
 ## Proprietà
 
@@ -34,7 +34,7 @@ public sealed class JpegOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

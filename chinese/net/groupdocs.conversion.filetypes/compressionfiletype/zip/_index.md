@@ -1,14 +1,14 @@
 ---
 title: Zip
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 .zip 扩展名的文件是可以保存一个或多个文件或目录的存档存档可以对包含的文件应用压缩以减小 ZIP 文件大小 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/zip/
+description: 扩展名为 .zip 的文件是一种可以包含一个或多个文件或目录的存档存档可以对包含的文件应用压缩以减小 ZIP 文件大小 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/zip/
 type: docs
 weight: 140
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/zip/
 ---
 ## CompressionFileType.Zip field
 
-带有 .zip 扩展名的文件是可以保存一个或多个文件或目录的存档。存档可以对包含的文件应用压缩以减小 ZIP 文件大小。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/zip/)
+扩展名为 .zip 的文件是一种可以包含一个或多个文件或目录的存档。存档可以对包含的文件应用压缩以减小 ZIP 文件大小。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/zip/)
 
 ```csharp
 public static readonly CompressionFileType Zip;

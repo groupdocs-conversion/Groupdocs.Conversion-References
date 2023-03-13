@@ -1,14 +1,14 @@
 ---
 title: WithOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta opzioni di caricamento
+description: Imposta le opzioni di caricamento
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.fluent/iconversionloadoptions/withoptions/
 ---
 ## WithOptions(LoadOptions) {#withoptions}
 
-Imposta opzioni di caricamento
+Imposta le opzioni di caricamento
 
 ```csharp
 public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
@@ -30,7 +30,7 @@ public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
 
 ## WithOptions(Func&lt;LoadOptions&gt;) {#withoptions_1}
 
-Imposta opzioni di caricamento
+Imposta le opzioni di caricamento
 
 ```csharp
 public IConversionSourceDocumentLoaded WithOptions(Func<LoadOptions> loadOptionsProvider)
@@ -60,7 +60,7 @@ public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> l
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | Carica fornitore di opzioni |
+| loadOptionsProvider | Func`2 | Carica opzioni provider Il tipo di file caricato |
 
 ### Guarda anche
 

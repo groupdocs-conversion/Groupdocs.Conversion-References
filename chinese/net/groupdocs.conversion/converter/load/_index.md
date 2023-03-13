@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 为转换配置源文档
+description: 配置转换源文档
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion/converter/load/
 ---
 ## Load(string) {#load_2}
 
-为转换配置源文档
+配置转换源文档
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
@@ -16,7 +16,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 源文件 |
+| fileName | String | 源文档 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string fileName)
 
 ## Load(string[]) {#load_3}
 
-配置源文档集
+配置源文件集
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
@@ -50,7 +50,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(string[] fileName)
 
 ## Load(Func&lt;Stream&gt;) {#load_1}
 
-配置源文档流
+配置源文件stream
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentStreamProvider)
@@ -71,7 +71,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentSt
 
 ## Load(Func&lt;Stream[]&gt;) {#load}
 
-配置源文档集流
+配置源文件集streams
 
 ```csharp
 public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> documentStreamProvider)
@@ -79,7 +79,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> document
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentStreamProvider | Func`1 | 源文档流提供程序集 |
+| documentStreamProvider | Func`1 | 源文档集流提供者 |
 
 ### 也可以看看
 

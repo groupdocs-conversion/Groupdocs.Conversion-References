@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: GroupDocs.Conversion for .NET API Referens
-description: OpenDocument Spreadsheet Template
+description: En fil med filtillägget .ots är en OpenDocument Spreadsheet Templatefil som skapas med Calcprogramvaran som ingår i Apache OpenOffice. Calcprogramvaran liknar Excel som finns i Microsoft Office. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /sv/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-OpenDocument Spreadsheet Template
+En fil med filtillägget .ots är en OpenDocument Spreadsheet Template-fil som skapas med Calc-programvaran som ingår i Apache OpenOffice. Calc-programvaran liknar Excel som finns i Microsoft Office. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

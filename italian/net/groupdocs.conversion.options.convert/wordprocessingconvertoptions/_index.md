@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file WordProcessing.
 type: docs
-weight: 1810
+weight: 2000
 url: /it/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class
@@ -20,7 +20,7 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 
 | Nome | Descrizione |
 | --- | --- |
-| [WordProcessingConvertOptions](wordprocessingconvertoptions)() | Inizializza la nuova istanza di[`WordProcessingConvertOptions`](../wordprocessingconvertoptions) classe. |
+| [WordProcessingConvertOptions](wordprocessingconvertoptions)() | Inizializza una nuova istanza di[`WordProcessingConvertOptions`](../wordprocessingconvertoptions) classe. |
 
 ## Proprietà
 
@@ -36,13 +36,13 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 | [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } | Margine superiore della pagina desiderato in pixel dopo la conversione. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Il numero di pagina da cui iniziare la conversione. |
 | [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } | Orientamento della pagina desiderato dopo la conversione |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici di pagina da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | L'elenco degli indici delle pagine da convertire. Dovrebbe essere specificato per convertire pagine specifiche. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Numero di pagine da convertire a partire da`Numero di pagina` . |
 | [PageSize](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize) { get; set; } | Dimensione pagina desiderata dopo la conversione |
 | [Password](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/password) { get; set; } | Imposta questa proprietà se vuoi proteggere il documento convertito con una password. |
 | [PdfRecognitionMode](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode) { get; set; } | Modalità di riconoscimento durante la conversione da pdf |
 | [RtfOptions](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtfoptions) { get; set; } | Opzioni di conversione specifiche per RTF |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche per filigrana |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opzioni specifiche filigrana |
 | [Width](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/width) { get; set; } | Larghezza pagina desiderata dopo la conversione. |
 | [Zoom](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/zoom) { get; set; } | Specifica il livello di zoom in percentuale. L'impostazione predefinita è 100. Lo zoom predefinito è supportato fino a Microsoft Word 2010. A partire da Microsoft Word 2013 lo zoom predefinito non è più impostato su documento, ma sembra utilizzare il fattore di zoom dell'ultimo documento aperto. |
 
@@ -53,7 +53,7 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

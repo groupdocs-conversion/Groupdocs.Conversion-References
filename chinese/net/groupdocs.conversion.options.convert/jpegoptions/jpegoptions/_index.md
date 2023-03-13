@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例JpegOptionsgroupdocs.conversion.options.convert/jpegoptions类.
+description: 初始化新实例JpegOptionsgroupdocs.conversion.options.convert/jpegoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/jpegoptions/jpegoptions/
 ---
 ## JpegOptions constructor
 
-初始化的新实例[`JpegOptions`](../../jpegoptions)类.
+初始化新实例[`JpegOptions`](../../jpegoptions)类.
 
 ```csharp
 public JpegOptions()

@@ -21,7 +21,7 @@ public bool TryGetValue(string key, out object value)
 
 ### Geri dönüş değeri
 
-eğer anahtar bulunursa.
+anahtar bulunduysa.
 
 ```csharp
 True

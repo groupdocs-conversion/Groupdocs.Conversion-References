@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Шаблон электронной таблицы OpenDocument
+description: Файл с расширением .ots представляет собой файл шаблона электронной таблицы OpenDocument созданный с помощью прикладного программного обеспечения Calc входящего в состав Apache OpenOffice. Программное обеспечение Calc аналогично Excel доступному в Microsoft Office. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /ru/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-Шаблон электронной таблицы OpenDocument
+Файл с расширением .ots представляет собой файл шаблона электронной таблицы OpenDocument, созданный с помощью прикладного программного обеспечения Calc, входящего в состав Apache OpenOffice. Программное обеспечение Calc аналогично Excel, доступному в Microsoft Office. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

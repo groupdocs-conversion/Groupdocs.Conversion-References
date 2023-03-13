@@ -1,14 +1,14 @@
 ---
 title: ThreeMF
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: 3MF 3D Manufacturing Format wird von Anwendungen verwendet um 3DObjektmodelle für eine Vielzahl anderer Anwendungen Plattformen Dienste und Drucker zu rendern. Es wurde entwickelt um die Einschränkungen und Probleme anderer 3DDateiformate wie STL beim Arbeiten mit den neuesten Versionen von 3DDruckern zu vermeiden. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/3mf .
+description: 3MF 3D Manufacturing Format wird von Anwendungen verwendet um 3DObjektmodelle für eine Vielzahl anderer Anwendungen Plattformen Dienste und Drucker zu rendern. Es wurde entwickelt um die Einschränkungen und Probleme anderer 3DDateiformate wie STL beim Arbeiten mit den neuesten Versionen von 3DDruckern zu vermeiden. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/3mf .
 type: docs
 weight: 130
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/threemf/
 ---
 ## ThreeDFileType.ThreeMF field
 
-3MF, 3D Manufacturing Format, wird von Anwendungen verwendet, um 3D-Objektmodelle für eine Vielzahl anderer Anwendungen, Plattformen, Dienste und Drucker zu rendern. Es wurde entwickelt, um die Einschränkungen und Probleme anderer 3D-Dateiformate wie STL beim Arbeiten mit den neuesten Versionen von 3D-Druckern zu vermeiden. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/3mf) .
+3MF, 3D Manufacturing Format, wird von Anwendungen verwendet, um 3D-Objektmodelle für eine Vielzahl anderer Anwendungen, Plattformen, Dienste und Drucker zu rendern. Es wurde entwickelt, um die Einschränkungen und Probleme anderer 3D-Dateiformate wie STL beim Arbeiten mit den neuesten Versionen von 3D-Druckern zu vermeiden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/3mf) .
 
 ```csharp
 public static readonly ThreeDFileType ThreeMF;

@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает перечисление форматов Pdf.
 type: docs
-weight: 1580
+weight: 1760
 url: /ru/net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class

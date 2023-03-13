@@ -1,14 +1,14 @@
 ---
 title: Enumeration
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 泛型枚举类
+description: 通用枚举类
 type: docs
 weight: 190
 url: /zh/net/groupdocs.conversion.contracts/enumeration/
 ---
 ## Enumeration class
 
-泛型枚举类。
+通用枚举类。
 
 ```csharp
 public abstract class Enumeration : IComparable, IEquatable<Enumeration>
@@ -19,14 +19,14 @@ public abstract class Enumeration : IComparable, IEquatable<Enumeration>
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals_1)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals#equals_1)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 | static [FromDisplayName&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromdisplayname)(string) | 按显示名称返回对象。 |
 | static [FromValue&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/fromvalue)(string) | 按键返回对象。 |
 | static [GetAll&lt;T&gt;](../../groupdocs.conversion.contracts/enumeration/getall)() | 返回所有枚举值。 |
-| [operator ==](../../groupdocs.conversion.contracts/enumeration/op_equality) | 等式运算符。 |
+| [operator ==](../../groupdocs.conversion.contracts/enumeration/op_equality) | 相等运算符. |
 | [operator !=](../../groupdocs.conversion.contracts/enumeration/op_inequality) | 不等式运算符. |
 
 ### 也可以看看

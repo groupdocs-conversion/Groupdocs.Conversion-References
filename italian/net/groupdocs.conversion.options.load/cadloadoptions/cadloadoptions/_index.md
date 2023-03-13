@@ -1,14 +1,14 @@
 ---
 title: CadLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diCadLoadOptionsgroupdocs.conversion.options.load/cadloadoptions classe.
+description: Inizializza una nuova istanza diCadLoadOptionsgroupdocs.conversion.options.load/cadloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/cadloadoptions/cadloadoptions/
 ---
 ## CadLoadOptions constructor
 
-Inizializza la nuova istanza di[`CadLoadOptions`](../../cadloadoptions) classe.
+Inizializza una nuova istanza di[`CadLoadOptions`](../../cadloadoptions) classe.
 
 ```csharp
 public CadLoadOptions()

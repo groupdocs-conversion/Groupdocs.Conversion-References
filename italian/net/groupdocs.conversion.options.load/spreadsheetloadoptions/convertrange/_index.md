@@ -1,14 +1,14 @@
 ---
 title: ConvertRange
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Converti intervallo specifico durante la conversione in un formato diverso dal foglio di calcolo. Esempio D1F8.
+description: Converti un intervallo specifico durante la conversione in un formato diverso dal foglio di calcolo. Esempio D1F8.
 type: docs
 weight: 30
 url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/convertrange/
 ---
 ## SpreadsheetLoadOptions.ConvertRange property
 
-Converti intervallo specifico durante la conversione in un formato diverso dal foglio di calcolo. Esempio: "D1:F8".
+Converti un intervallo specifico durante la conversione in un formato diverso dal foglio di calcolo. Esempio: "D1:F8".
 
 ```csharp
 public string ConvertRange { get; set; }

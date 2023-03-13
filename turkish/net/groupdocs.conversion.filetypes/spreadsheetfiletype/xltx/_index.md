@@ -1,14 +1,14 @@
 ---
 title: Xltx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XLTX dosyası Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xltx .
+description: XLTX dosyası Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
 weight: 170
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltx/
 ---
 ## SpreadsheetFileType.Xltx field
 
-XLTX dosyası, Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xltx) .
+XLTX dosyası, Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xltx) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xltx;

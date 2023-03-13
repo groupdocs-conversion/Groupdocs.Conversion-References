@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Definierar PDFdokument. Inkluderar följande filtyper Epub./pdffiletype/epub  Pdf./pdffiletype/pdf  Xps./pdffiletype/xps .
+description: Definierar PDFdokument. Inkluderar följande filtyper Epub  Pdf./pdffiletype/pdf  Xps .
 type: docs
-weight: 890
+weight: 1000
 url: /sv/net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-Definierar PDF-dokument. Inkluderar följande filtyper: [`Epub`](./epub) , [`Pdf`](./pdf) , [`Xps`](./xps) .
+Definierar PDF-dokument. Inkluderar följande filtyper: Epub , [`Pdf`](./pdf) , Xps .
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -34,7 +34,7 @@ public sealed class PdfFileType : FileType
 | namn | Beskrivning |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Jämför aktuellt objekt med annat. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Bestämmer om två objektinstanser är lika. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Bestämmer om två objektinstanser är lika. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Fungerar som standard hash-funktion. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Strängrepresentation |
@@ -43,13 +43,7 @@ public sealed class PdfFileType : FileType
 
 | namn | Beskrivning |
 | --- | --- |
-| static readonly [Epub](../../groupdocs.conversion.filetypes/pdffiletype/epub) | EPUB-tillägget är ett filformat för e-böcker som tillhandahåller ett standardformat för digitala publikationer för förlag och konsumenter. Formatet har varit så vanligt vid det här laget att det stöds av många e-läsare och program. Läs mer om detta filformat[här](https://wiki.fileformat.com/ebook/epub) . |
-| static readonly [Oxps](../../groupdocs.conversion.filetypes/pdffiletype/oxps) | Oxps dokumentformat |
-| static readonly [Pcl](../../groupdocs.conversion.filetypes/pdffiletype/pcl) | PCL står för Printer Command Language som är ett sidbeskrivningsspråk introducerat av Hewlett Packard (HP). Läs mer om detta filformat[här](https://wiki.fileformat.com/page-description-language/pcl) . |
 | static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | Portable Document Format (PDF) är en typ av dokument som skapades av Adobe redan på 1990-talet. Syftet med detta filformat var att införa en standard för representation av dokument och annat referensmaterial i ett format som är oberoende av applikationsprogramvara, hårdvara samt operativsystem. Läs mer om detta filformat[här](https://wiki.fileformat.com/view/pdf) . |
-| static readonly [Ps](../../groupdocs.conversion.filetypes/pdffiletype/ps) | PostScript (PS) är ett allmänt sidbeskrivningsspråk som används i branschen för desktop och elektronisk publicering. Huvudfokus för PostScript (PS) är att underlätta den tvådimensionella grafiska designen. Läs mer om detta filformat[här](https://wiki.fileformat.com/page-description-language/ps) . |
-| static readonly [Tex](../../groupdocs.conversion.filetypes/pdffiletype/tex) | TeX är ett språk som består av såväl programmering som uppmärkningsfunktioner, som används för att sätta in dokument. Läs mer om detta filformat[här](https://wiki.fileformat.com/page-description-language/tex) . |
-| static readonly [Xps](../../groupdocs.conversion.filetypes/pdffiletype/xps) | En XPS-fil representerar sidlayoutfiler som är baserade på XML Paper Specifications skapade av Microsoft. Det här formatet utvecklades av Microsoft som en ersättning för EMF-filformatet och liknar PDF-filformatet, men använder XML i layout, utseende och utskriftsinformation för ett dokument. Läs mer om detta filformat[här](https://wiki.fileformat.com/page-description-language/xps) . |
 
 ### Se även
 

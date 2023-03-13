@@ -14,7 +14,7 @@ Ad alanı, akıcı dönüştürme için arabirimler sağlar.
 | --- | --- |
 | [IConversionByPageCompleted](./iconversionbypagecompleted) | İşleme dönüştürme sayfası tamamlandı |
 | [IConversionByPageCompletedOrConvert](./iconversionbypagecompletedorconvert) | Dönüştürme işlemi tamamlandı veya dönüştürmeyi yürütün |
-| [IConversionCompleted](./iconversioncompleted) | İşleme dönüştürme tamamlandı |
+| [IConversionCompleted](./iconversioncompleted) | İşlemci dönüştürme tamamlandı |
 | [IConversionCompletedOrConvert](./iconversioncompletedorconvert) | Dönüştürme işlemi tamamlandı veya dönüştürmeyi yürütün |
 | [IConversionCompressResult](./iconversioncompressresult) | Tüm dönüştürme sonuçlarını tek bir arşivde sıkıştırabilir |
 | [IConversionCompressResultCompleted](./iconversioncompressresultcompleted) | Kol sıkıştırması tamamlandı |
@@ -26,10 +26,10 @@ Ad alanı, akıcı dönüştürme için arabirimler sağlar.
 | [IConversionConvertOptions](./iconversionconvertoptions) | Dönüşüm dönüştürme seçenekleri |
 | [IConversionConvertOrCompress](./iconversionconvertorcompress) | Sıkıştırın veya dönüştürün |
 | [IConversionFrom](./iconversionfrom) | Dönüşüm için kurulum kaynağı |
-| [IConversionGetDocumentInfo](./iconversiongetdocumentinfo) | Kaynak belge bilgilerini alır - sayfa sayısı ve dosya türüne özgü diğer belge özellikleri. |
+| [IConversionGetDocumentInfo](./iconversiongetdocumentinfo) | Kaynak belge bilgilerini alır - dosya türüne özgü sayfa sayısı ve diğer belge özellikleri. |
 | [IConversionGetPossibleConversions](./iconversiongetpossibleconversions) | Kaynak belge için olası dönüşümleri alır. |
 | [IConversionLoadOptions](./iconversionloadoptions) | Dönüşüm yükleme seçenekleri |
-| [IConversionLoadOptionsOrSourceDocumentLoaded](./iconversionloadoptionsorsourcedocumentloaded) | Yüklenen belgeyle dönüştürme yükleme seçenekleri veya eylemleri |
+| [IConversionLoadOptionsOrSourceDocumentLoaded](./iconversionloadoptionsorsourcedocumentloaded) | Dönüştürme yükleme seçenekleri veya yüklenen belge ile eylemler |
 | [IConversionSettings](./iconversionsettings) | Kurulum dönüştürme ayarları |
 | [IConversionSettingsOrConversionFrom](./iconversionsettingsorconversionfrom) | Dönüşüm ayarları veya dönüşüm kaynağı |
 | [IConversionSourceDocumentLoaded](./iconversionsourcedocumentloaded) | Yüklenen belge ile olası eylemleri sağlar |

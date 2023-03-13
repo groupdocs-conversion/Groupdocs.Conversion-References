@@ -3,7 +3,7 @@ title: Sheets
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Bladnamn att konvertera
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheets/
 ---
 ## SpreadsheetLoadOptions.Sheets property

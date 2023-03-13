@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.conversion.contracts/documentinfo/item/
 الحصول على قيمة لخاصية مقدمة كمفتاح
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 ### أنظر أيضا

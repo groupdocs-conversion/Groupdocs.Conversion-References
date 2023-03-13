@@ -1,14 +1,14 @@
 ---
 title: ThreeDFileType
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Définit les documents 3D Inclut les types suivants  Fbx./threedfiletype/fbx En savoir plus sur les formats 3Dicihttps//wiki.fileformat.com/3d .
+description: Définit les documents 3D Inclut les types suivants  Fbx./threedfiletype/fbxThreeDS./threedfiletype/threedsThreeMF./threedfiletype/threemfAmf./threedfiletype/amfAse./threedfiletype/aseRvm./threedfiletype/rvmDae./threedfiletype/daeDrc./threedfiletype/drcGltf./threedfiletype/gltfObj./threedfiletype/objPly./threedfiletype/plyJt./threedfiletype/jtU3d./threedfiletype/u3dUsd./threedfiletype/usdUsdz./threedfiletype/usdzVrml./threedfiletype/vrmlX./threedfiletype/x En savoir plus sur les formats 3Dicihttps//wiki.fileformat.com/3d .
 type: docs
-weight: 940
+weight: 1060
 url: /fr/net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class
 
-Définit les documents 3D Inclut les types suivants : [`Fbx`](./fbx) En savoir plus sur les formats 3D[ici](https://wiki.fileformat.com/3d) .
+Définit les documents 3D Inclut les types suivants : [`Fbx`](./fbx)[`ThreeDS`](./threeds)[`ThreeMF`](./threemf)[`Amf`](./amf)[`Ase`](./ase)[`Rvm`](./rvm)[`Dae`](./dae)[`Drc`](./drc)[`Gltf`](./gltf)[`Obj`](./obj)[`Ply`](./ply)[`Jt`](./jt)[`U3d`](./u3d)[`Usd`](./usd)[`Usdz`](./usdz)[`Vrml`](./vrml)[`X`](./x) En savoir plus sur les formats 3D[ici](https://wiki.fileformat.com/3d) .
 
 ```csharp
 public sealed class ThreeDFileType : FileType
@@ -34,7 +34,7 @@ public sealed class ThreeDFileType : FileType
 | Nom | La description |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compare l'objet actuel à un autre. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Détermine si deux instances d'objet sont égales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Détermine si deux instances d'objet sont égales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sert de fonction de hachage par défaut. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Représentation sous forme de chaîne |

@@ -3,7 +3,7 @@ title: PdfFormat
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürülen belgenin pdf biçimini ayarlar.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/pdfformat/
 ---
 ## PdfOptions.PdfFormat property

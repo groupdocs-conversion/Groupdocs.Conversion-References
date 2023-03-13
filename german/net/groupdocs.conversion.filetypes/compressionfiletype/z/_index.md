@@ -1,14 +1,14 @@
 ---
 title: Z
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: AZDatei ist eine Kategorie von Dateien die zu den komprimierten UNIXDatendateien gehören. Komprimierte UnixDateien sind der beliebteste und am weitesten verbreitete Erweiterungstyp der ZDatei. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/z/ .
+description: AZDatei ist eine Kategorie von Dateien die zu den komprimierten UNIXDatendateien gehören. Komprimierte UnixDateien sind der beliebteste und am weitesten verbreitete Erweiterungstyp der ZDatei. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/z/ .
 type: docs
 weight: 130
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/z/
 ---
 ## CompressionFileType.Z field
 
-AZ-Datei ist eine Kategorie von Dateien, die zu den komprimierten UNIX-Datendateien gehören. Komprimierte Unix-Dateien sind der beliebteste und am weitesten verbreitete Erweiterungstyp der Z-Datei. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/z/) .
+AZ-Datei ist eine Kategorie von Dateien, die zu den komprimierten UNIX-Datendateien gehören. Komprimierte Unix-Dateien sind der beliebteste und am weitesten verbreitete Erweiterungstyp der Z-Datei. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/z/) .
 
 ```csharp
 public static readonly CompressionFileType Z;

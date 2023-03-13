@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل خيارات التحويل التي تدعم هوامش الصفحة
 type: docs
-weight: 1400
+weight: 1560
 url: /ar/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

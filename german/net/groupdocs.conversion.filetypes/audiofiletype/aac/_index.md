@@ -1,14 +1,14 @@
 ---
 title: Aac
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: AAC Advanced Audio Coding bezieht sich auf einen digitalen Audiocodierungsstandard der Audiodateien darstellt die auf verlustbehafteter Audiokomprimierung basieren. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/audio/aac/ .
+description: AAC Advanced Audio Coding bezieht sich auf einen digitalen Audiocodierungsstandard der Audiodateien darstellt die auf verlustbehafteter Audiokomprimierung basieren. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/audio/aac/ .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/audiofiletype/aac/
 ---
 ## AudioFileType.Aac field
 
-AAC (Advanced Audio Coding) bezieht sich auf einen digitalen Audiocodierungsstandard, der Audiodateien darstellt, die auf verlustbehafteter Audiokomprimierung basieren. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/audio/aac/) .
+AAC (Advanced Audio Coding) bezieht sich auf einen digitalen Audiocodierungsstandard, der Audiodateien darstellt, die auf verlustbehafteter Audiokomprimierung basieren. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/audio/aac/) .
 
 ```csharp
 public static readonly AudioFileType Aac;

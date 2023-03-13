@@ -3,7 +3,7 @@ title: FontSubstituteException
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Generato se il font sostituto è illegale
 type: docs
-weight: 720
+weight: 780
 url: /it/net/groupdocs.conversion.exceptions/fontsubstituteexception/
 ---
 ## FontSubstituteException class

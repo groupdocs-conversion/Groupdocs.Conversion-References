@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento del foglio di calcolo
 type: docs
-weight: 480
+weight: 520
 url: /it/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class
@@ -18,7 +18,7 @@ public class SpreadsheetDocumentInfo : DocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected) { get; } | Ottiene il documento protetto da password |

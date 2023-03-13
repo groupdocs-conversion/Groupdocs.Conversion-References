@@ -1,14 +1,14 @@
 ---
 title: Otg
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OTG dosyası OASIS Office Applications 1.0 spesifikasyonunu izleyen OpenDocument standardı kullanılarak oluşturulan bir çizim şablonudur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/otg .
+description: Bir OTG dosyası OASIS Office Uygulamaları 1.0 belirtimini izleyen OpenDocument standardı kullanılarak oluşturulan bir çizim şablonudur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/otg .
 type: docs
-weight: 290
+weight: 270
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field
 
-OTG dosyası, OASIS Office Applications 1.0 spesifikasyonunu izleyen OpenDocument standardı kullanılarak oluşturulan bir çizim şablonudur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/otg) .
+Bir OTG dosyası, OASIS Office Uygulamaları 1.0 belirtimini izleyen OpenDocument standardı kullanılarak oluşturulan bir çizim şablonudur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/otg) .
 
 ```csharp
 public static readonly ImageFileType Otg;

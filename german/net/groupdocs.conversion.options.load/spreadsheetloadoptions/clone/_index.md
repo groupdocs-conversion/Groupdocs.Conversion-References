@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Klont aktuelle Instanz.
 type: docs
-weight: 160
+weight: 170
 url: /de/net/groupdocs.conversion.options.load/spreadsheetloadoptions/clone/
 ---
 ## SpreadsheetLoadOptions.Clone method

@@ -28,6 +28,7 @@ The namespace provides interfaces for fluent conversion.
 | [IConversionFrom](./iconversionfrom) | Setup source for conversion |
 | [IConversionGetDocumentInfo](./iconversiongetdocumentinfo) | Gets source document info - pages count and other document properties specific to the file type. |
 | [IConversionGetPossibleConversions](./iconversiongetpossibleconversions) | Gets possible conversions for the source document. |
+| [IConversionIsPasswordProtected](./iconversionispasswordprotected) | Checks if source document is password protected |
 | [IConversionLoadOptions](./iconversionloadoptions) | Conversion load options |
 | [IConversionLoadOptionsOrSourceDocumentLoaded](./iconversionloadoptionsorsourcedocumentloaded) | Conversion load options or actions with loaded document |
 | [IConversionSettings](./iconversionsettings) | Setup conversion settings |

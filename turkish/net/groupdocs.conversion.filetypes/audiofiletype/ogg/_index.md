@@ -1,14 +1,14 @@
 ---
 title: Ogg
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: OGG .ogg uzantısıyla kaydedilen bir Ogg Vorbis Sıkıştırılmış Ses Dosyasıdır. OGG dosyaları ses verilerini depolamak için kullanılır ve sanatçı ve parça bilgilerini ve meta verileri de içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/audio/ogg/ .
+description: OGG .ogg uzantısıyla kaydedilen bir Ogg Vorbis Sıkıştırılmış Ses Dosyasıdır. OGG dosyaları ses verilerini depolamak için kullanılır ve sanatçı ve parça bilgileri ile meta verileri de içerebilir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/audio/ogg/ .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/audiofiletype/ogg/
 ---
 ## AudioFileType.Ogg field
 
-OGG, .ogg uzantısıyla kaydedilen bir Ogg Vorbis Sıkıştırılmış Ses Dosyasıdır. OGG dosyaları ses verilerini depolamak için kullanılır ve sanatçı ve parça bilgilerini ve meta verileri de içerebilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/audio/ogg/) .
+OGG, .ogg uzantısıyla kaydedilen bir Ogg Vorbis Sıkıştırılmış Ses Dosyasıdır. OGG dosyaları, ses verilerini depolamak için kullanılır ve sanatçı ve parça bilgileri ile meta verileri de içerebilir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/audio/ogg/) .
 
 ```csharp
 public static readonly AudioFileType Ogg;

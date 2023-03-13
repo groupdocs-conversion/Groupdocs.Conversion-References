@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Lager i dokumentet
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Se även

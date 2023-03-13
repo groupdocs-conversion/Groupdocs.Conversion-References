@@ -10,7 +10,7 @@ is_root: true
 
 | ad alanı | Tanım |
 | --- | --- |
-| [GroupDocs.Conversion](./groupdocs.conversion) | Ad alanı, belgeleri basit ve sezgisel bir şekilde tüm popüler dosya biçimlerine dönüştürmek için sınıflar sağlar. |
+| [GroupDocs.Conversion](./groupdocs.conversion) | Ad alanı, belgeleri tüm popüler dosya biçimlerine basit ve sezgisel bir şekilde dönüştürmek için sınıflar sağlar. |
 | [GroupDocs.Conversion.Caching](./groupdocs.conversion.caching) | Ad alanı, önbelleğe alma davranışını özelleştirmek için sınıflar sağlar. |
 | [GroupDocs.Conversion.Contracts](./groupdocs.conversion.contracts) | Ad alanı, üyelerin çıktı belgesini başlatmasını ve serbest bırakmasını, yazı tipi değişikliklerini yönetmesini vb. sağlar. |
 | [GroupDocs.Conversion.Exceptions](./groupdocs.conversion.exceptions) | Ad alanı, farklı istisna sınıfları sağlar. |
@@ -18,8 +18,8 @@ is_root: true
 | [GroupDocs.Conversion.Fluent](./groupdocs.conversion.fluent) | Ad alanı, akıcı dönüştürme için arabirimler sağlar. |
 | [GroupDocs.Conversion.Integration.Audio](./groupdocs.conversion.integration.audio) | Ad alanı, ses dönüştürme desteği için gereken arabirimleri ve sınıfları sağlar. |
 | [GroupDocs.Conversion.Integration.Ocr](./groupdocs.conversion.integration.ocr) | Ad alanı, Optik Karakter Tanıma (OCR) desteği için gereken arabirimleri ve sınıfları sağlar. |
-| [GroupDocs.Conversion.Integration.Video](./groupdocs.conversion.integration.video) | Ad alanı, video dönüştürme desteği için gerekli arabirimleri ve sınıfları sağlar. |
-| [GroupDocs.Conversion.Logging](./groupdocs.conversion.logging) | Ad alanı, günlüğe kaydetme davranışını özelleştirmek için sınıflar sağlar. |
+| [GroupDocs.Conversion.Integration.Video](./groupdocs.conversion.integration.video) | Ad alanı, video dönüştürme desteği için gereken arabirimleri ve sınıfları sağlar. |
+| [GroupDocs.Conversion.Logging](./groupdocs.conversion.logging) | Ad alanı, günlük tutma davranışını özelleştirmek için sınıflar sağlar. |
 | [GroupDocs.Conversion.Options.Convert](./groupdocs.conversion.options.convert) | Ad alanı, belge dönüştürme işlemi için ek seçenekler belirtmek üzere sınıflar sağlar. |
 | [GroupDocs.Conversion.Options.Load](./groupdocs.conversion.options.load) | Ad alanı, belge yükleme işlemi için ek seçenekler belirtmek üzere sınıflar sağlar. |
 | [GroupDocs.Conversion.Reporting](./groupdocs.conversion.reporting) | Ad alanı, dönüştürme durumunu ve ilerlemeyi izlemek için sınıflar sağlar. |

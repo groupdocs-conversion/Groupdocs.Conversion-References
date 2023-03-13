@@ -1,14 +1,14 @@
 ---
 title: MarginTop
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra piksel cinsinden istenen sayfa üst kenar boşluğu.
+description: Dönüştürmeden sonra piksel cinsinden istenen sayfa üst marjı.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop/
 ---
 ## IPageMarginConvertOptions.MarginTop property
 
-Dönüştürmeden sonra piksel cinsinden istenen sayfa üst kenar boşluğu.
+Dönüştürmeden sonra piksel cinsinden istenen sayfa üst marjı.
 
 ```csharp
 public int MarginTop { get; set; }

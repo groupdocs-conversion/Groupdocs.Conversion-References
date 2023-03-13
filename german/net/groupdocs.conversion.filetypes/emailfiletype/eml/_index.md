@@ -1,14 +1,14 @@
 ---
 title: Eml
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Das EMLDateiformat stellt EMailNachrichten dar die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Fast alle EMailClients unterstützen dieses Dateiformat aufgrund seiner Konformität mit dem RFC822 Internet Message Format Standard. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/eml .
+description: Das EMLDateiformat stellt EMailNachrichten dar die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Fast alle EMailClients unterstützen dieses Dateiformat aufgrund seiner Konformität mit dem RFC822 Internet Message Format Standard. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/eml .
 type: docs
 weight: 20
 url: /de/net/groupdocs.conversion.filetypes/emailfiletype/eml/
 ---
 ## EmailFileType.Eml field
 
-Das EML-Dateiformat stellt E-Mail-Nachrichten dar, die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Fast alle E-Mail-Clients unterstützen dieses Dateiformat aufgrund seiner Konformität mit dem RFC-822 Internet Message Format Standard. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/eml) .
+Das EML-Dateiformat stellt E-Mail-Nachrichten dar, die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Fast alle E-Mail-Clients unterstützen dieses Dateiformat aufgrund seiner Konformität mit dem RFC-822 Internet Message Format Standard. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/eml) .
 
 ```csharp
 public static readonly EmailFileType Eml;

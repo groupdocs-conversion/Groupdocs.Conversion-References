@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Варианты загрузки документов Tsv.
 type: docs
-weight: 2030
+weight: 2280
 url: /ru/net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -35,6 +35,7 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | Если OnePagePerSheet имеет значение true, содержимое листа будет преобразовано в одну страницу документа PDF. Значение по умолчанию — true. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | При значении True и преобразовании в Pdf преобразование оптимизировано для лучшего размера файла, чем качество печати. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Установить пароль для снятия защиты с защищенного документа. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Список индексов листов для преобразования. Индексы должны начинаться с нуля |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Имя листа для преобразования |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Показывать линии сетки при преобразовании файлов Excel. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Показывать скрытые листы при преобразовании файлов Excel. |

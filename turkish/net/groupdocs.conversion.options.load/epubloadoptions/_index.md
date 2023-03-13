@@ -1,14 +1,14 @@
 ---
 title: EpubLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Epub belgelerini yükleme seçenekleri.
+description: Epub belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1910
+weight: 2120
 url: /tr/net/groupdocs.conversion.options.load/epubloadoptions/
 ---
 ## EpubLoadOptions class
 
-Epub belgelerini yükleme seçenekleri.
+Epub belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class EpubLoadOptions : LoadOptions

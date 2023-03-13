@@ -1,14 +1,14 @@
 ---
 title: Fbx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: FBX FilmBox è un popolare formato di file 3D originariamente sviluppato da Kaydara per MotionBuilder. È stato acquisito da Autodesk Inc nel 2006 ed è ora uno dei principali formati di scambio 3D utilizzato da molti strumenti 3D. FBX è disponibile sia in formato file binario che ASCII. Ulteriori informazioni su questo formato filequihttps//docs.fileformat.com/3d/fbx .
+description: FBX FilmBox è un popolare formato di file 3D originariamente sviluppato da Kaydara per MotionBuilder. È stato acquisito da Autodesk Inc nel 2006 ed è ora uno dei principali formati di scambio 3D utilizzato da molti strumenti 3D. FBX è disponibile sia in formato file binario che ASCII. Ulteriori informazioni su questo formato fileQuihttps//docs.fileformat.com/3d/fbx .
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/fbx/
 ---
 ## ThreeDFileType.Fbx field
 
-FBX, FilmBox, è un popolare formato di file 3D originariamente sviluppato da Kaydara per MotionBuilder. È stato acquisito da Autodesk Inc nel 2006 ed è ora uno dei principali formati di scambio 3D utilizzato da molti strumenti 3D. FBX è disponibile sia in formato file binario che ASCII. Ulteriori informazioni su questo formato file[qui](https://docs.fileformat.com/3d/fbx) .
+FBX, FilmBox, è un popolare formato di file 3D originariamente sviluppato da Kaydara per MotionBuilder. È stato acquisito da Autodesk Inc nel 2006 ed è ora uno dei principali formati di scambio 3D utilizzato da molti strumenti 3D. FBX è disponibile sia in formato file binario che ASCII. Ulteriori informazioni su questo formato file[Qui](https://docs.fileformat.com/3d/fbx) .
 
 ```csharp
 public static readonly ThreeDFileType Fbx;

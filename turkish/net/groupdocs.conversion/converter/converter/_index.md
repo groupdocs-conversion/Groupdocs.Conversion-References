@@ -22,7 +22,7 @@ public Converter(Func<Stream> document)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*document* boş. |
+| ArgumentNullException | Ne zaman atıldı*document* boş. |
 
 ### Notlar
 
@@ -140,7 +140,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Func`1 | Okunabilir akış döndüren yöntem. |
-| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. |
+| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. Kaynak dosyanın türü |
 
 ### Notlar
 
@@ -171,7 +171,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Func`1 | Okunabilir akış döndüren yöntem. |
-| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. |
+| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. Kaynak dosyanın türü |
 | settings | Func`1 | Dönüştürücü ayarları. |
 
 ### Notlar
@@ -319,7 +319,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Kaynak belgeye giden dosya yolu. |
-| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. |
+| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. Kaynak dosyanın türü |
 
 ### Notlar
 
@@ -350,7 +350,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Kaynak belgeye giden dosya yolu. |
-| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. |
+| loadOptions | Func`2 | Belge yükleme seçeneklerini döndüren yöntemler. Kaynak dosyanın türü |
 | settings | Func`1 | Dönüştürücü ayarları. |
 
 ### Notlar

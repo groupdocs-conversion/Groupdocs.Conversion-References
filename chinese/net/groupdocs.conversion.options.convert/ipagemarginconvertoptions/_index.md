@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 表示支持页边距的转换选项
 type: docs
-weight: 1400
+weight: 1560
 url: /zh/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

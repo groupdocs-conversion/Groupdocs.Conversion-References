@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 允许控制如何将 PDF 文档转换为文字处理文档
 type: docs
-weight: 1640
+weight: 1820
 url: /zh/net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 ## PdfRecognitionMode class
@@ -25,17 +25,17 @@ public sealed class PdfRecognitionMode : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Flow](../../groupdocs.conversion.options.convert/pdfrecognitionmode/flow) | 全识别模式，引擎进行分组和多级分析 还原原始文档作者的意图，产生最大可编辑的 文档。缺点是输出文档可能看起来与 原始PDF文件不同。 |
-| static readonly [Textbox](../../groupdocs.conversion.options.convert/pdfrecognitionmode/textbox) | 此模式快速且有利于最大限度地保留 PDF 文件的原始外观，但结果文档的可编辑性可能会受到限制。 原始 PDF 文件中的每个视觉分组的文本块都将转换为结果文档中的 文本框。这实现了 输出文档与原始 PDF 文件的最大相似性。输出文档看起来不错， 但它将完全由文本框组成，并且可能会使在 Microsoft Word 中进一步编辑文档 变得非常困难。 这是默认模式。 |
+| static readonly [Flow](../../groupdocs.conversion.options.convert/pdfrecognitionmode/flow) | 全识别模式，引擎进行分组和多级分析 还原文档原作者意图，生成最大可编辑的 文档。缺点是输出文档可能看起来与 原始 PDF 文件不同。 |
+| static readonly [Textbox](../../groupdocs.conversion.options.convert/pdfrecognitionmode/textbox) | 此模式速度快且有利于最大程度地保留 PDF 文件的原始外观，但生成的文档的可编辑性可能会受到限制。 原始 PDF 文件中的每个可视化分组文本块都将转换为 生成的文档中的文本框。这实现了 输出文档与原始 PDF 文件的最大相似性。输出文档看起来不错， ，但它将完全由文本框组成，这可能会使 Microsoft Word 中的文档进一步编辑 变得非常困难。 这是默认模式。 |
 
 ### 也可以看看
 

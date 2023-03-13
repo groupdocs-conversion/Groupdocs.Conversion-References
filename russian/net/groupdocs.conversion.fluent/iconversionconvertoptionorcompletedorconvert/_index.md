@@ -3,7 +3,7 @@ title: IConversionConvertOptionOrCompletedOrConvert
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Варианты преобразования преобразования или преобразование завершено или выполнено
 type: docs
-weight: 1060
+weight: 1190
 url: /ru/net/groupdocs.conversion.fluent/iconversionconvertoptionorcompletedorconvert/
 ---
 ## IConversionConvertOptionOrCompletedOrConvert interface

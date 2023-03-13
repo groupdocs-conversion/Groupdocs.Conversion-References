@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos One.
 type: docs
-weight: 1960
+weight: 2190
 url: /es/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente. Se debe proporcionar una ruta absoluta al archivo de fuente. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Fuente predeterminada para el documento de notas. La siguiente fuente se utilizará si falta una fuente. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Sustituir fuentes específicas al convertir documentos de notas. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Tipo de archivo de documento de entrada. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo de archivo de documento de entrada. |

@@ -1,14 +1,14 @@
 ---
 title: FileTypeNotSupportedException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya türü desteklenmediğinde oluşturulan GroupDocs istisnası
+description: Dosya türü desteklenmediğinde GroupDocs istisnası oluşturuldu
 type: docs
-weight: 710
+weight: 770
 url: /tr/net/groupdocs.conversion.exceptions/filetypenotsupportedexception/
 ---
 ## FileTypeNotSupportedException class
 
-Dosya türü desteklenmediğinde oluşturulan GroupDocs istisnası
+Dosya türü desteklenmediğinde GroupDocs istisnası oluşturuldu
 
 ```csharp
 public sealed class FileTypeNotSupportedException : GroupDocsConversionException

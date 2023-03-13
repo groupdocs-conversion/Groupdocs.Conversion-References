@@ -1,14 +1,14 @@
 ---
 title: Vssx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSXDateiformat kann mit Visio 2013 und höher geöffnet werden. VisioDateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt z. B. Sammlung von Formen Konnektoren Flussdiagramme Netzwerklayout UMLDiagramme . Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vssx .
+description: Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSXDateiformat kann mit Visio 2013 und höher geöffnet werden. VisioDateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt z. B. Sammlung von Formen Konnektoren Flussdiagramme Netzwerklayout UMLDiagramme . Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vssx .
 type: docs
 weight: 90
 url: /de/net/groupdocs.conversion.filetypes/diagramfiletype/vssx/
 ---
 ## DiagramFileType.Vssx field
 
-Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSX-Dateiformat kann mit Visio 2013 und höher geöffnet werden. Visio-Dateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt, z. B. Sammlung von Formen, Konnektoren, Flussdiagramme, Netzwerklayout, UML-Diagramme, . Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vssx) .
+Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSX-Dateiformat kann mit Visio 2013 und höher geöffnet werden. Visio-Dateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt, z. B. Sammlung von Formen, Konnektoren, Flussdiagramme, Netzwerklayout, UML-Diagramme, . Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vssx) .
 
 ```csharp
 public static readonly DiagramFileType Vssx;

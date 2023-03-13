@@ -1,14 +1,14 @@
 ---
 title: DiagramDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Contiene i metadati del documento Diagramma
+description: Contiene i metadati del documento del diagramma
 type: docs
 weight: 150
 url: /it/net/groupdocs.conversion.contracts/diagramdocumentinfo/
 ---
 ## DiagramDocumentInfo class
 
-Contiene i metadati del documento Diagramma
+Contiene i metadati del documento del diagramma
 
 ```csharp
 public class DiagramDocumentInfo : DocumentInfo

@@ -1,24 +1,19 @@
 ---
 title: MarkupFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义标记和 Web 文件格式包括以下文件类型 Htm./markupfiletype/htm  Html./markupfiletype/html . 了解有关图像格式的更多信息这里https//wiki.fileformat.com/web.
+description: 定义标记和 Web 文件格式包括以下文件类型 Htm  Html . 了解有关图像格式的更多信息这里https//wiki.fileformat.com/web.
 type: docs
-weight: 870
+weight: 970
 url: /zh/net/groupdocs.conversion.filetypes/markupfiletype/
 ---
 ## MarkupFileType class
 
-定义标记和 Web 文件格式。包括以下文件类型： [`Htm`](./htm) , [`Html`](./html) . 了解有关图像格式的更多信息[这里](https://wiki.fileformat.com/web).
+定义标记和 Web 文件格式。包括以下文件类型： Htm , Html . 了解有关图像格式的更多信息[这里](https://wiki.fileformat.com/web).
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class MarkupFileType : FileType
 ```
-
-## 构造函数
-
-| 姓名 | 描述 |
-| --- | --- |
-| [MarkupFileType](markupfiletype)() | 序列化构造函数 |
 
 ## 特性
 
@@ -26,7 +21,7 @@ public sealed class MarkupFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,20 +29,10 @@ public sealed class MarkupFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
-
-## 字段
-
-| 姓名 | 描述 |
-| --- | --- |
-| static readonly [Chm](../../groupdocs.conversion.filetypes/markupfiletype/chm) | CHM 文件格式表示由一组 HTML 页面组成的 Microsoft HTML 帮助文件。它为快速访问主题和导航到帮助文档的不同部分提供了一个索引。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/chm) |
-| static readonly [Htm](../../groupdocs.conversion.filetypes/markupfiletype/htm) | HTM（超文本标记语言）是为在浏览器中显示而创建的网页的扩展。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/html) |
-| static readonly [Html](../../groupdocs.conversion.filetypes/markupfiletype/html) | HTML（超文本标记语言）是为在浏览器中显示而创建的网页的扩展。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/html) |
-| static readonly [Mht](../../groupdocs.conversion.filetypes/markupfiletype/mht) | 带有 MHTML 扩展名的文件代表一种网页存档格式，可以由许多不同的应用程序创建。该格式被称为存档格式，因为它将 Web HTML 代码和相关资源保存在单个文件中。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/mhtml) |
-| static readonly [Mhtml](../../groupdocs.conversion.filetypes/markupfiletype/mhtml) | 带有 MHTML 扩展名的文件代表一种网页存档格式，可以由许多不同的应用程序创建。该格式被称为存档格式，因为它将 Web HTML 代码和相关资源保存在单个文件中。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/mhtml) |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ### 也可以看看
 

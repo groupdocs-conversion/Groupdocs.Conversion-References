@@ -1,14 +1,14 @@
 ---
 title: Jt
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: JT Jüpiter Mozaikleme Siemens PLM Software tarafından geliştirilmiş verimli endüstri odaklı ve esnek ISO standartlaştırılmış bir 3D veri formatıdır. Havacılık otomotiv endüstrisi ve Ağır Ekipmanların mekanik CAD alanları en önde gelen 3D görselleştirme formatı olarak JTyi kullanır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/jt .
+description: JT Jüpiter Tessellation Siemens PLM Software tarafından geliştirilen verimli endüstri odaklı ve esnek ISO standardize edilmiş bir 3D veri formatıdır. Havacılık otomotiv endüstrisi ve Ağır Ekipman mekanik CAD alanları JTyi en önde gelen 3D görselleştirme formatı olarak kullanır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/jt .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/jt/
 ---
 ## ThreeDFileType.Jt field
 
-JT (Jüpiter Mozaikleme), Siemens PLM Software tarafından geliştirilmiş verimli, endüstri odaklı ve esnek, ISO standartlaştırılmış bir 3D veri formatıdır. Havacılık, otomotiv endüstrisi ve Ağır Ekipmanların mekanik CAD alanları, en önde gelen 3D görselleştirme formatı olarak JT'yi kullanır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/jt) .
+JT (Jüpiter Tessellation), Siemens PLM Software tarafından geliştirilen verimli, endüstri odaklı ve esnek, ISO standardize edilmiş bir 3D veri formatıdır. Havacılık, otomotiv endüstrisi ve Ağır Ekipman mekanik CAD alanları, JT'yi en önde gelen 3D görselleştirme formatı olarak kullanır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/jt) .
 
 ```csharp
 public static readonly ThreeDFileType Jt;

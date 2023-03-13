@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果真的首先将输入转换为 PDF然后再转换为所需的格式
+description: 如果真的输入首先转换为 PDF然后转换为所需格式
 type: docs
 weight: 140
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-如果`真的`，首先将输入转换为 PDF，然后再转换为所需的格式。
+如果`真的`，输入首先转换为 PDF，然后转换为所需格式。
 
 ```csharp
 public bool UsePdf { get; set; }

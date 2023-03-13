@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: تنسيق مستند Xlam
+description: XLAM هو ملف إضافي ممكن بماكرو يُستخدم لإضافة وظائف جديدة إلى جداول البيانات. الوظيفة الإضافية هي برنامج تكميلي يقوم بتشغيل تعليمات برمجية إضافية ويوفر وظائف إضافية لجداول البيانات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /ar/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-تنسيق مستند Xlam
+XLAM هو ملف إضافي ممكن بماكرو يُستخدم لإضافة وظائف جديدة إلى جداول البيانات. الوظيفة الإضافية هي برنامج تكميلي يقوم بتشغيل تعليمات برمجية إضافية ويوفر وظائف إضافية لجداول البيانات. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

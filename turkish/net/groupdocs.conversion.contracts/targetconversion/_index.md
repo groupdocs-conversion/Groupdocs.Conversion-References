@@ -3,7 +3,7 @@ title: TargetConversion
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Olası hedef dönüştürmeyi temsil eder ve birincil mi yoksa ikincil mi bir bayraktır
 type: docs
-weight: 520
+weight: 560
 url: /tr/net/groupdocs.conversion.contracts/targetconversion/
 ---
 ## TargetConversion class

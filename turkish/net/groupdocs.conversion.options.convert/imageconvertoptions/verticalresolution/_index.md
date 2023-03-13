@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük giriş dosyasının çözünürlüğüdür veya 96 dpi.
+description: Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük giriş dosyasının çözünürlüğü veya 96 dpi. dir.
 type: docs
 weight: 150
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution/
 ---
 ## ImageConvertOptions.VerticalResolution property
 
-Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğüdür veya 96 dpi.
+Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğü veya 96 dpi. 'dir.
 
 ```csharp
 public int VerticalResolution { get; set; }

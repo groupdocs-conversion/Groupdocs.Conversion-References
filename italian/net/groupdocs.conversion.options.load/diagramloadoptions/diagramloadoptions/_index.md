@@ -1,14 +1,14 @@
 ---
 title: DiagramLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diDiagramLoadOptionsgroupdocs.conversion.options.load/diagramloadoptions classe.
+description: Inizializza una nuova istanza diDiagramLoadOptionsgroupdocs.conversion.options.load/diagramloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/diagramloadoptions/diagramloadoptions/
 ---
 ## DiagramLoadOptions constructor
 
-Inizializza la nuova istanza di[`DiagramLoadOptions`](../../diagramloadoptions) classe.
+Inizializza una nuova istanza di[`DiagramLoadOptions`](../../diagramloadoptions) classe.
 
 ```csharp
 public DiagramLoadOptions()

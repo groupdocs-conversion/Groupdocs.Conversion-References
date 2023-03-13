@@ -1,14 +1,14 @@
 ---
 title: DjVu
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: DjVu ist ein Grafikdateiformat das für gescannte Dokumente und Bücher gedacht ist insbesondere solche die eine Kombination aus Text Zeichnungen Bildern und Fotos enthalten. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/djvu .
+description: DjVu ist ein Grafikdateiformat das für gescannte Dokumente und Bücher gedacht ist insbesondere solche die eine Kombination aus Text Zeichnungen Bildern und Fotos enthalten. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/djvu .
 type: docs
-weight: 100
+weight: 90
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/djvu/
 ---
 ## ImageFileType.DjVu field
 
-DjVu ist ein Grafikdateiformat, das für gescannte Dokumente und Bücher gedacht ist, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotos enthalten. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/djvu) .
+DjVu ist ein Grafikdateiformat, das für gescannte Dokumente und Bücher gedacht ist, insbesondere solche, die eine Kombination aus Text, Zeichnungen, Bildern und Fotos enthalten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/djvu) .
 
 ```csharp
 public static readonly ImageFileType DjVu;

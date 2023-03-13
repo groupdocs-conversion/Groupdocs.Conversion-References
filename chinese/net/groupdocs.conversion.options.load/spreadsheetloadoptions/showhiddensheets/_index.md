@@ -3,7 +3,7 @@ title: ShowHiddenSheets
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换 Excel 文件时显示隐藏的工作表
 type: docs
-weight: 140
+weight: 150
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets/
 ---
 ## SpreadsheetLoadOptions.ShowHiddenSheets property

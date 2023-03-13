@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات لتحميل مستندات البيانات.
 type: docs
-weight: 1870
+weight: 2060
 url: /ar/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /ar/net/groupdocs.conversion.options.load/dataloadoptions/
 خيارات لتحميل مستندات البيانات.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | تهيئة مثيل جديد لـ[`DataLoadOptions`](../dataloadoptions) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | نوع ملف مستند الإدخال . |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | المسار الأساسي / عنوان url الخاص بـ html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | احصل على الترميز الذي سيتم استخدامه عند تحميل مستند العلامات أو تعيينه. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | نوع ملف مستند الإدخال . |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | نوع ملف مستند الإدخال . |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | تمكين أو تعطيل إنشاء ترقيم الصفحات في المستند المحول. الافتراضي: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | مهلة تحميل الموارد الخارجية |
 
 ## طُرق
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### أنظر أيضا
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * مساحة الاسم [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * المجسم [GroupDocs.Conversion](../../)
 

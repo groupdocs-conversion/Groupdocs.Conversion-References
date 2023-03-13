@@ -1,14 +1,14 @@
 ---
 title: Dwfx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Il file DWFX è un disegno 2D o 3D creato con il software CAD Autodesk. Viene salvato nel formato DWFx che è simile a un . DWF ma è formattato utilizzando XML Paper Specification XPS di Microsoft.
+description: Il file DWFX è un disegno 2D o 3D creato con il software CAD Autodesk. Viene salvato nel formato DWFx che è simile a un file . DWF ma è formattato utilizzando XML Paper Specification XPS di Microsoft.
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/dwfx/
 ---
 ## CadFileType.Dwfx field
 
-Il file DWFX è un disegno 2D o 3D creato con il software CAD Autodesk. Viene salvato nel formato DWFx, che è simile a un . DWF, ma è formattato utilizzando XML Paper Specification (XPS) di Microsoft.
+Il file DWFX è un disegno 2D o 3D creato con il software CAD Autodesk. Viene salvato nel formato DWFx, che è simile a un file . DWF, ma è formattato utilizzando XML Paper Specification (XPS) di Microsoft.
 
 ```csharp
 public static readonly CadFileType Dwfx;

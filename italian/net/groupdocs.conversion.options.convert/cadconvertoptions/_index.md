@@ -3,7 +3,7 @@ title: CadConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione al tipo Cad.
 type: docs
-weight: 1300
+weight: 1430
 url: /it/net/groupdocs.conversion.options.convert/cadconvertoptions/
 ---
 ## CadConvertOptions class
@@ -18,7 +18,7 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 
 | Nome | Descrizione |
 | --- | --- |
-| [CadConvertOptions](cadconvertoptions)() | Inizializza la nuova istanza di[`CadConvertOptions`](../cadconvertoptions) classe. |
+| [CadConvertOptions](cadconvertoptions)() | Inizializza una nuova istanza di[`CadConvertOptions`](../cadconvertoptions) classe. |
 
 ## Proprietà
 
@@ -36,7 +36,7 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 | [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Clona l'istanza delle opzioni correnti. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

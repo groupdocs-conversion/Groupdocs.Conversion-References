@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diPdfLoadOptionsgroupdocs.conversion.options.load/pdfloadoptions classe.
+description: Inizializza una nuova istanza diPdfLoadOptionsgroupdocs.conversion.options.load/pdfloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/pdfloadoptions/pdfloadoptions/
 ---
 ## PdfLoadOptions constructor
 
-Inizializza la nuova istanza di[`PdfLoadOptions`](../../pdfloadoptions) classe.
+Inizializza una nuova istanza di[`PdfLoadOptions`](../../pdfloadoptions) classe.
 
 ```csharp
 public PdfLoadOptions()

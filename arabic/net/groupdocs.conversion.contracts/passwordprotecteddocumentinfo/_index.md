@@ -3,7 +3,7 @@ title: PasswordProtectedDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: المستند المقدم محمي بكلمة مرور
 type: docs
-weight: 330
+weight: 350
 url: /ar/net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/
 ---
 ## PasswordProtectedDocumentInfo class

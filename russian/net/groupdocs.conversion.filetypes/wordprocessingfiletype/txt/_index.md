@@ -3,7 +3,7 @@ title: Txt
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файл с расширением .TXT представляет собой текстовый документ содержащий обычный текст в виде строк. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 160
+weight: 120
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/
 ---
 ## WordProcessingFileType.Txt field

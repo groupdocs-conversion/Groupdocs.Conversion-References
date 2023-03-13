@@ -1,14 +1,14 @@
 ---
 title: Textbox
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 此模式快速且有利于最大限度地保留 PDF 文件的原始外观但结果文档的可编辑性可能会受到限制 原始 PDF 文件中的每个视觉分组的文本块都将转换为结果文档中的 文本框这实现了 输出文档与原始 PDF 文件的最大相似性输出文档看起来不错 但它将完全由文本框组成并且可能会使在 Microsoft Word 中进一步编辑文档 变得非常困难 这是默认模式
+description: 此模式速度快且有利于最大程度地保留 PDF 文件的原始外观但生成的文档的可编辑性可能会受到限制 原始 PDF 文件中的每个可视化分组文本块都将转换为 生成的文档中的文本框这实现了 输出文档与原始 PDF 文件的最大相似性输出文档看起来不错 但它将完全由文本框组成这可能会使 Microsoft Word 中的文档进一步编辑 变得非常困难 这是默认模式
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.options.convert/pdfrecognitionmode/textbox/
 ---
 ## PdfRecognitionMode.Textbox field
 
-此模式快速且有利于最大限度地保留 PDF 文件的原始外观，但结果文档的可编辑性可能会受到限制。 原始 PDF 文件中的每个视觉分组的文本块都将转换为结果文档中的 文本框。这实现了 输出文档与原始 PDF 文件的最大相似性。输出文档看起来不错， 但它将完全由文本框组成，并且可能会使在 Microsoft Word 中进一步编辑文档 变得非常困难。 这是默认模式。
+此模式速度快且有利于最大程度地保留 PDF 文件的原始外观，但生成的文档的可编辑性可能会受到限制。 原始 PDF 文件中的每个可视化分组文本块都将转换为 生成的文档中的文本框。这实现了 输出文档与原始 PDF 文件的最大相似性。输出文档看起来不错， ，但它将完全由文本框组成，这可能会使 Microsoft Word 中的文档进一步编辑 变得非常困难。 这是默认模式。
 
 ```csharp
 public static readonly PdfRecognitionMode Textbox;

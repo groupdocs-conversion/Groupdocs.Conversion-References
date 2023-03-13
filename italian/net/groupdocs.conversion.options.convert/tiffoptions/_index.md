@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per la conversione nel tipo di file TIFF.
 type: docs
-weight: 1750
+weight: 1930
 url: /it/net/groupdocs.conversion.options.convert/tiffoptions/
 ---
 ## TiffOptions class
@@ -32,7 +32,7 @@ public sealed class TiffOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

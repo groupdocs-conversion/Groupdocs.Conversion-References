@@ -3,7 +3,7 @@ title: Md
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Textfiler skapade med Markdownspråkdialekter sparas med filtillägget .MD eller .MARKDOWN. MDfiler sparas i vanligt textformat som använder Markdownspråk som också inkluderar inline textsymboler som definierar hur en text kan formateras som indrag tabellformatering typsnitt och rubriker. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field

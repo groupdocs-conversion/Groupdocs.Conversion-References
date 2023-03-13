@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات التحويل إلى نوع ملف التوصيف .
 type: docs
-weight: 1520
+weight: 1680
 url: /ar/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /ar/net/groupdocs.conversion.options.convert/markupconvertoptions/
 خيارات التحويل إلى نوع ملف التوصيف .
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | تهيئة مثيل جديد لـ[`MarkupConvertOptions`](../markupconvertoptions) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | إذا`حقيقي` سيتم استخدام التخطيط الثابت ، على سبيل المثال عناصر html ذات المواقع المطلقة الافتراضي: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | إظهار حدود الصفحة عند التحويل إلى تخطيط ثابت. الافتراضي هو صحيح. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | إذا`حقيقي` سيتم استخدام التخطيط الثابت ، على سبيل المثال عناصر html ذات المواقع المطلقة الافتراضي: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | إظهار حدود الصفحة عند التحويل إلى تخطيط ثابت. الافتراضي هو صحيح. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | نوع الملف المطلوب يجب تحويل مستند الإدخال إليه. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | نوع الملف المطلوب يجب تحويل مستند الإدخال إليه. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | رقم الصفحة الذي سيبدأ التحويل منه . |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | قائمة فهارس الصفحات المطلوب تحويلها. يجب تحديده لتحويل صفحات معينة. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | عدد الصفحات المطلوب التحويل منها بدءًا من`رقم الصفحة` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | إذا`حقيقي` ، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | إذا`حقيقي` ، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | خيارات محددة للعلامة المائية |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | يحدد مستوى التكبير بالنسبة المئوية. الافتراضي هو 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | يحدد مستوى التكبير بالنسبة المئوية. الافتراضي هو 100. |
 
 ## طُرق
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### أنظر أيضا
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * مساحة الاسم [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * المجسم [GroupDocs.Conversion](../../)
 

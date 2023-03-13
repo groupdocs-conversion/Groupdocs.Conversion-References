@@ -3,7 +3,7 @@ title: TsvDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Contiene i metadati del documento Tsv
 type: docs
-weight: 550
+weight: 590
 url: /it/net/groupdocs.conversion.contracts/tsvdocumentinfo/
 ---
 ## TsvDocumentInfo class
@@ -18,7 +18,7 @@ public class TsvDocumentInfo : SpreadsheetDocumentInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene l'autore |
+| [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Ottiene autore |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Data di creazione del documento |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Formato documento |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected) { get; } | Ottiene il documento protetto da password |

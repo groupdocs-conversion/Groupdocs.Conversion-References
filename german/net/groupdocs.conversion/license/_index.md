@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierunghierhttps//purchase.groupdocs.com/faqs/licensing .
+description: Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die LizenzierungHierhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 1250
+weight: 1380
 url: /de/net/groupdocs.conversion/license/
 ---
 ## License class
 
-Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[hier](https://purchase.groupdocs.com/faqs/licensing) .
+Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[Hier](https://purchase.groupdocs.com/faqs/licensing) .
 
 ```csharp
 public sealed class License
@@ -29,7 +29,7 @@ public sealed class License
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zur Lizenzierung: [Häufig gestellte Fragen zur GroupDocs-Lizenzierung](https://purchase.groupdocs.com/faqs/licensing)
 * Weitere Informationen zur GroupDocs.Conversion-Lizenzierung: [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)

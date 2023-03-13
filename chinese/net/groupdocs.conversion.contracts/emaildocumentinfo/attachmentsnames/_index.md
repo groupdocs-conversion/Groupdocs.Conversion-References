@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 获取附件名称
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### 也可以看看

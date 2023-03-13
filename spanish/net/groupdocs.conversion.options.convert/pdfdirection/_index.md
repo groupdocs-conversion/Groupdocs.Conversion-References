@@ -3,7 +3,7 @@ title: PdfDirection
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Describe la dirección del texto PDF.
 type: docs
-weight: 1570
+weight: 1740
 url: /es/net/groupdocs.conversion.options.convert/pdfdirection/
 ---
 ## PdfDirection class

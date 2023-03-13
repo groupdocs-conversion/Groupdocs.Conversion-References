@@ -1,14 +1,14 @@
 ---
 title: Md
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Markdown dil lehçeleriyle oluşturulan metin dosyaları .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. MD dosyaları girintiler tablo biçimlendirme yazı tipleri ve başlıklar gibi bir metnin nasıl biçimlendirilebileceğini tanımlayan satır içi metin sembollerini de içeren Markdown dilini kullanan düz metin biçiminde kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/md .
+description: Markdown dil lehçeleriyle oluşturulan metin dosyaları .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. MD dosyaları girintiler tablo biçimlendirme yazı tipleri ve başlıklar gibi bir metnin nasıl biçimlendirilebileceğini tanımlayan satır içi metin sembollerini de içeren Markdown dilini kullanan düz metin biçiminde kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field
 
-Markdown dil lehçeleriyle oluşturulan metin dosyaları, .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. MD dosyaları, girintiler, tablo biçimlendirme, yazı tipleri ve başlıklar gibi bir metnin nasıl biçimlendirilebileceğini tanımlayan satır içi metin sembollerini de içeren Markdown dilini kullanan düz metin biçiminde kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/md) .
+Markdown dil lehçeleriyle oluşturulan metin dosyaları, .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. MD dosyaları, girintiler, tablo biçimlendirme, yazı tipleri ve başlıklar gibi bir metnin nasıl biçimlendirilebileceğini tanımlayan satır içi metin sembollerini de içeren Markdown dilini kullanan düz metin biçiminde kaydedilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/md) .
 
 ```csharp
 public static readonly WordProcessingFileType Md;

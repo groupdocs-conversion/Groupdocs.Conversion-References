@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para conversión a tipo de archivo Imagen.
 type: docs
-weight: 1470
+weight: 1630
 url: /es/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -41,7 +41,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Opciones de conversión específicas de Psd. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Ángulo de rotación de la imagen. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Opciones de conversión específicas de Tiff. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Si`verdadero` la entrada primero se convierte a PDF y luego al formato deseado. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Si`verdadero` , la entrada primero se convierte a PDF y luego al formato deseado. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Resolución vertical de imagen deseada después de la conversión. La resolución predeterminada es la resolución del archivo de entrada o 96 ppp. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Opciones específicas de marca de agua |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Opciones de conversión específicas de Webp. |

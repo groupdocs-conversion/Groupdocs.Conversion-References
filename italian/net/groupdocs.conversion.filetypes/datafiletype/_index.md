@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Definisce i documenti di dati. Include i seguenti tipi di file Xml./datafiletype/xml . Json./datafiletype/json .
+description: Definisce i documenti di dati. Include i seguenti tipi di file Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /it/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-Definisce i documenti di dati. Include i seguenti tipi di file: [`Xml`](./xml) . [`Json`](./json) .
+Definisce i documenti di dati. Include i seguenti tipi di file: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## Costruttori
-
-| Nome | Descrizione |
-| --- | --- |
-| [DataFileType](datafiletype)() | Costruttore di serializzazione |
 
 ## Proprietà
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | Nome | Descrizione |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Rappresentazione di stringa |
-
-## Campi
-
-| Nome | Descrizione |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) è un formato di file standard aperto per la condivisione di dati che utilizza testo leggibile dall'uomo per archiviare e trasmettere dati. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML è l'acronimo di Extensible Markup Language che è simile all'HTML ma diverso nell'uso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/web/xml) . |
 
 ### Guarda anche
 

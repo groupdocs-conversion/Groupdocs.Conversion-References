@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 等式运算符
+description: 相等运算符.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.contracts/enumeration/op_equality/
 ---
 ## Enumeration Equality operator
 
-等式运算符。
+相等运算符.
 
 ```csharp
 public static bool operator ==(Enumeration left, Enumeration right)

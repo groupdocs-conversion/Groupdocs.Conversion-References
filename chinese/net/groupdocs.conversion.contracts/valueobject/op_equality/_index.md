@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 等式运算符
+description: 相等运算符.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/valueobject/op_equality/
 ---
 ## ValueObject Equality operator
 
-等式运算符。
+相等运算符.
 
 ```csharp
 public static bool operator ==(ValueObject a, ValueObject b)

@@ -1,14 +1,14 @@
 ---
 title: Cf2
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: File formato file comune. File CAD che contiene progetti di pacchetti 3D o altri dati del modello può essere lavorato e tagliato da una macchina CAD/CAM come un dispositivo di fustellatura.
+description: File formato file comune. File CAD che contiene progetti di pacchetti 3D o altri dati del modello può essere elaborato e tagliato da una macchina CAD/CAM come un dispositivo di fustellatura.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.filetypes/cadfiletype/cf2/
 ---
 ## CadFileType.Cf2 field
 
-File formato file comune. File CAD che contiene progetti di pacchetti 3D o altri dati del modello; può essere lavorato e tagliato da una macchina CAD/CAM, come un dispositivo di fustellatura.
+File formato file comune. File CAD che contiene progetti di pacchetti 3D o altri dati del modello; può essere elaborato e tagliato da una macchina CAD/CAM, come un dispositivo di fustellatura.
 
 ```csharp
 public static readonly CadFileType Cf2;

@@ -17,20 +17,26 @@ El espacio de nombres proporciona clases para especificar opciones adicionales p
 | [CadLoadOptions](./cadloadoptions) | Opciones para cargar documentos CAD. |
 | [CompressionLoadOptions](./compressionloadoptions) | Opciones para cargar documentos de compresión. |
 | [CsvLoadOptions](./csvloadoptions) | Opciones para cargar documentos Csv. |
+| [DatabaseLoadOptions](./databaseloadoptions) | Opciones para cargar documentos de base de datos. |
 | [DataLoadOptions](./dataloadoptions) | Opciones para cargar documentos de datos. |
 | [DiagramLoadOptions](./diagramloadoptions) | Opciones para cargar documentos de Diagrama. |
+| [EBookLoadOptions](./ebookloadoptions) | Opciones para cargar documentos EBook. |
 | [EmailField](./emailfield) | Describe los campos de correo electrónico enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Opciones para cargar documentos de correo electrónico. |
 | [EpubLoadOptions](./epubloadoptions) | Opciones para cargar documentos Epub. |
+| [FinanceLoadOptions](./financeloadoptions) | Opciones para cargar documentos financieros. |
+| [FontLoadOptions](./fontloadoptions) | Opciones para cargar documentos tipográficos. |
 | [ImageLoadOptions](./imageloadoptions) | Opciones para cargar documentos de Imagen. |
 | [LoadOptions](./loadoptions) | Clase de opciones de carga de documentos abstractos. |
 | [MarkupLoadOptions](./markuploadoptions) | Opciones para cargar documentos de Markup. |
 | [MboxLoadOptions](./mboxloadoptions) | Opciones para cargar documentos Mbox. |
 | [NoteLoadOptions](./noteloadoptions) | Opciones para cargar documentos One. |
 | [NsfLoadOptions](./nsfloadoptions) | Opciones para cargar documentos Nsf. |
+| [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Opciones para cargar documentos de idioma de descripción de página. |
 | [PdfLoadOptions](./pdfloadoptions) | Opciones para cargar documentos Pdf. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Opciones para cargar documentos de almacenamiento personal. |
 | [PresentationLoadOptions](./presentationloadoptions) | Opciones para cargar documentos de presentación. |
+| [PublisherLoadOptions](./publisherloadoptions) | Opciones para cargar documentos de Publisher. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Opciones para cargar documentos de Hoja de Cálculo. |
 | [ThreeDLoadOptions](./threedloadoptions) | Opciones para cargar documentos 3D. |
 | [TsvLoadOptions](./tsvloadoptions) | Opciones para cargar documentos Tsv. |
@@ -39,6 +45,7 @@ El espacio de nombres proporciona clases para especificar opciones adicionales p
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | Describe la enumeración de opciones de espacios finales de txt. |
 | [VcfLoadOptions](./vcfloadoptions) | Opciones para cargar documentos Vcf. |
 | [VideoLoadOptions](./videoloadoptions) | Opciones para cargar documentos de video. |
+| [WebLoadOptions](./webloadoptions) | Opciones para cargar documentos web. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Opciones para manejar marcadores en WordProcessing |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Opciones para cargar documentos de WordProcessing. |
 | [XmlLoadOptions](./xmlloadoptions) | Opciones para cargar documentos XML. |

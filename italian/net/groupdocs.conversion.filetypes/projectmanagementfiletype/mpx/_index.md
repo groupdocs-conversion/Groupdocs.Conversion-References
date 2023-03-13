@@ -1,14 +1,14 @@
 ---
 title: Mpx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Microsoft Exchange File Format è un formato file ASCII per il trasferimento delle informazioni di progetto tra Microsoft Project MSP e altre applicazioni che supportano il formato file MPX come Primavera Project Planner Sciforma e Timerline Precision Estimating. Ulteriori informazioni su questo formato filequihttps//wiki.fileformat.com/projectmanagement/mpx .
+description: Microsoft Exchange File Format è un formato file ASCII per il trasferimento delle informazioni di progetto tra Microsoft Project MSP e altre applicazioni che supportano il formato file MPX come Primavera Project Planner Sciforma e Timerline Precision Estimating. Ulteriori informazioni su questo formato fileQuihttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion.filetypes/projectmanagementfiletype/mpx/
 ---
 ## ProjectManagementFileType.Mpx field
 
-Microsoft Exchange File Format, è un formato file ASCII per il trasferimento delle informazioni di progetto tra Microsoft Project (MSP) e altre applicazioni che supportano il formato file MPX come Primavera Project Planner, Sciforma e Timerline Precision Estimating. Ulteriori informazioni su questo formato file[qui](https://wiki.fileformat.com/project-management/mpx) .
+Microsoft Exchange File Format, è un formato file ASCII per il trasferimento delle informazioni di progetto tra Microsoft Project (MSP) e altre applicazioni che supportano il formato file MPX come Primavera Project Planner, Sciforma e Timerline Precision Estimating. Ulteriori informazioni su questo formato file[Qui](https://wiki.fileformat.com/project-management/mpx) .
 
 ```csharp
 public static readonly ProjectManagementFileType Mpx;

@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller metadata för ett dokument.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/groupdocs.conversion.contracts/idocumentinfo/
 ---
 ## IDocumentInfo interface

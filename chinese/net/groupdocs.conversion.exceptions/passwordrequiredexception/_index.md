@@ -1,14 +1,14 @@
 ---
 title: PasswordRequiredException
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文件受密码保护且未提供密码时引发 GroupDocs 异常
+description: 文件受密码保护且未提供密码时抛出 GroupDocs 异常
 type: docs
-weight: 770
+weight: 830
 url: /zh/net/groupdocs.conversion.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-文件受密码保护且未提供密码时引发 GroupDocs 异常
+文件受密码保护且未提供密码时抛出 GroupDocs 异常
 
 ```csharp
 public sealed class PasswordRequiredException : GroupDocsConversionException
@@ -19,8 +19,8 @@ public sealed class PasswordRequiredException : GroupDocsConversionException
 | 姓名 | 描述 |
 | --- | --- |
 | [PasswordRequiredException](passwordrequiredexception#constructor)() | 默认构造函数 |
-| [PasswordRequiredException](passwordrequiredexception#constructor_1)(FileType) | 创建一个带有 FileType 的异常实例 |
-| [PasswordRequiredException](passwordrequiredexception#constructor_2)(string) | 创建带有消息的异常实例 |
+| [PasswordRequiredException](passwordrequiredexception#constructor_1)(FileType) | 创建具有 FileType 的异常实例 |
+| [PasswordRequiredException](passwordrequiredexception#constructor_2)(string) | 创建一个带有消息 的异常实例 |
 
 ### 也可以看看
 

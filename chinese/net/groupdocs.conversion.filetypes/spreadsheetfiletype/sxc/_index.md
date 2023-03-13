@@ -1,14 +1,14 @@
 ---
 title: Sxc
 second_title: GroupDocs.Conversion for .NET API 参考
-description: OpenOffice 和 StarOffice 使用的基于 XML 的格式
+description: 文件格式 SXCSun XML Calc属于名为 OpenOffice.org 的办公套件这种格式通常处理用户的电子表格需求因为它是一种基于 XML 的电子表格文件格式 SXC 格式支持公式函数宏和图表以及 DataPilot 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/sxc
 type: docs
 weight: 80
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/sxc/
 ---
 ## SpreadsheetFileType.Sxc field
 
-OpenOffice 和 StarOffice 使用的基于 XML 的格式
+文件格式 SXC（Sun XML Calc）属于名为 OpenOffice.org 的办公套件。这种格式通常处理用户的电子表格需求，因为它是一种基于 XML 的电子表格文件格式。 SXC 格式支持公式、函数、宏和图表以及 DataPilot。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/sxc)
 
 ```csharp
 public static readonly SpreadsheetFileType Sxc;

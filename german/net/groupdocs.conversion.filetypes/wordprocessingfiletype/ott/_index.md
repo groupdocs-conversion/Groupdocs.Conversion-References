@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/ott .
+description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /de/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field
 
-Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/ott) .
+Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly WordProcessingFileType Ott;

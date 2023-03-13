@@ -3,7 +3,7 @@ title: GetAll
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Renvoie toutes les valeurs dénumération.
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

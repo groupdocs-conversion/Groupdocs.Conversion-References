@@ -3,7 +3,7 @@ title: GetAll
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tüm numaralandırma değerlerini döndürür.
 type: docs
-weight: 110
+weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/filetype/getall/
 ---
 ## FileType.GetAll&lt;T&gt; method

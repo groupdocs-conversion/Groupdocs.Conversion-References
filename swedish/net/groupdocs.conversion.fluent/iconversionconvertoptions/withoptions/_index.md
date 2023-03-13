@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.conversion.fluent/iconversionconvertoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
 Ställ in konverteringsalternativ
 
@@ -32,17 +32,19 @@ Gränssnitt för att fortsätta bygga omvandlingen
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
 Ställ in konverteringsalternativ
 
 ```csharp
-public IConversionCompletedOrConvert WithOptions(ConvertOptionsProvider convertOptionsProvider)
+public IConversionCompletedOrConvert WithOptions(
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
-| Parameter | Typ | Beskrivning |
-| --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Konvertera alternativleverantör |
+| Parameter | Beskrivning |
+| --- | --- |
+| convertOptionsProvider | Konvertera alternativleverantör |
+| convertOptionsProvider arg2arg2 | Typen av källfil |
 
 ### Returvärde
 
@@ -51,7 +53,8 @@ Gränssnitt för att fortsätta bygga omvandlingen
 ### Se även
 
 * interface [IConversionCompletedOrConvert](../../iconversioncompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * namnutrymme [GroupDocs.Conversion.Fluent](../../iconversionconvertoptions)
 * hopsättning [GroupDocs.Conversion](../../../)

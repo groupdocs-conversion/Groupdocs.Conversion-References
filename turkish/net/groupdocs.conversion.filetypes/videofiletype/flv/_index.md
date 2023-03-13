@@ -1,14 +1,14 @@
 ---
 title: Flv
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: FLV Flash Video .flv uzantılı bir kapsayıcı dosya biçimidir. FLV Adobe Flash Player veya Adobe Air kullanılarak internet üzerinden ses/video içeriği iletmek için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/video/flv/ .
+description: FLV Flash Video .flv uzantılı bir kapsayıcı dosya biçimidir. FLV Adobe Flash Player veya Adobe Air kullanılarak internet üzerinden ses/video içeriği iletmek için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/video/flv/ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.filetypes/videofiletype/flv/
 ---
 ## VideoFileType.Flv field
 
-FLV (Flash Video), .flv uzantılı bir kapsayıcı dosya biçimidir. FLV, Adobe Flash Player veya Adobe Air kullanılarak internet üzerinden ses/video içeriği iletmek için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/video/flv/) .
+FLV (Flash Video), .flv uzantılı bir kapsayıcı dosya biçimidir. FLV, Adobe Flash Player veya Adobe Air kullanılarak internet üzerinden ses/video içeriği iletmek için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/video/flv/) .
 
 ```csharp
 public static readonly VideoFileType Flv;

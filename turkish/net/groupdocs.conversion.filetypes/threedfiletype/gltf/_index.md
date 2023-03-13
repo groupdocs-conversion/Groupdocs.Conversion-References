@@ -1,14 +1,14 @@
 ---
 title: Gltf
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: glTF GL İletim Formatı 3B model bilgilerini JSON formatında saklayan bir 3B dosya formatıdır. JSON kullanımı hem 3B varlıkların boyutunu hem de bu varlıkları paketinden çıkarmak ve kullanmak için gereken çalışma zamanı işlemlerini en aza indirir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/gltf .
+description: glTF GL İletim Biçimi 3B model bilgilerini JSON biçiminde depolayan bir 3B dosya biçimidir. JSON kullanımı hem 3B varlıkların boyutunu hem de bu varlıkları paketten çıkarmak ve kullanmak için gereken çalışma zamanı işlemeyi en aza indirir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/gltf .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/gltf/
 ---
 ## ThreeDFileType.Gltf field
 
-glTF (GL İletim Formatı), 3B model bilgilerini JSON formatında saklayan bir 3B dosya formatıdır. JSON kullanımı, hem 3B varlıkların boyutunu hem de bu varlıkları paketinden çıkarmak ve kullanmak için gereken çalışma zamanı işlemlerini en aza indirir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/gltf) .
+glTF (GL İletim Biçimi), 3B model bilgilerini JSON biçiminde depolayan bir 3B dosya biçimidir. JSON kullanımı, hem 3B varlıkların boyutunu hem de bu varlıkları paketten çıkarmak ve kullanmak için gereken çalışma zamanı işlemeyi en aza indirir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/gltf) .
 
 ```csharp
 public static readonly ThreeDFileType Gltf;

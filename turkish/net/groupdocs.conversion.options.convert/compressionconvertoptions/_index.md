@@ -3,7 +3,7 @@ title: CompressionConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sıkıştırma dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1320
+weight: 1450
 url: /tr/net/groupdocs.conversion.options.convert/compressionconvertoptions/
 ---
 ## CompressionConvertOptions class

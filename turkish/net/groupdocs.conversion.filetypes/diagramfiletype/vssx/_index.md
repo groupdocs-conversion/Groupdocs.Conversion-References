@@ -1,14 +1,14 @@
 ---
 title: Vssx
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .VSSX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulan çizim şablonlarıdır. VSSX dosya formatı Visio 2013 ve üstü ile açılabilir. Visio dosyaları şekiller koleksiyonu bağlayıcılar akış şemaları ağ düzeni UML diyagramları gibi çeşitli çizim öğelerini temsil etmesiyle bilinir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vssx .
+description: .VSSX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. VSSX dosya formatı Visio 2013 ve üstü ile açılabilir. Visio dosyaları şekiller koleksiyonu bağlayıcılar akış şemaları ağ düzeni UML diyagramları gibi çeşitli çizim öğelerini temsil etmesiyle bilinir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vssx .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/diagramfiletype/vssx/
 ---
 ## DiagramFileType.Vssx field
 
-.VSSX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulan çizim şablonlarıdır. VSSX dosya formatı, Visio 2013 ve üstü ile açılabilir. Visio dosyaları, şekiller koleksiyonu, bağlayıcılar, akış şemaları, ağ düzeni, UML diyagramları, gibi çeşitli çizim öğelerini temsil etmesiyle bilinir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vssx) .
+.VSSX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. VSSX dosya formatı, Visio 2013 ve üstü ile açılabilir. Visio dosyaları, şekiller koleksiyonu, bağlayıcılar, akış şemaları, ağ düzeni, UML diyagramları, gibi çeşitli çizim öğelerini temsil etmesiyle bilinir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vssx) .
 
 ```csharp
 public static readonly DiagramFileType Vssx;

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .x uzantılı bir dosya Microsoft DirectX 2.0 ile tanıtılan DirectX 3D Graphics eski dosya biçimini ifade eder. Oyunlarda 3B grafik oluşturma için kullanıldı ve kafesler dokular animasyonlar ve kullanıcı tanımlı nesneler için yapıları belirtir. Autodesk FBX dosya formatı daha modern bir format olarak daha iyi hizmet verdiği için 2014ten beri kullanımdan kaldırılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/x .
+description: .x uzantılı bir dosya Microsoft DirectX 2.0 ile tanıtılan DirectX 3D Graphics eski dosya biçimini ifade eder. Oyunlarda 3B grafik oluşturma için kullanıldı ve kafesler dokular animasyonlar ve kullanıcı tanımlı nesneler için yapıları belirtir. Autodesk FBX dosya formatı daha modern bir format olarak daha iyi hizmet verdiği için 2014ten beri kullanımdan kaldırılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/x .
 type: docs
 weight: 180
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/x/
 ---
 ## ThreeDFileType.X field
 
-.x uzantılı bir dosya, Microsoft DirectX 2.0 ile tanıtılan DirectX 3D Graphics eski dosya biçimini ifade eder. Oyunlarda 3B grafik oluşturma için kullanıldı ve kafesler, dokular, animasyonlar ve kullanıcı tanımlı nesneler için yapıları belirtir. Autodesk FBX dosya formatı daha modern bir format olarak daha iyi hizmet verdiği için 2014'ten beri kullanımdan kaldırılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/x) .
+.x uzantılı bir dosya, Microsoft DirectX 2.0 ile tanıtılan DirectX 3D Graphics eski dosya biçimini ifade eder. Oyunlarda 3B grafik oluşturma için kullanıldı ve kafesler, dokular, animasyonlar ve kullanıcı tanımlı nesneler için yapıları belirtir. Autodesk FBX dosya formatı daha modern bir format olarak daha iyi hizmet verdiği için 2014'ten beri kullanımdan kaldırılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/x) .
 
 ```csharp
 public static readonly ThreeDFileType X;

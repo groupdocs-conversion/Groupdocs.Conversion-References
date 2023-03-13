@@ -3,7 +3,7 @@ title: FileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Tipo di file classe base
 type: docs
-weight: 850
+weight: 930
 url: /it/net/groupdocs.conversion.filetypes/filetype/
 ---
 ## FileType class
@@ -37,9 +37,9 @@ public class FileType : Enumeration
 | static [FromFilename](../../groupdocs.conversion.filetypes/filetype/fromfilename)(string) | Restituisce FileType per fileName specificato |
 | static [FromStream](../../groupdocs.conversion.filetypes/filetype/fromstream)(Stream) | Restituisce FileType per il flusso di documenti fornito |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals#equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Rappresentazione di stringa |
 | static [GetAll&lt;T&gt;](../../groupdocs.conversion.filetypes/filetype/getall)() | Restituisce tutti i valori di enumerazione. |
 | [implicit operator](../../groupdocs.conversion.filetypes/filetype/op_implicit) | Conversione implicita in stringa |

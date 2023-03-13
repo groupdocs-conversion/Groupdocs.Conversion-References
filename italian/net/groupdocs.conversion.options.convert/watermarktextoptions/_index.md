@@ -3,7 +3,7 @@ title: WatermarkTextOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per le impostazioni della filigrana di testo nel documento convertito
 type: docs
-weight: 1790
+weight: 1970
 url: /it/net/groupdocs.conversion.options.convert/watermarktextoptions/
 ---
 ## WatermarkTextOptions class
@@ -43,7 +43,7 @@ public sealed class WatermarkTextOptions : WatermarkOptions
 | [Clone](../../groupdocs.conversion.options.convert/watermarkoptions/clone)() | Clona istanza corrente |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

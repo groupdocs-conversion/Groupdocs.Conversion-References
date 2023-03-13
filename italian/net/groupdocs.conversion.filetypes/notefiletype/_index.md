@@ -1,14 +1,14 @@
 ---
 title: NoteFileType
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Definisce i formati per prendere appunti. Include i seguenti tipi di file One./notefiletype/one . Ulteriori informazioni sui formati per prendere appuntiquihttps//wiki.fileformat.com/notetaking .
+description: Definisce i formati per prendere appunti. Include i seguenti tipi di file One./notefiletype/one . Ulteriori informazioni sui formati per prendere appuntiQuihttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /it/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
 
-Definisce i formati per prendere appunti. Include i seguenti tipi di file: [`One`](./one) . Ulteriori informazioni sui formati per prendere appunti[qui](https://wiki.fileformat.com/note-taking) .
+Definisce i formati per prendere appunti. Include i seguenti tipi di file: [`One`](./one) . Ulteriori informazioni sui formati per prendere appunti[Qui](https://wiki.fileformat.com/note-taking) .
 
 ```csharp
 public sealed class NoteFileType : FileType
@@ -34,16 +34,16 @@ public sealed class NoteFileType : FileType
 | Nome | Descrizione |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Confronta l'oggetto corrente con un altro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina se due istanze di oggetto sono uguali. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Funge da funzione hash predefinita. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Rappresentazione di stringa |
 
 ## Campi
 
 | Nome | Descrizione |
 | --- | --- |
-| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | Il file rappresentato dall'estensione .ONE viene creato dall'applicazione Microsoft OneNote. OneNote ti consente di raccogliere informazioni utilizzando l'applicazione come se stessi utilizzando il blocco note per prendere appunti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/note-taking/one) . |
+| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | Il file rappresentato dall'estensione .ONE viene creato dall'applicazione Microsoft OneNote. OneNote ti consente di raccogliere informazioni utilizzando l'applicazione come se stessi utilizzando il blocco per appunti per prendere appunti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/note-taking/one) . |
 
 ### Guarda anche
 

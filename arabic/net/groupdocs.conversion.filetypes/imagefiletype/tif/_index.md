@@ -3,7 +3,7 @@ title: Tif
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: TIF  تنسيق ملف الصورة ذي العلامات  يمثل الصور النقطية المخصصة للاستخدام على مجموعة متنوعة من الأجهزة التي تتوافق مع معيار تنسيق الملف هذا. إنه قادر على وصف بيانات الصورة ذات المستوى الثنائي  والرمادي  واللون الملون  وبيانات الصور كاملة الألوان في العديد من مساحات الألوان. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 360
+weight: 330
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/tif/
 ---
 ## ImageFileType.Tif field

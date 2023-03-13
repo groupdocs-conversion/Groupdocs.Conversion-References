@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает перечисление параметров начальных пробелов txt.
 type: docs
-weight: 2040
+weight: 2290
 url: /ru/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class

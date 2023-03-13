@@ -3,7 +3,7 @@ title: Gif
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En GIF eller Graphical Interchange Format är en typ av mycket komprimerad bild. För varje bild tillåter GIF vanligtvis upp till 8 bitar per pixel och upp till 256 färger är tillåtna över hela bilden. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 160
+weight: 140
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field

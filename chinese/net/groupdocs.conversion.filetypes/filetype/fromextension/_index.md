@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取提供的 fileExtension 的 FileType
+description: 获取提供的 fileExtension 的文件类型
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/filetype/fromextension/
 ---
 ## FileType.FromExtension method
 
-获取提供的 fileExtension 的 FileType
+获取提供的 fileExtension 的文件类型
 
 ```csharp
 public static FileType FromExtension(string fileExtension)

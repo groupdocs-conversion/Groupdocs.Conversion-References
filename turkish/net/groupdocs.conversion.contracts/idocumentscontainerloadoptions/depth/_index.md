@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği
+description: Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth/
 ---
 ## IDocumentsContainerLoadOptions.Depth property
 
-Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği
+Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği
 
 ```csharp
 public int Depth { get; }

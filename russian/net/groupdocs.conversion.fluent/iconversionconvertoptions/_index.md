@@ -3,7 +3,7 @@ title: IConversionConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Варианты преобразования конвертации
 type: docs
-weight: 1080
+weight: 1210
 url: /ru/net/groupdocs.conversion.fluent/iconversionconvertoptions/
 ---
 ## IConversionConvertOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertOptions
 
 | Имя | Описание |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(ConvertOptions) | Установить параметры преобразования |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptionsProvider) | Установить параметры преобразования |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptions) | Установить параметры преобразования |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | Установить параметры преобразования |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: إعدادات الخط
 type: docs
-weight: 1380
+weight: 1530
 url: /ar/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class

@@ -1,14 +1,14 @@
 ---
 title: Potx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .POTX stellen Microsoft PowerPointVorlagenpräsentationen dar die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/potx .
+description: Dateien mit der Erweiterung .POTX stellen Microsoft PowerPointVorlagenpräsentationen dar die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/potx .
 type: docs
 weight: 70
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/potx/
 ---
 ## PresentationFileType.Potx field
 
-Dateien mit der Erweiterung .POTX stellen Microsoft PowerPoint-Vorlagenpräsentationen dar, die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/potx) .
+Dateien mit der Erweiterung .POTX stellen Microsoft PowerPoint-Vorlagenpräsentationen dar, die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/potx) .
 
 ```csharp
 public static readonly PresentationFileType Potx;

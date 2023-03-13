@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取结构化文本的等效文本
+description: 获取结构化文本 的文本等价物
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.integration.ocr/recognizedimage/text/
 ---
 ## RecognizedImage.Text property
 
-获取结构化文本的等效文本
+获取结构化文本 的文本等价物
 
 ```csharp
 public string Text { get; }

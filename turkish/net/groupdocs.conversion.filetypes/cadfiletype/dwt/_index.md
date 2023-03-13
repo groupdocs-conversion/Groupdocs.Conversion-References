@@ -1,14 +1,14 @@
 ---
 title: Dwt
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: DWT dosyası DWG dosyaları olarak kaydedilebilen çizimler oluşturmak için başlangıç olarak kullanılan bir AutoCAD çizim şablon dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/dwt .
+description: DWT dosyası DWG dosyaları olarak kaydedilebilen çizimler oluşturmak için başlangıç olarak kullanılan bir AutoCAD çizim şablon dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/dwt .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.conversion.filetypes/cadfiletype/dwt/
 ---
 ## CadFileType.Dwt field
 
-DWT dosyası, DWG dosyaları olarak kaydedilebilen çizimler oluşturmak için başlangıç olarak kullanılan bir AutoCAD çizim şablon dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/dwt) .
+DWT dosyası, DWG dosyaları olarak kaydedilebilen çizimler oluşturmak için başlangıç olarak kullanılan bir AutoCAD çizim şablon dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/dwt) .
 
 ```csharp
 public static readonly CadFileType Dwt;

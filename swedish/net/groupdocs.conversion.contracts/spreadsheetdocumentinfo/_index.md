@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller kalkylarksdokumentmetadata
 type: docs
-weight: 480
+weight: 520
 url: /sv/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo class

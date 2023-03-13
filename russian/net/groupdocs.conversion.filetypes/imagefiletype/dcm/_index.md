@@ -3,7 +3,7 @@ title: Dcm
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением .DCM представляют собой цифровые изображения в которых хранится медицинская информация о пациентах такая как МРТ компьютерная томография и ультразвуковые изображения. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/dcm/
 ---
 ## ImageFileType.Dcm field

@@ -3,7 +3,7 @@ title: IConversionConvert
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüşümü yürütün
 type: docs
-weight: 1040
+weight: 1170
 url: /tr/net/groupdocs.conversion.fluent/iconversionconvert/
 ---
 ## IConversionConvert interface

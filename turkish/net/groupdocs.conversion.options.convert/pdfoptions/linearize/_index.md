@@ -1,14 +1,14 @@
 ---
 title: Linearize
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PDF Belgesini Web için Doğrusallaştırır
+description: Web için PDF Belgesini Doğrusallaştırır
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/linearize/
 ---
 ## PdfOptions.Linearize property
 
-PDF Belgesini Web için Doğrusallaştırır
+Web için PDF Belgesini Doğrusallaştırır
 
 ```csharp
 public bool Linearize { get; set; }

@@ -3,7 +3,7 @@ title: IConverterListener
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Определяет методы используемые для прослушивания преобразователя.
 type: docs
-weight: 2120
+weight: 2380
 url: /ru/net/groupdocs.conversion.reporting/iconverterlistener/
 ---
 ## IConverterListener interface
@@ -24,7 +24,7 @@ public interface IConverterListener
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об отслеживании хода конверсии: [Прослушивание событий процесса преобразования](https://docs.groupdocs.com/display/conversionnet/Listening)
 

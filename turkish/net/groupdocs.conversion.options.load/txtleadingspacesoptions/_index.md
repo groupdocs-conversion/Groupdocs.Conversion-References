@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: txt baştaki boşluk seçenekleri numaralandırmasını açıklar.
 type: docs
-weight: 2040
+weight: 2290
 url: /tr/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class
@@ -18,7 +18,7 @@ public class TxtLeadingSpacesOptions : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [TxtLeadingSpacesOptions](txtleadingspacesoptions)() | Serileştirme yapıcısı |
+| [TxtLeadingSpacesOptions](txtleadingspacesoptions)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

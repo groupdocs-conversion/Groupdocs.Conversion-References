@@ -1,14 +1,14 @@
 ---
 title: DiagramDocumentInfo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 包含图表文档元数据
+description: 包含图表文档 metadata
 type: docs
 weight: 150
 url: /zh/net/groupdocs.conversion.contracts/diagramdocumentinfo/
 ---
 ## DiagramDocumentInfo class
 
-包含图表文档元数据
+包含图表文档 metadata
 
 ```csharp
 public class DiagramDocumentInfo : DocumentInfo
@@ -19,11 +19,11 @@ public class DiagramDocumentInfo : DocumentInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | 文档创建日期 |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文档格式 |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为键提供的属性的值 |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | 文件格式 |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | 获取作为 key 提供的属性的值 |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | 文档页数。 |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 可以为当前文档获取的所有属性的枚举 info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 以字节为单位的文档大小 |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | 当前文档可获取的所有属性的可枚举信息 |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | 文档大小（以字节为单位） |
 
 ### 也可以看看
 

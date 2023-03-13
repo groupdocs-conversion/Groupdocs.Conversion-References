@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion vers le type de fichier Feuille de calcul.
 type: docs
-weight: 1720
+weight: 1900
 url: /fr/net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions class

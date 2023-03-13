@@ -3,7 +3,7 @@ title: IConversionCompletedOrConvert
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Hantera konvertering slutförd eller kör konvertering
 type: docs
-weight: 1000
+weight: 1130
 url: /sv/net/groupdocs.conversion.fluent/iconversioncompletedorconvert/
 ---
 ## IConversionCompletedOrConvert interface

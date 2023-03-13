@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Optionen zum Laden von CsvDokumenten.
 type: docs
-weight: 1860
+weight: 2050
 url: /de/net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class
@@ -41,6 +41,7 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | Bei True und Konvertierung in PDF wird die Konvertierung für eine bessere Dateigröße als Druckqualität optimiert. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Kennwort festlegen, um den Schutz des geschützten Dokuments aufzuheben. |
 | [Separator](../../groupdocs.conversion.options.load/csvloadoptions/separator) { get; set; } | Trennzeichen einer CSV-Datei. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Liste der zu konvertierenden Blattindizes. Die Indizes müssen nullbasiert sein |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Zu konvertierender Blattname |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Gitterlinien beim Konvertieren von Excel-Dateien anzeigen. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Beim Konvertieren von Excel-Dateien ausgeblendete Blätter anzeigen. |

@@ -30,7 +30,7 @@ public sealed class FileCache : ICache
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Caching und zur Optimierung der Conversion-Prozessleistung: [Conversion-Ergebnisse zwischenspeichern](https://docs.groupdocs.com/display/conversionnet/Caching)
 

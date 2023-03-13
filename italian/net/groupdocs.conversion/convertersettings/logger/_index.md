@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Limplementazione del logger utilizzata per la registrazione del processo di conversione.
+description: Limplementazione del logger utilizzata per registrare il processo di conversione.
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion/convertersettings/logger/
 ---
 ## ConverterSettings.Logger property
 
-L'implementazione del logger utilizzata per la registrazione del processo di conversione.
+L'implementazione del logger utilizzata per registrare il processo di conversione.
 
 ```csharp
 public ILogger Logger { get; set; }

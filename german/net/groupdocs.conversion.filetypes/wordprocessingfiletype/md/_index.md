@@ -1,14 +1,14 @@
 ---
 title: Md
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Textdateien die mit Dialekten der MarkdownSprache erstellt wurden werden mit der Dateierweiterung .MD oder .MARKDOWN gespeichert. MDDateien werden im Klartextformat gespeichert das die MarkdownSprache verwendet die auch InlineTextsymbole enthält die definieren wie ein Text formatiert werden kann z. B. Einrückungen Tabellenformatierung Schriftarten und Kopfzeilen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/md .
+description: Textdateien die mit Dialekten der MarkdownSprache erstellt wurden werden mit der Dateierweiterung .MD oder .MARKDOWN gespeichert. MDDateien werden im Klartextformat gespeichert das die MarkdownSprache verwendet die auch InlineTextsymbole enthält die definieren wie ein Text formatiert werden kann z. B. Einrückungen Tabellenformatierung Schriftarten und Kopfzeilen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /de/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field
 
-Textdateien, die mit Dialekten der Markdown-Sprache erstellt wurden, werden mit der Dateierweiterung .MD oder .MARKDOWN gespeichert. MD-Dateien werden im Klartextformat gespeichert, das die Markdown-Sprache verwendet, die auch Inline-Textsymbole enthält, die definieren, wie ein Text formatiert werden kann, z. B. Einrückungen, Tabellenformatierung, Schriftarten und Kopfzeilen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/md) .
+Textdateien, die mit Dialekten der Markdown-Sprache erstellt wurden, werden mit der Dateierweiterung .MD oder .MARKDOWN gespeichert. MD-Dateien werden im Klartextformat gespeichert, das die Markdown-Sprache verwendet, die auch Inline-Textsymbole enthält, die definieren, wie ein Text formatiert werden kann, z. B. Einrückungen, Tabellenformatierung, Schriftarten und Kopfzeilen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/md) .
 
 ```csharp
 public static readonly WordProcessingFileType Md;

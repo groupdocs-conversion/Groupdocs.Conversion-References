@@ -3,7 +3,7 @@ title: Cmx
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med CMXtillägget är Corel Exchangebildfilformat som används som presentation av CorelSuiteapplikationer. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field

@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
-description: Sivrai lentrée est dabord convertie en PDF et ensuite au format souhaité.
+description: Sivrai  lentrée est dabord convertie en PDF et ensuite au format souhaité.
 type: docs
 weight: 140
 url: /fr/net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-Si`vrai` l'entrée est d'abord convertie en PDF et ensuite au format souhaité.
+Si`vrai` , l'entrée est d'abord convertie en PDF et ensuite au format souhaité.
 
 ```csharp
 public bool UsePdf { get; set; }

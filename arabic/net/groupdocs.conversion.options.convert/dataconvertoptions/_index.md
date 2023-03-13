@@ -3,7 +3,7 @@ title: DataConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف البيانات .
 type: docs
-weight: 1350
+weight: 1480
 url: /ar/net/groupdocs.conversion.options.convert/dataconvertoptions/
 ---
 ## DataConvertOptions class
@@ -11,14 +11,9 @@ url: /ar/net/groupdocs.conversion.options.convert/dataconvertoptions/
 خيارات للتحويل إلى نوع ملف البيانات .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
 public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOptions
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [DataConvertOptions](dataconvertoptions)() | تهيئة مثيل جديد لـ[`DataConvertOptions`](../dataconvertoptions) فئة . |
 
 ## الخصائص
 
@@ -26,8 +21,6 @@ public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOpt
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | نوع الملف المطلوب يجب تحويل مستند الإدخال إليه. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | نوع الملف المطلوب يجب تحويل مستند الإدخال إليه. |
-| [PageNumber](../../groupdocs.conversion.options.convert/dataconvertoptions/pagenumber) { get; set; } | رقم الصفحة الذي سيبدأ التحويل منه . |
-| [PagesCount](../../groupdocs.conversion.options.convert/dataconvertoptions/pagescount) { get; set; } | عدد الصفحات المطلوب التحويل منها بدءًا من`رقم الصفحة` . |
 
 ## طُرق
 

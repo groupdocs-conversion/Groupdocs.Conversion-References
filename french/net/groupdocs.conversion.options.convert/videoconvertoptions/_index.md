@@ -3,7 +3,7 @@ title: VideoConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion en type vidéo.
 type: docs
-weight: 1760
+weight: 1940
 url: /fr/net/groupdocs.conversion.options.convert/videoconvertoptions/
 ---
 ## VideoConvertOptions class
@@ -24,6 +24,8 @@ public class VideoConvertOptions : ConvertOptions<VideoFileType>
 
 | Nom | La description |
 | --- | --- |
+| [AudioFormat](../../groupdocs.conversion.options.convert/videoconvertoptions/audioformat) { get; set; } | Quel format audio utiliser |
+| [ExtractAudioOnly](../../groupdocs.conversion.options.convert/videoconvertoptions/extractaudioonly) { get; set; } | Si défini sur vrai, extrait l'audio de la vidéo |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Le type de fichier souhaité vers lequel le document d'entrée doit être converti. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Le type de fichier souhaité vers lequel le document d'entrée doit être converti. |
 

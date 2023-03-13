@@ -3,7 +3,7 @@ title: FontSubstitute
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver ersättning för saknat teckensnitt.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class

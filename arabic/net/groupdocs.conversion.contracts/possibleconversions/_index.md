@@ -3,7 +3,7 @@ title: PossibleConversions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل تعيين أزواج التحويل المدعومة لتنسيق ملف مصدر محدد
 type: docs
-weight: 370
+weight: 400
 url: /ar/net/groupdocs.conversion.contracts/possibleconversions/
 ---
 ## PossibleConversions class

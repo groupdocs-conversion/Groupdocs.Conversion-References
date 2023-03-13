@@ -3,7 +3,7 @@ title: InvalidConverterSettingsException
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Generato se le impostazioni del convertitore fornite non sono valide
 type: docs
-weight: 760
+weight: 820
 url: /it/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class

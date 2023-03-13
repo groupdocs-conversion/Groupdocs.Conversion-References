@@ -3,7 +3,7 @@ title: IConversionGetDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Får information om källdokument  antal sidor och andra dokumentegenskaper som är specifika för filtypen.
 type: docs
-weight: 1110
+weight: 1240
 url: /sv/net/groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---
 ## IConversionGetDocumentInfo interface

@@ -12,9 +12,9 @@ url: /zh/net/groupdocs.conversion.integration.ocr/
 
 | 班级 | 描述 |
 | --- | --- |
-| [RecognizedImage](./recognizedimage) | 表示文本，作为识别过程的结果从图像中提取。 |
-| [TextFragment](./textfragment) | 表示已识别文本（单词、符号等）的一部分，由 OCR 引擎提取。 |
-| [TextLine](./textline) | 表示文本，作为识别过程的结果从图像中提取。 |
+| [RecognizedImage](./recognizedimage) | 表示文本，作为其识别过程的结果从图像中提取。 |
+| [TextFragment](./textfragment) | 表示由 OCR 引擎提取的已识别文本（单词、符号等）的一部分。 |
+| [TextLine](./textline) | 表示文本，作为其识别过程的结果从图像中提取。 |
 ## 接口
 
 | 界面 | 描述 |

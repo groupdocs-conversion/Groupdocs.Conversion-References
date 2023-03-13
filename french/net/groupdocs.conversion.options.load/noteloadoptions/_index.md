@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents One.
 type: docs
-weight: 1960
+weight: 2190
 url: /fr/net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -24,7 +24,7 @@ public sealed class NoteLoadOptions : LoadOptions
 
 | Nom | La description |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante. Un chemin absolu vers le fichier de police doit être fourni. |
+| [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Police par défaut pour le document Note. La police suivante sera utilisée si une police est manquante. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Remplacer des polices spécifiques lors de la conversion du document Note. |
 | [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; set; } | Type de fichier du document d'entrée. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Type de fichier du document d'entrée. |

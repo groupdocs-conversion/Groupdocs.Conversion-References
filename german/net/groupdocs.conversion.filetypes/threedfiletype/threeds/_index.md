@@ -1,14 +1,14 @@
 ---
 title: ThreeDS
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .3ds stellt das von Autodesk 3D Studio verwendete 3D Studio DOS MeshDateiformat dar. Autodesk 3D Studio ist seit den 1990er Jahren auf dem Markt für 3DDateiformate und hat sich nun zu 3D Studio MAX für die Arbeit mit 3DModellierung Animation und Rendering entwickelt. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/3ds .
+description: Eine Datei mit der Erweiterung .3ds stellt das von Autodesk 3D Studio verwendete 3D Studio DOS MeshDateiformat dar. Autodesk 3D Studio ist seit den 1990er Jahren auf dem Markt für 3DDateiformate und hat sich nun zu 3D Studio MAX für die Arbeit mit 3DModellierung Animation und Rendering entwickelt. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/3ds .
 type: docs
 weight: 120
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/threeds/
 ---
 ## ThreeDFileType.ThreeDS field
 
-Eine Datei mit der Erweiterung .3ds stellt das von Autodesk 3D Studio verwendete 3D Studio (DOS) Mesh-Dateiformat dar. Autodesk 3D Studio ist seit den 1990er Jahren auf dem Markt für 3D-Dateiformate und hat sich nun zu 3D Studio MAX für die Arbeit mit 3D-Modellierung, -Animation und -Rendering entwickelt. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/3ds) .
+Eine Datei mit der Erweiterung .3ds stellt das von Autodesk 3D Studio verwendete 3D Studio (DOS) Mesh-Dateiformat dar. Autodesk 3D Studio ist seit den 1990er Jahren auf dem Markt für 3D-Dateiformate und hat sich nun zu 3D Studio MAX für die Arbeit mit 3D-Modellierung, -Animation und -Rendering entwickelt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/3ds) .
 
 ```csharp
 public static readonly ThreeDFileType ThreeDS;

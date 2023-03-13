@@ -1,14 +1,14 @@
 ---
 title: Stl
 second_title: GroupDocs.Conversion for .NET API 参考
-description: STLstereolithrography 的缩写是一种可互换的文件格式表示 3 维表面几何形状该文件格式在多个领域得到应用例如快速原型制作3D 打印和计算机辅助制造 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/stl.
+description: STL 是立体光刻技术的缩写是一种可互换的文件格式表示 3 维表面几何形状该文件格式可用于多个领域例如快速原型制作3D 打印和计算机辅助制造 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/stl.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/stl/
 ---
 ## CadFileType.Stl field
 
-STL，stereolithrography 的缩写，是一种可互换的文件格式，表示 3 维表面几何形状。该文件格式在多个领域得到应用，例如快速原型制作、3D 打印和计算机辅助制造。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/stl).
+STL 是立体光刻技术的缩写，是一种可互换的文件格式，表示 3 维表面几何形状。该文件格式可用于多个领域，例如快速原型制作、3D 打印和计算机辅助制造。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/stl).
 
 ```csharp
 public static readonly CadFileType Stl;

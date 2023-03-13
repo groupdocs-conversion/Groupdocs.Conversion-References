@@ -3,7 +3,7 @@ title: CompressionLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents compressés.
 type: docs
-weight: 1850
+weight: 2040
 url: /fr/net/groupdocs.conversion.options.load/compressionloadoptions/
 ---
 ## CompressionLoadOptions class

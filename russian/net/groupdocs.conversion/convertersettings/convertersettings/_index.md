@@ -1,14 +1,14 @@
 ---
 title: ConverterSettings
 second_title: Справочник по API GroupDocs.Conversion для .NET
-description: Конструктор по умолчанию.
+description: Конструктор по умолчанию
 type: docs
 weight: 10
 url: /ru/net/groupdocs.conversion/convertersettings/convertersettings/
 ---
 ## ConverterSettings constructor
 
-Конструктор по умолчанию.
+Конструктор по умолчанию
 
 ```csharp
 public ConverterSettings()

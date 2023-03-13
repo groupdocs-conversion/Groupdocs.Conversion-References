@@ -1,14 +1,14 @@
 ---
 title: IsMultiEncoded
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: True significa che il file contiene diverse codifiche.
+description: Vero significa che il file contiene diverse codifiche.
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.options.load/csvloadoptions/ismultiencoded/
 ---
 ## CsvLoadOptions.IsMultiEncoded property
 
-True significa che il file contiene diverse codifiche.
+Vero significa che il file contiene diverse codifiche.
 
 ```csharp
 public bool IsMultiEncoded { get; set; }

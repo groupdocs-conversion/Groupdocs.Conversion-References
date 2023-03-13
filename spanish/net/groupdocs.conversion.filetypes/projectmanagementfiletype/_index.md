@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Define los formatos de archivo de proyecto creados por el software de gestión de proyectos como Microsoft Project Primavera P6 etc. Un archivo de proyecto es una colección de tareas recursos y su programación para obtener un resultado medible en forma de producto o servicio. Documentos de gestión de proyectos. Incluye los siguientes tipos de archivo Mpp./projectmanagementfiletype/mpp  Mpt./projectmanagementfiletype/mpt  Mpx./projectmanagementfiletype/mpx . Obtenga más información sobre los formatos de gestión de proyectosaquíhttps//wiki.fileformat.com/projectmanagement .
 type: docs
-weight: 920
+weight: 1030
 url: /es/net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class
@@ -34,7 +34,7 @@ public sealed class ProjectManagementFileType : FileType
 | Nombre | Descripción |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Compara el objeto actual con otro. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | Determina si dos instancias de objeto son iguales. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Determina si dos instancias de objeto son iguales. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Sirve como la función hash predeterminada. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Representación de cadena |

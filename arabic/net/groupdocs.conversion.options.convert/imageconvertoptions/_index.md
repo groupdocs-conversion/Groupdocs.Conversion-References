@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات للتحويل إلى نوع ملف الصورة.
 type: docs
-weight: 1470
+weight: 1630
 url: /ar/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -41,7 +41,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | خيارات تحويل محددة Psd. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | زاوية دوران الصورة . |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | خيارات تحويل محددة Tiff . |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | إذا`حقيقي`، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | إذا`حقيقي` ، يتم تحويل الإدخال أولاً إلى PDF وبعد ذلك إلى التنسيق المطلوب. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | الدقة الرأسية للصورة المطلوبة بعد التحويل. الدقة الافتراضية هي دقة ملف الإدخال أو 96 نقطة في البوصة. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | خيارات محددة للعلامة المائية |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | خيارات التحويل الخاصة بـ Webp . |

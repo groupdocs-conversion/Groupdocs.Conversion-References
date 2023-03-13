@@ -3,7 +3,7 @@ title: PdfFormattingOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf biçimlendirme seçeneklerini tanımlar.
 type: docs
-weight: 1590
+weight: 1770
 url: /tr/net/groupdocs.conversion.options.convert/pdfformattingoptions/
 ---
 ## PdfFormattingOptions class
@@ -27,7 +27,7 @@ public sealed class PdfFormattingOptions : ValueObject
 | [CenterWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/centerwindow) { get; set; } | Belge penceresinin konumunun ekranda ortalanıp ortalanmayacağını belirtir. Varsayılan: false. |
 | [Direction](../../groupdocs.conversion.options.convert/pdfformattingoptions/direction) { get; set; } | Metnin okuma sırasını ayarlar: L2R (soldan sağa) veya R2L (sağdan sola). Varsayılan: L2R. |
 | [DisplayDocTitle](../../groupdocs.conversion.options.convert/pdfformattingoptions/displaydoctitle) { get; set; } | Belgenin pencere başlık çubuğunun belge başlığını gösterip göstermeyeceğini belirtir. Varsayılan: false. |
-| [FitWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow) { get; set; } | Belge penceresinin ilk görüntülenen sayfaya sığacak şekilde yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan: false. |
+| [FitWindow](../../groupdocs.conversion.options.convert/pdfformattingoptions/fitwindow) { get; set; } | Belge penceresinin görüntülenen ilk sayfaya sığması için yeniden boyutlandırılması gerekip gerekmediğini belirtir. Varsayılan: false. |
 | [HideMenuBar](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidemenubar) { get; set; } | Belge etkinken menü çubuğunun gizlenip gizlenmeyeceğini belirtir. Varsayılan: false. |
 | [HideToolBar](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidetoolbar) { get; set; } | Belge etkinken araç çubuğunun gizlenip gizlenmeyeceğini belirtir. Varsayılan: false. |
 | [HideWindowUI](../../groupdocs.conversion.options.convert/pdfformattingoptions/hidewindowui) { get; set; } | Belge etkinken kullanıcı arabirimi öğelerinin gizlenip gizlenmeyeceğini belirtir. Varsayılan: false. |

@@ -3,7 +3,7 @@ title: PclDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على بيانات وصفية لمستند Pcl
 type: docs
-weight: 340
+weight: 360
 url: /ar/net/groupdocs.conversion.contracts/pcldocumentinfo/
 ---
 ## PclDocumentInfo class

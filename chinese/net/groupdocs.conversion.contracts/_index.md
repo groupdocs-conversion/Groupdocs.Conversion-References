@@ -1,75 +1,81 @@
 ---
 title: GroupDocs.Conversion.Contracts
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 命名空间提供成员实例化和发布输出文档管理字体替换等
+description: 命名空间提供成员来实例化和释放输出文档管理字体替换等
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/
 ---
-命名空间提供成员实例化和发布输出文档、管理字体替换等。
+命名空间提供成员来实例化和释放输出文档，管理字体替换等。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [AudioDocumentInfo](./audiodocumentinfo) | 包含音频文档元数据 |
-| [Bzip2DocumentInfo](./bzip2documentinfo) | 包含 Bzip2 文档元数据 |
-| [CabDocumentInfo](./cabdocumentinfo) | 包含 Cab 文档元数据 |
-| [CadDocumentInfo](./caddocumentinfo) | 包含 CAD 文档元数据 |
-| [CgmDocumentInfo](./cgmdocumentinfo) | 包含 Cgm 文档元数据 |
+| [Bzip2DocumentInfo](./bzip2documentinfo) | 包含 Bzip2 文档 metadata |
+| [CabDocumentInfo](./cabdocumentinfo) | 包含 Cab 文档 metadata |
+| [CadDocumentInfo](./caddocumentinfo) | 包含 Cad 文档元数据 |
+| [CgmDocumentInfo](./cgmdocumentinfo) | 包含 Cgm 文档 metadata |
 | [CompressedDocumentStream](./compresseddocumentstream) | 描述接收压缩文档流的委托。 |
 | [ConvertedDocumentStream](./converteddocumentstream) | 描述接收转换文档流的委托。 |
-| [ConvertedPageStream](./convertedpagestream) | 描述接收转换后的文档页面流的委托。 |
-| [ConvertOptionsProvider](./convertoptionsprovider) | 描述为特定源文档提供转换选项的委托。 将在每次转换之前调用委托，并提供为所需目标转换提供特定转换选项的机会。 可以根据提供的源文件名和源文件做出决定类型. |
-| [CpioDocumentInfo](./cpiodocumentinfo) | 包含 Cpio 文档元数据 |
-| [CsvDocumentInfo](./csvdocumentinfo) | 包含 Csv 文档元数据 |
-| [DiagramDocumentInfo](./diagramdocumentinfo) | 包含图表文档元数据 |
+| [ConvertedPageStream](./convertedpagestream) | 描述委托接收转换后的文档页面流。 |
+| [ConvertOptionsProvider](./convertoptionsprovider) | 描述为特定源文档提供转换选项的委托。 委托将在每次转换之前被调用，并提供机会为所需的目标转换提供特定的转换选项。 可以根据提供的源文件名和源文件做出决定类型. |
+| [CpioDocumentInfo](./cpiodocumentinfo) | 包含 Cpio 文档 metadata |
+| [CsvDocumentInfo](./csvdocumentinfo) | 包含 Csv 文档 metadata |
+| [DiagramDocumentInfo](./diagramdocumentinfo) | 包含图表文档 metadata |
 | [DjVuDocumentInfo](./djvudocumentinfo) | 包含 DjVu 文档元数据 |
 | [DocumentInfo](./documentinfo) | 提供用于检索多态文档信息的基本实现 |
 | [EmailDocumentInfo](./emaildocumentinfo) | 包含电子邮件文档元数据 |
-| [Enumeration](./enumeration) | 泛型枚举类。 |
-| [EpsDocumentInfo](./epsdocumentinfo) | 包含 Ps 文档元数据 |
+| [Enumeration](./enumeration) | 通用枚举类。 |
+| [EpsDocumentInfo](./epsdocumentinfo) | 包含ps文档metadata |
 | [EpubDocumentInfo](./epubdocumentinfo) | 包含 Epub 文档元数据 |
-| [FontSubstitute](./fontsubstitute) | 描述替换缺失字体。 |
+| [FontDocumentInfo](./fontdocumentinfo) | 包含字体文档元数据 |
+| [FontSubstitute](./fontsubstitute) | 描述了对缺失字体的替换。 |
 | [GzipDocumentInfo](./gzipdocumentinfo) | 包含 Gzip 文档元数据 |
-| [IcoDocumentInfo](./icodocumentinfo) | 包含 Ico 文档元数据 |
-| [ImageDocumentInfo](./imagedocumentinfo) | 包含图像文档元数据 |
-| [JsonDocumentInfo](./jsondocumentinfo) | 包含 Json 文档元数据 |
-| [LzipDocumentInfo](./lzipdocumentinfo) | 包含 Lzip 文档元数据 |
-| [LzmaDocumentInfo](./lzmadocumentinfo) | 包含 Lzma 文档元数据 |
-| [MarkupDocumentInfo](./markupdocumentinfo) | 包含标记文档元数据 |
-| [NoteDocumentInfo](./notedocumentinfo) | 包含注释文档元数据 |
+| [IcoDocumentInfo](./icodocumentinfo) | 包含 Ico 文档 metadata |
+| [ImageDocumentInfo](./imagedocumentinfo) | 包含图像文档 metadata |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | 包含 iXbrl 文档元数据 |
+| [JsonDocumentInfo](./jsondocumentinfo) | 包含Json文档metadata |
+| [LzipDocumentInfo](./lzipdocumentinfo) | 包含 Lzip 文档 metadata |
+| [LzmaDocumentInfo](./lzmadocumentinfo) | 包含 Lzma 文档 metadata |
+| [MarkupDocumentInfo](./markupdocumentinfo) | 包含标记文档 metadata |
+| [NoteDocumentInfo](./notedocumentinfo) | 包含注释文档 metadata |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | 提供的文档受密码保护 |
-| [PclDocumentInfo](./pcldocumentinfo) | 包含 Pcl 文档元数据 |
+| [PclDocumentInfo](./pcldocumentinfo) | 包含 Pcl 文档 metadata |
 | [PdfDocumentInfo](./pdfdocumentinfo) | 包含 Pdf 文档元数据 |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | 包含个人存储文档元数据 |
-| [PossibleConversions](./possibleconversions) | 表示特定源文件格式支持哪些转换对 的映射 |
-| [PresentationDocumentInfo](./presentationdocumentinfo) | 包含演示文档元数据 |
-| [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | 包含 ProjectManagement 文档元数据 |
-| [PsdDocumentInfo](./psddocumentinfo) | 包含 Psd 文档元数据 |
-| [PsDocumentInfo](./psdocumentinfo) | 包含 Ps 文档元数据 |
-| [RarDocumentInfo](./rardocumentinfo) | 包含 Rar 文档元数据 |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | 个人存储文件夹信息 |
+| [PossibleConversions](./possibleconversions) | 表示一个映射，具体的源文件格式 支持什么转换pairs |
+| [PresentationDocumentInfo](./presentationdocumentinfo) | 包含演示文档 metadata |
+| [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | 包含 ProjectManagement 文档 metadata |
+| [PsdDocumentInfo](./psddocumentinfo) | 包含 Psd 文档 metadata |
+| [PsDocumentInfo](./psdocumentinfo) | 包含ps文档metadata |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | 包含发布者文档元数据 |
+| [RarDocumentInfo](./rardocumentinfo) | 包含 Rar 文档 metadata |
 | [SaveDocumentStream](./savedocumentstream) | 描述将转换后的文档保存到流中的委托。 |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | 描述将转换后的文档保存到流中的委托。 |
 | [SavePageStream](./savepagestream) | 描述将转换后的文档页面保存到流中的委托。 |
 | [SavePageStreamForFileType](./savepagestreamforfiletype) | 描述将转换后的文档页面保存到流中的委托。 |
-| [SevenZipDocumentInfo](./sevenzipdocumentinfo) | 包含 7Zip 文档元数据 |
-| [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | 包含电子表格文档元数据 |
+| [SevenZipDocumentInfo](./sevenzipdocumentinfo) | 包含 7Zip 文档 metadata |
+| [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | 包含电子表格文档 metadata |
 | [SvgDocumentInfo](./svgdocumentinfo) | 包含 Svg 文档元数据 |
-| [TableOfContentsItem](./tableofcontentsitem) | 包含目录项元数据 |
-| [TarDocumentInfo](./tardocumentinfo) | 包含 Tar 文档元数据 |
-| [TargetConversion](./targetconversion) | 表示可能的目标转换和一个标志是主要还是次要 |
-| [TexDocumentInfo](./texdocumentinfo) | 包含 Tex 文档元数据 |
+| [TableOfContentsItem](./tableofcontentsitem) | 包含目录项 metadata |
+| [TarDocumentInfo](./tardocumentinfo) | 包含 Tar 文档 metadata |
+| [TargetConversion](./targetconversion) | 表示可能的目标转换和标志是主要还是次要 |
+| [TexDocumentInfo](./texdocumentinfo) | 包含 Tex 文档 metadata |
 | [ThreeDDocumentInfo](./threeddocumentinfo) | 包含 3D 文档元数据 |
-| [TsvDocumentInfo](./tsvdocumentinfo) | 包含 Tsv 文档元数据 |
-| [TxtDocumentInfo](./txtdocumentinfo) | 包含 Txt 文档元数据 |
+| [TsvDocumentInfo](./tsvdocumentinfo) | 包含 Tsv 文档 metadata |
+| [TxtDocumentInfo](./txtdocumentinfo) | 包含 Txt 文档 metadata |
 | [ValueObject](./valueobject) | 抽象值对象类. |
-| [VcfDocumentInfo](./vcfdocumentinfo) | 包含 Vcf 文档元数据 |
-| [VideoDocumentInfo](./videodocumentinfo) | 包含视频文档元数据 |
+| [VcfDocumentInfo](./vcfdocumentinfo) | 包含 Vcf 文档 metadata |
+| [VideoDocumentInfo](./videodocumentinfo) | 包含视频文档 metadata |
+| [WebDocumentInfo](./webdocumentinfo) | 包含标记文档 metadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | 包含文字处理文档元数据 |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | 包含 Xbrl 文档元数据 |
 | [XmlDocumentInfo](./xmldocumentinfo) | 包含 Xml 文档元数据 |
 | [XpsDocumentInfo](./xpsdocumentinfo) | 包含 Xps 文档元数据 |
-| [XslFoDocumentInfo](./xslfodocumentinfo) | 包含 XslFo 文档元数据 |
+| [XslFoDocumentInfo](./xslfodocumentinfo) | 包含 XslFo 文档 metadata |
 | [XzDocumentInfo](./xzdocumentinfo) | 包含 Xz 文档元数据 |
 | [ZDocumentInfo](./zdocumentinfo) | 包含 Z 文档元数据 |
 | [ZipDocumentInfo](./zipdocumentinfo) | 包含压缩文档元数据 |
@@ -78,6 +84,6 @@ url: /zh/net/groupdocs.conversion.contracts/
 | 界面 | 描述 |
 | --- | --- |
 | [IDocumentInfo](./idocumentinfo) | 包含文档的元数据。 |
-| [IDocumentsContainerLoadOptions](./idocumentscontainerloadoptions) | 文档容器的加载选项 |
+| [IDocumentsContainerLoadOptions](./idocumentscontainerloadoptions) | 文件 container 的加载选项 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Conversion.dll -->

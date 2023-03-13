@@ -1,14 +1,14 @@
 ---
 title: TextLine
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Rappresenta il testo estratto da unimmagine a seguito del suo processo di riconoscimento.
+description: Rappresenta il testo estratto da unimmagine come risultato del suo processo di riconoscimento.
 type: docs
-weight: 1230
+weight: 1360
 url: /it/net/groupdocs.conversion.integration.ocr/textline/
 ---
 ## TextLine class
 
-Rappresenta il testo, estratto da un'immagine a seguito del suo processo di riconoscimento.
+Rappresenta il testo, estratto da un'immagine come risultato del suo processo di riconoscimento.
 
 ```csharp
 public class TextLine

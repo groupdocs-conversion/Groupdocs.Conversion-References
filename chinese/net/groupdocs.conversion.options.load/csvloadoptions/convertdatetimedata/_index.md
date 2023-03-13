@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示文件中的字符串是否转换为日期默认为真
+description: 表示文件中的字符串是否转换为日期默认为 True.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.load/csvloadoptions/convertdatetimedata/
 ---
 ## CsvLoadOptions.ConvertDateTimeData property
 
-表示文件中的字符串是否转换为日期。默认为真。
+表示文件中的字符串是否转换为日期。默认为 True.
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

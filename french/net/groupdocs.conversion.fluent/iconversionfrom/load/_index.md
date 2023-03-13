@@ -85,7 +85,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> document
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| documentStreamProvider | Func`1 | Fournisseur de flux de documents sources |
+| documentStreamProvider | Func`1 | Fournisseur de flux de documents source |
 
 ### Exceptions
 

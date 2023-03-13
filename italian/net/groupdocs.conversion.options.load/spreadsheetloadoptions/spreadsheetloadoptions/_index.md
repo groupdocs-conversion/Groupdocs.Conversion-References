@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diSpreadsheetLoadOptionsgroupdocs.conversion.options.load/spreadsheetloadoptions classe.
+description: Inizializza una nuova istanza diSpreadsheetLoadOptionsgroupdocs.conversion.options.load/spreadsheetloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions constructor
 
-Inizializza la nuova istanza di[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) classe.
+Inizializza una nuova istanza di[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) classe.
 
 ```csharp
 public SpreadsheetLoadOptions()

@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد تنسيقات تدوين الملاحظات. يتضمن أنواع الملفات التالية One./notefiletype/one . تعرف على المزيد حول تنسيقات تدوين الملاحظاتهناhttps//wiki.fileformat.com/notetaking .
 type: docs
-weight: 880
+weight: 980
 url: /ar/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
@@ -34,7 +34,7 @@ public sealed class NoteFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

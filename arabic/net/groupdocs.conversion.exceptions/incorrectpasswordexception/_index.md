@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: طرح استثناء GroupDocs عندما يكون الملف محميًا بكلمة مرور  يتم توفير كلمة المرور ولكنها غير صحيحة
 type: docs
-weight: 740
+weight: 800
 url: /ar/net/groupdocs.conversion.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

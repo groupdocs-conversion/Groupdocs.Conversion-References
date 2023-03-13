@@ -1,59 +1,58 @@
 ---
 title: ConvertByPageTo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 将转换后的页面保存为流
+description: 将转换后的页面保存为 stream
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(SavePageStream) {#convertbypageto}
+## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
 
-将转换后的页面保存为流
+将转换后的页面保存为 stream
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStream convertedPageProvider)
+    Func<int, Stream> convertedPageProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| convertedPageProvider | SavePageStream | 转换后的文档页面流提供程序 |
+| convertedPageProvider | Func`2 | 转换后的文档页面流provider |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * interface [IConversionTo](../../iconversionto)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversionto)
 * 部件 [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertByPageTo(SavePageStreamForFileType) {#convertbypageto_1}
+## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
 
-按 type 将转换后的页面保存为流
+将转换后的页面按类型保存为流
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStreamForFileType convertedStreamProvider)
+    Func<int, FileType, Stream> convertedStreamProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| convertedStreamProvider | SavePageStreamForFileType | 转换后的文档页面流提供程序 |
+| convertedStreamProvider | Func`3 | 转换后的文档页面流provider |
 
 ### 返回值
 
-继续转换构建的界面
+继续转换构建的接口
 
 ### 也可以看看
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * 命名空间 [GroupDocs.Conversion.Fluent](../../iconversionto)
 * 部件 [GroupDocs.Conversion](../../../)

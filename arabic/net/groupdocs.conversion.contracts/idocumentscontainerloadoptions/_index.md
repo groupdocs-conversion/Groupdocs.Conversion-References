@@ -3,7 +3,7 @@ title: IDocumentsContainerLoadOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: خيارات التحميل لحاوية المستندات
 type: docs
-weight: 250
+weight: 260
 url: /ar/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface

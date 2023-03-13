@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 水印透明度值介于 0 和 1 之间值 0 完全可见值 1 不可见
+description: 水印透明度介于0和1之间的值值0完全可见值1不可见
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.options.convert/watermarkoptions/transparency/
 ---
 ## WatermarkOptions.Transparency property
 
-水印透明度。值介于 0 和 1 之间。值 0 完全可见，值 1 不可见。
+水印透明度。介于0和1之间的值。值0完全可见，值1不可见。
 
 ```csharp
 public double Transparency { get; set; }

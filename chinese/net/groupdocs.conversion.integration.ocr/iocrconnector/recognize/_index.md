@@ -1,14 +1,14 @@
 ---
 title: Recognize
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 对图像进行 OCR 处理以流的形式提供
+description: 是否对作为流提供的图像进行 OCR 处理
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.integration.ocr/iocrconnector/recognize/
 ---
 ## IOcrConnector.Recognize method
 
-对图像进行 OCR 处理，以流的形式提供。
+是否对作为流提供的图像进行 OCR 处理。
 
 ```csharp
 public RecognizedImage Recognize(Stream imageStream)

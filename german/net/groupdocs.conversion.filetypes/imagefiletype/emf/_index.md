@@ -1,14 +1,14 @@
 ---
 title: Emf
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Enhanced Metafile Format EMF speichert grafische Bilder geräteunabhängig. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/emf .
+description: Enhanced Metafile Format EMF speichert grafische Bilder geräteunabhängig. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 120
+weight: 110
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field
 
-Enhanced Metafile Format (EMF) speichert grafische Bilder geräteunabhängig. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge, die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/emf) .
+Enhanced Metafile Format (EMF) speichert grafische Bilder geräteunabhängig. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge, die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/emf) .
 
 ```csharp
 public static readonly ImageFileType Emf;

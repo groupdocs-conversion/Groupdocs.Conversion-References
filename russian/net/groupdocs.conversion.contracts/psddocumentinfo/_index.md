@@ -3,7 +3,7 @@ title: PsdDocumentInfo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные документа Psd
 type: docs
-weight: 410
+weight: 440
 url: /ru/net/groupdocs.conversion.contracts/psddocumentinfo/
 ---
 ## PsdDocumentInfo class

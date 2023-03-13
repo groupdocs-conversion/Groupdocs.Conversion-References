@@ -1,14 +1,14 @@
 ---
 title: PsdOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例PsdOptionsgroupdocs.conversion.options.convert/psdoptions类.
+description: 初始化新实例PsdOptionsgroupdocs.conversion.options.convert/psdoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/psdoptions/psdoptions/
 ---
 ## PsdOptions constructor
 
-初始化的新实例[`PsdOptions`](../../psdoptions)类.
+初始化新实例[`PsdOptions`](../../psdoptions)类.
 
 ```csharp
 public PsdOptions()

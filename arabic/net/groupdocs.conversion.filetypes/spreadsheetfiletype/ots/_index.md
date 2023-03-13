@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: قالب جدول بيانات OpenDocument
+description: الملف ذو الامتداد .ots هو ملف OpenDocument Spreadsheet Template الذي تم إنشاؤه باستخدام برنامج تطبيق Calc المضمن في Apache OpenOffice. برنامج تطبيق Calc مشابه لبرنامج Excel المتاح في Microsoft Office. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/ots .
 type: docs
 weight: 70
 url: /ar/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-قالب جدول بيانات OpenDocument
+الملف ذو الامتداد .ots هو ملف OpenDocument Spreadsheet Template الذي تم إنشاؤه باستخدام برنامج تطبيق Calc المضمن في Apache OpenOffice. برنامج تطبيق Calc مشابه لبرنامج Excel المتاح في Microsoft Office. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/ots) .
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

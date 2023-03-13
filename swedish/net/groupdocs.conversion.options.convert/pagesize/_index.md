@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Anger sidstorlek
 type: docs
-weight: 1550
+weight: 1720
 url: /sv/net/groupdocs.conversion.options.convert/pagesize/
 ---
 ## PageSize class

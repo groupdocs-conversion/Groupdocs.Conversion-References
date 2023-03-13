@@ -1,14 +1,14 @@
 ---
 title: PageLayout
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta il layout della pagina da utilizzare allapertura del documento.
+description: Imposta il layout di pagina che verrà utilizzato allapertura del documento.
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.options.convert/pdfformattingoptions/pagelayout/
 ---
 ## PdfFormattingOptions.PageLayout property
 
-Imposta il layout della pagina da utilizzare all'apertura del documento.
+Imposta il layout di pagina che verrà utilizzato all'apertura del documento.
 
 ```csharp
 public PdfPageLayout PageLayout { get; set; }

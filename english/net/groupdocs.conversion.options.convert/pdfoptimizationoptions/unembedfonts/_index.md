@@ -3,7 +3,7 @@ title: UnembedFonts
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Make fonts not embedded if set to true
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.options.convert/pdfoptimizationoptions/unembedfonts/
 ---
 ## PdfOptimizationOptions.UnembedFonts property

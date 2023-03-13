@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: يحدد مستندات البيانات. يتضمن أنواع الملفات التالية Xml./datafiletype/xml . Json./datafiletype/json .
+description: يحدد مستندات البيانات. يتضمن أنواع الملفات التالية Xml . Json .
 type: docs
-weight: 820
+weight: 880
 url: /ar/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-يحدد مستندات البيانات. يتضمن أنواع الملفات التالية: [`Xml`](./xml) . [`Json`](./json) .
+يحدد مستندات البيانات. يتضمن أنواع الملفات التالية: Xml . Json .
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [DataFileType](datafiletype)() | مُنشئ التسلسل |
 
 ## الخصائص
 
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |
-
-## مجالات
-
-| اسم | وصف |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON (JavaScript Object Notation) هو تنسيق ملف قياسي مفتوح لمشاركة البيانات التي تستخدم نصًا يمكن للبشر قراءته لتخزين البيانات ونقلها. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/web/json) . |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | يرمز XML إلى لغة الترميز الموسعة التي تشبه HTML ولكنها تختلف في استخدام العلامات لتحديد الكائنات . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/web/xml) . |
 
 ### أنظر أيضا
 

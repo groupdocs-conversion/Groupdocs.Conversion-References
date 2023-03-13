@@ -3,7 +3,7 @@ title: IConversionConvertOrCompress
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Сжать или преобразовать
 type: docs
-weight: 1090
+weight: 1220
 url: /ru/net/groupdocs.conversion.fluent/iconversionconvertorcompress/
 ---
 ## IConversionConvertOrCompress interface

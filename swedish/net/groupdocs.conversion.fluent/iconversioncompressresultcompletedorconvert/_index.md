@@ -3,7 +3,7 @@ title: IConversionCompressResultCompletedOrConvert
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Hantera komprimering slutförd eller kör konvertering
 type: docs
-weight: 1030
+weight: 1160
 url: /sv/net/groupdocs.conversion.fluent/iconversioncompressresultcompletedorconvert/
 ---
 ## IConversionCompressResultCompletedOrConvert interface

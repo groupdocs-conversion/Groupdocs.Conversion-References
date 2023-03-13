@@ -1,14 +1,14 @@
 ---
 title: Xls
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: XLS Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar Microsoft Excelin yanı sıra OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xls .
+description: XLS Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar Microsoft Excelin yanı sıra OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/
 ---
 ## SpreadsheetFileType.Xls field
 
-XLS, Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar, Microsoft Excel'in yanı sıra OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xls) .
+XLS, Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar, Microsoft Excel'in yanı sıra OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xls) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xls;

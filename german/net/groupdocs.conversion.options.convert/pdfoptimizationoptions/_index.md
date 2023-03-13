@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Definiert PDFOptimierungsoptionen.
 type: docs
-weight: 1600
+weight: 1780
 url: /de/net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class
@@ -24,7 +24,7 @@ public sealed class PdfOptimizationOptions : ValueObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [CompressImages](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/compressimages) { get; set; } | Wenn CompressImages auf eingestellt ist`Stimmt` , werden alle Bilder im Dokument neu komprimiert. Die Komprimierung wird durch die ImageQuality-Eigenschaft definiert. |
+| [CompressImages](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/compressimages) { get; set; } | Wenn CompressImages auf eingestellt ist`WAHR` , werden alle Bilder im Dokument neu komprimiert. Die Komprimierung wird durch die ImageQuality-Eigenschaft definiert. |
 | [ImageQuality](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/imagequality) { get; set; } | Wert in Prozent, wobei 100 % unveränderte Qualität und Bildgröße sind. Um die Bildgröße zu verringern, setzen Sie diese Eigenschaft auf weniger als 100 |
 | [LinkDuplicateStreams](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/linkduplicatestreams) { get; set; } | Doppelte Streams verknüpfen |
 | [RemoveUnusedObjects](../../groupdocs.conversion.options.convert/pdfoptimizationoptions/removeunusedobjects) { get; set; } | Unbenutzte Objekte entfernen |

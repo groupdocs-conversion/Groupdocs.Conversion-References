@@ -1,14 +1,14 @@
 ---
 title: IConversionGetPossibleConversions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene possibili conversioni per il documento di origine.
+description: Ottiene le possibili conversioni per il documento di origine.
 type: docs
-weight: 1120
+weight: 1250
 url: /it/net/groupdocs.conversion.fluent/iconversiongetpossibleconversions/
 ---
 ## IConversionGetPossibleConversions interface
 
-Ottiene possibili conversioni per il documento di origine.
+Ottiene le possibili conversioni per il documento di origine.
 
 ```csharp
 public interface IConversionGetPossibleConversions
@@ -18,7 +18,7 @@ public interface IConversionGetPossibleConversions
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetPossibleConversions](../../groupdocs.conversion.fluent/iconversiongetpossibleconversions/getpossibleconversions)() | Ottiene possibili conversioni per il documento di origine. |
+| [GetPossibleConversions](../../groupdocs.conversion.fluent/iconversiongetpossibleconversions/getpossibleconversions)() | Ottiene le possibili conversioni per il documento di origine. |
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: GetDocumentInfo
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Ottiene informazioni sul documento di origine  conteggio delle pagine e altre proprietà del documento specifiche per il tipo di file.
+description: Ottiene informazioni sul documento di origine numero di pagine e altre proprietà del documento specifiche per il tipo di file.
 type: docs
 weight: 40
 url: /it/net/groupdocs.conversion/converter/getdocumentinfo/
 ---
 ## Converter.GetDocumentInfo method
 
-Ottiene informazioni sul documento di origine - conteggio delle pagine e altre proprietà del documento specifiche per il tipo di file.
+Ottiene informazioni sul documento di origine: numero di pagine e altre proprietà del documento specifiche per il tipo di file.
 
 ```csharp
 public IDocumentInfo GetDocumentInfo()
@@ -16,9 +16,9 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni sul documento convertito: tipo di file, numero di pagine, data di creazione e molte altre proprietà specifiche del formato: [Come ottenere informazioni sui documenti](https://docs.groupdocs.com/display/conversionnet/Get+document+info)
+* Ulteriori informazioni sul documento convertito: tipo di file, numero di pagine, data di creazione e molte altre proprietà specifiche del formato: [Come ottenere informazioni sul documento](https://docs.groupdocs.com/display/conversionnet/Get+document+info)
 
 ### Guarda anche
 

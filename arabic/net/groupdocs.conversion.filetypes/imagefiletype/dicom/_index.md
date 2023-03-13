@@ -3,7 +3,7 @@ title: Dicom
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تمثل الملفات ذات الامتداد .DICOM الصورة الرقمية التي تخزن المعلومات الطبية للمرضى مثل التصوير بالرنين المغناطيسي والأشعة المقطعية وصور الموجات فوق الصوتية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/dicom .
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/dicom/
 ---
 ## ImageFileType.Dicom field

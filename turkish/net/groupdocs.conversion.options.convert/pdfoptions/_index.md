@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Pdf dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1610
+weight: 1790
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/
 ---
 ## PdfOptions class
@@ -24,9 +24,10 @@ public sealed class PdfOptions : ValueObject
 
 | İsim | Tanım |
 | --- | --- |
+| [DocumentInfo](../../groupdocs.conversion.options.convert/pdfoptions/documentinfo) { get; set; } | PDF belgesinin meta bilgisi. |
 | [FormattingOptions](../../groupdocs.conversion.options.convert/pdfoptions/formattingoptions) { get; set; } | Pdf biçimlendirme seçenekleri |
 | [Grayscale](../../groupdocs.conversion.options.convert/pdfoptions/grayscale) { get; set; } | Bir PDF'yi RGB renk alanından gri tonlamaya dönüştürün |
-| [Linearize](../../groupdocs.conversion.options.convert/pdfoptions/linearize) { get; set; } | PDF Belgesini Web için Doğrusallaştırır |
+| [Linearize](../../groupdocs.conversion.options.convert/pdfoptions/linearize) { get; set; } | Web için PDF Belgesini Doğrusallaştırır |
 | [OptimizationOptions](../../groupdocs.conversion.options.convert/pdfoptions/optimizationoptions) { get; set; } | Pdf optimizasyon seçenekleri |
 | [PdfFormat](../../groupdocs.conversion.options.convert/pdfoptions/pdfformat) { get; set; } | Dönüştürülen belgenin pdf biçimini ayarlar. |
 | [RemovePdfACompliance](../../groupdocs.conversion.options.convert/pdfoptions/removepdfacompliance) { get; set; } | Pdf-A Uyumluluğunu Kaldırır |

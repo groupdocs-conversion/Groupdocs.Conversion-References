@@ -1,14 +1,14 @@
 ---
 title: Z
 second_title: GroupDocs.Conversion for .NET API 参考
-description: AZ 文件是属于 UNIX 压缩数据文件的一类文件压缩的 Unix 文件是 Z 文件的最流行和广泛使用的扩展类型 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/z/
+description: AZ文件是属于UNIX压缩数据文件的一类文件压缩的 Unix 文件是最流行和使用最广泛的 Z 文件扩展类型 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/z/
 type: docs
 weight: 130
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/z/
 ---
 ## CompressionFileType.Z field
 
-AZ 文件是属于 UNIX 压缩数据文件的一类文件。压缩的 Unix 文件是 Z 文件的最流行和广泛使用的扩展类型。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/z/)
+AZ文件是属于UNIX压缩数据文件的一类文件。压缩的 Unix 文件是最流行和使用最广泛的 Z 文件扩展类型。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/z/)
 
 ```csharp
 public static readonly CompressionFileType Z;

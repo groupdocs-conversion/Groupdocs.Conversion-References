@@ -3,7 +3,7 @@ title: J2k
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файл J2K представляет собой изображение сжатое с использованием вейвлетсжатия вместо сжатия DCT. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 190
+weight: 170
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/j2k/
 ---
 ## ImageFileType.J2k field

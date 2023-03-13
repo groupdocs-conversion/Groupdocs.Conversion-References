@@ -1,14 +1,14 @@
 ---
 title: Flac
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: FLAC Free Lossless Audio Codec è un formato di codifica audio a compressione senza perdita sviluppato da Xiph.Org Foundation Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/audio/flac/ .
+description: FLAC Free Lossless Audio Codec è un formato di codifica audio a compressione senza perdita sviluppato da Xiph.Org Foundation Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/audio/flac/ .
 type: docs
 weight: 50
 url: /it/net/groupdocs.conversion.filetypes/audiofiletype/flac/
 ---
 ## AudioFileType.Flac field
 
-FLAC (Free Lossless Audio Codec) è un formato di codifica audio a compressione senza perdita sviluppato da Xiph.Org Foundation Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/audio/flac/) .
+FLAC (Free Lossless Audio Codec) è un formato di codifica audio a compressione senza perdita sviluppato da Xiph.Org Foundation Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/audio/flac/) .
 
 ```csharp
 public static readonly AudioFileType Flac;

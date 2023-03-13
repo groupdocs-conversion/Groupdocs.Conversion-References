@@ -1,14 +1,14 @@
 ---
 title: TiffOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Tiffe özel dönüştürme seçenekleri.
+description: Tiffe özgü dönüştürme seçenekleri.
 type: docs
 weight: 130
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions/
 ---
 ## ImageConvertOptions.TiffOptions property
 
-Tiff'e özel dönüştürme seçenekleri.
+Tiff'e özgü dönüştürme seçenekleri.
 
 ```csharp
 public TiffOptions TiffOptions { get; set; }

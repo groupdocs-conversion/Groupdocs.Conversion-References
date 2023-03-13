@@ -1,14 +1,14 @@
 ---
 title: CsvLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Csv belgelerini yükleme seçenekleri.
+description: Csv belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1860
+weight: 2050
 url: /tr/net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class
 
-Csv belgelerini yükleme seçenekleri.
+Csv belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class CsvLoadOptions : SpreadsheetLoadOptions
@@ -39,8 +39,9 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [IsMultiEncoded](../../groupdocs.conversion.options.load/csvloadoptions/ismultiencoded) { get; set; } | True, dosyanın birkaç kodlama içerdiği anlamına gelir. |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | OnePagePerSheet true ise, sayfanın içeriği PDF belgesinde bir sayfaya dönüştürülür. Varsayılan değer true. 'dir. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | True ise ve PDF'ye dönüştürülüyorsa, dönüştürme, baskı kalitesinden daha iyi dosya boyutu için optimize edilir. |
-| [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
 | [Separator](../../groupdocs.conversion.options.load/csvloadoptions/separator) { get; set; } | Csv dosyasının sınırlayıcısı. |
+| [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Dizinler sıfır tabanlı olmalıdır |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Dönüştürülecek sayfa adı |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Excel dosyalarını dönüştürürken ızgara çizgilerini göster. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Excel dosyalarını dönüştürürken gizli sayfaları göster. |

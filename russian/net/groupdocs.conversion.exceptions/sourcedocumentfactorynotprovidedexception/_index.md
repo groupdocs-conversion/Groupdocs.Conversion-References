@@ -3,7 +3,7 @@ title: SourceDocumentFactoryNotProvidedException
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Исключение GroupDocs возникает когда фабрика исходных документов не указана
 type: docs
-weight: 780
+weight: 840
 url: /ru/net/groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/
 ---
 ## SourceDocumentFactoryNotProvidedException class

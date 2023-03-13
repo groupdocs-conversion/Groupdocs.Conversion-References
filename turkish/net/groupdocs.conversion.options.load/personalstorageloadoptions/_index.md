@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Kişisel depolama belgelerini yükleme seçenekleri.
+description: Kişisel depolama belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1990
+weight: 2230
 url: /tr/net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
 
-Kişisel depolama belgelerini yükleme seçenekleri.
+Kişisel depolama belgelerini yüklemek için seçenekler.
 
 ```csharp
 public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -24,10 +24,10 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowned) { get; } | Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
-| [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur |
-| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği |
-| [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | İşlenecek klasör Varsayılan Gelen Kutusu 'dir |
+| [ConvertOwned](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowned) { get; } | Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
+| [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır |
+| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği |
+| [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | İşlenecek klasör Varsayılan Inbox |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
 
 ## yöntemler

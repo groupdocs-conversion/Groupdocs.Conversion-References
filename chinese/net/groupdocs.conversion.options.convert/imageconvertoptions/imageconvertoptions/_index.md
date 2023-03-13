@@ -1,14 +1,14 @@
 ---
 title: ImageConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例ImageConvertOptionsgroupdocs.conversion.options.convert/imageconvertoptions类.
+description: 初始化新实例ImageConvertOptionsgroupdocs.conversion.options.convert/imageconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/imageconvertoptions/imageconvertoptions/
 ---
 ## ImageConvertOptions constructor
 
-初始化的新实例[`ImageConvertOptions`](../../imageconvertoptions)类.
+初始化新实例[`ImageConvertOptions`](../../imageconvertoptions)类.
 
 ```csharp
 public ImageConvertOptions()

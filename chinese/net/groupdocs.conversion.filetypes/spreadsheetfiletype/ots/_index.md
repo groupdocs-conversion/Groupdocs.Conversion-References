@@ -1,14 +1,14 @@
 ---
 title: Ots
 second_title: GroupDocs.Conversion for .NET API 参考
-description: OpenDocument 电子表格模板
+description: 扩展名为 .ots 的文件是一个 OpenDocument 电子表格模板文件它是使用 Apache OpenOffice 中包含的 Calc 应用程序软件创建的 Calc 应用软件类似于 Microsoft Office 中提供的 Excel 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/ots
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/
 ---
 ## SpreadsheetFileType.Ots field
 
-OpenDocument 电子表格模板
+扩展名为 .ots 的文件是一个 OpenDocument 电子表格模板文件，它是使用 Apache OpenOffice 中包含的 Calc 应用程序软件创建的。 Calc 应用软件类似于 Microsoft Office 中提供的 Excel。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/ots)
 
 ```csharp
 public static readonly SpreadsheetFileType Ots;

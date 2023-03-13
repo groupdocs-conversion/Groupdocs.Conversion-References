@@ -3,7 +3,7 @@ title: Jpeg
 second_title: GroupDocs.Conversion for .NET API Referens
 description: En JPEG är en typ av bildformat som sparas med metoden för förlustkomprimering. Utdatabilden som ett resultat av komprimering är en kompromiss mellan lagringsstorlek och bildkvalitet. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 230
+weight: 210
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/jpeg/
 ---
 ## ImageFileType.Jpeg field

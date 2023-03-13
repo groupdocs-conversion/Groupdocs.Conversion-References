@@ -1,14 +1,14 @@
 ---
 title: Lzw
 second_title: GroupDocs.Conversion for .NET API 参考
-description: LZW 压缩
+description: LZW 压缩.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/tiffcompressionmethods/lzw/
 ---
 ## TiffCompressionMethods.Lzw field
 
-LZW 压缩。
+LZW 压缩.
 
 ```csharp
 public static readonly TiffCompressionMethods Lzw;

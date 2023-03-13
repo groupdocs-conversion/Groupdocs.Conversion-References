@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: تمثل الملفات ذات الامتداد WMF Microsoft Windows Metafile WMF لتخزين بيانات الصور المتجهية بالإضافة إلى بيانات الصور ذات التنسيق النقطي . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/wmf .
+description: تمثل الملفات ذات الامتداد WMF Microsoft Windows Metafile WMF لتخزين بيانات الصور المتجهية وكذلك بيانات الصور النقطية . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 390
+weight: 360
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/wmf/
 ---
 ## ImageFileType.Wmf field
 
-تمثل الملفات ذات الامتداد WMF Microsoft Windows Metafile (WMF) لتخزين بيانات الصور المتجهية بالإضافة إلى بيانات الصور ذات التنسيق النقطي . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/wmf) .
+تمثل الملفات ذات الامتداد WMF Microsoft Windows Metafile (WMF) لتخزين بيانات الصور المتجهية وكذلك بيانات الصور النقطية . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/wmf) .
 
 ```csharp
 public static readonly ImageFileType Wmf;

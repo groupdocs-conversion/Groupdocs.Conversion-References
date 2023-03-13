@@ -24,7 +24,7 @@ public ConversionNotSupportedException()
 
 ## ConversionNotSupportedException(FileType, FileType) {#constructor_1}
 
-创建一个带有源文件类型和目标文件类型的异常实例
+创建具有源 FileType 和目标 Filetype 的异常实例
 
 ```csharp
 public ConversionNotSupportedException(FileType source, FileType target)
@@ -46,7 +46,7 @@ public ConversionNotSupportedException(FileType source, FileType target)
 
 ## ConversionNotSupportedException(string) {#constructor_2}
 
-创建带有消息的异常实例
+创建一个带有消息 的异常实例
 
 ```csharp
 public ConversionNotSupportedException(string message)

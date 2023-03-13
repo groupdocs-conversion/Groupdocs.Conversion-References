@@ -1,14 +1,14 @@
 ---
 title: Tar
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .tar uzantılı dosyalar bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Birden çok dosya arşive dosya ve klasör ekleme desteğiyle sıkıştırılmamış bir biçimde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/tar/ .
+description: .tar uzantılı dosyalar bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Birden çok dosya arşive dosya ve klasör ekleme desteğiyle sıkıştırılmamış bir biçimde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/tar/ .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/tar/
 ---
 ## CompressionFileType.Tar field
 
-.tar uzantılı dosyalar, bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Birden çok dosya, arşive dosya ve klasör ekleme desteğiyle sıkıştırılmamış bir biçimde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/tar/) .
+.tar uzantılı dosyalar, bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Birden çok dosya, arşive dosya ve klasör ekleme desteğiyle sıkıştırılmamış bir biçimde saklanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly CompressionFileType Tar;

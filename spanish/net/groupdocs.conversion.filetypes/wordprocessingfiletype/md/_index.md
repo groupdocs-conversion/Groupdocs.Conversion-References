@@ -3,7 +3,7 @@ title: Md
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos de texto creados con los dialectos del idioma Markdown se guardan con la extensión de archivo .MD o .MARKDOWN. Los archivos MD se guardan en formato de texto sin formato que utiliza el lenguaje Markdown que también incluye símbolos de texto en línea que definen cómo se puede formatear un texto como sangrías formato de tablas fuentes y encabezados. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/md .
 type: docs
-weight: 100
+weight: 80
 url: /es/net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/
 ---
 ## WordProcessingFileType.Md field

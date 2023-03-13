@@ -11,12 +11,12 @@ url: /ar/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/onco
 تلقي دفق مستند مضغوط. سيتم تشغيله فقط إذا تم تعيين الضغط (خيارات CompressionConvertOptions) ".
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | مزود تدفق المستند المضغوط |
+| compressedDocumentStream | Action`1 | مزود تدفق المستند المضغوط |
 
 ### قيمة الإرجاع
 
@@ -25,7 +25,6 @@ public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compre
 ### أنظر أيضا
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * المجسم [GroupDocs.Conversion](../../../)

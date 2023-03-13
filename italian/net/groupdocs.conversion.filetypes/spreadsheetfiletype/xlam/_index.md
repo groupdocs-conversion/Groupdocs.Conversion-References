@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Formato documento Xlam
+description: XLAM è un file componente aggiuntivo con attivazione macro utilizzato per aggiungere nuove funzioni ai fogli di calcolo. Un componente aggiuntivo è un programma supplementare che esegue codice aggiuntivo e fornisce funzionalità aggiuntive per i fogli di calcolo. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/spreadsheet/xlam/ .
 type: docs
 weight: 100
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field
 
-Formato documento Xlam
+XLAM è un file componente aggiuntivo con attivazione macro utilizzato per aggiungere nuove funzioni ai fogli di calcolo. Un componente aggiuntivo è un programma supplementare che esegue codice aggiuntivo e fornisce funzionalità aggiuntive per i fogli di calcolo. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/spreadsheet/xlam/) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlam;

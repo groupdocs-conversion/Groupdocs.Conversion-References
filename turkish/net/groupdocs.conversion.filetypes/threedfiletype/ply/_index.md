@@ -1,14 +1,14 @@
 ---
 title: Ply
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PLY Çokgen Dosya Biçimi çokgenler topluluğu olarak tanımlanan grafik nesneleri depolayan 3B dosya biçimini temsil eder. Bu dosya biçiminin amacı çok çeşitli modeller için yararlı olacak kadar genel olan basit ve kolay bir dosya türü oluşturmaktı. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/3d/ply .
+description: PLY Çokgen Dosya Biçimi bir çokgen koleksiyonu olarak tanımlanan grafik nesneleri depolayan 3B dosya biçimini temsil eder. Bu dosya formatının amacı geniş bir model yelpazesi için kullanışlı olacak kadar genel olan basit ve kolay bir dosya tipi oluşturmaktı. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/3d/ply .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.conversion.filetypes/threedfiletype/ply/
 ---
 ## ThreeDFileType.Ply field
 
-PLY, Çokgen Dosya Biçimi, çokgenler topluluğu olarak tanımlanan grafik nesneleri depolayan 3B dosya biçimini temsil eder. Bu dosya biçiminin amacı, çok çeşitli modeller için yararlı olacak kadar genel olan basit ve kolay bir dosya türü oluşturmaktı. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/3d/ply) .
+PLY, Çokgen Dosya Biçimi, bir çokgen koleksiyonu olarak tanımlanan grafik nesneleri depolayan 3B dosya biçimini temsil eder. Bu dosya formatının amacı, geniş bir model yelpazesi için kullanışlı olacak kadar genel olan basit ve kolay bir dosya tipi oluşturmaktı. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/3d/ply) .
 
 ```csharp
 public static readonly ThreeDFileType Ply;

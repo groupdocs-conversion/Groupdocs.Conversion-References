@@ -3,7 +3,7 @@ title: IConversionCompressResult
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Kann alle Konvertierungsergebnisse in einem einzigen Archiv komprimieren
 type: docs
-weight: 1010
+weight: 1140
 url: /de/net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface

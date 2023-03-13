@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürürken boş satırları ve sütunları atlar. Varsayılan True.
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

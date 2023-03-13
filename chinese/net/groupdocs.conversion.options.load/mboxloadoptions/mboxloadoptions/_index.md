@@ -1,14 +1,14 @@
 ---
 title: MboxLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例MboxLoadOptionsgroupdocs.conversion.options.load/mboxloadoptions类.
+description: 初始化新实例MboxLoadOptionsgroupdocs.conversion.options.load/mboxloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/mboxloadoptions/mboxloadoptions/
 ---
 ## MboxLoadOptions constructor
 
-初始化的新实例[`MboxLoadOptions`](../../mboxloadoptions)类.
+初始化新实例[`MboxLoadOptions`](../../mboxloadoptions)类.
 
 ```csharp
 public MboxLoadOptions()

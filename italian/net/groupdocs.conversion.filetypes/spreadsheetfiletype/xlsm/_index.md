@@ -1,14 +1,14 @@
 ---
 title: Xlsm
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: XLSM è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlsm .
+description: XLSM è un tipo di file di foglio di calcolo che supporta le macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
 weight: 130
 url: /it/net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm/
 ---
 ## SpreadsheetFileType.Xlsm field
 
-XLSM è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
+XLSM è un tipo di file di foglio di calcolo che supporta le macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
 
 ```csharp
 public static readonly SpreadsheetFileType Xlsm;

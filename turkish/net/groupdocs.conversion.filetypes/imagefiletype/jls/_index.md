@@ -3,7 +3,7 @@ title: Jls
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Jls belge formatı
 type: docs
-weight: 200
+weight: 180
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/jls/
 ---
 ## ImageFileType.Jls field

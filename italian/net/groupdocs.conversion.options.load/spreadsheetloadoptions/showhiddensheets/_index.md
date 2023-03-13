@@ -3,7 +3,7 @@ title: ShowHiddenSheets
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Mostra fogli nascosti durante la conversione di file Excel.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets/
 ---
 ## SpreadsheetLoadOptions.ShowHiddenSheets property

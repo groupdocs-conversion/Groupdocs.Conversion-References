@@ -3,7 +3,7 @@ title: JpgCompressionMethods
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Describe los modos de compresión Jpg
 type: docs
-weight: 1510
+weight: 1670
 url: /es/net/groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 ## JpgCompressionMethods class

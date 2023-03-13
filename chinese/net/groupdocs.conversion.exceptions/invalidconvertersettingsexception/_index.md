@@ -3,12 +3,12 @@ title: InvalidConverterSettingsException
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 如果提供的转换器设置无效则抛出
 type: docs
-weight: 760
+weight: 820
 url: /zh/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class
 
-如果提供的转换器设置无效，则抛出
+如果提供的转换器设置无效则抛出
 
 ```csharp
 public sealed class InvalidConverterSettingsException : GroupDocsConversionException
@@ -19,7 +19,7 @@ public sealed class InvalidConverterSettingsException : GroupDocsConversionExcep
 | 姓名 | 描述 |
 | --- | --- |
 | [InvalidConverterSettingsException](invalidconvertersettingsexception#constructor)() | 默认构造函数 |
-| [InvalidConverterSettingsException](invalidconvertersettingsexception#constructor_1)(string) | 创建带有特定消息的异常 |
+| [InvalidConverterSettingsException](invalidconvertersettingsexception#constructor_1)(string) | 使用特定消息创建异常 |
 
 ### 也可以看看
 

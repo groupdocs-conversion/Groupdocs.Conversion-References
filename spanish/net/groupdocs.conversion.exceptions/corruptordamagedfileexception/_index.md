@@ -3,7 +3,7 @@ title: CorruptOrDamagedFileException
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Excepción GroupDocs lanzada cuando el archivo está corrupto o dañado
 type: docs
-weight: 700
+weight: 760
 url: /es/net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 ---
 ## CorruptOrDamagedFileException class

@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 加载 Pdf 文档的选项
 type: docs
-weight: 1980
+weight: 2220
 url: /zh/net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -18,7 +18,7 @@ public sealed class PdfLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfLoadOptions](pdfloadoptions)() | 初始化的新实例[`PdfLoadOptions`](../pdfloadoptions)类. |
+| [PdfLoadOptions](pdfloadoptions)() | 初始化新实例[`PdfLoadOptions`](../pdfloadoptions)类. |
 
 ## 特性
 
@@ -26,9 +26,9 @@ public sealed class PdfLoadOptions : LoadOptions
 | --- | --- |
 | [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Pdf 文档的默认字体。如果缺少字体，将使用以下字体。 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | 展平 PDF 表单的所有字段。 |
-| [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | 转换PDF文档时替换特定字体。 |
-| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | 转换 Pdf 文档时替换特定字体。 |
+| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | 隐藏 Pdf 文档中的注释。 |
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | 设置密码以取消保护受保护的文档。 |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | 删除嵌入文件。 |
@@ -37,9 +37,9 @@ public sealed class PdfLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

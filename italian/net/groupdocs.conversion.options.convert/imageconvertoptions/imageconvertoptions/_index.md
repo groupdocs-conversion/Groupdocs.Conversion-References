@@ -1,14 +1,14 @@
 ---
 title: ImageConvertOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diImageConvertOptionsgroupdocs.conversion.options.convert/imageconvertoptions classe.
+description: Inizializza una nuova istanza diImageConvertOptionsgroupdocs.conversion.options.convert/imageconvertoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.convert/imageconvertoptions/imageconvertoptions/
 ---
 ## ImageConvertOptions constructor
 
-Inizializza la nuova istanza di[`ImageConvertOptions`](../../imageconvertoptions) classe.
+Inizializza una nuova istanza di[`ImageConvertOptions`](../../imageconvertoptions) classe.
 
 ```csharp
 public ImageConvertOptions()

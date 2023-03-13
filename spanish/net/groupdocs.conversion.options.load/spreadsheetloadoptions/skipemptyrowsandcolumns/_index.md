@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Omite filas y columnas vacías al convertir. El valor predeterminado es Verdadero.
 type: docs
-weight: 150
+weight: 160
 url: /es/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

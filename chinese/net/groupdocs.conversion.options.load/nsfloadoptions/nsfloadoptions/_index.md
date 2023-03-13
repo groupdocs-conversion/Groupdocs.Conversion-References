@@ -1,14 +1,14 @@
 ---
 title: NsfLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例NsfLoadOptionsgroupdocs.conversion.options.load/nsfloadoptions类.
+description: 初始化新实例NsfLoadOptionsgroupdocs.conversion.options.load/nsfloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/nsfloadoptions/nsfloadoptions/
 ---
 ## NsfLoadOptions constructor
 
-初始化的新实例[`NsfLoadOptions`](../../nsfloadoptions)类.
+初始化新实例[`NsfLoadOptions`](../../nsfloadoptions)类.
 
 ```csharp
 public NsfLoadOptions()

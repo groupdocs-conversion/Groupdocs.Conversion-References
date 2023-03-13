@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beschreibt den PdfSeitenmodus
 type: docs
-weight: 1630
+weight: 1810
 url: /de/net/groupdocs.conversion.options.convert/pdfpagemode/
 ---
 ## PdfPageMode class

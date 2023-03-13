@@ -3,7 +3,7 @@ title: DiagramConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Diyagram dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1360
+weight: 1490
 url: /tr/net/groupdocs.conversion.options.convert/diagramconvertoptions/
 ---
 ## DiagramConvertOptions class
@@ -24,7 +24,7 @@ public sealed class DiagramConvertOptions : CommonConvertOptions<DiagramFileType
 
 | İsim | Tanım |
 | --- | --- |
-| [AutoFitPageToDrawingContent](../../groupdocs.conversion.options.convert/diagramconvertoptions/autofitpagetodrawingcontent) { get; set; } | Sayfayı çizim içeriğine sığdırmak için büyütmenin gerekip gerekmediğini tanımlar |
+| [AutoFitPageToDrawingContent](../../groupdocs.conversion.options.convert/diagramconvertoptions/autofitpagetodrawingcontent) { get; set; } | Çizim içeriğine sığması için sayfanın büyütülmesi gerekip gerekmediğini tanımlar |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |

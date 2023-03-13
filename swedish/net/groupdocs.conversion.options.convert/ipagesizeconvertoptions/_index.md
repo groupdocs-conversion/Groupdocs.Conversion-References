@@ -3,7 +3,7 @@ title: IPageSizeConvertOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Representerar konverteringsalternativ som stöder sidstorlek
 type: docs
-weight: 1430
+weight: 1590
 url: /sv/net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/
 ---
 ## IPageSizeConvertOptions interface

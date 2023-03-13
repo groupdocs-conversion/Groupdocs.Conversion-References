@@ -1,14 +1,14 @@
 ---
 title: Dng
 second_title: GroupDocs.Conversion for .NET API 参考
-description: DNG 是一种数码相机图像格式用于存储原始文件它是由 Adobe 于 2004 年 9 月开发的它基本上是为数码摄影而开发的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/dng
+description: DNG 是一种用于存储原始文件的数码相机图像格式它由Adobe于2004年9月开发它基本上是为数码摄影而开发的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/dng
 type: docs
-weight: 110
+weight: 100
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/dng/
 ---
 ## ImageFileType.Dng field
 
-DNG 是一种数码相机图像格式，用于存储原始文件。它是由 Adobe 于 2004 年 9 月开发的。它基本上是为数码摄影而开发的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/dng)
+DNG 是一种用于存储原始文件的数码相机图像格式。它由Adobe于2004年9月开发。它基本上是为数码摄影而开发的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/dng)
 
 ```csharp
 public static readonly ImageFileType Dng;

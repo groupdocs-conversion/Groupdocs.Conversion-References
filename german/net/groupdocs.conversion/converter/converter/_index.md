@@ -26,7 +26,7 @@ public Converter(Func<Stream> document)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -54,7 +54,7 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -83,7 +83,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -114,7 +114,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -140,11 +140,11 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | document | Func`1 | Die Methode, die einen lesbaren Stream zurückgibt. |
-| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. |
+| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. Der Typ der Quelldatei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -171,12 +171,12 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | document | Func`1 | Die Methode, die einen lesbaren Stream zurückgibt. |
-| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. |
+| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. Der Typ der Quelldatei |
 | settings | Func`1 | Die Konverter-Einstellungen. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -206,7 +206,7 @@ public Converter(string filePath)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -234,7 +234,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -263,7 +263,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -293,7 +293,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -319,11 +319,11 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | filePath | String | Der Dateipfad zum Quelldokument. |
-| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. |
+| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. Der Typ der Quelldatei |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
@@ -350,12 +350,12 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | filePath | String | Der Dateipfad zum Quelldokument. |
-| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. |
+| loadOptions | Func`2 | Die Methoden, die Dokumentladeoptionen zurückgeben. Der Typ der Quelldatei |
 | settings | Func`1 | Die Konverter-Einstellungen. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Laden und Konvertieren von Dokumenten, die auf FTP, Amazon S3-Speicher, Windows Azure oder einem anderen Speicher von Drittanbietern gespeichert sind: [Laden von Dokumenten aus verschiedenen Quellen](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
 * Weitere Informationen zu Optionen zum Laden von Dokumenten in Abhängigkeit vom Dateityp: [Ladeoptionen für verschiedene Dokumenttypen](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)

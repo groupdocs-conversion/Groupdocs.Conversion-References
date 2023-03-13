@@ -3,7 +3,7 @@ title: Ico
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Los archivos con extensión ICO son tipos de archivos de imagen que se utilizan como íconos para la representación de una aplicación en Microsoft Windows. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 170
+weight: 150
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/ico/
 ---
 ## ImageFileType.Ico field

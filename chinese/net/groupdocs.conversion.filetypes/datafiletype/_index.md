@@ -1,24 +1,19 @@
 ---
 title: DataFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义数据文档包括以下文件类型 Xml./datafiletype/xml. Json./datafiletype/json.
+description: 定义数据文件包括以下文件类型 Xml. Json.
 type: docs
-weight: 820
+weight: 880
 url: /zh/net/groupdocs.conversion.filetypes/datafiletype/
 ---
 ## DataFileType class
 
-定义数据文档。包括以下文件类型： [`Xml`](./xml). [`Json`](./json).
+定义数据文件。包括以下文件类型： Xml. Json.
 
 ```csharp
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebFileType instead.")]
 public sealed class DataFileType : FileType
 ```
-
-## 构造函数
-
-| 姓名 | 描述 |
-| --- | --- |
-| [DataFileType](datafiletype)() | 序列化构造函数 |
 
 ## 特性
 
@@ -26,7 +21,7 @@ public sealed class DataFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,17 +29,10 @@ public sealed class DataFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
-
-## 字段
-
-| 姓名 | 描述 |
-| --- | --- |
-| static readonly [Json](../../groupdocs.conversion.filetypes/datafiletype/json) | JSON（JavaScript 对象表示法）是一种用于共享数据的开放标准文件格式，它使用人类可读的文本来存储和传输数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/json) |
-| static readonly [Xml](../../groupdocs.conversion.filetypes/datafiletype/xml) | XML 代表可扩展标记语言，它类似于 HTML，但在使用标签来定义对象方面有所不同。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/xml) |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ### 也可以看看
 

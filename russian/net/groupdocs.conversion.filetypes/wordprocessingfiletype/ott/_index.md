@@ -3,7 +3,7 @@ title: Ott
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением OTT представляют собой шаблонные документы созданные приложениями в соответствии со стандартным форматом OASIS OpenDocument. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 130
+weight: 100
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/
 ---
 ## WordProcessingFileType.Ott field

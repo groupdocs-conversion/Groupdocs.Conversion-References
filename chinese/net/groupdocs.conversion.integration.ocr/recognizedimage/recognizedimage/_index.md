@@ -1,14 +1,14 @@
 ---
 title: RecognizedImage
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 使用一组已识别的行初始化类的新实例
+description: 使用一组可识别的行初始化该类的新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.integration.ocr/recognizedimage/recognizedimage/
 ---
 ## RecognizedImage constructor
 
-使用一组已识别的行初始化类的新实例。
+使用一组可识别的行初始化该类的新实例。
 
 ```csharp
 public RecognizedImage(IEnumerable<TextLine> lines)

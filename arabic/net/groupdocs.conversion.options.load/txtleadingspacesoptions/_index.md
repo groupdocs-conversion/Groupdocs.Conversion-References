@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد خيارات المسافات البادئة txt .
 type: docs
-weight: 2040
+weight: 2290
 url: /ar/net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class

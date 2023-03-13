@@ -3,7 +3,7 @@ title: Font
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Paramètres de police
 type: docs
-weight: 1380
+weight: 1530
 url: /fr/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class

@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/tableofco
 جدول المحتويات
 
 ```csharp
-public IEnumerable<TableOfContentsItem> TableOfContents { get; }
+public IList<TableOfContentsItem> TableOfContents { get; }
 ```
 
 ### أنظر أيضا

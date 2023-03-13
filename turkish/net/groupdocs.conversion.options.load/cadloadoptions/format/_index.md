@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Belge dosyası türünü girin
+description: Girdi belgesi dosya türü
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.options.load/cadloadoptions/format/
 ---
 ## CadLoadOptions.Format property
 
-Belge dosyası türünü girin
+Girdi belgesi dosya türü
 
 ```csharp
 public CadFileType Format { get; set; }

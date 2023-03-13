@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例PersonalStorageLoadOptionsgroupdocs.conversion.options.load/personalstorageloadoptions类.
+description: 初始化新实例PersonalStorageLoadOptionsgroupdocs.conversion.options.load/personalstorageloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/personalstorageloadoptions/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions constructor
 
-初始化的新实例[`PersonalStorageLoadOptions`](../../personalstorageloadoptions)类.
+初始化新实例[`PersonalStorageLoadOptions`](../../personalstorageloadoptions)类.
 
 ```csharp
 public PersonalStorageLoadOptions()

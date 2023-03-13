@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Укажите способ хранения преобразованного документа
 type: docs
-weight: 1180
+weight: 1310
 url: /ru/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,10 +18,10 @@ public interface IConversionTo
 
 | Имя | Описание |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | Сохранить конвертированную страницу как stream |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | Сохранить преобразованную страницу как поток по типу |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | Сохранить преобразованный документ как stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | Сохранить конвертированный документ как поток по типу |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | Сохранить преобразованную страницу как поток по типу |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | Сохранить конвертированную страницу как stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | Сохранить конвертированный документ как поток по типу |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | Сохранить преобразованный документ как stream |
 | [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | Сохранить преобразованный документ как файл |
 
 ### Смотрите также

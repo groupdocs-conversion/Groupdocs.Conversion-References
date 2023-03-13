@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры для преобразования в тип файла разметки.
 type: docs
-weight: 1520
+weight: 1680
 url: /ru/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /ru/net/groupdocs.conversion.options.convert/markupconvertoptions/
 Параметры для преобразования в тип файла разметки.
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | Инициализирует новый экземпляр[`MarkupConvertOptions`](../markupconvertoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | Если`истинный` будет использоваться фиксированный макет, например, html с абсолютным позиционированием elements По умолчанию: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Показывать границы страницы при преобразовании в фиксированный макет. По умолчанию Истина. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | Если`истинный` будет использоваться фиксированный макет, например, html с абсолютным позиционированием elements По умолчанию: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Показывать границы страницы при преобразовании в фиксированный макет. По умолчанию Истина. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Желаемый тип файла, в который должен быть преобразован входной документ. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Желаемый тип файла, в который должен быть преобразован входной документ. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Номер страницы, с которой начинается преобразование. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования конкретных страниц. |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Список индексов страниц, которые необходимо преобразовать. Должен быть указан для преобразования определенных страниц. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Количество страниц для конвертации, начиная с`Номер страницы` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | Если`истинный` , ввод сначала преобразуется в PDF, а затем в желаемый формат |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | Если`истинный` , ввод сначала преобразуется в PDF, а затем в желаемый формат |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Специальные параметры водяного знака |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Определяет уровень масштабирования в процентах. По умолчанию 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Определяет уровень масштабирования в процентах. По умолчанию 100. |
 
 ## Методы
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### Смотрите также
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * пространство имен [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * сборка [GroupDocs.Conversion](../../)
 

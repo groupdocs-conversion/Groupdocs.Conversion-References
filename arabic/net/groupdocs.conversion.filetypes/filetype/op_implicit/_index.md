@@ -3,7 +3,7 @@ title: op_Implicit
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: تحويل ضمني إلى سلسلة
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/groupdocs.conversion.filetypes/filetype/op_implicit/
 ---
 ## FileType Implicit operator

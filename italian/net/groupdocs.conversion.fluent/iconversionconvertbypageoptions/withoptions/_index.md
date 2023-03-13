@@ -1,14 +1,14 @@
 ---
 title: WithOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Imposta opzioni di conversione
+description: Imposta le opzioni di conversione
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoptions/
 ---
-## WithOptions(ConvertOptions) {#withoptions_1}
+## WithOptions(ConvertOptions) {#withoptions}
 
-Imposta opzioni di conversione
+Imposta le opzioni di conversione
 
 ```csharp
 public IConversionByPageCompletedOrConvert WithOptions(ConvertOptions convertOptions)
@@ -16,7 +16,7 @@ public IConversionByPageCompletedOrConvert WithOptions(ConvertOptions convertOpt
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| convertOptions | ConvertOptions | Converti opzioni |
+| convertOptions | ConvertOptions | Opzioni di conversione |
 
 ### Valore di ritorno
 
@@ -32,18 +32,18 @@ Interfaccia per continuare la costruzione della conversione
 
 ---
 
-## WithOptions(ConvertOptionsProvider) {#withoptions}
+## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
 
-Imposta opzioni di conversione
+Imposta le opzioni di conversione
 
 ```csharp
 public IConversionByPageCompletedOrConvert WithOptions(
-    ConvertOptionsProvider convertOptionsProvider)
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| convertOptionsProvider | ConvertOptionsProvider | Converti opzioni |
+| convertOptionsProvider | Func`3 | Opzioni di conversione |
 
 ### Valore di ritorno
 
@@ -52,7 +52,8 @@ Interfaccia per continuare la costruzione della conversione
 ### Guarda anche
 
 * interface [IConversionByPageCompletedOrConvert](../../iconversionbypagecompletedorconvert)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertByPageOptions](../../iconversionconvertbypageoptions)
 * spazio dei nomi [GroupDocs.Conversion.Fluent](../../iconversionconvertbypageoptions)
 * assemblea [GroupDocs.Conversion](../../../)

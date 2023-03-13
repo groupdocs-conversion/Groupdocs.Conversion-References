@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 默认字段文本是RequiredAttendees
+description: 默认字段文本为RequiredAttendees
 type: docs
 weight: 130
 url: /zh/net/groupdocs.conversion.options.load/emailfield/requiredattendees/
 ---
 ## EmailField.RequiredAttendees field
 
-默认字段文本是“RequiredAttendees”。
+默认字段文本为“RequiredAttendees”。
 
 ```csharp
 public static readonly EmailField RequiredAttendees;

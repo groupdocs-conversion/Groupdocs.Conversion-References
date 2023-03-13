@@ -3,7 +3,7 @@ title: IConversionSourceDocumentLoaded
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Yüklenen belge ile olası eylemleri sağlar
 type: docs
-weight: 1170
+weight: 1300
 url: /tr/net/groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 ## IConversionSourceDocumentLoaded interface

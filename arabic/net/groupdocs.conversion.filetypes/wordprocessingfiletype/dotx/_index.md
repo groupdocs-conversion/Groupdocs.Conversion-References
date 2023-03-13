@@ -3,7 +3,7 @@ title: Dotx
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: الملفات ذات امتداد DOTX هي ملفات قوالب تم إنشاؤها بواسطة Microsoft Word للحصول على إعدادات مهيأة مسبقًا لإنشاء ملفات DOCX أخرى. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field

@@ -3,7 +3,7 @@ title: SkipEmptyRowsAndColumns
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Ignore les lignes et les colonnes vides lors de la conversion. La valeur par défaut est True.
 type: docs
-weight: 150
+weight: 160
 url: /fr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns/
 ---
 ## SpreadsheetLoadOptions.SkipEmptyRowsAndColumns property

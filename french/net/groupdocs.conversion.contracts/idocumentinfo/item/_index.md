@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.conversion.contracts/idocumentinfo/item/
 Obtenir la valeur d'une propriété fournie en tant que clé
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 | Paramètre | La description |

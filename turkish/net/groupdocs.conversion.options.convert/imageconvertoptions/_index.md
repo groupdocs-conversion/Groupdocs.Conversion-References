@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Görüntü dosyası türüne dönüştürme seçenekleri.
 type: docs
-weight: 1470
+weight: 1630
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -33,18 +33,18 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [Gamma](../../groupdocs.conversion.options.convert/imageconvertoptions/gamma) { get; set; } | Görüntü gammasını ayarlar. |
 | [Grayscale](../../groupdocs.conversion.options.convert/imageconvertoptions/grayscale) { get; set; } | Gri tonlamalı görüntüye dönüştürülüp dönüştürülmeyeceğini belirtir. |
 | [Height](../../groupdocs.conversion.options.convert/imageconvertoptions/height) { get; set; } | Dönüştürmeden sonra istenen görüntü yüksekliği. |
-| [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğüdür veya 96 dpi. |
-| [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Jpeg'e özel dönüştürme seçenekleri. |
+| [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğü veya 96 dpi. 'dir. |
+| [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Jpeg'e özgü dönüştürme seçenekleri. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Belirli sayfaları dönüştürmek için belirtilmelidir. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Başlangıç olarak dönüştürülecek sayfa sayısı`Sayfa numarası` . |
-| [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd'ye özel dönüştürme seçenekleri. |
+| [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd'ye özgü dönüştürme seçenekleri. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Görüntü döndürme açısı. |
-| [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff'e özel dönüştürme seçenekleri. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Eğer`doğru` girdi önce PDF'ye, ardından istenen biçime dönüştürülür. |
-| [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğüdür veya 96 dpi. |
+| [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff'e özgü dönüştürme seçenekleri. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Eğer`doğru` , giriş önce PDF'ye ve ardından istenen formata dönüştürülür. |
+| [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Dönüştürmeden sonra istenen görüntü dikey çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğü veya 96 dpi. 'dir. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Filigrana özel seçenekler |
-| [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp'ye özel dönüştürme seçenekleri. |
+| [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp'e özgü dönüştürme seçenekleri. |
 | [Width](../../groupdocs.conversion.options.convert/imageconvertoptions/width) { get; set; } | Dönüştürmeden sonra istenen görüntü genişliği. |
 
 ## yöntemler

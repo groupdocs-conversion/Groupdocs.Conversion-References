@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento dei documenti di dati.
 type: docs
-weight: 1870
+weight: 2060
 url: /it/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /it/net/groupdocs.conversion.options.load/dataloadoptions/
 Opzioni per il caricamento dei documenti di dati.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Costruttori
-
-| Nome | Descrizione |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Inizializza la nuova istanza di[`DataLoadOptions`](../dataloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Tipo di file del documento di input. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Il percorso/URL di base per html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Ottiene o imposta la codifica da utilizzare durante il caricamento del documento di markup. Se la proprietà è nulla, la codifica sarà determinata dal set di caratteri del documento attribute |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Abilita o disabilita la generazione della numerazione delle pagine nel documento convertito. Predefinito: falso |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout per il caricamento di risorse esterne |
 
 ## Metodi
 
@@ -33,11 +32,11 @@ public class DataLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * spazio dei nomi [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assemblea [GroupDocs.Conversion](../../)
 

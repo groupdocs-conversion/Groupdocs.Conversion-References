@@ -1,14 +1,14 @@
 ---
 title: VideoLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 加载视频文档的选项
+description: 加载视频文件的选项
 type: docs
-weight: 2080
+weight: 2330
 url: /zh/net/groupdocs.conversion.options.load/videoloadoptions/
 ---
 ## VideoLoadOptions class
 
-加载视频文档的选项。
+加载视频文件的选项。
 
 ```csharp
 public sealed class VideoLoadOptions : LoadOptions
@@ -18,22 +18,22 @@ public sealed class VideoLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VideoLoadOptions](videoloadoptions)() | 初始化的新实例[`VideoLoadOptions`](../videoloadoptions)类. |
+| [VideoLoadOptions](videoloadoptions)() | 初始化新实例[`VideoLoadOptions`](../videoloadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/videoloadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [Format](../../groupdocs.conversion.options.load/videoloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 | [SetVideoConnector](../../groupdocs.conversion.options.load/videoloadoptions/setvideoconnector)(IVideoConnector) | 设置视频文件连接器 |
 
 ### 也可以看看

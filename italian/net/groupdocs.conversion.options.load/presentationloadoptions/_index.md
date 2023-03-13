@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per caricare i documenti di presentazione.
+description: Opzioni per il caricamento dei documenti di presentazione.
 type: docs
-weight: 2000
+weight: 2240
 url: /it/net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
 
-Opzioni per caricare i documenti di presentazione.
+Opzioni per il caricamento dei documenti di presentazione.
 
 ```csharp
 public class PresentationLoadOptions : LoadOptions
@@ -18,7 +18,7 @@ public class PresentationLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [PresentationLoadOptions](presentationloadoptions)() | Inizializza la nuova istanza di[`EmailLoadOptions`](../emailloadoptions) classe. |
+| [PresentationLoadOptions](presentationloadoptions)() | Inizializza una nuova istanza di[`EmailLoadOptions`](../emailloadoptions) classe. |
 
 ## Proprietà
 
@@ -38,7 +38,7 @@ public class PresentationLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 可用于从当前类型转换的预定义加载选项
+description: 可用于从当前类型 转换的预定义加载选项
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/possibleconversions/loadoptions/
 ---
 ## PossibleConversions.LoadOptions property
 
-可用于从当前类型转换的预定义加载选项
+可用于从当前类型 转换的预定义加载选项
 
 ```csharp
 public LoadOptions LoadOptions { get; }

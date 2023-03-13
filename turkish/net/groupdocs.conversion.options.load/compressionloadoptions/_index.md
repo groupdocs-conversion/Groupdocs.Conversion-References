@@ -1,14 +1,14 @@
 ---
 title: CompressionLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sıkıştırma belgelerini yükleme seçenekleri.
+description: Sıkıştırılmış belgeleri yüklemek için seçenekler.
 type: docs
-weight: 1850
+weight: 2040
 url: /tr/net/groupdocs.conversion.options.load/compressionloadoptions/
 ---
 ## CompressionLoadOptions class
 
-Sıkıştırma belgelerini yükleme seçenekleri.
+Sıkıştırılmış belgeleri yüklemek için seçenekler.
 
 ```csharp
 public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -24,11 +24,11 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/compressionloadoptions/convertowned) { get; } | Belge kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
-| [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olur |
-| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Dönüştürmeyi gerçekleştirmek için derinlemesine kaç seviyeyi kontrol etme seçeneği |
+| [ConvertOwned](../../groupdocs.conversion.options.load/compressionloadoptions/convertowned) { get; } | Belgeler kapsayıcısındaki sahip olunan belgelerin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği |
+| [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Belge kabının kendisinin dönüştürülmesi gerekip gerekmediğini kontrol etme seçeneği Bu özellik doğruysa, belge kabı dönüştürülen ilk belge olacaktır |
+| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Dönüşümün kaç düzeyde derinlemesine gerçekleştirileceğini kontrol etme seçeneği |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
-| [Password](../../groupdocs.conversion.options.load/compressionloadoptions/password) { get; set; } | Korumalı belgeyi yüklemek için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/compressionloadoptions/password) { get; set; } | Korumalı belgeyi yüklemek için parola ayarlayın. |
 
 ## yöntemler
 

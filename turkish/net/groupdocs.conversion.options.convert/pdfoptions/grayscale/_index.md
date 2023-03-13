@@ -3,7 +3,7 @@ title: Grayscale
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Bir PDFyi RGB renk alanından gri tonlamaya dönüştürün
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 ---
 ## PdfOptions.Grayscale property

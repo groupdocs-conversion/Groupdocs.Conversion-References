@@ -1,14 +1,14 @@
 ---
 title: Ifc
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: IFC uzantılı dosyalar yapı nesnelerini ve bunların özelliklerini içe ve dışa aktarmak için uluslararası standartları belirleyen Industry Foundation Classes IFC dosya biçimini ifade eder. Bu dosya biçimi farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/ifc .
+description: IFC uzantılı dosyalar yapı nesnelerini ve bunların özelliklerini içe ve dışa aktarmak için uluslararası standartları belirleyen Industry Foundation Classes IFC dosya biçimini ifade eder. Bu dosya biçimi farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/ifc .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/cadfiletype/ifc/
 ---
 ## CadFileType.Ifc field
 
-IFC uzantılı dosyalar, yapı nesnelerini ve bunların özelliklerini içe ve dışa aktarmak için uluslararası standartları belirleyen Industry Foundation Classes (IFC) dosya biçimini ifade eder. Bu dosya biçimi, farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/ifc) .
+IFC uzantılı dosyalar, yapı nesnelerini ve bunların özelliklerini içe ve dışa aktarmak için uluslararası standartları belirleyen Industry Foundation Classes (IFC) dosya biçimini ifade eder. Bu dosya biçimi, farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/ifc) .
 
 ```csharp
 public static readonly CadFileType Ifc;

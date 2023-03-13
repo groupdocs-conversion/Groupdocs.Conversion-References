@@ -30,10 +30,12 @@ L'espace de noms fournit des membres pour instancier et publier le document de s
 | [Enumeration](./enumeration) | Classe d'énumération générique. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Contient les métadonnées du document Ps |
 | [EpubDocumentInfo](./epubdocumentinfo) | Contient les métadonnées du document Epub |
+| [FontDocumentInfo](./fontdocumentinfo) | Contient les métadonnées du document de police |
 | [FontSubstitute](./fontsubstitute) | Décrit la substitution de la police manquante. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contient les métadonnées du document Gzip |
 | [IcoDocumentInfo](./icodocumentinfo) | Contient les métadonnées du document Ico |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contient les métadonnées du document image |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contient les métadonnées du document iXbrl |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contient les métadonnées du document Json |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contient les métadonnées du document Lzip |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contient les métadonnées du document Lzma |
@@ -43,11 +45,13 @@ L'espace de noms fournit des membres pour instancier et publier le document de s
 | [PclDocumentInfo](./pcldocumentinfo) | Contient les métadonnées du document Pcl |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Contient les métadonnées du document PDF |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Contient les métadonnées du document de stockage personnel |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Informations sur le dossier de stockage personnel |
 | [PossibleConversions](./possibleconversions) | Représente un mappage des paires de conversion prises en charge pour un format de fichier source spécifique |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Contient les métadonnées du document de présentation |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contient les métadonnées du document ProjectManagement |
 | [PsdDocumentInfo](./psddocumentinfo) | Contient les métadonnées du document Psd |
 | [PsDocumentInfo](./psdocumentinfo) | Contient les métadonnées du document Ps |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Contient les métadonnées du document Publisher |
 | [RarDocumentInfo](./rardocumentinfo) | Contient les métadonnées du document Rar |
 | [SaveDocumentStream](./savedocumentstream) | Décrit le délégué pour enregistrer le document converti dans le flux. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Décrit le délégué pour enregistrer le document converti dans le flux. |
@@ -66,7 +70,9 @@ L'espace de noms fournit des membres pour instancier et publier le document de s
 | [ValueObject](./valueobject) | Classe d'objet de valeur abstraite. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Contient les métadonnées du document Vcf |
 | [VideoDocumentInfo](./videodocumentinfo) | Contient les métadonnées du document vidéo |
+| [WebDocumentInfo](./webdocumentinfo) | Contient les métadonnées du document de balisage |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contient les métadonnées du document de traitement de texte |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Contient les métadonnées du document Xbrl |
 | [XmlDocumentInfo](./xmldocumentinfo) | Contient les métadonnées du document XML |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contient les métadonnées du document Xps |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Contient les métadonnées du document XslFo |

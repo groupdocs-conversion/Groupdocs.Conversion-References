@@ -1,14 +1,14 @@
 ---
 title: Dot
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .DOT uzantılı dosyalar daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/dot .
+description: .DOT uzantılı dosyalar daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field
 
-.DOT uzantılı dosyalar, daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/dot) .
+.DOT uzantılı dosyalar, daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/dot) .
 
 ```csharp
 public static readonly WordProcessingFileType Dot;

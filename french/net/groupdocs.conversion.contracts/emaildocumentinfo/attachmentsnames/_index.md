@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames/
 Récupère les noms des pièces jointes
 
 ```csharp
-public IEnumerable<string> AttachmentsNames { get; }
+public IList<string> AttachmentsNames { get; }
 ```
 
 ### Voir également

@@ -1,14 +1,14 @@
 ---
 title: RecognizedImage
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Rappresenta il testo estratto da unimmagine a seguito del suo processo di riconoscimento.
+description: Rappresenta il testo estratto da unimmagine come risultato del suo processo di riconoscimento.
 type: docs
-weight: 1210
+weight: 1340
 url: /it/net/groupdocs.conversion.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class
 
-Rappresenta il testo, estratto da un'immagine a seguito del suo processo di riconoscimento.
+Rappresenta il testo, estratto da un'immagine come risultato del suo processo di riconoscimento.
 
 ```csharp
 public class RecognizedImage
@@ -24,7 +24,7 @@ public class RecognizedImage
 
 | Nome | Descrizione |
 | --- | --- |
-| [Lines](../../groupdocs.conversion.integration.ocr/recognizedimage/lines) { get; } | Ottiene le righe di testo, con i relativi frammenti, riconosciute all'interno del documento. |
+| [Lines](../../groupdocs.conversion.integration.ocr/recognizedimage/lines) { get; } | Recupera righe di testo, con i relativi frammenti, riconosciute all'interno del documento. |
 | [Text](../../groupdocs.conversion.integration.ocr/recognizedimage/text) { get; } | Ottiene l'equivalente testuale del testo strutturato |
 
 ## Campi

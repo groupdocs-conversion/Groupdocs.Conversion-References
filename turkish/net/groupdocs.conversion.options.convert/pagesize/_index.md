@@ -3,7 +3,7 @@ title: PageSize
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sayfa boyutunu belirtir
 type: docs
-weight: 1550
+weight: 1720
 url: /tr/net/groupdocs.conversion.options.convert/pagesize/
 ---
 ## PageSize class
@@ -18,7 +18,7 @@ public sealed class PageSize : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PageSize](pagesize)() | Serileştirme yapıcısı |
+| [PageSize](pagesize)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

@@ -1,14 +1,14 @@
 ---
 title: IConversionTo
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 设置如何存储转换后的文档
+description: 设置转换文档的存储方式
 type: docs
-weight: 1180
+weight: 1310
 url: /zh/net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
 
-设置如何存储转换后的文档
+设置转换文档的存储方式
 
 ```csharp
 public interface IConversionTo
@@ -18,11 +18,11 @@ public interface IConversionTo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(SavePageStream) | 将转换后的页面保存为流 |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(SavePageStreamForFileType) | 按 type 将转换后的页面保存为流 |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(SaveDocumentStream) | 将转换后的文档另存为流 |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(SaveDocumentStreamForFileType) | 按 type 将转换后的文档另存为流 |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | 将转换后的文档另存为文件 |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto_1)(Func&lt;int, FileType, Stream&gt;) | 将转换后的页面按类型保存为流 |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;int, Stream&gt;) | 将转换后的页面保存为 stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(Func&lt;FileType, Stream&gt;) | 按type 将转换后的文档保存为流 |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;Stream&gt;) | 将转换后的文档另存为 stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(string) | 将转换后的文档另存为 file |
 
 ### 也可以看看
 

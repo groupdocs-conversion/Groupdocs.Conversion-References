@@ -1,14 +1,14 @@
 ---
 title: Fods
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: جدول بيانات XML مسطح OpenDocument
+description: الملف بامتداد .fods هو نوع من تنسيق مستند OpenDocument Spreadsheet الذي يخزن البيانات في صفوف وأعمدة. تم تحديد التنسيق كجزء من مواصفات ODF 1.2 المنشورة والمحافظة عليها بواسطة OASIS . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/fods .
 type: docs
 weight: 40
 url: /ar/net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field
 
-جدول بيانات XML مسطح OpenDocument
+الملف بامتداد .fods هو نوع من تنسيق مستند OpenDocument Spreadsheet الذي يخزن البيانات في صفوف وأعمدة. تم تحديد التنسيق كجزء من مواصفات ODF 1.2 المنشورة والمحافظة عليها بواسطة OASIS . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/fods) .
 
 ```csharp
 public static readonly SpreadsheetFileType Fods;

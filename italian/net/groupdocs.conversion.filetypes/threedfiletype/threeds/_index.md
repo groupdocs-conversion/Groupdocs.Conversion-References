@@ -1,14 +1,14 @@
 ---
 title: ThreeDS
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .3ds rappresenta il formato di file mesh 3D Sudio DOS utilizzato da Autodesk 3D Studio. Autodesk 3D Studio è presente sul mercato dei formati di file 3D dagli anni 90 e ora si è evoluto in 3D Studio MAX per lavorare con la modellazione lanimazione e il rendering 3D. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/3d/3ds .
+description: Un file con estensione .3ds rappresenta il formato di file mesh 3D Sudio DOS utilizzato da Autodesk 3D Studio. Autodesk 3D Studio è presente sul mercato dei formati di file 3D dagli anni 90 e ora si è evoluto in 3D Studio MAX per lavorare con la modellazione lanimazione e il rendering 3D. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/3d/3ds .
 type: docs
 weight: 120
 url: /it/net/groupdocs.conversion.filetypes/threedfiletype/threeds/
 ---
 ## ThreeDFileType.ThreeDS field
 
-Un file con estensione .3ds rappresenta il formato di file mesh 3D Sudio (DOS) utilizzato da Autodesk 3D Studio. Autodesk 3D Studio è presente sul mercato dei formati di file 3D dagli anni '90 e ora si è evoluto in 3D Studio MAX per lavorare con la modellazione, l'animazione e il rendering 3D. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/3d/3ds) .
+Un file con estensione .3ds rappresenta il formato di file mesh 3D Sudio (DOS) utilizzato da Autodesk 3D Studio. Autodesk 3D Studio è presente sul mercato dei formati di file 3D dagli anni '90 e ora si è evoluto in 3D Studio MAX per lavorare con la modellazione, l'animazione e il rendering 3D. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/3d/3ds) .
 
 ```csharp
 public static readonly ThreeDFileType ThreeDS;

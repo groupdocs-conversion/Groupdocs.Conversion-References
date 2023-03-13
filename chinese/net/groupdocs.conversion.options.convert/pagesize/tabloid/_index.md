@@ -1,14 +1,14 @@
 ---
 title: Tabloid
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 11 x 17 英寸
+description: 11 x 17 英寸.
 type: docs
 weight: 180
 url: /zh/net/groupdocs.conversion.options.convert/pagesize/tabloid/
 ---
 ## PageSize.Tabloid field
 
-11 x 17 英寸。
+11 x 17 英寸.
 
 ```csharp
 public static readonly PageSize Tabloid;

@@ -3,7 +3,7 @@ title: Dib
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف DIB صورة نقطية مستقلة عن الجهاز هو ملف صورة نقطية مشابه في هيكله لملفات الصور النقطية القياسية BMP ولكن له رأس مختلف. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/dib .
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/dib/
 ---
 ## ImageFileType.Dib field

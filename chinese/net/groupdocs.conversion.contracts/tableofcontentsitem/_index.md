@@ -1,14 +1,14 @@
 ---
 title: TableOfContentsItem
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 包含目录项元数据
+description: 包含目录项 metadata
 type: docs
-weight: 500
+weight: 540
 url: /zh/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class
 
-包含目录项元数据
+包含目录项 metadata
 
 ```csharp
 public class TableOfContentsItem

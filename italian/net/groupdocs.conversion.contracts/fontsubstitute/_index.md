@@ -3,7 +3,7 @@ title: FontSubstitute
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Descrive la sostituzione per il font mancante.
 type: docs
-weight: 220
+weight: 230
 url: /it/net/groupdocs.conversion.contracts/fontsubstitute/
 ---
 ## FontSubstitute class
@@ -28,7 +28,7 @@ public class FontSubstitute : ValueObject
 | static [Create](../../groupdocs.conversion.contracts/fontsubstitute/create)(string, string) | Crea un'istanza di una nuova coppia di sostituzione dei caratteri. |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

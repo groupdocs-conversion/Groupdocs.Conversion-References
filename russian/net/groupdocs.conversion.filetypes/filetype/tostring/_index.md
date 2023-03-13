@@ -3,7 +3,7 @@ title: ToString
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Строковое представление
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/groupdocs.conversion.filetypes/filetype/tostring/
 ---
 ## FileType.ToString method

@@ -1,14 +1,14 @@
 ---
 title: Tga
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .tga uzantılı bir dosya raster grafik formatıdır ve Truevision Inc. tarafından oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/image/tga .
+description: .tga uzantılı bir dosya raster grafik formatıdır ve Truevision Inc. tarafından oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field
 
-.tga uzantılı bir dosya raster grafik formatıdır ve Truevision Inc. tarafından oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/image/tga) .
+.tga uzantılı bir dosya raster grafik formatıdır ve Truevision Inc. tarafından oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/image/tga) .
 
 ```csharp
 public static readonly ImageFileType Tga;

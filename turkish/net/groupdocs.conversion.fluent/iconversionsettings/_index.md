@@ -3,7 +3,7 @@ title: IConversionSettings
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Kurulum dönüştürme ayarları
 type: docs
-weight: 1150
+weight: 1280
 url: /tr/net/groupdocs.conversion.fluent/iconversionsettings/
 ---
 ## IConversionSettings interface

@@ -1,14 +1,14 @@
 ---
 title: Vsdx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione .VSDX rappresentano il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario .VSD supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vsdx .
+description: I file con estensione .VSDX rappresentano il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario .VSD supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vsdx .
 type: docs
 weight: 60
 url: /it/net/groupdocs.conversion.filetypes/diagramfiletype/vsdx/
 ---
 ## DiagramFileType.Vsdx field
 
-I file con estensione .VSDX rappresentano il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario, .VSD, supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vsdx) .
+I file con estensione .VSDX rappresentano il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario, .VSD, supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vsdx) .
 
 ```csharp
 public static readonly DiagramFileType Vsdx;

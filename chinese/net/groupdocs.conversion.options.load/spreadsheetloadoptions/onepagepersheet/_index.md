@@ -1,14 +1,14 @@
 ---
 title: OnePagePerSheet
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果 OnePagePerSheet 为真则工作表的内容将转换为 PDF 文档中的一页默认值为真
+description: 如果 OnePagePerSheet 为真工作表的内容将转换为 PDF 文档中的一页默认值为 true.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet/
 ---
 ## SpreadsheetLoadOptions.OnePagePerSheet property
 
-如果 OnePagePerSheet 为真，则工作表的内容将转换为 PDF 文档中的一页。默认值为真。
+如果 OnePagePerSheet 为真，工作表的内容将转换为 PDF 文档中的一页。默认值为 true.
 
 ```csharp
 public bool OnePagePerSheet { get; set; }

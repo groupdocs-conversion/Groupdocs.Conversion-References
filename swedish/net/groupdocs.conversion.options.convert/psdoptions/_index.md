@@ -3,7 +3,7 @@ title: PsdOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Alternativ för konvertering till Psdfiltyp.
 type: docs
-weight: 1690
+weight: 1870
 url: /sv/net/groupdocs.conversion.options.convert/psdoptions/
 ---
 ## PsdOptions class

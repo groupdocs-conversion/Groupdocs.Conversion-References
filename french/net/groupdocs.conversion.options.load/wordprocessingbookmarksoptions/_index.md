@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de gestion des signets dans WordProcessing
 type: docs
-weight: 2090
+weight: 2350
 url: /fr/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class

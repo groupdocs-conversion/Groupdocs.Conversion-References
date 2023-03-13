@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 Layouter i dokumentet
 
 ```csharp
-public IEnumerable<string> Layouts { get; }
+public IList<string> Layouts { get; }
 ```
 
 ### Se även

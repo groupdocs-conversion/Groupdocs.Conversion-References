@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Beskriver uppräkning av alternativ för txt efterföljande mellanslag.
 type: docs
-weight: 2060
+weight: 2310
 url: /sv/net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

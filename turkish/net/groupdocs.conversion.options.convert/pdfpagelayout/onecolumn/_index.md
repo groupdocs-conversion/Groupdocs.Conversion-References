@@ -1,14 +1,14 @@
 ---
 title: OneColumn
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sayfaları tek bir sütunda görüntüleyin.
+description: Sayfaları bir sütunda görüntüleyin.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagelayout/onecolumn/
 ---
 ## PdfPageLayout.OneColumn field
 
-Sayfaları tek bir sütunda görüntüleyin.
+Sayfaları bir sütunda görüntüleyin.
 
 ```csharp
 public static readonly PdfPageLayout OneColumn;

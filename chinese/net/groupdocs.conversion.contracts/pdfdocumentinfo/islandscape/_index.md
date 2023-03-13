@@ -1,14 +1,14 @@
 ---
 title: IsLandscape
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取页面景观
+description: 获取的是页面美化
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.contracts/pdfdocumentinfo/islandscape/
 ---
 ## PdfDocumentInfo.IsLandscape property
 
-获取页面景观
+获取的是页面美化
 
 ```csharp
 public bool IsLandscape { get; }

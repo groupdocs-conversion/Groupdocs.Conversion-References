@@ -3,7 +3,7 @@ title: IConversionCompleted
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Преобразование дескриптора завершено
 type: docs
-weight: 990
+weight: 1120
 url: /ru/net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | Имя | Описание |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(ConvertedDocumentStream) | Получить преобразованный поток документов. Будет запущено, только если установлено «Сохранить (строка)» или «Сохранить (SaveDocumentStreamForFileType)». |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | Получить преобразованный поток документов. Будет запущено, только если установлено "ConvertTo(string fileName)" или ConvertTo(convertedStreamProvider)". |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: Psb
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Adobe Photoshop sparar filer i två format. Filer med en storlek på 30 000 x 30 000 pixlar sparas med PSDtillägget och filer större än PSD upp till 300 000 x 300 000 pixlar sparas med PSBtillägget som kallas Photoshop Big. Läs mer om detta filformathärhttps//docs.fileformat.com/image/psb .
 type: docs
-weight: 310
+weight: 290
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/psb/
 ---
 ## ImageFileType.Psb field

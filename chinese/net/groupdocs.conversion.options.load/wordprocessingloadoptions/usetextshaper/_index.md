@@ -1,14 +1,14 @@
 ---
 title: UseTextShaper
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 指定是否使用文本整形器以获得更好的字距显示默认为假
+description: 指定是否使用文本整形器以获得更好的字距调整显示默认为 false.
 type: docs
 weight: 150
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper/
 ---
 ## WordProcessingLoadOptions.UseTextShaper property
 
-指定是否使用文本整形器以获得更好的字距显示。默认为假。
+指定是否使用文本整形器以获得更好的字距调整显示。默认为 false.
 
 ```csharp
 public bool UseTextShaper { get; set; }

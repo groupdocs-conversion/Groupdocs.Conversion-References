@@ -3,7 +3,7 @@ title: DiagramFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد وثائق الرسم التخطيطي. يشمل الأنواع التالية Vdw./diagramfiletype/vdw  Vdx./diagramfiletype/vdx  Vsd./diagramfiletype/vsd  Vsdm./diagramfiletype/vsdm  Vsdx./diagramfiletype/vsdx  Vss./diagramfiletype/vss  Vssm./diagramfiletype/vssm  Vssx./diagramfiletype/vssx  Vst./diagramfiletype/vst  Vstm./diagramfiletype/vstm  Vstx./diagramfiletype/vstx  Vsx./diagramfiletype/vsx  Vtx./diagramfiletype/vtx .
 type: docs
-weight: 830
+weight: 900
 url: /ar/net/groupdocs.conversion.filetypes/diagramfiletype/
 ---
 ## DiagramFileType class
@@ -34,7 +34,7 @@ public sealed class DiagramFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

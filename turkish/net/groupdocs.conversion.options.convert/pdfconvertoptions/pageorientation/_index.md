@@ -1,14 +1,14 @@
 ---
 title: PageOrientation
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra istenen sayfa yönlendirmesi
+description: Dönüşümden sonra istenen sayfa yönü
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation/
 ---
 ## PdfConvertOptions.PageOrientation property
 
-Dönüştürmeden sonra istenen sayfa yönlendirmesi
+Dönüşümden sonra istenen sayfa yönü
 
 ```csharp
 public PageOrientation PageOrientation { get; set; }

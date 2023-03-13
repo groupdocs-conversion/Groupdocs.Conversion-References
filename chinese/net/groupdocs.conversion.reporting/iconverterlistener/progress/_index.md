@@ -1,14 +1,14 @@
 ---
 title: Progress
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 每次转换进度改变时都会调用这个方法
+description: 每次转换进度变化时都会调用该方法
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.reporting/iconverterlistener/progress/
 ---
 ## IConverterListener.Progress method
 
-每次转换进度改变时都会调用这个方法
+每次转换进度变化时都会调用该方法。
 
 ```csharp
 public void Progress(byte current)

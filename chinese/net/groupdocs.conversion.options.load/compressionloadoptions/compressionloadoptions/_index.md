@@ -1,14 +1,14 @@
 ---
 title: CompressionLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例CompressionLoadOptionsgroupdocs.conversion.options.load/compressionloadoptions类.
+description: 初始化新实例CompressionLoadOptionsgroupdocs.conversion.options.load/compressionloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/compressionloadoptions/compressionloadoptions/
 ---
 ## CompressionLoadOptions constructor
 
-初始化的新实例[`CompressionLoadOptions`](../../compressionloadoptions)类.
+初始化新实例[`CompressionLoadOptions`](../../compressionloadoptions)类.
 
 ```csharp
 public CompressionLoadOptions()

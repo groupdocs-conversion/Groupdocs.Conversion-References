@@ -1,14 +1,14 @@
 ---
 title: Converter
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diConvertergroupdocs.conversion/converter classe.
+description: Inizializza una nuova istanza diConvertergroupdocs.conversion/converter classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion/converter/converter/
 ---
 ## Converter(Func&lt;Stream&gt;) {#constructor_1}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document)
@@ -26,10 +26,10 @@ public Converter(Func<Stream> document)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -41,7 +41,7 @@ public Converter(Func<Stream> document)
 
 ## Converter(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) {#constructor_2}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document, Func<ConverterSettings> settings)
@@ -54,10 +54,10 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -70,7 +70,7 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 ## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) {#constructor_3}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
@@ -83,10 +83,10 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -99,7 +99,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 ## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_4}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document, Func<LoadOptions> loadOptions, 
@@ -114,10 +114,10 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -131,7 +131,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 
 ## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;) {#constructor_5}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
@@ -140,14 +140,14 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | document | Func`1 | Il metodo che restituisce un flusso leggibile. |
-| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. |
+| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. Il tipo di file di origine |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -161,7 +161,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 
 ## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_6}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions, 
@@ -171,15 +171,15 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | document | Func`1 | Il metodo che restituisce un flusso leggibile. |
-| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. |
+| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. Il tipo di file di origine |
 | settings | Func`1 | Le impostazioni del convertitore. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -194,7 +194,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 
 ## Converter(string) {#constructor_7}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath)
@@ -202,14 +202,14 @@ public Converter(string filePath)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
+| filePath | String | Il percorso del file al documento di origine. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -221,7 +221,7 @@ public Converter(string filePath)
 
 ## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_8}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath, Func<ConverterSettings> settings)
@@ -229,15 +229,15 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
+| filePath | String | Il percorso del file al documento di origine. |
 | settings | Func`1 | Le impostazioni del convertitore. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -250,7 +250,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ## Converter(string, Func&lt;LoadOptions&gt;) {#constructor_9}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath, Func<LoadOptions> loadOptions)
@@ -258,15 +258,15 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
+| filePath | String | Il percorso del file al documento di origine. |
 | loadOptions | Func`1 | I metodi che restituiscono le opzioni di caricamento del documento. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -279,7 +279,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 ## Converter(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_10}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterSettings> settings)
@@ -287,16 +287,16 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
+| filePath | String | Il percorso del file al documento di origine. |
 | loadOptions | Func`1 | I metodi che restituiscono le opzioni di caricamento del documento. |
 | settings | Func`1 | Le impostazioni del convertitore. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -310,7 +310,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 
 ## Converter(string, Func&lt;FileType, LoadOptions&gt;) {#constructor_11}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
@@ -318,15 +318,15 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
-| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. |
+| filePath | String | Il percorso del file al documento di origine. |
+| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. Il tipo di file di origine |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -340,7 +340,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 
 ## Converter(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_12}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe.
 
 ```csharp
 public Converter(string filePath, Func<FileType, LoadOptions> loadOptions, 
@@ -349,16 +349,16 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePath | String | Il percorso del file del documento di origine. |
-| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. |
+| filePath | String | Il percorso del file al documento di origine. |
+| loadOptions | Func`2 | I metodi che restituiscono le opzioni di caricamento del documento. Il tipo di file di origine |
 | settings | Func`1 | Le impostazioni del convertitore. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come caricare e convertire documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da diverse fonti](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
-* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Carica le opzioni per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+* Ulteriori informazioni su come caricare e convertire i documenti archiviati su FTP, Amazon S3 Storage, Windows Azure o qualsiasi altro storage di terze parti: [Caricamento di documenti da fonti diverse](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* Ulteriori informazioni sulle opzioni di caricamento dei documenti in base al tipo di file: [Opzioni di caricamento per diversi tipi di documenti](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
 
 ### Guarda anche
 
@@ -373,7 +373,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 
 ## Converter() {#constructor}
 
-Inizializza la nuova istanza di[`Converter`](../../converter) classe per l'impostazione della conversione fluente.
+Inizializza una nuova istanza di[`Converter`](../../converter) classe per l'impostazione della conversione fluente.
 
 ```csharp
 public Converter()

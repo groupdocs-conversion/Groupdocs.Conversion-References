@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de chargement des documents de traitement de texte.
 type: docs
-weight: 2100
+weight: 2360
 url: /fr/net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

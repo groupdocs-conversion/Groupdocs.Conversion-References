@@ -3,7 +3,7 @@ title: Odt
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы ODT представляют собой тип документов созданных с помощью приложений для обработки текстов основанных на формате текстового файла OpenDocument. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 120
+weight: 90
 url: /ru/net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/
 ---
 ## WordProcessingFileType.Odt field

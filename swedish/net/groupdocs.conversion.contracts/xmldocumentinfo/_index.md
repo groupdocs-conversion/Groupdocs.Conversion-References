@@ -3,7 +3,7 @@ title: XmlDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller XMLdokumentmetadata
 type: docs
-weight: 610
+weight: 670
 url: /sv/net/groupdocs.conversion.contracts/xmldocumentinfo/
 ---
 ## XmlDocumentInfo class

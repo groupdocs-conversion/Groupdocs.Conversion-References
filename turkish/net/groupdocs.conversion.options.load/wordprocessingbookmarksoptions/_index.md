@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: WordProcessing de yer imlerini işlemek için seçenekler
 type: docs
-weight: 2090
+weight: 2350
 url: /tr/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class
@@ -25,7 +25,7 @@ public class WordProcessingBookmarksOptions : ValueObject
 | İsim | Tanım |
 | --- | --- |
 | [BookmarksOutlineLevel](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/bookmarksoutlinelevel) { get; set; } | Belge ana hatlarında Word yer imlerinin görüntüleneceği varsayılan düzeyi belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. |
-| [ExpandedOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expandedoutlinelevels) { get; set; } | Dosya görüntülendiğinde genişletilmiş belge anahattında kaç düzeyin gösterileceğini belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. Bu seçeneklerin XPS'e kaydederken çalışmayacağını unutmayın. |
+| [ExpandedOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expandedoutlinelevels) { get; set; } | Dosya görüntülendiğinde belge taslağında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. XPS. 'ye kaydederken bu seçeneklerin çalışmayacağını unutmayın. |
 | [HeadingsOutlineLevels](../../groupdocs.conversion.options.load/wordprocessingbookmarksoptions/headingsoutlinelevels) { get; set; } | Belge taslağına kaç düzeyde başlık (Başlık stilleriyle biçimlendirilmiş paragraflar) dahil edileceğini belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. |
 
 ## yöntemler

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例WordProcessingConvertOptionsgroupdocs.conversion.options.convert/wordprocessingconvertoptions类.
+description: 初始化新实例WordProcessingConvertOptionsgroupdocs.conversion.options.convert/wordprocessingconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions constructor
 
-初始化的新实例[`WordProcessingConvertOptions`](../../wordprocessingconvertoptions)类.
+初始化新实例[`WordProcessingConvertOptions`](../../wordprocessingconvertoptions)类.
 
 ```csharp
 public WordProcessingConvertOptions()

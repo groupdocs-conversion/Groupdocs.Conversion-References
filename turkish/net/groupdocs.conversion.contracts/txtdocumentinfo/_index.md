@@ -3,7 +3,7 @@ title: TxtDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Metin belgesi meta verilerini içerir
 type: docs
-weight: 560
+weight: 600
 url: /tr/net/groupdocs.conversion.contracts/txtdocumentinfo/
 ---
 ## TxtDocumentInfo class
@@ -24,9 +24,9 @@ public class TxtDocumentInfo : WordProcessingDocumentInfo
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/ispasswordprotected) { get; } | Belge parola korumalı alır |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | key olarak sağlanan bir özellik için değer alın |
 | [Lines](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines) { get; } | Satır sayısını alır |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfaları sayısı. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin numaralandırılabilir info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | bytes olarak belge boyutu |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Belge sayfa sayısı. |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Geçerli belge için alınabilecek tüm özelliklerin sıralanabilirliği info |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 | [TableOfContents](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/tableofcontents) { get; } | İçindekiler tablosu |
 | [Title](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/title) { get; } | Title alır |
 | [Words](../../groupdocs.conversion.contracts/wordprocessingdocumentinfo/words) { get; } | Sözcük sayısını alır |

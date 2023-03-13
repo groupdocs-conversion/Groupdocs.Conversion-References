@@ -3,7 +3,7 @@ title: PdfPageLayout
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Beschreibt das PdfSeitenlayout.
 type: docs
-weight: 1620
+weight: 1800
 url: /de/net/groupdocs.conversion.options.convert/pdfpagelayout/
 ---
 ## PdfPageLayout class

@@ -3,7 +3,7 @@ title: IConversionByPageCompleted
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: İşleme dönüştürme sayfası tamamlandı
 type: docs
-weight: 970
+weight: 1100
 url: /tr/net/groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---
 ## IConversionByPageCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | İsim | Tanım |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(ConvertedPageStream) | Dönüştürülen sayfa akışını alın. Yalnızca "Save(SaveDocumentStreamForFileType)" ayarlandıysa tetiklenir. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;int, Stream, string&gt;) | Dönüştürülen sayfa akışını alın. Yalnızca "ConvertTo(convertedStreamProvider)" ayarlandıysa tetiklenir. |
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: Linearize
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Linealiza documentos PDF para la Web
 type: docs
-weight: 40
+weight: 50
 url: /es/net/groupdocs.conversion.options.convert/pdfoptions/linearize/
 ---
 ## PdfOptions.Linearize property

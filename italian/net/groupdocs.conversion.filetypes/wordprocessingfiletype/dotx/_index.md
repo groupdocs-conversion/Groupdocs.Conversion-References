@@ -1,14 +1,14 @@
 ---
 title: Dotx
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: I file con estensione DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/dotx .
+description: I file con estensione DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 80
+weight: 70
 url: /it/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/
 ---
 ## WordProcessingFileType.Dotx field
 
-I file con estensione DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/dotx) .
+I file con estensione DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/dotx) .
 
 ```csharp
 public static readonly WordProcessingFileType Dotx;

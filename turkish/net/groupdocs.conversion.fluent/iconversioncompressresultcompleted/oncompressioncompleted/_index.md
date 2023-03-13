@@ -11,12 +11,12 @@ url: /tr/net/groupdocs.conversion.fluent/iconversioncompressresultcompleted/onco
 Sıkıştırılmış belge akışını alın. Yalnızca Compression(CompressionConvertOptions options)" ayarlanırsa tetiklenir.
 
 ```csharp
-public IConversionConvert OnCompressionCompleted(CompressedDocumentStream compressedDocumentStream)
+public IConversionConvert OnCompressionCompleted(Action<Stream> compressedDocumentStream)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| compressedDocumentStream | CompressedDocumentStream | Sıkıştırılmış belge akışı sağlayıcısı |
+| compressedDocumentStream | Action`1 | Sıkıştırılmış belge akışı sağlayıcısı |
 
 ### Geri dönüş değeri
 
@@ -25,7 +25,6 @@ Dönüşüm oluşturmaya devam etmek için arayüz
 ### Ayrıca bakınız
 
 * interface [IConversionConvert](../../iconversionconvert)
-* delegate [CompressedDocumentStream](../../../groupdocs.conversion.contracts/compresseddocumentstream)
 * interface [IConversionCompressResultCompleted](../../iconversioncompressresultcompleted)
 * ad alanı [GroupDocs.Conversion.Fluent](../../iconversioncompressresultcompleted)
 * toplantı [GroupDocs.Conversion](../../../)

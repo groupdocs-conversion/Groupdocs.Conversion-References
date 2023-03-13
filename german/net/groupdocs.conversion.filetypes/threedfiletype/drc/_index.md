@@ -1,14 +1,14 @@
 ---
 title: Drc
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung .drc ist ein komprimiertes 3DDateiformat das mit der Google DracoBibliothek erstellt wurde. Google bietet Draco als OpenSourceBibliothek zum Komprimieren und Dekomprimieren von geometrischen 3DNetzen und Punktwolken an und verbessert die Speicherung und Übertragung von 3DGrafiken. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/3d/drc .
+description: Eine Datei mit der Erweiterung .drc ist ein komprimiertes 3DDateiformat das mit der Google DracoBibliothek erstellt wurde. Google bietet Draco als OpenSourceBibliothek zum Komprimieren und Dekomprimieren von geometrischen 3DNetzen und Punktwolken an und verbessert die Speicherung und Übertragung von 3DGrafiken. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/3d/drc .
 type: docs
 weight: 50
 url: /de/net/groupdocs.conversion.filetypes/threedfiletype/drc/
 ---
 ## ThreeDFileType.Drc field
 
-Eine Datei mit der Erweiterung .drc ist ein komprimiertes 3D-Dateiformat, das mit der Google Draco-Bibliothek erstellt wurde. Google bietet Draco als Open-Source-Bibliothek zum Komprimieren und Dekomprimieren von geometrischen 3D-Netzen und Punktwolken an und verbessert die Speicherung und Übertragung von 3D-Grafiken. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/3d/drc) .
+Eine Datei mit der Erweiterung .drc ist ein komprimiertes 3D-Dateiformat, das mit der Google Draco-Bibliothek erstellt wurde. Google bietet Draco als Open-Source-Bibliothek zum Komprimieren und Dekomprimieren von geometrischen 3D-Netzen und Punktwolken an und verbessert die Speicherung und Übertragung von 3D-Grafiken. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/3d/drc) .
 
 ```csharp
 public static readonly ThreeDFileType Drc;

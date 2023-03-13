@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Classe opzioni di caricamento documento astratto.
 type: docs
-weight: 1930
+weight: 2160
 url: /it/net/groupdocs.conversion.options.load/loadoptions/
 ---
 ## LoadOptions class
@@ -26,7 +26,7 @@ public abstract class LoadOptions : ValueObject
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

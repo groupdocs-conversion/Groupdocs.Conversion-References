@@ -3,7 +3,7 @@ title: Wmz
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: ملف WMZ هو في الواقع نسخة مضغوطة من ملف Microsoft WMF. هذا يسمح لتوزيع الملف بسهولة عبر الإنترنت. عندما يتم ضغط ملف EWMFMF باستخدام خوارزمية الضغط .GZIP  يتم منحه امتداد الملف .wmz.
 type: docs
-weight: 400
+weight: 370
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

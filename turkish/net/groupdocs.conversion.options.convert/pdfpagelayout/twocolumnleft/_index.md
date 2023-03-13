@@ -1,14 +1,14 @@
 ---
 title: TwoColumnLeft
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sayfaları solda tek sayılı sayfalar olacak şekilde iki sütun halinde görüntüleyin.
+description: Solda tek sayılı sayfalar olacak şekilde sayfaları iki sütun halinde görüntüleyin.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagelayout/twocolumnleft/
 ---
 ## PdfPageLayout.TwoColumnLeft field
 
-Sayfaları, solda tek sayılı sayfalar olacak şekilde iki sütun halinde görüntüleyin.
+Solda tek sayılı sayfalar olacak şekilde sayfaları iki sütun halinde görüntüleyin.
 
 ```csharp
 public static readonly PdfPageLayout TwoColumnLeft;

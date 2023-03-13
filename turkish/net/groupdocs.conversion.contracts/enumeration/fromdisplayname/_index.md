@@ -1,14 +1,14 @@
 ---
 title: FromDisplayName
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Nesneyi görünen ada göre döndürür.
+description: Görünen ada göre nesneyi döndürür.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.conversion.contracts/enumeration/fromdisplayname/
 ---
 ## Enumeration.FromDisplayName&lt;T&gt; method
 
-Nesneyi görünen ada göre döndürür.
+Görünen ada göre nesneyi döndürür.
 
 ```csharp
 public static T FromDisplayName<T>(string displayName)

@@ -1,14 +1,14 @@
 ---
 title: Dpi
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra istenen sayfa DPI. Varsayılan çözünürlük 96 dpi.
+description: Dönüştürmeden sonra istenen sayfa DPIsı. Varsayılan çözünürlük 96 dpi.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi/
 ---
 ## WordProcessingConvertOptions.Dpi property
 
-Dönüştürmeden sonra istenen sayfa DPI. Varsayılan çözünürlük: 96 dpi.
+Dönüştürmeden sonra istenen sayfa DPI'sı. Varsayılan çözünürlük: 96 dpi.
 
 ```csharp
 public double Dpi { get; set; }

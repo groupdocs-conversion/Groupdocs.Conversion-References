@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Sunum dosya türüne dönüştürme seçeneklerini açıklar.
 type: docs
-weight: 1650
+weight: 1830
 url: /tr/net/groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 ## PresentationConvertOptions class

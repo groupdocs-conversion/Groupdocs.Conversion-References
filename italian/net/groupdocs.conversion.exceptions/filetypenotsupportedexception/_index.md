@@ -3,7 +3,7 @@ title: FileTypeNotSupportedException
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Eccezione GroupDocs generata quando il tipo di file non è supportato
 type: docs
-weight: 710
+weight: 770
 url: /it/net/groupdocs.conversion.exceptions/filetypenotsupportedexception/
 ---
 ## FileTypeNotSupportedException class

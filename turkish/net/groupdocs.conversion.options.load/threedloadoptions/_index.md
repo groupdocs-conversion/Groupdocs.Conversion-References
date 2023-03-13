@@ -3,7 +3,7 @@ title: ThreeDLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: 3B belgeleri yükleme seçenekleri.
 type: docs
-weight: 2020
+weight: 2270
 url: /tr/net/groupdocs.conversion.options.load/threedloadoptions/
 ---
 ## ThreeDLoadOptions class

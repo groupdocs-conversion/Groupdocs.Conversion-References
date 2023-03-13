@@ -11,7 +11,7 @@ url: /it/net/groupdocs.conversion.contracts/idocumentinfo/item/
 Ottieni il valore per una proprietà fornita come chiave
 
 ```csharp
-public string this[string propertyName] { get; }
+public object this[string propertyName] { get; }
 ```
 
 | Parametro | Descrizione |

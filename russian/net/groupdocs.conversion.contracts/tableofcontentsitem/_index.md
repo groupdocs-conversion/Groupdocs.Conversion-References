@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Содержит метаданные элемента оглавления
 type: docs
-weight: 500
+weight: 540
 url: /ru/net/groupdocs.conversion.contracts/tableofcontentsitem/
 ---
 ## TableOfContentsItem class

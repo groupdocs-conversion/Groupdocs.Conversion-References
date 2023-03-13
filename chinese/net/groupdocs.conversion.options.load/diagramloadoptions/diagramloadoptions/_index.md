@@ -1,14 +1,14 @@
 ---
 title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例DiagramLoadOptionsgroupdocs.conversion.options.load/diagramloadoptions类.
+description: 初始化新实例DiagramLoadOptionsgroupdocs.conversion.options.load/diagramloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/diagramloadoptions/diagramloadoptions/
 ---
 ## DiagramLoadOptions constructor
 
-初始化的新实例[`DiagramLoadOptions`](../../diagramloadoptions)类.
+初始化新实例[`DiagramLoadOptions`](../../diagramloadoptions)类.
 
 ```csharp
 public DiagramLoadOptions()

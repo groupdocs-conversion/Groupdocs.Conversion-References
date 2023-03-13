@@ -1,14 +1,14 @@
 ---
 title: Emf
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 增强的元文件格式 EMF 独立于设备存储图形图像 EMF 的元文件由按时间顺序排列的可变长度记录组成可以在任何输出设备上解析后呈现存储的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/emf
+description: 增强型图元文件格式 EMF 独立于设备存储图形图像 EMF 图元文件由按时间顺序排列的可变长度记录组成可以在任何输出设备上解析后呈现存储的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/emf
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field
 
-增强的元文件格式 (EMF) 独立于设备存储图形图像。 EMF 的元文件由按时间顺序排列的可变长度记录组成，可以在任何输出设备上解析后呈现存储的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/emf)
+增强型图元文件格式 (EMF) 独立于设备存储图形图像。 EMF 图元文件由按时间顺序排列的可变长度记录组成，可以在任何输出设备上解析后呈现存储的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/emf)
 
 ```csharp
 public static readonly ImageFileType Emf;

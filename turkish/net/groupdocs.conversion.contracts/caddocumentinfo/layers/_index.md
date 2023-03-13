@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Belgedeki katmanlar
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Ayrıca bakınız

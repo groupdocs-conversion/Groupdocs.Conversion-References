@@ -3,7 +3,7 @@ title: Emf
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يخزن تنسيق ملف التعريف المحسن EMF الصور الرسومية بشكل مستقل عن الجهاز. تتكون ملفات تعريف EMF من سجلات متغيرة الطول بترتيب زمني يمكن أن تعرض الصورة المخزنة بعد التحليل على أي جهاز إخراج . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/groupdocs.conversion.filetypes/imagefiletype/emf/
 ---
 ## ImageFileType.Emf field

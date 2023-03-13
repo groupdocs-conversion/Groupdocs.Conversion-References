@@ -1,14 +1,14 @@
 ---
 title: Lzma
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: .lzma uzantılı bir dosya LZMA LempelZivMarkov zincir Algoritması sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Bunlar çoğunlukla Unix işletim sisteminde bulunur/kullanılır ve dosya boyutunu en aza indirmek için ZIP gibi diğer sıkıştırma algoritmalarına benzer. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/lzma/ .
+description: .lzma uzantılı bir dosya LZMA LempelZivMarkov zincir Algoritması sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Bunlar çoğunlukla Unix işletim sisteminde bulunur/kullanılır ve dosya boyutunu en aza indirmek için ZIP gibi diğer sıkıştırma algoritmalarına benzer. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/lzma/ .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
 ---
 ## CompressionFileType.Lzma field
 
-.lzma uzantılı bir dosya, LZMA (Lempel-Ziv-Markov zincir Algoritması) sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Bunlar çoğunlukla Unix işletim sisteminde bulunur/kullanılır ve dosya boyutunu en aza indirmek için ZIP gibi diğer sıkıştırma algoritmalarına benzer. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/lzma/) .
+.lzma uzantılı bir dosya, LZMA (Lempel-Ziv-Markov zincir Algoritması) sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış bir arşiv dosyasıdır. Bunlar çoğunlukla Unix işletim sisteminde bulunur/kullanılır ve dosya boyutunu en aza indirmek için ZIP gibi diğer sıkıştırma algoritmalarına benzer. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/lzma/) .
 
 ```csharp
 public static readonly CompressionFileType Lzma;

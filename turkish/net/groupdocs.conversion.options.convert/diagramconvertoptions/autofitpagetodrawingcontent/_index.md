@@ -1,14 +1,14 @@
 ---
 title: AutoFitPageToDrawingContent
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sayfayı çizim içeriğine sığdırmak için büyütmenin gerekip gerekmediğini tanımlar
+description: Çizim içeriğine sığması için sayfanın büyütülmesi gerekip gerekmediğini tanımlar
 type: docs
 weight: 20
 url: /tr/net/groupdocs.conversion.options.convert/diagramconvertoptions/autofitpagetodrawingcontent/
 ---
 ## DiagramConvertOptions.AutoFitPageToDrawingContent property
 
-Sayfayı çizim içeriğine sığdırmak için büyütmenin gerekip gerekmediğini tanımlar
+Çizim içeriğine sığması için sayfanın büyütülmesi gerekip gerekmediğini tanımlar
 
 ```csharp
 public bool AutoFitPageToDrawingContent { get; set; }

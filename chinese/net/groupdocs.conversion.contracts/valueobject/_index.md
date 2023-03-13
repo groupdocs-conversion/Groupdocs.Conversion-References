@@ -3,7 +3,7 @@ title: ValueObject
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 抽象值对象类.
 type: docs
-weight: 570
+weight: 610
 url: /zh/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class
@@ -18,10 +18,10 @@ public abstract class ValueObject : IEquatable<ValueObject>
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals_1)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
-| [operator ==](../../groupdocs.conversion.contracts/valueobject/op_equality) | 等式运算符。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals_1)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
+| [operator ==](../../groupdocs.conversion.contracts/valueobject/op_equality) | 相等运算符. |
 | [operator !=](../../groupdocs.conversion.contracts/valueobject/op_inequality) | 不等式运算符. |
 
 ### 也可以看看

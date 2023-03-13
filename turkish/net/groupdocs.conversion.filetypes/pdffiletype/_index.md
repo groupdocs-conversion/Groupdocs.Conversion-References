@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdf belgelerini tanımlar. Aşağıdaki dosya türlerini içerir Epub./pdffiletype/epub  Pdf./pdffiletype/pdf  Xps./pdffiletype/xps .
+description: Pdf belgelerini tanımlar. Aşağıdaki dosya türlerini içerir Epub  Pdf./pdffiletype/pdf  Xps .
 type: docs
-weight: 890
+weight: 1000
 url: /tr/net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-Pdf belgelerini tanımlar. Aşağıdaki dosya türlerini içerir: [`Epub`](./epub) , [`Pdf`](./pdf) , [`Xps`](./xps) .
+Pdf belgelerini tanımlar. Aşağıdaki dosya türlerini içerir: Epub , [`Pdf`](./pdf) , Xps .
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -18,7 +18,7 @@ public sealed class PdfFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfFileType](pdffiletype)() | Serileştirme yapıcısı |
+| [PdfFileType](pdffiletype)() | Serileştirme oluşturucu |
 
 ## Özellikleri
 
@@ -34,7 +34,7 @@ public sealed class PdfFileType : FileType
 | İsim | Tanım |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Geçerli nesneyi diğeriyle karşılaştırır. |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | İki nesne örneğinin eşit olup olmadığını belirler. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Varsayılan hash işlevi olarak işlev görür. |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | Dizi gösterimi |
@@ -43,13 +43,7 @@ public sealed class PdfFileType : FileType
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [Epub](../../groupdocs.conversion.filetypes/pdffiletype/epub) | EPUB uzantısı, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Format şimdiye kadar o kadar yaygın hale geldi ki birçok e-okuyucu ve yazılım uygulaması tarafından destekleniyor. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/ebook/epub) . |
-| static readonly [Oxps](../../groupdocs.conversion.filetypes/pdffiletype/oxps) | Oxps belge formatı |
-| static readonly [Pcl](../../groupdocs.conversion.filetypes/pdffiletype/pcl) | PCL, Hewlett Packard (HP) tarafından sunulan bir Sayfa Açıklama Dili olan Yazıcı Komut Dili anlamına gelir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/pcl) . |
-| static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | Taşınabilir Belge Biçimi (PDF), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya biçiminin amacı, belgelerin ve diğer başvuru malzemelerinin uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir biçimde temsil edilmesi için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/view/pdf) . |
-| static readonly [Ps](../../groupdocs.conversion.filetypes/pdffiletype/ps) | PostScript (PS), masaüstü ve elektronik yayıncılık işinde kullanılan genel amaçlı bir sayfa tanımlama dilidir. PostScript'in (PS) ana odak noktası, iki boyutlu grafik tasarımı kolaylaştırmaktır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/ps) . |
-| static readonly [Tex](../../groupdocs.conversion.filetypes/pdffiletype/tex) | TeX, belgeleri dizmek için kullanılan programlama ve biçimlendirme özelliklerinden oluşan bir dildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/tex) . |
-| static readonly [Xps](../../groupdocs.conversion.filetypes/pdffiletype/xps) | Bir XPS dosyası, Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. Bu biçim, EMF dosya biçiminin yerine Microsoft tarafından geliştirilmiştir ve PDF dosya biçimine benzer, ancak bir belgenin düzeni, görünümü ve yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/xps) . |
+| static readonly [Pdf](../../groupdocs.conversion.filetypes/pdffiletype/pdf) | Taşınabilir Belge Biçimi (PDF), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya formatının amacı, uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir formatta belgelerin ve diğer referans materyallerinin temsili için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/view/pdf) . |
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: WatermarkImageOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para configurar la marca de agua en el documento convertido
 type: docs
-weight: 1770
+weight: 1950
 url: /es/net/groupdocs.conversion.options.convert/watermarkimageoptions/
 ---
 ## WatermarkImageOptions class

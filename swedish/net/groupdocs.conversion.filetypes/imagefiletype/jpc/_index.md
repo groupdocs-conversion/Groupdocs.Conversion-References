@@ -3,7 +3,7 @@ title: Jpc
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Jpcdokumentformat
 type: docs
-weight: 220
+weight: 200
 url: /sv/net/groupdocs.conversion.filetypes/imagefiletype/jpc/
 ---
 ## ImageFileType.Jpc field

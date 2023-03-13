@@ -1,14 +1,14 @@
 ---
 title: MboxLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 用于加载 Mbox 文档的选项
+description: 加载 Mbox 文档的选项
 type: docs
-weight: 1950
+weight: 2180
 url: /zh/net/groupdocs.conversion.options.load/mboxloadoptions/
 ---
 ## MboxLoadOptions class
 
-用于加载 Mbox 文档的选项。
+加载 Mbox 文档的选项。
 
 ```csharp
 public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
@@ -18,7 +18,7 @@ public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MboxLoadOptions](mboxloadoptions)() | 初始化的新实例[`MboxLoadOptions`](../mboxloadoptions)类. |
+| [MboxLoadOptions](mboxloadoptions)() | 初始化新实例[`MboxLoadOptions`](../mboxloadoptions)类. |
 
 ## 特性
 
@@ -27,16 +27,16 @@ public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [ConvertOwned](../../groupdocs.conversion.options.load/mboxloadoptions/convertowned) { get; } | 控制文档容器中拥有的文档是否必须转换的选项 |
 | [ConvertOwner](../../groupdocs.conversion.options.load/mboxloadoptions/convertowner) { get; } | 控制文档容器本身是否必须转换的选项 如果此属性为真，文档容器将是第一个转换的文档 |
 | [Depth](../../groupdocs.conversion.options.load/mboxloadoptions/depth) { get; set; } | 控制执行转换的深度级别的选项 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../groupdocs.conversion.options.load/mboxloadoptions/clone)() | 克隆当前实例。 |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

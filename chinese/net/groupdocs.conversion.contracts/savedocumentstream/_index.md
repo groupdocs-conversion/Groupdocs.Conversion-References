@@ -3,7 +3,7 @@ title: SaveDocumentStream
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 描述将转换后的文档保存到流中的委托
 type: docs
-weight: 430
+weight: 470
 url: /zh/net/groupdocs.conversion.contracts/savedocumentstream/
 ---
 ## SaveDocumentStream delegate
@@ -16,7 +16,7 @@ public delegate Stream SaveDocumentStream();
 
 ### 返回值
 
-必须返回将保存转换后的文档的流
+必须返回将保存转换文档的流
 
 ### 也可以看看
 

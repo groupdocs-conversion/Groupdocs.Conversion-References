@@ -3,7 +3,7 @@ title: GzipDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller Gzipdokumentmetadata
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/groupdocs.conversion.contracts/gzipdocumentinfo/
 ---
 ## GzipDocumentInfo class

@@ -1,14 +1,14 @@
 ---
 title: RecognizedImage
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 表示文本作为识别过程的结果从图像中提取
+description: 表示文本作为其识别过程的结果从图像中提取
 type: docs
-weight: 1210
+weight: 1340
 url: /zh/net/groupdocs.conversion.integration.ocr/recognizedimage/
 ---
 ## RecognizedImage class
 
-表示文本，作为识别过程的结果从图像中提取。
+表示文本，作为其识别过程的结果从图像中提取。
 
 ```csharp
 public class RecognizedImage
@@ -18,20 +18,20 @@ public class RecognizedImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecognizedImage](recognizedimage)(IEnumerable&lt;TextLine&gt;) | 使用一组已识别的行初始化类的新实例。 |
+| [RecognizedImage](recognizedimage)(IEnumerable&lt;TextLine&gt;) | 使用一组可识别的行初始化该类的新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Lines](../../groupdocs.conversion.integration.ocr/recognizedimage/lines) { get; } | 获取在文档中识别的文本行及其片段。 |
-| [Text](../../groupdocs.conversion.integration.ocr/recognizedimage/text) { get; } | 获取结构化文本的等效文本 |
+| [Text](../../groupdocs.conversion.integration.ocr/recognizedimage/text) { get; } | 获取结构化文本 的文本等价物 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Empty](../../groupdocs.conversion.integration.ocr/recognizedimage/empty) | 空识别图像 |
+| static readonly [Empty](../../groupdocs.conversion.integration.ocr/recognizedimage/empty) | 清空识别图像 |
 
 ### 也可以看看
 

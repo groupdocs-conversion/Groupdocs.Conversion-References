@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options de conversion en type de fichier image.
 type: docs
-weight: 1470
+weight: 1630
 url: /fr/net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -41,7 +41,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Options de conversion spécifiques à Psd. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Angle de rotation de l'image. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Options de conversion spécifiques à Tiff. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Si`vrai` l'entrée est d'abord convertie en PDF et ensuite au format souhaité. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | Si`vrai` , l'entrée est d'abord convertie en PDF et ensuite au format souhaité. |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Résolution verticale de l'image souhaitée après conversion. La résolution par défaut est la résolution du fichier d'entrée soit 96 dpi. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Options spécifiques au filigrane |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Options de conversion spécifiques à Webp. |

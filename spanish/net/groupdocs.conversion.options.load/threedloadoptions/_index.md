@@ -3,7 +3,7 @@ title: ThreeDLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos 3D.
 type: docs
-weight: 2020
+weight: 2270
 url: /es/net/groupdocs.conversion.options.load/threedloadoptions/
 ---
 ## ThreeDLoadOptions class

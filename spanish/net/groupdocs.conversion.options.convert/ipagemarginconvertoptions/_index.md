@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Representa opciones de conversión que admiten márgenes de página
 type: docs
-weight: 1400
+weight: 1560
 url: /es/net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 ## IPageMarginConvertOptions interface

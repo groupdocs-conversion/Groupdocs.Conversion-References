@@ -1,14 +1,14 @@
 ---
 title: Pptx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 带有 PPTX 扩展名的文件是使用流行的 Microsoft PowerPoint 应用程序创建的演示文件与以前版本的二进制演示文件格式 PPT 不同PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptx
+description: 带有 PPTX 扩展名的文件是使用流行的 Microsoft PowerPoint 应用程序创建的演示文稿文件与以前版本的二进制演示文稿文件格式 PPT 不同PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文稿文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptx
 type: docs
 weight: 130
 url: /zh/net/groupdocs.conversion.filetypes/presentationfiletype/pptx/
 ---
 ## PresentationFileType.Pptx field
 
-带有 PPTX 扩展名的文件是使用流行的 Microsoft PowerPoint 应用程序创建的演示文件。与以前版本的二进制演示文件格式 PPT 不同，PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pptx)
+带有 PPTX 扩展名的文件是使用流行的 Microsoft PowerPoint 应用程序创建的演示文稿文件。与以前版本的二进制演示文稿文件格式 PPT 不同，PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文稿文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pptx)
 
 ```csharp
 public static readonly PresentationFileType Pptx;

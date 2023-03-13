@@ -3,7 +3,7 @@ title: Dot
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Filer med filtillägget .DOT är mallfiler skapade av Microsoft Word för att ha förformaterade inställningar för generering av ytterligare DOC eller DOCXfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/
 ---
 ## WordProcessingFileType.Dot field

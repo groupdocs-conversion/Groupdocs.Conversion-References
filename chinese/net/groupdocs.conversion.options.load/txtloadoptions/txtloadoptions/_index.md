@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例TxtLoadOptionsgroupdocs.conversion.options.load/txtloadoptions类.
+description: 初始化新实例TxtLoadOptionsgroupdocs.conversion.options.load/txtloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/txtloadoptions/txtloadoptions/
 ---
 ## TxtLoadOptions constructor
 
-初始化的新实例[`TxtLoadOptions`](../../txtloadoptions)类.
+初始化新实例[`TxtLoadOptions`](../../txtloadoptions)类.
 
 ```csharp
 public TxtLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: CsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例CsvLoadOptionsgroupdocs.conversion.options.load/csvloadoptions类.
+description: 初始化新实例CsvLoadOptionsgroupdocs.conversion.options.load/csvloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/csvloadoptions/csvloadoptions/
 ---
 ## CsvLoadOptions constructor
 
-初始化的新实例[`CsvLoadOptions`](../../csvloadoptions)类.
+初始化新实例[`CsvLoadOptions`](../../csvloadoptions)类.
 
 ```csharp
 public CsvLoadOptions()

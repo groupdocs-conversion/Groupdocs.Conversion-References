@@ -21,7 +21,7 @@ public static bool operator ==(ValueObject a, ValueObject b)
 
 ### Rückgabewert
 
-`Stimmt` wenn Objekte gleich sind
+`WAHR` wenn Objekte gleich sind
 
 ### Siehe auch
 

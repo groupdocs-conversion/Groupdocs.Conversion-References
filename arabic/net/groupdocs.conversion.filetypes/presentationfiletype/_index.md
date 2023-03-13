@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحدد تنسيقات ملفات العرض التقديمي التي تخزن مجموعة من السجلات لتلائم بيانات العرض التقديمي مثل الشرائح والأشكال والنص والرسوم المتحركة والفيديو والصوت والكائنات المضمنة. يتضمن أنواع الملفات التالية Odp./presentationfiletype/odp  Otp./presentationfiletype/otp  Pot./presentationfiletype/pot  Potm./presentationfiletype/potm  Potx./presentationfiletype/potx  Pps./presentationfiletype/pps  Ppsm./presentationfiletype/ppsm  Ppsx./presentationfiletype/ppsx  Ppt./presentationfiletype/ppt  Pptm./presentationfiletype/pptm  Pptx./presentationfiletype/pptx . تعرف على المزيد حول تنسيقات العروض التقديميةهناhttps//wiki.fileformat.com/presentation .
 type: docs
-weight: 910
+weight: 1020
 url: /ar/net/groupdocs.conversion.filetypes/presentationfiletype/
 ---
 ## PresentationFileType class
@@ -34,7 +34,7 @@ public sealed class PresentationFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

@@ -1,14 +1,14 @@
 ---
 title: Cpio
 second_title: GroupDocs.Conversion for .NET API 参考
-description: Cpio 是一个通用文件归档实用程序及其相关文件格式它主要安装在类 Unix 计算机操作系统上
+description: Cpio 是一个通用的文件归档实用程序及其相关文件格式它主要安装在类 Unix 计算机操作系统上
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.filetypes/compressionfiletype/cpio/
 ---
 ## CompressionFileType.Cpio field
 
-Cpio 是一个通用文件归档实用程序及其相关文件格式。它主要安装在类 Unix 计算机操作系统上。
+Cpio 是一个通用的文件归档实用程序及其相关文件格式。它主要安装在类 Unix 计算机操作系统上。
 
 ```csharp
 public static readonly CompressionFileType Cpio;

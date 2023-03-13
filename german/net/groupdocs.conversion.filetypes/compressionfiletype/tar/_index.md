@@ -1,14 +1,14 @@
 ---
 title: Tar
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .tar sind Archive die mit einem Unixbasierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Mehrere Dateien werden in einem unkomprimierten Format gespeichert wobei das Hinzufügen von Dateien und Ordnern zum Archiv unterstützt wird. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/compression/tar/ .
+description: Dateien mit der Erweiterung .tar sind Archive die mit einem Unixbasierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Mehrere Dateien werden in einem unkomprimierten Format gespeichert wobei das Hinzufügen von Dateien und Ordnern zum Archiv unterstützt wird. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/compression/tar/ .
 type: docs
 weight: 110
 url: /de/net/groupdocs.conversion.filetypes/compressionfiletype/tar/
 ---
 ## CompressionFileType.Tar field
 
-Dateien mit der Erweiterung .tar sind Archive, die mit einem Unix-basierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Mehrere Dateien werden in einem unkomprimierten Format gespeichert, wobei das Hinzufügen von Dateien und Ordnern zum Archiv unterstützt wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/compression/tar/) .
+Dateien mit der Erweiterung .tar sind Archive, die mit einem Unix-basierten Dienstprogramm zum Sammeln einer oder mehrerer Dateien erstellt wurden. Mehrere Dateien werden in einem unkomprimierten Format gespeichert, wobei das Hinzufügen von Dateien und Ordnern zum Archiv unterstützt wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/compression/tar/) .
 
 ```csharp
 public static readonly CompressionFileType Tar;

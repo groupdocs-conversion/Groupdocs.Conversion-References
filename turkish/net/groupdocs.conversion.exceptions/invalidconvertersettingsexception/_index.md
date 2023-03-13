@@ -1,14 +1,14 @@
 ---
 title: InvalidConverterSettingsException
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sağlanan dönüştürücü ayarları geçersizse atılır
+description: Sağlanan dönüştürücü ayarları geçersiz ise atılır
 type: docs
-weight: 760
+weight: 820
 url: /tr/net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 ---
 ## InvalidConverterSettingsException class
 
-Sağlanan dönüştürücü ayarları geçersizse atılır
+Sağlanan dönüştürücü ayarları geçersiz ise atılır
 
 ```csharp
 public sealed class InvalidConverterSettingsException : GroupDocsConversionException

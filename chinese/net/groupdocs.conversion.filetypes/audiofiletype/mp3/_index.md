@@ -1,14 +1,14 @@
 ---
 title: Mp3
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 扩展名为 .mp3 的文件是音频文件的数字编码文件格式正式基于 MPEG1 音频层 III 或 MPEG2 音频层 III 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/mp3/
+description: 扩展名为 .mp3 的文件是正式基于 MPEG1 音频第三层或 MPEG2 音频第三层的音频文件的数字编码文件格式 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/mp3/
 type: docs
 weight: 70
 url: /zh/net/groupdocs.conversion.filetypes/audiofiletype/mp3/
 ---
 ## AudioFileType.Mp3 field
 
-扩展名为 .mp3 的文件是音频文件的数字编码文件格式，正式基于 MPEG-1 音频层 III 或 MPEG-2 音频层 III。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/mp3/)
+扩展名为 .mp3 的文件是正式基于 MPEG-1 音频第三层或 MPEG-2 音频第三层的音频文件的数字编码文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/mp3/)
 
 ```csharp
 public static readonly AudioFileType Mp3;

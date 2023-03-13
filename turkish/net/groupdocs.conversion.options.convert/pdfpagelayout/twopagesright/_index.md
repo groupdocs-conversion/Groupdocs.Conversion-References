@@ -1,14 +1,14 @@
 ---
 title: TwoPagesRight
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Sağda tek sayılı sayfalar olacak şekilde sayfaları birer birer görüntüleyin.
+description: Tek sayılı sayfalar sağda olacak şekilde sayfaları ikişer ikişer görüntüleyin.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagelayout/twopagesright/
 ---
 ## PdfPageLayout.TwoPagesRight field
 
-Sağda tek sayılı sayfalar olacak şekilde sayfaları birer birer görüntüleyin.
+Tek sayılı sayfalar sağda olacak şekilde sayfaları ikişer ikişer görüntüleyin.
 
 ```csharp
 public static readonly PdfPageLayout TwoPagesRight;

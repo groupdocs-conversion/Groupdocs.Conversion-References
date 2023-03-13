@@ -1,14 +1,14 @@
 ---
 title: Zoom
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 以百分比指定缩放级别默认为 100. 在 Microsoft Word 2010 之前支持默认缩放从 Microsoft Word 2013 开始默认缩放不再设置为文档而是使用上次打开文档的缩放系数
+description: 以百分比指定缩放级别默认为 100. Microsoft Word 2010 之前支持默认缩放从 Microsoft Word 2013 开始默认缩放不再设置为文档而是使用上一个打开的文档的缩放系数
 type: docs
 weight: 140
 url: /zh/net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/zoom/
 ---
 ## WordProcessingConvertOptions.Zoom property
 
-以百分比指定缩放级别。默认为 100. 在 Microsoft Word 2010 之前支持默认缩放。从 Microsoft Word 2013 开始，默认缩放不再设置为文档，而是使用上次打开文档的缩放系数。
+以百分比指定缩放级别。默认为 100. Microsoft Word 2010 之前支持默认缩放。从 Microsoft Word 2013 开始，默认缩放不再设置为文档，而是使用上一个打开的文档的缩放系数。
 
 ```csharp
 public int Zoom { get; set; }

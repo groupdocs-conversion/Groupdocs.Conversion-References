@@ -1,14 +1,14 @@
 ---
 title: ThreeDLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diThreeDLoadOptionsgroupdocs.conversion.options.load/threedloadoptions classe.
+description: Inizializza una nuova istanza diThreeDLoadOptionsgroupdocs.conversion.options.load/threedloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/threedloadoptions/threedloadoptions/
 ---
 ## ThreeDLoadOptions constructor
 
-Inizializza la nuova istanza di[`ThreeDLoadOptions`](../../threedloadoptions) classe.
+Inizializza una nuova istanza di[`ThreeDLoadOptions`](../../threedloadoptions) classe.
 
 ```csharp
 public ThreeDLoadOptions()

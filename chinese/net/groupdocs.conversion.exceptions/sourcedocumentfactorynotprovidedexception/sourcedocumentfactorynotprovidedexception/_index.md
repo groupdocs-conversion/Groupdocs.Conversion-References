@@ -1,14 +1,14 @@
 ---
 title: SourceDocumentFactoryNotProvidedException
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 创建带有消息的异常实例
+description: 创建一个带有消息 的异常实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception/sourcedocumentfactorynotprovidedexception/
 ---
 ## SourceDocumentFactoryNotProvidedException constructor
 
-创建带有消息的异常实例
+创建一个带有消息 的异常实例
 
 ```csharp
 public SourceDocumentFactoryNotProvidedException()

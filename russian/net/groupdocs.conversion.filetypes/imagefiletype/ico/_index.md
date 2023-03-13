@@ -3,7 +3,7 @@ title: Ico
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Файлы с расширением ICO  это типы файлов изображений которые используются в качестве значков для представления приложений в Microsoft Windows. Узнайте больше об этом формате файловздесьhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 170
+weight: 150
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/ico/
 ---
 ## ImageFileType.Ico field

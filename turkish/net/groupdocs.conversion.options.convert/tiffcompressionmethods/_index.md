@@ -3,7 +3,7 @@ title: TiffCompressionMethods
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Tiff sıkıştırma yöntemleri numaralandırmasını açıklar.
 type: docs
-weight: 1740
+weight: 1920
 url: /tr/net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 ## TiffCompressionMethods class
@@ -18,7 +18,7 @@ public class TiffCompressionMethods : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [TiffCompressionMethods](tiffcompressionmethods)() | Serileştirme yapıcısı |
+| [TiffCompressionMethods](tiffcompressionmethods)() | Serileştirme oluşturucu |
 
 ## yöntemler
 

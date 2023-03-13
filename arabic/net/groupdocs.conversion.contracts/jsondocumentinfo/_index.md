@@ -3,7 +3,7 @@ title: JsonDocumentInfo
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يحتوي على البيانات الوصفية لمستند Json
 type: docs
-weight: 280
+weight: 300
 url: /ar/net/groupdocs.conversion.contracts/jsondocumentinfo/
 ---
 ## JsonDocumentInfo class

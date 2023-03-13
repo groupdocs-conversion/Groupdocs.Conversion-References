@@ -1,14 +1,14 @@
 ---
 title: ConvertOptionsProvider
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 描述为特定源文档提供转换选项的委托 将在每次转换之前调用委托并提供为所需目标转换提供特定转换选项的机会 可以根据提供的源文件名和源文件做出决定类型.
+description: 描述为特定源文档提供转换选项的委托 委托将在每次转换之前被调用并提供机会为所需的目标转换提供特定的转换选项 可以根据提供的源文件名和源文件做出决定类型.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.conversion.contracts/convertoptionsprovider/
 ---
 ## ConvertOptionsProvider delegate
 
-描述为特定源文档提供转换选项的委托。 将在每次转换之前调用委托，并提供为所需目标转换提供特定转换选项的机会。 可以根据提供的源文件名和源文件做出决定类型.
+描述为特定源文档提供转换选项的委托。 委托将在每次转换之前被调用，并提供机会为所需的目标转换提供特定的转换选项。 可以根据提供的源文件名和源文件做出决定类型.
 
 ```csharp
 public delegate ConvertOptions ConvertOptionsProvider(string sourceDocumentName, 
@@ -22,7 +22,7 @@ public delegate ConvertOptions ConvertOptionsProvider(string sourceDocumentName,
 
 ### 返回值
 
-必须返回[`ConvertOptions`](../../groupdocs.conversion.options.convert/convertoptions)用于转换[`源类型`](../../groupdocs.conversion.filetypes/filetype)文档
+必须返回[`ConvertOptions`](../../groupdocs.conversion.options.convert/convertoptions)用于转换[`来源类型`](../../groupdocs.conversion.filetypes/filetype)文档
 
 ### 也可以看看
 

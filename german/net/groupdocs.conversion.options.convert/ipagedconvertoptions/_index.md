@@ -3,7 +3,7 @@ title: IPagedConvertOptions
 second_title: GroupDocs.Conversion für .NET-API-Referenz
 description: Stellt Konvertierungsoptionen dar die es der Konvertierung ermöglichen eine Seitenbegrenzung durchzuführen indem die Startseite und die Anzahl der Seiten angegeben werden
 type: docs
-weight: 1440
+weight: 1600
 url: /de/net/groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 ## IPagedConvertOptions interface

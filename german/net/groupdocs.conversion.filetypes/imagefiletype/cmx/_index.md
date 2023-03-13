@@ -1,14 +1,14 @@
 ---
 title: Cmx
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung CMX sind Corel ExchangeBilddateiformate die von CorelSuiteAnwendungen als Präsentation verwendet werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/cmx .
+description: Dateien mit der Erweiterung CMX sind Corel ExchangeBilddateiformate die von CorelSuiteAnwendungen als Präsentation verwendet werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 60
+weight: 50
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/cmx/
 ---
 ## ImageFileType.Cmx field
 
-Dateien mit der Erweiterung CMX sind Corel Exchange-Bilddateiformate, die von CorelSuite-Anwendungen als Präsentation verwendet werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/cmx) .
+Dateien mit der Erweiterung CMX sind Corel Exchange-Bilddateiformate, die von CorelSuite-Anwendungen als Präsentation verwendet werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/cmx) .
 
 ```csharp
 public static readonly ImageFileType Cmx;

@@ -1,14 +1,14 @@
 ---
 title: AudioConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例AudioConvertOptionsgroupdocs.conversion.options.convert/audioconvertoptions类.
+description: 初始化新实例AudioConvertOptionsgroupdocs.conversion.options.convert/audioconvertoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.convert/audioconvertoptions/audioconvertoptions/
 ---
 ## AudioConvertOptions constructor
 
-初始化的新实例[`AudioConvertOptions`](../../audioconvertoptions)类.
+初始化新实例[`AudioConvertOptions`](../../audioconvertoptions)类.
 
 ```csharp
 public AudioConvertOptions()

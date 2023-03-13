@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 隐式转换为字符串
+description: 隐式转换为 string
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/groupdocs.conversion.filetypes/filetype/op_implicit/
 ---
 ## FileType Implicit operator
 
-隐式转换为字符串
+隐式转换为 string
 
 ```csharp
 public static implicit operator string(FileType type)

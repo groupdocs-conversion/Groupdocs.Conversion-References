@@ -3,7 +3,7 @@ title: Otg
 second_title: GroupDocs.Conversion for .NET API 参考
 description: OTG 文件是使用遵循 OASIS Office Applications 1.0 规范的 OpenDocument 标准创建的绘图模板 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/otg
 type: docs
-weight: 290
+weight: 270
 url: /zh/net/groupdocs.conversion.filetypes/imagefiletype/otg/
 ---
 ## ImageFileType.Otg field

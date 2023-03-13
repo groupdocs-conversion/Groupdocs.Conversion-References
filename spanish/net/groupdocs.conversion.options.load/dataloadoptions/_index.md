@@ -3,7 +3,7 @@ title: DataLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos de datos.
 type: docs
-weight: 1870
+weight: 2060
 url: /es/net/groupdocs.conversion.options.load/dataloadoptions/
 ---
 ## DataLoadOptions class
@@ -11,21 +11,20 @@ url: /es/net/groupdocs.conversion.options.load/dataloadoptions/
 Opciones para cargar documentos de datos.
 
 ```csharp
-public class DataLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public class DataLoadOptions : WebLoadOptions
 ```
-
-## Constructores
-
-| Nombre | Descripción |
-| --- | --- |
-| [DataLoadOptions](dataloadoptions)() | Inicializa una nueva instancia de[`DataLoadOptions`](../dataloadoptions) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/dataloadoptions/format) { get; set; } | Tipo de archivo de documento de entrada. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | La ruta/url base para el html |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Obtiene o establece la codificación que se utilizará al cargar el documento de marcado. Si la propiedad es nula, la codificación se determinará a partir del atributo del conjunto de caracteres del documento |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Tipo de archivo de documento de entrada. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo de archivo de documento de entrada. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Habilitar o deshabilitar la generación de numeración de páginas en el documento convertido. Predeterminado: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Tiempo de espera para cargar recursos externos |
 
 ## Métodos
 
@@ -37,7 +36,7 @@ public class DataLoadOptions : LoadOptions
 
 ### Ver también
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * espacio de nombres [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * asamblea [GroupDocs.Conversion](../../)
 

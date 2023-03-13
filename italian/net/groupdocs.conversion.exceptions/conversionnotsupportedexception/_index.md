@@ -3,7 +3,7 @@ title: ConversionNotSupportedException
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Eccezione GroupDocs generata quando la conversione dal file di origine al tipo di file di destinazione non è supportata
 type: docs
-weight: 690
+weight: 750
 url: /it/net/groupdocs.conversion.exceptions/conversionnotsupportedexception/
 ---
 ## ConversionNotSupportedException class
@@ -20,7 +20,7 @@ public sealed class ConversionNotSupportedException : GroupDocsConversionExcepti
 | --- | --- |
 | [ConversionNotSupportedException](conversionnotsupportedexception#constructor)() | Costruttore predefinito |
 | [ConversionNotSupportedException](conversionnotsupportedexception#constructor_2)(string) | Crea un'istanza di eccezione con un messaggio |
-| [ConversionNotSupportedException](conversionnotsupportedexception#constructor_1)(FileType, FileType) | Crea un'istanza di eccezione con un tipo di file di origine e un tipo di file di destinazione |
+| [ConversionNotSupportedException](conversionnotsupportedexception#constructor_1)(FileType, FileType) | Crea un'istanza di eccezione con un FileType di origine e un Filetype di destinazione |
 
 ### Guarda anche
 

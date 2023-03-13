@@ -3,7 +3,7 @@ title: VideoLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Opzioni per il caricamento di documenti video.
 type: docs
-weight: 2080
+weight: 2330
 url: /it/net/groupdocs.conversion.options.load/videoloadoptions/
 ---
 ## VideoLoadOptions class
@@ -18,7 +18,7 @@ public sealed class VideoLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [VideoLoadOptions](videoloadoptions)() | Inizializza la nuova istanza di[`VideoLoadOptions`](../videoloadoptions) classe. |
+| [VideoLoadOptions](videoloadoptions)() | Inizializza una nuova istanza di[`VideoLoadOptions`](../videoloadoptions) classe. |
 
 ## Proprietà
 
@@ -33,7 +33,7 @@ public sealed class VideoLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 | [SetVideoConnector](../../groupdocs.conversion.options.load/videoloadoptions/setvideoconnector)(IVideoConnector) | Imposta connettore documento video |
 
 ### Guarda anche

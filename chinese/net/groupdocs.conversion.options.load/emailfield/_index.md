@@ -1,14 +1,14 @@
 ---
 title: EmailField
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 描述电子邮件字段枚举
+description: 描述电子邮件字段 enumeration
 type: docs
-weight: 1890
+weight: 2100
 url: /zh/net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class
 
-描述电子邮件字段枚举
+描述电子邮件字段 enumeration
 
 ```csharp
 public class EmailField : Enumeration
@@ -25,33 +25,33 @@ public class EmailField : Enumeration
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回代表当前对象的字符串。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Attachments](../../groupdocs.conversion.options.load/emailfield/attachments) | 默认字段文本是“附件”。 |
-| static readonly [Bcc](../../groupdocs.conversion.options.load/emailfield/bcc) | 默认字段文本为“密件抄送”。 |
+| static readonly [Attachments](../../groupdocs.conversion.options.load/emailfield/attachments) | 默认字段文本为“附件”。 |
+| static readonly [Bcc](../../groupdocs.conversion.options.load/emailfield/bcc) | 默认字段文本为“Bcc”。 |
 | static readonly [Cc](../../groupdocs.conversion.options.load/emailfield/cc) | 默认字段文本为“抄送”。 |
 | static readonly [End](../../groupdocs.conversion.options.load/emailfield/end) | 默认字段文本为“结束”。 |
-| static readonly [From](../../groupdocs.conversion.options.load/emailfield/from) | 默认字段文本是“发件人”。 |
-| static readonly [Importance](../../groupdocs.conversion.options.load/emailfield/importance) | 默认字段文本是“重要性”。 |
-| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | 默认字段文本是“位置”。 |
-| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | 默认字段文本是“组织者”。 |
-| static readonly [PageHeader](../../groupdocs.conversion.options.load/emailfield/pageheader) | 默认字段文本是“PageHeader”。 |
-| static readonly [Recurrence](../../groupdocs.conversion.options.load/emailfield/recurrence) | 默认字段文本是“重复”。 |
-| static readonly [RecurrencePattern](../../groupdocs.conversion.options.load/emailfield/recurrencepattern) | 默认字段文本是“RecurrencePattern”。 |
-| static readonly [RequiredAttendees](../../groupdocs.conversion.options.load/emailfield/requiredattendees) | 默认字段文本是“RequiredAttendees”。 |
+| static readonly [From](../../groupdocs.conversion.options.load/emailfield/from) | 默认字段文本为“发件人”。 |
+| static readonly [Importance](../../groupdocs.conversion.options.load/emailfield/importance) | 默认字段文本为“重要性”。 |
+| static readonly [Location](../../groupdocs.conversion.options.load/emailfield/location) | 默认字段文本为“位置”。 |
+| static readonly [Organizer](../../groupdocs.conversion.options.load/emailfield/organizer) | 默认字段文本为“组织者”。 |
+| static readonly [PageHeader](../../groupdocs.conversion.options.load/emailfield/pageheader) | 默认字段文本为“PageHeader”。 |
+| static readonly [Recurrence](../../groupdocs.conversion.options.load/emailfield/recurrence) | 默认字段文本为“重复”。 |
+| static readonly [RecurrencePattern](../../groupdocs.conversion.options.load/emailfield/recurrencepattern) | 默认字段文本为“RecurrencePattern”。 |
+| static readonly [RequiredAttendees](../../groupdocs.conversion.options.load/emailfield/requiredattendees) | 默认字段文本为“RequiredAttendees”。 |
 | static readonly [Sent](../../groupdocs.conversion.options.load/emailfield/sent) | 默认字段文本为“已发送”。 |
-| static readonly [ShowTimeAs](../../groupdocs.conversion.options.load/emailfield/showtimeas) | 默认字段文本是“ShowTimeAs”。 |
-| static readonly [Start](../../groupdocs.conversion.options.load/emailfield/start) | 默认字段文本是“开始”。 |
-| static readonly [Subject](../../groupdocs.conversion.options.load/emailfield/subject) | 默认字段文本是“主题”。 |
-| static readonly [TabField](../../groupdocs.conversion.options.load/emailfield/tabfield) | 默认字段文本是“TabField”。 |
-| static readonly [To](../../groupdocs.conversion.options.load/emailfield/to) | 默认字段文本为“收件人”。 |
+| static readonly [ShowTimeAs](../../groupdocs.conversion.options.load/emailfield/showtimeas) | 默认字段文本为“ShowTimeAs”。 |
+| static readonly [Start](../../groupdocs.conversion.options.load/emailfield/start) | 默认字段文本为“开始”。 |
+| static readonly [Subject](../../groupdocs.conversion.options.load/emailfield/subject) | 默认字段文本为“主题”。 |
+| static readonly [TabField](../../groupdocs.conversion.options.load/emailfield/tabfield) | 默认字段文本为“TabField”。 |
+| static readonly [To](../../groupdocs.conversion.options.load/emailfield/to) | 默认字段文本为“To”. |
 
 ### 也可以看看
 

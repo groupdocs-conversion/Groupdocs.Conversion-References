@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 水印左侧位置
+description: 水印左位置
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.options.convert/watermarkoptions/left/
 ---
 ## WatermarkOptions.Left property
 
-水印左侧位置
+水印左位置
 
 ```csharp
 public int Left { get; set; }

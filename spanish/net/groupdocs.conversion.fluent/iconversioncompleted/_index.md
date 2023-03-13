@@ -3,7 +3,7 @@ title: IConversionCompleted
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Conversión de manejo completada
 type: docs
-weight: 990
+weight: 1120
 url: /es/net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | Nombre | Descripción |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(ConvertedDocumentStream) | Recibe el flujo de documentos convertidos. Se activará solo si se establece "Guardar (cadena)" o "Guardar (SaveDocumentStreamForFileType)". |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | Recibe el flujo de documentos convertidos. Se activará solo si se establece "ConvertTo(string fileName)" o ConvertTo(convertedStreamProvider)". |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Opzioni per il caricamento di documenti Pdf.
+description: Opzioni per caricare documenti Pdf.
 type: docs
-weight: 1980
+weight: 2220
 url: /it/net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
 
-Opzioni per il caricamento di documenti Pdf.
+Opzioni per caricare documenti Pdf.
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions
@@ -18,18 +18,18 @@ public sealed class PdfLoadOptions : LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [PdfLoadOptions](pdfloadoptions)() | Inizializza la nuova istanza di[`PdfLoadOptions`](../pdfloadoptions) classe. |
+| [PdfLoadOptions](pdfloadoptions)() | Inizializza una nuova istanza di[`PdfLoadOptions`](../pdfloadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Pdf. Se manca un carattere verrà utilizzato il seguente carattere. |
+| [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Carattere predefinito per il documento Pdf. Se manca un carattere, verrà utilizzato il seguente carattere. |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Appiattisci tutti i campi del modulo PDF. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Sostituisci caratteri specifici durante la conversione di documenti Pdf. |
 | [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | Tipo di file del documento di input. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Tipo di file del documento di input. |
-| [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Nascondi le annotazioni nei documenti Pdf. |
+| [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Nascondi annotazioni nei documenti Pdf. |
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Imposta la password per rimuovere la protezione del documento protetto. |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | Rimuovi i file incorporati. |
 
@@ -39,7 +39,7 @@ public sealed class PdfLoadOptions : LoadOptions
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 
 ### Guarda anche
 

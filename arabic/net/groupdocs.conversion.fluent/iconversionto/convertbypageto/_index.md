@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(SavePageStream) {#convertbypageto}
+## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
 
 حفظ الصفحة المحولة باسم stream
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStream convertedPageProvider)
+    Func<int, Stream> convertedPageProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| convertedPageProvider | SavePageStream | مزود دفق صفحة الوثيقة المحولة |
+| convertedPageProvider | Func`2 | مقدم تدفق صفحة المستند المحول |
 
 ### قيمة الإرجاع
 
@@ -26,25 +26,24 @@ public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
 ### أنظر أيضا
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * interface [IConversionTo](../../iconversionto)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversionto)
 * المجسم [GroupDocs.Conversion](../../../)
 
 ---
 
-## ConvertByPageTo(SavePageStreamForFileType) {#convertbypageto_1}
+## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
 
 حفظ الصفحة المحولة كتدفق حسب النوع
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    SavePageStreamForFileType convertedStreamProvider)
+    Func<int, FileType, Stream> convertedStreamProvider)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| convertedStreamProvider | SavePageStreamForFileType | مزود دفق صفحة الوثيقة المحولة |
+| convertedStreamProvider | Func`3 | مقدم تدفق صفحة المستند المحول |
 
 ### قيمة الإرجاع
 
@@ -53,7 +52,7 @@ public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
 ### أنظر أيضا
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * interface [IConversionTo](../../iconversionto)
 * مساحة الاسم [GroupDocs.Conversion.Fluent](../../iconversionto)
 * المجسم [GroupDocs.Conversion](../../../)

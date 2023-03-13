@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Параметры обработки закладок в WordProcessing
 type: docs
-weight: 2090
+weight: 2350
 url: /ru/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 ## WordProcessingBookmarksOptions class

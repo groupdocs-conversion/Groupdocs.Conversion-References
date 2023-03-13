@@ -3,7 +3,7 @@ title: Sheets
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Имя листа для преобразования
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheets/
 ---
 ## SpreadsheetLoadOptions.Sheets property

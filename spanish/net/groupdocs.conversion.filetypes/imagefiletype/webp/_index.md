@@ -3,7 +3,7 @@ title: Webp
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: WebP presentado por Google es un formato de archivo de imagen web rasterizado moderno que se basa en la compresión sin pérdida y con pérdida. Proporciona la misma calidad de imagen mientras reduce considerablemente el tamaño de la imagen. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/webp .
 type: docs
-weight: 380
+weight: 350
 url: /es/net/groupdocs.conversion.filetypes/imagefiletype/webp/
 ---
 ## ImageFileType.Webp field

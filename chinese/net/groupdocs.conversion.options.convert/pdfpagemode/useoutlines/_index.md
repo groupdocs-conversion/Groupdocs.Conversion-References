@@ -1,14 +1,14 @@
 ---
 title: UseOutlines
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文档大纲可见
+description: 文档大纲可见.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.conversion.options.convert/pdfpagemode/useoutlines/
 ---
 ## PdfPageMode.UseOutlines field
 
-文档大纲可见。
+文档大纲可见.
 
 ```csharp
 public static readonly PdfPageMode UseOutlines;

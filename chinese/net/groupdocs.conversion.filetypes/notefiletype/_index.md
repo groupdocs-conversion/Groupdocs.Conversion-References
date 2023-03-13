@@ -1,14 +1,14 @@
 ---
 title: NoteFileType
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 定义笔记格式包括以下文件类型 One./notefiletype/one . 了解有关笔记格式的更多信息这里https//wiki.fileformat.com/notetaking.
+description: 定义笔记格式包括以下文件类型 One./notefiletype/one . 了解更多关于笔记格式的信息这里https//wiki.fileformat.com/notetaking.
 type: docs
-weight: 880
+weight: 980
 url: /zh/net/groupdocs.conversion.filetypes/notefiletype/
 ---
 ## NoteFileType class
 
-定义笔记格式。包括以下文件类型： [`One`](./one) . 了解有关笔记格式的更多信息[这里](https://wiki.fileformat.com/note-taking).
+定义笔记格式。包括以下文件类型： [`One`](./one) . 了解更多关于笔记格式的信息[这里](https://wiki.fileformat.com/note-taking).
 
 ```csharp
 public sealed class NoteFileType : FileType
@@ -26,7 +26,7 @@ public sealed class NoteFileType : FileType
 | --- | --- |
 | [Description](../../groupdocs.conversion.filetypes/filetype/description) { get; } | 文件类型描述 |
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | 文件扩展名 |
-| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 档案族 |
+| [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | 文件 family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | 文件格式 |
 
 ## 方法
@@ -34,16 +34,16 @@ public sealed class NoteFileType : FileType
 | 姓名 | 描述 |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | 将当前对象与其他对象进行比较。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | 确定两个对象实例是否相等。 |
-| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 用作默认哈希函数。 |
-| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示 |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | 判断两个对象实例是否相等。 |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | 作为默认哈希函数。 |
+| override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | 字符串表示形式 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | 由 .ONE 扩展名表示的文件是由 Microsoft OneNote 应用程序创建的。 OneNote 让您可以使用应用程序收集信息，就像使用草稿板记笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one) |
+| static readonly [One](../../groupdocs.conversion.filetypes/notefiletype/one) | .ONE 扩展名表示的文件由 Microsoft OneNote 应用程序创建。 OneNote 让您可以使用该应用程序收集信息，就像您使用草稿本做笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one) |
 
 ### 也可以看看
 

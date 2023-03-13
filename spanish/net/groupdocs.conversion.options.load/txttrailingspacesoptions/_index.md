@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Describe la enumeración de opciones de espacios finales de txt.
 type: docs
-weight: 2060
+weight: 2310
 url: /es/net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük giriş dosyasının çözünürlüğüdür veya 96 dpi.
+description: Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük giriş dosyasının çözünürlüğü veya 96 dpi. dir.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution/
 ---
 ## ImageConvertOptions.HorizontalResolution property
 
-Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğüdür veya 96 dpi.
+Dönüştürmeden sonra istenen görüntü yatay çözünürlüğü. Varsayılan çözünürlük, giriş dosyasının çözünürlüğü veya 96 dpi. 'dir.
 
 ```csharp
 public int HorizontalResolution { get; set; }

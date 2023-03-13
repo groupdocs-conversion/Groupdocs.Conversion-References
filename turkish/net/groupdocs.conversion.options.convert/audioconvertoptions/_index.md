@@ -3,7 +3,7 @@ title: AudioConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Ses türüne dönüştürme seçenekleri.
 type: docs
-weight: 1290
+weight: 1420
 url: /tr/net/groupdocs.conversion.options.convert/audioconvertoptions/
 ---
 ## AudioConvertOptions class

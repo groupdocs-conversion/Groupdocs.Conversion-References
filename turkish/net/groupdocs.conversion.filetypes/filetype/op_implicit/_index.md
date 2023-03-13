@@ -3,7 +3,7 @@ title: op_Implicit
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: string ye dolaylı dönüştürme
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/groupdocs.conversion.filetypes/filetype/op_implicit/
 ---
 ## FileType Implicit operator

@@ -1,14 +1,14 @@
 ---
 title: Ppsm
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: PPSM uzantılı dosyalar Microsoft PowerPoint 2007 veya üstü ile oluşturulmuş Makro özellikli Slayt Gösterisi dosya biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/ppsm .
+description: PPSM uzantılı dosyalar Microsoft PowerPoint 2007 veya üstü ile oluşturulmuş Makro özellikli Slayt Gösterisi dosya biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.conversion.filetypes/presentationfiletype/ppsm/
 ---
 ## PresentationFileType.Ppsm field
 
-PPSM uzantılı dosyalar, Microsoft PowerPoint 2007 veya üstü ile oluşturulmuş Makro özellikli Slayt Gösterisi dosya biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/ppsm) .
+PPSM uzantılı dosyalar, Microsoft PowerPoint 2007 veya üstü ile oluşturulmuş Makro özellikli Slayt Gösterisi dosya biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/ppsm) .
 
 ```csharp
 public static readonly PresentationFileType Ppsm;

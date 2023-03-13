@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف تعداد تنسيقات PDF .
 type: docs
-weight: 1580
+weight: 1760
 url: /ar/net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class

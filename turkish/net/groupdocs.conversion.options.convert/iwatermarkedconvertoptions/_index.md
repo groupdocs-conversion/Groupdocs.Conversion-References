@@ -3,7 +3,7 @@ title: IWatermarkedConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Dönüştürme çıktısının filigranlanmasına izin veren dönüştürme seçeneklerini temsil eder
 type: docs
-weight: 1460
+weight: 1620
 url: /tr/net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 ## IWatermarkedConvertOptions interface

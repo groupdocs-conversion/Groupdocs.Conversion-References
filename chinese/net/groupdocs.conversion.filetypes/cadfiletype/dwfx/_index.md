@@ -1,14 +1,14 @@
 ---
 title: Dwfx
 second_title: GroupDocs.Conversion for .NET API 参考
-description: DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 工程图它以 DWFx 格式保存类似于 . DWF 文件但使用 Microsoft 的 XML 纸张规范 XPS 进行格式化
+description: DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 绘图它以 DWFx 格式保存类似于 . DWF 文件但使用 Microsoft 的 XML 纸张规范 XPS 进行格式化
 type: docs
 weight: 50
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/dwfx/
 ---
 ## CadFileType.Dwfx field
 
-DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 工程图。它以 DWFx 格式保存，类似于 . DWF 文件，但使用 Microsoft 的 XML 纸张规范 (XPS) 进行格式化。
+DWFX 文件是使用 Autodesk CAD 软件创建的 2D 或 3D 绘图。它以 DWFx 格式保存，类似于 . DWF 文件，但使用 Microsoft 的 XML 纸张规范 (XPS) 进行格式化。
 
 ```csharp
 public static readonly CadFileType Dwfx;

@@ -24,7 +24,7 @@ public ConversionNotSupportedException()
 
 ## ConversionNotSupportedException(FileType, FileType) {#constructor_1}
 
-Crea un'istanza di eccezione con un tipo di file di origine e un tipo di file di destinazione
+Crea un'istanza di eccezione con un FileType di origine e un Filetype di destinazione
 
 ```csharp
 public ConversionNotSupportedException(FileType source, FileType target)

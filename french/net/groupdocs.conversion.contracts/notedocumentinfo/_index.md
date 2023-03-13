@@ -3,7 +3,7 @@ title: NoteDocumentInfo
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Contient les métadonnées du document Note
 type: docs
-weight: 320
+weight: 340
 url: /fr/net/groupdocs.conversion.contracts/notedocumentinfo/
 ---
 ## NoteDocumentInfo class

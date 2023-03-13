@@ -3,7 +3,7 @@ title: Gif
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Формат GIF или графического обмена представляет собой тип сильно сжатого изображения. Для каждого изображения в формате GIF обычно допускается до 8 бит на пиксель а в изображении допускается до 256 цветов. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 160
+weight: 140
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/gif/
 ---
 ## ImageFileType.Gif field

@@ -1,14 +1,14 @@
 ---
 title: Otp
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Dateien mit der Erweiterung .OTP stellen Präsentationsvorlagendateien dar die von Anwendungen im OASIS OpenDocumentStandardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/otp .
+description: Dateien mit der Erweiterung .OTP stellen Präsentationsvorlagendateien dar die von Anwendungen im OASIS OpenDocumentStandardformat erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/otp .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/presentationfiletype/otp/
 ---
 ## PresentationFileType.Otp field
 
-Dateien mit der Erweiterung .OTP stellen Präsentationsvorlagendateien dar, die von Anwendungen im OASIS OpenDocument-Standardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/otp) .
+Dateien mit der Erweiterung .OTP stellen Präsentationsvorlagendateien dar, die von Anwendungen im OASIS OpenDocument-Standardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/otp) .
 
 ```csharp
 public static readonly PresentationFileType Otp;

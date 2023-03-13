@@ -1,14 +1,14 @@
 ---
 title: Cdr
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bir CDR dosyası dijital görüntüyü kodlanmış ve sıkıştırılmış olarak depolamak için CorelDRAW ile yerel olarak oluşturulmuş bir vektör çizimi görüntü dosyasıdır. Böyle bir çizim dosyası görüntü içeriğinin vektör temsili için metin çizgiler şekiller görüntüler renkler ve efektler içerir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/cdr .
+description: Bir CDR dosyası dijital görüntüyü kodlanmış ve sıkıştırılmış olarak depolamak için CorelDRAW ile yerel olarak oluşturulmuş bir vektör çizimi görüntü dosyasıdır. Böyle bir çizim dosyası görüntü içeriğinin vektör temsili için metin çizgiler şekiller görüntüler renkler ve efektler içerir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/cdr .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/cdr/
 ---
 ## ImageFileType.Cdr field
 
-Bir CDR dosyası, dijital görüntüyü kodlanmış ve sıkıştırılmış olarak depolamak için CorelDRAW ile yerel olarak oluşturulmuş bir vektör çizimi görüntü dosyasıdır. Böyle bir çizim dosyası, görüntü içeriğinin vektör temsili için metin, çizgiler, şekiller, görüntüler, renkler ve efektler içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/cdr) .
+Bir CDR dosyası, dijital görüntüyü kodlanmış ve sıkıştırılmış olarak depolamak için CorelDRAW ile yerel olarak oluşturulmuş bir vektör çizimi görüntü dosyasıdır. Böyle bir çizim dosyası, görüntü içeriğinin vektör temsili için metin, çizgiler, şekiller, görüntüler, renkler ve efektler içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/cdr) .
 
 ```csharp
 public static readonly ImageFileType Cdr;

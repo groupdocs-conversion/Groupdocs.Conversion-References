@@ -3,7 +3,7 @@ title: SaveDocumentStreamForFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يصف المفوض لحفظ المستند المحول إلى دفق.
 type: docs
-weight: 440
+weight: 480
 url: /ar/net/groupdocs.conversion.contracts/savedocumentstreamforfiletype/
 ---
 ## SaveDocumentStreamForFileType delegate

@@ -3,7 +3,7 @@ title: Odt
 second_title: GroupDocs.Conversion for .NET API Referens
 description: ODTfiler är typ av dokument skapade med ordbehandlingsprogram som är baserade på OpenDocument Text Fileformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 120
+weight: 90
 url: /sv/net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/
 ---
 ## WordProcessingFileType.Odt field

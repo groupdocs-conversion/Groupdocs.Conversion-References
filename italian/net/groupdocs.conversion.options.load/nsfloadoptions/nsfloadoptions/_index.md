@@ -1,14 +1,14 @@
 ---
 title: NsfLoadOptions
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Inizializza la nuova istanza diNsfLoadOptionsgroupdocs.conversion.options.load/nsfloadoptions classe.
+description: Inizializza una nuova istanza diNsfLoadOptionsgroupdocs.conversion.options.load/nsfloadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.conversion.options.load/nsfloadoptions/nsfloadoptions/
 ---
 ## NsfLoadOptions constructor
 
-Inizializza la nuova istanza di[`NsfLoadOptions`](../../nsfloadoptions) classe.
+Inizializza una nuova istanza di[`NsfLoadOptions`](../../nsfloadoptions) classe.
 
 ```csharp
 public NsfLoadOptions()

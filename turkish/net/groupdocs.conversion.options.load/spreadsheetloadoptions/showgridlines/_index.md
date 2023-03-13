@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Excel dosyalarını dönüştürürken ızgara çizgilerini göster.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

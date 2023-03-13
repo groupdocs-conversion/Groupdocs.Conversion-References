@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Özelleştirme için ayarları tanımlarConverter./converter davranış.
 type: docs
-weight: 680
+weight: 740
 url: /tr/net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -18,17 +18,17 @@ public sealed class ConverterSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [ConverterSettings](convertersettings)() | Default_Constructor |
+| [ConverterSettings](convertersettings)() | Varsayılan yapıcı |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | Dönüştürme sonuçlarını depolamak için kullanılan önbellek uygulaması. |
+| [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | Dönüşüm sonuçlarını depolamak için kullanılan önbellek uygulaması. |
 | [FontDirectories](../../groupdocs.conversion/convertersettings/fontdirectories) { get; set; } | Özel yazı tipi dizinleri paths |
-| [Listener](../../groupdocs.conversion/convertersettings/listener) { get; set; } | Dönüştürme durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması |
-| [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | Dönüştürme sürecini günlüğe kaydetmek için kullanılan günlükçü uygulaması. |
-| [TempFolder](../../groupdocs.conversion/convertersettings/tempfolder) { get; set; } | Dönüştürme için kullanılan geçici klasör |
+| [Listener](../../groupdocs.conversion/convertersettings/listener) { get; set; } | Dönüşüm durumunu ve ilerlemeyi izlemek için kullanılan dönüştürücü dinleyici uygulaması |
+| [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | Dönüştürme işleminin günlüğe kaydedilmesi için kullanılan kaydedici uygulaması. |
+| [TempFolder](../../groupdocs.conversion/convertersettings/tempfolder) { get; set; } | Dönüşüm için kullanılan Temp klasörü |
 
 ### Ayrıca bakınız
 

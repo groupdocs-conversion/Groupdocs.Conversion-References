@@ -3,7 +3,7 @@ title: MarkupConvertOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: İşaretleme dosya türüne dönüştürme seçenekleri.
 type: docs
-weight: 1520
+weight: 1680
 url: /tr/net/groupdocs.conversion.options.convert/markupconvertoptions/
 ---
 ## MarkupConvertOptions class
@@ -11,29 +11,24 @@ url: /tr/net/groupdocs.conversion.options.convert/markupconvertoptions/
 İşaretleme dosya türüne dönüştürme seçenekleri.
 
 ```csharp
-public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
+public class MarkupConvertOptions : WebConvertOptions
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [MarkupConvertOptions](markupconvertoptions)() | Yeni örneğini başlatır[`MarkupConvertOptions`](../markupconvertoptions) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FixedLayout](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayout) { get; set; } | Eğer`doğru` sabit düzen kullanılacak, örneğin kesinlikle konumlandırılmış html elements Varsayılan: true |
-| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/markupconvertoptions/fixedlayoutshowborders) { get; set; } | Sabit düzene dönüştürürken sayfa kenarlıklarını göster. Varsayılan True. |
+| [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | Eğer`doğru` sabit düzen kullanılacak, örneğin kesinlikle konumlandırılmış html elements Varsayılan: true |
+| [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Sabit düzene dönüştürürken sayfa kenarlıklarını göster. Varsayılan True. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Girdi belgesinin dönüştürülmesi gereken istenen dosya türü. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Dönüşümün başlatılacağı sayfa numarası. |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Dönüştürülecek sayfa dizinlerinin listesi. Belirli sayfaları dönüştürmek için belirtilmelidir. |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Başlangıç olarak dönüştürülecek sayfa sayısı`Sayfa numarası` . |
-| [UsePdf](../../groupdocs.conversion.options.convert/markupconvertoptions/usepdf) { get; set; } | Eğer`doğru` , giriş önce PDF'ye ve ardından istenen format 'ye dönüştürülür. |
+| [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | Eğer`doğru` , giriş önce PDF'ye ve ardından istenen format 'ye dönüştürülür. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Filigrana özel seçenekler |
-| [Zoom](../../groupdocs.conversion.options.convert/markupconvertoptions/zoom) { get; set; } | Yakınlaştırma düzeyini yüzde olarak belirtir. Varsayılan 100. |
+| [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Yakınlaştırma düzeyini yüzde olarak belirtir. Varsayılan 100. |
 
 ## yöntemler
 
@@ -46,8 +41,7 @@ public class MarkupConvertOptions : CommonConvertOptions<MarkupFileType>
 
 ### Ayrıca bakınız
 
-* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
-* class [MarkupFileType](../../groupdocs.conversion.filetypes/markupfiletype)
+* class [WebConvertOptions](../webconvertoptions)
 * ad alanı [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * toplantı [GroupDocs.Conversion](../../)
 

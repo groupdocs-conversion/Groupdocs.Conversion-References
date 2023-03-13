@@ -3,7 +3,7 @@ title: CorruptOrDamagedFileException
 second_title: GroupDocs.Conversion for .NET API Referens
 description: GroupDocs undantag kastas när filen är korrupt eller skadad
 type: docs
-weight: 700
+weight: 760
 url: /sv/net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 ---
 ## CorruptOrDamagedFileException class

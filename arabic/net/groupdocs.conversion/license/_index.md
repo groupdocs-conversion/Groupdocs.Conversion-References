@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يوفر طرقًا لترخيص المكون. تعرف على المزيد حول الترخيصهناhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 1250
+weight: 1380
 url: /ar/net/groupdocs.conversion/license/
 ---
 ## License class

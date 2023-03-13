@@ -1,14 +1,14 @@
 ---
 title: ExpandedOutlineLevels
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Dosya görüntülendiğinde genişletilmiş belge anahattında kaç düzeyin gösterileceğini belirtir. Varsayılan 0dır. Geçerli aralık 0 ila 9dur. Bu seçeneklerin XPSe kaydederken çalışmayacağını unutmayın.
+description: Dosya görüntülendiğinde belge taslağında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir. Varsayılan 0dır. Geçerli aralık 0 ila 9dur. XPS. ye kaydederken bu seçeneklerin çalışmayacağını unutmayın.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expandedoutlinelevels/
 ---
 ## WordProcessingBookmarksOptions.ExpandedOutlineLevels property
 
-Dosya görüntülendiğinde genişletilmiş belge anahattında kaç düzeyin gösterileceğini belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. Bu seçeneklerin XPS'e kaydederken çalışmayacağını unutmayın.
+Dosya görüntülendiğinde belge taslağında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir. Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur. XPS. 'ye kaydederken bu seçeneklerin çalışmayacağını unutmayın.
 
 ```csharp
 public int ExpandedOutlineLevels { get; set; }

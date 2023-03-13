@@ -30,10 +30,12 @@ El espacio de nombres proporciona a los miembros instancias y publicación de do
 | [Enumeration](./enumeration) | Clase de enumeración genérica. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Contiene metadatos del documento Ps |
 | [EpubDocumentInfo](./epubdocumentinfo) | Contiene metadatos del documento Epub |
+| [FontDocumentInfo](./fontdocumentinfo) | Contiene metadatos del documento de fuente |
 | [FontSubstitute](./fontsubstitute) | Describe la sustitución de la fuente faltante. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contiene metadatos del documento Gzip |
 | [IcoDocumentInfo](./icodocumentinfo) | Contiene metadatos del documento ICO |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contiene metadatos del documento de imagen |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contiene metadatos del documento iXbrl |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contiene metadatos del documento Json |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contiene metadatos del documento Lzip |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contiene metadatos del documento Lzma |
@@ -43,11 +45,13 @@ El espacio de nombres proporciona a los miembros instancias y publicación de do
 | [PclDocumentInfo](./pcldocumentinfo) | Contiene metadatos del documento PCl |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Contiene metadatos del documento PDF |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Contiene metadatos del documento de almacenamiento personal |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Carpeta de almacenamiento personal info |
 | [PossibleConversions](./possibleconversions) | Representa una asignación de qué pares de conversión se admiten para un formato de archivo fuente específico |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Contiene metadatos del documento de presentación |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contiene metadatos del documento ProjectManagement |
 | [PsdDocumentInfo](./psddocumentinfo) | Contiene metadatos del documento Psd |
 | [PsDocumentInfo](./psdocumentinfo) | Contiene metadatos del documento Ps |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | Contiene metadatos del documento de Publisher |
 | [RarDocumentInfo](./rardocumentinfo) | Contiene metadatos del documento Rar |
 | [SaveDocumentStream](./savedocumentstream) | Describe el delegado para guardar el documento convertido en flujo. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Describe el delegado para guardar el documento convertido en flujo. |
@@ -66,7 +70,9 @@ El espacio de nombres proporciona a los miembros instancias y publicación de do
 | [ValueObject](./valueobject) | Clase de objeto de valor abstracto. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Contiene metadatos del documento Vcf |
 | [VideoDocumentInfo](./videodocumentinfo) | Contiene metadatos del documento de vídeo |
+| [WebDocumentInfo](./webdocumentinfo) | Contiene metadatos del documento de marcado |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contiene metadatos del documento de WordProcessing |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | Contiene metadatos del documento Xbrl |
 | [XmlDocumentInfo](./xmldocumentinfo) | Contiene metadatos del documento Xml |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contiene metadatos del documento Xps |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | Contiene metadatos del documento XslFo |

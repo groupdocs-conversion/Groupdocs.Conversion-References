@@ -3,7 +3,7 @@ title: IConversionSourceDocumentLoaded
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Ger möjliga åtgärder med laddade document
 type: docs
-weight: 1170
+weight: 1300
 url: /sv/net/groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 ## IConversionSourceDocumentLoaded interface

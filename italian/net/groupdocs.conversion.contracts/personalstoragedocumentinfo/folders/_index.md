@@ -11,11 +11,12 @@ url: /it/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Cartelle nella memoria
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### Guarda anche
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * spazio dei nomi [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * assemblea [GroupDocs.Conversion](../../../)

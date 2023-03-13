@@ -1,35 +1,30 @@
 ---
 title: MarkupLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: İşaretleme belgelerini yükleme seçenekleri.
+description: İşaretleme belgelerini yüklemek için seçenekler.
 type: docs
-weight: 1940
+weight: 2170
 url: /tr/net/groupdocs.conversion.options.load/markuploadoptions/
 ---
 ## MarkupLoadOptions class
 
-İşaretleme belgelerini yükleme seçenekleri.
+İşaretleme belgelerini yüklemek için seçenekler.
 
 ```csharp
-public sealed class MarkupLoadOptions : LoadOptions
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebLoadOptions instead.")]
+public sealed class MarkupLoadOptions : WebLoadOptions
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [MarkupLoadOptions](markuploadoptions)() | aktör |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [BasePath](../../groupdocs.conversion.options.load/markuploadoptions/basepath) { get; set; } | html için temel yol/url |
-| [Encoding](../../groupdocs.conversion.options.load/markuploadoptions/encoding) { get; set; } | İşaretleme belgesini yüklerken kullanılacak kodlamayı alır veya ayarlar. Özellik boşsa, kodlama belge karakter kümesi özniteliği 'den belirlenir |
-| [Format](../../groupdocs.conversion.options.load/markuploadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | html için temel yol/url |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | İşaretleme belgesini yüklerken kullanılacak kodlamayı alır veya ayarlar. Özellik null ise, kodlama belge karakter kümesinin niteliğine göre belirlenir. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Girdi belgesi dosya türü. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Girdi belgesi dosya türü. |
-| [PageNumbering](../../groupdocs.conversion.options.load/markuploadoptions/pagenumbering) { get; set; } | Dönüştürülen belgede sayfa numaralandırma oluşturmayı etkinleştirin veya devre dışı bırakın. Varsayılan: false |
-| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/markuploadoptions/resourceloadingtimeout) { get; set; } | Harici kaynakları yüklemek için zaman aşımı |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Dönüştürülen belgede sayfa numaralandırma oluşturmayı etkinleştirin veya devre dışı bırakın. Varsayılan: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Harici kaynakları yüklemek için zaman aşımı |
 
 ## yöntemler
 
@@ -41,7 +36,7 @@ public sealed class MarkupLoadOptions : LoadOptions
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../loadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * ad alanı [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * toplantı [GroupDocs.Conversion](../../)
 

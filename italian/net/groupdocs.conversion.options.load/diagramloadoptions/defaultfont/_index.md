@@ -8,7 +8,7 @@ url: /it/net/groupdocs.conversion.options.load/diagramloadoptions/defaultfont/
 ---
 ## DiagramLoadOptions.DefaultFont property
 
-Carattere predefinito per il documento Diagramma. Se manca un carattere verrà utilizzato il seguente carattere.
+Carattere predefinito per il documento Diagramma. Se manca un carattere, verrà utilizzato il seguente carattere.
 
 ```csharp
 public string DefaultFont { get; set; }

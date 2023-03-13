@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Описывает перечисление опций завершающих пробелов txt.
 type: docs
-weight: 2060
+weight: 2310
 url: /ru/net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

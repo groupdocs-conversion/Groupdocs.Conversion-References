@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Serve come funzione hash predefinita.
+description: Funge da funzione hash predefinita.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.contracts/valueobject/gethashcode/
 ---
 ## ValueObject.GetHashCode method
 
-Serve come funzione hash predefinita.
+Funge da funzione hash predefinita.
 
 ```csharp
 public override int GetHashCode()

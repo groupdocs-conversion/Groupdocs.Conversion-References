@@ -1,14 +1,14 @@
 ---
 title: DefaultFont
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Carattere predefinito per il documento Note. Se manca un carattere verrà utilizzato il seguente carattere. È necessario fornire un percorso assoluto al file del carattere.
+description: Carattere predefinito per il documento Note. Se manca un carattere verrà utilizzato il seguente carattere.
 type: docs
 weight: 20
 url: /it/net/groupdocs.conversion.options.load/noteloadoptions/defaultfont/
 ---
 ## NoteLoadOptions.DefaultFont property
 
-Carattere predefinito per il documento Note. Se manca un carattere, verrà utilizzato il seguente carattere. È necessario fornire un percorso assoluto al file del carattere.
+Carattere predefinito per il documento Note. Se manca un carattere, verrà utilizzato il seguente carattere.
 
 ```csharp
 public string DefaultFont { get; set; }

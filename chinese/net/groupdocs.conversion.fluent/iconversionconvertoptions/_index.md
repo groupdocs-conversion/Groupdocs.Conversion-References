@@ -3,7 +3,7 @@ title: IConversionConvertOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 转换转换选项
 type: docs
-weight: 1080
+weight: 1210
 url: /zh/net/groupdocs.conversion.fluent/iconversionconvertoptions/
 ---
 ## IConversionConvertOptions interface
@@ -18,8 +18,8 @@ public interface IConversionConvertOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(ConvertOptions) | 设置转换选项 |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptionsProvider) | 设置转换选项 |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions)(ConvertOptions) | 设置转换选项 |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionconvertoptions/withoptions#withoptions_1)(Func&lt;string, FileType, ConvertOptions&gt;) | 设置转换选项 |
 
 ### 也可以看看
 

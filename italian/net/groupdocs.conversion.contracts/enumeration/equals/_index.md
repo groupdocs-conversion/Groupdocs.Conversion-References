@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Valore di ritorno
 
-`VERO` se l'oggetto specificato è uguale all'oggetto corrente; altrimenti,`falso`.
+`VERO` se l'oggetto specificato è uguale all'oggetto corrente; Altrimenti,`falso`.
 
 ### Guarda anche
 
@@ -44,7 +44,7 @@ public virtual bool Equals(Enumeration other)
 
 ### Valore di ritorno
 
-`VERO` se l'oggetto specificato è uguale all'oggetto corrente; altrimenti,`falso`.
+`VERO` se l'oggetto specificato è uguale all'oggetto corrente; Altrimenti,`falso`.
 
 ### Guarda anche
 

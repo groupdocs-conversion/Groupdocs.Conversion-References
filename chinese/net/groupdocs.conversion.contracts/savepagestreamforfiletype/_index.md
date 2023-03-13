@@ -3,7 +3,7 @@ title: SavePageStreamForFileType
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 描述将转换后的文档页面保存到流中的委托
 type: docs
-weight: 460
+weight: 500
 url: /zh/net/groupdocs.conversion.contracts/savepagestreamforfiletype/
 ---
 ## SavePageStreamForFileType delegate
@@ -17,7 +17,7 @@ public delegate Stream SavePageStreamForFileType(int pageNumber, FileType fileTy
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageNumber | Int32 | 转换后的页码 |
-| fileType | FileType | 转换的文档类型 |
+| fileType | FileType | 转换后的文档类型 |
 
 ### 返回值
 

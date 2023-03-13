@@ -1,14 +1,14 @@
 ---
 title: AutoFontSubstitution
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 如果 AutoFontSubstitution 被禁用GroupDocs.Conversion 使用 DefaultFont 替换缺失的字体如果启用 AutoFontSubstitution GroupDocs.Conversion 会评估 FontInfoPanoseSig 等中缺失字体的所有相关字段并在可用字体源中找到最接近的匹配项 请注意字体替换机制将在以下情况下覆盖 DefaultFont文档中提供了缺失字体的 FontInfo默认值为 True.
+description: 如果禁用 AutoFontSubstitutionGroupDocs.Conversion 将使用 DefaultFont 替换缺失的字体如果启用了 AutoFontSubstitution GroupDocs.Conversion 会评估 FontInfo 中的所有相关字段PanoseSig 等以查找缺失字体并在可用字体源中找到最接近的匹配项 请注意字体替换机制将在以下情况下覆盖 DefaultFont缺失字体的 FontInfo 在文档中可用默认值为 True.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution/
 ---
 ## WordProcessingLoadOptions.AutoFontSubstitution property
 
-如果 AutoFontSubstitution 被禁用，GroupDocs.Conversion 使用 DefaultFont 替换缺失的字体。如果启用 AutoFontSubstitution， GroupDocs.Conversion 会评估 FontInfo（Panose、Sig 等）中缺失字体的所有相关字段，并在可用字体源中找到最接近的匹配项。 请注意，字体替换机制将在以下情况下覆盖 DefaultFont文档中提供了缺失字体的 FontInfo。默认值为 True.
+如果禁用 AutoFontSubstitution，GroupDocs.Conversion 将使用 DefaultFont 替换缺失的字体。如果启用了 AutoFontSubstitution， GroupDocs.Conversion 会评估 FontInfo 中的所有相关字段（Panose、Sig 等）以查找缺失字体，并在可用字体源中找到最接近的匹配项。 请注意，字体替换机制将在以下情况下覆盖 DefaultFont缺失字体的 FontInfo 在文档中可用。默认值为 True.
 
 ```csharp
 public bool AutoFontSubstitution { get; set; }

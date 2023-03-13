@@ -3,7 +3,7 @@ title: VcfLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
 description: Vcf belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2070
+weight: 2320
 url: /tr/net/groupdocs.conversion.options.load/vcfloadoptions/
 ---
 ## VcfLoadOptions class

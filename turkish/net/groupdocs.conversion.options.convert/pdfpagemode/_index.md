@@ -1,14 +1,14 @@
 ---
 title: PdfPageMode
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Pdf sayfası modunu açıklar
+description: Pdf sayfasını açıklar mode
 type: docs
-weight: 1630
+weight: 1810
 url: /tr/net/groupdocs.conversion.options.convert/pdfpagemode/
 ---
 ## PdfPageMode class
 
-Pdf sayfası modunu açıklar
+Pdf sayfasını açıklar mode
 
 ```csharp
 public class PdfPageMode : Enumeration
@@ -18,7 +18,7 @@ public class PdfPageMode : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfPageMode](pdfpagemode)() | Serileştirme yapıcısı |
+| [PdfPageMode](pdfpagemode)() | Serileştirme oluşturucu |
 
 ## yöntemler
 
@@ -34,12 +34,12 @@ public class PdfPageMode : Enumeration
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [FullScreen](../../groupdocs.conversion.options.convert/pdfpagemode/fullscreen) | Tam Ekran Menü çubuğu, pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu. |
+| static readonly [FullScreen](../../groupdocs.conversion.options.convert/pdfpagemode/fullscreen) | FullScreenMenü çubuğu, pencere kontrolleri veya başka herhangi bir pencerenin görünmediği tam ekran modu. |
 | static readonly [UseAttachments](../../groupdocs.conversion.options.convert/pdfpagemode/useattachments) | Ekler paneli görünür. |
 | static readonly [UseNone](../../groupdocs.conversion.options.convert/pdfpagemode/usenone) | Herhangi bir bileşen kullanmayın. |
 | static readonly [UseOC](../../groupdocs.conversion.options.convert/pdfpagemode/useoc) | İsteğe bağlı içerik grubu paneli görünür. |
-| static readonly [UseOutlines](../../groupdocs.conversion.options.convert/pdfpagemode/useoutlines) | Belge anahattı görünür. |
-| static readonly [UseThumbs](../../groupdocs.conversion.options.convert/pdfpagemode/usethumbs) | Küçük resimler görülebilir. |
+| static readonly [UseOutlines](../../groupdocs.conversion.options.convert/pdfpagemode/useoutlines) | Belge taslağı görünür. |
+| static readonly [UseThumbs](../../groupdocs.conversion.options.convert/pdfpagemode/usethumbs) | Küçük resimler görünür. |
 
 ### Ayrıca bakınız
 

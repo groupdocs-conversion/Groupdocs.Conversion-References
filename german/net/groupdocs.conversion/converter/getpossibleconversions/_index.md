@@ -16,7 +16,7 @@ public PossibleConversions GetPossibleConversions()
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu unterstützten Conversions: [Vollständige Liste der unterstützten Konvertierungen](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Weitere Informationen zu verfügbaren Conversions: [So erhalten Sie unterstützte Konvertierungen im Code](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)
@@ -44,7 +44,7 @@ public static PossibleConversions GetPossibleConversions(string extension)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu unterstützten Conversions: [Vollständige Liste der unterstützten Konvertierungen](https://docs.groupdocs.com/display/conversionnet/Supported+Document+Formats)
 * Weitere Informationen zu verfügbaren Conversions: [So erhalten Sie unterstützte Konvertierungen im Code](https://docs.groupdocs.com/display/conversionnet/Get+possible+conversions)

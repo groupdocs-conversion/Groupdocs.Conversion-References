@@ -3,7 +3,7 @@ title: Dotm
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل ملف بامتداد DOTM ملف قالب تم إنشاؤه باستخدام Microsoft Word 2007 أو أعلى . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/
 ---
 ## WordProcessingFileType.Dotm field

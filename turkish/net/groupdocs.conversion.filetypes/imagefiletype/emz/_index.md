@@ -1,14 +1,14 @@
 ---
 title: Emz
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: Bir EMZ dosyası aslında bir Microsoft EMF dosyasının sıkıştırılmış bir sürümüdür. Bu dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir EMF dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında ona .emz dosya uzantısı verilir.
+description: Bir EMZ dosyası aslında bir Microsoft EMF dosyasının sıkıştırılmış bir sürümüdür. Bu dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir EMF dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında dosyaya .emz dosya uzantısı verilir.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/groupdocs.conversion.filetypes/imagefiletype/emz/
 ---
 ## ImageFileType.Emz field
 
-Bir EMZ dosyası, aslında bir Microsoft EMF dosyasının sıkıştırılmış bir sürümüdür. Bu, dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir EMF dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında, ona .emz dosya uzantısı verilir.
+Bir EMZ dosyası aslında bir Microsoft EMF dosyasının sıkıştırılmış bir sürümüdür. Bu, dosyanın çevrimiçi olarak daha kolay dağıtılmasını sağlar. Bir EMF dosyası .GZIP sıkıştırma algoritması kullanılarak sıkıştırıldığında, dosyaya .emz dosya uzantısı verilir.
 
 ```csharp
 public static readonly ImageFileType Emz;

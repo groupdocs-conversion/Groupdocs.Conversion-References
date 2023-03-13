@@ -3,7 +3,7 @@ title: Grayscale
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Преобразование PDFфайла из цветового пространства RGB в оттенки серого
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 ---
 ## PdfOptions.Grayscale property

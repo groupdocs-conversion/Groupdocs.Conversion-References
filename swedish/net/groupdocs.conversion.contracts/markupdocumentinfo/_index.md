@@ -3,7 +3,7 @@ title: MarkupDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Innehåller markupdokumentmetadata
 type: docs
-weight: 310
+weight: 330
 url: /sv/net/groupdocs.conversion.contracts/markupdocumentinfo/
 ---
 ## MarkupDocumentInfo class
@@ -11,7 +11,8 @@ url: /sv/net/groupdocs.conversion.contracts/markupdocumentinfo/
 Innehåller markup-dokumentmetadata
 
 ```csharp
-public class MarkupDocumentInfo : DocumentInfo
+[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
+public class MarkupDocumentInfo : WebDocumentInfo
 ```
 
 ## Egenskaper
@@ -19,7 +20,7 @@ public class MarkupDocumentInfo : DocumentInfo
 | namn | Beskrivning |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Dokument skapades datum |
-| [Encoding](../../groupdocs.conversion.contracts/markupdocumentinfo/encoding) { get; } | Identifierad dokumentkodning |
+| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Identifierad dokumentkodning |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Dokumentformat |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Få värde för en egenskap som tillhandahålls som en nyckel |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Dokumentsidor räknas. |
@@ -28,7 +29,7 @@ public class MarkupDocumentInfo : DocumentInfo
 
 ### Se även
 
-* class [DocumentInfo](../documentinfo)
+* class [WebDocumentInfo](../webdocumentinfo)
 * namnutrymme [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * hopsättning [GroupDocs.Conversion](../../)
 

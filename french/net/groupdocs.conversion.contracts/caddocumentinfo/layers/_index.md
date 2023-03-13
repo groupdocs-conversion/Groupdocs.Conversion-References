@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 Calques dans le document
 
 ```csharp
-public IEnumerable<string> Layers { get; }
+public IList<string> Layers { get; }
 ```
 
 ### Voir également

@@ -1,14 +1,14 @@
 ---
 title: Ifc
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 具有 IFC 扩展名的文件是指工业基础类 IFC 文件格式它建立了用于导入和导出建筑对象及其属性的国际标准这种文件格式提供了不同软件应用程序之间的互操作性 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/ifc.
+description: 具有 IFC 扩展名的文件是指建立国际标准以导入和导出建筑对象及其属性的行业基础类 IFC 文件格式此文件格式提供不同软件应用程序之间的互操作性 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/ifc.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.conversion.filetypes/cadfiletype/ifc/
 ---
 ## CadFileType.Ifc field
 
-具有 IFC 扩展名的文件是指工业基础类 (IFC) 文件格式，它建立了用于导入和导出建筑对象及其属性的国际标准。这种文件格式提供了不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc).
+具有 IFC 扩展名的文件是指建立国际标准以导入和导出建筑对象及其属性的行业基础类 (IFC) 文件格式。此文件格式提供不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc).
 
 ```csharp
 public static readonly CadFileType Ifc;

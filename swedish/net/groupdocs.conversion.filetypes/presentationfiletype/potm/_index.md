@@ -1,14 +1,14 @@
 ---
 title: Potm
 second_title: GroupDocs.Conversion for .NET API Referens
-description: Filer med POTMtillägg är Microsoft PowerPointmallfiler med stöd för makron. POTMfiler skapas med PowerPoint 2007 eller högre och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/presentation/potm .
+description: Filer med POTMtillägg är Microsoft PowerPointmallfiler med stöd för makron. POTMfiler skapas med PowerPoint 2007 eller senare och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/presentation/potm .
 type: docs
 weight: 60
 url: /sv/net/groupdocs.conversion.filetypes/presentationfiletype/potm/
 ---
 ## PresentationFileType.Potm field
 
-Filer med POTM-tillägg är Microsoft PowerPoint-mallfiler med stöd för makron. POTM-filer skapas med PowerPoint 2007 eller högre och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/potm) .
+Filer med POTM-tillägg är Microsoft PowerPoint-mallfiler med stöd för makron. POTM-filer skapas med PowerPoint 2007 eller senare och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/potm) .
 
 ```csharp
 public static readonly PresentationFileType Potm;

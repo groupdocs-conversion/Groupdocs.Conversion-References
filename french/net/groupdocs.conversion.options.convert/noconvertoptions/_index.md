@@ -3,7 +3,7 @@ title: NoConvertOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Classe doption de conversion spéciale qui demande au convertisseur de copier le document source sans aucun traitement
 type: docs
-weight: 1530
+weight: 1690
 url: /fr/net/groupdocs.conversion.options.convert/noconvertoptions/
 ---
 ## NoConvertOptions class

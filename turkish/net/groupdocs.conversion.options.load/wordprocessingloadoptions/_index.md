@@ -1,14 +1,14 @@
 ---
 title: WordProcessingLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Conversion
-description: WordProcessing belgelerini yükleme seçenekleri.
+description: Kelime İşleme belgelerini yüklemek için seçenekler.
 type: docs
-weight: 2100
+weight: 2360
 url: /tr/net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
 
-WordProcessing belgelerini yükleme seçenekleri.
+Kelime İşleme belgelerini yüklemek için seçenekler.
 
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions
@@ -34,7 +34,7 @@ public class WordProcessingLoadOptions : LoadOptions
 | [HideComments](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments) { get; set; } | Yorumları gizle. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | İşaretlemeyi gizleyin ve Word belgeleri için değişiklikleri izleyin. |
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Tarih alanının orijinal değerini koruyun. Varsayılan: false |
-| [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Korunan belgenin korumasını kaldırmak için parola belirleyin. |
+| [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Korumalı belgenin korumasını kaldırmak için parola ayarlayın. |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Microsoft Word form alanlarının PDF'de form alanları olarak mı korunacağını yoksa metne mi dönüştürüleceğini belirtir. Varsayılan değer false. |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Yüklemeden sonra alanları güncelleyin. Varsayılan: false |
 | [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Yüklemeden sonra sayfa düzenini güncelleyin. Varsayılan: false |

@@ -1,14 +1,14 @@
 ---
 title: ThreeDFileType
 second_title: GroupDocs.Conversion لمرجع .NET API
-description: تعريف المستندات ثلاثية الأبعاد يشمل الأنواع التالية Fbx./threedfiletype/fbx تعرف على المزيد حول التنسيقات ثلاثية الأبعادهناhttps//wiki.fileformat.com/3d .
+description: تعريف المستندات ثلاثية الأبعاد يشمل الأنواع التالية Fbx./threedfiletype/fbxThreeDS./threedfiletype/threedsThreeMF./threedfiletype/threemfAmf./threedfiletype/amfAse./threedfiletype/aseRvm./threedfiletype/rvmDae./threedfiletype/daeDrc./threedfiletype/drcGltf./threedfiletype/gltfObj./threedfiletype/objPly./threedfiletype/plyJt./threedfiletype/jtU3d./threedfiletype/u3dUsd./threedfiletype/usdUsdz./threedfiletype/usdzVrml./threedfiletype/vrmlX./threedfiletype/x تعرف على المزيد حول التنسيقات ثلاثية الأبعادهناhttps//wiki.fileformat.com/3d .
 type: docs
-weight: 940
+weight: 1060
 url: /ar/net/groupdocs.conversion.filetypes/threedfiletype/
 ---
 ## ThreeDFileType class
 
-تعريف المستندات ثلاثية الأبعاد يشمل الأنواع التالية: [`Fbx`](./fbx) تعرف على المزيد حول التنسيقات ثلاثية الأبعاد[هنا](https://wiki.fileformat.com/3d) .
+تعريف المستندات ثلاثية الأبعاد يشمل الأنواع التالية: [`Fbx`](./fbx)[`ThreeDS`](./threeds)[`ThreeMF`](./threemf)[`Amf`](./amf)[`Ase`](./ase)[`Rvm`](./rvm)[`Dae`](./dae)[`Drc`](./drc)[`Gltf`](./gltf)[`Obj`](./obj)[`Ply`](./ply)[`Jt`](./jt)[`U3d`](./u3d)[`Usd`](./usd)[`Usdz`](./usdz)[`Vrml`](./vrml)[`X`](./x) تعرف على المزيد حول التنسيقات ثلاثية الأبعاد[هنا](https://wiki.fileformat.com/3d) .
 
 ```csharp
 public sealed class ThreeDFileType : FileType
@@ -34,7 +34,7 @@ public sealed class ThreeDFileType : FileType
 | اسم | وصف |
 | --- | --- |
 | [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | مقارنة الكائن الحالي بآخر . |
-| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
+| override [Equals](../../groupdocs.conversion.filetypes/filetype/equals)(Enumeration) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | تحديد ما إذا كان مثيلا الكائن متساويان. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | تعمل كوظيفة تجزئة افتراضية . |
 | override [ToString](../../groupdocs.conversion.filetypes/filetype/tostring)() | تمثيل السلسلة |

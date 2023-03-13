@@ -11,11 +11,12 @@ url: /sv/net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 Mappar i lagringen
 
 ```csharp
-public IList<string> Folders { get; }
+public IList<PersonalStorageFolderInfo> Folders { get; }
 ```
 
 ### Se även
 
+* class [PersonalStorageFolderInfo](../../personalstoragefolderinfo)
 * class [PersonalStorageDocumentInfo](../../personalstoragedocumentinfo)
 * namnutrymme [GroupDocs.Conversion.Contracts](../../personalstoragedocumentinfo)
 * hopsättning [GroupDocs.Conversion](../../../)

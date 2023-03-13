@@ -1,14 +1,14 @@
 ---
 title: ThreeDLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 初始化的新实例ThreeDLoadOptionsgroupdocs.conversion.options.load/threedloadoptions类.
+description: 初始化新实例ThreeDLoadOptionsgroupdocs.conversion.options.load/threedloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.conversion.options.load/threedloadoptions/threedloadoptions/
 ---
 ## ThreeDLoadOptions constructor
 
-初始化的新实例[`ThreeDLoadOptions`](../../threedloadoptions)类.
+初始化新实例[`ThreeDLoadOptions`](../../threedloadoptions)类.
 
 ```csharp
 public ThreeDLoadOptions()

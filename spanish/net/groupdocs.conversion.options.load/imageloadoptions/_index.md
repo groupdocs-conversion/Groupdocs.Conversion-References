@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: Referencia de API de GroupDocs.Conversion para .NET
 description: Opciones para cargar documentos de Imagen.
 type: docs
-weight: 1920
+weight: 2150
 url: /es/net/groupdocs.conversion.options.load/imageloadoptions/
 ---
 ## ImageLoadOptions class

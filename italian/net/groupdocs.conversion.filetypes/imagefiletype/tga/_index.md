@@ -1,14 +1,14 @@
 ---
 title: Tga
 second_title: Riferimento API GroupDocs.Conversion per .NET
-description: Un file con estensione .tga è un formato grafico raster ed è stato creato da Truevision Inc. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/image/tga .
+description: Un file con estensione .tga è un formato grafico raster ed è stato creato da Truevision Inc. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/image/tga .
 type: docs
-weight: 350
+weight: 320
 url: /it/net/groupdocs.conversion.filetypes/imagefiletype/tga/
 ---
 ## ImageFileType.Tga field
 
-Un file con estensione .tga è un formato grafico raster ed è stato creato da Truevision Inc. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/image/tga) .
+Un file con estensione .tga è un formato grafico raster ed è stato creato da Truevision Inc. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/image/tga) .
 
 ```csharp
 public static readonly ImageFileType Tga;

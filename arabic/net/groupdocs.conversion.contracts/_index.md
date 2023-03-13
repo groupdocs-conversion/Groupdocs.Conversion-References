@@ -30,10 +30,12 @@ url: /ar/net/groupdocs.conversion.contracts/
 | [Enumeration](./enumeration) | فئة التعداد العام . |
 | [EpsDocumentInfo](./epsdocumentinfo) | يحتوي على بيانات وصفية لمستند Ps |
 | [EpubDocumentInfo](./epubdocumentinfo) | يحتوي على بيانات تعريف مستند Epub |
+| [FontDocumentInfo](./fontdocumentinfo) | يحتوي على بيانات تعريف مستند الخط |
 | [FontSubstitute](./fontsubstitute) | يصف استبدال الخط المفقود. |
 | [GzipDocumentInfo](./gzipdocumentinfo) | يحتوي على بيانات تعريف مستند Gzip |
 | [IcoDocumentInfo](./icodocumentinfo) | يحتوي على بيانات تعريف مستند Ico |
 | [ImageDocumentInfo](./imagedocumentinfo) | يحتوي على بيانات وصفية لمستند الصورة |
+| [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | يحتوي على بيانات تعريف مستند iXbrl |
 | [JsonDocumentInfo](./jsondocumentinfo) | يحتوي على البيانات الوصفية لمستند Json |
 | [LzipDocumentInfo](./lzipdocumentinfo) | يحتوي على بيانات تعريف مستند Lzip |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | يحتوي على بيانات تعريف مستند Lzma |
@@ -43,11 +45,13 @@ url: /ar/net/groupdocs.conversion.contracts/
 | [PclDocumentInfo](./pcldocumentinfo) | يحتوي على بيانات وصفية لمستند Pcl |
 | [PdfDocumentInfo](./pdfdocumentinfo) | يحتوي على بيانات وصفية لمستند Pdf |
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | يحتوي على بيانات وصفية لمستند التخزين الشخصي |
+| [PersonalStorageFolderInfo](./personalstoragefolderinfo) | معلومات مجلد التخزين الشخصي |
 | [PossibleConversions](./possibleconversions) | يمثل تعيين أزواج التحويل المدعومة لتنسيق ملف مصدر محدد |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | يحتوي على بيانات وصفية لمستند العرض التقديمي |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | يحتوي على بيانات تعريف وثيقة ProjectManagement |
 | [PsdDocumentInfo](./psddocumentinfo) | يحتوي على بيانات وصفية لمستند Psd |
 | [PsDocumentInfo](./psdocumentinfo) | يحتوي على بيانات وصفية لمستند Ps |
+| [PublisherDocumentInfo](./publisherdocumentinfo) | يحتوي على بيانات وصفية لمستند الناشر |
 | [RarDocumentInfo](./rardocumentinfo) | يحتوي على بيانات وصفية لمستند Rar |
 | [SaveDocumentStream](./savedocumentstream) | يصف المفوض لحفظ المستند المحول إلى دفق. |
 | [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | يصف المفوض لحفظ المستند المحول إلى دفق. |
@@ -66,7 +70,9 @@ url: /ar/net/groupdocs.conversion.contracts/
 | [ValueObject](./valueobject) | فئة كائن القيمة المجردة. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | يحتوي على بيانات تعريف مستند Vcf |
 | [VideoDocumentInfo](./videodocumentinfo) | يحتوي على بيانات وصفية لمستند الفيديو |
+| [WebDocumentInfo](./webdocumentinfo) | يحتوي على بيانات وصفية لمستند التوصيف |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | يحتوي على بيانات تعريف مستند معالجة الكلمات |
+| [XbrlDocumentInfo](./xbrldocumentinfo) | يحتوي على بيانات تعريف مستند Xbrl |
 | [XmlDocumentInfo](./xmldocumentinfo) | يحتوي على بيانات تعريف مستند Xml |
 | [XpsDocumentInfo](./xpsdocumentinfo) | يحتوي على بيانات تعريف مستند Xps |
 | [XslFoDocumentInfo](./xslfodocumentinfo) | يحتوي على بيانات تعريف مستند XslFo |

@@ -1,14 +1,14 @@
 ---
 title: IsHtml
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 获取的是 html
+description: 得到的是 html
 type: docs
 weight: 40
 url: /zh/net/groupdocs.conversion.contracts/emaildocumentinfo/ishtml/
 ---
 ## EmailDocumentInfo.IsHtml property
 
-获取的是 html
+得到的是 html
 
 ```csharp
 public bool IsHtml { get; }

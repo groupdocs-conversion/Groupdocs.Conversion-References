@@ -3,7 +3,7 @@ title: TargetConversion
 second_title: GroupDocs.Conversion لمرجع .NET API
 description: يمثل التحويل المستهدف المحتمل وعلامة هل هي أساسي أم ثانوي_
 type: docs
-weight: 520
+weight: 560
 url: /ar/net/groupdocs.conversion.contracts/targetconversion/
 ---
 ## TargetConversion class

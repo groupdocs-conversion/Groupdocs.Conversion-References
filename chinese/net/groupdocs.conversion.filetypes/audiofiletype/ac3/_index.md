@@ -1,14 +1,14 @@
 ---
 title: Ac3
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 扩展名为 .ac3 的文件是一种音频编解码器 3 文件由杜比实验室推出它是一种音频格式最多可包含六个音频输出通道 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/ac3/
+description: 扩展名为 .ac3 的文件是杜比实验室推出的 Audio Codec 3 文件它是一种音频格式最多可包含六个音频输出通道 了解有关此文件格式的更多信息这里https//docs.fileformat.com/audio/ac3/
 type: docs
 weight: 30
 url: /zh/net/groupdocs.conversion.filetypes/audiofiletype/ac3/
 ---
 ## AudioFileType.Ac3 field
 
-扩展名为 .ac3 的文件是一种音频编解码器 3 文件，由杜比实验室推出。它是一种音频格式，最多可包含六个音频输出通道。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/ac3/)
+扩展名为 .ac3 的文件是杜比实验室推出的 Audio Codec 3 文件。它是一种音频格式，最多可包含六个音频输出通道。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/audio/ac3/)
 
 ```csharp
 public static readonly AudioFileType Ac3;

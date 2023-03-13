@@ -3,7 +3,7 @@ title: ValueObject
 second_title: Riferimento API GroupDocs.Conversion per .NET
 description: Classe oggetto valore astratto.
 type: docs
-weight: 570
+weight: 610
 url: /it/net/groupdocs.conversion.contracts/valueobject/
 ---
 ## ValueObject class
@@ -20,7 +20,7 @@ public abstract class ValueObject : IEquatable<ValueObject>
 | --- | --- |
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals_1)(object) | Determina se due istanze di oggetto sono uguali. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals#equals)(ValueObject) | Determina se due istanze di oggetto sono uguali. |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serve come funzione hash predefinita. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Funge da funzione hash predefinita. |
 | [operator ==](../../groupdocs.conversion.contracts/valueobject/op_equality) | Operatore di uguaglianza. |
 | [operator !=](../../groupdocs.conversion.contracts/valueobject/op_inequality) | Operatore di disuguaglianza. |
 

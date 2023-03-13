@@ -6,29 +6,28 @@ type: docs
 weight: 20
 url: /zh/net/groupdocs.conversion/converter/convert/
 ---
-## Convert(SaveDocumentStream, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, ConvertOptions) {#convert}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStream | 将转换后的文档保存到流的委托。 |
+| document | Func`1 | 将转换后的文档保存到流中的委托。 |
 | convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -36,32 +35,30 @@ public void Convert(SaveDocumentStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStream | 将转换后的文档保存到流的委托。 |
-| documentCompleted | ConvertedDocumentStream | 接收转换后的文档流的委托。 |
+| document | Func`1 | 将转换后的文档保存到流中的委托。 |
+| documentCompleted | Action`2 | 接收转换文档流的委托. 文件内容流文件名 |
 | convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -69,92 +66,30 @@ public void Convert(SaveDocumentStream document, ConvertedDocumentStream documen
 
 ---
 
-## Convert(SaveDocumentStream, ConvertOptionsProvider) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStream | 将转换后的文档保存到流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`1 | 将转换后的文档保存到流中的委托。 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* 命名空间 [GroupDocs.Conversion](../../converter)
-* 部件 [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStream, ConvertedDocumentStream, ConvertOptionsProvider) {#convert}
-
-转换源文档。保存整个转换后的文档。
-
-```csharp
-public void Convert(SaveDocumentStream document, ConvertedDocumentStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| document | SaveDocumentStream | 将转换后的文档保存到流的委托。 |
-| documentCompleted | ConvertedDocumentStream | 接收转换后的文档流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
-
-### 评论
-
-**学到更多**
-
-* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### 也可以看看
-
-* delegate [SaveDocumentStream](../../../groupdocs.conversion.contracts/savedocumentstream)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* 命名空间 [GroupDocs.Conversion](../../converter)
-* 部件 [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SaveDocumentStreamForFileType, ConvertOptions) {#convert_7}
-
-转换源文档。保存整个转换后的文档。
-
-```csharp
-public void Convert(SaveDocumentStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| document | SaveDocumentStreamForFileType | 将转换后的文档保存到流的委托。 |
-| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
-
-### 评论
-
-**学到更多**
-
-* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### 也可以看看
-
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -162,32 +97,31 @@ public void Convert(SaveDocumentStreamForFileType document, ConvertOptions conve
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptions) {#convert_5}
+## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptions convertOptions)
+public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | 将转换后的文档保存到流的委托。 |
-| documentCompleted | ConvertedDocumentStream | 接收转换后的文档流的委托。 |
-| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
+| document | Func`1 | 将转换后的文档保存到流中的委托。 |
+| documentCompleted | Action`2 | 接收转换文档流的委托. 文件内容流文件名 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -195,64 +129,125 @@ public void Convert(SaveDocumentStreamForFileType document,
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertOptionsProvider) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | 将转换后的文档保存到流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 源文件的类型 |
+| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
 * 部件 [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SaveDocumentStreamForFileType, ConvertedDocumentStream, ConvertOptionsProvider) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
 
 转换源文档。保存整个转换后的文档。
 
 ```csharp
-public void Convert(SaveDocumentStreamForFileType document, 
-    ConvertedDocumentStream documentCompleted, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SaveDocumentStreamForFileType | 将转换后的文档保存到流的委托。 |
-| documentCompleted | ConvertedDocumentStream | 接收转换后的文档流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 源文件的类型 |
+| documentCompleted | Action`2 | 接收转换文档流的委托. 文件内容流文件名 |
+| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SaveDocumentStreamForFileType](../../../groupdocs.conversion.contracts/savedocumentstreamforfiletype)
-* delegate [ConvertedDocumentStream](../../../groupdocs.conversion.contracts/converteddocumentstream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* 命名空间 [GroupDocs.Conversion](../../converter)
+* 部件 [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
+
+转换源文档。保存整个转换后的文档。
+
+```csharp
+public void Convert(Func<FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 源文件的类型 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
+
+### 评论
+
+**了解更多**
+
+* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### 也可以看看
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* 命名空间 [GroupDocs.Conversion](../../converter)
+* 部件 [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
+
+转换源文档。保存整个转换后的文档。
+
+```csharp
+public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 源文件的类型 |
+| documentCompleted | Action`2 | 接收转换文档流的委托. 文件内容流文件名 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
+
+### 评论
+
+**了解更多**
+
+* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### 也可以看看
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
 * 部件 [GroupDocs.Conversion](../../../)
@@ -274,7 +269,7 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
@@ -288,29 +283,28 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertOptions) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStream | 将转换后的文档保存到流的委托。 |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 页码 |
 | convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -318,32 +312,30 @@ public void Convert(SavePageStream document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStream | 将转换后的文档页面保存到流的委托。 |
-| documentCompleted | ConvertedPageStream | 接收转换后的文档页面流的委托。 |
+| document | Func`2 | 将转换后的文档页面保存到流中的委托。 页码 |
+| documentCompleted | Action`3 | 接收转换文档页面流的委托. 页码文件内容流文件名 |
 | convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -351,92 +343,30 @@ public void Convert(SavePageStream document, ConvertedPageStream documentComplet
 
 ---
 
-## Convert(SavePageStream, ConvertOptionsProvider) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStream document, ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStream | 将转换后的文档保存到流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`2 | 将转换后的文档保存到流中的委托。 页码 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* 命名空间 [GroupDocs.Conversion](../../converter)
-* 部件 [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStream, ConvertedPageStream, ConvertOptionsProvider) {#convert_8}
-
-转换源文档。逐页保存转换后的文档。
-
-```csharp
-public void Convert(SavePageStream document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| document | SavePageStream | 将转换后的文档页面保存到流的委托。 |
-| documentCompleted | ConvertedPageStream | 接收转换后的文档页面流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
-
-### 评论
-
-**学到更多**
-
-* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### 也可以看看
-
-* delegate [SavePageStream](../../../groupdocs.conversion.contracts/savepagestream)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
-* class [Converter](../../converter)
-* 命名空间 [GroupDocs.Conversion](../../converter)
-* 部件 [GroupDocs.Conversion](../../../)
-
----
-
-## Convert(SavePageStreamForFileType, ConvertOptions) {#convert_15}
-
-转换源文档。逐页保存转换后的文档。
-
-```csharp
-public void Convert(SavePageStreamForFileType document, ConvertOptions convertOptions)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| document | SavePageStreamForFileType | 将转换后的文档保存到流的委托。 |
-| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
-
-### 评论
-
-**学到更多**
-
-* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
-* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
-
-### 也可以看看
-
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -444,32 +374,31 @@ public void Convert(SavePageStreamForFileType document, ConvertOptions convertOp
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | 将转换后的文档页面保存到流的委托。 |
-| documentCompleted | ConvertedPageStream | 接收转换后的文档页面流的委托。 |
-| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
+| document | Func`2 | 将转换后的文档页面保存到流中的委托。 页码 |
+| documentCompleted | Action`3 | 接收转换文档页面流的委托. 页码文件内容流文件名 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
@@ -477,64 +406,126 @@ public void Convert(SavePageStreamForFileType document, ConvertedPageStream docu
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertOptionsProvider) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | 将转换后的文档保存到流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`3 | 将转换后的文档保存到流中的委托。 页码 |
+| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
 * 部件 [GroupDocs.Conversion](../../../)
 
 ---
 
-## Convert(SavePageStreamForFileType, ConvertedPageStream, ConvertOptionsProvider) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
 
 转换源文档。逐页保存转换后的文档。
 
 ```csharp
-public void Convert(SavePageStreamForFileType document, ConvertedPageStream documentCompleted, 
-    ConvertOptionsProvider convertOptionsProvider)
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | SavePageStreamForFileType | 将转换后的文档页面保存到流的委托。 |
-| documentCompleted | ConvertedPageStream | 接收转换后的文档页面流的委托。 |
-| convertOptionsProvider | ConvertOptionsProvider | 转换选项提供程序。将在每次转换时调用，以向所需的目标文档类型提供特定的转换选项。 |
+| document | Func`3 | 将转换后的文档页面保存到流中的委托。 页码文件类型 |
+| documentCompleted | Action`3 | 接收转换文档页面流的委托. 页码文件内容流文件名 |
+| convertOptions | ConvertOptions | 特定于所需目标文件类型的转换选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
 * 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ### 也可以看看
 
-* delegate [SavePageStreamForFileType](../../../groupdocs.conversion.contracts/savepagestreamforfiletype)
-* delegate [ConvertedPageStream](../../../groupdocs.conversion.contracts/convertedpagestream)
-* delegate [ConvertOptionsProvider](../../../groupdocs.conversion.contracts/convertoptionsprovider)
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* 命名空间 [GroupDocs.Conversion](../../converter)
+* 部件 [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
+
+转换源文档。逐页保存转换后的文档。
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| document | Func`3 | 将转换后的文档保存到流中的委托。 页码文件类型 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
+
+### 评论
+
+**了解更多**
+
+* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### 也可以看看
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
+* class [Converter](../../converter)
+* 命名空间 [GroupDocs.Conversion](../../converter)
+* 部件 [GroupDocs.Conversion](../../../)
+
+---
+
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
+
+转换源文档。逐页保存转换后的文档。
+
+```csharp
+public void Convert(Func<int, FileType, Stream> document, 
+    Action<int, Stream, string> documentCompleted, 
+    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| document | Func`3 | 将转换后的文档页面保存到流中的委托。 页码文件类型 |
+| documentCompleted | Action`3 | 接收转换文档页面流的委托. 页码文件内容流文件名 |
+| convertOptionsProvider | Func`3 | 转换选项提供者。将为每个转换调用以提供特定的转换选项到所需的目标文档类型。 文件名文件的类型 |
+
+### 评论
+
+**了解更多**
+
+* 更多文档转换基本场景： [如何通过 3 个步骤转换文档](https://docs.groupdocs.com/display/conversionnet/Convert+document)
+* 转换用例、高级设置和自定义： [使用高级设置转换文档](https://docs.groupdocs.com/display/conversionnet/Converting)
+
+### 也可以看看
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * 命名空间 [GroupDocs.Conversion](../../converter)
 * 部件 [GroupDocs.Conversion](../../../)

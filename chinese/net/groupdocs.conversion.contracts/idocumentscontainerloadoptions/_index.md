@@ -1,14 +1,14 @@
 ---
 title: IDocumentsContainerLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
-description: 文档容器的加载选项
+description: 文件 container 的加载选项
 type: docs
-weight: 250
+weight: 260
 url: /zh/net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/
 ---
 ## IDocumentsContainerLoadOptions interface
 
-文档容器的加载选项
+文件 container 的加载选项
 
 ```csharp
 public interface IDocumentsContainerLoadOptions

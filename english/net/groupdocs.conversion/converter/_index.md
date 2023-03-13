@@ -56,6 +56,7 @@ public sealed class Converter : IConversionSettingsOrConversionFrom, IDisposable
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Releases resources. |
 | [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Gets source document info - pages count and other document properties specific to the file type. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | Gets possible conversions for the source document. |
+| [IsDocumentPasswordProtected](../../groupdocs.conversion/converter/isdocumentpasswordprotected)() | Checks is source document is password protected |
 | [Load](../../groupdocs.conversion/converter/load#load_1)(Func&lt;Stream&gt;) | Configure source document stream |
 | [Load](../../groupdocs.conversion/converter/load#load)(Func&lt;Stream[]&gt;) | Configure set of source documents streams |
 | [Load](../../groupdocs.conversion/converter/load#load_2)(string) | Configure source document for conversion |

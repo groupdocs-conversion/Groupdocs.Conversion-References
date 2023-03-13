@@ -3,7 +3,7 @@ title: WatermarkTextOptions
 second_title: Référence de l'API GroupDocs.Conversion pour .NET
 description: Options pour les paramètres de texte filigrane sur le document converti
 type: docs
-weight: 1790
+weight: 1970
 url: /fr/net/groupdocs.conversion.options.convert/watermarktextoptions/
 ---
 ## WatermarkTextOptions class

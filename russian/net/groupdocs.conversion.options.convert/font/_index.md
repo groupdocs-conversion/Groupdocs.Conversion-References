@@ -3,7 +3,7 @@ title: Font
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: Настройки шрифта
 type: docs
-weight: 1380
+weight: 1530
 url: /ru/net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class

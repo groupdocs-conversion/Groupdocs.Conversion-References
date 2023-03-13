@@ -3,7 +3,7 @@ title: RemovePdfACompliance
 second_title: GroupDocs.Conversion for .NET API Referens
 description: Tar bort PdfA Compliance
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/groupdocs.conversion.options.convert/pdfoptions/removepdfacompliance/
 ---
 ## PdfOptions.RemovePdfACompliance property

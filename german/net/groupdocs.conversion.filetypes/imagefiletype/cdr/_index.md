@@ -1,14 +1,14 @@
 ---
 title: Cdr
 second_title: GroupDocs.Conversion für .NET-API-Referenz
-description: Eine CDRDatei ist eine Vektorzeichnungsbilddatei die nativ mit CorelDRAW zum Speichern digitaler Bilder kodiert und komprimiert erstellt wird. Eine solche Zeichnungsdatei enthält Texte Linien Formen Bilder Farben und Effekte zur vektoriellen Darstellung von Bildinhalten. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/cdr .
+description: Eine CDRDatei ist eine Vektorzeichnungsbilddatei die nativ mit CorelDRAW zum Speichern digitaler Bilder kodiert und komprimiert erstellt wird. Eine solche Zeichnungsdatei enthält Texte Linien Formen Bilder Farben und Effekte zur vektoriellen Darstellung von Bildinhalten. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/cdr .
 type: docs
 weight: 40
 url: /de/net/groupdocs.conversion.filetypes/imagefiletype/cdr/
 ---
 ## ImageFileType.Cdr field
 
-Eine CDR-Datei ist eine Vektorzeichnungsbilddatei, die nativ mit CorelDRAW zum Speichern digitaler Bilder kodiert und komprimiert erstellt wird. Eine solche Zeichnungsdatei enthält Texte, Linien, Formen, Bilder, Farben und Effekte zur vektoriellen Darstellung von Bildinhalten. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/cdr) .
+Eine CDR-Datei ist eine Vektorzeichnungsbilddatei, die nativ mit CorelDRAW zum Speichern digitaler Bilder kodiert und komprimiert erstellt wird. Eine solche Zeichnungsdatei enthält Texte, Linien, Formen, Bilder, Farben und Effekte zur vektoriellen Darstellung von Bildinhalten. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/cdr) .
 
 ```csharp
 public static readonly ImageFileType Cdr;

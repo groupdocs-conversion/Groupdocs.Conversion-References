@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for .NET API 参考
 description: 加载图表文档的选项
 type: docs
-weight: 1880
+weight: 2080
 url: /zh/net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class
@@ -18,23 +18,23 @@ public sealed class DiagramLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagramLoadOptions](diagramloadoptions)() | 初始化的新实例[`DiagramLoadOptions`](../diagramloadoptions)类. |
+| [DiagramLoadOptions](diagramloadoptions)() | 初始化新实例[`DiagramLoadOptions`](../diagramloadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/diagramloadoptions/defaultfont) { get; set; } | 图表文档的默认字体。如果缺少字体，将使用以下字体。 |
-| [Format](../../groupdocs.conversion.options.load/diagramloadoptions/format) { get; set; } | 输入文档文件类型。 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型。 |
+| [DefaultFont](../../groupdocs.conversion.options.load/diagramloadoptions/defaultfont) { get; set; } | 图文档的默认字体。如果缺少字体，将使用以下字体。 |
+| [Format](../../groupdocs.conversion.options.load/diagramloadoptions/format) { get; set; } | 输入文档文件类型. |
+| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | 输入文档文件类型. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 确定两个对象实例是否相等。 |
-| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 确定两个对象实例是否相等。 |
-| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 用作默认哈希函数。 |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | 判断两个对象实例是否相等。 |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | 判断两个对象实例是否相等。 |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | 作为默认哈希函数。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Jpg
 second_title: Справочник по API GroupDocs.Conversion для .NET
 description: JPG  это тип формата изображения который сохраняется с использованием метода сжатия с потерями. Выходное изображение полученное в результате сжатия представляет собой компромисс между размером хранилища и качеством изображения. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 250
+weight: 230
 url: /ru/net/groupdocs.conversion.filetypes/imagefiletype/jpg/
 ---
 ## ImageFileType.Jpg field
