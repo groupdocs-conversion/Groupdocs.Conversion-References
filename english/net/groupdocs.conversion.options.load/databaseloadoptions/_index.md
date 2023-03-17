@@ -3,7 +3,7 @@ title: DatabaseLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading database documents.
 type: docs
-weight: 2090
+weight: 2030
 url: /net/groupdocs.conversion.options.load/databaseloadoptions/
 ---
 ## DatabaseLoadOptions class
@@ -18,7 +18,7 @@ public sealed class DatabaseLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [DatabaseLoadOptions](databaseloadoptions)() | Initializes new instance of [`DataLoadOptions`](../dataloadoptions) class. |
+| [DatabaseLoadOptions](databaseloadoptions)() | Initializes new instance of !:DataLoadOptions class. |
 
 ## Properties
 

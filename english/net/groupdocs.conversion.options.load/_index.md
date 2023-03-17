@@ -18,7 +18,6 @@ The namespace provides classes to specify additional options for document loadin
 | [CompressionLoadOptions](./compressionloadoptions) | Options for loading compression documents. |
 | [CsvLoadOptions](./csvloadoptions) | Options for loading Csv documents. |
 | [DatabaseLoadOptions](./databaseloadoptions) | Options for loading database documents. |
-| [DataLoadOptions](./dataloadoptions) | Options for loading data documents. |
 | [DiagramLoadOptions](./diagramloadoptions) | Options for loading Diagram documents. |
 | [EBookLoadOptions](./ebookloadoptions) | Options for loading EBook documents. |
 | [EmailField](./emailfield) | Describes email fields enumeration |
@@ -28,7 +27,6 @@ The namespace provides classes to specify additional options for document loadin
 | [FontLoadOptions](./fontloadoptions) | Options for loading Font documents. |
 | [ImageLoadOptions](./imageloadoptions) | Options for loading Image documents. |
 | [LoadOptions](./loadoptions) | Abstract document load options class. |
-| [MarkupLoadOptions](./markuploadoptions) | Options for loading Markup documents. |
 | [MboxLoadOptions](./mboxloadoptions) | Options for loading Mbox documents. |
 | [NoteLoadOptions](./noteloadoptions) | Options for loading One documents. |
 | [NsfLoadOptions](./nsfloadoptions) | Options for loading Nsf documents. |

@@ -18,7 +18,6 @@ The namespace provides classes to specify additional options for document conver
 | [CompressionConvertOptions](./compressionconvertoptions) | Options for conversion to Compression file type. |
 | [ConvertOptions](./convertoptions) | The general conversion options class. |
 | [ConvertOptions&lt;TFileType&gt;](./convertoptions-1) | Abstract generic conversion options class. |
-| [DataConvertOptions](./dataconvertoptions) | Options for conversion to Data file type. |
 | [DiagramConvertOptions](./diagramconvertoptions) | Options for conversion to Diagram file type. |
 | [EBookConvertOptions](./ebookconvertoptions) | Options for conversion to EBook file type. |
 | [EmailConvertOptions](./emailconvertoptions) | Options for conversion to Email file type. |
@@ -30,7 +29,6 @@ The namespace provides classes to specify additional options for document conver
 | [JpegOptions](./jpegoptions) | Options for conversion to Jpeg file type. |
 | [JpgColorModes](./jpgcolormodes) | Describes Jpg color modes enumeration. |
 | [JpgCompressionMethods](./jpgcompressionmethods) | Describes Jpg compression modes |
-| [MarkupConvertOptions](./markupconvertoptions) | Options for conversion to Markup file type. |
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
 | [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
 | [PageOrientation](./pageorientation) | Specifies page orientation |

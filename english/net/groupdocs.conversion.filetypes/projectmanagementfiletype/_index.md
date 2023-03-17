@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Project file formats that are created by Project Management software such as Microsoft Project Primavera P6 etc. A project file is a collection of tasks resources and their scheduling to get a measurable output in the form or a product or a service. Project management documents. Includes the following file types Mpp./projectmanagementfiletype/mpp Mpt./projectmanagementfiletype/mpt Mpx./projectmanagementfiletype/mpx. Learn more about Project Management formats herehttps//wiki.fileformat.com/projectmanagement.
 type: docs
-weight: 1030
+weight: 1000
 url: /net/groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 ## ProjectManagementFileType class

@@ -39,7 +39,6 @@ The namespace provides members to instantiate and release output document, manag
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
-| [MarkupDocumentInfo](./markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](./pcldocumentinfo) | Contains Pcl document metadata |
