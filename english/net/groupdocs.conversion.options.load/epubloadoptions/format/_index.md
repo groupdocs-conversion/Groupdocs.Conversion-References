@@ -11,12 +11,12 @@ url: /net/groupdocs.conversion.options.load/epubloadoptions/format/
 Input document file type.
 
 ```csharp
-public PdfFileType Format { get; }
+public EBookFileType Format { get; }
 ```
 
 ### See Also
 
-* class [PdfFileType](../../../groupdocs.conversion.filetypes/pdffiletype)
+* class [EBookFileType](../../../groupdocs.conversion.filetypes/ebookfiletype)
 * class [EpubLoadOptions](../../epubloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../epubloadoptions)
 * assembly [GroupDocs.Conversion](../../../)

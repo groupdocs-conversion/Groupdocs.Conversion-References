@@ -8,7 +8,7 @@ url: /net/groupdocs.conversion.filetypes/imagefiletype/
 ---
 ## ImageFileType class
 
-Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), Cgm, [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), Eps, [`Gif`](./gif), [`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), Svg, [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
+Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), !:Cgm, [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), !:Eps, [`Gif`](./gif), [`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), !:Svg, [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
 
 ```csharp
 public sealed class ImageFileType : FileType

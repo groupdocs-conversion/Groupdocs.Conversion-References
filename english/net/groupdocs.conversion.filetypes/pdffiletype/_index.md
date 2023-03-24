@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Pdf documents. Includes the following file types Epub Pdf./pdffiletype/pdf Xps.
+description: Defines Pdf documents. Includes the following file types Pdf./pdffiletype/pdf
 type: docs
 weight: 970
 url: /net/groupdocs.conversion.filetypes/pdffiletype/
 ---
 ## PdfFileType class
 
-Defines Pdf documents. Includes the following file types: Epub, [`Pdf`](./pdf), Xps.
+Defines Pdf documents. Includes the following file types: [`Pdf`](./pdf),
 
 ```csharp
 public sealed class PdfFileType : FileType
@@ -18,7 +18,7 @@ public sealed class PdfFileType : FileType
 
 | Name | Description |
 | --- | --- |
-| [PdfFileType](pdffiletype)() | Serialization constructor |
+| [PdfFileType](pdffiletype)() | The default constructor. |
 
 ## Properties
 

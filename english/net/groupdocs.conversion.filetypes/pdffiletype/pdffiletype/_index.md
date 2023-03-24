@@ -1,14 +1,14 @@
 ---
 title: PdfFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Serialization constructor
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.filetypes/pdffiletype/pdffiletype/
 ---
 ## PdfFileType constructor
 
-Serialization constructor
+The default constructor.
 
 ```csharp
 public PdfFileType()
