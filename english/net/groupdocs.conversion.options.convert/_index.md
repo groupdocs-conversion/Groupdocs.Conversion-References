@@ -24,6 +24,7 @@ The namespace provides classes to specify additional options for document conver
 | [FinanceConvertOptions](./financeconvertoptions) | Options for conversion to finance type. |
 | [Font](./font) | Font settings |
 | [FontConvertOptions](./fontconvertoptions) | Options for conversion to Font type. |
+| [GisConvertOptions](./gisconvertoptions) | Options for conversion to GIS type. |
 | [ImageConvertOptions](./imageconvertoptions) | Options for conversion to Image file type. |
 | [ImageFlipModes](./imageflipmodes) | Describes image flip modes. |
 | [JpegOptions](./jpegoptions) | Options for conversion to Jpeg file type. |

@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines settings for customizing Converter./converter behaviour.
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class

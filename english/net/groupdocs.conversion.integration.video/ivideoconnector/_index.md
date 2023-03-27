@@ -3,7 +3,7 @@ title: IVideoConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines methods that are required to convert video documents.
 type: docs
-weight: 1340
+weight: 1360
 url: /net/groupdocs.conversion.integration.video/ivideoconnector/
 ---
 ## IVideoConnector interface
