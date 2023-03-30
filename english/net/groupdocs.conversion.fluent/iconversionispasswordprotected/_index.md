@@ -3,7 +3,7 @@ title: IConversionIsPasswordProtected
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Checks if source document is password protected
 type: docs
-weight: 1260
+weight: 1240
 url: /net/groupdocs.conversion.fluent/iconversionispasswordprotected/
 ---
 ## IConversionIsPasswordProtected interface

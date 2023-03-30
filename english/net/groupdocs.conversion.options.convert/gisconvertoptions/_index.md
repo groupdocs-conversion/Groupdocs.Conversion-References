@@ -1,19 +1,24 @@
 ---
-title: DataConvertOptions
+title: GisConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Options for conversion to Data file type.
+description: Options for conversion to GIS type.
 type: docs
-weight: 1490
-url: /net/groupdocs.conversion.options.convert/dataconvertoptions/
+weight: 1530
+url: /net/groupdocs.conversion.options.convert/gisconvertoptions/
 ---
-## DataConvertOptions class
+## GisConvertOptions class
 
-Options for conversion to Data file type.
+Options for conversion to GIS type.
 
 ```csharp
-[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebConvertOptions instead.")]
-public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOptions
+public class GisConvertOptions : ConvertOptions<GisFileType>
 ```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [GisConvertOptions](gisconvertoptions)() | Initializes new instance of [`GisConvertOptions`](../gisconvertoptions) class. |
 
 ## Properties
 
@@ -34,8 +39,7 @@ public class DataConvertOptions : ConvertOptions<DataFileType>, IPagedConvertOpt
 ### See Also
 
 * class [ConvertOptions&lt;TFileType&gt;](../convertoptions-1)
-* class [DataFileType](../../groupdocs.conversion.filetypes/datafiletype)
-* interface [IPagedConvertOptions](../ipagedconvertoptions)
+* class [GisFileType](../../groupdocs.conversion.filetypes/gisfiletype)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

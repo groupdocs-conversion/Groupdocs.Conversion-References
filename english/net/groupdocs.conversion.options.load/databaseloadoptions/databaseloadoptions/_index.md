@@ -1,14 +1,14 @@
 ---
 title: DatabaseLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of DataLoadOptionsgroupdocs.conversion.options.load/dataloadoptions class.
+description: Initializes new instance of DatabaseLoadOptionsgroupdocs.conversion.options.load/databaseloadoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.load/databaseloadoptions/databaseloadoptions/
 ---
 ## DatabaseLoadOptions constructor
 
-Initializes new instance of [`DataLoadOptions`](../../dataloadoptions) class.
+Initializes new instance of [`DatabaseLoadOptions`](../../databaseloadoptions) class.
 
 ```csharp
 public DatabaseLoadOptions()

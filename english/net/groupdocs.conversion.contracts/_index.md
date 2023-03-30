@@ -32,6 +32,7 @@ The namespace provides members to instantiate and release output document, manag
 | [EpubDocumentInfo](./epubdocumentinfo) | Contains Epub document metadata |
 | [FontDocumentInfo](./fontdocumentinfo) | Contains Font document metadata |
 | [FontSubstitute](./fontsubstitute) | Describes substitution for missing font. |
+| [GisDocumentInfo](./gisdocumentinfo) | Contains GIS document metadata |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contains Gzip document metadata |
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
@@ -39,7 +40,6 @@ The namespace provides members to instantiate and release output document, manag
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
-| [MarkupDocumentInfo](./markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](./pcldocumentinfo) | Contains Pcl document metadata |

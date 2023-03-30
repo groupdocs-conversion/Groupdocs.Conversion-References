@@ -1,18 +1,17 @@
 ---
-title: MarkupDocumentInfo
+title: GisDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Contains Markup document metadata
+description: Contains GIS document metadata
 type: docs
-weight: 330
-url: /net/groupdocs.conversion.contracts/markupdocumentinfo/
+weight: 240
+url: /net/groupdocs.conversion.contracts/gisdocumentinfo/
 ---
-## MarkupDocumentInfo class
+## GisDocumentInfo class
 
-Contains Markup document metadata
+Contains GIS document metadata
 
 ```csharp
-[Obsolete("This class will be removed in Conversion.NET 23.3. Please use WebDocumentInfo instead.")]
-public class MarkupDocumentInfo : WebDocumentInfo
+public class GisDocumentInfo : DocumentInfo
 ```
 
 ## Properties
@@ -20,7 +19,6 @@ public class MarkupDocumentInfo : WebDocumentInfo
 | Name | Description |
 | --- | --- |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Encoding](../../groupdocs.conversion.contracts/webdocumentinfo/encoding) { get; } | Detected document encoding |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
@@ -29,7 +27,7 @@ public class MarkupDocumentInfo : WebDocumentInfo
 
 ### See Also
 
-* class [WebDocumentInfo](../webdocumentinfo)
+* class [DocumentInfo](../documentinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

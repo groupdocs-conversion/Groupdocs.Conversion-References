@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading audio documents.
 type: docs
-weight: 2030
+weight: 2000
 url: /net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class

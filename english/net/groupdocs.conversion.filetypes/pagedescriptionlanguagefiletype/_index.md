@@ -3,7 +3,7 @@ title: PageDescriptionLanguageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Page description documents. Includes the following file types Svg./pagedescriptionlanguagefiletype/svgEps./pagedescriptionlanguagefiletype/epsCgm./pagedescriptionlanguagefiletype/cgmXps./pagedescriptionlanguagefiletype/xpsTex./pagedescriptionlanguagefiletype/texPs./pagedescriptionlanguagefiletype/psPcl./pagedescriptionlanguagefiletype/pclOxps./pagedescriptionlanguagefiletype/oxps
 type: docs
-weight: 990
+weight: 980
 url: /net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/
 ---
 ## PageDescriptionLanguageFileType class

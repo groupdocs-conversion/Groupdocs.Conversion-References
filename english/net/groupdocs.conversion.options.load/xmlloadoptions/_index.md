@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 2390
+weight: 2360
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 Options for loading XML documents.
 
 ```csharp
-public sealed class XmlLoadOptions : DataLoadOptions
+public sealed class XmlLoadOptions : WebLoadOptions
 ```
 
 ## Constructors
@@ -43,7 +43,7 @@ public sealed class XmlLoadOptions : DataLoadOptions
 
 ### See Also
 
-* class [DataLoadOptions](../dataloadoptions)
+* class [WebLoadOptions](../webloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 
