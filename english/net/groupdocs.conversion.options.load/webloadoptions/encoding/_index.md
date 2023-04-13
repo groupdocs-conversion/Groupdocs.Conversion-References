@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Get or sets the encoding to be used when loading the markup document. If the property is null the encoding will be determined from document character set attribute
+description: Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.load/webloadoptions/encoding/
 ---
 ## WebLoadOptions.Encoding property
 
-Get or sets the encoding to be used when loading the markup document. If the property is null the encoding will be determined from document character set attribute
+Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute
 
 ```csharp
 public string Encoding { get; set; }

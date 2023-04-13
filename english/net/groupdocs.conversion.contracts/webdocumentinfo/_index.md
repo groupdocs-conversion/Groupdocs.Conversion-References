@@ -1,14 +1,14 @@
 ---
 title: WebDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Contains Markup document metadata
+description: Contains Web document metadata
 type: docs
 weight: 640
 url: /net/groupdocs.conversion.contracts/webdocumentinfo/
 ---
 ## WebDocumentInfo class
 
-Contains Markup document metadata
+Contains Web document metadata
 
 ```csharp
 public class WebDocumentInfo : DocumentInfo

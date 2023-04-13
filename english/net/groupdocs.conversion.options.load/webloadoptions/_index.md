@@ -25,7 +25,7 @@ public class WebLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
-| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the markup document. If the property is null the encoding will be determined from document character set attribute |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
 | [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
