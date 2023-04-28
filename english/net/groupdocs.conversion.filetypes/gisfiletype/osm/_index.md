@@ -1,14 +1,14 @@
 ---
 title: Osm
 second_title: GroupDocs.Conversion for .NET API Reference
-description: TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely geometries in TopoJSON files are stitched together from shared line segments called arcs.
+description: The OSM file format is a structured data format used to store geographical data in the OpenStreetMap project. OSM files are typically in XML format and contain information such as the location of roads buildings points of interest and other features on the map. Learn more about this file format herehttps//docs.fileformat.com/gis/osm/.
 type: docs
 weight: 70
 url: /net/groupdocs.conversion.filetypes/gisfiletype/osm/
 ---
 ## GisFileType.Osm field
 
-TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely, geometries in TopoJSON files are stitched together from shared line segments called arcs.
+The OSM file format is a structured data format used to store geographical data in the OpenStreetMap project. OSM files are typically in XML format and contain information such as the location of roads, buildings, points of interest, and other features on the map. Learn more about this file format [here](https://docs.fileformat.com/gis/osm/).
 
 ```csharp
 public static readonly GisFileType Osm;

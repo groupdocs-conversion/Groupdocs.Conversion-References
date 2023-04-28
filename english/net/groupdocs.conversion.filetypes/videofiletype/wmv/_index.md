@@ -1,14 +1,14 @@
 ---
 title: Wmv
 second_title: GroupDocs.Conversion for .NET API Reference
-description: The Advanced Systems Format ASF is a digital multimedia container designed primarily for storing and transmitting media streams. Learn more about this file format herehttps//docs.fileformat.com/video/wmv/.
+description: Windows Media Video is the compressed video format developed by Microsoft. After the standardization by the Society of Motion Picture and Television Engineers SMPTE WMV is now considered to be an open standard format. Learn more about this file format herehttps//docs.fileformat.com/video/wmv/.
 type: docs
 weight: 80
 url: /net/groupdocs.conversion.filetypes/videofiletype/wmv/
 ---
 ## VideoFileType.Wmv field
 
-The Advanced Systems Format (ASF) is a digital multimedia container designed primarily for storing and transmitting media streams. Learn more about this file format [here](https://docs.fileformat.com/video/wmv/).
+Windows Media Video is the compressed video format developed by Microsoft. After the standardization by the Society of Motion Picture and Television Engineers (SMPTE), WMV is now considered to be an open standard format. Learn more about this file format [here](https://docs.fileformat.com/video/wmv/).
 
 ```csharp
 public static readonly VideoFileType Wmv;

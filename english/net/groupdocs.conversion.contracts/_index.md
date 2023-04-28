@@ -70,7 +70,7 @@ The namespace provides members to instantiate and release output document, manag
 | [ValueObject](./valueobject) | Abstract value object class. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Contains Vcf document metadata |
 | [VideoDocumentInfo](./videodocumentinfo) | Contains Video document metadata |
-| [WebDocumentInfo](./webdocumentinfo) | Contains Markup document metadata |
+| [WebDocumentInfo](./webdocumentinfo) | Contains Web document metadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
 | [XbrlDocumentInfo](./xbrldocumentinfo) | Contains Xbrl document metadata |
 | [XmlDocumentInfo](./xmldocumentinfo) | Contains Xml document metadata |
