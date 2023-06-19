@@ -3,7 +3,7 @@ title: CpioDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Cpio document metadata
 type: docs
-weight: 130
+weight: 90
 url: /net/groupdocs.conversion.contracts/cpiodocumentinfo/
 ---
 ## CpioDocumentInfo class

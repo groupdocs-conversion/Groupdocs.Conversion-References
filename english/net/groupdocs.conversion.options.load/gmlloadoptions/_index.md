@@ -3,7 +3,7 @@ title: GmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Gml documents.
 type: docs
-weight: 2140
+weight: 2070
 url: /net/groupdocs.conversion.options.load/gmlloadoptions/
 ---
 ## GmlLoadOptions class

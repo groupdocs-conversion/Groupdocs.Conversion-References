@@ -17,10 +17,6 @@ The namespace provides members to instantiate and release output document, manag
 | [CabDocumentInfo](./cabdocumentinfo) | Contains Cab document metadata |
 | [CadDocumentInfo](./caddocumentinfo) | Contains Cad document metadata |
 | [CgmDocumentInfo](./cgmdocumentinfo) | Contains Cgm document metadata |
-| [CompressedDocumentStream](./compresseddocumentstream) | Describes delegate to receive compressed document stream. |
-| [ConvertedDocumentStream](./converteddocumentstream) | Describes delegate to receive converted document stream. |
-| [ConvertedPageStream](./convertedpagestream) | Describes delegate to receive converted document page stream. |
-| [ConvertOptionsProvider](./convertoptionsprovider) | Describes delegate to provide convert options for specific source document. The delegate will be called before each conversion and provide a chance to provide specific convert options for desired target conversion. The decision could be made based on provided source file name and source file type. |
 | [CpioDocumentInfo](./cpiodocumentinfo) | Contains Cpio document metadata |
 | [CsvDocumentInfo](./csvdocumentinfo) | Contains Csv document metadata |
 | [DiagramDocumentInfo](./diagramdocumentinfo) | Contains Diagram document metadata |
@@ -53,10 +49,6 @@ The namespace provides members to instantiate and release output document, manag
 | [PsDocumentInfo](./psdocumentinfo) | Contains Ps document metadata |
 | [PublisherDocumentInfo](./publisherdocumentinfo) | Contains Publisher document metadata |
 | [RarDocumentInfo](./rardocumentinfo) | Contains Rar document metadata |
-| [SaveDocumentStream](./savedocumentstream) | Describes delegate for saving converted document into stream. |
-| [SaveDocumentStreamForFileType](./savedocumentstreamforfiletype) | Describes delegate for saving converted document into stream. |
-| [SavePageStream](./savepagestream) | Describes delegate for saving converted document page into stream. |
-| [SavePageStreamForFileType](./savepagestreamforfiletype) | Describes delegate for saving converted document page into stream. |
 | [SevenZipDocumentInfo](./sevenzipdocumentinfo) | Contains 7Zip document metadata |
 | [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | Contains Spreadsheet document metadata |
 | [SvgDocumentInfo](./svgdocumentinfo) | Contains Svg document metadata |

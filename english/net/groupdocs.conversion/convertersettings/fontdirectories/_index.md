@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion/convertersettings/fontdirectories/
 The custom font directories paths
 
 ```csharp
-public List<string> FontDirectories { get; set; }
+public List<string> FontDirectories { get; }
 ```
 
 ### See Also
