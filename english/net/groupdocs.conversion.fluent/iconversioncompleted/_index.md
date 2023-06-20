@@ -3,7 +3,7 @@ title: IConversionCompleted
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Handle conversion completed
 type: docs
-weight: 1100
+weight: 1020
 url: /net/groupdocs.conversion.fluent/iconversioncompleted/
 ---
 ## IConversionCompleted interface
@@ -18,7 +18,7 @@ public interface IConversionCompleted
 
 | Name | Description |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;Stream, string&gt;) | Receive converted document stream. Will be fired only if "ConvertTo(string fileName)" or ConvertTo(convertedStreamProvider)" is set. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversioncompleted/onconversioncompleted)(Action&lt;string, FileType, Stream&gt;) | Receive converted document stream. Will be fired only if "ConvertTo(string fileName)" or ConvertTo(convertedStreamProvider)" is set. |
 
 ### See Also
 

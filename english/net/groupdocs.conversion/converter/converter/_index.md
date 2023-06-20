@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.conversion/converter/converter/
 ---
-## Converter(Func&lt;Stream&gt;) {#constructor_1}
+## Converter(Func&lt;Stream&gt;) {#constructor}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -39,7 +39,7 @@ public Converter(Func<Stream> document)
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) {#constructor_2}
+## Converter(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) {#constructor_1}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -68,7 +68,7 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) {#constructor_3}
+## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) {#constructor_2}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -97,7 +97,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_4}
+## Converter(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_3}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -129,7 +129,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;) {#constructor_5}
+## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;) {#constructor_4}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -159,7 +159,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_6}
+## Converter(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_5}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -192,7 +192,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 
 ---
 
-## Converter(string) {#constructor_7}
+## Converter(string) {#constructor_6}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -219,7 +219,7 @@ public Converter(string filePath)
 
 ---
 
-## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_8}
+## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_7}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -248,7 +248,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ---
 
-## Converter(string, Func&lt;LoadOptions&gt;) {#constructor_9}
+## Converter(string, Func&lt;LoadOptions&gt;) {#constructor_8}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -277,7 +277,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 ---
 
-## Converter(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_10}
+## Converter(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_9}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -308,7 +308,7 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 
 ---
 
-## Converter(string, Func&lt;FileType, LoadOptions&gt;) {#constructor_11}
+## Converter(string, Func&lt;FileType, LoadOptions&gt;) {#constructor_10}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -338,7 +338,7 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 
 ---
 
-## Converter(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_12}
+## Converter(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_11}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -365,61 +365,6 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 * class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
-* class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## Converter() {#constructor}
-
-Initializes new instance of [`Converter`](../../converter) class for fluent conversion setup.
-
-```csharp
-public Converter()
-```
-
-### Remarks
-
-Sample fluent conversion usage:
-
-```csharp
-var converter = new Converter();
-```
-
-```csharp
-converter
-    .Load("")
-    .ConvertTo("")
-    .Convert();
-```
-
-```csharp
-converter
-    .WithSettings(() => new ConverterSettings())
-    .Load("").WithOptions(new PdfLoadOptions())
-    .ConvertTo("").WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted(convertedDocumentStream => { })
-    .Convert();
-```
-
-```csharp
-converter
-    .Load("").WithOptions(new PdfLoadOptions())
-    .ConvertByPageTo((number => new FileStream("", FileMode.Create))).WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted((number, stream) => {})
-    .Convert();
-```
-
-```csharp
-converter.Load("").GetPossibleConversions();
-converter.Load("").GetDocumentInfo();
-converter.Load("").WithOptions(new PdfLoadOptions()).GetPossibleConversions();
-converter.Load("").WithOptions(new PdfLoadOptions()).GetDocumentInfo();
-```
-
-### See Also
-
 * class [Converter](../../converter)
 * namespace [GroupDocs.Conversion](../../converter)
 * assembly [GroupDocs.Conversion](../../../)

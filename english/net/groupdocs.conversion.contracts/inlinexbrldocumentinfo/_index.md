@@ -3,7 +3,7 @@ title: InlineXbrlDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains iXbrl document metadata
 type: docs
-weight: 300
+weight: 260
 url: /net/groupdocs.conversion.contracts/inlinexbrldocumentinfo/
 ---
 ## InlineXbrlDocumentInfo class

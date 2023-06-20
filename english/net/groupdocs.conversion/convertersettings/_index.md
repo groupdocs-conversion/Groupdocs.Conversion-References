@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines settings for customizing Converter./converter behaviour.
 type: docs
-weight: 740
+weight: 660
 url: /net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -25,7 +25,7 @@ public sealed class ConverterSettings
 | Name | Description |
 | --- | --- |
 | [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | The cache implementation used for storing conversion results. |
-| [FontDirectories](../../groupdocs.conversion/convertersettings/fontdirectories) { get; set; } | The custom font directories paths |
+| [FontDirectories](../../groupdocs.conversion/convertersettings/fontdirectories) { get; } | The custom font directories paths |
 | [Listener](../../groupdocs.conversion/convertersettings/listener) { get; set; } | The converter listener implementation used for monitoring conversion status and progress |
 | [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | The logger implementation used for logging conversion process. |
 | [TempFolder](../../groupdocs.conversion/convertersettings/tempfolder) { get; set; } | Temp folder used for conversion |

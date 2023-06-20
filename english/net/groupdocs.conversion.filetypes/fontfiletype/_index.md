@@ -3,7 +3,7 @@ title: FontFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Font documents Includes the following types Ttf./fontfiletype/ttfEot./fontfiletype/eotOtf./fontfiletype/otfCff./fontfiletype/cffType1./fontfiletype/type1Woff./fontfiletype/woffWoff2./fontfiletype/woff2 Learn more about Font formats herehttps//docs.fileformat.com/font/.
 type: docs
-weight: 940
+weight: 860
 url: /net/groupdocs.conversion.filetypes/fontfiletype/
 ---
 ## FontFileType class

@@ -35,19 +35,19 @@ public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_1}
+## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_3}
 
 Converts source document. Saves the whole converted document.
 
 ```csharp
-public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+public void Convert(Func<Stream> document, Action<string, FileType, Stream> documentCompleted, 
     ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| documentCompleted | Action`3 | The delegate that receive converted document stream. The name of the source fileThe target file typeThe converted file content stream |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -59,6 +59,7 @@ public void Convert(Func<Stream> document, Action<Stream, string> documentComple
 
 ### See Also
 
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namespace [GroupDocs.Conversion](../../converter)
@@ -66,7 +67,7 @@ public void Convert(Func<Stream> document, Action<Stream, string> documentComple
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_5}
 
 Converts source document. Saves the whole converted document.
 
@@ -97,19 +98,19 @@ public void Convert(Func<Stream> document,
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
+## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_4}
 
 Converts source document. Saves the whole converted document.
 
 ```csharp
-public void Convert(Func<Stream> document, Action<Stream, string> documentCompleted, 
+public void Convert(Func<Stream> document, Action<string, FileType, Stream> documentCompleted, 
     Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`1 | The delegate that saves converted document to a stream. |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| documentCompleted | Action`3 | The delegate that receive converted document stream. The name of the source fileThe target file typeThe converted file content stream |
 | convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
@@ -129,7 +130,7 @@ public void Convert(Func<Stream> document, Action<Stream, string> documentComple
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_6}
 
 Converts source document. Saves the whole converted document.
 
@@ -139,7 +140,7 @@ public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the converted file |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -159,19 +160,19 @@ public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptio
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, ConvertOptions) {#convert_5}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_9}
 
 Converts source document. Saves the whole converted document.
 
 ```csharp
-public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<FileType, Stream> document, 
+    Action<string, FileType, Stream> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| document | Func`2 | The delegate that saves converted document to a stream. The type of the target file |
+| documentCompleted | Action`3 | The delegate that receive converted document stream. The name of the source fileThe target file typeThe converted file content stream |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -191,7 +192,7 @@ public void Convert(Func<FileType, Stream> document, Action<Stream, string> docu
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 Converts source document. Saves the whole converted document.
 
@@ -222,19 +223,20 @@ public void Convert(Func<FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Action&lt;Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 Converts source document. Saves the whole converted document.
 
 ```csharp
-public void Convert(Func<FileType, Stream> document, Action<Stream, string> documentCompleted, 
+public void Convert(Func<FileType, Stream> document, 
+    Action<string, FileType, Stream> documentCompleted, 
     Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`2 | The delegate that saves converted document to a stream. The type of the source file |
-| documentCompleted | Action`2 | The delegate that receive converted document stream. The file content streamThe name of the file |
+| documentCompleted | Action`3 | The delegate that receive converted document stream. The name of the source fileThe target file typeThe converted file content stream |
 | convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
@@ -254,7 +256,7 @@ public void Convert(Func<FileType, Stream> document, Action<Stream, string> docu
 
 ---
 
-## Convert(string, ConvertOptions) {#convert_16}
+## Convert(string, ConvertOptions) {#convert_24}
 
 Converts source document. Saves the whole converted document.
 
@@ -283,7 +285,7 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_12}
 
 Converts source document. Saves the converted document page by page.
 
@@ -312,19 +314,19 @@ public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_9}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_15}
 
 Converts source document. Saves the converted document page by page.
 
 ```csharp
-public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
-    ConvertOptions convertOptions)
+public void Convert(Func<int, Stream> document, 
+    Action<string, FileType, int, Stream> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`2 | The delegate that saves converted document page to a stream. Page number |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| documentCompleted | Action`4 | The delegate that receive converted document page stream. The name of the source fileThe target file typePage numberThe converted file content stream |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -336,6 +338,7 @@ public void Convert(Func<int, Stream> document, Action<int, Stream, string> docu
 
 ### See Also
 
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * class [Converter](../../converter)
 * namespace [GroupDocs.Conversion](../../converter)
@@ -343,7 +346,7 @@ public void Convert(Func<int, Stream> document, Action<int, Stream, string> docu
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_17}
 
 Converts source document. Saves the converted document page by page.
 
@@ -374,19 +377,20 @@ public void Convert(Func<int, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_16}
 
 Converts source document. Saves the converted document page by page.
 
 ```csharp
-public void Convert(Func<int, Stream> document, Action<int, Stream, string> documentCompleted, 
+public void Convert(Func<int, Stream> document, 
+    Action<string, FileType, int, Stream> documentCompleted, 
     Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`2 | The delegate that saves converted document page to a stream. Page number |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| documentCompleted | Action`4 | The delegate that receive converted document page stream. The name of the source fileThe target file typePage numberThe converted file content stream |
 | convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
@@ -406,7 +410,7 @@ public void Convert(Func<int, Stream> document, Action<int, Stream, string> docu
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_18}
 
 Converts source document. Saves the converted document page by page.
 
@@ -436,19 +440,19 @@ public void Convert(Func<int, FileType, Stream> document, ConvertOptions convert
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, ConvertOptions) {#convert_13}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_21}
 
 Converts source document. Saves the converted document page by page.
 
 ```csharp
 public void Convert(Func<int, FileType, Stream> document, 
-    Action<int, Stream, string> documentCompleted, ConvertOptions convertOptions)
+    Action<string, FileType, int, Stream> documentCompleted, ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`3 | The delegate that saves converted document page to a stream. Page numberFile type |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| documentCompleted | Action`4 | The delegate that receive converted document page stream. The name of the source fileThe target file typePage numberThe converted file content stream |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 
 ### Remarks
@@ -468,7 +472,7 @@ public void Convert(Func<int, FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_23}
 
 Converts source document. Saves the converted document page by page.
 
@@ -499,20 +503,20 @@ public void Convert(Func<int, FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;int, Stream, string&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_22}
 
 Converts source document. Saves the converted document page by page.
 
 ```csharp
 public void Convert(Func<int, FileType, Stream> document, 
-    Action<int, Stream, string> documentCompleted, 
+    Action<string, FileType, int, Stream> documentCompleted, 
     Func<string, FileType, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | document | Func`3 | The delegate that saves converted document page to a stream. Page numberFile type |
-| documentCompleted | Action`3 | The delegate that receive converted document page stream. Page numberThe file content streamThe name of the file |
+| documentCompleted | Action`4 | The delegate that receive converted document page stream. The name of the source fileThe target file typePage numberThe converted file content stream |
 | convertOptionsProvider | Func`3 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The name of the fileThe type of the file |
 
 ### Remarks
