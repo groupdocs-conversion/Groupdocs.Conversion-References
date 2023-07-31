@@ -3,7 +3,7 @@ title: FinanceLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading finance documents.
 type: docs
-weight: 2040
+weight: 2060
 url: /net/groupdocs.conversion.options.load/financeloadoptions/
 ---
 ## FinanceLoadOptions class
