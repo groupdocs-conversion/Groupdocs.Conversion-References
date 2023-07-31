@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Abstract document load options class.
 type: docs
-weight: 2090
+weight: 2120
 url: /net/groupdocs.conversion.options.load/loadoptions/
 ---
 ## LoadOptions class

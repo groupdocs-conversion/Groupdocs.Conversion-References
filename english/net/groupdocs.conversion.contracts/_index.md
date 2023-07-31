@@ -37,6 +37,8 @@ The namespace provides members to instantiate and release output document, manag
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
+| [OlmDocumentInfo](./olmdocumentinfo) | Contains personal storage document metadata |
+| [OlmFolderInfo](./olmfolderinfo) | Personal Storage Folder info |
 | [PasswordProtectedDocumentInfo](./passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](./pcldocumentinfo) | Contains Pcl document metadata |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Contains Pdf document metadata |

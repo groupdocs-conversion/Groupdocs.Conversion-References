@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2280
+weight: 2320
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 Options for loading WordProcessing documents.
 
 ```csharp
-public class WordProcessingLoadOptions : LoadOptions
+public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -36,9 +36,11 @@ public class WordProcessingLoadOptions : LoadOptions
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Keep original value of date field. Default: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Update fields after loading. Default: false |
 | [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Update page layout after loading. Default: false |
 | [UseTextShaper](../../groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper) { get; set; } | Specifies whether to use a text shaper for better kerning display. Default is false. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
 
 ## Methods
 
@@ -51,6 +53,7 @@ public class WordProcessingLoadOptions : LoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Tsv documents.
 type: docs
-weight: 2200
+weight: 2240
 url: /net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -24,6 +24,8 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 
 | Name | Description |
 | --- | --- |
+| [AllColumnsInOnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/allcolumnsinonepagepersheet) { get; set; } | If AllColumnsInOnePagePerSheet is true, all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
+| [AutoFitRows](../../groupdocs.conversion.options.load/spreadsheetloadoptions/autofitrows) { get; set; } | Autofits all rows when converting |
 | [CheckExcelRestriction](../../groupdocs.conversion.options.load/spreadsheetloadoptions/checkexcelrestriction) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
 | [ConvertRange](../../groupdocs.conversion.options.load/spreadsheetloadoptions/convertrange) { get; set; } | Convert specific range when converting to other than spreadsheet format. Example: "D1:F8". |
 | [CultureInfo](../../groupdocs.conversion.options.load/spreadsheetloadoptions/cultureinfo) { get; set; } | Get or set the system culture info at the time file is loaded |

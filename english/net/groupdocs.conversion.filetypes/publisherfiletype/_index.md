@@ -3,7 +3,7 @@ title: PublisherFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Publisher documents Includes the following types Pub./publisherfiletype/pub Learn more about Publisher formats herehttps//docs.fileformat.com/publisher/.
 type: docs
-weight: 940
+weight: 960
 url: /net/groupdocs.conversion.filetypes/publisherfiletype/
 ---
 ## PublisherFileType class

@@ -3,7 +3,7 @@ title: ConvertRange
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Convert specific range when converting to other than spreadsheet format. Example D1F8.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/convertrange/
 ---
 ## SpreadsheetLoadOptions.ConvertRange property
