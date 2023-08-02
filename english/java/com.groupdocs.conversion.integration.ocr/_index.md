@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.integration.ocr
 second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Integration.Ocr package provides metadata for a OCR.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.conversion.integration.ocr/
 ---
 

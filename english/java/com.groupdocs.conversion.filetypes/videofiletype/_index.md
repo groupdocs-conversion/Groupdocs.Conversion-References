@@ -3,7 +3,7 @@ title: VideoFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Video documents Includes the following types        Learn more about video formats here.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.groupdocs.conversion.filetypes/videofiletype/
 ---
 **Inheritance:**

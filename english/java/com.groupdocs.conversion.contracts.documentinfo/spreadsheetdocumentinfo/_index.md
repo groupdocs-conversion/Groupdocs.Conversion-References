@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Spreadsheet document metadata
 type: docs
-weight: 34
+weight: 36
 url: /java/com.groupdocs.conversion.contracts.documentinfo/spreadsheetdocumentinfo/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ConvertedDocumentStream
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate to receive converted document stream.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.conversion.contracts/converteddocumentstream/
 ---```
 public interface ConvertedDocumentStream

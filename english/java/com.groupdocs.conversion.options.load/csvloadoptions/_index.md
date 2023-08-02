@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 11
+weight: 13
 url: /java/com.groupdocs.conversion.options.load/csvloadoptions/
 ---
 **Inheritance:**

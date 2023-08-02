@@ -3,7 +3,7 @@ title: ConverterSettingsProvider
 second_title: GroupDocs.Conversion for Java API Reference
 description: Supplier for ConverterSettings
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.conversion.contracts/convertersettingsprovider/
 ---
 **All Implemented Interfaces:**

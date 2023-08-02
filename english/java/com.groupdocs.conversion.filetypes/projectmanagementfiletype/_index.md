@@ -3,7 +3,7 @@ title: ProjectManagementFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Project file formats that are created by Project Management software such as Microsoft Project Primavera P6 etc.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 **Inheritance:**

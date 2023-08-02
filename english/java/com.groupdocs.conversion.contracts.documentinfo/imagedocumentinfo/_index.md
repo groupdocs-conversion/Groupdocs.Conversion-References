@@ -3,7 +3,7 @@ title: ImageDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Image document metadata
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.conversion.contracts.documentinfo/imagedocumentinfo/
 ---
 **Inheritance:**

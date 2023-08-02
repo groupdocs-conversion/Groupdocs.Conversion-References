@@ -3,7 +3,7 @@ title: XpsDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Xps document metadata
 type: docs
-weight: 43
+weight: 47
 url: /java/com.groupdocs.conversion.contracts.documentinfo/xpsdocumentinfo/
 ---
 **Inheritance:**

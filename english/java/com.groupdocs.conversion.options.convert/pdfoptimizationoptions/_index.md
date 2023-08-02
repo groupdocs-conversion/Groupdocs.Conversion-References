@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Pdf optimization options.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 **Inheritance:**

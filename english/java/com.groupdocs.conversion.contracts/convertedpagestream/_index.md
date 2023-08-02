@@ -3,7 +3,7 @@ title: ConvertedPageStream
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate to receive converted page stream.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.conversion.contracts/convertedpagestream/
 ---```
 public interface ConvertedPageStream

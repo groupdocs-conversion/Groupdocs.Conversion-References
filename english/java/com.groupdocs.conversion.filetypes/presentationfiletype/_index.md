@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Presentation file formats that store collection of records to accommodate presentation data such as slides shapes text animations video audio and embedded objects.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.conversion.filetypes/presentationfiletype/
 ---
 **Inheritance:**

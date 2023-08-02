@@ -3,7 +3,7 @@ title: DocumentStreamProvider
 second_title: GroupDocs.Conversion for Java API Reference
 description: Supplier for InputStream
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.conversion.contracts/documentstreamprovider/
 ---
 **All Implemented Interfaces:**

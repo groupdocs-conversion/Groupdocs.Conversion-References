@@ -3,7 +3,7 @@ title: NoteFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Note-taking formats.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.conversion.filetypes/notefiletype/
 ---
 **Inheritance:**

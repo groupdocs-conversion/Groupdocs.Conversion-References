@@ -3,7 +3,7 @@ title: JpgColorModes
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Jpg color modes enumeration.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 **Inheritance:**

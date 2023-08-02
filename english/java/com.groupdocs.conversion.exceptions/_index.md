@@ -23,4 +23,3 @@ The GroupDocs.Conversion.Exceptions namespace provides different exceptions clas
 | [InvalidConvertOptionsException](../com.groupdocs.conversion.exceptions/invalidconvertoptionsexception) | Thrown if provided convert options are invalid |
 | [InvalidConverterSettingsException](../com.groupdocs.conversion.exceptions/invalidconvertersettingsexception) | Thrown if provided converter settings are invalid |
 | [PasswordRequiredException](../com.groupdocs.conversion.exceptions/passwordrequiredexception) | GroupDocs exception thrown when the file is password protected and password is not provided |
-| [SourceDocumentFactoryNotProvidedException](../com.groupdocs.conversion.exceptions/sourcedocumentfactorynotprovidedexception) | GroupDocs exception thrown when the source document factory is not provided |

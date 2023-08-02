@@ -3,7 +3,7 @@ title: ImageFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines image documents.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.conversion.filetypes/imagefiletype/
 ---
 **Inheritance:**
@@ -43,7 +43,6 @@ Defines image documents. Includes the following file types: [Ai](../../com.group
 | [Dicom](#Dicom) | Files with .DICOM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. |
 | [Webp](#Webp) | WWebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. |
 | [Dng](#Dng) | DNG is a digital camera image format used for the storage of raw files. |
-| [Svg](#Svg) | An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. |
 | [Jp2](#Jp2) | JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. |
 | [Odg](#Odg) | The ODG file format is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. |
 | [J2c](#J2c) | J2c document format |
@@ -51,8 +50,6 @@ Defines image documents. Includes the following file types: [Ai](../../com.group
 | [Jpx](#Jpx) | Jpx document format |
 | [Jpf](#Jpf) | Jpf document format |
 | [Jpm](#Jpm) | Jpm document format |
-| [Eps](#Eps) | Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. |
-| [Cgm](#Cgm) | Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. |
 | [Cdr](#Cdr) | A CDR file is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. |
 | [Cmx](#Cmx) | Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. |
 | [Dib](#Dib) | DDIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. |
@@ -249,17 +246,6 @@ DNG is a digital camera image format used for the storage of raw files. It has b
 
 [here]: https://wiki.fileformat.com/image/dng
 
-### Svg {#Svg}
-```
-public static final ImageFileType Svg
-```
-
-
-An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/svg
-
 ### Jp2 {#Jp2}
 ```
 public static final ImageFileType Jp2
@@ -324,28 +310,6 @@ public static final ImageFileType Jpm
 
 
 Jpm document format
-
-### Eps {#Eps}
-```
-public static final ImageFileType Eps
-```
-
-
-Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/eps
-
-### Cgm {#Cgm}
-```
-public static final ImageFileType Cgm
-```
-
-
-Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/cgm
 
 ### Cdr {#Cdr}
 ```

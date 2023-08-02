@@ -3,7 +3,7 @@ title: WordProcessingBookmarksOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for handling bookmarks in WordProcessing
 type: docs
-weight: 32
+weight: 39
 url: /java/com.groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 ---
 **Inheritance:**

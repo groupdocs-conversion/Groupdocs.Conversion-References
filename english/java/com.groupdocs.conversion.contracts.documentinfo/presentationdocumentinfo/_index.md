@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Presentation document metadata
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.conversion.contracts.documentinfo/presentationdocumentinfo/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: RtfOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to RTF file type.
 type: docs
-weight: 38
+weight: 39
 url: /java/com.groupdocs.conversion.options.convert/rtfoptions/
 ---
 **Inheritance:**

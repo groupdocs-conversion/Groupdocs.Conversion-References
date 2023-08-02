@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.licensing
 second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Legacy.Licensing namespace provides classes for applying of the license
 type: docs
-weight: 17
+weight: 20
 url: /java/com.groupdocs.conversion.licensing/
 ---
 

@@ -3,7 +3,7 @@ title: JsonDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Json document metadata
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.conversion.contracts.documentinfo/jsondocumentinfo/
 ---
 **Inheritance:**
