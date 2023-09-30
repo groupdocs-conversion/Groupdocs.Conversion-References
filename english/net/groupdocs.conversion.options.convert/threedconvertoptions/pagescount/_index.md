@@ -1,14 +1,14 @@
 ---
 title: PagesCount
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Number of pages to convert starting from PageNumber.
+description: Implements PagesCountgroupdocs.conversion.options.convert/ipagedconvertoptions/pagescount
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.convert/threedconvertoptions/pagescount/
 ---
 ## ThreeDConvertOptions.PagesCount property
 
-Number of pages to convert starting from `PageNumber`.
+Implements [`PagesCount`](../../ipagedconvertoptions/pagescount)
 
 ```csharp
 public int PagesCount { get; set; }

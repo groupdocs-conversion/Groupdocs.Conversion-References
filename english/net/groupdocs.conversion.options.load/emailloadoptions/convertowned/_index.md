@@ -1,14 +1,14 @@
 ---
 title: ConvertOwned
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to control whether the owned documents in the documents container must be converted
+description: Implements ConvertOwnedgroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned Default is true
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.load/emailloadoptions/convertowned/
 ---
 ## EmailLoadOptions.ConvertOwned property
 
-Option to control whether the owned documents in the documents container must be converted
+Implements [`ConvertOwned`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is true
 
 ```csharp
 public bool ConvertOwned { get; set; }

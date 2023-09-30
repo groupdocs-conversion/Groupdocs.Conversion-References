@@ -19,15 +19,15 @@ public class PdfDocumentInfo : DocumentInfo
 | Name | Description |
 | --- | --- |
 | [Author](../../groupdocs.conversion.contracts/pdfdocumentinfo/author) { get; } | Gets author |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Height](../../groupdocs.conversion.contracts/pdfdocumentinfo/height) { get; } | Gets page height |
 | [IsLandscape](../../groupdocs.conversion.contracts/pdfdocumentinfo/islandscape) { get; } | Gets is page landscaped |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/pdfdocumentinfo/ispasswordprotected) { get; } | Gets is document password protected |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 | [TableOfContents](../../groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents) { get; } | Table of contents |
 | [Title](../../groupdocs.conversion.contracts/pdfdocumentinfo/title) { get; } | Gets title |
 | [Version](../../groupdocs.conversion.contracts/pdfdocumentinfo/version) { get; } | Gets version |

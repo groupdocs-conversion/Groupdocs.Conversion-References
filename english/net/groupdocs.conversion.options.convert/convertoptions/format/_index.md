@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
-description: The desired file type the input document should be converted to.
+description: Implements Formatgroupdocs.conversion.options.convert/iconvertoptions/format
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/convertoptions/format/
 ---
 ## ConvertOptions.Format property
 
-The desired file type the input document should be converted to.
+Implements [`Format`](../../iconvertoptions/format)
 
 ```csharp
 public virtual FileType Format { get; set; }

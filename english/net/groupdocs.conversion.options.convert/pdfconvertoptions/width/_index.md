@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired page width in pixels after conversion.
 type: docs
-weight: 130
+weight: 150
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/width/
 ---
 ## PdfConvertOptions.Width property

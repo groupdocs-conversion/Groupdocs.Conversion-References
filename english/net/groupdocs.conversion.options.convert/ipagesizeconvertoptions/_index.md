@@ -18,7 +18,9 @@ public interface IPageSizeConvertOptions : IConvertOptions
 
 | Name | Description |
 | --- | --- |
+| [PageHeight](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pageheight) { get; set; } | Specified page height in points if [`PageSize`](./pagesize) is set to PageSize.Custom |
 | [PageSize](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize) { get; set; } | Desired page size after conversion |
+| [PageWidth](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagewidth) { get; set; } | Specified page width in points if [`PageSize`](./pagesize) is set to PageSize.Custom |
 
 ### See Also
 

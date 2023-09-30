@@ -20,6 +20,12 @@ public sealed class License
 | --- | --- |
 | [License](license)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsLicensed](../../groupdocs.conversion/license/islicensed) { get; } | Returns true if a valid license has been applied; false if the component is running in evaluation mode. |
+
 ## Methods
 
 | Name | Description |

@@ -64,7 +64,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream> documentSt
 
 | exception | condition |
 | --- | --- |
-| [InvalidConverterSettingsException](../../../groupdocs.conversion.exceptions/invalidconvertersettingsexception) |  |
+| [InvalidConverterSettingsException](../../../groupdocs.conversion.exceptions/invalidconvertersettingsexception) | If validation of converter settings fails this exception will be thrown |
 
 ### See Also
 
@@ -91,7 +91,7 @@ public IConversionLoadOptionsOrSourceDocumentLoaded Load(Func<Stream[]> document
 
 | exception | condition |
 | --- | --- |
-| [InvalidConverterSettingsException](../../../groupdocs.conversion.exceptions/invalidconvertersettingsexception) |  |
+| [InvalidConverterSettingsException](../../../groupdocs.conversion.exceptions/invalidconvertersettingsexception) | If validation of converter settings fails this exception will be thrown |
 
 ### See Also
 

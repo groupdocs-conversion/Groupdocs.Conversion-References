@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Document format
+description: Implements Formatgroupdocs.conversion.contracts/idocumentinfo/format
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.contracts/documentinfo/format/
 ---
 ## DocumentInfo.Format property
 
-Document format
+Implements [`Format`](../../idocumentinfo/format)
 
 ```csharp
 public string Format { get; }

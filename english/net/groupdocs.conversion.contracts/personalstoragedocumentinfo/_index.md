@@ -19,15 +19,15 @@ public class PersonalStorageDocumentInfo : DocumentInfo
 | Name | Description |
 | --- | --- |
 | [ContentCount](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/contentcount) { get; } | Get count of contents in the root folder |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Folders](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/folders) { get; } | Folders in the storage |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/ispasswordprotected) { get; } | Is storage password protected |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
 | [RootFolderName](../../groupdocs.conversion.contracts/personalstoragedocumentinfo/rootfoldername) { get; } | Root folder name |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 
 ### See Also
 

@@ -19,15 +19,15 @@ public class DjVuDocumentInfo : ImageDocumentInfo
 | Name | Description |
 | --- | --- |
 | [BitsPerPixel](../../groupdocs.conversion.contracts/imagedocumentinfo/bitsperpixel) { get; } | Gets bits per pixel |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Height](../../groupdocs.conversion.contracts/imagedocumentinfo/height) { get; } | Gets height |
 | [HorizontalResolution](../../groupdocs.conversion.contracts/djvudocumentinfo/horizontalresolution) { get; } | Get horizontal resolution |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
 | [Opacity](../../groupdocs.conversion.contracts/djvudocumentinfo/opacity) { get; } | Gets image opacity |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 | [VerticalResolution](../../groupdocs.conversion.contracts/djvudocumentinfo/verticalresolution) { get; } | Gets vertical resolution |
 | [Width](../../groupdocs.conversion.contracts/imagedocumentinfo/width) { get; } | Gets width |
 

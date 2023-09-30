@@ -3,7 +3,7 @@ title: RtfOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: RTF specific convert options
 type: docs
-weight: 120
+weight: 140
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtfoptions/
 ---
 ## WordProcessingConvertOptions.RtfOptions property

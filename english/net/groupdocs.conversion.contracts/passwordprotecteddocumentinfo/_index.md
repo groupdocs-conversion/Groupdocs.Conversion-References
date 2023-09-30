@@ -18,13 +18,13 @@ public class PasswordProtectedDocumentInfo : DocumentInfo
 
 | Name | Description |
 | --- | --- |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [IsPasswordProtected](../../groupdocs.conversion.contracts/passwordprotecteddocumentinfo/ispasswordprotected) { get; } | Gets is document password protected |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 
 ### See Also
 

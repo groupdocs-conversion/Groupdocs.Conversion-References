@@ -1,14 +1,14 @@
 ---
 title: ConvertOwner
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document
+description: Implements ConvertOwnergroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner Default is true
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.load/emailloadoptions/convertowner/
 ---
 ## EmailLoadOptions.ConvertOwner property
 
-Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document
+Implements [`ConvertOwner`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true
 
 ```csharp
 public bool ConvertOwner { get; set; }

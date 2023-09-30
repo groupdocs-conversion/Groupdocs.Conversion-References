@@ -16,7 +16,7 @@ public TargetConversion this[FileType target] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| target |  |
+| target | The file type for which to get the target conversion |
 
 ### Return Value
 
@@ -42,7 +42,7 @@ public TargetConversion this[string extension] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| extension |  |
+| extension | file extension for which to return the target conversion |
 
 ### Return Value
 

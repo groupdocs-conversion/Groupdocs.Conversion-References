@@ -1,18 +1,22 @@
 ---
 title: Equals
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Determines whether two object instances are equal.
+description: Implements Equalsgroupdocs.conversion.contracts/enumeration/equals
 type: docs
 weight: 100
 url: /net/groupdocs.conversion.filetypes/filetype/equals/
 ---
 ## FileType.Equals method
 
-Determines whether two object instances are equal.
+Implements [`Equals`](../../../groupdocs.conversion.contracts/enumeration/equals)
 
 ```csharp
 public override bool Equals(Enumeration other)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | Enumeration | The object with which to compare |
 
 ### See Also
 
