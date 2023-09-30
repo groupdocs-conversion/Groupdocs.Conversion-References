@@ -26,12 +26,12 @@ public class PageDescriptionLanguageConvertOptions :
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
 | [Height](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/height) { get; set; } | Desired page height after conversion. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 | [Width](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/width) { get; set; } | Desired page width after conversion. |
 
 ## Methods

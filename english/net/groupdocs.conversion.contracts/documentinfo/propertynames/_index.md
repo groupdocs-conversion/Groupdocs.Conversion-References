@@ -1,14 +1,14 @@
 ---
 title: PropertyNames
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Enumerable of all properties which could be get for the current document info
+description: Implements PropertyNamesgroupdocs.conversion.contracts/idocumentinfo/propertynames
 type: docs
 weight: 50
 url: /net/groupdocs.conversion.contracts/documentinfo/propertynames/
 ---
 ## DocumentInfo.PropertyNames property
 
-Enumerable of all properties which could be get for the current document info
+Implements [`PropertyNames`](../../idocumentinfo/propertynames)
 
 ```csharp
 public string[] PropertyNames { get; }

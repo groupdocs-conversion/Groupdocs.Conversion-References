@@ -1,14 +1,14 @@
 ---
 title: CreationDate
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Document creation date
+description: Implements CreationDategroupdocs.conversion.contracts/idocumentinfo/creationdate
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.contracts/documentinfo/creationdate/
 ---
 ## DocumentInfo.CreationDate property
 
-Document creation date
+Implements [`CreationDate`](../../idocumentinfo/creationdate)
 
 ```csharp
 public DateTime CreationDate { get; }

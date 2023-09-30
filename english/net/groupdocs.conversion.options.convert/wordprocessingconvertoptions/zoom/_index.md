@@ -3,7 +3,7 @@ title: Zoom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the zoom level in percentage. Default is 100. Default zoom is supported till Microsoft Word 2010. Starting from Microsoft Word 2013 default zoom is no longer set to document instead it appears to use the zoom factor of the last document that was opened.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/zoom/
 ---
 ## WordProcessingConvertOptions.Zoom property

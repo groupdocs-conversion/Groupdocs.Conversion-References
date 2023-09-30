@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to control how many levels in depth to perform conversion
+description: Implements Depthgroupdocs.conversion.contracts/idocumentscontainerloadoptions/depth Default 3
 type: docs
 weight: 40
 url: /net/groupdocs.conversion.options.load/olmloadoptions/depth/
 ---
 ## OlmLoadOptions.Depth property
 
-Option to control how many levels in depth to perform conversion
+Implements [`Depth`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3
 
 ```csharp
 public int Depth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ConvertOwner
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document
+description: Implements ConvertOwnergroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner Readonly. Set to false. The owner will not be converted
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.load/compressionloadoptions/convertowner/
 ---
 ## CompressionLoadOptions.ConvertOwner property
 
-Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document
+Implements [`ConvertOwner`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted
 
 ```csharp
 public bool ConvertOwner { get; }

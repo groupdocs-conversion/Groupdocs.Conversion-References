@@ -1,14 +1,14 @@
 ---
 title: MarginLeft
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page left margin in pixels after conversion.
+description: Implements MarginLeftgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft
 type: docs
 weight: 50
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft/
 ---
 ## WordProcessingConvertOptions.MarginLeft property
 
-Desired page left margin in pixels after conversion.
+Implements [`MarginLeft`](../../ipagemarginconvertoptions/marginleft)
 
 ```csharp
 public int MarginLeft { get; set; }

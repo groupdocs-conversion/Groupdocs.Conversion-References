@@ -24,9 +24,9 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 
 | Name | Description |
 | --- | --- |
-| [ConvertOwned](../../groupdocs.conversion.options.load/compressionloadoptions/convertowned) { get; } | Option to control whether the owned documents in the documents container must be converted |
-| [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Option to control whether the documents container itself must be converted If this property is true the documents container will be the first converted document |
-| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Option to control how many levels in depth to perform conversion |
+| [ConvertOwned](../../groupdocs.conversion.options.load/compressionloadoptions/convertowned) { get; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Readonly. Set to true. The owned documents will be converted |
+| [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
+| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Password](../../groupdocs.conversion.options.load/compressionloadoptions/password) { get; set; } | Set password to load protected document. |
 

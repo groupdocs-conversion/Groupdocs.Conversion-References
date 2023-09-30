@@ -20,15 +20,15 @@ public class EmailDocumentInfo : DocumentInfo
 | --- | --- |
 | [AttachmentsCount](../../groupdocs.conversion.contracts/emaildocumentinfo/attachmentscount) { get; } | Gets attachments count |
 | [AttachmentsNames](../../groupdocs.conversion.contracts/emaildocumentinfo/attachmentsnames) { get; } | Gets attachments names |
-| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Document creation date |
-| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Document format |
+| [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
+| [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [IsEncrypted](../../groupdocs.conversion.contracts/emaildocumentinfo/isencrypted) { get; } | Gets is encrypted |
 | [IsHtml](../../groupdocs.conversion.contracts/emaildocumentinfo/ishtml) { get; } | Gets is html |
 | [IsSigned](../../groupdocs.conversion.contracts/emaildocumentinfo/issigned) { get; } | Gets is signed |
-| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Get value for a property provided as a key |
-| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Document pages count. |
-| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Enumerable of all properties which could be get for the current document info |
-| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Document size in bytes |
+| [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
+| [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
+| [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
+| [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 
 ### See Also
 

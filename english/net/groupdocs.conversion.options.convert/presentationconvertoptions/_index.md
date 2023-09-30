@@ -25,12 +25,12 @@ public class PresentationConvertOptions : CommonConvertOptions<PresentationFileT
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [Password](../../groupdocs.conversion.options.convert/presentationconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 | [Zoom](../../groupdocs.conversion.options.convert/presentationconvertoptions/zoom) { get; set; } | Specifies the zoom level in percentage. Default is 100. Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened. |
 
 ## Methods

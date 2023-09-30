@@ -1,14 +1,14 @@
 ---
 title: PagesCount
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Document pages count.
+description: Implements PagesCountgroupdocs.conversion.contracts/idocumentinfo/pagescount
 type: docs
 weight: 40
 url: /net/groupdocs.conversion.contracts/documentinfo/pagescount/
 ---
 ## DocumentInfo.PagesCount property
 
-Document pages count.
+Implements [`PagesCount`](../../idocumentinfo/pagescount)
 
 ```csharp
 public int PagesCount { get; }

@@ -1,14 +1,14 @@
 ---
 title: WhitelistedResources
 second_title: GroupDocs.Conversion for .NET API Reference
-description: External resources that will be always loaded
+description: Implements WhitelistedResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources
 type: docs
 weight: 90
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/whitelistedresources/
 ---
 ## PresentationLoadOptions.WhitelistedResources property
 
-External resources that will be always loaded
+Implements [`WhitelistedResources`](../../iresourceloadingoptions/whitelistedresources)
 
 ```csharp
 public IList<string> WhitelistedResources { get; set; }

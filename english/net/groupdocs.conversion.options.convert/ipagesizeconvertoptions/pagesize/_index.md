@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired page size after conversion
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize/
 ---
 ## IPageSizeConvertOptions.PageSize property

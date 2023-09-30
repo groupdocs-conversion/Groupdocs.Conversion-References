@@ -27,21 +27,23 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | --- | --- |
 | [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Desired page DPI after conversion. The default resolution is: 96 dpi. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
-| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | The desired file type the input document should be converted to. |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
 | [Height](../../groupdocs.conversion.options.convert/pdfconvertoptions/height) { get; set; } | Desired page height in pixels after conversion. |
-| [MarginBottom](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom) { get; set; } | Desired page bottom margin in pixels after conversion. |
-| [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Desired page left margin in pixels after conversion. |
-| [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Desired page right margin in pixels after conversion. |
-| [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Desired page top margin in pixels after conversion. |
-| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | The page number to start conversion from. |
-| [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Desired page orientation after conversion |
-| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | The list of page indexes to be converted. Should be specified to convert specific pages. |
-| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Number of pages to convert starting from `PageNumber`. |
-| [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Desired page size after conversion |
+| [MarginBottom](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom) { get; set; } | Implements [`MarginBottom`](../ipagemarginconvertoptions/marginbottom) |
+| [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Implements [`MarginLeft`](../ipagemarginconvertoptions/marginleft) |
+| [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Implements [`MarginRight`](../ipagemarginconvertoptions/marginright) |
+| [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Implements [`MarginTop`](../ipagemarginconvertoptions/margintop) |
+| [PageHeight](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
+| [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Implements [`PageOrientation`](../ipageorientationconvertoptions/pageorientation) |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
+| [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
+| [PageWidth](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
 | [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf specific convert options |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Page rotation |
-| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Watermark specific options |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 | [Width](../../groupdocs.conversion.options.convert/pdfconvertoptions/width) { get; set; } | Desired page width in pixels after conversion. |
 
 ## Methods

@@ -30,8 +30,8 @@ public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
 

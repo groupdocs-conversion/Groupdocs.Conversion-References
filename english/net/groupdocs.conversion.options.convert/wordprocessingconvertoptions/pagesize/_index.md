@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page size after conversion
+description: Implements PageSizegroupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize/
 ---
 ## WordProcessingConvertOptions.PageSize property
 
-Desired page size after conversion
+Implements [`PageSize`](../../ipagesizeconvertoptions/pagesize)
 
 ```csharp
 public PageSize PageSize { get; set; }

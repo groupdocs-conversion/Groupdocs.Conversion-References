@@ -1,14 +1,14 @@
 ---
 title: SkipExternalResources
 second_title: GroupDocs.Conversion for .NET API Reference
-description: If true all external resource will not be loading with exception of the resources in the WhitelistedResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources
+description: Implements SkipExternalResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources
 type: docs
 weight: 80
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/skipexternalresources/
 ---
 ## PresentationLoadOptions.SkipExternalResources property
 
-If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](../../iresourceloadingoptions/whitelistedresources)
+Implements [`SkipExternalResources`](../../iresourceloadingoptions/skipexternalresources)
 
 ```csharp
 public bool SkipExternalResources { get; set; }

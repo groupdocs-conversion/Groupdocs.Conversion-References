@@ -36,11 +36,11 @@ public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Keep original value of date field. Default: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Update fields after loading. Default: false |
 | [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Update page layout after loading. Default: false |
 | [UseTextShaper](../../groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper) { get; set; } | Specifies whether to use a text shaper for better kerning display. Default is false. |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
 

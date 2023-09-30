@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page right margin in pixels after conversion.
+description: Implements MarginRightgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright
 type: docs
 weight: 60
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginright/
 ---
 ## PdfConvertOptions.MarginRight property
 
-Desired page right margin in pixels after conversion.
+Implements [`MarginRight`](../../ipagemarginconvertoptions/marginright)
 
 ```csharp
 public int MarginRight { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PageNumber
 second_title: GroupDocs.Conversion for .NET API Reference
-description: The page number to start conversion from.
+description: Implements PageNumbergroupdocs.conversion.options.convert/ipagedconvertoptions/pagenumber
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.convert/financeconvertoptions/pagenumber/
 ---
 ## FinanceConvertOptions.PageNumber property
 
-The page number to start conversion from.
+Implements [`PageNumber`](../../ipagedconvertoptions/pagenumber)
 
 ```csharp
 public int PageNumber { get; set; }

@@ -31,8 +31,8 @@ public class PresentationLoadOptions : LoadOptions, IResourceLoadingOptions
 | [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | Show hidden slides. |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/presentationloadoptions/skipexternalresources) { get; set; } | If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/presentationloadoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/presentationloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/presentationloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
 
