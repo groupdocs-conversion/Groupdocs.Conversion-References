@@ -17,7 +17,7 @@ Contains Presentation document metadata
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationDocumentInfo(Presentation presentation, FileType format, long size)](#PresentationDocumentInfo-com.aspose.slides.Presentation-com.groupdocs.conversion.filetypes.FileType-long-) |  |
+| [PresentationDocumentInfo(Presentation presentation, FileType format, long size, boolean isPasswordProtected)](#PresentationDocumentInfo-com.aspose.slides.Presentation-com.groupdocs.conversion.filetypes.FileType-long-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -27,9 +27,9 @@ Contains Presentation document metadata
 | [getAuthor()](#getAuthor--) | Gets author |
 | [setAuthor(String author)](#setAuthor-java.lang.String-) | Sets author |
 | [isPasswordProtected()](#isPasswordProtected--) | Gets is the document password protected |
-### PresentationDocumentInfo(Presentation presentation, FileType format, long size) {#PresentationDocumentInfo-com.aspose.slides.Presentation-com.groupdocs.conversion.filetypes.FileType-long-}
+### PresentationDocumentInfo(Presentation presentation, FileType format, long size, boolean isPasswordProtected) {#PresentationDocumentInfo-com.aspose.slides.Presentation-com.groupdocs.conversion.filetypes.FileType-long-boolean-}
 ```
-public PresentationDocumentInfo(Presentation presentation, FileType format, long size)
+public PresentationDocumentInfo(Presentation presentation, FileType format, long size, boolean isPasswordProtected)
 ```
 
 
@@ -39,6 +39,7 @@ public PresentationDocumentInfo(Presentation presentation, FileType format, long
 | presentation | com.aspose.slides.Presentation |  |
 | format | [FileType](../../com.groupdocs.conversion.filetypes/filetype) |  |
 | size | long |  |
+| isPasswordProtected | boolean |  |
 
 ### getTitle() {#getTitle--}
 ```

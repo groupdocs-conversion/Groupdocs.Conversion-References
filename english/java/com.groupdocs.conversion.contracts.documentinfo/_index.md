@@ -48,7 +48,7 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [TxtDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/txtdocumentinfo) | Contains Txt document metadata |
 | [VcfDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/vcfdocumentinfo) | Contains Vcf document metadata |
 | [VideoDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/videodocumentinfo) | Contains Video document metadata |
-| [WebDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/webdocumentinfo) | Contains Markup document metadata |
+| [WebDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/webdocumentinfo) | Contains Web document metadata |
 | [WordProcessingDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/wordprocessingdocumentinfo) | Contains Wordprocessing document metadata |
 | [XmlDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xpsdocumentinfo) | Contains Xps document metadata |

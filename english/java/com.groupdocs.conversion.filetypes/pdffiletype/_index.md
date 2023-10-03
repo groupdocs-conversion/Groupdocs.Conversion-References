@@ -15,7 +15,7 @@ java.io.Serializable
 public final class PdfFileType extends FileType implements Serializable
 ```
 
-Defines Pdf documents. Includes the following file types: [Epub](../../com.groupdocs.conversion.filetypes/pdffiletype\#Epub), [Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype\#Pdf), [Xps](../../com.groupdocs.conversion.filetypes/pdffiletype\#Xps).
+Defines Pdf documents. Includes the following file types: [Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype\#Pdf),
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Set how converted document to be stored
 type: docs
-weight: 27
+weight: 28
 url: /java/com.groupdocs.conversion.fluent/iconversionto/
 ---```
 public interface IConversionTo

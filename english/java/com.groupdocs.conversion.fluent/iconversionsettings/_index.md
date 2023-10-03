@@ -3,7 +3,7 @@ title: IConversionSettings
 second_title: GroupDocs.Conversion for Java API Reference
 description: Setup conversion settings
 type: docs
-weight: 24
+weight: 25
 url: /java/com.groupdocs.conversion.fluent/iconversionsettings/
 ---```
 public interface IConversionSettings

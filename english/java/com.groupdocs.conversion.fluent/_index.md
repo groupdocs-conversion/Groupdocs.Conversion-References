@@ -23,6 +23,7 @@ url: /java/com.groupdocs.conversion.fluent/
 | [IConversionFrom](../com.groupdocs.conversion.fluent/iconversionfrom) | Setup source for conversion |
 | [IConversionGetDocumentInfo](../com.groupdocs.conversion.fluent/iconversiongetdocumentinfo) | Gets source document info - pages count and other document properties specific to the file type. |
 | [IConversionGetPossibleConversions](../com.groupdocs.conversion.fluent/iconversiongetpossibleconversions) | Gets possible conversions for the source document. |
+| [IConversionIsPasswordProtected](../com.groupdocs.conversion.fluent/iconversionispasswordprotected) | Checks if source document is password protected |
 | [IConversionLoadOptions](../com.groupdocs.conversion.fluent/iconversionloadoptions) | Conversion load options |
 | [IConversionLoadOptionsOrSourceDocumentLoaded](../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded) | Conversion load options or actions with loaded document |
 | [IConversionSettings](../com.groupdocs.conversion.fluent/iconversionsettings) | Setup conversion settings |

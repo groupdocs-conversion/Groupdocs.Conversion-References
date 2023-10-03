@@ -36,11 +36,11 @@ Initializes new instance of [EpubLoadOptions](../../com.groupdocs.conversion.opt
 
 ### getFormat() {#getFormat--}
 ```
-public final PdfFileType getFormat()
+public final EBookFileType getFormat()
 ```
 
 
 Input document file type
 
 **Returns:**
-[PdfFileType](../../com.groupdocs.conversion.filetypes/pdffiletype)
+[EBookFileType](../../com.groupdocs.conversion.filetypes/ebookfiletype)

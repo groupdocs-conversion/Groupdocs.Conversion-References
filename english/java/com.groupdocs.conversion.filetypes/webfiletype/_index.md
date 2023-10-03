@@ -42,7 +42,6 @@ Defines Web documents. Includes the following types: [Xml](../../com.groupdocs.c
 | [getLoadOptions()](#getLoadOptions--) |  |
 | [getConvertOptions()](#getConvertOptions--) |  |
 | [getExcludedTargetTypes()](#getExcludedTargetTypes--) |  |
-| [webFileType(DataFileType d)](#webFileType-com.groupdocs.conversion.filetypes.DataFileType-) | Convert DataFileType to WebFileType explicitly |
 ### WebFileType() {#WebFileType--}
 ```
 public WebFileType()
@@ -158,18 +157,3 @@ public static FileType[] getExcludedTargetTypes()
 
 **Returns:**
 com.groupdocs.conversion.filetypes.FileType[]
-### webFileType(DataFileType d) {#webFileType-com.groupdocs.conversion.filetypes.DataFileType-}
-```
-public static WebFileType webFileType(DataFileType d)
-```
-
-
-Convert DataFileType to WebFileType explicitly
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| d | [DataFileType](../../com.groupdocs.conversion.filetypes/datafiletype) | Data file type |
-
-**Returns:**
-[WebFileType](../../com.groupdocs.conversion.filetypes/webfiletype)

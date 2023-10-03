@@ -7,12 +7,12 @@ weight: 41
 url: /java/com.groupdocs.conversion.options.load/xmlloadoptions/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions), [com.groupdocs.conversion.options.load.WebLoadOptions](../../com.groupdocs.conversion.options.load/webloadoptions), [com.groupdocs.conversion.options.load.DataLoadOptions](../../com.groupdocs.conversion.options.load/dataloadoptions)
+java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions), [com.groupdocs.conversion.options.load.WebLoadOptions](../../com.groupdocs.conversion.options.load/webloadoptions)
 
 **All Implemented Interfaces:**
 java.io.Serializable
 ```
-public final class XmlLoadOptions extends DataLoadOptions implements Serializable
+public final class XmlLoadOptions extends WebLoadOptions implements Serializable
 ```
 
 Options for loading XML documents.

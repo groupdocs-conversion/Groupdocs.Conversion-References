@@ -1,7 +1,7 @@
 ---
 title: WebDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
-description: Contains Markup document metadata
+description: Contains Web document metadata
 type: docs
 weight: 44
 url: /java/com.groupdocs.conversion.contracts.documentinfo/webdocumentinfo/
@@ -12,27 +12,27 @@ java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo]
 public class WebDocumentInfo extends DocumentInfo
 ```
 
-Contains Markup document metadata
+Contains Web document metadata
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WebDocumentInfo(System.IO.Stream markup, FileType format, long size)](#WebDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-) |  |
+| [WebDocumentInfo(System.IO.Stream document, FileType format, long size)](#WebDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getEncoding()](#getEncoding--) |  |
-### WebDocumentInfo(System.IO.Stream markup, FileType format, long size) {#WebDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-}
+### WebDocumentInfo(System.IO.Stream document, FileType format, long size) {#WebDocumentInfo-com.aspose.ms.System.IO.Stream-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
-public WebDocumentInfo(System.IO.Stream markup, FileType format, long size)
+public WebDocumentInfo(System.IO.Stream document, FileType format, long size)
 ```
 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| markup | com.aspose.ms.System.IO.Stream |  |
+| document | com.aspose.ms.System.IO.Stream |  |
 | format | [FileType](../../com.groupdocs.conversion.filetypes/filetype) |  |
 | size | long |  |
 

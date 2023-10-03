@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Conversion load options
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.conversion.fluent/iconversionloadoptions/
 ---```
 public interface IConversionLoadOptions

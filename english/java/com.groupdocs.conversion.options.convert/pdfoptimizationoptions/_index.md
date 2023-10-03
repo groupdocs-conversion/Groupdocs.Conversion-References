@@ -37,6 +37,8 @@ Defines Pdf optimization options.
 | [setImageQuality(int value)](#setImageQuality-int-) | Value in percent where 100% is unchanged quality and image size. |
 | [getUnembedFonts()](#getUnembedFonts--) | Make fonts not embedded if set to true |
 | [setUnembedFonts(boolean value)](#setUnembedFonts-boolean-) | Make fonts not embedded if set to true |
+| [getFontSubsetStrategy()](#getFontSubsetStrategy--) |  |
+| [setFontSubsetStrategy(PdfFontSubsetStrategy fontSubsetStrategy)](#setFontSubsetStrategy-com.groupdocs.conversion.options.convert.PdfFontSubsetStrategy-) | Set font subset strategy |
 ### PdfOptimizationOptions() {#PdfOptimizationOptions--}
 ```
 public PdfOptimizationOptions()
@@ -182,4 +184,27 @@ Make fonts not embedded if set to true
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getFontSubsetStrategy() {#getFontSubsetStrategy--}
+```
+public PdfFontSubsetStrategy getFontSubsetStrategy()
+```
+
+
+
+
+**Returns:**
+[PdfFontSubsetStrategy](../../com.groupdocs.conversion.options.convert/pdffontsubsetstrategy)
+### setFontSubsetStrategy(PdfFontSubsetStrategy fontSubsetStrategy) {#setFontSubsetStrategy-com.groupdocs.conversion.options.convert.PdfFontSubsetStrategy-}
+```
+public void setFontSubsetStrategy(PdfFontSubsetStrategy fontSubsetStrategy)
+```
+
+
+Set font subset strategy
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontSubsetStrategy | [PdfFontSubsetStrategy](../../com.groupdocs.conversion.options.convert/pdffontsubsetstrategy) |  |
 
