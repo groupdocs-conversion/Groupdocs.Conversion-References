@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Image file type.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 **Inheritance:**

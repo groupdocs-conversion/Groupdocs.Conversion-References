@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Diagram documents.
 type: docs
-weight: 13
+weight: 15
 url: /java/com.groupdocs.conversion.options.load/diagramloadoptions/
 ---
 **Inheritance:**

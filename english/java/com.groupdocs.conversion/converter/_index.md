@@ -61,6 +61,7 @@ Represents main class that controls document conversion process.
 | [load(DocumentStreamProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamProvider-) |  |
 | [load(DocumentStreamsProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamsProvider-) |  |
 | [getDocumentInfo()](#getDocumentInfo--) | Gets source document info - pages count and other document properties specific to the file type. |
+| [isDocumentPasswordProtected()](#isDocumentPasswordProtected--) | Checks is source document is password protected |
 | [getPossibleConversions()](#getPossibleConversions--) | Gets possible conversions for the source document. |
 | [getAllPossibleConversions()](#getAllPossibleConversions--) | Gets all supported conversions **Learn more**Learn more about supported conversions: [Full list of supported conversions][]Learn more about available conversions: [How to get supported conversions in code][]
 
@@ -741,6 +742,19 @@ Gets source document info - pages count and other document properties specific t
 
 **Returns:**
 [IDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/idocumentinfo) - document info
+### isDocumentPasswordProtected() {#isDocumentPasswordProtected--}
+```
+public boolean isDocumentPasswordProtected()
+```
+
+
+Checks is source document is password protected
+
+**Returns:**
+boolean - true if document is password protected **Learn more**Learn more about converted document - file type, pages count, creation date and many other format specific properties: [How to check is the document password protected][]
+
+
+[How to check is the document password protected]: https://docs.groupdocs.com/display/conversionnet/Is+document+password+protected
 ### getPossibleConversions() {#getPossibleConversions--}
 ```
 public final PossibleConversions getPossibleConversions()

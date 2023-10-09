@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Email documents.
 type: docs
-weight: 15
+weight: 18
 url: /java/com.groupdocs.conversion.options.load/emailloadoptions/
 ---
 **Inheritance:**

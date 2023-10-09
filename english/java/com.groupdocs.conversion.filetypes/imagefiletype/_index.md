@@ -3,7 +3,7 @@ title: ImageFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines image documents.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.conversion.filetypes/imagefiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class ImageFileType extends FileType implements Serializable
 ```
 
-Defines image documents. Includes the following file types: [Ai](../../com.groupdocs.conversion.filetypes/imagefiletype\#Ai), [Bmp](../../com.groupdocs.conversion.filetypes/imagefiletype\#Bmp), [Cdr](../../com.groupdocs.conversion.filetypes/imagefiletype\#Cdr), [Cgm](../../com.groupdocs.conversion.filetypes/imagefiletype\#Cgm), [Cmx](../../com.groupdocs.conversion.filetypes/imagefiletype\#Cmx), [Dcm](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dcm), [Dib](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dib), [DjVu](../../com.groupdocs.conversion.filetypes/imagefiletype\#DjVu), [Dng](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dng), [Emf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Emf), [Emz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Emz), [Eps](../../com.groupdocs.conversion.filetypes/imagefiletype\#Eps), [Gif](../../com.groupdocs.conversion.filetypes/imagefiletype\#Gif), [Ico](../../com.groupdocs.conversion.filetypes/imagefiletype\#Ico), [J2c](../../com.groupdocs.conversion.filetypes/imagefiletype\#J2c), [J2k](../../com.groupdocs.conversion.filetypes/imagefiletype\#J2k), [Jls](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jls), [Jp2](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jp2), [Jpc](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpc), [Jpeg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpeg), [Jpf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpf), [Jpg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpg), [Jpm](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpm), [Jpx](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpx), [Odg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Odg), [Png](../../com.groupdocs.conversion.filetypes/imagefiletype\#Png), [Psd](../../com.groupdocs.conversion.filetypes/imagefiletype\#Psd), [Svg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Svg), [Svgz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Svgz), [Tga](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tga), [Tif](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tif), [Tiff](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tiff), [Webp](../../com.groupdocs.conversion.filetypes/imagefiletype\#Webp), [Wmf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Wmf), [Wmz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Wmz). Learn more about Image formats [here][].
+Defines image documents. Includes the following file types: [Ai](../../com.groupdocs.conversion.filetypes/imagefiletype\#Ai), [Bmp](../../com.groupdocs.conversion.filetypes/imagefiletype\#Bmp), [Cdr](../../com.groupdocs.conversion.filetypes/imagefiletype\#Cdr), [Cmx](../../com.groupdocs.conversion.filetypes/imagefiletype\#Cmx), [Dcm](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dcm), [Dib](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dib), [DjVu](../../com.groupdocs.conversion.filetypes/imagefiletype\#DjVu), [Dng](../../com.groupdocs.conversion.filetypes/imagefiletype\#Dng), [Emf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Emf), [Emz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Emz), [Gif](../../com.groupdocs.conversion.filetypes/imagefiletype\#Gif), [Ico](../../com.groupdocs.conversion.filetypes/imagefiletype\#Ico), [J2c](../../com.groupdocs.conversion.filetypes/imagefiletype\#J2c), [J2k](../../com.groupdocs.conversion.filetypes/imagefiletype\#J2k), [Jls](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jls), [Jp2](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jp2), [Jpc](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpc), [Jpeg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpeg), [Jpf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpf), [Jpg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpg), [Jpm](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpm), [Jpx](../../com.groupdocs.conversion.filetypes/imagefiletype\#Jpx), [Odg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Odg), [Png](../../com.groupdocs.conversion.filetypes/imagefiletype\#Png), [Psd](../../com.groupdocs.conversion.filetypes/imagefiletype\#Psd), [Svg](../../com.groupdocs.conversion.filetypes/imagefiletype\#Svg), [Svgz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Svgz), [Tga](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tga), [Tif](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tif), [Tiff](../../com.groupdocs.conversion.filetypes/imagefiletype\#Tiff), [Webp](../../com.groupdocs.conversion.filetypes/imagefiletype\#Webp), [Wmf](../../com.groupdocs.conversion.filetypes/imagefiletype\#Wmf), [Wmz](../../com.groupdocs.conversion.filetypes/imagefiletype\#Wmz). Learn more about Image formats [here][].
 
 
 [here]: https://wiki.fileformat.com/image
@@ -43,7 +43,6 @@ Defines image documents. Includes the following file types: [Ai](../../com.group
 | [Dicom](#Dicom) | Files with .DICOM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. |
 | [Webp](#Webp) | WWebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. |
 | [Dng](#Dng) | DNG is a digital camera image format used for the storage of raw files. |
-| [Svg](#Svg) | An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. |
 | [Jp2](#Jp2) | JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. |
 | [Odg](#Odg) | The ODG file format is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. |
 | [J2c](#J2c) | J2c document format |
@@ -51,8 +50,6 @@ Defines image documents. Includes the following file types: [Ai](../../com.group
 | [Jpx](#Jpx) | Jpx document format |
 | [Jpf](#Jpf) | Jpf document format |
 | [Jpm](#Jpm) | Jpm document format |
-| [Eps](#Eps) | Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. |
-| [Cgm](#Cgm) | Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. |
 | [Cdr](#Cdr) | A CDR file is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. |
 | [Cmx](#Cmx) | Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. |
 | [Dib](#Dib) | DDIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. |
@@ -249,17 +246,6 @@ DNG is a digital camera image format used for the storage of raw files. It has b
 
 [here]: https://wiki.fileformat.com/image/dng
 
-### Svg {#Svg}
-```
-public static final ImageFileType Svg
-```
-
-
-An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/svg
-
 ### Jp2 {#Jp2}
 ```
 public static final ImageFileType Jp2
@@ -324,28 +310,6 @@ public static final ImageFileType Jpm
 
 
 Jpm document format
-
-### Eps {#Eps}
-```
-public static final ImageFileType Eps
-```
-
-
-Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/eps
-
-### Cgm {#Cgm}
-```
-public static final ImageFileType Cgm
-```
-
-
-Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/page-description-language/cgm
 
 ### Cdr {#Cdr}
 ```

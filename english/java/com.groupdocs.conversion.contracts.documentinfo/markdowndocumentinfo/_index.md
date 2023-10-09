@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Md document metadata
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo/
 ---
 **Inheritance:**

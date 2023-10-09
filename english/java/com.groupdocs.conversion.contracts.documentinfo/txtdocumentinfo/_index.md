@@ -3,7 +3,7 @@ title: TxtDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Txt document metadata
 type: docs
-weight: 39
+weight: 41
 url: /java/com.groupdocs.conversion.contracts.documentinfo/txtdocumentinfo/
 ---
 **Inheritance:**

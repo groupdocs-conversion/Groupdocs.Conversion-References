@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 26
+weight: 31
 url: /java/com.groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 **Inheritance:**
@@ -54,6 +54,8 @@ Options for loading Spreadsheet documents.
 | [setHideComments(boolean value)](#setHideComments-boolean-) | Hide comments. |
 | [isCheckExcelRestriction()](#isCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCheckExcelRestriction(boolean checkExcelRestriction)](#setCheckExcelRestriction-boolean-) |  |
+| [getSheetIndexes()](#getSheetIndexes--) | Gets List of sheet indexes to convert. |
+| [setSheetIndexes(List<Integer> sheetIndexes)](#setSheetIndexes-java.util.List-java.lang.Integer--) | Sets List of sheet indexes to convert. |
 | [deepClone()](#deepClone--) | Clones current instance. |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
@@ -394,6 +396,29 @@ public void setCheckExcelRestriction(boolean checkExcelRestriction)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | checkExcelRestriction | boolean |  |
+
+### getSheetIndexes() {#getSheetIndexes--}
+```
+public List<Integer> getSheetIndexes()
+```
+
+
+Gets List of sheet indexes to convert.
+
+**Returns:**
+java.util.List<java.lang.Integer>
+### setSheetIndexes(List<Integer> sheetIndexes) {#setSheetIndexes-java.util.List-java.lang.Integer--}
+```
+public void setSheetIndexes(List<Integer> sheetIndexes)
+```
+
+
+Sets List of sheet indexes to convert. The indexes must be zero-based
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndexes | java.util.List<java.lang.Integer> |  |
 
 ### deepClone() {#deepClone--}
 ```

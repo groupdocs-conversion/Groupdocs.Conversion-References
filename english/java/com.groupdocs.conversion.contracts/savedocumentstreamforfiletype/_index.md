@@ -3,7 +3,7 @@ title: SaveDocumentStreamForFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate for saving converted document into stream.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.conversion.contracts/savedocumentstreamforfiletype/
 ---```
 public interface SaveDocumentStreamForFileType

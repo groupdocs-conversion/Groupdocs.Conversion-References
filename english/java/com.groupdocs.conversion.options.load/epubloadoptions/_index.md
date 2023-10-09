@@ -3,7 +3,7 @@ title: EpubLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Epub documents.
 type: docs
-weight: 16
+weight: 19
 url: /java/com.groupdocs.conversion.options.load/epubloadoptions/
 ---
 **Inheritance:**
@@ -36,11 +36,11 @@ Initializes new instance of [EpubLoadOptions](../../com.groupdocs.conversion.opt
 
 ### getFormat() {#getFormat--}
 ```
-public final PdfFileType getFormat()
+public final EBookFileType getFormat()
 ```
 
 
 Input document file type
 
 **Returns:**
-[PdfFileType](../../com.groupdocs.conversion.filetypes/pdffiletype)
+[EBookFileType](../../com.groupdocs.conversion.filetypes/ebookfiletype)

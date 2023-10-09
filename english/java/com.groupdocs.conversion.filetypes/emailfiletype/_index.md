@@ -3,7 +3,7 @@ title: EmailFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Email file formats that are used by email applications to store their various data including email messages attachments folders address books etc.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.conversion.filetypes/emailfiletype/
 ---
 **Inheritance:**
@@ -15,7 +15,7 @@ java.io.Serializable
 public final class EmailFileType extends FileType implements Serializable
 ```
 
-Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Mht](../../com.groupdocs.conversion.filetypes/emailfiletype\#Mht), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). Learn more about Email formats [here][].
+Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). [Pst](../../com.groupdocs.conversion.filetypes/emailfiletype\#Pst). [Ost](../../com.groupdocs.conversion.filetypes/emailfiletype\#Ost). Learn more about Email formats [here][].
 
 
 [here]: https://wiki.fileformat.com/email
@@ -33,6 +33,8 @@ Defines Email file formats that are used by email applications to store their va
 | [Emlx](#Emlx) | The EMLX file format is implemented and developed by Apple. |
 | [Vcf](#Vcf) | VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. |
 | [Mbox](#Mbox) | MBox file format is a generic term that represents a container for collection of electronic mail messages. |
+| [Pst](#Pst) | Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. |
+| [Ost](#Ost) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. |
 ## Methods
 
 | Method | Description |
@@ -101,6 +103,28 @@ MBox file format is a generic term that represents a container for collection of
 
 
 [here]: https://docs.fileformat.com/email/mbox/
+
+### Pst {#Pst}
+```
+public static final EmailFileType Pst
+```
+
+
+Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/email/pst
+
+### Ost {#Ost}
+```
+public static final EmailFileType Ost
+```
+
+
+OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/email/ost
 
 ### getLoadOptions() {#getLoadOptions--}
 ```

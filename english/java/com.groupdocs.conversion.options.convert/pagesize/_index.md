@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 55
+weight: 58
 url: /java/com.groupdocs.conversion.options.convert/pagesize/
 ---
 **Inheritance:**
@@ -40,6 +40,8 @@ public enum PageSize extends Enum<PageSize>
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [getKey()](#getKey--) |  |
 | [getName()](#getName--) |  |
+| [getWidth()](#getWidth--) |  |
+| [getHeight()](#getHeight--) |  |
 ### A3 {#A3}
 ```
 public static final PageSize A3
@@ -187,3 +189,23 @@ public String getName()
 
 **Returns:**
 java.lang.String
+### getWidth() {#getWidth--}
+```
+public float getWidth()
+```
+
+
+
+
+**Returns:**
+float
+### getHeight() {#getHeight--}
+```
+public float getHeight()
+```
+
+
+
+
+**Returns:**
+float

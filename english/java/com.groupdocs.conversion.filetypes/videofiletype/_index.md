@@ -3,7 +3,7 @@ title: VideoFileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Video documents Includes the following types        Learn more about video formats here.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.groupdocs.conversion.filetypes/videofiletype/
 ---
 **Inheritance:**
@@ -31,7 +31,7 @@ Defines Video documents Includes the following types: , , , , , , , Learn more a
 | [Mkv](#Mkv) | MKV (Matroska Video) is a multimedia container similar to MOV and AVI format but it supports more than one audio and subtitle track in the same file. |
 | [Mov](#Mov) | MOV or QuickTime file format is a multimedia container which is developed by Apple: contains one or more tracks, each track holds a particular type of data i.e. |
 | [Webm](#Webm) | A file with a .webm extension is a video file based on the open, royalty-free WebM file format. |
-| [Wmv](#Wmv) | The Advanced Systems Format (ASF) is a digital multimedia container designed primarily for storing and transmitting media streams. |
+| [Wmv](#Wmv) | Windows Media Video is the compressed video format developed by Microsoft. |
 ## Methods
 
 | Method | Description |
@@ -118,7 +118,7 @@ public static final VideoFileType Wmv
 ```
 
 
-The Advanced Systems Format (ASF) is a digital multimedia container designed primarily for storing and transmitting media streams. Learn more about this file format [here][].
+Windows Media Video is the compressed video format developed by Microsoft. After the standardization by the Society of Motion Picture and Television Engineers (SMPTE), WMV is now considered to be an open standard format. Learn more about this file format [here][].
 
 
 [here]: https://docs.fileformat.com/video/wmv/

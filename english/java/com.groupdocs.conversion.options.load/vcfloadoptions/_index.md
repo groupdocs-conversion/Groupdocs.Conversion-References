@@ -3,7 +3,7 @@ title: VcfLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Vcf documents.
 type: docs
-weight: 31
+weight: 36
 url: /java/com.groupdocs.conversion.options.load/vcfloadoptions/
 ---
 **Inheritance:**

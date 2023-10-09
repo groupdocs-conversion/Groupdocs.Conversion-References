@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.groupdocs.conversion.options.convert/pdfoptions/
 ---
 **Inheritance:**
@@ -39,6 +39,8 @@ Options for conversion to Pdf file type.
 | [setGrayscale(boolean value)](#setGrayscale-boolean-) | Convert a PDF from RGB colorspace to grayscale |
 | [getFormattingOptions()](#getFormattingOptions--) | Pdf formatting options |
 | [setFormattingOptions(PdfFormattingOptions value)](#setFormattingOptions-com.groupdocs.conversion.options.convert.PdfFormattingOptions-) | Pdf formatting options |
+| [getDocumentInfo()](#getDocumentInfo--) | Meta information of PDF document. |
+| [setDocumentInfo(PdfDocumentInfo documentInfo)](#setDocumentInfo-com.groupdocs.conversion.options.convert.PdfDocumentInfo-) |  |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
@@ -207,4 +209,27 @@ Pdf formatting options
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PdfFormattingOptions](../../com.groupdocs.conversion.options.convert/pdfformattingoptions) |  |
+
+### getDocumentInfo() {#getDocumentInfo--}
+```
+public PdfDocumentInfo getDocumentInfo()
+```
+
+
+Meta information of PDF document.
+
+**Returns:**
+[PdfDocumentInfo](../../com.groupdocs.conversion.options.convert/pdfdocumentinfo)
+### setDocumentInfo(PdfDocumentInfo documentInfo) {#setDocumentInfo-com.groupdocs.conversion.options.convert.PdfDocumentInfo-}
+```
+public void setDocumentInfo(PdfDocumentInfo documentInfo)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentInfo | [PdfDocumentInfo](../../com.groupdocs.conversion.options.convert/pdfdocumentinfo) |  |
 

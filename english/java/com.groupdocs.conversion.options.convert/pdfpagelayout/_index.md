@@ -3,7 +3,7 @@ title: PdfPageLayout
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Pdf page layout.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.conversion.options.convert/pdfpagelayout/
 ---
 **Inheritance:**

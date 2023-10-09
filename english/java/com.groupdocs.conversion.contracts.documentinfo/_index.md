@@ -24,20 +24,22 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [EmailDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/emaildocumentinfo) | Contains Email document metadata |
 | [EpsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/epsdocumentinfo) | Contains Ps document metadata |
 | [EpubDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/epubdocumentinfo) | Contains Epub document metadata |
+| [FontDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/fontdocumentinfo) | Contains Font document metadata |
 | [IcoDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/imagedocumentinfo) | Contains Image document metadata |
 | [JsonDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/jsondocumentinfo) | Contains Json document metadata |
 | [MarkdownDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo) | Contains Md document metadata |
-| [MarkupDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/markupdocumentinfo) | Contains Markup document metadata |
 | [NoteDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/notedocumentinfo) | Contains Note document metadata |
 | [PasswordProtectedDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pcldocumentinfo) | Contains Pcl document metadata |
 | [PdfDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo) | Contains Pdf document metadata |
 | [PersonalStorageDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/personalstoragedocumentinfo) | Contains personal storage document metadata |
+| [PersonalStorageFolderInfo](../com.groupdocs.conversion.contracts.documentinfo/personalstoragefolderinfo) | Personal Storage Folder info |
 | [PresentationDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/presentationdocumentinfo) | Contains Presentation document metadata |
 | [ProjectManagementDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
 | [PsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/psdocumentinfo) | Contains Ps document metadata |
 | [PsdDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/psddocumentinfo) | Contains Psd document metadata |
+| [PublisherDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/publisherdocumentinfo) | Contains Publisher document metadata |
 | [SpreadsheetDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/spreadsheetdocumentinfo) | Contains Spreadsheet document metadata |
 | [SvgDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/svgdocumentinfo) | Contains Svg document metadata |
 | [TableOfContentsItem](../com.groupdocs.conversion.contracts.documentinfo/tableofcontentsitem) | Contains Table of contents item metadata |
@@ -46,6 +48,8 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [TxtDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/txtdocumentinfo) | Contains Txt document metadata |
 | [VcfDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/vcfdocumentinfo) | Contains Vcf document metadata |
 | [VideoDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/videodocumentinfo) | Contains Video document metadata |
+| [WebDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/webdocumentinfo) | Contains Web document metadata |
+| [WordProcessingDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/wordprocessingdocumentinfo) | Contains Wordprocessing document metadata |
 | [XmlDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xpsdocumentinfo) | Contains Xps document metadata |
 | [XslFoDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xslfodocumentinfo) | Contains XslFo document metadata |

@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 23
+weight: 27
 url: /java/com.groupdocs.conversion.options.load/pdfloadoptions/
 ---
 **Inheritance:**

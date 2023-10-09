@@ -3,7 +3,7 @@ title: WatermarkImageOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for settings watermark to the converted document
 type: docs
-weight: 42
+weight: 43
 url: /java/com.groupdocs.conversion.options.convert/watermarkimageoptions/
 ---
 **Inheritance:**

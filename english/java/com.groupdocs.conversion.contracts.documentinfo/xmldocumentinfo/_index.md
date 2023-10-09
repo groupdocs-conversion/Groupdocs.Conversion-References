@@ -3,7 +3,7 @@ title: XmlDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Xml document metadata
 type: docs
-weight: 42
+weight: 46
 url: /java/com.groupdocs.conversion.contracts.documentinfo/xmldocumentinfo/
 ---
 **Inheritance:**

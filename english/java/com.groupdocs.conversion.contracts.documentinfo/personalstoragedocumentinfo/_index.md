@@ -71,11 +71,11 @@ Get count of contents in the root folder
 int - count of contents in the root folder
 ### getFolders() {#getFolders--}
 ```
-public List<String> getFolders()
+public List<PersonalStorageFolderInfo> getFolders()
 ```
 
 
 Folders in the storage
 
 **Returns:**
-java.util.List<java.lang.String> - Folders in the storage
+java.util.List<com.groupdocs.conversion.contracts.documentinfo.PersonalStorageFolderInfo> - Folders in the storage

@@ -3,7 +3,7 @@ title: EmailField
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes email fields enumeration
 type: docs
-weight: 14
+weight: 17
 url: /java/com.groupdocs.conversion.options.load/emailfield/
 ---
 **Inheritance:**

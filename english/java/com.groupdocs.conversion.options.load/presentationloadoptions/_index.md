@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 25
+weight: 29
 url: /java/com.groupdocs.conversion.options.load/presentationloadoptions/
 ---
 **Inheritance:**

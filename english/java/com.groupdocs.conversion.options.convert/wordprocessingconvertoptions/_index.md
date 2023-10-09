@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to WordProcessing file type.
 type: docs
-weight: 45
+weight: 48
 url: /java/com.groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 **Inheritance:**

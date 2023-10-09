@@ -3,7 +3,7 @@ title: CadLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading CAD documents.
 type: docs
-weight: 10
+weight: 12
 url: /java/com.groupdocs.conversion.options.load/cadloadoptions/
 ---
 **Inheritance:**

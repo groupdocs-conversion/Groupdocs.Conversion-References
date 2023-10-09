@@ -61,21 +61,21 @@ height
 int - height
 ### getLayouts() {#getLayouts--}
 ```
-public Iterable<String> getLayouts()
+public List<String> getLayouts()
 ```
 
 
 layouts in the document
 
 **Returns:**
-java.lang.Iterable<java.lang.String> - layouts in the document
+java.util.List<java.lang.String> - layouts in the document
 ### getLayers() {#getLayers--}
 ```
-public Iterable<String> getLayers()
+public List<String> getLayers()
 ```
 
 
 layers in the document
 
 **Returns:**
-java.lang.Iterable<java.lang.String> - layers in the document
+java.util.List<java.lang.String> - layers in the document

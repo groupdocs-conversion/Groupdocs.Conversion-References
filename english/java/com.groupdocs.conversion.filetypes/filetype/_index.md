@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Conversion for Java API Reference
 description: File type base class
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.conversion.filetypes/filetype/
 ---
 **Inheritance:**
@@ -40,6 +40,10 @@ File type base class
 | [toString()](#toString--) | String representation |
 | [getLoadOptions()](#getLoadOptions--) | Prepared default load options for the source file type |
 | [getConvertOptions()](#getConvertOptions--) | Prepared default convert options for the file type |
+| [isObsolete()](#isObsolete--) |  |
+| [equals(Enumeration other)](#equals-com.groupdocs.conversion.contracts.Enumeration-) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
 ### FileType() {#FileType--}
 ```
 public FileType()
@@ -220,3 +224,53 @@ Prepared default convert options for the file type
 
 **Returns:**
 [ConvertOptions](../../com.groupdocs.conversion.options.convert/convertoptions) - NULL if the conversion to the type not supported
+### isObsolete() {#isObsolete--}
+```
+public boolean isObsolete()
+```
+
+
+
+
+**Returns:**
+boolean
+### equals(Enumeration other) {#equals-com.groupdocs.conversion.contracts.Enumeration-}
+```
+public boolean equals(Enumeration other)
+```
+
+
+Determines whether two object instances are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [Enumeration](../../com.groupdocs.conversion.contracts/enumeration) |  |
+
+**Returns:**
+boolean
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether two object instances are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as the default hash function.
+
+**Returns:**
+int

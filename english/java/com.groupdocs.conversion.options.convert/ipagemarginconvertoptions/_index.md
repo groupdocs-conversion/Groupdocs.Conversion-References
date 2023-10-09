@@ -3,7 +3,7 @@ title: IPageMarginConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that support page margins
 type: docs
-weight: 47
+weight: 50
 url: /java/com.groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 **All Implemented Interfaces:**

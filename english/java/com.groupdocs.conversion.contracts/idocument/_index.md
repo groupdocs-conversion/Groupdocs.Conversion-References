@@ -3,7 +3,7 @@ title: IDocument
 second_title: GroupDocs.Conversion for Java API Reference
 description: Interface for documents
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.conversion.contracts/idocument/
 ---
 **All Implemented Interfaces:**
@@ -23,6 +23,7 @@ Interface for documents
 | [getInfo()](#getInfo--) |  |
 | [getSize()](#getSize--) |  |
 | [getPagesCount()](#getPagesCount--) |  |
+| [ensureLoaded()](#ensureLoaded--) |  |
 ### getFormat() {#getFormat--}
 ```
 public abstract FileType getFormat()
@@ -83,3 +84,11 @@ public abstract int getPagesCount()
 
 **Returns:**
 int
+### ensureLoaded() {#ensureLoaded--}
+```
+public abstract void ensureLoaded()
+```
+
+
+
+

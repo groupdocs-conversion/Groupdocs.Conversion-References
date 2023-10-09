@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Describes options for conversion to Presentation file type.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 **Inheritance:**

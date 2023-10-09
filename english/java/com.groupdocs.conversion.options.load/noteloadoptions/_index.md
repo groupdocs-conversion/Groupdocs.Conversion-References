@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading One documents.
 type: docs
-weight: 21
+weight: 24
 url: /java/com.groupdocs.conversion.options.load/noteloadoptions/
 ---
 **Inheritance:**
@@ -66,7 +66,7 @@ public final void setDefaultFont(String value)
 ```
 
 
-Default font for Note document. The following font will be used if a font is missing. An absolute path to font file must be provided.
+Default font for Note document. The following font will be used if a font is missing.
 
 **Parameters:**
 | Parameter | Type | Description |

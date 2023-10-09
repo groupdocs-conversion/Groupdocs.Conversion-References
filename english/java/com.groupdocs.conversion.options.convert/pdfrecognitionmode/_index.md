@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
-weight: 56
+weight: 59
 url: /java/com.groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 **Inheritance:**

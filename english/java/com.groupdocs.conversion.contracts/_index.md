@@ -18,6 +18,7 @@ The GroupDocs.Conversion.Contracts namespace provides members to instantiate and
 | [Enumeration](../com.groupdocs.conversion.contracts/enumeration) | Generic enumeration class. |
 | [FontSubstitute](../com.groupdocs.conversion.contracts/fontsubstitute) | Describes substitution for missing font. |
 | [PossibleConversions](../com.groupdocs.conversion.contracts/possibleconversions) | Represents a mapping what conversion pairs are supported for specific source file format |
+| [TargetConversion](../com.groupdocs.conversion.contracts/targetconversion) | Represents possible target conversion and a flag is it a primary or secondary |
 | [ValueObject](../com.groupdocs.conversion.contracts/valueobject) | Abstract value object class. |
 
 ## Interfaces

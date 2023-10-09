@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Abstract document load options class.
 type: docs
-weight: 18
+weight: 22
 url: /java/com.groupdocs.conversion.options.load/loadoptions/
 ---
 **Inheritance:**

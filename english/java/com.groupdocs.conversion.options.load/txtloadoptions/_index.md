@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 29
+weight: 34
 url: /java/com.groupdocs.conversion.options.load/txtloadoptions/
 ---
 **Inheritance:**

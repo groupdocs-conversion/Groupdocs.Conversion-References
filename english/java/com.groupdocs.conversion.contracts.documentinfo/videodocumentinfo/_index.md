@@ -3,7 +3,7 @@ title: VideoDocumentInfo
 second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Video document metadata
 type: docs
-weight: 41
+weight: 43
 url: /java/com.groupdocs.conversion.contracts.documentinfo/videodocumentinfo/
 ---
 **Inheritance:**
