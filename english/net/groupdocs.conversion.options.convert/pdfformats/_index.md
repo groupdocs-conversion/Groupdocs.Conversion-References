@@ -43,6 +43,7 @@ public sealed class PdfFormats : Enumeration
 | static readonly [PdfA_3A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3a) | PDF/A-3a conformance. |
 | static readonly [PdfA_3B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3b) | PDF/A-3b conformance. |
 | static readonly [PdfA_3U](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3u) | PDF/A-3u conformance. |
+| static readonly [PdfUA_1](../../groupdocs.conversion.options.convert/pdfformats/pdfua_1) | PDF/UA-1 conformance. |
 | static readonly [PdfX_1A](../../groupdocs.conversion.options.convert/pdfformats/pdfx_1a) | PDF/X-1a conformance. |
 | static readonly [PdfX_3](../../groupdocs.conversion.options.convert/pdfformats/pdfx_3) | PDF/X-3 conformance. |
 | static readonly [v1_3](../../groupdocs.conversion.options.convert/pdfformats/v1_3) | PDF version 1.3. |

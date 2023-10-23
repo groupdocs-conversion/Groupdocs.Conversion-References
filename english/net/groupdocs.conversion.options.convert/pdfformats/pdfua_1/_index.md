@@ -1,17 +1,17 @@
 ---
-title: v1_4
+title: PdfUA_1
 second_title: GroupDocs.Conversion for .NET API Reference
-description: PDF version 1.4.
+description: PDF/UA1 conformance.
 type: docs
-weight: 150
-url: /net/groupdocs.conversion.options.convert/pdfformats/v1_4/
+weight: 110
+url: /net/groupdocs.conversion.options.convert/pdfformats/pdfua_1/
 ---
-## PdfFormats.v1_4 field
+## PdfFormats.PdfUA_1 field
 
-PDF version 1.4.
+PDF/UA-1 conformance.
 
 ```csharp
-public static readonly PdfFormats v1_4;
+public static readonly PdfFormats PdfUA_1;
 ```
 
 ### See Also
