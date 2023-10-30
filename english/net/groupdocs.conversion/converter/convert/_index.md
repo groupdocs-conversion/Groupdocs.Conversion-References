@@ -35,7 +35,7 @@ public void Convert(Func<Stream> document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_3}
+## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_1}
 
 Converts source document. Saves the whole converted document.
 
@@ -67,7 +67,7 @@ public void Convert(Func<Stream> document, Action<string, FileType, Stream> docu
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_5}
+## Convert(Func&lt;Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_3}
 
 Converts source document. Saves the whole converted document.
 
@@ -98,7 +98,7 @@ public void Convert(Func<Stream> document,
 
 ---
 
-## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_4}
+## Convert(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_2}
 
 Converts source document. Saves the whole converted document.
 
@@ -130,7 +130,7 @@ public void Convert(Func<Stream> document, Action<string, FileType, Stream> docu
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_6}
+## Convert(Func&lt;FileType, Stream&gt;, ConvertOptions) {#convert_4}
 
 Converts source document. Saves the whole converted document.
 
@@ -160,7 +160,7 @@ public void Convert(Func<FileType, Stream> document, ConvertOptions convertOptio
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_9}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) {#convert_5}
 
 Converts source document. Saves the whole converted document.
 
@@ -192,7 +192,7 @@ public void Convert(Func<FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
+## Convert(Func&lt;FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_7}
 
 Converts source document. Saves the whole converted document.
 
@@ -223,7 +223,7 @@ public void Convert(Func<FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
+## Convert(Func&lt;FileType, Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_6}
 
 Converts source document. Saves the whole converted document.
 
@@ -256,7 +256,7 @@ public void Convert(Func<FileType, Stream> document,
 
 ---
 
-## Convert(string, ConvertOptions) {#convert_24}
+## Convert(string, ConvertOptions) {#convert_16}
 
 Converts source document. Saves the whole converted document.
 
@@ -285,7 +285,7 @@ public void Convert(string filePath, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_12}
+## Convert(Func&lt;int, Stream&gt;, ConvertOptions) {#convert_8}
 
 Converts source document. Saves the converted document page by page.
 
@@ -314,7 +314,7 @@ public void Convert(Func<int, Stream> document, ConvertOptions convertOptions)
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_15}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_9}
 
 Converts source document. Saves the converted document page by page.
 
@@ -346,7 +346,7 @@ public void Convert(Func<int, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_17}
+## Convert(Func&lt;int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_11}
 
 Converts source document. Saves the converted document page by page.
 
@@ -377,7 +377,7 @@ public void Convert(Func<int, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_16}
+## Convert(Func&lt;int, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_10}
 
 Converts source document. Saves the converted document page by page.
 
@@ -410,7 +410,7 @@ public void Convert(Func<int, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_18}
+## Convert(Func&lt;int, FileType, Stream&gt;, ConvertOptions) {#convert_12}
 
 Converts source document. Saves the converted document page by page.
 
@@ -440,7 +440,7 @@ public void Convert(Func<int, FileType, Stream> document, ConvertOptions convert
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_21}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, ConvertOptions) {#convert_13}
 
 Converts source document. Saves the converted document page by page.
 
@@ -472,7 +472,7 @@ public void Convert(Func<int, FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_23}
+## Convert(Func&lt;int, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_15}
 
 Converts source document. Saves the converted document page by page.
 
@@ -503,7 +503,7 @@ public void Convert(Func<int, FileType, Stream> document,
 
 ---
 
-## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_22}
+## Convert(Func&lt;int, FileType, Stream&gt;, Action&lt;string, FileType, int, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) {#convert_14}
 
 Converts source document. Saves the converted document page by page.
 
