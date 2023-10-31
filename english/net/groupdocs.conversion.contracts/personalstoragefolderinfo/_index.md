@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.contracts/personalstoragefolderinfo/
 Personal Storage Folder info
 
 ```csharp
-public sealed class PersonalStorageFolderInfo
+public sealed class PersonalStorageFolderInfo : ValueObject
 ```
 
 ## Properties
@@ -25,10 +25,14 @@ public sealed class PersonalStorageFolderInfo
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determines whether two object instances are equal. |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.contracts/personalstoragefolderinfo/tostring)() | String representation of personal storage folder info |
 
 ### See Also
 
+* class [ValueObject](../valueobject)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

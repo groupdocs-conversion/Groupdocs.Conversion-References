@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.contracts/olmfolderinfo/
 Personal Storage Folder info
 
 ```csharp
-public sealed class OlmFolderInfo
+public sealed class OlmFolderInfo : ValueObject
 ```
 
 ## Properties
@@ -25,10 +25,14 @@ public sealed class OlmFolderInfo
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determines whether two object instances are equal. |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
 | override [ToString](../../groupdocs.conversion.contracts/olmfolderinfo/tostring)() | String representation of personal storage folder info |
 
 ### See Also
 
+* class [ValueObject](../valueobject)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

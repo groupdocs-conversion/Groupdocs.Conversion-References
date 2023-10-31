@@ -1,17 +1,17 @@
 ---
-title: WorksheetsCount
+title: Worksheets
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Gets worksheets count
+description: Worksheets names
 type: docs
-weight: 50
-url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheetscount/
+weight: 40
+url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets/
 ---
-## SpreadsheetDocumentInfo.WorksheetsCount property
+## SpreadsheetDocumentInfo.Worksheets property
 
-Gets worksheets count
+Worksheets names
 
 ```csharp
-public int WorksheetsCount { get; }
+public string[] Worksheets { get; }
 ```
 
 ### See Also

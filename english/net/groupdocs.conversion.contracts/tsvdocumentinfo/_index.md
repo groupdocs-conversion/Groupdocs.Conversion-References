@@ -27,6 +27,7 @@ public class TsvDocumentInfo : SpreadsheetDocumentInfo
 | [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
 | [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
 | [Title](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/title) { get; } | Gets title |
+| [Worksheets](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets) { get; } | Worksheets names |
 | [WorksheetsCount](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheetscount) { get; } | Gets worksheets count |
 
 ### See Also
