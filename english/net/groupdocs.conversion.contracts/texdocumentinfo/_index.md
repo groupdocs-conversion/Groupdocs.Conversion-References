@@ -11,31 +11,23 @@ url: /net/groupdocs.conversion.contracts/texdocumentinfo/
 Contains Tex document metadata
 
 ```csharp
-public class TexDocumentInfo : PdfDocumentInfo
+public class TexDocumentInfo : DocumentInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Author](../../groupdocs.conversion.contracts/pdfdocumentinfo/author) { get; } | Gets author |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
-| [Height](../../groupdocs.conversion.contracts/pdfdocumentinfo/height) { get; } | Gets page height |
-| [IsLandscape](../../groupdocs.conversion.contracts/pdfdocumentinfo/islandscape) { get; } | Gets is page landscaped |
-| [IsPasswordProtected](../../groupdocs.conversion.contracts/pdfdocumentinfo/ispasswordprotected) { get; } | Gets is document password protected |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
 | [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
 | [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
-| [TableOfContents](../../groupdocs.conversion.contracts/pdfdocumentinfo/tableofcontents) { get; } | Table of contents |
-| [Title](../../groupdocs.conversion.contracts/pdfdocumentinfo/title) { get; } | Gets title |
-| [Version](../../groupdocs.conversion.contracts/pdfdocumentinfo/version) { get; } | Gets version |
-| [Width](../../groupdocs.conversion.contracts/pdfdocumentinfo/width) { get; } | Gets page width |
 
 ### See Also
 
-* class [PdfDocumentInfo](../pdfdocumentinfo)
+* class [DocumentInfo](../documentinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -3,7 +3,7 @@ title: PreserveFormFields
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields/
 ---
 ## WordProcessingLoadOptions.PreserveFormFields property
