@@ -3,7 +3,7 @@ title: WhitelistedResources
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements WhitelistedResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources/
 ---
 ## WordProcessingLoadOptions.WhitelistedResources property

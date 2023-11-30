@@ -35,6 +35,7 @@ public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Keep original value of date field. Default: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Set password to unprotect protected document. |
+| [PreserveDocumentStructure](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Update fields after loading. Default: false |
