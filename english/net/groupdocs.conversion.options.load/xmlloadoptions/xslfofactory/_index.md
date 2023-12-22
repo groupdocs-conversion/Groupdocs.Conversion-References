@@ -1,14 +1,14 @@
 ---
 title: XslFoFactory
 second_title: GroupDocs.Conversion for .NET API Reference
-description: XSL document stream to convert XMLFO using XSL.
+description: XSLFO document stream to convert XML using XSLFO markup file.
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/xslfofactory/
 ---
 ## XmlLoadOptions.XslFoFactory property
 
-XSL document stream to convert XML-FO using XSL.
+XSL-FO document stream to convert XML using XSL-FO markup file.
 
 ```csharp
 public Func<Stream> XslFoFactory { get; set; }
