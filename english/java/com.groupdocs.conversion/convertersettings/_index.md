@@ -30,6 +30,7 @@ Defines settings for customizing [Converter](../../com.groupdocs.conversion/conv
 | [setListener(IConverterListener listener)](#setListener-com.groupdocs.conversion.reporting.IConverterListener-) | Sets the converter listener implementation used for monitoring conversion status and progress |
 | [getFontDirectories()](#getFontDirectories--) | The custom font directories paths |
 | [getFontDirectoriesInternal()](#getFontDirectoriesInternal--) |  |
+| [setFontDirectories(List<String> value)](#setFontDirectories-java.util.List-java.lang.String--) | The custom font directories paths |
 | [listConverterSettings()](#listConverterSettings--) |  |
 | [getTempFolder()](#getTempFolder--) | Temp folder used for conversion |
 | [setTempFolder(String tempFolder)](#setTempFolder-java.lang.String-) | Sets Temp folder used for conversion |
@@ -128,6 +129,19 @@ public List<String> getFontDirectoriesInternal()
 
 **Returns:**
 java.util.List<java.lang.String>
+### setFontDirectories(List<String> value) {#setFontDirectories-java.util.List-java.lang.String--}
+```
+public void setFontDirectories(List<String> value)
+```
+
+
+The custom font directories paths
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.List<java.lang.String> |  |
+
 ### listConverterSettings() {#listConverterSettings--}
 ```
 public List<String> listConverterSettings()

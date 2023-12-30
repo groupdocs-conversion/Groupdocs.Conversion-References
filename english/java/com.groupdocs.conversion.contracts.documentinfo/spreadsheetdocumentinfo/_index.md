@@ -26,6 +26,8 @@ Contains Spreadsheet document metadata
 | [getWorksheetsCount()](#getWorksheetsCount--) | Gets worksheets count |
 | [getAuthor()](#getAuthor--) | Gets author |
 | [isPasswordProtected()](#isPasswordProtected--) | Gets is document password protected |
+| [getWorksheets()](#getWorksheets--) | Worksheets names |
+| [setWorksheets(List<String> worksheets)](#setWorksheets-java.util.List-java.lang.String--) |  |
 ### SpreadsheetDocumentInfo(Workbook spreadsheet, boolean isPasswordProtected, FileType format, long size) {#SpreadsheetDocumentInfo-com.aspose.cells.Workbook-boolean-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public SpreadsheetDocumentInfo(Workbook spreadsheet, boolean isPasswordProtected, FileType format, long size)
@@ -80,3 +82,26 @@ Gets is document password protected
 
 **Returns:**
 boolean - true if document is password protected
+### getWorksheets() {#getWorksheets--}
+```
+public List<String> getWorksheets()
+```
+
+
+Worksheets names
+
+**Returns:**
+java.util.List<java.lang.String>
+### setWorksheets(List<String> worksheets) {#setWorksheets-java.util.List-java.lang.String--}
+```
+public void setWorksheets(List<String> worksheets)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheets | java.util.List<java.lang.String> |  |
+

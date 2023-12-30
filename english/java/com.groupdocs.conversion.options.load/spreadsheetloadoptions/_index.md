@@ -56,6 +56,8 @@ Options for loading Spreadsheet documents.
 | [setCheckExcelRestriction(boolean checkExcelRestriction)](#setCheckExcelRestriction-boolean-) |  |
 | [getSheetIndexes()](#getSheetIndexes--) | Gets List of sheet indexes to convert. |
 | [setSheetIndexes(List<Integer> sheetIndexes)](#setSheetIndexes-java.util.List-java.lang.Integer--) | Sets List of sheet indexes to convert. |
+| [isAutoFitRows()](#isAutoFitRows--) | Autofits all rows when converting |
+| [setAutoFitRows(boolean autoFitRows)](#setAutoFitRows-boolean-) |  |
 | [deepClone()](#deepClone--) | Clones current instance. |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
@@ -419,6 +421,29 @@ Sets List of sheet indexes to convert. The indexes must be zero-based
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sheetIndexes | java.util.List<java.lang.Integer> |  |
+
+### isAutoFitRows() {#isAutoFitRows--}
+```
+public boolean isAutoFitRows()
+```
+
+
+Autofits all rows when converting
+
+**Returns:**
+boolean
+### setAutoFitRows(boolean autoFitRows) {#setAutoFitRows-boolean-}
+```
+public void setAutoFitRows(boolean autoFitRows)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| autoFitRows | boolean |  |
 
 ### deepClone() {#deepClone--}
 ```
