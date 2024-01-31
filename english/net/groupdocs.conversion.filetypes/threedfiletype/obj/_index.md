@@ -3,7 +3,7 @@ title: Obj
 second_title: GroupDocs.Conversion for .NET API Reference
 description: OBJ files are used by Wavefronts Advanced Visualizer application to define and store the geometric objects. Backward and forward transmission of geometric data is made possible through OBJ files. Learn more about this file format herehttps//docs.fileformat.com/3d/obj.
 type: docs
-weight: 90
+weight: 120
 url: /net/groupdocs.conversion.filetypes/threedfiletype/obj/
 ---
 ## ThreeDFileType.Obj field

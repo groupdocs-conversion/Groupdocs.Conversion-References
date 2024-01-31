@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi/
 Desired page DPI after conversion. The default resolution is: 96 dpi.
 
 ```csharp
-public double Dpi { get; set; }
+public int Dpi { get; set; }
 ```
 
 ### See Also

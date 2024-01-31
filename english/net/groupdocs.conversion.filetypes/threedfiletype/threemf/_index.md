@@ -3,7 +3,7 @@ title: ThreeMF
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 3MF 3D Manufacturing Format is used by applications to render 3D object models to a variety of other applications platforms services and printers. It was built to avoid the limitations and issues in other 3D file formats like STL for working with the latest versions of 3D printers. Learn more about this file format herehttps//docs.fileformat.com/3d/3mf.
 type: docs
-weight: 130
+weight: 160
 url: /net/groupdocs.conversion.filetypes/threedfiletype/threemf/
 ---
 ## ThreeDFileType.ThreeMF field

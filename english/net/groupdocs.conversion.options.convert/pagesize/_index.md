@@ -51,6 +51,7 @@ public sealed class PageSize : Enumeration
 | static readonly [Quarto](../../groupdocs.conversion.options.convert/pagesize/quarto) | 8.47 x 10.83 inches. |
 | static readonly [Statement](../../groupdocs.conversion.options.convert/pagesize/statement) | 8.5 x 5.5 inches. |
 | static readonly [Tabloid](../../groupdocs.conversion.options.convert/pagesize/tabloid) | 11 x 17 inches. |
+| static readonly [Unset](../../groupdocs.conversion.options.convert/pagesize/unset) | Unset paper size. |
 
 ### See Also
 

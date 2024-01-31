@@ -3,7 +3,7 @@ title: MarginRight
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginRightgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginright/
 ---
 ## PdfConvertOptions.MarginRight property
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginright/
 Implements [`MarginRight`](../../ipagemarginconvertoptions/marginright)
 
 ```csharp
-public int MarginRight { get; set; }
+public float MarginRight { get; set; }
 ```
 
 ### See Also

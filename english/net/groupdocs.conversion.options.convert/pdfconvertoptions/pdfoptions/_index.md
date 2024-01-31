@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Pdf specific convert options
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions/
 ---
 ## PdfConvertOptions.PdfOptions property

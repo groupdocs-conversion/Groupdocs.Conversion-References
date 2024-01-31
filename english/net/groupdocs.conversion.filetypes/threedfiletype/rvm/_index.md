@@ -3,7 +3,7 @@ title: Rvm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: RVM data files are related to AVEVA PDMS. RVM file is an AVEVA Plant Design Management System Model project file. AVEVAs Plant Design Management System PDMS is the most popular 3D design system using datacentric technology for managing projects. Learn more about this file format herehttps//docs.fileformat.com/3d/rvm.
 type: docs
-weight: 110
+weight: 140
 url: /net/groupdocs.conversion.filetypes/threedfiletype/rvm/
 ---
 ## ThreeDFileType.Rvm field

@@ -3,7 +3,7 @@ title: Ply
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PLY Polygon File Format represents 3D file format that stores graphical objects described as a collection of polygons. The purpose of this file format was to establish a simple and easy file type that is general enough to be useful for a wide range of models. Learn more about this file format herehttps//docs.fileformat.com/3d/ply.
 type: docs
-weight: 100
+weight: 130
 url: /net/groupdocs.conversion.filetypes/threedfiletype/ply/
 ---
 ## ThreeDFileType.Ply field

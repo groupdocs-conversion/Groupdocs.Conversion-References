@@ -1,17 +1,17 @@
 ---
 title: MarginBottom
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page bottom margin in pixels after conversion.
+description: Desired page bottom margin in points after conversion.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom/
 ---
 ## IPageMarginConvertOptions.MarginBottom property
 
-Desired page bottom margin in pixels after conversion.
+Desired page bottom margin in points after conversion.
 
 ```csharp
-public int MarginBottom { get; set; }
+public float MarginBottom { get; set; }
 ```
 
 ### See Also

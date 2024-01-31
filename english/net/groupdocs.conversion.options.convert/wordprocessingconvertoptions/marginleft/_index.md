@@ -3,7 +3,7 @@ title: MarginLeft
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginLeftgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginleft/
 ---
 ## WordProcessingConvertOptions.MarginLeft property
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marg
 Implements [`MarginLeft`](../../ipagemarginconvertoptions/marginleft)
 
 ```csharp
-public int MarginLeft { get; set; }
+public float MarginLeft { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: X
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .x extension refers to DirectX 3D Graphics legacy file format that was introduced with Microsoft DirectX 2.0. It was used for 3D graphics rendering in games and specifies the structures for meshes textures animations and userdefined objects. It has been deprecated since 2014 as the Autodesk FBX file format serves better as a more modern format. Learn more about this file format herehttps//docs.fileformat.com/3d/x.
 type: docs
-weight: 180
+weight: 210
 url: /net/groupdocs.conversion.filetypes/threedfiletype/x/
 ---
 ## ThreeDFileType.X field

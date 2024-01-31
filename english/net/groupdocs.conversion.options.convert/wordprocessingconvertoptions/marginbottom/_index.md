@@ -3,7 +3,7 @@ title: MarginBottom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginBottomgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginbottom/
 ---
 ## WordProcessingConvertOptions.MarginBottom property
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marg
 Implements [`MarginBottom`](../../ipagemarginconvertoptions/marginbottom)
 
 ```csharp
-public int MarginBottom { get; set; }
+public float MarginBottom { get; set; }
 ```
 
 ### See Also
