@@ -3,7 +3,7 @@ title: Usd
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .usd extension is a Universal Scene Description file format that encodes data for the purpose of data interchanging and augmenting between digital content creation applications. Developed by Pixar USD provides the ability to interchange elemental assets such as models or animation. Learn more about this file format herehttps//docs.fileformat.com/3d/usd.
 type: docs
-weight: 150
+weight: 180
 url: /net/groupdocs.conversion.filetypes/threedfiletype/usd/
 ---
 ## ThreeDFileType.Usd field

@@ -18,10 +18,10 @@ public interface IPageMarginConvertOptions : IConvertOptions
 
 | Name | Description |
 | --- | --- |
-| [MarginBottom](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom) { get; set; } | Desired page bottom margin in pixels after conversion. |
-| [MarginLeft](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft) { get; set; } | Desired page left margin in pixels after conversion. |
-| [MarginRight](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright) { get; set; } | Desired page right margin in pixels after conversion. |
-| [MarginTop](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop) { get; set; } | Desired page top margin in pixels after conversion. |
+| [MarginBottom](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom) { get; set; } | Desired page bottom margin in points after conversion. |
+| [MarginLeft](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginleft) { get; set; } | Desired page left margin in points after conversion. |
+| [MarginRight](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright) { get; set; } | Desired page right margin in points after conversion. |
+| [MarginTop](../../groupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop) { get; set; } | Desired page top margin in points after conversion. |
 
 ### See Also
 

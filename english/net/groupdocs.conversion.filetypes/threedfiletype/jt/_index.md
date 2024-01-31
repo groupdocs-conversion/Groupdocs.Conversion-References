@@ -3,7 +3,7 @@ title: Jt
 second_title: GroupDocs.Conversion for .NET API Reference
 description: JT Jupiter Tessellation is an efficient industryfocused and flexible ISOstandardized 3D data format developed by Siemens PLM Software. Mechanical CAD domains of Aerospace automotive industry and Heavy Equipment use JT as their most leading 3D visualization format. Learn more about this file format herehttps//docs.fileformat.com/3d/jt.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.filetypes/threedfiletype/jt/
 ---
 ## ThreeDFileType.Jt field

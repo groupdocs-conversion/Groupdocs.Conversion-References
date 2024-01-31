@@ -28,7 +28,6 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Desired page DPI after conversion. The default resolution is: 96 dpi. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
-| [Height](../../groupdocs.conversion.options.convert/pdfconvertoptions/height) { get; set; } | Desired page height in pixels after conversion. |
 | [MarginBottom](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom) { get; set; } | Implements [`MarginBottom`](../ipagemarginconvertoptions/marginbottom) |
 | [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Implements [`MarginLeft`](../ipagemarginconvertoptions/marginleft) |
 | [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Implements [`MarginRight`](../ipagemarginconvertoptions/marginright) |
@@ -44,7 +43,6 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IPageMarginC
 | [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf specific convert options |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Page rotation |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
-| [Width](../../groupdocs.conversion.options.convert/pdfconvertoptions/width) { get; set; } | Desired page width in pixels after conversion. |
 
 ## Methods
 

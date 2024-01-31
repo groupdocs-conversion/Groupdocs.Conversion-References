@@ -3,7 +3,7 @@ title: MarginTop
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginTopgroupdocs.conversion.options.convert/ipagemarginconvertoptions/margintop
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop/
 ---
 ## WordProcessingConvertOptions.MarginTop property
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marg
 Implements [`MarginTop`](../../ipagemarginconvertoptions/margintop)
 
 ```csharp
-public int MarginTop { get; set; }
+public float MarginTop { get; set; }
 ```
 
 ### See Also
