@@ -52,6 +52,8 @@ Options for loading WordProcessing documents.
 | [setPreserveFontFields(boolean preserveFontFields)](#setPreserveFontFields-boolean-) | Sets preserveFontFields flag |
 | [isUseTextShaper()](#isUseTextShaper--) | Specifies whether to use a text shaper for better kerning display. |
 | [setUseTextShaper(boolean isUseTextShaper)](#setUseTextShaper-boolean-) | Specifies whether to use a text shaper for better kerning display. |
+| [isPreserveDocumentStructure()](#isPreserveDocumentStructure--) | Determines whether the document structure should be preserved when converting to PDF (default is false). |
+| [setPreserveDocumentStructure(boolean preserveDocumentStructure)](#setPreserveDocumentStructure-boolean-) |  |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -368,4 +370,27 @@ Specifies whether to use a text shaper for better kerning display. Default is fa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isUseTextShaper | boolean | isUseTextShaper flag |
+
+### isPreserveDocumentStructure() {#isPreserveDocumentStructure--}
+```
+public boolean isPreserveDocumentStructure()
+```
+
+
+Determines whether the document structure should be preserved when converting to PDF (default is false). Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+
+**Returns:**
+boolean
+### setPreserveDocumentStructure(boolean preserveDocumentStructure) {#setPreserveDocumentStructure-boolean-}
+```
+public void setPreserveDocumentStructure(boolean preserveDocumentStructure)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| preserveDocumentStructure | boolean |  |
 
