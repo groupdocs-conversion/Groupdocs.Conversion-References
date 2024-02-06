@@ -35,6 +35,7 @@ Options for loading Txt documents.
 | [getEncoding()](#getEncoding--) | Gets or sets the encoding that will be used when loading Txt document. |
 | [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Gets or sets the encoding that will be used when loading Txt document. |
+| [setEncoding(String charsetName)](#setEncoding-java.lang.String-) | Gets or sets the encoding that will be used when loading Txt document. |
 ### TxtLoadOptions() {#TxtLoadOptions--}
 ```
 public TxtLoadOptions()
@@ -166,4 +167,17 @@ Gets or sets the encoding that will be used when loading Txt document. Can be nu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
+
+### setEncoding(String charsetName) {#setEncoding-java.lang.String-}
+```
+public final void setEncoding(String charsetName)
+```
+
+
+Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| charsetName | java.lang.String |  |
 
