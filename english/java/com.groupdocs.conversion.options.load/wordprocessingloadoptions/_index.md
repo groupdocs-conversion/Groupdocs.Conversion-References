@@ -1,10 +1,10 @@
 ---
 title: WordProcessingLoadOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading WordProcessing documents.
 type: docs
 weight: 40
-url: /java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

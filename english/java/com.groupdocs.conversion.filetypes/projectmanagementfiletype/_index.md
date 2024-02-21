@@ -1,10 +1,10 @@
 ---
 title: ProjectManagementFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Project file formats that are created by Project Management software such as Microsoft Project Primavera P6 etc.
 type: docs
 weight: 23
-url: /java/com.groupdocs.conversion.filetypes/projectmanagementfiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/projectmanagementfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

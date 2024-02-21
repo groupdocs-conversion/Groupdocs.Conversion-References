@@ -1,10 +1,10 @@
 ---
 title: CgmDocumentInfo
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Cgm document metadata
 type: docs
 weight: 12
-url: /java/com.groupdocs.conversion.contracts.documentinfo/cgmdocumentinfo/
+url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/cgmdocumentinfo/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.PdfDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo)

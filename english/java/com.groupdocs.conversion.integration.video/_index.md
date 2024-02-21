@@ -1,8 +1,8 @@
 ---
 title: com.groupdocs.conversion.integration.video
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
 weight: 19
-url: /java/com.groupdocs.conversion.integration.video/
+url: /nodejs-java/com.groupdocs.conversion.integration.video/
 ---

@@ -1,10 +1,10 @@
 ---
 title: TxtLeadingSpacesOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes txt leading spaces options enumeration.
 type: docs
 weight: 33
-url: /java/com.groupdocs.conversion.options.load/txtleadingspacesoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

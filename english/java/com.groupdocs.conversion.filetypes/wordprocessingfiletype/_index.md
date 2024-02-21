@@ -1,10 +1,10 @@
 ---
 title: WordProcessingFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Word Processing files that contain user information in plain text or rich text format.
 type: docs
 weight: 28
-url: /java/com.groupdocs.conversion.filetypes/wordprocessingfiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/wordprocessingfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

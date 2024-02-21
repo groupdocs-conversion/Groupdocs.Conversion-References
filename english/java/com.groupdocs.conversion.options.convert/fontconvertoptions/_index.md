@@ -1,10 +1,10 @@
 ---
 title: FontConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for conversion to EBook file type.
 type: docs
 weight: 17
-url: /java/com.groupdocs.conversion.options.convert/fontconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/fontconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions

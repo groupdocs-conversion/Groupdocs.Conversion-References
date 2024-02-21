@@ -1,10 +1,10 @@
 ---
 title: WebConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for conversion to Web file type.
 type: docs
 weight: 46
-url: /java/com.groupdocs.conversion.options.convert/webconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/webconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions, com.groupdocs.conversion.options.convert.CommonConvertOptions

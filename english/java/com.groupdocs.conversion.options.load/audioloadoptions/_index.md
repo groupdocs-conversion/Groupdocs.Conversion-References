@@ -1,10 +1,10 @@
 ---
 title: AudioLoadOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
 weight: 10
-url: /java/com.groupdocs.conversion.options.load/audioloadoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.load/audioloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

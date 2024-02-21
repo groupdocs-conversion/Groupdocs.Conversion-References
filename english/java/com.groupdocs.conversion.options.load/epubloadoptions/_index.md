@@ -1,10 +1,10 @@
 ---
 title: EpubLoadOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Epub documents.
 type: docs
 weight: 19
-url: /java/com.groupdocs.conversion.options.load/epubloadoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.load/epubloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

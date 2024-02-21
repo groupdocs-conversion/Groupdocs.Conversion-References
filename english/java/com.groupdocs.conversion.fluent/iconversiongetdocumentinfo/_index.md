@@ -1,10 +1,10 @@
 ---
 title: IConversionGetDocumentInfo
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Gets source document info - pages count and other document properties specific to the file type.
 type: docs
 weight: 20
-url: /java/com.groupdocs.conversion.fluent/iconversiongetdocumentinfo/
+url: /nodejs-java/com.groupdocs.conversion.fluent/iconversiongetdocumentinfo/
 ---```
 public interface IConversionGetDocumentInfo
 ```

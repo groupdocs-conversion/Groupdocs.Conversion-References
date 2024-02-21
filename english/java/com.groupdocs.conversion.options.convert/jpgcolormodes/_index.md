@@ -1,10 +1,10 @@
 ---
 title: JpgColorModes
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes Jpg color modes enumeration.
 type: docs
 weight: 21
-url: /java/com.groupdocs.conversion.options.convert/jpgcolormodes/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/jpgcolormodes/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

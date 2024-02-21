@@ -1,10 +1,10 @@
 ---
 title: IConversionLoadOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Conversion load options
 type: docs
 weight: 23
-url: /java/com.groupdocs.conversion.fluent/iconversionloadoptions/
+url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionloadoptions/
 ---```
 public interface IConversionLoadOptions
 ```

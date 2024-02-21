@@ -1,10 +1,10 @@
 ---
 title: TiffCompressionMethods
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes Tiff compression methods enumeration.
 type: docs
 weight: 41
-url: /java/com.groupdocs.conversion.options.convert/tiffcompressionmethods/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

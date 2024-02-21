@@ -1,10 +1,10 @@
 ---
 title: DocumentInfo
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Provides base implementation for retrieving polymorphic document information
 type: docs
 weight: 16
-url: /java/com.groupdocs.conversion.contracts.documentinfo/documentinfo/
+url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/documentinfo/
 ---
 **Inheritance:**
 java.lang.Object

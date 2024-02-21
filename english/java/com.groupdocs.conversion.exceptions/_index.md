@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.exceptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Exceptions namespace provides different exceptions classes.
 type: docs
 weight: 14
-url: /java/com.groupdocs.conversion.exceptions/
+url: /nodejs-java/com.groupdocs.conversion.exceptions/
 ---
 
 The GroupDocs.Conversion.Exceptions namespace provides different exceptions classes.

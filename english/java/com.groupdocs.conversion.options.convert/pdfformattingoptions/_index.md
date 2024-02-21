@@ -1,10 +1,10 @@
 ---
 title: PdfFormattingOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Pdf formatting options.
 type: docs
 weight: 28
-url: /java/com.groupdocs.conversion.options.convert/pdfformattingoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfformattingoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

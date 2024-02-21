@@ -1,10 +1,10 @@
 ---
 title: PdfFormats
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes Pdf formats enumeration.
 type: docs
 weight: 27
-url: /java/com.groupdocs.conversion.options.convert/pdfformats/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfformats/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

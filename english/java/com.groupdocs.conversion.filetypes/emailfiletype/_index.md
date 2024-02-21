@@ -1,10 +1,10 @@
 ---
 title: EmailFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Email file formats that are used by email applications to store their various data including email messages attachments folders address books etc.
 type: docs
 weight: 15
-url: /java/com.groupdocs.conversion.filetypes/emailfiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/emailfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

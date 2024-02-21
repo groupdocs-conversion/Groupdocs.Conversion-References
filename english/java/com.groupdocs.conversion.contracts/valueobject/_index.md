@@ -1,10 +1,10 @@
 ---
 title: ValueObject
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Abstract value object class.
 type: docs
 weight: 15
-url: /java/com.groupdocs.conversion.contracts/valueobject/
+url: /nodejs-java/com.groupdocs.conversion.contracts/valueobject/
 ---
 **Inheritance:**
 java.lang.Object

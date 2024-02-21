@@ -1,10 +1,10 @@
 ---
 title: ConverterSettings
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines settings for customizing  behaviour.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion/convertersettings/
+url: /nodejs-java/com.groupdocs.conversion/convertersettings/
 ---
 **Inheritance:**
 java.lang.Object

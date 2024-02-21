@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.logging
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Logging namespace provides classes for customizing logging behaviour.
 type: docs
 weight: 21
-url: /java/com.groupdocs.conversion.logging/
+url: /nodejs-java/com.groupdocs.conversion.logging/
 ---
 
 The GroupDocs.Conversion.Logging namespace provides classes for customizing logging behaviour.

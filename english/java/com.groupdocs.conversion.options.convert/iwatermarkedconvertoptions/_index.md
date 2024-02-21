@@ -1,10 +1,10 @@
 ---
 title: IWatermarkedConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Represents convert options that allow output of conversion to be watermarked
 type: docs
 weight: 56
-url: /java/com.groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/iwatermarkedconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)

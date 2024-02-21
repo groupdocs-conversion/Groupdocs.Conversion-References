@@ -1,10 +1,10 @@
 ---
 title: PageSize
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
 weight: 58
-url: /java/com.groupdocs.conversion.options.convert/pagesize/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pagesize/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

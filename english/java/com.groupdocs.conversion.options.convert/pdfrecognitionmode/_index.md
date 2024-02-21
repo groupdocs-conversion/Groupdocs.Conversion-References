@@ -1,10 +1,10 @@
 ---
 title: PdfRecognitionMode
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
 weight: 59
-url: /java/com.groupdocs.conversion.options.convert/pdfrecognitionmode/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

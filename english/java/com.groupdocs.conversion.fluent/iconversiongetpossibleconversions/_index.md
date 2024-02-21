@@ -1,10 +1,10 @@
 ---
 title: IConversionGetPossibleConversions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Gets possible conversions for the source document.
 type: docs
 weight: 21
-url: /java/com.groupdocs.conversion.fluent/iconversiongetpossibleconversions/
+url: /nodejs-java/com.groupdocs.conversion.fluent/iconversiongetpossibleconversions/
 ---```
 public interface IConversionGetPossibleConversions
 ```

@@ -1,10 +1,10 @@
 ---
 title: PageDescriptionLanguageFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Page description documents.
 type: docs
 weight: 20
-url: /java/com.groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

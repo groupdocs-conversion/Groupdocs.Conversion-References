@@ -1,10 +1,10 @@
 ---
 title: GroupDocsConversionException
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: GroupDocs.Conversion general exception
 type: docs
 weight: 14
-url: /java/com.groupdocs.conversion.exceptions/groupdocsconversionexception/
+url: /nodejs-java/com.groupdocs.conversion.exceptions/groupdocsconversionexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception

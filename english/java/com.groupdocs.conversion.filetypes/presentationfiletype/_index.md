@@ -1,10 +1,10 @@
 ---
 title: PresentationFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Presentation file formats that store collection of records to accommodate presentation data such as slides shapes text animations video audio and embedded objects.
 type: docs
 weight: 22
-url: /java/com.groupdocs.conversion.filetypes/presentationfiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/presentationfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

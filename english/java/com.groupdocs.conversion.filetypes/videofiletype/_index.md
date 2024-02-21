@@ -1,10 +1,10 @@
 ---
 title: VideoFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines Video documents Includes the following types        Learn more about video formats here.
 type: docs
 weight: 26
-url: /java/com.groupdocs.conversion.filetypes/videofiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/videofiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

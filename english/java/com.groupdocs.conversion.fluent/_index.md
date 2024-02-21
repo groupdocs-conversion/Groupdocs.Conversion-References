@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.fluent
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
 weight: 16
-url: /java/com.groupdocs.conversion.fluent/
+url: /nodejs-java/com.groupdocs.conversion.fluent/
 ---
 
 ## Interfaces

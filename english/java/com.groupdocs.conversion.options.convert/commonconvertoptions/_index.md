@@ -1,10 +1,10 @@
 ---
 title: CommonConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: abstract generic common conversion options class.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion.options.convert/commonconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/commonconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions

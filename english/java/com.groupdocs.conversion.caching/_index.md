@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.caching
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Caching namespace provides classes for customizing caching behaviour.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion.caching/
+url: /nodejs-java/com.groupdocs.conversion.caching/
 ---
 
 The GroupDocs.Conversion.Caching namespace provides classes for customizing caching behaviour.

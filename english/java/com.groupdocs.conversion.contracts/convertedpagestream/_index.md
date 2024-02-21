@@ -1,10 +1,10 @@
 ---
 title: ConvertedPageStream
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes delegate to receive converted page stream.
 type: docs
 weight: 18
-url: /java/com.groupdocs.conversion.contracts/convertedpagestream/
+url: /nodejs-java/com.groupdocs.conversion.contracts/convertedpagestream/
 ---```
 public interface ConvertedPageStream
 ```

@@ -1,10 +1,10 @@
 ---
 title: CadDrawTypeMode
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Represents possible modes for colorization of objects.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion.options.load/caddrawtypemode/
+url: /nodejs-java/com.groupdocs.conversion.options.load/caddrawtypemode/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

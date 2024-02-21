@@ -1,10 +1,10 @@
 ---
 title: PdfDirection
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes Pdf text direction.
 type: docs
 weight: 26
-url: /java/com.groupdocs.conversion.options.convert/pdfdirection/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfdirection/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

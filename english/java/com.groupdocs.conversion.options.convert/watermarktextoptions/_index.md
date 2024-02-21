@@ -1,10 +1,10 @@
 ---
 title: WatermarkTextOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for settings text watermark to the converted document
 type: docs
 weight: 45
-url: /java/com.groupdocs.conversion.options.convert/watermarktextoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/watermarktextoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.convert.WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions)

@@ -1,10 +1,10 @@
 ---
 title: IPageOrientationConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Represents convert options that support page orientation
 type: docs
 weight: 51
-url: /java/com.groupdocs.conversion.options.convert/ipageorientationconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/ipageorientationconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)

@@ -1,10 +1,10 @@
 ---
 title: IConversionByPageCompleted
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Handle conversion page completed
 type: docs
 weight: 10
-url: /java/com.groupdocs.conversion.fluent/iconversionbypagecompleted/
+url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionbypagecompleted/
 ---```
 public interface IConversionByPageCompleted
 ```

@@ -1,10 +1,10 @@
 ---
 title: TargetConversion
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Represents possible target conversion and a flag is it a primary or secondary
 type: docs
 weight: 14
-url: /java/com.groupdocs.conversion.contracts/targetconversion/
+url: /nodejs-java/com.groupdocs.conversion.contracts/targetconversion/
 ---
 **Inheritance:**
 java.lang.Object

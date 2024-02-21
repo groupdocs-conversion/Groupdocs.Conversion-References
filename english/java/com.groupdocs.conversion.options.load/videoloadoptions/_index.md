@@ -1,10 +1,10 @@
 ---
 title: VideoLoadOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading video documents.
 type: docs
 weight: 37
-url: /java/com.groupdocs.conversion.options.load/videoloadoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.load/videoloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

@@ -1,10 +1,10 @@
 ---
 title: IncorrectPasswordException
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: GroupDocs exception thrown when the file is password protected password is provided but is incorrect
 type: docs
 weight: 15
-url: /java/com.groupdocs.conversion.exceptions/incorrectpasswordexception/
+url: /nodejs-java/com.groupdocs.conversion.exceptions/incorrectpasswordexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.groupdocs.conversion.exceptions.GroupDocsConversionException](../../com.groupdocs.conversion.exceptions/groupdocsconversionexception)

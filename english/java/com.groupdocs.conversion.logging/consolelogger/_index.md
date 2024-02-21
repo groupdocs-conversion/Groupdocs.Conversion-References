@@ -1,10 +1,10 @@
 ---
 title: ConsoleLogger
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Console logger implementation.
 type: docs
 weight: 10
-url: /java/com.groupdocs.conversion.logging/consolelogger/
+url: /nodejs-java/com.groupdocs.conversion.logging/consolelogger/
 ---
 **Inheritance:**
 java.lang.Object

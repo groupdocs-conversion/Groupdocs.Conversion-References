@@ -1,10 +1,10 @@
 ---
 title: PdfConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for conversion to Pdf file type.
 type: docs
 weight: 25
-url: /java/com.groupdocs.conversion.options.convert/pdfconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions, com.groupdocs.conversion.options.convert.CommonConvertOptions

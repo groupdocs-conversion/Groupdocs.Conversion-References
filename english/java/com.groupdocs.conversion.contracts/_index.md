@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.contracts
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Contracts namespace provides members to instantiate and release output document manage font substitutions etc.
 type: docs
 weight: 12
-url: /java/com.groupdocs.conversion.contracts/
+url: /nodejs-java/com.groupdocs.conversion.contracts/
 ---
 
 The GroupDocs.Conversion.Contracts namespace provides members to instantiate and release output document, manage font substitutions etc.

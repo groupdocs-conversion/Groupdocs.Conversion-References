@@ -1,10 +1,10 @@
 ---
 title: IConversionConvertByPageOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Conversion convert options
 type: docs
 weight: 17
-url: /java/com.groupdocs.conversion.fluent/iconversionconvertbypageoptions/
+url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionconvertbypageoptions/
 ---```
 public interface IConversionConvertByPageOptions
 ```

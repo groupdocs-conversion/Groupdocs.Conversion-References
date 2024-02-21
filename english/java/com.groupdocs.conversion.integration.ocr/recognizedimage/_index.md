@@ -1,10 +1,10 @@
 ---
 title: RecognizedImage
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Represents text extracted from an image as a result of its recognition process.
 type: docs
 weight: 10
-url: /java/com.groupdocs.conversion.integration.ocr/recognizedimage/
+url: /nodejs-java/com.groupdocs.conversion.integration.ocr/recognizedimage/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: MemoryCache
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Memory caching behaviour.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion.caching/memorycache/
+url: /nodejs-java/com.groupdocs.conversion.caching/memorycache/
 ---
 **Inheritance:**
 java.lang.Object

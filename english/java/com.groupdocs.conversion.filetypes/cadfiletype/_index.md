@@ -1,10 +1,10 @@
 ---
 title: CadFileType
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs.
 type: docs
 weight: 11
-url: /java/com.groupdocs.conversion.filetypes/cadfiletype/
+url: /nodejs-java/com.groupdocs.conversion.filetypes/cadfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

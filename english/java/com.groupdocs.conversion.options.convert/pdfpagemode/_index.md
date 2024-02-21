@@ -1,10 +1,10 @@
 ---
 title: PdfPageMode
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes Pdf page mode
 type: docs
 weight: 32
-url: /java/com.groupdocs.conversion.options.convert/pdfpagemode/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfpagemode/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

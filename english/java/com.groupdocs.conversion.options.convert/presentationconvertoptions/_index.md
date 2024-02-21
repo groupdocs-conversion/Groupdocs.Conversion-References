@@ -1,10 +1,10 @@
 ---
 title: PresentationConvertOptions
-second_title: GroupDocs.Conversion for Java API Reference
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes options for conversion to Presentation file type.
 type: docs
 weight: 33
-url: /java/com.groupdocs.conversion.options.convert/presentationconvertoptions/
+url: /nodejs-java/com.groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions, com.groupdocs.conversion.options.convert.CommonConvertOptions
