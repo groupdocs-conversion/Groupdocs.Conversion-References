@@ -1,0 +1,171 @@
+---
+title: PresentationLoadOptions
+second_title: GroupDocs.Conversion for Node.js via Java API Reference
+description: Options for loading Presentation documents.
+type: docs
+weight: 29
+url: /nodejs-java/com.groupdocs.conversion.options.load/presentationloadoptions/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
+
+**All Implemented Interfaces:**
+java.io.Serializable
+```
+public class PresentationLoadOptions extends LoadOptions implements Serializable
+```
+
+Options for loading Presentation documents.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PresentationLoadOptions()](#PresentationLoadOptions--) | Initializes new instance of [EmailLoadOptions](../../com.groupdocs.conversion.options.load/emailloadoptions) class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getFormat()](#getFormat--) |  |
+| [getDefaultFont()](#getDefaultFont--) | Default font for rendering the presentation. |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for rendering the presentation. |
+| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Presentation document. |
+| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Presentation document. |
+| [getPassword()](#getPassword--) | Set password to unprotect protected document. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
+| [getHideComments()](#getHideComments--) | Hide comments. |
+| [setHideComments(boolean value)](#setHideComments-boolean-) | Hide comments. |
+| [getShowHiddenSlides()](#getShowHiddenSlides--) | Show hidden slides. |
+| [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Show hidden slides. |
+### PresentationLoadOptions() {#PresentationLoadOptions--}
+```
+public PresentationLoadOptions()
+```
+
+
+Initializes new instance of [EmailLoadOptions](../../com.groupdocs.conversion.options.load/emailloadoptions) class.
+
+### getFormat() {#getFormat--}
+```
+public final PresentationFileType getFormat()
+```
+
+
+Input document file type
+
+**Returns:**
+[PresentationFileType](../../com.groupdocs.conversion.filetypes/presentationfiletype)
+### getDefaultFont() {#getDefaultFont--}
+```
+public final String getDefaultFont()
+```
+
+
+Default font for rendering the presentation. The following font will be used if a presentation font is missing.
+
+**Returns:**
+java.lang.String
+### setDefaultFont(String value) {#setDefaultFont-java.lang.String-}
+```
+public final void setDefaultFont(String value)
+```
+
+
+Default font for rendering the presentation. The following font will be used if a presentation font is missing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getFontSubstitutes() {#getFontSubstitutes--}
+```
+public final List<FontSubstitute> getFontSubstitutes()
+```
+
+
+Substitute specific fonts when converting Presentation document.
+
+**Returns:**
+java.util.List<com.groupdocs.conversion.contracts.FontSubstitute>
+### setFontSubstitutes(List<FontSubstitute> value) {#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--}
+```
+public final void setFontSubstitutes(List<FontSubstitute> value)
+```
+
+
+Substitute specific fonts when converting Presentation document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.List<com.groupdocs.conversion.contracts.FontSubstitute> |  |
+
+### getPassword() {#getPassword--}
+```
+public final String getPassword()
+```
+
+
+Set password to unprotect protected document.
+
+**Returns:**
+java.lang.String
+### setPassword(String value) {#setPassword-java.lang.String-}
+```
+public final void setPassword(String value)
+```
+
+
+Set password to unprotect protected document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getHideComments() {#getHideComments--}
+```
+public final boolean getHideComments()
+```
+
+
+Hide comments.
+
+**Returns:**
+boolean
+### setHideComments(boolean value) {#setHideComments-boolean-}
+```
+public final void setHideComments(boolean value)
+```
+
+
+Hide comments.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowHiddenSlides() {#getShowHiddenSlides--}
+```
+public final boolean getShowHiddenSlides()
+```
+
+
+Show hidden slides.
+
+**Returns:**
+boolean
+### setShowHiddenSlides(boolean value) {#setShowHiddenSlides-boolean-}
+```
+public final void setShowHiddenSlides(boolean value)
+```
+
+
+Show hidden slides.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
