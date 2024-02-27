@@ -13,7 +13,6 @@ is_root: true
 | [com.groupdocs.conversion.caching](./com.groupdocs.conversion.caching) | The GroupDocs.Conversion.Caching namespace provides classes for customizing caching behaviour. |
 | [com.groupdocs.conversion.contracts](./com.groupdocs.conversion.contracts) | The GroupDocs.Conversion.Contracts namespace provides members to instantiate and release output document, manage font substitutions etc. |
 | [com.groupdocs.conversion.contracts.documentinfo](./com.groupdocs.conversion.contracts.documentinfo) | The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for a document. |
-| [com.groupdocs.conversion.exceptions](./com.groupdocs.conversion.exceptions) | The GroupDocs.Conversion.Exceptions namespace provides different exceptions classes. |
 | [com.groupdocs.conversion.filetypes](./com.groupdocs.conversion.filetypes) | The GroupDocs.Conversion.FileTypes namespace provides classes which represent supported file types. |
 | [com.groupdocs.conversion.fluent](./com.groupdocs.conversion.fluent) |  |
 | [com.groupdocs.conversion.integration.audio](./com.groupdocs.conversion.integration.audio) |  |

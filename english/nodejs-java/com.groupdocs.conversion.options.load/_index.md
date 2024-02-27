@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.options.load
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Options.Load namespace provides classes to specify additional options for document loading process.
 type: docs
-weight: 23
+weight: 22
 url: /nodejs-java/com.groupdocs.conversion.options.load/
 ---
 

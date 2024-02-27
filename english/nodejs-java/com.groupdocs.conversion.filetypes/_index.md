@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.filetypes
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.FileTypes namespace provides classes which represent supported file types.
 type: docs
-weight: 15
+weight: 14
 url: /nodejs-java/com.groupdocs.conversion.filetypes/
 ---
 

@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.reporting
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Options.Load namespace provides classes to implement converter listening.
 type: docs
-weight: 24
+weight: 23
 url: /nodejs-java/com.groupdocs.conversion.reporting/
 ---
 

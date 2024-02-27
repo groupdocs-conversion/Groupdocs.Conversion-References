@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.integration.ocr
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Integration.Ocr package provides metadata for a OCR.
 type: docs
-weight: 18
+weight: 17
 url: /nodejs-java/com.groupdocs.conversion.integration.ocr/
 ---
 
