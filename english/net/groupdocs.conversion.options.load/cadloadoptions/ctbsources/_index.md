@@ -1,17 +1,17 @@
 ---
-title: LayoutNames
+title: CtbSources
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Specifies which CAD layouts to be converted
+description: Gets or sets the CTB sources.
 type: docs
-weight: 70
-url: /net/groupdocs.conversion.options.load/cadloadoptions/layoutnames/
+weight: 30
+url: /net/groupdocs.conversion.options.load/cadloadoptions/ctbsources/
 ---
-## CadLoadOptions.LayoutNames property
+## CadLoadOptions.CtbSources property
 
-Specifies which CAD layouts to be converted
+Gets or sets the CTB sources.
 
 ```csharp
-public string[] LayoutNames { get; set; }
+public IDictionary<string, Stream> CtbSources { get; set; }
 ```
 
 ### See Also

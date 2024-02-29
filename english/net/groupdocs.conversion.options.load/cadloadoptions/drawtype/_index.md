@@ -3,7 +3,7 @@ title: DrawType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets type of drawing.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.load/cadloadoptions/drawtype/
 ---
 ## CadLoadOptions.DrawType property
