@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Sets desired page width for converting CAD document
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.options.load/cadloadoptions/width/
 ---
 ## CadLoadOptions.Width property

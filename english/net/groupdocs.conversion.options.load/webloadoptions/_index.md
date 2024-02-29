@@ -31,6 +31,7 @@ public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | Use pdf for the conversion. Default: false |
 | [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
