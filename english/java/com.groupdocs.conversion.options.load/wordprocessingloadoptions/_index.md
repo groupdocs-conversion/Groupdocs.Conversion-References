@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable
+java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions)
 ```
-public class WordProcessingLoadOptions extends LoadOptions implements Serializable
+public class WordProcessingLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions
 ```
 
 Options for loading WordProcessing documents.
@@ -54,6 +54,10 @@ Options for loading WordProcessing documents.
 | [setUseTextShaper(boolean isUseTextShaper)](#setUseTextShaper-boolean-) | Specifies whether to use a text shaper for better kerning display. |
 | [isPreserveDocumentStructure()](#isPreserveDocumentStructure--) | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [setPreserveDocumentStructure(boolean preserveDocumentStructure)](#setPreserveDocumentStructure-boolean-) |  |
+| [getSkipExternalResources()](#getSkipExternalResources--) | \{@inheritDoc\} |
+| [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
+| [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
+| [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -393,4 +397,50 @@ public void setPreserveDocumentStructure(boolean preserveDocumentStructure)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | preserveDocumentStructure | boolean |  |
+
+### getSkipExternalResources() {#getSkipExternalResources--}
+```
+public boolean getSkipExternalResources()
+```
+
+
+If true all external resource will not be loading with exception of the resources in the
+
+**Returns:**
+boolean
+### setSkipExternalResources(boolean skip) {#setSkipExternalResources-boolean-}
+```
+public void setSkipExternalResources(boolean skip)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skip | boolean |  |
+
+### getWhitelistedResources() {#getWhitelistedResources--}
+```
+public List<String> getWhitelistedResources()
+```
+
+
+External resources that will be always loaded
+
+**Returns:**
+java.util.List<java.lang.String>
+### setWhitelistedResources(List<String> whiteList) {#setWhitelistedResources-java.util.List-java.lang.String--}
+```
+public void setWhitelistedResources(List<String> whiteList)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| whiteList | java.util.List<java.lang.String> |  |
 
