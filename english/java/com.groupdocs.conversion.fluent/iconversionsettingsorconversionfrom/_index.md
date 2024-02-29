@@ -1,10 +1,10 @@
 ---
 title: IConversionSettingsOrConversionFrom
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Conversion settings or conversion source
 type: docs
 weight: 26
-url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/
+url: /java/com.groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.fluent.IConversionSettings](../../com.groupdocs.conversion.fluent/iconversionsettings), [com.groupdocs.conversion.fluent.IConversionFrom](../../com.groupdocs.conversion.fluent/iconversionfrom)

@@ -1,10 +1,10 @@
 ---
 title: RtfOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to RTF file type.
 type: docs
 weight: 39
-url: /nodejs-java/com.groupdocs.conversion.options.convert/rtfoptions/
+url: /java/com.groupdocs.conversion.options.convert/rtfoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

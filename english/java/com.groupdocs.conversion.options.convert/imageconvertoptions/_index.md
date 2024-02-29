@@ -1,10 +1,10 @@
 ---
 title: ImageConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to Image file type.
 type: docs
 weight: 18
-url: /nodejs-java/com.groupdocs.conversion.options.convert/imageconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions, com.groupdocs.conversion.options.convert.CommonConvertOptions
@@ -59,7 +59,6 @@ Options for conversion to Image file type.
 | [getContrast()](#getContrast--) | Adjusts image contrast. |
 | [setContrast(int value)](#setContrast-int-) | Adjusts image contrast. |
 | [getGamma()](#getGamma--) | Adjusts image gamma. |
-| [setGamma(double value)](#setGamma-double-) | Adjusts image gamma. |
 | [setGamma(float value)](#setGamma-float-) | Adjusts image gamma. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets background color |
 | [setBackgroundColor(System.Drawing.Color backgroundColor)](#setBackgroundColor-com.aspose.ms.System.Drawing.Color-) | Sets background color where supported by the source format |
@@ -401,27 +400,14 @@ Adjusts image contrast.
 
 ### getGamma() {#getGamma--}
 ```
-public final double getGamma()
+public final float getGamma()
 ```
 
 
 Adjusts image gamma.
 
 **Returns:**
-double
-### setGamma(double value) {#setGamma-double-}
-```
-public final void setGamma(double value)
-```
-
-
-Adjusts image gamma.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
+float
 ### setGamma(float value) {#setGamma-float-}
 ```
 public final void setGamma(float value)

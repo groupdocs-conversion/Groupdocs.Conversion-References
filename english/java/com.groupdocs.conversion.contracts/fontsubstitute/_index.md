@@ -1,10 +1,10 @@
 ---
 title: FontSubstitute
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Describes substitution for missing font.
 type: docs
 weight: 12
-url: /nodejs-java/com.groupdocs.conversion.contracts/fontsubstitute/
+url: /java/com.groupdocs.conversion.contracts/fontsubstitute/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

@@ -1,10 +1,10 @@
 ---
 title: PossibleConversions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents a mapping what conversion pairs are supported for specific source file format
 type: docs
 weight: 13
-url: /nodejs-java/com.groupdocs.conversion.contracts/possibleconversions/
+url: /java/com.groupdocs.conversion.contracts/possibleconversions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

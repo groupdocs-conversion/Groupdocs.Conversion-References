@@ -1,10 +1,10 @@
 ---
 title: License
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Provides methods to license the component.
 type: docs
 weight: 10
-url: /nodejs-java/com.groupdocs.conversion.licensing/license/
+url: /java/com.groupdocs.conversion.licensing/license/
 ---
 **Inheritance:**
 java.lang.Object

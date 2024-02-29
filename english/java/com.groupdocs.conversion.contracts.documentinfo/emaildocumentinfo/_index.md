@@ -1,10 +1,10 @@
 ---
 title: EmailDocumentInfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Email document metadata
 type: docs
 weight: 17
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/emaildocumentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/emaildocumentinfo/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)

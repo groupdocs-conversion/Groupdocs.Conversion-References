@@ -1,10 +1,10 @@
 ---
 title: IPageMarginConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that support page margins
 type: docs
 weight: 50
-url: /nodejs-java/com.groupdocs.conversion.options.convert/ipagemarginconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/ipagemarginconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)

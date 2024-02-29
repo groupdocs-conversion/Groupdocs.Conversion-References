@@ -1,10 +1,10 @@
 ---
 title: IPagedConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that allows conversion to perform page limitation by specifying start page and pages count
 type: docs
 weight: 54
-url: /nodejs-java/com.groupdocs.conversion.options.convert/ipagedconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)

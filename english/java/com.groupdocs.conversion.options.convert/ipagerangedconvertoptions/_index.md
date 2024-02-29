@@ -1,10 +1,10 @@
 ---
 title: IPageRangedConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that support conversion of specific list of pages
 type: docs
 weight: 52
-url: /nodejs-java/com.groupdocs.conversion.options.convert/ipagerangedconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/ipagerangedconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)

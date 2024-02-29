@@ -1,11 +1,12 @@
 ---
-title: GroupDocs.Conversion for Node.js via Java
+title: GroupDocs.Conversion for Java
 type: docs
 weight: 11
-url: /nodejs-java/
-description: GroupDocs.Conversion for Node.js via Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
+url: /java/
+description: GroupDocs.Conversion for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
 ---
+
 ## Packages
 | Package | Description |
 | --- | --- |

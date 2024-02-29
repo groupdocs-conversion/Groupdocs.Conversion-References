@@ -1,10 +1,10 @@
 ---
 title: PdfOptimizationOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Pdf optimization options.
 type: docs
 weight: 29
-url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfoptimizationoptions/
+url: /java/com.groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

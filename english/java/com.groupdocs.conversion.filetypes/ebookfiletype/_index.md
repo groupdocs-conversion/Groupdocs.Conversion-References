@@ -1,10 +1,10 @@
 ---
 title: EBookFileType
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines CAD documents Computer Aided Design that are used for a 3D graphics file formats and may contain 2D or 3D designs.
 type: docs
 weight: 14
-url: /nodejs-java/com.groupdocs.conversion.filetypes/ebookfiletype/
+url: /java/com.groupdocs.conversion.filetypes/ebookfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

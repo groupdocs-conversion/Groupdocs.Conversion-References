@@ -1,10 +1,10 @@
 ---
 title: PageDescriptionLanguageConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for conversion to page descriptions language file type.
 type: docs
 weight: 24
-url: /nodejs-java/com.groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), com.groupdocs.conversion.options.convert.ConvertOptions, com.groupdocs.conversion.options.convert.CommonConvertOptions

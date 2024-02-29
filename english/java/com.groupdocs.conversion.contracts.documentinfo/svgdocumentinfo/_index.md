@@ -1,10 +1,10 @@
 ---
 title: SvgDocumentInfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Svg document metadata
 type: docs
 weight: 37
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/svgdocumentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/svgdocumentinfo/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)

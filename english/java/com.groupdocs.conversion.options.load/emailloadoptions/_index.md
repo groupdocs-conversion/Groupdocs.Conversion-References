@@ -1,10 +1,10 @@
 ---
 title: EmailLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Email documents.
 type: docs
 weight: 18
-url: /nodejs-java/com.groupdocs.conversion.options.load/emailloadoptions/
+url: /java/com.groupdocs.conversion.options.load/emailloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

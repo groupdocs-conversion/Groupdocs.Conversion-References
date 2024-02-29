@@ -1,10 +1,10 @@
 ---
 title: TextLine
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents text extracted from an image as a result of its recognition process.
 type: docs
 weight: 12
-url: /nodejs-java/com.groupdocs.conversion.integration.ocr/textline/
+url: /java/com.groupdocs.conversion.integration.ocr/textline/
 ---
 **Inheritance:**
 java.lang.Object

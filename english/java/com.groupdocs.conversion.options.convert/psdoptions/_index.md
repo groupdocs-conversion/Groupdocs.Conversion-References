@@ -1,10 +1,10 @@
 ---
 title: PsdOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for converting to Psd file type.
 type: docs
 weight: 37
-url: /nodejs-java/com.groupdocs.conversion.options.convert/psdoptions/
+url: /java/com.groupdocs.conversion.options.convert/psdoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)

@@ -1,10 +1,10 @@
 ---
 title: Enumeration
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Generic enumeration class.
 type: docs
 weight: 11
-url: /nodejs-java/com.groupdocs.conversion.contracts/enumeration/
+url: /java/com.groupdocs.conversion.contracts/enumeration/
 ---
 **Inheritance:**
 java.lang.Object

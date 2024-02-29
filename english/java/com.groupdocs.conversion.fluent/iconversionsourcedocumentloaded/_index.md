@@ -1,10 +1,10 @@
 ---
 title: IConversionSourceDocumentLoaded
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Provides possible actions with loaded document
 type: docs
 weight: 27
-url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
+url: /java/com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.fluent.IConversionTo](../../com.groupdocs.conversion.fluent/iconversionto), [com.groupdocs.conversion.fluent.IConversionGetPossibleConversions](../../com.groupdocs.conversion.fluent/iconversiongetpossibleconversions), [com.groupdocs.conversion.fluent.IConversionGetDocumentInfo](../../com.groupdocs.conversion.fluent/iconversiongetdocumentinfo), [com.groupdocs.conversion.fluent.IConversionIsPasswordProtected](../../com.groupdocs.conversion.fluent/iconversionispasswordprotected)

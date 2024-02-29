@@ -1,10 +1,10 @@
 ---
 title: TxtLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Txt documents.
 type: docs
 weight: 34
-url: /nodejs-java/com.groupdocs.conversion.options.load/txtloadoptions/
+url: /java/com.groupdocs.conversion.options.load/txtloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
@@ -35,7 +35,6 @@ Options for loading Txt documents.
 | [getEncoding()](#getEncoding--) | Gets or sets the encoding that will be used when loading Txt document. |
 | [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Gets or sets the encoding that will be used when loading Txt document. |
-| [setEncoding(String charsetName)](#setEncoding-java.lang.String-) | Gets or sets the encoding that will be used when loading Txt document. |
 ### TxtLoadOptions() {#TxtLoadOptions--}
 ```
 public TxtLoadOptions()
@@ -167,17 +166,4 @@ Gets or sets the encoding that will be used when loading Txt document. Can be nu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncoding(String charsetName) {#setEncoding-java.lang.String-}
-```
-public final void setEncoding(String charsetName)
-```
-
-
-Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| charsetName | java.lang.String |  |
 

@@ -1,10 +1,10 @@
 ---
 title: FileCache
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: File caching behaviour.
 type: docs
 weight: 10
-url: /nodejs-java/com.groupdocs.conversion.caching/filecache/
+url: /java/com.groupdocs.conversion.caching/filecache/
 ---
 **Inheritance:**
 java.lang.Object

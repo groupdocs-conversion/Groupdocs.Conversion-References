@@ -1,10 +1,10 @@
 ---
 title: CsvLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Csv documents.
 type: docs
 weight: 13
-url: /nodejs-java/com.groupdocs.conversion.options.load/csvloadoptions/
+url: /java/com.groupdocs.conversion.options.load/csvloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions), [com.groupdocs.conversion.options.load.SpreadsheetLoadOptions](../../com.groupdocs.conversion.options.load/spreadsheetloadoptions)
@@ -26,7 +26,6 @@ Options for loading Csv documents.
 | Method | Description |
 | --- | --- |
 | [getSeparator()](#getSeparator--) | Delimiter of a Csv file. |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Delimiter of a Csv file. |
 | [setSeparator(char value)](#setSeparator-char-) | Delimiter of a Csv file. |
 | [isMultiEncoded()](#isMultiEncoded--) | True means the file contains several encodings. |
 | [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means the file contains several encodings. |
@@ -39,7 +38,6 @@ Options for loading Csv documents.
 | [getEncoding()](#getEncoding--) | Encoding. |
 | [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Encoding. |
-| [setEncoding(String charsetName)](#setEncoding-java.lang.String-) | Gets or sets the encoding that will be used when loading Txt document. |
 | [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 ### CsvLoadOptions() {#CsvLoadOptions--}
 ```
@@ -59,19 +57,6 @@ Delimiter of a Csv file.
 
 **Returns:**
 char
-### setSeparator(String value) {#setSeparator-java.lang.String-}
-```
-public final void setSeparator(String value)
-```
-
-
-Delimiter of a Csv file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
 ### setSeparator(char value) {#setSeparator-char-}
 ```
 public final void setSeparator(char value)
@@ -209,19 +194,6 @@ Encoding. Default is Encoding.Default.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncoding(String charsetName) {#setEncoding-java.lang.String-}
-```
-public final void setEncoding(String charsetName)
-```
-
-
-Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| charsetName | java.lang.String |  |
 
 ### setEncodingInternal(System.Text.Encoding value) {#setEncodingInternal-com.aspose.ms.System.Text.Encoding-}
 ```

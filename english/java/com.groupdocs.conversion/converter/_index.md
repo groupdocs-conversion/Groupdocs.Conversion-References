@@ -1,10 +1,10 @@
 ---
 title: Converter
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents main class that controls document conversion process.
 type: docs
 weight: 10
-url: /nodejs-java/com.groupdocs.conversion/converter/
+url: /java/com.groupdocs.conversion/converter/
 ---
 **Inheritance:**
 java.lang.Object

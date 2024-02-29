@@ -1,10 +1,10 @@
 ---
 title: IDocumentInfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Contains metadata for a document.
 type: docs
 weight: 49
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/idocumentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/idocumentinfo/
 ---```
 public interface IDocumentInfo
 ```

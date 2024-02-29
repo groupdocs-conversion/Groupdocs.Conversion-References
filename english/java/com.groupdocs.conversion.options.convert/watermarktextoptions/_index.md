@@ -1,10 +1,10 @@
 ---
 title: WatermarkTextOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for settings text watermark to the converted document
 type: docs
 weight: 45
-url: /nodejs-java/com.groupdocs.conversion.options.convert/watermarktextoptions/
+url: /java/com.groupdocs.conversion.options.convert/watermarktextoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.convert.WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions)
@@ -28,8 +28,6 @@ Options for settings text watermark to the converted document
 | [setWatermarkFont(Font watermarkFont)](#setWatermarkFont-com.groupdocs.conversion.options.convert.Font-) | Sets Watermark font if text watermark is applied |
 | [getColor()](#getColor--) | Watermark font color if text watermark is applied |
 | [getColorInternal()](#getColorInternal--) |  |
-| [setColor(int argb)](#setColor-int-) | Watermark font color as argb if text watermark is applied |
-| [setColor(String colorName)](#setColor-java.lang.String-) | Watermark font color name if text watermark is applied |
 | [setColor(Color value)](#setColor-java.awt.Color-) | Watermark font color if text watermark is applied |
 | [getHexColor()](#getHexColor--) |  |
 ### WatermarkTextOptions(String text) {#WatermarkTextOptions-java.lang.String-}
@@ -109,32 +107,6 @@ public System.Drawing.Color getColorInternal()
 
 **Returns:**
 com.aspose.ms.System.Drawing.Color
-### setColor(int argb) {#setColor-int-}
-```
-public final void setColor(int argb)
-```
-
-
-Watermark font color as argb if text watermark is applied
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argb | int |  |
-
-### setColor(String colorName) {#setColor-java.lang.String-}
-```
-public final void setColor(String colorName)
-```
-
-
-Watermark font color name if text watermark is applied
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| colorName | java.lang.String |  |
-
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public final void setColor(Color value)

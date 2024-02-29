@@ -1,10 +1,10 @@
 ---
 title: FontFileType
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Font documents.
 type: docs
 weight: 17
-url: /nodejs-java/com.groupdocs.conversion.filetypes/fontfiletype/
+url: /java/com.groupdocs.conversion.filetypes/fontfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

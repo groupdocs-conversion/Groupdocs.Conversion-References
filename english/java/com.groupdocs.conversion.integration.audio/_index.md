@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.integration.audio
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
 weight: 17
-url: /nodejs-java/com.groupdocs.conversion.integration.audio/
+url: /java/com.groupdocs.conversion.integration.audio/
 ---
 
 ## Interfaces

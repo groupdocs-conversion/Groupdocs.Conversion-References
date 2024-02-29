@@ -1,10 +1,10 @@
 ---
 title: ConvertOptionsProvider
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Describes delegate to provide convert options for specific source document.
 type: docs
 weight: 16
-url: /nodejs-java/com.groupdocs.conversion.contracts/convertoptionsprovider/
+url: /java/com.groupdocs.conversion.contracts/convertoptionsprovider/
 ---```
 public interface ConvertOptionsProvider
 ```

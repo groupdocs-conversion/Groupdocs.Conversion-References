@@ -1,10 +1,10 @@
 ---
 title: InvalidConvertOptionsException
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Thrown if provided convert options are invalid
 type: docs
 weight: 16
-url: /nodejs-java/com.groupdocs.conversion.exceptions/invalidconvertoptionsexception/
+url: /java/com.groupdocs.conversion.exceptions/invalidconvertoptionsexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.groupdocs.conversion.exceptions.GroupDocsConversionException](../../com.groupdocs.conversion.exceptions/groupdocsconversionexception)

@@ -1,10 +1,10 @@
 ---
 title: TextFragment
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents a part of recognized text word symbol etc extracted by OCR engine.
 type: docs
 weight: 11
-url: /nodejs-java/com.groupdocs.conversion.integration.ocr/textfragment/
+url: /java/com.groupdocs.conversion.integration.ocr/textfragment/
 ---
 **Inheritance:**
 java.lang.Object

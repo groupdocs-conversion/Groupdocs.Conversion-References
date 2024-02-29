@@ -1,10 +1,10 @@
 ---
 title: SpreadsheetFileType
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Spreadsheet documents.
 type: docs
 weight: 25
-url: /nodejs-java/com.groupdocs.conversion.filetypes/spreadsheetfiletype/
+url: /java/com.groupdocs.conversion.filetypes/spreadsheetfiletype/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration), [com.groupdocs.conversion.filetypes.FileType](../../com.groupdocs.conversion.filetypes/filetype)

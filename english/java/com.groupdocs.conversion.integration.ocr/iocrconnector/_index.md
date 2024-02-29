@@ -1,10 +1,10 @@
 ---
 title: IOcrConnector
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines methods that are required to apply OCR to image documents and embedded images.
 type: docs
 weight: 13
-url: /nodejs-java/com.groupdocs.conversion.integration.ocr/iocrconnector/
+url: /java/com.groupdocs.conversion.integration.ocr/iocrconnector/
 ---```
 public interface IOcrConnector
 ```

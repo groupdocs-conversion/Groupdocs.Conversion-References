@@ -1,10 +1,10 @@
 ---
 title: MboxLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Mbox documents.
 type: docs
 weight: 23
-url: /nodejs-java/com.groupdocs.conversion.options.load/mboxloadoptions/
+url: /java/com.groupdocs.conversion.options.load/mboxloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

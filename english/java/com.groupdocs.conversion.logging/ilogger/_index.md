@@ -1,10 +1,10 @@
 ---
 title: ILogger
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines the methods that are used to perform logging.
 type: docs
 weight: 11
-url: /nodejs-java/com.groupdocs.conversion.logging/ilogger/
+url: /java/com.groupdocs.conversion.logging/ilogger/
 ---```
 public interface ILogger
 ```

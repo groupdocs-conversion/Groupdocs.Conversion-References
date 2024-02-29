@@ -1,10 +1,10 @@
 ---
 title: SpreadsheetLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
 weight: 31
-url: /nodejs-java/com.groupdocs.conversion.options.load/spreadsheetloadoptions/
+url: /java/com.groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

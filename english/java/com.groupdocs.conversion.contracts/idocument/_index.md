@@ -1,10 +1,10 @@
 ---
 title: IDocument
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Interface for documents
 type: docs
 weight: 22
-url: /nodejs-java/com.groupdocs.conversion.contracts/idocument/
+url: /java/com.groupdocs.conversion.contracts/idocument/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable, [com.groupdocs.conversion.contracts.IDocumentSave](../../com.groupdocs.conversion.contracts/idocumentsave)

@@ -1,10 +1,10 @@
 ---
 title: PageOrientation
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: 
 type: docs
 weight: 57
-url: /nodejs-java/com.groupdocs.conversion.options.convert/pageorientation/
+url: /java/com.groupdocs.conversion.options.convert/pageorientation/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

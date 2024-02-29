@@ -1,10 +1,10 @@
 ---
 title: JpgCompressionMethods
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Jpg compression modes
 type: docs
 weight: 22
-url: /nodejs-java/com.groupdocs.conversion.options.convert/jpgcompressionmethods/
+url: /java/com.groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

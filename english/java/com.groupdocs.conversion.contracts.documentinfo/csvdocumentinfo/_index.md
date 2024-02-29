@@ -1,10 +1,10 @@
 ---
 title: CsvDocumentInfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Contains Csv document metadata
 type: docs
 weight: 13
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/csvdocumentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/csvdocumentinfo/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.SpreadsheetDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/spreadsheetdocumentinfo)

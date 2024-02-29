@@ -1,10 +1,10 @@
 ---
 title: PasswordProtectedDocumentInfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Provided document is password protected
 type: docs
 weight: 26
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/passwordprotecteddocumentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/passwordprotecteddocumentinfo/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)

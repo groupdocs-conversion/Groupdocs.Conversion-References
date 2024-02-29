@@ -1,10 +1,10 @@
 ---
 title: PsdColorModes
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Defines Psd color modes enumeration.
 type: docs
 weight: 35
-url: /nodejs-java/com.groupdocs.conversion.options.convert/psdcolormodes/
+url: /java/com.groupdocs.conversion.options.convert/psdcolormodes/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

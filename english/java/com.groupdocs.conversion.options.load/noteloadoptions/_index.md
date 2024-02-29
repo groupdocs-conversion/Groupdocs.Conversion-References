@@ -1,10 +1,10 @@
 ---
 title: NoteLoadOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Options for loading One documents.
 type: docs
 weight: 24
-url: /nodejs-java/com.groupdocs.conversion.options.load/noteloadoptions/
+url: /java/com.groupdocs.conversion.options.load/noteloadoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

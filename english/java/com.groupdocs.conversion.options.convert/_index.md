@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.options.convert
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process.
 type: docs
 weight: 22
-url: /nodejs-java/com.groupdocs.conversion.options.convert/
+url: /java/com.groupdocs.conversion.options.convert/
 ---
 
 The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process.

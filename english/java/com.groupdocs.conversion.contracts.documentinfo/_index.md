@@ -1,10 +1,10 @@
 ---
 title: com.groupdocs.conversion.contracts.documentinfo
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for a document.
 type: docs
 weight: 13
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/
+url: /java/com.groupdocs.conversion.contracts.documentinfo/
 ---
 
 The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for a document.

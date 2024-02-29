@@ -1,10 +1,10 @@
 ---
 title: Metered
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Provides methods for applying Metered license.
 type: docs
 weight: 11
-url: /nodejs-java/com.groupdocs.conversion.licensing/metered/
+url: /java/com.groupdocs.conversion.licensing/metered/
 ---
 **Inheritance:**
 java.lang.Object

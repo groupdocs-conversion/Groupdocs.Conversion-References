@@ -1,10 +1,10 @@
 ---
 title: PsdCompressionMethods
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Describes Psd compression methods.
 type: docs
 weight: 36
-url: /nodejs-java/com.groupdocs.conversion.options.convert/psdcompressionmethods/
+url: /java/com.groupdocs.conversion.options.convert/psdcompressionmethods/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.groupdocs.conversion.contracts/enumeration)

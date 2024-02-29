@@ -1,10 +1,10 @@
 ---
 title: IConversionConvert
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Execute conversion
 type: docs
 weight: 16
-url: /nodejs-java/com.groupdocs.conversion.fluent/iconversionconvert/
+url: /java/com.groupdocs.conversion.fluent/iconversionconvert/
 ---```
 public interface IConversionConvert
 ```

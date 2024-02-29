@@ -1,10 +1,10 @@
 ---
 title: FileTypeNotSupportedException
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: GroupDocs exception thrown when the file type is not supported
 type: docs
 weight: 12
-url: /nodejs-java/com.groupdocs.conversion.exceptions/filetypenotsupportedexception/
+url: /java/com.groupdocs.conversion.exceptions/filetypenotsupportedexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.groupdocs.conversion.exceptions.GroupDocsConversionException](../../com.groupdocs.conversion.exceptions/groupdocsconversionexception)

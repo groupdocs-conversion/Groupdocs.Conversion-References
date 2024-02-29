@@ -1,10 +1,10 @@
 ---
 title: IPageSizeConvertOptions
-second_title: GroupDocs.Conversion for Node.js via Java API Reference
+second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that support page size
 type: docs
 weight: 53
-url: /nodejs-java/com.groupdocs.conversion.options.convert/ipagesizeconvertoptions/
+url: /java/com.groupdocs.conversion.options.convert/ipagesizeconvertoptions/
 ---
 **All Implemented Interfaces:**
 [com.groupdocs.conversion.options.convert.IConvertOptions](../../com.groupdocs.conversion.options.convert/iconvertoptions)
