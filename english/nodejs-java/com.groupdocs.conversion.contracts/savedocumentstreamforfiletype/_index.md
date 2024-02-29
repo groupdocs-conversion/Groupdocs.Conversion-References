@@ -3,7 +3,7 @@ title: SaveDocumentStreamForFileType
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes delegate for saving converted document into stream.
 type: docs
-weight: 24
+weight: 23
 url: /nodejs-java/com.groupdocs.conversion.contracts/savedocumentstreamforfiletype/
 ---```
 public interface SaveDocumentStreamForFileType

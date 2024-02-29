@@ -53,9 +53,3 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [XmlDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xpsdocumentinfo) | Contains Xps document metadata |
 | [XslFoDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/xslfodocumentinfo) | Contains XslFo document metadata |
-
-## Interfaces
-
-| Interface | Description |
-| --- | --- |
-| [IDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/idocumentinfo) | Contains metadata for a document. |

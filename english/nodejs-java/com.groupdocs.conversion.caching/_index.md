@@ -21,9 +21,3 @@ The GroupDocs.Conversion.Caching namespace provides classes for customizing cach
 | --- | --- |
 | [FileCache](../com.groupdocs.conversion.caching/filecache) | File caching behaviour. |
 | [MemoryCache](../com.groupdocs.conversion.caching/memorycache) | Memory caching behaviour. |
-
-## Interfaces
-
-| Interface | Description |
-| --- | --- |
-| [ICache](../com.groupdocs.conversion.caching/icache) | Defines methods required for storing rendered document and document resources \\u0441ache. |

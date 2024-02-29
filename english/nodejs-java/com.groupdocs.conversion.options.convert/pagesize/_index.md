@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
-weight: 58
+weight: 50
 url: /nodejs-java/com.groupdocs.conversion.options.convert/pagesize/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.options.convert
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process.
 type: docs
-weight: 21
+weight: 17
 url: /nodejs-java/com.groupdocs.conversion.options.convert/
 ---
 
@@ -53,19 +53,6 @@ The GroupDocs.Conversion.Options.Convert namespace provides classes to specify a
 | [WebConvertOptions](../com.groupdocs.conversion.options.convert/webconvertoptions) | Options for conversion to Web file type. |
 | [WebpOptions](../com.groupdocs.conversion.options.convert/webpoptions) | Options for conversion to Webp file type. |
 | [WordProcessingConvertOptions](../com.groupdocs.conversion.options.convert/wordprocessingconvertoptions) | Options for conversion to WordProcessing file type. |
-
-## Interfaces
-
-| Interface | Description |
-| --- | --- |
-| [IConvertOptions](../com.groupdocs.conversion.options.convert/iconvertoptions) | Represents convert options |
-| [IPageMarginConvertOptions](../com.groupdocs.conversion.options.convert/ipagemarginconvertoptions) | Represents convert options that support page margins |
-| [IPageOrientationConvertOptions](../com.groupdocs.conversion.options.convert/ipageorientationconvertoptions) | Represents convert options that support page orientation |
-| [IPageRangedConvertOptions](../com.groupdocs.conversion.options.convert/ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
-| [IPageSizeConvertOptions](../com.groupdocs.conversion.options.convert/ipagesizeconvertoptions) | Represents convert options that support page size |
-| [IPagedConvertOptions](../com.groupdocs.conversion.options.convert/ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |
-| [IPdfRecognitionModeOptions](../com.groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions) | Represents convert options that control recognition mode when converting from PDF |
-| [IWatermarkedConvertOptions](../com.groupdocs.conversion.options.convert/iwatermarkedconvertoptions) | Represents convert options that allow output of conversion to be watermarked |
 
 ## Enumerations
 

@@ -3,7 +3,7 @@ title: com.groupdocs.conversion.licensing
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: The GroupDocs.Conversion.Legacy.Licensing namespace provides classes for applying of the license
 type: docs
-weight: 19
+weight: 15
 url: /nodejs-java/com.groupdocs.conversion.licensing/
 ---
 

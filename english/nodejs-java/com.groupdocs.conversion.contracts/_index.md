@@ -31,7 +31,6 @@ The GroupDocs.Conversion.Contracts namespace provides members to instantiate and
 | [ConverterSettingsProvider](../com.groupdocs.conversion.contracts/convertersettingsprovider) | Supplier for ConverterSettings |
 | [DocumentStreamProvider](../com.groupdocs.conversion.contracts/documentstreamprovider) | Supplier for InputStream |
 | [DocumentStreamsProvider](../com.groupdocs.conversion.contracts/documentstreamsprovider) | Supplier for InputStream array |
-| [IDocument](../com.groupdocs.conversion.contracts/idocument) | Interface for documents |
 | [SaveDocumentStream](../com.groupdocs.conversion.contracts/savedocumentstream) | Describes delegate for saving converted document into output stream. |
 | [SaveDocumentStreamForFileType](../com.groupdocs.conversion.contracts/savedocumentstreamforfiletype) | Describes delegate for saving converted document into stream. |
 | [SavePageStream](../com.groupdocs.conversion.contracts/savepagestream) | Describes delegate for saving converted document page into stream. |

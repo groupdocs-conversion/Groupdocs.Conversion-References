@@ -14,10 +14,6 @@ is_root: true
 | [com.groupdocs.conversion.contracts](./com.groupdocs.conversion.contracts) | The GroupDocs.Conversion.Contracts namespace provides members to instantiate and release output document, manage font substitutions etc. |
 | [com.groupdocs.conversion.contracts.documentinfo](./com.groupdocs.conversion.contracts.documentinfo) | The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for a document. |
 | [com.groupdocs.conversion.filetypes](./com.groupdocs.conversion.filetypes) | The GroupDocs.Conversion.FileTypes namespace provides classes which represent supported file types. |
-| [com.groupdocs.conversion.fluent](./com.groupdocs.conversion.fluent) |  |
-| [com.groupdocs.conversion.integration.audio](./com.groupdocs.conversion.integration.audio) |  |
-| [com.groupdocs.conversion.integration.ocr](./com.groupdocs.conversion.integration.ocr) | The GroupDocs.Conversion.Integration.Ocr package provides metadata for a OCR. |
-| [com.groupdocs.conversion.integration.video](./com.groupdocs.conversion.integration.video) |  |
 | [com.groupdocs.conversion.licensing](./com.groupdocs.conversion.licensing) | The GroupDocs.Conversion.Legacy.Licensing namespace provides classes for applying of the license |
 | [com.groupdocs.conversion.logging](./com.groupdocs.conversion.logging) | The GroupDocs.Conversion.Logging namespace provides classes for customizing logging behaviour. |
 | [com.groupdocs.conversion.options.convert](./com.groupdocs.conversion.options.convert) | The GroupDocs.Conversion.Options.Convert namespace provides classes to specify additional options for document conversion process. |

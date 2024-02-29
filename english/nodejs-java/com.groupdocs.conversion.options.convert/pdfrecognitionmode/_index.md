@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: 
 type: docs
-weight: 59
+weight: 51
 url: /nodejs-java/com.groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 **Inheritance:**
