@@ -35,3 +35,18 @@ Enable your Java applications to easily convert between all industry-standard do
 These are links to some useful resources:
 
 - [GroupDocs.Conversion for Java API Reference](/conversion/java/)
+
+
+## GroupDocs.Conversion for Node.js via Java
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Conversion for Node.js via Java Product Logo](gdocs_nodejs.png)
+
+Node.js API: A universal solution for precise conversion of documents and images (Word, Excel, PDF, HTML) with watermarks, simple integration and high performance.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Conversion for Node.js via Java API Reference](/conversion/nodejs-java/)
