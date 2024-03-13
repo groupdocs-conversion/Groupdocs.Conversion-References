@@ -3,7 +3,7 @@ title: IcoDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Ico document metadata
 type: docs
-weight: 21
+weight: 22
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/icodocumentinfo/
 ---
 **Inheritance:**

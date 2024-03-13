@@ -3,7 +3,7 @@ title: ImageDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Image document metadata
 type: docs
-weight: 22
+weight: 23
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/imagedocumentinfo/
 ---
 **Inheritance:**

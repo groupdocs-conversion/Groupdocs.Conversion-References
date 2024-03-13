@@ -3,7 +3,7 @@ title: PsDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Ps document metadata
 type: docs
-weight: 33
+weight: 36
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/psdocumentinfo/
 ---
 **Inheritance:**

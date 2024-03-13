@@ -3,7 +3,7 @@ title: XslFoDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains XslFo document metadata
 type: docs
-weight: 48
+weight: 51
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/xslfodocumentinfo/
 ---
 **Inheritance:**

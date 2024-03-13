@@ -3,7 +3,7 @@ title: NsfLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Nsf documents.
 type: docs
-weight: 25
+weight: 28
 url: /nodejs-java/com.groupdocs.conversion.options.load/nsfloadoptions/
 ---
 **Inheritance:**

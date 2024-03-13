@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Presentation document metadata
 type: docs
-weight: 31
+weight: 34
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/presentationdocumentinfo/
 ---
 **Inheritance:**

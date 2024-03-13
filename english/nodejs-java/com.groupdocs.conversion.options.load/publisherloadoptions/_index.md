@@ -3,7 +3,7 @@ title: PublisherLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Publisher documents.
 type: docs
-weight: 30
+weight: 34
 url: /nodejs-java/com.groupdocs.conversion.options.load/publisherloadoptions/
 ---
 **Inheritance:**

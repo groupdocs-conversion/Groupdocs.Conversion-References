@@ -3,7 +3,7 @@ title: XpsDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Xps document metadata
 type: docs
-weight: 47
+weight: 50
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/xpsdocumentinfo/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: VideoDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Video document metadata
 type: docs
-weight: 43
+weight: 46
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/videodocumentinfo/
 ---
 **Inheritance:**

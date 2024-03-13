@@ -3,7 +3,7 @@ title: ProjectManagementDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains ProjectManagement document metadata
 type: docs
-weight: 32
+weight: 35
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/projectmanagementdocumentinfo/
 ---
 **Inheritance:**

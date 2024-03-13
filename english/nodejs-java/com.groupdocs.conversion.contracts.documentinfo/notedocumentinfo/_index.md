@@ -3,7 +3,7 @@ title: NoteDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Note document metadata
 type: docs
-weight: 25
+weight: 26
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/notedocumentinfo/
 ---
 **Inheritance:**

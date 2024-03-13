@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 41
+weight: 45
 url: /nodejs-java/com.groupdocs.conversion.options.load/xmlloadoptions/
 ---
 **Inheritance:**

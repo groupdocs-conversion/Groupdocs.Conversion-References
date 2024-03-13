@@ -3,7 +3,7 @@ title: VcfLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Vcf documents.
 type: docs
-weight: 36
+weight: 40
 url: /nodejs-java/com.groupdocs.conversion.options.load/vcfloadoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PublisherDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Publisher document metadata
 type: docs
-weight: 35
+weight: 38
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/publisherdocumentinfo/
 ---
 **Inheritance:**

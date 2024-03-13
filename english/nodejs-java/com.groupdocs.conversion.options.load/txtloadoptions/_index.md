@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 34
+weight: 38
 url: /nodejs-java/com.groupdocs.conversion.options.load/txtloadoptions/
 ---
 **Inheritance:**

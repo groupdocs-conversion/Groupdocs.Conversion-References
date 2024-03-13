@@ -3,7 +3,7 @@ title: EpsDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Ps document metadata
 type: docs
-weight: 18
+weight: 19
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/epsdocumentinfo/
 ---
 **Inheritance:**

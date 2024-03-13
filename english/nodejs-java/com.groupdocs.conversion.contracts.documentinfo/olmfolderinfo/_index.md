@@ -1,33 +1,33 @@
 ---
-title: PersonalStorageFolderInfo
+title: OlmFolderInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
-description: Personal Storage Folder info
+description: Olm Folder info
 type: docs
-weight: 33
-url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/personalstoragefolderinfo/
+weight: 28
+url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/olmfolderinfo/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class PersonalStorageFolderInfo
+public class OlmFolderInfo
 ```
 
-Personal Storage Folder info
+Olm Folder info
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PersonalStorageFolderInfo(String name, int count)](#PersonalStorageFolderInfo-java.lang.String-int-) |  |
+| [OlmFolderInfo(String name, int count)](#OlmFolderInfo-java.lang.String-int-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Name of the folder |
 | [getItemsCount()](#getItemsCount--) | Count of the items in the folder |
-| [toString()](#toString--) | String representation of personal storage folder info |
-### PersonalStorageFolderInfo(String name, int count) {#PersonalStorageFolderInfo-java.lang.String-int-}
+| [toString()](#toString--) | String representation of personal storage folder info String representation of personal storage folder info in format FolderName (ItemsCount) |
+### OlmFolderInfo(String name, int count) {#OlmFolderInfo-java.lang.String-int-}
 ```
-public PersonalStorageFolderInfo(String name, int count)
+public OlmFolderInfo(String name, int count)
 ```
 
 
@@ -63,7 +63,7 @@ public String toString()
 ```
 
 
-String representation of personal storage folder info
+String representation of personal storage folder info String representation of personal storage folder info in format FolderName (ItemsCount)
 
 **Returns:**
-java.lang.String - String representation of personal storage folder info in format FolderName (ItemsCount)
+java.lang.String

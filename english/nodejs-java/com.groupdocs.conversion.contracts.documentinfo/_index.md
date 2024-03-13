@@ -22,6 +22,7 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [DjVuDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/djvudocumentinfo) | Contains DjVu document metadata |
 | [DocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/documentinfo) | Provides base implementation for retrieving polymorphic document information |
 | [EmailDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/emaildocumentinfo) | Contains Email document metadata |
+| [EmptyDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/emptydocumentinfo) | Empty Document Info |
 | [EpsDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/epsdocumentinfo) | Contains Ps document metadata |
 | [EpubDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/epubdocumentinfo) | Contains Epub document metadata |
 | [FontDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/fontdocumentinfo) | Contains Font document metadata |
@@ -30,6 +31,8 @@ The GroupDocs.Conversion.Contracts.Documentinfo namespace provides metadata for 
 | [JsonDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/jsondocumentinfo) | Contains Json document metadata |
 | [MarkdownDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo) | Contains Md document metadata |
 | [NoteDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/notedocumentinfo) | Contains Note document metadata |
+| [OlmDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/olmdocumentinfo) | Contains olm document metadata |
+| [OlmFolderInfo](../com.groupdocs.conversion.contracts.documentinfo/olmfolderinfo) | Olm Folder info |
 | [PasswordProtectedDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/passwordprotecteddocumentinfo) | Provided document is password protected |
 | [PclDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pcldocumentinfo) | Contains Pcl document metadata |
 | [PdfDocumentInfo](../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo) | Contains Pdf document metadata |

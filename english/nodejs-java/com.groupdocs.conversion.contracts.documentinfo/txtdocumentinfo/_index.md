@@ -3,7 +3,7 @@ title: TxtDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Txt document metadata
 type: docs
-weight: 41
+weight: 44
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/txtdocumentinfo/
 ---
 **Inheritance:**

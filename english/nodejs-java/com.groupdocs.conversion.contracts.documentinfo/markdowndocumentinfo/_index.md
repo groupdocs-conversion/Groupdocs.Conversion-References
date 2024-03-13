@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Md document metadata
 type: docs
-weight: 24
+weight: 25
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/markdowndocumentinfo/
 ---
 **Inheritance:**

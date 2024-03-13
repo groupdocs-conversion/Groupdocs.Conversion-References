@@ -15,7 +15,7 @@ java.io.Serializable
 public final class EmailFileType extends FileType implements Serializable
 ```
 
-Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). [Pst](../../com.groupdocs.conversion.filetypes/emailfiletype\#Pst). [Ost](../../com.groupdocs.conversion.filetypes/emailfiletype\#Ost). Learn more about Email formats [here][].
+Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). [Pst](../../com.groupdocs.conversion.filetypes/emailfiletype\#Pst). [Ost](../../com.groupdocs.conversion.filetypes/emailfiletype\#Ost). [Olm](../../com.groupdocs.conversion.filetypes/emailfiletype\#Olm). Learn more about Email formats [here][].
 
 
 [here]: https://wiki.fileformat.com/email
@@ -35,6 +35,7 @@ Defines Email file formats that are used by email applications to store their va
 | [Mbox](#Mbox) | MBox file format is a generic term that represents a container for collection of electronic mail messages. |
 | [Pst](#Pst) | Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. |
 | [Ost](#Ost) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. |
+| [Olm](#Olm) | A file with .olm extension is a Microsoft Outlook file for Mac Operating System. |
 ## Methods
 
 | Method | Description |
@@ -125,6 +126,17 @@ OST or Offline Storage Files represent user's mailbox data in offline mode on lo
 
 
 [here]: https://wiki.fileformat.com/email/ost
+
+### Olm {#Olm}
+```
+public static final EmailFileType Olm
+```
+
+
+A file with .olm extension is a Microsoft Outlook file for Mac Operating System. An OLM file stores email messages, journals, calendar data, and other types of application data. These are similar to PST files used by Outlook on Windows Operating System. However, OLM files created by Outlook for Mac can\\u2019t be opened in Outlook for Windows. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/email/olm
 
 ### getLoadOptions() {#getLoadOptions--}
 ```

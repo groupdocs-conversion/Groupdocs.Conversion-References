@@ -3,7 +3,7 @@ title: FontDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Font document metadata
 type: docs
-weight: 20
+weight: 21
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/fontdocumentinfo/
 ---
 **Inheritance:**

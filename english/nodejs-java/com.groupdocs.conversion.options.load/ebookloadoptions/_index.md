@@ -3,7 +3,7 @@ title: EBookLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading EBook documents.
 type: docs
-weight: 16
+weight: 17
 url: /nodejs-java/com.groupdocs.conversion.options.load/ebookloadoptions/
 ---
 **Inheritance:**

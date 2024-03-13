@@ -17,19 +17,23 @@ The GroupDocs.Conversion.Options.Load namespace provides classes to specify addi
 | [AudioLoadOptions](../com.groupdocs.conversion.options.load/audioloadoptions) |  |
 | [CadDrawTypeMode](../com.groupdocs.conversion.options.load/caddrawtypemode) | Represents possible modes for colorization of objects. |
 | [CadLoadOptions](../com.groupdocs.conversion.options.load/cadloadoptions) | Options for loading CAD documents. |
+| [CompressionLoadOptions](../com.groupdocs.conversion.options.load/compressionloadoptions) | Options for loading compression documents. |
 | [CsvLoadOptions](../com.groupdocs.conversion.options.load/csvloadoptions) | Options for loading Csv documents. |
 | [DatabaseLoadOptions](../com.groupdocs.conversion.options.load/databaseloadoptions) | Options for loading database documents. |
 | [DiagramLoadOptions](../com.groupdocs.conversion.options.load/diagramloadoptions) | Options for loading Diagram documents. |
 | [EBookLoadOptions](../com.groupdocs.conversion.options.load/ebookloadoptions) | Options for loading EBook documents. |
 | [EmailField](../com.groupdocs.conversion.options.load/emailfield) | Describes email fields enumeration |
 | [EmailLoadOptions](../com.groupdocs.conversion.options.load/emailloadoptions) | Options for loading Email documents. |
+| [EmptyLoadOptions](../com.groupdocs.conversion.options.load/emptyloadoptions) | Base class for load options |
 | [EpubLoadOptions](../com.groupdocs.conversion.options.load/epubloadoptions) | Options for loading Epub documents. |
 | [FontLoadOptions](../com.groupdocs.conversion.options.load/fontloadoptions) | Options for loading Font documents. |
 | [ImageLoadOptions](../com.groupdocs.conversion.options.load/imageloadoptions) | Options for loading Image documents. |
+| [ImageRecognitionLanguage](../com.groupdocs.conversion.options.load/imagerecognitionlanguage) | Image Recognition Language |
 | [LoadOptions](../com.groupdocs.conversion.options.load/loadoptions) | Abstract document load options class. |
 | [MboxLoadOptions](../com.groupdocs.conversion.options.load/mboxloadoptions) | Options for loading Mbox documents. |
 | [NoteLoadOptions](../com.groupdocs.conversion.options.load/noteloadoptions) | Options for loading One documents. |
 | [NsfLoadOptions](../com.groupdocs.conversion.options.load/nsfloadoptions) | Options for loading Nsf documents. |
+| [OlmLoadOptions](../com.groupdocs.conversion.options.load/olmloadoptions) | Options for loading Olm documents. |
 | [PageDescriptionLanguageLoadOptions](../com.groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
 | [PdfLoadOptions](../com.groupdocs.conversion.options.load/pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](../com.groupdocs.conversion.options.load/personalstorageloadoptions) | Options for loading personal storage documents. |
