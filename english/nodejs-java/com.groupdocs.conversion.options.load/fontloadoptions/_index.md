@@ -3,7 +3,7 @@ title: FontLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Font documents.
 type: docs
-weight: 20
+weight: 22
 url: /nodejs-java/com.groupdocs.conversion.options.load/fontloadoptions/
 ---
 **Inheritance:**

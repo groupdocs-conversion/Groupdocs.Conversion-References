@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Wordprocessing document metadata
 type: docs
-weight: 45
+weight: 48
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/wordprocessingdocumentinfo/
 ---
 **Inheritance:**

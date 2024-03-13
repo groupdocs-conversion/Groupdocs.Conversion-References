@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Abstract document load options class.
 type: docs
-weight: 22
+weight: 25
 url: /nodejs-java/com.groupdocs.conversion.options.load/loadoptions/
 ---
 **Inheritance:**

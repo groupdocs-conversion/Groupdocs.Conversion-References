@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 13
+weight: 14
 url: /nodejs-java/com.groupdocs.conversion.options.load/csvloadoptions/
 ---
 **Inheritance:**

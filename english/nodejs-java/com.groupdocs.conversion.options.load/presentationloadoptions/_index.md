@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 29
+weight: 33
 url: /nodejs-java/com.groupdocs.conversion.options.load/presentationloadoptions/
 ---
 **Inheritance:**

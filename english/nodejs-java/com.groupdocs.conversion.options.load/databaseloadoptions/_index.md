@@ -3,7 +3,7 @@ title: DatabaseLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading database documents.
 type: docs
-weight: 14
+weight: 15
 url: /nodejs-java/com.groupdocs.conversion.options.load/databaseloadoptions/
 ---
 **Inheritance:**

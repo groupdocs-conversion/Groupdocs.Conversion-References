@@ -3,7 +3,7 @@ title: PsdDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Psd document metadata
 type: docs
-weight: 34
+weight: 37
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/psddocumentinfo/
 ---
 **Inheritance:**

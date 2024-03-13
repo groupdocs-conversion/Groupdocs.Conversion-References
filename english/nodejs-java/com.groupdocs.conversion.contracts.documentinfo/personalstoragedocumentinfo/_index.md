@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains personal storage document metadata
 type: docs
-weight: 29
+weight: 32
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/personalstoragedocumentinfo/
 ---
 **Inheritance:**

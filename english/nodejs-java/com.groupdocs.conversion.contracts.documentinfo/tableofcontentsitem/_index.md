@@ -3,7 +3,7 @@ title: TableOfContentsItem
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Table of contents item metadata
 type: docs
-weight: 38
+weight: 41
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/tableofcontentsitem/
 ---
 **Inheritance:**

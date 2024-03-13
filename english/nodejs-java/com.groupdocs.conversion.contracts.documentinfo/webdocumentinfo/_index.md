@@ -3,7 +3,7 @@ title: WebDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Web document metadata
 type: docs
-weight: 44
+weight: 47
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/webdocumentinfo/
 ---
 **Inheritance:**

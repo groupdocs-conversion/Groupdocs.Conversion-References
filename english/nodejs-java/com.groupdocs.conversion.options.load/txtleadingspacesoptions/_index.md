@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes txt leading spaces options enumeration.
 type: docs
-weight: 33
+weight: 37
 url: /nodejs-java/com.groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 **Inheritance:**

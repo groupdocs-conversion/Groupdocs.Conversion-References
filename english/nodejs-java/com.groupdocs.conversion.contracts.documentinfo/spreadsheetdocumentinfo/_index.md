@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Spreadsheet document metadata
 type: docs
-weight: 36
+weight: 39
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/spreadsheetdocumentinfo/
 ---
 **Inheritance:**

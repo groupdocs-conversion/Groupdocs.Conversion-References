@@ -3,7 +3,7 @@ title: PdfDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Pdf document metadata
 type: docs
-weight: 28
+weight: 31
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo/
 ---
 **Inheritance:**

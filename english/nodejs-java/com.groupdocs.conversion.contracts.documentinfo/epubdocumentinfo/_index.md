@@ -3,7 +3,7 @@ title: EpubDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Epub document metadata
 type: docs
-weight: 19
+weight: 20
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/epubdocumentinfo/
 ---
 **Inheritance:**

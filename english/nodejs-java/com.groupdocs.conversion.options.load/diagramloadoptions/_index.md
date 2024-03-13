@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading Diagram documents.
 type: docs
-weight: 15
+weight: 16
 url: /nodejs-java/com.groupdocs.conversion.options.load/diagramloadoptions/
 ---
 **Inheritance:**

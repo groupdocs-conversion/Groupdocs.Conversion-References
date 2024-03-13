@@ -3,7 +3,7 @@ title: PclDocumentInfo
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Contains Pcl document metadata
 type: docs
-weight: 27
+weight: 30
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/pcldocumentinfo/
 ---
 **Inheritance:**

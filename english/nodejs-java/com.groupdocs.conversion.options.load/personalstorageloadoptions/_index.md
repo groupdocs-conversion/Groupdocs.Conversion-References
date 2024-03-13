@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading personal storage documents.
 type: docs
-weight: 28
+weight: 32
 url: /nodejs-java/com.groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 **Inheritance:**

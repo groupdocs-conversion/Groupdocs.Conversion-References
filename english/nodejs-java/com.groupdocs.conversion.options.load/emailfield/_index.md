@@ -3,7 +3,7 @@ title: EmailField
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Describes email fields enumeration
 type: docs
-weight: 17
+weight: 18
 url: /nodejs-java/com.groupdocs.conversion.options.load/emailfield/
 ---
 **Inheritance:**

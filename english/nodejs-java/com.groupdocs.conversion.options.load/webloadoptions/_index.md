@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for Node.js via Java API Reference
 description: Options for loading web documents.
 type: docs
-weight: 38
+weight: 42
 url: /nodejs-java/com.groupdocs.conversion.options.load/webloadoptions/
 ---
 **Inheritance:**
