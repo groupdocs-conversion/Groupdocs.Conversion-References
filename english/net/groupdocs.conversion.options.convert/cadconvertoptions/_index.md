@@ -3,7 +3,7 @@ title: CadConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Cad type.
 type: docs
-weight: 1370
+weight: 1380
 url: /net/groupdocs.conversion.options.convert/cadconvertoptions/
 ---
 ## CadConvertOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.convert/cadconvertoptions/
 Options for conversion to Cad type.
 
 ```csharp
-public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptions
+public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptions, 
+    IPageSizeConvertOptions
 ```
 
 ## Constructors
@@ -26,8 +27,11 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
+| [PageHeight](../../groupdocs.conversion.options.convert/cadconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
 | [PageNumber](../../groupdocs.conversion.options.convert/cadconvertoptions/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [PagesCount](../../groupdocs.conversion.options.convert/cadconvertoptions/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
+| [PageSize](../../groupdocs.conversion.options.convert/cadconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
+| [PageWidth](../../groupdocs.conversion.options.convert/cadconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
 
 ## Methods
 
@@ -43,6 +47,7 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 * class [ConvertOptions&lt;TFileType&gt;](../convertoptions-1)
 * class [CadFileType](../../groupdocs.conversion.filetypes/cadfiletype)
 * interface [IPagedConvertOptions](../ipagedconvertoptions)
+* interface [IPageSizeConvertOptions](../ipagesizeconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Conversion for .NET API Reference
 description: String representation of personal storage folder info
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.conversion.contracts/personalstoragefolderinfo/tostring/
 ---
 ## PersonalStorageFolderInfo.ToString method

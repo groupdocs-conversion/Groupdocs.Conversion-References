@@ -3,7 +3,7 @@ title: ItemsCount
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Count of the items in the folder
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.conversion.contracts/personalstoragefolderinfo/itemscount/
 ---
 ## PersonalStorageFolderInfo.ItemsCount property
