@@ -18,8 +18,10 @@ public sealed class PersonalStorageFolderInfo : ValueObject
 
 | Name | Description |
 | --- | --- |
+| [Items](../../groupdocs.conversion.contracts/personalstoragefolderinfo/items) { get; } | Items in the folder |
 | [ItemsCount](../../groupdocs.conversion.contracts/personalstoragefolderinfo/itemscount) { get; } | Count of the items in the folder |
 | [Name](../../groupdocs.conversion.contracts/personalstoragefolderinfo/name) { get; } | Name of the folder |
+| [SubFolders](../../groupdocs.conversion.contracts/personalstoragefolderinfo/subfolders) { get; } | Sub Folders |
 
 ## Methods
 

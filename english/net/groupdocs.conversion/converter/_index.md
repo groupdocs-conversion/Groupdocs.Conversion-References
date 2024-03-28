@@ -3,7 +3,7 @@ title: Converter
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents main class that controls document conversion process.
 type: docs
-weight: 670
+weight: 680
 url: /net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -53,7 +53,8 @@ public sealed class Converter : IDisposable
 | [Convert](../../groupdocs.conversion/converter/convert#convert_1)(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, ConvertOptions) | Converts source document. Saves the whole converted document. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;Stream&gt;, Action&lt;string, FileType, Stream&gt;, Func&lt;string, FileType, ConvertOptions&gt;) | Converts source document. Saves the whole converted document. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Releases resources. |
-| [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo)() | Gets source document info - pages count and other document properties specific to the file type. |
+| [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo#getdocumentinfo)() | Gets source document info - pages count and other document properties specific to the file type. |
+| [GetDocumentInfo&lt;T&gt;](../../groupdocs.conversion/converter/getdocumentinfo#getdocumentinfo_1)() | Gets source document info - pages count and other document properties specific to the file type. |
 | [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)() | Gets possible conversions for the source document. |
 | [IsDocumentPasswordProtected](../../groupdocs.conversion/converter/isdocumentpasswordprotected)() | Checks is source document is password protected |
 | static [GetAllPossibleConversions](../../groupdocs.conversion/converter/getallpossibleconversions)() | Gets all supported conversions |

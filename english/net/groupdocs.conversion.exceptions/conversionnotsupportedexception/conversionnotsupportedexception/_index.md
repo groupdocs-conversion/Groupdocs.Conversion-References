@@ -1,50 +1,12 @@
 ---
 title: ConversionNotSupportedException
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Default constructor
+description: Creates an exception instance with a message
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.exceptions/conversionnotsupportedexception/conversionnotsupportedexception/
 ---
-## ConversionNotSupportedException() {#constructor}
-
-Default constructor
-
-```csharp
-public ConversionNotSupportedException()
-```
-
-### See Also
-
-* class [ConversionNotSupportedException](../../conversionnotsupportedexception)
-* namespace [GroupDocs.Conversion.Exceptions](../../conversionnotsupportedexception)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## ConversionNotSupportedException(FileType, FileType) {#constructor_1}
-
-Creates an exception instance with a source FileType and a target Filetype
-
-```csharp
-public ConversionNotSupportedException(FileType source, FileType target)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | FileType | The source file type |
-| target | FileType | The target file type |
-
-### See Also
-
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
-* class [ConversionNotSupportedException](../../conversionnotsupportedexception)
-* namespace [GroupDocs.Conversion.Exceptions](../../conversionnotsupportedexception)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## ConversionNotSupportedException(string) {#constructor_2}
+## ConversionNotSupportedException constructor
 
 Creates an exception instance with a message
 

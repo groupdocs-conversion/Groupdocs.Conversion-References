@@ -1,14 +1,14 @@
 ---
 title: ImageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines image documents. Includes the following file types Ai./imagefiletype/ai Bmp./imagefiletype/bmp Cdr./imagefiletype/cdr Cmx./imagefiletype/cmx Dcm./imagefiletype/dcm Dib./imagefiletype/dib DjVu./imagefiletype/djvu Dng./imagefiletype/dng Emf./imagefiletype/emf Emz./imagefiletype/emz Gif./imagefiletype/gif Ico./imagefiletype/ico J2c./imagefiletype/j2c J2k./imagefiletype/j2k Jls./imagefiletype/jls Jp2./imagefiletype/jp2 Jpc./imagefiletype/jpc Jpeg./imagefiletype/jpeg Jpf./imagefiletype/jpf Jpg./imagefiletype/jpg Jpm./imagefiletype/jpm Jpx./imagefiletype/jpx Odg./imagefiletype/odg Png./imagefiletype/png Psd./imagefiletype/psd Svgz./imagefiletype/svgz Tif./imagefiletype/tif Tiff./imagefiletype/tiff Webp./imagefiletype/webp Wmf./imagefiletype/wmf. Wmz./imagefiletype/wmz. Learn more about Image formats herehttps//wiki.fileformat.com/image.
+description: Defines image documents. Includes the following file types Ai./imagefiletype/ai Bmp./imagefiletype/bmp Cdr./imagefiletype/cdr Cmx./imagefiletype/cmx Dcm./imagefiletype/dcm Dib./imagefiletype/dib DjVu./imagefiletype/djvu Dng./imagefiletype/dng Emf./imagefiletype/emf Emz./imagefiletype/emz Gif./imagefiletype/gif Ico./imagefiletype/ico J2c./imagefiletype/j2c J2k./imagefiletype/j2k Jls./imagefiletype/jls Jp2./imagefiletype/jp2 Jpc./imagefiletype/jpc Jfif./imagefiletype/jfif. Jpeg./imagefiletype/jpeg Jpf./imagefiletype/jpf Jpg./imagefiletype/jpg Jpm./imagefiletype/jpm Jpx./imagefiletype/jpx Odg./imagefiletype/odg Png./imagefiletype/png Psd./imagefiletype/psd Svgz./imagefiletype/svgz Tif./imagefiletype/tif Tiff./imagefiletype/tiff Webp./imagefiletype/webp Wmf./imagefiletype/wmf. Wmz./imagefiletype/wmz. Learn more about Image formats herehttps//wiki.fileformat.com/image.
 type: docs
-weight: 900
+weight: 910
 url: /net/groupdocs.conversion.filetypes/imagefiletype/
 ---
 ## ImageFileType class
 
-Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), [`Gif`](./gif), [`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
+Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), [`Gif`](./gif), [`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jfif`](./jfif). [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
 
 ```csharp
 public sealed class ImageFileType : FileType
@@ -59,6 +59,7 @@ public sealed class ImageFileType : FileType
 | static readonly [Ico](../../groupdocs.conversion.filetypes/imagefiletype/ico) | Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format [here](https://wiki.fileformat.com/image/ico). |
 | static readonly [J2c](../../groupdocs.conversion.filetypes/imagefiletype/j2c) | J2c document format |
 | static readonly [J2k](../../groupdocs.conversion.filetypes/imagefiletype/j2k) | J2K file is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format [here](https://wiki.fileformat.com/image/j2k). |
+| static readonly [Jfif](../../groupdocs.conversion.filetypes/imagefiletype/jfif) | JFIF (JPEG File Interchange Format (JFIF)) is an image format file that uses the .jfif extension. JFIF builds over JIF (JPEG Interchange Format) by reducing complexity and solving its limitations. Learn more about this file format [here](https://docs.fileformat.com/image/jfif/). |
 | static readonly [Jls](../../groupdocs.conversion.filetypes/imagefiletype/jls) | Jls document format |
 | static readonly [Jp2](../../groupdocs.conversion.filetypes/imagefiletype/jp2) | JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Learn more about this file format [here](https://wiki.fileformat.com/image/jp2). |
 | static readonly [Jpc](../../groupdocs.conversion.filetypes/imagefiletype/jpc) | Jpc document format |

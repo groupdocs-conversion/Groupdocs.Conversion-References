@@ -3,7 +3,7 @@ title: Svgz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: An SVGZ file is actually a compressed version of a SVG file. This allows for easier distribution of the file online. When an SVG file is compressed using the .GZIP compression algorithm it is then given the .svgz file extension.
 type: docs
-weight: 310
+weight: 320
 url: /net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 ---
 ## ImageFileType.Svgz field

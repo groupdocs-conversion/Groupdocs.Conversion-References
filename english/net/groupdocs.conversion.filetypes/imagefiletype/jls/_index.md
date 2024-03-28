@@ -3,7 +3,7 @@ title: Jls
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Jls document format
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.conversion.filetypes/imagefiletype/jls/
 ---
 ## ImageFileType.Jls field

@@ -3,7 +3,7 @@ title: Name
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Name of the folder
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.contracts/personalstoragefolderinfo/name/
 ---
 ## PersonalStorageFolderInfo.Name property
