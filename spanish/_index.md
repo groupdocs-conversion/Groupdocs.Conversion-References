@@ -20,6 +20,7 @@ API .NET nativa para convertir con precisión documentos y formatos de archivo d
 Estos son enlaces a algunos recursos útiles:
 
 - [Referencia de API de GroupDocs.Conversion para .NET](/conversion/es/net/)
+- [Tutoriales de API de GroupDocs.Conversion para .NET](/tutorials/conversion/es/net/)
 
 
 ## GroupDocs.Conversión para Java

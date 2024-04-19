@@ -20,6 +20,7 @@ url: /ru/
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по API GroupDocs.Conversion для .NET](/conversion/ru/net/)
+- [Учебные пособия по GroupDocs.Conversion для .NET API](/tutorials/conversion/ru/net/)
 
 
 ## GroupDocs.Conversion для Java

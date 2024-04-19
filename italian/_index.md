@@ -20,6 +20,7 @@ API .NET nativa per convertire accuratamente documenti e formati di file immagin
 Questi sono i link ad alcune risorse utili:
 
 - [Riferimento API GroupDocs.Conversion per .NET](/conversion/it/net/)
+- [GroupDocs.Conversion per esercitazioni sull'API .NET](/tutorials/conversion/it/net/)
 
 
 ## GroupDocs.Conversion per Java

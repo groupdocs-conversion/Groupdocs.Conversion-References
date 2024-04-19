@@ -20,6 +20,7 @@ Native .NET API för att exakt konvertera dokument och bildfilformat i alla type
 Det här är länkar till några användbara resurser:
 
 - [GroupDocs.Conversion for .NET API Referens](/conversion/sv/net/)
+- [Guider för GroupDocs.Conversion för .NET API](/tutorials/conversion/sv/net/)
 
 
 ## GroupDocs.Conversion för Java

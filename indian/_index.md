@@ -20,6 +20,7 @@ url: /hi/
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 
 - [.NET API संदर्भ के लिए GroupDocs.Conversion](/conversion/hi/net/)
+- [.NET एपीआई ट्यूटोरियल के लिए GroupDocs.Conversion](/tutorials/conversion/hi/net/)
 
 
 ## Java के लिए GroupDocs.Conversion

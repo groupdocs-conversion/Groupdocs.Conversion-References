@@ -20,6 +20,7 @@ NET API الأصلي لتحويل المستندات وتنسيقات ملفات
 هذه روابط لبعض المصادر المفيدة:
 
 - [GroupDocs.Conversion لمرجع .NET API](/conversion/ar/net/)
+- [GroupDocs.Conversion لبرامج .NET API التعليمية](/tutorials/conversion/ar/net/)
 
 
 ## GroupDocs.Conversion لجافا

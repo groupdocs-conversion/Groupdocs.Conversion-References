@@ -20,6 +20,7 @@ Native .NET API για ακριβή μετατροπή εγγράφων και �
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 
 - [GroupDocs.Conversion για Αναφορά API .NET](/conversion/el/net/)
+- [GroupDocs.Conversion for .NET API Tutorials](/tutorials/conversion/el/net/)
 
 
 ## GroupDocs.Conversion για Java

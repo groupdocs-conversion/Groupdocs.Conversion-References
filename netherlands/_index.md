@@ -20,6 +20,7 @@ Native .NET API om documenten en afbeeldingsbestandsindelingen nauwkeurig te con
 Dit zijn links naar enkele nuttige bronnen:
 
 - [GroupDocs.Conversion voor .NET API-referentie](/conversion/nl/net/)
+- [GroupDocs.Conversion voor .NET API-zelfstudies](/tutorials/conversion/nl/net/)
 
 
 ## GroupDocs.Conversie voor Java

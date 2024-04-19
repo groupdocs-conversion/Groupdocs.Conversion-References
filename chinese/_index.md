@@ -20,6 +20,7 @@ url: /zh/
 这些是一些有用资源的链接：
 
 - [GroupDocs.Conversion for .NET API 参考](/conversion/zh/net/)
+- [.NET API 教程的 GroupDocs.Conversion](/tutorials/conversion/zh/net/)
 
 
 ## GroupDocs.Conversion for Java

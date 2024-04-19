@@ -20,6 +20,7 @@ API .NET native pour convertir avec précision les documents et les formats de f
 Voici des liens vers des ressources utiles :
 
 - [Référence de l'API GroupDocs.Conversion pour .NET](/conversion/fr/net/)
+- [Didacticiels GroupDocs.Conversion pour l'API .NET](/tutorials/conversion/fr/net/)
 
 
 ## GroupDocs.Conversion pour Java
