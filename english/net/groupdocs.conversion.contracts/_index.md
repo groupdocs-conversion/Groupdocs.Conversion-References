@@ -48,7 +48,6 @@ The namespace provides members to instantiate and release output document, manag
 | [PossibleConversions](./possibleconversions) | Represents a mapping what conversion pairs are supported for specific source file format |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Contains Presentation document metadata |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
-| [PsdDocumentInfo](./psddocumentinfo) | Contains Psd document metadata |
 | [PsDocumentInfo](./psdocumentinfo) | Contains Ps document metadata |
 | [PublisherDocumentInfo](./publisherdocumentinfo) | Contains Publisher document metadata |
 | [RarDocumentInfo](./rardocumentinfo) | Contains Rar document metadata |

@@ -34,7 +34,7 @@ public Converter(Func<Stream> document)
 ### See Also
 
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
@@ -63,7 +63,7 @@ public Converter(Func<Stream> document, Func<ConverterSettings> settings)
 
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
@@ -92,7 +92,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions)
 
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
@@ -124,7 +124,7 @@ public Converter(Func<Stream> document, Func<LoadOptions> loadOptions,
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
@@ -154,7 +154,7 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions)
 * class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
@@ -187,12 +187,45 @@ public Converter(Func<Stream> document, Func<FileType, LoadOptions> loadOptions,
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string) {#constructor_6}
+## Converter(Func&lt;Stream&gt;, Func&lt;string, FileType, Stream, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_6}
+
+Initializes new instance of [`Converter`](../../converter) class.
+
+```csharp
+public Converter(Func<Stream> document, Func<string, FileType, Stream, LoadOptions> loadOptions, 
+    Func<ConverterSettings> settings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | Func`1 | The method that returns readable stream. |
+| loadOptions | Func`4 | Provide load options for the document currently being loading The name of the source fileThe type of the source fileThe content of the source file |
+| settings | Func`1 | The Converter settings. |
+
+### Remarks
+
+**Learn more**
+
+* More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third-party storage: [Loading document from different sources](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* More about document loading options dependent on file type: [Load options for different document types](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+
+### See Also
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
+* class [ConverterSettings](../../convertersettings)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(string) {#constructor_7}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -214,12 +247,12 @@ public Converter(string filePath)
 ### See Also
 
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_7}
+## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_8}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -243,12 +276,12 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string, Func&lt;LoadOptions&gt;) {#constructor_8}
+## Converter(string, Func&lt;LoadOptions&gt;) {#constructor_9}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -272,12 +305,12 @@ public Converter(string filePath, Func<LoadOptions> loadOptions)
 
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_9}
+## Converter(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_10}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -303,12 +336,12 @@ public Converter(string filePath, Func<LoadOptions> loadOptions, Func<ConverterS
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string, Func&lt;FileType, LoadOptions&gt;) {#constructor_10}
+## Converter(string, Func&lt;FileType, LoadOptions&gt;) {#constructor_11}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -333,12 +366,12 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions)
 * class [FileType](../../../groupdocs.conversion.filetypes/filetype)
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 ---
 
-## Converter(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_11}
+## Converter(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_12}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -366,7 +399,40 @@ public Converter(string filePath, Func<FileType, LoadOptions> loadOptions,
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
 * class [Converter](../../converter)
-* namespace [GroupDocs.Conversion](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(string, Func&lt;string, FileType, Stream, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_13}
+
+Initializes new instance of [`Converter`](../../converter) class.
+
+```csharp
+public Converter(string filePath, Func<string, FileType, Stream, LoadOptions> loadOptions, 
+    Func<ConverterSettings> settings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | The file path to the source document. |
+| loadOptions | Func`4 | Provide load options for the document currently being loading The name of the source fileThe type of the source fileThe content of the source file |
+| settings | Func`1 | The Converter settings. |
+
+### Remarks
+
+**Learn more**
+
+* More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third-party storage: [Loading document from different sources](https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources)
+* More about document loading options dependent on file type: [Load options for different document types](https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types)
+
+### See Also
+
+* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
+* class [ConverterSettings](../../convertersettings)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.conversion.dll -->

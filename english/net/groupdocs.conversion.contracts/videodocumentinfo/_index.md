@@ -3,7 +3,7 @@ title: VideoDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Video document metadata
 type: docs
-weight: 580
+weight: 570
 url: /net/groupdocs.conversion.contracts/videodocumentinfo/
 ---
 ## VideoDocumentInfo class

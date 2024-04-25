@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Spreadsheet file type.
 type: docs
-weight: 1850
+weight: 1840
 url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions class

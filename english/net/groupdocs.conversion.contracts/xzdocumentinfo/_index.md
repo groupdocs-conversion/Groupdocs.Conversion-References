@@ -3,7 +3,7 @@ title: XzDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Xz document metadata
 type: docs
-weight: 650
+weight: 640
 url: /net/groupdocs.conversion.contracts/xzdocumentinfo/
 ---
 ## XzDocumentInfo class
