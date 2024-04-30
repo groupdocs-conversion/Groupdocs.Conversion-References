@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 Options for loading WordProcessing documents.
 
 ```csharp
-public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
+public class WordProcessingLoadOptions : LoadOptions, IPageNumberingLoadOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -34,6 +35,7 @@ public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
 | [HideComments](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Keep original value of date field. Default: false |
+| [PageNumbering](../../groupdocs.conversion.options.load/wordprocessingloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveDocumentStructure](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
@@ -54,6 +56,7 @@ public class WordProcessingLoadOptions : LoadOptions, IResourceLoadingOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

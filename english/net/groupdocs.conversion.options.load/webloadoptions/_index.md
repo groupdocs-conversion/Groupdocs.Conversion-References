@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/webloadoptions/
 Options for loading web documents.
 
 ```csharp
-public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
+public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -25,6 +25,8 @@ public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
 | Name | Description |
 | --- | --- |
 | [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
+| [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Action for configuration of the request headers. First parameter of the action is the Uri. |
+| [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Credentials provider for the Uri. |
 | [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
 | [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
@@ -45,6 +47,7 @@ public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

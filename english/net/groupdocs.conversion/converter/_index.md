@@ -3,7 +3,7 @@ title: Converter
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents main class that controls document conversion process.
 type: docs
-weight: 680
+weight: 670
 url: /net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -19,17 +19,19 @@ public sealed class Converter : IDisposable
 | Name | Description |
 | --- | --- |
 | [Converter](converter#constructor)(Func&lt;Stream&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_6)(string) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_7)(string) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_1)(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_4)(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_2)(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_7)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_10)(string, Func&lt;FileType, LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_8)(string, Func&lt;LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_8)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_11)(string, Func&lt;FileType, LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_9)(string, Func&lt;LoadOptions&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_5)(Func&lt;Stream&gt;, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_3)(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_11)(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_9)(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_6)(Func&lt;Stream&gt;, Func&lt;string, FileType, Stream, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_12)(string, Func&lt;FileType, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_10)(string, Func&lt;LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_13)(string, Func&lt;string, FileType, Stream, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 
 ## Methods
 
