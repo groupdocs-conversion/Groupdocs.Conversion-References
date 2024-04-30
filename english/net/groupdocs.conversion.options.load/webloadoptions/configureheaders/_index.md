@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/webloadoptions/configureheaders/
 Action for configuration of the request headers. First parameter of the action is the Uri.
 
 ```csharp
-public Action<string, KeysCollection> ConfigureHeaders { get; set; }
+public Action<string, NameValueCollection> ConfigureHeaders { get; set; }
 ```
 
 ### See Also
