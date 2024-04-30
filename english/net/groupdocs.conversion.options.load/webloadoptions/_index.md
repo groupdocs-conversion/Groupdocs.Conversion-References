@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2300
+weight: 2310
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/webloadoptions/
 Options for loading web documents.
 
 ```csharp
-public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
+public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -47,6 +47,7 @@ public class WebLoadOptions : LoadOptions, IResourceLoadingOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

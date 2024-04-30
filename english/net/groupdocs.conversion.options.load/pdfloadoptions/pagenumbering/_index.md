@@ -1,17 +1,17 @@
 ---
-title: RemoveEmbeddedFiles
+title: PageNumbering
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Remove embedded files.
+description: Enable or disable generation of page numbering in converted document. Default false
 type: docs
-weight: 90
-url: /net/groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles/
+weight: 70
+url: /net/groupdocs.conversion.options.load/pdfloadoptions/pagenumbering/
 ---
-## PdfLoadOptions.RemoveEmbeddedFiles property
+## PdfLoadOptions.PageNumbering property
 
-Remove embedded files.
+Enable or disable generation of page numbering in converted document. Default: false
 
 ```csharp
-public bool RemoveEmbeddedFiles { get; set; }
+public bool PageNumbering { get; set; }
 ```
 
 ### See Also

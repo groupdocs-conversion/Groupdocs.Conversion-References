@@ -3,7 +3,7 @@ title: UpdateFields
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Update fields after loading. Default false
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields/
 ---
 ## WordProcessingLoadOptions.UpdateFields property

@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2180
+weight: 2190
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 Options for loading Pdf documents.
 
 ```csharp
-public sealed class PdfLoadOptions : LoadOptions
+public sealed class PdfLoadOptions : LoadOptions, IPageNumberingLoadOptions
 ```
 
 ## Constructors
@@ -30,6 +30,7 @@ public sealed class PdfLoadOptions : LoadOptions
 | [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Hide annotations in Pdf documents. |
+| [PageNumbering](../../groupdocs.conversion.options.load/pdfloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | Remove embedded files. |
 
@@ -44,6 +45,7 @@ public sealed class PdfLoadOptions : LoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

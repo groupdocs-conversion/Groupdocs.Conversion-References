@@ -1,17 +1,17 @@
 ---
-title: Zoom
+title: Separator
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Specifies the zoom level in percentage. Default is 100.
+description: Specifies the separator to be used when convert to a delimited formats
 type: docs
-weight: 50
-url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/
+weight: 40
+url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/separator/
 ---
-## SpreadsheetConvertOptions.Zoom property
+## SpreadsheetConvertOptions.Separator property
 
-Specifies the zoom level in percentage. Default is 100.
+Specifies the separator to be used when convert to a delimited formats
 
 ```csharp
-public int Zoom { get; set; }
+public char Separator { get; set; }
 ```
 
 ### See Also
