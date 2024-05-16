@@ -3,7 +3,7 @@ title: KeepDateFieldOriginalValue
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Keep original value of date field. Default false
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue/
 ---
 ## WordProcessingLoadOptions.KeepDateFieldOriginalValue property

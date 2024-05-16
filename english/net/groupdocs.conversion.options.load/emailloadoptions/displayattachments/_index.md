@@ -1,17 +1,17 @@
 ---
-title: DisplayEmailAddress
+title: DisplayAttachments
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to display or hide email address. Default true.
+description: Option to display or hide attachments in the header. Default true.
 type: docs
-weight: 70
-url: /net/groupdocs.conversion.options.load/emailloadoptions/displayemailaddress/
+weight: 50
+url: /net/groupdocs.conversion.options.load/emailloadoptions/displayattachments/
 ---
-## EmailLoadOptions.DisplayEmailAddress property
+## EmailLoadOptions.DisplayAttachments property
 
-Option to display or hide email address. Default: true.
+Option to display or hide attachments in the header. Default: true.
 
 ```csharp
-public bool DisplayEmailAddress { get; set; }
+public bool DisplayAttachments { get; set; }
 ```
 
 ### See Also
