@@ -3,7 +3,7 @@ title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Substitute specific fonts when converting spreadsheet document.
 type: docs
-weight: 80
+weight: 120
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes/
 ---
 ## SpreadsheetLoadOptions.FontSubstitutes property

@@ -3,7 +3,7 @@ title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default font for Words document. The following font will be used if a font is missing.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont/
 ---
 ## WordProcessingLoadOptions.DefaultFont property

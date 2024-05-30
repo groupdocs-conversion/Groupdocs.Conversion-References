@@ -3,7 +3,7 @@ title: EmbedTrueTypeFonts
 second_title: GroupDocs.Conversion for .NET API Reference
 description: If EmbedTrueTypeFonts is true GroupDocs.Conversion embed true type fonts in the output document. Default false
 type: docs
-weight: 50
+weight: 80
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts/
 ---
 ## WordProcessingLoadOptions.EmbedTrueTypeFonts property
