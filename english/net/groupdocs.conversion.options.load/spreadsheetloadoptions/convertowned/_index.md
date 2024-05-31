@@ -1,14 +1,14 @@
 ---
 title: ConvertOwned
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Implements ConvertOwnedgroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned Default is true
+description: Implements ConvertOwnedgroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned Default is false
 type: docs
 weight: 60
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/convertowned/
 ---
 ## SpreadsheetLoadOptions.ConvertOwned property
 
-Implements [`ConvertOwned`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is true
+Implements [`ConvertOwned`](../../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false
 
 ```csharp
 public bool ConvertOwned { get; set; }
