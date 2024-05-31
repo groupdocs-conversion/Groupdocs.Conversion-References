@@ -3,7 +3,7 @@ title: ShowHiddenSlides
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Show hidden slides.
 type: docs
-weight: 70
+weight: 100
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides/
 ---
 ## PresentationLoadOptions.ShowHiddenSlides property

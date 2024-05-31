@@ -3,7 +3,7 @@ title: WebConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Web file type.
 type: docs
-weight: 1920
+weight: 1930
 url: /net/groupdocs.conversion.options.convert/webconvertoptions/
 ---
 ## WebConvertOptions class
@@ -24,6 +24,7 @@ public class WebConvertOptions : CommonConvertOptions<WebFileType>
 
 | Name | Description |
 | --- | --- |
+| [EmbedFontResources](../../groupdocs.conversion.options.convert/webconvertoptions/embedfontresources) { get; set; } | Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded. |
 | [FixedLayout](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayout) { get; set; } | If `true` fixed layout will be used e.g. absolutely positioned html elements Default: true |
 | [FixedLayoutShowBorders](../../groupdocs.conversion.options.convert/webconvertoptions/fixedlayoutshowborders) { get; set; } | Show page borders when converting to fixed layout. Default is True. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |

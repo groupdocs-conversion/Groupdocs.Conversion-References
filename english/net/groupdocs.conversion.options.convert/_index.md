@@ -30,6 +30,7 @@ The namespace provides classes to specify additional options for document conver
 | [JpegOptions](./jpegoptions) | Options for conversion to Jpeg file type. |
 | [JpgColorModes](./jpgcolormodes) | Describes Jpg color modes enumeration. |
 | [JpgCompressionMethods](./jpgcompressionmethods) | Describes Jpg compression modes |
+| [MarkdownOptions](./markdownoptions) | Options for conversion to markdown file type. |
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
 | [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
 | [PageOrientation](./pageorientation) | Specifies page orientation |

@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 2210
+weight: 2230
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 Options for loading Presentation documents.
 
 ```csharp
-public class PresentationLoadOptions : LoadOptions, IResourceLoadingOptions
+public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -24,7 +25,10 @@ public class PresentationLoadOptions : LoadOptions, IResourceLoadingOptions
 
 | Name | Description |
 | --- | --- |
+| [ConvertOwned](../../groupdocs.conversion.options.load/presentationloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
+| [ConvertOwner](../../groupdocs.conversion.options.load/presentationloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/presentationloadoptions/defaultfont) { get; set; } | Default font for rendering the presentation. The following font will be used if a presentation font is missing. |
+| [Depth](../../groupdocs.conversion.options.load/presentationloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/presentationloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Presentation document. |
 | [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
@@ -45,6 +49,7 @@ public class PresentationLoadOptions : LoadOptions, IResourceLoadingOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

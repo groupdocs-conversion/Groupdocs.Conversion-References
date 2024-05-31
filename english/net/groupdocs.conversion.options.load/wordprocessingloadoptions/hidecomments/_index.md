@@ -3,7 +3,7 @@ title: HideComments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Hide comments.
 type: docs
-weight: 80
+weight: 110
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments/
 ---
 ## WordProcessingLoadOptions.HideComments property
