@@ -1,14 +1,14 @@
 ---
 title: EmbedFontResources
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Embed all resources inside the main HTML when FixedLayouttrue. Default is false.
+description: Specifies whether to embed font resources within the main HTML. Default is false. Note If FixedLayout is set to true font resources will always be embedded.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.convert/webconvertoptions/embedfontresources/
 ---
 ## WebConvertOptions.EmbedFontResources property
 
-Embed all resources inside the main HTML when FixedLayout=true. Default is false.
+Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded.
 
 ```csharp
 public bool EmbedFontResources { get; set; }
