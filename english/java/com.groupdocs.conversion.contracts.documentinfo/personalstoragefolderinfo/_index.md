@@ -7,9 +7,9 @@ weight: 30
 url: /java/com.groupdocs.conversion.contracts.documentinfo/personalstoragefolderinfo/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject)
 ```
-public class PersonalStorageFolderInfo
+public class PersonalStorageFolderInfo extends ValueObject
 ```
 
 Personal Storage Folder info
@@ -17,17 +17,24 @@ Personal Storage Folder info
 
 | Constructor | Description |
 | --- | --- |
-| [PersonalStorageFolderInfo(String name, int count)](#PersonalStorageFolderInfo-java.lang.String-int-) |  |
+| [PersonalStorageFolderInfo(String name, List<PersonalStorageItemInfo> items)](#PersonalStorageFolderInfo-java.lang.String-java.util.List-com.groupdocs.conversion.contracts.documentinfo.PersonalStorageItemInfo--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [items](#items) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Name of the folder |
 | [getItemsCount()](#getItemsCount--) | Count of the items in the folder |
+| [getSubFolders()](#getSubFolders--) |  |
+| [getItems()](#getItems--) |  |
 | [toString()](#toString--) | String representation of personal storage folder info |
-### PersonalStorageFolderInfo(String name, int count) {#PersonalStorageFolderInfo-java.lang.String-int-}
+### PersonalStorageFolderInfo(String name, List<PersonalStorageItemInfo> items) {#PersonalStorageFolderInfo-java.lang.String-java.util.List-com.groupdocs.conversion.contracts.documentinfo.PersonalStorageItemInfo--}
 ```
-public PersonalStorageFolderInfo(String name, int count)
+public PersonalStorageFolderInfo(String name, List<PersonalStorageItemInfo> items)
 ```
 
 
@@ -35,7 +42,13 @@ public PersonalStorageFolderInfo(String name, int count)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String |  |
-| count | int |  |
+| items | java.util.List<com.groupdocs.conversion.contracts.documentinfo.PersonalStorageItemInfo> |  |
+
+### items {#items}
+```
+public List<PersonalStorageItemInfo> items
+```
+
 
 ### getName() {#getName--}
 ```
@@ -57,6 +70,26 @@ Count of the items in the folder
 
 **Returns:**
 int
+### getSubFolders() {#getSubFolders--}
+```
+public List<PersonalStorageFolderInfo> getSubFolders()
+```
+
+
+
+
+**Returns:**
+java.util.List<com.groupdocs.conversion.contracts.documentinfo.PersonalStorageFolderInfo>
+### getItems() {#getItems--}
+```
+public List<PersonalStorageItemInfo> getItems()
+```
+
+
+
+
+**Returns:**
+java.util.List<com.groupdocs.conversion.contracts.documentinfo.PersonalStorageItemInfo>
 ### toString() {#toString--}
 ```
 public String toString()

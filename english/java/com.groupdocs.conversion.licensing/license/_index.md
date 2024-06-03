@@ -28,6 +28,7 @@ Provides methods to license the component. Learn more about licensing  [here][] 
 
 | Method | Description |
 | --- | --- |
+| [isLicensed()](#isLicensed--) | Returns true if a valid license has been applied; false if the component is running in evaluation mode. |
 | [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) |  |
 | [setLicense(System.IO.Stream licenseStream)](#setLicense-com.aspose.ms.System.IO.Stream-) | Licenses the component. |
 | [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component. |
@@ -38,6 +39,16 @@ public License()
 ```
 
 
+### isLicensed() {#isLicensed--}
+```
+public boolean isLicensed()
+```
+
+
+Returns true if a valid license has been applied; false if the component is running in evaluation mode.
+
+**Returns:**
+boolean
 ### setLicense(InputStream licenseStream) {#setLicense-java.io.InputStream-}
 ```
 public final void setLicense(InputStream licenseStream)
