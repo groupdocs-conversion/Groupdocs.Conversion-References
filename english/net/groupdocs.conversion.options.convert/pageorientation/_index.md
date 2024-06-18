@@ -34,6 +34,7 @@ public sealed class PageOrientation : Enumeration
 
 | Name | Description |
 | --- | --- |
+| static [Default](../../groupdocs.conversion.options.convert/pageorientation/default) | Default page orientation e.g. as is in source document |
 | static [Landscape](../../groupdocs.conversion.options.convert/pageorientation/landscape) | Landscape page orientation (wide and short). |
 | static [Portrait](../../groupdocs.conversion.options.convert/pageorientation/portrait) | Portrait page orientation (narrow and tall). |
 

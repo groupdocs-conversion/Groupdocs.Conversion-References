@@ -1,17 +1,17 @@
 ---
-title: LayoutNames
+title: DrawColor
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Specifies which CAD layouts to be converted
+description: Gets or sets foreground color.
 type: docs
-weight: 70
-url: /net/groupdocs.conversion.options.load/cadloadoptions/layoutnames/
+weight: 40
+url: /net/groupdocs.conversion.options.load/cadloadoptions/drawcolor/
 ---
-## CadLoadOptions.LayoutNames property
+## CadLoadOptions.DrawColor property
 
-Specifies which CAD layouts to be converted
+Gets or sets foreground color.
 
 ```csharp
-public string[] LayoutNames { get; set; }
+public Color DrawColor { get; set; }
 ```
 
 ### See Also

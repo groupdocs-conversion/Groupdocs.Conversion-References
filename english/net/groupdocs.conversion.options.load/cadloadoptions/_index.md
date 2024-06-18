@@ -26,6 +26,7 @@ public sealed class CadLoadOptions : LoadOptions
 | --- | --- |
 | [BackgroundColor](../../groupdocs.conversion.options.load/cadloadoptions/backgroundcolor) { get; set; } | Gets or sets a background color. |
 | [CtbSources](../../groupdocs.conversion.options.load/cadloadoptions/ctbsources) { get; set; } | Gets or sets the CTB sources. |
+| [DrawColor](../../groupdocs.conversion.options.load/cadloadoptions/drawcolor) { get; set; } | Gets or sets foreground color. |
 | [DrawType](../../groupdocs.conversion.options.load/cadloadoptions/drawtype) { get; set; } | Gets or sets type of drawing. |
 | [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Input document file type |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |

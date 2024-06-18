@@ -1,17 +1,17 @@
 ---
-title: Landscape
+title: Default
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Landscape page orientation wide and short.
+description: Default page orientation e.g. as is in source document
 type: docs
-weight: 30
-url: /net/groupdocs.conversion.options.convert/pageorientation/landscape/
+weight: 20
+url: /net/groupdocs.conversion.options.convert/pageorientation/default/
 ---
-## PageOrientation.Landscape field
+## PageOrientation.Default field
 
-Landscape page orientation (wide and short).
+Default page orientation e.g. as is in source document
 
 ```csharp
-public static PageOrientation Landscape;
+public static PageOrientation Default;
 ```
 
 ### See Also
