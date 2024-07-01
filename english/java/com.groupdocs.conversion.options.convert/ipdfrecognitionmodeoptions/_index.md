@@ -3,7 +3,7 @@ title: IPdfRecognitionModeOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that control recognition mode when converting from PDF
 type: docs
-weight: 55
+weight: 56
 url: /java/com.groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/
 ---
 **All Implemented Interfaces:**

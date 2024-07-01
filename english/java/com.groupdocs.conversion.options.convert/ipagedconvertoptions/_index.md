@@ -3,7 +3,7 @@ title: IPagedConvertOptions
 second_title: GroupDocs.Conversion for Java API Reference
 description: Represents convert options that allows conversion to perform page limitation by specifying start page and pages count
 type: docs
-weight: 54
+weight: 55
 url: /java/com.groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 **All Implemented Interfaces:**
