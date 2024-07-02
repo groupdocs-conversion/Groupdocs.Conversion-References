@@ -62,6 +62,7 @@ The GroupDocs.Conversion.Options.Convert namespace provides classes to specify a
 | [IPageMarginConvertOptions](../com.groupdocs.conversion.options.convert/ipagemarginconvertoptions) | Represents convert options that support page margins |
 | [IPageOrientationConvertOptions](../com.groupdocs.conversion.options.convert/ipageorientationconvertoptions) | Represents convert options that support page orientation |
 | [IPageRangedConvertOptions](../com.groupdocs.conversion.options.convert/ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
+| [IPageSize](../com.groupdocs.conversion.options.convert/ipagesize) |  |
 | [IPageSizeConvertOptions](../com.groupdocs.conversion.options.convert/ipagesizeconvertoptions) | Represents convert options that support page size |
 | [IPagedConvertOptions](../com.groupdocs.conversion.options.convert/ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |
 | [IPdfRecognitionModeOptions](../com.groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions) | Represents convert options that control recognition mode when converting from PDF |
