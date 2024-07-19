@@ -8,8 +8,11 @@ url: /nodejs-java/com.groupdocs.conversion.options.convert/pagesize/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
+
+**All Implemented Interfaces:**
+[com.groupdocs.conversion.options.convert.IPageSize](../../com.groupdocs.conversion.options.convert/ipagesize)
 ```
-public enum PageSize extends Enum<PageSize>
+public enum PageSize extends Enum<PageSize> implements IPageSize
 ```
 ## Fields
 
@@ -38,6 +41,7 @@ public enum PageSize extends Enum<PageSize>
 | --- | --- |
 | [values()](#values--) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [createCustom(float width, float height)](#createCustom-float-float-) |  |
 | [getKey()](#getKey--) |  |
 | [getName()](#getName--) |  |
 | [getWidth()](#getWidth--) |  |
@@ -169,6 +173,22 @@ public static PageSize valueOf(String name)
 
 **Returns:**
 [PageSize](../../com.groupdocs.conversion.options.convert/pagesize)
+### createCustom(float width, float height) {#createCustom-float-float-}
+```
+public static PageSize.PageSizeCustom createCustom(float width, float height)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | float |  |
+| height | float |  |
+
+**Returns:**
+[PageSizeCustom](../../com.groupdocs.conversion.options.convert/pagesizecustom)
 ### getKey() {#getKey--}
 ```
 public String getKey()

@@ -27,6 +27,10 @@ Options for conversion to EBook file type.
 | --- | --- |
 | [getPageSize()](#getPageSize--) |  |
 | [setPageSize(PageSize pageSize)](#setPageSize-com.groupdocs.conversion.options.convert.PageSize-) |  |
+| [getPageWidth()](#getPageWidth--) |  |
+| [setPageWidth(float pageWidth)](#setPageWidth-float-) |  |
+| [getPageHeight()](#getPageHeight--) |  |
+| [setPageHeight(float pageHeight)](#setPageHeight-float-) |  |
 | [getPageOrientation()](#getPageOrientation--) |  |
 | [setPageOrientation(PageOrientation pageOrientation)](#setPageOrientation-com.groupdocs.conversion.options.convert.PageOrientation-) |  |
 ### EBookConvertOptions() {#EBookConvertOptions--}
@@ -59,6 +63,52 @@ Set desired page size after conversion
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageSize | [PageSize](../../com.groupdocs.conversion.options.convert/pagesize) |  |
+
+### getPageWidth() {#getPageWidth--}
+```
+public float getPageWidth()
+```
+
+
+Specified page width in points if  is set to PageSize.Custom
+
+**Returns:**
+float
+### setPageWidth(float pageWidth) {#setPageWidth-float-}
+```
+public void setPageWidth(float pageWidth)
+```
+
+
+Set desired page width
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageWidth | float |  |
+
+### getPageHeight() {#getPageHeight--}
+```
+public float getPageHeight()
+```
+
+
+Specified page height in points if  is set to PageSize.Custom
+
+**Returns:**
+float
+### setPageHeight(float pageHeight) {#setPageHeight-float-}
+```
+public void setPageHeight(float pageHeight)
+```
+
+
+Set desired page height
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageHeight | float |  |
 
 ### getPageOrientation() {#getPageOrientation--}
 ```

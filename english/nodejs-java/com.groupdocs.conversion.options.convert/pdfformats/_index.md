@@ -41,6 +41,7 @@ Describes Pdf formats enumeration.
 | [v1_7](#v1-7) | PDF version 1.7. |
 | [PdfX_1A](#PdfX-1A) | PDF/X-1a conformance. |
 | [PdfX_3](#PdfX-3) | PDF/X-3 conformance. |
+| [PdfUA_1](#PdfUA-1) | PDF/UA-1 conformance. |
 ### PdfFormats() {#PdfFormats--}
 ```
 public PdfFormats()
@@ -176,4 +177,12 @@ public static final PdfFormats PdfX_3
 
 
 PDF/X-3 conformance.
+
+### PdfUA_1 {#PdfUA-1}
+```
+public static final PdfFormats PdfUA_1
+```
+
+
+PDF/UA-1 conformance.
 
