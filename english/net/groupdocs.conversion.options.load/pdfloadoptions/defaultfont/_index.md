@@ -3,7 +3,7 @@ title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default font for Pdf document. The following font will be used if a font is missing.
 type: docs
-weight: 20
+weight: 40
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/defaultfont/
 ---
 ## PdfLoadOptions.DefaultFont property

@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 Options for loading Pdf documents.
 
 ```csharp
-public sealed class PdfLoadOptions : LoadOptions, IPageNumberingLoadOptions
+public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
+    IPageNumberingLoadOptions
 ```
 
 ## Constructors
@@ -24,7 +25,10 @@ public sealed class PdfLoadOptions : LoadOptions, IPageNumberingLoadOptions
 
 | Name | Description |
 | --- | --- |
+| [ConvertOwned](../../groupdocs.conversion.options.load/pdfloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
+| [ConvertOwner](../../groupdocs.conversion.options.load/pdfloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Default font for Pdf document. The following font will be used if a font is missing. |
+| [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
 | [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | Input document file type. |
@@ -46,6 +50,7 @@ public sealed class PdfLoadOptions : LoadOptions, IPageNumberingLoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

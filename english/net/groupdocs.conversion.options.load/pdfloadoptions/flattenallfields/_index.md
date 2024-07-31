@@ -3,7 +3,7 @@ title: FlattenAllFields
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Flatten all the fields of the PDF form.
 type: docs
-weight: 30
+weight: 60
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/flattenallfields/
 ---
 ## PdfLoadOptions.FlattenAllFields property
