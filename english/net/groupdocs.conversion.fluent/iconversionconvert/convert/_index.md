@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.fluent/iconversionconvert/convert/
 Execute conversion chain
 
 ```csharp
-public void Convert()
+public void Convert(CancellationToken cancellationToken = default)
 ```
 
 ### See Also

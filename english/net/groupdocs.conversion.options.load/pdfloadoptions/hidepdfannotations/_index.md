@@ -3,7 +3,7 @@ title: HidePdfAnnotations
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Hide annotations in Pdf documents.
 type: docs
-weight: 60
+weight: 90
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations/
 ---
 ## PdfLoadOptions.HidePdfAnnotations property

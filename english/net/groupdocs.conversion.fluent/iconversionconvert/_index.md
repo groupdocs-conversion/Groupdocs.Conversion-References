@@ -18,7 +18,7 @@ public interface IConversionConvert
 
 | Name | Description |
 | --- | --- |
-| [Convert](../../groupdocs.conversion.fluent/iconversionconvert/convert)() | Execute conversion chain |
+| [Convert](../../groupdocs.conversion.fluent/iconversionconvert/convert)(CancellationToken) | Execute conversion chain |
 
 ### See Also
 
