@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/margint
 Desired page top margin in points after conversion.
 
 ```csharp
-public float MarginTop { get; set; }
+public float? MarginTop { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: PsDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Ps document metadata
 type: docs
-weight: 420
+weight: 430
 url: /net/groupdocs.conversion.contracts/psdocumentinfo/
 ---
 ## PsDocumentInfo class

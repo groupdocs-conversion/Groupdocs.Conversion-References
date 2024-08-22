@@ -33,6 +33,7 @@ The namespace provides members to instantiate and release output document, manag
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
 | [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contains iXbrl document metadata |
+| [IsoDocumentInfo](./isodocumentinfo) | Contains ISO document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
