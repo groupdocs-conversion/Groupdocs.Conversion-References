@@ -3,7 +3,7 @@ title: FontLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Font documents.
 type: docs
-weight: 2080
+weight: 2090
 url: /net/groupdocs.conversion.options.load/fontloadoptions/
 ---
 ## FontLoadOptions class

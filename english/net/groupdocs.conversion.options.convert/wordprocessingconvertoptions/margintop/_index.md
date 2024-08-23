@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marg
 Implements [`MarginTop`](../../ipagemarginconvertoptions/margintop)
 
 ```csharp
-public float MarginTop { get; set; }
+public float? MarginTop { get; set; }
 ```
 
 ### See Also

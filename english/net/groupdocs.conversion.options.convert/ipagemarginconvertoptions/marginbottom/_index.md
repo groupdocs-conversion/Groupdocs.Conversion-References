@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginb
 Desired page bottom margin in points after conversion.
 
 ```csharp
-public float MarginBottom { get; set; }
+public float? MarginBottom { get; set; }
 ```
 
 ### See Also

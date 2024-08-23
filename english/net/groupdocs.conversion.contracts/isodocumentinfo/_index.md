@@ -1,17 +1,17 @@
 ---
-title: NoteDocumentInfo
+title: IsoDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Contains Note document metadata
+description: Contains ISO document metadata
 type: docs
-weight: 310
-url: /net/groupdocs.conversion.contracts/notedocumentinfo/
+weight: 270
+url: /net/groupdocs.conversion.contracts/isodocumentinfo/
 ---
-## NoteDocumentInfo class
+## IsoDocumentInfo class
 
-Contains Note document metadata
+Contains ISO document metadata
 
 ```csharp
-public class NoteDocumentInfo : DocumentInfo
+public class IsoDocumentInfo : DocumentInfo
 ```
 
 ## Properties
@@ -24,7 +24,6 @@ public class NoteDocumentInfo : DocumentInfo
 | [PagesCount](../../groupdocs.conversion.contracts/documentinfo/pagescount) { get; } | Implements [`PagesCount`](../idocumentinfo/pagescount) |
 | [PropertyNames](../../groupdocs.conversion.contracts/documentinfo/propertynames) { get; } | Implements [`PropertyNames`](../idocumentinfo/propertynames) |
 | [Size](../../groupdocs.conversion.contracts/documentinfo/size) { get; } | Implements [`Size`](../idocumentinfo/size) |
-| [Title](../../groupdocs.conversion.contracts/notedocumentinfo/title) { get; } | Gets title |
 
 ### See Also
 

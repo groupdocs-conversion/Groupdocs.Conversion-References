@@ -3,7 +3,7 @@ title: ImageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines image documents. Includes the following file types Ai./imagefiletype/ai Bmp./imagefiletype/bmp Cdr./imagefiletype/cdr Cmx./imagefiletype/cmx Dcm./imagefiletype/dcm Dib./imagefiletype/dib DjVu./imagefiletype/djvu Dng./imagefiletype/dng Emf./imagefiletype/emf Emz./imagefiletype/emz Gif./imagefiletype/gif Ico./imagefiletype/ico J2c./imagefiletype/j2c J2k./imagefiletype/j2k Jls./imagefiletype/jls Jp2./imagefiletype/jp2 Jpc./imagefiletype/jpc Jfif./imagefiletype/jfif. Jpeg./imagefiletype/jpeg Jpf./imagefiletype/jpf Jpg./imagefiletype/jpg Jpm./imagefiletype/jpm Jpx./imagefiletype/jpx Odg./imagefiletype/odg Png./imagefiletype/png Psd./imagefiletype/psd Svgz./imagefiletype/svgz Tif./imagefiletype/tif Tiff./imagefiletype/tiff Webp./imagefiletype/webp Wmf./imagefiletype/wmf. Wmz./imagefiletype/wmz. Learn more about Image formats herehttps//wiki.fileformat.com/image.
 type: docs
-weight: 900
+weight: 910
 url: /net/groupdocs.conversion.filetypes/imagefiletype/
 ---
 ## ImageFileType class

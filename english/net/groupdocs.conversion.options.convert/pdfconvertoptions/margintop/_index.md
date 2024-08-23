@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/margintop/
 Implements [`MarginTop`](../../ipagemarginconvertoptions/margintop)
 
 ```csharp
-public float MarginTop { get; set; }
+public float? MarginTop { get; set; }
 ```
 
 ### See Also

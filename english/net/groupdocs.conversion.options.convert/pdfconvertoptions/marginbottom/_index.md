@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom/
 Implements [`MarginBottom`](../../ipagemarginconvertoptions/marginbottom)
 
 ```csharp
-public float MarginBottom { get; set; }
+public float? MarginBottom { get; set; }
 ```
 
 ### See Also

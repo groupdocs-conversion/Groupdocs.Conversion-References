@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/ipagemarginconvertoptions/marginr
 Desired page right margin in points after conversion.
 
 ```csharp
-public float MarginRight { get; set; }
+public float? MarginRight { get; set; }
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginright/
 Implements [`MarginRight`](../../ipagemarginconvertoptions/marginright)
 
 ```csharp
-public float MarginRight { get; set; }
+public float? MarginRight { get; set; }
 ```
 
 ### See Also
