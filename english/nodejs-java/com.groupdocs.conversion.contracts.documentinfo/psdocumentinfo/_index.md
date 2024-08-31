@@ -7,9 +7,9 @@ weight: 36
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/psdocumentinfo/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.PdfDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo)
+java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)
 ```
-public class PsDocumentInfo extends PdfDocumentInfo
+public class PsDocumentInfo extends DocumentInfo
 ```
 
 Contains Ps document metadata

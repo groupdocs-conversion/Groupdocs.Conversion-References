@@ -7,9 +7,9 @@ weight: 30
 url: /nodejs-java/com.groupdocs.conversion.contracts.documentinfo/pcldocumentinfo/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo), [com.groupdocs.conversion.contracts.documentinfo.PdfDocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/pdfdocumentinfo)
+java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)
 ```
-public class PclDocumentInfo extends PdfDocumentInfo
+public class PclDocumentInfo extends DocumentInfo
 ```
 
 Contains Pcl document metadata
