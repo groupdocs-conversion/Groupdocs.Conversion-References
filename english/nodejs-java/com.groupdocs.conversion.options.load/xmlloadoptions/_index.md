@@ -25,8 +25,10 @@ Options for loading XML documents.
 
 | Method | Description |
 | --- | --- |
-| [getXslFoFactory()](#getXslFoFactory--) | XSL document stream to convert XML-FO using XSL. |
+| [getXslFoFactory()](#getXslFoFactory--) | XSL-FO document stream to convert XML-FO using XSL. |
 | [setXslFoFactory(Supplier<System.IO.Stream> value)](#setXslFoFactory-java.util.function.Supplier-com.aspose.ms.System.IO.Stream--) | XSL document stream to convert XML-FO using XSL. |
+| [getXsltFactory()](#getXsltFactory--) | get XSLT document stream to convert XML performing XSL transformation to HTML. |
+| [setXsltFactory(Supplier<System.IO.Stream> value)](#setXsltFactory-java.util.function.Supplier-com.aspose.ms.System.IO.Stream--) | set XSLT document stream to convert XML performing XSL transformation to HTML. |
 | [isUseAsDataSource()](#isUseAsDataSource--) | Use Xml document as data source |
 | [setUseAsDataSource(boolean useAsDataSource)](#setUseAsDataSource-boolean-) | Set use Xml document as data source |
 ### XmlLoadOptions() {#XmlLoadOptions--}
@@ -43,7 +45,7 @@ public final Supplier<System.IO.Stream> getXslFoFactory()
 ```
 
 
-XSL document stream to convert XML-FO using XSL.
+XSL-FO document stream to convert XML-FO using XSL.
 
 **Returns:**
 java.util.function.Supplier<com.aspose.ms.System.IO.Stream>
@@ -54,6 +56,29 @@ public final void setXslFoFactory(Supplier<System.IO.Stream> value)
 
 
 XSL document stream to convert XML-FO using XSL.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.function.Supplier<com.aspose.ms.System.IO.Stream> |  |
+
+### getXsltFactory() {#getXsltFactory--}
+```
+public final Supplier<System.IO.Stream> getXsltFactory()
+```
+
+
+get XSLT document stream to convert XML performing XSL transformation to HTML.
+
+**Returns:**
+java.util.function.Supplier<com.aspose.ms.System.IO.Stream>
+### setXsltFactory(Supplier<System.IO.Stream> value) {#setXsltFactory-java.util.function.Supplier-com.aspose.ms.System.IO.Stream--}
+```
+public final void setXsltFactory(Supplier<System.IO.Stream> value)
+```
+
+
+set XSLT document stream to convert XML performing XSL transformation to HTML.
 
 **Parameters:**
 | Parameter | Type | Description |
