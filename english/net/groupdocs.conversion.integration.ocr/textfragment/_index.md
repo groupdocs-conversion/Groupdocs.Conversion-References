@@ -3,7 +3,7 @@ title: TextFragment
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents a part of recognized text word symbol etc extracted by OCR engine.
 type: docs
-weight: 1300
+weight: 1360
 url: /net/groupdocs.conversion.integration.ocr/textfragment/
 ---
 ## TextFragment class

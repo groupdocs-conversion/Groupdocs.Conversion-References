@@ -3,7 +3,7 @@ title: RemoveEmbeddedFiles
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Remove embedded files.
 type: docs
-weight: 120
+weight: 140
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles/
 ---
 ## PdfLoadOptions.RemoveEmbeddedFiles property

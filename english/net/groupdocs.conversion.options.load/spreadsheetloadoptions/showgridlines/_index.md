@@ -3,7 +3,7 @@ title: ShowGridLines
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Show grid lines when converting Excel files.
 type: docs
-weight: 210
+weight: 230
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines/
 ---
 ## SpreadsheetLoadOptions.ShowGridLines property

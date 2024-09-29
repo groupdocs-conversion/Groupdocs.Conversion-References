@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2360
+weight: 2460
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -12,7 +12,7 @@ Options for loading WordProcessing documents.
 
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IPageNumberingLoadOptions, IResourceLoadingOptions
+    IMetadataLoadOptions, IPageNumberingLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -27,6 +27,8 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | --- | --- |
 | [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled, GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True. |
 | [BookmarkOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/bookmarkoptions) { get; set; } | Bookmarks options |
+| [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
+| [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Default font for Words document. The following font will be used if a font is missing. |
@@ -61,6 +63,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)

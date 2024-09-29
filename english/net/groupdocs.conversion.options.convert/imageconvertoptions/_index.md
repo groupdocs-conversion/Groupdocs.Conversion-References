@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Image file type.
 type: docs
-weight: 1580
+weight: 1640
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class

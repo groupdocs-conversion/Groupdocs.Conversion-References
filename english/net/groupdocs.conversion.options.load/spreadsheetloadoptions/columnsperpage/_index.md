@@ -3,7 +3,7 @@ title: ColumnsPerPage
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Split a worksheet into pages by columns. Default is 0 no pagination.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/columnsperpage/
 ---
 ## SpreadsheetLoadOptions.ColumnsPerPage property

@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Image documents.
 type: docs
-weight: 2150
+weight: 2230
 url: /net/groupdocs.conversion.options.load/imageloadoptions/
 ---
 ## ImageLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/imageloadoptions/
 Options for loading Image documents.
 
 ```csharp
-public sealed class ImageLoadOptions : LoadOptions
+public sealed class ImageLoadOptions : BaseImageLoadOptions
 ```
 
 ## Constructors
@@ -24,7 +24,7 @@ public sealed class ImageLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/imageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
+| [DefaultFont](../../groupdocs.conversion.options.load/baseimageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
 | [Format](../../groupdocs.conversion.options.load/imageloadoptions/format) { get; set; } | Input document file type. |
 | [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
@@ -35,11 +35,10 @@ public sealed class ImageLoadOptions : LoadOptions
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determines whether two object instances are equal. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
-| [SetOcrConnector](../../groupdocs.conversion.options.load/imageloadoptions/setocrconnector)(IOcrConnector) | Set image OCR connector |
 
 ### See Also
 
-* class [LoadOptions](../loadoptions)
+* class [BaseImageLoadOptions](../baseimageloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -3,7 +3,7 @@ title: GroupDocs.Conversion.Logging
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The namespace provides classes for customizing logging behaviour.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.logging/
 ---
 The namespace provides classes for customizing logging behaviour.

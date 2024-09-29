@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set password to load protected document.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.load/compressionloadoptions/password/
 ---
 ## CompressionLoadOptions.Password property

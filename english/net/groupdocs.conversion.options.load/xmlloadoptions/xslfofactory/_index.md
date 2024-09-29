@@ -3,7 +3,7 @@ title: XslFoFactory
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XSLFO document stream to convert XML using XSLFO markup file.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/xslfofactory/
 ---
 ## XmlLoadOptions.XslFoFactory property

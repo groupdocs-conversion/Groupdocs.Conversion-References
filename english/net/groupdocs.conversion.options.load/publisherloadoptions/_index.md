@@ -3,7 +3,7 @@ title: PublisherLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Publisher documents.
 type: docs
-weight: 2250
+weight: 2330
 url: /net/groupdocs.conversion.options.load/publisherloadoptions/
 ---
 ## PublisherLoadOptions class
@@ -24,8 +24,7 @@ public class PublisherLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/publisherloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/publisherloadoptions/format) { get; } | Input document file type. (2 properties) |
 
 ## Methods
 

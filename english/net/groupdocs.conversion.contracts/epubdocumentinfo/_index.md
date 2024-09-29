@@ -3,7 +3,7 @@ title: EpubDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Epub document metadata
 type: docs
-weight: 170
+weight: 190
 url: /net/groupdocs.conversion.contracts/epubdocumentinfo/
 ---
 ## EpubDocumentInfo class

@@ -1,14 +1,14 @@
 ---
 title: CompressionFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines compression formats. Includes the following file types Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2. Lz./compressionfiletype/lz. Z./compressionfiletype/z. Xz./compressionfiletype/xz. Xz./compressionfiletype/xz. Cpio./compressionfiletype/cpio. Cab./compressionfiletype/cab. Lzma./compressionfiletype/lzma. Zst./compressionfiletype/zst. Learn more about compression formats herehttps//docs.fileformat.com/compression/.
+description: Defines compression formats. Includes the following file types Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2. Lz./compressionfiletype/lz. Z./compressionfiletype/z. Xz./compressionfiletype/xz. Xz./compressionfiletype/xz. Cpio./compressionfiletype/cpio. Cab./compressionfiletype/cab. Lzma./compressionfiletype/lzma. Zst./compressionfiletype/zst. Uue./compressionfiletype/uue. Learn more about compression formats herehttps//docs.fileformat.com/compression/.
 type: docs
-weight: 820
+weight: 870
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
 
-Defines compression formats. Includes the following file types: [`Zip`](./zip). [`Rar`](./rar). [`SevenZ`](./sevenz). [`Tar`](./tar). [`Gz`](./gz). [`Gzip`](./gzip). [`Bz2`](./bz2). [`Lz`](./lz). [`Z`](./z). [`Xz`](./xz). [`Xz`](./xz). [`Cpio`](./cpio). [`Cab`](./cab). [`Lzma`](./lzma). [`Zst`](./zst). Learn more about compression formats [here](https://docs.fileformat.com/compression/).
+Defines compression formats. Includes the following file types: [`Zip`](./zip). [`Rar`](./rar). [`SevenZ`](./sevenz). [`Tar`](./tar). [`Gz`](./gz). [`Gzip`](./gzip). [`Bz2`](./bz2). [`Lz`](./lz). [`Z`](./z). [`Xz`](./xz). [`Xz`](./xz). [`Cpio`](./cpio). [`Cab`](./cab). [`Lzma`](./lzma). [`Zst`](./zst). [`Uue`](./uue). Learn more about compression formats [here](https://docs.fileformat.com/compression/).
 
 ```csharp
 public sealed class CompressionFileType : FileType
@@ -54,6 +54,7 @@ public sealed class CompressionFileType : FileType
 | static readonly [Rar](../../groupdocs.conversion.filetypes/compressionfiletype/rar) | Files with .rar extension are archive files that are created for storing information in compressed or normal form. RAR, which stands for Roshal ARchive file format. Learn more about this file format [here](https://docs.fileformat.com/compression/rar/). |
 | static readonly [SevenZ](../../groupdocs.conversion.filetypes/compressionfiletype/sevenz) | 7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. Learn more about this file format [here](https://docs.fileformat.com/compression/7z/). |
 | static readonly [Tar](../../groupdocs.conversion.filetypes/compressionfiletype/tar) | Files with .tar extension are archives created with Unix-based utility for collecting one or more files. Multiple files are stored in an uncompressed format with the support of adding files as well as folders to the archive. Learn more about this file format [here](https://docs.fileformat.com/compression/tar/). |
+| static readonly [Uue](../../groupdocs.conversion.filetypes/compressionfiletype/uue) | A uuencoded archive is a file or collection of files that have been encoded using the Unix-to-Unix encoding scheme (uuencode). This encoding method converts binary data into a text format, which makes it easier to send files over channels that only support text, such as email. |
 | static readonly [Xz](../../groupdocs.conversion.filetypes/compressionfiletype/xz) | XZ is a compressed file format that utilizes the LZMA2 compression algorithm. It was designed as a replacement for the popular gzip and bzip2 formats, and offers a number of advantages over these older standards. Learn more about this file format [here](https://docs.fileformat.com/compression/xz/). |
 | static readonly [Z](../../groupdocs.conversion.filetypes/compressionfiletype/z) | A Z file is a category of files belonging to the UNIX Compressed data files. Compressed Unix files are the most popular and widely used extension type of the Z file. Learn more about this file format [here](https://docs.fileformat.com/compression/z/). |
 | static readonly [Zip](../../groupdocs.conversion.filetypes/compressionfiletype/zip) | A file with .zip extension is an archive that can hold one or more files or directories. The archive can have compression applied to the included files in order to reduce the ZIP file size. Learn more about this file format [here](https://docs.fileformat.com/compression/zip/). |

@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/publisherloadoptions/format/
 Input document file type.
 
 ```csharp
-public PublisherFileType Format { get; set; }
+public PublisherFileType Format { get; }
 ```
 
 ### See Also

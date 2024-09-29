@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 2240
+weight: 2320
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
@@ -12,7 +12,7 @@ Options for loading Presentation documents.
 
 ```csharp
 public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IResourceLoadingOptions
+    IMetadataLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -25,6 +25,8 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | Name | Description |
 | --- | --- |
+| [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/presentationloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
+| [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/presentationloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/presentationloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/presentationloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/presentationloadoptions/defaultfont) { get; set; } | Default font for rendering the presentation. The following font will be used if a presentation font is missing. |
@@ -50,6 +52,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

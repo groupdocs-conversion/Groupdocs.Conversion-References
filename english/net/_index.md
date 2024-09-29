@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Conversion for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "24.8"
+version: "24.9"
 ---
 
 ## Namespaces
@@ -19,6 +19,7 @@ version: "24.8"
 | [GroupDocs.Conversion.FileTypes](./groupdocs.conversion.filetypes) | The namespace provides classes which represent supported file types. |
 | [GroupDocs.Conversion.Fluent](./groupdocs.conversion.fluent) | The namespace provides interfaces for fluent conversion. |
 | [GroupDocs.Conversion.Integration.Audio](./groupdocs.conversion.integration.audio) | The namespace provides interfaces and classes, required for audio conversion support. |
+| [GroupDocs.Conversion.Integration.Heic](./groupdocs.conversion.integration.heic) | The namespace provides interfaces and classes, required for heic conversion support. |
 | [GroupDocs.Conversion.Integration.Ocr](./groupdocs.conversion.integration.ocr) | The namespace provides interfaces and classes, required for Optical Character Recognition (OCR) support. |
 | [GroupDocs.Conversion.Integration.Video](./groupdocs.conversion.integration.video) | The namespace provides interfaces and classes, required for video conversion support. |
 | [GroupDocs.Conversion.Logging](./groupdocs.conversion.logging) | The namespace provides classes for customizing logging behaviour. |

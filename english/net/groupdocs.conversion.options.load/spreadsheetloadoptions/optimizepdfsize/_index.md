@@ -3,7 +3,7 @@ title: OptimizePdfSize
 second_title: GroupDocs.Conversion for .NET API Reference
 description: If True and converting to Pdf the conversion is optimized for better file size than print quality.
 type: docs
-weight: 160
+weight: 180
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize/
 ---
 ## SpreadsheetLoadOptions.OptimizePdfSize property

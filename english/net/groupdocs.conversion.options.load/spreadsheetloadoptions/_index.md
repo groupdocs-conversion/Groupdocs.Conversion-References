@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 2260
+weight: 2350
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 Options for loading Spreadsheet documents.
 
 ```csharp
-public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
+public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
+    IMetadataLoadOptions
 ```
 
 ## Constructors
@@ -27,6 +28,8 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [AllColumnsInOnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/allcolumnsinonepagepersheet) { get; set; } | If AllColumnsInOnePagePerSheet is true, all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [AutoFitRows](../../groupdocs.conversion.options.load/spreadsheetloadoptions/autofitrows) { get; set; } | Autofits all rows when converting |
 | [CheckExcelRestriction](../../groupdocs.conversion.options.load/spreadsheetloadoptions/checkexcelrestriction) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
+| [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/spreadsheetloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
+| [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/spreadsheetloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [ColumnsPerPage](../../groupdocs.conversion.options.load/spreadsheetloadoptions/columnsperpage) { get; set; } | Split a worksheet into pages by columns. Default is 0, no pagination. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/spreadsheetloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/spreadsheetloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
@@ -61,6 +64,7 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IMetadataLoadOptions](../imetadataloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

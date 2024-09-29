@@ -13,6 +13,7 @@ The namespace provides members to instantiate and release output document, manag
 | Class | Description |
 | --- | --- |
 | [AudioDocumentInfo](./audiodocumentinfo) | Contains Audio document metadata |
+| [BitmapInfo](./bitmapinfo) | Object containing array of pixels and bitmap information. |
 | [Bzip2DocumentInfo](./bzip2documentinfo) | Contains Bzip2 document metadata |
 | [CabDocumentInfo](./cabdocumentinfo) | Contains Cab document metadata |
 | [CadDocumentInfo](./caddocumentinfo) | Contains Cad document metadata |
@@ -30,6 +31,7 @@ The namespace provides members to instantiate and release output document, manag
 | [FontSubstitute](./fontsubstitute) | Describes substitution for missing font. |
 | [GisDocumentInfo](./gisdocumentinfo) | Contains GIS document metadata |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contains Gzip document metadata |
+| [HeicDocumentInfo](./heicdocumentinfo) | Contains Heic document metadata |
 | [IcoDocumentInfo](./icodocumentinfo) | Contains Ico document metadata |
 | [ImageDocumentInfo](./imagedocumentinfo) | Contains Image document metadata |
 | [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contains iXbrl document metadata |
@@ -46,6 +48,7 @@ The namespace provides members to instantiate and release output document, manag
 | [PersonalStorageDocumentInfo](./personalstoragedocumentinfo) | Contains personal storage document metadata |
 | [PersonalStorageFolderInfo](./personalstoragefolderinfo) | Personal Storage Folder info |
 | [PersonalStorageItemInfo](./personalstorageiteminfo) | Personal Storage Item info |
+| [BitmapInfo.PixelFormat](./bitmapinfo.pixelformat) | Describes pixel format enumeration |
 | [PossibleConversions](./possibleconversions) | Represents a mapping what conversion pairs are supported for specific source file format |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Contains Presentation document metadata |
 | [ProjectManagementDocumentInfo](./projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
@@ -62,6 +65,7 @@ The namespace provides members to instantiate and release output document, manag
 | [ThreeDDocumentInfo](./threeddocumentinfo) | Contains 3D document metadata |
 | [TsvDocumentInfo](./tsvdocumentinfo) | Contains Tsv document metadata |
 | [TxtDocumentInfo](./txtdocumentinfo) | Contains Txt document metadata |
+| [UueDocumentInfo](./uuedocumentinfo) | Contains Uue document metadata |
 | [ValueObject](./valueobject) | Abstract value object class. |
 | [VcfDocumentInfo](./vcfdocumentinfo) | Contains Vcf document metadata |
 | [VideoDocumentInfo](./videodocumentinfo) | Contains Video document metadata |
@@ -74,6 +78,7 @@ The namespace provides members to instantiate and release output document, manag
 | [XzDocumentInfo](./xzdocumentinfo) | Contains Xz document metadata |
 | [ZDocumentInfo](./zdocumentinfo) | Contains Z document metadata |
 | [ZipDocumentInfo](./zipdocumentinfo) | Contains compression document metadata |
+| [ZstDocumentInfo](./zstdocumentinfo) | Contains Zst document metadata |
 ## Interfaces
 
 | Interface | Description |
