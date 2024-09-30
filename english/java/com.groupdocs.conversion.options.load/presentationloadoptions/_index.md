@@ -40,6 +40,8 @@ Options for loading Presentation documents.
 | [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
 | [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
 | [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
+| [getDocumentFontSources()](#getDocumentFontSources--) |  |
+| [setDocumentFontSources(List<String> documentFontSources)](#setDocumentFontSources-java.util.List-java.lang.String--) |  |
 ### PresentationLoadOptions() {#PresentationLoadOptions--}
 ```
 public PresentationLoadOptions()
@@ -218,4 +220,27 @@ public void setWhitelistedResources(List<String> whiteList)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | whiteList | java.util.List<java.lang.String> |  |
+
+### getDocumentFontSources() {#getDocumentFontSources--}
+```
+public List<String> getDocumentFontSources()
+```
+
+
+
+
+**Returns:**
+java.util.List<java.lang.String>
+### setDocumentFontSources(List<String> documentFontSources) {#setDocumentFontSources-java.util.List-java.lang.String--}
+```
+public void setDocumentFontSources(List<String> documentFontSources)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentFontSources | java.util.List<java.lang.String> |  |
 
