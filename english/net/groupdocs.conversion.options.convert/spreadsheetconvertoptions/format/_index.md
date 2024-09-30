@@ -3,7 +3,7 @@ title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The desired file type the input document should be converted to.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/format/
 ---
 ## SpreadsheetConvertOptions.Format property

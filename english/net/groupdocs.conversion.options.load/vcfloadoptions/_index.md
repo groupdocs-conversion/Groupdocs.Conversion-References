@@ -3,7 +3,7 @@ title: VcfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Vcf documents.
 type: docs
-weight: 2320
+weight: 2410
 url: /net/groupdocs.conversion.options.load/vcfloadoptions/
 ---
 ## VcfLoadOptions class
@@ -25,7 +25,7 @@ public sealed class VcfLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [Encoding](../../groupdocs.conversion.options.load/vcfloadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used when loading Vcf document. Default is Encoding.Default. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/vcfloadoptions/format) { get; } | Input document file type. (2 properties) |
 
 ## Methods
 

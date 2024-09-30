@@ -3,7 +3,7 @@ title: Bzip2DocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Bzip2 document metadata
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.conversion.contracts/bzip2documentinfo/
 ---
 ## Bzip2DocumentInfo class

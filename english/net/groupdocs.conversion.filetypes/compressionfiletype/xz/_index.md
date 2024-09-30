@@ -3,7 +3,7 @@ title: Xz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XZ is a compressed file format that utilizes the LZMA2 compression algorithm. It was designed as a replacement for the popular gzip and bzip2 formats and offers a number of advantages over these older standards. Learn more about this file format herehttps//docs.fileformat.com/compression/xz/.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/xz/
 ---
 ## CompressionFileType.Xz field

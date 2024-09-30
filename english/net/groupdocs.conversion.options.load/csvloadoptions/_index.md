@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 2010
+weight: 2080
 url: /net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class
@@ -27,6 +27,8 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [AllColumnsInOnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/allcolumnsinonepagepersheet) { get; set; } | If AllColumnsInOnePagePerSheet is true, all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [AutoFitRows](../../groupdocs.conversion.options.load/spreadsheetloadoptions/autofitrows) { get; set; } | Autofits all rows when converting |
 | [CheckExcelRestriction](../../groupdocs.conversion.options.load/spreadsheetloadoptions/checkexcelrestriction) { get; set; } | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
+| [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/spreadsheetloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
+| [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/spreadsheetloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [ColumnsPerPage](../../groupdocs.conversion.options.load/spreadsheetloadoptions/columnsperpage) { get; set; } | Split a worksheet into pages by columns. Default is 0, no pagination. |
 | [ConvertDateTimeData](../../groupdocs.conversion.options.load/csvloadoptions/convertdatetimedata) { get; set; } | Indicates whether the string in the file is converted to date. Default is True. |
 | [ConvertNumericData](../../groupdocs.conversion.options.load/csvloadoptions/convertnumericdata) { get; set; } | Indicates whether the string in the file is converted to numeric. Default is True. |
@@ -38,8 +40,7 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [Depth](../../groupdocs.conversion.options.load/spreadsheetloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [Encoding](../../groupdocs.conversion.options.load/csvloadoptions/encoding) { get; set; } | Encoding. Default is Encoding.Default. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting spreadsheet document. |
-| [Format](../../groupdocs.conversion.options.load/spreadsheetloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/csvloadoptions/format) { get; } | Input document file type. (2 properties) |
 | [HasFormula](../../groupdocs.conversion.options.load/csvloadoptions/hasformula) { get; set; } | Indicates whether text is formula if it starts with "=". |
 | [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [IsMultiEncoded](../../groupdocs.conversion.options.load/csvloadoptions/ismultiencoded) { get; set; } | True means the file contains several encodings. |

@@ -3,7 +3,7 @@ title: Enumeration
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Generic enumeration class.
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.conversion.contracts/enumeration/
 ---
 ## Enumeration class

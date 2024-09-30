@@ -3,7 +3,7 @@ title: HideComments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Hide comments.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments/
 ---
 ## SpreadsheetLoadOptions.HideComments property

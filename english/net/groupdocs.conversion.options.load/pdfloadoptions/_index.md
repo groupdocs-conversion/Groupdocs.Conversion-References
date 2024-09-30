@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2220
+weight: 2300
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -12,7 +12,7 @@ Options for loading Pdf documents.
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IPageNumberingLoadOptions
+    IMetadataLoadOptions, IPageNumberingLoadOptions
 ```
 
 ## Constructors
@@ -25,14 +25,15 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 | Name | Description |
 | --- | --- |
+| [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/pdfloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
+| [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/pdfloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/pdfloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/pdfloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Default font for Pdf document. The following font will be used if a font is missing. |
 | [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
-| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. (2 properties) |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Hide annotations in Pdf documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/pdfloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Set password to unprotect protected document. |
@@ -51,6 +52,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

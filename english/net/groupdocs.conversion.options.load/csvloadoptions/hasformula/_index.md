@@ -3,7 +3,7 @@ title: HasFormula
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Indicates whether text is formula if it starts with .
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.load/csvloadoptions/hasformula/
 ---
 ## CsvLoadOptions.HasFormula property

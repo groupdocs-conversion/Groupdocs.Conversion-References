@@ -3,10 +3,10 @@ title: SetOcrConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set image OCR connector
 type: docs
-weight: 40
-url: /net/groupdocs.conversion.options.load/imageloadoptions/setocrconnector/
+weight: 50
+url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/setocrconnector/
 ---
-## ImageLoadOptions.SetOcrConnector method
+## RasterImageLoadOptions.SetOcrConnector method
 
 Set image OCR connector
 
@@ -21,7 +21,7 @@ public void SetOcrConnector(IOcrConnector ocrConnector)
 ### See Also
 
 * interface [IOcrConnector](../../../groupdocs.conversion.integration.ocr/iocrconnector)
-* class [ImageLoadOptions](../../imageloadoptions)
+* class [RasterImageLoadOptions](../../rasterimageloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

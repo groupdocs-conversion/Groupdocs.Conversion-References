@@ -3,7 +3,7 @@ title: Depth
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements Depthgroupdocs.conversion.contracts/idocumentscontainerloadoptions/depth Default 1
 type: docs
-weight: 70
+weight: 90
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/depth/
 ---
 ## WordProcessingLoadOptions.Depth property

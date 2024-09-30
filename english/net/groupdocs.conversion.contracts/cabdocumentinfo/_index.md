@@ -3,7 +3,7 @@ title: CabDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Cab document metadata
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.conversion.contracts/cabdocumentinfo/
 ---
 ## CabDocumentInfo class

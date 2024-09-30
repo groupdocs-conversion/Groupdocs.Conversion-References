@@ -3,7 +3,7 @@ title: SheetIndexes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: List of sheet indexes to convert. The indexes must be zerobased
 type: docs
-weight: 190
+weight: 210
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes/
 ---
 ## SpreadsheetLoadOptions.SheetIndexes property

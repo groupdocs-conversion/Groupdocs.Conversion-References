@@ -3,7 +3,7 @@ title: Zst
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A ZST file is a compressed file that is generated with the Zstandard zstd compression algorithm. It is a compressed file that is created with lossless compression by the algorithm. Learn more about this file format herehttps//docs.fileformat.com/compression/zst/.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/zst/
 ---
 ## CompressionFileType.Zst field

@@ -3,7 +3,7 @@ title: IsMultiEncoded
 second_title: GroupDocs.Conversion for .NET API Reference
 description: True means the file contains several encodings.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion.options.load/csvloadoptions/ismultiencoded/
 ---
 ## CsvLoadOptions.IsMultiEncoded property

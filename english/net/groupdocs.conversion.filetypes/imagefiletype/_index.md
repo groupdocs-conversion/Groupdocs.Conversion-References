@@ -1,14 +1,14 @@
 ---
 title: ImageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines image documents. Includes the following file types Ai./imagefiletype/ai Bmp./imagefiletype/bmp Cdr./imagefiletype/cdr Cmx./imagefiletype/cmx Dcm./imagefiletype/dcm Dib./imagefiletype/dib DjVu./imagefiletype/djvu Dng./imagefiletype/dng Emf./imagefiletype/emf Emz./imagefiletype/emz Gif./imagefiletype/gif Ico./imagefiletype/ico J2c./imagefiletype/j2c J2k./imagefiletype/j2k Jls./imagefiletype/jls Jp2./imagefiletype/jp2 Jpc./imagefiletype/jpc Jfif./imagefiletype/jfif. Jpeg./imagefiletype/jpeg Jpf./imagefiletype/jpf Jpg./imagefiletype/jpg Jpm./imagefiletype/jpm Jpx./imagefiletype/jpx Odg./imagefiletype/odg Png./imagefiletype/png Psd./imagefiletype/psd Svgz./imagefiletype/svgz Tif./imagefiletype/tif Tiff./imagefiletype/tiff Webp./imagefiletype/webp Wmf./imagefiletype/wmf. Wmz./imagefiletype/wmz. Learn more about Image formats herehttps//wiki.fileformat.com/image.
+description: Defines image documents. Includes the following file types Ai./imagefiletype/ai Bmp./imagefiletype/bmp Cdr./imagefiletype/cdr Cmx./imagefiletype/cmx Dcm./imagefiletype/dcm Dib./imagefiletype/dib DjVu./imagefiletype/djvu Dng./imagefiletype/dng Emf./imagefiletype/emf Emz./imagefiletype/emz Gif./imagefiletype/gif Heic./imagefiletype/heicIco./imagefiletype/ico J2c./imagefiletype/j2c J2k./imagefiletype/j2k Jls./imagefiletype/jls Jp2./imagefiletype/jp2 Jpc./imagefiletype/jpc Jfif./imagefiletype/jfif. Jpeg./imagefiletype/jpeg Jpf./imagefiletype/jpf Jpg./imagefiletype/jpg Jpm./imagefiletype/jpm Jpx./imagefiletype/jpx Odg./imagefiletype/odg Png./imagefiletype/png Psd./imagefiletype/psd Svgz./imagefiletype/svgz Tif./imagefiletype/tif Tiff./imagefiletype/tiff Webp./imagefiletype/webp Wmf./imagefiletype/wmf. Wmz./imagefiletype/wmz. Learn more about Image formats herehttps//wiki.fileformat.com/image.
 type: docs
-weight: 910
+weight: 960
 url: /net/groupdocs.conversion.filetypes/imagefiletype/
 ---
 ## ImageFileType class
 
-Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), [`Gif`](./gif), [`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jfif`](./jfif). [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
+Defines image documents. Includes the following file types: [`Ai`](./ai), [`Bmp`](./bmp), [`Cdr`](./cdr), [`Cmx`](./cmx), [`Dcm`](./dcm), [`Dib`](./dib), [`DjVu`](./djvu), [`Dng`](./dng), [`Emf`](./emf), [`Emz`](./emz), [`Gif`](./gif), [`Heic`](./heic)[`Ico`](./ico), [`J2c`](./j2c), [`J2k`](./j2k), [`Jls`](./jls), [`Jp2`](./jp2), [`Jpc`](./jpc), [`Jfif`](./jfif). [`Jpeg`](./jpeg), [`Jpf`](./jpf), [`Jpg`](./jpg), [`Jpm`](./jpm), [`Jpx`](./jpx), [`Odg`](./odg), [`Png`](./png), [`Psd`](./psd), [`Svgz`](./svgz), [`Tif`](./tif), [`Tiff`](./tiff), [`Webp`](./webp), [`Wmf`](./wmf). [`Wmz`](./wmz). Learn more about Image formats [here](https://wiki.fileformat.com/image).
 
 ```csharp
 public sealed class ImageFileType : FileType
@@ -28,6 +28,7 @@ public sealed class ImageFileType : FileType
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | The file extension |
 | [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | The file family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | The file format |
+| [IsRaster](../../groupdocs.conversion.filetypes/imagefiletype/israster) { get; } | Defines if the image is raster |
 
 ## Methods
 
@@ -56,6 +57,7 @@ public sealed class ImageFileType : FileType
 | static readonly [Emz](../../groupdocs.conversion.filetypes/imagefiletype/emz) | An EMZ file is actually a compressed version of a Microsoft EMF file. This allows for easier distribution of the file online. When an EMF file is compressed using the .GZIP compression algorithm, it is then given the .emz file extension. |
 | static readonly [Fodg](../../groupdocs.conversion.filetypes/imagefiletype/fodg) | FODG is a uncompressed XML-format file used for storing OpenDocument text data. FODG extension is associated with open source office productivity suites Libre Office and OpenOffice.org. |
 | static readonly [Gif](../../groupdocs.conversion.filetypes/imagefiletype/gif) | A GIF or Graphical Interchange Format is a type of highly compressed image. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. Learn more about this file format [here](https://wiki.fileformat.com/image/gif). |
+| static readonly [Heic](../../groupdocs.conversion.filetypes/imagefiletype/heic) | An HEIC file is a High-Efficiency Container Image file format that can store multiple images as a collection in a single file. The format was adopted by Apple as variant of the HEIF with the launch of iOS 11. Learn more about this file format [here](https://docs.fileformat.com/image/heic/). |
 | static readonly [Ico](../../groupdocs.conversion.filetypes/imagefiletype/ico) | Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format [here](https://wiki.fileformat.com/image/ico). |
 | static readonly [J2c](../../groupdocs.conversion.filetypes/imagefiletype/j2c) | J2c document format |
 | static readonly [J2k](../../groupdocs.conversion.filetypes/imagefiletype/j2k) | J2K file is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format [here](https://wiki.fileformat.com/image/j2k). |

@@ -3,10 +3,10 @@ title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default font for Psd Emf Wmf document types. The following font will be used if a font is missing.
 type: docs
-weight: 20
-url: /net/groupdocs.conversion.options.load/imageloadoptions/defaultfont/
+weight: 10
+url: /net/groupdocs.conversion.options.load/baseimageloadoptions/defaultfont/
 ---
-## ImageLoadOptions.DefaultFont property
+## BaseImageLoadOptions.DefaultFont property
 
 Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing.
 
@@ -16,7 +16,7 @@ public string DefaultFont { get; set; }
 
 ### See Also
 
-* class [ImageLoadOptions](../../imageloadoptions)
+* class [BaseImageLoadOptions](../../baseimageloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

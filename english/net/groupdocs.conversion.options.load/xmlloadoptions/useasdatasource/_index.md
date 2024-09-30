@@ -3,7 +3,7 @@ title: UseAsDataSource
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Use Xml document as data source
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/useasdatasource/
 ---
 ## XmlLoadOptions.UseAsDataSource property

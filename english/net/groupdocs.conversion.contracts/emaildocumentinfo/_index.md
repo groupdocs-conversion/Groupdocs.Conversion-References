@@ -3,7 +3,7 @@ title: EmailDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Email document metadata
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.conversion.contracts/emaildocumentinfo/
 ---
 ## EmailDocumentInfo class

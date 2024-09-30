@@ -3,7 +3,7 @@ title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default font for spreadsheet document. The following font will be used if a font is missing.
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/defaultfont/
 ---
 ## SpreadsheetLoadOptions.DefaultFont property

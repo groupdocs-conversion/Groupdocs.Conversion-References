@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/noteloadoptions/format/
 Input document file type.
 
 ```csharp
-public NoteFileType Format { get; set; }
+public NoteFileType Format { get; }
 ```
 
 ### See Also

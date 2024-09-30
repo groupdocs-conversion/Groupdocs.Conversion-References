@@ -3,7 +3,7 @@ title: XsltFactory
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XSLT document stream to convert XML performing XSL transformation to HTML.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/xsltfactory/
 ---
 ## XmlLoadOptions.XsltFactory property

@@ -3,7 +3,7 @@ title: GroupDocs.Conversion.Options.Load
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The namespace provides classes to specify additional options for document loading process.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.conversion.options.load/
 ---
 The namespace provides classes to specify additional options for document loading process.
@@ -13,6 +13,7 @@ The namespace provides classes to specify additional options for document loadin
 | Class | Description |
 | --- | --- |
 | [AudioLoadOptions](./audioloadoptions) | Options for loading audio documents. |
+| [BaseImageLoadOptions](./baseimageloadoptions) | Options for loading Image documents. |
 | [CadDrawTypeMode](./caddrawtypemode) | Represents possible modes for colorization of objects. |
 | [CadLoadOptions](./cadloadoptions) | Options for loading CAD documents. |
 | [CompressionLoadOptions](./compressionloadoptions) | Options for loading compression documents. |
@@ -39,6 +40,7 @@ The namespace provides classes to specify additional options for document loadin
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |
 | [PresentationLoadOptions](./presentationloadoptions) | Options for loading Presentation documents. |
 | [PublisherLoadOptions](./publisherloadoptions) | Options for loading Publisher documents. |
+| [RasterImageLoadOptions](./rasterimageloadoptions) | Options for loading Image documents. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Options for loading Spreadsheet documents. |
 | [ThreeDLoadOptions](./threedloadoptions) | Options for loading 3D documents. |
 | [TsvLoadOptions](./tsvloadoptions) | Options for loading Tsv documents. |
@@ -46,6 +48,7 @@ The namespace provides classes to specify additional options for document loadin
 | [TxtLoadOptions](./txtloadoptions) | Options for loading Txt documents. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | Describes txt trailing spaces options enumeration. |
 | [VcfLoadOptions](./vcfloadoptions) | Options for loading Vcf documents. |
+| [VectorizationOptions](./vectorizationoptions) | Options for vectorization images. |
 | [VideoLoadOptions](./videoloadoptions) | Options for loading video documents. |
 | [WebLoadOptions](./webloadoptions) | Options for loading web documents. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Options for handling bookmarks in WordProcessing |
@@ -55,6 +58,7 @@ The namespace provides classes to specify additional options for document loadin
 
 | Interface | Description |
 | --- | --- |
+| [IMetadataLoadOptions](./imetadataloadoptions) | Options to control metadata in the converted document. |
 | [IPageNumberingLoadOptions](./ipagenumberingloadoptions) | Options to control page numbering in the converted document. |
 | [IResourceLoadingOptions](./iresourceloadingoptions) | Represents set of options to control how external resources will be loaded |
 

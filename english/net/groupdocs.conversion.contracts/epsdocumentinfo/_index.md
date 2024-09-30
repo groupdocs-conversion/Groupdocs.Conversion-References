@@ -3,7 +3,7 @@ title: EpsDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Ps document metadata
 type: docs
-weight: 160
+weight: 180
 url: /net/groupdocs.conversion.contracts/epsdocumentinfo/
 ---
 ## EpsDocumentInfo class

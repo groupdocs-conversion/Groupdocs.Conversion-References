@@ -3,7 +3,7 @@ title: ConvertOwned
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements ConvertOwnedgroupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned Default is false
 type: docs
-weight: 20
+weight: 40
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/convertowned/
 ---
 ## PdfLoadOptions.ConvertOwned property

@@ -3,7 +3,7 @@ title: DatabaseFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines database documents. Includes the following file types Nsf./databasefiletype/nsfLog./databasefiletype/logSql./databasefiletype/sql
 type: docs
-weight: 830
+weight: 880
 url: /net/groupdocs.conversion.filetypes/databasefiletype/
 ---
 ## DatabaseFileType class

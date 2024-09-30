@@ -3,7 +3,7 @@ title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Input document file type.
 type: docs
-weight: 80
+weight: 100
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/format/
 ---
 ## PdfLoadOptions.Format property
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/pdfloadoptions/format/
 Input document file type.
 
 ```csharp
-public PdfFileType Format { get; set; }
+public PdfFileType Format { get; }
 ```
 
 ### See Also

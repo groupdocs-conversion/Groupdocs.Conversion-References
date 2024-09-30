@@ -3,7 +3,7 @@ title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Substitute specific fonts when converting Pdf document.
 type: docs
-weight: 70
+weight: 90
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes/
 ---
 ## PdfLoadOptions.FontSubstitutes property

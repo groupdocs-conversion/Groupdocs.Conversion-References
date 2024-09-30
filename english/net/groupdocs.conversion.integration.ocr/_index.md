@@ -3,7 +3,7 @@ title: GroupDocs.Conversion.Integration.Ocr
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The namespace provides interfaces and classes required for Optical Character Recognition OCR support.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.integration.ocr/
 ---
 The namespace provides interfaces and classes, required for Optical Character Recognition (OCR) support.
