@@ -3,7 +3,7 @@ title: Separator
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the separator to be used when convert to a delimited formats
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/separator/
 ---
 ## SpreadsheetConvertOptions.Separator property

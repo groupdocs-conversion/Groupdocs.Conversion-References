@@ -24,6 +24,7 @@ public class SpreadsheetConvertOptions : CommonConvertOptions<SpreadsheetFileTyp
 
 | Name | Description |
 | --- | --- |
+| [Encoding](../../groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding) { get; set; } | Specifies the encoding to be used when convert to a delimited formats |
 | [Format](../../groupdocs.conversion.options.convert/spreadsheetconvertoptions/format) { get; set; } | The desired file type the input document should be converted to. (2 properties) |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |

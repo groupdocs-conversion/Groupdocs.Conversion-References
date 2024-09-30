@@ -1,17 +1,17 @@
 ---
-title: Zoom
+title: Encoding
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Specifies the zoom level in percentage. Default is 100.
+description: Specifies the encoding to be used when convert to a delimited formats
 type: docs
-weight: 60
-url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/
+weight: 20
+url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding/
 ---
-## SpreadsheetConvertOptions.Zoom property
+## SpreadsheetConvertOptions.Encoding property
 
-Specifies the zoom level in percentage. Default is 100.
+Specifies the encoding to be used when convert to a delimited formats
 
 ```csharp
-public int Zoom { get; set; }
+public Encoding Encoding { get; set; }
 ```
 
 ### See Also
