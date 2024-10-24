@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 2080
+weight: 2120
 url: /net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class
@@ -40,7 +40,8 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [Depth](../../groupdocs.conversion.options.load/spreadsheetloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [Encoding](../../groupdocs.conversion.options.load/csvloadoptions/encoding) { get; set; } | Encoding. Default is Encoding.Default. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting spreadsheet document. |
-| [Format](../../groupdocs.conversion.options.load/csvloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/csvloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HasFormula](../../groupdocs.conversion.options.load/csvloadoptions/hasformula) { get; set; } | Indicates whether text is formula if it starts with "=". |
 | [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [IsMultiEncoded](../../groupdocs.conversion.options.load/csvloadoptions/ismultiencoded) { get; set; } | True means the file contains several encodings. |

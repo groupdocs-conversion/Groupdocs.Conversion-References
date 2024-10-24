@@ -3,7 +3,7 @@ title: GmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Gml documents.
 type: docs
-weight: 2180
+weight: 2220
 url: /net/groupdocs.conversion.options.load/gmlloadoptions/
 ---
 ## GmlLoadOptions class
@@ -24,7 +24,8 @@ public sealed class GmlLoadOptions : GisLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/gmlloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/gmlloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Height](../../groupdocs.conversion.options.load/gisloadoptions/height) { get; set; } | Sets desired page height for converting GIS document. Default is 1000. |
 | [LoadSchemasFromInternet](../../groupdocs.conversion.options.load/gmlloadoptions/loadschemasfrominternet) { get; set; } | Determines whether Conversion is allowed to load XML schema from Internet. If set to false, schemas with absolute URIs that does not start with ‘file://’ would not be loaded. Default is false. |
 | [RestoreSchema](../../groupdocs.conversion.options.load/gmlloadoptions/restoreschema) { get; set; } | Determines whether Conversion is allowed to parse attributes in a Gml file in which an XML schema is missing or cannot be loaded. If set to true, Conversion reader does not require the presence of an XML Schema. Default is false. |

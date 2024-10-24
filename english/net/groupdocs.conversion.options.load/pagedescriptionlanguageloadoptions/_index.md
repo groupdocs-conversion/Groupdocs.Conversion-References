@@ -3,7 +3,7 @@ title: PageDescriptionLanguageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading page description language documents.
 type: docs
-weight: 2290
+weight: 2330
 url: /net/groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/
 ---
 ## PageDescriptionLanguageLoadOptions class
@@ -25,7 +25,7 @@ public class PageDescriptionLanguageLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

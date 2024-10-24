@@ -50,46 +50,23 @@ public IConversionSourceDocumentLoaded WithOptions(Func<LoadOptions> loadOptions
 
 ---
 
-## WithOptions(Func&lt;FileType, LoadOptions&gt;) {#withoptions_2}
-
-Provide load options for the document currently being loading
-
-```csharp
-public IConversionSourceDocumentLoaded WithOptions(Func<FileType, LoadOptions> loadOptionsProvider)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadOptionsProvider | Func`2 | Load options provider The type of the loaded file |
-
-### See Also
-
-* interface [IConversionSourceDocumentLoaded](../../iconversionsourcedocumentloaded)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
-* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
-* interface [IConversionLoadOptions](../../iconversionloadoptions)
-* namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## WithOptions(Func&lt;string, FileType, Stream, LoadOptions&gt;) {#withoptions_3}
+## WithOptions(Func&lt;LoadContext, LoadOptions&gt;) {#withoptions_3}
 
 Provide load options for the document currently being loading
 
 ```csharp
 public IConversionSourceDocumentLoaded WithOptions(
-    Func<string, FileType, Stream, LoadOptions> loadOptionsProvider)
+    Func<LoadContext, LoadOptions> loadOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptionsProvider | Func`4 | Load options provider The name of the loaded fileThe type of the loaded fileThe content of the loaded file |
+| loadOptionsProvider | Func`2 | Load options provider The load options context |
 
 ### See Also
 
 * interface [IConversionSourceDocumentLoaded](../../iconversionsourcedocumentloaded)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [LoadContext](../../../groupdocs.conversion/loadcontext)
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * interface [IConversionLoadOptions](../../iconversionloadoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)

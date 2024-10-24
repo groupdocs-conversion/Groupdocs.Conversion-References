@@ -3,7 +3,7 @@ title: CompressionLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading compression documents.
 type: docs
-weight: 2070
+weight: 2110
 url: /net/groupdocs.conversion.options.load/compressionloadoptions/
 ---
 ## CompressionLoadOptions class
@@ -28,7 +28,7 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 | [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
 | [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
 | [Format](../../groupdocs.conversion.options.load/compressionloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Password](../../groupdocs.conversion.options.load/compressionloadoptions/password) { get; set; } | Set password to load protected document. |
 
 ## Methods

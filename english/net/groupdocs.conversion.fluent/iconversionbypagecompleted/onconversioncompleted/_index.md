@@ -12,12 +12,12 @@ Receive converted page stream. Will be fired only if "ConvertTo(convertedStreamP
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    Action<string, FileType, int, Stream> convertedPageStream)
+    Action<ConvertedPageContext> convertedPageStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageStream | Action`4 | Converted page stream provider The name of the file |
+| convertedPageStream | Action`1 | Converted page stream provider The [`ConvertedPageContext`](../../../groupdocs.conversion/convertedpagecontext) |
 
 ### Return Value
 
@@ -26,7 +26,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertedPageContext](../../../groupdocs.conversion/convertedpagecontext)
 * interface [IConversionByPageCompleted](../../iconversionbypagecompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../../)

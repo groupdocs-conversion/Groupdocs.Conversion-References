@@ -3,7 +3,7 @@ title: GisLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading GIS documents.
 type: docs
-weight: 2170
+weight: 2210
 url: /net/groupdocs.conversion.options.load/gisloadoptions/
 ---
 ## GisLoadOptions class
@@ -25,7 +25,7 @@ public class GisLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.load/gisloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Height](../../groupdocs.conversion.options.load/gisloadoptions/height) { get; set; } | Sets desired page height for converting GIS document. Default is 1000. |
 | [Width](../../groupdocs.conversion.options.load/gisloadoptions/width) { get; set; } | Sets desired page width for converting GIS document. Default is 1000. |
 

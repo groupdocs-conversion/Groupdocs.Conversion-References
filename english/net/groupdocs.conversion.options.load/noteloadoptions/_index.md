@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading One documents.
 type: docs
-weight: 2260
+weight: 2300
 url: /net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -26,7 +26,8 @@ public sealed class NoteLoadOptions : LoadOptions
 | --- | --- |
 | [DefaultFont](../../groupdocs.conversion.options.load/noteloadoptions/defaultfont) { get; set; } | Default font for Note document. The following font will be used if a font is missing. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/noteloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Note document. |
-| [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/noteloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Password](../../groupdocs.conversion.options.load/noteloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 
 ## Methods

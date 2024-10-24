@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 2470
+weight: 2510
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -28,7 +28,8 @@ public sealed class XmlLoadOptions : WebLoadOptions
 | [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Action for configuration of the request headers. First parameter of the action is the Uri. |
 | [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Credentials provider for the Uri. |
 | [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
-| [Format](../../groupdocs.conversion.options.load/xmlloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/xmlloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |

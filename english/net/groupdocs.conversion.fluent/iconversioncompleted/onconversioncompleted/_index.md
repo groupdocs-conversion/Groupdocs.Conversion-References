@@ -12,12 +12,12 @@ Receive converted document stream. Will be fired only if "ConvertTo(string fileN
 
 ```csharp
 public IConversionConvertOrCompress OnConversionCompleted(
-    Action<string, FileType, Stream> convertedFileStream)
+    Action<ConvertedContext> convertedFileStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedFileStream | Action`3 | Converted document stream provider |
+| convertedFileStream | Action`1 | Converted document stream provider The [`ConvertedContext`](../../../groupdocs.conversion/convertedcontext) |
 
 ### Return Value
 
@@ -26,7 +26,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOrCompress](../../iconversionconvertorcompress)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertedContext](../../../groupdocs.conversion/convertedcontext)
 * interface [IConversionCompleted](../../iconversioncompleted)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../../)

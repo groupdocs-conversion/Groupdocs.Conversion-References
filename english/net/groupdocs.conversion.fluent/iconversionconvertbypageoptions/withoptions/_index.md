@@ -32,18 +32,18 @@ Interface to continue conversion building
 
 ---
 
-## WithOptions(Func&lt;string, FileType, ConvertOptions&gt;) {#withoptions_1}
+## WithOptions(Func&lt;ConvertContext, ConvertOptions&gt;) {#withoptions_1}
 
 Set convert options
 
 ```csharp
 public IConversionByPageCompletedOrConvert WithOptions(
-    Func<string, FileType, ConvertOptions> convertOptionsProvider)
+    Func<ConvertContext, ConvertOptions> convertOptionsProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | Func`3 | Convert options |
+| convertOptionsProvider | Func`2 | Convert options The [`ConvertContext`](../../../groupdocs.conversion/convertcontext) |
 
 ### Return Value
 
@@ -52,7 +52,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionByPageCompletedOrConvert](../../iconversionbypagecompletedorconvert)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [ConvertContext](../../../groupdocs.conversion/convertcontext)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertByPageOptions](../../iconversionconvertbypageoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)

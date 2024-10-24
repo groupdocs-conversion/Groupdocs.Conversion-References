@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes txt trailing spaces options enumeration.
 type: docs
-weight: 2400
+weight: 2440
 url: /net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions class

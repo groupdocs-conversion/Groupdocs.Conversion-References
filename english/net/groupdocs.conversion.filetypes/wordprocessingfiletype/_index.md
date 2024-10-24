@@ -3,7 +3,7 @@ title: WordProcessingFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Word Processing files that contain user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast a rich text file format allows formatting options such as setting fonts type styles bold italic underline etc. page margins headings bullets and numbers and several other formatting features. Includes the following file types Doc./wordprocessingfiletype/doc Docm./wordprocessingfiletype/docm Docx./wordprocessingfiletype/docx Dot./wordprocessingfiletype/dot Dotm./wordprocessingfiletype/dotm Dotx./wordprocessingfiletype/dotx Odt./wordprocessingfiletype/odt Ott./wordprocessingfiletype/ott Rtf./wordprocessingfiletype/rtf Txt./wordprocessingfiletype/txt. Md./wordprocessingfiletype/md. Learn more about Word Processing formats herehttps//wiki.fileformat.com/wordprocessing.
 type: docs
-weight: 1070
+weight: 1100
 url: /net/groupdocs.conversion.filetypes/wordprocessingfiletype/
 ---
 ## WordProcessingFileType class

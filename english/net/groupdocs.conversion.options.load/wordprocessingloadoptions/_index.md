@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2460
+weight: 2500
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -36,7 +36,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: false |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Words document. |
 | [Format](../../groupdocs.conversion.options.load/wordprocessingloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideComments](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |
 | [HyphenationOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hyphenationoptions) { get; set; } | Set hyphenation options for WordProcessing documents. |
