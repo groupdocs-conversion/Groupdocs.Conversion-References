@@ -1,22 +1,22 @@
 ---
-title: UsePdf
+title: HtmlRenderingModes
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Use pdf for the conversion. Default false
+description: Serialization constructor
 type: docs
-weight: 110
-url: /net/groupdocs.conversion.options.load/webloadoptions/usepdf/
+weight: 10
+url: /net/groupdocs.conversion.options.load/htmlrenderingmodes/htmlrenderingmodes/
 ---
-## WebLoadOptions.UsePdf property
+## HtmlRenderingModes constructor
 
-Use pdf for the conversion. Default: false
+Serialization constructor
 
 ```csharp
-public bool UsePdf { get; set; }
+public HtmlRenderingModes()
 ```
 
 ### See Also
 
-* class [WebLoadOptions](../../webloadoptions)
+* class [HtmlRenderingModes](../../htmlrenderingmodes)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

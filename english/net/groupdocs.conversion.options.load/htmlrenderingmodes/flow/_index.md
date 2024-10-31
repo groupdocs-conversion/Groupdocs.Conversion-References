@@ -1,22 +1,22 @@
 ---
-title: UsePdf
+title: Flow
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Use pdf for the conversion. Default false
+description: Flow rendering mode
 type: docs
-weight: 110
-url: /net/groupdocs.conversion.options.load/webloadoptions/usepdf/
+weight: 30
+url: /net/groupdocs.conversion.options.load/htmlrenderingmodes/flow/
 ---
-## WebLoadOptions.UsePdf property
+## HtmlRenderingModes.Flow field
 
-Use pdf for the conversion. Default: false
+Flow rendering mode
 
 ```csharp
-public bool UsePdf { get; set; }
+public static readonly HtmlRenderingModes Flow;
 ```
 
 ### See Also
 
-* class [WebLoadOptions](../../webloadoptions)
+* class [HtmlRenderingModes](../../htmlrenderingmodes)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

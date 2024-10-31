@@ -1,24 +1,24 @@
 ---
-title: TxtLeadingSpacesOptions
+title: HtmlRenderingModes
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Describes txt leading spaces options enumeration.
+description: Describes html rendering modes enumeration.
 type: docs
-weight: 2430
-url: /net/groupdocs.conversion.options.load/txtleadingspacesoptions/
+weight: 2230
+url: /net/groupdocs.conversion.options.load/htmlrenderingmodes/
 ---
-## TxtLeadingSpacesOptions class
+## HtmlRenderingModes class
 
-Describes txt leading spaces options enumeration.
+Describes html rendering modes enumeration.
 
 ```csharp
-public class TxtLeadingSpacesOptions : Enumeration
+public class HtmlRenderingModes : Enumeration
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [TxtLeadingSpacesOptions](txtleadingspacesoptions)() | Serialization constructor |
+| [HtmlRenderingModes](htmlrenderingmodes)() | Serialization constructor |
 
 ## Methods
 
@@ -34,9 +34,8 @@ public class TxtLeadingSpacesOptions : Enumeration
 
 | Name | Description |
 | --- | --- |
-| static readonly [ConvertToIndent](../../groupdocs.conversion.options.load/txtleadingspacesoptions/converttoindent) | Converts leading spaces to indents. |
-| static readonly [Preserve](../../groupdocs.conversion.options.load/txtleadingspacesoptions/preserve) | Preserves leading spaces. |
-| static readonly [Trim](../../groupdocs.conversion.options.load/txtleadingspacesoptions/trim) | Trims leading spaces. |
+| static readonly [AbsolutePositioning](../../groupdocs.conversion.options.load/htmlrenderingmodes/absolutepositioning) | Absolute positioning rendering mode |
+| static readonly [Flow](../../groupdocs.conversion.options.load/htmlrenderingmodes/flow) | Flow rendering mode |
 
 ### See Also
 

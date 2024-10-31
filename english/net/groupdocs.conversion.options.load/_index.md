@@ -28,6 +28,7 @@ The namespace provides classes to specify additional options for document loadin
 | [FontLoadOptions](./fontloadoptions) | Options for loading Font documents. |
 | [GisLoadOptions](./gisloadoptions) | Options for loading GIS documents. |
 | [GmlLoadOptions](./gmlloadoptions) | Options for loading Gml documents. |
+| [HtmlRenderingModes](./htmlrenderingmodes) | Describes html rendering modes enumeration. |
 | [HyphenationOptions](./hyphenationoptions) | Options for setting hyphenation documents. |
 | [ImageLoadOptions](./imageloadoptions) | Options for loading Image documents. |
 | [LoadOptions](./loadoptions) | Abstract document load options class. |
