@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 ---
-## ConvertByPageTo(Func&lt;int, Stream&gt;) {#convertbypageto}
+## IConversionTo.ConvertByPageTo method
 
 Save converted page as stream
 
 ```csharp
 public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    Func<int, Stream> convertedPageProvider)
+    Func<SavePageContext, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedPageProvider | Func`2 | Converted document page stream provider |
+| convertedStreamProvider | Func`2 | Converted document page stream provider The save context |
 
 ### Return Value
 
@@ -26,33 +26,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* interface [IConversionTo](../../iconversionto)
-* namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## ConvertByPageTo(Func&lt;int, FileType, Stream&gt;) {#convertbypageto_1}
-
-Save converted page as stream by type
-
-```csharp
-public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
-    Func<int, FileType, Stream> convertedStreamProvider)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| convertedStreamProvider | Func`3 | Converted document page stream provider |
-
-### Return Value
-
-Interface to continue conversion building
-
-### See Also
-
-* interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [SavePageContext](../../../groupdocs.conversion/savepagecontext)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../../)

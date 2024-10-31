@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Diagram documents.
 type: docs
-weight: 2100
+weight: 2140
 url: /net/groupdocs.conversion.options.load/diagramloadoptions/
 ---
 ## DiagramLoadOptions class
@@ -26,7 +26,7 @@ public sealed class DiagramLoadOptions : LoadOptions
 | --- | --- |
 | [DefaultFont](../../groupdocs.conversion.options.load/diagramloadoptions/defaultfont) { get; set; } | Default font for Diagram document. The following font will be used if a font is missing. |
 | [Format](../../groupdocs.conversion.options.load/diagramloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

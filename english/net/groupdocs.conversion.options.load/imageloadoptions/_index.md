@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Image documents.
 type: docs
-weight: 2230
+weight: 2280
 url: /net/groupdocs.conversion.options.load/imageloadoptions/
 ---
 ## ImageLoadOptions class
@@ -26,7 +26,7 @@ public sealed class ImageLoadOptions : BaseImageLoadOptions
 | --- | --- |
 | [DefaultFont](../../groupdocs.conversion.options.load/baseimageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
 | [Format](../../groupdocs.conversion.options.load/imageloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

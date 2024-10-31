@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading personal storage documents.
 type: docs
-weight: 2310
+weight: 2360
 url: /net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
@@ -28,7 +28,8 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 | [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
 | [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
 | [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | Folder which to be processed Default is Inbox |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/personalstorageloadoptions/format) { get; set; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Mbox documents.
 type: docs
-weight: 2250
+weight: 2300
 url: /net/groupdocs.conversion.options.load/mboxloadoptions/
 ---
 ## MboxLoadOptions class
@@ -27,7 +27,7 @@ public sealed class MboxLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [ConvertOwned](../../groupdocs.conversion.options.load/mboxloadoptions/convertowned) { get; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Readonly. Set to true. The owned documents will be converted |
 | [ConvertOwner](../../groupdocs.conversion.options.load/mboxloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
 | [Depth](../../groupdocs.conversion.options.load/mboxloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

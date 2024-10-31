@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/groupdocs.conversion.fluent/iconversionto/convertto/
 ---
-## ConvertTo(string) {#convertto_2}
+## ConvertTo(string) {#convertto_3}
 
 Save converted document as file
 
@@ -31,43 +31,18 @@ Interface to continue conversion building
 
 ---
 
-## ConvertTo(Func&lt;Stream&gt;) {#convertto}
+## ConvertTo(Func&lt;SaveContext, Stream&gt;) {#convertto_2}
 
 Save converted document as stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(Func<Stream> convertedStreamProvider)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| convertedStreamProvider | Func`1 | Converted document stream provider |
-
-### Return Value
-
-Interface to continue conversion building
-
-### See Also
-
-* interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* interface [IConversionTo](../../iconversionto)
-* namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
-## ConvertTo(Func&lt;FileType, Stream&gt;) {#convertto_1}
-
-Save converted document as stream by type
-
-```csharp
 public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    Func<FileType, Stream> convertedStreamProvider)
+    Func<SaveContext, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertedStreamProvider | Func`2 | Converted document stream provider |
+| convertedStreamProvider | Func`2 | Converted document stream provider The save context |
 
 ### Return Value
 
@@ -76,7 +51,7 @@ Interface to continue conversion building
 ### See Also
 
 * interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
-* class [FileType](../../../groupdocs.conversion.filetypes/filetype)
+* class [SaveContext](../../../groupdocs.conversion/savecontext)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../../)

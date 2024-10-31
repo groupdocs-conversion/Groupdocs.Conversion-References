@@ -3,7 +3,7 @@ title: OlmLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Olm documents.
 type: docs
-weight: 2280
+weight: 2330
 url: /net/groupdocs.conversion.options.load/olmloadoptions/
 ---
 ## OlmLoadOptions class
@@ -28,7 +28,7 @@ public sealed class OlmLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [ConvertOwner](../../groupdocs.conversion.options.load/olmloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
 | [Depth](../../groupdocs.conversion.options.load/olmloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
 | [Folder](../../groupdocs.conversion.options.load/olmloadoptions/folder) { get; set; } | Folder which to be processed Default is Inbox |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

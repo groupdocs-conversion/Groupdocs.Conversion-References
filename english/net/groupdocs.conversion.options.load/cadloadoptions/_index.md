@@ -3,7 +3,7 @@ title: CadLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading CAD documents.
 type: docs
-weight: 2060
+weight: 2100
 url: /net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class
@@ -29,7 +29,7 @@ public sealed class CadLoadOptions : LoadOptions
 | [DrawColor](../../groupdocs.conversion.options.load/cadloadoptions/drawcolor) { get; set; } | Gets or sets foreground color. |
 | [DrawType](../../groupdocs.conversion.options.load/cadloadoptions/drawtype) { get; set; } | Gets or sets type of drawing. |
 | [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Input document file type |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [LayoutNames](../../groupdocs.conversion.options.load/cadloadoptions/layoutnames) { get; set; } | Specifies which CAD layouts to be converted |
 
 ## Methods

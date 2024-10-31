@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 2320
+weight: 2370
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
@@ -33,7 +33,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [Depth](../../groupdocs.conversion.options.load/presentationloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/presentationloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Presentation document. |
 | [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | Show hidden slides. |

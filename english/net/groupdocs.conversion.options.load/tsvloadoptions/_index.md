@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Tsv documents.
 type: docs
-weight: 2370
+weight: 2420
 url: /net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -37,7 +37,8 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [DefaultFont](../../groupdocs.conversion.options.load/spreadsheetloadoptions/defaultfont) { get; set; } | Default font for spreadsheet document. The following font will be used if a font is missing. |
 | [Depth](../../groupdocs.conversion.options.load/spreadsheetloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting spreadsheet document. |
-| [Format](../../groupdocs.conversion.options.load/tsvloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/tsvloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | If True and converting to Pdf the conversion is optimized for better file size than print quality. |

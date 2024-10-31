@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 2390
+weight: 2440
 url: /net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -26,7 +26,8 @@ public sealed class TxtLoadOptions : LoadOptions
 | --- | --- |
 | [DetectNumberingWithWhitespaces](../../groupdocs.conversion.options.load/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when plain text document is converted. The default value is true. |
 | [Encoding](../../groupdocs.conversion.options.load/txtloadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null. |
-| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [LeadingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/leadingspacesoptions) { get; set; } | Gets or sets preferred option of a leading space handling. Default value is [`ConvertToIndent`](../txtleadingspacesoptions/converttoindent). |
 | [TrailingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/trailingspacesoptions) { get; set; } | Gets or sets preferred option of a trailing space handling. Default value is [`Trim`](../txttrailingspacesoptions/trim). |
 

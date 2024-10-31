@@ -3,7 +3,7 @@ title: FinanceLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading finance documents.
 type: docs
-weight: 2150
+weight: 2190
 url: /net/groupdocs.conversion.options.load/financeloadoptions/
 ---
 ## FinanceLoadOptions class
@@ -25,7 +25,7 @@ public class FinanceLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.load/financeloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

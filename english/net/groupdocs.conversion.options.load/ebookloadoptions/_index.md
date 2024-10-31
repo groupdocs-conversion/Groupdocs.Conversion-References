@@ -3,7 +3,7 @@ title: EBookLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading EBook documents.
 type: docs
-weight: 2110
+weight: 2150
 url: /net/groupdocs.conversion.options.load/ebookloadoptions/
 ---
 ## EBookLoadOptions class
@@ -25,7 +25,7 @@ public class EBookLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.load/ebookloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
 

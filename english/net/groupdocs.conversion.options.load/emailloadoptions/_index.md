@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Email documents.
 type: docs
-weight: 2130
+weight: 2170
 url: /net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class
@@ -37,7 +37,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [DisplayToEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaytoemailaddress) { get; set; } | Option to display or hide "to" email address. Default: true. |
 | [FieldTextMap](../../groupdocs.conversion.options.load/emailloadoptions/fieldtextmap) { get; set; } | The mapping between email message [`EmailField`](../emailfield) and field text representation |
 | [Format](../../groupdocs.conversion.options.load/emailloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/emailloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [TimeZoneOffset](../../groupdocs.conversion.options.load/emailloadoptions/timezoneoffset) { get; set; } | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC. |

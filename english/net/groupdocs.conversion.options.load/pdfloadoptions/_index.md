@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2300
+weight: 2350
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -33,7 +33,8 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
-| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. (2 properties) |
+| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Hide annotations in Pdf documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/pdfloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Set password to unprotect protected document. |

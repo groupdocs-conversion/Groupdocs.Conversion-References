@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/loadoptions/format/
 Input document file type.
 
 ```csharp
-public FileType Format { get; }
+public virtual FileType Format { get; }
 ```
 
 ### See Also

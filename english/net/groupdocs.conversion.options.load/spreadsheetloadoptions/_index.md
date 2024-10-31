@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 2350
+weight: 2400
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -39,7 +39,7 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [Depth](../../groupdocs.conversion.options.load/spreadsheetloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting spreadsheet document. |
 | [Format](../../groupdocs.conversion.options.load/spreadsheetloadoptions/format) { get; set; } | Input document file type. |
-| [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | If True and converting to Pdf the conversion is optimized for better file size than print quality. |
