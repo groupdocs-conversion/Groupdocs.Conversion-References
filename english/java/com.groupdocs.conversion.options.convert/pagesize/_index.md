@@ -35,6 +35,7 @@ public enum PageSize extends Enum<PageSize> implements IPageSize
 | [QUARTO](#QUARTO) |  |
 | [STATEMENT](#STATEMENT) |  |
 | [TABLOID](#TABLOID) |  |
+| [UNSET](#UNSET) |  |
 ## Methods
 
 | Method | Description |
@@ -46,6 +47,8 @@ public enum PageSize extends Enum<PageSize> implements IPageSize
 | [getName()](#getName--) |  |
 | [getWidth()](#getWidth--) |  |
 | [getHeight()](#getHeight--) |  |
+| [pointsToPixels(float points, int dpi)](#pointsToPixels-float-int-) |  |
+| [pixelsToPoints(int pixels, int dpi)](#pixelsToPoints-int-int-) |  |
 ### A3 {#A3}
 ```
 public static final PageSize A3
@@ -148,6 +151,12 @@ public static final PageSize TABLOID
 ```
 
 
+### UNSET {#UNSET}
+```
+public static final PageSize UNSET
+```
+
+
 ### values() {#values--}
 ```
 public static PageSize[] values()
@@ -226,6 +235,38 @@ public float getHeight()
 
 
 
+
+**Returns:**
+float
+### pointsToPixels(float points, int dpi) {#pointsToPixels-float-int-}
+```
+public static int pointsToPixels(float points, int dpi)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| points | float |  |
+| dpi | int |  |
+
+**Returns:**
+int
+### pixelsToPoints(int pixels, int dpi) {#pixelsToPoints-int-int-}
+```
+public static float pixelsToPoints(int pixels, int dpi)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixels | int |  |
+| dpi | int |  |
 
 **Returns:**
 float
