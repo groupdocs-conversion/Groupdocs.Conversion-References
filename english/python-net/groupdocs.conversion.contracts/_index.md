@@ -13,7 +13,6 @@ The module provides members to instantiate and release output document, manage f
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo) | Contains Audio document metadata |
 | [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo) | Object containing array of pixels and bitmap information. |
 | [`Bzip2DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/bzip2documentinfo) | Contains Bzip2 document metadata |
 | [`CabDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cabdocumentinfo) | Contains Cab document metadata |
@@ -51,7 +50,8 @@ The module provides members to instantiate and release output document, manage f
 | [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo) | Contains personal storage document metadata |
 | [`PersonalStorageFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo) | Personal Storage Folder info |
 | [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo) | Personal Storage Item info |
-| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions) | Represents a mapping what conversion pairs<br/>are supported for specific source file format |
+| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions) | Represents a mapping what conversion pairs
+<br/>are supported for specific source file format |
 | [`PresentationDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/presentationdocumentinfo) | Contains Presentation document metadata |
 | [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
 | [`PsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psdocumentinfo) | Contains Ps document metadata |
@@ -71,7 +71,6 @@ The module provides members to instantiate and release output document, manage f
 | [`UueDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/uuedocumentinfo) | Contains Uue document metadata |
 | [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject) | Abstract value object class. |
 | [`VcfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo) | Contains Vcf document metadata |
-| [`VideoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo) |  |
 | [`WebDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/webdocumentinfo) | Contains Web document metadata |
 | [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
 | [`XbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xbrldocumentinfo) | Contains Xbrl document metadata |
