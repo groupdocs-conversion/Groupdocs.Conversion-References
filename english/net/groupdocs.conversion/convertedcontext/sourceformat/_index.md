@@ -3,7 +3,7 @@ title: SourceFormat
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Source format.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.conversion/convertedcontext/sourceformat/
 ---
 ## ConvertedContext.SourceFormat property

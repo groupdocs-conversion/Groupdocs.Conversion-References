@@ -30,6 +30,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [DisplayAttachments](../../groupdocs.conversion.options.load/emailloadoptions/displayattachments) { get; set; } | Option to display or hide attachments in the header. Default: true. |
 | [DisplayBccEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaybccemailaddress) { get; set; } | Option to display or hide "Bcc" email address. Default: false. |
 | [DisplayCcEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayccemailaddress) { get; set; } | Option to display or hide "Cc" email address. Default: false. |
+| [DisplayEmailAddresses](../../groupdocs.conversion.options.load/emailloadoptions/displayemailaddresses) { get; set; } | Option to control whether email addresses are displayed alongside names. Example: "John Doe &lt;john.doe@sample.com&gt;" or just "John Doe." Default: true. |
 | [DisplayFromEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displayfromemailaddress) { get; set; } | Option to display or hide "from" email address. Default: true. |
 | [DisplayHeader](../../groupdocs.conversion.options.load/emailloadoptions/displayheader) { get; set; } | Option to display or hide the email header. Default: true. |
 | [DisplaySent](../../groupdocs.conversion.options.load/emailloadoptions/displaysent) { get; set; } | Option to display or hide sent date/time in the header. Default: true. |

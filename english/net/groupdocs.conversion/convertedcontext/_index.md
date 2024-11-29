@@ -20,6 +20,8 @@ public sealed class ConvertedContext
 | --- | --- |
 | [ConvertedFormat](../../groupdocs.conversion/convertedcontext/convertedformat) { get; } | Converted format. |
 | [ConvertedStream](../../groupdocs.conversion/convertedcontext/convertedstream) { get; } | Converted file stream. |
+| [HierarchyLevel](../../groupdocs.conversion/convertedcontext/hierarchylevel) { get; } | Hierarchy level. |
+| [ItemIndex](../../groupdocs.conversion/convertedcontext/itemindex) { get; } | Item index. |
 | [SourceFileName](../../groupdocs.conversion/convertedcontext/sourcefilename) { get; } | Source file name. |
 | [SourceFormat](../../groupdocs.conversion/convertedcontext/sourceformat) { get; } | Source format. |
 

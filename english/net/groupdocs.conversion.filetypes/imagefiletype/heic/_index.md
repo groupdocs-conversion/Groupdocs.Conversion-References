@@ -3,7 +3,7 @@ title: Heic
 second_title: GroupDocs.Conversion for .NET API Reference
 description: An HEIC file is a HighEfficiency Container Image file format that can store multiple images as a collection in a single file. The format was adopted by Apple as variant of the HEIF with the launch of iOS 11. Learn more about this file format herehttps//docs.fileformat.com/image/heic/.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.filetypes/imagefiletype/heic/
 ---
 ## ImageFileType.Heic field

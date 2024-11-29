@@ -3,7 +3,7 @@ title: RowsPerPage
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Split a worksheet into pages by rows. Default is 0 no pagination.
 type: docs
-weight: 200
+weight: 220
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/rowsperpage/
 ---
 ## SpreadsheetLoadOptions.RowsPerPage property

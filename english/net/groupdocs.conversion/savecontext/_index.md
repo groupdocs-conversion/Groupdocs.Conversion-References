@@ -18,6 +18,8 @@ public sealed class SaveContext
 
 | Name | Description |
 | --- | --- |
+| [HierarchyLevel](../../groupdocs.conversion/savecontext/hierarchylevel) { get; } | Hierarchy level. |
+| [ItemIndex](../../groupdocs.conversion/savecontext/itemindex) { get; } | Item index. |
 | [SourceFileName](../../groupdocs.conversion/savecontext/sourcefilename) { get; } | Source file name. |
 | [SourceFormat](../../groupdocs.conversion/savecontext/sourceformat) { get; } | Source format. |
 | [TargetFormat](../../groupdocs.conversion/savecontext/targetformat) { get; } | Target format. |

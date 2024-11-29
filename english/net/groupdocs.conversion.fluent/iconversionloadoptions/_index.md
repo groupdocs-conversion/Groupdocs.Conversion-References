@@ -19,7 +19,6 @@ public interface IConversionLoadOptions
 | Name | Description |
 | --- | --- |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_3)(Func&lt;LoadContext, LoadOptions&gt;) | Provide load options for the document currently being loading |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_1)(Func&lt;LoadOptions&gt;) | Provide load options for the document currently being loading |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions)(LoadOptions) | Set load options |
 
 ### See Also

@@ -3,7 +3,7 @@ title: Png
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PNG Portable Network Graphics refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format GIF and has no copyright limitations. Learn more about this file format herehttps//wiki.fileformat.com/image/png.
 type: docs
-weight: 300
+weight: 310
 url: /net/groupdocs.conversion.filetypes/imagefiletype/png/
 ---
 ## ImageFileType.Png field

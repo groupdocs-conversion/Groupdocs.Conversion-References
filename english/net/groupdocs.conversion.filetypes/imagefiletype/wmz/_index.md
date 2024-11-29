@@ -3,7 +3,7 @@ title: Wmz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: An WMZ file is actually a compressed version of a Microsoft WMF file. This allows for easier distribution of the file online. When an EWMFMF file is compressed using the .GZIP compression algorithm it is then given the .wmz file extension.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.conversion.filetypes/imagefiletype/wmz/
 ---
 ## ImageFileType.Wmz field

@@ -3,7 +3,7 @@ title: Title
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets title
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/title/
 ---
 ## SpreadsheetDocumentInfo.Title property

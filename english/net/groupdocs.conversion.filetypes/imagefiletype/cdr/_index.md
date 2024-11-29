@@ -3,7 +3,7 @@ title: Cdr
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A CDR file is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. Such a drawing file contains text lines shapes images colours and effects for vector representation of image contents. Learn more about this file format herehttps//wiki.fileformat.com/image/cdr.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.filetypes/imagefiletype/cdr/
 ---
 ## ImageFileType.Cdr field

@@ -18,6 +18,7 @@ public class TsvDocumentInfo : SpreadsheetDocumentInfo
 
 | Name | Description |
 | --- | --- |
+| [ActiveWorksheetIndex](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/activeworksheetindex) { get; } | Gets active worksheet index |
 | [Author](../../groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) { get; } | Gets author |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |

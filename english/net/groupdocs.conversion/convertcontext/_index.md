@@ -18,6 +18,7 @@ public sealed class ConvertContext
 
 | Name | Description |
 | --- | --- |
+| [CancellationToken](../../groupdocs.conversion/convertcontext/cancellationtoken) { get; set; } | Cancellation token. |
 | [SourceFileName](../../groupdocs.conversion/convertcontext/sourcefilename) { get; } | Source file name. |
 | [SourceFormat](../../groupdocs.conversion/convertcontext/sourceformat) { get; } | Source format. |
 

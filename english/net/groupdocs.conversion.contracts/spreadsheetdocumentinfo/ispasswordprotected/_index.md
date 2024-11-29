@@ -3,7 +3,7 @@ title: IsPasswordProtected
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets is document password protected
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/ispasswordprotected/
 ---
 ## SpreadsheetDocumentInfo.IsPasswordProtected property
