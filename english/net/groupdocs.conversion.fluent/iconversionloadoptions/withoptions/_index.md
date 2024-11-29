@@ -28,28 +28,6 @@ public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
 
 ---
 
-## WithOptions(Func&lt;LoadOptions&gt;) {#withoptions_1}
-
-Provide load options for the document currently being loading
-
-```csharp
-public IConversionSourceDocumentLoaded WithOptions(Func<LoadOptions> loadOptionsProvider)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadOptionsProvider | Func`1 | Load options provider |
-
-### See Also
-
-* interface [IConversionSourceDocumentLoaded](../../iconversionsourcedocumentloaded)
-* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
-* interface [IConversionLoadOptions](../../iconversionloadoptions)
-* namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
-* assembly [GroupDocs.Conversion](../../../)
-
----
-
 ## WithOptions(Func&lt;LoadContext, LoadOptions&gt;) {#withoptions_3}
 
 Provide load options for the document currently being loading

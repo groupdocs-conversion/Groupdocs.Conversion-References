@@ -3,7 +3,7 @@ title: DisplaySent
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Option to display or hide sent date/time in the header. Default true.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.options.load/emailloadoptions/displaysent/
 ---
 ## EmailLoadOptions.DisplaySent property

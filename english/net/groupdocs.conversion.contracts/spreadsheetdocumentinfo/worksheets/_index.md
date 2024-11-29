@@ -3,7 +3,7 @@ title: Worksheets
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Worksheets names
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets/
 ---
 ## SpreadsheetDocumentInfo.Worksheets property

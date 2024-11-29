@@ -36,6 +36,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Set password to unprotect protected document. |
+| [PreserveDocumentStructure](../../groupdocs.conversion.options.load/presentationloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | Show hidden slides. |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/presentationloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [WhitelistedResources](../../groupdocs.conversion.options.load/presentationloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |

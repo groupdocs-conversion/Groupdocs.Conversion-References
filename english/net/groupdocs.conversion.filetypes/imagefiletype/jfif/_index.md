@@ -3,7 +3,7 @@ title: Jfif
 second_title: GroupDocs.Conversion for .NET API Reference
 description: JFIF JPEG File Interchange Format JFIF is an image format file that uses the .jfif extension. JFIF builds over JIF JPEG Interchange Format by reducing complexity and solving its limitations. Learn more about this file format herehttps//docs.fileformat.com/image/jfif/.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.conversion.filetypes/imagefiletype/jfif/
 ---
 ## ImageFileType.Jfif field
