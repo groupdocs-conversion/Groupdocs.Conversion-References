@@ -16,7 +16,7 @@ Defines the methods that are used to perform logging.
 | --- | --- |
 | [trace(String message)](#trace-java.lang.String-) | Writes trace log message; Trace log messages provides generally useful information about application flow. |
 | [warning(String message)](#warning-java.lang.String-) | Writes warning log message; Warning log messages provides information about unexpected and recoverable event in application flow. |
-| [error(String message, System.Exception exception)](#error-java.lang.String-com.aspose.ms.System.Exception-) | Writes error log message; Error log messages provides information about unrecoverable events in application flow. |
+| [error(String message, Exception exception)](#error-java.lang.String-java.lang.Exception-) | Writes error log message; Error log messages provides information about unrecoverable events in application flow. |
 ### trace(String message) {#trace-java.lang.String-}
 ```
 public abstract void trace(String message)
@@ -43,9 +43,9 @@ Writes warning log message; Warning log messages provides information about unex
 | --- | --- | --- |
 | message | java.lang.String | The warning message. |
 
-### error(String message, System.Exception exception) {#error-java.lang.String-com.aspose.ms.System.Exception-}
+### error(String message, Exception exception) {#error-java.lang.String-java.lang.Exception-}
 ```
-public abstract void error(String message, System.Exception exception)
+public abstract void error(String message, Exception exception)
 ```
 
 
@@ -55,5 +55,5 @@ Writes error log message; Error log messages provides information about unrecove
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | The error message. |
-| exception | com.aspose.ms.System.Exception | The exception. |
+| exception | java.lang.Exception | The exception. |
 
