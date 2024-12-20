@@ -18,6 +18,7 @@ The namespace provides members to instantiate and release output document, manag
 | [CabDocumentInfo](./cabdocumentinfo) | Contains Cab document metadata |
 | [CadDocumentInfo](./caddocumentinfo) | Contains Cad document metadata |
 | [CgmDocumentInfo](./cgmdocumentinfo) | Contains Cgm document metadata |
+| [CompressionNodeInfo](./compressionnodeinfo) | Represents a node in a compressed file |
 | [CpioDocumentInfo](./cpiodocumentinfo) | Contains Cpio document metadata |
 | [CsvDocumentInfo](./csvdocumentinfo) | Contains Csv document metadata |
 | [DiagramDocumentInfo](./diagramdocumentinfo) | Contains Diagram document metadata |
@@ -37,6 +38,7 @@ The namespace provides members to instantiate and release output document, manag
 | [InlineXbrlDocumentInfo](./inlinexbrldocumentinfo) | Contains iXbrl document metadata |
 | [IsoDocumentInfo](./isodocumentinfo) | Contains ISO document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
+| [LhaDocumentInfo](./lhadocumentinfo) | Contains compression document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
@@ -83,6 +85,7 @@ The namespace provides members to instantiate and release output document, manag
 
 | Interface | Description |
 | --- | --- |
+| [ICompressionDocumentHierarchyInfo](./icompressiondocumenthierarchyinfo) | Defines metadata for a compression document hierarchy. |
 | [IDocumentInfo](./idocumentinfo) | Contains metadata for a document. |
 | [IDocumentsContainerLoadOptions](./idocumentscontainerloadoptions) | Loading options for documents container |
 

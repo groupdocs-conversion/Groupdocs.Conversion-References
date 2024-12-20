@@ -3,7 +3,7 @@ title: WebDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Web document metadata
 type: docs
-weight: 630
+weight: 660
 url: /net/groupdocs.conversion.contracts/webdocumentinfo/
 ---
 ## WebDocumentInfo class

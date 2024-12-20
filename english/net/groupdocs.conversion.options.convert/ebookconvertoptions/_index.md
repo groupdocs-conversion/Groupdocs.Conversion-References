@@ -3,7 +3,7 @@ title: EBookConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to EBook file type.
 type: docs
-weight: 1540
+weight: 1570
 url: /net/groupdocs.conversion.options.convert/ebookconvertoptions/
 ---
 ## EBookConvertOptions class
@@ -25,6 +25,7 @@ public class EBookConvertOptions : CommonConvertOptions<EBookFileType>,
 
 | Name | Description |
 | --- | --- |
+| [FallbackPageSize](../../groupdocs.conversion.options.convert/ebookconvertoptions/fallbackpagesize) { get; set; } | Fallback page size |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
 | [PageHeight](../../groupdocs.conversion.options.convert/ebookconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |

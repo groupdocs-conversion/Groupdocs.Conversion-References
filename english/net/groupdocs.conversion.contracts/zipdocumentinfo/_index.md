@@ -3,7 +3,7 @@ title: ZipDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains compression document metadata
 type: docs
-weight: 710
+weight: 740
 url: /net/groupdocs.conversion.contracts/zipdocumentinfo/
 ---
 ## ZipDocumentInfo class
@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.contracts/zipdocumentinfo/
 Contains compression document metadata
 
 ```csharp
-public class ZipDocumentInfo : DocumentInfo
+public class ZipDocumentInfo : DocumentInfo, ICompressionDocumentHierarchyInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [ContentTree](../../groupdocs.conversion.contracts/zipdocumentinfo/contenttree) { get; } | Gets the hierarchical structure of the compressed content. |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
@@ -28,6 +29,7 @@ public class ZipDocumentInfo : DocumentInfo
 ### See Also
 
 * class [DocumentInfo](../documentinfo)
+* interface [ICompressionDocumentHierarchyInfo](../icompressiondocumenthierarchyinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

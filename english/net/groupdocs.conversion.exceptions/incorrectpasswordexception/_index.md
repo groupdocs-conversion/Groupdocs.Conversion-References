@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: GroupDocs exception thrown when the file is password protected password is provided but is incorrect
 type: docs
-weight: 830
+weight: 860
 url: /net/groupdocs.conversion.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
@@ -18,9 +18,7 @@ public sealed class IncorrectPasswordException : GroupDocsConversionException
 
 | Name | Description |
 | --- | --- |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor)() | Default constructor |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(FileType) | Creates an exception instance with a FileType |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_2)(string) | Creates an exception instance with a message |
+| [IncorrectPasswordException](incorrectpasswordexception)() | Default constructor |
 
 ### See Also
 

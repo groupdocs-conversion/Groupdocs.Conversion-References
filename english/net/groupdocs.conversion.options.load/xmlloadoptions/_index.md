@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 2520
+weight: 2550
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -39,6 +39,7 @@ public sealed class XmlLoadOptions : WebLoadOptions
 | [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 | [XslFoFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xslfofactory) { get; set; } | XSL-FO document stream to convert XML using XSL-FO markup file. |
 | [XsltFactory](../../groupdocs.conversion.options.load/xmlloadoptions/xsltfactory) { get; set; } | XSLT document stream to convert XML performing XSL transformation to HTML. |
+| [Zoom](../../groupdocs.conversion.options.load/webloadoptions/zoom) { get; set; } | Specifies the zoom level as a percentage. The zoom level is applied to the document's &lt;body&gt; tag before conversion, scaling the document's visual appearance. A value of 100% represents the original size. The default value is 100. |
 
 ## Methods
 

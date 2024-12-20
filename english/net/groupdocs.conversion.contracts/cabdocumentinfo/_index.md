@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.contracts/cabdocumentinfo/
 Contains Cab document metadata
 
 ```csharp
-public class CabDocumentInfo : DocumentInfo
+public class CabDocumentInfo : DocumentInfo, ICompressionDocumentHierarchyInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [ContentTree](../../groupdocs.conversion.contracts/cabdocumentinfo/contenttree) { get; } | Gets the hierarchical structure of the compressed content. |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
@@ -28,6 +29,7 @@ public class CabDocumentInfo : DocumentInfo
 ### See Also
 
 * class [DocumentInfo](../documentinfo)
+* interface [ICompressionDocumentHierarchyInfo](../icompressiondocumenthierarchyinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

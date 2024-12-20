@@ -3,7 +3,7 @@ title: DiagramDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Diagram document metadata
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.contracts/diagramdocumentinfo/
 ---
 ## DiagramDocumentInfo class

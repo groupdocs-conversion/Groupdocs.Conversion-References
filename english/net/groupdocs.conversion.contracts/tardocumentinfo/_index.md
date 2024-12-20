@@ -3,7 +3,7 @@ title: TarDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Tar document metadata
 type: docs
-weight: 530
+weight: 560
 url: /net/groupdocs.conversion.contracts/tardocumentinfo/
 ---
 ## TarDocumentInfo class
@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.contracts/tardocumentinfo/
 Contains Tar document metadata
 
 ```csharp
-public class TarDocumentInfo : DocumentInfo
+public class TarDocumentInfo : DocumentInfo, ICompressionDocumentHierarchyInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [ContentTree](../../groupdocs.conversion.contracts/tardocumentinfo/contenttree) { get; } | Gets the hierarchical structure of the compressed content. |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
@@ -28,6 +29,7 @@ public class TarDocumentInfo : DocumentInfo
 ### See Also
 
 * class [DocumentInfo](../documentinfo)
+* interface [ICompressionDocumentHierarchyInfo](../icompressiondocumenthierarchyinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

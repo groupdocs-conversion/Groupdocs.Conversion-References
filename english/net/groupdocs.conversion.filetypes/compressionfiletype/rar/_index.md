@@ -3,7 +3,7 @@ title: Rar
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with .rar extension are archive files that are created for storing information in compressed or normal form. RAR which stands for Roshal ARchive file format. Learn more about this file format herehttps//docs.fileformat.com/compression/rar/.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/rar/
 ---
 ## CompressionFileType.Rar field

@@ -3,7 +3,7 @@ title: HtmlRenderingModes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes html rendering modes enumeration.
 type: docs
-weight: 2230
+weight: 2260
 url: /net/groupdocs.conversion.options.load/htmlrenderingmodes/
 ---
 ## HtmlRenderingModes class

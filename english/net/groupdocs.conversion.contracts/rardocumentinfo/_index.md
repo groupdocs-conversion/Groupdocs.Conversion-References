@@ -3,7 +3,7 @@ title: RarDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Rar document metadata
 type: docs
-weight: 480
+weight: 510
 url: /net/groupdocs.conversion.contracts/rardocumentinfo/
 ---
 ## RarDocumentInfo class
@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.contracts/rardocumentinfo/
 Contains Rar document metadata
 
 ```csharp
-public class RarDocumentInfo : DocumentInfo
+public class RarDocumentInfo : DocumentInfo, ICompressionDocumentHierarchyInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [ContentTree](../../groupdocs.conversion.contracts/rardocumentinfo/contenttree) { get; } | Gets the hierarchical structure of the compressed content. |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
@@ -28,6 +29,7 @@ public class RarDocumentInfo : DocumentInfo
 ### See Also
 
 * class [DocumentInfo](../documentinfo)
+* interface [ICompressionDocumentHierarchyInfo](../icompressiondocumenthierarchyinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 
