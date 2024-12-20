@@ -3,7 +3,7 @@ title: Lzma
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .lzma extension is a compressed archive file created using the LZMA LempelZivMarkov chain Algorithm compression method. These are mainly found/used on Unix operating system and are similar to other compression algorithms such as ZIP for minimising file size. Learn more about this file format herehttps//docs.fileformat.com/compression/lzma/.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
 ---
 ## CompressionFileType.Lzma field

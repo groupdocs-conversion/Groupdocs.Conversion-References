@@ -3,7 +3,7 @@ title: MarginBottom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginBottomgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginbottom
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginbottom/
 ---
 ## PdfConvertOptions.MarginBottom property

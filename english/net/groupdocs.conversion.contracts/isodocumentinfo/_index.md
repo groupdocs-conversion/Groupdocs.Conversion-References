@@ -3,7 +3,7 @@ title: IsoDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains ISO document metadata
 type: docs
-weight: 300
+weight: 320
 url: /net/groupdocs.conversion.contracts/isodocumentinfo/
 ---
 ## IsoDocumentInfo class
@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.contracts/isodocumentinfo/
 Contains ISO document metadata
 
 ```csharp
-public class IsoDocumentInfo : DocumentInfo
+public class IsoDocumentInfo : DocumentInfo, ICompressionDocumentHierarchyInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [ContentTree](../../groupdocs.conversion.contracts/isodocumentinfo/contenttree) { get; } | Gets the hierarchical structure of the compressed content. |
 | [CreationDate](../../groupdocs.conversion.contracts/documentinfo/creationdate) { get; } | Implements [`CreationDate`](../idocumentinfo/creationdate) |
 | [Format](../../groupdocs.conversion.contracts/documentinfo/format) { get; } | Implements [`Format`](../idocumentinfo/format) |
 | [Item](../../groupdocs.conversion.contracts/documentinfo/item) { get; } | Implements [`Item`](../idocumentinfo/item) |
@@ -28,6 +29,7 @@ public class IsoDocumentInfo : DocumentInfo
 ### See Also
 
 * class [DocumentInfo](../documentinfo)
+* interface [ICompressionDocumentHierarchyInfo](../icompressiondocumenthierarchyinfo)
 * namespace [GroupDocs.Conversion.Contracts](../../groupdocs.conversion.contracts)
 * assembly [GroupDocs.Conversion](../../)
 

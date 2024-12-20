@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2490
+weight: 2520
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class
@@ -36,6 +36,7 @@ public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceL
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | Use pdf for the conversion. Default: false |
 | [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [Zoom](../../groupdocs.conversion.options.load/webloadoptions/zoom) { get; set; } | Specifies the zoom level as a percentage. The zoom level is applied to the document's &lt;body&gt; tag before conversion, scaling the document's visual appearance. A value of 100% represents the original size. The default value is 100. |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: MarginRight
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements MarginRightgroupdocs.conversion.options.convert/ipagemarginconvertoptions/marginright
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright/
 ---
 ## WordProcessingConvertOptions.MarginRight property

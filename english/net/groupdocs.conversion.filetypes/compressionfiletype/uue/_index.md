@@ -3,7 +3,7 @@ title: Uue
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A uuencoded archive is a file or collection of files that have been encoded using the UnixtoUnix encoding scheme uuencode. This encoding method converts binary data into a text format which makes it easier to send files over channels that only support text such as email.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/uue/
 ---
 ## CompressionFileType.Uue field

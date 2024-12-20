@@ -3,7 +3,7 @@ title: PageWidth
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements PageWidthgroupdocs.conversion.options.convert/ipagesizeconvertoptions/pagewidth
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/pagewidth/
 ---
 ## PdfConvertOptions.PageWidth property

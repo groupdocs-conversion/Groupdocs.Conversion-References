@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements PageSizegroupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize/
 ---
 ## WordProcessingConvertOptions.PageSize property
