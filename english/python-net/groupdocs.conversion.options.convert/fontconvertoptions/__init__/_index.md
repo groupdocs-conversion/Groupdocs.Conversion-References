@@ -10,7 +10,7 @@ is_root: false
 
 ## __init__ {#}
 
-Initializes new instance of AudioConvertOptions class.
+Initializes new instance of [`FontConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions) class.
 
 
 

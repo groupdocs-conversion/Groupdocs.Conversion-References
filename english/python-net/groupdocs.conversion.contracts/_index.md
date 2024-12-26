@@ -13,7 +13,6 @@ The module provides members to instantiate and release output document, manage f
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo) | Contains Audio document metadata |
 | [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo) | Object containing array of pixels and bitmap information. |
 | [`Bzip2DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/bzip2documentinfo) | Contains Bzip2 document metadata |
 | [`CabDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cabdocumentinfo) | Contains Cab document metadata |
@@ -28,7 +27,7 @@ The module provides members to instantiate and release output document, manage f
 | [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration) | Generic enumeration class. |
 | [`EpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epsdocumentinfo) | Contains Ps document metadata |
 | [`EpubDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epubdocumentinfo) | Contains Epub document metadata |
-| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo) |  |
+| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo) | Contains Font document metadata |
 | [`FontSubstitute`](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute) | Describes substitution for missing font. |
 | [`GisDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gisdocumentinfo) | Contains GIS document metadata |
 | [`GzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo) | Contains Gzip document metadata |
@@ -71,7 +70,6 @@ The module provides members to instantiate and release output document, manage f
 | [`UueDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/uuedocumentinfo) | Contains Uue document metadata |
 | [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject) | Abstract value object class. |
 | [`VcfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo) | Contains Vcf document metadata |
-| [`VideoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo) |  |
 | [`WebDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/webdocumentinfo) | Contains Web document metadata |
 | [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
 | [`XbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xbrldocumentinfo) | Contains Xbrl document metadata |

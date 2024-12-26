@@ -3,7 +3,7 @@ title: TargetConversion class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 510
+weight: 500
 url: /python-net/groupdocs.conversion.contracts/targetconversion/
 is_root: false
 ---

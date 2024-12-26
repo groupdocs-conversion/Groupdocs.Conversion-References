@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /python-net/
 is_root: true
-version: 24.11
+version: 24.12
 ---
 
 ### Modules

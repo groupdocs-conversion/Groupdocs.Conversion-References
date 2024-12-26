@@ -3,7 +3,7 @@ title: Enumeration class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /python-net/groupdocs.conversion.contracts/enumeration/
 is_root: false
 ---

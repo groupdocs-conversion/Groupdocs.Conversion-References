@@ -3,12 +3,14 @@ title: FontDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /python-net/groupdocs.conversion.contracts/fontdocumentinfo/
 is_root: false
 ---
 
 ## FontDocumentInfo class
+
+Contains Font document metadata
 
 
 

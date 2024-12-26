@@ -3,7 +3,7 @@ title: TableOfContentsItem class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 490
+weight: 480
 url: /python-net/groupdocs.conversion.contracts/tableofcontentsitem/
 is_root: false
 ---

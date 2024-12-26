@@ -3,7 +3,7 @@ title: BitmapInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /python-net/groupdocs.conversion.contracts/bitmapinfo/
 is_root: false
 ---

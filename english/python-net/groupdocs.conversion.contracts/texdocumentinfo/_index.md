@@ -3,7 +3,7 @@ title: TexDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 520
+weight: 510
 url: /python-net/groupdocs.conversion.contracts/texdocumentinfo/
 is_root: false
 ---

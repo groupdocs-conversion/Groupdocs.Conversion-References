@@ -3,7 +3,7 @@ title: CsvDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /python-net/groupdocs.conversion.contracts/csvdocumentinfo/
 is_root: false
 ---
