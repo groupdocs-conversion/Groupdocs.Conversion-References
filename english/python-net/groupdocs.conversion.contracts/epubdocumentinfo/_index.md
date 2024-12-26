@@ -3,7 +3,7 @@ title: EpubDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 150
+weight: 140
 url: /python-net/groupdocs.conversion.contracts/epubdocumentinfo/
 is_root: false
 ---

@@ -3,7 +3,7 @@ title: PresentationDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 400
+weight: 390
 url: /python-net/groupdocs.conversion.contracts/presentationdocumentinfo/
 is_root: false
 ---

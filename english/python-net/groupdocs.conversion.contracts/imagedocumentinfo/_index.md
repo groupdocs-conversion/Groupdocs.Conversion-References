@@ -3,7 +3,7 @@ title: ImageDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 240
+weight: 230
 url: /python-net/groupdocs.conversion.contracts/imagedocumentinfo/
 is_root: false
 ---

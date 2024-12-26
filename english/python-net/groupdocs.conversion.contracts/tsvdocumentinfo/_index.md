@@ -3,7 +3,7 @@ title: TsvDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 540
+weight: 530
 url: /python-net/groupdocs.conversion.contracts/tsvdocumentinfo/
 is_root: false
 ---

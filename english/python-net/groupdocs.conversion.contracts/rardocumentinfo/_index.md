@@ -3,7 +3,7 @@ title: RarDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 450
+weight: 440
 url: /python-net/groupdocs.conversion.contracts/rardocumentinfo/
 is_root: false
 ---

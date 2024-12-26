@@ -3,7 +3,7 @@ title: PersonalStorageDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 360
+weight: 350
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 is_root: false
 ---

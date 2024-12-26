@@ -3,7 +3,7 @@ title: ZstDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 690
+weight: 670
 url: /python-net/groupdocs.conversion.contracts/zstdocumentinfo/
 is_root: false
 ---

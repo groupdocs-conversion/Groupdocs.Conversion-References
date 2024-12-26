@@ -27,7 +27,7 @@ The module provides members to instantiate and release output document, manage f
 | [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration) | Generic enumeration class. |
 | [`EpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epsdocumentinfo) | Contains Ps document metadata |
 | [`EpubDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epubdocumentinfo) | Contains Epub document metadata |
-| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo) |  |
+| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo) | Contains Font document metadata |
 | [`FontSubstitute`](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute) | Describes substitution for missing font. |
 | [`GisDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gisdocumentinfo) | Contains GIS document metadata |
 | [`GzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo) | Contains Gzip document metadata |
@@ -50,8 +50,7 @@ The module provides members to instantiate and release output document, manage f
 | [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo) | Contains personal storage document metadata |
 | [`PersonalStorageFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo) | Personal Storage Folder info |
 | [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo) | Personal Storage Item info |
-| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions) | Represents a mapping what conversion pairs
-<br/>are supported for specific source file format |
+| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions) | Represents a mapping what conversion pairs<br/>are supported for specific source file format |
 | [`PresentationDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/presentationdocumentinfo) | Contains Presentation document metadata |
 | [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo) | Contains ProjectManagement document metadata |
 | [`PsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psdocumentinfo) | Contains Ps document metadata |

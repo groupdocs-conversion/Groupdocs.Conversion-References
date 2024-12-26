@@ -25,7 +25,7 @@ The FontConvertOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions/__init__/#) | Initializes new instance of FontConvertOptions class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions/__init__/#) | Initializes new instance of [`FontConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions) class. |
 
 
 ### Properties

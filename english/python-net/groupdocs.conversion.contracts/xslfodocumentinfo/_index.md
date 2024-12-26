@@ -3,7 +3,7 @@ title: XslFoDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 650
+weight: 630
 url: /python-net/groupdocs.conversion.contracts/xslfodocumentinfo/
 is_root: false
 ---

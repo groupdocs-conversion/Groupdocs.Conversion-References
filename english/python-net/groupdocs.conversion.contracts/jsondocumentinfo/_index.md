@@ -3,7 +3,7 @@ title: JsonDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 270
+weight: 260
 url: /python-net/groupdocs.conversion.contracts/jsondocumentinfo/
 is_root: false
 ---

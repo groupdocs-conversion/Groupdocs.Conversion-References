@@ -3,7 +3,7 @@ title: DjVuDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/
 is_root: false
 ---

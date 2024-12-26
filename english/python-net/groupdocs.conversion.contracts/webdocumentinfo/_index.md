@@ -3,7 +3,7 @@ title: WebDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 600
+weight: 580
 url: /python-net/groupdocs.conversion.contracts/webdocumentinfo/
 is_root: false
 ---

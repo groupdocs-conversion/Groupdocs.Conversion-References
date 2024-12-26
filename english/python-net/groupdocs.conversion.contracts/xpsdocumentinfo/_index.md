@@ -3,7 +3,7 @@ title: XpsDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 640
+weight: 620
 url: /python-net/groupdocs.conversion.contracts/xpsdocumentinfo/
 is_root: false
 ---

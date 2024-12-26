@@ -3,7 +3,7 @@ title: XzDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 660
+weight: 640
 url: /python-net/groupdocs.conversion.contracts/xzdocumentinfo/
 is_root: false
 ---
