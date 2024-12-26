@@ -11,7 +11,7 @@ is_root: false
 ## format property
 
 
-Overrides the Format property to ensure it is of type CompressionFileType.
+Overrides the Format property to ensure it is of type AudioFileType.
 ### Definition:
 ```python
 @property

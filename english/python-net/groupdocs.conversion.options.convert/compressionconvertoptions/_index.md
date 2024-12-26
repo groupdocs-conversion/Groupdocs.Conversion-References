@@ -31,7 +31,7 @@ The CompressionConvertOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/format) | Overrides the Format property to ensure it is of type CompressionFileType. |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/format) | Overrides the Format property to ensure it is of type AudioFileType. |
 | [password](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/password) | Set this property if you want to protect the converted document with a password. |
 
 
