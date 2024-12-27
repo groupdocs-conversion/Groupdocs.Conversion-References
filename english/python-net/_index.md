@@ -3,7 +3,7 @@ title: GroupDocs.Conversion for Python via .NET
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /python-net/
 is_root: true
 version: 24.12
