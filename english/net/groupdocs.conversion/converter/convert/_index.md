@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/groupdocs.conversion/converter/convert/
 ---
-## Convert(Func&lt;SaveContext, Stream&gt;, ConvertOptions, CancellationToken) {#convert_12}
+## Convert(Func&lt;SaveContext, Stream&gt;, ConvertOptions, CancellationToken) {#convert_4}
 
 Converts source document. Saves the whole converted document.
 
@@ -70,7 +70,7 @@ public void Convert(ConvertOptions convertOptions, Action<ConvertedContext> docu
 
 ---
 
-## Convert(Func&lt;SaveContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) {#convert_13}
+## Convert(Func&lt;SaveContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) {#convert_5}
 
 Converts source document. Saves the whole converted document.
 
@@ -104,7 +104,7 @@ public void Convert(Func<SaveContext, Stream> targetStreamProvider,
 
 ---
 
-## Convert(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedContext&gt;, CancellationToken) {#convert_6}
+## Convert(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedContext&gt;, CancellationToken) {#convert_2}
 
 Converts source document. Saves the whole converted document.
 
@@ -137,7 +137,7 @@ public void Convert(Func<ConvertContext, ConvertOptions> convertOptionsProvider,
 
 ---
 
-## Convert(string, ConvertOptions, CancellationToken) {#convert_26}
+## Convert(string, ConvertOptions, CancellationToken) {#convert_8}
 
 Converts source document. Saves the whole converted document.
 
@@ -168,7 +168,7 @@ public void Convert(string filePath, ConvertOptions convertOptions,
 
 ---
 
-## Convert(Func&lt;SavePageContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) {#convert_15}
+## Convert(Func&lt;SavePageContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) {#convert_7}
 
 Converts source document. Saves the converted document page by page.
 
@@ -202,7 +202,7 @@ public void Convert(Func<SavePageContext, Stream> targetStreamProvider,
 
 ---
 
-## Convert(Func&lt;SavePageContext, Stream&gt;, ConvertOptions, CancellationToken) {#convert_14}
+## Convert(Func&lt;SavePageContext, Stream&gt;, ConvertOptions, CancellationToken) {#convert_6}
 
 Converts source document. Saves the converted document page by page.
 
@@ -266,7 +266,7 @@ public void Convert(ConvertOptions convertOptions, Action<ConvertedPageContext> 
 
 ---
 
-## Convert(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedPageContext&gt;, CancellationToken) {#convert_7}
+## Convert(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedPageContext&gt;, CancellationToken) {#convert_3}
 
 Converts source document. Saves the converted document page by page.
 

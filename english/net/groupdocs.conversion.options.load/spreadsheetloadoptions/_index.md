@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 2430
+weight: 2440
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
@@ -46,6 +46,7 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | If True and converting to Pdf the conversion is optimized for better file size than print quality. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveDocumentStructure](../../groupdocs.conversion.options.load/spreadsheetloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
+| [PrintComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/printcomments) { get; set; } | Represents the way comments are printed with the sheet. Default is PrintNoComments. |
 | [RowsPerPage](../../groupdocs.conversion.options.load/spreadsheetloadoptions/rowsperpage) { get; set; } | Split a worksheet into pages by rows. Default is 0, no pagination. |
 | [SheetIndexes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheetindexes) { get; set; } | List of sheet indexes to convert. The indexes must be zero-based |
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Sheet name to convert |

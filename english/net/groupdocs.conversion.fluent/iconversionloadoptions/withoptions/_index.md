@@ -28,7 +28,7 @@ public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
 
 ---
 
-## WithOptions(Func&lt;LoadContext, LoadOptions&gt;) {#withoptions_3}
+## WithOptions(Func&lt;LoadContext, LoadOptions&gt;) {#withoptions_1}
 
 Provide load options for the document currently being loading
 

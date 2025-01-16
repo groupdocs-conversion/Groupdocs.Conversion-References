@@ -18,7 +18,7 @@ public interface IConversionByPageCompleted
 
 | Name | Description |
 | --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted#onconversioncompleted)(Action&lt;ConvertedPageContext&gt;) | Receive converted page stream. Will be fired only if "ConvertTo(convertedStreamProvider)" is set. |
+| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagecompleted/onconversioncompleted)(Action&lt;ConvertedPageContext&gt;) | Receive converted page stream. Will be fired only if "ConvertTo(convertedStreamProvider)" is set. |
 
 ### See Also
 

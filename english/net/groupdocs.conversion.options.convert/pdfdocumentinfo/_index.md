@@ -3,7 +3,7 @@ title: PdfDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents meta information of PDF document.
 type: docs
-weight: 1830
+weight: 1840
 url: /net/groupdocs.conversion.options.convert/pdfdocumentinfo/
 ---
 ## PdfDocumentInfo class

@@ -3,7 +3,7 @@ title: Sheets
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Sheet name to convert
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheets/
 ---
 ## SpreadsheetLoadOptions.Sheets property

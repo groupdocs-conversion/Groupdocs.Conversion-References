@@ -20,7 +20,7 @@ public class GroupDocsConversionException : Exception
 | --- | --- |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor)() | Default constructor |
 | [GroupDocsConversionException](groupdocsconversionexception#constructor_1)(string) | Creates an exception with a specific message |
-| [GroupDocsConversionException](groupdocsconversionexception#constructor_2)(string, Exception) | Create an exception with a specific message and propagate the inner exception |
+| [GroupDocsConversionException](groupdocsconversionexception#constructor_2)(string, Exception) | Creates an exception with a specific message and propagates the inner exception |
 
 ### See Also
 

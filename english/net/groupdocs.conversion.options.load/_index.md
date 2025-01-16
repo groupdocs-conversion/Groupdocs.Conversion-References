@@ -43,6 +43,7 @@ The namespace provides classes to specify additional options for document loadin
 | [PublisherLoadOptions](./publisherloadoptions) | Options for loading Publisher documents. |
 | [RasterImageLoadOptions](./rasterimageloadoptions) | Options for loading Image documents. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Options for loading Spreadsheet documents. |
+| [SpreadsheetPrintComments](./spreadsheetprintcomments) | Represents the way comments are printed with the sheet. |
 | [ThreeDLoadOptions](./threedloadoptions) | Options for loading 3D documents. |
 | [TsvLoadOptions](./tsvloadoptions) | Options for loading Tsv documents. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions) | Describes txt leading spaces options enumeration. |

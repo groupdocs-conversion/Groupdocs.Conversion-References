@@ -3,7 +3,7 @@ title: RasterImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Image documents.
 type: docs
-weight: 2420
+weight: 2430
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/
 ---
 ## RasterImageLoadOptions class

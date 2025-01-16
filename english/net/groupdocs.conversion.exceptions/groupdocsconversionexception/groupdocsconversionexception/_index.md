@@ -44,7 +44,7 @@ public GroupDocsConversionException(string message)
 
 ## GroupDocsConversionException(string, Exception) {#constructor_2}
 
-Create an exception with a specific message and propagate the inner exception
+Creates an exception with a specific message and propagates the inner exception
 
 ```csharp
 public GroupDocsConversionException(string message, Exception exception)

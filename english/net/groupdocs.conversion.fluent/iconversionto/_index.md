@@ -18,9 +18,9 @@ public interface IConversionTo
 
 | Name | Description |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;SavePageContext, Stream&gt;) | Save converted page as stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(Func&lt;SaveContext, Stream&gt;) | Save converted document as stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_3)(string) | Save converted document as file |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto)(Func&lt;SavePageContext, Stream&gt;) | Save converted page as stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;SaveContext, Stream&gt;) | Save converted document as stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(string) | Save converted document as file |
 
 ### See Also
 

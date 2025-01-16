@@ -19,11 +19,11 @@ public sealed class Converter : IDisposable
 | Name | Description |
 | --- | --- |
 | [Converter](converter#constructor)(Func&lt;Stream&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_8)(string) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_3)(string) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_1)(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_9)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_6)(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_14)(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_4)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_2)(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_5)(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
 
 ## Methods
 
@@ -31,13 +31,13 @@ public sealed class Converter : IDisposable
 | --- | --- |
 | [Convert](../../groupdocs.conversion/converter/convert#convert)(ConvertOptions, Action&lt;ConvertedContext&gt;, CancellationToken) | Converts source document. Saves the whole converted document. |
 | [Convert](../../groupdocs.conversion/converter/convert#convert_1)(ConvertOptions, Action&lt;ConvertedPageContext&gt;, CancellationToken) | Converts source document. Saves the converted document page by page. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedContext&gt;, CancellationToken) | Converts source document. Saves the whole converted document. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedPageContext&gt;, CancellationToken) | Converts source document. Saves the converted document page by page. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_12)(Func&lt;SaveContext, Stream&gt;, ConvertOptions, CancellationToken) | Converts source document. Saves the whole converted document. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_13)(Func&lt;SaveContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) | Converts source document. Saves the whole converted document. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_14)(Func&lt;SavePageContext, Stream&gt;, ConvertOptions, CancellationToken) | Converts source document. Saves the converted document page by page. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_15)(Func&lt;SavePageContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) | Converts source document. Saves the converted document page by page. |
-| [Convert](../../groupdocs.conversion/converter/convert#convert_26)(string, ConvertOptions, CancellationToken) | Converts source document. Saves the whole converted document. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_2)(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedContext&gt;, CancellationToken) | Converts source document. Saves the whole converted document. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_3)(Func&lt;ConvertContext, ConvertOptions&gt;, Action&lt;ConvertedPageContext&gt;, CancellationToken) | Converts source document. Saves the converted document page by page. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_4)(Func&lt;SaveContext, Stream&gt;, ConvertOptions, CancellationToken) | Converts source document. Saves the whole converted document. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_5)(Func&lt;SaveContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) | Converts source document. Saves the whole converted document. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_6)(Func&lt;SavePageContext, Stream&gt;, ConvertOptions, CancellationToken) | Converts source document. Saves the converted document page by page. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_7)(Func&lt;SavePageContext, Stream&gt;, Func&lt;ConvertContext, ConvertOptions&gt;, CancellationToken) | Converts source document. Saves the converted document page by page. |
+| [Convert](../../groupdocs.conversion/converter/convert#convert_8)(string, ConvertOptions, CancellationToken) | Converts source document. Saves the whole converted document. |
 | [Dispose](../../groupdocs.conversion/converter/dispose)() | Releases resources. |
 | [GetDocumentInfo](../../groupdocs.conversion/converter/getdocumentinfo#getdocumentinfo)() | Gets source document info - pages count and other document properties specific to the file type. |
 | [GetDocumentInfo&lt;T&gt;](../../groupdocs.conversion/converter/getdocumentinfo#getdocumentinfo_1)() | Gets source document info - pages count and other document properties specific to the file type. |
