@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Presentation documents.
 type: docs
-weight: 2410
+weight: 2430
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
@@ -27,6 +27,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | --- | --- |
 | [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/presentationloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
 | [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/presentationloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
+| [CommentsPosition](../../groupdocs.conversion.options.load/presentationloadoptions/commentsposition) { get; set; } | Represents the way comments are printed with the slide. Default is None. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/presentationloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/presentationloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/presentationloadoptions/defaultfont) { get; set; } | Default font for rendering the presentation. The following font will be used if a presentation font is missing. |
@@ -34,7 +35,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [FontSubstitutes](../../groupdocs.conversion.options.load/presentationloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Presentation document. |
 | [Format](../../groupdocs.conversion.options.load/presentationloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
-| [HideComments](../../groupdocs.conversion.options.load/presentationloadoptions/hidecomments) { get; set; } | Hide comments. |
+| [NotesPosition](../../groupdocs.conversion.options.load/presentationloadoptions/notesposition) { get; set; } | Represents the way notes are printed with the slide. Default is None. |
 | [Password](../../groupdocs.conversion.options.load/presentationloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveDocumentStructure](../../groupdocs.conversion.options.load/presentationloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [ShowHiddenSlides](../../groupdocs.conversion.options.load/presentationloadoptions/showhiddenslides) { get; set; } | Show hidden slides. |

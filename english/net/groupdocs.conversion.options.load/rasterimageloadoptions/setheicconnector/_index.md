@@ -3,7 +3,7 @@ title: SetHeicConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set Heic image connector
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/setheicconnector/
 ---
 ## RasterImageLoadOptions.SetHeicConnector method

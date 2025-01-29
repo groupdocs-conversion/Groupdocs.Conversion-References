@@ -3,7 +3,7 @@ title: SetOcrConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set image OCR connector
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/setocrconnector/
 ---
 ## RasterImageLoadOptions.SetOcrConnector method

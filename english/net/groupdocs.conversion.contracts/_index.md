@@ -57,6 +57,7 @@ The namespace provides members to instantiate and release output document, manag
 | [PsDocumentInfo](./psdocumentinfo) | Contains Ps document metadata |
 | [PublisherDocumentInfo](./publisherdocumentinfo) | Contains Publisher document metadata |
 | [RarDocumentInfo](./rardocumentinfo) | Contains Rar document metadata |
+| [Rectangle](./rectangle) | Represents a rectangle defined by its edges for cropping purposes. |
 | [SevenZipDocumentInfo](./sevenzipdocumentinfo) | Contains 7Zip document metadata |
 | [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | Contains Spreadsheet document metadata |
 | [SvgDocumentInfo](./svgdocumentinfo) | Contains Svg document metadata |

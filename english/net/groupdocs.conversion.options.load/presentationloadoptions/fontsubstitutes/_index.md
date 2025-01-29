@@ -3,7 +3,7 @@ title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Substitute specific fonts when converting Presentation document.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/fontsubstitutes/
 ---
 ## PresentationLoadOptions.FontSubstitutes property

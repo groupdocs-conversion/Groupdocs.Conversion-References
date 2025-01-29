@@ -3,7 +3,7 @@ title: SetVideoConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set video document connector
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/setvideoconnector/
 ---
 ## PresentationLoadOptions.SetVideoConnector method

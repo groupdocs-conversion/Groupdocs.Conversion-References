@@ -3,7 +3,7 @@ title: CsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Csv documents.
 type: docs
-weight: 2160
+weight: 2170
 url: /net/groupdocs.conversion.options.load/csvloadoptions/
 ---
 ## CsvLoadOptions class
@@ -43,7 +43,6 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [Format](../../groupdocs.conversion.options.load/csvloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HasFormula](../../groupdocs.conversion.options.load/csvloadoptions/hasformula) { get; set; } | Indicates whether text is formula if it starts with "=". |
-| [HideComments](../../groupdocs.conversion.options.load/spreadsheetloadoptions/hidecomments) { get; set; } | Hide comments. |
 | [IgnoreFormulaCalculationErrors](../../groupdocs.conversion.options.load/spreadsheetloadoptions/ignoreformulacalculationerrors) { get; set; } | Indicates whether to ignore formula calculation errors. The error may be unsupported function, external links, etc. Default is false. |
 | [IsMultiEncoded](../../groupdocs.conversion.options.load/csvloadoptions/ismultiencoded) { get; set; } | True means the file contains several encodings. |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true. |

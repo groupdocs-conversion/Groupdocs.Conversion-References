@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Image file type.
 type: docs
-weight: 1720
+weight: 1730
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -27,6 +27,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [BackgroundColor](../../groupdocs.conversion.options.convert/imageconvertoptions/backgroundcolor) { get; set; } | Sets background color where supported by the source format |
 | [Brightness](../../groupdocs.conversion.options.convert/imageconvertoptions/brightness) { get; set; } | Adjusts image brightness. |
 | [Contrast](../../groupdocs.conversion.options.convert/imageconvertoptions/contrast) { get; set; } | Adjusts image contrast. |
+| [CropArea](../../groupdocs.conversion.options.convert/imageconvertoptions/croparea) { get; set; } | Crop raster image area after conversion |
 | [FlipMode](../../groupdocs.conversion.options.convert/imageconvertoptions/flipmode) { get; set; } | Image flip mode. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |

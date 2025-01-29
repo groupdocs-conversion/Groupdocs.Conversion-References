@@ -3,7 +3,7 @@ title: WebFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Web documents. Includes the following file types Xml./webfiletype/xmlJson./webfiletype/jsonHtml./webfiletype/htmlHtm./webfiletype/htmMht./webfiletype/mhtMhtml./webfiletype/mhtmlChm./webfiletype/chm
 type: docs
-weight: 1120
+weight: 1130
 url: /net/groupdocs.conversion.filetypes/webfiletype/
 ---
 ## WebFileType class

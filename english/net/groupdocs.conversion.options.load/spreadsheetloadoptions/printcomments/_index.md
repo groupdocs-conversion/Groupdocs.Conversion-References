@@ -3,7 +3,7 @@ title: PrintComments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way comments are printed with the sheet. Default is PrintNoComments.
 type: docs
-weight: 220
+weight: 210
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/printcomments/
 ---
 ## SpreadsheetLoadOptions.PrintComments property
