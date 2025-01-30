@@ -3,7 +3,7 @@ title: FlipMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Image flip mode.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/flipmode/
 ---
 ## ImageConvertOptions.FlipMode property

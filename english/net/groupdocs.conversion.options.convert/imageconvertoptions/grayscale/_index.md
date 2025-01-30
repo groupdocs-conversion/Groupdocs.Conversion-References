@@ -3,7 +3,7 @@ title: Grayscale
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Indicates whether to convert into grayscale image.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/grayscale/
 ---
 ## ImageConvertOptions.Grayscale property

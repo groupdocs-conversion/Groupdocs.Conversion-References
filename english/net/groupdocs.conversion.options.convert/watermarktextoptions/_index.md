@@ -3,7 +3,7 @@ title: WatermarkTextOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for settings text watermark to the converted document
 type: docs
-weight: 2060
+weight: 2080
 url: /net/groupdocs.conversion.options.convert/watermarktextoptions/
 ---
 ## WatermarkTextOptions class

@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/groupdocs.conversion.fluent/iconversionto/convertto/
 ---
-## ConvertTo(string) {#convertto_3}
+## ConvertTo(string) {#convertto_1}
 
 Save converted document as file
 
@@ -31,7 +31,7 @@ Interface to continue conversion building
 
 ---
 
-## ConvertTo(Func&lt;SaveContext, Stream&gt;) {#convertto_2}
+## ConvertTo(Func&lt;SaveContext, Stream&gt;) {#convertto}
 
 Save converted document as stream
 

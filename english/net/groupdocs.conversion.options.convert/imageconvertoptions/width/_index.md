@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired image width after conversion.
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/width/
 ---
 ## ImageConvertOptions.Width property

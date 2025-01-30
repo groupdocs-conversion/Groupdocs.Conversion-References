@@ -39,10 +39,13 @@ The namespace provides classes to specify additional options for document loadin
 | [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
 | [PdfLoadOptions](./pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |
+| [PresentationCommentsPosition](./presentationcommentsposition) | Represents the way comments are printed with the slide. |
 | [PresentationLoadOptions](./presentationloadoptions) | Options for loading Presentation documents. |
+| [PresentationNotesPosition](./presentationnotesposition) | Represents the way notes are printed with the slide. |
 | [PublisherLoadOptions](./publisherloadoptions) | Options for loading Publisher documents. |
 | [RasterImageLoadOptions](./rasterimageloadoptions) | Options for loading Image documents. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Options for loading Spreadsheet documents. |
+| [SpreadsheetPrintComments](./spreadsheetprintcomments) | Represents the way comments are printed with the sheet. |
 | [ThreeDLoadOptions](./threedloadoptions) | Options for loading 3D documents. |
 | [TsvLoadOptions](./tsvloadoptions) | Options for loading Tsv documents. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions) | Describes txt leading spaces options enumeration. |

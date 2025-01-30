@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set password to unprotect protected document.
 type: docs
-weight: 200
+weight: 190
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/password/
 ---
 ## SpreadsheetLoadOptions.Password property

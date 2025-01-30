@@ -3,7 +3,7 @@ title: VerticalResolution
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired image vertical resolution after conversion. The default resolution is the resolution of the input file or 96 dpi.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution/
 ---
 ## ImageConvertOptions.VerticalResolution property

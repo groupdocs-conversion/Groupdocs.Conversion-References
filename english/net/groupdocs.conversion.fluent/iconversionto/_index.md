@@ -3,7 +3,7 @@ title: IConversionTo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set how converted document to be stored
 type: docs
-weight: 1360
+weight: 1370
 url: /net/groupdocs.conversion.fluent/iconversionto/
 ---
 ## IConversionTo interface
@@ -18,9 +18,9 @@ public interface IConversionTo
 
 | Name | Description |
 | --- | --- |
-| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto#convertbypageto)(Func&lt;SavePageContext, Stream&gt;) | Save converted page as stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_2)(Func&lt;SaveContext, Stream&gt;) | Save converted document as stream |
-| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_3)(string) | Save converted document as file |
+| [ConvertByPageTo](../../groupdocs.conversion.fluent/iconversionto/convertbypageto)(Func&lt;SavePageContext, Stream&gt;) | Save converted page as stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto)(Func&lt;SaveContext, Stream&gt;) | Save converted document as stream |
+| [ConvertTo](../../groupdocs.conversion.fluent/iconversionto/convertto#convertto_1)(string) | Save converted document as file |
 
 ### See Also
 

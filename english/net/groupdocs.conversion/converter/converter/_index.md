@@ -68,7 +68,7 @@ public Converter(Func<Stream> sourceStreamProvider, Func<ConverterSettings> sett
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_6}
+## Converter(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_2}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -101,7 +101,7 @@ public Converter(Func<Stream> sourceStreamProvider, Func<LoadContext, LoadOption
 
 ---
 
-## Converter(string) {#constructor_8}
+## Converter(string) {#constructor_3}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -128,7 +128,7 @@ public Converter(string filePath)
 
 ---
 
-## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_9}
+## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_4}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -157,7 +157,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ---
 
-## Converter(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_14}
+## Converter(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_5}
 
 Initializes new instance of [`Converter`](../../converter) class.
 

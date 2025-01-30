@@ -3,7 +3,7 @@ title: VectorizationOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Sets vectorization options
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/vectorizationoptions/
 ---
 ## RasterImageLoadOptions.VectorizationOptions property

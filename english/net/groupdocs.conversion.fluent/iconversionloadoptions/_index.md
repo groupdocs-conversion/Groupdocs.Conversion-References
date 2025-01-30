@@ -3,7 +3,7 @@ title: IConversionLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Conversion load options
 type: docs
-weight: 1310
+weight: 1320
 url: /net/groupdocs.conversion.fluent/iconversionloadoptions/
 ---
 ## IConversionLoadOptions interface
@@ -18,7 +18,7 @@ public interface IConversionLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_3)(Func&lt;LoadContext, LoadOptions&gt;) | Provide load options for the document currently being loading |
+| [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions_1)(Func&lt;LoadContext, LoadOptions&gt;) | Provide load options for the document currently being loading |
 | [WithOptions](../../groupdocs.conversion.fluent/iconversionloadoptions/withoptions#withoptions)(LoadOptions) | Set load options |
 
 ### See Also
