@@ -56,6 +56,7 @@ The namespace provides classes to specify additional options for document loadin
 | [VideoLoadOptions](./videoloadoptions) | Options for loading video documents. |
 | [WebLoadOptions](./webloadoptions) | Options for loading web documents. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Options for handling bookmarks in WordProcessing |
+| [WordProcessingCommentDisplay](./wordprocessingcommentdisplay) | Specifies the rendering mode for document comments. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Options for loading WordProcessing documents. |
 | [XmlLoadOptions](./xmlloadoptions) | Options for loading XML documents. |
 ## Interfaces
