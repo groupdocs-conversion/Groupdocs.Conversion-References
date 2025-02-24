@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/videoconvertoptions/
 Options for conversion to Video type.
 
 ```csharp
-public class VideoConvertOptions : ConvertOptions<VideoFileType>
+public sealed class VideoConvertOptions : ConvertOptions<VideoFileType>
 ```
 
 ## Constructors

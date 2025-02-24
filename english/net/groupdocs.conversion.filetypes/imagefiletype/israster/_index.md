@@ -3,7 +3,7 @@ title: IsRaster
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines if the image is raster
 type: docs
-weight: 410
+weight: 400
 url: /net/groupdocs.conversion.filetypes/imagefiletype/israster/
 ---
 ## ImageFileType.IsRaster property

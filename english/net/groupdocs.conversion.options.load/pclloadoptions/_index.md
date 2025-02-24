@@ -1,33 +1,32 @@
 ---
-title: ImageLoadOptions
+title: PclLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Options for loading Image documents.
+description: Options for loading Pcl documents.
 type: docs
-weight: 2330
-url: /net/groupdocs.conversion.options.load/imageloadoptions/
+weight: 2390
+url: /net/groupdocs.conversion.options.load/pclloadoptions/
 ---
-## ImageLoadOptions class
+## PclLoadOptions class
 
-Options for loading Image documents.
+Options for loading Pcl documents.
 
 ```csharp
-public sealed class ImageLoadOptions : BaseImageLoadOptions
+public sealed class PclLoadOptions : LoadOptions
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ImageLoadOptions](imageloadoptions)() | Initializes new instance of [`ImageLoadOptions`](../imageloadoptions) class. |
+| [PclLoadOptions](pclloadoptions)() | Initializes new instance of [`PclLoadOptions`](../pclloadoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DefaultFont](../../groupdocs.conversion.options.load/baseimageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
-| [Format](../../groupdocs.conversion.options.load/imageloadoptions/format) { get; set; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/pclloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
-| [ResetFontFolders](../../groupdocs.conversion.options.load/baseimageloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
+| [ResetFontFolders](../../groupdocs.conversion.options.load/pclloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 
 ## Methods
 
@@ -39,7 +38,7 @@ public sealed class ImageLoadOptions : BaseImageLoadOptions
 
 ### See Also
 
-* class [BaseImageLoadOptions](../baseimageloadoptions)
+* class [LoadOptions](../loadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

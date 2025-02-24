@@ -21,6 +21,7 @@ public abstract class BaseImageLoadOptions : LoadOptions
 | [DefaultFont](../../groupdocs.conversion.options.load/baseimageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
 | [Format](../../groupdocs.conversion.options.load/baseimageloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [ResetFontFolders](../../groupdocs.conversion.options.load/baseimageloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 
 ## Methods
 

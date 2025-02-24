@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of EmailLoadOptionsgroupdocs.conversion.options.load/emailloadoptions class.
+description: Initializes new instance of PresentationLoadOptionsgroupdocs.conversion.options.load/presentationloadoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/presentationloadoptions/
 ---
 ## PresentationLoadOptions constructor
 
-Initializes new instance of [`EmailLoadOptions`](../../emailloadoptions) class.
+Initializes new instance of [`PresentationLoadOptions`](../../presentationloadoptions) class.
 
 ```csharp
 public PresentationLoadOptions()

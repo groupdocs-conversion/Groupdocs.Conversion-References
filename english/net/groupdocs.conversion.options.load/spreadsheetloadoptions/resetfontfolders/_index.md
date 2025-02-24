@@ -1,17 +1,17 @@
 ---
-title: RowsPerPage
+title: ResetFontFolders
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Split a worksheet into pages by rows. Default is 0 no pagination.
+description: Reset font folders before loading document
 type: docs
-weight: 230
-url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/rowsperpage/
+weight: 220
+url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/resetfontfolders/
 ---
-## SpreadsheetLoadOptions.RowsPerPage property
+## SpreadsheetLoadOptions.ResetFontFolders property
 
-Split a worksheet into pages by rows. Default is 0, no pagination.
+Reset font folders before loading document
 
 ```csharp
-public int RowsPerPage { get; set; }
+public bool ResetFontFolders { get; set; }
 ```
 
 ### See Also

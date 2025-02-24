@@ -19,7 +19,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | Name | Description |
 | --- | --- |
-| [PresentationLoadOptions](presentationloadoptions)() | Initializes new instance of [`EmailLoadOptions`](../emailloadoptions) class. |
+| [PresentationLoadOptions](presentationloadoptions)() | Initializes new instance of [`PresentationLoadOptions`](../presentationloadoptions) class. |
 
 ## Properties
 

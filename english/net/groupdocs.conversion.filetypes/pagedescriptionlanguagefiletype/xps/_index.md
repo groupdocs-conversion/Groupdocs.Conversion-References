@@ -3,7 +3,7 @@ title: Xps
 second_title: GroupDocs.Conversion for .NET API Reference
 description: An XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format but uses XML in layout appearance and printing information of a document. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/xps.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/xps/
 ---
 ## PageDescriptionLanguageFileType.Xps field

@@ -3,7 +3,7 @@ title: Tex
 second_title: GroupDocs.Conversion for .NET API Reference
 description: TeX is a language that comprises of programming as well as markup features used to typeset documents. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/tex.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/tex/
 ---
 ## PageDescriptionLanguageFileType.Tex field

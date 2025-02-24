@@ -40,6 +40,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | Remove embedded files. |
 | [RemoveJavascript](../../groupdocs.conversion.options.load/pdfloadoptions/removejavascript) { get; set; } | Remove javascript. |
+| [ResetFontFolders](../../groupdocs.conversion.options.load/pdfloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 
 ## Methods
 
