@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2400
+weight: 2410
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -40,6 +40,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [Password](../../groupdocs.conversion.options.load/pdfloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [RemoveEmbeddedFiles](../../groupdocs.conversion.options.load/pdfloadoptions/removeembeddedfiles) { get; set; } | Remove embedded files. |
 | [RemoveJavascript](../../groupdocs.conversion.options.load/pdfloadoptions/removejavascript) { get; set; } | Remove javascript. |
+| [ResetFontFolders](../../groupdocs.conversion.options.load/pdfloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 
 ## Methods
 

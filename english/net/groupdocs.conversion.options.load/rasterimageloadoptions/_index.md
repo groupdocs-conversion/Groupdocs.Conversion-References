@@ -3,7 +3,7 @@ title: RasterImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Image documents.
 type: docs
-weight: 2460
+weight: 2470
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/
 ---
 ## RasterImageLoadOptions class
@@ -28,6 +28,7 @@ public sealed class RasterImageLoadOptions : BaseImageLoadOptions
 | [DefaultFont](../../groupdocs.conversion.options.load/baseimageloadoptions/defaultfont) { get; set; } | Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing. |
 | [Format](../../groupdocs.conversion.options.load/rasterimageloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [ResetFontFolders](../../groupdocs.conversion.options.load/baseimageloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 | [VectorizationOptions](../../groupdocs.conversion.options.load/rasterimageloadoptions/vectorizationoptions) { get; set; } | Sets vectorization options |
 
 ## Methods

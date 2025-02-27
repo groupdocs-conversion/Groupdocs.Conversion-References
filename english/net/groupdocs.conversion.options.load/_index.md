@@ -37,6 +37,7 @@ The namespace provides classes to specify additional options for document loadin
 | [NsfLoadOptions](./nsfloadoptions) | Options for loading Nsf documents. |
 | [OlmLoadOptions](./olmloadoptions) | Options for loading Olm documents. |
 | [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
+| [PclLoadOptions](./pclloadoptions) | Options for loading Pcl documents. |
 | [PdfLoadOptions](./pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |
 | [PresentationCommentsPosition](./presentationcommentsposition) | Represents the way comments are printed with the slide. |
@@ -56,6 +57,7 @@ The namespace provides classes to specify additional options for document loadin
 | [VideoLoadOptions](./videoloadoptions) | Options for loading video documents. |
 | [WebLoadOptions](./webloadoptions) | Options for loading web documents. |
 | [WordProcessingBookmarksOptions](./wordprocessingbookmarksoptions) | Options for handling bookmarks in WordProcessing |
+| [WordProcessingCommentDisplay](./wordprocessingcommentdisplay) | Specifies the rendering mode for document comments. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Options for loading WordProcessing documents. |
 | [XmlLoadOptions](./xmlloadoptions) | Options for loading XML documents. |
 ## Interfaces

@@ -1,17 +1,17 @@
 ---
-title: HideComments
+title: ShowFullCommenterName
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Hide comments.
+description: Show full commenter name in comments. Default is false.
 type: docs
-weight: 130
-url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/hidecomments/
+weight: 230
+url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/showfullcommentername/
 ---
-## WordProcessingLoadOptions.HideComments property
+## WordProcessingLoadOptions.ShowFullCommenterName property
 
-Hide comments.
+Show full commenter name in comments. Default is false.
 
 ```csharp
-public bool HideComments { get; set; }
+public bool ShowFullCommenterName { get; set; }
 ```
 
 ### See Also

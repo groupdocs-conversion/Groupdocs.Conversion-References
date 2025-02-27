@@ -3,7 +3,7 @@ title: ClearBuiltInDocumentProperties
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Removes builtin metadata properties from the document.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/clearbuiltindocumentproperties/
 ---
 ## WordProcessingLoadOptions.ClearBuiltInDocumentProperties property

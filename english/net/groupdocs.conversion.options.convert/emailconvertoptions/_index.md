@@ -24,6 +24,7 @@ public class EmailConvertOptions : ConvertOptions<EmailFileType>
 
 | Name | Description |
 | --- | --- |
+| [AttachmentContentHandler](../../groupdocs.conversion.options.convert/emailconvertoptions/attachmentcontenthandler) { get; set; } | A delegate to handle custom processing of email attachments. The delegate takes the attachment name, content type and original attachment stream as parameters and returns the modified attachment stream. |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
 

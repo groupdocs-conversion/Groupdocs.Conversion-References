@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion/metered/
 Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license.
 
 ```csharp
-public class Metered
+public sealed class Metered
 ```
 
 ## Constructors

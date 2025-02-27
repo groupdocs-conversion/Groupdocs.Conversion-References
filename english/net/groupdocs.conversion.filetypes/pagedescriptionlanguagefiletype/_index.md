@@ -1,14 +1,14 @@
 ---
 title: PageDescriptionLanguageFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Page description documents. Includes the following file types Svg./pagedescriptionlanguagefiletype/svgEps./pagedescriptionlanguagefiletype/epsCgm./pagedescriptionlanguagefiletype/cgmXps./pagedescriptionlanguagefiletype/xpsTex./pagedescriptionlanguagefiletype/texPs./pagedescriptionlanguagefiletype/psPcl./pagedescriptionlanguagefiletype/pclOxps./pagedescriptionlanguagefiletype/oxps
+description: Defines Page description documents. Includes the following file types Svg./pagedescriptionlanguagefiletype/svgSvgz./pagedescriptionlanguagefiletype/svgzEps./pagedescriptionlanguagefiletype/epsCgm./pagedescriptionlanguagefiletype/cgmXps./pagedescriptionlanguagefiletype/xpsTex./pagedescriptionlanguagefiletype/texPs./pagedescriptionlanguagefiletype/psPcl./pagedescriptionlanguagefiletype/pclOxps./pagedescriptionlanguagefiletype/oxps
 type: docs
 weight: 1050
 url: /net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/
 ---
 ## PageDescriptionLanguageFileType class
 
-Defines Page description documents. Includes the following file types: [`Svg`](./svg)[`Eps`](./eps)[`Cgm`](./cgm)[`Xps`](./xps)[`Tex`](./tex)[`Ps`](./ps)[`Pcl`](./pcl)[`Oxps`](./oxps)
+Defines Page description documents. Includes the following file types: [`Svg`](./svg)[`Svgz`](./svgz)[`Eps`](./eps)[`Cgm`](./cgm)[`Xps`](./xps)[`Tex`](./tex)[`Ps`](./ps)[`Pcl`](./pcl)[`Oxps`](./oxps)
 
 ```csharp
 public sealed class PageDescriptionLanguageFileType : FileType
@@ -49,6 +49,7 @@ public sealed class PageDescriptionLanguageFileType : FileType
 | static readonly [Pcl](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/pcl) | PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/pcl). |
 | static readonly [Ps](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/ps) | PostScript (PS) is a general-purpose page description language used in the business of desktop and electronic publishing. The main focus of PostScript (PS) is to facilitate the two-dimensional graphic design. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/ps). |
 | static readonly [Svg](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/svg) | An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/svg). |
+| static readonly [Svgz](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/svgz) | An SVGZ file is actually a compressed version of a SVG file. This allows for easier distribution of the file online. When an SVG file is compressed using the .GZIP compression algorithm, it is then given the .svgz file extension. |
 | static readonly [Tex](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/tex) | TeX is a language that comprises of programming as well as mark-up features, used to typeset documents. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/tex). |
 | static readonly [Xps](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/xps) | An XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/xps). |
 

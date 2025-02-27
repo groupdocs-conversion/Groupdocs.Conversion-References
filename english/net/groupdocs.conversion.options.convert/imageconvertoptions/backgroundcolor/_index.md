@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/imageconvertoptions/backgroundcol
 Sets background color where supported by the source format
 
 ```csharp
-public Color BackgroundColor { get; set; }
+public Color? BackgroundColor { get; set; }
 ```
 
 ### See Also
