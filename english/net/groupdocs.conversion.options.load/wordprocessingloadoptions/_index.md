@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2600
+weight: 2610
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -25,17 +25,19 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 
 | Name | Description |
 | --- | --- |
-| [AutoFontSubstitution](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autofontsubstitution) { get; set; } | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled, GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True. |
 | [BookmarkOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/bookmarkoptions) { get; set; } | Bookmarks options |
 | [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
 | [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |
 | [CommentDisplayMode](../../groupdocs.conversion.options.load/wordprocessingloadoptions/commentdisplaymode) { get; set; } | Specifies how comments should be displayed in the output document. Default is ShowInBalloons. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
-| [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Default font for Words document. The following font will be used if a font is missing. |
+| [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Sets the default font for a WordProcessing document. |
 | [Depth](../../groupdocs.conversion.options.load/wordprocessingloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: true |
-| [FontSubstitutes](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Words document. |
+| [FontConfigSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontconfigsubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontConfig in the system. Default: false. |
+| [FontInfoSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontinfosubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontInfo in the document. Default: false. |
+| [FontNameSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontnamesubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on the font name. Default: false. |
+| [FontSubstitutes](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes) { get; set; } | Substitutes specific fonts when converting a WordsProcessing document. |
 | [Format](../../groupdocs.conversion.options.load/wordprocessingloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |

@@ -1,18 +1,32 @@
 ---
 title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Substitute specific fonts when converting Words document.
+description: Substitutes specific fonts when converting a WordsProcessing document.
 type: docs
-weight: 120
+weight: 140
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes/
 ---
 ## WordProcessingLoadOptions.FontSubstitutes property
 
-Substitute specific fonts when converting Words document.
+Substitutes specific fonts when converting a WordsProcessing document.
 
 ```csharp
 public IList<FontSubstitute> FontSubstitutes { get; set; }
 ```
+
+### Remarks
+
+**Note:** The order of substitution is as follows:
+
+1) Automatically substitute missing fonts based on font name (if enabled).
+
+2) Automatically substitute missing fonts based on FontConfig (if enabled).
+
+3) Substitute missing fonts based on FontSubstitutes (if set).
+
+4) Automatically substitute missing fonts based on FontInfo (if enabled).
+
+5) Substitute missing fonts based on DefaultFont (if set).
 
 ### See Also
 

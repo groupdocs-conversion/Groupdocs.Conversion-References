@@ -1,18 +1,32 @@
 ---
 title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Default font for Words document. The following font will be used if a font is missing.
+description: Sets the default font for a WordProcessing document.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont/
 ---
 ## WordProcessingLoadOptions.DefaultFont property
 
-Default font for Words document. The following font will be used if a font is missing.
+Sets the default font for a WordProcessing document.
 
 ```csharp
 public string DefaultFont { get; set; }
 ```
+
+### Remarks
+
+**Note:** The order of substitution is as follows:
+
+1) Automatically substitute missing fonts based on font name (if enabled).
+
+2) Automatically substitute missing fonts based on FontConfig (if enabled).
+
+3) Substitute missing fonts based on FontSubstitutes (if set).
+
+4) Automatically substitute missing fonts based on FontInfo (if enabled).
+
+5) Substitute missing fonts based on DefaultFont (if set).
 
 ### See Also
 

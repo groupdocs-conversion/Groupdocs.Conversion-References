@@ -3,7 +3,7 @@ title: OlmLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Olm documents.
 type: docs
-weight: 2370
+weight: 2380
 url: /net/groupdocs.conversion.options.load/olmloadoptions/
 ---
 ## OlmLoadOptions class

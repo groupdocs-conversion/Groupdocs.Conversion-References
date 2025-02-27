@@ -3,7 +3,7 @@ title: CommentDisplayMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies how comments should be displayed in the output document. Default is ShowInBalloons.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/commentdisplaymode/
 ---
 ## WordProcessingLoadOptions.CommentDisplayMode property

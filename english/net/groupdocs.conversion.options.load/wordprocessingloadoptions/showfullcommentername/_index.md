@@ -3,7 +3,7 @@ title: ShowFullCommenterName
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Show full commenter name in comments. Default is false.
 type: docs
-weight: 210
+weight: 230
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/showfullcommentername/
 ---
 ## WordProcessingLoadOptions.ShowFullCommenterName property

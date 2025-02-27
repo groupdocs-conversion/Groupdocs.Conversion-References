@@ -34,6 +34,7 @@ The namespace provides classes to specify additional options for document loadin
 | [LoadOptions](./loadoptions) | Abstract document load options class. |
 | [MboxLoadOptions](./mboxloadoptions) | Options for loading Mbox documents. |
 | [NoteLoadOptions](./noteloadoptions) | Options for loading One documents. |
+| [NsfLoadOptions](./nsfloadoptions) | Options for loading Nsf documents. |
 | [OlmLoadOptions](./olmloadoptions) | Options for loading Olm documents. |
 | [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
 | [PclLoadOptions](./pclloadoptions) | Options for loading Pcl documents. |
