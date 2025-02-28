@@ -64,6 +64,7 @@ Defines image documents. Includes the following file types: [Ai](../../com.group
 | [Tga](#Tga) | A file with .tga extension is a raster graphic format and was created by Truevision Inc. |
 | [Psb](#Psb) | Adobe photoshop saves files in two formats. |
 | [Fodg](#Fodg) | FODG is a uncompressed XML-format file used for storing OpenDocument text data. |
+| [Heic](#Heic) |  |
 ## Methods
 
 | Method | Description |
@@ -443,6 +444,12 @@ public static final ImageFileType Fodg
 
 
 FODG is a uncompressed XML-format file used for storing OpenDocument text data. FODG extension is associated with open source office productivity suites Libre Office and OpenOffice.org.
+
+### Heic {#Heic}
+```
+public static final ImageFileType Heic
+```
+
 
 ### getLoadOptions() {#getLoadOptions--}
 ```

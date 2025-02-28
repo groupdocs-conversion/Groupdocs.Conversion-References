@@ -58,6 +58,8 @@ Options for loading Spreadsheet documents.
 | [setSheetIndexes(List<Integer> sheetIndexes)](#setSheetIndexes-java.util.List-java.lang.Integer--) | Sets List of sheet indexes to convert. |
 | [isAutoFitRows()](#isAutoFitRows--) | Autofits all rows when converting |
 | [setAutoFitRows(boolean autoFitRows)](#setAutoFitRows-boolean-) |  |
+| [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
+| [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
 | [deepClone()](#deepClone--) | Clones current instance. |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
@@ -444,6 +446,29 @@ public void setAutoFitRows(boolean autoFitRows)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | autoFitRows | boolean |  |
+
+### getResetFontFolders() {#getResetFontFolders--}
+```
+public boolean getResetFontFolders()
+```
+
+
+Reset font folders before loading document
+
+**Returns:**
+boolean
+### setResetFontFolders(boolean resetFontFolders) {#setResetFontFolders-boolean-}
+```
+public void setResetFontFolders(boolean resetFontFolders)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resetFontFolders | boolean |  |
 
 ### deepClone() {#deepClone--}
 ```
