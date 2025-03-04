@@ -24,6 +24,7 @@ The namespace provides classes to specify additional options for document loadin
 | [EmailField](./emailfield) | Describes email fields enumeration |
 | [EmailLoadOptions](./emailloadoptions) | Options for loading Email documents. |
 | [EpubLoadOptions](./epubloadoptions) | Options for loading Epub documents. |
+| [FinanceLoadOptions](./financeloadoptions) | Options for loading finance documents. |
 | [FontLoadOptions](./fontloadoptions) | Options for loading Font documents. |
 | [GisLoadOptions](./gisloadoptions) | Options for loading GIS documents. |
 | [GmlLoadOptions](./gmlloadoptions) | Options for loading Gml documents. |
@@ -42,6 +43,7 @@ The namespace provides classes to specify additional options for document loadin
 | [PresentationCommentsPosition](./presentationcommentsposition) | Represents the way comments are printed with the slide. |
 | [PresentationLoadOptions](./presentationloadoptions) | Options for loading Presentation documents. |
 | [PresentationNotesPosition](./presentationnotesposition) | Represents the way notes are printed with the slide. |
+| [PublisherLoadOptions](./publisherloadoptions) | Options for loading Publisher documents. |
 | [RasterImageLoadOptions](./rasterimageloadoptions) | Options for loading Image documents. |
 | [SpreadsheetLoadOptions](./spreadsheetloadoptions) | Options for loading Spreadsheet documents. |
 | [SpreadsheetPrintComments](./spreadsheetprintcomments) | Represents the way comments are printed with the sheet. |

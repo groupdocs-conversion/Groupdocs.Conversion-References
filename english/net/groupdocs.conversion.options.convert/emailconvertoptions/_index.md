@@ -3,7 +3,7 @@ title: EmailConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Email file type.
 type: docs
-weight: 1580
+weight: 1600
 url: /net/groupdocs.conversion.options.convert/emailconvertoptions/
 ---
 ## EmailConvertOptions class

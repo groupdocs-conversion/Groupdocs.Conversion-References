@@ -21,6 +21,7 @@ The namespace provides classes to specify additional options for document conver
 | [DiagramConvertOptions](./diagramconvertoptions) | Options for conversion to Diagram file type. |
 | [EBookConvertOptions](./ebookconvertoptions) | Options for conversion to EBook file type. |
 | [EmailConvertOptions](./emailconvertoptions) | Options for conversion to Email file type. |
+| [FinanceConvertOptions](./financeconvertoptions) | Options for conversion to finance type. |
 | [Font](./font) | Font settings |
 | [FontConvertOptions](./fontconvertoptions) | Options for conversion to Font type. |
 | [GisConvertOptions](./gisconvertoptions) | Options for conversion to GIS type. |
