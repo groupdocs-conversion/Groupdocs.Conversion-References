@@ -3,7 +3,7 @@ title: IHeicConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines methods that are required to convert from Heic image.
 type: docs
-weight: 1400
+weight: 1380
 url: /net/groupdocs.conversion.integration.heic/iheicconnector/
 ---
 ## IHeicConnector interface
