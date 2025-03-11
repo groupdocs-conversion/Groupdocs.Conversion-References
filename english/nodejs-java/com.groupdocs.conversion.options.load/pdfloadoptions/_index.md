@@ -38,6 +38,8 @@ Options for loading Pdf documents.
 | [setHidePdfAnnotations(boolean value)](#setHidePdfAnnotations-boolean-) | Hide annotations in Pdf documents. |
 | [getFlattenAllFields()](#getFlattenAllFields--) | Flatten all the fields of the PDF form. |
 | [setFlattenAllFields(boolean value)](#setFlattenAllFields-boolean-) | Flatten all the fields of the PDF form. |
+| [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
+| [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
 ### PdfLoadOptions() {#PdfLoadOptions--}
 ```
 public PdfLoadOptions()
@@ -193,4 +195,27 @@ Flatten all the fields of the PDF form.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getResetFontFolders() {#getResetFontFolders--}
+```
+public boolean getResetFontFolders()
+```
+
+
+Reset font folders before loading document
+
+**Returns:**
+boolean
+### setResetFontFolders(boolean resetFontFolders) {#setResetFontFolders-boolean-}
+```
+public void setResetFontFolders(boolean resetFontFolders)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resetFontFolders | boolean |  |
 

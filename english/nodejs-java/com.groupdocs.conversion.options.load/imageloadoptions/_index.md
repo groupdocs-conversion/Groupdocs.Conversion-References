@@ -31,6 +31,8 @@ Options for loading Image documents.
 | [isRecognitionEnabled()](#isRecognitionEnabled--) |  |
 | [getOcrConnector()](#getOcrConnector--) |  |
 | [setOcrConnector(IOcrConnector ocrConnector)](#setOcrConnector-com.groupdocs.conversion.integration.ocr.IOcrConnector-) | Set image OCR connector |
+| [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
+| [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
 ### ImageLoadOptions() {#ImageLoadOptions--}
 ```
 public ImageLoadOptions()
@@ -104,4 +106,27 @@ Set image OCR connector
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ocrConnector | [IOcrConnector](../../com.groupdocs.conversion.integration.ocr/iocrconnector) | OCR connector instance |
+
+### getResetFontFolders() {#getResetFontFolders--}
+```
+public boolean getResetFontFolders()
+```
+
+
+Reset font folders before loading document
+
+**Returns:**
+boolean
+### setResetFontFolders(boolean resetFontFolders) {#setResetFontFolders-boolean-}
+```
+public void setResetFontFolders(boolean resetFontFolders)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resetFontFolders | boolean |  |
 
