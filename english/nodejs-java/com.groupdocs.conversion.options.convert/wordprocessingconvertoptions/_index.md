@@ -25,12 +25,8 @@ Options for conversion to WordProcessing file type.
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Desired page width after conversion. |
-| [setWidth(int value)](#setWidth-int-) | Desired page width after conversion. |
-| [getHeight()](#getHeight--) | Desired page height after conversion. |
-| [setHeight(int value)](#setHeight-int-) | Desired page height after conversion. |
 | [getDpi()](#getDpi--) | Desired page DPI after conversion. |
-| [setDpi(double value)](#setDpi-double-) | Desired page DPI after conversion. |
+| [setDpi(int value)](#setDpi-int-) | Desired page DPI after conversion. |
 | [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password. |
 | [getRtfOptions()](#getRtfOptions--) | RTF specific convert options |
@@ -63,65 +59,19 @@ public WordProcessingConvertOptions()
 
 Initializes new instance of [WordProcessingConvertOptions](../../com.groupdocs.conversion.options.convert/wordprocessingconvertoptions) class.
 
-### getWidth() {#getWidth--}
-```
-public final int getWidth()
-```
-
-
-Desired page width after conversion.
-
-**Returns:**
-int
-### setWidth(int value) {#setWidth-int-}
-```
-public final void setWidth(int value)
-```
-
-
-Desired page width after conversion.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getHeight() {#getHeight--}
-```
-public final int getHeight()
-```
-
-
-Desired page height after conversion.
-
-**Returns:**
-int
-### setHeight(int value) {#setHeight-int-}
-```
-public final void setHeight(int value)
-```
-
-
-Desired page height after conversion.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### getDpi() {#getDpi--}
 ```
-public final double getDpi()
+public final int getDpi()
 ```
 
 
 Desired page DPI after conversion. The default resolution is: 96 dpi.
 
 **Returns:**
-double
-### setDpi(double value) {#setDpi-double-}
+int
+### setDpi(int value) {#setDpi-int-}
 ```
-public final void setDpi(double value)
+public final void setDpi(int value)
 ```
 
 
@@ -130,7 +80,7 @@ Desired page DPI after conversion. The default resolution is: 96 dpi.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double |  |
+| value | int |  |
 
 ### getPassword() {#getPassword--}
 ```
