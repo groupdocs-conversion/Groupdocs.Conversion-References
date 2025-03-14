@@ -42,6 +42,10 @@ Options for loading Presentation documents.
 | [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
 | [getDocumentFontSources()](#getDocumentFontSources--) |  |
 | [setDocumentFontSources(List<String> documentFontSources)](#setDocumentFontSources-java.util.List-java.lang.String--) |  |
+| [getNotesPosition()](#getNotesPosition--) | Represents the way comments are printed with the slide. |
+| [setNotesPosition(PresentationNotesPosition notesPosition)](#setNotesPosition-com.groupdocs.conversion.contracts.PresentationNotesPosition-) | Represents the way notes are printed with the slide. |
+| [getCommentsPosition()](#getCommentsPosition--) |  |
+| [setCommentsPosition(PresentationCommentsPosition commentsPosition)](#setCommentsPosition-com.groupdocs.conversion.contracts.PresentationCommentsPosition-) |  |
 ### PresentationLoadOptions() {#PresentationLoadOptions--}
 ```
 public PresentationLoadOptions()
@@ -243,4 +247,50 @@ public void setDocumentFontSources(List<String> documentFontSources)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | documentFontSources | java.util.List<java.lang.String> |  |
+
+### getNotesPosition() {#getNotesPosition--}
+```
+public PresentationNotesPosition getNotesPosition()
+```
+
+
+Represents the way comments are printed with the slide. Default is None.
+
+**Returns:**
+[PresentationNotesPosition](../../com.groupdocs.conversion.contracts/presentationnotesposition)
+### setNotesPosition(PresentationNotesPosition notesPosition) {#setNotesPosition-com.groupdocs.conversion.contracts.PresentationNotesPosition-}
+```
+public void setNotesPosition(PresentationNotesPosition notesPosition)
+```
+
+
+Represents the way notes are printed with the slide. Default is None.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| notesPosition | [PresentationNotesPosition](../../com.groupdocs.conversion.contracts/presentationnotesposition) |  |
+
+### getCommentsPosition() {#getCommentsPosition--}
+```
+public PresentationCommentsPosition getCommentsPosition()
+```
+
+
+
+
+**Returns:**
+[PresentationCommentsPosition](../../com.groupdocs.conversion.contracts/presentationcommentsposition) - 
+### setCommentsPosition(PresentationCommentsPosition commentsPosition) {#setCommentsPosition-com.groupdocs.conversion.contracts.PresentationCommentsPosition-}
+```
+public void setCommentsPosition(PresentationCommentsPosition commentsPosition)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| commentsPosition | [PresentationCommentsPosition](../../com.groupdocs.conversion.contracts/presentationcommentsposition) |  |
 

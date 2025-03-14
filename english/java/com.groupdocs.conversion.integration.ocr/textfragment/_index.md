@@ -57,4 +57,4 @@ public Rectangle getRectangle()
 Gets a bounding rectangle of the recognized text fragment.
 
 **Returns:**
-java.awt.Rectangle
+[Rectangle](../../java.awt/rectangle)

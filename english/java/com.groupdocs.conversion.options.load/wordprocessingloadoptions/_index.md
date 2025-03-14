@@ -44,7 +44,6 @@ Options for loading WordProcessing documents.
 | [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
 | [getHideWordTrackedChanges()](#getHideWordTrackedChanges--) | Hide markup and track changes for Word documents. |
 | [setHideWordTrackedChanges(boolean value)](#setHideWordTrackedChanges-boolean-) | Hide markup and track changes for Word documents. |
-| [getHideComments()](#getHideComments--) | Hide comments. |
 | [setHideComments(boolean value)](#setHideComments-boolean-) | Hide comments. |
 | [getBookmarkOptions()](#getBookmarkOptions--) | Bookmarks options |
 | [setBookmarkOptions(WordProcessingBookmarksOptions value)](#setBookmarkOptions-com.groupdocs.conversion.options.load.WordProcessingBookmarksOptions-) | Bookmarks options |
@@ -58,6 +57,10 @@ Options for loading WordProcessing documents.
 | [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
 | [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
 | [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
+| [getCommentDisplayMode()](#getCommentDisplayMode--) | Specifies how comments should be displayed in the output document. |
+| [setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode)](#setCommentDisplayMode-com.groupdocs.conversion.options.load.WordProcessingCommentDisplay-) |  |
+| [getShowFullCommenterName()](#getShowFullCommenterName--) | Show full commenter name in comments. |
+| [setShowFullCommenterName(boolean showFullCommenterName)](#setShowFullCommenterName-boolean-) |  |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -283,16 +286,6 @@ Hide markup and track changes for Word documents.
 | --- | --- | --- |
 | value | boolean |  |
 
-### getHideComments() {#getHideComments--}
-```
-public final boolean getHideComments()
-```
-
-
-Hide comments.
-
-**Returns:**
-boolean
 ### setHideComments(boolean value) {#setHideComments-boolean-}
 ```
 public final void setHideComments(boolean value)
@@ -443,4 +436,50 @@ public void setWhitelistedResources(List<String> whiteList)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | whiteList | java.util.List<java.lang.String> |  |
+
+### getCommentDisplayMode() {#getCommentDisplayMode--}
+```
+public WordProcessingCommentDisplay getCommentDisplayMode()
+```
+
+
+Specifies how comments should be displayed in the output document. Default is ShowInBalloons.
+
+**Returns:**
+[WordProcessingCommentDisplay](../../com.groupdocs.conversion.options.load/wordprocessingcommentdisplay)
+### setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode) {#setCommentDisplayMode-com.groupdocs.conversion.options.load.WordProcessingCommentDisplay-}
+```
+public void setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| commentDisplayMode | [WordProcessingCommentDisplay](../../com.groupdocs.conversion.options.load/wordprocessingcommentdisplay) |  |
+
+### getShowFullCommenterName() {#getShowFullCommenterName--}
+```
+public boolean getShowFullCommenterName()
+```
+
+
+Show full commenter name in comments. Default is false.
+
+**Returns:**
+boolean
+### setShowFullCommenterName(boolean showFullCommenterName) {#setShowFullCommenterName-boolean-}
+```
+public void setShowFullCommenterName(boolean showFullCommenterName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showFullCommenterName | boolean |  |
 
