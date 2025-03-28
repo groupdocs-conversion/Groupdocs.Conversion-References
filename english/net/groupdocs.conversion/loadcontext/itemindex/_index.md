@@ -1,17 +1,17 @@
 ---
-title: SourceStream
+title: ItemIndex
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Source stream.
+description: Item index.
 type: docs
-weight: 50
-url: /net/groupdocs.conversion/loadcontext/sourcestream/
+weight: 20
+url: /net/groupdocs.conversion/loadcontext/itemindex/
 ---
-## LoadContext.SourceStream property
+## LoadContext.ItemIndex property
 
-Source stream.
+Item index.
 
 ```csharp
-public Stream SourceStream { get; }
+public int ItemIndex { get; }
 ```
 
 ### See Also

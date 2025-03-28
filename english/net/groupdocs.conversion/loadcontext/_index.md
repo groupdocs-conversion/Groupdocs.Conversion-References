@@ -18,6 +18,8 @@ public sealed class LoadContext
 
 | Name | Description |
 | --- | --- |
+| [HierarchyLevel](../../groupdocs.conversion/loadcontext/hierarchylevel) { get; } | Hierarchy level. |
+| [ItemIndex](../../groupdocs.conversion/loadcontext/itemindex) { get; } | Item index. |
 | [SourceFileName](../../groupdocs.conversion/loadcontext/sourcefilename) { get; } | Source file name. |
 | [SourceFormat](../../groupdocs.conversion/loadcontext/sourceformat) { get; } | Source format. |
 | [SourceStream](../../groupdocs.conversion/loadcontext/sourcestream) { get; } | Source stream. |
