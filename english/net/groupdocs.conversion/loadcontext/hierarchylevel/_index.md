@@ -1,17 +1,17 @@
 ---
-title: SourceStream
+title: HierarchyLevel
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Source stream.
+description: Hierarchy level.
 type: docs
-weight: 50
-url: /net/groupdocs.conversion/loadcontext/sourcestream/
+weight: 10
+url: /net/groupdocs.conversion/loadcontext/hierarchylevel/
 ---
-## LoadContext.SourceStream property
+## LoadContext.HierarchyLevel property
 
-Source stream.
+Hierarchy level.
 
 ```csharp
-public Stream SourceStream { get; }
+public int HierarchyLevel { get; }
 ```
 
 ### See Also
