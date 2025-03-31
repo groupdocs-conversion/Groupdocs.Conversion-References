@@ -33,14 +33,14 @@ Options for conversion to WordProcessing file type.
 | [setRtfOptions(RtfOptions value)](#setRtfOptions-com.groupdocs.conversion.options.convert.RtfOptions-) | RTF specific convert options |
 | [getZoom()](#getZoom--) | Specifies the zoom level in percentage. |
 | [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage. |
-| [getMarginTop()](#getMarginTop--) | Desired page top margin in pixels after conversion. |
-| [setMarginTop(int value)](#setMarginTop-int-) | Desired page top margin in pixels after conversion. |
-| [getMarginBottom()](#getMarginBottom--) | Desired page bottom margin in pixels after conversion. |
-| [setMarginBottom(int value)](#setMarginBottom-int-) | Desired page bottom margin in pixels after conversion. |
-| [getMarginLeft()](#getMarginLeft--) | Desired page left margin in pixels after conversion. |
-| [setMarginLeft(int value)](#setMarginLeft-int-) | Desired page left margin in pixels after conversion. |
-| [getMarginRight()](#getMarginRight--) | Desired page right margin in pixels after conversion. |
-| [setMarginRight(int value)](#setMarginRight-int-) | Desired page right margin in pixels after conversion. |
+| [getMarginTop()](#getMarginTop--) | Desired page top margin in points after conversion. |
+| [setMarginTop(float value)](#setMarginTop-float-) | Desired page top margin in points after conversion. |
+| [getMarginBottom()](#getMarginBottom--) | Desired page bottom margin in points after conversion. |
+| [setMarginBottom(float value)](#setMarginBottom-float-) | Desired page bottom margin in points after conversion. |
+| [getMarginLeft()](#getMarginLeft--) | Desired page left margin in points after conversion. |
+| [setMarginLeft(float value)](#setMarginLeft-float-) | Desired page left margin in points after conversion. |
+| [getMarginRight()](#getMarginRight--) | Desired page right margin in points after conversion. |
+| [setMarginRight(float value)](#setMarginRight-float-) | Desired page right margin in points after conversion. |
 | [getPageOrientation()](#getPageOrientation--) |  |
 | [setPageOrientation(PageOrientation pageOrientation)](#setPageOrientation-com.groupdocs.conversion.options.convert.PageOrientation-) |  |
 | [getPageSize()](#getPageSize--) |  |
@@ -153,95 +153,95 @@ Specifies the zoom level in percentage. Default is 100. Default zoom is supporte
 
 ### getMarginTop() {#getMarginTop--}
 ```
-public final int getMarginTop()
+public final float getMarginTop()
 ```
 
 
-Desired page top margin in pixels after conversion.
+Desired page top margin in points after conversion.
 
 **Returns:**
-int
-### setMarginTop(int value) {#setMarginTop-int-}
+float
+### setMarginTop(float value) {#setMarginTop-float-}
 ```
-public final void setMarginTop(int value)
+public final void setMarginTop(float value)
 ```
 
 
-Desired page top margin in pixels after conversion.
+Desired page top margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginBottom() {#getMarginBottom--}
 ```
-public final int getMarginBottom()
+public final float getMarginBottom()
 ```
 
 
-Desired page bottom margin in pixels after conversion.
+Desired page bottom margin in points after conversion.
 
 **Returns:**
-int
-### setMarginBottom(int value) {#setMarginBottom-int-}
+float
+### setMarginBottom(float value) {#setMarginBottom-float-}
 ```
-public final void setMarginBottom(int value)
+public final void setMarginBottom(float value)
 ```
 
 
-Desired page bottom margin in pixels after conversion.
+Desired page bottom margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginLeft() {#getMarginLeft--}
 ```
-public final int getMarginLeft()
+public final float getMarginLeft()
 ```
 
 
-Desired page left margin in pixels after conversion.
+Desired page left margin in points after conversion.
 
 **Returns:**
-int
-### setMarginLeft(int value) {#setMarginLeft-int-}
+float
+### setMarginLeft(float value) {#setMarginLeft-float-}
 ```
-public final void setMarginLeft(int value)
+public final void setMarginLeft(float value)
 ```
 
 
-Desired page left margin in pixels after conversion.
+Desired page left margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginRight() {#getMarginRight--}
 ```
-public final int getMarginRight()
+public final float getMarginRight()
 ```
 
 
-Desired page right margin in pixels after conversion.
+Desired page right margin in points after conversion.
 
 **Returns:**
-int
-### setMarginRight(int value) {#setMarginRight-int-}
+float
+### setMarginRight(float value) {#setMarginRight-float-}
 ```
-public final void setMarginRight(int value)
+public final void setMarginRight(float value)
 ```
 
 
-Desired page right margin in pixels after conversion.
+Desired page right margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getPageOrientation() {#getPageOrientation--}
 ```
