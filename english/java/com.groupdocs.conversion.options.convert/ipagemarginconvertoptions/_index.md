@@ -17,103 +17,103 @@ Represents convert options that support page margins
 
 | Method | Description |
 | --- | --- |
-| [getMarginTop()](#getMarginTop--) | Gets desired page top margin in pixels after conversion. |
-| [setMarginTop(int marginTop)](#setMarginTop-int-) | Sets desired page top margin in pixels after conversion. |
-| [getMarginBottom()](#getMarginBottom--) | Gets desired page bottom margin in pixels after conversion. |
-| [setMarginBottom(int marginBottom)](#setMarginBottom-int-) | Sets desired page bottom margin in pixels after conversion. |
-| [getMarginLeft()](#getMarginLeft--) | Gets desired page left margin in pixels after conversion. |
-| [setMarginLeft(int marginLeft)](#setMarginLeft-int-) | Sets desired page left margin in pixels after conversion. |
-| [getMarginRight()](#getMarginRight--) | Gets desired page right margin in pixels after conversion. |
-| [setMarginRight(int marginRight)](#setMarginRight-int-) | Sets desired page right margin in pixels after conversion. |
+| [getMarginTop()](#getMarginTop--) | Gets desired page top margin in points after conversion. |
+| [setMarginTop(float marginTop)](#setMarginTop-float-) | Sets desired page top margin in points after conversion. |
+| [getMarginBottom()](#getMarginBottom--) | Gets desired page bottom margin in points after conversion. |
+| [setMarginBottom(float marginBottom)](#setMarginBottom-float-) | Sets desired page bottom margin in points after conversion. |
+| [getMarginLeft()](#getMarginLeft--) | Gets desired page left margin in points after conversion. |
+| [setMarginLeft(float marginLeft)](#setMarginLeft-float-) | Sets desired page left margin in points after conversion. |
+| [getMarginRight()](#getMarginRight--) | Gets desired page right margin in points after conversion. |
+| [setMarginRight(float marginRight)](#setMarginRight-float-) | Sets desired page right margin in points after conversion. |
 ### getMarginTop() {#getMarginTop--}
 ```
-public abstract int getMarginTop()
+public abstract float getMarginTop()
 ```
 
 
-Gets desired page top margin in pixels after conversion.
+Gets desired page top margin in points after conversion.
 
 **Returns:**
-int
-### setMarginTop(int marginTop) {#setMarginTop-int-}
+float
+### setMarginTop(float marginTop) {#setMarginTop-float-}
 ```
-public abstract void setMarginTop(int marginTop)
+public abstract void setMarginTop(float marginTop)
 ```
 
 
-Sets desired page top margin in pixels after conversion.
+Sets desired page top margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| marginTop | int |  |
+| marginTop | float |  |
 
 ### getMarginBottom() {#getMarginBottom--}
 ```
-public abstract int getMarginBottom()
+public abstract float getMarginBottom()
 ```
 
 
-Gets desired page bottom margin in pixels after conversion.
+Gets desired page bottom margin in points after conversion.
 
 **Returns:**
-int
-### setMarginBottom(int marginBottom) {#setMarginBottom-int-}
+float
+### setMarginBottom(float marginBottom) {#setMarginBottom-float-}
 ```
-public abstract void setMarginBottom(int marginBottom)
+public abstract void setMarginBottom(float marginBottom)
 ```
 
 
-Sets desired page bottom margin in pixels after conversion.
+Sets desired page bottom margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| marginBottom | int |  |
+| marginBottom | float |  |
 
 ### getMarginLeft() {#getMarginLeft--}
 ```
-public abstract int getMarginLeft()
+public abstract float getMarginLeft()
 ```
 
 
-Gets desired page left margin in pixels after conversion.
+Gets desired page left margin in points after conversion.
 
 **Returns:**
-int
-### setMarginLeft(int marginLeft) {#setMarginLeft-int-}
+float
+### setMarginLeft(float marginLeft) {#setMarginLeft-float-}
 ```
-public abstract void setMarginLeft(int marginLeft)
+public abstract void setMarginLeft(float marginLeft)
 ```
 
 
-Sets desired page left margin in pixels after conversion.
+Sets desired page left margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| marginLeft | int |  |
+| marginLeft | float |  |
 
 ### getMarginRight() {#getMarginRight--}
 ```
-public abstract int getMarginRight()
+public abstract float getMarginRight()
 ```
 
 
-Gets desired page right margin in pixels after conversion.
+Gets desired page right margin in points after conversion.
 
 **Returns:**
-int
-### setMarginRight(int marginRight) {#setMarginRight-int-}
+float
+### setMarginRight(float marginRight) {#setMarginRight-float-}
 ```
-public abstract void setMarginRight(int marginRight)
+public abstract void setMarginRight(float marginRight)
 ```
 
 
-Sets desired page right margin in pixels after conversion.
+Sets desired page right margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| marginRight | int |  |
+| marginRight | float |  |
 

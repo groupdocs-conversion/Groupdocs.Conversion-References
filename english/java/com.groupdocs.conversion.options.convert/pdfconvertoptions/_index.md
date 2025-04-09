@@ -29,14 +29,14 @@ Options for conversion to Pdf file type.
 | [setDpi(int value)](#setDpi-int-) | Desired page DPI after conversion. |
 | [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password. |
-| [getMarginTop()](#getMarginTop--) | Desired page top margin in pixels after conversion. |
-| [setMarginTop(int value)](#setMarginTop-int-) | Desired page top margin in pixels after conversion. |
-| [getMarginBottom()](#getMarginBottom--) | Desired page bottom margin in pixels after conversion. |
-| [setMarginBottom(int value)](#setMarginBottom-int-) | Desired page bottom margin in pixels after conversion. |
-| [getMarginLeft()](#getMarginLeft--) | Desired page left margin in pixels after conversion. |
-| [setMarginLeft(int value)](#setMarginLeft-int-) | Desired page left margin in pixels after conversion. |
-| [getMarginRight()](#getMarginRight--) | Desired page right margin in pixels after conversion. |
-| [setMarginRight(int value)](#setMarginRight-int-) | Desired page right margin in pixels after conversion. |
+| [getMarginTop()](#getMarginTop--) | Desired page top margin in points after conversion. |
+| [setMarginTop(float value)](#setMarginTop-float-) | Desired page top margin in points after conversion. |
+| [getMarginBottom()](#getMarginBottom--) | Desired page bottom margin in points after conversion. |
+| [setMarginBottom(float value)](#setMarginBottom-float-) | Desired page bottom margin in points after conversion. |
+| [getMarginLeft()](#getMarginLeft--) | Desired page left margin in points after conversion. |
+| [setMarginLeft(float value)](#setMarginLeft-float-) | Desired page left margin in points after conversion. |
+| [getMarginRight()](#getMarginRight--) | Desired page right margin in points after conversion. |
+| [setMarginRight(float value)](#setMarginRight-float-) | Desired page right margin in points after conversion. |
 | [getPdfOptions()](#getPdfOptions--) | Pdf specific convert options |
 | [setPdfOptions(PdfOptions value)](#setPdfOptions-com.groupdocs.conversion.options.convert.PdfOptions-) | Pdf specific convert options |
 | [getRotate()](#getRotate--) | Page rotation |
@@ -105,95 +105,95 @@ Set this property if you want to protect the converted document with a password.
 
 ### getMarginTop() {#getMarginTop--}
 ```
-public final int getMarginTop()
+public final float getMarginTop()
 ```
 
 
-Desired page top margin in pixels after conversion.
+Desired page top margin in points after conversion.
 
 **Returns:**
-int
-### setMarginTop(int value) {#setMarginTop-int-}
+float
+### setMarginTop(float value) {#setMarginTop-float-}
 ```
-public final void setMarginTop(int value)
+public final void setMarginTop(float value)
 ```
 
 
-Desired page top margin in pixels after conversion.
+Desired page top margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginBottom() {#getMarginBottom--}
 ```
-public final int getMarginBottom()
+public final float getMarginBottom()
 ```
 
 
-Desired page bottom margin in pixels after conversion.
+Desired page bottom margin in points after conversion.
 
 **Returns:**
-int
-### setMarginBottom(int value) {#setMarginBottom-int-}
+float
+### setMarginBottom(float value) {#setMarginBottom-float-}
 ```
-public final void setMarginBottom(int value)
+public final void setMarginBottom(float value)
 ```
 
 
-Desired page bottom margin in pixels after conversion.
+Desired page bottom margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginLeft() {#getMarginLeft--}
 ```
-public final int getMarginLeft()
+public final float getMarginLeft()
 ```
 
 
-Desired page left margin in pixels after conversion.
+Desired page left margin in points after conversion.
 
 **Returns:**
-int
-### setMarginLeft(int value) {#setMarginLeft-int-}
+float
+### setMarginLeft(float value) {#setMarginLeft-float-}
 ```
-public final void setMarginLeft(int value)
+public final void setMarginLeft(float value)
 ```
 
 
-Desired page left margin in pixels after conversion.
+Desired page left margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getMarginRight() {#getMarginRight--}
 ```
-public final int getMarginRight()
+public final float getMarginRight()
 ```
 
 
-Desired page right margin in pixels after conversion.
+Desired page right margin in points after conversion.
 
 **Returns:**
-int
-### setMarginRight(int value) {#setMarginRight-int-}
+float
+### setMarginRight(float value) {#setMarginRight-float-}
 ```
-public final void setMarginRight(int value)
+public final void setMarginRight(float value)
 ```
 
 
-Desired page right margin in pixels after conversion.
+Desired page right margin in points after conversion.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | float |  |
 
 ### getPdfOptions() {#getPdfOptions--}
 ```
