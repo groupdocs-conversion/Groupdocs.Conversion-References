@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Email documents.
 type: docs
-weight: 2220
+weight: 2210
 url: /net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/emailloadoptions/
 Options for loading Email documents.
 
 ```csharp
-public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
+public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
+    IFontSubstituteLoadOptions
 ```
 
 ## Constructors
@@ -26,6 +27,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | --- | --- |
 | [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is true |
 | [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
+| [DefaultFont](../../groupdocs.conversion.options.load/emailloadoptions/defaultfont) { get; set; } | Default font for email document. The following font will be used if a font is missing. |
 | [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [DisplayAttachments](../../groupdocs.conversion.options.load/emailloadoptions/displayattachments) { get; set; } | Option to display or hide attachments in the header. Default: true. |
 | [DisplayBccEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaybccemailaddress) { get; set; } | Option to display or hide "Bcc" email address. Default: false. |
@@ -37,6 +39,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [DisplaySubject](../../groupdocs.conversion.options.load/emailloadoptions/displaysubject) { get; set; } | Option to display or hide subject in the header. Default: true. |
 | [DisplayToEmailAddress](../../groupdocs.conversion.options.load/emailloadoptions/displaytoemailaddress) { get; set; } | Option to display or hide "to" email address. Default: true. |
 | [FieldTextMap](../../groupdocs.conversion.options.load/emailloadoptions/fieldtextmap) { get; set; } | The mapping between email message [`EmailField`](../emailfield) and field text representation |
+| [FontSubstitutes](../../groupdocs.conversion.options.load/emailloadoptions/fontsubstitutes) { get; set; } | List of font substitutes. |
 | [Format](../../groupdocs.conversion.options.load/emailloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
@@ -56,6 +59,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

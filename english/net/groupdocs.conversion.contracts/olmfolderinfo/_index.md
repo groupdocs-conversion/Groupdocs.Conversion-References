@@ -3,7 +3,7 @@ title: OlmFolderInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Personal Storage Folder info
 type: docs
-weight: 390
+weight: 380
 url: /net/groupdocs.conversion.contracts/olmfolderinfo/
 ---
 ## OlmFolderInfo class

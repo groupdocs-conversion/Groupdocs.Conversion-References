@@ -3,7 +3,7 @@ title: DisplayAttachments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Option to display or hide attachments in the header. Default true.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.load/emailloadoptions/displayattachments/
 ---
 ## EmailLoadOptions.DisplayAttachments property

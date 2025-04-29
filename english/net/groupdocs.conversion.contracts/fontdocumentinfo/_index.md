@@ -3,7 +3,7 @@ title: FontDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Font document metadata
 type: docs
-weight: 210
+weight: 200
 url: /net/groupdocs.conversion.contracts/fontdocumentinfo/
 ---
 ## FontDocumentInfo class

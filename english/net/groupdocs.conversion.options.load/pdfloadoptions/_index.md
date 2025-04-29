@@ -12,7 +12,7 @@ Options for loading Pdf documents.
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IMetadataLoadOptions, IPageNumberingLoadOptions
+    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageNumberingLoadOptions
 ```
 
 ## Constructors
@@ -54,6 +54,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)

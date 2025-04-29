@@ -3,7 +3,7 @@ title: IPagedConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents convert options that allows conversion to perform page limitation by specifying start page and pages count
 type: docs
-weight: 1700
+weight: 1690
 url: /net/groupdocs.conversion.options.convert/ipagedconvertoptions/
 ---
 ## IPagedConvertOptions interface

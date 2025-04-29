@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents a rectangle defined by its edges for cropping purposes.
 type: docs
-weight: 520
+weight: 510
 url: /net/groupdocs.conversion.contracts/rectangle/
 ---
 ## Rectangle class

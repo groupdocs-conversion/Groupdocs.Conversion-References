@@ -12,7 +12,7 @@ Options for loading Spreadsheet documents.
 
 ```csharp
 public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IMetadataLoadOptions
+    IFontSubstituteLoadOptions, IMetadataLoadOptions
 ```
 
 ## Constructors
@@ -67,6 +67,7 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

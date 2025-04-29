@@ -3,7 +3,7 @@ title: SpreadsheetFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Spreadsheet documents. Includes the following file types Csv./spreadsheetfiletype/csv Fods./spreadsheetfiletype/fods Ods./spreadsheetfiletype/ods Ots./spreadsheetfiletype/ots Tsv./spreadsheetfiletype/tsv Xlam./spreadsheetfiletype/xlam Xls./spreadsheetfiletype/xls Xlsb./spreadsheetfiletype/xlsb Xlsm./spreadsheetfiletype/xlsm Xlsx./spreadsheetfiletype/xlsx Xlt./spreadsheetfiletype/xlt Xltm./spreadsheetfiletype/xltm Xltx./spreadsheetfiletype/xltx. Learn more about Spreadsheet formats herehttps//wiki.fileformat.com/spreadsheet.
 type: docs
-weight: 1100
+weight: 1090
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/
 ---
 ## SpreadsheetFileType class

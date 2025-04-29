@@ -3,7 +3,7 @@ title: ICompressionDocumentHierarchyInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines metadata for a compression document hierarchy.
 type: docs
-weight: 260
+weight: 250
 url: /net/groupdocs.conversion.contracts/icompressiondocumenthierarchyinfo/
 ---
 ## ICompressionDocumentHierarchyInfo interface
