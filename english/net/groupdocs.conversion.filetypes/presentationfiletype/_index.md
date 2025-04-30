@@ -3,7 +3,7 @@ title: PresentationFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Presentation file formats that store collection of records to accommodate presentation data such as slides shapes text animations video audio and embedded objects. Includes the following file types Odp./presentationfiletype/odp Otp./presentationfiletype/otp Pot./presentationfiletype/pot Potm./presentationfiletype/potm Potx./presentationfiletype/potx Pps./presentationfiletype/pps Ppsm./presentationfiletype/ppsm Ppsx./presentationfiletype/ppsx Ppt./presentationfiletype/ppt Pptm./presentationfiletype/pptm Pptx./presentationfiletype/pptx. Learn more about Presentation formats herehttps//wiki.fileformat.com/presentation.
 type: docs
-weight: 1070
+weight: 1060
 url: /net/groupdocs.conversion.filetypes/presentationfiletype/
 ---
 ## PresentationFileType class

@@ -3,7 +3,7 @@ title: ConvertedContext
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines convert context.
 type: docs
-weight: 780
+weight: 770
 url: /net/groupdocs.conversion/convertedcontext/
 ---
 ## ConvertedContext class

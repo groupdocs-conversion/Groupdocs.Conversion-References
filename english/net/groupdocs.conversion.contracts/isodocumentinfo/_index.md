@@ -3,7 +3,7 @@ title: IsoDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains ISO document metadata
 type: docs
-weight: 320
+weight: 310
 url: /net/groupdocs.conversion.contracts/isodocumentinfo/
 ---
 ## IsoDocumentInfo class

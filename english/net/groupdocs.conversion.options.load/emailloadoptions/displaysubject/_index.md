@@ -3,7 +3,7 @@ title: DisplaySubject
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Option to display or hide subject in the header. Default true.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.conversion.options.load/emailloadoptions/displaysubject/
 ---
 ## EmailLoadOptions.DisplaySubject property

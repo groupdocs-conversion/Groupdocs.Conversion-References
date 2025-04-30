@@ -12,7 +12,8 @@ Options for loading WordProcessing documents.
 
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IMetadataLoadOptions, IPageNumberingLoadOptions, IResourceLoadingOptions
+    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageNumberingLoadOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -66,6 +67,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
