@@ -38,6 +38,8 @@ Options for loading CAD documents.
 | [setBackgroundColor(System.Drawing.Color backgroundColor)](#setBackgroundColor-com.aspose.ms.System.Drawing.Color-) | Sets a background color. |
 | [getFontDirectories()](#getFontDirectories--) |  |
 | [setFontDirectories(List<String> fontDirectories)](#setFontDirectories-java.util.List-java.lang.String--) |  |
+| [getCtbSources()](#getCtbSources--) | Gets the CTB sources. |
+| [setCtbSources(Map<String,InputStream> ctbSources)](#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--) | Sets the CTB sources. |
 ### CadLoadOptions() {#CadLoadOptions--}
 ```
 public CadLoadOptions()
@@ -193,4 +195,27 @@ public void setFontDirectories(List<String> fontDirectories)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontDirectories | java.util.List<java.lang.String> |  |
+
+### getCtbSources() {#getCtbSources--}
+```
+public Map<String,InputStream> getCtbSources()
+```
+
+
+Gets the CTB sources.
+
+**Returns:**
+java.util.Map<java.lang.String,java.io.InputStream>
+### setCtbSources(Map<String,InputStream> ctbSources) {#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--}
+```
+public void setCtbSources(Map<String,InputStream> ctbSources)
+```
+
+
+Sets the CTB sources.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ctbSources | java.util.Map<java.lang.String,java.io.InputStream> |  |
 
