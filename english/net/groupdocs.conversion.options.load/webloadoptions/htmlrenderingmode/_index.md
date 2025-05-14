@@ -3,7 +3,7 @@ title: HtmlRenderingMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Controls how HTML content is rendered. Default AbsolutePositioning
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode/
 ---
 ## WebLoadOptions.HtmlRenderingMode property

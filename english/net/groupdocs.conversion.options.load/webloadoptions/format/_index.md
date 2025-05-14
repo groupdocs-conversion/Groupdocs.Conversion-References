@@ -3,7 +3,7 @@ title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Input document file type.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion.options.load/webloadoptions/format/
 ---
 ## WebLoadOptions.Format property

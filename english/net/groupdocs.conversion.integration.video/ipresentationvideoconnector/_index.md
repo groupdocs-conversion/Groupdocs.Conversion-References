@@ -3,7 +3,7 @@ title: IPresentationVideoConnector
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines methods that are required to convert presentation documents to video.
 type: docs
-weight: 1440
+weight: 1450
 url: /net/groupdocs.conversion.integration.video/ipresentationvideoconnector/
 ---
 ## IPresentationVideoConnector interface

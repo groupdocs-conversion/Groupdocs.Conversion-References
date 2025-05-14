@@ -37,6 +37,7 @@ The namespace provides classes to specify additional options for document loadin
 | [NsfLoadOptions](./nsfloadoptions) | Options for loading Nsf documents. |
 | [OlmLoadOptions](./olmloadoptions) | Options for loading Olm documents. |
 | [PageDescriptionLanguageLoadOptions](./pagedescriptionlanguageloadoptions) | Options for loading page description language documents. |
+| [PageLayoutOptions](./pagelayoutoptions) | Describes page layout modes when loading web documents. |
 | [PclLoadOptions](./pclloadoptions) | Options for loading Pcl documents. |
 | [PdfLoadOptions](./pdfloadoptions) | Options for loading Pdf documents. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions) | Options for loading personal storage documents. |

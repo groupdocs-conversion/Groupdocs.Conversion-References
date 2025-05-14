@@ -27,6 +27,7 @@ The namespace provides members to instantiate and release output document, manag
 | [EmailDocumentInfo](./emaildocumentinfo) | Contains Email document metadata |
 | [Enumeration](./enumeration) | Generic enumeration class. |
 | [EpsDocumentInfo](./epsdocumentinfo) | Contains Ps document metadata |
+| [FlagsEnumeration](./flagsenumeration) | Represents an abstract base class for creating enumerations that support bitwise flag operations. |
 | [FontDocumentInfo](./fontdocumentinfo) | Contains Font document metadata |
 | [FontSubstitute](./fontsubstitute) | Describes substitution for missing font. |
 | [GisDocumentInfo](./gisdocumentinfo) | Contains GIS document metadata |
