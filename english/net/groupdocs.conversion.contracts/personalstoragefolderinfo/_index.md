@@ -3,7 +3,7 @@ title: PersonalStorageFolderInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Personal Storage Folder info
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.conversion.contracts/personalstoragefolderinfo/
 ---
 ## PersonalStorageFolderInfo class

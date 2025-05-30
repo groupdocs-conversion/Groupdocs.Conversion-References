@@ -3,7 +3,7 @@ title: Zoom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the zoom level as a percentage. The zoom level is applied to the documents ltbodygt tag before conversion scaling the documents visual appearance. A value of 100 represents the original size. The default value is 100.
 type: docs
-weight: 130
+weight: 150
 url: /net/groupdocs.conversion.options.load/webloadoptions/zoom/
 ---
 ## WebLoadOptions.Zoom property

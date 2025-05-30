@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2580
+weight: 2600
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class
@@ -27,10 +27,12 @@ public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceL
 | [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
 | [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Action for configuration of the request headers. First parameter of the action is the Uri. |
 | [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Credentials provider for the Uri. |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Sets custom CSS style for the HTML document. This style will be applied to the document's &lt;head&gt; tag. It helps to customize the document's rendering during conversion. |
 | [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
 | [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HtmlRenderingMode](../../groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode) { get; set; } | Controls how HTML content is rendered. Default: AbsolutePositioning |
+| [PageLayoutOptions](../../groupdocs.conversion.options.load/webloadoptions/pagelayoutoptions) { get; set; } | Specifies the page layout options when loading web documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
