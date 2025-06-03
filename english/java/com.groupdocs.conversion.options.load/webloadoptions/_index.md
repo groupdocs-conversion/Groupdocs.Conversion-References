@@ -39,6 +39,8 @@ Options for loading web documents.
 | [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
 | [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
 | [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
+| [isUsePdf()](#isUsePdf--) | Use pdf for the conversion. |
+| [setUsePdf(boolean usePdf)](#setUsePdf-boolean-) |  |
 ### WebLoadOptions() {#WebLoadOptions--}
 ```
 public WebLoadOptions()
@@ -207,4 +209,27 @@ public void setWhitelistedResources(List<String> whiteList)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | whiteList | java.util.List<java.lang.String> |  |
+
+### isUsePdf() {#isUsePdf--}
+```
+public boolean isUsePdf()
+```
+
+
+Use pdf for the conversion. Default: false
+
+**Returns:**
+boolean
+### setUsePdf(boolean usePdf) {#setUsePdf-boolean-}
+```
+public void setUsePdf(boolean usePdf)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| usePdf | boolean |  |
 
