@@ -3,7 +3,7 @@ title: PresentationConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes options for conversion to Presentation file type.
 type: docs
-weight: 1940
+weight: 1950
 url: /net/groupdocs.conversion.options.convert/presentationconvertoptions/
 ---
 ## PresentationConvertOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.convert/presentationconvertoptions/
 Describes options for conversion to Presentation file type.
 
 ```csharp
-public class PresentationConvertOptions : CommonConvertOptions<PresentationFileType>
+public class PresentationConvertOptions : CommonConvertOptions<PresentationFileType>, 
+    IZoomConvertOptions
 ```
 
 ## Constructors
@@ -46,6 +47,7 @@ public class PresentationConvertOptions : CommonConvertOptions<PresentationFileT
 
 * class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
 * class [PresentationFileType](../../groupdocs.conversion.filetypes/presentationfiletype)
+* interface [IZoomConvertOptions](../izoomconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

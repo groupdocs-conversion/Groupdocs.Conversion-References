@@ -3,7 +3,7 @@ title: SpreadsheetConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Spreadsheet file type.
 type: docs
-weight: 2010
+weight: 2020
 url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 ---
 ## SpreadsheetConvertOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 Options for conversion to Spreadsheet file type.
 
 ```csharp
-public class SpreadsheetConvertOptions : CommonConvertOptions<SpreadsheetFileType>
+public class SpreadsheetConvertOptions : CommonConvertOptions<SpreadsheetFileType>, 
+    IZoomConvertOptions
 ```
 
 ## Constructors
@@ -48,6 +49,7 @@ public class SpreadsheetConvertOptions : CommonConvertOptions<SpreadsheetFileTyp
 
 * class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
 * class [SpreadsheetFileType](../../groupdocs.conversion.filetypes/spreadsheetfiletype)
+* interface [IZoomConvertOptions](../izoomconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

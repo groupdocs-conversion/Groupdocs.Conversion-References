@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 1900
+weight: 1910
 url: /net/groupdocs.conversion.options.convert/pdfoptions/
 ---
 ## PdfOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdfoptions/
 Options for conversion to Pdf file type.
 
 ```csharp
-public sealed class PdfOptions : ValueObject
+public sealed class PdfOptions : ValueObject, IZoomConvertOptions
 ```
 
 ## Constructors
@@ -44,6 +44,7 @@ public sealed class PdfOptions : ValueObject
 ### See Also
 
 * class [ValueObject](../../groupdocs.conversion.contracts/valueobject)
+* interface [IZoomConvertOptions](../izoomconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 
