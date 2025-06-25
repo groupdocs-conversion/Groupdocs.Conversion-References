@@ -69,6 +69,7 @@ The namespace provides classes to specify additional options for document conver
 | Interface | Description |
 | --- | --- |
 | [IConvertOptions](./iconvertoptions) | Represents convert options |
+| [IDpiConvertOptions](./idpiconvertoptions) | Represents convert options that support DPI (Dots Per Inch) settings. |
 | [IPagedConvertOptions](./ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |
 | [IPageMarginConvertOptions](./ipagemarginconvertoptions) | Represents convert options that support page margins |
 | [IPageOrientationConvertOptions](./ipageorientationconvertoptions) | Represents convert options that support page orientation |

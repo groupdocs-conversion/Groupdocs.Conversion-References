@@ -3,7 +3,7 @@ title: PresentationNotesPosition
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way notes are printed with the slide.
 type: docs
-weight: 2480
+weight: 2490
 url: /net/groupdocs.conversion.options.load/presentationnotesposition/
 ---
 ## PresentationNotesPosition class
