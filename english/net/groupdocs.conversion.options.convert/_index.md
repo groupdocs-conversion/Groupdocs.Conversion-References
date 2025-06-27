@@ -75,6 +75,7 @@ The namespace provides classes to specify additional options for document conver
 | [IPageOrientationConvertOptions](./ipageorientationconvertoptions) | Represents convert options that support page orientation |
 | [IPageRangedConvertOptions](./ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
 | [IPageSizeConvertOptions](./ipagesizeconvertoptions) | Represents convert options that support page size |
+| [IPasswordConvertOptions](./ipasswordconvertoptions) | Represents convert options that support password protection for converted documents. |
 | [IPdfRecognitionModeOptions](./ipdfrecognitionmodeoptions) | Represents convert options that control recognition mode when converting from PDF |
 | [IWatermarkedConvertOptions](./iwatermarkedconvertoptions) | Represents convert options that allow output of conversion to be watermarked |
 | [IZoomConvertOptions](./izoomconvertoptions) | Represents convert options that allows conversion to be performed with zoom options |

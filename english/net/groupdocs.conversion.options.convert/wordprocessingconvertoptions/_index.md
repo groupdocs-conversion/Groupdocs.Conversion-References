@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to WordProcessing file type.
 type: docs
-weight: 2130
+weight: 2140
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class
@@ -13,7 +13,8 @@ Options for conversion to WordProcessing file type.
 ```csharp
 public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingFileType>, 
     IDpiConvertOptions, IPageMarginConvertOptions, IPageOrientationConvertOptions, 
-    IPageSizeConvertOptions, IPdfRecognitionModeOptions, IZoomConvertOptions
+    IPageSizeConvertOptions, IPasswordConvertOptions, IPdfRecognitionModeOptions, 
+    IZoomConvertOptions
 ```
 
 ## Constructors
@@ -65,6 +66,7 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 * interface [IPageMarginConvertOptions](../ipagemarginconvertoptions)
 * interface [IPageOrientationConvertOptions](../ipageorientationconvertoptions)
 * interface [IPageSizeConvertOptions](../ipagesizeconvertoptions)
+* interface [IPasswordConvertOptions](../ipasswordconvertoptions)
 * interface [IPdfRecognitionModeOptions](../ipdfrecognitionmodeoptions)
 * interface [IZoomConvertOptions](../izoomconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)

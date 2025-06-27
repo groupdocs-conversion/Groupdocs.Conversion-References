@@ -3,7 +3,7 @@ title: PclLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pcl documents.
 type: docs
-weight: 2440
+weight: 2450
 url: /net/groupdocs.conversion.options.load/pclloadoptions/
 ---
 ## PclLoadOptions class

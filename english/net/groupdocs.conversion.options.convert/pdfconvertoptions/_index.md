@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 1850
+weight: 1860
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -12,7 +12,8 @@ Options for conversion to Pdf file type.
 
 ```csharp
 public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IDpiConvertOptions, 
-    IPageMarginConvertOptions, IPageOrientationConvertOptions, IPageSizeConvertOptions
+    IPageMarginConvertOptions, IPageOrientationConvertOptions, IPageSizeConvertOptions, 
+    IPasswordConvertOptions
 ```
 
 ## Constructors
@@ -62,6 +63,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IDpiConvertO
 * interface [IPageMarginConvertOptions](../ipagemarginconvertoptions)
 * interface [IPageOrientationConvertOptions](../ipageorientationconvertoptions)
 * interface [IPageSizeConvertOptions](../ipagesizeconvertoptions)
+* interface [IPasswordConvertOptions](../ipasswordconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 
