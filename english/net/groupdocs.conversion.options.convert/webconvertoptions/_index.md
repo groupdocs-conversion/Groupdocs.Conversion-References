@@ -3,7 +3,7 @@ title: WebConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Web file type.
 type: docs
-weight: 2090
+weight: 2120
 url: /net/groupdocs.conversion.options.convert/webconvertoptions/
 ---
 ## WebConvertOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/webconvertoptions/
 Options for conversion to Web file type.
 
 ```csharp
-public class WebConvertOptions : CommonConvertOptions<WebFileType>
+public class WebConvertOptions : CommonConvertOptions<WebFileType>, IZoomConvertOptions
 ```
 
 ## Constructors
@@ -49,6 +49,7 @@ public class WebConvertOptions : CommonConvertOptions<WebFileType>
 
 * class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
 * class [WebFileType](../../groupdocs.conversion.filetypes/webfiletype)
+* interface [IZoomConvertOptions](../izoomconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

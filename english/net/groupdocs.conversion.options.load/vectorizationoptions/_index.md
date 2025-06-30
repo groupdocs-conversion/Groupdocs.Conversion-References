@@ -3,7 +3,7 @@ title: VectorizationOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for vectorization images.
 type: docs
-weight: 2580
+weight: 2610
 url: /net/groupdocs.conversion.options.load/vectorizationoptions/
 ---
 ## VectorizationOptions class
