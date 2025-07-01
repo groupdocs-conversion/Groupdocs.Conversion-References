@@ -14,16 +14,17 @@ Conversion load options
 
 | Method | Description |
 | --- | --- |
-| [withOptions(LoadOptions loadOptions)](#withOptions-com.groupdocs.conversion.options.load.LoadOptions-) | Set load options |
-| [withOptions(LoadOptionsProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsProvider-) | Set load options |
-| [withOptions(LoadOptionsForFileTypeProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-) | Set load options for specified file type |
+| [withOptions(LoadOptions loadOptions)](#withOptions-com.groupdocs.conversion.options.load.LoadOptions-) | Provide load options for the document currently being loading |
+| [withOptions(LoadOptionsProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsProvider-) | Provide load options for the document currently being loading |
+| [withOptions(LoadOptionsForFileTypeProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-) | Provide load options for the document currently being loading |
+| [withOptions(LoadOptionsForNameFileTypeStreamProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForNameFileTypeStreamProvider-) | Provide load options for the document currently being loading Load options provider The name of the loaded file The type of the loaded file The content of the loaded file |
 ### withOptions(LoadOptions loadOptions) {#withOptions-com.groupdocs.conversion.options.load.LoadOptions-}
 ```
 public abstract IConversionSourceDocumentLoaded withOptions(LoadOptions loadOptions)
 ```
 
 
-Set load options
+Provide load options for the document currently being loading
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -38,7 +39,7 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsProvider 
 ```
 
 
-Set load options
+Provide load options for the document currently being loading
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -53,12 +54,27 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsForFileTy
 ```
 
 
-Set load options for specified file type
+Provide load options for the document currently being loading
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptionsProvider | [LoadOptionsForFileTypeProvider](../../com.groupdocs.conversion.contracts/loadoptionsforfiletypeprovider) | Load options provider |
+
+**Returns:**
+[IConversionSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded)
+### withOptions(LoadOptionsForNameFileTypeStreamProvider loadOptionsProvider) {#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForNameFileTypeStreamProvider-}
+```
+public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsForNameFileTypeStreamProvider loadOptionsProvider)
+```
+
+
+Provide load options for the document currently being loading Load options provider The name of the loaded file The type of the loaded file The content of the loaded file
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptionsProvider | [LoadOptionsForNameFileTypeStreamProvider](../../com.groupdocs.conversion.contracts/loadoptionsfornamefiletypestreamprovider) |  |
 
 **Returns:**
 [IConversionSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded)
