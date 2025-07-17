@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for setting hyphenation documents.
 type: docs
-weight: 2320
+weight: 2460
 url: /net/groupdocs.conversion.options.load/hyphenationoptions/
 ---
 ## HyphenationOptions class

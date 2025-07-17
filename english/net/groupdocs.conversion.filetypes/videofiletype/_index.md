@@ -3,7 +3,7 @@ title: VideoFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Video documents Includes the following types Mp4./videofiletype/mp4 Avi./videofiletype/avi Flv./videofiletype/flv Mkv./videofiletype/mkv Mov./videofiletype/mov Webm./videofiletype/webm Wmv./videofiletype/wmv Learn more about video formats herehttps//docs.fileformat.com/video/.
 type: docs
-weight: 1120
+weight: 1150
 url: /net/groupdocs.conversion.filetypes/videofiletype/
 ---
 ## VideoFileType class

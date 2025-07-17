@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Pdf formats enumeration.
 type: docs
-weight: 1900
+weight: 2040
 url: /net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class
@@ -43,6 +43,9 @@ public sealed class PdfFormats : Enumeration
 | static readonly [PdfA_3A](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3a) | PDF/A-3a conformance. |
 | static readonly [PdfA_3B](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3b) | PDF/A-3b conformance. |
 | static readonly [PdfA_3U](../../groupdocs.conversion.options.convert/pdfformats/pdfa_3u) | PDF/A-3u conformance. |
+| static readonly [PdfA_4](../../groupdocs.conversion.options.convert/pdfformats/pdfa_4) | PDF/A-4 conformance. |
+| static readonly [PdfA_4E](../../groupdocs.conversion.options.convert/pdfformats/pdfa_4e) | PDF/A-4E conformance. |
+| static readonly [PdfA_4F](../../groupdocs.conversion.options.convert/pdfformats/pdfa_4f) | PDF/A-4F conformance. |
 | static readonly [PdfUA_1](../../groupdocs.conversion.options.convert/pdfformats/pdfua_1) | PDF/UA-1 conformance. |
 | static readonly [PdfX_1A](../../groupdocs.conversion.options.convert/pdfformats/pdfx_1a) | PDF/X-1a conformance. |
 | static readonly [PdfX_3](../../groupdocs.conversion.options.convert/pdfformats/pdfx_3) | PDF/X-3 conformance. |

@@ -3,7 +3,7 @@ title: SpreadsheetPrintComments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way comments are printed with the sheet.
 type: docs
-weight: 2540
+weight: 2680
 url: /net/groupdocs.conversion.options.load/spreadsheetprintcomments/
 ---
 ## SpreadsheetPrintComments class

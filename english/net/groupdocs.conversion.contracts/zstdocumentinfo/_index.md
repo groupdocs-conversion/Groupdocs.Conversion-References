@@ -3,7 +3,7 @@ title: ZstDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Zst document metadata
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.conversion.contracts/zstdocumentinfo/
 ---
 ## ZstDocumentInfo class

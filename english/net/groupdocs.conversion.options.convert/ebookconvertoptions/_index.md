@@ -3,7 +3,7 @@ title: EBookConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to EBook file type.
 type: docs
-weight: 1590
+weight: 1730
 url: /net/groupdocs.conversion.options.convert/ebookconvertoptions/
 ---
 ## EBookConvertOptions class

@@ -12,6 +12,8 @@ The namespace provides different exceptions classes.
 
 | Class | Description |
 | --- | --- |
+| [ConversionByPageFailedException](./conversionbypagefailedexception) | Conversion by page failed exception |
+| [ConversionFailedException](./conversionfailedexception) | Conversion failed exception |
 | [ConversionNotSupportedException](./conversionnotsupportedexception) | GroupDocs exception thrown when the conversion from source file to target file type is not supported |
 | [CorruptOrDamagedFileException](./corruptordamagedfileexception) | GroupDocs exception thrown when the file is corrupt or damaged |
 | [FileTypeNotSupportedException](./filetypenotsupportedexception) | GroupDocs exception thrown when the file type is not supported |

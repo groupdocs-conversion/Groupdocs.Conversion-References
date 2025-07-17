@@ -3,7 +3,7 @@ title: Cpio
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unixlike computer operating systems.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/cpio/
 ---
 ## CompressionFileType.Cpio field

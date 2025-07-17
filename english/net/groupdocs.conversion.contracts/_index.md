@@ -39,6 +39,7 @@ The namespace provides members to instantiate and release output document, manag
 | [IsoDocumentInfo](./isodocumentinfo) | Contains ISO document metadata |
 | [JsonDocumentInfo](./jsondocumentinfo) | Contains Json document metadata |
 | [LhaDocumentInfo](./lhadocumentinfo) | Contains compression document metadata |
+| [Lz4DocumentInfo](./lz4documentinfo) | Contains Lzip document metadata |
 | [LzipDocumentInfo](./lzipdocumentinfo) | Contains Lzip document metadata |
 | [LzmaDocumentInfo](./lzmadocumentinfo) | Contains Lzma document metadata |
 | [NoteDocumentInfo](./notedocumentinfo) | Contains Note document metadata |
