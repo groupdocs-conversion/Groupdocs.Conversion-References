@@ -14,6 +14,11 @@ The namespace provides interfaces for fluent conversion.
 | --- | --- |
 | [IConversionByPageCompleted](./iconversionbypagecompleted) | Handle conversion page completed |
 | [IConversionByPageCompletedOrConvert](./iconversionbypagecompletedorconvert) | Handle conversion completed or execute conversion |
+| [IConversionByPageHandlerCompleted](./iconversionbypagehandlercompleted) | Fluent interface after OnConversionFailed is set for page conversion. Allows setting OnConversionCompleted or proceeding to Convert/Compress. |
+| [IConversionByPageHandlerFailed](./iconversionbypagehandlerfailed) | Fluent interface after OnConversionCompleted is set for page conversion. Allows setting OnConversionFailed or proceeding to Convert/Compress. |
+| [IConversionByPageHandlerOnly](./iconversionbypagehandleronly) | Fluent interface for setting only by-page conversion handlers. |
+| [IConversionByPageHandlerSetup](./iconversionbypagehandlersetup) | Fluent interface for setting page conversion handlers. Allows setting OnConversionCompleted and/or OnConversionFailed in any order, at most once each, or skipping both. |
+| [IConversionByPageOptionsOrHandlerSetup](./iconversionbypageoptionsorhandlersetup) | Fluent interface for setting by-page conversion options or handler setup. Allows setting options or handlers in any order, but only once each, or skipping both. |
 | [IConversionCompleted](./iconversioncompleted) | Handle conversion completed |
 | [IConversionCompletedOrConvert](./iconversioncompletedorconvert) | Handle conversion completed or execute conversion |
 | [IConversionCompressResult](./iconversioncompressresult) | Can compress all conversion results in single archive |
@@ -28,9 +33,15 @@ The namespace provides interfaces for fluent conversion.
 | [IConversionFrom](./iconversionfrom) | Setup source for conversion |
 | [IConversionGetDocumentInfo](./iconversiongetdocumentinfo) | Gets source document info - pages count and other document properties specific to the file type. |
 | [IConversionGetPossibleConversions](./iconversiongetpossibleconversions) | Gets possible conversions for the source document. |
+| [IConversionHandlerCompleted](./iconversionhandlercompleted) | Fluent interface after OnConversionFailed is set. Allows setting OnConversionCompleted or proceeding to Convert/Compress. |
+| [IConversionHandlerFailed](./iconversionhandlerfailed) | Fluent interface after OnConversionCompleted is set. Allows setting OnConversionFailed or proceeding to Convert/Compress. |
+| [IConversionHandlerOnly](./iconversionhandleronly) | Fluent interface for setting only conversion handlers. |
+| [IConversionHandlerSetup](./iconversionhandlersetup) | Fluent interface for setting conversion handlers. Allows setting OnConversionCompleted and/or OnConversionFailed in any order, at most once each, or skipping both. |
 | [IConversionIsPasswordProtected](./iconversionispasswordprotected) | Checks if source document is password protected |
 | [IConversionLoadOptions](./iconversionloadoptions) | Conversion load options |
 | [IConversionLoadOptionsOrSourceDocumentLoaded](./iconversionloadoptionsorsourcedocumentloaded) | Conversion load options or actions with loaded document |
+| [IConversionOptionsOnly](./iconversionoptionsonly) | Fluent interface for setting only conversion options. |
+| [IConversionOptionsOrHandlerSetup](./iconversionoptionsorhandlersetup) | Conversion options or conversion handler setup |
 | [IConversionSettings](./iconversionsettings) | Setup conversion settings |
 | [IConversionSettingsOrConversionFrom](./iconversionsettingsorconversionfrom) | Conversion settings or conversion source |
 | [IConversionSourceDocumentLoaded](./iconversionsourcedocumentloaded) | Provides possible actions with loaded document |

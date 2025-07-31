@@ -3,7 +3,7 @@ title: PdfX_1A
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/X1a conformance.
 type: docs
-weight: 120
+weight: 150
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfx_1a/
 ---
 ## PdfFormats.PdfX_1A field

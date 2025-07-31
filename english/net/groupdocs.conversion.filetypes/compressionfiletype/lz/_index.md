@@ -3,7 +3,7 @@ title: Lz
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .lz extension is a compressed archive file created with Lzip which is a free commandline tool for compression. It supports concatenation to compress support files. LZ files have media type application/lzip and support higher compression rations than BZ2. Learn more about this file format herehttps//docs.fileformat.com/compression/bz2/.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/lz/
 ---
 ## CompressionFileType.Lz field

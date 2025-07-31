@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetallfo
 Subset all fonts, used in a document.
 
 ```csharp
-public static PdfFontSubsetStrategy SubsetAllFonts;
+public static readonly PdfFontSubsetStrategy SubsetAllFonts;
 ```
 
 ### See Also

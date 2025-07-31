@@ -1,17 +1,17 @@
 ---
-title: CompressionFileType
+title: IsMultiFileArchive
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Serialization constructor
+description: Defines if the format supports multiple files/folders in a single archive.
 type: docs
-weight: 10
-url: /net/groupdocs.conversion.filetypes/compressionfiletype/compressionfiletype/
+weight: 190
+url: /net/groupdocs.conversion.filetypes/compressionfiletype/ismultifilearchive/
 ---
-## CompressionFileType constructor
+## CompressionFileType.IsMultiFileArchive property
 
-Serialization constructor
+Defines if the format supports multiple files/folders in a single archive.
 
 ```csharp
-public CompressionFileType()
+public bool IsMultiFileArchive { get; }
 ```
 
 ### See Also

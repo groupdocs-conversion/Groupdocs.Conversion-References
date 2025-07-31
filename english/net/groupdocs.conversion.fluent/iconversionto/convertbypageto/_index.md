@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.fluent/iconversionto/convertbypageto/
 Save converted page as stream
 
 ```csharp
-public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
+public IConversionByPageOptionsOrHandlerSetup ConvertByPageTo(
     Func<SavePageContext, Stream> convertedStreamProvider)
 ```
 
@@ -21,11 +21,11 @@ public IConversionConvertOptionOrPageCompletedOrConvert ConvertByPageTo(
 
 ### Return Value
 
-Interface to continue conversion building
+Page options or handler setup interface to continue conversion building
 
 ### See Also
 
-* interface [IConversionConvertOptionOrPageCompletedOrConvert](../../iconversionconvertoptionorpagecompletedorconvert)
+* interface [IConversionByPageOptionsOrHandlerSetup](../../iconversionbypageoptionsorhandlersetup)
 * class [SavePageContext](../../../groupdocs.conversion/savepagecontext)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)

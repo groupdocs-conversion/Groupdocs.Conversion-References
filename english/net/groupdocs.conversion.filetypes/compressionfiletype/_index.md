@@ -1,24 +1,18 @@
 ---
 title: CompressionFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines compression formats. Includes the following file types Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2. Lz./compressionfiletype/lz. Z./compressionfiletype/z. Xz./compressionfiletype/xz. Xz./compressionfiletype/xz. Cpio./compressionfiletype/cpio. Cab./compressionfiletype/cab. Lzma./compressionfiletype/lzma. Zst./compressionfiletype/zst. Uue./compressionfiletype/uue. Lha./compressionfiletype/lha. Learn more about compression formats herehttps//docs.fileformat.com/compression/.
+description: Defines compression formats. Includes the following file types Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2. Lz./compressionfiletype/lz. Z./compressionfiletype/z. Xz./compressionfiletype/xz. Xz./compressionfiletype/xz. Cpio./compressionfiletype/cpio. Cab./compressionfiletype/cab. Lzma./compressionfiletype/lzma. Zst./compressionfiletype/zst. Uue./compressionfiletype/uue. Lha./compressionfiletype/lha. Lz4./compressionfiletype/lz4. Learn more about compression formats herehttps//docs.fileformat.com/compression/.
 type: docs
-weight: 940
+weight: 970
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class
 
-Defines compression formats. Includes the following file types: [`Zip`](./zip). [`Rar`](./rar). [`SevenZ`](./sevenz). [`Tar`](./tar). [`Gz`](./gz). [`Gzip`](./gzip). [`Bz2`](./bz2). [`Lz`](./lz). [`Z`](./z). [`Xz`](./xz). [`Xz`](./xz). [`Cpio`](./cpio). [`Cab`](./cab). [`Lzma`](./lzma). [`Zst`](./zst). [`Uue`](./uue). [`Lha`](./lha). Learn more about compression formats [here](https://docs.fileformat.com/compression/).
+Defines compression formats. Includes the following file types: [`Zip`](./zip). [`Rar`](./rar). [`SevenZ`](./sevenz). [`Tar`](./tar). [`Gz`](./gz). [`Gzip`](./gzip). [`Bz2`](./bz2). [`Lz`](./lz). [`Z`](./z). [`Xz`](./xz). [`Xz`](./xz). [`Cpio`](./cpio). [`Cab`](./cab). [`Lzma`](./lzma). [`Zst`](./zst). [`Uue`](./uue). [`Lha`](./lha). [`Lz4`](./lz4). Learn more about compression formats [here](https://docs.fileformat.com/compression/).
 
 ```csharp
 public sealed class CompressionFileType : FileType
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [CompressionFileType](compressionfiletype)() | Serialization constructor |
 
 ## Properties
 
@@ -28,6 +22,7 @@ public sealed class CompressionFileType : FileType
 | [Extension](../../groupdocs.conversion.filetypes/filetype/extension) { get; } | The file extension |
 | [Family](../../groupdocs.conversion.filetypes/filetype/family) { get; } | The file family |
 | [FileFormat](../../groupdocs.conversion.filetypes/filetype/fileformat) { get; } | The file format |
+| [IsMultiFileArchive](../../groupdocs.conversion.filetypes/compressionfiletype/ismultifilearchive) { get; } | Defines if the format supports multiple files/folders in a single archive. |
 
 ## Methods
 
@@ -51,6 +46,7 @@ public sealed class CompressionFileType : FileType
 | static readonly [Iso](../../groupdocs.conversion.filetypes/compressionfiletype/iso) | A file with .iso extension is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD. Based on the ISO-9660 standard, the ISO image file format contains the disc data along with the filesystem information that is stored in it. Learn more about this file format [here](https://docs.fileformat.com/compression/iso/). |
 | static readonly [Lha](../../groupdocs.conversion.filetypes/compressionfiletype/lha) | A file with .lzh and .lha extension usually relates to archive compression file format. This file format is the same as other file compression formats like ZIP, RAR, etc. The main purpose of these file formats is to reduce the size of the format for easily sending as well as to keep them together in compressed form. |
 | static readonly [Lz](../../groupdocs.conversion.filetypes/compressionfiletype/lz) | A file with .lz extension is a compressed archive file created with Lzip, which is a free command-line tool for compression. It supports concatenation to compress support files. LZ files have media type application/lzip and support higher compression rations than BZ2. Learn more about this file format [here](https://docs.fileformat.com/compression/bz2/). |
+| static readonly [Lz4](../../groupdocs.conversion.filetypes/compressionfiletype/lz4) | A file with .lz4 extension is a compressed archive file created with applications/utilities that support LZ4 compression. The LZ4 algorithm focuses on trade-off between speed and compression ratio. Compressed LZ4 archives can be created using the LZ4 command-line utility and can be decompressed using the same. Learn more about this file format [here](https://docs.fileformat.com/compression/lz4/). |
 | static readonly [Lzma](../../groupdocs.conversion.filetypes/compressionfiletype/lzma) | A file with .lzma extension is a compressed archive file created using the LZMA (Lempel-Ziv-Markov chain Algorithm) compression method. These are mainly found/used on Unix operating system and are similar to other compression algorithms such as ZIP for minimising file size. Learn more about this file format [here](https://docs.fileformat.com/compression/lzma/). |
 | static readonly [Rar](../../groupdocs.conversion.filetypes/compressionfiletype/rar) | Files with .rar extension are archive files that are created for storing information in compressed or normal form. RAR, which stands for Roshal ARchive file format. Learn more about this file format [here](https://docs.fileformat.com/compression/rar/). |
 | static readonly [SevenZ](../../groupdocs.conversion.filetypes/compressionfiletype/sevenz) | 7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. Learn more about this file format [here](https://docs.fileformat.com/compression/7z/). |

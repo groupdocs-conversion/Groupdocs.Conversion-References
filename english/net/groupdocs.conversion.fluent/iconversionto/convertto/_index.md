@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.fluent/iconversionto/convertto/
 Save converted document as file
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
+public IConversionOptionsOrHandlerSetup ConvertTo(string fileName)
 ```
 
 | Parameter | Type | Description |
@@ -20,11 +20,11 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(string fileName)
 
 ### Return Value
 
-Interface to continue conversion building
+Options or handler setup interface to continue conversion building
 
 ### See Also
 
-* interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
+* interface [IConversionOptionsOrHandlerSetup](../../iconversionoptionsorhandlersetup)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../../)
@@ -36,8 +36,7 @@ Interface to continue conversion building
 Save converted document as stream
 
 ```csharp
-public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
-    Func<SaveContext, Stream> convertedStreamProvider)
+public IConversionOptionsOrHandlerSetup ConvertTo(Func<SaveContext, Stream> convertedStreamProvider)
 ```
 
 | Parameter | Type | Description |
@@ -46,11 +45,11 @@ public IConversionConvertOptionOrCompletedOrConvert ConvertTo(
 
 ### Return Value
 
-Interface to continue conversion building
+Options or handler setup interface to continue conversion building
 
 ### See Also
 
-* interface [IConversionConvertOptionOrCompletedOrConvert](../../iconversionconvertoptionorcompletedorconvert)
+* interface [IConversionOptionsOrHandlerSetup](../../iconversionoptionsorhandlersetup)
 * class [SaveContext](../../../groupdocs.conversion/savecontext)
 * interface [IConversionTo](../../iconversionto)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)

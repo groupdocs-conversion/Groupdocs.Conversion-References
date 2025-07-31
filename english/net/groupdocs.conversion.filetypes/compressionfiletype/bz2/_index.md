@@ -3,7 +3,7 @@ title: Bz2
 second_title: GroupDocs.Conversion for .NET API Reference
 description: BZ2 are compressed files generated using the BZIP2 open source compression method mostly on UNIX or Linux system. It is used for compression of a single file and is not meant for archiving of multiple files. Learn more about this file format herehttps//docs.fileformat.com/compression/bz2/.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/bz2/
 ---
 ## CompressionFileType.Bz2 field

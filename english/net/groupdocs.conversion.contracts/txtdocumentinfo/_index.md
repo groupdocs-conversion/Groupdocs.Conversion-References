@@ -3,7 +3,7 @@ title: TxtDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Txt document metadata
 type: docs
-weight: 620
+weight: 630
 url: /net/groupdocs.conversion.contracts/txtdocumentinfo/
 ---
 ## TxtDocumentInfo class
