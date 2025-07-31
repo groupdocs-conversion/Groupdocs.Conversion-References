@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/none/
 Do not subset fonts
 
 ```csharp
-public static PdfFontSubsetStrategy None;
+public static readonly PdfFontSubsetStrategy None;
 ```
 
 ### See Also

@@ -34,9 +34,9 @@ public sealed class PdfFontSubsetStrategy : Enumeration
 
 | Name | Description |
 | --- | --- |
-| static [None](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/none) | Do not subset fonts |
-| static [SubsetAllFonts](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetallfonts) | Subset all fonts, used in a document. |
-| static [SubsetEmbeddedFontsOnly](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetembeddedfontsonly) | Portrait page orientation (narrow and tall). |
+| static readonly [None](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/none) | Do not subset fonts |
+| static readonly [SubsetAllFonts](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetallfonts) | Subset all fonts, used in a document. |
+| static readonly [SubsetEmbeddedFontsOnly](../../groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetembeddedfontsonly) | Portrait page orientation (narrow and tall). |
 
 ### See Also
 

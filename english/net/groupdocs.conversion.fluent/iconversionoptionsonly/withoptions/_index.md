@@ -11,12 +11,12 @@ url: /net/groupdocs.conversion.fluent/iconversionoptionsonly/withoptions/
 Sets conversion options for the conversion process.
 
 ```csharp
-public IConversionHandlerSetup WithOptions(ConvertOptions options)
+public IConversionHandlerSetup WithOptions(ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | ConvertOptions | Conversion options. |
+| convertOptions | ConvertOptions | Conversion options. |
 
 ### Return Value
 

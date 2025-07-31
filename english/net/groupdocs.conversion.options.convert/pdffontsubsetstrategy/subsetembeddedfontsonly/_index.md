@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetembed
 Portrait page orientation (narrow and tall).
 
 ```csharp
-public static PdfFontSubsetStrategy SubsetEmbeddedFontsOnly;
+public static readonly PdfFontSubsetStrategy SubsetEmbeddedFontsOnly;
 ```
 
 ### See Also
