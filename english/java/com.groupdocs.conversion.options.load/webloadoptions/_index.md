@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/webloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions)
+java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions), [com.groupdocs.conversion.options.load.IPageNumberingLoadOptions](../../com.groupdocs.conversion.options.load/ipagenumberingloadoptions)
 ```
-public class WebLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions
+public class WebLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions, IPageNumberingLoadOptions
 ```
 
 Options for loading web documents.
@@ -78,7 +78,7 @@ public boolean isPageNumbering()
 ```
 
 
-
+Enable or disable generation of page numbering in converted document. Default: false
 
 **Returns:**
 boolean
