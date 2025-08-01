@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions)
+java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions), [com.groupdocs.conversion.options.load.IPageNumberingLoadOptions](../../com.groupdocs.conversion.options.load/ipagenumberingloadoptions)
 ```
-public class WordProcessingLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions
+public class WordProcessingLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions, IPageNumberingLoadOptions
 ```
 
 Options for loading WordProcessing documents.
@@ -61,6 +61,8 @@ Options for loading WordProcessing documents.
 | [setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode)](#setCommentDisplayMode-com.groupdocs.conversion.options.load.WordProcessingCommentDisplay-) |  |
 | [getShowFullCommenterName()](#getShowFullCommenterName--) | Show full commenter name in comments. |
 | [setShowFullCommenterName(boolean showFullCommenterName)](#setShowFullCommenterName-boolean-) |  |
+| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
+| [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -482,4 +484,27 @@ public void setShowFullCommenterName(boolean showFullCommenterName)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | showFullCommenterName | boolean |  |
+
+### isPageNumbering() {#isPageNumbering--}
+```
+public boolean isPageNumbering()
+```
+
+
+Enable or disable generation of page numbering in converted document. Default: false
+
+**Returns:**
+boolean
+### setPageNumbering(boolean isPageNumbering) {#setPageNumbering-boolean-}
+```
+public void setPageNumbering(boolean isPageNumbering)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isPageNumbering | boolean |  |
 

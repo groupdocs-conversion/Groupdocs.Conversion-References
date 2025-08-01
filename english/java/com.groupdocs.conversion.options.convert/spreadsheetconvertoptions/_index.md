@@ -29,6 +29,9 @@ Options for conversion to Spreadsheet file type.
 | [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password. |
 | [getZoom()](#getZoom--) | Specifies the zoom level in percentage. |
 | [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage. |
+| [getSeparator()](#getSeparator--) | Specifies the separator to be used when convert to a delimited formats |
+| [setSeparator(char separator)](#setSeparator-char-) |  |
+| [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) |  |
 ### SpreadsheetConvertOptions() {#SpreadsheetConvertOptions--}
 ```
 public SpreadsheetConvertOptions()
@@ -82,4 +85,40 @@ Specifies the zoom level in percentage. Default is 100.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getSeparator() {#getSeparator--}
+```
+public char getSeparator()
+```
+
+
+Specifies the separator to be used when convert to a delimited formats
+
+**Returns:**
+char
+### setSeparator(char separator) {#setSeparator-char-}
+```
+public void setSeparator(char separator)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| separator | char |  |
+
+### setFormat(FileType value) {#setFormat-com.groupdocs.conversion.filetypes.FileType-}
+```
+public void setFormat(FileType value)
+```
+
+
+The desired file type the input document should be converted to.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [FileType](../../com.groupdocs.conversion.filetypes/filetype) |  |
 

@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/pdfloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable
+java.io.Serializable, [com.groupdocs.conversion.options.load.IPageNumberingLoadOptions](../../com.groupdocs.conversion.options.load/ipagenumberingloadoptions)
 ```
-public final class PdfLoadOptions extends LoadOptions implements Serializable
+public final class PdfLoadOptions extends LoadOptions implements Serializable, IPageNumberingLoadOptions
 ```
 
 Options for loading Pdf documents.
@@ -40,6 +40,8 @@ Options for loading Pdf documents.
 | [setFlattenAllFields(boolean value)](#setFlattenAllFields-boolean-) | Flatten all the fields of the PDF form. |
 | [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
 | [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
+| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
+| [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
 ### PdfLoadOptions() {#PdfLoadOptions--}
 ```
 public PdfLoadOptions()
@@ -218,4 +220,27 @@ public void setResetFontFolders(boolean resetFontFolders)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | resetFontFolders | boolean |  |
+
+### isPageNumbering() {#isPageNumbering--}
+```
+public boolean isPageNumbering()
+```
+
+
+Enable or disable generation of page numbering in converted document. Default: false
+
+**Returns:**
+boolean
+### setPageNumbering(boolean isPageNumbering) {#setPageNumbering-boolean-}
+```
+public void setPageNumbering(boolean isPageNumbering)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isPageNumbering | boolean |  |
 
