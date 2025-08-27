@@ -3,7 +3,7 @@ title: PdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Pdf file type.
 type: docs
-weight: 2000
+weight: 2010
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/
 ---
 ## PdfConvertOptions class
@@ -34,13 +34,13 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IDpiConvertO
 | [MarginLeft](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginleft) { get; set; } | Implements [`MarginLeft`](../ipagemarginconvertoptions/marginleft) |
 | [MarginRight](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginright) { get; set; } | Implements [`MarginRight`](../ipagemarginconvertoptions/marginright) |
 | [MarginTop](../../groupdocs.conversion.options.convert/pdfconvertoptions/margintop) { get; set; } | Implements [`MarginTop`](../ipagemarginconvertoptions/margintop) |
-| [PageHeight](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
+| [PageHeight](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageheight) { get; set; } | Page height in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [PageOrientation](../../groupdocs.conversion.options.convert/pdfconvertoptions/pageorientation) { get; set; } | Implements [`PageOrientation`](../ipageorientationconvertoptions/pageorientation) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [PageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
-| [PageWidth](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
+| [PageWidth](../../groupdocs.conversion.options.convert/pdfconvertoptions/pagewidth) { get; set; } | Page width in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
 | [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | Pdf specific convert options |
 | [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Page rotation |

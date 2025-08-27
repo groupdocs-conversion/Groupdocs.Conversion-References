@@ -1,14 +1,14 @@
 ---
 title: PageHeight
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Implements PageHeightgroupdocs.conversion.options.convert/ipagesizeconvertoptions/pageheight
+description: Page height in points. When set PageSizegroupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize is automatically changed to Customgroupdocs.conversion.options.convert/pagesize/custom.
 type: docs
 weight: 90
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageheight/
 ---
 ## WordProcessingConvertOptions.PageHeight property
 
-Implements [`PageHeight`](../../ipagesizeconvertoptions/pageheight)
+Page height in points. When set, [`PageSize`](../pagesize) is automatically changed to [`Custom`](../../pagesize/custom).
 
 ```csharp
 public float PageHeight { get; set; }

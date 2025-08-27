@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2770
+weight: 2790
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class

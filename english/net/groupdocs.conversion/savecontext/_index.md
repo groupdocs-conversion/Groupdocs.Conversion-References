@@ -3,7 +3,7 @@ title: SaveContext
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines save context.
 type: docs
-weight: 2830
+weight: 2850
 url: /net/groupdocs.conversion/savecontext/
 ---
 ## SaveContext class

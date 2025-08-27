@@ -3,7 +3,7 @@ title: CadConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Cad type.
 type: docs
-weight: 1670
+weight: 1680
 url: /net/groupdocs.conversion.options.convert/cadconvertoptions/
 ---
 ## CadConvertOptions class
@@ -27,11 +27,11 @@ public class CadConvertOptions : ConvertOptions<CadFileType>, IPagedConvertOptio
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
-| [PageHeight](../../groupdocs.conversion.options.convert/cadconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
+| [PageHeight](../../groupdocs.conversion.options.convert/cadconvertoptions/pageheight) { get; set; } | Page height in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [PageNumber](../../groupdocs.conversion.options.convert/cadconvertoptions/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [PagesCount](../../groupdocs.conversion.options.convert/cadconvertoptions/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [PageSize](../../groupdocs.conversion.options.convert/cadconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
-| [PageWidth](../../groupdocs.conversion.options.convert/cadconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
+| [PageWidth](../../groupdocs.conversion.options.convert/cadconvertoptions/pagewidth) { get; set; } | Page width in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 
 ## Methods
 

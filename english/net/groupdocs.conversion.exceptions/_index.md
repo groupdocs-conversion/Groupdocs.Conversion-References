@@ -22,6 +22,7 @@ The namespace provides different exceptions classes.
 | [IncorrectPasswordException](./incorrectpasswordexception) | GroupDocs exception thrown when the file is password protected, password is provided but is incorrect |
 | [InvalidConverterSettingsException](./invalidconvertersettingsexception) | Thrown if provided converter settings are invalid |
 | [InvalidConvertOptionsException](./invalidconvertoptionsexception) | Thrown if provided convert options are invalid |
+| [InvalidLoadOptionsException](./invalidloadoptionsexception) | Thrown if provided load options are invalid |
 | [PasswordRequiredException](./passwordrequiredexception) | GroupDocs exception thrown when the file is password protected and password is not provided |
 | [SourceDocumentFactoryNotProvidedException](./sourcedocumentfactorynotprovidedexception) | GroupDocs exception thrown when the source document factory is not provided |
 

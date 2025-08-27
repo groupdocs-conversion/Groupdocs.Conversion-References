@@ -3,7 +3,7 @@ title: IPageSizeConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents convert options that support page size
 type: docs
-weight: 1840
+weight: 1850
 url: /net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/
 ---
 ## IPageSizeConvertOptions interface
@@ -18,9 +18,9 @@ public interface IPageSizeConvertOptions : IConvertOptions
 
 | Name | Description |
 | --- | --- |
-| [PageHeight](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pageheight) { get; set; } | Specified page height in points if [`PageSize`](./pagesize) is set to PageSize.Custom |
+| [PageHeight](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pageheight) { get; set; } | Page height in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [PageSize](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize) { get; set; } | Desired page size after conversion |
-| [PageWidth](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagewidth) { get; set; } | Specified page width in points if [`PageSize`](./pagesize) is set to PageSize.Custom |
+| [PageWidth](../../groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagewidth) { get; set; } | Page width in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 
 ### See Also
 
