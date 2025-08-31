@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/attachmenticon/
 Represents an attachment icon configuration for email attachments.
 
 ```csharp
-public class AttachmentIcon
+public class AttachmentIcon : ISerializable
 ```
 
 ## Constructors
@@ -26,6 +26,12 @@ public class AttachmentIcon
 | --- | --- |
 | [FileExtension](../../groupdocs.conversion.options.load/attachmenticon/fileextension) { get; } | Gets or sets the file extension (e.g., ".pdf", ".docx"). |
 | [IconData](../../groupdocs.conversion.options.load/attachmenticon/icondata) { get; } | Gets or sets the icon data as byte array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetObjectData](../../groupdocs.conversion.options.load/attachmenticon/getobjectdata)(SerializationInfo, StreamingContext) | Implements ISerializable.GetObjectData. |
 
 ### See Also
 
