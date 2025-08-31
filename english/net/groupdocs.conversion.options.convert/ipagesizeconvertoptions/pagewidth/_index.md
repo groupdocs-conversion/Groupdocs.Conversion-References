@@ -1,14 +1,14 @@
 ---
 title: PageWidth
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Specified page width in points if PageSizegroupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize is set to PageSize.Custom
+description: Page width in points. When set PageSizegroupdocs.conversion.options.convert/ipagesizeconvertoptions/pagesize is automatically changed to Customgroupdocs.conversion.options.convert/pagesize/custom.
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.convert/ipagesizeconvertoptions/pagewidth/
 ---
 ## IPageSizeConvertOptions.PageWidth property
 
-Specified page width in points if [`PageSize`](../pagesize) is set to PageSize.Custom
+Page width in points. When set, [`PageSize`](../pagesize) is automatically changed to [`Custom`](../../pagesize/custom).
 
 ```csharp
 public float PageWidth { get; set; }

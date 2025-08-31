@@ -3,7 +3,7 @@ title: DisplayHeader
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Option to display or hide the email header. Default true.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.conversion.options.load/emailloadoptions/displayheader/
 ---
 ## EmailLoadOptions.DisplayHeader property

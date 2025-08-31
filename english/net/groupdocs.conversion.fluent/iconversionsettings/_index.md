@@ -3,7 +3,7 @@ title: IConversionSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Setup conversion settings
 type: docs
-weight: 1480
+weight: 1490
 url: /net/groupdocs.conversion.fluent/iconversionsettings/
 ---
 ## IConversionSettings interface

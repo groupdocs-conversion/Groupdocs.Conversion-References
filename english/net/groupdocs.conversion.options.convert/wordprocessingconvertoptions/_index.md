@@ -3,7 +3,7 @@ title: WordProcessingConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to WordProcessing file type.
 type: docs
-weight: 2280
+weight: 2290
 url: /net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 ---
 ## WordProcessingConvertOptions class
@@ -36,13 +36,13 @@ public class WordProcessingConvertOptions : CommonConvertOptions<WordProcessingF
 | [MarginRight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/marginright) { get; set; } | Implements [`MarginRight`](../ipagemarginconvertoptions/marginright) |
 | [MarginTop](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/margintop) { get; set; } | Implements [`MarginTop`](../ipagemarginconvertoptions/margintop) |
 | [MarkdownOptions](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/markdownoptions) { get; set; } | Implements [`MarkdownOptions`](./markdownoptions) |
-| [PageHeight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
+| [PageHeight](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageheight) { get; set; } | Page height in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [PageOrientation](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pageorientation) { get; set; } | Implements [`PageOrientation`](../ipageorientationconvertoptions/pageorientation) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [PageSize](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
-| [PageWidth](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
+| [PageWidth](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pagewidth) { get; set; } | Page width in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [Password](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/password) { get; set; } | Set this property if you want to protect the converted document with a password. |
 | [PdfRecognitionMode](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/pdfrecognitionmode) { get; set; } | Implements [`PdfRecognitionMode`](../ipdfrecognitionmodeoptions/pdfrecognitionmode) |
 | [RtfOptions](../../groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtfoptions) { get; set; } | RTF specific convert options |

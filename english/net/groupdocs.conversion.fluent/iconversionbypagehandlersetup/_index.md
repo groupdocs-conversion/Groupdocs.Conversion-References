@@ -3,7 +3,7 @@ title: IConversionByPageHandlerSetup
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface for setting page conversion handlers. Allows setting OnConversionCompleted and/or OnConversionFailed in any order at most once each or skipping both.
 type: docs
-weight: 1230
+weight: 1240
 url: /net/groupdocs.conversion.fluent/iconversionbypagehandlersetup/
 ---
 ## IConversionByPageHandlerSetup interface

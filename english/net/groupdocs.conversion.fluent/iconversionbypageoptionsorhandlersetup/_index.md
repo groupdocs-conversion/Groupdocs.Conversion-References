@@ -3,7 +3,7 @@ title: IConversionByPageOptionsOrHandlerSetup
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface for setting bypage conversion options or handler setup. Allows setting options or handlers in any order but only once each or skipping both.
 type: docs
-weight: 1240
+weight: 1250
 url: /net/groupdocs.conversion.fluent/iconversionbypageoptionsorhandlersetup/
 ---
 ## IConversionByPageOptionsOrHandlerSetup interface

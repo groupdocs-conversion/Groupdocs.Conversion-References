@@ -3,7 +3,7 @@ title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: List of font substitutes.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.options.load/emailloadoptions/fontsubstitutes/
 ---
 ## EmailLoadOptions.FontSubstitutes property

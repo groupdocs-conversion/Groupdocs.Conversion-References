@@ -3,7 +3,7 @@ title: IResourceLoadingOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents set of options to control how external resources will be loaded
 type: docs
-weight: 2500
+weight: 2520
 url: /net/groupdocs.conversion.options.load/iresourceloadingoptions/
 ---
 ## IResourceLoadingOptions interface

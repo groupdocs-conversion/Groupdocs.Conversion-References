@@ -3,7 +3,7 @@ title: EBookConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to EBook file type.
 type: docs
-weight: 1730
+weight: 1740
 url: /net/groupdocs.conversion.options.convert/ebookconvertoptions/
 ---
 ## EBookConvertOptions class
@@ -28,13 +28,13 @@ public class EBookConvertOptions : CommonConvertOptions<EBookFileType>,
 | [FallbackPageSize](../../groupdocs.conversion.options.convert/ebookconvertoptions/fallbackpagesize) { get; set; } | Fallback page size |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
-| [PageHeight](../../groupdocs.conversion.options.convert/ebookconvertoptions/pageheight) { get; set; } | Implements [`PageHeight`](../ipagesizeconvertoptions/pageheight) |
+| [PageHeight](../../groupdocs.conversion.options.convert/ebookconvertoptions/pageheight) { get; set; } | Page height in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [PageOrientation](../../groupdocs.conversion.options.convert/ebookconvertoptions/pageorientation) { get; set; } | Implements [`PageOrientation`](../ipageorientationconvertoptions/pageorientation) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [PageSize](../../groupdocs.conversion.options.convert/ebookconvertoptions/pagesize) { get; set; } | Implements [`PageSize`](../ipagesizeconvertoptions/pagesize) |
-| [PageWidth](../../groupdocs.conversion.options.convert/ebookconvertoptions/pagewidth) { get; set; } | Implements [`PageWidth`](../ipagesizeconvertoptions/pagewidth) |
+| [PageWidth](../../groupdocs.conversion.options.convert/ebookconvertoptions/pagewidth) { get; set; } | Page width in points. When set, [`PageSize`](./pagesize) is automatically changed to [`Custom`](../pagesize/custom). |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 
 ## Methods
