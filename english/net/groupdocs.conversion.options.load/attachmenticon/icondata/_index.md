@@ -1,22 +1,22 @@
 ---
-title: Clone
+title: IconData
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Clones current instance.
+description: Gets or sets the icon data as byte array.
 type: docs
-weight: 230
-url: /net/groupdocs.conversion.options.load/emailloadoptions/clone/
+weight: 30
+url: /net/groupdocs.conversion.options.load/attachmenticon/icondata/
 ---
-## EmailLoadOptions.Clone method
+## AttachmentIcon.IconData property
 
-Clones current instance.
+Gets or sets the icon data as byte array.
 
 ```csharp
-public object Clone()
+public byte[] IconData { get; }
 ```
 
 ### See Also
 
-* class [EmailLoadOptions](../../emailloadoptions)
+* class [AttachmentIcon](../../attachmenticon)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Email documents.
 type: docs
-weight: 2400
+weight: 2410
 url: /net/groupdocs.conversion.options.load/emailloadoptions/
 ---
 ## EmailLoadOptions class
@@ -25,6 +25,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 | Name | Description |
 | --- | --- |
+| [AttachmentIcons](../../groupdocs.conversion.options.load/emailloadoptions/attachmenticons) { get; set; } | Gets or sets the list of attachment icons. The list can be customized to provide specific icons for different file types. By default, contains common file type icons. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is true |
 | [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/emailloadoptions/defaultfont) { get; set; } | Default font for email document. The following font will be used if a font is missing. |
@@ -45,6 +46,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/emailloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [TimeZoneOffset](../../groupdocs.conversion.options.load/emailloadoptions/timezoneoffset) { get; set; } | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC. |
+| [UseDefaultAttachmentIcons](../../groupdocs.conversion.options.load/emailloadoptions/usedefaultattachmenticons) { get; set; } | Gets or sets whether to use default attachment icons. Default: true. |
 
 ## Methods
 

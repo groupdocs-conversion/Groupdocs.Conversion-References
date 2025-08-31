@@ -12,6 +12,7 @@ The namespace provides classes to specify additional options for document loadin
 
 | Class | Description |
 | --- | --- |
+| [AttachmentIcon](./attachmenticon) | Represents an attachment icon configuration for email attachments. |
 | [AudioLoadOptions](./audioloadoptions) | Options for loading audio documents. |
 | [BaseImageLoadOptions](./baseimageloadoptions) | Options for loading Image documents. |
 | [CadDrawTypeMode](./caddrawtypemode) | Represents possible modes for colorization of objects. |
