@@ -63,6 +63,8 @@ Options for loading WordProcessing documents.
 | [setShowFullCommenterName(boolean showFullCommenterName)](#setShowFullCommenterName-boolean-) |  |
 | [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
 | [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
+| [getHyphenationOptions()](#getHyphenationOptions--) | Gets hyphenation options for WordProcessing documents. |
+| [setHyphenationOptions(HyphenationOptions hyphenationOptions)](#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-) | Sets hyphenation options for WordProcessing documents. |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -507,4 +509,27 @@ public void setPageNumbering(boolean isPageNumbering)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isPageNumbering | boolean |  |
+
+### getHyphenationOptions() {#getHyphenationOptions--}
+```
+public HyphenationOptions getHyphenationOptions()
+```
+
+
+Gets hyphenation options for WordProcessing documents.
+
+**Returns:**
+[HyphenationOptions](../../com.groupdocs.conversion.options.load/hyphenationoptions)
+### setHyphenationOptions(HyphenationOptions hyphenationOptions) {#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-}
+```
+public void setHyphenationOptions(HyphenationOptions hyphenationOptions)
+```
+
+
+Sets hyphenation options for WordProcessing documents.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hyphenationOptions | [HyphenationOptions](../../com.groupdocs.conversion.options.load/hyphenationoptions) |  |
 

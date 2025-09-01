@@ -30,8 +30,6 @@ Options for loading Email documents.
 | [setDisplayHeader(boolean value)](#setDisplayHeader-boolean-) | Option to display or hide the email header. |
 | [getDisplayFromEmailAddress()](#getDisplayFromEmailAddress--) | Option to display or hide "from" email address. |
 | [setDisplayFromEmailAddress(boolean value)](#setDisplayFromEmailAddress-boolean-) | Option to display or hide "from" email address. |
-| [getDisplayEmailAddress()](#getDisplayEmailAddress--) | Option to display or hide email address. |
-| [setDisplayEmailAddress(boolean value)](#setDisplayEmailAddress-boolean-) | Option to display or hide email address. |
 | [getDisplayToEmailAddress()](#getDisplayToEmailAddress--) | Option to display or hide "to" email address. |
 | [setDisplayToEmailAddress(boolean value)](#setDisplayToEmailAddress-boolean-) | Option to display or hide "to" email address. |
 | [getDisplayCcEmailAddress()](#getDisplayCcEmailAddress--) | Option to display or hide "Cc" email address. |
@@ -54,6 +52,12 @@ Options for loading Email documents.
 | [setConvertOwned(boolean convertOwned)](#setConvertOwned-boolean-) |  |
 | [getDepth()](#getDepth--) |  |
 | [setDepth(int depth)](#setDepth-int-) |  |
+| [isDisplayAttachments()](#isDisplayAttachments--) | Gets option to display or hide attachments in the header. |
+| [setDisplayAttachments(boolean displayAttachments)](#setDisplayAttachments-boolean-) | Sets option to display or hide attachments in the header. |
+| [isDisplaySubject()](#isDisplaySubject--) | Gets option to display or hide subject in the header. |
+| [setDisplaySubject(boolean displaySubject)](#setDisplaySubject-boolean-) | Sets option to display or hide subject in the header |
+| [isDisplaySent()](#isDisplaySent--) | Gets option to display or hide sent date/time in the header. |
+| [setDisplaySent(boolean displaySent)](#setDisplaySent-boolean-) | Sets option to display or hide sent date/time in the header. |
 ### EmailLoadOptions() {#EmailLoadOptions--}
 ```
 public EmailLoadOptions()
@@ -112,29 +116,6 @@ public final void setDisplayFromEmailAddress(boolean value)
 
 
 Option to display or hide "from" email address. Default: true.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getDisplayEmailAddress() {#getDisplayEmailAddress--}
-```
-public final boolean getDisplayEmailAddress()
-```
-
-
-Option to display or hide email address. Default: true.
-
-**Returns:**
-boolean
-### setDisplayEmailAddress(boolean value) {#setDisplayEmailAddress-boolean-}
-```
-public final void setDisplayEmailAddress(boolean value)
-```
-
-
-Option to display or hide email address. Default: true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,4 +371,73 @@ public void setDepth(int depth)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | depth | int |  |
+
+### isDisplayAttachments() {#isDisplayAttachments--}
+```
+public boolean isDisplayAttachments()
+```
+
+
+Gets option to display or hide attachments in the header. Default: true.
+
+**Returns:**
+boolean
+### setDisplayAttachments(boolean displayAttachments) {#setDisplayAttachments-boolean-}
+```
+public void setDisplayAttachments(boolean displayAttachments)
+```
+
+
+Sets option to display or hide attachments in the header.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displayAttachments | boolean |  |
+
+### isDisplaySubject() {#isDisplaySubject--}
+```
+public boolean isDisplaySubject()
+```
+
+
+Gets option to display or hide subject in the header. Default: true.
+
+**Returns:**
+boolean
+### setDisplaySubject(boolean displaySubject) {#setDisplaySubject-boolean-}
+```
+public void setDisplaySubject(boolean displaySubject)
+```
+
+
+Sets option to display or hide subject in the header
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displaySubject | boolean |  |
+
+### isDisplaySent() {#isDisplaySent--}
+```
+public boolean isDisplaySent()
+```
+
+
+Gets option to display or hide sent date/time in the header. Default: true.
+
+**Returns:**
+boolean
+### setDisplaySent(boolean displaySent) {#setDisplaySent-boolean-}
+```
+public void setDisplaySent(boolean displaySent)
+```
+
+
+Sets option to display or hide sent date/time in the header.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displaySent | boolean |  |
 
