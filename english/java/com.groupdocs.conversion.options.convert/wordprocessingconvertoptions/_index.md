@@ -51,6 +51,8 @@ Options for conversion to WordProcessing file type.
 | [setPageHeight(float pageHeight)](#setPageHeight-float-) |  |
 | [getPdfRecognitionMode()](#getPdfRecognitionMode--) |  |
 | [setPdfRecognitionMode(PdfRecognitionMode pdfRecognitionMode)](#setPdfRecognitionMode-com.groupdocs.conversion.options.convert.PdfRecognitionMode-) |  |
+| [getMarkdownOptions()](#getMarkdownOptions--) | Gets |
+| [setMarkdownOptions(MarkdownOptions markdownOptions)](#setMarkdownOptions-com.groupdocs.conversion.options.convert.MarkdownOptions-) | Sets |
 ### WordProcessingConvertOptions() {#WordProcessingConvertOptions--}
 ```
 public WordProcessingConvertOptions()
@@ -357,4 +359,27 @@ Sets recognition mode when converting from pdf
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pdfRecognitionMode | [PdfRecognitionMode](../../com.groupdocs.conversion.options.convert/pdfrecognitionmode) |  |
+
+### getMarkdownOptions() {#getMarkdownOptions--}
+```
+public MarkdownOptions getMarkdownOptions()
+```
+
+
+Gets
+
+**Returns:**
+[MarkdownOptions](../../com.groupdocs.conversion.options.convert/markdownoptions)
+### setMarkdownOptions(MarkdownOptions markdownOptions) {#setMarkdownOptions-com.groupdocs.conversion.options.convert.MarkdownOptions-}
+```
+public void setMarkdownOptions(MarkdownOptions markdownOptions)
+```
+
+
+Sets
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| markdownOptions | [MarkdownOptions](../../com.groupdocs.conversion.options.convert/markdownoptions) |  |
 
