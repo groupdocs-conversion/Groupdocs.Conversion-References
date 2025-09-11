@@ -3,7 +3,7 @@ title: XbrlDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Xbrl document metadata
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.conversion.contracts/xbrldocumentinfo/
 ---
 ## XbrlDocumentInfo class

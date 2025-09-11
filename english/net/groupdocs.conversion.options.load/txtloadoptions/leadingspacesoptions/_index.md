@@ -3,7 +3,7 @@ title: LeadingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets preferred option of a leading space handling. Default value is ConvertToIndentgroupdocs.conversion.options.load/txtleadingspacesoptions/converttoindent.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.load/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property

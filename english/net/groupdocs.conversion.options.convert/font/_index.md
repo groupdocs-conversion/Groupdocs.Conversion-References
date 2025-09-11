@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Font settings
 type: docs
-weight: 1770
+weight: 1780
 url: /net/groupdocs.conversion.options.convert/font/
 ---
 ## Font class
@@ -18,7 +18,8 @@ public class Font : ValueObject
 
 | Name | Description |
 | --- | --- |
-| [Font](font)(string, float) | creates new Font instance |
+| [Font](font#constructor)(string) | creates new Font instance with default size 12 |
+| [Font](font#constructor_1)(string, float) | creates new Font instance |
 
 ## Properties
 

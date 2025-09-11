@@ -3,7 +3,7 @@ title: GisConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to GIS type.
 type: docs
-weight: 1790
+weight: 1800
 url: /net/groupdocs.conversion.options.convert/gisconvertoptions/
 ---
 ## GisConvertOptions class

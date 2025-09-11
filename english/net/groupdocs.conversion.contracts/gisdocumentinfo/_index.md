@@ -3,7 +3,7 @@ title: GisDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains GIS document metadata
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.conversion.contracts/gisdocumentinfo/
 ---
 ## GisDocumentInfo class

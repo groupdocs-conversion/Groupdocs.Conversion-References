@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2830
+weight: 2850
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -12,8 +12,8 @@ Options for loading WordProcessing documents.
 
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageNumberingLoadOptions, 
-    IResourceLoadingOptions
+    IFontSubstituteLoadOptions, IFontTransformationLoadOptions, IMetadataLoadOptions, 
+    IPageNumberingLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -39,6 +39,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [FontInfoSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontinfosubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontInfo in the document. Default: false. |
 | [FontNameSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontnamesubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on the font name. Default: false. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes) { get; set; } | Substitutes specific fonts when converting a WordsProcessing document. |
+| [FontTransformations](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fonttransformations) { get; set; } | Transform existing fonts after document loading and font substitution are complete. Font transformations can modify any fonts in the document, including fonts that were successfully loaded. |
 | [Format](../../groupdocs.conversion.options.load/wordprocessingloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |
@@ -63,11 +64,28 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
 
+### Remarks
+
+**Font Processing Pipeline:**
+
+**Phase 1 - Font Substitution (during document loading):**
+
+• Handles missing/unavailable fonts using FontSubstitutes, DefaultFont, and system substitution
+
+• Processing order: FontName → FontConfig → FontSubstitutes → FontInfo → DefaultFont
+
+**Phase 2 - Font Replacement (after document loading):**
+
+• Modifies any existing fonts in the loaded document using FontReplacements
+
+• Applied after all font substitution is complete
+
 ### See Also
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
+* interface [IFontTransformationLoadOptions](../ifonttransformationloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)

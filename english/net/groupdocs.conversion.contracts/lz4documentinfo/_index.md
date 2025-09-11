@@ -3,7 +3,7 @@ title: Lz4DocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Lzip document metadata
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.conversion.contracts/lz4documentinfo/
 ---
 ## Lz4DocumentInfo class
