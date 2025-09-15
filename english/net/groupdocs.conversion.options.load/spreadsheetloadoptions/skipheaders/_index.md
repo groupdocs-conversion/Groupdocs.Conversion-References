@@ -1,17 +1,17 @@
 ---
-title: Clone
+title: SkipHeaders
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Clones current instance.
+description: Skip headers when converting spreadsheet documents. Default false.
 type: docs
-weight: 310
-url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/clone/
+weight: 300
+url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipheaders/
 ---
-## SpreadsheetLoadOptions.Clone method
+## SpreadsheetLoadOptions.SkipHeaders property
 
-Clones current instance.
+Skip headers when converting spreadsheet documents. Default: false.
 
 ```csharp
-public object Clone()
+public bool SkipHeaders { get; set; }
 ```
 
 ### See Also

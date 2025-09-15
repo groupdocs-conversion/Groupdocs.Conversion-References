@@ -1,17 +1,17 @@
 ---
-title: Clone
+title: SkipFooters
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Clones current instance.
+description: Skip footers when converting spreadsheet documents. Default false.
 type: docs
-weight: 310
-url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/clone/
+weight: 290
+url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipfooters/
 ---
-## SpreadsheetLoadOptions.Clone method
+## SpreadsheetLoadOptions.SkipFooters property
 
-Clones current instance.
+Skip footers when converting spreadsheet documents. Default: false.
 
 ```csharp
-public object Clone()
+public bool SkipFooters { get; set; }
 ```
 
 ### See Also
