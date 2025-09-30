@@ -3,7 +3,7 @@ title: ResetFontFolders
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Reset font folders before loading document
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/resetfontfolders/
 ---
 ## PdfLoadOptions.ResetFontFolders property
