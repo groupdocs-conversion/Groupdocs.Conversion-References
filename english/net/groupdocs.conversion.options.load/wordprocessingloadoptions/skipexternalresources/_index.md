@@ -3,7 +3,7 @@ title: SkipExternalResources
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements SkipExternalResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources/
 ---
 ## WordProcessingLoadOptions.SkipExternalResources property

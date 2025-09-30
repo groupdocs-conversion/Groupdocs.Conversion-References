@@ -3,7 +3,7 @@ title: FinanceFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Finance documents Includes the following types Xbrl./financefiletype/xbrlIXbrl./financefiletype/ixbrlOfx./financefiletype/ofx Learn more about Finance formats herehttps//docs.fileformat.com/finance/.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/groupdocs.conversion.filetypes/financefiletype/
 ---
 ## FinanceFileType class

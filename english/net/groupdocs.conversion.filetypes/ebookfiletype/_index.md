@@ -3,7 +3,7 @@ title: EBookFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines EBook documents. Includes the following file types Epub./ebookfiletype/epubMobi./ebookfiletype/mobiAzw3./ebookfiletype/azw3
 type: docs
-weight: 1010
+weight: 1020
 url: /net/groupdocs.conversion.filetypes/ebookfiletype/
 ---
 ## EBookFileType class

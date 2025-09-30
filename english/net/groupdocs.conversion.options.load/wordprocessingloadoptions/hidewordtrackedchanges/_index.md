@@ -3,7 +3,7 @@ title: HideWordTrackedChanges
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Hide markup and track changes for Word documents.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges/
 ---
 ## WordProcessingLoadOptions.HideWordTrackedChanges property

@@ -3,7 +3,7 @@ title: RemoveJavascript
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Remove javascript.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/removejavascript/
 ---
 ## PdfLoadOptions.RemoveJavascript property

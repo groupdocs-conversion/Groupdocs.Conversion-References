@@ -3,7 +3,7 @@ title: DetectNumberingWithWhitespaces
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Allows to specify how numbered list items are recognized when plain text document is converted. The default value is true.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.options.load/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property

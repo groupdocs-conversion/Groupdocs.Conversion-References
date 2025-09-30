@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 2750
+weight: 2770
 url: /net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -24,6 +24,7 @@ public sealed class TxtLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [DefaultFont](../../groupdocs.conversion.options.load/txtloadoptions/defaultfont) { get; set; } | Font to use when rendering plain text content during conversion. Since TXT files don't contain font information, this property specifies the display font for the text content. Default: Arial 10pt. |
 | [DetectNumberingWithWhitespaces](../../groupdocs.conversion.options.load/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when plain text document is converted. The default value is true. |
 | [Encoding](../../groupdocs.conversion.options.load/txtloadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null. |
 | [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. |
@@ -38,6 +39,14 @@ public sealed class TxtLoadOptions : LoadOptions
 | override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Determines whether two object instances are equal. |
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
+
+### Remarks
+
+**Font Configuration for Plain Text:**
+
+Since TXT files don't contain font information, use DefaultTextFont to specify
+
+the font for rendering the plain text content during conversion.
 
 ### See Also
 

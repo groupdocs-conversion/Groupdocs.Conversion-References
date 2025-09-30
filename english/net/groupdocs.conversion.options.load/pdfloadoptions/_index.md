@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2620
+weight: 2640
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -12,7 +12,8 @@ Options for loading Pdf documents.
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageNumberingLoadOptions
+    IFontSubstituteLoadOptions, IFontTransformationLoadOptions, IMetadataLoadOptions, 
+    IPageNumberingLoadOptions
 ```
 
 ## Constructors
@@ -33,6 +34,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
+| [FontTransformations](../../groupdocs.conversion.options.load/pdfloadoptions/fonttransformations) { get; set; } | Transform existing fonts after document loading and font substitution are complete. Font transformations can modify any fonts in the document, including fonts that were successfully loaded. |
 | [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Hide annotations in Pdf documents. |
@@ -55,6 +57,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
+* interface [IFontTransformationLoadOptions](../ifonttransformationloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)

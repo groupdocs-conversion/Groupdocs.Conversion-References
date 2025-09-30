@@ -3,7 +3,7 @@ title: GisFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines GIS documents. Includes the following file types Shp./gisfiletype/shp. GeoJson./gisfiletype/geojson. Gdb./gisfiletype/gdb. Gml./gisfiletype/gml. Kml./gisfiletype/kml. Gpx./gisfiletype/gpx. TopoJson./gisfiletype/topojson. Osm./gisfiletype/osm.
 type: docs
-weight: 1060
+weight: 1070
 url: /net/groupdocs.conversion.filetypes/gisfiletype/
 ---
 ## GisFileType class

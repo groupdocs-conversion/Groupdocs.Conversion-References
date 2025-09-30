@@ -30,6 +30,7 @@ The namespace provides members to instantiate and release output document, manag
 | [FlagsEnumeration](./flagsenumeration) | Represents an abstract base class for creating enumerations that support bitwise flag operations. |
 | [FontDocumentInfo](./fontdocumentinfo) | Contains Font document metadata |
 | [FontSubstitute](./fontsubstitute) | Describes substitution for missing font. |
+| [FontTransformation](./fonttransformation) | Describes font transformation configuration including font attributes. Font transformations are applied after document loading and font substitution. |
 | [GisDocumentInfo](./gisdocumentinfo) | Contains GIS document metadata |
 | [GzipDocumentInfo](./gzipdocumentinfo) | Contains Gzip document metadata |
 | [HeicDocumentInfo](./heicdocumentinfo) | Contains Heic document metadata |

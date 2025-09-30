@@ -3,7 +3,7 @@ title: Encoding
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.load/txtloadoptions/encoding/
 ---
 ## TxtLoadOptions.Encoding property

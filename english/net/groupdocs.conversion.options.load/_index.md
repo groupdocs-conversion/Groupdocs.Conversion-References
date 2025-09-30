@@ -68,6 +68,7 @@ The namespace provides classes to specify additional options for document loadin
 | Interface | Description |
 | --- | --- |
 | [IFontSubstituteLoadOptions](./ifontsubstituteloadoptions) | Options for loading documents with font substitutes. |
+| [IFontTransformationLoadOptions](./ifonttransformationloadoptions) | Options for loading documents with font transformations. Font transformations occur after document loading and font substitution are complete. |
 | [IMetadataLoadOptions](./imetadataloadoptions) | Options to control metadata in the converted document. |
 | [IPageNumberingLoadOptions](./ipagenumberingloadoptions) | Options to control page numbering in the converted document. |
 | [IResourceLoadingOptions](./iresourceloadingoptions) | Represents set of options to control how external resources will be loaded |

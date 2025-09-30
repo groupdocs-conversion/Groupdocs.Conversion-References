@@ -1,12 +1,32 @@
 ---
 title: Font
 second_title: GroupDocs.Conversion for .NET API Reference
-description: creates new Font instance
+description: creates new Font instance with default size 12
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/font/font/
 ---
-## Font constructor
+## Font(string) {#constructor}
+
+creates new Font instance with default size 12
+
+```csharp
+public Font(string fontFamilyName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFamilyName | String | Font name |
+
+### See Also
+
+* class [Font](../../font)
+* namespace [GroupDocs.Conversion.Options.Convert](../../../groupdocs.conversion.options.convert)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Font(string, float) {#constructor_1}
 
 creates new Font instance
 

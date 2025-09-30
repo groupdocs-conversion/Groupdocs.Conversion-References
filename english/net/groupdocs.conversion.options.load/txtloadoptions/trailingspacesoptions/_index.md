@@ -3,7 +3,7 @@ title: TrailingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets preferred option of a trailing space handling. Default value is Trimgroupdocs.conversion.options.load/txttrailingspacesoptions/trim.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion.options.load/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
