@@ -40,6 +40,8 @@ Options for loading CAD documents.
 | [setFontDirectories(List<String> fontDirectories)](#setFontDirectories-java.util.List-java.lang.String--) |  |
 | [getCtbSources()](#getCtbSources--) | Gets the CTB sources. |
 | [setCtbSources(Map<String,InputStream> ctbSources)](#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--) | Sets the CTB sources. |
+| [getDrawColor()](#getDrawColor--) | Gets foreground color. |
+| [setDrawColor(System.Drawing.Color drawColor)](#setDrawColor-com.aspose.ms.System.Drawing.Color-) | Sets foreground color. |
 ### CadLoadOptions() {#CadLoadOptions--}
 ```
 public CadLoadOptions()
@@ -218,4 +220,27 @@ Sets the CTB sources.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ctbSources | java.util.Map<java.lang.String,java.io.InputStream> |  |
+
+### getDrawColor() {#getDrawColor--}
+```
+public System.Drawing.Color getDrawColor()
+```
+
+
+Gets foreground color.
+
+**Returns:**
+com.aspose.ms.System.Drawing.Color
+### setDrawColor(System.Drawing.Color drawColor) {#setDrawColor-com.aspose.ms.System.Drawing.Color-}
+```
+public void setDrawColor(System.Drawing.Color drawColor)
+```
+
+
+Sets foreground color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| drawColor | com.aspose.ms.System.Drawing.Color |  |
 
