@@ -65,6 +65,8 @@ Options for loading WordProcessing documents.
 | [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
 | [getHyphenationOptions()](#getHyphenationOptions--) | Gets hyphenation options for WordProcessing documents. |
 | [setHyphenationOptions(HyphenationOptions hyphenationOptions)](#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-) | Sets hyphenation options for WordProcessing documents. |
+| [isInterruptThreadIfImageExceptionThrown()](#isInterruptThreadIfImageExceptionThrown--) | Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred |
+| [setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown)](#setInterruptThreadIfImageExceptionThrown-boolean-) | Sets InterruptThreadIfImageExceptionThrown flag |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -532,4 +534,27 @@ Sets hyphenation options for WordProcessing documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | hyphenationOptions | [HyphenationOptions](../../com.groupdocs.conversion.options.load/hyphenationoptions) |  |
+
+### isInterruptThreadIfImageExceptionThrown() {#isInterruptThreadIfImageExceptionThrown--}
+```
+public boolean isInterruptThreadIfImageExceptionThrown()
+```
+
+
+Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred
+
+**Returns:**
+boolean
+### setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown) {#setInterruptThreadIfImageExceptionThrown-boolean-}
+```
+public void setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown)
+```
+
+
+Sets InterruptThreadIfImageExceptionThrown flag
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| interruptThreadIfImageExceptionThrown | boolean |  |
 

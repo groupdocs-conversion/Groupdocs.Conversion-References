@@ -33,8 +33,8 @@ Options for loading web documents.
 | [setBasePath(String basePath)](#setBasePath-java.lang.String-) |  |
 | [getEncoding()](#getEncoding--) |  |
 | [setEncoding(String encoding)](#setEncoding-java.lang.String-) |  |
-| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) |  |
-| [setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout)](#setResourceLoadingTimeout-com.aspose.ms.System.TimeSpan-) |  |
+| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets timeout for loading external resources in milliseconds |
+| [setResourceLoadingTimeout(long resourceLoadingTimeout)](#setResourceLoadingTimeout-long-) | Sets timeout for loading external resources in milliseconds |
 | [getSkipExternalResources()](#getSkipExternalResources--) | \{@inheritDoc\} |
 | [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
 | [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
@@ -143,26 +143,26 @@ public void setEncoding(String encoding)
 
 ### getResourceLoadingTimeout() {#getResourceLoadingTimeout--}
 ```
-public System.TimeSpan getResourceLoadingTimeout()
+public long getResourceLoadingTimeout()
 ```
 
 
-
+Gets timeout for loading external resources in milliseconds
 
 **Returns:**
-com.aspose.ms.System.TimeSpan
-### setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout) {#setResourceLoadingTimeout-com.aspose.ms.System.TimeSpan-}
+long
+### setResourceLoadingTimeout(long resourceLoadingTimeout) {#setResourceLoadingTimeout-long-}
 ```
-public void setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout)
+public void setResourceLoadingTimeout(long resourceLoadingTimeout)
 ```
 
 
-
+Sets timeout for loading external resources in milliseconds
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resourceLoadingTimeout | com.aspose.ms.System.TimeSpan |  |
+| resourceLoadingTimeout | long |  |
 
 ### getSkipExternalResources() {#getSkipExternalResources--}
 ```

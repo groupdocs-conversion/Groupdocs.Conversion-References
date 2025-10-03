@@ -38,21 +38,21 @@ public abstract String getName()
 java.lang.String
 ### getWidth() {#getWidth--}
 ```
-public abstract float getWidth()
+public abstract double getWidth()
 ```
 
 
 
 
 **Returns:**
-float
+double
 ### getHeight() {#getHeight--}
 ```
-public abstract float getHeight()
+public abstract double getHeight()
 ```
 
 
 
 
 **Returns:**
-float
+double

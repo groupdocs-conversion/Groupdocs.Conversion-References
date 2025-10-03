@@ -220,24 +220,24 @@ public String getName()
 java.lang.String
 ### getWidth() {#getWidth--}
 ```
-public float getWidth()
+public double getWidth()
 ```
 
 
 
 
 **Returns:**
-float
+double
 ### getHeight() {#getHeight--}
 ```
-public float getHeight()
+public double getHeight()
 ```
 
 
 
 
 **Returns:**
-float
+double
 ### pointsToPixels(float points, int dpi) {#pointsToPixels-float-int-}
 ```
 public static int pointsToPixels(float points, int dpi)
