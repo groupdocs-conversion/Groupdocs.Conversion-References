@@ -18,7 +18,7 @@ public sealed class ImageLoadOptions : BaseImageLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageLoadOptions](imageloadoptions)() | Initializes new instance of [`ImageLoadOptions`](../imageloadoptions) class. |
+| [ImageLoadOptions](imageloadoptions)() | Initializes a new instance of the [`ImageLoadOptions`](../imageloadoptions) class. |
 
 ## Properties
 

@@ -3,7 +3,7 @@ title: NoConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Special convert option class which instructs converter to copy source document without any processing
 type: docs
-weight: 1980
+weight: 1960
 url: /net/groupdocs.conversion.options.convert/noconvertoptions/
 ---
 ## NoConvertOptions class
@@ -18,7 +18,7 @@ public sealed class NoConvertOptions : ConvertOptions<FileType>
 
 | Name | Description |
 | --- | --- |
-| [NoConvertOptions](noconvertoptions)() | ctor |
+| [NoConvertOptions](noconvertoptions)() | Initializes a new instance of the [`NoConvertOptions`](../noconvertoptions) class with the default format. |
 
 ## Properties
 

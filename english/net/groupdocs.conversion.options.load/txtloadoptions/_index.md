@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/txtloadoptions/
 Options for loading Txt documents.
 
 ```csharp
-public sealed class TxtLoadOptions : LoadOptions
+public sealed class TxtLoadOptions : LoadOptions, IPageMarginOptions, IPageSizeOptions
 ```
 
 ## Constructors
@@ -30,6 +30,8 @@ public sealed class TxtLoadOptions : LoadOptions
 | [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [LeadingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/leadingspacesoptions) { get; set; } | Gets or sets preferred option of a leading space handling. Default value is [`ConvertToIndent`](../txtleadingspacesoptions/converttoindent). |
+| [MarginSettings](../../groupdocs.conversion.options.load/txtloadoptions/marginsettings) { get; set; } | Page margin settings |
+| [SizeSettings](../../groupdocs.conversion.options.load/txtloadoptions/sizesettings) { get; set; } | Page size settings |
 | [TrailingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/trailingspacesoptions) { get; set; } | Gets or sets preferred option of a trailing space handling. Default value is [`Trim`](../txttrailingspacesoptions/trim). |
 
 ## Methods
@@ -51,6 +53,8 @@ the font for rendering the plain text content during conversion.
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: ImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of ImageLoadOptionsgroupdocs.conversion.options.load/imageloadoptions class.
+description: Initializes a new instance of the ImageLoadOptionsgroupdocs.conversion.options.load/imageloadoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.load/imageloadoptions/imageloadoptions/
 ---
 ## ImageLoadOptions constructor
 
-Initializes new instance of [`ImageLoadOptions`](../../imageloadoptions) class.
+Initializes a new instance of the [`ImageLoadOptions`](../../imageloadoptions) class.
 
 ```csharp
 public ImageLoadOptions()

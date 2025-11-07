@@ -3,7 +3,7 @@ title: WatermarkImageOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for settings watermark to the converted document
 type: docs
-weight: 2250
+weight: 2220
 url: /net/groupdocs.conversion.options.convert/watermarkimageoptions/
 ---
 ## WatermarkImageOptions class

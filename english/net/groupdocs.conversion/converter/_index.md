@@ -46,6 +46,99 @@ public sealed class Converter : IDisposable
 | static [GetAllPossibleConversions](../../groupdocs.conversion/converter/getallpossibleconversions)() | Gets all supported conversions |
 | static [GetPossibleConversions](../../groupdocs.conversion/converter/getpossibleconversions)(string) | Gets supported conversions for provided document extension |
 
+### Examples
+
+**Basic conversion from file path:**
+
+```csharp
+// Convert DOCX to PDF
+using (var converter = new Converter("sample.docx"))
+{
+    var options = new PdfConvertOptions();
+    converter.Convert("output.pdf", options);
+}
+```
+
+**Conversion with custom options:**
+
+```csharp
+// Convert DOCX to PDF with watermark and specific page range
+using (var converter = new Converter("sample.docx"))
+{
+    var options = new PdfConvertOptions
+    {
+        PageNumber = 1,
+        PagesCount = 3,
+        Watermark = new WatermarkTextOptions("CONFIDENTIAL")
+        {
+            Color = System.Drawing.Color.Red,
+            Width = 300,
+            Height = 100
+        }
+    };
+    converter.Convert("output.pdf", options);
+}
+```
+
+**Conversion from stream:**
+
+```csharp
+// Convert document from stream to stream
+using (var sourceStream = File.OpenRead("sample.docx"))
+using (var converter = new Converter(() => sourceStream))
+using (var outputStream = File.Create("output.pdf"))
+{
+    var options = new PdfConvertOptions();
+    converter.Convert((SaveContext context) => outputStream, options);
+}
+```
+
+**Conversion with load options (password-protected document):**
+
+```csharp
+// Load password-protected document and convert to PDF
+var loadOptions = new WordProcessingLoadOptions
+{
+    Password = "secret_password"
+};
+using (var converter = new Converter("protected.docx", (LoadContext context) => loadOptions))
+{
+    var convertOptions = new PdfConvertOptions();
+    converter.Convert("output.pdf", convertOptions);
+}
+```
+
+**Page-by-page conversion:**
+
+```csharp
+// Convert document pages to separate image files
+using (var converter = new Converter("sample.pdf"))
+{
+    var options = new ImageConvertOptions
+    {
+        Format = ImageFileType.Png
+    };
+
+    converter.Convert(
+        (SavePageContext context) => File.Create($"page-{context.Page}.png"),
+        options
+    );
+}
+```
+
+**Get document information:**
+
+```csharp
+// Retrieve document metadata before conversion
+using (var converter = new Converter("sample.docx"))
+{
+    var info = converter.GetDocumentInfo();
+    Console.WriteLine($"Document has {info.PagesCount} pages");
+    Console.WriteLine($"Format: {info.Format}");
+    Console.WriteLine($"Size: {info.Size} bytes");
+}
+```
+
 ### See Also
 
 * namespace [GroupDocs.Conversion](../../groupdocs.conversion)

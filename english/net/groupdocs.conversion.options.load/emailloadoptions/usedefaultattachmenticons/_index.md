@@ -3,7 +3,7 @@ title: UseDefaultAttachmentIcons
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets whether to use default attachment icons. Default true.
 type: docs
-weight: 220
+weight: 250
 url: /net/groupdocs.conversion.options.load/emailloadoptions/usedefaultattachmenticons/
 ---
 ## EmailLoadOptions.UseDefaultAttachmentIcons property

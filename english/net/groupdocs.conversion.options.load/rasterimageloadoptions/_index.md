@@ -18,7 +18,7 @@ public sealed class RasterImageLoadOptions : BaseImageLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [RasterImageLoadOptions](rasterimageloadoptions)() | Initializes new instance of [`ImageLoadOptions`](../imageloadoptions) class. |
+| [RasterImageLoadOptions](rasterimageloadoptions)() | Initializes a new instance of the [`RasterImageLoadOptions`](../rasterimageloadoptions) class. |
 
 ## Properties
 

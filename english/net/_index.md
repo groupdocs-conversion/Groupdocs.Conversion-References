@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Conversion for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "25.9"
+version: "25.10"
 ---
 
 ## Namespaces
@@ -23,6 +23,7 @@ version: "25.9"
 | [GroupDocs.Conversion.Integration.Ocr](./groupdocs.conversion.integration.ocr) | The namespace provides interfaces and classes, required for Optical Character Recognition (OCR) support. |
 | [GroupDocs.Conversion.Integration.Video](./groupdocs.conversion.integration.video) | The namespace provides interfaces and classes, required for video conversion support. |
 | [GroupDocs.Conversion.Logging](./groupdocs.conversion.logging) | The namespace provides classes for customizing logging behaviour. |
+| [GroupDocs.Conversion.Options](./groupdocs.conversion.options) | The namespace provides classes to specify additional options for document loading and conversion process. |
 | [GroupDocs.Conversion.Options.Convert](./groupdocs.conversion.options.convert) | The namespace provides classes to specify additional options for document conversion process. |
 | [GroupDocs.Conversion.Options.Load](./groupdocs.conversion.options.load) | The namespace provides classes to specify additional options for document loading process. |
 | [GroupDocs.Conversion.Reporting](./groupdocs.conversion.reporting) | The namespace provides classes for monitoring conversion status and progress. |

@@ -3,7 +3,7 @@ title: GroupDocs.Conversion.Options.Convert
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The namespace provides classes to specify additional options for document conversion process.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.conversion.options.convert/
 ---
 The namespace provides classes to specify additional options for document conversion process.
@@ -34,7 +34,6 @@ The namespace provides classes to specify additional options for document conver
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
 | [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
 | [PageOrientation](./pageorientation) | Specifies page orientation |
-| [PageSize](./pagesize) | Specifies page size |
 | [PdfConvertOptions](./pdfconvertoptions) | Options for conversion to Pdf file type. |
 | [PdfDirection](./pdfdirection) | Describes Pdf text direction. |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Represents meta information of PDF document. |
@@ -71,12 +70,10 @@ The namespace provides classes to specify additional options for document conver
 | [IConvertOptions](./iconvertoptions) | Represents convert options |
 | [IDpiConvertOptions](./idpiconvertoptions) | Represents convert options that support DPI (Dots Per Inch) settings. |
 | [IPagedConvertOptions](./ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |
-| [IPageMarginConvertOptions](./ipagemarginconvertoptions) | Represents convert options that support page margins |
-| [IPageOrientationConvertOptions](./ipageorientationconvertoptions) | Represents convert options that support page orientation |
 | [IPageRangedConvertOptions](./ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
-| [IPageSizeConvertOptions](./ipagesizeconvertoptions) | Represents convert options that support page size |
 | [IPasswordConvertOptions](./ipasswordconvertoptions) | Represents convert options that support password protection for converted documents. |
 | [IPdfRecognitionModeOptions](./ipdfrecognitionmodeoptions) | Represents convert options that control recognition mode when converting from PDF |
+| [IUsePdfConvertOptions](./iusepdfconvertoptions) | Represents options that support converting to PDF if required |
 | [IWatermarkedConvertOptions](./iwatermarkedconvertoptions) | Represents convert options that allow output of conversion to be watermarked |
 | [IZoomConvertOptions](./izoomconvertoptions) | Represents convert options that allows conversion to be performed with zoom options |
 

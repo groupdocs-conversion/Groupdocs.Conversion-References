@@ -11,13 +11,14 @@ url: /net/groupdocs.conversion.fluent/iconversionoptionsorhandlersetup/
 Conversion options or conversion handler setup
 
 ```csharp
-public interface IConversionOptionsOrHandlerSetup : IConversionCompressResult, 
+public interface IConversionOptionsOrHandlerSetup : IConversionCompressResult, IConversionConvert, 
     IConversionHandlerOnly, IConversionOptionsOnly
 ```
 
 ### See Also
 
 * interface [IConversionCompressResult](../iconversioncompressresult)
+* interface [IConversionConvert](../iconversionconvert)
 * interface [IConversionHandlerOnly](../iconversionhandleronly)
 * interface [IConversionOptionsOnly](../iconversionoptionsonly)
 * namespace [GroupDocs.Conversion.Fluent](../../groupdocs.conversion.fluent)
