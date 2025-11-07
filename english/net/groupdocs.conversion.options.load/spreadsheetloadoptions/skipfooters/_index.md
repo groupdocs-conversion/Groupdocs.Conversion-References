@@ -3,7 +3,7 @@ title: SkipFooters
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Skip footers when converting spreadsheet documents. Default false.
 type: docs
-weight: 290
+weight: 310
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipfooters/
 ---
 ## SpreadsheetLoadOptions.SkipFooters property

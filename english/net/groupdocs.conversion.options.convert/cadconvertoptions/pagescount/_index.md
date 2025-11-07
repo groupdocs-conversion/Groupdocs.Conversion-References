@@ -3,7 +3,7 @@ title: PagesCount
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements PagesCountgroupdocs.conversion.options.convert/ipagedconvertoptions/pagescount
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/cadconvertoptions/pagescount/
 ---
 ## CadConvertOptions.PagesCount property

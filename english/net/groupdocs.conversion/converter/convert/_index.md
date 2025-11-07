@@ -50,7 +50,7 @@ public void Convert(ConvertOptions convertOptions, Action<ConvertedContext> docu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
-| documentCompleted | Action`1 | The delegate that receive converted document stream. The [`ConvertedContext`](../../convertedcontext) |
+| documentCompleted | Action`1 | Delegate that receives the converted document stream. Signature: `Action<ConvertedContext>`. The [`ConvertedContext`](../../convertedcontext) parameter contains the converted document stream and metadata. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
 ### Remarks
@@ -82,8 +82,8 @@ public void Convert(Func<SaveContext, Stream> targetStreamProvider,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| targetStreamProvider | Func`2 | A delegate that provides the stream to save the converted document. The save context |
-| convertOptionsProvider | Func`2 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The [`ConvertContext`](../../convertcontext) |
+| targetStreamProvider | Func`2 | Delegate that provides the stream to save the converted document. Signature: `Func<SaveContext, Stream>`. The [`SaveContext`](../../savecontext) parameter contains information about the save operation. |
+| convertOptionsProvider | Func`2 | Delegate that provides conversion options. Signature: `Func<ConvertContext, ConvertOptions>`. The [`ConvertContext`](../../convertcontext) parameter contains information about the conversion operation. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
 ### Remarks
@@ -115,8 +115,8 @@ public void Convert(Func<ConvertContext, ConvertOptions> convertOptionsProvider,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | Func`2 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The [`ConvertContext`](../../convertcontext) |
-| documentCompleted | Action`1 | The delegate that receive converted document stream. The [`ConvertedContext`](../../convertedcontext) |
+| convertOptionsProvider | Func`2 | Delegate that provides conversion options. Signature: `Func<ConvertContext, ConvertOptions>`. The [`ConvertContext`](../../convertcontext) parameter contains information about the conversion operation. |
+| documentCompleted | Action`1 | Delegate that receives the converted document stream. Signature: `Action<ConvertedContext>`. The [`ConvertedContext`](../../convertedcontext) parameter contains the converted document stream and metadata. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
 ### Remarks
@@ -180,8 +180,8 @@ public void Convert(Func<SavePageContext, Stream> targetStreamProvider,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| targetStreamProvider | Func`2 | The delegate that saves converted document to a stream. The [`SavePageContext`](../../savepagecontext) |
-| convertOptionsProvider | Func`2 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The [`ConvertContext`](../../convertcontext)&gt; |
+| targetStreamProvider | Func`2 | Delegate that provides a stream for saving each converted page. Signature: `Func<SavePageContext, Stream>`. The [`SavePageContext`](../../savepagecontext) parameter contains page number and document information. |
+| convertOptionsProvider | Func`2 | Delegate that provides conversion options. Signature: `Func<ConvertContext, ConvertOptions>`. The [`ConvertContext`](../../convertcontext) parameter contains information about the conversion operation. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
 ### Remarks
@@ -213,7 +213,7 @@ public void Convert(Func<SavePageContext, Stream> targetStreamProvider,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| targetStreamProvider | Func`2 | The delegate that saves converted document to a stream. The [`SavePageContext`](../../savepagecontext) |
+| targetStreamProvider | Func`2 | Delegate that provides a stream for saving each converted page. Signature: `Func<SavePageContext, Stream>`. The [`SavePageContext`](../../savepagecontext) parameter contains page number and document information. |
 | convertOptions | ConvertOptions | The convert options specific to desired target file type. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
@@ -245,7 +245,7 @@ public void Convert(ConvertOptions convertOptions, Action<ConvertedPageContext> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentCompleted | ConvertOptions | The delegate that receive converted document page stream. The name of the source fileThe target file typePage numberThe converted file content stream |
+| documentCompleted | ConvertOptions | Delegate that receives each converted page. Signature: `Action<ConvertedPageContext>`. The [`ConvertedPageContext`](../../convertedpagecontext) parameter contains page number, stream, source file name, and target file type. |
 | convertOptions | Action`1 | The convert options specific to desired target file type. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
@@ -277,8 +277,8 @@ public void Convert(Func<ConvertContext, ConvertOptions> convertOptionsProvider,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | Func`2 | Convert options provider. Will be called for each conversion to provide specific convert options to desired target document type. The [`ConvertContext`](../../convertcontext)&gt; |
-| documentCompleted | Action`1 | The delegate that receive converted document page stream. The [`ConvertedPageContext`](../../convertedpagecontext) |
+| convertOptionsProvider | Func`2 | Delegate that provides conversion options. Signature: `Func<ConvertContext, ConvertOptions>`. The [`ConvertContext`](../../convertcontext) parameter contains information about the conversion operation. |
+| documentCompleted | Action`1 | Delegate that receives each converted page. Signature: `Action<ConvertedPageContext>`. The [`ConvertedPageContext`](../../convertedpagecontext) parameter contains page number, stream, source file name, and target file type. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
 ### Remarks

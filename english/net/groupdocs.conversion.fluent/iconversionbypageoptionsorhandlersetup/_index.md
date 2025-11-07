@@ -12,13 +12,14 @@ Fluent interface for setting by-page conversion options or handler setup. Allows
 
 ```csharp
 public interface IConversionByPageOptionsOrHandlerSetup : IConversionByPageHandlerOnly, 
-    IConversionCompressResult, IConversionConvertByPageOptions
+    IConversionCompressResult, IConversionConvert, IConversionConvertByPageOptions
 ```
 
 ### See Also
 
 * interface [IConversionByPageHandlerOnly](../iconversionbypagehandleronly)
 * interface [IConversionCompressResult](../iconversioncompressresult)
+* interface [IConversionConvert](../iconversionconvert)
 * interface [IConversionConvertByPageOptions](../iconversionconvertbypageoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../)

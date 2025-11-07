@@ -3,7 +3,7 @@ title: UseTextShaper
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies whether to use a text shaper for better kerning display. Default is false.
 type: docs
-weight: 280
+weight: 300
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper/
 ---
 ## WordProcessingLoadOptions.UseTextShaper property

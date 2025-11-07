@@ -14,6 +14,10 @@ Gets all supported conversions
 public static IEnumerable<PossibleConversions> GetAllPossibleConversions()
 ```
 
+### Return Value
+
+Collection of all possible conversions.
+
 ### Remarks
 
 **Learn more**

@@ -1,14 +1,14 @@
 ---
 title: RasterImageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of ImageLoadOptionsgroupdocs.conversion.options.load/imageloadoptions class.
+description: Initializes a new instance of the RasterImageLoadOptionsgroupdocs.conversion.options.load/rasterimageloadoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.load/rasterimageloadoptions/rasterimageloadoptions/
 ---
 ## RasterImageLoadOptions constructor
 
-Initializes new instance of [`ImageLoadOptions`](../../imageloadoptions) class.
+Initializes a new instance of the [`RasterImageLoadOptions`](../../rasterimageloadoptions) class.
 
 ```csharp
 public RasterImageLoadOptions()

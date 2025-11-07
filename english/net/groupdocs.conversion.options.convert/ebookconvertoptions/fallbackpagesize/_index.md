@@ -16,7 +16,7 @@ public PageSize FallbackPageSize { get; set; }
 
 ### See Also
 
-* class [PageSize](../../pagesize)
+* class [PageSize](../../../groupdocs.conversion.options/pagesize)
 * class [EBookConvertOptions](../../ebookconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../../)

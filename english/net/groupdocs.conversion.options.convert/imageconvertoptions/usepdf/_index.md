@@ -1,14 +1,14 @@
 ---
 title: UsePdf
 second_title: GroupDocs.Conversion for .NET API Reference
-description: If true the input firstly is converted to PDF and after that to desired format.
+description: If true the input firstly is converted to PDF and after that to desired format
 type: docs
 weight: 150
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/usepdf/
 ---
 ## ImageConvertOptions.UsePdf property
 
-If `true`, the input firstly is converted to PDF and after that to desired format.
+If `true`, the input firstly is converted to PDF and after that to desired format
 
 ```csharp
 public bool UsePdf { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FontConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of AudioConvertOptionsgroupdocs.conversion.options.convert/audioconvertoptions class.
+description: Initializes a new instance of the FontConvertOptionsgroupdocs.conversion.options.convert/fontconvertoptions class with default output format.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/fontconvertoptions/fontconvertoptions/
 ---
 ## FontConvertOptions constructor
 
-Initializes new instance of [`AudioConvertOptions`](../../audioconvertoptions) class.
+Initializes a new instance of the [`FontConvertOptions`](../../fontconvertoptions) class with default output format.
 
 ```csharp
 public FontConvertOptions()

@@ -3,7 +3,7 @@ title: ImageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Image file type.
 type: docs
-weight: 1920
+weight: 1900
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/
 ---
 ## ImageConvertOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.convert/imageconvertoptions/
 Options for conversion to Image file type.
 
 ```csharp
-public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
+public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>, IUsePdfConvertOptions
 ```
 
 ## Constructors
@@ -42,7 +42,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 | [PsdOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/psdoptions) { get; set; } | Psd specific convert options. |
 | [RotateAngle](../../groupdocs.conversion.options.convert/imageconvertoptions/rotateangle) { get; set; } | Image rotation angle. |
 | [TiffOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions) { get; set; } | Tiff specific convert options. |
-| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | If `true`, the input firstly is converted to PDF and after that to desired format. |
+| [UsePdf](../../groupdocs.conversion.options.convert/imageconvertoptions/usepdf) { get; set; } | If `true`, the input firstly is converted to PDF and after that to desired format |
 | [VerticalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/verticalresolution) { get; set; } | Desired image vertical resolution after conversion. The default resolution is the resolution of the input file or 96 dpi. |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 | [WebpOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/webpoptions) { get; set; } | Webp specific convert options. |
@@ -61,6 +61,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>
 
 * class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
 * class [ImageFileType](../../groupdocs.conversion.filetypes/imagefiletype)
+* interface [IUsePdfConvertOptions](../iusepdfconvertoptions)
 * namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
 * assembly [GroupDocs.Conversion](../../)
 

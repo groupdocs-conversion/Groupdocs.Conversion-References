@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to TIFF file type.
 type: docs
-weight: 2230
+weight: 2200
 url: /net/groupdocs.conversion.options.convert/tiffoptions/
 ---
 ## TiffOptions class
@@ -18,7 +18,7 @@ public sealed class TiffOptions : ValueObject
 
 | Name | Description |
 | --- | --- |
-| [TiffOptions](tiffoptions)() | ctor |
+| [TiffOptions](tiffoptions)() | Initializes a new instance of the [`TiffOptions`](../tiffoptions) class. |
 
 ## Properties
 

@@ -13,7 +13,7 @@ Options for loading WordProcessing documents.
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
     IFontSubstituteLoadOptions, IFontTransformationLoadOptions, IMetadataLoadOptions, 
-    IPageNumberingLoadOptions, IResourceLoadingOptions
+    IPageMarginOptions, IPageNumberingLoadOptions, IPageSizeOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -45,11 +45,13 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [HideWordTrackedChanges](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hidewordtrackedchanges) { get; set; } | Hide markup and track changes for Word documents. |
 | [HyphenationOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/hyphenationoptions) { get; set; } | Set hyphenation options for WordProcessing documents. |
 | [KeepDateFieldOriginalValue](../../groupdocs.conversion.options.load/wordprocessingloadoptions/keepdatefieldoriginalvalue) { get; set; } | Keep original value of date field. Default: false |
+| [MarginSettings](../../groupdocs.conversion.options.load/wordprocessingloadoptions/marginsettings) { get; set; } | Page margin settings |
 | [PageNumbering](../../groupdocs.conversion.options.load/wordprocessingloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [Password](../../groupdocs.conversion.options.load/wordprocessingloadoptions/password) { get; set; } | Set password to unprotect protected document. |
 | [PreserveDocumentStructure](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preservedocumentstructure) { get; set; } | Determines whether the document structure should be preserved when converting to PDF (default is false). |
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
 | [ShowFullCommenterName](../../groupdocs.conversion.options.load/wordprocessingloadoptions/showfullcommentername) { get; set; } | Show full commenter name in comments. Default is false. |
+| [SizeSettings](../../groupdocs.conversion.options.load/wordprocessingloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Update fields after loading. Default: false |
 | [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Update page layout after loading. Default: false |
@@ -87,7 +89,9 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IFontTransformationLoadOptions](../ifonttransformationloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

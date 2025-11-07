@@ -14,6 +14,10 @@ Gets possible conversions for the source document.
 public PossibleConversions GetPossibleConversions()
 ```
 
+### Return Value
+
+Possible conversions as [`PossibleConversions`](../../../groupdocs.conversion.contracts/possibleconversions).
+
 ### Remarks
 
 **Learn more**
@@ -41,6 +45,10 @@ public static PossibleConversions GetPossibleConversions(string extension)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | extension | String | Document extension |
+
+### Return Value
+
+Possible conversions for the specified extension as [`PossibleConversions`](../../../groupdocs.conversion.contracts/possibleconversions).
 
 ### Remarks
 

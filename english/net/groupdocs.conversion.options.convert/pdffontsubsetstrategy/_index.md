@@ -3,7 +3,7 @@ title: PdfFontSubsetStrategy
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies font subsetting strategy
 type: docs
-weight: 2050
+weight: 2020
 url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/
 ---
 ## PdfFontSubsetStrategy class

@@ -1,14 +1,14 @@
 ---
 title: PageDescriptionLanguageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Initializes new instance of PageDescriptionLanguageFileTypegroupdocs.conversion.filetypes/pagedescriptionlanguagefiletype class.
+description: Initializes a new instance of the PageDescriptionLanguageConvertOptionsgroupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/pagedescriptionlanguageconvertoptions/
 ---
 ## PageDescriptionLanguageConvertOptions constructor
 
-Initializes new instance of [`PageDescriptionLanguageFileType`](../../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype) class.
+Initializes a new instance of the [`PageDescriptionLanguageConvertOptions`](../../pagedescriptionlanguageconvertoptions).
 
 ```csharp
 public PageDescriptionLanguageConvertOptions()

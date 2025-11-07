@@ -18,7 +18,7 @@ public class FontConvertOptions : ConvertOptions<FontFileType>
 
 | Name | Description |
 | --- | --- |
-| [FontConvertOptions](fontconvertoptions)() | Initializes new instance of [`AudioConvertOptions`](../audioconvertoptions) class. |
+| [FontConvertOptions](fontconvertoptions)() | Initializes a new instance of the [`FontConvertOptions`](../fontconvertoptions) class with default output format. |
 
 ## Properties
 

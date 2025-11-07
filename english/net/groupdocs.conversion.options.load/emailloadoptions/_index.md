@@ -12,7 +12,7 @@ Options for loading Email documents.
 
 ```csharp
 public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IFontSubstituteLoadOptions
+    IFontSubstituteLoadOptions, IPageMarginOptions, IPageOrientationOptions, IPageSizeOptions
 ```
 
 ## Constructors
@@ -43,8 +43,11 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [FontSubstitutes](../../groupdocs.conversion.options.load/emailloadoptions/fontsubstitutes) { get; set; } | List of font substitutes. |
 | [Format](../../groupdocs.conversion.options.load/emailloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [MarginSettings](../../groupdocs.conversion.options.load/emailloadoptions/marginsettings) { get; set; } | Page margin settings |
+| [OrientationSettings](../../groupdocs.conversion.options.load/emailloadoptions/orientationsettings) { get; set; } | Page orientation settings |
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/emailloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
+| [SizeSettings](../../groupdocs.conversion.options.load/emailloadoptions/sizesettings) { get; set; } | Page size settings |
 | [TimeZoneOffset](../../groupdocs.conversion.options.load/emailloadoptions/timezoneoffset) { get; set; } | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC. |
 | [UseDefaultAttachmentIcons](../../groupdocs.conversion.options.load/emailloadoptions/usedefaultattachmenticons) { get; set; } | Gets or sets whether to use default attachment icons. Default: true. |
 
@@ -62,6 +65,9 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
+* interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

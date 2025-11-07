@@ -3,7 +3,7 @@ title: PreserveDocumentStructure
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Determines whether the document structure should be preserved when converting to PDF default is false.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/preservedocumentstructure/
 ---
 ## WordProcessingLoadOptions.PreserveDocumentStructure property

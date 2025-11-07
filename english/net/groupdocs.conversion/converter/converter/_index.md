@@ -80,7 +80,7 @@ public Converter(Func<Stream> sourceStreamProvider, Func<LoadContext, LoadOption
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStreamProvider | Func`1 | The method that returns readable stream. |
-| loadOptions | Func`2 | Provide load options for the document currently being loading The load options context |
+| loadOptions | Func`2 | Delegate that provides load options for the document. Signature: `Func<LoadContext, LoadOptions>`. The [`LoadContext`](../../loadcontext) parameter contains information about the document being loaded. |
 | settings | Func`1 | The Converter settings. |
 
 ### Remarks
@@ -169,7 +169,7 @@ public Converter(string filePath, Func<LoadContext, LoadOptions> loadOptions,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | The file path to the source document. |
-| loadOptions | Func`2 | Provide load options for the document currently being loading The load options context |
+| loadOptions | Func`2 | Delegate that provides load options for the document. Signature: `Func<LoadContext, LoadOptions>`. The [`LoadContext`](../../loadcontext) parameter contains information about the document being loaded. |
 | settings | Func`1 | The Converter settings. |
 
 ### Remarks

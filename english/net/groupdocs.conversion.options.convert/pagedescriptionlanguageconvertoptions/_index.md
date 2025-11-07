@@ -3,7 +3,7 @@ title: PageDescriptionLanguageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to page descriptions language file type.
 type: docs
-weight: 1990
+weight: 1970
 url: /net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/
 ---
 ## PageDescriptionLanguageConvertOptions class
@@ -19,7 +19,7 @@ public class PageDescriptionLanguageConvertOptions :
 
 | Name | Description |
 | --- | --- |
-| [PageDescriptionLanguageConvertOptions](pagedescriptionlanguageconvertoptions)() | Initializes new instance of [`PageDescriptionLanguageFileType`](../../groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype) class. |
+| [PageDescriptionLanguageConvertOptions](pagedescriptionlanguageconvertoptions)() | Initializes a new instance of the [`PageDescriptionLanguageConvertOptions`](../pagedescriptionlanguageconvertoptions). |
 
 ## Properties
 

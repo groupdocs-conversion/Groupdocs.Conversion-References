@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: ctor
+description: Initializes a new instance of the PdfOptionsgroupdocs.conversion.options.convert/pdfoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/pdfoptions/pdfoptions/
 ---
 ## PdfOptions constructor
 
-ctor
+Initializes a new instance of the [`PdfOptions`](../../pdfoptions) class.
 
 ```csharp
 public PdfOptions()

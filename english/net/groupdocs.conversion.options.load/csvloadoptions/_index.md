@@ -45,6 +45,7 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [HasFormula](../../groupdocs.conversion.options.load/csvloadoptions/hasformula) { get; set; } | Indicates whether text is formula if it starts with "=". |
 | [IgnoreFormulaCalculationErrors](../../groupdocs.conversion.options.load/spreadsheetloadoptions/ignoreformulacalculationerrors) { get; set; } | Indicates whether to ignore formula calculation errors. The error may be unsupported function, external links, etc. Default is false. |
 | [IsMultiEncoded](../../groupdocs.conversion.options.load/csvloadoptions/ismultiencoded) { get; set; } | True means the file contains several encodings. |
+| [MarginSettings](../../groupdocs.conversion.options.load/spreadsheetloadoptions/marginsettings) { get; set; } | Page margin settings |
 | [OnePagePerSheet](../../groupdocs.conversion.options.load/spreadsheetloadoptions/onepagepersheet) { get; set; } | If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true. |
 | [OptimizePdfSize](../../groupdocs.conversion.options.load/spreadsheetloadoptions/optimizepdfsize) { get; set; } | If True and converting to Pdf the conversion is optimized for better file size than print quality. |
 | [Password](../../groupdocs.conversion.options.load/spreadsheetloadoptions/password) { get; set; } | Set password to unprotect protected document. |
@@ -57,6 +58,7 @@ public sealed class CsvLoadOptions : SpreadsheetLoadOptions
 | [Sheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sheets) { get; set; } | Sheet name to convert |
 | [ShowGridLines](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showgridlines) { get; set; } | Show grid lines when converting Excel files. |
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Show hidden sheets when converting Excel files. |
+| [SizeSettings](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipEmptyRowsAndColumns](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns) { get; set; } | Skips empty rows and columns when converting. Default is True. |
 | [SkipFooters](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipfooters) { get; set; } | Skip footers when converting spreadsheet documents. Default: false. |
 | [SkipHeaders](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipheaders) { get; set; } | Skip headers when converting spreadsheet documents. Default: false. |

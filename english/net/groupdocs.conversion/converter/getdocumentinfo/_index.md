@@ -14,6 +14,10 @@ Gets source document info - pages count and other document properties specific t
 public IDocumentInfo GetDocumentInfo()
 ```
 
+### Return Value
+
+Document information as [`IDocumentInfo`](../../../groupdocs.conversion.contracts/idocumentinfo).
+
 ### Remarks
 
 **Learn more**
@@ -37,6 +41,14 @@ Gets source document info - pages count and other document properties specific t
 public T GetDocumentInfo<T>()
     where T : IDocumentInfo
 ```
+
+| Parameter | Description |
+| --- | --- |
+| T | The specific document info type. |
+
+### Return Value
+
+Document information as the specified type T.
 
 ### Remarks
 

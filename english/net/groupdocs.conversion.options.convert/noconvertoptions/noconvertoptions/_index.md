@@ -1,14 +1,14 @@
 ---
 title: NoConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: ctor
+description: Initializes a new instance of the NoConvertOptionsgroupdocs.conversion.options.convert/noconvertoptions class with the default format.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/noconvertoptions/noconvertoptions/
 ---
 ## NoConvertOptions constructor
 
-ctor
+Initializes a new instance of the [`NoConvertOptions`](../../noconvertoptions) class with the default format.
 
 ```csharp
 public NoConvertOptions()

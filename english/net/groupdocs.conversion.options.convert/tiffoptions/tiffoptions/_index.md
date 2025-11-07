@@ -1,14 +1,14 @@
 ---
 title: TiffOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: ctor
+description: Initializes a new instance of the TiffOptionsgroupdocs.conversion.options.convert/tiffoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.options.convert/tiffoptions/tiffoptions/
 ---
 ## TiffOptions constructor
 
-ctor
+Initializes a new instance of the [`TiffOptions`](../../tiffoptions) class.
 
 ```csharp
 public TiffOptions()

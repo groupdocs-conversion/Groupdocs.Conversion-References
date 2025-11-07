@@ -3,7 +3,7 @@ title: GroupDocs.Conversion.Options.Load
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The namespace provides classes to specify additional options for document loading process.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.options.load/
 ---
 The namespace provides classes to specify additional options for document loading process.
