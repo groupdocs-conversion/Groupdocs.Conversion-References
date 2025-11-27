@@ -3,7 +3,7 @@ title: PdfA_1B
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A1b  Level B basic conformance.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_1b/
 ---
 ## PdfFormats.PdfA_1B field

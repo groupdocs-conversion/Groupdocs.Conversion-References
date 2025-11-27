@@ -3,7 +3,7 @@ title: PrintInPlace
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents to print comments as displayed on sheet.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/spreadsheetprintcomments/printinplace/
 ---
 ## SpreadsheetPrintComments.PrintInPlace field

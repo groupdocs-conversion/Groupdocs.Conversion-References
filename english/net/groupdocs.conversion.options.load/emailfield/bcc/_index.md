@@ -3,7 +3,7 @@ title: Bcc
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Bcc.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/emailfield/bcc/
 ---
 ## EmailField.Bcc field

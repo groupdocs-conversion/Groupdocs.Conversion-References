@@ -3,7 +3,7 @@ title: Trim
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Trims trailing spaces
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/txttrailingspacesoptions/trim/
 ---
 ## TxtTrailingSpacesOptions.Trim field

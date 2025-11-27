@@ -3,7 +3,7 @@ title: TwoColumnRight
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Display the pages in two columns with oddnumbered pages on the right.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfpagelayout/twocolumnright/
 ---
 ## PdfPageLayout.TwoColumnRight field

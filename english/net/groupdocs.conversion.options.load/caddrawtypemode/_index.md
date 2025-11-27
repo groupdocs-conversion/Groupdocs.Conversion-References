@@ -3,7 +3,7 @@ title: CadDrawTypeMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents possible modes for colorization of objects.
 type: docs
-weight: 2340
+weight: 2360
 url: /net/groupdocs.conversion.options.load/caddrawtypemode/
 ---
 ## CadDrawTypeMode class
@@ -13,12 +13,6 @@ Represents possible modes for colorization of objects.
 ```csharp
 public class CadDrawTypeMode : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [CadDrawTypeMode](caddrawtypemode)() | Serialization constructor |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: PdfA_1A
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A1a  Level A accessible conformance.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_1a/
 ---
 ## PdfFormats.PdfA_1A field

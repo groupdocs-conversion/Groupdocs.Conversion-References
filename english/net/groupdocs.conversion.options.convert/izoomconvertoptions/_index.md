@@ -3,7 +3,7 @@ title: IZoomConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents convert options that allows conversion to be performed with zoom options
 type: docs
-weight: 1890
+weight: 1900
 url: /net/groupdocs.conversion.options.convert/izoomconvertoptions/
 ---
 ## IZoomConvertOptions interface

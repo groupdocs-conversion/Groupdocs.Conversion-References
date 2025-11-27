@@ -3,7 +3,7 @@ title: MarkdownOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to markdown file type.
 type: docs
-weight: 1950
+weight: 1960
 url: /net/groupdocs.conversion.options.convert/markdownoptions/
 ---
 ## MarkdownOptions class

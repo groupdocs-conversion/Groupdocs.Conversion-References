@@ -3,7 +3,7 @@ title: SizeSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page size settings
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/sizesettings/
 ---
 ## PdfConvertOptions.SizeSettings property

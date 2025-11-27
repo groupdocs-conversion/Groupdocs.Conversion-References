@@ -3,7 +3,7 @@ title: Annotation
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Renders document comments in annotations. This is only available for Pdf format.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/wordprocessingcommentdisplay/annotation/
 ---
 ## WordProcessingCommentDisplay.Annotation field

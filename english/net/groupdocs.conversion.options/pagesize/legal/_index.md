@@ -3,7 +3,7 @@ title: Legal
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 8.5 x 14 inches.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.conversion.options/pagesize/legal/
 ---
 ## PageSize.Legal field

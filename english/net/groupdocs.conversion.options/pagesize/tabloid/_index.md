@@ -3,7 +3,7 @@ title: Tabloid
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 11 x 17 inches.
 type: docs
-weight: 180
+weight: 170
 url: /net/groupdocs.conversion.options/pagesize/tabloid/
 ---
 ## PageSize.Tabloid field

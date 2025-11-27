@@ -3,7 +3,7 @@ title: Recurrence
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Recurrence.
 type: docs
-weight: 110
+weight: 100
 url: /net/groupdocs.conversion.options.load/emailfield/recurrence/
 ---
 ## EmailField.Recurrence field

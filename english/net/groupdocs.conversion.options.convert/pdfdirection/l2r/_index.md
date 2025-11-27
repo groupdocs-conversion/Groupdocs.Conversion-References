@@ -3,7 +3,7 @@ title: L2R
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Left to right.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/pdfdirection/l2r/
 ---
 ## PdfDirection.L2R field

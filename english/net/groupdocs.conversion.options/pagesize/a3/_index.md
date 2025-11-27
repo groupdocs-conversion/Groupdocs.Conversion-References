@@ -3,7 +3,7 @@ title: A3
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 297 x 420 mm.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options/pagesize/a3/
 ---
 ## PageSize.A3 field

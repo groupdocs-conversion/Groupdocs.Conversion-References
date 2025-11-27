@@ -3,7 +3,7 @@ title: GisLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading GIS documents.
 type: docs
-weight: 2460
+weight: 2480
 url: /net/groupdocs.conversion.options.load/gisloadoptions/
 ---
 ## GisLoadOptions class

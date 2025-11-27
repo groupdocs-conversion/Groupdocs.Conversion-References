@@ -3,7 +3,7 @@ title: Folio
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 8.5 x 13 inches.
 type: docs
-weight: 100
+weight: 90
 url: /net/groupdocs.conversion.options/pagesize/folio/
 ---
 ## PageSize.Folio field

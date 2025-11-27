@@ -3,7 +3,7 @@ title: PdfA_4E
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A4E conformance.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_4e/
 ---
 ## PdfFormats.PdfA_4E field

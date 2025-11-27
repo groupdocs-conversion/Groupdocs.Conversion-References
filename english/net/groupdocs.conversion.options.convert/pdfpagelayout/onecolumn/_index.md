@@ -3,7 +3,7 @@ title: OneColumn
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Display pages in one column.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.convert/pdfpagelayout/onecolumn/
 ---
 ## PdfPageLayout.OneColumn field

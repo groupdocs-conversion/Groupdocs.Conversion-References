@@ -3,7 +3,7 @@ title: Attachments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Attachments.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/emailfield/attachments/
 ---
 ## EmailField.Attachments field

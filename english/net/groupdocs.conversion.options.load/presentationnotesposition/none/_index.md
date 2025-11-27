@@ -3,7 +3,7 @@ title: None
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Notes will not be printed.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.load/presentationnotesposition/none/
 ---
 ## PresentationNotesPosition.None field

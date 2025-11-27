@@ -3,7 +3,7 @@ title: IMetadataLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options to control metadata in the converted document.
 type: docs
-weight: 2520
+weight: 2540
 url: /net/groupdocs.conversion.options.load/imetadataloadoptions/
 ---
 ## IMetadataLoadOptions interface

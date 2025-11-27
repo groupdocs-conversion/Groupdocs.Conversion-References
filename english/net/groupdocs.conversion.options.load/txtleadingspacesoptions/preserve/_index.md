@@ -3,7 +3,7 @@ title: Preserve
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Preserves leading spaces.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/txtleadingspacesoptions/preserve/
 ---
 ## TxtLeadingSpacesOptions.Preserve field

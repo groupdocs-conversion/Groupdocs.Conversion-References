@@ -3,7 +3,7 @@ title: B5
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 176 x 250 mm.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options/pagesize/b5/
 ---
 ## PageSize.B5 field

@@ -3,7 +3,7 @@ title: TwoPagesRight
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Display the pages two at a time with oddnumbered pages on the right.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.options.convert/pdfpagelayout/twopagesright/
 ---
 ## PdfPageLayout.TwoPagesRight field

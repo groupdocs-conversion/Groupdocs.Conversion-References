@@ -3,7 +3,7 @@ title: HtmlRenderingModes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes html rendering modes enumeration.
 type: docs
-weight: 2480
+weight: 2500
 url: /net/groupdocs.conversion.options.load/htmlrenderingmodes/
 ---
 ## HtmlRenderingModes class
@@ -13,12 +13,6 @@ Describes html rendering modes enumeration.
 ```csharp
 public class HtmlRenderingModes : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [HtmlRenderingModes](htmlrenderingmodes)() | Serialization constructor |
 
 ## Methods
 

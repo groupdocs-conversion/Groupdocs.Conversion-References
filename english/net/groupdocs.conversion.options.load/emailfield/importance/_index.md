@@ -3,7 +3,7 @@ title: Importance
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Importance.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.options.load/emailfield/importance/
 ---
 ## EmailField.Importance field

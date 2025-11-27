@@ -3,7 +3,7 @@ title: PresentationCommentsPosition
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way comments are printed with the slide.
 type: docs
-weight: 2660
+weight: 2680
 url: /net/groupdocs.conversion.options.load/presentationcommentsposition/
 ---
 ## PresentationCommentsPosition class
@@ -13,12 +13,6 @@ Represents the way comments are printed with the slide.
 ```csharp
 public class PresentationCommentsPosition : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PresentationCommentsPosition](presentationcommentsposition)() | Serialization constructor |
 
 ## Methods
 

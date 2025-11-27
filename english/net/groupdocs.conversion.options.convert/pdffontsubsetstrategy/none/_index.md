@@ -3,7 +3,7 @@ title: None
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Do not subset fonts
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/none/
 ---
 ## PdfFontSubsetStrategy.None field

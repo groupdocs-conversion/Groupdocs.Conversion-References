@@ -3,7 +3,7 @@ title: Hidden
 second_title: GroupDocs.Conversion for .NET API Reference
 description: No document comments are rendered.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.load/wordprocessingcommentdisplay/hidden/
 ---
 ## WordProcessingCommentDisplay.Hidden field

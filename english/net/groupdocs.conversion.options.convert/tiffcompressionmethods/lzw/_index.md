@@ -3,7 +3,7 @@ title: Lzw
 second_title: GroupDocs.Conversion for .NET API Reference
 description: LZW compression.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/tiffcompressionmethods/lzw/
 ---
 ## TiffCompressionMethods.Lzw field

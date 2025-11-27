@@ -3,7 +3,7 @@ title: WordProcessingCommentDisplay
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the rendering mode for document comments.
 type: docs
-weight: 2840
+weight: 2860
 url: /net/groupdocs.conversion.options.load/wordprocessingcommentdisplay/
 ---
 ## WordProcessingCommentDisplay class
@@ -13,12 +13,6 @@ Specifies the rendering mode for document comments.
 ```csharp
 public class WordProcessingCommentDisplay : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [WordProcessingCommentDisplay](wordprocessingcommentdisplay)() | Serialization constructor |
 
 ## Methods
 

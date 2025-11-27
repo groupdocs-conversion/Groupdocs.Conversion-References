@@ -3,7 +3,7 @@ title: IConversionOptionsOrHandlerSetup
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Conversion options or conversion handler setup
 type: docs
-weight: 1490
+weight: 1500
 url: /net/groupdocs.conversion.fluent/iconversionoptionsorhandlersetup/
 ---
 ## IConversionOptionsOrHandlerSetup interface

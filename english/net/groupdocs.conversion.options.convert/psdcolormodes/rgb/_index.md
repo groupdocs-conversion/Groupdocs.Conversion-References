@@ -3,7 +3,7 @@ title: Rgb
 second_title: GroupDocs.Conversion for .NET API Reference
 description: RGB.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.conversion.options.convert/psdcolormodes/rgb/
 ---
 ## PsdColorModes.Rgb field

@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies page size
 type: docs
-weight: 2880
+weight: 2900
 url: /net/groupdocs.conversion.options/pagesize/
 ---
 ## PageSize class
@@ -13,12 +13,6 @@ Specifies page size
 ```csharp
 public sealed class PageSize : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PageSize](pagesize)() | Serialization constructor |
 
 ## Methods
 

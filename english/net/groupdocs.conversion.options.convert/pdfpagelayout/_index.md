@@ -3,7 +3,7 @@ title: PdfPageLayout
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Pdf page layout.
 type: docs
-weight: 2070
+weight: 2090
 url: /net/groupdocs.conversion.options.convert/pdfpagelayout/
 ---
 ## PdfPageLayout class
@@ -13,12 +13,6 @@ Describes Pdf page layout.
 ```csharp
 public class PdfPageLayout : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PdfPageLayout](pdfpagelayout)() | Serialization constructor |
 
 ## Methods
 

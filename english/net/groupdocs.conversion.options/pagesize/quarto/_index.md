@@ -3,7 +3,7 @@ title: Quarto
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 8.47 x 10.83 inches.
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.conversion.options/pagesize/quarto/
 ---
 ## PageSize.Quarto field

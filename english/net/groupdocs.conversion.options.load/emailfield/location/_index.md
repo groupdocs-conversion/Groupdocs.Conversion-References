@@ -3,7 +3,7 @@ title: Location
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Location.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.options.load/emailfield/location/
 ---
 ## EmailField.Location field

@@ -3,7 +3,7 @@ title: PdfRecognitionMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Allows to control how a PDF document is converted into a word processing document.
 type: docs
-weight: 2090
+weight: 2110
 url: /net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 ---
 ## PdfRecognitionMode class
@@ -13,12 +13,6 @@ Allows to control how a PDF document is converted into a word processing documen
 ```csharp
 public sealed class PdfRecognitionMode : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PdfRecognitionMode](pdfrecognitionmode)() | Serialization constructor |
 
 ## Methods
 

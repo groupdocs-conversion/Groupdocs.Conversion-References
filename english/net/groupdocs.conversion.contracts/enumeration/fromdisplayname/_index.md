@@ -12,7 +12,7 @@ Returns object by display name.
 
 ```csharp
 public static T FromDisplayName<T>(string displayName)
-    where T : Enumeration, new()
+    where T : Enumeration
 ```
 
 | Parameter | Type | Description |

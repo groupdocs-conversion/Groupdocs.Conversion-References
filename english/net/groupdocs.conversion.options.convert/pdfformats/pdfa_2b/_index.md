@@ -3,7 +3,7 @@ title: PdfA_2B
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A2b conformance.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_2b/
 ---
 ## PdfFormats.PdfA_2B field

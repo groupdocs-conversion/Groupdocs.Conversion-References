@@ -3,7 +3,7 @@ title: BottomFull
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the notes should be full displayed using additional pages as it is needed.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/presentationnotesposition/bottomfull/
 ---
 ## PresentationNotesPosition.BottomFull field

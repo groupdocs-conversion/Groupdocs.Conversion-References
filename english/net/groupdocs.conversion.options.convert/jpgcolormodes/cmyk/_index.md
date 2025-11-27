@@ -3,7 +3,7 @@ title: Cmyk
 second_title: GroupDocs.Conversion for .NET API Reference
 description: CMYK.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/jpgcolormodes/cmyk/
 ---
 ## JpgColorModes.Cmyk field

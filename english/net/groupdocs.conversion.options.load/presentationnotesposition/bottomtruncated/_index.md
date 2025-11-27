@@ -3,7 +3,7 @@ title: BottomTruncated
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies the notes should be displayed in only one page.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/presentationnotesposition/bottomtruncated/
 ---
 ## PresentationNotesPosition.BottomTruncated field

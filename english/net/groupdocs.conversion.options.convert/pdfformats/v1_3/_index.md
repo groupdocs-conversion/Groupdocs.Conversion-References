@@ -3,7 +3,7 @@ title: v1_3
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF version 1.3.
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.conversion.options.convert/pdfformats/v1_3/
 ---
 ## PdfFormats.v1_3 field

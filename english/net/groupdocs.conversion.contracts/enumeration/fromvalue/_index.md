@@ -12,7 +12,7 @@ Returns object by key.
 
 ```csharp
 public static T FromValue<T>(string value)
-    where T : Enumeration, new()
+    where T : Enumeration
 ```
 
 | Parameter | Type | Description |
