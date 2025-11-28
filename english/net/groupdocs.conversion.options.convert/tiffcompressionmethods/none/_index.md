@@ -3,7 +3,7 @@ title: None
 second_title: GroupDocs.Conversion for .NET API Reference
 description: No compression.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/tiffcompressionmethods/none/
 ---
 ## TiffCompressionMethods.None field

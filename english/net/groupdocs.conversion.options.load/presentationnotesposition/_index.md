@@ -3,7 +3,7 @@ title: PresentationNotesPosition
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way notes are printed with the slide.
 type: docs
-weight: 2680
+weight: 2700
 url: /net/groupdocs.conversion.options.load/presentationnotesposition/
 ---
 ## PresentationNotesPosition class
@@ -13,12 +13,6 @@ Represents the way notes are printed with the slide.
 ```csharp
 public class PresentationNotesPosition : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PresentationNotesPosition](presentationnotesposition)() | Serialization constructor |
 
 ## Methods
 

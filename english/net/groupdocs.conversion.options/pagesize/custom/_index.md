@@ -3,7 +3,7 @@ title: Custom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Custom paper size.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.options/pagesize/custom/
 ---
 ## PageSize.Custom field

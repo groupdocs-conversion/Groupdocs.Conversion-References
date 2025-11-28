@@ -3,7 +3,7 @@ title: CompressionFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines compression formats. Includes the following file types Zip./compressionfiletype/zip. Rar./compressionfiletype/rar. SevenZ./compressionfiletype/sevenz. Tar./compressionfiletype/tar. Gz./compressionfiletype/gz. Gzip./compressionfiletype/gzip. Bz2./compressionfiletype/bz2. Lz./compressionfiletype/lz. Z./compressionfiletype/z. Xz./compressionfiletype/xz. Xz./compressionfiletype/xz. Cpio./compressionfiletype/cpio. Cab./compressionfiletype/cab. Lzma./compressionfiletype/lzma. Zst./compressionfiletype/zst. Uue./compressionfiletype/uue. Lha./compressionfiletype/lha. Lz4./compressionfiletype/lz4. Learn more about compression formats herehttps//docs.fileformat.com/compression/.
 type: docs
-weight: 990
+weight: 1000
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/
 ---
 ## CompressionFileType class

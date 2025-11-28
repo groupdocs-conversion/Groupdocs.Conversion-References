@@ -3,7 +3,7 @@ title: Duotone
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Duotone.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/psdcolormodes/duotone/
 ---
 ## PsdColorModes.Duotone field

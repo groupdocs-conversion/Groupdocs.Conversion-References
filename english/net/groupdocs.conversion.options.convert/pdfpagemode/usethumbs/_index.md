@@ -3,7 +3,7 @@ title: UseThumbs
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Thumbnail images visible.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.options.convert/pdfpagemode/usethumbs/
 ---
 ## PdfPageMode.UseThumbs field

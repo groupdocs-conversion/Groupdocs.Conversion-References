@@ -3,7 +3,7 @@ title: PdfFormats
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Pdf formats enumeration.
 type: docs
-weight: 2030
+weight: 2050
 url: /net/groupdocs.conversion.options.convert/pdfformats/
 ---
 ## PdfFormats class
@@ -13,12 +13,6 @@ Describes Pdf formats enumeration.
 ```csharp
 public sealed class PdfFormats : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PdfFormats](pdfformats)() | Serialization constructor |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: EmailField
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes email fields enumeration
 type: docs
-weight: 2410
+weight: 2430
 url: /net/groupdocs.conversion.options.load/emailfield/
 ---
 ## EmailField class
@@ -13,12 +13,6 @@ Describes email fields enumeration
 ```csharp
 public class EmailField : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [EmailField](emailfield)() | Serialization constructor |
 
 ## Methods
 

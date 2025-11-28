@@ -3,7 +3,7 @@ title: RecurrencePattern
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is RecurrencePattern.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.conversion.options.load/emailfield/recurrencepattern/
 ---
 ## EmailField.RecurrencePattern field

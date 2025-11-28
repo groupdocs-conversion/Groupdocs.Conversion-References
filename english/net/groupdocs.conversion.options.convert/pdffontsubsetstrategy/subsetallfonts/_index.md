@@ -3,7 +3,7 @@ title: SubsetAllFonts
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Subset all fonts used in a document.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/subsetallfonts/
 ---
 ## PdfFontSubsetStrategy.SubsetAllFonts field

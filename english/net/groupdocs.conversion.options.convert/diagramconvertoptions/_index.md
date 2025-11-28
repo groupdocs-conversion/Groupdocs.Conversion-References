@@ -3,7 +3,7 @@ title: DiagramConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Diagram file type.
 type: docs
-weight: 1740
+weight: 1750
 url: /net/groupdocs.conversion.options.convert/diagramconvertoptions/
 ---
 ## DiagramConvertOptions class

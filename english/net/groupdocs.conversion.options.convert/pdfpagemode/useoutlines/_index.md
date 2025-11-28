@@ -3,7 +3,7 @@ title: UseOutlines
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Document outline visible.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfpagemode/useoutlines/
 ---
 ## PdfPageMode.UseOutlines field

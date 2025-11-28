@@ -3,7 +3,7 @@ title: Flow
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Full recognition mode the engine performs grouping and multilevel analysis to restore the original document authors intent and produce a maximally editable document. The downside is that the output document might look different from the original PDF file.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/pdfrecognitionmode/flow/
 ---
 ## PdfRecognitionMode.Flow field

@@ -3,7 +3,7 @@ title: FlipY
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Flip vertical.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/imageflipmodes/flipy/
 ---
 ## ImageFlipModes.FlipY field

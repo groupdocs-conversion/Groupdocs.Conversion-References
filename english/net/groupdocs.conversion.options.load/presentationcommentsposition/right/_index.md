@@ -3,7 +3,7 @@ title: Right
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the comments are printed at the right of the page.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.load/presentationcommentsposition/right/
 ---
 ## PresentationCommentsPosition.Right field

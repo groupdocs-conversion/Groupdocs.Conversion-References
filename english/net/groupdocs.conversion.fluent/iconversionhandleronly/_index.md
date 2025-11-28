@@ -3,7 +3,7 @@ title: IConversionHandlerOnly
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface for setting only conversion handlers.
 type: docs
-weight: 1430
+weight: 1440
 url: /net/groupdocs.conversion.fluent/iconversionhandleronly/
 ---
 ## IConversionHandlerOnly interface

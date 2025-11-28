@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Pdf page mode
 type: docs
-weight: 2080
+weight: 2100
 url: /net/groupdocs.conversion.options.convert/pdfpagemode/
 ---
 ## PdfPageMode class
@@ -13,12 +13,6 @@ Describes Pdf page mode
 ```csharp
 public class PdfPageMode : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PdfPageMode](pdfpagemode)() | Serialization constructor |
 
 ## Methods
 

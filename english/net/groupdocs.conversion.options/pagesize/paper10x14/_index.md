@@ -3,7 +3,7 @@ title: Paper10x14
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 10 x 14 inches.
 type: docs
-weight: 140
+weight: 130
 url: /net/groupdocs.conversion.options/pagesize/paper10x14/
 ---
 ## PageSize.Paper10x14 field

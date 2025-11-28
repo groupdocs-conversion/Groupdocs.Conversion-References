@@ -3,7 +3,7 @@ title: Baseline
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The baseline compression.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/jpgcompressionmethods/baseline/
 ---
 ## JpgCompressionMethods.Baseline field

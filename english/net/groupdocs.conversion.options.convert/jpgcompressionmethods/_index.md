@@ -3,7 +3,7 @@ title: JpgCompressionMethods
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Jpg compression modes
 type: docs
-weight: 1940
+weight: 1950
 url: /net/groupdocs.conversion.options.convert/jpgcompressionmethods/
 ---
 ## JpgCompressionMethods class
@@ -13,12 +13,6 @@ Describes Jpg compression modes
 ```csharp
 public class JpgCompressionMethods : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [JpgCompressionMethods](jpgcompressionmethods)() | Serialization constructor |
 
 ## Methods
 

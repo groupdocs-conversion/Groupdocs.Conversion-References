@@ -3,7 +3,7 @@ title: YCbCr
 second_title: GroupDocs.Conversion for .NET API Reference
 description: YCbCr image. Standard option for jpeg images.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/jpgcolormodes/ycbcr/
 ---
 ## JpgColorModes.YCbCr field

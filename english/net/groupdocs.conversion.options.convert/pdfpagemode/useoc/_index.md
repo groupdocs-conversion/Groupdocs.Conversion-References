@@ -3,7 +3,7 @@ title: UseOC
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Optional content group panel visible.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/pdfpagemode/useoc/
 ---
 ## PdfPageMode.UseOC field

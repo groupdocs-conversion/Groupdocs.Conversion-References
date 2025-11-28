@@ -3,7 +3,7 @@ title: Indexed
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Indexed.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/psdcolormodes/indexed/
 ---
 ## PsdColorModes.Indexed field

@@ -3,7 +3,7 @@ title: PdfX_3
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/X3 conformance.
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfx_3/
 ---
 ## PdfFormats.PdfX_3 field

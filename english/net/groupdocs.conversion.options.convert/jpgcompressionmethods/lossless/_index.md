@@ -3,7 +3,7 @@ title: Lossless
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Lossless compression.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/jpgcompressionmethods/lossless/
 ---
 ## JpgCompressionMethods.Lossless field

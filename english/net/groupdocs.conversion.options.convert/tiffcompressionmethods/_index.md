@@ -3,7 +3,7 @@ title: TiffCompressionMethods
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Tiff compression methods enumeration.
 type: docs
-weight: 2190
+weight: 2210
 url: /net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 ---
 ## TiffCompressionMethods class
@@ -13,12 +13,6 @@ Describes Tiff compression methods enumeration.
 ```csharp
 public class TiffCompressionMethods : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [TiffCompressionMethods](tiffcompressionmethods)() | Serialization constructor |
 
 ## Methods
 

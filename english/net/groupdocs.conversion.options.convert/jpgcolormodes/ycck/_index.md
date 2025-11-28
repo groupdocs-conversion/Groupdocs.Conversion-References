@@ -3,7 +3,7 @@ title: Ycck
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Ycck.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.conversion.options.convert/jpgcolormodes/ycck/
 ---
 ## JpgColorModes.Ycck field

@@ -3,7 +3,7 @@ title: Rgb
 second_title: GroupDocs.Conversion for .NET API Reference
 description: RGB.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/jpgcolormodes/rgb/
 ---
 ## JpgColorModes.Rgb field

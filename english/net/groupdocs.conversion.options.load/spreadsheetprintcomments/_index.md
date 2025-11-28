@@ -3,7 +3,7 @@ title: SpreadsheetPrintComments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way comments are printed with the sheet.
 type: docs
-weight: 2720
+weight: 2740
 url: /net/groupdocs.conversion.options.load/spreadsheetprintcomments/
 ---
 ## SpreadsheetPrintComments class
@@ -13,12 +13,6 @@ Represents the way comments are printed with the sheet.
 ```csharp
 public class SpreadsheetPrintComments : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [SpreadsheetPrintComments](spreadsheetprintcomments)() | Serialization constructor |
 
 ## Methods
 

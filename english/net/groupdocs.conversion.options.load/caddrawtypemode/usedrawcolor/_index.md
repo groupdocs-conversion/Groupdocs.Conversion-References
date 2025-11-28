@@ -3,7 +3,7 @@ title: UseDrawColor
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Allows to use common color.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/caddrawtypemode/usedrawcolor/
 ---
 ## CadDrawTypeMode.UseDrawColor field

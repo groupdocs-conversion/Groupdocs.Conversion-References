@@ -3,7 +3,7 @@ title: Statement
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 8.5 x 5.5 inches.
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.conversion.options/pagesize/statement/
 ---
 ## PageSize.Statement field

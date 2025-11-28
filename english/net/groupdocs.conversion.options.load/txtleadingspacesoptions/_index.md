@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes txt leading spaces options enumeration.
 type: docs
-weight: 2760
+weight: 2780
 url: /net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions class
@@ -13,12 +13,6 @@ Describes txt leading spaces options enumeration.
 ```csharp
 public class TxtLeadingSpacesOptions : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [TxtLeadingSpacesOptions](txtleadingspacesoptions)() | Serialization constructor |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: UueDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Uue document metadata
 type: docs
-weight: 650
+weight: 660
 url: /net/groupdocs.conversion.contracts/uuedocumentinfo/
 ---
 ## UueDocumentInfo class

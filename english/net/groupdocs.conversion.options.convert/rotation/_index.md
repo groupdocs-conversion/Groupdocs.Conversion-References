@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes page rotation enumeration
 type: docs
-weight: 2150
+weight: 2170
 url: /net/groupdocs.conversion.options.convert/rotation/
 ---
 ## Rotation class
@@ -13,12 +13,6 @@ Describes page rotation enumeration
 ```csharp
 public class Rotation : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [Rotation](rotation)() | Serialization constructor |
 
 ## Methods
 

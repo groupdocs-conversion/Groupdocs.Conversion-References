@@ -3,7 +3,7 @@ title: Trim
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Trims leading spaces.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.load/txtleadingspacesoptions/trim/
 ---
 ## TxtLeadingSpacesOptions.Trim field

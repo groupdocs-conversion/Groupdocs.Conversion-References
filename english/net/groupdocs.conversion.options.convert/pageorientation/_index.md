@@ -3,7 +3,7 @@ title: PageOrientation
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies page orientation
 type: docs
-weight: 1980
+weight: 1990
 url: /net/groupdocs.conversion.options.convert/pageorientation/
 ---
 ## PageOrientation class
@@ -13,12 +13,6 @@ Specifies page orientation
 ```csharp
 public sealed class PageOrientation : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PageOrientation](pageorientation)() | Serialization constructor |
 
 ## Methods
 

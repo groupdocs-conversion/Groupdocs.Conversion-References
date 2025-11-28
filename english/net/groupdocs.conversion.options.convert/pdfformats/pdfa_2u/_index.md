@@ -3,7 +3,7 @@ title: PdfA_2U
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A2u conformance.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_2u/
 ---
 ## PdfFormats.PdfA_2U field

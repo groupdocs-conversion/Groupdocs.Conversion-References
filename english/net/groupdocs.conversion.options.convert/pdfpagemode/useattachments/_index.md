@@ -3,7 +3,7 @@ title: UseAttachments
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Attachments panel visible.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.convert/pdfpagemode/useattachments/
 ---
 ## PdfPageMode.UseAttachments field

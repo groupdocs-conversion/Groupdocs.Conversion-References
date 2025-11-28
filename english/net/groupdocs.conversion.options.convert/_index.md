@@ -34,6 +34,7 @@ The namespace provides classes to specify additional options for document conver
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
 | [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
 | [PageOrientation](./pageorientation) | Specifies page orientation |
+| [PageResizeMode](./pageresizemode) | Specifies how content should be scaled when page size is changed |
 | [PdfConvertOptions](./pdfconvertoptions) | Options for conversion to Pdf file type. |
 | [PdfDirection](./pdfdirection) | Describes Pdf text direction. |
 | [PdfDocumentInfo](./pdfdocumentinfo) | Represents meta information of PDF document. |

@@ -3,7 +3,7 @@ title: Grayscale
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Grayscale.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/psdcolormodes/grayscale/
 ---
 ## PsdColorModes.Grayscale field

@@ -3,7 +3,7 @@ title: Raw
 second_title: GroupDocs.Conversion for .NET API Reference
 description: RAW.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.convert/psdcompressionmethods/raw/
 ---
 ## PsdCompressionMethods.Raw field

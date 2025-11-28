@@ -3,7 +3,7 @@ title: Bottom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the comments are printed at end of the page.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/presentationcommentsposition/bottom/
 ---
 ## PresentationCommentsPosition.Bottom field

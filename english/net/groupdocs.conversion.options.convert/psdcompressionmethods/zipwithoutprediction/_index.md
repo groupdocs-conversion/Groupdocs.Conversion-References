@@ -3,7 +3,7 @@ title: ZipWithoutPrediction
 second_title: GroupDocs.Conversion for .NET API Reference
 description: ZipWithoutPrediction.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.conversion.options.convert/psdcompressionmethods/zipwithoutprediction/
 ---
 ## PsdCompressionMethods.ZipWithoutPrediction field

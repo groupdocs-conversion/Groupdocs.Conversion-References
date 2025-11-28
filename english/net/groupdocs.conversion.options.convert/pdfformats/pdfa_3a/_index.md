@@ -3,7 +3,7 @@ title: PdfA_3A
 second_title: GroupDocs.Conversion for .NET API Reference
 description: PDF/A3a conformance.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.options.convert/pdfformats/pdfa_3a/
 ---
 ## PdfFormats.PdfA_3A field

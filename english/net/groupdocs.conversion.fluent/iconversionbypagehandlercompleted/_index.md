@@ -3,7 +3,7 @@ title: IConversionByPageHandlerCompleted
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface after OnConversionFailed is set for page conversion. Allows setting OnConversionCompleted or proceeding to Convert/Compress.
 type: docs
-weight: 1220
+weight: 1230
 url: /net/groupdocs.conversion.fluent/iconversionbypagehandlercompleted/
 ---
 ## IConversionByPageHandlerCompleted interface

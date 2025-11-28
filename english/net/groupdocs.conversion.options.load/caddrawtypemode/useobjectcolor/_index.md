@@ -3,7 +3,7 @@ title: UseObjectColor
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Allows to use separate color for every object.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/caddrawtypemode/useobjectcolor/
 ---
 ## CadDrawTypeMode.UseObjectColor field

@@ -3,7 +3,7 @@ title: Organizer
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is Organizer.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.conversion.options.load/emailfield/organizer/
 ---
 ## EmailField.Organizer field

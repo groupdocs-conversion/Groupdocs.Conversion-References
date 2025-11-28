@@ -3,7 +3,7 @@ title: RequiredAttendees
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Default field text is RequiredAttendees.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.conversion.options.load/emailfield/requiredattendees/
 ---
 ## EmailField.RequiredAttendees field

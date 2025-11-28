@@ -3,7 +3,7 @@ title: Ccitt4
 second_title: GroupDocs.Conversion for .NET API Reference
 description: CCITT4 compression.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.convert/tiffcompressionmethods/ccitt4/
 ---
 ## TiffCompressionMethods.Ccitt4 field

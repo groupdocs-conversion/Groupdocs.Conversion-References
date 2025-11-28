@@ -3,7 +3,7 @@ title: Balloon
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Renders document comments in balloons in the margin. This is the default value.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/wordprocessingcommentdisplay/balloon/
 ---
 ## WordProcessingCommentDisplay.Balloon field

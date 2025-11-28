@@ -3,7 +3,7 @@ title: ConvertToIndent
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Converts leading spaces to indents.
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/txtleadingspacesoptions/converttoindent/
 ---
 ## TxtLeadingSpacesOptions.ConvertToIndent field

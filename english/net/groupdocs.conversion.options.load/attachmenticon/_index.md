@@ -3,7 +3,7 @@ title: AttachmentIcon
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents an attachment icon configuration for email attachments.
 type: docs
-weight: 2310
+weight: 2330
 url: /net/groupdocs.conversion.options.load/attachmenticon/
 ---
 ## AttachmentIcon class

@@ -3,7 +3,7 @@ title: None
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the comments are not printed.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.conversion.options.load/presentationcommentsposition/none/
 ---
 ## PresentationCommentsPosition.None field

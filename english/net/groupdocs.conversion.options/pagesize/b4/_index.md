@@ -3,7 +3,7 @@ title: B4
 second_title: GroupDocs.Conversion for .NET API Reference
 description: 250 x 353 mm
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options/pagesize/b4/
 ---
 ## PageSize.B4 field

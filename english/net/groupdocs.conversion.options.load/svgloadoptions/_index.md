@@ -3,7 +3,7 @@ title: SvgLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Svg documents.
 type: docs
-weight: 2730
+weight: 2750
 url: /net/groupdocs.conversion.options.load/svgloadoptions/
 ---
 ## SvgLoadOptions class

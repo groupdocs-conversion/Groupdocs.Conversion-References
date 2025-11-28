@@ -3,7 +3,7 @@ title: PdfDirection
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes Pdf text direction.
 type: docs
-weight: 2000
+weight: 2020
 url: /net/groupdocs.conversion.options.convert/pdfdirection/
 ---
 ## PdfDirection class
@@ -13,12 +13,6 @@ Describes Pdf text direction.
 ```csharp
 public class PdfDirection : Enumeration
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [PdfDirection](pdfdirection)() | Serialization constructor |
 
 ## Methods
 

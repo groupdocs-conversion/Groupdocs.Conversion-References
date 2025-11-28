@@ -3,7 +3,7 @@ title: Progressive
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Progressive compression.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion.options.convert/jpgcompressionmethods/progressive/
 ---
 ## JpgCompressionMethods.Progressive field

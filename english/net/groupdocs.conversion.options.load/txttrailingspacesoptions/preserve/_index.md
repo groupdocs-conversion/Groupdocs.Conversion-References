@@ -3,7 +3,7 @@ title: Preserve
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Preserves trailing spaces
 type: docs
-weight: 20
+weight: 10
 url: /net/groupdocs.conversion.options.load/txttrailingspacesoptions/preserve/
 ---
 ## TxtTrailingSpacesOptions.Preserve field

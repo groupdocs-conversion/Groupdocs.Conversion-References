@@ -3,7 +3,7 @@ title: Multichannel
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Multichannel.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.conversion.options.convert/psdcolormodes/multichannel/
 ---
 ## PsdColorModes.Multichannel field
