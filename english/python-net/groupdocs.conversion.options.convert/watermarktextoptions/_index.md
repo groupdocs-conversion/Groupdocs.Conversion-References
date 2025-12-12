@@ -3,9 +3,9 @@ title: WatermarkTextOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 540
 url: /python-net/groupdocs.conversion.options.convert/watermarktextoptions/
 is_root: false
+weight: 540
 ---
 
 ## WatermarkTextOptions class
@@ -25,7 +25,7 @@ The WatermarkTextOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions/__init__/#str) | Create WatermarkOptions class and set watermark text |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions/__init__/#System.String) | Create WatermarkOptions class and set watermark text |
 
 
 ### Properties

@@ -3,9 +3,9 @@ title: SvgDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 470
 url: /python-net/groupdocs.conversion.contracts/svgdocumentinfo/
 is_root: false
+weight: 470
 ---
 
 ## SvgDocumentInfo class

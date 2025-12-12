@@ -3,9 +3,9 @@ title: PPS property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 140
 url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/pps/
 is_root: false
+weight: 140
 ---
 
 ## PPS property

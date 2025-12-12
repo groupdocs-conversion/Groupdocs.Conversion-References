@@ -3,9 +3,9 @@ title: convert method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion/converter/convert/
 is_root: false
+weight: 20
 ---
 
 ## convert {#io.RawIOBase-groupdocs.conversion.options.convert.ConvertOptions}
@@ -26,7 +26,7 @@ def convert(self, document, convert_options):
 | convert_options | groupdocs.conversion.options.convert.ConvertOptions | The convert options specific to desired target file type. |
 
 
-## convert {#str-groupdocs.conversion.options.convert.ConvertOptions}
+## convert {#System.String-groupdocs.conversion.options.convert.ConvertOptions}
 
 Converts source document. Saves the whole converted document.
 
@@ -40,7 +40,7 @@ def convert(self, file_path, convert_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to the output document. |
+| file_path | System.String | The file path to the output document. |
 | convert_options | groupdocs.conversion.options.convert.ConvertOptions | The convert options specific to desired target file type. |
 
 

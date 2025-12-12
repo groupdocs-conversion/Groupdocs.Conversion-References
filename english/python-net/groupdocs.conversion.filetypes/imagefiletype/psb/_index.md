@@ -3,9 +3,9 @@ title: PSB property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 370
 url: /python-net/groupdocs.conversion.filetypes/imagefiletype/psb/
 is_root: false
+weight: 370
 ---
 
 ## PSB property

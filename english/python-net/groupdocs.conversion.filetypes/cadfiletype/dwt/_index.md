@@ -3,9 +3,9 @@ title: DWT property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.conversion.filetypes/cadfiletype/dwt/
 is_root: false
+weight: 130
 ---
 
 ## DWT property

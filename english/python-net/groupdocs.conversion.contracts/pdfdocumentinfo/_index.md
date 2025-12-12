@@ -3,9 +3,9 @@ title: PdfDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 340
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/
 is_root: false
+weight: 340
 ---
 
 ## PdfDocumentInfo class

@@ -3,12 +3,12 @@ title: FileCache constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion.caching/filecache/__init__/
 is_root: false
+weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Creates new instance of FileCache class
 
@@ -22,7 +22,7 @@ def __init__(self, cache_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| cache_path | str | Relative or absolute path where document cache will be stored |
+| cache_path | System.String | Relative or absolute path where document cache will be stored |
 
 
 

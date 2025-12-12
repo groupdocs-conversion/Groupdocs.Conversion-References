@@ -3,9 +3,9 @@ title: U3D property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 230
 url: /python-net/groupdocs.conversion.filetypes/threedfiletype/u3d/
 is_root: false
+weight: 230
 ---
 
 ## U3D property

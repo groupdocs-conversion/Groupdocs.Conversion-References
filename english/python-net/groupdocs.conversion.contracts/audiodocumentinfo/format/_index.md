@@ -3,9 +3,9 @@ title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
-url: /python-net/groupdocs.conversion.contracts/fontdocumentinfo/format/
+url: /python-net/groupdocs.conversion.contracts/audiodocumentinfo/format/
 is_root: false
+weight: 40
 ---
 
 ## format property
@@ -15,4 +15,4 @@ Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](../../)
-* class [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo)
+* class [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo)

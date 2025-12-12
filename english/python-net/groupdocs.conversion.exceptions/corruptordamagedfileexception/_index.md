@@ -3,9 +3,9 @@ title: CorruptOrDamagedFileException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.exceptions/corruptordamagedfileexception/
 is_root: false
+weight: 20
 ---
 
 ## CorruptOrDamagedFileException class
@@ -26,7 +26,7 @@ The CorruptOrDamagedFileException type exposes the following members:
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.exceptions/corruptordamagedfileexception/__init__/#) | Default constructor |
 | [__init__](/conversion/python-net/groupdocs.conversion.exceptions/corruptordamagedfileexception/__init__/#groupdocs.conversion.filetypes.FileType) | Creates an exception instance with a FileType |
-| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/corruptordamagedfileexception/__init__/#str) | Creates an exception instance with a message |
+| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/corruptordamagedfileexception/__init__/#System.String) | Creates an exception instance with a message |
 
 
 

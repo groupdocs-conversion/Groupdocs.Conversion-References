@@ -3,9 +3,9 @@ title: check_excel_restriction property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/check_excel_restriction/
 is_root: false
+weight: 70
 ---
 
 ## check_excel_restriction property

@@ -3,9 +3,9 @@ title: MboxLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 300
 url: /python-net/groupdocs.conversion.options.load/mboxloadoptions/
 is_root: false
+weight: 300
 ---
 
 ## MboxLoadOptions class

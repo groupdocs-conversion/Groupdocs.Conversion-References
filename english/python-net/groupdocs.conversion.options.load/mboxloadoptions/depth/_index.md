@@ -3,9 +3,9 @@ title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.load/mboxloadoptions/depth/
 is_root: false
+weight: 70
 ---
 
 ## depth property

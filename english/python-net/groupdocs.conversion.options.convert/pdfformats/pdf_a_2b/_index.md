@@ -3,9 +3,9 @@ title: PDF_A_2B property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.conversion.options.convert/pdfformats/pdf_a_2b/
 is_root: false
+weight: 100
 ---
 
 ## PDF_A_2B property

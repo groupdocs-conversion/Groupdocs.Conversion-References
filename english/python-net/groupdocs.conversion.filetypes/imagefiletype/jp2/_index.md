@@ -3,9 +3,9 @@ title: JP2 property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 270
 url: /python-net/groupdocs.conversion.filetypes/imagefiletype/jp2/
 is_root: false
+weight: 270
 ---
 
 ## JP2 property

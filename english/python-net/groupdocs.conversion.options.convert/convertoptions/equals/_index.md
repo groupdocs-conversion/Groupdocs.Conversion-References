@@ -3,9 +3,9 @@ title: equals method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.conversion.options.convert/convertoptions/equals/
 is_root: false
+weight: 30
 ---
 
 ## equals {#groupdocs.conversion.contracts.ValueObject}

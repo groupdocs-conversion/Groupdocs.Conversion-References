@@ -3,9 +3,9 @@ title: MA property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.filetypes/threedfiletype/ma/
 is_root: false
+weight: 160
 ---
 
 ## MA property

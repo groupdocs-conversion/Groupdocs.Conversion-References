@@ -3,9 +3,9 @@ title: size property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
-url: /python-net/groupdocs.conversion.contracts/fontdocumentinfo/size/
+url: /python-net/groupdocs.conversion.contracts/audiodocumentinfo/size/
 is_root: false
+weight: 70
 ---
 
 ## size property
@@ -15,4 +15,4 @@ Implements [`IDocumentInfo.size`](/conversion/python-net/groupdocs.conversion.co
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](../../)
-* class [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo)
+* class [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo)

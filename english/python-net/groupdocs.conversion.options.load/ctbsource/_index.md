@@ -3,9 +3,9 @@ title: CtbSource class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.conversion.options.load/ctbsource/
 is_root: false
+weight: 60
 ---
 
 ## CtbSource class
@@ -19,7 +19,7 @@ The CtbSource type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/ctbsource/__init__/#str-io.RawIOBase) | Initializes a new instance of the [`CtbSource`](/conversion/python-net/groupdocs.conversion.options.load/ctbsource) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/ctbsource/__init__/#System.String-io.RawIOBase) | Initializes a new instance of the [`CtbSource`](/conversion/python-net/groupdocs.conversion.options.load/ctbsource) class. |
 
 
 ### Properties

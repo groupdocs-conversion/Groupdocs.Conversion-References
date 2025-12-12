@@ -3,9 +3,9 @@ title: VectorizationOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 500
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/
 is_root: false
+weight: 500
 ---
 
 ## VectorizationOptions class

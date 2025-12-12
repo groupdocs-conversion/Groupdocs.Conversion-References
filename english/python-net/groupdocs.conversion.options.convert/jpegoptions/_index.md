@@ -3,9 +3,9 @@ title: JpegOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 220
 url: /python-net/groupdocs.conversion.options.convert/jpegoptions/
 is_root: false
+weight: 220
 ---
 
 ## JpegOptions class

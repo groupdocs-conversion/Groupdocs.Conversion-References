@@ -3,9 +3,9 @@ title: EmailField class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.conversion.options.load/emailfield/
 is_root: false
+weight: 100
 ---
 
 ## EmailField class
@@ -54,7 +54,7 @@ The EmailField type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.load/emailfield/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/emailfield/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/emailfield/compare_to/#System.Object) | Compares current object to other. |
 
 
 

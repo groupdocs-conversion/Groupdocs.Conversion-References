@@ -3,9 +3,9 @@ title: CpioDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.conversion.contracts/cpiodocumentinfo/
 is_root: false
+weight: 70
 ---
 
 ## CpioDocumentInfo class

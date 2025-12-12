@@ -3,9 +3,9 @@ title: REQUIRED_ATTENDEES property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.options.load/emailfield/required_attendees/
 is_root: false
+weight: 160
 ---
 
 ## REQUIRED_ATTENDEES property

@@ -3,9 +3,9 @@ title: ICredentialsProvider class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 210
 url: /python-net/groupdocs.conversion.options.load/icredentialsprovider/
 is_root: false
+weight: 210
 ---
 
 ## ICredentialsProvider class
@@ -19,7 +19,7 @@ The ICredentialsProvider type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [get_credentials](/conversion/python-net/groupdocs.conversion.options.load/icredentialsprovider/get_credentials/#str) | Gets the credentials associated with the specified URI. |
+| [get_credentials](/conversion/python-net/groupdocs.conversion.options.load/icredentialsprovider/get_credentials/#System.String) | Gets the credentials associated with the specified URI. |
 
 
 

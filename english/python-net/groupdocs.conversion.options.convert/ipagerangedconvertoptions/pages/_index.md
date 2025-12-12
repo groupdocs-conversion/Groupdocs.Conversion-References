@@ -3,9 +3,9 @@ title: pages property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.convert/ipagerangedconvertoptions/pages/
 is_root: false
+weight: 30
 ---
 
 ## pages property

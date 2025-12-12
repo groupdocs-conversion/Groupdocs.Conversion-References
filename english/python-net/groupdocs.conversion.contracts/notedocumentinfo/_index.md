@@ -3,9 +3,9 @@ title: NoteDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 290
 url: /python-net/groupdocs.conversion.contracts/notedocumentinfo/
 is_root: false
+weight: 290
 ---
 
 ## NoteDocumentInfo class

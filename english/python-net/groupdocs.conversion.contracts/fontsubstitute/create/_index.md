@@ -3,12 +3,12 @@ title: create method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.contracts/fontsubstitute/create/
 is_root: false
+weight: 20
 ---
 
-## create {#str-str}
+## create {#System.String-System.String}
 
 Instantiate new font substitution pair.
 
@@ -27,8 +27,8 @@ def create(self, original_font, substitute_with):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| original_font | str | Font from the source document. |
-| substitute_with | str | Font which will be used to replace "originalFont. |
+| original_font | System.String | Font from the source document. |
+| substitute_with | System.String | Font which will be used to replace "originalFont. |
 
 
 

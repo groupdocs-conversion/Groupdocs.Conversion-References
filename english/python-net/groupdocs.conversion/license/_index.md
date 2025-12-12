@@ -3,9 +3,9 @@ title: License class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.conversion/license/
 is_root: false
+weight: 30
 ---
 
 ## License class
@@ -32,7 +32,7 @@ The License type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#io.RawIOBase) | Licenses the component. |
-| [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#str) | Licenses the component. |
+| [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#System.String) | Licenses the component. |
 
 
 

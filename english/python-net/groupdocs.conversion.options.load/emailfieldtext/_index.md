@@ -3,9 +3,9 @@ title: EmailFieldText class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.options.load/emailfieldtext/
 is_root: false
+weight: 110
 ---
 
 ## EmailFieldText class
@@ -19,7 +19,7 @@ The EmailFieldText type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/emailfieldtext/__init__/#groupdocs.conversion.options.load.EmailField-str) | Initializes a new instance of the [`EmailFieldText`](/conversion/python-net/groupdocs.conversion.options.load/emailfieldtext) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/emailfieldtext/__init__/#groupdocs.conversion.options.load.EmailField-System.String) | Initializes a new instance of the [`EmailFieldText`](/conversion/python-net/groupdocs.conversion.options.load/emailfieldtext) class. |
 
 
 ### Properties

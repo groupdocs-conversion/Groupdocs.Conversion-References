@@ -3,9 +3,9 @@ title: creation_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
-url: /python-net/groupdocs.conversion.contracts/fontdocumentinfo/creation_date/
+url: /python-net/groupdocs.conversion.contracts/audiodocumentinfo/creation_date/
 is_root: false
+weight: 30
 ---
 
 ## creation_date property
@@ -15,4 +15,4 @@ Implements [`IDocumentInfo.creation_date`](/conversion/python-net/groupdocs.conv
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](../../)
-* class [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo)
+* class [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo)

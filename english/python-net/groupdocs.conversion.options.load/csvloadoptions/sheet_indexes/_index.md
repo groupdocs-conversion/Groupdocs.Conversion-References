@@ -3,9 +3,9 @@ title: sheet_indexes property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 300
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/sheet_indexes/
 is_root: false
+weight: 300
 ---
 
 ## sheet_indexes property

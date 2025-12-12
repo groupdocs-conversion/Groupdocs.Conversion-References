@@ -3,9 +3,9 @@ title: webp_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 240
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/webp_options/
 is_root: false
+weight: 240
 ---
 
 ## webp_options property

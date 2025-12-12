@@ -3,9 +3,9 @@ title: auto_font_substitution property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/auto_font_substitution/
 is_root: false
+weight: 40
 ---
 
 ## auto_font_substitution property

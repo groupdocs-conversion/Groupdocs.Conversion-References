@@ -3,9 +3,9 @@ title: EmailDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/
 is_root: false
+weight: 120
 ---
 
 ## EmailDocumentInfo class

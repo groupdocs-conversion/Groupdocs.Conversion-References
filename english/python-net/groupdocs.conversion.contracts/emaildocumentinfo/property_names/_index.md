@@ -3,9 +3,9 @@ title: property_names property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/property_names/
 is_root: false
+weight: 110
 ---
 
 ## property_names property

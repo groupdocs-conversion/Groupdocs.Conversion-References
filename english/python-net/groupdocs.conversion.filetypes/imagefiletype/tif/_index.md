@@ -3,9 +3,9 @@ title: TIF property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 410
 url: /python-net/groupdocs.conversion.filetypes/imagefiletype/tif/
 is_root: false
+weight: 410
 ---
 
 ## TIF property

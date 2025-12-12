@@ -3,9 +3,9 @@ title: font_directories property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion/convertersettings/font_directories/
 is_root: false
+weight: 40
 ---
 
 ## font_directories property

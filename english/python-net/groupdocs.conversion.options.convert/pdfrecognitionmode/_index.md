@@ -3,9 +3,9 @@ title: PdfRecognitionMode class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 400
 url: /python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 is_root: false
+weight: 400
 ---
 
 ## PdfRecognitionMode class
@@ -38,7 +38,7 @@ The PdfRecognitionMode type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/compare_to/#System.Object) | Compares current object to other. |
 
 
 

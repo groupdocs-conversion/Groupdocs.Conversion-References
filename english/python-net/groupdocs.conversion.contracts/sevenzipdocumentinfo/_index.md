@@ -3,9 +3,9 @@ title: SevenZipDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 450
 url: /python-net/groupdocs.conversion.contracts/sevenzipdocumentinfo/
 is_root: false
+weight: 450
 ---
 
 ## SevenZipDocumentInfo class

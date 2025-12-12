@@ -3,9 +3,9 @@ title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.contracts/zipdocumentinfo/pages_count/
 is_root: false
+weight: 50
 ---
 
 ## pages_count property

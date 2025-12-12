@@ -3,9 +3,9 @@ title: IHeaderConfigurator class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 220
 url: /python-net/groupdocs.conversion.options.load/iheaderconfigurator/
 is_root: false
+weight: 220
 ---
 
 ## IHeaderConfigurator class
@@ -19,7 +19,7 @@ The IHeaderConfigurator type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [configure](/conversion/python-net/groupdocs.conversion.options.load/iheaderconfigurator/configure/#str-list) | Configures the request headers for the given URI. |
+| [configure](/conversion/python-net/groupdocs.conversion.options.load/iheaderconfigurator/configure/#System.String-list) | Configures the request headers for the given URI. |
 
 
 

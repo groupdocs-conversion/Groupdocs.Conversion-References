@@ -3,9 +3,9 @@ title: image_quality property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/image_quality/
 is_root: false
+weight: 60
 ---
 
 ## image_quality property

@@ -3,9 +3,9 @@ title: convert_numeric_data property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 120
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_numeric_data/
 is_root: false
+weight: 120
 ---
 
 ## convert_numeric_data property

@@ -3,9 +3,9 @@ title: WordProcessingConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 570
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/
 is_root: false
+weight: 570
 ---
 
 ## WordProcessingConvertOptions class

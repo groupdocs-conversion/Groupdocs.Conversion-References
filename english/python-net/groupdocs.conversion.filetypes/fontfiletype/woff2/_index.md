@@ -3,9 +3,9 @@ title: WOFF2 property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 150
 url: /python-net/groupdocs.conversion.filetypes/fontfiletype/woff2/
 is_root: false
+weight: 150
 ---
 
 ## WOFF2 property

@@ -3,12 +3,12 @@ title: FileLogger constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion.logging/filelogger/__init__/
 is_root: false
+weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`FileLogger`](/conversion/python-net/groupdocs.conversion.logging/filelogger) class with the specified file path.
 
@@ -22,7 +22,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path where logs will be written. |
+| file_path | System.String | The file path where logs will be written. |
 
 
 

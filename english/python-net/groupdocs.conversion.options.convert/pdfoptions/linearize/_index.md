@@ -3,9 +3,9 @@ title: linearize property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.convert/pdfoptions/linearize/
 is_root: false
+weight: 70
 ---
 
 ## linearize property

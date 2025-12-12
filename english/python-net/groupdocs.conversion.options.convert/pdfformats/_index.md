@@ -3,9 +3,9 @@ title: PdfFormats class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 340
 url: /python-net/groupdocs.conversion.options.convert/pdfformats/
 is_root: false
+weight: 340
 ---
 
 ## PdfFormats class
@@ -53,7 +53,7 @@ The PdfFormats type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/pdfformats/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfformats/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfformats/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/pdfformats/get_all/#) | Returns all enumeration values. |
 
 

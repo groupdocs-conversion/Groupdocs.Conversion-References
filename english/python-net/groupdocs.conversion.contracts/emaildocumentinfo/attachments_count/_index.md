@@ -3,9 +3,9 @@ title: attachments_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/attachments_count/
 is_root: false
+weight: 30
 ---
 
 ## attachments_count property

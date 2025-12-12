@@ -3,9 +3,9 @@ title: InvalidConverterSettingsException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 80
 url: /python-net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/
 is_root: false
+weight: 80
 ---
 
 ## InvalidConverterSettingsException class
@@ -25,7 +25,7 @@ The InvalidConverterSettingsException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/__init__/#) | Default constructor |
-| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/__init__/#str) | Creates an exception with a specific message |
+| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/invalidconvertersettingsexception/__init__/#System.String) | Creates an exception with a specific message |
 
 
 

@@ -3,9 +3,9 @@ title: auto_align property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/auto_align/
 is_root: false
+weight: 50
 ---
 
 ## auto_align property

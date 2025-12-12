@@ -3,9 +3,9 @@ title: PdfPageLayout class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 380
 url: /python-net/groupdocs.conversion.options.convert/pdfpagelayout/
 is_root: false
+weight: 380
 ---
 
 ## PdfPageLayout class
@@ -43,7 +43,7 @@ The PdfPageLayout type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagelayout/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagelayout/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagelayout/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagelayout/get_all/#) | Returns all enumeration values. |
 
 

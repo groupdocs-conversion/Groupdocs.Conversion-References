@@ -3,12 +3,12 @@ title: configure method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.options.load/iheaderconfigurator/configure/
 is_root: false
+weight: 20
 ---
 
-## configure {#str-list}
+## configure {#System.String-list}
 
 Configures the request headers for the given URI.
 
@@ -22,7 +22,7 @@ def configure(self, uri, headers):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| uri | str | The URI for which headers are being configured. |
+| uri | System.String | The URI for which headers are being configured. |
 | headers | list | The collection of headers to configure. |
 
 

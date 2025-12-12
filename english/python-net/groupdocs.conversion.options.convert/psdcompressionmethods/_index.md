@@ -3,9 +3,9 @@ title: PsdCompressionMethods class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 440
 url: /python-net/groupdocs.conversion.options.convert/psdcompressionmethods/
 is_root: false
+weight: 440
 ---
 
 ## PsdCompressionMethods class
@@ -40,7 +40,7 @@ The PsdCompressionMethods type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/get_all/#) | Returns all enumeration values. |
 
 

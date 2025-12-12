@@ -3,9 +3,9 @@ title: CadConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/
 is_root: false
+weight: 10
 ---
 
 ## CadConvertOptions class

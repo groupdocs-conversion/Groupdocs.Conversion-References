@@ -3,9 +3,9 @@ title: page_width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/page_width/
 is_root: false
+weight: 160
 ---
 
 ## page_width property

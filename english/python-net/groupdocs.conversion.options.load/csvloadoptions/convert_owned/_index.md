@@ -3,9 +3,9 @@ title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_owned/
 is_root: false
+weight: 130
 ---
 
 ## convert_owned property

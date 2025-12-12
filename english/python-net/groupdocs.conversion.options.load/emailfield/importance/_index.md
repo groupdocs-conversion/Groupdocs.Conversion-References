@@ -3,9 +3,9 @@ title: IMPORTANCE property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.conversion.options.load/emailfield/importance/
 is_root: false
+weight: 100
 ---
 
 ## IMPORTANCE property

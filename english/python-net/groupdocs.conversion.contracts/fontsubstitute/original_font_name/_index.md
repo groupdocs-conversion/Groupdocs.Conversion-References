@@ -3,9 +3,9 @@ title: original_font_name property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.contracts/fontsubstitute/original_font_name/
 is_root: false
+weight: 50
 ---
 
 ## original_font_name property

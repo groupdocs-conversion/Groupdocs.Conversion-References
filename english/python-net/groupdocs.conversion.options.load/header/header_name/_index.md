@@ -3,9 +3,9 @@ title: header_name property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.conversion.options.load/header/header_name/
 is_root: false
+weight: 30
 ---
 
 ## header_name property

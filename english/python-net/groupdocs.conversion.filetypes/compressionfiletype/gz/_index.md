@@ -3,9 +3,9 @@ title: GZ property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/gz/
 is_root: false
+weight: 110
 ---
 
 ## GZ property

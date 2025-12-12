@@ -3,9 +3,9 @@ title: remove_embedded_files property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_embedded_files/
 is_root: false
+weight: 160
 ---
 
 ## remove_embedded_files property

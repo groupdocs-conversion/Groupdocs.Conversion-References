@@ -3,9 +3,9 @@ title: OlmFolderInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 310
 url: /python-net/groupdocs.conversion.contracts/olmfolderinfo/
 is_root: false
+weight: 310
 ---
 
 ## OlmFolderInfo class

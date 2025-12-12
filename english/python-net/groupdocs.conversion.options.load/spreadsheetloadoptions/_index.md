@@ -3,9 +3,9 @@ title: SpreadsheetLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 410
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 is_root: false
+weight: 410
 ---
 
 ## SpreadsheetLoadOptions class

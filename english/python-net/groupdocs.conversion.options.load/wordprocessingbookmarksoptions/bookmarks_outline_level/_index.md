@@ -3,9 +3,9 @@ title: bookmarks_outline_level property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/bookmarks_outline_level/
 is_root: false
+weight: 40
 ---
 
 ## bookmarks_outline_level property

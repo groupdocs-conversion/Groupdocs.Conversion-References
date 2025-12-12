@@ -3,12 +3,12 @@ title: from_filename method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.filetypes/pdffiletype/from_filename/
 is_root: false
+weight: 50
 ---
 
-## from_filename {#str}
+## from_filename {#System.String}
 
 Returns FileType for specified fileName
 
@@ -27,10 +27,11 @@ def from_filename(self, file_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_name | str | The file name |
+| file_name | System.String | The file name |
 
 
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](../../)
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
 * class [`PdfFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pdffiletype)

@@ -3,9 +3,9 @@ title: rows_per_page property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 280
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/rows_per_page/
 is_root: false
+weight: 280
 ---
 
 ## rows_per_page property

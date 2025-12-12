@@ -3,9 +3,9 @@ title: TxtTrailingSpacesOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 480
 url: /python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/
 is_root: false
+weight: 480
 ---
 
 ## TxtTrailingSpacesOptions class
@@ -38,7 +38,7 @@ The TxtTrailingSpacesOptions type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/get_all/#) | Returns all enumeration values. |
 
 

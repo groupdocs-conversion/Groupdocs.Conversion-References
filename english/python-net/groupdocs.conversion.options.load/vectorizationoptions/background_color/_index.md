@@ -3,9 +3,9 @@ title: background_color property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/background_color/
 is_root: false
+weight: 40
 ---
 
 ## background_color property

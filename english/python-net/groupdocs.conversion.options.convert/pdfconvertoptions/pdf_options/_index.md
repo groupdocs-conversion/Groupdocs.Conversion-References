@@ -3,9 +3,9 @@ title: pdf_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 190
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/pdf_options/
 is_root: false
+weight: 190
 ---
 
 ## pdf_options property
