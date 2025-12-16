@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/
 is_root: true
-version: 25.11
+version: 25.12
 weight: 40
 ---
 
