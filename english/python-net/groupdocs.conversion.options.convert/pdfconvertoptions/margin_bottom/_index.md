@@ -3,9 +3,9 @@ title: margin_bottom property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/margin_bottom/
 is_root: false
+weight: 70
 ---
 
 ## margin_bottom property

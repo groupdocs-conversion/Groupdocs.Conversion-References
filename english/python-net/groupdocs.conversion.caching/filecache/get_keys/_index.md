@@ -3,12 +3,12 @@ title: get_keys method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.caching/filecache/get_keys/
 is_root: false
+weight: 20
 ---
 
-## get_keys {#str}
+## get_keys {#System.String}
 
 Returns all keys matching filter.
 
@@ -27,7 +27,7 @@ def get_keys(self, filter):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| filter | str | The filter to use. |
+| filter | System.String | The filter to use. |
 
 
 

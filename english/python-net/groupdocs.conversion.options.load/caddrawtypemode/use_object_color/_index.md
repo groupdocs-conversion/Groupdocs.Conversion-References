@@ -3,9 +3,9 @@ title: USE_OBJECT_COLOR property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.load/caddrawtypemode/use_object_color/
 is_root: false
+weight: 70
 ---
 
 ## USE_OBJECT_COLOR property

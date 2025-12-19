@@ -3,9 +3,9 @@ title: BitmapInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion.contracts/bitmapinfo/
 is_root: false
+weight: 20
 ---
 
 ## BitmapInfo class
@@ -34,7 +34,7 @@ The BitmapInfo type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-| [create](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/create/#bytes-int-int-BitmapInfo.PixelFormat) |  |
+| [create](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/create/#bytes-int-int-GroupDocs.Conversion.Contracts.BitmapInfo+PixelFormat) |  |
 
 
 

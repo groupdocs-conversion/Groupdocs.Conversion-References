@@ -3,9 +3,9 @@ title: bookmark_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/bookmark_options/
 is_root: false
+weight: 50
 ---
 
 ## bookmark_options property

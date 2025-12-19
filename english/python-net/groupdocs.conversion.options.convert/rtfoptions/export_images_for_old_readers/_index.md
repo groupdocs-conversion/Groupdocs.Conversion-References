@@ -3,9 +3,9 @@ title: export_images_for_old_readers property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.convert/rtfoptions/export_images_for_old_readers/
 is_root: false
+weight: 40
 ---
 
 ## export_images_for_old_readers property

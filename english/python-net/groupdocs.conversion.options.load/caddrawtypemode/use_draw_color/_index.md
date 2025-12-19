@@ -3,9 +3,9 @@ title: USE_DRAW_COLOR property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.conversion.options.load/caddrawtypemode/use_draw_color/
 is_root: false
+weight: 60
 ---
 
 ## USE_DRAW_COLOR property

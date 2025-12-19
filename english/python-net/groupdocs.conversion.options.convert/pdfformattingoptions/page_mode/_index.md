@@ -3,9 +3,9 @@ title: page_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode/
 is_root: false
+weight: 130
 ---
 
 ## page_mode property

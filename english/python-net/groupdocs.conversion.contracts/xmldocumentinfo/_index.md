@@ -3,9 +3,9 @@ title: XmlDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 610
 url: /python-net/groupdocs.conversion.contracts/xmldocumentinfo/
 is_root: false
+weight: 610
 ---
 
 ## XmlDocumentInfo class

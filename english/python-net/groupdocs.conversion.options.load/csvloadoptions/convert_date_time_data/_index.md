@@ -3,9 +3,9 @@ title: convert_date_time_data property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_date_time_data/
 is_root: false
+weight: 110
 ---
 
 ## convert_date_time_data property

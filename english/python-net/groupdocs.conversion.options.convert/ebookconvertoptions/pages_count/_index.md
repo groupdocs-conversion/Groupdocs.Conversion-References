@@ -3,9 +3,9 @@ title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 120
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/pages_count/
 is_root: false
+weight: 120
 ---
 
 ## pages_count property

@@ -3,9 +3,9 @@ title: FontSubstitute class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.contracts/fontsubstitute/
 is_root: false
+weight: 160
 ---
 
 ## FontSubstitute class
@@ -32,7 +32,7 @@ The FontSubstitute type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-| [create](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/create/#str-str) | Instantiate new font substitution pair. |
+| [create](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/create/#System.String-System.String) | Instantiate new font substitution pair. |
 
 
 

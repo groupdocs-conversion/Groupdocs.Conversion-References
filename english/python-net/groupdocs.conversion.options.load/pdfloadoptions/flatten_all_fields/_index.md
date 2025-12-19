@@ -3,9 +3,9 @@ title: flatten_all_fields property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/flatten_all_fields/
 is_root: false
+weight: 100
 ---
 
 ## flatten_all_fields property

@@ -3,9 +3,9 @@ title: TiffCompressionMethods class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 500
 url: /python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 is_root: false
+weight: 500
 ---
 
 ## TiffCompressionMethods class
@@ -41,7 +41,7 @@ The TiffCompressionMethods type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/get_all/#) | Returns all enumeration values. |
 
 

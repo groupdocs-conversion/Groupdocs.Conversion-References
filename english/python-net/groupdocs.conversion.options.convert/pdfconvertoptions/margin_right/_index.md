@@ -3,9 +3,9 @@ title: margin_right property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 90
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/margin_right/
 is_root: false
+weight: 90
 ---
 
 ## margin_right property

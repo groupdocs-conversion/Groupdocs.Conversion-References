@@ -3,9 +3,9 @@ title: mod_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 90
 url: /python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/mod_date/
 is_root: false
+weight: 90
 ---
 
 ## mod_date property

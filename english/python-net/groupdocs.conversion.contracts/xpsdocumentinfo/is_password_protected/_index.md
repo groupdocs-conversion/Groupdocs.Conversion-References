@@ -3,9 +3,9 @@ title: is_password_protected property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 80
 url: /python-net/groupdocs.conversion.contracts/xpsdocumentinfo/is_password_protected/
 is_root: false
+weight: 80
 ---
 
 ## is_password_protected property

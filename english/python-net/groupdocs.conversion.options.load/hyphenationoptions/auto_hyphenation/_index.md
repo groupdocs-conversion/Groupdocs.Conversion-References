@@ -3,9 +3,9 @@ title: auto_hyphenation property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.conversion.options.load/hyphenationoptions/auto_hyphenation/
 is_root: false
+weight: 40
 ---
 
 ## auto_hyphenation property

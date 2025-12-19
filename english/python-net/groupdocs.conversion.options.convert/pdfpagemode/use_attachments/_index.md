@@ -3,9 +3,9 @@ title: USE_ATTACHMENTS property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.convert/pdfpagemode/use_attachments/
 is_root: false
+weight: 70
 ---
 
 ## USE_ATTACHMENTS property

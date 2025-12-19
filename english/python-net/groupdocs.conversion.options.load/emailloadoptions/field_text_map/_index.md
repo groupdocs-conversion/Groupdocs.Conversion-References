@@ -3,9 +3,9 @@ title: field_text_map property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/field_text_map/
 is_root: false
+weight: 160
 ---
 
 ## field_text_map property

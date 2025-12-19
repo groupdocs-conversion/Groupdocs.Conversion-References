@@ -3,9 +3,9 @@ title: clear_custom_document_properties property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/clear_custom_document_properties/
 is_root: false
+weight: 70
 ---
 
 ## clear_custom_document_properties property

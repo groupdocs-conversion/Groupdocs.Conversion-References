@@ -3,9 +3,9 @@ title: VRML property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 270
 url: /python-net/groupdocs.conversion.filetypes/threedfiletype/vrml/
 is_root: false
+weight: 270
 ---
 
 ## VRML property

@@ -3,9 +3,9 @@ title: ZipDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 660
 url: /python-net/groupdocs.conversion.contracts/zipdocumentinfo/
 is_root: false
+weight: 660
 ---
 
 ## ZipDocumentInfo class

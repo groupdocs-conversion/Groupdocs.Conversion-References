@@ -3,9 +3,9 @@ title: IResourceLoadingOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 250
 url: /python-net/groupdocs.conversion.options.load/iresourceloadingoptions/
 is_root: false
+weight: 250
 ---
 
 ## IResourceLoadingOptions class

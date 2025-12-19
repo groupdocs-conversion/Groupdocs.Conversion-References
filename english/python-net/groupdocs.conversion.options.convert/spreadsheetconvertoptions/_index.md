@@ -3,9 +3,9 @@ title: SpreadsheetConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 480
 url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 is_root: false
+weight: 480
 ---
 
 ## SpreadsheetConvertOptions class

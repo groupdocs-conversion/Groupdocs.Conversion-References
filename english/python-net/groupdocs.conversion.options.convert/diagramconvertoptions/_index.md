@@ -3,9 +3,9 @@ title: DiagramConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.options.convert/diagramconvertoptions/
 is_root: false
+weight: 50
 ---
 
 ## DiagramConvertOptions class

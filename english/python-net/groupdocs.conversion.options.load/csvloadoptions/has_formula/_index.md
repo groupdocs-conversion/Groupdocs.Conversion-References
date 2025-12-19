@@ -3,9 +3,9 @@ title: has_formula property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 220
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/has_formula/
 is_root: false
+weight: 220
 ---
 
 ## has_formula property

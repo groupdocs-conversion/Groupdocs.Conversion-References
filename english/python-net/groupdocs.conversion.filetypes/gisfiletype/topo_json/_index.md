@@ -3,9 +3,9 @@ title: TOPO_JSON property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 150
 url: /python-net/groupdocs.conversion.filetypes/gisfiletype/topo_json/
 is_root: false
+weight: 150
 ---
 
 ## TOPO_JSON property

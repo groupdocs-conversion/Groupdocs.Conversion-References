@@ -3,9 +3,9 @@ title: GroupDocsConversionException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.conversion.exceptions/groupdocsconversionexception/
 is_root: false
+weight: 50
 ---
 
 ## GroupDocsConversionException class
@@ -20,7 +20,7 @@ The GroupDocsConversionException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.exceptions/groupdocsconversionexception/__init__/#) | Default constructor |
-| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/groupdocsconversionexception/__init__/#str) | Creates an exception with a specific message |
+| [__init__](/conversion/python-net/groupdocs.conversion.exceptions/groupdocsconversionexception/__init__/#System.String) | Creates an exception with a specific message |
 
 
 

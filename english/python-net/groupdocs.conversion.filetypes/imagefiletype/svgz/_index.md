@@ -3,9 +3,9 @@ title: SVGZ property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 390
 url: /python-net/groupdocs.conversion.filetypes/imagefiletype/svgz/
 is_root: false
+weight: 390
 ---
 
 ## SVGZ property

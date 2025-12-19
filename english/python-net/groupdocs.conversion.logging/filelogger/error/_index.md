@@ -3,12 +3,12 @@ title: error method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.logging/filelogger/error/
 is_root: false
+weight: 20
 ---
 
-## error {#str-str}
+## error {#System.String-System.String}
 
 Writes error log message;
 Error log messages provide information about unrecoverable events in application flow.
@@ -23,8 +23,8 @@ def error(self, message, exception):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str | The error message. |
-| exception | str | The exception. |
+| message | System.String | The error message. |
+| exception | System.String | The exception. |
 
 
 

@@ -3,9 +3,9 @@ title: UNKNOWN property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.conversion.filetypes/gisfiletype/unknown/
 is_root: false
+weight: 160
 ---
 
 ## UNKNOWN property

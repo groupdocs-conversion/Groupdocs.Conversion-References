@@ -3,9 +3,9 @@ title: StreamXslFoFactory class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 420
 url: /python-net/groupdocs.conversion.options.load/streamxslfofactory/
 is_root: false
+weight: 420
 ---
 
 ## StreamXslFoFactory class

@@ -3,9 +3,9 @@ title: ZIP_WITH_PREDICTION property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 90
 url: /python-net/groupdocs.conversion.options.convert/psdcompressionmethods/zip_with_prediction/
 is_root: false
+weight: 90
 ---
 
 ## ZIP_WITH_PREDICTION property

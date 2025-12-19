@@ -3,9 +3,9 @@ title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 90
 url: /python-net/groupdocs.conversion.options.load/gmlloadoptions/width/
 is_root: false
+weight: 90
 ---
 
 ## width property

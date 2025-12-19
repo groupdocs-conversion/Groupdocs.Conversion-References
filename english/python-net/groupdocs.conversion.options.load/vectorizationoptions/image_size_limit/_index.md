@@ -3,9 +3,9 @@ title: image_size_limit property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 70
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/image_size_limit/
 is_root: false
+weight: 70
 ---
 
 ## image_size_limit property

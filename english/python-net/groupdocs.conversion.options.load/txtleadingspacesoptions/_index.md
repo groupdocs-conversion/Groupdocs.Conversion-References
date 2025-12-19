@@ -3,9 +3,9 @@ title: TxtLeadingSpacesOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 460
 url: /python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 is_root: false
+weight: 460
 ---
 
 ## TxtLeadingSpacesOptions class
@@ -39,7 +39,7 @@ The TxtLeadingSpacesOptions type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/get_all/#) | Returns all enumeration values. |
 
 

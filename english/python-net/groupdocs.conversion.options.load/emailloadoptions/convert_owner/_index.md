@@ -3,9 +3,9 @@ title: convert_owner property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/convert_owner/
 is_root: false
+weight: 60
 ---
 
 ## convert_owner property

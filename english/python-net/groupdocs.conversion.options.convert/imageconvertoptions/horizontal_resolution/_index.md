@@ -3,9 +3,9 @@ title: horizontal_resolution property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/horizontal_resolution/
 is_root: false
+weight: 130
 ---
 
 ## horizontal_resolution property

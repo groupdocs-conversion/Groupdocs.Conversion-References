@@ -3,9 +3,9 @@ title: WordProcessingFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 210
 url: /python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/
 is_root: false
+weight: 210
 ---
 
 ## WordProcessingFileType class
@@ -66,9 +66,9 @@ The WordProcessingFileType type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/equals/#groupdocs.conversion.contracts.Enumeration) | Implements [`Enumeration.equals`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals) |
-| [compare_to](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/compare_to/#any) | Compares current object to other. |
-| [from_filename](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_filename/#str) | Returns FileType for specified fileName |
-| [from_extension](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_extension/#str) | Gets FileType for provided fileExtension |
+| [compare_to](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/compare_to/#System.Object) | Compares current object to other. |
+| [from_filename](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_filename/#System.String) | Returns FileType for specified fileName |
+| [from_extension](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_extension/#System.String) | Gets FileType for provided fileExtension |
 | [from_stream](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_stream/#io.RawIOBase) | Returns FileType for provided document stream |
 
 

@@ -3,9 +3,9 @@ title: equals method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.contracts/valueobject/equals/
 is_root: false
+weight: 20
 ---
 
 ## equals {#groupdocs.conversion.contracts.ValueObject}
@@ -27,7 +27,7 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject) | The object to compare with the current object. |
+| other | groupdocs.conversion.contracts.ValueObject | The object to compare with the current object. |
 
 
 

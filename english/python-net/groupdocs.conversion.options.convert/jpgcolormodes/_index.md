@@ -3,9 +3,9 @@ title: JpgColorModes class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 230
 url: /python-net/groupdocs.conversion.options.convert/jpgcolormodes/
 is_root: false
+weight: 230
 ---
 
 ## JpgColorModes class
@@ -41,7 +41,7 @@ The JpgColorModes type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/get_all/#) | Returns all enumeration values. |
 
 

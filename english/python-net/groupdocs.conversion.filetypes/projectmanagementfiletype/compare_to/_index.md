@@ -3,12 +3,12 @@ title: compare_to method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion.filetypes/projectmanagementfiletype/compare_to/
 is_root: false
+weight: 20
 ---
 
-## compare_to {#any}
+## compare_to {#System.Object}
 
 Compares current object to other.
 
@@ -27,7 +27,7 @@ def compare_to(self, obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | any | The other object |
+| obj | System.Object | The other object |
 
 
 

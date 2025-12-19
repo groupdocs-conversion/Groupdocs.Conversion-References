@@ -3,9 +3,9 @@ title: Header class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 180
 url: /python-net/groupdocs.conversion.options.load/header/
 is_root: false
+weight: 180
 ---
 
 ## Header class
@@ -19,7 +19,7 @@ The Header type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/header/__init__/#str-str) | Initializes a new instance of the [`Header`](/conversion/python-net/groupdocs.conversion.options.load/header) class with the specified header name and header value. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/header/__init__/#System.String-System.String) | Initializes a new instance of the [`Header`](/conversion/python-net/groupdocs.conversion.options.load/header) class with the specified header name and header value. |
 
 
 ### Properties

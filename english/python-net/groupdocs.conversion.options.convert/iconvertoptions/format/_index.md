@@ -3,9 +3,9 @@ title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.conversion.options.convert/iconvertoptions/format/
 is_root: false
+weight: 30
 ---
 
 ## format property

@@ -3,9 +3,9 @@ title: grayscale property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/grayscale/
 is_root: false
+weight: 110
 ---
 
 ## grayscale property

@@ -3,9 +3,9 @@ title: Converter constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion/converter/__init__/
 is_root: false
+weight: 10
 ---
 
 ## __init__ {#io.RawIOBase}
@@ -31,7 +31,7 @@ def __init__(self, document):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
 
@@ -45,7 +45,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to the source document. |
+| file_path | System.String | The file path to the source document. |
 
 
 ## __init__ {#io.RawIOBase-groupdocs.conversion.ConverterSettings}
@@ -63,7 +63,7 @@ def __init__(self, document, settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | document | io.RawIOBase | Readable stream. |
-| settings | [`ConverterSettings`](/conversion/python-net/groupdocs.conversion/convertersettings) | The Converter settings. |
+| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
 
 
 ## __init__ {#io.RawIOBase-groupdocs.conversion.options.load.LoadOptions}
@@ -84,7 +84,7 @@ def __init__(self, document, load_options):
 | load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
 
 
-## __init__ {#str-groupdocs.conversion.ConverterSettings}
+## __init__ {#System.String-groupdocs.conversion.ConverterSettings}
 
 Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
 
@@ -98,11 +98,11 @@ def __init__(self, file_path, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to the source document. |
-| settings | [`ConverterSettings`](/conversion/python-net/groupdocs.conversion/convertersettings) | The Converter settings. |
+| file_path | System.String | The file path to the source document. |
+| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
 
 
-## __init__ {#str-groupdocs.conversion.options.load.LoadOptions}
+## __init__ {#System.String-groupdocs.conversion.options.load.LoadOptions}
 
 Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
 
@@ -116,7 +116,7 @@ def __init__(self, file_path, load_options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to the source document. |
+| file_path | System.String | The file path to the source document. |
 | load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
 
 
@@ -136,10 +136,10 @@ def __init__(self, document, load_options, settings):
 | :- | :- | :- |
 | document | io.RawIOBase | Readable stream. |
 | load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
-| settings | [`ConverterSettings`](/conversion/python-net/groupdocs.conversion/convertersettings) | The Converter settings. |
+| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
 
 
-## __init__ {#str-groupdocs.conversion.options.load.LoadOptions-groupdocs.conversion.ConverterSettings}
+## __init__ {#System.String-groupdocs.conversion.options.load.LoadOptions-groupdocs.conversion.ConverterSettings}
 
 Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
 
@@ -153,9 +153,9 @@ def __init__(self, file_path, load_options, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to the source document. |
+| file_path | System.String | The file path to the source document. |
 | load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
-| settings | [`ConverterSettings`](/conversion/python-net/groupdocs.conversion/convertersettings) | The Converter settings. |
+| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
 
 
 

@@ -3,9 +3,9 @@ title: family property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 310
 url: /python-net/groupdocs.conversion.filetypes/threedfiletype/family/
 is_root: false
+weight: 310
 ---
 
 ## family property

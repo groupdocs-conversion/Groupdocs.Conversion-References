@@ -3,9 +3,9 @@ title: LzmaDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 280
 url: /python-net/groupdocs.conversion.contracts/lzmadocumentinfo/
 is_root: false
+weight: 280
 ---
 
 ## LzmaDocumentInfo class

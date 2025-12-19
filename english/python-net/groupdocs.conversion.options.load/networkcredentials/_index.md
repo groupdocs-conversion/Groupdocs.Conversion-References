@@ -3,9 +3,9 @@ title: NetworkCredentials class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 310
 url: /python-net/groupdocs.conversion.options.load/networkcredentials/
 is_root: false
+weight: 310
 ---
 
 ## NetworkCredentials class
@@ -19,7 +19,7 @@ The NetworkCredentials type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/networkcredentials/__init__/#str-str-str) | Initializes a new instance of the [`NetworkCredentials`](/conversion/python-net/groupdocs.conversion.options.load/networkcredentials) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/networkcredentials/__init__/#System.String-System.String-System.String) | Initializes a new instance of the [`NetworkCredentials`](/conversion/python-net/groupdocs.conversion.options.load/networkcredentials) class. |
 
 
 ### Properties

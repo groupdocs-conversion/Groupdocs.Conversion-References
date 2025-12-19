@@ -3,9 +3,9 @@ title: PersonalStorageLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 370
 url: /python-net/groupdocs.conversion.options.load/personalstorageloadoptions/
 is_root: false
+weight: 370
 ---
 
 ## PersonalStorageLoadOptions class

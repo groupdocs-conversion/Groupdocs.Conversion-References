@@ -3,9 +3,9 @@ title: DWFX property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.conversion.filetypes/cadfiletype/dwfx/
 is_root: false
+weight: 110
 ---
 
 ## DWFX property

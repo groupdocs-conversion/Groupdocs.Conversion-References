@@ -3,9 +3,9 @@ title: set_license method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.conversion/license/set_license/
 is_root: false
+weight: 20
 ---
 
 ## set_license {#io.RawIOBase}
@@ -31,7 +31,7 @@ The following example demonstrates how to set a license
 passing Stream of the license file.
 
 
-## set_license {#str}
+## set_license {#System.String}
 
 Licenses the component.
 
@@ -45,7 +45,7 @@ def set_license(self, license_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| license_path | str | The license path. |
+| license_path | System.String | The license path. |
 
 ### Example 
 

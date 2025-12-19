@@ -3,9 +3,9 @@ title: groupdocs.conversion.exceptions
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 10
 url: /python-net/groupdocs.conversion.exceptions/
 is_root: false
+weight: 10
 ---
 
 The module provides different exceptions classes.

@@ -3,9 +3,9 @@ title: convert_range property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.conversion.options.load/tsvloadoptions/convert_range/
 is_root: false
+weight: 130
 ---
 
 ## convert_range property

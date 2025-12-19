@@ -3,9 +3,9 @@ title: whitelisted_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 270
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/whitelisted_resources/
 is_root: false
+weight: 270
 ---
 
 ## whitelisted_resources property

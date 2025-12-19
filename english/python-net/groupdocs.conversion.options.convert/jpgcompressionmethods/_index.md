@@ -3,9 +3,9 @@ title: JpgCompressionMethods class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 240
 url: /python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/
 is_root: false
+weight: 240
 ---
 
 ## JpgCompressionMethods class
@@ -40,7 +40,7 @@ The JpgCompressionMethods type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/get_all/#) | Returns all enumeration values. |
 
 

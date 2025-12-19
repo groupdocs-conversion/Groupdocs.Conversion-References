@@ -3,9 +3,9 @@ title: CGM property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 80
 url: /python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/cgm/
 is_root: false
+weight: 80
 ---
 
 ## CGM property

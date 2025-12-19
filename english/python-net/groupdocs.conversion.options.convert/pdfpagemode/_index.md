@@ -3,9 +3,9 @@ title: PdfPageMode class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-weight: 390
 url: /python-net/groupdocs.conversion.options.convert/pdfpagemode/
 is_root: false
+weight: 390
 ---
 
 ## PdfPageMode class
@@ -42,7 +42,7 @@ The PdfPageMode type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagemode/equals/#groupdocs.conversion.contracts.Enumeration) | Determines whether two object instances are equal. |
-| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagemode/compare_to/#any) | Compares current object to other. |
+| [compare_to](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagemode/compare_to/#System.Object) | Compares current object to other. |
 | [get_all](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagemode/get_all/#) | Returns all enumeration values. |
 
 
