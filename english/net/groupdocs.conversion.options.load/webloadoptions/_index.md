@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2840
+weight: 2850
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/webloadoptions/
 Options for loading web documents.
 
 ```csharp
-public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceLoadingOptions
+public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageNumberingLoadOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -27,7 +28,7 @@ public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceL
 | [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
 | [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Action for configuration of the request headers. First parameter of the action is the Uri. |
 | [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Credentials provider for the Uri. |
-| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Sets custom CSS style for the HTML document. This style will be applied to the document's &lt;head&gt; tag. It helps to customize the document's rendering during conversion. |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Implements [`CustomCssStyle`](../icustomcssstyleoptions/customcssstyle) |
 | [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
 | [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
@@ -51,6 +52,7 @@ public class WebLoadOptions : LoadOptions, IPageNumberingLoadOptions, IResourceL
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)

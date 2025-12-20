@@ -3,7 +3,7 @@ title: FieldTextMap
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The mapping between email message EmailFieldgroupdocs.conversion.options.load/emailfield and field text representation
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.conversion.options.load/emailloadoptions/fieldtextmap/
 ---
 ## EmailLoadOptions.FieldTextMap property

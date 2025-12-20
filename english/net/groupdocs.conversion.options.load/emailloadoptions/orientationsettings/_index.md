@@ -3,7 +3,7 @@ title: OrientationSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page orientation settings
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.conversion.options.load/emailloadoptions/orientationsettings/
 ---
 ## EmailLoadOptions.OrientationSettings property

@@ -11,8 +11,9 @@ url: /net/groupdocs.conversion.options.load/emailloadoptions/
 Options for loading Email documents.
 
 ```csharp
-public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IFontSubstituteLoadOptions, IPageMarginOptions, IPageOrientationOptions, IPageSizeOptions
+public sealed class EmailLoadOptions : LoadOptions, ICustomCssStyleOptions, 
+    IDocumentsContainerLoadOptions, IFontSubstituteLoadOptions, IPageMarginOptions, 
+    IPageOrientationOptions, IPageSizeOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -28,6 +29,7 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [AttachmentIcons](../../groupdocs.conversion.options.load/emailloadoptions/attachmenticons) { get; set; } | Gets or sets the list of attachment icons. The list can be customized to provide specific icons for different file types. By default, contains common file type icons. |
 | [ConvertOwned](../../groupdocs.conversion.options.load/emailloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is true |
 | [ConvertOwner](../../groupdocs.conversion.options.load/emailloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/emailloadoptions/customcssstyle) { get; set; } | Implements [`CustomCssStyle`](../icustomcssstyleoptions/customcssstyle) |
 | [DefaultFont](../../groupdocs.conversion.options.load/emailloadoptions/defaultfont) { get; set; } | Default font for email document. The following font will be used if a font is missing. |
 | [Depth](../../groupdocs.conversion.options.load/emailloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [DisplayAttachments](../../groupdocs.conversion.options.load/emailloadoptions/displayattachments) { get; set; } | Option to display or hide attachments in the header. Default: true. |
@@ -48,8 +50,10 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/emailloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [SizeSettings](../../groupdocs.conversion.options.load/emailloadoptions/sizesettings) { get; set; } | Page size settings |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/emailloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [TimeZoneOffset](../../groupdocs.conversion.options.load/emailloadoptions/timezoneoffset) { get; set; } | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC. |
 | [UseDefaultAttachmentIcons](../../groupdocs.conversion.options.load/emailloadoptions/usedefaultattachmenticons) { get; set; } | Gets or sets whether to use default attachment icons. Default: true. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/emailloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
 
@@ -63,11 +67,13 @@ public sealed class EmailLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
 * interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

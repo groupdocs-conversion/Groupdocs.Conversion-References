@@ -67,6 +67,7 @@ The namespace provides classes to specify additional options for document loadin
 
 | Interface | Description |
 | --- | --- |
+| [ICustomCssStyleOptions](./icustomcssstyleoptions) | Represents options for custom CSS styling during document conversion |
 | [IFontSubstituteLoadOptions](./ifontsubstituteloadoptions) | Options for loading documents with font substitutes. |
 | [IFontTransformationLoadOptions](./ifonttransformationloadoptions) | Options for loading documents with font transformations. Font transformations occur after document loading and font substitution are complete. |
 | [IMetadataLoadOptions](./imetadataloadoptions) | Options to control metadata in the converted document. |

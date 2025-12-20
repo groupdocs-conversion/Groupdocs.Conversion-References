@@ -3,7 +3,7 @@ title: FallbackPageSize
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fallback page size
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/fallbackpagesize/
 ---
 ## PdfConvertOptions.FallbackPageSize property

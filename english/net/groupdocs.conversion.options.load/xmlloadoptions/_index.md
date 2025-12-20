@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 2880
+weight: 2890
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -27,7 +27,7 @@ public sealed class XmlLoadOptions : WebLoadOptions
 | [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | The base path/url for the html |
 | [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Action for configuration of the request headers. First parameter of the action is the Uri. |
 | [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Credentials provider for the Uri. |
-| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Sets custom CSS style for the HTML document. This style will be applied to the document's &lt;head&gt; tag. It helps to customize the document's rendering during conversion. |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Implements [`CustomCssStyle`](../icustomcssstyleoptions/customcssstyle) |
 | [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Get or sets the encoding to be used when loading the web document. If the property is null the encoding will be determined from document character set attribute |
 | [Format](../../groupdocs.conversion.options.load/xmlloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |

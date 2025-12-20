@@ -3,7 +3,7 @@ title: ResizeMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies how content should be scaled when page size is changed. Default is AlignTopLeft no scaling.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/resizemode/
 ---
 ## PdfConvertOptions.ResizeMode property

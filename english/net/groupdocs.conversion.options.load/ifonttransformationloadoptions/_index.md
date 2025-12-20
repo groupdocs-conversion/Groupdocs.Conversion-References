@@ -3,7 +3,7 @@ title: IFontTransformationLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading documents with font transformations. Font transformations occur after document loading and font substitution are complete.
 type: docs
-weight: 2530
+weight: 2540
 url: /net/groupdocs.conversion.options.load/ifonttransformationloadoptions/
 ---
 ## IFontTransformationLoadOptions interface

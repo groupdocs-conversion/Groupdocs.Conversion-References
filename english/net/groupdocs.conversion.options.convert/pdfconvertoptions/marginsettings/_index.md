@@ -3,7 +3,7 @@ title: MarginSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page margin settings
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/marginsettings/
 ---
 ## PdfConvertOptions.MarginSettings property

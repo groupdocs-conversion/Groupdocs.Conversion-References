@@ -3,7 +3,7 @@ title: OrientationSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page orientation settings
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.convert/pdfconvertoptions/orientationsettings/
 ---
 ## PdfConvertOptions.OrientationSettings property
