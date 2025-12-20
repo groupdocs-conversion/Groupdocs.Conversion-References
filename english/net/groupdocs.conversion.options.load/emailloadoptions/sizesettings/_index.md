@@ -3,7 +3,7 @@ title: SizeSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page size settings
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.conversion.options.load/emailloadoptions/sizesettings/
 ---
 ## EmailLoadOptions.SizeSettings property

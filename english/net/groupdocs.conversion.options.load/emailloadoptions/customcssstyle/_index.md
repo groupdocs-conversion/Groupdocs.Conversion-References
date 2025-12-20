@@ -4,9 +4,9 @@ second_title: GroupDocs.Conversion for .NET API Reference
 description: Implements CustomCssStylegroupdocs.conversion.options.load/icustomcssstyleoptions/customcssstyle
 type: docs
 weight: 50
-url: /net/groupdocs.conversion.options.load/webloadoptions/customcssstyle/
+url: /net/groupdocs.conversion.options.load/emailloadoptions/customcssstyle/
 ---
-## WebLoadOptions.CustomCssStyle property
+## EmailLoadOptions.CustomCssStyle property
 
 Implements [`CustomCssStyle`](../../icustomcssstyleoptions/customcssstyle)
 
@@ -16,7 +16,7 @@ public string CustomCssStyle { get; set; }
 
 ### See Also
 
-* class [WebLoadOptions](../../webloadoptions)
+* class [EmailLoadOptions](../../emailloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../../)
 

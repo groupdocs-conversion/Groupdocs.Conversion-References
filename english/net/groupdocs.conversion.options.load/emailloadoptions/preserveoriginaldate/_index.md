@@ -3,7 +3,7 @@ title: PreserveOriginalDate
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines whether need to keep original date header string in mail message when saving or not Default value is true
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate/
 ---
 ## EmailLoadOptions.PreserveOriginalDate property

@@ -3,7 +3,7 @@ title: IFontSubstituteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading documents with font substitutes.
 type: docs
-weight: 2520
+weight: 2530
 url: /net/groupdocs.conversion.options.load/ifontsubstituteloadoptions/
 ---
 ## IFontSubstituteLoadOptions interface

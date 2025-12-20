@@ -26,6 +26,7 @@ public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IDpiConvertO
 | Name | Description |
 | --- | --- |
 | [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Desired page DPI after conversion. The default resolution is: 96 dpi. |
+| [EmbedFullFonts](../../groupdocs.conversion.options.convert/pdfconvertoptions/embedfullfonts) { get; set; } | When set to true, the full font file is embedded into the PDF instead of a subset. This increases the output file size but ensures better compatibility when editing the resulting PDF. Applies only when converting from WordProcessing documents. |
 | [FallbackPageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/fallbackpagesize) { get; set; } | Fallback page size |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |

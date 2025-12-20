@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Clones current instance.
 type: docs
-weight: 260
+weight: 290
 url: /net/groupdocs.conversion.options.load/emailloadoptions/clone/
 ---
 ## EmailLoadOptions.Clone method

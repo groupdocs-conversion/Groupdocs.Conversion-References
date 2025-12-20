@@ -3,7 +3,7 @@ title: TimeZoneOffset
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Gets or sets the Coordinated Universal Time UTC offset for the message dates. This property defines the time zone difference between the localtime and UTC.
 type: docs
-weight: 240
+weight: 260
 url: /net/groupdocs.conversion.options.load/emailloadoptions/timezoneoffset/
 ---
 ## EmailLoadOptions.TimeZoneOffset property
