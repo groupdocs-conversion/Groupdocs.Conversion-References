@@ -30,6 +30,8 @@ Options for conversion to Web file type.
 | [setFixedLayoutShowBorders(boolean fixedLayoutShowBorders)](#setFixedLayoutShowBorders-boolean-) |  |
 | [getZoom()](#getZoom--) |  |
 | [setZoom(int zoom)](#setZoom-int-) |  |
+| [isEmbedFontResources()](#isEmbedFontResources--) | Embed all resources inside the main HTML when FixedLayout=true. |
+| [setEmbedFontResources(boolean embedFontResources)](#setEmbedFontResources-boolean-) | Embed all resources inside the main HTML when FixedLayout=true. |
 ### WebConvertOptions() {#WebConvertOptions--}
 ```
 public WebConvertOptions()
@@ -129,4 +131,27 @@ public void setZoom(int zoom)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | zoom | int |  |
+
+### isEmbedFontResources() {#isEmbedFontResources--}
+```
+public boolean isEmbedFontResources()
+```
+
+
+Embed all resources inside the main HTML when FixedLayout=true. Default is false.
+
+**Returns:**
+boolean
+### setEmbedFontResources(boolean embedFontResources) {#setEmbedFontResources-boolean-}
+```
+public void setEmbedFontResources(boolean embedFontResources)
+```
+
+
+Embed all resources inside the main HTML when FixedLayout=true. Default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| embedFontResources | boolean |  |
 

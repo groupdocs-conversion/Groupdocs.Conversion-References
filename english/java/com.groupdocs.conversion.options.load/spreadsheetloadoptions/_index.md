@@ -61,6 +61,10 @@ Options for loading Spreadsheet documents.
 | [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
 | [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
 | [deepClone()](#deepClone--) | Clones current instance. |
+| [getRowsPerPage()](#getRowsPerPage--) | Split a worksheet into pages by rows. |
+| [setRowsPerPage(int rowsPerPage)](#setRowsPerPage-int-) | Split a worksheet into pages by rows. |
+| [getColumnsPerPage()](#getColumnsPerPage--) | Split a worksheet into pages by columns. |
+| [setColumnsPerPage(int columnsPerPage)](#setColumnsPerPage-int-) | Split a worksheet into pages by columns. |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
 public SpreadsheetLoadOptions()
@@ -480,3 +484,49 @@ Clones current instance.
 
 **Returns:**
 java.lang.Object - 
+### getRowsPerPage() {#getRowsPerPage--}
+```
+public int getRowsPerPage()
+```
+
+
+Split a worksheet into pages by rows. Default is 0, no pagination.
+
+**Returns:**
+int
+### setRowsPerPage(int rowsPerPage) {#setRowsPerPage-int-}
+```
+public void setRowsPerPage(int rowsPerPage)
+```
+
+
+Split a worksheet into pages by rows. Default is 0, no pagination.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowsPerPage | int |  |
+
+### getColumnsPerPage() {#getColumnsPerPage--}
+```
+public int getColumnsPerPage()
+```
+
+
+Split a worksheet into pages by columns. Default is 0, no pagination.
+
+**Returns:**
+int
+### setColumnsPerPage(int columnsPerPage) {#setColumnsPerPage-int-}
+```
+public void setColumnsPerPage(int columnsPerPage)
+```
+
+
+Split a worksheet into pages by columns. Default is 0, no pagination.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnsPerPage | int |  |
+
