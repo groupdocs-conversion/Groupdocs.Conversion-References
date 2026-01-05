@@ -42,6 +42,8 @@ Options for loading Pdf documents.
 | [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
 | [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
 | [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
+| [isRemoveJavascript()](#isRemoveJavascript--) | Gets the Remove JavaScript flag |
+| [setRemoveJavascript(boolean removeJavascript)](#setRemoveJavascript-boolean-) | Sets the Remove JavaScript flag |
 ### PdfLoadOptions() {#PdfLoadOptions--}
 ```
 public PdfLoadOptions()
@@ -243,4 +245,27 @@ public void setPageNumbering(boolean isPageNumbering)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isPageNumbering | boolean |  |
+
+### isRemoveJavascript() {#isRemoveJavascript--}
+```
+public boolean isRemoveJavascript()
+```
+
+
+Gets the Remove JavaScript flag
+
+**Returns:**
+boolean
+### setRemoveJavascript(boolean removeJavascript) {#setRemoveJavascript-boolean-}
+```
+public void setRemoveJavascript(boolean removeJavascript)
+```
+
+
+Sets the Remove JavaScript flag
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| removeJavascript | boolean |  |
 
