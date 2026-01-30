@@ -3,7 +3,7 @@ title: SkipHeaders
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Skip headers when converting spreadsheet documents. Default false.
 type: docs
-weight: 320
+weight: 330
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/skipheaders/
 ---
 ## SpreadsheetLoadOptions.SkipHeaders property

@@ -3,7 +3,7 @@ title: Xlam
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XLAM is an MacroEnabled AddIn file that is used to add new functions to spreadsheets. An AddIn is a supplemental program that runs additional code and provides additional functionality for spreadsheets. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/xlam/.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/
 ---
 ## SpreadsheetFileType.Xlam field

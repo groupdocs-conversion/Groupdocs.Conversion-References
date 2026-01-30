@@ -28,6 +28,12 @@ public class ConversionFailedException : Exception
 | [ConversionContext](../../groupdocs.conversion.exceptions/conversionfailedexception/conversioncontext) { get; } | Conversion context that caused the conversion to fail |
 | [Exception](../../groupdocs.conversion.exceptions/conversionfailedexception/exception) { get; } | Exception that caused the conversion to fail |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [GetObjectData](../../groupdocs.conversion.exceptions/conversionfailedexception/getobjectdata)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
+
 ### See Also
 
 * namespace [GroupDocs.Conversion.Exceptions](../../groupdocs.conversion.exceptions)

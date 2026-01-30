@@ -3,7 +3,7 @@ title: Xlsm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XLSM is a type of Spreadsheet files that support macros. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsm.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm/
 ---
 ## SpreadsheetFileType.Xlsm field

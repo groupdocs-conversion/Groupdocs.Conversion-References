@@ -3,7 +3,7 @@ title: Ods
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ods.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 ---
 ## SpreadsheetFileType.Ods field

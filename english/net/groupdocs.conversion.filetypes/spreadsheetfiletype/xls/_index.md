@@ -3,7 +3,7 @@ title: Xls
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XLS represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xls.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/
 ---
 ## SpreadsheetFileType.Xls field

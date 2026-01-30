@@ -3,7 +3,7 @@ title: Xlsx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: XLSX is wellknown format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsx.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsx/
 ---
 ## SpreadsheetFileType.Xlsx field

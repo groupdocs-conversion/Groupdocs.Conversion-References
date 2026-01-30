@@ -18,7 +18,7 @@ public interface IResourceLoadingOptions
 
 | Name | Description |
 | --- | --- |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources) { get; set; } | If true all external resource will not be loading with exception of the resources in the [`WhitelistedResources`](./whitelistedresources) |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources) { get; set; } | If true, all external resources will not be loaded except those in [`WhitelistedResources`](./whitelistedresources) list. Default: true |
 | [WhitelistedResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
 
 ### See Also

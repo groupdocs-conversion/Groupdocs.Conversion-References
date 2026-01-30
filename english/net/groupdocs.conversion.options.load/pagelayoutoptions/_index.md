@@ -25,6 +25,7 @@ public class PageLayoutOptions : FlagsEnumeration
 | virtual [HasFlag&lt;T&gt;](../../groupdocs.conversion.contracts/flagsenumeration/hasflag)(T) | Checks if the current flag has the specified flag. |
 | virtual [HasFlagValue](../../groupdocs.conversion.contracts/flagsenumeration/hasflagvalue)(int) | Checks if the current flag has the specified value. |
 | override [ToString](../../groupdocs.conversion.contracts/flagsenumeration/tostring)() | Converts the current object to a string. |
+| [operator &#x7C;](../../groupdocs.conversion.options.load/pagelayoutoptions/op_bitwiseor) | Combines two [`PageLayoutOptions`](../pagelayoutoptions) flags using bitwise OR. |
 
 ## Fields
 
