@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/attachmenticon/getobjectdata/
 Implements ISerializable.GetObjectData.
 
 ```csharp
-public void GetObjectData(SerializationInfo info, StreamingContext context)
+public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 ```
 
 | Parameter | Type | Description |

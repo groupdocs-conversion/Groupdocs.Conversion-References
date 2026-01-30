@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/svgloadoptions/
 Options for loading Svg documents.
 
 ```csharp
-public class SvgLoadOptions : LoadOptions
+public class SvgLoadOptions : LoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -29,6 +29,8 @@ public class SvgLoadOptions : LoadOptions
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [MinimumHeight](../../groupdocs.conversion.options.load/svgloadoptions/minimumheight) { get; set; } | Set minimum height for converting SVG document. It's used when converting to raster formats. Default is 600. |
 | [MinimumWidth](../../groupdocs.conversion.options.load/svgloadoptions/minimumwidth) { get; set; } | Set minimum width for converting SVG document. It's used when converting to raster formats. Default is 800. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/svgloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/svgloadoptions/whitelistedresources) { get; set; } | External resources that will always be loaded. |
 
 ## Methods
 
@@ -41,6 +43,7 @@ public class SvgLoadOptions : LoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

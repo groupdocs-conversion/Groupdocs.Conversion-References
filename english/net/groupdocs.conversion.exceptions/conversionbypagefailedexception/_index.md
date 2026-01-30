@@ -28,6 +28,12 @@ public class ConversionByPageFailedException : Exception
 | [ConversionContext](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/conversioncontext) { get; } | Conversion context that caused the conversion to fail |
 | [Exception](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/exception) { get; } | Exception that caused the conversion to fail |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [GetObjectData](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/getobjectdata)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
+
 ### See Also
 
 * namespace [GroupDocs.Conversion.Exceptions](../../groupdocs.conversion.exceptions)

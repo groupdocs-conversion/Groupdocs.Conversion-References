@@ -3,12 +3,12 @@ title: Numbers
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The files with .numbers extension are classified as spreadsheet file type thats why they are similar to the .xlsx files but the Numbers files are created by using Apple iWork Numbers spreadsheet software. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/numbers.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/numbers/
 ---
 ## SpreadsheetFileType.Numbers field
 
-The files with .numbers extension are classified as spreadsheet file type, that’s why they are similar to the .xlsx files; but the Numbers files are created by using Apple iWork Numbers spreadsheet software. Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/numbers).
+The files with .numbers extension are classified as spreadsheet file type, that's why they are similar to the .xlsx files; but the Numbers files are created by using Apple iWork Numbers spreadsheet software. Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/numbers).
 
 ```csharp
 public static readonly SpreadsheetFileType Numbers;

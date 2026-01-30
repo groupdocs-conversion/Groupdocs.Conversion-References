@@ -31,7 +31,7 @@ public class AttachmentIcon : ISerializable
 
 | Name | Description |
 | --- | --- |
-| [GetObjectData](../../groupdocs.conversion.options.load/attachmenticon/getobjectdata)(SerializationInfo, StreamingContext) | Implements ISerializable.GetObjectData. |
+| virtual [GetObjectData](../../groupdocs.conversion.options.load/attachmenticon/getobjectdata)(SerializationInfo, StreamingContext) | Implements ISerializable.GetObjectData. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Fods
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/fods.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 ---
 ## SpreadsheetFileType.Fods field

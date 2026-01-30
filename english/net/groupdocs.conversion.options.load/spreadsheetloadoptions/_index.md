@@ -12,7 +12,8 @@ Options for loading Spreadsheet documents.
 
 ```csharp
 public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageMarginOptions, IPageSizeOptions
+    IFontSubstituteLoadOptions, IMetadataLoadOptions, IPageMarginOptions, IPageSizeOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -55,8 +56,10 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Show hidden sheets when converting Excel files. |
 | [SizeSettings](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipEmptyRowsAndColumns](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns) { get; set; } | Skips empty rows and columns when converting. Default is True. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [SkipFooters](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipfooters) { get; set; } | Skip footers when converting spreadsheet documents. Default: false. |
 | [SkipHeaders](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipheaders) { get; set; } | Skip headers when converting spreadsheet documents. Default: false. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
 
 ## Methods
 
@@ -75,6 +78,7 @@ public class SpreadsheetLoadOptions : LoadOptions, IDocumentsContainerLoadOption
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 
