@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/spreadsheetloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.lang.Cloneable, java.io.Serializable
+java.lang.Cloneable, java.io.Serializable, [com.groupdocs.conversion.contracts.IDocumentsContainerLoadOptions](../../com.groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 ```
-public class SpreadsheetLoadOptions extends LoadOptions implements Cloneable, Serializable
+public class SpreadsheetLoadOptions extends LoadOptions implements Cloneable, Serializable, IDocumentsContainerLoadOptions
 ```
 
 Options for loading Spreadsheet documents.
@@ -65,6 +65,12 @@ Options for loading Spreadsheet documents.
 | [setRowsPerPage(int rowsPerPage)](#setRowsPerPage-int-) | Split a worksheet into pages by rows. |
 | [getColumnsPerPage()](#getColumnsPerPage--) | Split a worksheet into pages by columns. |
 | [setColumnsPerPage(int columnsPerPage)](#setColumnsPerPage-int-) | Split a worksheet into pages by columns. |
+| [isConvertOwner()](#isConvertOwner--) |  |
+| [setConvertOwner(boolean convertOwner)](#setConvertOwner-boolean-) |  |
+| [isConvertOwned()](#isConvertOwned--) |  |
+| [setConvertOwned(boolean convertOwned)](#setConvertOwned-boolean-) |  |
+| [getDepth()](#getDepth--) |  |
+| [setDepth(int depth)](#setDepth-int-) |  |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
 public SpreadsheetLoadOptions()
@@ -529,4 +535,73 @@ Split a worksheet into pages by columns. Default is 0, no pagination.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | columnsPerPage | int |  |
+
+### isConvertOwner() {#isConvertOwner--}
+```
+public boolean isConvertOwner()
+```
+
+
+Gets option to control whether the documents container itself must be converted
+
+**Returns:**
+boolean
+### setConvertOwner(boolean convertOwner) {#setConvertOwner-boolean-}
+```
+public void setConvertOwner(boolean convertOwner)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwner | boolean |  |
+
+### isConvertOwned() {#isConvertOwned--}
+```
+public boolean isConvertOwned()
+```
+
+
+Option to control whether the owned documents in the documents container must be converted
+
+**Returns:**
+boolean
+### setConvertOwned(boolean convertOwned) {#setConvertOwned-boolean-}
+```
+public void setConvertOwned(boolean convertOwned)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwned | boolean |  |
+
+### getDepth() {#getDepth--}
+```
+public int getDepth()
+```
+
+
+Option to control how many levels in depth to perform conversion
+
+**Returns:**
+int
+### setDepth(int depth) {#setDepth-int-}
+```
+public void setDepth(int depth)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| depth | int |  |
 

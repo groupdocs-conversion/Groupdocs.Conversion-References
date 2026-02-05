@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/wordprocessingloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions), [com.groupdocs.conversion.options.load.IPageNumberingLoadOptions](../../com.groupdocs.conversion.options.load/ipagenumberingloadoptions)
+java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions), [com.groupdocs.conversion.options.load.IPageNumberingLoadOptions](../../com.groupdocs.conversion.options.load/ipagenumberingloadoptions), [com.groupdocs.conversion.contracts.IDocumentsContainerLoadOptions](../../com.groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 ```
-public class WordProcessingLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions, IPageNumberingLoadOptions
+public class WordProcessingLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions, IPageNumberingLoadOptions, IDocumentsContainerLoadOptions
 ```
 
 Options for loading WordProcessing documents.
@@ -67,6 +67,12 @@ Options for loading WordProcessing documents.
 | [setHyphenationOptions(HyphenationOptions hyphenationOptions)](#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-) | Sets hyphenation options for WordProcessing documents. |
 | [isInterruptThreadIfImageExceptionThrown()](#isInterruptThreadIfImageExceptionThrown--) | Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred |
 | [setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown)](#setInterruptThreadIfImageExceptionThrown-boolean-) | Sets InterruptThreadIfImageExceptionThrown flag |
+| [isConvertOwner()](#isConvertOwner--) |  |
+| [setConvertOwner(boolean convertOwner)](#setConvertOwner-boolean-) |  |
+| [isConvertOwned()](#isConvertOwned--) |  |
+| [setConvertOwned(boolean convertOwned)](#setConvertOwned-boolean-) |  |
+| [getDepth()](#getDepth--) |  |
+| [setDepth(int depth)](#setDepth-int-) |  |
 ### WordProcessingLoadOptions() {#WordProcessingLoadOptions--}
 ```
 public WordProcessingLoadOptions()
@@ -557,4 +563,73 @@ Sets InterruptThreadIfImageExceptionThrown flag
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interruptThreadIfImageExceptionThrown | boolean |  |
+
+### isConvertOwner() {#isConvertOwner--}
+```
+public boolean isConvertOwner()
+```
+
+
+Gets option to control whether the documents container itself must be converted
+
+**Returns:**
+boolean
+### setConvertOwner(boolean convertOwner) {#setConvertOwner-boolean-}
+```
+public void setConvertOwner(boolean convertOwner)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwner | boolean |  |
+
+### isConvertOwned() {#isConvertOwned--}
+```
+public boolean isConvertOwned()
+```
+
+
+Option to control whether the owned documents in the documents container must be converted
+
+**Returns:**
+boolean
+### setConvertOwned(boolean convertOwned) {#setConvertOwned-boolean-}
+```
+public void setConvertOwned(boolean convertOwned)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwned | boolean |  |
+
+### getDepth() {#getDepth--}
+```
+public int getDepth()
+```
+
+
+Option to control how many levels in depth to perform conversion
+
+**Returns:**
+int
+### setDepth(int depth) {#setDepth-int-}
+```
+public void setDepth(int depth)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| depth | int |  |
 
