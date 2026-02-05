@@ -10,9 +10,9 @@ url: /java/com.groupdocs.conversion.options.load/presentationloadoptions/
 java.lang.Object, [com.groupdocs.conversion.contracts.ValueObject](../../com.groupdocs.conversion.contracts/valueobject), [com.groupdocs.conversion.options.load.LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
 
 **All Implemented Interfaces:**
-java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions)
+java.io.Serializable, [com.groupdocs.conversion.options.load.IResourceLoadingOptions](../../com.groupdocs.conversion.options.load/iresourceloadingoptions), [com.groupdocs.conversion.contracts.IDocumentsContainerLoadOptions](../../com.groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 ```
-public class PresentationLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions
+public class PresentationLoadOptions extends LoadOptions implements Serializable, IResourceLoadingOptions, IDocumentsContainerLoadOptions
 ```
 
 Options for loading Presentation documents.
@@ -46,6 +46,12 @@ Options for loading Presentation documents.
 | [setNotesPosition(PresentationNotesPosition notesPosition)](#setNotesPosition-com.groupdocs.conversion.contracts.PresentationNotesPosition-) | Represents the way notes are printed with the slide. |
 | [getCommentsPosition()](#getCommentsPosition--) |  |
 | [setCommentsPosition(PresentationCommentsPosition commentsPosition)](#setCommentsPosition-com.groupdocs.conversion.contracts.PresentationCommentsPosition-) |  |
+| [isConvertOwner()](#isConvertOwner--) |  |
+| [setConvertOwner(boolean convertOwner)](#setConvertOwner-boolean-) |  |
+| [isConvertOwned()](#isConvertOwned--) |  |
+| [setConvertOwned(boolean convertOwned)](#setConvertOwned-boolean-) |  |
+| [getDepth()](#getDepth--) |  |
+| [setDepth(int depth)](#setDepth-int-) |  |
 ### PresentationLoadOptions() {#PresentationLoadOptions--}
 ```
 public PresentationLoadOptions()
@@ -293,4 +299,73 @@ public void setCommentsPosition(PresentationCommentsPosition commentsPosition)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | commentsPosition | [PresentationCommentsPosition](../../com.groupdocs.conversion.contracts/presentationcommentsposition) |  |
+
+### isConvertOwner() {#isConvertOwner--}
+```
+public boolean isConvertOwner()
+```
+
+
+Gets option to control whether the documents container itself must be converted
+
+**Returns:**
+boolean
+### setConvertOwner(boolean convertOwner) {#setConvertOwner-boolean-}
+```
+public void setConvertOwner(boolean convertOwner)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwner | boolean |  |
+
+### isConvertOwned() {#isConvertOwned--}
+```
+public boolean isConvertOwned()
+```
+
+
+Option to control whether the owned documents in the documents container must be converted
+
+**Returns:**
+boolean
+### setConvertOwned(boolean convertOwned) {#setConvertOwned-boolean-}
+```
+public void setConvertOwned(boolean convertOwned)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| convertOwned | boolean |  |
+
+### getDepth() {#getDepth--}
+```
+public int getDepth()
+```
+
+
+Option to control how many levels in depth to perform conversion
+
+**Returns:**
+int
+### setDepth(int depth) {#setDepth-int-}
+```
+public void setDepth(int depth)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| depth | int |  |
 

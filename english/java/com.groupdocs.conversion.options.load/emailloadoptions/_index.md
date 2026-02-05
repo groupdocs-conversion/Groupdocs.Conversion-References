@@ -58,6 +58,8 @@ Options for loading Email documents.
 | [setDisplaySubject(boolean displaySubject)](#setDisplaySubject-boolean-) | Sets option to display or hide subject in the header |
 | [isDisplaySent()](#isDisplaySent--) | Gets option to display or hide sent date/time in the header. |
 | [setDisplaySent(boolean displaySent)](#setDisplaySent-boolean-) | Sets option to display or hide sent date/time in the header. |
+| [isSkipExternalResources()](#isSkipExternalResources--) | Skips the http resource loading if true |
+| [setSkipExternalResources(boolean skipExternalResources)](#setSkipExternalResources-boolean-) |  |
 ### EmailLoadOptions() {#EmailLoadOptions--}
 ```
 public EmailLoadOptions()
@@ -440,4 +442,27 @@ Sets option to display or hide sent date/time in the header.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | displaySent | boolean |  |
+
+### isSkipExternalResources() {#isSkipExternalResources--}
+```
+public boolean isSkipExternalResources()
+```
+
+
+Skips the http resource loading if true
+
+**Returns:**
+boolean
+### setSkipExternalResources(boolean skipExternalResources) {#setSkipExternalResources-boolean-}
+```
+public void setSkipExternalResources(boolean skipExternalResources)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipExternalResources | boolean |  |
 
