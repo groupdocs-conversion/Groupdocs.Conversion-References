@@ -30,8 +30,8 @@ Options for conversion to Web file type.
 | [setFixedLayoutShowBorders(boolean fixedLayoutShowBorders)](#setFixedLayoutShowBorders-boolean-) |  |
 | [getZoom()](#getZoom--) |  |
 | [setZoom(int zoom)](#setZoom-int-) |  |
-| [isEmbedFontResources()](#isEmbedFontResources--) | Embed all resources inside the main HTML when FixedLayout=true. |
-| [setEmbedFontResources(boolean embedFontResources)](#setEmbedFontResources-boolean-) | Embed all resources inside the main HTML when FixedLayout=true. |
+| [isEmbedFontResources()](#isEmbedFontResources--) | Specifies whether to embed font resources within the main HTML. |
+| [setEmbedFontResources(boolean embedFontResources)](#setEmbedFontResources-boolean-) | Specifies whether to embed font resources within the main HTML. |
 ### WebConvertOptions() {#WebConvertOptions--}
 ```
 public WebConvertOptions()
@@ -138,7 +138,7 @@ public boolean isEmbedFontResources()
 ```
 
 
-Embed all resources inside the main HTML when FixedLayout=true. Default is false.
+Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded.
 
 **Returns:**
 boolean
@@ -148,7 +148,7 @@ public void setEmbedFontResources(boolean embedFontResources)
 ```
 
 
-Embed all resources inside the main HTML when FixedLayout=true. Default is false.
+Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded.
 
 **Parameters:**
 | Parameter | Type | Description |
