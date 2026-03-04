@@ -17,6 +17,7 @@ public enum PageOrientation extends Enum<PageOrientation>
 | --- | --- |
 | [LANDSCAPE](#LANDSCAPE) |  |
 | [PORTRAIT](#PORTRAIT) |  |
+| [DEFAULT](#DEFAULT) |  |
 ## Methods
 
 | Method | Description |
@@ -34,6 +35,12 @@ public static final PageOrientation LANDSCAPE
 ### PORTRAIT {#PORTRAIT}
 ```
 public static final PageOrientation PORTRAIT
+```
+
+
+### DEFAULT {#DEFAULT}
+```
+public static final PageOrientation DEFAULT
 ```
 
 
