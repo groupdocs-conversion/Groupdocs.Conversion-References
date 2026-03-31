@@ -3,7 +3,7 @@ title: Mbox
 second_title: GroupDocs.Conversion for .NET API Reference
 description: MBox file format is a generic term that represents a container for collection of electronic mail messages. The messages are stored inside the container along with their attachments. Learn more about this file format herehttps//docs.fileformat.com/email/mbox/.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.filetypes/emailfiletype/mbox/
 ---
 ## EmailFileType.Mbox field

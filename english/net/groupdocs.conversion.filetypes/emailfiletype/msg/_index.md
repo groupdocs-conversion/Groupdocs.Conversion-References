@@ -3,7 +3,7 @@ title: Msg
 second_title: GroupDocs.Conversion for .NET API Reference
 description: MSG is a file format used by Microsoft Outlook and Exchange to store email messages contact appointment or other tasks. Learn more about this file format herehttps//wiki.fileformat.com/email/msg.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.filetypes/emailfiletype/msg/
 ---
 ## EmailFileType.Msg field

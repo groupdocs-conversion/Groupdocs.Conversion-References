@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/publisherloadoptions/
 Options for loading Publisher documents.
 
 ```csharp
-public class PublisherLoadOptions : LoadOptions
+public class PublisherLoadOptions : LoadOptions, IFontSubstituteLoadOptions
 ```
 
 ## Constructors
@@ -24,6 +24,8 @@ public class PublisherLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [DefaultFont](../../groupdocs.conversion.options.load/publisherloadoptions/defaultfont) { get; set; } | Default font for Publisher document. The following font will be used if a font is missing. |
+| [FontSubstitutes](../../groupdocs.conversion.options.load/publisherloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Publisher document. |
 | [Format](../../groupdocs.conversion.options.load/publisherloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
@@ -38,6 +40,7 @@ public class PublisherLoadOptions : LoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 
