@@ -12,7 +12,7 @@ Options for loading Presentation documents.
 
 ```csharp
 public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
-    IMetadataLoadOptions, IResourceLoadingOptions
+    IFontSubstituteLoadOptions, IMetadataLoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -55,6 +55,7 @@ public class PresentationLoadOptions : LoadOptions, IDocumentsContainerLoadOptio
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)

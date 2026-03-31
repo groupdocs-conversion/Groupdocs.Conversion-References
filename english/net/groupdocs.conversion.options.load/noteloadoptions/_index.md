@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/noteloadoptions/
 Options for loading One documents.
 
 ```csharp
-public sealed class NoteLoadOptions : LoadOptions
+public sealed class NoteLoadOptions : LoadOptions, IFontSubstituteLoadOptions
 ```
 
 ## Constructors
@@ -41,6 +41,7 @@ public sealed class NoteLoadOptions : LoadOptions
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 
