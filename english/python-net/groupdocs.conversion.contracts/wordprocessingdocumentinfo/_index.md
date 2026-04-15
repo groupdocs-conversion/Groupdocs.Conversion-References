@@ -1,44 +1,35 @@
-﻿---
+---
 title: WordProcessingDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/
+url: /conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/
 is_root: false
-weight: 590
+weight: 650
 ---
+
 
 ## WordProcessingDocumentInfo class
 
-Contains WordProcessing document metadata
-
-
-
-**Inheritance:** [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo) → 
-[`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-
-
+Contains WordProcessing document metadata.
 
 The WordProcessingDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/pages_count) | Implements [`IDocumentInfo.pages_count`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#pages_count) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/format) | Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#format) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/size) | Implements [`IDocumentInfo.size`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#size) |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/creation_date) | Implements [`IDocumentInfo.creation_date`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#creation_date) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/property_names) | Implements [`IDocumentInfo.property_names`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#property_names) |
-| [words](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/words) | Gets words count |
-| [lines](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines) | Gets lines count |
-| [title](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/title) | Gets title |
-| [author](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/author) | Gets author |
-| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/is_password_protected) | Gets is document password protected |
-| [table_of_contents](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/table_of_contents) | Table of contents |
-
-
+| [author](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/author/) | The author of the document. |
+| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/is_password_protected/) | The document is password protected. |
+| [lines](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines/) | The number of lines in the document. |
+| [table_of_contents](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/table_of_contents/) | The table of contents. |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/title/) | The title of the document. |
+| [words](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/words/) | The number of words in the document. |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](..)
-* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-* class [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo)
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

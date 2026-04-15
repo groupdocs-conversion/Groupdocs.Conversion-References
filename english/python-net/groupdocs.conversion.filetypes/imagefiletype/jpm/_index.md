@@ -1,18 +1,15 @@
-﻿---
-title: JPM property
+---
+title: Jpm field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/imagefiletype/jpm/
+url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/jpm/
 is_root: false
-weight: 320
+weight: 3220
 ---
 
-## JPM property
 
-
-Jpm document format
+## Jpm field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype)
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)

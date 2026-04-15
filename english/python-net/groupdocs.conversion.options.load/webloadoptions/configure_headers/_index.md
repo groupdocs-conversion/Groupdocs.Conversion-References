@@ -1,17 +1,18 @@
-﻿---
+---
 title: configure_headers property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/webloadoptions/configure_headers/
+url: /conversion/python-net/groupdocs.conversion.options.load/webloadoptions/configure_headers/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## configure_headers property
 
+The action used to configure request headers, where the first parameter of the action is the Uri.
 
-Interface for configuring request headers. The implementation should define the behavior for configuring headers based on the URI.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def configure_headers(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`IHeaderConfigurator`](/conversion/python-net/groupdocs.conversion.options.load/iheaderconfigurator)
-* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions)
+* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions/)

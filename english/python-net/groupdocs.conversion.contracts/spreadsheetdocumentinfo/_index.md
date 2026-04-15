@@ -1,43 +1,35 @@
-﻿---
+---
 title: SpreadsheetDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
+url: /conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/
 is_root: false
-weight: 460
+weight: 510
 ---
+
 
 ## SpreadsheetDocumentInfo class
 
-Contains Spreadsheet document metadata
-
-
-
-**Inheritance:** [`SpreadsheetDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo) → 
-[`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-
-
+Contains Spreadsheet document metadata.
 
 The SpreadsheetDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/pages_count) | Implements [`IDocumentInfo.pages_count`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#pages_count) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/format) | Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#format) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/size) | Implements [`IDocumentInfo.size`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#size) |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/creation_date) | Implements [`IDocumentInfo.creation_date`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#creation_date) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/property_names) | Implements [`IDocumentInfo.property_names`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#property_names) |
-| [title](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/title) | Gets title |
-| [worksheets](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets) | Worksheets names |
-| [worksheets_count](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets_count) | Gets worksheets count |
-| [author](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/author) | Gets author |
-| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/is_password_protected) | Gets is document password protected |
-
-
+| [active_worksheet_index](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/active_worksheet_index/) | The active worksheet index. |
+| [author](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/author/) | The author of the spreadsheet document. |
+| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/is_password_protected/) | The document is password protected. |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/title/) | The title of the spreadsheet document. |
+| [worksheets](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets/) | The worksheets names. |
+| [worksheets_count](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets_count/) | The number of worksheets. |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](..)
-* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-* class [`SpreadsheetDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo)
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

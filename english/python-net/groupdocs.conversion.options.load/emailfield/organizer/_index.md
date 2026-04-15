@@ -1,18 +1,15 @@
-﻿---
-title: ORGANIZER property
+---
+title: Organizer field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/emailfield/organizer/
+url: /conversion/python-net/groupdocs.conversion.options.load/emailfield/organizer/
 is_root: false
-weight: 120
+weight: 3090
 ---
 
-## ORGANIZER property
 
-
-Default field text is "Organizer".
+## Organizer field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield)
+* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield/)

@@ -1,19 +1,15 @@
-﻿---
-title: TIFF property
+---
+title: Tiff field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/imagefiletype/tiff/
+url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/tiff/
 is_root: false
-weight: 420
+weight: 3010
 ---
 
-## TIFF property
 
-
-TIFF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. 
-Learn more about this file format [here](https://wiki.fileformat.com/image/tiff).
+## Tiff field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype)
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)

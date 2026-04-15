@@ -1,18 +1,15 @@
-﻿---
-title: ON180 property
+---
+title: On180 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/rotation/on180/
+url: /conversion/python-net/groupdocs.conversion.options.convert/rotation/on180/
 is_root: false
-weight: 70
+weight: 3030
 ---
 
-## ON180 property
 
-
-180 degrees.
+## On180 field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`Rotation`](/conversion/python-net/groupdocs.conversion.options.convert/rotation)
+* class [`Rotation`](/conversion/python-net/groupdocs.conversion.options.convert/rotation/)

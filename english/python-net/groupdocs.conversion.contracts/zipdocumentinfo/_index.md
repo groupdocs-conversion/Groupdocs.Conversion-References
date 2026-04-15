@@ -1,38 +1,30 @@
-﻿---
+---
 title: ZipDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/zipdocumentinfo/
+url: /conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/
 is_root: false
-weight: 660
+weight: 720
 ---
+
 
 ## ZipDocumentInfo class
 
-Contains compression document metadata
-
-
-
-**Inheritance:** [`ZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo) → 
-[`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-
-
+Contains compression document metadata.
 
 The ZipDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/pages_count) | Implements [`IDocumentInfo.pages_count`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#pages_count) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/format) | Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#format) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/size) | Implements [`IDocumentInfo.size`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#size) |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/creation_date) | Implements [`IDocumentInfo.creation_date`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#creation_date) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/property_names) | Implements [`IDocumentInfo.property_names`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#property_names) |
-
-
+| [content_tree](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/content_tree/) | The content tree of the ZIP document. |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](..)
-* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
-* class [`ZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo)
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

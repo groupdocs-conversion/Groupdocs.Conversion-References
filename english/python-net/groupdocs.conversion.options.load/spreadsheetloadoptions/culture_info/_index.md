@@ -1,17 +1,18 @@
-﻿---
+---
 title: culture_info property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/culture_info/
+url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/culture_info/
 is_root: false
-weight: 140
+weight: 2100
 ---
+
 
 ## culture_info property
 
+The system culture info used when the file is loaded.
 
-Get or set the system culture info at the time file is loaded, e.g. "en-US".
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def culture_info(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/width/
+url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/width/
 is_root: false
-weight: 120
+weight: 2080
 ---
+
 
 ## width property
 
+The watermark width.
 
-Watermark width
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def width(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions)
+* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/)

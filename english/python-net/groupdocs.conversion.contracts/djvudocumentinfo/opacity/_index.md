@@ -1,17 +1,18 @@
-﻿---
+---
 title: opacity property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/opacity/
+url: /conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo/opacity/
 is_root: false
-weight: 80
+weight: 2020
 ---
+
 
 ## opacity property
 
+The image opacity.
 
-Gets image opacity
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def opacity(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`DjVuDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo)
+* class [`DjVuDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo/)

@@ -1,28 +1,22 @@
-﻿---
-title: JpegOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/jpegoptions/__init__/
+url: /conversion/python-net/groupdocs.conversion.options.convert/jpegoptions/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`JpegOptions`](/conversion/python-net/groupdocs.conversion.options.convert/jpegoptions) class.
+## __init__
 
-
+Initializes a new instance of [`JpegOptions`](/conversion/python-net/groupdocs.conversion.options.convert/jpegoptions/) class.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpegOptions`](/conversion/python-net/groupdocs.conversion.options.convert/jpegoptions)
+* class [`JpegOptions`](/conversion/python-net/groupdocs.conversion.options.convert/jpegoptions/)

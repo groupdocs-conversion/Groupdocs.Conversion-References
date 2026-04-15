@@ -1,17 +1,18 @@
-﻿---
+---
 title: secondary property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/possibleconversions/secondary/
+url: /conversion/python-net/groupdocs.conversion.contracts/possibleconversions/secondary/
 is_root: false
-weight: 70
+weight: 2060
 ---
+
 
 ## secondary property
 
+The secondary target file types.
 
-Secondary target file types
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def secondary(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions)
+* class [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/)

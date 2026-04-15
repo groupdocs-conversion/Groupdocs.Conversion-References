@@ -1,19 +1,15 @@
-﻿---
-title: POTX property
+---
+title: Potx field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/potx/
+url: /conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/potx/
 is_root: false
-weight: 130
+weight: 3070
 ---
 
-## POTX property
 
-
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above.
-Learn more about this file format [here](https://wiki.fileformat.com/presentation/potx).
+## Potx field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype)
+* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/)

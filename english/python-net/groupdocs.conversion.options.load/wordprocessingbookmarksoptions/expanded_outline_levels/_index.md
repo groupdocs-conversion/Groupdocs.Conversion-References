@@ -1,17 +1,18 @@
-﻿---
+---
 title: expanded_outline_levels property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expanded_outline_levels/
+url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expanded_outline_levels/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## expanded_outline_levels property
 
+The number of outline levels to show expanded when the file is viewed; defaults to 0 and must be between 0 and 9 (this option does not apply when saving to XPS).
 
-Specifies how many levels in the document outline to show expanded when the file is viewed. Default is 0. Valid range is 0 to 9. Note that this options will not work when saving to XPS.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def expanded_outline_levels(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WordProcessingBookmarksOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions)
+* class [`WordProcessingBookmarksOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/)

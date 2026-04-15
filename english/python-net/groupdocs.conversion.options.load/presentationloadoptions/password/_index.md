@@ -1,17 +1,18 @@
-﻿---
+---
 title: password property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/password/
+url: /conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/password/
 is_root: false
-weight: 130
+weight: 2110
 ---
+
 
 ## password property
 
+The password used to unprotect a protected document.
 
-Set password to unprotect protected document.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def password(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions)
+* class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/)

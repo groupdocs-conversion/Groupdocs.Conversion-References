@@ -1,19 +1,18 @@
-﻿---
+---
 title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/convert_owned/
+url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/convert_owned/
 is_root: false
-weight: 80
+weight: 2050
 ---
+
 
 ## convert_owned property
 
+The ConvertOwned property implements `IDocumentsContainerLoadOptions.convert_owned` and defaults to false.
 
-Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)
-
-Default is false
 ### Definition:
 ```python
 @property
@@ -25,5 +24,4 @@ def convert_owned(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions)
+* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/)

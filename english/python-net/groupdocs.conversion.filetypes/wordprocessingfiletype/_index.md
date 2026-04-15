@@ -1,80 +1,54 @@
-﻿---
+---
 title: WordProcessingFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/
+url: /conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/
 is_root: false
-weight: 210
+weight: 230
 ---
+
 
 ## WordProcessingFileType class
 
-Defines Word Processing files that contain user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. 
+Defines Word Processing files that contain user information in plain text or rich text format.
+
+A plain text file format contains unformatted text and no font or page settings can be applied.
+
+In contrast, a rich text file format allows formatting options such as setting font types, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features.
+
 Includes the following file types:
-[`WordProcessingFileType.Doc`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Docm`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Docx`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Dot`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Dotm`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Dotx`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Odt`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Ott`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Rtf`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype),
-[`WordProcessingFileType.Txt`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype).
-[`WordProcessingFileType.Md`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype).
-Learn more about Word Processing formats [here](https://wiki.fileformat.com/word-processing).
+- [`WordProcessingFileType.doc`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/)
+- [`WordProcessingFileType.docm`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm/)
+- [`WordProcessingFileType.docx`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx/)
+- [`WordProcessingFileType.dot`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/)
+- [`WordProcessingFileType.dotm`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/)
+- [`WordProcessingFileType.dotx`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/)
+- [`WordProcessingFileType.odt`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/)
+- [`WordProcessingFileType.ott`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/)
+- [`WordProcessingFileType.rtf`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/rtf/)
+- [`WordProcessingFileType.txt`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/)
+- [`WordProcessingFileType.md`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/)
 
-
-
-**Inheritance:** [`WordProcessingFileType`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype) → 
-[`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype) → 
-[`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration)
-
-
+Learn more about Word Processing formats here: https://wiki.fileformat.com/word-processing.
 
 The WordProcessingFileType type exposes the following members:
 
-### Constructors
-| Constructor | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/__init__/#) | Serialization constructor |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [file_format](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/file_format) | The file format |
-| [extension](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/extension) | The file extension |
-| [family](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/family) | The file family |
-| [description](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/description) | File type description |
-| [UNKNOWN](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/unknown) | Unknown file type |
-| [DOC](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc) | Files with .doc extension represent documents generated by Microsoft Word or other word processing documents in binary file format.<br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/doc). |
-| [DOCM](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm) | DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros.<br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docm). |
-| [DOCX](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx) | DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docx). |
-| [DOT](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot) | Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dot). |
-| [DOTM](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm) | A file with DOTM extension represents template file created with Microsoft Word 2007 or higher.<br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotm). |
-| [DOTX](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx) | Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotx). |
-| [RTF](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/rtf) | Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/rtf). |
-| [ODT](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt) | ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/odt). |
-| [OTT](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott) | Files with OTT extension represent template documents generated by applications in compliance with the OASIS' OpenDocument standard format. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/ott). |
-| [TXT](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt) | A file with .TXT extension represents a text document that contains plain text in the form of lines. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/txt). |
-| [MD](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/md) | Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers. <br/>Learn more about this file format [here](https://wiki.fileformat.com/word-processing/md). |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/equals/#groupdocs.conversion.contracts.Enumeration) | Implements [`Enumeration.equals`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals) |
-| [compare_to](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/compare_to/#System.Object) | Compares current object to other. |
-| [from_filename](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_filename/#System.String) | Returns FileType for specified fileName |
-| [from_extension](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_extension/#System.String) | Gets FileType for provided fileExtension |
-| [from_stream](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/from_stream/#io.RawIOBase) | Returns FileType for provided document stream |
-
-
+| [Doc](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/doc/) |  |
+| [Docm](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docm/) |  |
+| [Docx](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/docx/) |  |
+| [Dot](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dot/) |  |
+| [Dotm](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotm/) |  |
+| [Dotx](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/dotx/) |  |
+| [Rtf](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/rtf/) |  |
+| [Odt](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/odt/) |  |
+| [Ott](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/ott/) |  |
+| [Txt](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/txt/) |  |
+| [Md](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/md/) |  |
+| [FlatOpc](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype/flatopc/) |  |
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](..)
-* class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
-* class [`WordProcessingFileType`](/conversion/python-net/groupdocs.conversion.filetypes/wordprocessingfiletype)
+* module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

@@ -1,19 +1,15 @@
-﻿---
-title: PPT property
+---
+title: Ppt field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/ppt/
+url: /conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppt/
 is_root: false
-weight: 170
+weight: 3010
 ---
 
-## PPT property
 
-
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003.
-Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppt).
+## Ppt field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype)
+* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/)

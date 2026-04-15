@@ -1,19 +1,15 @@
-﻿---
-title: XLTX property
+---
+title: Xltx field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltx/
+url: /conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltx/
 is_root: false
-weight: 240
+weight: 3070
 ---
 
-## XLTX property
 
-
-XLTX file represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xltx).
+## Xltx field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

@@ -1,19 +1,15 @@
-﻿---
-title: VCF property
+---
+title: Vcf field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/emailfiletype/vcf/
+url: /conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/vcf/
 is_root: false
-weight: 160
+weight: 3040
 ---
 
-## VCF property
 
-
-VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications.
-Learn more about this file format [here](https://wiki.fileformat.com/email/vcf).
+## Vcf field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype)
+* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/)

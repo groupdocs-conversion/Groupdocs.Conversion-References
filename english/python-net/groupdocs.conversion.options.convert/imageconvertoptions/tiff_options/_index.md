@@ -1,17 +1,18 @@
-﻿---
+---
 title: tiff_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/tiff_options/
+url: /conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/tiff_options/
 is_root: false
-weight: 200
+weight: 2130
 ---
+
 
 ## tiff_options property
 
+The Tiff specific convert options.
 
-Tiff specific convert options.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def tiff_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions)
-* class [`TiffOptions`](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions)
+* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/)

@@ -1,55 +1,38 @@
-﻿---
+---
 title: PdfFormattingOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/
 is_root: false
-weight: 350
+weight: 280
 ---
+
 
 ## PdfFormattingOptions class
 
 Defines Pdf formatting options.
-
-
-
-**Inheritance:** [`PdfFormattingOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The PdfFormattingOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/__init__/#) | Constructs a new instance of PdfFormattingOptions |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/__init__/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [center_window](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/center_window) | Specifies whether position of the document's window will be centered on the screen. Default: false. |
-| [direction](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/direction) | Sets reading order of text: L2R (left to right) or R2L (right to left). Default: L2R. |
-| [display_doc_title](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/display_doc_title) | Specifies whether document's window title bar should display document title. Default: false. |
-| [fit_window](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/fit_window) | Specifies whether document window must be resized to fit the first displayed page. Default: false. |
-| [hide_menu_bar](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_menu_bar) | Specifies whether menu bar should be hidden when document is active. Default: false. |
-| [hide_tool_bar](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_tool_bar) | Specifies whether toolbar should be hidden when document is active. Default: false. |
-| [hide_window_ui](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_window_ui) | Specifies whether user interface elements should be hidden when document is active. Default: false. |
-| [non_full_screen_page_mode](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/non_full_screen_page_mode) | Sets page mode, specifying how to display the document on exiting full-screen mode. |
-| [page_layout](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_layout) | Sets page layout which shall be used when the document is opened. |
-| [page_mode](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode) | Sets page mode, specifying how document should be displayed when opened. |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-
-
+| [center_window](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/center_window/) | The property determines whether the document window is centered on the screen; default is False. |
+| [direction](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/direction/) | The reading order of text: L2R (left to right) or R2L (right to left). Default: L2R. |
+| [display_doc_title](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/display_doc_title/) | The property specifies whether the document's window title bar should display the document title. Default: False. |
+| [fit_window](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/fit_window/) | The property determines whether the document window is resized to fit the first displayed page. Default is False. |
+| [hide_menu_bar](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_menu_bar/) | The property specifies whether the menu bar should be hidden when the document is active; default is False. |
+| [hide_tool_bar](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_tool_bar/) | The property specifies whether the toolbar should be hidden when the document is active; default is False. |
+| [hide_window_ui](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_window_ui/) | The property indicates whether user interface elements should be hidden when the document is active. Default: False. |
+| [non_full_screen_page_mode](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/non_full_screen_page_mode/) | The page mode, specifying how to display the document on exiting full-screen mode. |
+| [page_layout](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_layout/) | The page layout to use when the document is opened. |
+| [page_mode](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode/) | The page mode, specifying how the document should be displayed when opened. |
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](..)
-* class [`PdfFormattingOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

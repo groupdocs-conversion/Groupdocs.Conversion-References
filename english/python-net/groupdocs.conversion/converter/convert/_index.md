@@ -1,50 +1,32 @@
-﻿---
+---
 title: convert method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion/converter/convert/
+url: /conversion/python-net/groupdocs.conversion/converter/convert/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## convert {#io.RawIOBase-groupdocs.conversion.options.convert.ConvertOptions}
 
-Converts source document. Saves the whole converted document.
+## convert {#file_path-convert_options}
 
+Converts the source document and saves the whole converted document.
 
+Learn more
 
-```python
-def convert(self, document, convert_options):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| document | io.RawIOBase | Output stream. |
-| convert_options | groupdocs.conversion.options.convert.ConvertOptions | The convert options specific to desired target file type. |
-
-
-## convert {#System.String-groupdocs.conversion.options.convert.ConvertOptions}
-
-Converts source document. Saves the whole converted document.
-
-
+- More about document conversion basic scenarios: How to convert document in 3 steps (https://docs.groupdocs.com/display/conversionnet/Convert+document)
+- Conversion use cases, advanced settings and customizations: Convert document with advanced settings (https://docs.groupdocs.com/display/conversionnet/Converting)
 
 ```python
 def convert(self, file_path, convert_options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to the output document. |
-| convert_options | groupdocs.conversion.options.convert.ConvertOptions | The convert options specific to desired target file type. |
-
-
+| file_path | `str` | The file path to the source document. |
+| convert_options | `ConvertOptions` | The convert options specific to desired target file type. |
 
 ### See Also
-* module [`groupdocs.conversion`](../../)
-* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter)
+* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter/)

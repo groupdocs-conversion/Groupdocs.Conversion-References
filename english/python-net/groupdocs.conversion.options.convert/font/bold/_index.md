@@ -1,17 +1,18 @@
-﻿---
+---
 title: bold property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/font/bold/
+url: /conversion/python-net/groupdocs.conversion.options.convert/font/bold/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## bold property
 
+The font bold.
 
-Font bold
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def bold(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`Font`](/conversion/python-net/groupdocs.conversion.options.convert/font)
+* class [`Font`](/conversion/python-net/groupdocs.conversion.options.convert/font/)

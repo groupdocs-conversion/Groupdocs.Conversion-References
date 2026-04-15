@@ -1,17 +1,18 @@
-﻿---
+---
 title: font_substitutes property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/font_substitutes/
+url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/font_substitutes/
 is_root: false
-weight: 170
+weight: 2130
 ---
+
 
 ## font_substitutes property
 
+The font substitutes used when converting a spreadsheet document.
 
-Substitute specific fonts when converting spreadsheet document.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def font_substitutes(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

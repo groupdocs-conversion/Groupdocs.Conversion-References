@@ -1,17 +1,18 @@
-﻿---
+---
 title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/documentinfo/pages_count/
+url: /conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/
 is_root: false
-weight: 50
+weight: 2040
 ---
+
 
 ## pages_count property
 
+The number of pages in the document, implementing `IDocumentInfo.pages_count`.
 
-Implements [`IDocumentInfo.pages_count`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#pages_count)
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def pages_count(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
+* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)

@@ -1,18 +1,15 @@
-﻿---
-title: NONE property
+---
+title: None field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/none/
+url: /conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/none/
 is_root: false
-weight: 90
+weight: 3020
 ---
 
-## NONE property
 
-
-No compression.
+## None field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`TiffCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods)
+* class [`TiffCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/)

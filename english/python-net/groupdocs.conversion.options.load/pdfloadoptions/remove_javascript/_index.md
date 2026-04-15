@@ -1,17 +1,18 @@
-﻿---
+---
 title: remove_javascript property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_javascript/
+url: /conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_javascript/
 is_root: false
-weight: 170
+weight: 2150
 ---
+
 
 ## remove_javascript property
 
+The remove_javascript property removes javascript.
 
-Remove javascript.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def remove_javascript(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`PdfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions)
+* class [`PdfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/)

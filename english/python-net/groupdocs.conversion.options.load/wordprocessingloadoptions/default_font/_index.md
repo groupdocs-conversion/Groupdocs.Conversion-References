@@ -1,17 +1,26 @@
-﻿---
+---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/default_font/
+url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/default_font/
 is_root: false
-weight: 100
+weight: 2070
 ---
+
 
 ## default_font property
 
+The default font for a WordProcessing document.
 
-Default font for Words document. The following font will be used if a font is missing.
+Note: The order of substitution is as follows:
+
+- Automatically substitute missing fonts based on font name (if enabled).
+- Automatically substitute missing fonts based on FontConfig (if enabled).
+- Substitute missing fonts based on FontSubstitutes (if set).
+- Automatically substitute missing fonts based on FontInfo (if enabled).
+- Substitute missing fonts based on DefaultFont (if set).
+
 ### Definition:
 ```python
 @property
@@ -23,5 +32,4 @@ def default_font(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions)
+* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/)

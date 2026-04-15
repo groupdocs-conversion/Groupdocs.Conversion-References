@@ -1,19 +1,15 @@
-﻿---
-title: DAE property
+---
+title: Dae field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/threedfiletype/dae/
+url: /conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/dae/
 is_root: false
-weight: 100
+weight: 3070
 ---
 
-## DAE property
 
-
-A DAE file is a Digital Asset Exchange file format that is used for exchanging data between interactive 3D applications. This file format is based on the COLLADA (COLLAborative Design Activity) XML schema which is an open standard XML schema for the exchange of digital assets among graphics software applications.
-Learn more about this file format [here](https://docs.fileformat.com/3d/dae).
+## Dae field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype)
+* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/)

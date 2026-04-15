@@ -1,19 +1,15 @@
-﻿---
-title: CSV property
+---
+title: Csv field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/
+url: /conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/
 is_root: false
-weight: 80
+weight: 3120
 ---
 
-## CSV property
 
-
-Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values.
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/csv).
+## Csv field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

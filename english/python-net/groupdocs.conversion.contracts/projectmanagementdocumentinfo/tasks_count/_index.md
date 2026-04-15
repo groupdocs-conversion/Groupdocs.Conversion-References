@@ -1,17 +1,18 @@
-﻿---
+---
 title: tasks_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/tasks_count/
+url: /conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/tasks_count/
 is_root: false
-weight: 100
+weight: 2030
 ---
+
 
 ## tasks_count property
 
+The tasks count.
 
-Tasks count
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def tasks_count(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo)
+* class [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/)

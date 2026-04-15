@@ -1,17 +1,18 @@
-﻿---
+---
 title: background property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/background/
+url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/background/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## background property
 
+The watermark is stamped as background; if True, it is laid at the bottom, otherwise (default False) it is laid on top.
 
-Indicates that the watermark is stamped as background. If the value is true, the watermark is laid at the bottom. By default is false and the watermark is laid on top.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def background(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions)
+* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/)

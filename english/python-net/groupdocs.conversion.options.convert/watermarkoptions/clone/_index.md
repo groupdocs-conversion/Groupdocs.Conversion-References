@@ -1,33 +1,22 @@
-﻿---
+---
 title: clone method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/clone/
+url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/clone/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## clone {#}
 
-Clone current instance
+## clone
 
-
-### Returns 
-
-
-
-
+Clone current instance.
 
 ```python
 def clone(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions)
+* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/)

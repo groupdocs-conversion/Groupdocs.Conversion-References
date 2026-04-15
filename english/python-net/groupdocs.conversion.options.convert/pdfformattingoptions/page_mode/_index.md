@@ -1,17 +1,18 @@
-﻿---
+---
 title: page_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode/
 is_root: false
-weight: 130
+weight: 2100
 ---
+
 
 ## page_mode property
 
+The page mode, specifying how the document should be displayed when opened.
 
-Sets page mode, specifying how document should be displayed when opened.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def page_mode(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfFormattingOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions)
-* class [`PdfPageMode`](/conversion/python-net/groupdocs.conversion.options.convert/pdfpagemode)
+* class [`PdfFormattingOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/)

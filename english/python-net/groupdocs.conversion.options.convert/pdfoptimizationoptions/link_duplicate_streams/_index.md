@@ -1,17 +1,18 @@
-﻿---
+---
 title: link_duplicate_streams property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/link_duplicate_streams/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/link_duplicate_streams/
 is_root: false
-weight: 70
+weight: 2040
 ---
+
 
 ## link_duplicate_streams property
 
+The link duplicate streams.
 
-Link duplicate streams
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def link_duplicate_streams(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfOptimizationOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions)
+* class [`PdfOptimizationOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/)

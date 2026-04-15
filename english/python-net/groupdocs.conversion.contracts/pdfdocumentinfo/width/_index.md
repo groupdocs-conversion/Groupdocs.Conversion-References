@@ -1,17 +1,18 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/width/
+url: /conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/width/
 is_root: false
-weight: 150
+weight: 2080
 ---
+
 
 ## width property
 
+The page width.
 
-Gets page width
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def width(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo)
+* class [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)

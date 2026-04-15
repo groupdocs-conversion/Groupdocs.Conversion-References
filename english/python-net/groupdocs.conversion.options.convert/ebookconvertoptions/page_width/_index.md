@@ -1,17 +1,20 @@
-﻿---
+---
 title: page_width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_width/
+url: /conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_width/
 is_root: false
-weight: 100
+weight: 2050
 ---
+
 
 ## page_width property
 
+The page width in points.
 
-Implements [`IPageSizeConvertOptions.page_width`](/conversion/python-net/groupdocs.conversion.options.convert/ipagesizeconvertoptions#page_width)
+When set, [`EBookConvertOptions.page_size`](/conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_size/) is automatically changed to [`PageSize.custom`](/conversion/python-net/groupdocs.conversion.options/pagesize/custom/).
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def page_width(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`EBookConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions)
+* class [`EBookConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions/)

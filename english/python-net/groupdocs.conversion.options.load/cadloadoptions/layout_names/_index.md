@@ -1,17 +1,18 @@
-﻿---
+---
 title: layout_names property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/cadloadoptions/layout_names/
+url: /conversion/python-net/groupdocs.conversion.options.load/cadloadoptions/layout_names/
 is_root: false
-weight: 90
+weight: 2060
 ---
+
 
 ## layout_names property
 
+The CAD layouts to be converted.
 
-Specifies which CAD layouts to be converted
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def layout_names(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`CadLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/cadloadoptions)
+* class [`CadLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/cadloadoptions/)

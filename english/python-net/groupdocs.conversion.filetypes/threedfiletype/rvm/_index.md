@@ -1,19 +1,15 @@
-﻿---
-title: RVM property
+---
+title: Rvm field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/threedfiletype/rvm/
+url: /conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/rvm/
 is_root: false
-weight: 200
+weight: 3060
 ---
 
-## RVM property
 
-
-RVM data files are related to AVEVA PDMS. RVM file is an AVEVA Plant Design Management System Model project file. AVEVA’s Plant Design Management System (PDMS) is the most popular 3D design system using data-centric technology for managing projects.
-Learn more about this file format [here](https://docs.fileformat.com/3d/rvm).
+## Rvm field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype)
+* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/)

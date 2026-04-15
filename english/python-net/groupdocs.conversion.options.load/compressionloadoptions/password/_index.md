@@ -1,17 +1,18 @@
-﻿---
+---
 title: password property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/compressionloadoptions/password/
+url: /conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/password/
 is_root: false
-weight: 80
+weight: 2050
 ---
+
 
 ## password property
 
+The password used to load a protected document.
 
-Set password to load protected document.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def password(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions)
+* class [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/)

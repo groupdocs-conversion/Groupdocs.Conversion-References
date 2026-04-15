@@ -1,17 +1,18 @@
-﻿---
+---
 title: embed_true_type_fonts property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/embed_true_type_fonts/
+url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/embed_true_type_fonts/
 is_root: false
-weight: 120
+weight: 2090
 ---
+
 
 ## embed_true_type_fonts property
 
+The embed_true_type_fonts property indicates whether true type fonts are embedded in the output document. The default value is True.
 
-If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: false
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def embed_true_type_fonts(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions)
+* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/)

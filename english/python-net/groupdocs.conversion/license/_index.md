@@ -1,48 +1,28 @@
-﻿---
+---
 title: License class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion/license/
+url: /conversion/python-net/groupdocs.conversion/license/
 is_root: false
-weight: 30
+weight: 180
 ---
+
 
 ## License class
 
-Provides methods to license the component. Learn more about licensing [here](https://purchase.groupdocs.com/faqs/licensing).
+Manages GroupDocs.Conversion licensing.
 
-
+Licensed builds unlock the full feature set of the wrapper at
+runtime. Unlicensed builds run in evaluation mode with the same API
+surface but with limits on output size and watermarked content.
 
 The License type exposes the following members:
-
-### Constructors
-| Constructor | Description |
-| :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion/license/__init__/#) | Constructs a new instance of License |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [is_licensed](/conversion/python-net/groupdocs.conversion/license/is_licensed) | Returns true if a valid license has been applied; false if the component is running in evaluation mode. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#io.RawIOBase) | Licenses the component. |
-| [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#System.String) | Licenses the component. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
+| [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#license_source) | Apply a license to the current process. |
 
 ### See Also
-* module [`groupdocs.conversion`](..)
+* module [`groupdocs.conversion`](/conversion/python-net/groupdocs.conversion/)

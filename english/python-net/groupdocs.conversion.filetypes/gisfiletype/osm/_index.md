@@ -1,19 +1,15 @@
-﻿---
-title: OSM property
+---
+title: Osm field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/gisfiletype/osm/
+url: /conversion/python-net/groupdocs.conversion.filetypes/gisfiletype/osm/
 is_root: false
-weight: 130
+weight: 3080
 ---
 
-## OSM property
 
-
-The OSM file format is a structured data format used to store geographical data in the OpenStreetMap project. OSM files are typically in XML format and contain information such as the location of roads, buildings, points of interest, and other features on the map.
-Learn more about this file format [here](https://docs.fileformat.com/gis/osm/).
+## Osm field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`GisFileType`](/conversion/python-net/groupdocs.conversion.filetypes/gisfiletype)
+* class [`GisFileType`](/conversion/python-net/groupdocs.conversion.filetypes/gisfiletype/)

@@ -1,19 +1,15 @@
-﻿---
-title: EPUB property
+---
+title: Epub field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/ebookfiletype/epub/
+url: /conversion/python-net/groupdocs.conversion.filetypes/ebookfiletype/epub/
 is_root: false
-weight: 90
+weight: 3010
 ---
 
-## EPUB property
 
-
-EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications.
-Learn more about this file format [here](https://wiki.fileformat.com/ebook/epub).
+## Epub field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EBookFileType`](/conversion/python-net/groupdocs.conversion.filetypes/ebookfiletype)
+* class [`EBookFileType`](/conversion/python-net/groupdocs.conversion.filetypes/ebookfiletype/)

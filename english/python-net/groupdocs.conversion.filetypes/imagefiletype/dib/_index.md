@@ -1,19 +1,15 @@
-﻿---
-title: DIB property
+---
+title: Dib field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/imagefiletype/dib/
+url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/dib/
 is_root: false
-weight: 130
+weight: 3250
 ---
 
-## DIB property
 
-
-DIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. 
-Learn more about this file format [here](https://wiki.fileformat.com/image/dib).
+## Dib field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype)
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)

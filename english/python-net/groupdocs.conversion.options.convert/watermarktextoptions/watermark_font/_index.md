@@ -1,17 +1,18 @@
-﻿---
+---
 title: watermark_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/watermarktextoptions/watermark_font/
+url: /conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions/watermark_font/
 is_root: false
-weight: 140
+weight: 2030
 ---
+
 
 ## watermark_font property
 
+The watermark font used when a text watermark is applied.
 
-Watermark font if text watermark is applied
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def watermark_font(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`Font`](/conversion/python-net/groupdocs.conversion.options.convert/font)
-* class [`WatermarkTextOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions)
+* class [`WatermarkTextOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions/)

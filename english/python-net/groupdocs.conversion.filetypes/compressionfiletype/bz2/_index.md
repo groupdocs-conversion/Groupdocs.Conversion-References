@@ -1,19 +1,15 @@
-﻿---
-title: BZ2 property
+---
+title: Bz2 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/bz2/
+url: /conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/bz2/
 is_root: false
-weight: 80
+weight: 3070
 ---
 
-## BZ2 property
 
-
-BZ2 are compressed files generated using the BZIP2 open source compression method, mostly on UNIX or Linux system. It is used for compression of a single file and is not meant for archiving of multiple files. 
-Learn more about this file format [here](https://docs.fileformat.com/compression/bz2/).
+## Bz2 field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype)
+* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/)

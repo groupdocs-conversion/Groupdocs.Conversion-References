@@ -1,19 +1,20 @@
-﻿---
+---
 title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owned/
+url: /conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owned/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## convert_owned property
 
+The `ConvertOwned` flag that indicates owned documents will be converted.
 
-Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)
+Implements `IDocumentsContainerLoadOptions.convert_owned`. This property is read‑only and always set to `True`.
 
-Readonly. Set to true. The owned documents will be converted
 ### Definition:
 ```python
 @property
@@ -22,5 +23,4 @@ def convert_owned(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions)
+* class [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/)

@@ -1,19 +1,18 @@
-﻿---
+---
 title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owned/
+url: /conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owned/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## convert_owned property
 
+The `IDocumentsContainerLoadOptions.convert_owned` property is read‑only and always set to True, indicating that owned documents will be converted.
 
-Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)
-
-Readonly. Set to true. The owned documents will be converted
 ### Definition:
 ```python
 @property
@@ -22,5 +21,4 @@ def convert_owned(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`OlmLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions)
+* class [`OlmLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/)

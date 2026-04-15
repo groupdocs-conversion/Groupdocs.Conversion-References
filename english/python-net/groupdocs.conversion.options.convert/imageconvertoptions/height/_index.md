@@ -1,17 +1,18 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/height/
+url: /conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/height/
 is_root: false
-weight: 120
+weight: 2080
 ---
+
 
 ## height property
 
+The desired image height after conversion.
 
-Desired image height after conversion.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def height(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions)
+* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/)

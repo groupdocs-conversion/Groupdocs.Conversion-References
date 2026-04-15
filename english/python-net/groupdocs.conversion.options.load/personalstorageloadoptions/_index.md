@@ -1,53 +1,38 @@
-﻿---
+---
 title: PersonalStorageLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/personalstorageloadoptions/
+url: /conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/
 is_root: false
-weight: 370
+weight: 300
 ---
+
 
 ## PersonalStorageLoadOptions class
 
 Options for loading personal storage documents.
-
-
-
-**Inheritance:** [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions) → 
-[`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The PersonalStorageLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/__init__/#) | Initializes new instance of [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions) class. |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/format) | Input document file type. |
-| [folder](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/folder) | Folder which to be processed<br/>Default is Inbox |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/convert_owner) | Implements [`IDocumentsContainerLoadOptions.convert_owner`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owner)<br/><br/>Readonly. Set to false. The owner will not be converted |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/convert_owned) | Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)<br/><br/>Readonly. Set to true. The owned documents will be converted |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/depth) | Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)<br/><br/>Default: 3 |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/__init__/) | Initializes a new instance of [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/) class. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-| [clone](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/clone/#) | Clones current instance. |
+| [clone](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/clone/) | Clones current instance. |
 
-
+### Properties
+| Property | Description |
+| :- | :- |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/convert_owned/) | The `ConvertOwned` property implements `IDocumentsContainerLoadOptions.convert_owned`; it is read‑only and set to `True`, indicating that owned documents will be converted. |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/convert_owner/) | The property implements `IDocumentsContainerLoadOptions.convert_owner`. |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/depth/) | The depth of the documents container load options. Implements `IDocumentsContainerLoadOptions.depth`. Default is 3. |
+| [folder](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/folder/) | The folder to be processed. Default is Inbox. |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/format/) | The input document file type. |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
-* class [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

@@ -1,18 +1,15 @@
-﻿---
-title: CMYK property
+---
+title: Cmyk field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/psdcolormodes/cmyk/
+url: /conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/cmyk/
 is_root: false
-weight: 70
+weight: 3050
 ---
 
-## CMYK property
 
-
-CMYK.
+## Cmyk field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PsdColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes)
+* class [`PsdColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/)

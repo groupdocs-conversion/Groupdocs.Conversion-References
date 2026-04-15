@@ -1,19 +1,15 @@
-﻿---
-title: MBOX property
+---
+title: Mbox field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/emailfiletype/mbox/
+url: /conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/mbox/
 is_root: false
-weight: 100
+weight: 3050
 ---
 
-## MBOX property
 
-
-MBox file format is a generic term that represents a container for collection of electronic mail messages. The messages are stored inside the container along with their attachments.
-Learn more about this file format [here](https://docs.fileformat.com/email/mbox/).
+## Mbox field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype)
+* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/)

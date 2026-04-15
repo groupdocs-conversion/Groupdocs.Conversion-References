@@ -1,18 +1,15 @@
-﻿---
-title: JLS property
+---
+title: Jls field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/imagefiletype/jls/
+url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/jls/
 is_root: false
-weight: 260
+weight: 3270
 ---
 
-## JLS property
 
-
-Jls document format
+## Jls field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype)
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)

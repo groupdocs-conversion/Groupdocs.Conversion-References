@@ -1,17 +1,18 @@
-﻿---
+---
 title: enable_vectorization property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/enable_vectorization/
+url: /conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/enable_vectorization/
 is_root: false
-weight: 60
+weight: 2030
 ---
+
 
 ## enable_vectorization property
 
+The option to enable vectorization of images. Default is False.
 
-Enable vectorization images. Default is false.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def enable_vectorization(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions)
+* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/)

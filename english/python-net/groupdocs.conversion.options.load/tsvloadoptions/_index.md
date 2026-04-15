@@ -1,74 +1,66 @@
-﻿---
+---
 title: TsvLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/tsvloadoptions/
+url: /conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/
 is_root: false
-weight: 450
+weight: 400
 ---
+
 
 ## TsvLoadOptions class
 
 Options for loading Tsv documents.
-
-
-
-**Inheritance:** [`TsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions) → 
-[`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions) → 
-[`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The TsvLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/__init__/#) | Initializes new instance of [`TsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions) class. |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/format) | Input document file type. |
-| [sheets](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/sheets) | Sheet name to convert |
-| [sheet_indexes](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/sheet_indexes) | List of sheet indexes to convert.<br/>The indexes must be zero-based |
-| [default_font](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/default_font) | Default font for spreadsheet document. The following font will be used if a font is missing. |
-| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/font_substitutes) | Substitute specific fonts when converting spreadsheet document. |
-| [show_grid_lines](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/show_grid_lines) | Show grid lines when converting Excel files. |
-| [show_hidden_sheets](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/show_hidden_sheets) | Show hidden sheets when converting Excel files. |
-| [one_page_per_sheet](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/one_page_per_sheet) | If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true. |
-| [optimize_pdf_size](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/optimize_pdf_size) | If True and converting to Pdf the conversion is optimized for better file size than print quality. |
-| [convert_range](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/convert_range) | Convert specific range when converting to other than spreadsheet format. Example: "D1:F8". |
-| [skip_empty_rows_and_columns](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/skip_empty_rows_and_columns) | Skips empty rows and columns when converting. Default is True. |
-| [password](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/password) | Set password to unprotect protected document. |
-| [hide_comments](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/hide_comments) | Hide comments. |
-| [check_excel_restriction](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/check_excel_restriction) | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
-| [culture_info](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/culture_info) | Get or set the system culture info at the time file is loaded, e.g. "en-US". |
-| [all_columns_in_one_page_per_sheet](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/all_columns_in_one_page_per_sheet) | If AllColumnsInOnePagePerSheet is true, all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
-| [auto_fit_rows](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/auto_fit_rows) | Autofits all rows when converting |
-| [columns_per_page](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/columns_per_page) | Split a worksheet into pages by columns. Default is 0, no pagination. |
-| [rows_per_page](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/rows_per_page) | Split a worksheet into pages by rows. Default is 0, no pagination. |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/convert_owner) | Implements [`IDocumentsContainerLoadOptions.convert_owner`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owner)<br/><br/>Default is true |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/convert_owned) | Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)<br/><br/>Default is false |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/depth) | Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)<br/><br/>Default: 1 |
-| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/clear_built_in_document_properties) | Removes built-in metadata properties from the document. |
-| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/clear_custom_document_properties) | Removes custom metadata properties from the document. |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/__init__/) | Initializes a new instance of [`TsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/). |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-| [clone](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/clone/#) | Clones current instance. |
+| [clone](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/clone/) | Clones current instance. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
 
-
+### Properties
+| Property | Description |
+| :- | :- |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions/format/) | The input document file type. |
+| [all_columns_in_one_page_per_sheet](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/all_columns_in_one_page_per_sheet/) | The property determines whether all column content of a sheet is output to a single page. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [auto_fit_rows](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/auto_fit_rows/) | The rows are autofitted when converting. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [check_excel_restriction](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/check_excel_restriction/) | The property indicates whether to check Excel file restrictions when modifying cell-related objects. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/clear_built_in_document_properties/) | The flag indicating whether built-in document properties are cleared. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/clear_custom_document_properties/) | The ClearCustomDocumentProperties property indicates whether custom document properties are cleared when loading a spreadsheet. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [columns_per_page](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/columns_per_page/) | The number of columns per page used to split a worksheet into pages. Default is 0, meaning no pagination. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/convert_owned/) | The property implements `IDocumentsContainerLoadOptions.convert_owned`. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/convert_owner/) | The ConvertOwner flag indicates whether the owner of the converted document is set. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [convert_range](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/convert_range/) | The range to convert when converting to a format other than spreadsheet. Example: "D1:F8". (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [culture_info](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/culture_info/) | The system culture info used when the file is loaded. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/default_font/) | The default font for a spreadsheet document, used when a font is missing. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/depth/) | The depth of the spreadsheet load options, implementing `IDocumentsContainerLoadOptions.depth`; default is 1. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/font_substitutes/) | The font substitutes used when converting a spreadsheet document. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [ignore_formula_calculation_errors](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/ignore_formula_calculation_errors/) | The property indicates whether to ignore formula calculation errors. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [margin_settings](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/margin_settings/) | The margin settings. See `IPageMarginOptions` for details. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [one_page_per_sheet](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/one_page_per_sheet/) | The content of the sheet is converted to a single PDF page when `one_page_per_sheet` is True; default is True. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [optimize_pdf_size](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/optimize_pdf_size/) | The conversion is optimized for better file size than print quality when set to True and converting to PDF. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [password](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/password/) | The password used to unprotect a protected document. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [preserve_document_structure](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/preserve_document_structure/) | The property determines whether the document structure should be preserved when converting to PDF (default is False). (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [print_comments](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/print_comments/) | The way comments are printed with the sheet; default is PrintNoComments. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [reset_font_folders](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/reset_font_folders/) | The property resets font folders before loading a document. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [rows_per_page](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/rows_per_page/) | The number of rows per page used to split a worksheet into pages; a value of 0 disables pagination. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [sheet_indexes](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheet_indexes/) | The list of sheet indexes to convert; the indexes must be zero-based. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [sheets](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheets/) | The sheet name to convert. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [show_grid_lines](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_grid_lines/) | The option to show grid lines when converting Excel files. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [show_hidden_sheets](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_hidden_sheets/) | The option to show hidden sheets when converting Excel files. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [size_settings](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/size_settings/) | The size settings for the spreadsheet load operation. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [skip_empty_rows_and_columns](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_empty_rows_and_columns/) | The property that skips empty rows and columns when converting; default is True. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [skip_external_resources](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_external_resources/) | The property implements `IResourceLoadingOptions.skip_external_resources`. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [skip_footers](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_footers/) | The property skips footers when converting spreadsheet documents. Default: False. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [skip_headers](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_headers/) | The property indicates whether to skip headers when converting spreadsheet documents. Default: False. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
+| [whitelisted_resources](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/whitelisted_resources/) | The whitelisted resources for loading, implementing `IResourceLoadingOptions.whitelisted_resources`. (inherited from [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)) |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
-* class [`TsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/tsvloadoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

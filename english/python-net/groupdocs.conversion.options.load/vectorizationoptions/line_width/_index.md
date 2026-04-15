@@ -1,17 +1,18 @@
-﻿---
+---
 title: line_width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/line_width/
+url: /conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/line_width/
 is_root: false
-weight: 80
+weight: 2050
 ---
+
 
 ## line_width property
 
+The line width, affected by the graphics scale; default is 1.
 
-Gets or sets the line width. The value of this parameter is affected by the graphics scale. Default value is 1.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def line_width(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions)
+* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/)

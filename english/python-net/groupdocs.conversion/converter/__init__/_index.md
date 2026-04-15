@@ -1,164 +1,131 @@
-﻿---
-title: Converter constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion/converter/__init__/
+url: /conversion/python-net/groupdocs.conversion/converter/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#io.RawIOBase}
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+## __init__ {#file_path}
 
+Initializes a new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter/).
 
+Learn more
 
-```python
-def __init__(self, document):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| document | io.RawIOBase | Readable stream. |
-### Exceptions
-| Exception | Description |
-| :- | :- |
-| ArgumentNullException | Thrown when `document` is null. |
-
-
-
-
-## __init__ {#System.String}
-
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
-
-
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third‑party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
 def __init__(self, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to the source document. |
+| file_path | `str` | The file path to the source document. |
 
+## __init__ {#source_stream_provider}
 
-## __init__ {#io.RawIOBase-groupdocs.conversion.ConverterSettings}
+Initializes new instance of Converter class.
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+Learn more
 
-
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third-party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
-def __init__(self, document, settings):
+def __init__(self, source_stream_provider):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | Readable stream. |
-| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
+| source_stream_provider | `System.Func`1[[System.IO.Stream, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]` | The method that returns readable stream. |
 
+| Raises | Description |
+| :- | :- |
+| `ValueError` | Raised when `source_stream_provider` is None. |
 
-## __init__ {#io.RawIOBase-groupdocs.conversion.options.load.LoadOptions}
+## __init__ {#source_stream_provider-settings}
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+Initializes a new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter/).
 
+Learn more
 
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third‑party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
-def __init__(self, document, load_options):
+def __init__(self, source_stream_provider, settings):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | Readable stream. |
-| load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
+| source_stream_provider | `System.Func`1[[System.IO.Stream, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]` | The method that returns readable stream. |
+| settings | `System.Func`1[[GroupDocs.Conversion.ConverterSettings, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | The Converter settings. |
 
+## __init__ {#file_path-settings}
 
-## __init__ {#System.String-groupdocs.conversion.ConverterSettings}
+Initializes a new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter/) class.
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+Learn more
 
-
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third-party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
 def __init__(self, file_path, settings):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to the source document. |
-| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
+| file_path | `str` | The file path to the source document. |
+| settings | `System.Func`1[[GroupDocs.Conversion.ConverterSettings, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | The Converter settings. |
 
+## __init__ {#source_stream_provider-load_options-settings}
 
-## __init__ {#System.String-groupdocs.conversion.options.load.LoadOptions}
+Initializes new instance of Converter class.
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+Learn more
 
-
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third-party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
-def __init__(self, file_path, load_options):
+def __init__(self, source_stream_provider, load_options, settings):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to the source document. |
-| load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
+| source_stream_provider | `System.Func`1[[System.IO.Stream, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]` | The method that returns readable stream. |
+| load_options | `System.Func`2[[GroupDocs.Conversion.LoadContext, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56],[GroupDocs.Conversion.Options.Load.LoadOptions, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | Delegate that provides load options for the document. Signature: `Func<LoadContext, LoadOptions>`. The `LoadContext` parameter contains information about the document being loaded. |
+| settings | `System.Func`1[[GroupDocs.Conversion.ConverterSettings, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | The Converter settings. |
 
+## __init__ {#file_path-load_options-settings}
 
-## __init__ {#io.RawIOBase-groupdocs.conversion.options.load.LoadOptions-groupdocs.conversion.ConverterSettings}
+Initializes a new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter/) class.
 
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
+Learn more
 
-
-
-```python
-def __init__(self, document, load_options, settings):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| document | io.RawIOBase | Readable stream. |
-| load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
-| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
-
-
-## __init__ {#System.String-groupdocs.conversion.options.load.LoadOptions-groupdocs.conversion.ConverterSettings}
-
-Initializes new instance of [`Converter`](/conversion/python-net/groupdocs.conversion/converter) class.
-
-
+- More about how to load and convert documents stored at FTP, Amazon S3 Storage, Windows Azure or any other third‑party storage: https://docs.groupdocs.com/display/conversionnet/Loading+documents+from+different+sources
+- More about document loading options dependent on file type: https://docs.groupdocs.com/display/conversionnet/Load+options+for+different+document+types
 
 ```python
 def __init__(self, file_path, load_options, settings):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to the source document. |
-| load_options | groupdocs.conversion.options.load.LoadOptions | Document load options. |
-| settings | groupdocs.conversion.ConverterSettings | The Converter settings. |
-
-
+| file_path | `str` | The file path to the source document. |
+| load_options | `System.Func`2[[GroupDocs.Conversion.LoadContext, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56],[GroupDocs.Conversion.Options.Load.LoadOptions, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | Delegate that provides load options for the document. Signature: `Func<LoadContext, LoadOptions>`. The `LoadContext` parameter contains information about the document being loaded. |
+| settings | `System.Func`1[[GroupDocs.Conversion.ConverterSettings, GroupDocs.Conversion, Version=26.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56]]` | The Converter settings. |
 
 ### See Also
-* module [`groupdocs.conversion`](../../)
-* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter)
+* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter/)

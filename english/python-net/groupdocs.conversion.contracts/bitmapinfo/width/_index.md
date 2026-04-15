@@ -1,17 +1,18 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/bitmapinfo/width/
+url: /conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/width/
 is_root: false
-weight: 80
+weight: 2040
 ---
+
 
 ## width property
 
+The width of the bitmap.
 
-Gets the width of the bitmap.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def width(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo)
+* class [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/)

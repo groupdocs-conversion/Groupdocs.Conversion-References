@@ -1,18 +1,15 @@
-﻿---
-title: TRIM property
+---
+title: Trim field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/trim/
+url: /conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/trim/
 is_root: false
-weight: 80
+weight: 3030
 ---
 
-## TRIM property
 
-
-Trims leading spaces.
+## Trim field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`TxtLeadingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions)
+* class [`TxtLeadingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/)

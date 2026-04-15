@@ -1,20 +1,18 @@
-﻿---
+---
 title: groupdocs.conversion.caching
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.caching/
+url: /conversion/python-net/groupdocs.conversion.caching/
 is_root: false
-weight: 10
+weight: 20
 ---
 
-The module provides classes for customizing caching behaviour.
+
+Types under `groupdocs.conversion.caching`.
 
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache) | File caching behaviour. Means that cache is stored on the file system |
-| [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache) | Defines methods required for storing rendered document and document resources сache. |
-| [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache) | Memory caching behaviour. Means that cache is stored in the memory |
-
-
+| [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/) | File caching behaviour. Means that cache is stored on the file system. |
+| [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/) | Memory caching behaviour; the cache is stored in memory. |

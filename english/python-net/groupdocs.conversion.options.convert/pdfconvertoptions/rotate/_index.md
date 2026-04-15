@@ -1,17 +1,18 @@
-﻿---
+---
 title: rotate property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/rotate/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/rotate/
 is_root: false
-weight: 200
+weight: 2090
 ---
+
 
 ## rotate property
 
+The page rotation.
 
-Page rotation
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def rotate(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions)
-* class [`Rotation`](/conversion/python-net/groupdocs.conversion.options.convert/rotation)
+* class [`PdfConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/)

@@ -1,19 +1,15 @@
-﻿---
-title: TYPE1 property
+---
+title: Type1 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/fontfiletype/type1/
+url: /conversion/python-net/groupdocs.conversion.filetypes/fontfiletype/type1/
 is_root: false
-weight: 120
+weight: 3050
 ---
 
-## TYPE1 property
 
-
-Type 1 fonts is a deprecated Adobe technology which was widely used in the desktop based publishing software and printers that could use PostScript. Although Type 1 fonts are not supported in many modern platforms, web browsers and mobile operating systems, but these are still supported in some of the operating systems.
-Learn more about this file format [here](https://docs.fileformat.com/font/type1/).
+## Type1 field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`FontFileType`](/conversion/python-net/groupdocs.conversion.filetypes/fontfiletype)
+* class [`FontFileType`](/conversion/python-net/groupdocs.conversion.filetypes/fontfiletype/)

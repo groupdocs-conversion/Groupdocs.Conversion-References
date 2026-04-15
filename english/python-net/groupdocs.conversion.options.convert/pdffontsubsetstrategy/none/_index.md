@@ -1,18 +1,15 @@
-﻿---
-title: none property
+---
+title: None field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/none/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/none/
 is_root: false
-weight: 50
+weight: 3010
 ---
 
-## none property
 
-
-Do not subset fonts
+## None field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfFontSubsetStrategy`](/conversion/python-net/groupdocs.conversion.options.convert/pdffontsubsetstrategy)
+* class [`PdfFontSubsetStrategy`](/conversion/python-net/groupdocs.conversion.options.convert/pdffontsubsetstrategy/)

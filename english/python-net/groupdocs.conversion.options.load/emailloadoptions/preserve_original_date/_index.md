@@ -1,17 +1,18 @@
-﻿---
+---
 title: preserve_original_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/emailloadoptions/preserve_original_date/
+url: /conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/preserve_original_date/
 is_root: false
-weight: 180
+weight: 2210
 ---
+
 
 ## preserve_original_date property
 
+The property determines whether the original date header string in the mail message is preserved when saving (default is True).
 
-Defines whether need to keep original date header string in mail message when saving or not (Default value is true)
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def preserve_original_date(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions)
+* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/)

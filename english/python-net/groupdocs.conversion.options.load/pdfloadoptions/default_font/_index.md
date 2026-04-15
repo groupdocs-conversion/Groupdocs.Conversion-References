@@ -1,17 +1,18 @@
-﻿---
+---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/default_font/
+url: /conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/default_font/
 is_root: false
-weight: 80
+weight: 2050
 ---
+
 
 ## default_font property
 
+The default font for a PDF document, which will be used if a required font is missing.
 
-Default font for Pdf document. The following font will be used if a font is missing.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def default_font(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`PdfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions)
+* class [`PdfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/)

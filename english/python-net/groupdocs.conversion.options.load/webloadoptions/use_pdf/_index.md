@@ -1,17 +1,18 @@
-﻿---
+---
 title: use_pdf property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/webloadoptions/use_pdf/
+url: /conversion/python-net/groupdocs.conversion.options.load/webloadoptions/use_pdf/
 is_root: false
-weight: 120
+weight: 2120
 ---
+
 
 ## use_pdf property
 
+The option to use PDF for the conversion (default is False).
 
-Use pdf for the conversion. Default: false
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def use_pdf(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions)
+* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions/)

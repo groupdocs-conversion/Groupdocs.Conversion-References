@@ -1,19 +1,15 @@
-﻿---
-title: LZMA property
+---
+title: Lzma field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
+url: /conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lzma/
 is_root: false
-weight: 150
+weight: 3130
 ---
 
-## LZMA property
 
-
-A file with .lzma extension is a compressed archive file created using the LZMA (Lempel-Ziv-Markov chain Algorithm) compression method. These are mainly found/used on Unix operating system and are similar to other compression algorithms such as ZIP for minimising file size. 
-Learn more about this file format [here](https://docs.fileformat.com/compression/lzma/).
+## Lzma field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype)
+* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/)

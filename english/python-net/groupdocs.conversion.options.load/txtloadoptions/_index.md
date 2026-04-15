@@ -1,52 +1,40 @@
-﻿---
+---
 title: TxtLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/txtloadoptions/
+url: /conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/
 is_root: false
-weight: 470
+weight: 420
 ---
+
 
 ## TxtLoadOptions class
 
 Options for loading Txt documents.
 
+Font Configuration for Plain Text:
 
-
-**Inheritance:** [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions) → 
-[`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
+Since TXT files don't contain font information, use `DefaultTextFont` to specify the font for rendering the plain text content during conversion.
 
 The TxtLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/__init__/#) | Initializes new instance of [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions) class. |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/__init__/) | Initializes a new instance of [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/). |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/format) | Input document file type. |
-| [detect_numbering_with_whitespaces](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/detect_numbering_with_whitespaces) | Allows to specify how numbered list items are recognized when plain text document is converted.<br/>The default value is true. |
-| [trailing_spaces_options](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/trailing_spaces_options) | Gets or sets preferred option of a trailing space handling.<br/>Default value is [`TxtTrailingSpacesOptions.Trim`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions). |
-| [leading_spaces_options](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/leading_spaces_options) | Gets or sets preferred option of a leading space handling.<br/>Default value is [`TxtLeadingSpacesOptions.ConvertToIndent`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions). |
-| [encoding](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/encoding) | Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null. |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-
-
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/default_font/) | The font used when rendering plain text content during conversion; since TXT files lack font information, this property specifies the display font for the text content (default: Arial 10pt). |
+| [detect_numbering_with_whitespaces](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/detect_numbering_with_whitespaces/) | The property allows specifying how numbered list items are recognized when a plain text document is converted. The default value is True. |
+| [encoding](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/encoding/) | The encoding used when loading a Txt document; can be None (default). |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/format/) | The input document file type. |
+| [leading_spaces_options](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/leading_spaces_options/) | The preferred option for handling leading spaces. Default value is [`TxtLeadingSpacesOptions.convert_to_indent`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/convert_to_indent/). |
+| [margin_settings](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/margin_settings/) | The margin settings. |
+| [size_settings](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/size_settings/) | The size settings as defined by `IPageSizeOptions`. |
+| [trailing_spaces_options](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/trailing_spaces_options/) | The preferred option for handling trailing spaces. Default value is [`TxtTrailingSpacesOptions.trim`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/trim/). |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
-* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

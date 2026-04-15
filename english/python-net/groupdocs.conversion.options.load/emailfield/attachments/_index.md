@@ -1,18 +1,15 @@
-﻿---
-title: ATTACHMENTS property
+---
+title: Attachments field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/emailfield/attachments/
+url: /conversion/python-net/groupdocs.conversion.options.load/emailfield/attachments/
 is_root: false
-weight: 50
+weight: 3020
 ---
 
-## ATTACHMENTS property
 
-
-Default field text is "Attachments".
+## Attachments field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield)
+* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield/)

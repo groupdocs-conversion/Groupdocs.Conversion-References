@@ -1,17 +1,18 @@
-﻿---
+---
 title: dpi property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi/
+url: /conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/dpi/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## dpi property
 
+The desired page DPI after conversion. The default resolution is: 96 dpi.
 
-Desired page DPI after conversion. The default resolution is: 96 dpi.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def dpi(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions)
+* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/)

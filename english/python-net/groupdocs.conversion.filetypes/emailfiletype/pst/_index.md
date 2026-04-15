@@ -1,19 +1,15 @@
-﻿---
-title: PST property
+---
+title: Pst field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/emailfiletype/pst/
+url: /conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/pst/
 is_root: false
-weight: 140
+weight: 3060
 ---
 
-## PST property
 
-
-Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information.
-Learn more about this file format [here](https://wiki.fileformat.com/email/pst).
+## Pst field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype)
+* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/)

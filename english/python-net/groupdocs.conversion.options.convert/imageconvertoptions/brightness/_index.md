@@ -1,17 +1,18 @@
-﻿---
+---
 title: brightness property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/brightness/
+url: /conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/brightness/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## brightness property
 
+The brightness adjustment applied to the image.
 
-Adjusts image brightness.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def brightness(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions)
+* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/)

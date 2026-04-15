@@ -1,61 +1,48 @@
-﻿---
+---
 title: PresentationLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/
+url: /conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/
 is_root: false
-weight: 380
+weight: 320
 ---
+
 
 ## PresentationLoadOptions class
 
 Options for loading Presentation documents.
-
-
-
-**Inheritance:** [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions) → 
-[`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The PresentationLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/__init__/#) | Initializes new instance of [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions) class. |
-
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/format) | Input document file type. |
-| [default_font](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/default_font) | Default font for rendering the presentation. The following font will be used if a presentation font is missing. |
-| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/font_substitutes) | Substitute specific fonts when converting Presentation document. |
-| [password](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/password) | Set password to unprotect protected document. |
-| [hide_comments](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/hide_comments) | Hide comments. |
-| [show_hidden_slides](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/show_hidden_slides) | Show hidden slides. |
-| [skip_external_resources](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/skip_external_resources) | Implements [`IResourceLoadingOptions.skip_external_resources`](/conversion/python-net/groupdocs.conversion.options.load/iresourceloadingoptions#skip_external_resources) |
-| [whitelisted_resources](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/whitelisted_resources) | Implements [`IResourceLoadingOptions.whitelisted_resources`](/conversion/python-net/groupdocs.conversion.options.load/iresourceloadingoptions#whitelisted_resources) |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owner) | Implements [`IDocumentsContainerLoadOptions.convert_owner`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owner)<br/><br/>Default is true |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owned) | Implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owned)<br/><br/>Default is false |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/depth) | Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)<br/><br/>Default: 1 |
-| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/clear_built_in_document_properties) | Removes built-in metadata properties from the document. |
-| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/clear_custom_document_properties) | Removes custom metadata properties from the document. |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/__init__/) | Initializes a new instance of [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/). |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
+| [set_video_connector](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/set_video_connector/#video_connector) | Sets the video document connector. |
 
-
+### Properties
+| Property | Description |
+| :- | :- |
+| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/clear_built_in_document_properties/) | The ClearBuiltInDocumentProperties property. |
+| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/clear_custom_document_properties/) | The flag indicating whether custom document properties are cleared when loading a presentation. |
+| [comments_position](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/comments_position/) | The way comments are printed with the slide. Default is None. |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owned/) | The property implements `IDocumentsContainerLoadOptions.convert_owned` and defaults to False. |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owner/) | The convert_owner property implements `IDocumentsContainerLoadOptions.convert_owner`. Default is True. |
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/default_font/) | The default font used for rendering the presentation when a presentation font is missing. |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/depth/) | The depth of the document container. |
+| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/font_substitutes/) | The font substitutes applied when converting a Presentation document. |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/format/) | The input document file type. |
+| [notes_position](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/notes_position/) | The notes position represents the way notes are printed with the slide. Default is None. |
+| [password](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/password/) | The password used to unprotect a protected document. |
+| [preserve_document_structure](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/preserve_document_structure/) | The property determines whether the document structure should be preserved when converting to PDF (default is False). |
+| [show_hidden_slides](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/show_hidden_slides/) | The flag that shows hidden slides. |
+| [skip_external_resources](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/skip_external_resources/) | The property implements `IResourceLoadingOptions.skip_external_resources`. |
+| [whitelisted_resources](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/whitelisted_resources/) | The whitelisted resources, as defined by `IResourceLoadingOptions.whitelisted_resources`. |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
-* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
-* class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

@@ -1,19 +1,15 @@
-﻿---
-title: MB property
+---
+title: Mb field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/threedfiletype/mb/
+url: /conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/mb/
 is_root: false
-weight: 170
+weight: 3200
 ---
 
-## MB property
 
-
-A file with .mb extension is a binary project file created with Autodesk Maya application. Unlike the MA file format, which is in ASCII file format, MB files are stored in binary file format.
-Learn more about this file format [here](https://docs.fileformat.com/3d/mb).
+## Mb field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype)
+* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/)

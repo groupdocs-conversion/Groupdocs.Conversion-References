@@ -1,49 +1,29 @@
-﻿---
+---
 title: NoConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/noconvertoptions/
+url: /conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/
 is_root: false
-weight: 260
+weight: 190
 ---
+
 
 ## NoConvertOptions class
 
-Special convert option class, which instructs converter to copy source document without any processing
-
-
-
-**Inheritance:** [`NoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions) → 
-[`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
+Special convert option class that instructs the converter to copy the source document without any processing.
 
 The NoConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/__init__/#) | ctor |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/__init__/) | Initializes a new instance of the [`NoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/) class with the default format. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/format) | Overrides the Format property to ensure it is of type FileType. |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-| [clone](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/clone/#) | Clones current options instance. |
-
-
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. (inherited from [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/)) |
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](..)
-* class [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions)
-* class [`NoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: channel_bits_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/psdoptions/channel_bits_count/
+url: /conversion/python-net/groupdocs.conversion.options.convert/psdoptions/channel_bits_count/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## channel_bits_count property
 
+The bits count per color channel.
 
-Bits count per color channel.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def channel_bits_count(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PsdOptions`](/conversion/python-net/groupdocs.conversion.options.convert/psdoptions)
+* class [`PsdOptions`](/conversion/python-net/groupdocs.conversion.options.convert/psdoptions/)

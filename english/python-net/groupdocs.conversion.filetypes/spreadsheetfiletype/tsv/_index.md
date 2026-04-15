@@ -1,19 +1,15 @@
-﻿---
-title: TSV property
+---
+title: Tsv field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/
+url: /conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/
 is_root: false
-weight: 150
+weight: 3100
 ---
 
-## TSV property
 
-
-A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. 
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/tsv).
+## Tsv field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

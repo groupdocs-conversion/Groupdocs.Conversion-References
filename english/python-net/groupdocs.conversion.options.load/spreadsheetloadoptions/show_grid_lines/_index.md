@@ -1,17 +1,18 @@
-﻿---
+---
 title: show_grid_lines property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_grid_lines/
+url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_grid_lines/
 is_root: false
-weight: 260
+weight: 2260
 ---
+
 
 ## show_grid_lines property
 
+The option to show grid lines when converting Excel files.
 
-Show grid lines when converting Excel files.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def show_grid_lines(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

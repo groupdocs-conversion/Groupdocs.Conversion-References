@@ -1,17 +1,18 @@
-﻿---
+---
 title: pdf_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/pdf_options/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/pdf_options/
 is_root: false
-weight: 190
+weight: 2070
 ---
+
 
 ## pdf_options property
 
+The PDF specific convert options.
 
-Pdf specific convert options
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def pdf_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions)
-* class [`PdfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptions)
+* class [`PdfConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/)

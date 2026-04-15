@@ -1,36 +1,28 @@
-﻿---
+---
 title: compare_to method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.contracts/enumeration/compare_to/
+url: /conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## compare_to {#System.Object}
 
-Compares current object to other.
+## compare_to {#obj}
 
-
-### Returns 
-
-
-zero if equal
-
+Compares the current object to another.
 
 ```python
 def compare_to(self, obj):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | System.Object | The other object |
+| obj | `Any` | The other object. |
 
-
+**Returns:** int: zero if equal.
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration)
+* class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)

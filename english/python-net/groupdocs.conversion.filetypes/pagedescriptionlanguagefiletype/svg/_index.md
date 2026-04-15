@@ -1,19 +1,15 @@
-﻿---
-title: SVG property
+---
+title: Svg field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/svg/
+url: /conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/svg/
 is_root: false
-weight: 130
+weight: 3010
 ---
 
-## SVG property
 
-
-An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. 
-Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/svg).
+## Svg field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`PageDescriptionLanguageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype)
+* class [`PageDescriptionLanguageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/)

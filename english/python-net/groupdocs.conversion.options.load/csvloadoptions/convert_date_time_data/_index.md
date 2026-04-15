@@ -1,17 +1,18 @@
-﻿---
+---
 title: convert_date_time_data property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_date_time_data/
+url: /conversion/python-net/groupdocs.conversion.options.load/csvloadoptions/convert_date_time_data/
 is_root: false
-weight: 110
+weight: 2010
 ---
+
 
 ## convert_date_time_data property
 
+The property indicating whether strings in the file are converted to date values (default: True).
 
-Indicates whether the string in the file is converted to date. Default is True.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def convert_date_time_data(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions)
+* class [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions/)

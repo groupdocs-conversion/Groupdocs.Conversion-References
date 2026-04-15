@@ -1,18 +1,20 @@
-﻿---
+---
 title: embed_font_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/
+url: /conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/
 is_root: false
-weight: 50
+weight: 2010
 ---
+
 
 ## embed_font_resources property
 
+The property indicates whether to embed font resources within the main HTML. Default is False.
 
-Specifies whether to embed font resources within the main HTML. Default is false.
-Note: If FixedLayout is set to true, font resources will always be embedded.
+If `FixedLayout` is set to True, font resources will always be embedded.
+
 ### Definition:
 ```python
 @property
@@ -24,5 +26,4 @@ def embed_font_resources(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WebConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions)
+* class [`WebConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/)

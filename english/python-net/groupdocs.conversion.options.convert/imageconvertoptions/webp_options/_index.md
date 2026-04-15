@@ -1,17 +1,18 @@
-﻿---
+---
 title: webp_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/webp_options/
+url: /conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/webp_options/
 is_root: false
-weight: 240
+weight: 2160
 ---
+
 
 ## webp_options property
 
+The Webp specific convert options.
 
-Webp specific convert options.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def webp_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions)
-* class [`WebpOptions`](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions)
+* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/)

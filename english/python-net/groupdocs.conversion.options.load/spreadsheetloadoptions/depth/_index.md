@@ -1,19 +1,18 @@
-﻿---
+---
 title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/depth/
+url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/depth/
 is_root: false
-weight: 160
+weight: 2120
 ---
+
 
 ## depth property
 
+The depth of the spreadsheet load options, implementing `IDocumentsContainerLoadOptions.depth`; default is 1.
 
-Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)
-
-Default: 1
 ### Definition:
 ```python
 @property
@@ -25,5 +24,4 @@ def depth(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

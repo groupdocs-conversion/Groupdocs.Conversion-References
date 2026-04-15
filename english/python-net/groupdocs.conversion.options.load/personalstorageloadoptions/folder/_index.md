@@ -1,18 +1,18 @@
-﻿---
+---
 title: folder property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.load/personalstorageloadoptions/folder/
+url: /conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/folder/
 is_root: false
-weight: 80
+weight: 2040
 ---
+
 
 ## folder property
 
+The folder to be processed. Default is Inbox.
 
-Folder which to be processed
-Default is Inbox
 ### Definition:
 ```python
 @property
@@ -24,5 +24,4 @@ def folder(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions)
+* class [`PersonalStorageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/personalstorageloadoptions/)

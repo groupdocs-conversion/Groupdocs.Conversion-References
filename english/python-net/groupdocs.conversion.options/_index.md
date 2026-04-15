@@ -1,12 +1,23 @@
-﻿---
+---
 title: groupdocs.conversion.options
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options/
+url: /conversion/python-net/groupdocs.conversion.options/
 is_root: false
-weight: 10
+weight: 60
 ---
 
-The module provides classes to specify additional options for document loading and conversion process.
 
+Option classes for configuring conversions and operations.
+
+### Classes
+| Class | Description |
+| :- | :- |
+| [`PageMarginOptions`](/conversion/python-net/groupdocs.conversion.options/pagemarginoptions/) | Represents options that support page margins. |
+| [`PageSizeOptions`](/conversion/python-net/groupdocs.conversion.options/pagesizeoptions/) | Represents options that support page size. |
+
+### Enumerations
+| Enum | Description |
+| :- | :- |
+| [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/) | Specifies page size. |

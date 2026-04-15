@@ -1,17 +1,18 @@
-﻿---
+---
 title: image_quality property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/image_quality/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/image_quality/
 is_root: false
-weight: 60
+weight: 2030
 ---
+
 
 ## image_quality property
 
+The image quality as a percentage, where 100% represents unchanged quality and image size; set to less than 100 to decrease the image size.
 
-Value in percent where 100% is unchanged quality and image size. To decrease the image size set this property to less than 100
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def image_quality(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfOptimizationOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions)
+* class [`PdfOptimizationOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/)

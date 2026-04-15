@@ -1,19 +1,15 @@
-﻿---
-title: VSS property
+---
+title: Vss field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.filetypes/diagramfiletype/vss/
+url: /conversion/python-net/groupdocs.conversion.filetypes/diagramfiletype/vss/
 is_root: false
-weight: 140
+weight: 3030
 ---
 
-## VSS property
 
-
-VSS are stencil files created with Microsoft Visio 2007 and earlier. Stencil files provide drawing objects that can be included in a .VSD Visio drawing.
-Learn more about this file format [here](https://wiki.fileformat.com/image/vss).
+## Vss field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`DiagramFileType`](/conversion/python-net/groupdocs.conversion.filetypes/diagramfiletype)
+* class [`DiagramFileType`](/conversion/python-net/groupdocs.conversion.filetypes/diagramfiletype/)

@@ -1,29 +1,22 @@
-﻿---
-title: PageDescriptionLanguageConvertOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/__init__/
+url: /conversion/python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/__init__/
 is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`PageDescriptionLanguageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype) class.
+## __init__
 
-
+Initializes a new instance of the [`PageDescriptionLanguageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/).
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PageDescriptionLanguageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions)
-* class [`PageDescriptionLanguageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype)
+* class [`PageDescriptionLanguageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/)
