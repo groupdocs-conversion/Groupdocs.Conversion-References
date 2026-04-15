@@ -3,7 +3,7 @@ title: groupdocs.conversion.options.load
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/
+url: /python-net/groupdocs.conversion.options.load/
 is_root: false
 weight: 80
 ---

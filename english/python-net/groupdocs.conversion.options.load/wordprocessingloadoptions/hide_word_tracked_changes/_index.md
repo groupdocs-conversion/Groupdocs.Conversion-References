@@ -3,7 +3,7 @@ title: hide_word_tracked_changes property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/hide_word_tracked_changes/
+url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/hide_word_tracked_changes/
 is_root: false
 weight: 2160
 ---

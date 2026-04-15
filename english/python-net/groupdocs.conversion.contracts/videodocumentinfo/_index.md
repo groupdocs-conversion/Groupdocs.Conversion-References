@@ -3,7 +3,7 @@ title: VideoDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/videodocumentinfo/
 is_root: false
 weight: 630
 ---

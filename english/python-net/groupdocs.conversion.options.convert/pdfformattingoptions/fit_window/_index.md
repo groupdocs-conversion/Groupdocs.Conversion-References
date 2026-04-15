@@ -3,7 +3,7 @@ title: fit_window property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/fit_window/
+url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/fit_window/
 is_root: false
 weight: 2040
 ---

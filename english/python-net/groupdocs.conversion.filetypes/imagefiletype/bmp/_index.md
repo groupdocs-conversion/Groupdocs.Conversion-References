@@ -3,7 +3,7 @@ title: Bmp field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/bmp/
+url: /python-net/groupdocs.conversion.filetypes/imagefiletype/bmp/
 is_root: false
 weight: 3070
 ---

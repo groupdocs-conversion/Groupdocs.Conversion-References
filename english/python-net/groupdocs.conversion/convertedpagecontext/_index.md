@@ -3,7 +3,7 @@ title: ConvertedPageContext class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/convertedpagecontext/
+url: /python-net/groupdocs.conversion/convertedpagecontext/
 is_root: false
 weight: 60
 ---

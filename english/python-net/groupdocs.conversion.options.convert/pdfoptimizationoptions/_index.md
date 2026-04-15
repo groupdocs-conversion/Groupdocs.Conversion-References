@@ -3,7 +3,7 @@ title: PdfOptimizationOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
+url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 is_root: false
 weight: 290
 ---

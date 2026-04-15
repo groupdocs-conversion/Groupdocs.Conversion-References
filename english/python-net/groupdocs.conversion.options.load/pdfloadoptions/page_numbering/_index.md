@@ -3,7 +3,7 @@ title: page_numbering property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/page_numbering/
+url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/page_numbering/
 is_root: false
 weight: 2120
 ---

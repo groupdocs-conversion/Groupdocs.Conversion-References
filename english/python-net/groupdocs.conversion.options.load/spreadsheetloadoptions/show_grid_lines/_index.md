@@ -3,7 +3,7 @@ title: show_grid_lines property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_grid_lines/
+url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/show_grid_lines/
 is_root: false
 weight: 2260
 ---

@@ -3,7 +3,7 @@ title: PresentationCommentsPosition class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/presentationcommentsposition/
+url: /python-net/groupdocs.conversion.options.load/presentationcommentsposition/
 is_root: false
 weight: 310
 ---

@@ -3,7 +3,7 @@ title: compress_images property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/compress_images/
+url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/compress_images/
 is_root: false
 weight: 2010
 ---

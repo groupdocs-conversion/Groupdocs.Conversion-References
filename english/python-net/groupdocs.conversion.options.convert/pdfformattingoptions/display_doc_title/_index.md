@@ -3,7 +3,7 @@ title: display_doc_title property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/display_doc_title/
+url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/display_doc_title/
 is_root: false
 weight: 2030
 ---

@@ -3,7 +3,7 @@ title: FontLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/fontloadoptions/
+url: /python-net/groupdocs.conversion.options.load/fontloadoptions/
 is_root: false
 weight: 150
 ---

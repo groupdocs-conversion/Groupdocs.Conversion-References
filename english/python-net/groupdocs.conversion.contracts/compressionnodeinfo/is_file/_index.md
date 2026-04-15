@@ -3,7 +3,7 @@ title: is_file property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/is_file/
+url: /python-net/groupdocs.conversion.contracts/compressionnodeinfo/is_file/
 is_root: false
 weight: 2030
 ---

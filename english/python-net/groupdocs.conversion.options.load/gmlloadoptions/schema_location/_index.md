@@ -3,7 +3,7 @@ title: schema_location property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/gmlloadoptions/schema_location/
+url: /python-net/groupdocs.conversion.options.load/gmlloadoptions/schema_location/
 is_root: false
 weight: 2040
 ---

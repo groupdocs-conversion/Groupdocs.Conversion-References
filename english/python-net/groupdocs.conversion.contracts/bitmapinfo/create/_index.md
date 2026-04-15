@@ -3,7 +3,7 @@ title: create method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/create/
+url: /python-net/groupdocs.conversion.contracts/bitmapinfo/create/
 is_root: false
 weight: 1010
 ---

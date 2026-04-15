@@ -3,7 +3,7 @@ title: encoding property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding/
+url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding/
 is_root: false
 weight: 2010
 ---

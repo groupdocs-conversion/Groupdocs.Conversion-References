@@ -3,7 +3,7 @@ title: SaveContext class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/savecontext/
+url: /python-net/groupdocs.conversion/savecontext/
 is_root: false
 weight: 220
 ---

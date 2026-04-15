@@ -3,7 +3,7 @@ title: preserve_original_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/preserve_original_date/
+url: /python-net/groupdocs.conversion.options.load/emailloadoptions/preserve_original_date/
 is_root: false
 weight: 2210
 ---

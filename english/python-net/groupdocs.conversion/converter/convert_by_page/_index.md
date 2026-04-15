@@ -3,7 +3,7 @@ title: convert_by_page method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/converter/convert_by_page/
+url: /python-net/groupdocs.conversion/converter/convert_by_page/
 is_root: false
 weight: 1020
 ---

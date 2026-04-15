@@ -3,7 +3,7 @@ title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/pages_count/
+url: /python-net/groupdocs.conversion.options.convert/financeconvertoptions/pages_count/
 is_root: false
 weight: 2020
 ---

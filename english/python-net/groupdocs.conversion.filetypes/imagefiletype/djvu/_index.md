@@ -3,7 +3,7 @@ title: DjVu field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/djvu/
+url: /python-net/groupdocs.conversion.filetypes/imagefiletype/djvu/
 is_root: false
 weight: 3280
 ---

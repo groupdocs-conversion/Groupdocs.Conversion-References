@@ -3,7 +3,7 @@ title: display_cc_email_address property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/display_cc_email_address/
+url: /python-net/groupdocs.conversion.options.load/emailloadoptions/display_cc_email_address/
 is_root: false
 weight: 2090
 ---

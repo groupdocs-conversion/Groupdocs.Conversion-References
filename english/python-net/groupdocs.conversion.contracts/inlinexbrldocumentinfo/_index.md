@@ -3,7 +3,7 @@ title: InlineXbrlDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/inlinexbrldocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/inlinexbrldocumentinfo/
 is_root: false
 weight: 250
 ---

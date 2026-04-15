@@ -3,7 +3,7 @@ title: PdfX_1A field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformats/pdfx_1a/
+url: /python-net/groupdocs.conversion.options.convert/pdfformats/pdfx_1a/
 is_root: false
 weight: 3150
 ---

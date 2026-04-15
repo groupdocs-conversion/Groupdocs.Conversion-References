@@ -3,7 +3,7 @@ title: PdfFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/pdffiletype/
+url: /python-net/groupdocs.conversion.filetypes/pdffiletype/
 is_root: false
 weight: 150
 ---

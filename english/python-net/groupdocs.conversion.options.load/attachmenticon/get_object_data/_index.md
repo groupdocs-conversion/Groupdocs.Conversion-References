@@ -3,7 +3,7 @@ title: get_object_data method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/attachmenticon/get_object_data/
+url: /python-net/groupdocs.conversion.options.load/attachmenticon/get_object_data/
 is_root: false
 weight: 1010
 ---

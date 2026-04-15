@@ -3,7 +3,7 @@ title: left property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/left/
+url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/left/
 is_root: false
 weight: 2040
 ---

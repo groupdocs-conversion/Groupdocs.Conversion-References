@@ -3,7 +3,7 @@ title: update_fields property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/update_fields/
+url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/update_fields/
 is_root: false
 weight: 2270
 ---

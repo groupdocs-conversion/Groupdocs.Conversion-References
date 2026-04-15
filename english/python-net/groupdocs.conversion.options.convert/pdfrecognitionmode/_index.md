@@ -3,7 +3,7 @@ title: PdfRecognitionMode class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/
+url: /python-net/groupdocs.conversion.options.convert/pdfrecognitionmode/
 is_root: false
 weight: 330
 ---

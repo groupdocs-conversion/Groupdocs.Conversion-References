@@ -3,7 +3,7 @@ title: On90 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/rotation/on90/
+url: /python-net/groupdocs.conversion.options.convert/rotation/on90/
 is_root: false
 weight: 3020
 ---

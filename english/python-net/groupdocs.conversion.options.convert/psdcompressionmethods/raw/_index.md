@@ -3,7 +3,7 @@ title: Raw field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/raw/
+url: /python-net/groupdocs.conversion.options.convert/psdcompressionmethods/raw/
 is_root: false
 weight: 3010
 ---

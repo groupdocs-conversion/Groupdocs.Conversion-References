@@ -3,7 +3,7 @@ title: Pot field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pot/
+url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/pot/
 is_root: false
 weight: 3080
 ---

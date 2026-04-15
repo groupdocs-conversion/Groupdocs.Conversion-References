@@ -3,7 +3,7 @@ title: WebConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/
+url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/
 is_root: false
 weight: 490
 ---

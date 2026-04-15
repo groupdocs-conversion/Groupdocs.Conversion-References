@@ -3,7 +3,7 @@ title: U3d field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/u3d/
+url: /python-net/groupdocs.conversion.filetypes/threedfiletype/u3d/
 is_root: false
 weight: 3130
 ---

@@ -3,7 +3,7 @@ title: ConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/convertoptions/
+url: /python-net/groupdocs.conversion.options.convert/convertoptions/
 is_root: false
 weight: 50
 ---

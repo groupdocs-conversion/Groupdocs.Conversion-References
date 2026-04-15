@@ -3,7 +3,7 @@ title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/
+url: /python-net/groupdocs.conversion.contracts/documentinfo/pages_count/
 is_root: false
 weight: 2040
 ---

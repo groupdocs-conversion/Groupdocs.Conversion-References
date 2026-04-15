@@ -3,7 +3,7 @@ title: table_of_contents property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/table_of_contents/
+url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/table_of_contents/
 is_root: false
 weight: 2050
 ---

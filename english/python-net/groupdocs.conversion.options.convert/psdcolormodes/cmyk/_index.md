@@ -3,7 +3,7 @@ title: Cmyk field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/cmyk/
+url: /python-net/groupdocs.conversion.options.convert/psdcolormodes/cmyk/
 is_root: false
 weight: 3050
 ---

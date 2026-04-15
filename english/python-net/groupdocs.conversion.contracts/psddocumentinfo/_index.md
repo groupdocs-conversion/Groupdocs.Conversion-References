@@ -3,7 +3,7 @@ title: PsdDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/psddocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/psddocumentinfo/
 is_root: false
 weight: 460
 ---

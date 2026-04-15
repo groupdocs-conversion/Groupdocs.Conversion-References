@@ -3,7 +3,7 @@ title: hide_tool_bar property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_tool_bar/
+url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_tool_bar/
 is_root: false
 weight: 2060
 ---

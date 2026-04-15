@@ -3,7 +3,7 @@ title: FileTypeNotSupportedException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/filetypenotsupportedexception/
+url: /python-net/groupdocs.conversion/filetypenotsupportedexception/
 is_root: false
 weight: 100
 ---

@@ -3,7 +3,7 @@ title: InvalidConverterSettingsException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/invalidconvertersettingsexception/
+url: /python-net/groupdocs.conversion/invalidconvertersettingsexception/
 is_root: false
 weight: 160
 ---

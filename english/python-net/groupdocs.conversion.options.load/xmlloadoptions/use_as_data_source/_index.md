@@ -3,7 +3,7 @@ title: use_as_data_source property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/xmlloadoptions/use_as_data_source/
+url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/use_as_data_source/
 is_root: false
 weight: 2020
 ---

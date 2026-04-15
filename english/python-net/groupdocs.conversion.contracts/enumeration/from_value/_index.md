@@ -3,7 +3,7 @@ title: from_value method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/
+url: /python-net/groupdocs.conversion.contracts/enumeration/from_value/
 is_root: false
 weight: 1030
 ---

@@ -3,7 +3,7 @@ title: page_number property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_number/
+url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_number/
 is_root: false
 weight: 2020
 ---

@@ -3,7 +3,7 @@ title: hide_window_ui property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_window_ui/
+url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_window_ui/
 is_root: false
 weight: 2070
 ---

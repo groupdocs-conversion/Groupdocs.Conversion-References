@@ -3,7 +3,7 @@ title: keywords property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/keywords/
+url: /python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/keywords/
 is_root: false
 weight: 2050
 ---

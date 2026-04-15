@@ -3,7 +3,7 @@ title: Font class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/font/
+url: /python-net/groupdocs.conversion.options.convert/font/
 is_root: false
 weight: 100
 ---

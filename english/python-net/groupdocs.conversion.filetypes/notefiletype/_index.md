@@ -3,7 +3,7 @@ title: NoteFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/notefiletype/
+url: /python-net/groupdocs.conversion.filetypes/notefiletype/
 is_root: false
 weight: 130
 ---

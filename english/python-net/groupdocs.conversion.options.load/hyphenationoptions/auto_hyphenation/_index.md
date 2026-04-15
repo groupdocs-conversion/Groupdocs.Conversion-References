@@ -3,7 +3,7 @@ title: auto_hyphenation property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions/auto_hyphenation/
+url: /python-net/groupdocs.conversion.options.load/hyphenationoptions/auto_hyphenation/
 is_root: false
 weight: 2010
 ---

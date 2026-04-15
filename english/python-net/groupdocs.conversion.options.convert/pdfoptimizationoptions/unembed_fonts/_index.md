@@ -3,7 +3,7 @@ title: unembed_fonts property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/unembed_fonts/
+url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/unembed_fonts/
 is_root: false
 weight: 2070
 ---

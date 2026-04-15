@@ -3,7 +3,7 @@ title: vertical_resolution property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo/vertical_resolution/
+url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/vertical_resolution/
 is_root: false
 weight: 2030
 ---

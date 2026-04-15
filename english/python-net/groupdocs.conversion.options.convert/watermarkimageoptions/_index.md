@@ -3,7 +3,7 @@ title: WatermarkImageOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkimageoptions/
+url: /python-net/groupdocs.conversion.options.convert/watermarkimageoptions/
 is_root: false
 weight: 460
 ---

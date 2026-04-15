@@ -3,7 +3,7 @@ title: embed_font_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/
+url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/
 is_root: false
 weight: 2010
 ---

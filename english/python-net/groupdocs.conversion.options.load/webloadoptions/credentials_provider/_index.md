@@ -3,7 +3,7 @@ title: credentials_provider property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/webloadoptions/credentials_provider/
+url: /python-net/groupdocs.conversion.options.load/webloadoptions/credentials_provider/
 is_root: false
 weight: 2030
 ---

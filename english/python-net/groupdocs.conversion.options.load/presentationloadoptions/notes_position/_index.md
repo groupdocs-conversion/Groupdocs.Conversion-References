@@ -3,7 +3,7 @@ title: notes_position property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/notes_position/
+url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/notes_position/
 is_root: false
 weight: 2100
 ---

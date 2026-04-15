@@ -3,7 +3,7 @@ title: MemoryCache class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.caching/memorycache/
+url: /python-net/groupdocs.conversion.caching/memorycache/
 is_root: false
 weight: 20
 ---

@@ -3,7 +3,7 @@ title: Converter class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/converter/
+url: /python-net/groupdocs.conversion/converter/
 is_root: false
 weight: 70
 ---

@@ -3,7 +3,7 @@ title: UueDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/uuedocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/uuedocumentinfo/
 is_root: false
 weight: 600
 ---

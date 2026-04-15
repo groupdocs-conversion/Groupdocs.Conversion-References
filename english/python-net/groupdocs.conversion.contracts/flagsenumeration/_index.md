@@ -3,7 +3,7 @@ title: FlagsEnumeration class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/
+url: /python-net/groupdocs.conversion.contracts/flagsenumeration/
 is_root: false
 weight: 160
 ---

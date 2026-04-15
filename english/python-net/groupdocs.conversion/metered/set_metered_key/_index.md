@@ -3,7 +3,7 @@ title: set_metered_key method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/metered/set_metered_key/
+url: /python-net/groupdocs.conversion/metered/set_metered_key/
 is_root: false
 weight: 1030
 ---

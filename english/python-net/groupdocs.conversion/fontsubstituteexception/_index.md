@@ -3,7 +3,7 @@ title: FontSubstituteException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/fontsubstituteexception/
+url: /python-net/groupdocs.conversion/fontsubstituteexception/
 is_root: false
 weight: 120
 ---

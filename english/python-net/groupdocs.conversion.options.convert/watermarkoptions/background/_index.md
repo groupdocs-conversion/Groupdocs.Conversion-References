@@ -3,7 +3,7 @@ title: background property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions/background/
+url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/background/
 is_root: false
 weight: 2020
 ---

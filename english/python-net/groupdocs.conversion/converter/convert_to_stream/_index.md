@@ -3,7 +3,7 @@ title: convert_to_stream method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/converter/convert_to_stream/
+url: /python-net/groupdocs.conversion/converter/convert_to_stream/
 is_root: false
 weight: 1030
 ---

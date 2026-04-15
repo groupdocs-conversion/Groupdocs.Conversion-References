@@ -3,7 +3,7 @@ title: SpreadsheetFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/
+url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/
 is_root: false
 weight: 190
 ---

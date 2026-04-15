@@ -3,7 +3,7 @@ title: skip_headers property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_headers/
+url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_headers/
 is_root: false
 weight: 2320
 ---

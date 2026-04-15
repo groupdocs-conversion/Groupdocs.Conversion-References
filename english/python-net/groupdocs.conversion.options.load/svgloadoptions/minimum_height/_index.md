@@ -3,7 +3,7 @@ title: minimum_height property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/svgloadoptions/minimum_height/
+url: /python-net/groupdocs.conversion.options.load/svgloadoptions/minimum_height/
 is_root: false
 weight: 2030
 ---

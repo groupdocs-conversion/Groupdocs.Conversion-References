@@ -3,7 +3,7 @@ title: remove_unused_objects property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/remove_unused_objects/
+url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/remove_unused_objects/
 is_root: false
 weight: 2050
 ---

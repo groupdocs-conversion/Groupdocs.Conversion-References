@@ -3,7 +3,7 @@ title: PdfDirection class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfdirection/
+url: /python-net/groupdocs.conversion.options.convert/pdfdirection/
 is_root: false
 weight: 240
 ---

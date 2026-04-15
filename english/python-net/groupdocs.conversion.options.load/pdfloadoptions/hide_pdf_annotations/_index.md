@@ -3,7 +3,7 @@ title: hide_pdf_annotations property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/hide_pdf_annotations/
+url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/hide_pdf_annotations/
 is_root: false
 weight: 2110
 ---

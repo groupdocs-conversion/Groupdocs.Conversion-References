@@ -3,7 +3,7 @@ title: hyphenate_caps property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions/hyphenate_caps/
+url: /python-net/groupdocs.conversion.options.load/hyphenationoptions/hyphenate_caps/
 is_root: false
 weight: 2020
 ---

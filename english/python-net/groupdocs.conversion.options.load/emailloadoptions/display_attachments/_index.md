@@ -3,7 +3,7 @@ title: display_attachments property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/display_attachments/
+url: /python-net/groupdocs.conversion.options.load/emailloadoptions/display_attachments/
 is_root: false
 weight: 2070
 ---

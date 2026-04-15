@@ -3,7 +3,7 @@ title: ThreeDDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/threeddocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/threeddocumentinfo/
 is_root: false
 weight: 570
 ---

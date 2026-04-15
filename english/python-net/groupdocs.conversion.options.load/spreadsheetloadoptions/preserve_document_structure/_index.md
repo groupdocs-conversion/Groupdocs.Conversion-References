@@ -3,7 +3,7 @@ title: preserve_document_structure property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/preserve_document_structure/
+url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/preserve_document_structure/
 is_root: false
 weight: 2200
 ---

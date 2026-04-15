@@ -3,7 +3,7 @@ title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/width/
+url: /python-net/groupdocs.conversion.contracts/bitmapinfo/width/
 is_root: false
 weight: 2040
 ---

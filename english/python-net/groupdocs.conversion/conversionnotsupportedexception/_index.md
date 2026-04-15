@@ -3,7 +3,7 @@ title: ConversionNotSupportedException class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/conversionnotsupportedexception/
+url: /python-net/groupdocs.conversion/conversionnotsupportedexception/
 is_root: false
 weight: 30
 ---

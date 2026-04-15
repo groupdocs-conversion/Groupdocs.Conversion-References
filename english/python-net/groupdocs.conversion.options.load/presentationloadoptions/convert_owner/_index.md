@@ -3,7 +3,7 @@ title: convert_owner property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owner/
+url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owner/
 is_root: false
 weight: 2050
 ---

@@ -3,7 +3,7 @@ title: show_hidden_slides property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/show_hidden_slides/
+url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/show_hidden_slides/
 is_root: false
 weight: 2130
 ---

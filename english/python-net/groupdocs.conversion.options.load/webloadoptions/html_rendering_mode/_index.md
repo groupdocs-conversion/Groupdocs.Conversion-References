@@ -3,7 +3,7 @@ title: html_rendering_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/webloadoptions/html_rendering_mode/
+url: /python-net/groupdocs.conversion.options.load/webloadoptions/html_rendering_mode/
 is_root: false
 weight: 2070
 ---

@@ -3,7 +3,7 @@ title: PclLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/pclloadoptions/
+url: /python-net/groupdocs.conversion.options.load/pclloadoptions/
 is_root: false
 weight: 280
 ---

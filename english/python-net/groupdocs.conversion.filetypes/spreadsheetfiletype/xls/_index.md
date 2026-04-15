@@ -3,7 +3,7 @@ title: Xls field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/
+url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/
 is_root: false
 weight: 3010
 ---

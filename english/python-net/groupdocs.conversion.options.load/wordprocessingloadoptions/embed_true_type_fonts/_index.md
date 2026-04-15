@@ -3,7 +3,7 @@ title: embed_true_type_fonts property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/embed_true_type_fonts/
+url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/embed_true_type_fonts/
 is_root: false
 weight: 2090
 ---

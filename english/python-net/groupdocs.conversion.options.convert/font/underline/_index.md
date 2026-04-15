@@ -3,7 +3,7 @@ title: underline property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/font/underline/
+url: /python-net/groupdocs.conversion.options.convert/font/underline/
 is_root: false
 weight: 2050
 ---

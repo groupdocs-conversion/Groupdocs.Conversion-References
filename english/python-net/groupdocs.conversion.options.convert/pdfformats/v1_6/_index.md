@@ -3,7 +3,7 @@ title: v1_6 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformats/v1_6/
+url: /python-net/groupdocs.conversion.options.convert/pdfformats/v1_6/
 is_root: false
 weight: 3130
 ---

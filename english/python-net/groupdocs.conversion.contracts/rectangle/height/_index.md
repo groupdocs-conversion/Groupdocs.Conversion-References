@@ -3,7 +3,7 @@ title: height property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/rectangle/height/
+url: /python-net/groupdocs.conversion.contracts/rectangle/height/
 is_root: false
 weight: 2020
 ---

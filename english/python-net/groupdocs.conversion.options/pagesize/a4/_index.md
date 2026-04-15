@@ -3,7 +3,7 @@ title: A4 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options/pagesize/a4/
+url: /python-net/groupdocs.conversion.options/pagesize/a4/
 is_root: false
 weight: 3020
 ---

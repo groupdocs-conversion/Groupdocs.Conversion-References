@@ -3,7 +3,7 @@ title: match_any_style property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/fonttransformation/match_any_style/
+url: /python-net/groupdocs.conversion.contracts/fonttransformation/match_any_style/
 is_root: false
 weight: 2020
 ---

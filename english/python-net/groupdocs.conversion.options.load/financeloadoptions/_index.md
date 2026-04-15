@@ -3,7 +3,7 @@ title: FinanceLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/financeloadoptions/
+url: /python-net/groupdocs.conversion.options.load/financeloadoptions/
 is_root: false
 weight: 140
 ---

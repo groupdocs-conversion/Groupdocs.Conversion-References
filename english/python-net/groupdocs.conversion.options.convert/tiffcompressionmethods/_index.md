@@ -3,7 +3,7 @@ title: TiffCompressionMethods class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/
+url: /python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/
 is_root: false
 weight: 430
 ---

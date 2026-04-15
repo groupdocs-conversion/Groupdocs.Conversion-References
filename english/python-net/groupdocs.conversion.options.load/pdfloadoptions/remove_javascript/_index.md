@@ -3,7 +3,7 @@ title: remove_javascript property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_javascript/
+url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_javascript/
 is_root: false
 weight: 2150
 ---

@@ -3,7 +3,7 @@ title: show_full_commenter_name property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/show_full_commenter_name/
+url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/show_full_commenter_name/
 is_root: false
 weight: 2240
 ---

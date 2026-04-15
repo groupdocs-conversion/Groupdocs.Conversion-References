@@ -3,7 +3,7 @@ title: Otp field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/otp/
+url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/otp/
 is_root: false
 weight: 3060
 ---

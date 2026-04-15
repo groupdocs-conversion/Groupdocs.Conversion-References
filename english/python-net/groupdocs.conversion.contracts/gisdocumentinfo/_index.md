@@ -3,7 +3,7 @@ title: GisDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/gisdocumentinfo/
+url: /python-net/groupdocs.conversion.contracts/gisdocumentinfo/
 is_root: false
 weight: 200
 ---

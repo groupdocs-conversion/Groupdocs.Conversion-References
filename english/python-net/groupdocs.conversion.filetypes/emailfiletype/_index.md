@@ -3,7 +3,7 @@ title: EmailFileType class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/
+url: /python-net/groupdocs.conversion.filetypes/emailfiletype/
 is_root: false
 weight: 70
 ---

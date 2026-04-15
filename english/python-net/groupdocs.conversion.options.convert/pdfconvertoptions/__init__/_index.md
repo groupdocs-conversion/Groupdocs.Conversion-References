@@ -3,7 +3,7 @@ title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/__init__/
+url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/__init__/
 is_root: false
 weight: 10
 ---

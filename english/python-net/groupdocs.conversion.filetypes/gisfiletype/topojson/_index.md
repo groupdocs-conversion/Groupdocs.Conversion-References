@@ -3,7 +3,7 @@ title: TopoJson field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/gisfiletype/topojson/
+url: /python-net/groupdocs.conversion.filetypes/gisfiletype/topojson/
 is_root: false
 weight: 3070
 ---

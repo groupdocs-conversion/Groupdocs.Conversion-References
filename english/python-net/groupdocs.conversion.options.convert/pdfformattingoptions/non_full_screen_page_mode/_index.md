@@ -3,7 +3,7 @@ title: non_full_screen_page_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/pdfformattingoptions/non_full_screen_page_mode/
+url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/non_full_screen_page_mode/
 is_root: false
 weight: 2080
 ---

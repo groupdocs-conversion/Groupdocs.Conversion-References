@@ -3,7 +3,7 @@ title: Ppsx field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/
+url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/
 is_root: false
 weight: 3040
 ---

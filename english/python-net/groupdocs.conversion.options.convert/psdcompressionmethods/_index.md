@@ -3,7 +3,7 @@ title: PsdCompressionMethods class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/
+url: /python-net/groupdocs.conversion.options.convert/psdcompressionmethods/
 is_root: false
 weight: 370
 ---

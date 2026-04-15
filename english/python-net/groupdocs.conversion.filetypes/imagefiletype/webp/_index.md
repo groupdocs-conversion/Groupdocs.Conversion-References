@@ -3,7 +3,7 @@ title: Webp field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/webp/
+url: /python-net/groupdocs.conversion.filetypes/imagefiletype/webp/
 is_root: false
 weight: 3140
 ---

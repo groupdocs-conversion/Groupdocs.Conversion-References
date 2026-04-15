@@ -3,7 +3,7 @@ title: on_compression_completed property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion/convertersettings/on_compression_completed/
+url: /python-net/groupdocs.conversion/convertersettings/on_compression_completed/
 is_root: false
 weight: 2050
 ---

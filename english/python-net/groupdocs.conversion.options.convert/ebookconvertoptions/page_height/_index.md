@@ -3,7 +3,7 @@ title: page_height property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_height/
+url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_height/
 is_root: false
 weight: 2030
 ---

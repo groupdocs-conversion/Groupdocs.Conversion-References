@@ -3,7 +3,7 @@ title: is_signed property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.contracts/emaildocumentinfo/is_signed/
+url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/is_signed/
 is_root: false
 weight: 2050
 ---

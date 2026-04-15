@@ -3,7 +3,7 @@ title: GisLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
-url: /conversion/python-net/groupdocs.conversion.options.load/gisloadoptions/
+url: /python-net/groupdocs.conversion.options.load/gisloadoptions/
 is_root: false
 weight: 160
 ---
