@@ -1,5 +1,5 @@
-﻿---
-title: MemoryCache constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Creates new instance of MemoryCache class
+## __init__
 
-
+Initializes a new instance of the MemoryCache class.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache)
+* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/)

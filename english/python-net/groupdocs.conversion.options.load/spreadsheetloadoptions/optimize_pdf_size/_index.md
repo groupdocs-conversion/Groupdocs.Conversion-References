@@ -1,17 +1,18 @@
-﻿---
+---
 title: optimize_pdf_size property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/optimize_pdf_size/
 is_root: false
-weight: 210
+weight: 2180
 ---
+
 
 ## optimize_pdf_size property
 
+The conversion is optimized for better file size than print quality when set to True and converting to PDF.
 
-If True and converting to Pdf the conversion is optimized for better file size than print quality.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def optimize_pdf_size(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

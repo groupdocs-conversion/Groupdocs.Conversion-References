@@ -1,17 +1,18 @@
-﻿---
+---
 title: grayscale property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptions/grayscale/
 is_root: false
-weight: 60
+weight: 2030
 ---
+
 
 ## grayscale property
 
+The PDF is converted from RGB colorspace to grayscale.
 
-Convert a PDF from RGB colorspace to grayscale
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def grayscale(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptions)
+* class [`PdfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptions/)

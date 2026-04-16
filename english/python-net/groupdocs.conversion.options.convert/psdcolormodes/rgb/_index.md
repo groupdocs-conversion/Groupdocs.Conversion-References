@@ -1,18 +1,15 @@
-﻿---
-title: RGB property
+---
+title: Rgb field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdcolormodes/rgb/
 is_root: false
-weight: 130
+weight: 3040
 ---
 
-## RGB property
 
-
-RGB.
+## Rgb field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PsdColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes)
+* class [`PsdColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/)

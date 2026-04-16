@@ -1,19 +1,15 @@
-﻿---
-title: AZW3 property
+---
+title: Azw3 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/ebookfiletype/azw3/
 is_root: false
-weight: 80
+weight: 3030
 ---
 
-## AZW3 property
 
-
-AZW3, also known as Kindle Format 8 (KF8), is the modified version of the AZW ebook digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW.
-Learn more about this file format [here](https://docs.fileformat.com/ebook/azw3/).
+## Azw3 field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EBookFileType`](/conversion/python-net/groupdocs.conversion.filetypes/ebookfiletype)
+* class [`EBookFileType`](/conversion/python-net/groupdocs.conversion.filetypes/ebookfiletype/)

@@ -1,18 +1,15 @@
-﻿---
-title: BASELINE property
+---
+title: Baseline field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/baseline/
 is_root: false
-weight: 60
+weight: 3010
 ---
 
-## BASELINE property
 
-
-The baseline compression.
+## Baseline field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpgCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods)
+* class [`JpgCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/)

@@ -1,5 +1,5 @@
-﻿---
-title: EmailConvertOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`EmailConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/emailconvertoptions) class.
+## __init__
 
-
+Initializes a new [`EmailConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/emailconvertoptions/) instance.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`EmailConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/emailconvertoptions)
+* class [`EmailConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/emailconvertoptions/)

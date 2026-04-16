@@ -1,18 +1,20 @@
-﻿---
+---
 title: zoom property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/zoom/
 is_root: false
-weight: 230
+weight: 2100
 ---
+
 
 ## zoom property
 
+The zoom level in percentage for the conversion, with a default of 100%.
 
-Specifies the zoom level in percentage. Default is 100.
-Default zoom is supported till Microsoft Word 2010. Starting from Microsoft Word 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+Default zoom is supported up to Microsoft Word 2010. Starting with Microsoft Word 2013, the default zoom is no longer set to the document; instead it uses the zoom factor of the last opened document.
+
 ### Definition:
 ```python
 @property
@@ -24,5 +26,4 @@ def zoom(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions)
+* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/documentinfo/format/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## format property
 
+The format of the document. Implements `IDocumentInfo.format`.
 
-Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#format)
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def format(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo)
+* class [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)

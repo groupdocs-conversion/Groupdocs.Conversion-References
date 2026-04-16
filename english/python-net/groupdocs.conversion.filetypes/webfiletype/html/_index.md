@@ -1,19 +1,15 @@
-﻿---
-title: HTML property
+---
+title: Html field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/webfiletype/html/
 is_root: false
-weight: 100
+weight: 3030
 ---
 
-## HTML property
 
-
-HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. 
-Learn more about this file format [here](https://wiki.fileformat.com/web/html).
+## Html field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`WebFileType`](/conversion/python-net/groupdocs.conversion.filetypes/webfiletype)
+* class [`WebFileType`](/conversion/python-net/groupdocs.conversion.filetypes/webfiletype/)

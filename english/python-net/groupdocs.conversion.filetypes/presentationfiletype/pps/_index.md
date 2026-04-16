@@ -1,19 +1,15 @@
-﻿---
-title: PPS property
+---
+title: Pps field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/pps/
 is_root: false
-weight: 140
+weight: 3020
 ---
 
-## PPS property
 
-
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003.
-Learn more about this file format [here](https://wiki.fileformat.com/presentation/pps).
+## Pps field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype)
+* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/)

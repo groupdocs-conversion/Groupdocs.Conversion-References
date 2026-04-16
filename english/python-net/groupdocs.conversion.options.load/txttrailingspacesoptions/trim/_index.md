@@ -1,18 +1,15 @@
-﻿---
-title: TRIM property
+---
+title: Trim field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/trim/
 is_root: false
-weight: 70
+weight: 3020
 ---
 
-## TRIM property
 
-
-Trims trailing spaces
+## Trim field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`TxtTrailingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions)
+* class [`TxtTrailingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/)

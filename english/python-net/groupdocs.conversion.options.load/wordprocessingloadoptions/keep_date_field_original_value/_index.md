@@ -1,17 +1,18 @@
-﻿---
+---
 title: keep_date_field_original_value property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/keep_date_field_original_value/
 is_root: false
-weight: 180
+weight: 2180
 ---
+
 
 ## keep_date_field_original_value property
 
+The keep_date_field_original_value property indicates whether to keep the original value of a date field. Default: False.
 
-Keep original value of date field. Default: false
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def keep_date_field_original_value(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions)
+* class [`WordProcessingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/)

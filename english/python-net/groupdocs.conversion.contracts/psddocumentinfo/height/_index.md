@@ -1,17 +1,18 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/psddocumentinfo/height/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## height property
 
+The height of the PSD document.
 
-Gets height
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def height(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`PsdDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psddocumentinfo)
+* class [`PsdDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psddocumentinfo/)

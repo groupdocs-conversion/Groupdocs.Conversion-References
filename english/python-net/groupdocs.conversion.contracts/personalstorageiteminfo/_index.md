@@ -1,48 +1,32 @@
-﻿---
+---
 title: PersonalStorageItemInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstorageiteminfo/
 is_root: false
-weight: 370
+weight: 400
 ---
+
 
 ## PersonalStorageItemInfo class
 
-Personal Storage Item info
-
-
-
-**Inheritance:** [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
+Personal Storage Item info.
 
 The PersonalStorageItemInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [title](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/title) | Item Title |
-| [from_address](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/from_address) | Item From |
-| [to](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/to) | Item To |
-| [cc](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/cc) | Item Cc |
-| [bcc](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/bcc) | Item Bcc |
-| [subject](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/subject) | Item Subject |
-| [sent](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/sent) | Item Sent DateTime |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/size) | Item Size |
-| [attachments_count](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/attachments_count) | Item Attachments Count |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-
-
+| [attachments_count](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/attachments_count/) | The item attachments count. |
+| [bcc](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/bcc/) | The Bcc of the item. |
+| [cc](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/cc/) | The Cc of the item. |
+| [from_](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/from_/) | The item from. |
+| [sent](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/sent/) | The item sent DateTime. |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/size/) | The item size. |
+| [subject](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/subject/) | The item subject. |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/title/) | The Item Title. |
+| [to](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/to/) | The Item To. |
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](..)
-* class [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

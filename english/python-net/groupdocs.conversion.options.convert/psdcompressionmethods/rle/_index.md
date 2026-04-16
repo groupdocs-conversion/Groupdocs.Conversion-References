@@ -1,18 +1,15 @@
-﻿---
-title: RLE property
+---
+title: Rle field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdcompressionmethods/rle/
 is_root: false
-weight: 70
+weight: 3020
 ---
 
-## RLE property
 
-
-RLE.
+## Rle field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PsdCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods)
+* class [`PsdCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/psdcompressionmethods/)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: primary property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/possibleconversions/primary/
 is_root: false
-weight: 60
+weight: 2050
 ---
+
 
 ## primary property
 
+The primary target file types.
 
-Primary target file types
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def primary(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions)
+* class [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/)

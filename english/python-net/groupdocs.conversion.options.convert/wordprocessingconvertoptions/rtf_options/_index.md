@@ -1,17 +1,18 @@
-﻿---
+---
 title: rtf_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtf_options/
 is_root: false
-weight: 210
+weight: 2080
 ---
+
 
 ## rtf_options property
 
+The RTF specific convert options.
 
-RTF specific convert options
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def rtf_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`RtfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/rtfoptions)
-* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions)
+* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/)

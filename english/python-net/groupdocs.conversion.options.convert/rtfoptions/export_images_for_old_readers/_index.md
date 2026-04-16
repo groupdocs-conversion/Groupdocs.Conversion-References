@@ -1,18 +1,18 @@
-﻿---
+---
 title: export_images_for_old_readers property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/rtfoptions/export_images_for_old_readers/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## export_images_for_old_readers property
 
+The property determines whether keywords for old readers are written to the RTF output, which can significantly affect the document size; the default is False.
 
-Specifies whether the keywords for "old readers" are written to RTF or not.
-This can significantly affect the size of the RTF document. Default is False.
 ### Definition:
 ```python
 @property
@@ -24,5 +24,4 @@ def export_images_for_old_readers(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`RtfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/rtfoptions)
+* class [`RtfOptions`](/conversion/python-net/groupdocs.conversion.options.convert/rtfoptions/)

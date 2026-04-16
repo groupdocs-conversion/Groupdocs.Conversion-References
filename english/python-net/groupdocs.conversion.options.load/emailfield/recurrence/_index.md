@@ -1,18 +1,15 @@
-﻿---
-title: RECURRENCE property
+---
+title: Recurrence field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailfield/recurrence/
 is_root: false
-weight: 140
+weight: 3110
 ---
 
-## RECURRENCE property
 
-
-Default field text is "Recurrence".
+## Recurrence field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield)
+* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield/)

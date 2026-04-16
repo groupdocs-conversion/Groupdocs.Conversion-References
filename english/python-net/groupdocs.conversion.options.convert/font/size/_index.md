@@ -1,17 +1,18 @@
-﻿---
+---
 title: size property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/font/size/
 is_root: false
-weight: 70
+weight: 2040
 ---
+
 
 ## size property
 
+The font size.
 
-Font size
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def size(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`Font`](/conversion/python-net/groupdocs.conversion.options.convert/font)
+* class [`Font`](/conversion/python-net/groupdocs.conversion.options.convert/font/)

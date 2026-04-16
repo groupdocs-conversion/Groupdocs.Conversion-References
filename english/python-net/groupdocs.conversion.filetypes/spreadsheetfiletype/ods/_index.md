@@ -1,19 +1,15 @@
-﻿---
-title: ODS property
+---
+title: Ods field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/
 is_root: false
-weight: 120
+weight: 3050
 ---
 
-## ODS property
 
-
-Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns.
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ods).
+## Ods field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

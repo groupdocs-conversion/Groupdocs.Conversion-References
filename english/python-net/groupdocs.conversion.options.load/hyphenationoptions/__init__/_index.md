@@ -1,5 +1,5 @@
-﻿---
-title: HyphenationOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Creates new instance of [`HyphenationOptions`](/conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions) class.
+## __init__
 
-
+Initializes a new instance of [`HyphenationOptions`](/conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions/).
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`HyphenationOptions`](/conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions)
+* class [`HyphenationOptions`](/conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions/)

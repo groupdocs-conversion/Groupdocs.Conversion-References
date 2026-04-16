@@ -1,18 +1,15 @@
-﻿---
-title: JPF property
+---
+title: Jpf field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/imagefiletype/jpf/
 is_root: false
-weight: 300
+weight: 3210
 ---
 
-## JPF property
 
-
-Jpf document format
+## Jpf field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype)
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)

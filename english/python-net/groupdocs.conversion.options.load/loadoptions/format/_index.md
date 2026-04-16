@@ -1,17 +1,18 @@
-﻿---
+---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/loadoptions/format/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## format property
 
+The input document file type.
 
-Input document file type.
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def format(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
+* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)

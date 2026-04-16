@@ -1,32 +1,26 @@
-﻿---
+---
 title: warning method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.logging/consolelogger/warning/
 is_root: false
-weight: 40
+weight: 1030
 ---
 
-## warning {#System.String}
 
-Writes warning log message;
-Warning log messages provides information about unexpected and recoverable event in application flow.
+## warning {#message}
 
-
+Writes a warning log message providing information about unexpected but recoverable events in the application flow.
 
 ```python
 def warning(self, message):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | System.String | The warning message. |
-
-
+| message | `str` | The warning message. |
 
 ### See Also
-* module [`groupdocs.conversion.logging`](../../)
-* class [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger)
+* class [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/)

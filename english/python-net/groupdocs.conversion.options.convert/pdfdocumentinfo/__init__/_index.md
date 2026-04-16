@@ -1,5 +1,5 @@
-﻿---
-title: PdfDocumentInfo constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,13 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Constructs a new instance of PdfDocumentInfo
-
-
+## __init__
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.options.convert/pdfdocumentinfo)
+* class [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/)

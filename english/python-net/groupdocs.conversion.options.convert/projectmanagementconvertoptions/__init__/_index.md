@@ -1,5 +1,5 @@
-﻿---
-title: ProjectManagementConvertOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`ProjectManagementConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/projectmanagementconvertoptions) class.
+## __init__
 
-
+Initializes a new [`ProjectManagementConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/) instance.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`ProjectManagementConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/projectmanagementconvertoptions)
+* class [`ProjectManagementConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/)

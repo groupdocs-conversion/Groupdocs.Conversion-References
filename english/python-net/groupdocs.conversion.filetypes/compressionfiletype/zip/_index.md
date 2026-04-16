@@ -1,19 +1,15 @@
-﻿---
-title: ZIP property
+---
+title: Zip field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/zip/
 is_root: false
-weight: 230
+weight: 3010
 ---
 
-## ZIP property
 
-
-A file with .zip extension is an archive that can hold one or more files or directories. The archive can have compression applied to the included files in order to reduce the ZIP file size.
-Learn more about this file format [here](https://docs.fileformat.com/compression/zip/).
+## Zip field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype)
+* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/)

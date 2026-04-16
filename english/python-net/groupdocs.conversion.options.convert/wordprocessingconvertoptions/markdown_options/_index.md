@@ -1,17 +1,18 @@
-﻿---
+---
 title: markdown_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/markdown_options/
 is_root: false
-weight: 110
+weight: 2040
 ---
+
 
 ## markdown_options property
 
+The MarkdownOptions property implements [`WordProcessingConvertOptions.markdown_options`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/markdown_options/).
 
-Implements [`WordProcessingConvertOptions.markdown_options`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions#markdown_options)
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def markdown_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`MarkdownOptions`](/conversion/python-net/groupdocs.conversion.options.convert/markdownoptions)
-* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions)
+* class [`WordProcessingConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/)

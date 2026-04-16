@@ -1,18 +1,15 @@
-﻿---
-title: GRAYSCALE property
+---
+title: Grayscale field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpgcolormodes/grayscale/
 is_root: false
-weight: 70
+weight: 3050
 ---
 
-## GRAYSCALE property
 
-
-Grayscale.
+## Grayscale field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes)
+* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/)

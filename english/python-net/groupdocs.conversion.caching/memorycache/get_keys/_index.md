@@ -1,36 +1,28 @@
-﻿---
+---
 title: get_keys method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.caching/memorycache/get_keys/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## get_keys {#System.String}
+
+## get_keys {#filter}
 
 Returns all keys matching filter.
-
-
-### Returns 
-
-
-Keys matching the filter.
-
 
 ```python
 def get_keys(self, filter):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| filter | System.String | The filter to use. |
+| filter | `str` | The filter to use. |
 
-
+**Returns:** Iterable[str]: Keys matching the filter.
 
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache)
+* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/)

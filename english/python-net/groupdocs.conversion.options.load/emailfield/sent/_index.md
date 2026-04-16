@@ -1,18 +1,15 @@
-﻿---
-title: SENT property
+---
+title: Sent field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailfield/sent/
 is_root: false
-weight: 170
+weight: 3140
 ---
 
-## SENT property
 
-
-Default field text is "Sent".
+## Sent field
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield)
+* class [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield/)

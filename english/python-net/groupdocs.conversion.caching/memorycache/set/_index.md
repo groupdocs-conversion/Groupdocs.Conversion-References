@@ -1,32 +1,27 @@
-﻿---
+---
 title: set method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.caching/memorycache/set/
 is_root: false
-weight: 30
+weight: 1020
 ---
 
-## set {#System.String-System.Object}
+
+## set {#key-value}
 
 Inserts a cache entry into the cache.
-
-
 
 ```python
 def set(self, key, value):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| key | System.String | A unique identifier for the cache entry. |
-| value | System.Object | The object to insert. |
-
-
+| key | `str` | A unique identifier for the cache entry. |
+| value | `Any` | The object to insert. |
 
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache)
+* class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/)

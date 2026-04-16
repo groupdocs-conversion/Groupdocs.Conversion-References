@@ -1,5 +1,5 @@
-﻿---
-title: DiagramConvertOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions) class.
+## __init__
 
-
+Initializes a new instance of [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/).
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions)
+* class [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/)

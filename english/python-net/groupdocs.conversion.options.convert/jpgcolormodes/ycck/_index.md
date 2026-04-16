@@ -1,18 +1,15 @@
-﻿---
-title: YCCK property
+---
+title: Ycck field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpgcolormodes/ycck/
 is_root: false
-weight: 90
+weight: 3040
 ---
 
-## YCCK property
 
-
-Ycck.
+## Ycck field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes)
+* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/)

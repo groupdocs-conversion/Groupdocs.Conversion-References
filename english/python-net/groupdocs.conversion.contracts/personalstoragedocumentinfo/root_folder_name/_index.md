@@ -1,17 +1,18 @@
-﻿---
+---
 title: root_folder_name property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/root_folder_name/
 is_root: false
-weight: 100
+weight: 2040
 ---
+
 
 ## root_folder_name property
 
+The root folder name.
 
-Root folder name
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def root_folder_name(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo)
+* class [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/)

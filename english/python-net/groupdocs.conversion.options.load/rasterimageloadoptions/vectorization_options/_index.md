@@ -1,17 +1,18 @@
-﻿---
+---
 title: vectorization_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/vectorization_options/
 is_root: false
-weight: 60
+weight: 2030
 ---
+
 
 ## vectorization_options property
 
+The vectorization options.
 
-Sets vectorization options
 ### Definition:
 ```python
 @property
@@ -23,6 +24,4 @@ def vectorization_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions)
-* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions)
+* class [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/)

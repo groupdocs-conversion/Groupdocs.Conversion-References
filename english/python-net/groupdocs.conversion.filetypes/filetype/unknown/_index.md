@@ -1,18 +1,15 @@
-﻿---
-title: UNKNOWN property
+---
+title: Unknown field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/filetype/unknown/
 is_root: false
-weight: 80
+weight: 3010
 ---
 
-## UNKNOWN property
 
-
-Unknown file type
+## Unknown field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype/)

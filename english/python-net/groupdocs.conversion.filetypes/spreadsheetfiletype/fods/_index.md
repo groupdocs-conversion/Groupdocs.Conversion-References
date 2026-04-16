@@ -1,19 +1,15 @@
-﻿---
-title: FODS property
+---
+title: Fods field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/
 is_root: false
-weight: 100
+weight: 3130
 ---
 
-## FODS property
 
-
-A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS.
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/fods).
+## Fods field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

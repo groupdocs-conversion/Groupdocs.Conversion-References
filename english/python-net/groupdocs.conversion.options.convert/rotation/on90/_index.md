@@ -1,18 +1,15 @@
-﻿---
-title: ON90 property
+---
+title: On90 field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/rotation/on90/
 is_root: false
-weight: 90
+weight: 3020
 ---
 
-## ON90 property
 
-
-90 degrees.
+## On90 field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`Rotation`](/conversion/python-net/groupdocs.conversion.options.convert/rotation)
+* class [`Rotation`](/conversion/python-net/groupdocs.conversion.options.convert/rotation/)

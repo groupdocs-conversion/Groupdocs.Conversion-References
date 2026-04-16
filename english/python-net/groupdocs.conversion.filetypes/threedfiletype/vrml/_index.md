@@ -1,19 +1,15 @@
-﻿---
-title: VRML property
+---
+title: Vrml field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/threedfiletype/vrml/
 is_root: false
-weight: 270
+weight: 3160
 ---
 
-## VRML property
 
-
-The Virtual Reality Modeling Language (VRML) is a file format for representation of interactive 3D world objects over the World Wide Web (www). It finds its usage in creating three-dimensional representations of complex scenes such as illustrations, definition and virtual reality presentations. 
-Learn more about this file format [here](https://docs.fileformat.com/3d/vrml).
+## Vrml field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype)
+* class [`ThreeDFileType`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/)

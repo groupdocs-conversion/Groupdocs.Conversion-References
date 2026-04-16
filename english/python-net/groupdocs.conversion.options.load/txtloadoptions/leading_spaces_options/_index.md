@@ -1,18 +1,18 @@
-﻿---
+---
 title: leading_spaces_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/txtloadoptions/leading_spaces_options/
 is_root: false
-weight: 70
+weight: 2050
 ---
+
 
 ## leading_spaces_options property
 
+The preferred option for handling leading spaces. Default value is [`TxtLeadingSpacesOptions.convert_to_indent`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/convert_to_indent/).
 
-Gets or sets preferred option of a leading space handling.
-Default value is [`TxtLeadingSpacesOptions.ConvertToIndent`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions).
 ### Definition:
 ```python
 @property
@@ -24,6 +24,4 @@ def leading_spaces_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`TxtLeadingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions)
-* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions)
+* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/)

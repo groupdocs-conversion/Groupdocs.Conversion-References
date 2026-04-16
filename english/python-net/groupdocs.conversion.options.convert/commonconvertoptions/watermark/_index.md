@@ -1,17 +1,16 @@
-﻿---
+---
 title: watermark property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/commonconvertoptions/watermark/
 is_root: false
-weight: 90
+weight: 2040
 ---
+
 
 ## watermark property
 
-
-Implements [`IWatermarkedConvertOptions.watermark`](/conversion/python-net/groupdocs.conversion.options.convert/iwatermarkedconvertoptions#watermark)
 ### Definition:
 ```python
 @property
@@ -23,6 +22,4 @@ def watermark(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions)
-* class [`WatermarkOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkoptions)
+* class [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)

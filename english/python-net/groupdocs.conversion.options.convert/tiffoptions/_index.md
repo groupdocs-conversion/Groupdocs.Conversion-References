@@ -1,46 +1,29 @@
-﻿---
+---
 title: TiffOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/tiffoptions/
 is_root: false
-weight: 510
+weight: 440
 ---
+
 
 ## TiffOptions class
 
 Options for conversion to TIFF file type.
-
-
-
-**Inheritance:** [`TiffOptions`](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The TiffOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/__init__/#) | ctor |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/__init__/) | Initializes a new instance of the [`TiffOptions`](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [compression](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/compression) | Sets Tiff compression. |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-
-
+| [compression](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions/compression/) | The Tiff compression. |
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](..)
-* class [`TiffOptions`](/conversion/python-net/groupdocs.conversion.options.convert/tiffoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

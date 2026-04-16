@@ -1,33 +1,28 @@
-﻿---
+---
 title: is_document_password_protected method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion/converter/is_document_password_protected/
 is_root: false
-weight: 90
+weight: 1100
 ---
 
-## is_document_password_protected {#}
 
-Checks is source document is password protected
+## is_document_password_protected
 
+Checks whether the source document is password protected.
 
-### Returns 
+Learn more.
 
-
-true if document is password protected
-
+- Learn more about converted document - file type, pages count, creation date and many other format specific properties: How to check is the document password protected (https://docs.groupdocs.com/display/conversionnet/Is+document+password+protected)
 
 ```python
 def is_document_password_protected(self):
     ...
 ```
 
-
-
-
+**Returns:** bool: True if the document is password protected, otherwise False.
 
 ### See Also
-* module [`groupdocs.conversion`](../../)
-* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter)
+* class [`Converter`](/conversion/python-net/groupdocs.conversion/converter/)

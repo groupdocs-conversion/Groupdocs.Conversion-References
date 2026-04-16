@@ -1,19 +1,15 @@
-﻿---
-title: SXC property
+---
+title: Sxc field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/sxc/
 is_root: false
-weight: 140
+weight: 3150
 ---
 
-## SXC property
 
-
-The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot.
-Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/sxc).
+## Sxc field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype)
+* class [`SpreadsheetFileType`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/)

@@ -1,18 +1,15 @@
-﻿---
-title: PROGRESSIVE property
+---
+title: Progressive field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/progressive/
 is_root: false
-weight: 90
+weight: 3020
 ---
 
-## PROGRESSIVE property
 
-
-Progressive compression.
+## Progressive field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpgCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods)
+* class [`JpgCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcompressionmethods/)

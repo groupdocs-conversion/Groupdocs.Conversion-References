@@ -1,17 +1,18 @@
-﻿---
+---
 title: whitelisted_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/whitelisted_resources/
 is_root: false
-weight: 160
+weight: 2150
 ---
+
 
 ## whitelisted_resources property
 
+The whitelisted resources, as defined by `IResourceLoadingOptions.whitelisted_resources`.
 
-Implements [`IResourceLoadingOptions.whitelisted_resources`](/conversion/python-net/groupdocs.conversion.options.load/iresourceloadingoptions#whitelisted_resources)
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def whitelisted_resources(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions)
+* class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/)

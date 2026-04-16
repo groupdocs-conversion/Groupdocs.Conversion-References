@@ -1,18 +1,18 @@
-﻿---
+---
 title: trailing_spaces_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/txtloadoptions/trailing_spaces_options/
 is_root: false
-weight: 80
+weight: 2080
 ---
+
 
 ## trailing_spaces_options property
 
+The preferred option for handling trailing spaces. Default value is [`TxtTrailingSpacesOptions.trim`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/trim/).
 
-Gets or sets preferred option of a trailing space handling.
-Default value is [`TxtTrailingSpacesOptions.Trim`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions).
 ### Definition:
 ```python
 @property
@@ -24,6 +24,4 @@ def trailing_spaces_options(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions)
-* class [`TxtTrailingSpacesOptions`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions)
+* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/)

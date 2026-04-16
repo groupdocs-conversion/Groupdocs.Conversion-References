@@ -1,17 +1,18 @@
-﻿---
+---
 title: encoding property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/txtloadoptions/encoding/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## encoding property
 
+The encoding used when loading a Txt document; can be None (default).
 
-Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def encoding(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions)
+* class [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/)

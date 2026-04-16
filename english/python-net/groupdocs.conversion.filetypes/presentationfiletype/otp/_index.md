@@ -1,19 +1,15 @@
-﻿---
-title: OTP property
+---
+title: Otp field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/presentationfiletype/otp/
 is_root: false
-weight: 100
+weight: 3060
 ---
 
-## OTP property
 
-
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format.
-Learn more about this file format [here](https://wiki.fileformat.com/presentation/otp).
+## Otp field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype)
+* class [`PresentationFileType`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/)

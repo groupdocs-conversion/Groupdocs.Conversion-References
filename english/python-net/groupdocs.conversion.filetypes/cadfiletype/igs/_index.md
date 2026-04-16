@@ -1,18 +1,15 @@
-﻿---
-title: IGS property
+---
+title: Igs field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/cadfiletype/igs/
 is_root: false
-weight: 160
+weight: 3080
 ---
 
-## IGS property
 
-
-Igs document format
+## Igs field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CadFileType`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype)
+* class [`CadFileType`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/)

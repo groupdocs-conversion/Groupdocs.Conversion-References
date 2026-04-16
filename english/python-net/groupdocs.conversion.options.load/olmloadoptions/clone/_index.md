@@ -1,33 +1,22 @@
-﻿---
+---
 title: clone method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/olmloadoptions/clone/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## clone {#}
+
+## clone
 
 Clones current instance.
-
-
-### Returns 
-
-
-
-
 
 ```python
 def clone(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`OlmLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions)
+* class [`OlmLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/)

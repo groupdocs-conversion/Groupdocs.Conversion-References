@@ -1,5 +1,5 @@
-﻿---
-title: NsfLoadOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions) class.
+## __init__
 
-
+Initializes a new instance of [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/) class.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions)
+* class [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/)

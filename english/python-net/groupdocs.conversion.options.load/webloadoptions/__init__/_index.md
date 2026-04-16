@@ -1,5 +1,5 @@
-﻿---
-title: WebLoadOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions) class.
+## __init__
 
-
+Initializes a new instance of [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions/) class.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions)
+* class [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions/)

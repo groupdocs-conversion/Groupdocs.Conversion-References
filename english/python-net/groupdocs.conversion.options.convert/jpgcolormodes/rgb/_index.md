@@ -1,18 +1,15 @@
-﻿---
-title: RGB property
+---
+title: Rgb field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpgcolormodes/rgb/
 is_root: false
-weight: 80
+weight: 3020
 ---
 
-## RGB property
 
-
-RGB.
+## Rgb field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes)
+* class [`JpgColorModes`](/conversion/python-net/groupdocs.conversion.options.convert/jpgcolormodes/)

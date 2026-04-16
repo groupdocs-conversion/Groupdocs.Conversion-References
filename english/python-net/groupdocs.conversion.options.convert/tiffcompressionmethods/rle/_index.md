@@ -1,18 +1,15 @@
-﻿---
-title: RLE property
+---
+title: Rle field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/rle/
 is_root: false
-weight: 100
+weight: 3050
 ---
 
-## RLE property
 
-
-RLE compression.
+## Rle field
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`TiffCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods)
+* class [`TiffCompressionMethods`](/conversion/python-net/groupdocs.conversion.options.convert/tiffcompressionmethods/)

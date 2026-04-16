@@ -1,19 +1,15 @@
-﻿---
-title: MHTML property
+---
+title: Mhtml field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/webfiletype/mhtml/
 is_root: false
-weight: 130
+weight: 3060
 ---
 
-## MHTML property
 
-
-Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. 
-Learn more about this file format [here](https://wiki.fileformat.com/web/mhtml).
+## Mhtml field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`WebFileType`](/conversion/python-net/groupdocs.conversion.filetypes/webfiletype)
+* class [`WebFileType`](/conversion/python-net/groupdocs.conversion.filetypes/webfiletype/)

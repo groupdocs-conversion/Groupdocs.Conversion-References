@@ -1,19 +1,15 @@
-﻿---
-title: OST property
+---
+title: Ost field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/emailfiletype/ost/
 is_root: false
-weight: 130
+weight: 3070
 ---
 
-## OST property
 
-
-OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. 
-Learn more about this file format [here](https://wiki.fileformat.com/email/ost).
+## Ost field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype)
+* class [`EmailFileType`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/)

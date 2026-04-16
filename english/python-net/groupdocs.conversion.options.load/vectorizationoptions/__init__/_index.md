@@ -1,5 +1,5 @@
-﻿---
-title: VectorizationOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Default constructor for VectorizationOptions.
+## __init__
 
-
+Initializes VectorizationOptions with default settings.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions)
+* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/)

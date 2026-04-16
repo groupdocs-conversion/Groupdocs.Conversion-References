@@ -1,19 +1,15 @@
-﻿---
-title: PLT property
+---
+title: Plt field
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/cadfiletype/plt/
 is_root: false
-weight: 170
+weight: 3070
 ---
 
-## PLT property
 
-
-The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. 
-Learn more about this file format [here](https://wiki.fileformat.com/cad/plt).
+## Plt field
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CadFileType`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype)
+* class [`CadFileType`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/)

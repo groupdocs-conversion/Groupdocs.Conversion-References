@@ -1,19 +1,18 @@
-﻿---
+---
 title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/depth/
 is_root: false
-weight: 70
+weight: 2060
 ---
+
 
 ## depth property
 
+The depth of the documents container, implementing `IDocumentsContainerLoadOptions.depth` (default: 1).
 
-Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)
-
-Default: 1
 ### Definition:
 ```python
 @property
@@ -25,5 +24,4 @@ def depth(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions)
+* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/)

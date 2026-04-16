@@ -1,19 +1,18 @@
-﻿---
+---
 title: convert_owner property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/compressionloadoptions/convert_owner/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## convert_owner property
 
+The ConvertOwner property is read‑only and is always set to `False`; the document owner will not be converted.
 
-Implements [`IDocumentsContainerLoadOptions.convert_owner`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#convert_owner)
-
-Readonly. Set to false. The owner will not be converted
 ### Definition:
 ```python
 @property
@@ -22,5 +21,4 @@ def convert_owner(self):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions)
+* class [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/)

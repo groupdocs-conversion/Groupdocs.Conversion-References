@@ -1,48 +1,31 @@
-﻿---
+---
 title: PublisherLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/publisherloadoptions/
 is_root: false
-weight: 390
+weight: 340
 ---
+
 
 ## PublisherLoadOptions class
 
 Options for loading Publisher documents.
-
-
-
-**Inheritance:** [`PublisherLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions) → 
-[`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions) → 
-[`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
-
-
 
 The PublisherLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/__init__/#) | Initializes new instance of [`PublisherLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions) class. |
-
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/__init__/) | Initializes a new instance of [`PublisherLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/format) | Input document file type. |
-
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [equals](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/equals/#groupdocs.conversion.contracts.ValueObject) | Determines whether two object instances are equal. |
-
-
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/default_font/) | The default font for a Publisher document, which will be used if a required font is missing. |
+| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/font_substitutes/) | The property substitutes specific fonts when converting a Publisher document. |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions/format/) | The input document file type. |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
-* class [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions)
-* class [`PublisherLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/publisherloadoptions)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)
