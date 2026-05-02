@@ -1,14 +1,14 @@
 ---
 title: ExportImagesAsBase64
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Export images as base64. Default is true.
+description: Export images as base64. Default is true. Ignored when ImageSavingCallbackgroupdocs.conversion.options.convert/markdownoptions/imagesavingcallback is set.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.convert/markdownoptions/exportimagesasbase64/
 ---
 ## MarkdownOptions.ExportImagesAsBase64 property
 
-Export images as base64. Default is true.
+Export images as base64. Default is true. Ignored when [`ImageSavingCallback`](../imagesavingcallback) is set.
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }

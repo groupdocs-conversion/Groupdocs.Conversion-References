@@ -3,7 +3,7 @@ title: FontConfigSubstitutionEnabled
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Automatically substitutes missing fonts based on FontConfig in the system. Default false.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/fontconfigsubstitutionenabled/
 ---
 ## WordProcessingLoadOptions.FontConfigSubstitutionEnabled property

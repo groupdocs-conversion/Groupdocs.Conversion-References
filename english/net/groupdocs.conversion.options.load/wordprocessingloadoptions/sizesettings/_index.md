@@ -3,7 +3,7 @@ title: SizeSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page size settings
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/sizesettings/
 ---
 ## WordProcessingLoadOptions.SizeSettings property

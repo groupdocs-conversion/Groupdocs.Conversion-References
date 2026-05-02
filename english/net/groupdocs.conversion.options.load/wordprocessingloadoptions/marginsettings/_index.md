@@ -3,7 +3,7 @@ title: MarginSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page margin settings
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/marginsettings/
 ---
 ## WordProcessingLoadOptions.MarginSettings property

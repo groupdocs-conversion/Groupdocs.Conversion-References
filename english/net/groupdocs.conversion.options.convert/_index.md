@@ -30,6 +30,7 @@ The namespace provides classes to specify additional options for document conver
 | [JpegOptions](./jpegoptions) | Options for conversion to Jpeg file type. |
 | [JpgColorModes](./jpgcolormodes) | Describes Jpg color modes enumeration. |
 | [JpgCompressionMethods](./jpgcompressionmethods) | Describes Jpg compression modes |
+| [MarkdownImageSavingArgs](./markdownimagesavingargs) | Arguments passed to [`ImageSaving`](../groupdocs.conversion.options.convert/imarkdownimagesavingcallback/imagesaving). |
 | [MarkdownOptions](./markdownoptions) | Options for conversion to markdown file type. |
 | [NoConvertOptions](./noconvertoptions) | Special convert option class, which instructs converter to copy source document without any processing |
 | [PageDescriptionLanguageConvertOptions](./pagedescriptionlanguageconvertoptions) | Options for conversion to page descriptions language file type. |
@@ -70,6 +71,7 @@ The namespace provides classes to specify additional options for document conver
 | --- | --- |
 | [IConvertOptions](./iconvertoptions) | Represents convert options |
 | [IDpiConvertOptions](./idpiconvertoptions) | Represents convert options that support DPI (Dots Per Inch) settings. |
+| [IMarkdownImageSavingCallback](./imarkdownimagesavingcallback) | Handles custom processing of images while saving to Markdown. Invoked once per image; mutate [`MarkdownImageSavingArgs`](../groupdocs.conversion.options.convert/markdownimagesavingargs) to control the URI embedded in the Markdown output and/or redirect where the image bytes are written. |
 | [IPagedConvertOptions](./ipagedconvertoptions) | Represents convert options that allows conversion to perform page limitation by specifying start page and pages count |
 | [IPageRangedConvertOptions](./ipagerangedconvertoptions) | Represents convert options that support conversion of specific list of pages |
 | [IPasswordConvertOptions](./ipasswordconvertoptions) | Represents convert options that support password protection for converted documents. |

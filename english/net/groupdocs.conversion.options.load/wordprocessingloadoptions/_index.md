@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2880
+weight: 2900
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -26,6 +26,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 
 | Name | Description |
 | --- | --- |
+| [AutoDetectRtlDirection](../../groupdocs.conversion.options.load/wordprocessingloadoptions/autodetectrtldirection) { get; set; } | When true (default), paragraphs and runs whose text is dominantly right-to-left will have their bidi flags repaired before conversion. This matches the heuristic Microsoft Word and LibreOffice apply and fixes rendering of Arabic/Hebrew documents produced by generators (notably Google Docs) that emit OOXML without &lt;w:bidi/&gt; and with &lt;w:rtl w:val="0"/&gt; on runs that contain only RTL script. Set to false to preserve strict OOXML interpretation of the source markup. |
 | [BookmarkOptions](../../groupdocs.conversion.options.load/wordprocessingloadoptions/bookmarkoptions) { get; set; } | Bookmarks options |
 | [ClearBuiltInDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearbuiltindocumentproperties) { get; set; } | Removes built-in metadata properties from the document. |
 | [ClearCustomDocumentProperties](../../groupdocs.conversion.options.load/wordprocessingloadoptions/clearcustomdocumentproperties) { get; set; } | Removes custom metadata properties from the document. |

@@ -3,7 +3,7 @@ title: FontNameSubstitutionEnabled
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Automatically substitutes missing fonts based on the font name. Default false.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/fontnamesubstitutionenabled/
 ---
 ## WordProcessingLoadOptions.FontNameSubstitutionEnabled property

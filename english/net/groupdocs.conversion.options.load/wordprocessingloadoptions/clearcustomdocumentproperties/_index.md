@@ -3,7 +3,7 @@ title: ClearCustomDocumentProperties
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Removes custom metadata properties from the document.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/clearcustomdocumentproperties/
 ---
 ## WordProcessingLoadOptions.ClearCustomDocumentProperties property

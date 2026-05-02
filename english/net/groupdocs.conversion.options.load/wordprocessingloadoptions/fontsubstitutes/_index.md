@@ -3,7 +3,7 @@ title: FontSubstitutes
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Substitutes specific fonts when converting a WordsProcessing document.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/fontsubstitutes/
 ---
 ## WordProcessingLoadOptions.FontSubstitutes property

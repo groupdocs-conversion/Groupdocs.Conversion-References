@@ -3,7 +3,7 @@ title: FontTransformations
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Transform existing fonts after document loading and font substitution are complete. Font transformations can modify any fonts in the document including fonts that were successfully loaded.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/fonttransformations/
 ---
 ## WordProcessingLoadOptions.FontTransformations property

@@ -3,7 +3,7 @@ title: DefaultFont
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Sets the default font for a WordProcessing document.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont/
 ---
 ## WordProcessingLoadOptions.DefaultFont property

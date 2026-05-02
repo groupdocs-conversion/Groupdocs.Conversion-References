@@ -3,7 +3,7 @@ title: MarkdownOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to markdown file type.
 type: docs
-weight: 1960
+weight: 1980
 url: /net/groupdocs.conversion.options.convert/markdownoptions/
 ---
 ## MarkdownOptions class
@@ -24,7 +24,8 @@ public sealed class MarkdownOptions : ValueObject
 
 | Name | Description |
 | --- | --- |
-| [ExportImagesAsBase64](../../groupdocs.conversion.options.convert/markdownoptions/exportimagesasbase64) { get; set; } | Export images as base64. Default is true. |
+| [ExportImagesAsBase64](../../groupdocs.conversion.options.convert/markdownoptions/exportimagesasbase64) { get; set; } | Export images as base64. Default is true. Ignored when [`ImageSavingCallback`](./imagesavingcallback) is set. |
+| [ImageSavingCallback](../../groupdocs.conversion.options.convert/markdownoptions/imagesavingcallback) { get; set; } | Callback invoked once per image while saving Markdown. Lets the caller persist images externally and substitute the URI embedded in the document. Takes precedence over [`ExportImagesAsBase64`](./exportimagesasbase64) when not null. |
 
 ## Methods
 
