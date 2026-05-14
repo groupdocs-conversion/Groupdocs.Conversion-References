@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/notedocumentinfo/title/
 is_root: false
-weight: 2010
+weight: 2070
 ---
 
 
 ## title property
-
-The title of the note document.
 
 ### Definition:
 ```python

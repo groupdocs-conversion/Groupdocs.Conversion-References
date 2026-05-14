@@ -11,8 +11,6 @@ weight: 2070
 
 ## display_attachments property
 
-The option to display or hide attachments in the header. Default: True.
-
 ### Definition:
 ```python
 @property

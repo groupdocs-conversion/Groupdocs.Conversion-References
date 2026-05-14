@@ -11,8 +11,6 @@ weight: 2010
 
 ## items property
 
-The items in the folder.
-
 ### Definition:
 ```python
 @property

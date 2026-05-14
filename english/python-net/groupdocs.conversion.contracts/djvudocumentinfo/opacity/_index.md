@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/opacity/
 is_root: false
-weight: 2020
+weight: 2050
 ---
 
 
 ## opacity property
-
-The image opacity.
 
 ### Definition:
 ```python

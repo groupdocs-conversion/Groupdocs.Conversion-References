@@ -11,8 +11,6 @@ weight: 2060
 
 ## remove_unused_streams property
 
-The option to remove unused streams.
-
 ### Definition:
 ```python
 @property

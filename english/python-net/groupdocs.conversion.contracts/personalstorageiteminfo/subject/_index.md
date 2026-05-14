@@ -11,8 +11,6 @@ weight: 2070
 
 ## subject property
 
-The item subject.
-
 ### Definition:
 ```python
 @property

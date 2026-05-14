@@ -11,8 +11,6 @@ weight: 2120
 
 ## display_header property
 
-The option to display or hide the email header (default is True).
-
 ### Definition:
 ```python
 @property

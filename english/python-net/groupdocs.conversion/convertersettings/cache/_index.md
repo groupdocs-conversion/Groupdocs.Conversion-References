@@ -11,8 +11,6 @@ weight: 2010
 
 ## cache property
 
-The cache implementation used for storing conversion results.
-
 ### Definition:
 ```python
 @property

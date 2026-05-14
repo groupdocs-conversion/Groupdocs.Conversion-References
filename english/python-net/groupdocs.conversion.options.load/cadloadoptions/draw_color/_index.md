@@ -11,8 +11,6 @@ weight: 2030
 
 ## draw_color property
 
-The foreground color.
-
 ### Definition:
 ```python
 @property

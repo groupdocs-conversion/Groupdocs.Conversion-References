@@ -5,28 +5,26 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/
 is_root: false
-weight: 440
+weight: 470
 ---
 
 
 ## ProjectManagementDocumentInfo class
-
-Contains ProjectManagement document metadata.
 
 The ProjectManagementDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [end_date](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/end_date/) | The project end date. |
-| [start_date](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/start_date/) | The project start date. |
-| [tasks_count](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/tasks_count/) | The tasks count. |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/creation_date/) |  |
+| [end_date](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/end_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/size/) |  |
+| [start_date](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/start_date/) |  |
+| [tasks_count](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/tasks_count/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

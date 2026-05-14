@@ -11,8 +11,6 @@ weight: 2010
 
 ## convert_options property
 
-The predefined convert options which could be used to convert to the current type.
-
 ### Definition:
 ```python
 @property

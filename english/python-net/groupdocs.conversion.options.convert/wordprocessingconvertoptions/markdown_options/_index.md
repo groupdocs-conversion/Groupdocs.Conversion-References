@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/markdown_options/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 
 ## markdown_options property
-
-The MarkdownOptions property implements [`WordProcessingConvertOptions.markdown_options`](/conversion/python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/markdown_options/).
 
 ### Definition:
 ```python

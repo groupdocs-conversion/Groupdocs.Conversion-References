@@ -11,8 +11,6 @@ weight: 2010
 
 ## convert_owned property
 
-The `IDocumentsContainerLoadOptions.convert_owned` property is read‑only and always set to True, indicating that owned documents will be converted.
-
 ### Definition:
 ```python
 @property

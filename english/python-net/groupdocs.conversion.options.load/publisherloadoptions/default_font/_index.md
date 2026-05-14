@@ -11,8 +11,6 @@ weight: 2010
 
 ## default_font property
 
-The default font for a Publisher document, which will be used if a required font is missing.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2180
 
 ## keep_date_field_original_value property
 
-The keep_date_field_original_value property indicates whether to keep the original value of a date field. Default: False.
-
 ### Definition:
 ```python
 @property

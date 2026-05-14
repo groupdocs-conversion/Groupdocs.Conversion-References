@@ -11,28 +11,43 @@ weight: 20
 
 ## CadFileType class
 
-Defines CAD documents (Computer Aided Design) that are used for 3D graphics file formats and may contain 2D or 3D designs.
-
-Includes the following types: [`CadFileType.cf2`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/cf2/), [`CadFileType.dgn`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dgn/), [`CadFileType.dwf`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwf/), [`CadFileType.dwfx`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwfx/), [`CadFileType.dwg`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwg/), [`CadFileType.dwt`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwt/), [`CadFileType.dxf`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dxf/), [`CadFileType.ifc`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/ifc/), [`CadFileType.igs`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/igs/), [`CadFileType.plt`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/plt/), [`CadFileType.stl`](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/stl/).
-
-Learn more about CAD formats here: https://wiki.fileformat.com/cad.
-
 The CadFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Dxf](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dxf/) |  |
-| [Dwg](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwg/) |  |
-| [Dgn](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dgn/) |  |
-| [Dwf](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwf/) |  |
-| [Stl](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/stl/) |  |
-| [Ifc](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/ifc/) |  |
-| [Plt](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/plt/) |  |
-| [Igs](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/igs/) |  |
-| [Dwt](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwt/) |  |
-| [Dwfx](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/dwfx/) |  |
-| [Cf2](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/cf2/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/cadfiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

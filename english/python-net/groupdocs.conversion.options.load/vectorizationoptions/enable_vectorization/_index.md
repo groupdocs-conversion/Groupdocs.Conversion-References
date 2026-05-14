@@ -11,8 +11,6 @@ weight: 2030
 
 ## enable_vectorization property
 
-The option to enable vectorization of images. Default is False.
-
 ### Definition:
 ```python
 @property

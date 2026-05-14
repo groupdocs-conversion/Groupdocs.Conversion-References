@@ -5,26 +5,24 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/isodocumentinfo/
 is_root: false
-weight: 260
+weight: 290
 ---
 
 
 ## IsoDocumentInfo class
-
-Contains ISO document metadata.
 
 The IsoDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [content_tree](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/content_tree/) | Inherits documentation from [`IsoDocumentInfo.content_tree`](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/content_tree/). |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [content_tree](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/content_tree/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/size/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

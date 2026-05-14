@@ -11,8 +11,6 @@ weight: 2010
 
 ## encoding property
 
-The encoding used when loading a VCF document. Default is `Encoding.Default`.
-
 ### Definition:
 ```python
 @property

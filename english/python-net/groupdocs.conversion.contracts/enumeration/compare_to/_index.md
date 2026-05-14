@@ -5,24 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/compare_to/
 is_root: false
-weight: 1010
+weight: 1060
 ---
 
 
-## compare_to {#obj}
-
-Compares the current object to another.
+## compare_to
 
 ```python
-def compare_to(self, obj):
+def compare_to(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| obj | `Any` | The other object. |
-
-**Returns:** int: zero if equal.
 
 ### See Also
 * class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)

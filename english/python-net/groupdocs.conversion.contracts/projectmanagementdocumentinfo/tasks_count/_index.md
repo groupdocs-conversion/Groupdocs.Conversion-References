@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/tasks_count/
 is_root: false
-weight: 2030
+weight: 2090
 ---
 
 
 ## tasks_count property
-
-The tasks count.
 
 ### Definition:
 ```python

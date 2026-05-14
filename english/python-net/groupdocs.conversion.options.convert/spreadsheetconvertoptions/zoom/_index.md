@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/
 is_root: false
-weight: 2050
+weight: 2090
 ---
 
 
 ## zoom property
-
-The zoom level in percentage.
-
-Default is 100.
 
 ### Definition:
 ```python

@@ -11,23 +11,27 @@ weight: 60
 
 ## DiagramConvertOptions class
 
-Options for conversion to Diagram file type.
-
 The DiagramConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/__init__/) | Initializes a new instance of [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/). |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [auto_fit_page_to_drawing_content](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/auto_fit_page_to_drawing_content/) | The option defines whether to enlarge the page to fit the drawing content. |
-| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/page_number/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages_count/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/watermark/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
+| [auto_fit_page_to_drawing_content](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/auto_fit_page_to_drawing_content/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/format/) |  |
+| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/page_number/) |  |
+| [pages](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/pages/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/pages_count/) |  |
+| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/watermark/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

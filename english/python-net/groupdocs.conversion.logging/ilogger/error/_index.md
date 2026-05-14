@@ -1,33 +1,20 @@
-﻿---
+---
 title: error method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.logging/ilogger/error/
 is_root: false
-weight: 20
+weight: 1040
 ---
 
-## error {#System.String-System.String}
 
-Writes error log message;
-Error log messages provides information about unrecoverable events in application flow.
-
-
+## error
 
 ```python
-def error(self, message, exception):
+def error(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| message | System.String | The error message. |
-| exception | System.String | The exception. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.logging`](../../)
-* class [`ILogger`](/conversion/python-net/groupdocs.conversion.logging/ilogger)
+* class [`ILogger`](/conversion/python-net/groupdocs.conversion.logging/ilogger/)

@@ -11,8 +11,6 @@ weight: 2010
 
 ## content_tree property
 
-The content tree of the CPIO document.
-
 ### Definition:
 ```python
 @property

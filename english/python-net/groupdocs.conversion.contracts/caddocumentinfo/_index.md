@@ -11,23 +11,21 @@ weight: 50
 
 ## CadDocumentInfo class
 
-Contains Cad document metadata.
-
 The CadDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [height](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/height/) | The height. |
-| [layers](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/layers/) | The layers in the document. |
-| [layouts](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/layouts/) | The layouts in the document. |
-| [width](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/width/) | The width. |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/format/) |  |
+| [height](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/height/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/item/) |  |
+| [layers](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/layers/) |  |
+| [layouts](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/layouts/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/size/) |  |
+| [width](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/width/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

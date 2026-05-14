@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/has_formula/
 is_root: false
-weight: 2050
+weight: 2120
 ---
 
 
 ## has_formula property
-
-The property indicates whether text is a formula if it starts with '='.
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 2050
 
 ## remove_unused_objects property
 
-The option to remove unused objects.
-
 ### Definition:
 ```python
 @property

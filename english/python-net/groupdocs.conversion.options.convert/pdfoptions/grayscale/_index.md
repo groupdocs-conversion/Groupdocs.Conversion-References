@@ -11,8 +11,6 @@ weight: 2030
 
 ## grayscale property
 
-The PDF is converted from RGB colorspace to grayscale.
-
 ### Definition:
 ```python
 @property

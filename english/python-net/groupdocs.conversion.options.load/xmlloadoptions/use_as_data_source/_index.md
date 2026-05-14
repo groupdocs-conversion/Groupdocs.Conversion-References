@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/use_as_data_source/
 is_root: false
-weight: 2020
+weight: 2050
 ---
 
 
 ## use_as_data_source property
-
-The Xml document is used as a data source.
 
 ### Definition:
 ```python

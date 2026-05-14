@@ -5,26 +5,35 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/possibleconversions/
 is_root: false
-weight: 420
+weight: 450
 ---
 
 
 ## PossibleConversions class
 
-Represents a mapping of what conversion pairs are supported for a specific source file format.
-
 The PossibleConversions type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [all](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/all/) | The collection of all target file types and primary/secondary flag. |
+| [all](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/all/) |  |
 | [item](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/item/) |  |
 | [item](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/item/) |  |
-| [load_options](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/load_options/) | The predefined load options which could be used to convert from current type. |
-| [primary](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/primary/) | The primary target file types. |
-| [secondary](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/secondary/) | The secondary target file types. |
-| [source](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/source/) | The source file formats. |
+| [load_options](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/load_options/) |  |
+| [primary](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/primary/) |  |
+| [secondary](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/secondary/) |  |
+| [source](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/source/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

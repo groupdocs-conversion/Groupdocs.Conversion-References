@@ -18,10 +18,12 @@ def create(cls, pixel_bytes, width, height, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel_bytes | `System.Byte[]` |  |
+| pixel_bytes | `bytes` |  |
 | width | `int` |  |
 | height | `int` |  |
-| format | `BitmapInfo+PixelFormat` |  |
+| format | `Any` |  |
+
+**Returns:** BitmapInfo
 
 ### See Also
 * class [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/)

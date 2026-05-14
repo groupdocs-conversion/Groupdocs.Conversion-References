@@ -11,8 +11,6 @@ weight: 2030
 
 ## right property
 
-The desired page right margin in points.
-
 ### Definition:
 ```python
 @property

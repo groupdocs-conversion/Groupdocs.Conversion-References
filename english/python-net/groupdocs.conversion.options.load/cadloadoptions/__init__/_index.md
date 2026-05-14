@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`CadLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/cadloadoptions/).
-
 ```python
 def __init__(self):
     ...

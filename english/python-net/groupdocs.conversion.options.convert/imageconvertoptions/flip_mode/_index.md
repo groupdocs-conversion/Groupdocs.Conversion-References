@@ -11,8 +11,6 @@ weight: 2050
 
 ## flip_mode property
 
-The image flip mode.
-
 ### Definition:
 ```python
 @property

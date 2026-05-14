@@ -11,8 +11,6 @@ weight: 2020
 
 ## attachments_names property
 
-The attachment names.
-
 ### Definition:
 ```python
 @property

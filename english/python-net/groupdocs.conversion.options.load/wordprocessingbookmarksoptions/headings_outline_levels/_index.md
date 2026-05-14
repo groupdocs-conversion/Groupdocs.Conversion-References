@@ -11,8 +11,6 @@ weight: 2030
 
 ## headings_outline_levels property
 
-The number of heading levels (paragraphs formatted with the Heading styles) to include in the document outline; defaults to 0 and must be between 0 and 9.
-
 ### Definition:
 ```python
 @property

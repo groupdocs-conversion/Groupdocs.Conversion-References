@@ -11,8 +11,6 @@ weight: 2230
 
 ## size_settings property
 
-The page size settings.
-
 ### Definition:
 ```python
 @property

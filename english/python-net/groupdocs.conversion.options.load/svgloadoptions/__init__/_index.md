@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`SvgLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/svgloadoptions/).
-
 ```python
 def __init__(self):
     ...

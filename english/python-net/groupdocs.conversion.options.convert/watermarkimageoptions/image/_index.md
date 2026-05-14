@@ -11,8 +11,6 @@ weight: 2010
 
 ## image property
 
-The image watermark.
-
 ### Definition:
 ```python
 @property

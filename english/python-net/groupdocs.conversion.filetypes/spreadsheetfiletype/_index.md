@@ -11,47 +11,43 @@ weight: 190
 
 ## SpreadsheetFileType class
 
-Defines spreadsheet documents.
-
-Includes the following file types:
-- [`SpreadsheetFileType.csv`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/)
-- [`SpreadsheetFileType.fods`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/)
-- [`SpreadsheetFileType.ods`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/)
-- [`SpreadsheetFileType.ots`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/)
-- [`SpreadsheetFileType.tsv`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/)
-- [`SpreadsheetFileType.xlam`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/)
-- [`SpreadsheetFileType.xls`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/)
-- [`SpreadsheetFileType.xlsb`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsb/)
-- [`SpreadsheetFileType.xlsm`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm/)
-- [`SpreadsheetFileType.xlsx`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsx/)
-- [`SpreadsheetFileType.xlt`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlt/)
-- [`SpreadsheetFileType.xltm`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/)
-- [`SpreadsheetFileType.xltx`](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltx/)
-
-Learn more about spreadsheet formats here: https://wiki.fileformat.com/spreadsheet.
-
 The SpreadsheetFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Xls](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xls/) |  |
-| [Xlsx](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsx/) |  |
-| [Xlsm](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsm/) |  |
-| [Xlsb](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlsb/) |  |
-| [Ods](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/ods/) |  |
-| [Ots](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/ots/) |  |
-| [Xltx](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltx/) |  |
-| [Xlt](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlt/) |  |
-| [Xltm](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xltm/) |  |
-| [Tsv](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/tsv/) |  |
-| [Xlam](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/xlam/) |  |
-| [Csv](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/csv/) |  |
-| [Fods](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/fods/) |  |
-| [Dif](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/dif/) |  |
-| [Sxc](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/sxc/) |  |
-| [Numbers](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/numbers/) |  |
-| [FlatOpc](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/flatopc/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/spreadsheetfiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

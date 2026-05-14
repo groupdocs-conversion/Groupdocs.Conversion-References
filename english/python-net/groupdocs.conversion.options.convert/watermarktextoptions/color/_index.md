@@ -11,8 +11,6 @@ weight: 2010
 
 ## color property
 
-The watermark font color if text watermark is applied.
-
 ### Definition:
 ```python
 @property

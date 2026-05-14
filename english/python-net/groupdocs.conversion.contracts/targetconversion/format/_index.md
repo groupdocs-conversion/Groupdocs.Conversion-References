@@ -11,8 +11,6 @@ weight: 2020
 
 ## format property
 
-The target document format.
-
 ### Definition:
 ```python
 @property

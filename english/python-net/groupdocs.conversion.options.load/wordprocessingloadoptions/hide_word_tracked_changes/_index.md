@@ -11,8 +11,6 @@ weight: 2160
 
 ## hide_word_tracked_changes property
 
-The property hides markup and track changes for Word documents.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2090
 
 ## page_numbering property
 
-The page numbering generation is enabled or disabled in the converted document (default: False).
-
 ### Definition:
 ```python
 @property

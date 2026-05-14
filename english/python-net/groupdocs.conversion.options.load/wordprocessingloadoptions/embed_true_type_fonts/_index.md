@@ -11,8 +11,6 @@ weight: 2090
 
 ## embed_true_type_fonts property
 
-The embed_true_type_fonts property indicates whether true type fonts are embedded in the output document. The default value is True.
-
 ### Definition:
 ```python
 @property

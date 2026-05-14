@@ -11,8 +11,6 @@ weight: 2020
 
 ## extract_audio_only property
 
-The property indicating whether to extract the audio from the video.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## children property
 
-The child nodes of this node.
-
 ### Definition:
 ```python
 @property

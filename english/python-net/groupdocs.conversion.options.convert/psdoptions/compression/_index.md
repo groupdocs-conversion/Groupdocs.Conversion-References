@@ -11,8 +11,6 @@ weight: 2040
 
 ## compression property
 
-The Psd compression method.
-
 ### Definition:
 ```python
 @property

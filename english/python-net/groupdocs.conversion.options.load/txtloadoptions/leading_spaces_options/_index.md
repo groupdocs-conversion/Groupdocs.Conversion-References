@@ -11,8 +11,6 @@ weight: 2050
 
 ## leading_spaces_options property
 
-The preferred option for handling leading spaces. Default value is [`TxtLeadingSpacesOptions.convert_to_indent`](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/convert_to_indent/).
-
 ### Definition:
 ```python
 @property

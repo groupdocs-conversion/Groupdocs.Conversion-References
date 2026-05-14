@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/xslt_factory/
 is_root: false
-weight: 2040
+weight: 2080
 ---
 
 
 ## xslt_factory property
-
-The XSLT document stream to convert XML performing XSL transformation to HTML.
 
 ### Definition:
 ```python

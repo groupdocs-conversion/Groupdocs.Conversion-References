@@ -11,8 +11,6 @@ weight: 2030
 
 ## width property
 
-The desired page width for converting a GIS document. Default is 1000.
-
 ### Definition:
 ```python
 @property

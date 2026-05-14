@@ -11,8 +11,6 @@ weight: 160
 
 ## InvalidConverterSettingsException class
 
-Thrown if provided converter settings are invalid.
-
 The InvalidConverterSettingsException type exposes the following members:
 
 ### See Also

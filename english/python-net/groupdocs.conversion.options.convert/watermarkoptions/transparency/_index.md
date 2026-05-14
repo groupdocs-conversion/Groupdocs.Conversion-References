@@ -11,8 +11,6 @@ weight: 2070
 
 ## transparency property
 
-The watermark transparency, a value between 0 and 1 where 0 is fully visible and 1 is invisible.
-
 ### Definition:
 ```python
 @property

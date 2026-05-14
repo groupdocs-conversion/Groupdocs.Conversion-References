@@ -5,34 +5,41 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/olmloadoptions/
 is_root: false
-weight: 250
+weight: 310
 ---
 
 
 ## OlmLoadOptions class
-
-Options for loading Olm documents.
 
 The OlmLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/__init__/) | Initializes a new instance of [`OlmLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [clone](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/clone/) | Clones current instance. |
+| [_clone_noargs](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/_clone_noargs/) |  |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/_init_noargs/) |  |
+| [clone](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/clone/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owned/) | The `IDocumentsContainerLoadOptions.convert_owned` property is read‑only and always set to True, indicating that owned documents will be converted. |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owner/) | The ConvertOwner flag indicating whether the document owner should be converted. Read‑only; always `False`, so the owner will not be converted. |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/depth/) | The depth of the document container. Implements `IDocumentsContainerLoadOptions.depth`. Default is 3. |
-| [folder](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/folder/) | The folder to be processed. Default is Inbox. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) | The input document file type. (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owned/) |  |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/convert_owner/) |  |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/depth/) |  |
+| [folder](/conversion/python-net/groupdocs.conversion.options.load/olmloadoptions/folder/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) |  (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

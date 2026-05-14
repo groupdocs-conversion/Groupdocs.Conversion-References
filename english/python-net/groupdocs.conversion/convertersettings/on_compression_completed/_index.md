@@ -11,8 +11,6 @@ weight: 2050
 
 ## on_compression_completed property
 
-The event handler for compression completed.
-
 ### Definition:
 ```python
 @property

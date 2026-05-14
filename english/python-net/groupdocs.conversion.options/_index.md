@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options/
 is_root: false
-weight: 60
+weight: 80
 ---
 
 
@@ -14,10 +14,13 @@ Option classes for configuring conversions and operations.
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`PageMarginOptions`](/conversion/python-net/groupdocs.conversion.options/pagemarginoptions/) | Represents options that support page margins. |
-| [`PageSizeOptions`](/conversion/python-net/groupdocs.conversion.options/pagesizeoptions/) | Represents options that support page size. |
+| [`IPageMarginOptions`](/conversion/python-net/groupdocs.conversion.options/ipagemarginoptions/) |  |
+| [`IPageOrientationOptions`](/conversion/python-net/groupdocs.conversion.options/ipageorientationoptions/) |  |
+| [`IPageSizeOptions`](/conversion/python-net/groupdocs.conversion.options/ipagesizeoptions/) |  |
+| [`PageMarginOptions`](/conversion/python-net/groupdocs.conversion.options/pagemarginoptions/) |  |
+| [`PageSizeOptions`](/conversion/python-net/groupdocs.conversion.options/pagesizeoptions/) |  |
 
 ### Enumerations
 | Enum | Description |
 | :- | :- |
-| [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/) | Specifies page size. |
+| [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/) |  |

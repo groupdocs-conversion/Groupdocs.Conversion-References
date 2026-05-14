@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/zoom/
 is_root: false
-weight: 2050
+weight: 2100
 ---
 
 
 ## zoom property
-
-The zoom level in percentage. Default is 100.
 
 ### Definition:
 ```python

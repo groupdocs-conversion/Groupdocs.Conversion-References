@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines/
 is_root: false
-weight: 2030
+weight: 2060
 ---
 
 
 ## lines property
-
-The number of lines in the document.
 
 ### Definition:
 ```python

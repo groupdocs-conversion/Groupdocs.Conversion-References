@@ -11,8 +11,6 @@ weight: 2030
 
 ## original_font property
 
-The original font specification to match and replace.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`PageDescriptionLanguageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/).
-
 ```python
 def __init__(self):
     ...

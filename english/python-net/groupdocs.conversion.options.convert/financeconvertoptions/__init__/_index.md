@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new [`FinanceConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/) instance.
-
 ```python
 def __init__(self):
     ...

@@ -5,27 +5,30 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/threedconvertoptions/
 is_root: false
-weight: 420
+weight: 510
 ---
 
 
 ## ThreeDConvertOptions class
-
-Options for conversion to 3D type.
 
 The ThreeDConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/__init__/) | Initializes a new instance of [`ThreeDConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/page_number/) | The page number to convert, implementing `IPagedConvertOptions.page_number`. |
-| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/pages_count/) | The pages count, implementing `IPagedConvertOptions.pages_count`. |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. (inherited from [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/)) |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/format/) |  |
+| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/page_number/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/threedconvertoptions/pages_count/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

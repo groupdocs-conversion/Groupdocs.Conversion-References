@@ -11,8 +11,6 @@ weight: 2050
 
 ## target_format property
 
-The target format.
-
 ### Definition:
 ```python
 @property

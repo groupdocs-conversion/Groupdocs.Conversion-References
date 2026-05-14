@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/height/
 is_root: false
-weight: 2020
+weight: 2040
 ---
 
 
 ## height property
-
-The page height.
 
 ### Definition:
 ```python

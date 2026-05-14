@@ -11,8 +11,6 @@ weight: 2030
 
 ## clear_custom_document_properties property
 
-The ClearCustomDocumentProperties property indicates whether custom document properties should be cleared during loading.
-
 ### Definition:
 ```python
 @property

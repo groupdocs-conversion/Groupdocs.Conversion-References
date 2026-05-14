@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/psd_options/
 is_root: false
-weight: 2110
+weight: 2150
 ---
 
 
 ## psd_options property
-
-The PSD-specific convert options.
 
 ### Definition:
 ```python

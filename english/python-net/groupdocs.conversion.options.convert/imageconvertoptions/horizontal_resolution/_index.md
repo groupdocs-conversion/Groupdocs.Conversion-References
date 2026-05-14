@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/horizontal_resolution/
 is_root: false
-weight: 2090
+weight: 2100
 ---
 
 
 ## horizontal_resolution property
-
-The desired image horizontal resolution after conversion; defaults to the input file's resolution or 96 dpi.
 
 ### Definition:
 ```python

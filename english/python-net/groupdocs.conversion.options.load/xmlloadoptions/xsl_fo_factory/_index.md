@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/xsl_fo_factory/
 is_root: false
-weight: 2030
+weight: 2070
 ---
 
 
 ## xsl_fo_factory property
-
-The XSL-FO document stream to convert XML using XSL-FO markup file.
 
 ### Definition:
 ```python

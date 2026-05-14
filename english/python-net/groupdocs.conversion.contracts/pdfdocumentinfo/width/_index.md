@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/width/
 is_root: false
-weight: 2080
+weight: 2140
 ---
 
 
 ## width property
-
-The page width.
 
 ### Definition:
 ```python

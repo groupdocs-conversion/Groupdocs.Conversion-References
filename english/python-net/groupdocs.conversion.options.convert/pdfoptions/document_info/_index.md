@@ -11,8 +11,6 @@ weight: 2010
 
 ## document_info property
 
-The meta information of the PDF document.
-
 ### Definition:
 ```python
 @property

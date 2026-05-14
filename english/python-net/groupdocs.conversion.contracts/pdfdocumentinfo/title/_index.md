@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/title/
 is_root: false
-weight: 2060
+weight: 2120
 ---
 
 
 ## title property
-
-The title of the PDF document.
 
 ### Definition:
 ```python

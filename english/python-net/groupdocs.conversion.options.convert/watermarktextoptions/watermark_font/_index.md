@@ -11,8 +11,6 @@ weight: 2030
 
 ## watermark_font property
 
-The watermark font used when a text watermark is applied.
-
 ### Definition:
 ```python
 @property

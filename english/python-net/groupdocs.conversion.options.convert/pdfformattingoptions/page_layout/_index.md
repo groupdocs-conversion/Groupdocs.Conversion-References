@@ -11,8 +11,6 @@ weight: 2090
 
 ## page_layout property
 
-The page layout to use when the document is opened.
-
 ### Definition:
 ```python
 @property

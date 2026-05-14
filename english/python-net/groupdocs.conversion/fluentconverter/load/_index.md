@@ -5,35 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion/fluentconverter/load/
 is_root: false
-weight: 1010
+weight: 1050
 ---
 
 
-## load {#file_name}
-
-Configure source document for conversion.
+## load
 
 ```python
-def load(cls, file_name):
+def load(cls):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| file_name | `str` | Source document |
-
-## load {#file_name}
-
-Configure set of source documents.
-
-```python
-def load(cls, file_name):
-    ...
-```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| file_name | `System.String[]` | Array of source files. |
 
 ### See Also
 * class [`FluentConverter`](/conversion/python-net/groupdocs.conversion/fluentconverter/)

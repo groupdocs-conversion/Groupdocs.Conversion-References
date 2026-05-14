@@ -9,18 +9,12 @@ weight: 10
 ---
 
 
-## __init__ {#image}
-
-Initializes a WatermarkImageOptions instance and sets the watermark image.
+## __init__
 
 ```python
-def __init__(self, image):
+def __init__(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image | `System.Byte[]` | The image to be used as watermark. |
 
 ### See Also
 * class [`WatermarkImageOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarkimageoptions/)

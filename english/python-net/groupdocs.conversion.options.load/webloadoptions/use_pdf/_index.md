@@ -11,8 +11,6 @@ weight: 2120
 
 ## use_pdf property
 
-The option to use PDF for the conversion (default is False).
-
 ### Definition:
 ```python
 @property

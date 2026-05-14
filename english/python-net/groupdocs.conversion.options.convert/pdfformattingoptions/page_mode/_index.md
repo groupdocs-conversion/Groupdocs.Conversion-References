@@ -11,8 +11,6 @@ weight: 2100
 
 ## page_mode property
 
-The page mode, specifying how the document should be displayed when opened.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## default_font property
 
-The default font for a Diagram document, used when a font is missing.
-
 ### Definition:
 ```python
 @property

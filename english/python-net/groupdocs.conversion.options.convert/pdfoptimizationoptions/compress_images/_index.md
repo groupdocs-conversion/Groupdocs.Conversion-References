@@ -11,10 +11,6 @@ weight: 2010
 
 ## compress_images property
 
-The property determines whether all images in the document are re-compressed.
-
-If set to True, the compression is defined by the ImageQuality property.
-
 ### Definition:
 ```python
 @property

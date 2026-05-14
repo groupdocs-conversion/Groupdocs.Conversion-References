@@ -11,8 +11,6 @@ weight: 2260
 
 ## show_grid_lines property
 
-The option to show grid lines when converting Excel files.
-
 ### Definition:
 ```python
 @property

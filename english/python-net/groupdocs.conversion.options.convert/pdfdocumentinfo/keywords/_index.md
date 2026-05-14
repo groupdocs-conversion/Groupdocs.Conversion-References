@@ -11,8 +11,6 @@ weight: 2050
 
 ## keywords property
 
-Gets or set the keywords of the document.
-
 ### Definition:
 ```python
 @property

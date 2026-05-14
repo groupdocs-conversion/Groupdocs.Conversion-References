@@ -11,8 +11,6 @@ weight: 2010
 
 ## items_count property
 
-The count of the items in the folder.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## base_path property
 
-The base path/url for the html.
-
 ### Definition:
 ```python
 @property

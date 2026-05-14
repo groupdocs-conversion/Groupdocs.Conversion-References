@@ -1,18 +1,22 @@
-﻿---
+---
 title: size property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/tsvdocumentinfo/size/
 is_root: false
-weight: 90
+weight: 2060
 ---
+
 
 ## size property
 
-
-Implements [`IDocumentInfo.size`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#size)
+### Definition:
+```python
+@property
+def size(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`TsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tsvdocumentinfo)
+* class [`TsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tsvdocumentinfo/)

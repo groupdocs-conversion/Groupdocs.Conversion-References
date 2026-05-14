@@ -11,8 +11,6 @@ weight: 2020
 
 ## height property
 
-The desired page height for converting a GIS document. Default is 1000.
-
 ### Definition:
 ```python
 @property

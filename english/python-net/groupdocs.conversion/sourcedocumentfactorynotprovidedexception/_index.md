@@ -11,8 +11,6 @@ weight: 240
 
 ## SourceDocumentFactoryNotProvidedException class
 
-GroupDocs exception thrown when the source document factory is not provided.
-
 The SourceDocumentFactoryNotProvidedException type exposes the following members:
 
 ### See Also

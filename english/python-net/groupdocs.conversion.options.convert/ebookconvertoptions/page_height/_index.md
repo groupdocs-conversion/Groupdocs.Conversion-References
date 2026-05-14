@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_height/
 is_root: false
-weight: 2030
+weight: 2040
 ---
 
 
 ## page_height property
-
-The page height in points.
-
-When set, [`EBookConvertOptions.page_size`](/conversion/python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_size/) is automatically changed to [`PageSize.custom`](/conversion/python-net/groupdocs.conversion.options/pagesize/custom/).
 
 ### Definition:
 ```python

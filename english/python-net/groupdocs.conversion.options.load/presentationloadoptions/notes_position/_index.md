@@ -11,8 +11,6 @@ weight: 2100
 
 ## notes_position property
 
-The notes position represents the way notes are printed with the slide. Default is None.
-
 ### Definition:
 ```python
 @property

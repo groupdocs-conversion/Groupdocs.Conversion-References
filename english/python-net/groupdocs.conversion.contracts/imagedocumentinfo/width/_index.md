@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/imagedocumentinfo/width/
 is_root: false
-weight: 2030
+weight: 2090
 ---
 
 
 ## width property
-
-The width of the image.
 
 ### Definition:
 ```python

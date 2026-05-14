@@ -11,8 +11,6 @@ weight: 2070
 
 ## on_conversion_failed property
 
-The event handler for conversion failed.
-
 ### Definition:
 ```python
 @property

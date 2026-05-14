@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/videoconvertoptions/frames_per_second/
 is_root: false
-weight: 2030
+weight: 2040
 ---
 
 
 ## frames_per_second property
-
-The frames per second. Default is 30.
 
 ### Definition:
 ```python

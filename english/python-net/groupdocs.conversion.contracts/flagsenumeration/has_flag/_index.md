@@ -5,20 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/flagsenumeration/has_flag/
 is_root: false
-weight: 1020
+weight: 1050
 ---
 
 
-## has_flag {#flag}
+## has_flag
 
 ```python
-def has_flag(self, flag):
+def has_flag(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| flag | `T` |  |
 
 ### See Also
 * class [`FlagsEnumeration`](/conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/)

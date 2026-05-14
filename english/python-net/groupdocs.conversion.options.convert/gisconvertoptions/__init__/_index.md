@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`GisConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/).
-
 ```python
 def __init__(self):
     ...

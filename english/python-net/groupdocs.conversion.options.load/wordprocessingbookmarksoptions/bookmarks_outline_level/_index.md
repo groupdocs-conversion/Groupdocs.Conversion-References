@@ -11,10 +11,6 @@ weight: 2010
 
 ## bookmarks_outline_level property
 
-The default outline level at which Word bookmarks are displayed, ranging from 0 to 9 (default 0).
-
-Valid values are integers from 0 to 9 inclusive.
-
 ### Definition:
 ```python
 @property

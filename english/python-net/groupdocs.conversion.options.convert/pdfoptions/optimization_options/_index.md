@@ -11,8 +11,6 @@ weight: 2050
 
 ## optimization_options property
 
-The PDF optimization options.
-
 ### Definition:
 ```python
 @property

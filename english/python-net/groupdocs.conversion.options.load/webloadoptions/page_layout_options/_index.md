@@ -11,8 +11,6 @@ weight: 2080
 
 ## page_layout_options property
 
-The page layout options used when loading web documents.
-
 ### Definition:
 ```python
 @property

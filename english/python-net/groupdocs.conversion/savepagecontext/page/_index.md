@@ -11,8 +11,6 @@ weight: 2010
 
 ## page property
 
-The page number from the source document.
-
 ### Definition:
 ```python
 @property

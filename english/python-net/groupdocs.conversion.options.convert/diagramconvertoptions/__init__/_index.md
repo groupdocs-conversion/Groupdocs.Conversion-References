@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/).
-
 ```python
 def __init__(self):
     ...

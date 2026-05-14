@@ -11,8 +11,6 @@ weight: 2290
 
 ## skip_empty_rows_and_columns property
 
-The property that skips empty rows and columns when converting; default is True.
-
 ### Definition:
 ```python
 @property

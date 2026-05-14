@@ -11,8 +11,6 @@ weight: 2050
 
 ## password property
 
-The password used to load a protected document.
-
 ### Definition:
 ```python
 @property

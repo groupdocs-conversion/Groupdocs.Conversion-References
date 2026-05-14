@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`TxtLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/txtloadoptions/).
-
 ```python
 def __init__(self):
     ...

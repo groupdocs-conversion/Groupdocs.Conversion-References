@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`PdfOptimizationOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/).
-
 ```python
 def __init__(self):
     ...

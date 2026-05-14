@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/threedconvertoptions/pages_count/
 is_root: false
-weight: 2020
+weight: 2030
 ---
 
 
 ## pages_count property
-
-The pages count, implementing `IPagedConvertOptions.pages_count`.
 
 ### Definition:
 ```python

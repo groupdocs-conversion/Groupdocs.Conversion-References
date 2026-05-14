@@ -11,8 +11,6 @@ weight: 2210
 
 ## print_comments property
 
-The way comments are printed with the sheet; default is PrintNoComments.
-
 ### Definition:
 ```python
 @property

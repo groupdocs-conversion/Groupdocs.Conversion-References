@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/separator/
 is_root: false
-weight: 2070
+weight: 2150
 ---
 
 
 ## separator property
-
-The delimiter of a CSV file.
 
 ### Definition:
 ```python

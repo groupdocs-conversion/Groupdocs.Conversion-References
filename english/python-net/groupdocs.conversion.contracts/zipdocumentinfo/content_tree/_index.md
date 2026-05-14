@@ -11,10 +11,6 @@ weight: 2010
 
 ## content_tree property
 
-The content tree of the ZIP document.
-
-Inherited documentation from [`ZipDocumentInfo.content_tree`](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/content_tree/).
-
 ### Definition:
 ```python
 @property

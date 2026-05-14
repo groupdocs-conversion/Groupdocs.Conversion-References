@@ -11,8 +11,6 @@ weight: 2010
 
 ## encoding property
 
-The encoding to be used when converting to delimited formats.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## page property
 
-The bookmark page.
-
 ### Definition:
 ```python
 @property

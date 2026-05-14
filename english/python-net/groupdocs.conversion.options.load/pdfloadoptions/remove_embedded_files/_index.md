@@ -11,8 +11,6 @@ weight: 2140
 
 ## remove_embedded_files property
 
-The setting to remove embedded files.
-
 ### Definition:
 ```python
 @property

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/is_html/
 is_root: false
-weight: 2040
+weight: 2060
 ---
 
 
 ## is_html property
-
-Gets is html.
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 1010
 
 ## create {#original_font-substitute_with}
 
-Instantiate new font substitution pair.
-
 ```python
 def create(cls, original_font, substitute_with):
     ...
@@ -20,8 +18,10 @@ def create(cls, original_font, substitute_with):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| original_font | `str` | Font from the source document. |
-| substitute_with | `str` | Font which will be used to replace "original_font. |
+| original_font | `str` |  |
+| substitute_with | `str` |  |
+
+**Returns:** FontSubstitute
 
 ### See Also
 * class [`FontSubstitute`](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/)

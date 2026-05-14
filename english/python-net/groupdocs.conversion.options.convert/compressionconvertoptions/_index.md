@@ -11,8 +11,6 @@ weight: 40
 
 ## CompressionConvertOptions class
 
-Options for conversion to Compression file type.
-
 The CompressionConvertOptions type exposes the following members:
 
 ### Constructors
@@ -20,11 +18,16 @@ The CompressionConvertOptions type exposes the following members:
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/_init_noargs/) |  |
+
 ### Properties
 | Property | Description |
 | :- | :- |
-| [password](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/password/) | The password used to protect the converted document. |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. (inherited from [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/)) |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/format/) |  |
+| [password](/conversion/python-net/groupdocs.conversion.options.convert/compressionconvertoptions/password/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

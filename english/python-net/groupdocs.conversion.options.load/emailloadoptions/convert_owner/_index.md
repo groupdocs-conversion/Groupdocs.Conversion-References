@@ -11,8 +11,6 @@ weight: 2030
 
 ## convert_owner property
 
-The convert_owner property implements `IDocumentsContainerLoadOptions.convert_owner`. Default is True.
-
 ### Definition:
 ```python
 @property

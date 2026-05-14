@@ -11,10 +11,6 @@ weight: 2260
 
 ## use_default_attachment_icons property
 
-The flag indicating whether to use default attachment icons.
-
-Default is True.
-
 ### Definition:
 ```python
 @property

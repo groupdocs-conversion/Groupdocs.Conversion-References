@@ -11,8 +11,6 @@ weight: 2020
 
 ## name property
 
-The name of the folder.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2250
 
 ## sheets property
 
-The sheet name to convert.
-
 ### Definition:
 ```python
 @property

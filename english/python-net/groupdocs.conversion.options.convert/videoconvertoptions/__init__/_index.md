@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`VideoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/).
-
 ```python
 def __init__(self):
     ...

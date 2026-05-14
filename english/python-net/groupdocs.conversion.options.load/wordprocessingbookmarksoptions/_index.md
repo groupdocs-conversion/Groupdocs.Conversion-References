@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/
 is_root: false
-weight: 480
+weight: 540
 ---
 
 
 ## WordProcessingBookmarksOptions class
-
-Options for handling bookmarks in WordProcessing.
 
 The WordProcessingBookmarksOptions type exposes the following members:
 
@@ -20,12 +18,24 @@ The WordProcessingBookmarksOptions type exposes the following members:
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/_init_noargs/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+
 ### Properties
 | Property | Description |
 | :- | :- |
-| [bookmarks_outline_level](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/bookmarks_outline_level/) | The default outline level at which Word bookmarks are displayed, ranging from 0 to 9 (default 0). |
-| [expanded_outline_levels](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expanded_outline_levels/) | The number of outline levels to show expanded when the file is viewed; defaults to 0 and must be between 0 and 9 (this option does not apply when saving to XPS). |
-| [headings_outline_levels](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/headings_outline_levels/) | The number of heading levels (paragraphs formatted with the Heading styles) to include in the document outline; defaults to 0 and must be between 0 and 9. |
+| [bookmarks_outline_level](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/bookmarks_outline_level/) |  |
+| [expanded_outline_levels](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/expanded_outline_levels/) |  |
+| [headings_outline_levels](/conversion/python-net/groupdocs.conversion.options.load/wordprocessingbookmarksoptions/headings_outline_levels/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

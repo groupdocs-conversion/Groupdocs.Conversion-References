@@ -11,8 +11,6 @@ weight: 2050
 
 ## clear_custom_document_properties property
 
-The ClearCustomDocumentProperties property indicates whether custom document properties are cleared when loading a spreadsheet.
-
 ### Definition:
 ```python
 @property

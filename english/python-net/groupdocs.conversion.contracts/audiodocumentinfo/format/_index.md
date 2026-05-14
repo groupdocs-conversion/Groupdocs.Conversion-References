@@ -1,18 +1,22 @@
-﻿---
+---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/audiodocumentinfo/format/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## format property
 
-
-Implements [`IDocumentInfo.format`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#format)
+### Definition:
+```python
+@property
+def format(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo)
+* class [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo/)

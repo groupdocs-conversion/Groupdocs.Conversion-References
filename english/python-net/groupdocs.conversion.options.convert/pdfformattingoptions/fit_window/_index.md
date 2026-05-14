@@ -11,8 +11,6 @@ weight: 2040
 
 ## fit_window property
 
-The property determines whether the document window is resized to fit the first displayed page. Default is False.
-
 ### Definition:
 ```python
 @property

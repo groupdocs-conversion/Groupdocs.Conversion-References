@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_width/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 
 ## page_width property
-
-The page width in points.
-
-When set, [`CadConvertOptions.page_size`](/conversion/python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_size/) is automatically changed to [`PageSize.custom`](/conversion/python-net/groupdocs.conversion.options/pagesize/custom/).
 
 ### Definition:
 ```python

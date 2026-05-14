@@ -11,8 +11,6 @@ weight: 2040
 
 ## logger property
 
-The logger implementation used for logging conversion process.
-
 ### Definition:
 ```python
 @property

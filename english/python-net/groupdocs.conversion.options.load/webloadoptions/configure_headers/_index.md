@@ -11,8 +11,6 @@ weight: 2020
 
 ## configure_headers property
 
-The action used to configure request headers, where the first parameter of the action is the Uri.
-
 ### Definition:
 ```python
 @property

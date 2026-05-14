@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/presentationdocumentinfo/title/
 is_root: false
-weight: 2030
+weight: 2090
 ---
 
 
 ## title property
-
-The title of the presentation document.
 
 ### Definition:
 ```python

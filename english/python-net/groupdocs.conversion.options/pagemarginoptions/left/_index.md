@@ -11,8 +11,6 @@ weight: 2020
 
 ## left property
 
-The desired page left margin in points.
-
 ### Definition:
 ```python
 @property

@@ -11,34 +11,43 @@ weight: 70
 
 ## EmailFileType class
 
-Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc.
-
-Includes the following file types:
-- [`EmailFileType.eml`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/eml/)
-- [`EmailFileType.emlx`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/emlx/)
-- [`EmailFileType.msg`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/msg/)
-- [`EmailFileType.vcf`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/vcf/)
-- [`EmailFileType.mbox`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/mbox/)
-- [`EmailFileType.pst`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/pst/)
-- [`EmailFileType.ost`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/ost/)
-- [`EmailFileType.olm`](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/olm/)
-
-Learn more about Email formats here: https://wiki.fileformat.com/email.
-
 The EmailFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Msg](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/msg/) |  |
-| [Eml](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/eml/) |  |
-| [Emlx](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/emlx/) |  |
-| [Vcf](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/vcf/) |  |
-| [Mbox](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/mbox/) |  |
-| [Pst](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/pst/) |  |
-| [Ost](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/ost/) |  |
-| [Olm](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/olm/) |  |
-| [Ics](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/ics/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/emailfiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

@@ -11,10 +11,6 @@ weight: 2060
 
 ## margin_settings property
 
-The margin settings.
-
-Provides the page margin options defined by `IPageMarginOptions`.
-
 ### Definition:
 ```python
 @property

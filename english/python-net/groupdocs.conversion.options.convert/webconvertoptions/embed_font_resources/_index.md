@@ -11,10 +11,6 @@ weight: 2010
 
 ## embed_font_resources property
 
-The property indicates whether to embed font resources within the main HTML. Default is False.
-
-If `FixedLayout` is set to True, font resources will always be embedded.
-
 ### Definition:
 ```python
 @property

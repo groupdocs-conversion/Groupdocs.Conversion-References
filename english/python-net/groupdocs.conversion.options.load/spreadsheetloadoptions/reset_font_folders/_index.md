@@ -11,8 +11,6 @@ weight: 2220
 
 ## reset_font_folders property
 
-The property resets font folders before loading a document.
-
 ### Definition:
 ```python
 @property

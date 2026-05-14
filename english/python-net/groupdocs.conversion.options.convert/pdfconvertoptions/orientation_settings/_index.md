@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/orientation_settings/
 is_root: false
-weight: 2050
+weight: 2060
 ---
 
 
 ## orientation_settings property
-
-The orientation settings.
-
-Inherited from `IPageOrientationOptions.orientation_settings`.
 
 ### Definition:
 ```python

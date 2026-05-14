@@ -11,8 +11,6 @@ weight: 2090
 
 ## convert_range property
 
-The range to convert when converting to a format other than spreadsheet. Example: "D1:F8".
-
 ### Definition:
 ```python
 @property

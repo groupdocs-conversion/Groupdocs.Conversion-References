@@ -11,8 +11,6 @@ weight: 2010
 
 ## creation_date property
 
-The creation date of the document, implementing `IDocumentInfo.creation_date`.
-
 ### Definition:
 ```python
 @property

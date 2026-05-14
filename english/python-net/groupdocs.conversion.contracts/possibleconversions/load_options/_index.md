@@ -11,8 +11,6 @@ weight: 2040
 
 ## load_options property
 
-The predefined load options which could be used to convert from current type.
-
 ### Definition:
 ```python
 @property

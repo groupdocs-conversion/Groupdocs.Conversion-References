@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/format/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 
 ## format property
-
-The input document file type.
 
 ### Definition:
 ```python

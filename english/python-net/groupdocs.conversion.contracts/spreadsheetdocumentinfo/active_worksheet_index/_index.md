@@ -11,8 +11,6 @@ weight: 2010
 
 ## active_worksheet_index property
 
-The active worksheet index.
-
 ### Definition:
 ```python
 @property

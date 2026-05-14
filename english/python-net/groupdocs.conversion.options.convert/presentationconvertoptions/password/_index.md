@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/presentationconvertoptions/password/
 is_root: false
-weight: 2010
+weight: 2050
 ---
 
 
 ## password property
-
-The password used to protect the converted document.
 
 ### Definition:
 ```python

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/
 is_root: false
-weight: 2020
+weight: 2030
 ---
 
 
 ## folders property
-
-The folders in the storage.
 
 ### Definition:
 ```python

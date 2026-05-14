@@ -11,8 +11,6 @@ weight: 2170
 
 ## font_substitutes property
 
-The list of font substitutes.
-
 ### Definition:
 ```python
 @property

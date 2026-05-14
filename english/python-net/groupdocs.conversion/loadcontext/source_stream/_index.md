@@ -11,8 +11,6 @@ weight: 2050
 
 ## source_stream property
 
-The source stream.
-
 ### Definition:
 ```python
 @property

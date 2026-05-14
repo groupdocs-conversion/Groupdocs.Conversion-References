@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/tiff_options/
 is_root: false
-weight: 2130
+weight: 2170
 ---
 
 
 ## tiff_options property
-
-The Tiff specific convert options.
 
 ### Definition:
 ```python

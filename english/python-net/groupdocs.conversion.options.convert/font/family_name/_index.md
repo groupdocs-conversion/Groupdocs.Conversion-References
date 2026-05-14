@@ -11,8 +11,6 @@ weight: 2020
 
 ## family_name property
 
-The font family name.
-
 ### Definition:
 ```python
 @property

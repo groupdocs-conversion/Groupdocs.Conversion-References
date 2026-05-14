@@ -11,8 +11,6 @@ weight: 2010
 
 ## bookmark_options property
 
-The bookmarks options.
-
 ### Definition:
 ```python
 @property

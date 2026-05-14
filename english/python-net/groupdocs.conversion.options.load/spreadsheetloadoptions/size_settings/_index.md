@@ -11,8 +11,6 @@ weight: 2280
 
 ## size_settings property
 
-The size settings for the spreadsheet load operation.
-
 ### Definition:
 ```python
 @property

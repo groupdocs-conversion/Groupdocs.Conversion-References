@@ -11,8 +11,6 @@ weight: 2050
 
 ## default_font property
 
-The default font for a PDF document, which will be used if a required font is missing.
-
 ### Definition:
 ```python
 @property

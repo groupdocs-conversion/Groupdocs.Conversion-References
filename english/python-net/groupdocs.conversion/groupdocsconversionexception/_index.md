@@ -11,8 +11,6 @@ weight: 130
 
 ## GroupDocsConversionException class
 
-GroupDocs.Conversion general exception.
-
 The GroupDocsConversionException type exposes the following members:
 
 ### See Also

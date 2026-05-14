@@ -11,8 +11,6 @@ weight: 2010
 
 ## default_font property
 
-The default font for PSD, EMF, and WMF document types, used when a font is missing.
-
 ### Definition:
 ```python
 @property

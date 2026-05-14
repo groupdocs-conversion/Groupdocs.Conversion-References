@@ -1,37 +1,20 @@
-﻿---
+---
 title: try_get_value method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.caching/icache/try_get_value/
 is_root: false
-weight: 40
+weight: 1100
 ---
 
-## try_get_value {#System.String-any}
 
-Gets the entry associated with this key if present.
-
-
-### Returns 
-
-
-if the key was found.
-
+## try_get_value
 
 ```python
-def try_get_value(self, key, value):
+def try_get_value(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | System.String | A key identifying the requested entry. |
-| value | any | The located value or null. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache)
+* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache/)

@@ -11,8 +11,6 @@ weight: 2020
 
 ## format property
 
-The desired file type the input document should be converted to.
-
 ### Definition:
 ```python
 @property

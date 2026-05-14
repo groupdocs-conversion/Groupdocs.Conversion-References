@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/is_encrypted/
 is_root: false
-weight: 2030
+weight: 2050
 ---
 
 
 ## is_encrypted property
-
-Gets is encrypted.
 
 ### Definition:
 ```python

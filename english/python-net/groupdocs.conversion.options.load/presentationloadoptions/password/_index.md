@@ -11,8 +11,6 @@ weight: 2110
 
 ## password property
 
-The password used to unprotect a protected document.
-
 ### Definition:
 ```python
 @property

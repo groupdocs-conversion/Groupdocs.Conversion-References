@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/is_password_protected/
 is_root: false
-weight: 2010
+weight: 2030
 ---
 
 
 ## is_password_protected property
-
-The document is password protected.
 
 ### Definition:
 ```python

@@ -1,36 +1,26 @@
-﻿---
+---
 title: from_stream method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/filetype/from_stream/
 is_root: false
-weight: 60
+weight: 1080
 ---
 
-## from_stream {#io.RawIOBase}
 
-Returns FileType for provided document stream
-
-
-### Returns 
-
-
-The file type of provided stream
-
+## from_stream {#stream}
 
 ```python
-def from_stream(self, stream):
+def from_stream(cls, stream):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | io.RawIOBase | Stream which will be probed |
+| stream | `Stream` |  |
 
-
+**Returns:** FileType
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype/)

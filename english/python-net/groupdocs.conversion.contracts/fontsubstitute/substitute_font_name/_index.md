@@ -11,8 +11,6 @@ weight: 2020
 
 ## substitute_font_name property
 
-The substitute font name.
-
 ### Definition:
 ```python
 @property

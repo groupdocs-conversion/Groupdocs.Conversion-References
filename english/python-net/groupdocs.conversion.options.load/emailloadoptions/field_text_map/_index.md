@@ -11,8 +11,6 @@ weight: 2160
 
 ## field_text_map property
 
-The mapping between email message [`EmailField`](/conversion/python-net/groupdocs.conversion.options.load/emailfield/) and field text representation.
-
 ### Definition:
 ```python
 @property

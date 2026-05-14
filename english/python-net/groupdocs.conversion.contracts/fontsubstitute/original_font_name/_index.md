@@ -11,8 +11,6 @@ weight: 2010
 
 ## original_font_name property
 
-The original font name.
-
 ### Definition:
 ```python
 @property

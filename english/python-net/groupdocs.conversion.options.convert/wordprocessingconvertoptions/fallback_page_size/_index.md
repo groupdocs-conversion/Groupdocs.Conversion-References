@@ -11,8 +11,6 @@ weight: 2020
 
 ## fallback_page_size property
 
-The fallback page size.
-
 ### Definition:
 ```python
 @property

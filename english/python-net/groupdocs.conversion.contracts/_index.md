@@ -14,80 +14,79 @@ Result, context, and data-transfer types returned by the API.
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/) | Object containing array of pixels and bitmap information. |
-| [`CabDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cabdocumentinfo/) | Contains Cab document metadata. |
-| [`CadDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/) | Contains Cad document metadata. |
-| [`CompressionNodeInfo`](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/) | Represents a node in a compressed file. |
-| [`CpioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cpiodocumentinfo/) | Contains Cpio document metadata. |
-| [`DjVuDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo/) | Contains DjVu document metadata. |
-| [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/) | Provides a base implementation for retrieving polymorphic document information. |
-| [`EmailDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/emaildocumentinfo/) | Contains Email document metadata. |
-| [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/) | Generic enumeration class. |
-| [`FlagsEnumeration`](/conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/) | Represents an abstract base class for creating enumerations that support bitwise flag operations. |
-| [`FontSubstitute`](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/) | Describes substitution for missing font. |
-| [`FontTransformation`](/conversion/python-net/groupdocs.conversion.contracts/fonttransformation/) | Describes font transformation configuration including font attributes. |
-| [`ImageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/imagedocumentinfo/) | Contains Image document metadata. |
-| [`IsoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/) | Contains ISO document metadata. |
-| [`LhaDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lhadocumentinfo/) | Contains compression document metadata. |
-| [`NoteDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/) | Contains Note document metadata. |
-| [`OlmDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/olmdocumentinfo/) | Contains personal storage document metadata. |
-| [`OlmFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/olmfolderinfo/) | Personal Storage Folder info. |
-| [`PasswordProtectedDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/) | Provided document is password protected. |
-| [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/) | Contains Pdf document metadata. |
-| [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/) | Contains personal storage document metadata. |
-| [`PersonalStorageFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/) | Personal Storage Folder info. |
-| [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/) | Personal Storage Item info. |
-| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/) | Represents a mapping of what conversion pairs are supported for a specific source file format. |
-| [`PresentationDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/presentationdocumentinfo/) | Contains Presentation document metadata. |
-| [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/) | Contains ProjectManagement document metadata. |
-| [`PsdDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psddocumentinfo/) | Contains Psd document metadata. |
-| [`RarDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/rardocumentinfo/) | Contains Rar document metadata. |
-| [`Rectangle`](/conversion/python-net/groupdocs.conversion.contracts/rectangle/) | Represents a rectangle defined by its edges for cropping purposes. |
-| [`SevenZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/sevenzipdocumentinfo/) | Contains 7Zip document metadata. |
-| [`SpreadsheetDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/) | Contains Spreadsheet document metadata. |
-| [`TableOfContentsItem`](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/) | Contains Table of contents item metadata. |
-| [`TarDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tardocumentinfo/) | Contains Tar document metadata. |
-| [`TargetConversion`](/conversion/python-net/groupdocs.conversion.contracts/targetconversion/) | Represents a possible target conversion and indicates whether it is primary or secondary. |
-| [`VcfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/) | Contains Vcf document metadata. |
-| [`WebDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/webdocumentinfo/) | Contains Web document metadata. |
-| [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/) | Contains WordProcessing document metadata. |
-| [`ZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/) | Contains compression document metadata. |
-
-### Enumerations
-| Enum | Description |
-| :- | :- |
-| [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo/) | Contains Audio document metadata. |
-| [`Bzip2DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/bzip2documentinfo/) | Contains Bzip2 document metadata. |
-| [`CgmDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/) | Contains Cgm document metadata. |
-| [`CsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/csvdocumentinfo/) | Contains Csv document metadata. |
-| [`DiagramDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/) | Contains Diagram document metadata. |
-| [`EpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epsdocumentinfo/) | Contains Ps document metadata. |
-| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo/) | Contains Font document metadata. |
-| [`GisDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gisdocumentinfo/) | Contains GIS document metadata. |
-| [`GzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/) | Contains Gzip document metadata. |
-| [`HeicDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/heicdocumentinfo/) | Contains Heic document metadata. |
-| [`IcoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/icodocumentinfo/) | Contains Ico document metadata. |
-| [`InlineXbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/inlinexbrldocumentinfo/) | Contains iXbrl document metadata. |
-| [`JsonDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/jsondocumentinfo/) | Contains Json document metadata. |
-| [`Lz4DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lz4documentinfo/) | Contains Lzip document metadata. |
-| [`LzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lzipdocumentinfo/) | Contains Lzip document metadata. |
-| [`LzmaDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/) | Contains Lzma document metadata. |
-| [`PclDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pcldocumentinfo/) | Contains Pcl document metadata. |
+| [`AudioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/audiodocumentinfo/) |  |
+| [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/) |  |
+| [`Bzip2DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/bzip2documentinfo/) |  |
+| [`CabDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cabdocumentinfo/) |  |
+| [`CadDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/) |  |
+| [`CgmDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/) |  |
+| [`CompressionNodeInfo`](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/) |  |
+| [`CpioDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/cpiodocumentinfo/) |  |
+| [`CsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/csvdocumentinfo/) |  |
+| [`DiagramDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/) |  |
+| [`DjVuDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/djvudocumentinfo/) |  |
+| [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/) |  |
+| [`EmailDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/emaildocumentinfo/) |  |
+| [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/) |  |
+| [`EpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/epsdocumentinfo/) |  |
+| [`FlagsEnumeration`](/conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/) |  |
+| [`FontDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/fontdocumentinfo/) |  |
+| [`FontSubstitute`](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/) |  |
+| [`FontTransformation`](/conversion/python-net/groupdocs.conversion.contracts/fonttransformation/) |  |
+| [`GisDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gisdocumentinfo/) |  |
+| [`GzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/) |  |
+| [`HeicDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/heicdocumentinfo/) |  |
+| [`ICompressionDocumentHierarchyInfo`](/conversion/python-net/groupdocs.conversion.contracts/icompressiondocumenthierarchyinfo/) |  |
+| [`IDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/) |  |
+| [`IDocumentsContainerLoadOptions`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/) |  |
+| [`IcoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/icodocumentinfo/) |  |
+| [`ImageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/imagedocumentinfo/) |  |
+| [`InlineXbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/inlinexbrldocumentinfo/) |  |
+| [`IsoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/) |  |
+| [`JsonDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/jsondocumentinfo/) |  |
+| [`LhaDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lhadocumentinfo/) |  |
+| [`Lz4DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lz4documentinfo/) |  |
+| [`LzipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lzipdocumentinfo/) |  |
+| [`LzmaDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/) |  |
+| [`NoteDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/) |  |
+| [`OlmDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/olmdocumentinfo/) |  |
+| [`OlmFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/olmfolderinfo/) |  |
+| [`PasswordProtectedDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/) |  |
+| [`PclDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pcldocumentinfo/) |  |
+| [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/) |  |
+| [`PersonalStorageDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/) |  |
+| [`PersonalStorageFolderInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/) |  |
+| [`PersonalStorageItemInfo`](/conversion/python-net/groupdocs.conversion.contracts/personalstorageiteminfo/) |  |
 | [`PixelFormat`](/conversion/python-net/groupdocs.conversion.contracts/pixelformat/) |  |
-| [`PsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psdocumentinfo/) | Contains Ps document metadata. |
-| [`PublisherDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/publisherdocumentinfo/) | Contains Publisher document metadata. |
-| [`SvgDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/svgdocumentinfo/) | Contains Svg document metadata. |
-| [`TexDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/texdocumentinfo/) | Contains Tex document metadata. |
-| [`ThreeDDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/threeddocumentinfo/) | Contains 3D document metadata. |
-| [`TsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tsvdocumentinfo/) | Contains Tsv document metadata. |
-| [`TxtDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/txtdocumentinfo/) | Contains Txt document metadata. |
-| [`UueDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/uuedocumentinfo/) | Contains Uue document metadata. |
-| [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/) | Abstract value object class. |
-| [`VideoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/) | Contains Video document metadata. |
-| [`XbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xbrldocumentinfo/) | Contains Xbrl document metadata. |
-| [`XmlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xmldocumentinfo/) | Contains Xml document metadata. |
-| [`XpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xpsdocumentinfo/) | Contains Xps document metadata. |
-| [`XslFoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xslfodocumentinfo/) | Contains XslFo document metadata. |
-| [`XzDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xzdocumentinfo/) | Contains Xz document metadata. |
-| [`ZDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/) | Contains Z document metadata. |
-| [`ZstDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zstdocumentinfo/) | Contains Zst document metadata. |
+| [`PossibleConversions`](/conversion/python-net/groupdocs.conversion.contracts/possibleconversions/) |  |
+| [`PresentationDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/presentationdocumentinfo/) |  |
+| [`ProjectManagementDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/) |  |
+| [`PsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psdocumentinfo/) |  |
+| [`PsdDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/psddocumentinfo/) |  |
+| [`PublisherDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/publisherdocumentinfo/) |  |
+| [`RarDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/rardocumentinfo/) |  |
+| [`Rectangle`](/conversion/python-net/groupdocs.conversion.contracts/rectangle/) |  |
+| [`SevenZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/sevenzipdocumentinfo/) |  |
+| [`SpreadsheetDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/) |  |
+| [`SvgDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/svgdocumentinfo/) |  |
+| [`TableOfContentsItem`](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/) |  |
+| [`TarDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tardocumentinfo/) |  |
+| [`TargetConversion`](/conversion/python-net/groupdocs.conversion.contracts/targetconversion/) |  |
+| [`TexDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/texdocumentinfo/) |  |
+| [`ThreeDDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/threeddocumentinfo/) |  |
+| [`TsvDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/tsvdocumentinfo/) |  |
+| [`TxtDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/txtdocumentinfo/) |  |
+| [`UueDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/uuedocumentinfo/) |  |
+| [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/) |  |
+| [`VcfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/) |  |
+| [`VideoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/) |  |
+| [`WebDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/webdocumentinfo/) |  |
+| [`WordProcessingDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/) |  |
+| [`XbrlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xbrldocumentinfo/) |  |
+| [`XmlDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xmldocumentinfo/) |  |
+| [`XpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xpsdocumentinfo/) |  |
+| [`XslFoDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xslfodocumentinfo/) |  |
+| [`XzDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xzdocumentinfo/) |  |
+| [`ZDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/) |  |
+| [`ZipDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zipdocumentinfo/) |  |
+| [`ZstDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/zstdocumentinfo/) |  |

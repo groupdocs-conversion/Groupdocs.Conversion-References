@@ -11,8 +11,6 @@ weight: 2060
 
 ## layout_names property
 
-The CAD layouts to be converted.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2020
 
 ## bcc property
 
-The Bcc of the item.
-
 ### Definition:
 ```python
 @property

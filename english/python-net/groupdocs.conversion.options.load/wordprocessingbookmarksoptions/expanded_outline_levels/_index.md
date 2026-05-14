@@ -11,8 +11,6 @@ weight: 2020
 
 ## expanded_outline_levels property
 
-The number of outline levels to show expanded when the file is viewed; defaults to 0 and must be between 0 and 9 (this option does not apply when saving to XPS).
-
 ### Definition:
 ```python
 @property

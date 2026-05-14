@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/orientation_settings/
 is_root: false
-weight: 2050
+weight: 2060
 ---
 
 
 ## orientation_settings property
-
-The orientation settings.
 
 ### Definition:
 ```python

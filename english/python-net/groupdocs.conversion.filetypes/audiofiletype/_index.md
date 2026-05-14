@@ -11,35 +11,43 @@ weight: 10
 
 ## AudioFileType class
 
-Defines audio documents.
-
-Includes the following types:
-- [`AudioFileType.mp3`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/mp3/)
-- [`AudioFileType.aac`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/aac/)
-- [`AudioFileType.aiff`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/aiff/)
-- [`AudioFileType.flac`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/flac/)
-- [`AudioFileType.m4a`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/m4a/)
-- [`AudioFileType.wma`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/wma/)
-- [`AudioFileType.ac3`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/ac3/)
-- [`AudioFileType.ogg`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/ogg/)
-- [`AudioFileType.wav`](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/wav/)
-
-Learn more about audio formats here: https://docs.fileformat.com/audio/
-
 The AudioFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Mp3](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/mp3/) |  |
-| [Aac](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/aac/) |  |
-| [Aiff](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/aiff/) |  |
-| [Flac](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/flac/) |  |
-| [M4a](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/m4a/) |  |
-| [Wma](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/wma/) |  |
-| [Ac3](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/ac3/) |  |
-| [Ogg](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/ogg/) |  |
-| [Wav](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/wav/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/audiofiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

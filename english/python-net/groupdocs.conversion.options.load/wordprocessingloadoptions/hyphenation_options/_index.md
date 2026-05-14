@@ -11,8 +11,6 @@ weight: 2170
 
 ## hyphenation_options property
 
-The hyphenation options for WordProcessing documents.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2030
 
 ## encoding property
 
-The encoding used when loading a Txt document; can be None (default).
-
 ### Definition:
 ```python
 @property

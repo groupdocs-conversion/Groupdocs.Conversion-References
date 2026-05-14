@@ -11,8 +11,6 @@ weight: 2050
 
 ## sent property
 
-The item sent DateTime.
-
 ### Definition:
 ```python
 @property

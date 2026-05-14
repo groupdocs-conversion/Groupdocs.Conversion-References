@@ -11,10 +11,6 @@ weight: 2040
 
 ## image_size_limit property
 
-The maximal dimension of the image, defined as the product of image width and height.
-
-The image will be scaled based on this property. Default value is 1800000.
-
 ### Definition:
 ```python
 @property

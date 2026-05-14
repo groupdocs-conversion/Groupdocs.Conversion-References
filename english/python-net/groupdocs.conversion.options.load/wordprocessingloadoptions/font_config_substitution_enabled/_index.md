@@ -11,16 +11,6 @@ weight: 2100
 
 ## font_config_substitution_enabled property
 
-The property enables automatic substitution of missing fonts based on FontConfig in the system. Default: False.
-
-Note: The order of substitution is as follows:
-
-- Automatically substitute missing fonts based on font name (if enabled).
-- Automatically substitute missing fonts based on FontConfig (if enabled).
-- Substitute missing fonts based on FontSubstitutes (if set).
-- Automatically substitute missing fonts based on FontInfo (if enabled).
-- Substitute missing fonts based on DefaultFont (if set).
-
 ### Definition:
 ```python
 @property

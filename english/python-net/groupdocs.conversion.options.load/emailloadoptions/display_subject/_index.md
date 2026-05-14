@@ -11,8 +11,6 @@ weight: 2140
 
 ## display_subject property
 
-The option to display or hide the subject in the header. Default is True.
-
 ### Definition:
 ```python
 @property

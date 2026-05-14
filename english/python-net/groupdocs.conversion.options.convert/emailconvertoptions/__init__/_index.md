@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new [`EmailConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/emailconvertoptions/) instance.
-
 ```python
 def __init__(self):
     ...

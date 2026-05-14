@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/pages_count/
 is_root: false
-weight: 2050
+weight: 2060
 ---
 
 
 ## pages_count property
-
-The pages count, implementing `IPagedConvertOptions.pages_count`.
 
 ### Definition:
 ```python

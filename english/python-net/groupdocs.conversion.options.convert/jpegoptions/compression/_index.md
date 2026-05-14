@@ -11,8 +11,6 @@ weight: 2020
 
 ## compression property
 
-The Jpg compression method.
-
 ### Definition:
 ```python
 @property

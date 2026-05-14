@@ -11,8 +11,6 @@ weight: 2030
 
 ## display_doc_title property
 
-The property specifies whether the document's window title bar should display the document title. Default: False.
-
 ### Definition:
 ```python
 @property

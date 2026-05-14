@@ -11,8 +11,6 @@ weight: 2110
 
 ## default_font property
 
-The default font for a spreadsheet document, used when a font is missing.
-
 ### Definition:
 ```python
 @property

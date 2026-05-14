@@ -11,8 +11,6 @@ weight: 2030
 
 ## minimum_height property
 
-The minimum height for converting an SVG document, used when converting to raster formats; default is 600.
-
 ### Definition:
 ```python
 @property

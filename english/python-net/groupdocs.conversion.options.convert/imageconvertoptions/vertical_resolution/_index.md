@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/vertical_resolution/
 is_root: false
-weight: 2150
+weight: 2190
 ---
 
 
 ## vertical_resolution property
-
-The desired image vertical resolution after conversion; the default resolution is the resolution of the input file or 96 dpi.
 
 ### Definition:
 ```python

@@ -5,28 +5,38 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/noteloadoptions/
 is_root: false
-weight: 230
+weight: 290
 ---
 
 
 ## NoteLoadOptions class
-
-Options for loading One documents.
 
 The NoteLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/__init__/) | Initializes a new instance of [`NoteLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/_init_noargs/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default_font](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/default_font/) | The default font for a Note document; it will be used if a font is missing. |
-| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/font_substitutes/) | The font substitutes used when converting a Note document. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/format/) | The input document file type. |
-| [password](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/password/) | The password used to unprotect a protected document. |
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/default_font/) |  |
+| [font_substitutes](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/font_substitutes/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/format/) |  |
+| [password](/conversion/python-net/groupdocs.conversion.options.load/noteloadoptions/password/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

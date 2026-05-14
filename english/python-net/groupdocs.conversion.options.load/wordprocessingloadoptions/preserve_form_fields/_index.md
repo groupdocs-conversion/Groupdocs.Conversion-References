@@ -11,8 +11,6 @@ weight: 2230
 
 ## preserve_form_fields property
 
-The property determines whether Microsoft Word form fields are preserved as form fields in the PDF or converted to text. The default is False.
-
 ### Definition:
 ```python
 @property

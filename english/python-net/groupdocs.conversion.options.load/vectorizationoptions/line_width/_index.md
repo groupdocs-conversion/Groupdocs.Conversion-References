@@ -11,8 +11,6 @@ weight: 2050
 
 ## line_width property
 
-The line width, affected by the graphics scale; default is 1.
-
 ### Definition:
 ```python
 @property

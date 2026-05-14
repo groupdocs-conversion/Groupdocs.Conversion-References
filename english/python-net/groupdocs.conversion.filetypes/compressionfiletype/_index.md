@@ -11,52 +11,39 @@ weight: 30
 
 ## CompressionFileType class
 
-Defines compression formats.
-
-Includes the following file types:
-- [`CompressionFileType.zip`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/zip/)
-- [`CompressionFileType.rar`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/rar/)
-- [`CompressionFileType.seven_z`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/seven_z/)
-- [`CompressionFileType.tar`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/tar/)
-- [`CompressionFileType.gz`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/gz/)
-- [`CompressionFileType.gzip`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/gzip/)
-- [`CompressionFileType.bz2`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/bz2/)
-- [`CompressionFileType.lz`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lz/)
-- [`CompressionFileType.z`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/z/)
-- [`CompressionFileType.xz`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/xz/)
-- [`CompressionFileType.cpio`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/cpio/)
-- [`CompressionFileType.cab`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/cab/)
-- [`CompressionFileType.lzma`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lzma/)
-- [`CompressionFileType.zst`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/zst/)
-- [`CompressionFileType.uue`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/uue/)
-- [`CompressionFileType.lha`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lha/)
-- [`CompressionFileType.lz4`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lz4/)
-
-Learn more about compression formats here: https://docs.fileformat.com/compression/.
-
 The CompressionFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Methods
+| Method | Description |
 | :- | :- |
-| [Zip](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/zip/) |  |
-| [Rar](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/rar/) |  |
-| [SevenZ](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/sevenz/) |  |
-| [Tar](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/tar/) |  |
-| [Gz](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/gz/) |  |
-| [Gzip](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/gzip/) |  |
-| [Bz2](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/bz2/) |  |
-| [Lz](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lz/) |  |
-| [Z](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/z/) |  |
-| [Xz](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/xz/) |  |
-| [Cpio](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/cpio/) |  |
-| [Cab](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/cab/) |  |
-| [Lzma](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lzma/) |  |
-| [Zst](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/zst/) |  |
-| [Iso](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/iso/) |  |
-| [Uue](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/uue/) |  |
-| [Lha](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lha/) |  |
-| [Lz4](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/lz4/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_init_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [is_multi_file_archive](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/is_multi_file_archive/) |  |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

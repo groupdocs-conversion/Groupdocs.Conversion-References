@@ -11,8 +11,6 @@ weight: 2040
 
 ## right property
 
-The right edge of the rectangle.
-
 ### Definition:
 ```python
 @property

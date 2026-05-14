@@ -11,8 +11,6 @@ weight: 2020
 
 ## match_any_style property
 
-The property indicates whether any font style (bold, italic, underline) for the original font is matched when true, or the exact font style specified in `OriginalFont` when false.
-
 ### Definition:
 ```python
 @property

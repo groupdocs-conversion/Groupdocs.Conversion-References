@@ -11,8 +11,6 @@ weight: 2030
 
 ## italic property
 
-The font italic.
-
 ### Definition:
 ```python
 @property

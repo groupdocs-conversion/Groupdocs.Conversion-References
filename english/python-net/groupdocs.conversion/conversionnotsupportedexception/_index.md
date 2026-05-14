@@ -11,8 +11,6 @@ weight: 30
 
 ## ConversionNotSupportedException class
 
-Exception thrown when the conversion from source file to target file type is not supported.
-
 The ConversionNotSupportedException type exposes the following members:
 
 ### See Also

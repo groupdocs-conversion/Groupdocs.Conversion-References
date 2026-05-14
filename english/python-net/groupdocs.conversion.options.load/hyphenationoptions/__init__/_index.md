@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`HyphenationOptions`](/conversion/python-net/groupdocs.conversion.options.load/hyphenationoptions/).
-
 ```python
 def __init__(self):
     ...

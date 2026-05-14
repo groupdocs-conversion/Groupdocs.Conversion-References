@@ -11,39 +11,43 @@ weight: 160
 
 ## PresentationFileType class
 
-Defines Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
-
-- [`PresentationFileType.odp`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/odp/)
-- [`PresentationFileType.otp`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/otp/)
-- [`PresentationFileType.pot`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pot/)
-- [`PresentationFileType.potm`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/potm/)
-- [`PresentationFileType.potx`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/potx/)
-- [`PresentationFileType.pps`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pps/)
-- [`PresentationFileType.ppsm`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsm/)
-- [`PresentationFileType.ppsx`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/)
-- [`PresentationFileType.ppt`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppt/)
-- [`PresentationFileType.pptm`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pptm/)
-- [`PresentationFileType.pptx`](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pptx/)
-
-Learn more about Presentation formats here: https://wiki.fileformat.com/presentation.
-
 The PresentationFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Ppt](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppt/) |  |
-| [Pps](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pps/) |  |
-| [Pptx](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pptx/) |  |
-| [Ppsx](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsx/) |  |
-| [Odp](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/odp/) |  |
-| [Otp](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/otp/) |  |
-| [Potx](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/potx/) |  |
-| [Pot](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pot/) |  |
-| [Potm](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/potm/) |  |
-| [Pptm](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/pptm/) |  |
-| [Ppsm](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/ppsm/) |  |
-| [Fodp](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/fodp/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/presentationfiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

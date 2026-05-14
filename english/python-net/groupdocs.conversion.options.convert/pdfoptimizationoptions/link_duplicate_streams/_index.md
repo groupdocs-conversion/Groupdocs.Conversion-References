@@ -11,8 +11,6 @@ weight: 2040
 
 ## link_duplicate_streams property
 
-The link duplicate streams.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## audio_format property
 
-The audio format to be used.
-
 ### Definition:
 ```python
 @property

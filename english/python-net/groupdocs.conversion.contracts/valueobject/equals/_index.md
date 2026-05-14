@@ -1,36 +1,20 @@
-﻿---
+---
 title: equals method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/valueobject/equals/
 is_root: false
-weight: 20
+weight: 1040
 ---
 
-## equals {#groupdocs.conversion.contracts.ValueObject}
 
-Determines whether two object instances are equal.
-
-
-### Returns 
-
-
-`true` if the specified object is equal to the current object; otherwise, `false`.
-
+## equals
 
 ```python
-def equals(self, other):
+def equals(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| other | groupdocs.conversion.contracts.ValueObject | The object to compare with the current object. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject)
+* class [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)

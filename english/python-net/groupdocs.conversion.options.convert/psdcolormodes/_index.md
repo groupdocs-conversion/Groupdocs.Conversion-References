@@ -5,27 +5,32 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdcolormodes/
 is_root: false
-weight: 360
+weight: 450
 ---
 
 
 ## PsdColorModes class
 
-Defines Psd color modes enumeration.
-
 The PsdColorModes type exposes the following members:
 
-### Fields
-| Field | Description |
+### Methods
+| Method | Description |
 | :- | :- |
-| [Bitmap](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/bitmap/) |  |
-| [Grayscale](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/grayscale/) |  |
-| [Indexed](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/indexed/) |  |
-| [Rgb](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/rgb/) |  |
-| [Cmyk](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/cmyk/) |  |
-| [Multichannel](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/multichannel/) |  |
-| [Duotone](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/duotone/) |  |
-| [Lab](/conversion/python-net/groupdocs.conversion.options.convert/psdcolormodes/lab/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_to_string_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_all/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.contracts/enumeration/to_string/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

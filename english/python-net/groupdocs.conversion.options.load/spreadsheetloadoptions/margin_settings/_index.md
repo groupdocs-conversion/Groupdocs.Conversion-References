@@ -11,8 +11,6 @@ weight: 2160
 
 ## margin_settings property
 
-The margin settings. See `IPageMarginOptions` for details.
-
 ### Definition:
 ```python
 @property

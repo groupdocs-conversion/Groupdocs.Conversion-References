@@ -11,8 +11,6 @@ weight: 2040
 
 ## size property
 
-The font size.
-
 ### Definition:
 ```python
 @property

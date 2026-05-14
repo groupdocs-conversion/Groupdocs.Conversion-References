@@ -5,23 +5,34 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/
 is_root: false
-weight: 390
+weight: 420
 ---
 
 
 ## PersonalStorageFolderInfo class
 
-Personal Storage Folder info.
-
 The PersonalStorageFolderInfo type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/_to_string_noargs/) |  |
+| [to_string](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/to_string/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [items](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/items/) | The items in the folder. |
-| [items_count](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/items_count/) | The count of the items in the folder. |
-| [name](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/name/) | The name of the folder. |
-| [sub_folders](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/sub_folders/) | The sub folders. |
+| [items](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/items/) |  |
+| [items_count](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/items_count/) |  |
+| [name](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/name/) |  |
+| [sub_folders](/conversion/python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/sub_folders/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/emaildocumentinfo/is_signed/
 is_root: false
-weight: 2050
+weight: 2070
 ---
 
 
 ## is_signed property
-
-Indicates whether the email document is signed.
 
 ### Definition:
 ```python

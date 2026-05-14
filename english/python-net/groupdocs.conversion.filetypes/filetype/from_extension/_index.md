@@ -1,36 +1,26 @@
-﻿---
+---
 title: from_extension method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/filetype/from_extension/
 is_root: false
-weight: 40
+weight: 1060
 ---
 
-## from_extension {#System.String}
 
-Gets FileType for provided fileExtension
-
-
-### Returns 
-
-
-File type
-
+## from_extension {#file_extension}
 
 ```python
-def from_extension(self, file_extension):
+def from_extension(cls, file_extension):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_extension | System.String | File extension |
+| file_extension | `str` |  |
 
-
+**Returns:** FileType
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype/)

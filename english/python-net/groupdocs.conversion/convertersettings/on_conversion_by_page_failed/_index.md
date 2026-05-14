@@ -11,8 +11,6 @@ weight: 2060
 
 ## on_conversion_by_page_failed property
 
-The event handler for conversion by page failed.
-
 ### Definition:
 ```python
 @property

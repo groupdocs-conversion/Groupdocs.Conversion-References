@@ -11,20 +11,6 @@ weight: 2130
 
 ## font_substitutes property
 
-The font substitutes used when converting a WordProcessing document.
-
-Note: The order of substitution is as follows:
-
-1) Automatically substitute missing fonts based on font name (if enabled).
-
-2) Automatically substitute missing fonts based on FontConfig (if enabled).
-
-3) Substitute missing fonts based on FontSubstitutes (if set).
-
-4) Automatically substitute missing fonts based on FontInfo (if enabled).
-
-5) Substitute missing fonts based on DefaultFont (if set).
-
 ### Definition:
 ```python
 @property

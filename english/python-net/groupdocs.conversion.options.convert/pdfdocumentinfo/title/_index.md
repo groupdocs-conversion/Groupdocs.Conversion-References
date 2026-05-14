@@ -11,8 +11,6 @@ weight: 2100
 
 ## title property
 
-The document title.
-
 ### Definition:
 ```python
 @property

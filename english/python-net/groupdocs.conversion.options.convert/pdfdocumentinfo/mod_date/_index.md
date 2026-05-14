@@ -11,8 +11,6 @@ weight: 2060
 
 ## mod_date property
 
-The date of document modification.
-
 ### Definition:
 ```python
 @property

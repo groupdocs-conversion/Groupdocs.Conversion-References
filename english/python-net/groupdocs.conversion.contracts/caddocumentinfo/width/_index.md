@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/caddocumentinfo/width/
 is_root: false
-weight: 2040
+weight: 2100
 ---
 
 
 ## width property
-
-The width.
 
 ### Definition:
 ```python

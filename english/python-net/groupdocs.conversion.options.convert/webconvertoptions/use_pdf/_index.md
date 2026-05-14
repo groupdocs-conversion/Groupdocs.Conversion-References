@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/use_pdf/
 is_root: false
-weight: 2040
+weight: 2080
 ---
 
 
 ## use_pdf property
-
-The UsePdf option.
 
 ### Definition:
 ```python

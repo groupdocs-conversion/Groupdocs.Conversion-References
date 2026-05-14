@@ -11,8 +11,6 @@ weight: 2010
 
 ## cancellation_token property
 
-The cancellation token.
-
 ### Definition:
 ```python
 @property

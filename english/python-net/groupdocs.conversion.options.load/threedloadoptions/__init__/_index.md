@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`ThreeDLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/threedloadoptions/).
-
 ```python
 def __init__(self):
     ...

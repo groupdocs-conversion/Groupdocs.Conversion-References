@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/rotate_angle/
 is_root: false
-weight: 2120
+weight: 2160
 ---
 
 
 ## rotate_angle property
-
-The image rotation angle.
 
 ### Definition:
 ```python

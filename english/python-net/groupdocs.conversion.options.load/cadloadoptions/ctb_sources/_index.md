@@ -11,8 +11,6 @@ weight: 2020
 
 ## ctb_sources property
 
-The CTB sources.
-
 ### Definition:
 ```python
 @property

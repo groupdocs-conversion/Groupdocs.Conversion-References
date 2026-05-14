@@ -11,8 +11,6 @@ weight: 2040
 
 ## comment_display_mode property
 
-The comment display mode specifies how comments should be displayed in the output document; the default is ShowInBalloons.
-
 ### Definition:
 ```python
 @property

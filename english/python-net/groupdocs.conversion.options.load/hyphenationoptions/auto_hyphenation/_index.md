@@ -11,8 +11,6 @@ weight: 2010
 
 ## auto_hyphenation property
 
-The value determining whether automatic hyphenation is turned on for the document; default is False.
-
 ### Definition:
 ```python
 @property

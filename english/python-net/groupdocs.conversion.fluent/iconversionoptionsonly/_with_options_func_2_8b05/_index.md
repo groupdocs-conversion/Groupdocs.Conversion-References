@@ -1,0 +1,26 @@
+---
+title: _with_options_func_2_8b05 method
+second_title: GroupDocs.Conversion for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.conversion.fluent/iconversionoptionsonly/_with_options_func_2_8b05/
+is_root: false
+weight: 1020
+---
+
+
+## _with_options_func_2_8b05 {#options_provider}
+
+```python
+def _with_options_func_2_8b05(self, options_provider):
+    ...
+```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| options_provider | `ConvertOptions` |  |
+
+**Returns:** IConversionHandlerSetup
+
+### See Also
+* class [`IConversionOptionsOnly`](/conversion/python-net/groupdocs.conversion.fluent/iconversionoptionsonly/)

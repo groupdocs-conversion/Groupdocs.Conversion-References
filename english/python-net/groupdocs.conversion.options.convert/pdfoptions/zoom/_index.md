@@ -11,10 +11,6 @@ weight: 2080
 
 ## zoom property
 
-The zoom level in percentage.
-
-Default is 100.
-
 ### Definition:
 ```python
 @property

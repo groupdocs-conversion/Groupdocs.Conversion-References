@@ -11,8 +11,6 @@ weight: 2040
 
 ## pages_count property
 
-The number of pages in the document, implementing `IDocumentInfo.pages_count`.
-
 ### Definition:
 ```python
 @property

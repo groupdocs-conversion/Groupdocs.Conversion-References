@@ -11,10 +11,6 @@ weight: 2010
 
 ## export_images_as_base64 property
 
-The option to export images as base64.
-
-Default is True.
-
 ### Definition:
 ```python
 @property

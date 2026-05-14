@@ -1,18 +1,22 @@
-﻿---
+---
 title: creation_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/xpsdocumentinfo/creation_date/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## creation_date property
 
-
-Implements [`IDocumentInfo.creation_date`](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo#creation_date)
+### Definition:
+```python
+@property
+def creation_date(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](../../)
-* class [`XpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xpsdocumentinfo)
+* class [`XpsDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xpsdocumentinfo/)

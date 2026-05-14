@@ -5,24 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.caching/filecache/get_keys/
 is_root: false
-weight: 1010
+weight: 1050
 ---
 
 
-## get_keys {#filter}
-
-Returns all keys matching filter.
+## get_keys
 
 ```python
-def get_keys(self, filter):
+def get_keys(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| filter | `str` | The filter to use. |
-
-**Returns:** Keys matching the filter.
 
 ### See Also
 * class [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/)

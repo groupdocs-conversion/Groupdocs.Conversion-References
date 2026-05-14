@@ -11,8 +11,6 @@ weight: 2040
 
 ## folder property
 
-The folder to be processed. Default is Inbox.
-
 ### Definition:
 ```python
 @property

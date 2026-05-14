@@ -11,8 +11,6 @@ weight: 2070
 
 ## hide_window_ui property
 
-The property indicates whether user interface elements should be hidden when the document is active. Default: False.
-
 ### Definition:
 ```python
 @property

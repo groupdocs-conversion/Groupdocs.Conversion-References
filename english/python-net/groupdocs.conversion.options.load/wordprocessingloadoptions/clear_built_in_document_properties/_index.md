@@ -11,8 +11,6 @@ weight: 2020
 
 ## clear_built_in_document_properties property
 
-The clear_built_in_document_properties property.
-
 ### Definition:
 ```python
 @property

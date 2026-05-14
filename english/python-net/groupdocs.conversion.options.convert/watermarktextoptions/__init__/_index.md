@@ -9,18 +9,12 @@ weight: 10
 ---
 
 
-## __init__ {#text}
-
-Initializes a WatermarkOptions instance and sets the watermark text.
+## __init__
 
 ```python
-def __init__(self, text):
+def __init__(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| text | `str` | The text to be used as watermark. |
 
 ### See Also
 * class [`WatermarkTextOptions`](/conversion/python-net/groupdocs.conversion.options.convert/watermarktextoptions/)

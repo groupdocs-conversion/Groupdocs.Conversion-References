@@ -11,8 +11,6 @@ weight: 2050
 
 ## version property
 
-The PSD file version.
-
 ### Definition:
 ```python
 @property

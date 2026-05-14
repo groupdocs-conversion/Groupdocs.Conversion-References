@@ -11,8 +11,6 @@ weight: 2050
 
 ## default_font property
 
-The default font for an email document, used when a required font is missing.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2050
 
 ## source_file_name property
 
-The source file name.
-
 ### Definition:
 ```python
 @property

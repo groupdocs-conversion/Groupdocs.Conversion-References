@@ -11,8 +11,6 @@ weight: 2010
 
 ## export_images_for_old_readers property
 
-The property determines whether keywords for old readers are written to the RTF output, which can significantly affect the document size; the default is False.
-
 ### Definition:
 ```python
 @property

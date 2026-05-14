@@ -1,17 +1,16 @@
-﻿---
+---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/diagramconvertoptions/format/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## format property
 
-
-Overrides the Format property to ensure it is of type DiagramFileType.
 ### Definition:
 ```python
 @property
@@ -23,6 +22,4 @@ def format(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.conversion.options.convert`](../../)
-* class [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
+* class [`DiagramConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/diagramconvertoptions/)

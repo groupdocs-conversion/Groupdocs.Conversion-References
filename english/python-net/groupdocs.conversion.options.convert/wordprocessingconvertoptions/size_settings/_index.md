@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/size_settings/
 is_root: false
-weight: 2090
+weight: 2130
 ---
 
 
 ## size_settings property
-
-The page size options.
-
-See `IPageSizeOptions` for details.
 
 ### Definition:
 ```python

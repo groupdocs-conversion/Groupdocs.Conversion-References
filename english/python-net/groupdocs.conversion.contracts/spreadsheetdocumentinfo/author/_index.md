@@ -11,8 +11,6 @@ weight: 2020
 
 ## author property
 
-The author of the spreadsheet document.
-
 ### Definition:
 ```python
 @property

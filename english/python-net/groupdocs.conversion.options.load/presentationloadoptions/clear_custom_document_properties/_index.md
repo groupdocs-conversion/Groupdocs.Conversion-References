@@ -11,8 +11,6 @@ weight: 2020
 
 ## clear_custom_document_properties property
 
-The flag indicating whether custom document properties are cleared when loading a presentation.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2060
 
 ## size property
 
-The item size.
-
 ### Definition:
 ```python
 @property

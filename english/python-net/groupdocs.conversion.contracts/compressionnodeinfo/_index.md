@@ -11,8 +11,6 @@ weight: 70
 
 ## CompressionNodeInfo class
 
-Represents a node in a compressed file.
-
 The CompressionNodeInfo type exposes the following members:
 
 ### Constructors
@@ -20,13 +18,18 @@ The CompressionNodeInfo type exposes the following members:
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/_init_noargs/) |  |
+
 ### Properties
 | Property | Description |
 | :- | :- |
-| [children](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/children/) | The child nodes of this node. |
-| [file_size](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/file_size/) | The size of the file in bytes (only relevant for file nodes). |
-| [is_file](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/is_file/) | The node is a file if true; otherwise it is a directory. |
-| [name](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/name/) | The name of the node. |
+| [children](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/children/) |  |
+| [file_size](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/file_size/) |  |
+| [is_file](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/is_file/) |  |
+| [name](/conversion/python-net/groupdocs.conversion.contracts/compressionnodeinfo/name/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

@@ -5,23 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/attachmenticon/get_object_data/
 is_root: false
-weight: 1010
+weight: 1030
 ---
 
 
-## get_object_data {#info-context}
-
-Implements ISerializable.GetObjectData.
+## get_object_data
 
 ```python
-def get_object_data(self, info, context):
+def get_object_data(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| info | `System.Runtime.Serialization.SerializationInfo` | The SerializationInfo. |
-| context | `System.Runtime.Serialization.StreamingContext` | The StreamingContext. |
 
 ### See Also
 * class [`AttachmentIcon`](/conversion/python-net/groupdocs.conversion.options.load/attachmenticon/)

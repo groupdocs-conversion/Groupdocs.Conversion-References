@@ -11,8 +11,6 @@ weight: 2020
 
 ## page_size property
 
-The page size implements [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/).
-
 ### Definition:
 ```python
 @property

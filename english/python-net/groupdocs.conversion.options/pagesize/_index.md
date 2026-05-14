@@ -5,37 +5,32 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options/pagesize/
 is_root: false
-weight: 20
+weight: 50
 ---
 
 
 ## PageSize class
 
-Specifies page size.
-
 The PageSize type exposes the following members:
 
-### Fields
-| Field | Description |
+### Methods
+| Method | Description |
 | :- | :- |
-| [A3](/conversion/python-net/groupdocs.conversion.options/pagesize/a3/) |  |
-| [A4](/conversion/python-net/groupdocs.conversion.options/pagesize/a4/) |  |
-| [A5](/conversion/python-net/groupdocs.conversion.options/pagesize/a5/) |  |
-| [B4](/conversion/python-net/groupdocs.conversion.options/pagesize/b4/) |  |
-| [B5](/conversion/python-net/groupdocs.conversion.options/pagesize/b5/) |  |
-| [Custom](/conversion/python-net/groupdocs.conversion.options/pagesize/custom/) |  |
-| [EnvelopeDL](/conversion/python-net/groupdocs.conversion.options/pagesize/envelopedl/) |  |
-| [Executive](/conversion/python-net/groupdocs.conversion.options/pagesize/executive/) |  |
-| [Folio](/conversion/python-net/groupdocs.conversion.options/pagesize/folio/) |  |
-| [Ledger](/conversion/python-net/groupdocs.conversion.options/pagesize/ledger/) |  |
-| [Legal](/conversion/python-net/groupdocs.conversion.options/pagesize/legal/) |  |
-| [Letter](/conversion/python-net/groupdocs.conversion.options/pagesize/letter/) |  |
-| [Paper10x14](/conversion/python-net/groupdocs.conversion.options/pagesize/paper10x14/) |  |
-| [Paper11x17](/conversion/python-net/groupdocs.conversion.options/pagesize/paper11x17/) |  |
-| [Quarto](/conversion/python-net/groupdocs.conversion.options/pagesize/quarto/) |  |
-| [Statement](/conversion/python-net/groupdocs.conversion.options/pagesize/statement/) |  |
-| [Tabloid](/conversion/python-net/groupdocs.conversion.options/pagesize/tabloid/) |  |
-| [Unset](/conversion/python-net/groupdocs.conversion.options/pagesize/unset/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_to_string_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_all/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.contracts/enumeration/to_string/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options`](/conversion/python-net/groupdocs.conversion.options/)

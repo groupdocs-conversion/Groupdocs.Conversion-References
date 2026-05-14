@@ -11,8 +11,6 @@ weight: 2080
 
 ## width property
 
-The watermark width.
-
 ### Definition:
 ```python
 @property

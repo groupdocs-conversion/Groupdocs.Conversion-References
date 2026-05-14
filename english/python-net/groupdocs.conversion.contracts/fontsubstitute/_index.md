@@ -11,20 +11,25 @@ weight: 180
 
 ## FontSubstitute class
 
-Describes substitution for missing font.
-
 The FontSubstitute type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [create](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/create/#original_font-substitute_with) | Instantiate new font substitution pair. |
+| [create](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/create/#original_font-substitute_with) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [original_font_name](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/original_font_name/) | The original font name. |
-| [substitute_font_name](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/substitute_font_name/) | The substitute font name. |
+| [original_font_name](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/original_font_name/) |  |
+| [substitute_font_name](/conversion/python-net/groupdocs.conversion.contracts/fontsubstitute/substitute_font_name/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

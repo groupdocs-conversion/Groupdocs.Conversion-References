@@ -11,8 +11,6 @@ weight: 2010
 
 ## contacts_count property
 
-The contacts count.
-
 ### Definition:
 ```python
 @property

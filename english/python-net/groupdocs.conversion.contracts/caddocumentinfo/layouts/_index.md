@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 is_root: false
-weight: 2030
+weight: 2060
 ---
 
 
 ## layouts property
-
-The layouts in the document.
 
 ### Definition:
 ```python

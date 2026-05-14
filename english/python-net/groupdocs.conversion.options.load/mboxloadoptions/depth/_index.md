@@ -11,8 +11,6 @@ weight: 2030
 
 ## depth property
 
-The depth of the container. Implements `IDocumentsContainerLoadOptions.depth`. Default is 3.
-
 ### Definition:
 ```python
 @property

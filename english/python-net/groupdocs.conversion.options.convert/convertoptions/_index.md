@@ -11,14 +11,12 @@ weight: 50
 
 ## ConvertOptions class
 
-The general conversion options class.
-
 The ConvertOptions type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

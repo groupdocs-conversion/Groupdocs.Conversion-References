@@ -11,8 +11,6 @@ weight: 2010
 
 ## crop_area property
 
-The crop area of the image before conversion.
-
 ### Definition:
 ```python
 @property

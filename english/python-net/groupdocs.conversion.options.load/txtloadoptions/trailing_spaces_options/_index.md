@@ -11,8 +11,6 @@ weight: 2080
 
 ## trailing_spaces_options property
 
-The preferred option for handling trailing spaces. Default value is [`TxtTrailingSpacesOptions.trim`](/conversion/python-net/groupdocs.conversion.options.load/txttrailingspacesoptions/trim/).
-
 ### Definition:
 ```python
 @property

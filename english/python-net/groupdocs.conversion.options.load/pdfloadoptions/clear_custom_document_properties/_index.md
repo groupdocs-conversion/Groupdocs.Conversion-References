@@ -11,8 +11,6 @@ weight: 2020
 
 ## clear_custom_document_properties property
 
-The ClearCustomDocumentProperties property determines whether custom document properties are removed when loading a PDF.
-
 ### Definition:
 ```python
 @property

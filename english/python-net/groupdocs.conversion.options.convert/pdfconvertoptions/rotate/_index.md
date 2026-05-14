@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/rotate/
 is_root: false
-weight: 2090
+weight: 2130
 ---
 
 
 ## rotate property
-
-The page rotation.
 
 ### Definition:
 ```python

@@ -1,32 +1,20 @@
-﻿---
+---
 title: trace method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.logging/ilogger/trace/
 is_root: false
-weight: 30
+weight: 1070
 ---
 
-## trace {#System.String}
 
-Writes trace log message;
-Trace log messages provides generally useful information about application flow.
-
-
+## trace
 
 ```python
-def trace(self, message):
+def trace(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| message | System.String | The trace message. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.logging`](../../)
-* class [`ILogger`](/conversion/python-net/groupdocs.conversion.logging/ilogger)
+* class [`ILogger`](/conversion/python-net/groupdocs.conversion.logging/ilogger/)

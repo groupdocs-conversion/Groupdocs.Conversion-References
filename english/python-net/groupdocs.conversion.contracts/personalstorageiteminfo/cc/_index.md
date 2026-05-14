@@ -11,8 +11,6 @@ weight: 2030
 
 ## cc property
 
-The Cc of the item.
-
 ### Definition:
 ```python
 @property

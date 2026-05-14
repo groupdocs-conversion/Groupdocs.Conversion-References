@@ -11,8 +11,6 @@ weight: 2010
 
 ## attachments_count property
 
-The number of attachments.
-
 ### Definition:
 ```python
 @property

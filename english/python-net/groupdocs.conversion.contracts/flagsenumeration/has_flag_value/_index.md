@@ -5,24 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/flagsenumeration/has_flag_value/
 is_root: false
-weight: 1030
+weight: 1060
 ---
 
 
-## has_flag_value {#value}
-
-Checks if the current flag has the specified value.
+## has_flag_value
 
 ```python
-def has_flag_value(self, value):
+def has_flag_value(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| value | `int` | The flag value to check. |
-
-**Returns:** bool: True if the value is present; otherwise, False.
 
 ### See Also
 * class [`FlagsEnumeration`](/conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/)

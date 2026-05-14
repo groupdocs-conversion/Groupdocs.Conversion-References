@@ -11,8 +11,6 @@ weight: 2320
 
 ## skip_headers property
 
-The property indicates whether to skip headers when converting spreadsheet documents. Default: False.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2130
 
 ## show_hidden_slides property
 
-The flag that shows hidden slides.
-
 ### Definition:
 ```python
 @property

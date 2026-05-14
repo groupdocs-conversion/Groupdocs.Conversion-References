@@ -11,49 +11,22 @@ weight: 110
 
 ## FluentConverter class
 
-Class for fluent conversion setup.
-
-Sample fluent conversion usage:
-
-```csharp
-var converter = FluentConverter.Create();
-```
-
-```csharp
-FluentConverter.Load("")
-    .ConvertTo("")
-    .Convert();
-```
-
-```csharp
-FluentConverter.WithSettings(() => new ConverterSettings())
-    .Load("").WithOptions(new PdfLoadOptions())
-    .ConvertTo("").WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted(convertedDocumentStream => { })
-    .Convert();
-```
-
-```csharp
-FluentConverter.Load("").WithOptions(new PdfLoadOptions())
-    .ConvertByPageTo((number => new FileStream("", FileMode.Create))).WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted((number, stream) => {})
-    .Convert();
-```
-
-```csharp
-FluentConverter.Load("").GetPossibleConversions();
-FluentConverter.Load("").GetDocumentInfo();
-FluentConverter.Load("").WithOptions(new PdfLoadOptions()).GetPossibleConversions();
-FluentConverter.Load("").WithOptions(new PdfLoadOptions()).GetDocumentInfo();
-```
-
 The FluentConverter type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [load](/conversion/python-net/groupdocs.conversion/fluentconverter/load/#file_name) | Configure source document for conversion. |
-| [load](/conversion/python-net/groupdocs.conversion/fluentconverter/load/#file_name) | Configure set of source documents. |
+| [_load_func_1_4427](/conversion/python-net/groupdocs.conversion/fluentconverter/_load_func_1_4427/#document_stream_provider) |  |
+| [_load_func_1_e_2e2](/conversion/python-net/groupdocs.conversion/fluentconverter/_load_func_1_e_2e2/#document_stream_provider) |  |
+| [_load_string](/conversion/python-net/groupdocs.conversion/fluentconverter/_load_string/#file_name) |  |
+| [_load_string_array](/conversion/python-net/groupdocs.conversion/fluentconverter/_load_string_array/) |  |
+| [load](/conversion/python-net/groupdocs.conversion/fluentconverter/load/) |  |
+| [load_file](/conversion/python-net/groupdocs.conversion/fluentconverter/load_file/) |  |
+| [load_files](/conversion/python-net/groupdocs.conversion/fluentconverter/load_files/) |  |
+| [load_func](/conversion/python-net/groupdocs.conversion/fluentconverter/load_func/) |  |
+| [load_string](/conversion/python-net/groupdocs.conversion/fluentconverter/load_string/) |  |
+| [load_strings](/conversion/python-net/groupdocs.conversion/fluentconverter/load_strings/) |  |
+| [with_settings](/conversion/python-net/groupdocs.conversion/fluentconverter/with_settings/#settings_provider) |  |
 
 ### See Also
 * module [`groupdocs.conversion`](/conversion/python-net/groupdocs.conversion/)

@@ -11,8 +11,6 @@ weight: 2020
 
 ## font_subset_strategy property
 
-The font subset strategy.
-
 ### Definition:
 ```python
 @property

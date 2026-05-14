@@ -11,8 +11,6 @@ weight: 2070
 
 ## flatten_all_fields property
 
-The flatten_all_fields property flattens all the fields of the PDF form.
-
 ### Definition:
 ```python
 @property

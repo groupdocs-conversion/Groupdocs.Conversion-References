@@ -5,15 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/is_multi_encoded/
 is_root: false
-weight: 2060
+weight: 2130
 ---
 
 
 ## is_multi_encoded property
-
-The property indicates whether the file contains several encodings.
-
-When True, the file contains multiple encodings.
 
 ### Definition:
 ```python

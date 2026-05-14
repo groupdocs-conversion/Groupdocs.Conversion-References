@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`FontConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions/) class with default output format.
-
 ```python
 def __init__(self):
     ...

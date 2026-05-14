@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/rtf_options/
 is_root: false
-weight: 2080
+weight: 2120
 ---
 
 
 ## rtf_options property
-
-The RTF specific convert options.
 
 ### Definition:
 ```python

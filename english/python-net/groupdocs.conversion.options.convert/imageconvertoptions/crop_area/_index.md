@@ -11,8 +11,6 @@ weight: 2040
 
 ## crop_area property
 
-The crop area of the raster image after conversion.
-
 ### Definition:
 ```python
 @property

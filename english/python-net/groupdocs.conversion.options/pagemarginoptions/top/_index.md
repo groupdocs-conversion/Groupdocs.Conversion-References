@@ -11,8 +11,6 @@ weight: 2040
 
 ## top property
 
-The desired page top margin in points.
-
 ### Definition:
 ```python
 @property

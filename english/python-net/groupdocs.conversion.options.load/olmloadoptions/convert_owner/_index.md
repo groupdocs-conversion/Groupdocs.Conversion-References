@@ -11,8 +11,6 @@ weight: 2020
 
 ## convert_owner property
 
-The ConvertOwner flag indicating whether the document owner should be converted. Read‑only; always `False`, so the owner will not be converted.
-
 ### Definition:
 ```python
 @property
