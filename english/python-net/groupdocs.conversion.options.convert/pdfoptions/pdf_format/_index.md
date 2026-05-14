@@ -11,8 +11,6 @@ weight: 2060
 
 ## pdf_format property
 
-The PDF format of the converted document.
-
 ### Definition:
 ```python
 @property

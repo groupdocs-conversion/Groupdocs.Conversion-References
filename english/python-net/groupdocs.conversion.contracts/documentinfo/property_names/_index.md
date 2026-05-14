@@ -11,8 +11,6 @@ weight: 2050
 
 ## property_names property
 
-The property implements `IDocumentInfo.property_names`.
-
 ### Definition:
 ```python
 @property

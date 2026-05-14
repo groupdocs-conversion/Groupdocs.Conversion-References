@@ -11,8 +11,6 @@ weight: 2030
 
 ## is_primary property
 
-The conversion is primary.
-
 ### Definition:
 ```python
 @property

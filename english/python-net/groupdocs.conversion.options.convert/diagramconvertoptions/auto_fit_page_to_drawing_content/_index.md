@@ -11,8 +11,6 @@ weight: 2010
 
 ## auto_fit_page_to_drawing_content property
 
-The option defines whether to enlarge the page to fit the drawing content.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2050
 
 ## underline property
 
-The font underline.
-
 ### Definition:
 ```python
 @property

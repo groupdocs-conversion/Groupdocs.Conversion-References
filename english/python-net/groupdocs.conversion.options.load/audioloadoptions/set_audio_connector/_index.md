@@ -5,22 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/audioloadoptions/set_audio_connector/
 is_root: false
-weight: 1010
+weight: 1030
 ---
 
 
-## set_audio_connector {#audio_connector}
-
-Set audio document connector.
+## set_audio_connector
 
 ```python
-def set_audio_connector(self, audio_connector):
+def set_audio_connector(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| audio_connector | `IAudioConnector` | Audio connector instance. |
 
 ### See Also
 * class [`AudioLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/audioloadoptions/)

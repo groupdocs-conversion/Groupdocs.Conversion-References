@@ -11,8 +11,6 @@ weight: 2020
 
 ## converted_stream property
 
-The converted file stream.
-
 ### Definition:
 ```python
 @property

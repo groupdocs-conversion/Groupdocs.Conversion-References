@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`PsdOptions`](/conversion/python-net/groupdocs.conversion.options.convert/psdoptions/) class.
-
 ```python
 def __init__(self):
     ...

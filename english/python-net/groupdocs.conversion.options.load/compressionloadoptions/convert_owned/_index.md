@@ -11,8 +11,6 @@ weight: 2010
 
 ## convert_owned property
 
-The ConvertOwned property indicates that owned documents will be converted; it is read‑only and always set to True.
-
 ### Definition:
 ```python
 @property

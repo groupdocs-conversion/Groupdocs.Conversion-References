@@ -11,8 +11,6 @@ weight: 2020
 
 ## quality property
 
-The quality.
-
 ### Definition:
 ```python
 @property

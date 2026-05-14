@@ -5,26 +5,36 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/vcfloadoptions/
 is_root: false
-weight: 440
+weight: 500
 ---
 
 
 ## VcfLoadOptions class
-
-Options for loading Vcf documents.
 
 The VcfLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/__init__/) | Initializes a new instance of [`VcfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/_init_noargs/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [encoding](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/encoding/) | The encoding used when loading a VCF document. Default is `Encoding.Default`. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/format/) | The input document file type. |
+| [encoding](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/encoding/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/vcfloadoptions/format/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

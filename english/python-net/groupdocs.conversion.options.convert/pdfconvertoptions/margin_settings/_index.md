@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/margin_settings/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 
 ## margin_settings property
-
-The margin settings, represented by `IPageMarginOptions`.
 
 ### Definition:
 ```python

@@ -9,18 +9,12 @@ weight: 10
 ---
 
 
-## __init__ {#cache_path}
-
-Initializes a new instance of the FileCache class.
+## __init__
 
 ```python
-def __init__(self, cache_path):
+def __init__(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| cache_path | `str` | Relative or absolute path where document cache will be stored. |
 
 ### See Also
 * class [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/)

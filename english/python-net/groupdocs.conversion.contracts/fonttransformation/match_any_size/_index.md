@@ -11,8 +11,6 @@ weight: 2010
 
 ## match_any_size property
 
-The property determines whether any font size for the original font name is matched (true) or the exact font size specified in OriginalFont is matched (false).
-
 ### Definition:
 ```python
 @property

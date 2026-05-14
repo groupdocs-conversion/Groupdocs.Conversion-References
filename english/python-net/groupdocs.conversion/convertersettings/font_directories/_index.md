@@ -11,8 +11,6 @@ weight: 2020
 
 ## font_directories property
 
-The custom font directories paths.
-
 ### Definition:
 ```python
 @property

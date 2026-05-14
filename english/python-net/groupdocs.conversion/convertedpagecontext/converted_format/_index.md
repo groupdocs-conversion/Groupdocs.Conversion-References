@@ -11,8 +11,6 @@ weight: 2010
 
 ## converted_format property
 
-The converted file format.
-
 ### Definition:
 ```python
 @property

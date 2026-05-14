@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/size_settings/
 is_root: false
-weight: 2060
+weight: 2070
 ---
 
 
 ## size_settings property
-
-The size settings for CAD conversion, as defined by `IPageSizeOptions`.
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 2080
 
 ## scan_font_directories_recursively property
 
-The converter will scan font directories recursively when set to True.
-
 ### Definition:
 ```python
 @property

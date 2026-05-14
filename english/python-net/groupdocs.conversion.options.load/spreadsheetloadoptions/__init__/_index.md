@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

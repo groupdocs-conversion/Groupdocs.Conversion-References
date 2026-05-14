@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/presentationconvertoptions/zoom/
 is_root: false
-weight: 2020
+weight: 2070
 ---
 
 
 ## zoom property
-
-The zoom level in percentage, defaulting to 100%; default zoom is supported up to Microsoft PowerPoint 2010, while PowerPoint 2013 and later use the zoom factor of the last opened document.
 
 ### Definition:
 ```python

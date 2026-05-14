@@ -11,10 +11,6 @@ weight: 2020
 
 ## convert_owner property
 
-The property implements `IDocumentsContainerLoadOptions.convert_owner`.
-
-It is read‑only. Setting it to false prevents the owner from being converted.
-
 ### Definition:
 ```python
 @property

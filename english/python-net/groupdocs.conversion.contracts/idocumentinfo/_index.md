@@ -1,31 +1,27 @@
-﻿---
+---
 title: IDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.contracts/idocumentinfo/
 is_root: false
-weight: 200
+weight: 240
 ---
 
+
 ## IDocumentInfo class
-
-Contains metadata for a document.
-
-
 
 The IDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/pages_count) | Document pages count. |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/format) | Document format |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/size) | Document size in bytes |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/creation_date) | Document creation date |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/property_names) | Enumerable of all properties which could be get for the current document info |
-
-
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/idocumentinfo/size/) |  |
 
 ### See Also
-* module [`groupdocs.conversion.contracts`](..)
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

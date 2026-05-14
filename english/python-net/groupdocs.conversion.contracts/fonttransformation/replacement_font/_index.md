@@ -11,8 +11,6 @@ weight: 2040
 
 ## replacement_font property
 
-The replacement font specification.
-
 ### Definition:
 ```python
 @property

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/version/
 is_root: false
-weight: 2070
+weight: 2130
 ---
 
 
 ## version property
-
-The version of the PDF document.
 
 ### Definition:
 ```python

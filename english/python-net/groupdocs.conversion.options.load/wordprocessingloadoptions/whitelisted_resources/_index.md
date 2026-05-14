@@ -11,8 +11,6 @@ weight: 2300
 
 ## whitelisted_resources property
 
-The property implements `IResourceLoadingOptions.whitelisted_resources`.
-
 ### Definition:
 ```python
 @property

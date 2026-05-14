@@ -11,8 +11,6 @@ weight: 2010
 
 ## bold property
 
-The font bold.
-
 ### Definition:
 ```python
 @property

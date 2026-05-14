@@ -11,8 +11,6 @@ weight: 2010
 
 ## bottom property
 
-The bottom edge of the rectangle.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2020
 
 ## colors_limit property
 
-The maximum number of colors used to quantize an image. Default value is 25.
-
 ### Definition:
 ```python
 @property

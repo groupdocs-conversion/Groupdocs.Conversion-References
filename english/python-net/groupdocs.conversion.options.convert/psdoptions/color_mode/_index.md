@@ -11,8 +11,6 @@ weight: 2030
 
 ## color_mode property
 
-The PSD color mode.
-
 ### Definition:
 ```python
 @property

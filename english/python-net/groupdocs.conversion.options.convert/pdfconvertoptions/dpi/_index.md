@@ -11,8 +11,6 @@ weight: 2010
 
 ## dpi property
 
-The desired page DPI after conversion; the default resolution is 96 dpi.
-
 ### Definition:
 ```python
 @property

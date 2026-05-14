@@ -11,8 +11,6 @@ weight: 2010
 
 ## format property
 
-The format of the conversion. Implements `IConvertOptions.format`.
-
 ### Definition:
 ```python
 @property

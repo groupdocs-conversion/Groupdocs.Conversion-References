@@ -11,12 +11,6 @@ weight: 2010
 
 ## attachment_icons property
 
-The list of attachment icons.
-
-The list can be customized to provide specific icons for different file types.
-
-By default, contains common file type icons.
-
 ### Definition:
 ```python
 @property

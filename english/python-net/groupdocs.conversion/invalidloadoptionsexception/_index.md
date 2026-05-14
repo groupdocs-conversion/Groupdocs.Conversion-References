@@ -11,8 +11,6 @@ weight: 170
 
 ## InvalidLoadOptionsException class
 
-Thrown if provided load options are invalid.
-
 The InvalidLoadOptionsException type exposes the following members:
 
 ### See Also

@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`GmlLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/gmlloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

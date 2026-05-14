@@ -11,8 +11,6 @@ weight: 2080
 
 ## producer property
 
-The document producer.
-
 ### Definition:
 ```python
 @property

@@ -11,16 +11,6 @@ weight: 2120
 
 ## font_name_substitution_enabled property
 
-The property that enables automatic substitution of missing fonts based on the font name. Default: False.
-
-Note: The order of substitution is as follows:
-
-1) Automatically substitute missing fonts based on font name (if enabled).
-2) Automatically substitute missing fonts based on FontConfig (if enabled).
-3) Substitute missing fonts based on FontSubstitutes (if set).
-4) Automatically substitute missing fonts based on FontInfo (if enabled).
-5) Substitute missing fonts based on DefaultFont (if set).
-
 ### Definition:
 ```python
 @property

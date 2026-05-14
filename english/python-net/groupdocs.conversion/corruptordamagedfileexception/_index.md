@@ -11,8 +11,6 @@ weight: 90
 
 ## CorruptOrDamagedFileException class
 
-GroupDocs exception thrown when the file is corrupt or damaged.
-
 The CorruptOrDamagedFileException type exposes the following members:
 
 ### See Also

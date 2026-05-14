@@ -11,8 +11,6 @@ weight: 2190
 
 ## margin_settings property
 
-The margin settings for the Word processing document, represented by `IPageMarginOptions`.
-
 ### Definition:
 ```python
 @property

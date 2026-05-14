@@ -11,8 +11,6 @@ weight: 2030
 
 ## fixed_layout_show_borders property
 
-The page borders are shown when converting to fixed layout. Default is True.
-
 ### Definition:
 ```python
 @property

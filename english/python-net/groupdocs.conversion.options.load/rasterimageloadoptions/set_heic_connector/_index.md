@@ -5,22 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_heic_connector/
 is_root: false
-weight: 1010
+weight: 1040
 ---
 
 
-## set_heic_connector {#heic_connector}
-
-Set Heic image connector.
+## set_heic_connector
 
 ```python
-def set_heic_connector(self, heic_connector):
+def set_heic_connector(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| heic_connector | `IHeicConnector` | Heic connector instance. |
 
 ### See Also
 * class [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/)

@@ -11,8 +11,6 @@ weight: 2010
 
 ## format property
 
-The pixel format of the bitmap.
-
 ### Definition:
 ```python
 @property

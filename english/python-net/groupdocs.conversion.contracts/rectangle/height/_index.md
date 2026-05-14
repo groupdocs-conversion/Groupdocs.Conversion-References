@@ -11,8 +11,6 @@ weight: 2020
 
 ## height property
 
-The height of the rectangle based on top and bottom edges.
-
 ### Definition:
 ```python
 @property

@@ -11,23 +11,33 @@ weight: 60
 
 ## CompressionLoadOptions class
 
-Options for loading compression documents.
-
 The CompressionLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/__init__/) | Initializes a new instance of [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/_init_noargs/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/convert_owned/) | The ConvertOwned property indicates that owned documents will be converted; it is read‑only and always set to True. |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/convert_owner/) | The ConvertOwner property is read‑only and is always set to `False`; the document owner will not be converted. |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/depth/) | The depth of the documents container load options. Implements `IDocumentsContainerLoadOptions.depth`. Default: 3. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/format/) | The input document file type. |
-| [password](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/password/) | The password used to load a protected document. |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/convert_owned/) |  |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/convert_owner/) |  |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/depth/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/format/) |  |
+| [password](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/password/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

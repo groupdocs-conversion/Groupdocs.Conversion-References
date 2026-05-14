@@ -11,8 +11,6 @@ weight: 2090
 
 ## subject property
 
-The subject of the document.
-
 ### Definition:
 ```python
 @property

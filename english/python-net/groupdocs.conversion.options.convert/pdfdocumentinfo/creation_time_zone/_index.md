@@ -11,8 +11,6 @@ weight: 2030
 
 ## creation_time_zone property
 
-The time zone of creation date.
-
 ### Definition:
 ```python
 @property

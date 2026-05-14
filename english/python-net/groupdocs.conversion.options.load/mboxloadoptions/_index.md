@@ -5,33 +5,40 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/mboxloadoptions/
 is_root: false
-weight: 220
+weight: 280
 ---
 
 
 ## MboxLoadOptions class
-
-Options for loading Mbox documents.
 
 The MboxLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/__init__/) | Initializes a new instance of [`MboxLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/). |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [clone](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/clone/) | Clones current instance. |
+| [_clone_noargs](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/_clone_noargs/) |  |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/_init_noargs/) |  |
+| [clone](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/clone/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/convert_owned/) | The `ConvertOwned` flag that indicates owned documents will be converted. This read‑only property always returns `True` and implements `IDocumentsContainerLoadOptions.convert_owned`. |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/convert_owner/) | The ConvertOwner property indicates whether the document owner is converted; it is read‑only and defaults to False, meaning the owner will not be converted. |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/depth/) | The depth of the container. Implements `IDocumentsContainerLoadOptions.depth`. Default is 3. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) | The input document file type. (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/convert_owned/) |  |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/convert_owner/) |  |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/mboxloadoptions/depth/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) |  (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

@@ -11,8 +11,6 @@ weight: 2020
 
 ## title property
 
-The bookmark title.
-
 ### Definition:
 ```python
 @property

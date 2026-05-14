@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/caddocumentinfo/layers/
 is_root: false
-weight: 2020
+weight: 2050
 ---
 
 
 ## layers property
-
-The layers in the document.
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 2050
 
 ## primary property
 
-The primary target file types.
-
 ### Definition:
 ```python
 @property

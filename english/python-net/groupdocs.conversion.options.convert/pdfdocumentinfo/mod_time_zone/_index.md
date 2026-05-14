@@ -11,8 +11,6 @@ weight: 2070
 
 ## mod_time_zone property
 
-The time zone of modification date.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2030
 
 ## hyphenation_dictionaries property
 
-The dictionary containing associations between ISO language codes and provided hyphenation dictionary streams.
-
 ### Definition:
 ```python
 @property

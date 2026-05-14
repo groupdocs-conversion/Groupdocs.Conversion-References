@@ -11,10 +11,6 @@ weight: 2250
 
 ## time_zone_offset property
 
-The Coordinated Universal Time (UTC) offset for the message dates.
-
-Defines the time zone difference between the local time and UTC.
-
 ### Definition:
 ```python
 @property

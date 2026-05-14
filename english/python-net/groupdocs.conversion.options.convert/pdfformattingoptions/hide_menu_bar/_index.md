@@ -11,8 +11,6 @@ weight: 2050
 
 ## hide_menu_bar property
 
-The property specifies whether the menu bar should be hidden when the document is active; default is False.
-
 ### Definition:
 ```python
 @property

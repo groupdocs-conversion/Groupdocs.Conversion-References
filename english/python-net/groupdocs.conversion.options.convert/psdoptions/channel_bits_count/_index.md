@@ -11,8 +11,6 @@ weight: 2010
 
 ## channel_bits_count property
 
-The bits count per color channel.
-
 ### Definition:
 ```python
 @property

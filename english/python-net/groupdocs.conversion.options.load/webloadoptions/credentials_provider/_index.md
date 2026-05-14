@@ -11,8 +11,6 @@ weight: 2030
 
 ## credentials_provider property
 
-The credentials provider for the Uri.
-
 ### Definition:
 ```python
 @property

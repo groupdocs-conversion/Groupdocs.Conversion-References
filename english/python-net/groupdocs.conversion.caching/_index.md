@@ -14,5 +14,6 @@ Types under `groupdocs.conversion.caching`.
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/) | File caching behaviour. Means that cache is stored on the file system. |
-| [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/) | Memory caching behaviour; the cache is stored in memory. |
+| [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/) |  |
+| [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache/) |  |
+| [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/) |  |

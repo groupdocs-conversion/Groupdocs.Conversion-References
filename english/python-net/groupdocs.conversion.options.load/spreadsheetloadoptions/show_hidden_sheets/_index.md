@@ -11,8 +11,6 @@ weight: 2270
 
 ## show_hidden_sheets property
 
-The option to show hidden sheets when converting Excel files.
-
 ### Definition:
 ```python
 @property

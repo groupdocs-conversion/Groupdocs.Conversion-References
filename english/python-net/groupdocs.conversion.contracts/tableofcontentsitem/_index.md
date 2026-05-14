@@ -5,21 +5,19 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/tableofcontentsitem/
 is_root: false
-weight: 530
+weight: 560
 ---
 
 
 ## TableOfContentsItem class
-
-Contains Table of contents item metadata.
 
 The TableOfContentsItem type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/page/) | The bookmark page. |
-| [title](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/title/) | The bookmark title. |
+| [page](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/page/) |  |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/tableofcontentsitem/title/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

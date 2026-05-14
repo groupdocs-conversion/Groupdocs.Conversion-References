@@ -11,19 +11,22 @@ weight: 120
 
 ## GisConvertOptions class
 
-Options for conversion to GIS type.
-
 The GisConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/__init__/) | Initializes a new instance of [`GisConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/). |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. (inherited from [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/)) |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/gisconvertoptions/format/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

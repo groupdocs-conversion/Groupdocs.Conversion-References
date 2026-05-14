@@ -11,8 +11,6 @@ weight: 2030
 
 ## is_file property
 
-The node is a file if true; otherwise it is a directory.
-
 ### Definition:
 ```python
 @property

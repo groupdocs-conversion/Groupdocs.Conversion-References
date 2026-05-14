@@ -11,8 +11,6 @@ weight: 2030
 
 ## height property
 
-The watermark height.
-
 ### Definition:
 ```python
 @property

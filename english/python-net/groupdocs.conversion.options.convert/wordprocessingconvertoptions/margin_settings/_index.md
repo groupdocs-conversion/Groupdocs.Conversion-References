@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/margin_settings/
 is_root: false
-weight: 2030
+weight: 2040
 ---
 
 
 ## margin_settings property
-
-The margin settings for the conversion, represented by `IPageMarginOptions`.
 
 ### Definition:
 ```python

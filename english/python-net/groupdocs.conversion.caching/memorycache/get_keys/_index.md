@@ -5,24 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.caching/memorycache/get_keys/
 is_root: false
-weight: 1010
+weight: 1050
 ---
 
 
-## get_keys {#filter}
-
-Returns all keys matching filter.
+## get_keys
 
 ```python
-def get_keys(self, filter):
+def get_keys(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| filter | `str` | The filter to use. |
-
-**Returns:** Iterable[str]: Keys matching the filter.
 
 ### See Also
 * class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/)

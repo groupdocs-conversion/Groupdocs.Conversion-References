@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/jpeg_options/
 is_root: false
-weight: 2100
+weight: 2110
 ---
 
 
 ## jpeg_options property
-
-The Jpeg specific convert options.
 
 ### Definition:
 ```python

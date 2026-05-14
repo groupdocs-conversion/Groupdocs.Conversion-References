@@ -11,8 +11,6 @@ weight: 2010
 
 ## attachment_content_handler property
 
-The delegate that processes email attachments, taking the attachment name, content type, and original attachment stream and returning a modified attachment stream.
-
 ### Definition:
 ```python
 @property

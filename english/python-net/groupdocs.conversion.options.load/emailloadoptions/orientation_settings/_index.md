@@ -11,8 +11,6 @@ weight: 2200
 
 ## orientation_settings property
 
-The orientation settings.
-
 ### Definition:
 ```python
 @property

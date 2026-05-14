@@ -11,8 +11,6 @@ weight: 2130
 
 ## font_substitutes property
 
-The font substitutes used when converting a spreadsheet document.
-
 ### Definition:
 ```python
 @property

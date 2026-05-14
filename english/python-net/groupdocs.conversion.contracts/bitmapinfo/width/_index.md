@@ -11,8 +11,6 @@ weight: 2040
 
 ## width property
 
-The width of the bitmap.
-
 ### Definition:
 ```python
 @property

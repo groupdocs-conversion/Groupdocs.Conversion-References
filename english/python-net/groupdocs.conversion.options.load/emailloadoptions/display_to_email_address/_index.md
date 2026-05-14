@@ -11,8 +11,6 @@ weight: 2150
 
 ## display_to_email_address property
 
-The option to display or hide the "to" email address. Default is True.
-
 ### Definition:
 ```python
 @property

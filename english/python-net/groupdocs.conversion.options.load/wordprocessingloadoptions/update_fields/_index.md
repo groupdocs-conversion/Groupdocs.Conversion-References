@@ -11,8 +11,6 @@ weight: 2270
 
 ## update_fields property
 
-The setting updates fields after loading. Default: False.
-
 ### Definition:
 ```python
 @property

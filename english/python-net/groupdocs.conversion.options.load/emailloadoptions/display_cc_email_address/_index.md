@@ -11,8 +11,6 @@ weight: 2090
 
 ## display_cc_email_address property
 
-The option to display or hide the "Cc" email address. Default is False.
-
 ### Definition:
 ```python
 @property

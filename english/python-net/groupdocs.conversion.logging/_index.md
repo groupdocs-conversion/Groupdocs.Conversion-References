@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.logging/
 is_root: false
-weight: 50
+weight: 70
 ---
 
 
@@ -14,4 +14,5 @@ Logging hooks and listener interfaces.
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/) | Console logger implementation. |
+| [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/) |  |
+| [`ILogger`](/conversion/python-net/groupdocs.conversion.logging/ilogger/) |  |

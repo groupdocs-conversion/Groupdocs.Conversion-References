@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions/).
-
 ```python
 def __init__(self):
     ...

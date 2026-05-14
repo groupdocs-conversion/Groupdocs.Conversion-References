@@ -11,8 +11,6 @@ weight: 2030
 
 ## listener property
 
-The converter listener implementation used for monitoring conversion status and progress.
-
 ### Definition:
 ```python
 @property

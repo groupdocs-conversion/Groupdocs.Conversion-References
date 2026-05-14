@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/title/
 is_root: false
-weight: 2040
+weight: 2100
 ---
 
 
 ## title property
-
-The title of the spreadsheet document.
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 2280
 
 ## update_page_layout property
 
-The page layout is updated after loading. Default: False.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## center_window property
 
-The property determines whether the document window is centered on the screen; default is False.
-
 ### Definition:
 ```python
 @property

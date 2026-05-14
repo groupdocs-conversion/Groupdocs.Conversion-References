@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`SpreadsheetConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/).
-
 ```python
 def __init__(self):
     ...

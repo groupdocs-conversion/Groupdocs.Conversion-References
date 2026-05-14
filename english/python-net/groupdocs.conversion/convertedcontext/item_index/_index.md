@@ -11,8 +11,6 @@ weight: 2040
 
 ## item_index property
 
-The item index.
-
 ### Definition:
 ```python
 @property

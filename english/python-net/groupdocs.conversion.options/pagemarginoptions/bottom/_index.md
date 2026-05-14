@@ -11,8 +11,6 @@ weight: 2010
 
 ## bottom property
 
-The desired page bottom margin in points.
-
 ### Definition:
 ```python
 @property

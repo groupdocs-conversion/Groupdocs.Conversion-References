@@ -11,8 +11,6 @@ weight: 2010
 
 ## clear_built_in_document_properties property
 
-The ClearBuiltInDocumentProperties property determines whether built‑in document properties are cleared when loading a PDF.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2020
 
 ## file_size property
 
-The size of the file in bytes (only relevant for file nodes).
-
 ### Definition:
 ```python
 @property

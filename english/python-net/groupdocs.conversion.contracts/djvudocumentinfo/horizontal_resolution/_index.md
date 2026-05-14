@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/horizontal_resolution/
 is_root: false
-weight: 2010
+weight: 2030
 ---
 
 
 ## horizontal_resolution property
-
-The horizontal resolution.
 
 ### Definition:
 ```python

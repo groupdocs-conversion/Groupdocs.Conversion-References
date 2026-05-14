@@ -11,10 +11,6 @@ weight: 2030
 
 ## convert_owned property
 
-The ConvertOwned flag indicating whether the document is owned by the container.
-
-Implements `IDocumentsContainerLoadOptions.convert_owned`. Default is False.
-
 ### Definition:
 ```python
 @property

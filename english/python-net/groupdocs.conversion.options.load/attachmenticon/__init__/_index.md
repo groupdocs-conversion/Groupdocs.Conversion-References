@@ -9,19 +9,12 @@ weight: 10
 ---
 
 
-## __init__ {#file_extension-icon_data}
-
-Initializes a new instance of the [`AttachmentIcon`](/conversion/python-net/groupdocs.conversion.options.load/attachmenticon/) class.
+## __init__
 
 ```python
-def __init__(self, file_extension, icon_data):
+def __init__(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| file_extension | `str` | The file extension. |
-| icon_data | `System.Byte[]` | The icon data as byte array. |
 
 ### See Also
 * class [`AttachmentIcon`](/conversion/python-net/groupdocs.conversion.options.load/attachmenticon/)

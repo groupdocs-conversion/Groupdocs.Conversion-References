@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/olmdocumentinfo/folders/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 
 ## folders property
-
-The folders in the storage.
 
 ### Definition:
 ```python

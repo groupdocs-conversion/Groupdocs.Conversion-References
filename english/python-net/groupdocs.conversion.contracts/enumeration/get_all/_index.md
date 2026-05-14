@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/get_all/
 is_root: false
-weight: 1040
+weight: 1130
 ---
 
 
@@ -15,6 +15,8 @@ weight: 1040
 def get_all(cls):
     ...
 ```
+
+**Returns:** Any
 
 ### See Also
 * class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)

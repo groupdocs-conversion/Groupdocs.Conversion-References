@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/size_settings/
 is_root: false
-weight: 2060
+weight: 2100
 ---
 
 
 ## size_settings property
-
-The size settings for the e‑book conversion, as defined by `IPageSizeOptions`.
 
 ### Definition:
 ```python

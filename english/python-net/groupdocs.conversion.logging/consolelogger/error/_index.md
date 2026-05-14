@@ -5,25 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.logging/consolelogger/error/
 is_root: false
-weight: 1010
+weight: 1050
 ---
 
 
-## error {#message-exception}
-
-Writes an error log message.
-
-Error log messages provide information about unrecoverable events in application flow.
+## error
 
 ```python
-def error(self, message, exception):
+def error(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| message | `str` | The error message. |
-| exception | `Exception` | The exception. |
 
 ### See Also
 * class [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/)

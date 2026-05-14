@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`CompressionLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/compressionloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

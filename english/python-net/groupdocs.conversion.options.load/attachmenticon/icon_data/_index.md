@@ -11,8 +11,6 @@ weight: 2020
 
 ## icon_data property
 
-The icon data as a byte array.
-
 ### Definition:
 ```python
 @property

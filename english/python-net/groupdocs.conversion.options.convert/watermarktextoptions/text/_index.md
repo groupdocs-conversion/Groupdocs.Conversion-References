@@ -11,8 +11,6 @@ weight: 2020
 
 ## text property
 
-The watermark text.
-
 ### Definition:
 ```python
 @property

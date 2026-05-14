@@ -11,8 +11,6 @@ weight: 2010
 
 ## compression property
 
-The Tiff compression.
-
 ### Definition:
 ```python
 @property

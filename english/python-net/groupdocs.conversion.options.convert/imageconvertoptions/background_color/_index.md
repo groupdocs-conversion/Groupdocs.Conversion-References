@@ -11,8 +11,6 @@ weight: 2010
 
 ## background_color property
 
-The background color where supported by the source format.
-
 ### Definition:
 ```python
 @property

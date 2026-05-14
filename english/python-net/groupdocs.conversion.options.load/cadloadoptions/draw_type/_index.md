@@ -11,8 +11,6 @@ weight: 2040
 
 ## draw_type property
 
-The type of drawing.
-
 ### Definition:
 ```python
 @property

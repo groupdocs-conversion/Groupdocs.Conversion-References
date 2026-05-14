@@ -11,8 +11,6 @@ weight: 2030
 
 ## vectorization_options property
 
-The vectorization options.
-
 ### Definition:
 ```python
 @property

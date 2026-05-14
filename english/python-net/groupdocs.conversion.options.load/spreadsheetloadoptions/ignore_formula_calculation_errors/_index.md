@@ -11,10 +11,6 @@ weight: 2150
 
 ## ignore_formula_calculation_errors property
 
-The property indicates whether to ignore formula calculation errors.
-
-The error may be unsupported function, external links, etc. Default is False.
-
 ### Definition:
 ```python
 @property

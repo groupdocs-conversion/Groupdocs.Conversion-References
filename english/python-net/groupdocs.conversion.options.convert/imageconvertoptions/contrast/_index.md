@@ -11,8 +11,6 @@ weight: 2030
 
 ## contrast property
 
-Adjusts image contrast.
-
 ### Definition:
 ```python
 @property

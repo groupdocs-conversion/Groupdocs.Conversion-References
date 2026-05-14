@@ -11,8 +11,6 @@ weight: 2100
 
 ## culture_info property
 
-The system culture info used when the file is loaded.
-
 ### Definition:
 ```python
 @property

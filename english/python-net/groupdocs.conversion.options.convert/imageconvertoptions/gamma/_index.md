@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/gamma/
 is_root: false
-weight: 2060
+weight: 2070
 ---
 
 
 ## gamma property
-
-The gamma used to adjust the image.
 
 ### Definition:
 ```python

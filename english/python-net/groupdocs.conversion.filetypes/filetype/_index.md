@@ -11,14 +11,43 @@ weight: 80
 
 ## FileType class
 
-File type base class.
-
 The FileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Unknown](/conversion/python-net/groupdocs.conversion.filetypes/filetype/unknown/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/filetype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.filetypes/filetype/_equals_enumeration/#other) |  |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/filetype/_init_noargs/) |  |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.filetypes/filetype/_to_string_noargs/) |  |
+| [equals](/conversion/python-net/groupdocs.conversion.filetypes/filetype/equals/) |  |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.filetypes/filetype/equals_enumeration/) |  |
+| [from_extension](/conversion/python-net/groupdocs.conversion.filetypes/filetype/from_extension/#file_extension) |  |
+| [from_filename](/conversion/python-net/groupdocs.conversion.filetypes/filetype/from_filename/#file_name) |  |
+| [from_stream](/conversion/python-net/groupdocs.conversion.filetypes/filetype/from_stream/#stream) |  |
+| [get_all](/conversion/python-net/groupdocs.conversion.filetypes/filetype/get_all/) |  |
+| [to_string](/conversion/python-net/groupdocs.conversion.filetypes/filetype/to_string/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.filetypes/filetype/description/) |  |
+| [extension](/conversion/python-net/groupdocs.conversion.filetypes/filetype/extension/) |  |
+| [family](/conversion/python-net/groupdocs.conversion.filetypes/filetype/family/) |  |
+| [file_format](/conversion/python-net/groupdocs.conversion.filetypes/filetype/file_format/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

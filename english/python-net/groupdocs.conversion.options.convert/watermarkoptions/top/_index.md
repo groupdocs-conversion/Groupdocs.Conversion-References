@@ -11,8 +11,6 @@ weight: 2060
 
 ## top property
 
-The watermark top position.
-
 ### Definition:
 ```python
 @property

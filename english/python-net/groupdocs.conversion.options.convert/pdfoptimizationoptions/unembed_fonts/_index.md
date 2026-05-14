@@ -11,8 +11,6 @@ weight: 2070
 
 ## unembed_fonts property
 
-The property makes fonts not embedded when set to True.
-
 ### Definition:
 ```python
 @property

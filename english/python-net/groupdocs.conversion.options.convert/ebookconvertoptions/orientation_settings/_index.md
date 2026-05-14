@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/orientation_settings/
 is_root: false
-weight: 2020
+weight: 2030
 ---
 
 
 ## orientation_settings property
-
-The orientation settings.
 
 ### Definition:
 ```python

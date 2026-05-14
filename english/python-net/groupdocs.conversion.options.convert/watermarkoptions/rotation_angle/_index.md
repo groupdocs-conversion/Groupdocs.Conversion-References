@@ -11,8 +11,6 @@ weight: 2050
 
 ## rotation_angle property
 
-The watermark rotation angle.
-
 ### Definition:
 ```python
 @property

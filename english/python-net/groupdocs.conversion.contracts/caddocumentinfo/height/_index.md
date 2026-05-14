@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/caddocumentinfo/height/
 is_root: false
-weight: 2010
+weight: 2030
 ---
 
 
 ## height property
-
-The height.
 
 ### Definition:
 ```python

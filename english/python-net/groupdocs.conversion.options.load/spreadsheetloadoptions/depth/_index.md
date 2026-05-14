@@ -11,8 +11,6 @@ weight: 2120
 
 ## depth property
 
-The depth of the spreadsheet load options, implementing `IDocumentsContainerLoadOptions.depth`; default is 1.
-
 ### Definition:
 ```python
 @property

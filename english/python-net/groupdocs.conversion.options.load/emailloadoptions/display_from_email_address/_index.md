@@ -11,8 +11,6 @@ weight: 2110
 
 ## display_from_email_address property
 
-The option to display or hide the "from" email address. Default is True.
-
 ### Definition:
 ```python
 @property

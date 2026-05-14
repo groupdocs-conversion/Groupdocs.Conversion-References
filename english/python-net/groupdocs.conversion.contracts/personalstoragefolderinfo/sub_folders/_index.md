@@ -11,8 +11,6 @@ weight: 2040
 
 ## sub_folders property
 
-The sub folders.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2040
 
 ## creator property
 
-The document creator.
-
 ### Definition:
 ```python
 @property

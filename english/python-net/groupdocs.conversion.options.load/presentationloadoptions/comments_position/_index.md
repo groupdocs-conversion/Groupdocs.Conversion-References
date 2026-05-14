@@ -11,8 +11,6 @@ weight: 2030
 
 ## comments_position property
 
-The way comments are printed with the slide. Default is None.
-
 ### Definition:
 ```python
 @property

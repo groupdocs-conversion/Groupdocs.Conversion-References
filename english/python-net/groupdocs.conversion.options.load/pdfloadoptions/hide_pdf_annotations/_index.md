@@ -11,8 +11,6 @@ weight: 2110
 
 ## hide_pdf_annotations property
 
-The property hides annotations in PDF documents.
-
 ### Definition:
 ```python
 @property

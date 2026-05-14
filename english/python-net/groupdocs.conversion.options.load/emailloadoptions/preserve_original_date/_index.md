@@ -11,8 +11,6 @@ weight: 2210
 
 ## preserve_original_date property
 
-The property determines whether the original date header string in the mail message is preserved when saving (default is True).
-
 ### Definition:
 ```python
 @property

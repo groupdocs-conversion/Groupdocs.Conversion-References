@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`ImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/imageloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

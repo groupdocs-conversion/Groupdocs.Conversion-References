@@ -11,8 +11,6 @@ weight: 2060
 
 ## width property
 
-The width of the rectangle based on left and right edges.
-
 ### Definition:
 ```python
 @property

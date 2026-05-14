@@ -1,36 +1,20 @@
-﻿---
+---
 title: equals method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/filetype/equals/
 is_root: false
-weight: 30
+weight: 1040
 ---
 
-## equals {#groupdocs.conversion.contracts.Enumeration}
 
-Implements [`Enumeration.equals`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals)
-
-
-### Returns 
-
-
-
-
+## equals
 
 ```python
-def equals(self, other):
+def equals(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| other | groupdocs.conversion.contracts.Enumeration | The object with which to compare |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype)
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.filetypes/filetype/)

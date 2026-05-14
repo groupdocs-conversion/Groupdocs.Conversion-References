@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`AudioLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/audioloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

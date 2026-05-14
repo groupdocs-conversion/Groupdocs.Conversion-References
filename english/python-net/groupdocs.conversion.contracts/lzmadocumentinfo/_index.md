@@ -5,25 +5,23 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/lzmadocumentinfo/
 is_root: false
-weight: 310
+weight: 340
 ---
 
 
 ## LzmaDocumentInfo class
-
-Contains Lzma document metadata.
 
 The LzmaDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/size/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

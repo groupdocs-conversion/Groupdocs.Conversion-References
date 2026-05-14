@@ -11,8 +11,6 @@ weight: 2010
 
 ## hierarchy_level property
 
-The hierarchy level.
-
 ### Definition:
 ```python
 @property

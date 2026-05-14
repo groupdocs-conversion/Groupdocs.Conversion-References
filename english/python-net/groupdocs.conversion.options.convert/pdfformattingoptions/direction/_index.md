@@ -11,8 +11,6 @@ weight: 2020
 
 ## direction property
 
-The reading order of text: L2R (left to right) or R2L (right to left). Default: L2R.
-
 ### Definition:
 ```python
 @property

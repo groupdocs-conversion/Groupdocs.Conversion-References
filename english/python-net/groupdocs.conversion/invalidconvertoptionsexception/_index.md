@@ -11,8 +11,6 @@ weight: 150
 
 ## InvalidConvertOptionsException class
 
-Thrown if provided convert options are invalid.
-
 The InvalidConvertOptionsException type exposes the following members:
 
 ### See Also

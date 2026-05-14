@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/grayscale/
 is_root: false
-weight: 2070
+weight: 2080
 ---
 
 
 ## grayscale property
-
-The property indicates whether to convert into a grayscale image.
 
 ### Definition:
 ```python

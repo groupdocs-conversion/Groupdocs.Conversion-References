@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/height/
 is_root: false
-weight: 2080
+weight: 2090
 ---
 
 
 ## height property
-
-The desired image height after conversion.
 
 ### Definition:
 ```python

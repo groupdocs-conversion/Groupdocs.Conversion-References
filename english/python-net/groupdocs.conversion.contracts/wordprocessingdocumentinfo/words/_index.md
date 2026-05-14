@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/words/
 is_root: false
-weight: 2060
+weight: 2120
 ---
 
 
 ## words property
-
-The number of words in the document.
 
 ### Definition:
 ```python

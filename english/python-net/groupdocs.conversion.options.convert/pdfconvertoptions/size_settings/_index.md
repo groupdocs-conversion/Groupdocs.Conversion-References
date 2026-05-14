@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfconvertoptions/size_settings/
 is_root: false
-weight: 2100
+weight: 2140
 ---
 
 
 ## size_settings property
-
-The size settings for PDF conversion, as defined by `IPageSizeOptions`.
 
 ### Definition:
 ```python

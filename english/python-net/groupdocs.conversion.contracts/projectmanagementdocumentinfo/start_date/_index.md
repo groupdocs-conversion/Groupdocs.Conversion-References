@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/start_date/
 is_root: false
-weight: 2020
+weight: 2080
 ---
 
 
 ## start_date property
-
-The project start date.
 
 ### Definition:
 ```python

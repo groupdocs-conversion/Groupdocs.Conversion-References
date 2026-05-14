@@ -11,8 +11,6 @@ weight: 2040
 
 ## from_ property
 
-The item from.
-
 ### Definition:
 ```python
 @property

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/root_folder_name/
 is_root: false
-weight: 2040
+weight: 2090
 ---
 
 
 ## root_folder_name property
-
-The root folder name.
 
 ### Definition:
 ```python

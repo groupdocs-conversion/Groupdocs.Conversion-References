@@ -11,8 +11,6 @@ weight: 2040
 
 ## clear_built_in_document_properties property
 
-The flag indicating whether built-in document properties are cleared.
-
 ### Definition:
 ```python
 @property

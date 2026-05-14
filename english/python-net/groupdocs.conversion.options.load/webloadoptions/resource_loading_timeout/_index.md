@@ -11,8 +11,6 @@ weight: 2100
 
 ## resource_loading_timeout property
 
-The timeout for loading external resources.
-
 ### Definition:
 ```python
 @property

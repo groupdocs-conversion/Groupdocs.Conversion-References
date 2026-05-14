@@ -5,29 +5,27 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/
 is_root: false
-weight: 380
+weight: 410
 ---
 
 
 ## PersonalStorageDocumentInfo class
-
-Contains personal storage document metadata.
 
 The PersonalStorageDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [content_count](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/content_count/) | The count of contents in the root folder. |
-| [folders](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/) | The folders in the storage. |
-| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/is_password_protected/) | The storage is password protected. |
-| [root_folder_name](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/root_folder_name/) | The root folder name. |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [content_count](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/content_count/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/creation_date/) |  |
+| [folders](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/folders/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/format/) |  |
+| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/is_password_protected/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/property_names/) |  |
+| [root_folder_name](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/root_folder_name/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/size/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

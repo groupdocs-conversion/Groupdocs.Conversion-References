@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/flagsenumeration/combine/
 is_root: false
-weight: 1010
+weight: 1040
 ---
 
 
@@ -18,8 +18,10 @@ def combine(cls, left, right):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| left | `T` |  |
-| right | `T` |  |
+| left | `Any` |  |
+| right | `Any` |  |
+
+**Returns:** Any
 
 ### See Also
 * class [`FlagsEnumeration`](/conversion/python-net/groupdocs.conversion.contracts/flagsenumeration/)

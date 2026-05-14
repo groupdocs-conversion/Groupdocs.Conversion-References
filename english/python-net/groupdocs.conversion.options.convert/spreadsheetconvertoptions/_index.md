@@ -5,33 +5,36 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/
 is_root: false
-weight: 410
+weight: 500
 ---
 
 
 ## SpreadsheetConvertOptions class
-
-Options for conversion to Spreadsheet file type.
 
 The SpreadsheetConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/__init__/) | Initializes a new instance of [`SpreadsheetConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/). |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [encoding](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding/) | The encoding to be used when converting to delimited formats. |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/format/) | The desired file type the input document should be converted to. |
-| [password](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/password/) | The password used to protect the converted document. |
-| [separator](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/separator/) | The separator to be used when converting to a delimited format. |
-| [zoom](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/) | The zoom level in percentage. |
-| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/page_number/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages_count/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/watermark/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
+| [encoding](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/encoding/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/format/) |  |
+| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/page_number/) |  |
+| [pages](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/pages/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/pages_count/) |  |
+| [password](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/password/) |  |
+| [separator](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/separator/) |  |
+| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/watermark/) |  |
+| [zoom](/conversion/python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/zoom/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

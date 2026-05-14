@@ -11,10 +11,6 @@ weight: 2010
 
 ## page_height property
 
-The page height in points to be applied before conversion.
-
-When set, [`PageSizeOptions.page_size`](/conversion/python-net/groupdocs.conversion.options/pagesizeoptions/page_size/) is automatically changed to [`PageSize.custom`](/conversion/python-net/groupdocs.conversion.options/pagesize/custom/).
-
 ### Definition:
 ```python
 @property

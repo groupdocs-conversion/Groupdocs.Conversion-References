@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/password/
 is_root: false
-weight: 2030
+weight: 2060
 ---
 
 
 ## password property
-
-The password used to protect the converted document.
 
 ### Definition:
 ```python

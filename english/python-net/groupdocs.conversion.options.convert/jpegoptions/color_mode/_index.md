@@ -11,8 +11,6 @@ weight: 2010
 
 ## color_mode property
 
-The JPG color mode.
-
 ### Definition:
 ```python
 @property

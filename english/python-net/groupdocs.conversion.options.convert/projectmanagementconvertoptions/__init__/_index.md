@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new [`ProjectManagementConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/projectmanagementconvertoptions/) instance.
-
 ```python
 def __init__(self):
     ...

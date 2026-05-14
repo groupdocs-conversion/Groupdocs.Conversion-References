@@ -11,8 +11,6 @@ weight: 2150
 
 ## remove_javascript property
 
-The remove_javascript property removes javascript.
-
 ### Definition:
 ```python
 @property

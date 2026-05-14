@@ -11,37 +11,43 @@ weight: 200
 
 ## ThreeDFileType class
 
-Defines 3D document types.
-
-Includes the following types: [`ThreeDFileType.fbx`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/fbx/), [`ThreeDFileType.three_ds`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/three_ds/), [`ThreeDFileType.three_mf`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/three_mf/), [`ThreeDFileType.amf`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/amf/), [`ThreeDFileType.ase`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ase/), [`ThreeDFileType.rvm`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/rvm/), [`ThreeDFileType.dae`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/dae/), [`ThreeDFileType.drc`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/drc/), [`ThreeDFileType.gltf`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/gltf/), [`ThreeDFileType.obj`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/obj/), [`ThreeDFileType.ply`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ply/), [`ThreeDFileType.jt`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/jt/), [`ThreeDFileType.u3d`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/u3d/), [`ThreeDFileType.usd`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/usd/), [`ThreeDFileType.usdz`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/usdz/), [`ThreeDFileType.vrml`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/vrml/), [`ThreeDFileType.x`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/x/), [`ThreeDFileType.glb`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/glb/), [`ThreeDFileType.ma`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ma/), [`ThreeDFileType.mb`](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/mb/).
-
-Learn more about 3D formats here: https://wiki.fileformat.com/3d.
-
 The ThreeDFileType type exposes the following members:
 
-### Fields
-| Field | Description |
+### Constructors
+| Constructor | Description |
 | :- | :- |
-| [Fbx](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/fbx/) |  |
-| [ThreeDS](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/threeds/) |  |
-| [ThreeMF](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/threemf/) |  |
-| [Amf](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/amf/) |  |
-| [Ase](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ase/) |  |
-| [Rvm](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/rvm/) |  |
-| [Dae](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/dae/) |  |
-| [Drc](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/drc/) |  |
-| [Gltf](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/gltf/) |  |
-| [Obj](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/obj/) |  |
-| [Ply](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ply/) |  |
-| [Jt](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/jt/) |  |
-| [U3d](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/u3d/) |  |
-| [Usd](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/usd/) |  |
-| [Usdz](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/usdz/) |  |
-| [Vrml](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/vrml/) |  |
-| [X](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/x/) |  |
-| [Glb](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/glb/) |  |
-| [Ma](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/ma/) |  |
-| [Mb](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/mb/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.filetypes/threedfiletype/_init_noargs/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.file_types/filetype/_equals_enumeration/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.file_types/filetype/_to_string_noargs/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.file_types/filetype/equals/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_filename](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_filename/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_stream](/conversion/python-net/groupdocs.conversion.file_types/filetype/from_stream/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.file_types/filetype/get_all/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.file_types/filetype/to_string/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [description](/conversion/python-net/groupdocs.conversion.file_types/filetype/description/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [extension](/conversion/python-net/groupdocs.conversion.file_types/filetype/extension/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [family](/conversion/python-net/groupdocs.conversion.file_types/filetype/family/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
+| [file_format](/conversion/python-net/groupdocs.conversion.file_types/filetype/file_format/) |  (inherited from [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)) |
 
 ### See Also
 * module [`groupdocs.conversion.filetypes`](/conversion/python-net/groupdocs.conversion.filetypes/)

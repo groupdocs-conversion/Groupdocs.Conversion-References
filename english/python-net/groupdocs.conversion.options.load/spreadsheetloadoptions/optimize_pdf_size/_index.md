@@ -11,8 +11,6 @@ weight: 2180
 
 ## optimize_pdf_size property
 
-The conversion is optimized for better file size than print quality when set to True and converting to PDF.
-
 ### Definition:
 ```python
 @property

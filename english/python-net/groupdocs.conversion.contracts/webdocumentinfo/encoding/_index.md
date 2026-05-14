@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/webdocumentinfo/encoding/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 
 ## encoding property
-
-The detected document encoding.
 
 ### Definition:
 ```python

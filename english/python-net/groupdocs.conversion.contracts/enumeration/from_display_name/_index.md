@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/from_display_name/
 is_root: false
-weight: 1020
+weight: 1110
 ---
 
 
@@ -19,6 +19,8 @@ def from_display_name(cls, display_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | display_name | `str` |  |
+
+**Returns:** Any
 
 ### See Also
 * class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)

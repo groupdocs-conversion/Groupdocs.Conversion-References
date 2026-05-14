@@ -1,20 +1,22 @@
-﻿---
+---
 title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/depth/
 is_root: false
-weight: 180
+weight: 2080
 ---
+
 
 ## depth property
 
-
-Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions#depth)
-
-Default: 1
+### Definition:
+```python
+@property
+def depth(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](../../)
-* class [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions)
+* class [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions/)

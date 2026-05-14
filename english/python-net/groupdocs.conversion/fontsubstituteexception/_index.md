@@ -11,8 +11,6 @@ weight: 120
 
 ## FontSubstituteException class
 
-Thrown if font substitute is illegal.
-
 The FontSubstituteException type exposes the following members:
 
 ### See Also

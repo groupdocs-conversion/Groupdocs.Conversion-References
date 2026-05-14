@@ -11,8 +11,6 @@ weight: 2010
 
 ## lossless property
 
-The property indicates if the compression of the converted file will be lossless.
-
 ### Definition:
 ```python
 @property

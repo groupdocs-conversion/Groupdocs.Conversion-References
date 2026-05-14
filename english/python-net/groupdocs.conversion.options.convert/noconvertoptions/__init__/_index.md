@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`NoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/noconvertoptions/) class with the default format.
-
 ```python
 def __init__(self):
     ...

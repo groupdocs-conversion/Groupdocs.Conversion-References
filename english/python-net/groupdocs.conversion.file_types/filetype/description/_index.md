@@ -1,0 +1,22 @@
+---
+title: description property
+second_title: GroupDocs.Conversion for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.conversion.file_types/filetype/description/
+is_root: false
+weight: 2010
+---
+
+
+## description property
+
+### Definition:
+```python
+@property
+def description(self):
+    ...
+```
+
+### See Also
+* class [`FileType`](/conversion/python-net/groupdocs.conversion.file_types/filetype/)

@@ -11,10 +11,6 @@ weight: 2080
 
 ## convert_owner property
 
-The ConvertOwner flag indicates whether the owner of the converted document is set.
-
-Implements `IDocumentsContainerLoadOptions.convert_owner`. Default is True.
-
 ### Definition:
 ```python
 @property

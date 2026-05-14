@@ -11,10 +11,6 @@ weight: 2220
 
 ## preserve_document_structure property
 
-The property determines whether the document structure should be preserved when converting to PDF (default is False).
-
-Note that exporting the document structure significantly increases the memory consumption, especially for large documents.
-
 ### Definition:
 ```python
 @property

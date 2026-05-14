@@ -11,8 +11,6 @@ weight: 2020
 
 ## formatting_options property
 
-The PDF formatting options.
-
 ### Definition:
 ```python
 @property

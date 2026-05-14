@@ -11,10 +11,6 @@ weight: 2030
 
 ## restore_schema property
 
-The property determines whether conversion is allowed to parse attributes in a GML file when the XML schema is missing or cannot be loaded.
-
-If set to True, the conversion reader does not require the presence of an XML schema. The default value is False.
-
 ### Definition:
 ```python
 @property

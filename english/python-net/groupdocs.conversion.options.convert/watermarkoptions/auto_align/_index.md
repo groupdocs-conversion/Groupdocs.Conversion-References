@@ -11,8 +11,6 @@ weight: 2010
 
 ## auto_align property
 
-The watermark is automatically scaled. If the value is True, the position and size are automatically calculated to fit the page size.
-
 ### Definition:
 ```python
 @property

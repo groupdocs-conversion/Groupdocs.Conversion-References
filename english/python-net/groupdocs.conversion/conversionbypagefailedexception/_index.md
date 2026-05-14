@@ -11,8 +11,6 @@ weight: 10
 
 ## ConversionByPageFailedException class
 
-Conversion by page failed exception.
-
 The ConversionByPageFailedException type exposes the following members:
 
 ### See Also

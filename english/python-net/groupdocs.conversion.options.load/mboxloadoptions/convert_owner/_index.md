@@ -11,8 +11,6 @@ weight: 2020
 
 ## convert_owner property
 
-The ConvertOwner property indicates whether the document owner is converted; it is read‑only and defaults to False, meaning the owner will not be converted.
-
 ### Definition:
 ```python
 @property

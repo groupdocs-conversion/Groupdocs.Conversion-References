@@ -11,8 +11,6 @@ weight: 2030
 
 ## left property
 
-The left edge of the rectangle.
-
 ### Definition:
 ```python
 @property

@@ -11,21 +11,24 @@ weight: 90
 
 ## FinanceConvertOptions class
 
-Options for conversion to finance type.
-
 The FinanceConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/__init__/) | Initializes a new [`FinanceConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/) instance. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/page_number/) | The page number to convert, implementing `IPagedConvertOptions.page_number`. |
-| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/pages_count/) | The pages count, implementing `IPagedConvertOptions.pages_count`. |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/format/) | The format of the conversion. Implements `IConvertOptions.format`. (inherited from [`ConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/convertoptions/)) |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/format/) |  |
+| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/page_number/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/financeconvertoptions/pages_count/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

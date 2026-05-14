@@ -11,8 +11,6 @@ weight: 2030
 
 ## pixel_bytes property
 
-The array of pixels.
-
 ### Definition:
 ```python
 @property

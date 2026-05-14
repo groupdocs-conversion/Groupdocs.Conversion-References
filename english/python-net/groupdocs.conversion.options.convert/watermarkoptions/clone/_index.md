@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/clone/
 is_root: false
-weight: 1010
+weight: 1020
 ---
 
 
 ## clone
-
-Clone current instance.
 
 ```python
 def clone(self):

@@ -11,8 +11,6 @@ weight: 2230
 
 ## rows_per_page property
 
-The number of rows per page used to split a worksheet into pages; a value of 0 disables pagination.
-
 ### Definition:
 ```python
 @property

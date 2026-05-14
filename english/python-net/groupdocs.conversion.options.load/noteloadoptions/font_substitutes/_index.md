@@ -11,8 +11,6 @@ weight: 2020
 
 ## font_substitutes property
 
-The font substitutes used when converting a Note document.
-
 ### Definition:
 ```python
 @property

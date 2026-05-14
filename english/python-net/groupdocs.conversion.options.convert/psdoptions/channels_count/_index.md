@@ -11,8 +11,6 @@ weight: 2020
 
 ## channels_count property
 
-The color channels count.
-
 ### Definition:
 ```python
 @property

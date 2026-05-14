@@ -5,23 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.caching/memorycache/set/
 is_root: false
-weight: 1020
+weight: 1080
 ---
 
 
-## set {#key-value}
-
-Inserts a cache entry into the cache.
+## set
 
 ```python
-def set(self, key, value):
+def set(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | `str` | A unique identifier for the cache entry. |
-| value | `Any` | The object to insert. |
 
 ### See Also
 * class [`MemoryCache`](/conversion/python-net/groupdocs.conversion.caching/memorycache/)

@@ -11,8 +11,6 @@ weight: 2100
 
 ## format property
 
-The input document file type.
-
 ### Definition:
 ```python
 @property

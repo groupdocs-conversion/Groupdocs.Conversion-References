@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`PresentationConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/presentationconvertoptions/) class.
-
 ```python
 def __init__(self):
     ...

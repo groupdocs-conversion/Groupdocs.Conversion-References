@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/threedconvertoptions/page_number/
 is_root: false
-weight: 2010
+weight: 2020
 ---
 
 
 ## page_number property
-
-The page number to convert, implementing `IPagedConvertOptions.page_number`.
 
 ### Definition:
 ```python

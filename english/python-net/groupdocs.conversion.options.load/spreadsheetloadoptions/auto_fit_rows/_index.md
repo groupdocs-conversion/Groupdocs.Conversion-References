@@ -11,8 +11,6 @@ weight: 2020
 
 ## auto_fit_rows property
 
-The rows are autofitted when converting.
-
 ### Definition:
 ```python
 @property

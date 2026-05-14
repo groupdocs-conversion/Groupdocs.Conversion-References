@@ -11,8 +11,6 @@ weight: 2060
 
 ## columns_per_page property
 
-The number of columns per page used to split a worksheet into pages. Default is 0, meaning no pagination.
-
 ### Definition:
 ```python
 @property

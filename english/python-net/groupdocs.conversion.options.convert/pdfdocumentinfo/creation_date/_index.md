@@ -11,8 +11,6 @@ weight: 2020
 
 ## creation_date property
 
-The creation date of the document.
-
 ### Definition:
 ```python
 @property

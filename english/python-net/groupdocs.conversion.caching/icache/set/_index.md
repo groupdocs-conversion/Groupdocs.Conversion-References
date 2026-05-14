@@ -1,32 +1,20 @@
-﻿---
+---
 title: set method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.caching/icache/set/
 is_root: false
-weight: 30
+weight: 1070
 ---
 
-## set {#System.String-System.Object}
 
-Inserts a cache entry into the cache.
-
-
+## set
 
 ```python
-def set(self, key, value):
+def set(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | System.String | A unique identifier for the cache entry. |
-| value | System.Object | The object to insert. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache)
+* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache/)

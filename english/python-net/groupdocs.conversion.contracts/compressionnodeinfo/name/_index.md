@@ -11,8 +11,6 @@ weight: 2040
 
 ## name property
 
-The name of the node.
-
 ### Definition:
 ```python
 @property

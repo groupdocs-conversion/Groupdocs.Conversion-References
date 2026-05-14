@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`WebLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/webloadoptions/) class.
-
 ```python
 def __init__(self):
     ...

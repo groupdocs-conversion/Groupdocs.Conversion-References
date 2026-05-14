@@ -5,25 +5,23 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/videodocumentinfo/
 is_root: false
-weight: 630
+weight: 660
 ---
 
 
 ## VideoDocumentInfo class
-
-Contains Video document metadata.
 
 The VideoDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/videodocumentinfo/size/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

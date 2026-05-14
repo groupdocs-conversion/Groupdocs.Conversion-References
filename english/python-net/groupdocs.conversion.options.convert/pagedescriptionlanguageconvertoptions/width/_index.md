@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/width/
 is_root: false
-weight: 2020
+weight: 2070
 ---
 
 
 ## width property
-
-The desired page width after conversion.
 
 ### Definition:
 ```python

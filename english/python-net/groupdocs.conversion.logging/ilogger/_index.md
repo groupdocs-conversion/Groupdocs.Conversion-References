@@ -1,29 +1,33 @@
-﻿---
+---
 title: ILogger class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.logging/ilogger/
 is_root: false
-weight: 30
+weight: 20
 ---
 
+
 ## ILogger class
-
-Defines the methods that are used to perform logging.
-
-
 
 The ILogger type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [trace](/conversion/python-net/groupdocs.conversion.logging/ilogger/trace/#System.String) | Writes trace log message;<br/>Trace log messages provides generally useful information about application flow. |
-| [warning](/conversion/python-net/groupdocs.conversion.logging/ilogger/warning/#System.String) | Writes warning log message;<br/>Warning log messages provides information about unexpected and recoverable event in application flow. |
-| [error](/conversion/python-net/groupdocs.conversion.logging/ilogger/error/#System.String-System.String) | Writes error log message;<br/>Error log messages provides information about unrecoverable events in application flow. |
-
-
+| [_error_string_exception](/conversion/python-net/groupdocs.conversion.logging/ilogger/_error_string_exception/#message-exception) |  |
+| [_trace_string](/conversion/python-net/groupdocs.conversion.logging/ilogger/_trace_string/#message) |  |
+| [_warning_string](/conversion/python-net/groupdocs.conversion.logging/ilogger/_warning_string/#message) |  |
+| [error](/conversion/python-net/groupdocs.conversion.logging/ilogger/error/) |  |
+| [error_file](/conversion/python-net/groupdocs.conversion.logging/ilogger/error_file/) |  |
+| [error_string](/conversion/python-net/groupdocs.conversion.logging/ilogger/error_string/) |  |
+| [trace](/conversion/python-net/groupdocs.conversion.logging/ilogger/trace/) |  |
+| [trace_file](/conversion/python-net/groupdocs.conversion.logging/ilogger/trace_file/) |  |
+| [trace_string](/conversion/python-net/groupdocs.conversion.logging/ilogger/trace_string/) |  |
+| [warning](/conversion/python-net/groupdocs.conversion.logging/ilogger/warning/) |  |
+| [warning_file](/conversion/python-net/groupdocs.conversion.logging/ilogger/warning_file/) |  |
+| [warning_string](/conversion/python-net/groupdocs.conversion.logging/ilogger/warning_string/) |  |
 
 ### See Also
-* module [`groupdocs.conversion.logging`](..)
+* module [`groupdocs.conversion.logging`](/conversion/python-net/groupdocs.conversion.logging/)

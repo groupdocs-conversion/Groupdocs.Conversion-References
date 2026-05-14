@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_date_time_data/
 is_root: false
-weight: 2010
+weight: 2030
 ---
 
 
 ## convert_date_time_data property
-
-The property indicating whether strings in the file are converted to date values (default: True).
 
 ### Definition:
 ```python

@@ -11,8 +11,6 @@ weight: 2080
 
 ## font_substitutes property
 
-The font substitutes used when converting a PDF document.
-
 ### Definition:
 ```python
 @property

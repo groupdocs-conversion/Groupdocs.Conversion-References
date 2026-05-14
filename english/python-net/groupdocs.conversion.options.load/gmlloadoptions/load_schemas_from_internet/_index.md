@@ -11,10 +11,6 @@ weight: 2020
 
 ## load_schemas_from_internet property
 
-The property determines whether conversion is allowed to load XML schema from the Internet.
-
-If set to False, schemas with absolute URIs that do not start with 'file://' will not be loaded. Default is False.
-
 ### Definition:
 ```python
 @property

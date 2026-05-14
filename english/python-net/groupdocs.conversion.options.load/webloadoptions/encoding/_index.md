@@ -11,10 +11,6 @@ weight: 2050
 
 ## encoding property
 
-The encoding to be used when loading the web document.
-
-If the property is None the encoding will be determined from the document's character set attribute.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2020
 
 ## brightness property
 
-The brightness adjustment applied to the image.
-
 ### Definition:
 ```python
 @property

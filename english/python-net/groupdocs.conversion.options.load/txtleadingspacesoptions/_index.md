@@ -5,22 +5,32 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/
 is_root: false
-weight: 410
+weight: 470
 ---
 
 
 ## TxtLeadingSpacesOptions class
 
-Describes txt leading spaces options enumeration.
-
 The TxtLeadingSpacesOptions type exposes the following members:
 
-### Fields
-| Field | Description |
+### Methods
+| Method | Description |
 | :- | :- |
-| [ConvertToIndent](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/converttoindent/) |  |
-| [Preserve](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/preserve/) |  |
-| [Trim](/conversion/python-net/groupdocs.conversion.options.load/txtleadingspacesoptions/trim/) |  |
+| [_compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_get_hash_code_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [_to_string_noargs](/conversion/python-net/groupdocs.conversion.contracts/enumeration/_to_string_noargs/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [compare_to_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_enumeration](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/enumeration/equals_object/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_display_name](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_display_name/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [from_value](/conversion/python-net/groupdocs.conversion.contracts/enumeration/from_value/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_all](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_all/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/enumeration/get_hash_code/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
+| [to_string](/conversion/python-net/groupdocs.conversion.contracts/enumeration/to_string/) |  (inherited from [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

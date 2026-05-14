@@ -1,4 +1,4 @@
-﻿---
+---
 title: IMetadataLoadOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
@@ -8,21 +8,16 @@ is_root: false
 weight: 230
 ---
 
+
 ## IMetadataLoadOptions class
-
-Options to control metadata in the converted document.
-
-
 
 The IMetadataLoadOptions type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/imetadataloadoptions/clear_built_in_document_properties) | Removes built-in metadata properties from the document. |
-| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/imetadataloadoptions/clear_custom_document_properties) | Removes custom metadata properties from the document. |
-
-
+| [clear_built_in_document_properties](/conversion/python-net/groupdocs.conversion.options.load/imetadataloadoptions/clear_built_in_document_properties/) |  |
+| [clear_custom_document_properties](/conversion/python-net/groupdocs.conversion.options.load/imetadataloadoptions/clear_custom_document_properties/) |  |
 
 ### See Also
-* module [`groupdocs.conversion.options.load`](..)
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

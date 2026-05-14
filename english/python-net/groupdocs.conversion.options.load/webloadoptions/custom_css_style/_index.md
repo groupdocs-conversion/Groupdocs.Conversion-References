@@ -11,8 +11,6 @@ weight: 2040
 
 ## custom_css_style property
 
-The custom CSS style applied when loading a web document, implementing `ICustomCssStyleOptions.custom_css_style`.
-
 ### Definition:
 ```python
 @property

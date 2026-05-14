@@ -11,8 +11,6 @@ weight: 2090
 
 ## to property
 
-The Item To.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2020
 
 ## format property
 
-The format of the document. Implements `IDocumentInfo.format`.
-
 ### Definition:
 ```python
 @property

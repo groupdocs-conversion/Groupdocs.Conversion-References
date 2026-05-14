@@ -11,8 +11,6 @@ weight: 2040
 
 ## left property
 
-The watermark left position.
-
 ### Definition:
 ```python
 @property

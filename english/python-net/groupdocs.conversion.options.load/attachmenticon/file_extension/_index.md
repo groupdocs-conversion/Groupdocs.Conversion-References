@@ -11,8 +11,6 @@ weight: 2010
 
 ## file_extension property
 
-The file extension (e.g., ".pdf", ".docx").
-
 ### Definition:
 ```python
 @property

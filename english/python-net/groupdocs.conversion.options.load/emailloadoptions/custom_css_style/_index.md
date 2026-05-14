@@ -11,8 +11,6 @@ weight: 2040
 
 ## custom_css_style property
 
-The custom CSS style as defined by `ICustomCssStyleOptions.custom_css_style`.
-
 ### Definition:
 ```python
 @property

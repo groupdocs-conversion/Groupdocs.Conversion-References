@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/format/
 is_root: false
-weight: 2040
+weight: 2110
 ---
 
 
 ## format property
-
-The input document file type.
 
 ### Definition:
 ```python

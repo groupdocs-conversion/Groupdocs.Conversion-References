@@ -11,8 +11,6 @@ weight: 2060
 
 ## secondary property
 
-The secondary target file types.
-
 ### Definition:
 ```python
 @property

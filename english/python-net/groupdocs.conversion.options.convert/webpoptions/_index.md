@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webpoptions/
 is_root: false
-weight: 500
+weight: 590
 ---
 
 
 ## WebpOptions class
-
-Options for conversion to Webp file type.
 
 The WebpOptions type exposes the following members:
 
@@ -20,11 +18,23 @@ The WebpOptions type exposes the following members:
 | :- | :- |
 | [__init__](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/__init__/) |  |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/_init_noargs/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+
 ### Properties
 | Property | Description |
 | :- | :- |
-| [lossless](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/lossless/) | The property indicates if the compression of the converted file will be lossless. |
-| [quality](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/quality/) | The quality. |
+| [lossless](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/lossless/) |  |
+| [quality](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/quality/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

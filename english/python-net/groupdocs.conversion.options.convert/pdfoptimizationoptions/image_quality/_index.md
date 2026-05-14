@@ -11,8 +11,6 @@ weight: 2030
 
 ## image_quality property
 
-The image quality as a percentage, where 100% represents unchanged quality and image size; set to less than 100 to decrease the image size.
-
 ### Definition:
 ```python
 @property

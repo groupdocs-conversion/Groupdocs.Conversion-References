@@ -11,8 +11,6 @@ weight: 2170
 
 ## one_page_per_sheet property
 
-The content of the sheet is converted to a single PDF page when `one_page_per_sheet` is True; default is True.
-
 ### Definition:
 ```python
 @property

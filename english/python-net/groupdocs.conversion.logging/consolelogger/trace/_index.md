@@ -5,22 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.logging/consolelogger/trace/
 is_root: false
-weight: 1020
+weight: 1080
 ---
 
 
-## trace {#message}
-
-Writes a trace log message, providing generally useful information about application flow.
+## trace
 
 ```python
-def trace(self, message):
+def trace(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| message | `str` | The trace message. |
 
 ### See Also
 * class [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/)

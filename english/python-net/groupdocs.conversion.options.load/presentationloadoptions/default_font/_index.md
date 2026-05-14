@@ -11,8 +11,6 @@ weight: 2060
 
 ## default_font property
 
-The default font used for rendering the presentation when a presentation font is missing.
-
 ### Definition:
 ```python
 @property

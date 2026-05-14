@@ -11,8 +11,6 @@ weight: 2060
 
 ## size property
 
-The size of the document, as defined by `IDocumentInfo.size`.
-
 ### Definition:
 ```python
 @property

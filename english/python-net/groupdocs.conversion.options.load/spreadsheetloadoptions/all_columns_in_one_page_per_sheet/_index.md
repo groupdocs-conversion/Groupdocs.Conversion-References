@@ -11,10 +11,6 @@ weight: 2010
 
 ## all_columns_in_one_page_per_sheet property
 
-The property determines whether all column content of a sheet is output to a single page.
-
-If True, all column content of one sheet will be placed on a single page in the result; the width of the paper size in the page setup will be ignored, while other page‑setup settings remain effective.
-
 ### Definition:
 ```python
 @property

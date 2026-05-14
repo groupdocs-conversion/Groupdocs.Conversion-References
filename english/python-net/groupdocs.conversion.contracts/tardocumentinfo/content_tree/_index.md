@@ -11,8 +11,6 @@ weight: 2010
 
 ## content_tree property
 
-The content tree of the TAR document.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## bits_per_pixel property
 
-The bits per pixel.
-
 ### Definition:
 ```python
 @property

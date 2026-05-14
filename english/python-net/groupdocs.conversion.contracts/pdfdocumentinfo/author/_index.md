@@ -11,8 +11,6 @@ weight: 2010
 
 ## author property
 
-The author.
-
 ### Definition:
 ```python
 @property

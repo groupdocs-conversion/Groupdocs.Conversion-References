@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/use_pdf/
 is_root: false
-weight: 2140
+weight: 2180
 ---
 
 
 ## use_pdf property
-
-The `use_pdf` property is a boolean flag that determines whether PDF conversion is used.
 
 ### Definition:
 ```python

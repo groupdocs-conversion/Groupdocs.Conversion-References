@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_size/
 is_root: false
-weight: 2040
+weight: 2060
 ---
 
 
 ## page_size property
-
-The page size, implementing [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/).
 
 ### Definition:
 ```python

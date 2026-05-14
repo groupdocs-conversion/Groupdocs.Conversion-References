@@ -11,8 +11,6 @@ weight: 2010
 
 ## content_count property
 
-The count of contents in the root folder.
-
 ### Definition:
 ```python
 @property

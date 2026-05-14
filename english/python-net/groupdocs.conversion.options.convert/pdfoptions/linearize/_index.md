@@ -11,8 +11,6 @@ weight: 2040
 
 ## linearize property
 
-The linearize option linearizes the PDF document for the web.
-
 ### Definition:
 ```python
 @property

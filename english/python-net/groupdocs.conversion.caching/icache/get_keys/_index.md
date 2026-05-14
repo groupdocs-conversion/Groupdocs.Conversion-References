@@ -1,36 +1,20 @@
-﻿---
+---
 title: get_keys method
 second_title: GroupDocs.Conversion for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.conversion.caching/icache/get_keys/
 is_root: false
-weight: 20
+weight: 1040
 ---
 
-## get_keys {#System.String}
 
-Returns all keys matching filter.
-
-
-### Returns 
-
-
-Keys matching the filter.
-
+## get_keys
 
 ```python
-def get_keys(self, filter):
+def get_keys(self):
     ...
 ```
 
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| filter | System.String | The filter to use. |
-
-
-
 ### See Also
-* module [`groupdocs.conversion.caching`](../../)
-* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache)
+* class [`ICache`](/conversion/python-net/groupdocs.conversion.caching/icache/)

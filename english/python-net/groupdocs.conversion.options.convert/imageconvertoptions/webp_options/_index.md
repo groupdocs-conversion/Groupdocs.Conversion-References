@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/webp_options/
 is_root: false
-weight: 2160
+weight: 2210
 ---
 
 
 ## webp_options property
-
-The Webp specific convert options.
 
 ### Definition:
 ```python

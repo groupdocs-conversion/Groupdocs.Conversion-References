@@ -11,8 +11,6 @@ weight: 2010
 
 ## content_tree property
 
-Inherited documentation.
-
 ### Definition:
 ```python
 @property

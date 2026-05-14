@@ -11,8 +11,6 @@ weight: 2190
 
 ## margin_settings property
 
-The margin settings that define page margins for the loaded email document.
-
 ### Definition:
 ```python
 @property

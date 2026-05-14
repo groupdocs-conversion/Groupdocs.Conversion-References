@@ -11,8 +11,6 @@ weight: 2010
 
 ## all property
 
-The collection of all target file types and primary/secondary flag.
-
 ### Definition:
 ```python
 @property

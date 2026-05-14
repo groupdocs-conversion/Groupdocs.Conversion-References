@@ -11,8 +11,6 @@ weight: 140
 
 ## IncorrectPasswordException class
 
-GroupDocs exception thrown when the file is password protected, password is provided but is incorrect.
-
 The IncorrectPasswordException type exposes the following members:
 
 ### See Also

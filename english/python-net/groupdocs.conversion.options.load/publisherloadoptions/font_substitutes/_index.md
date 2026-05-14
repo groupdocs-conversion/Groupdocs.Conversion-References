@@ -11,8 +11,6 @@ weight: 2020
 
 ## font_substitutes property
 
-The property substitutes specific fonts when converting a Publisher document.
-
 ### Definition:
 ```python
 @property

@@ -11,8 +11,6 @@ weight: 2010
 
 ## content_tree property
 
-Inherits documentation from [`IsoDocumentInfo.content_tree`](/conversion/python-net/groupdocs.conversion.contracts/isodocumentinfo/content_tree/).
-
 ### Definition:
 ```python
 @property

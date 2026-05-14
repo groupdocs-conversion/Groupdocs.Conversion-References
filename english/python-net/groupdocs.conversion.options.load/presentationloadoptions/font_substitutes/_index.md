@@ -11,8 +11,6 @@ weight: 2080
 
 ## font_substitutes property
 
-The font substitutes applied when converting a Presentation document.
-
 ### Definition:
 ```python
 @property

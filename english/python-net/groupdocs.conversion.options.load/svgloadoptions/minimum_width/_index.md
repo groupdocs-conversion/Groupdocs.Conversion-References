@@ -11,8 +11,6 @@ weight: 2040
 
 ## minimum_width property
 
-The minimum width for converting an SVG document, used when converting to raster formats, defaulting to 800.
-
 ### Definition:
 ```python
 @property

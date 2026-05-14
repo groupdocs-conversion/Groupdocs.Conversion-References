@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes VectorizationOptions with default settings.
-
 ```python
 def __init__(self):
     ...

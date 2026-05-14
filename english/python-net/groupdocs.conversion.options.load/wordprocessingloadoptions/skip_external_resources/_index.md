@@ -11,8 +11,6 @@ weight: 2260
 
 ## skip_external_resources property
 
-The property that implements `IResourceLoadingOptions.skip_external_resources`.
-
 ### Definition:
 ```python
 @property

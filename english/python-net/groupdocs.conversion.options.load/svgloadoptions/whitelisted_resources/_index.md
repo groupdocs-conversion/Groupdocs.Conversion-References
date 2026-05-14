@@ -11,8 +11,6 @@ weight: 2060
 
 ## whitelisted_resources property
 
-The external resources that will always be loaded.
-
 ### Definition:
 ```python
 @property

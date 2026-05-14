@@ -11,8 +11,6 @@ weight: 2080
 
 ## non_full_screen_page_mode property
 
-The page mode, specifying how to display the document on exiting full-screen mode.
-
 ### Definition:
 ```python
 @property

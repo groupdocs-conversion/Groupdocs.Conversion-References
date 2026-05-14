@@ -11,10 +11,6 @@ weight: 2010
 
 ## convert_owned property
 
-The `ConvertOwned` flag that indicates owned documents will be converted.
-
-Implements `IDocumentsContainerLoadOptions.convert_owned`. This property is read‑only and always set to `True`.
-
 ### Definition:
 ```python
 @property

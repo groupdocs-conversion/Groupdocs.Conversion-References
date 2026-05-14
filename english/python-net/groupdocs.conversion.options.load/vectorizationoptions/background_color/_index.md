@@ -11,10 +11,6 @@ weight: 2010
 
 ## background_color property
 
-The background color.
-
-Default value is transparent white.
-
 ### Definition:
 ```python
 @property

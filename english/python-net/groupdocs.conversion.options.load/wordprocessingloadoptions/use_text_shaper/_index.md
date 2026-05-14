@@ -11,8 +11,6 @@ weight: 2290
 
 ## use_text_shaper property
 
-The property specifies whether to use a text shaper for better kerning display; default is False.
-
 ### Definition:
 ```python
 @property

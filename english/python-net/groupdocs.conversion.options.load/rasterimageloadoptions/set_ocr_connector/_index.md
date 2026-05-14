@@ -5,22 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_ocr_connector/
 is_root: false
-weight: 1020
+weight: 1060
 ---
 
 
-## set_ocr_connector {#ocr_connector}
-
-Set image OCR connector.
+## set_ocr_connector
 
 ```python
-def set_ocr_connector(self, ocr_connector):
+def set_ocr_connector(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| ocr_connector | `IOcrConnector` | OCR connector instance |
 
 ### See Also
 * class [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/)

@@ -5,33 +5,37 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/
 is_root: false
-weight: 490
+weight: 580
 ---
 
 
 ## WebConvertOptions class
-
-Options for conversion to Web file type.
 
 The WebConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/__init__/) | Initializes a new instance of [`WebConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/). |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/_init_noargs/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [embed_font_resources](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/) | The property indicates whether to embed font resources within the main HTML. Default is False. |
-| [fixed_layout](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/fixed_layout/) | The fixed layout flag determines whether a fixed layout will be used, e.g., absolutely positioned HTML elements. |
-| [fixed_layout_show_borders](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/fixed_layout_show_borders/) | The page borders are shown when converting to fixed layout. Default is True. |
-| [use_pdf](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/use_pdf/) | The UsePdf option. |
-| [zoom](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/zoom/) | The zoom level in percentage. Default is 100. |
-| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/page_number/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages_count/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
-| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/watermark/) |  (inherited from [`CommonConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/commonconvertoptions/)) |
+| [embed_font_resources](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/embed_font_resources/) |  |
+| [fixed_layout](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/fixed_layout/) |  |
+| [fixed_layout_show_borders](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/fixed_layout_show_borders/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/format/) |  |
+| [page_number](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/page_number/) |  |
+| [pages](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/pages/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/pages_count/) |  |
+| [use_pdf](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/use_pdf/) |  |
+| [watermark](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/watermark/) |  |
+| [zoom](/conversion/python-net/groupdocs.conversion.options.convert/webconvertoptions/zoom/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

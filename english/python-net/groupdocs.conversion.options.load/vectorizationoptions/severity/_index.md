@@ -11,8 +11,6 @@ weight: 2060
 
 ## severity property
 
-The image trace smoother severity.
-
 ### Definition:
 ```python
 @property

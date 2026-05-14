@@ -11,8 +11,6 @@ weight: 2010
 
 ## crop_to_content_bounds property
 
-The flag indicating whether to crop the SVG bounding box to the content bounds before conversion (default: False).
-
 ### Definition:
 ```python
 @property

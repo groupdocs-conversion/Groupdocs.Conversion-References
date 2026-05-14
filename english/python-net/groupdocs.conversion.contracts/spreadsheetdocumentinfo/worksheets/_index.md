@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets/
 is_root: false
-weight: 2050
+weight: 2110
 ---
 
 
 ## worksheets property
-
-The worksheets names.
 
 ### Definition:
 ```python

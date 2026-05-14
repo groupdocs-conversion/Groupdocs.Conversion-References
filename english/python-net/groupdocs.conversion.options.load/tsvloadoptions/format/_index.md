@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/tsvloadoptions/format/
 is_root: false
-weight: 2010
+weight: 2080
 ---
 
 
 ## format property
-
-The input document file type.
 
 ### Definition:
 ```python

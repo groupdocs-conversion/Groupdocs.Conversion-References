@@ -11,8 +11,6 @@ weight: 2070
 
 ## source property
 
-The source file formats.
-
 ### Definition:
 ```python
 @property

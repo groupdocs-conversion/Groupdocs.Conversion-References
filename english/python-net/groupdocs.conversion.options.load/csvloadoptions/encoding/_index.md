@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/encoding/
 is_root: false
-weight: 2030
+weight: 2090
 ---
 
 
 ## encoding property
-
-The text encoding used for CSV files. Default is `Encoding.Default`.
 
 ### Definition:
 ```python

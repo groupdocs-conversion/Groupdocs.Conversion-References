@@ -11,10 +11,6 @@ weight: 2070
 
 ## html_rendering_mode property
 
-The HTML rendering mode controls how HTML content is rendered.
-
-Default: AbsolutePositioning.
-
 ### Definition:
 ```python
 @property

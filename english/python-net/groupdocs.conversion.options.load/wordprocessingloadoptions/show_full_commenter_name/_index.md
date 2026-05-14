@@ -11,8 +11,6 @@ weight: 2240
 
 ## show_full_commenter_name property
 
-The full commenter name is shown in comments (default: False).
-
 ### Definition:
 ```python
 @property

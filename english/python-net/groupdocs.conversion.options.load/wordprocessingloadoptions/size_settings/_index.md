@@ -11,10 +11,6 @@ weight: 2250
 
 ## size_settings property
 
-The size settings.
-
-See `IPageSizeOptions` for details.
-
 ### Definition:
 ```python
 @property

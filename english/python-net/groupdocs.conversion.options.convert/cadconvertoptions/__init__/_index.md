@@ -11,8 +11,6 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`CadConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/cadconvertoptions/) class.
-
 ```python
 def __init__(self):
     ...

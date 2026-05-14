@@ -11,8 +11,6 @@ weight: 20
 
 ## ConversionFailedException class
 
-Conversion failed exception.
-
 The ConversionFailedException type exposes the following members:
 
 ### See Also

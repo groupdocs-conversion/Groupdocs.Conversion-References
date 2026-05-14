@@ -5,33 +5,40 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/nsfloadoptions/
 is_root: false
-weight: 240
+weight: 300
 ---
 
 
 ## NsfLoadOptions class
-
-Options for loading Nsf documents.
 
 The NsfLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/__init__/) | Initializes a new instance of [`NsfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [clone](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/clone/) | Clones current instance. |
+| [_clone_noargs](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/_clone_noargs/) |  |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/_init_noargs/) |  |
+| [clone](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/clone/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owned/) | The `ConvertOwned` flag that indicates owned documents will be converted. |
-| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owner/) | The ConvertOwner option, implementing `IDocumentsContainerLoadOptions.convert_owner`, is read‑only; set to False to prevent the owner from being converted. |
-| [depth](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/depth/) | The depth of the document container load options. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) | The input document file type. (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
+| [convert_owned](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owned/) |  |
+| [convert_owner](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/convert_owner/) |  |
+| [depth](/conversion/python-net/groupdocs.conversion.options.load/nsfloadoptions/depth/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) |  (inherited from [`LoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

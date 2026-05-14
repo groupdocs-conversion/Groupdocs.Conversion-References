@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/is_password_protected/
 is_root: false
-weight: 2030
+weight: 2050
 ---
 
 
 ## is_password_protected property
-
-The storage is password protected.
 
 ### Definition:
 ```python

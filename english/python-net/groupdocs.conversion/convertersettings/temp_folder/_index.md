@@ -11,8 +11,6 @@ weight: 2090
 
 ## temp_folder property
 
-The temp folder used for conversion.
-
 ### Definition:
 ```python
 @property

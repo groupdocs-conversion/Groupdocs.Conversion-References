@@ -11,10 +11,6 @@ weight: 2100
 
 ## display_email_addresses property
 
-The option to control whether email addresses are displayed alongside names.
-
-Example: "John Doe <john.doe@sample.com>" or just "John Doe". Default: True.
-
 ### Definition:
 ```python
 @property

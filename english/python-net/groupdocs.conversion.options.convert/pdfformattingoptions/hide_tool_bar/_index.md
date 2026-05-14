@@ -11,8 +11,6 @@ weight: 2060
 
 ## hide_tool_bar property
 
-The property specifies whether the toolbar should be hidden when the document is active; default is False.
-
 ### Definition:
 ```python
 @property

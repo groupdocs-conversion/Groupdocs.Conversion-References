@@ -5,35 +5,45 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/
 is_root: false
-weight: 350
+weight: 410
 ---
 
 
 ## RasterImageLoadOptions class
-
-Options for loading Image documents.
 
 The RasterImageLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/__init__/) | Initializes a new instance of the [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/) class. |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_heic_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_heic_connector/#heic_connector) | Set Heic image connector. |
-| [set_ocr_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_ocr_connector/#ocr_connector) | Set image OCR connector. |
+| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/_init_noargs/) |  |
+| [_set_heic_connector_iheic_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/_set_heic_connector_iheic_connector/#heic_connector) |  |
+| [_set_ocr_connector_iocr_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/_set_ocr_connector_iocr_connector/#ocr_connector) |  |
+| [set_heic_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_heic_connector/) |  |
+| [set_heic_connector_iheic_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_heic_connector_iheic_connector/) |  |
+| [set_ocr_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_ocr_connector/) |  |
+| [set_ocr_connector_iocr_connector](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_ocr_connector_iocr_connector/) |  |
+| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [crop_area](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/crop_area/) | The crop area of the image before conversion. |
-| [format](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/format/) | The input document file type. |
-| [vectorization_options](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/vectorization_options/) | The vectorization options. |
-| [default_font](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/default_font/) | The default font for PSD, EMF, and WMF document types, used when a font is missing. (inherited from [`BaseImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/)) |
-| [reset_font_folders](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/reset_font_folders/) | The flag that resets font folders before loading the document. (inherited from [`BaseImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/)) |
+| [crop_area](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/crop_area/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/format/) |  |
+| [vectorization_options](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/vectorization_options/) |  |
+| [default_font](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/default_font/) |  (inherited from [`BaseImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/)) |
+| [reset_font_folders](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/reset_font_folders/) |  (inherited from [`BaseImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/)) |
 
 ### See Also
 * module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

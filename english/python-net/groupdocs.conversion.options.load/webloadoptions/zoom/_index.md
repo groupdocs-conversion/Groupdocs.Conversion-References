@@ -11,10 +11,6 @@ weight: 2140
 
 ## zoom property
 
-The zoom level as a percentage.
-
-The zoom level is applied to the document's <body> tag before conversion, scaling the document's visual appearance. A value of 100% represents the original size. The default value is 100.
-
 ### Definition:
 ```python
 @property

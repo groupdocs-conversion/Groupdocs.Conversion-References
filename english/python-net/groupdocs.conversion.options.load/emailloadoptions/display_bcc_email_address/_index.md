@@ -11,8 +11,6 @@ weight: 2080
 
 ## display_bcc_email_address property
 
-The option to display or hide the Bcc email address. Default is False.
-
 ### Definition:
 ```python
 @property

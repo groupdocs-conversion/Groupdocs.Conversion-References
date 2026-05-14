@@ -11,8 +11,6 @@ weight: 2310
 
 ## skip_footers property
 
-The property skips footers when converting spreadsheet documents. Default: False.
-
 ### Definition:
 ```python
 @property

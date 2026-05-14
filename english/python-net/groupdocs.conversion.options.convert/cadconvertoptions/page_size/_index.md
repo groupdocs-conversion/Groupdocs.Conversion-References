@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_size/
 is_root: false
-weight: 2030
+weight: 2040
 ---
 
 
 ## page_size property
-
-The page size, which implements [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/).
 
 ### Definition:
 ```python

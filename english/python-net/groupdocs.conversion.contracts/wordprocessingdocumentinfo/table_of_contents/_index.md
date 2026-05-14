@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/table_of_contents/
 is_root: false
-weight: 2040
+weight: 2100
 ---
 
 
 ## table_of_contents property
-
-The table of contents.
 
 ### Definition:
 ```python

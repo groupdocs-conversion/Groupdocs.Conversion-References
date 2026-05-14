@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/djvudocumentinfo/vertical_resolution/
 is_root: false
-weight: 2030
+weight: 2090
 ---
 
 
 ## vertical_resolution property
-
-The vertical resolution.
 
 ### Definition:
 ```python

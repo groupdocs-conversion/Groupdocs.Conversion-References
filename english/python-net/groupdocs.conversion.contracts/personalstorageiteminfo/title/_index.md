@@ -11,8 +11,6 @@ weight: 2080
 
 ## title property
 
-The Item Title.
-
 ### Definition:
 ```python
 @property

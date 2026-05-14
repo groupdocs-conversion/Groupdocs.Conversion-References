@@ -5,22 +5,16 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/set_video_connector/
 is_root: false
-weight: 1010
+weight: 1030
 ---
 
 
-## set_video_connector {#video_connector}
-
-Sets the video document connector.
+## set_video_connector
 
 ```python
-def set_video_connector(self, video_connector):
+def set_video_connector(self):
     ...
 ```
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| video_connector | `IPresentationVideoConnector` | Video connector instance |
 
 ### See Also
 * class [`PresentationLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/presentationloadoptions/)

@@ -5,26 +5,24 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/vcfdocumentinfo/
 is_root: false
-weight: 620
+weight: 650
 ---
 
 
 ## VcfDocumentInfo class
-
-Contains Vcf document metadata.
 
 The VcfDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [contacts_count](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/contacts_count/) | The contacts count. |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/creation_date/) | The creation date of the document, implementing `IDocumentInfo.creation_date`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/format/) | The format of the document. Implements `IDocumentInfo.format`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/item/) |  (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/pages_count/) | The number of pages in the document, implementing `IDocumentInfo.pages_count`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/property_names/) | The property implements `IDocumentInfo.property_names`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/size/) | The size of the document, as defined by `IDocumentInfo.size`. (inherited from [`DocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/documentinfo/)) |
+| [contacts_count](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/contacts_count/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/creation_date/) |  |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/format/) |  |
+| [item](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/item/) |  |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/pages_count/) |  |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/property_names/) |  |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/vcfdocumentinfo/size/) |  |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

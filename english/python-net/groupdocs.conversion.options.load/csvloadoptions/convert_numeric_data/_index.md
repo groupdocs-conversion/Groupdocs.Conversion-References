@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/convert_numeric_data/
 is_root: false
-weight: 2020
+weight: 2040
 ---
 
 
 ## convert_numeric_data property
-
-The property indicates whether the string in the file is converted to numeric. Default is True.
 
 ### Definition:
 ```python

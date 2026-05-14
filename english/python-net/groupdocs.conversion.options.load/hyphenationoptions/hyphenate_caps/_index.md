@@ -11,8 +11,6 @@ weight: 2020
 
 ## hyphenate_caps property
 
-The value determining whether words written in all capital letters are hyphenated; default is True.
-
 ### Definition:
 ```python
 @property

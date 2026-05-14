@@ -11,10 +11,6 @@ weight: 2020
 
 ## fixed_layout property
 
-The fixed layout flag determines whether a fixed layout will be used, e.g., absolutely positioned HTML elements.
-
-Default is True.
-
 ### Definition:
 ```python
 @property

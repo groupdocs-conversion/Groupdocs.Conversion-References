@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/clone/
 is_root: false
-weight: 1010
+weight: 1030
 ---
 
 
 ## clone
-
-Clones current instance.
 
 ```python
 def clone(self):

@@ -5,13 +5,11 @@ description:
 type: docs
 url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets_count/
 is_root: false
-weight: 2060
+weight: 2120
 ---
 
 
 ## worksheets_count property
-
-The number of worksheets.
 
 ### Definition:
 ```python

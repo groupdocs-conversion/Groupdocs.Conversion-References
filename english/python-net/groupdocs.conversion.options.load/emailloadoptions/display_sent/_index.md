@@ -11,8 +11,6 @@ weight: 2130
 
 ## display_sent property
 
-The option to display or hide the sent date/time in the header. Default is True.
-
 ### Definition:
 ```python
 @property

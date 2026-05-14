@@ -11,8 +11,6 @@ weight: 2240
 
 ## sheet_indexes property
 
-The list of sheet indexes to convert; the indexes must be zero-based.
-
 ### Definition:
 ```python
 @property

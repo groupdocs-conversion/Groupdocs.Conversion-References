@@ -11,8 +11,6 @@ weight: 210
 
 ## PasswordRequiredException class
 
-GroupDocs exception thrown when the file is password protected and password is not provided.
-
 The PasswordRequiredException type exposes the following members:
 
 ### See Also
