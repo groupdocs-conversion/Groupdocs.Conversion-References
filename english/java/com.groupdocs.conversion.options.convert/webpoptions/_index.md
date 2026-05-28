@@ -16,6 +16,7 @@ public final class WebpOptions extends ValueObject implements Serializable
 ```
 
 Options for conversion to Webp file type.
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,10 +26,14 @@ Options for conversion to Webp file type.
 
 | Method | Description |
 | --- | --- |
-| [getLossless()](#getLossless--) | Indicates if the compression of the converted file will be lossless. |
-| [setLossless(boolean value)](#setLossless-boolean-) | Indicates if the compression of the converted file will be lossless. |
-| [getQuality()](#getQuality--) | Gets or sets the quality. |
-| [setQuality(int value)](#setQuality-int-) | Gets or sets the quality. |
+| [getLossless()](#getLossless--) | Indicates if the compression of the converted file will be lossless.
+ |
+| [setLossless(boolean value)](#setLossless-boolean-) | Indicates if the compression of the converted file will be lossless.
+ |
+| [getQuality()](#getQuality--) | Gets or sets the quality.
+ |
+| [setQuality(int value)](#setQuality-int-) | Gets or sets the quality.
+ |
 ### WebpOptions() {#WebpOptions--}
 ```
 public WebpOptions()
@@ -43,6 +48,7 @@ public final boolean getLossless()
 
 Indicates if the compression of the converted file will be lossless.
 
+
 **Returns:**
 boolean
 ### setLossless(boolean value) {#setLossless-boolean-}
@@ -52,6 +58,7 @@ public final void setLossless(boolean value)
 
 
 Indicates if the compression of the converted file will be lossless.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -66,6 +73,7 @@ public final int getQuality()
 
 Gets or sets the quality.
 
+
 **Returns:**
 int
 ### setQuality(int value) {#setQuality-int-}
@@ -75,6 +83,7 @@ public final void setQuality(int value)
 
 
 Gets or sets the quality.
+
 
 **Parameters:**
 | Parameter | Type | Description |

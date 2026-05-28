@@ -13,6 +13,7 @@ public class FontDocumentInfo extends DocumentInfo
 ```
 
 Contains Font document metadata
+
 ## Constructors
 
 | Constructor | Description |

@@ -13,6 +13,7 @@ public class WebDocumentInfo extends DocumentInfo
 ```
 
 Contains Web document metadata
+
 ## Constructors
 
 | Constructor | Description |

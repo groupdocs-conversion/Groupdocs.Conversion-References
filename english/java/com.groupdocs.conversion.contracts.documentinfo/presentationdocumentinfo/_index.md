@@ -13,6 +13,7 @@ public class PresentationDocumentInfo extends DocumentInfo
 ```
 
 Contains Presentation document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,11 +23,16 @@ Contains Presentation document metadata
 
 | Method | Description |
 | --- | --- |
-| [getTitle()](#getTitle--) | Gets title |
-| [setTitle(String title)](#setTitle-java.lang.String-) | Sets title |
-| [getAuthor()](#getAuthor--) | Gets author |
-| [setAuthor(String author)](#setAuthor-java.lang.String-) | Sets author |
-| [isPasswordProtected()](#isPasswordProtected--) | Gets is the document password protected |
+| [getTitle()](#getTitle--) | Gets title
+ |
+| [setTitle(String title)](#setTitle-java.lang.String-) | Sets title
+ |
+| [getAuthor()](#getAuthor--) | Gets author
+ |
+| [setAuthor(String author)](#setAuthor-java.lang.String-) | Sets author
+ |
+| [isPasswordProtected()](#isPasswordProtected--) | Gets is the document password protected
+ |
 ### PresentationDocumentInfo(Presentation presentation, FileType format, long size, boolean isPasswordProtected) {#PresentationDocumentInfo-com.aspose.slides.Presentation-com.groupdocs.conversion.filetypes.FileType-long-boolean-}
 ```
 public PresentationDocumentInfo(Presentation presentation, FileType format, long size, boolean isPasswordProtected)
@@ -49,8 +55,10 @@ public String getTitle()
 
 Gets title
 
+
 **Returns:**
 java.lang.String - title
+
 ### setTitle(String title) {#setTitle-java.lang.String-}
 ```
 public void setTitle(String title)
@@ -59,10 +67,12 @@ public void setTitle(String title)
 
 Sets title
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| title | java.lang.String | title |
+| title | java.lang.String | title
+ |
 
 ### getAuthor() {#getAuthor--}
 ```
@@ -72,8 +82,10 @@ public String getAuthor()
 
 Gets author
 
+
 **Returns:**
 java.lang.String - author
+
 ### setAuthor(String author) {#setAuthor-java.lang.String-}
 ```
 public void setAuthor(String author)
@@ -82,10 +94,12 @@ public void setAuthor(String author)
 
 Sets author
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | java.lang.String | author |
+| author | java.lang.String | author
+ |
 
 ### isPasswordProtected() {#isPasswordProtected--}
 ```
@@ -95,5 +109,7 @@ public boolean isPasswordProtected()
 
 Gets is the document password protected
 
+
 **Returns:**
 boolean - `true` if document is password protected
+

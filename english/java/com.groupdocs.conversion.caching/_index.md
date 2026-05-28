@@ -8,11 +8,8 @@ url: /java/com.groupdocs.conversion.caching/
 ---
 
 The GroupDocs.Conversion.Caching namespace provides classes for customizing caching behaviour.
+**Learn more** More about caching and optimizing conversion process performance: [Caching conversion results](../https://docs.groupdocs.com/display/conversionnet/Caching)
 
-**Learn more**More about caching and optimizing conversion process performance: [Caching conversion results][]
-
-
-[Caching conversion results]: https://docs.groupdocs.com/display/conversionnet/Caching
 
 
 ## Classes

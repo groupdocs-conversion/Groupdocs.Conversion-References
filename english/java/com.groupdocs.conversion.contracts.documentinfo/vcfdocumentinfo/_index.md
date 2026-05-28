@@ -13,6 +13,7 @@ public class VcfDocumentInfo extends DocumentInfo
 ```
 
 Contains Vcf document metadata
+
 ## Constructors
 
 | Constructor | Description |

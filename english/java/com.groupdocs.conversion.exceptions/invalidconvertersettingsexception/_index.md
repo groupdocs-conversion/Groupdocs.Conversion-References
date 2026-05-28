@@ -13,12 +13,15 @@ public final class InvalidConverterSettingsException extends GroupDocsConversion
 ```
 
 Thrown if provided converter settings are invalid
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [InvalidConverterSettingsException()](#InvalidConverterSettingsException--) | Default constructor |
-| [InvalidConverterSettingsException(String message)](#InvalidConverterSettingsException-java.lang.String-) | Creates an exception with a specific message |
+| [InvalidConverterSettingsException()](#InvalidConverterSettingsException--) | Default constructor
+ |
+| [InvalidConverterSettingsException(String message)](#InvalidConverterSettingsException-java.lang.String-) | Creates an exception with a specific message
+ |
 ### InvalidConverterSettingsException() {#InvalidConverterSettingsException--}
 ```
 public InvalidConverterSettingsException()
@@ -26,6 +29,7 @@ public InvalidConverterSettingsException()
 
 
 Default constructor
+
 
 ### InvalidConverterSettingsException(String message) {#InvalidConverterSettingsException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public InvalidConverterSettingsException(String message)
 
 Creates an exception with a specific message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message |
+| message | java.lang.String | The message
+ |
 

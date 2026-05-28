@@ -10,11 +10,13 @@ public interface IConversionIsPasswordProtected
 ```
 
 Checks if source document is password protected
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isDocumentPasswordProtected()](#isDocumentPasswordProtected--) | Checks if source document is password protected |
+| [isDocumentPasswordProtected()](#isDocumentPasswordProtected--) | Checks if source document is password protected
+ |
 ### isDocumentPasswordProtected() {#isDocumentPasswordProtected--}
 ```
 public abstract boolean isDocumentPasswordProtected()
@@ -22,6 +24,7 @@ public abstract boolean isDocumentPasswordProtected()
 
 
 Checks if source document is password protected
+
 
 **Returns:**
 boolean

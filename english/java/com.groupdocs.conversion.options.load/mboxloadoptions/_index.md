@@ -16,27 +16,35 @@ public class MboxLoadOptions extends LoadOptions implements IDocumentsContainerL
 ```
 
 Options for loading Mbox documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MboxLoadOptions()](#MboxLoadOptions--) | Initializes new instance of  class. |
+| [MboxLoadOptions()](#MboxLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isConvertOwner()](#isConvertOwner--) | The owner will not be converted |
-| [isConvertOwned()](#isConvertOwned--) | \{@inheritDoc\} |
-| [getDepth()](#getDepth--) | \{@inheritDoc\} Default: 3 |
-| [setDepth(int depth)](#setDepth-int-) | \{@inheritDoc\} |
-| [getEqualityComponents()](#getEqualityComponents--) | \{@inheritDoc\} |
+| [isConvertOwner()](#isConvertOwner--) | The owner will not be converted
+ |
+| [isConvertOwned()](#isConvertOwned--) | {@inheritDoc}
+ |
+| [getDepth()](#getDepth--) | {@inheritDoc} Default: 3
+ |
+| [setDepth(int depth)](#setDepth-int-) | {@inheritDoc}
+ |
+| [getEqualityComponents()](#getEqualityComponents--) | {@inheritDoc}
+ |
 ### MboxLoadOptions() {#MboxLoadOptions--}
 ```
 public MboxLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### isConvertOwner() {#isConvertOwner--}
 ```
@@ -45,6 +53,7 @@ public boolean isConvertOwner()
 
 
 The owner will not be converted
+
 
 **Returns:**
 boolean
@@ -56,6 +65,7 @@ public boolean isConvertOwned()
 
 Option to control whether the owned documents in the documents container must be converted
 
+
 **Returns:**
 boolean
 ### getDepth() {#getDepth--}
@@ -65,6 +75,7 @@ public int getDepth()
 
 
 Option to control how many levels in depth to perform conversion Default: 3
+
 
 **Returns:**
 int

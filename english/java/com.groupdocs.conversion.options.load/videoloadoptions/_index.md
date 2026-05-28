@@ -13,24 +13,28 @@ public class VideoLoadOptions extends LoadOptions
 ```
 
 Options for loading video documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VideoLoadOptions()](#VideoLoadOptions--) | Initializes new instance of  class. |
+| [VideoLoadOptions()](#VideoLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getVideoConnector()](#getVideoConnector--) |  |
-| [setVideoConnector(IVideoConnector videoConnector)](#setVideoConnector-com.groupdocs.conversion.integration.video.IVideoConnector-) | Set video document connector |
+| [setVideoConnector(IVideoConnector videoConnector)](#setVideoConnector-com.groupdocs.conversion.integration.video.IVideoConnector-) | Set video document connector
+ |
 ### VideoLoadOptions() {#VideoLoadOptions--}
 ```
 public VideoLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getVideoConnector() {#getVideoConnector--}
 ```
@@ -50,8 +54,10 @@ public void setVideoConnector(IVideoConnector videoConnector)
 
 Set video document connector
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| videoConnector | [IVideoConnector](../../com.groupdocs.conversion.integration.video/ivideoconnector) | Video connector instance |
+| videoConnector | [IVideoConnector](../../com.groupdocs.conversion.integration.video/ivideoconnector) | Video connector instance
+ |
 

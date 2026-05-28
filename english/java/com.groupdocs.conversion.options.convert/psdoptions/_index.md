@@ -16,25 +16,37 @@ public final class PsdOptions extends ValueObject implements Serializable
 ```
 
 Options for converting to Psd file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PsdOptions()](#PsdOptions--) | Initializes new instance of [PsdOptions](../../com.groupdocs.conversion.options.convert/psdoptions) class. |
+| [PsdOptions()](#PsdOptions--) | Initializes new instance of [PsdOptions](../../com.groupdocs.conversion.options.convert/psdoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getChannelBitsCount()](#getChannelBitsCount--) | Bits count per color channel. |
-| [setChannelBitsCount(short value)](#setChannelBitsCount-short-) | Bits count per color channel. |
-| [getChannelsCount()](#getChannelsCount--) | Color channels count. |
-| [setChannelsCount(short value)](#setChannelsCount-short-) | Color channels count. |
-| [getColorMode()](#getColorMode--) | Psd color mode. |
-| [setColorMode(PsdColorModes value)](#setColorMode-com.groupdocs.conversion.options.convert.PsdColorModes-) | Psd color mode. |
-| [getCompression()](#getCompression--) | Psd compression method. |
-| [setCompression(PsdCompressionMethods value)](#setCompression-com.groupdocs.conversion.options.convert.PsdCompressionMethods-) | Psd compression method. |
-| [getVersion()](#getVersion--) | Psd file version. |
-| [setVersion(int value)](#setVersion-int-) | Psd file version. |
+| [getChannelBitsCount()](#getChannelBitsCount--) | Bits count per color channel.
+ |
+| [setChannelBitsCount(short value)](#setChannelBitsCount-short-) | Bits count per color channel.
+ |
+| [getChannelsCount()](#getChannelsCount--) | Color channels count.
+ |
+| [setChannelsCount(short value)](#setChannelsCount-short-) | Color channels count.
+ |
+| [getColorMode()](#getColorMode--) | Psd color mode.
+ |
+| [setColorMode(PsdColorModes value)](#setColorMode-com.groupdocs.conversion.options.convert.PsdColorModes-) | Psd color mode.
+ |
+| [getCompression()](#getCompression--) | Psd compression method.
+ |
+| [setCompression(PsdCompressionMethods value)](#setCompression-com.groupdocs.conversion.options.convert.PsdCompressionMethods-) | Psd compression method.
+ |
+| [getVersion()](#getVersion--) | Psd file version.
+ |
+| [setVersion(int value)](#setVersion-int-) | Psd file version.
+ |
 ### PsdOptions() {#PsdOptions--}
 ```
 public PsdOptions()
@@ -43,6 +55,7 @@ public PsdOptions()
 
 Initializes new instance of [PsdOptions](../../com.groupdocs.conversion.options.convert/psdoptions) class.
 
+
 ### getChannelBitsCount() {#getChannelBitsCount--}
 ```
 public final short getChannelBitsCount()
@@ -50,6 +63,7 @@ public final short getChannelBitsCount()
 
 
 Bits count per color channel.
+
 
 **Returns:**
 short
@@ -60,6 +74,7 @@ public final void setChannelBitsCount(short value)
 
 
 Bits count per color channel.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,6 +89,7 @@ public final short getChannelsCount()
 
 Color channels count.
 
+
 **Returns:**
 short
 ### setChannelsCount(short value) {#setChannelsCount-short-}
@@ -83,6 +99,7 @@ public final void setChannelsCount(short value)
 
 
 Color channels count.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,6 +114,7 @@ public final PsdColorModes getColorMode()
 
 Psd color mode.
 
+
 **Returns:**
 [PsdColorModes](../../com.groupdocs.conversion.options.convert/psdcolormodes)
 ### setColorMode(PsdColorModes value) {#setColorMode-com.groupdocs.conversion.options.convert.PsdColorModes-}
@@ -106,6 +124,7 @@ public final void setColorMode(PsdColorModes value)
 
 
 Psd color mode.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,6 +139,7 @@ public final PsdCompressionMethods getCompression()
 
 Psd compression method.
 
+
 **Returns:**
 [PsdCompressionMethods](../../com.groupdocs.conversion.options.convert/psdcompressionmethods)
 ### setCompression(PsdCompressionMethods value) {#setCompression-com.groupdocs.conversion.options.convert.PsdCompressionMethods-}
@@ -129,6 +149,7 @@ public final void setCompression(PsdCompressionMethods value)
 
 
 Psd compression method.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,6 +164,7 @@ public final int getVersion()
 
 Psd file version.
 
+
 **Returns:**
 int
 ### setVersion(int value) {#setVersion-int-}
@@ -152,6 +174,7 @@ public final void setVersion(int value)
 
 
 Psd file version.
+
 
 **Parameters:**
 | Parameter | Type | Description |

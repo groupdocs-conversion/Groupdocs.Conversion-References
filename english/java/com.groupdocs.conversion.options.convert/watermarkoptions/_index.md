@@ -16,32 +16,49 @@ public abstract class WatermarkOptions extends ValueObject implements Cloneable,
 ```
 
 Options for settings watermark to the converted document
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WatermarkOptions()](#WatermarkOptions--) | Create WatermarkOptions class and set watermark text |
+| [WatermarkOptions()](#WatermarkOptions--) | Create WatermarkOptions class and set watermark text
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Watermark width |
-| [setWidth(int value)](#setWidth-int-) | Watermark width |
-| [getHeight()](#getHeight--) | Watermark height |
-| [setHeight(int value)](#setHeight-int-) | Watermark height |
-| [getTop()](#getTop--) | Watermark top position |
-| [setTop(int value)](#setTop-int-) | Watermark top position |
-| [getLeft()](#getLeft--) | Watermark left position |
-| [setLeft(int value)](#setLeft-int-) | Watermark left position |
-| [getRotationAngle()](#getRotationAngle--) | Watermark rotation angle |
-| [setRotationAngle(int value)](#setRotationAngle-int-) | Watermark rotation angle |
-| [getTransparency()](#getTransparency--) | Watermark transparency. |
-| [setTransparency(double value)](#setTransparency-double-) | Watermark transparency. |
-| [getBackground()](#getBackground--) | Indicates that the watermark is stamped as background. |
-| [setBackground(boolean value)](#setBackground-boolean-) | Indicates that the watermark is stamped as background. |
+| [getWidth()](#getWidth--) | Watermark width
+ |
+| [setWidth(int value)](#setWidth-int-) | Watermark width
+ |
+| [getHeight()](#getHeight--) | Watermark height
+ |
+| [setHeight(int value)](#setHeight-int-) | Watermark height
+ |
+| [getTop()](#getTop--) | Watermark top position
+ |
+| [setTop(int value)](#setTop-int-) | Watermark top position
+ |
+| [getLeft()](#getLeft--) | Watermark left position
+ |
+| [setLeft(int value)](#setLeft-int-) | Watermark left position
+ |
+| [getRotationAngle()](#getRotationAngle--) | Watermark rotation angle
+ |
+| [setRotationAngle(int value)](#setRotationAngle-int-) | Watermark rotation angle
+ |
+| [getTransparency()](#getTransparency--) | Watermark transparency.
+ |
+| [setTransparency(double value)](#setTransparency-double-) | Watermark transparency.
+ |
+| [getBackground()](#getBackground--) | Indicates that the watermark is stamped as background.
+ |
+| [setBackground(boolean value)](#setBackground-boolean-) | Indicates that the watermark is stamped as background.
+ |
 | [isAutoAlign()](#isAutoAlign--) |  |
 | [setAutoAlign(boolean autoAlign)](#setAutoAlign-boolean-) |  |
-| [deepClone()](#deepClone--) | Clone current instance |
+| [deepClone()](#deepClone--) | Clone current instance
+ |
 ### WatermarkOptions() {#WatermarkOptions--}
 ```
 public WatermarkOptions()
@@ -50,6 +67,7 @@ public WatermarkOptions()
 
 Create WatermarkOptions class and set watermark text
 
+
 ### getWidth() {#getWidth--}
 ```
 public final int getWidth()
@@ -57,6 +75,7 @@ public final int getWidth()
 
 
 Watermark width
+
 
 **Returns:**
 int
@@ -67,6 +86,7 @@ public final void setWidth(int value)
 
 
 Watermark width
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,6 +101,7 @@ public final int getHeight()
 
 Watermark height
 
+
 **Returns:**
 int
 ### setHeight(int value) {#setHeight-int-}
@@ -90,6 +111,7 @@ public final void setHeight(int value)
 
 
 Watermark height
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -104,6 +126,7 @@ public final int getTop()
 
 Watermark top position
 
+
 **Returns:**
 int
 ### setTop(int value) {#setTop-int-}
@@ -113,6 +136,7 @@ public final void setTop(int value)
 
 
 Watermark top position
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -127,6 +151,7 @@ public final int getLeft()
 
 Watermark left position
 
+
 **Returns:**
 int
 ### setLeft(int value) {#setLeft-int-}
@@ -136,6 +161,7 @@ public final void setLeft(int value)
 
 
 Watermark left position
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -150,6 +176,7 @@ public final int getRotationAngle()
 
 Watermark rotation angle
 
+
 **Returns:**
 int
 ### setRotationAngle(int value) {#setRotationAngle-int-}
@@ -159,6 +186,7 @@ public final void setRotationAngle(int value)
 
 
 Watermark rotation angle
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -173,6 +201,7 @@ public final double getTransparency()
 
 Watermark transparency. Value between 0 and 1. Value 0 is fully visible, value 1 is invisible.
 
+
 **Returns:**
 double
 ### setTransparency(double value) {#setTransparency-double-}
@@ -182,6 +211,7 @@ public final void setTransparency(double value)
 
 
 Watermark transparency. Value between 0 and 1. Value 0 is fully visible, value 1 is invisible.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -196,6 +226,7 @@ public final boolean getBackground()
 
 Indicates that the watermark is stamped as background. If the value is true, the watermark is laid at the bottom. By default is false and the watermark is laid on top.
 
+
 **Returns:**
 boolean
 ### setBackground(boolean value) {#setBackground-boolean-}
@@ -205,6 +236,7 @@ public final void setBackground(boolean value)
 
 
 Indicates that the watermark is stamped as background. If the value is true, the watermark is laid at the bottom. By default is false and the watermark is laid on top.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,5 +274,7 @@ public final Object deepClone()
 
 Clone current instance
 
+
 **Returns:**
 java.lang.Object - instance
+

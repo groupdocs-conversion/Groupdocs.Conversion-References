@@ -13,12 +13,15 @@ public interface IWatermarkedConvertOptions extends IConvertOptions
 ```
 
 Represents convert options that allow output of conversion to be watermarked
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWatermark()](#getWatermark--) | Gets watermark specific options |
-| [setWatermark(WatermarkOptions watermark)](#setWatermark-com.groupdocs.conversion.options.convert.WatermarkOptions-) | Sets watermark specific options |
+| [getWatermark()](#getWatermark--) | Gets watermark specific options
+ |
+| [setWatermark(WatermarkOptions watermark)](#setWatermark-com.groupdocs.conversion.options.convert.WatermarkOptions-) | Sets watermark specific options
+ |
 ### getWatermark() {#getWatermark--}
 ```
 public abstract WatermarkOptions getWatermark()
@@ -27,8 +30,10 @@ public abstract WatermarkOptions getWatermark()
 
 Gets watermark specific options
 
+
 **Returns:**
 [WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions) - Watermark specific options
+
 ### setWatermark(WatermarkOptions watermark) {#setWatermark-com.groupdocs.conversion.options.convert.WatermarkOptions-}
 ```
 public abstract void setWatermark(WatermarkOptions watermark)
@@ -37,8 +42,10 @@ public abstract void setWatermark(WatermarkOptions watermark)
 
 Sets watermark specific options
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| watermark | [WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions) | Watermark specific options |
+| watermark | [WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions) | Watermark specific options
+ |
 

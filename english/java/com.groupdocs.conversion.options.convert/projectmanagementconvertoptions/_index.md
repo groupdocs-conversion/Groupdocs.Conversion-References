@@ -13,16 +13,19 @@ public class ProjectManagementConvertOptions extends ConvertOptions<ProjectManag
 ```
 
 Options for conversion to Project management file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ProjectManagementConvertOptions()](#ProjectManagementConvertOptions--) | Initializes new instance of  class. |
+| [ProjectManagementConvertOptions()](#ProjectManagementConvertOptions--) | Initializes new instance of class.
+ |
 ### ProjectManagementConvertOptions() {#ProjectManagementConvertOptions--}
 ```
 public ProjectManagementConvertOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 

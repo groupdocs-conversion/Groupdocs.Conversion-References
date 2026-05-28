@@ -13,6 +13,7 @@ public class SvgDocumentInfo extends DocumentInfo
 ```
 
 Contains Svg document metadata
+
 ## Constructors
 
 | Constructor | Description |

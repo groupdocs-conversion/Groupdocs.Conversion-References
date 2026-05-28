@@ -10,6 +10,7 @@ url: /java/com.groupdocs.conversion.integration.ocr/
 The GroupDocs.Conversion.Integration.Ocr package provides metadata for a OCR.
 
 
+
 ## Classes
 
 | Class | Description |

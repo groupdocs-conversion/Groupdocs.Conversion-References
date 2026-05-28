@@ -13,13 +13,17 @@ public final class IncorrectPasswordException extends GroupDocsConversionExcepti
 ```
 
 GroupDocs exception thrown when the file is password protected, password is provided but is incorrect
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [IncorrectPasswordException()](#IncorrectPasswordException--) | Default constructor |
-| [IncorrectPasswordException(FileType fileType)](#IncorrectPasswordException-com.groupdocs.conversion.filetypes.FileType-) | Creates an exception instance with a FileType |
-| [IncorrectPasswordException(String message)](#IncorrectPasswordException-java.lang.String-) | Creates an exception instance with a message |
+| [IncorrectPasswordException()](#IncorrectPasswordException--) | Default constructor
+ |
+| [IncorrectPasswordException(FileType fileType)](#IncorrectPasswordException-com.groupdocs.conversion.filetypes.FileType-) | Creates an exception instance with a FileType
+ |
+| [IncorrectPasswordException(String message)](#IncorrectPasswordException-java.lang.String-) | Creates an exception instance with a message
+ |
 ### IncorrectPasswordException() {#IncorrectPasswordException--}
 ```
 public IncorrectPasswordException()
@@ -27,6 +31,7 @@ public IncorrectPasswordException()
 
 
 Default constructor
+
 
 ### IncorrectPasswordException(FileType fileType) {#IncorrectPasswordException-com.groupdocs.conversion.filetypes.FileType-}
 ```
@@ -36,10 +41,12 @@ public IncorrectPasswordException(FileType fileType)
 
 Creates an exception instance with a FileType
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileType | [FileType](../../com.groupdocs.conversion.filetypes/filetype) | The file type |
+| fileType | [FileType](../../com.groupdocs.conversion.filetypes/filetype) | The file type
+ |
 
 ### IncorrectPasswordException(String message) {#IncorrectPasswordException-java.lang.String-}
 ```
@@ -49,8 +56,10 @@ public IncorrectPasswordException(String message)
 
 Creates an exception instance with a message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message |
+| message | java.lang.String | The message
+ |
 

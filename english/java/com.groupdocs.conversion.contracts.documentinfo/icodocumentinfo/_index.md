@@ -13,6 +13,7 @@ public class IcoDocumentInfo extends ImageDocumentInfo
 ```
 
 Contains Ico document metadata
+
 ## Constructors
 
 | Constructor | Description |

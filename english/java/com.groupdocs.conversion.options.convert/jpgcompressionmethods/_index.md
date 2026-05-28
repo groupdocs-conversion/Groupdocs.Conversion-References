@@ -16,19 +16,25 @@ public class JpgCompressionMethods extends Enumeration implements Serializable
 ```
 
 Describes Jpg compression modes
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [JpgCompressionMethods()](#JpgCompressionMethods--) | Serialization constructor |
+| [JpgCompressionMethods()](#JpgCompressionMethods--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Baseline](#Baseline) | The baseline compression. |
-| [Progressive](#Progressive) | Progressive compression. |
-| [Lossless](#Lossless) | Lossless compression. |
-| [JpegLs](#JpegLs) | JpegLs compression. |
+| [Baseline](#Baseline) | The baseline compression.
+ |
+| [Progressive](#Progressive) | Progressive compression.
+ |
+| [Lossless](#Lossless) | Lossless compression.
+ |
+| [JpegLs](#JpegLs) | JpegLs compression.
+ |
 ### JpgCompressionMethods() {#JpgCompressionMethods--}
 ```
 public JpgCompressionMethods()
@@ -36,6 +42,7 @@ public JpgCompressionMethods()
 
 
 Serialization constructor
+
 
 ### Baseline {#Baseline}
 ```
@@ -45,6 +52,7 @@ public static final JpgCompressionMethods Baseline
 
 The baseline compression.
 
+
 ### Progressive {#Progressive}
 ```
 public static final JpgCompressionMethods Progressive
@@ -52,6 +60,7 @@ public static final JpgCompressionMethods Progressive
 
 
 Progressive compression.
+
 
 ### Lossless {#Lossless}
 ```
@@ -61,6 +70,7 @@ public static final JpgCompressionMethods Lossless
 
 Lossless compression.
 
+
 ### JpegLs {#JpegLs}
 ```
 public static final JpgCompressionMethods JpegLs
@@ -68,4 +78,5 @@ public static final JpgCompressionMethods JpegLs
 
 
 JpegLs compression.
+
 

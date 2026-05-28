@@ -13,12 +13,15 @@ public interface IPdfRecognitionModeOptions extends IConvertOptions
 ```
 
 Represents convert options that control recognition mode when converting from PDF
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPdfRecognitionMode()](#getPdfRecognitionMode--) | Gets recognition mode when converting from pdf |
-| [setPdfRecognitionMode(PdfRecognitionMode pdfRecognitionMode)](#setPdfRecognitionMode-com.groupdocs.conversion.options.convert.PdfRecognitionMode-) | Sets recognition mode when converting from pdf |
+| [getPdfRecognitionMode()](#getPdfRecognitionMode--) | Gets recognition mode when converting from pdf
+ |
+| [setPdfRecognitionMode(PdfRecognitionMode pdfRecognitionMode)](#setPdfRecognitionMode-com.groupdocs.conversion.options.convert.PdfRecognitionMode-) | Sets recognition mode when converting from pdf
+ |
 ### getPdfRecognitionMode() {#getPdfRecognitionMode--}
 ```
 public abstract PdfRecognitionMode getPdfRecognitionMode()
@@ -26,6 +29,7 @@ public abstract PdfRecognitionMode getPdfRecognitionMode()
 
 
 Gets recognition mode when converting from pdf
+
 
 **Returns:**
 [PdfRecognitionMode](../../com.groupdocs.conversion.options.convert/pdfrecognitionmode)
@@ -36,6 +40,7 @@ public abstract void setPdfRecognitionMode(PdfRecognitionMode pdfRecognitionMode
 
 
 Sets recognition mode when converting from pdf
+
 
 **Parameters:**
 | Parameter | Type | Description |

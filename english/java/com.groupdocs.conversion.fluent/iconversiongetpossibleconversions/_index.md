@@ -10,11 +10,13 @@ public interface IConversionGetPossibleConversions
 ```
 
 Gets possible conversions for the source document.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPossibleConversions()](#getPossibleConversions--) | Gets possible conversions for the source document. |
+| [getPossibleConversions()](#getPossibleConversions--) | Gets possible conversions for the source document.
+ |
 ### getPossibleConversions() {#getPossibleConversions--}
 ```
 public abstract PossibleConversions getPossibleConversions()
@@ -22,6 +24,7 @@ public abstract PossibleConversions getPossibleConversions()
 
 
 Gets possible conversions for the source document.
+
 
 **Returns:**
 [PossibleConversions](../../com.groupdocs.conversion.contracts/possibleconversions)

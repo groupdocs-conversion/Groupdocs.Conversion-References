@@ -15,17 +15,21 @@ java.io.Serializable
 public final class PdfFileType extends FileType implements Serializable
 ```
 
-Defines Pdf documents. Includes the following file types: [Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype\#Pdf),
+Defines Pdf documents. Includes the following file types:
+[Pdf](../../com.groupdocs.conversion.filetypes/pdffiletype#Pdf),
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfFileType()](#PdfFileType--) | Serialization constructor |
+| [PdfFileType()](#PdfFileType--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Pdf](#Pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. |
+| [Pdf](#Pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s.
+ |
 ## Methods
 
 | Method | Description |
@@ -42,16 +46,16 @@ public PdfFileType()
 
 Serialization constructor
 
+
 ### Pdf {#Pdf}
 ```
 public static final PdfFileType Pdf
 ```
 
 
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here][].
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System.
+Learn more about this file format [here](../https://wiki.fileformat.com/view/pdf).
 
-
-[here]: https://wiki.fileformat.com/view/pdf
 
 ### getLoadOptions() {#getLoadOptions--}
 ```
@@ -60,6 +64,7 @@ public LoadOptions getLoadOptions()
 
 
 Prepared default load options for the source file type
+
 
 **Returns:**
 [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
@@ -70,6 +75,7 @@ public ConvertOptions getConvertOptions()
 
 
 Prepared default convert options for the file type
+
 
 **Returns:**
 [ConvertOptions](../../com.groupdocs.conversion.options.convert/convertoptions)

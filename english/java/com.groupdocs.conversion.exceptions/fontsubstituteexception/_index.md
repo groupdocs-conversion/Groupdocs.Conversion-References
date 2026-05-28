@@ -13,12 +13,15 @@ public final class FontSubstituteException extends GroupDocsConversionException
 ```
 
 Thrown if font substitute is illegal
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FontSubstituteException()](#FontSubstituteException--) | Default constructor |
-| [FontSubstituteException(String message)](#FontSubstituteException-java.lang.String-) | Creates an exception with a specific message |
+| [FontSubstituteException()](#FontSubstituteException--) | Default constructor
+ |
+| [FontSubstituteException(String message)](#FontSubstituteException-java.lang.String-) | Creates an exception with a specific message
+ |
 ### FontSubstituteException() {#FontSubstituteException--}
 ```
 public FontSubstituteException()
@@ -26,6 +29,7 @@ public FontSubstituteException()
 
 
 Default constructor
+
 
 ### FontSubstituteException(String message) {#FontSubstituteException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public FontSubstituteException(String message)
 
 Creates an exception with a specific message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message |
+| message | java.lang.String | The message
+ |
 

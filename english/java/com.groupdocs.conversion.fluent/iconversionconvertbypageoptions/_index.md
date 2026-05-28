@@ -10,12 +10,15 @@ public interface IConversionConvertByPageOptions
 ```
 
 Conversion convert options
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [withOptions(ConvertOptions convertOptions)](#withOptions-com.groupdocs.conversion.options.convert.ConvertOptions-) | Set convert options |
-| [withOptions(ConvertOptionsProvider convertOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.ConvertOptionsProvider-) | Set convert options |
+| [withOptions(ConvertOptions convertOptions)](#withOptions-com.groupdocs.conversion.options.convert.ConvertOptions-) | Set convert options
+ |
+| [withOptions(ConvertOptionsProvider convertOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.ConvertOptionsProvider-) | Set convert options
+ |
 ### withOptions(ConvertOptions convertOptions) {#withOptions-com.groupdocs.conversion.options.convert.ConvertOptions-}
 ```
 public abstract IConversionByPageCompletedOrConvert withOptions(ConvertOptions convertOptions)
@@ -24,13 +27,16 @@ public abstract IConversionByPageCompletedOrConvert withOptions(ConvertOptions c
 
 Set convert options
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions | Convert options |
+| convertOptions | com.groupdocs.conversion.options.convert.ConvertOptions | Convert options
+ |
 
 **Returns:**
 [IConversionByPageCompletedOrConvert](../../com.groupdocs.conversion.fluent/iconversionbypagecompletedorconvert) - Interface to continue conversion building
+
 ### withOptions(ConvertOptionsProvider convertOptionsProvider) {#withOptions-com.groupdocs.conversion.contracts.ConvertOptionsProvider-}
 ```
 public abstract IConversionByPageCompletedOrConvert withOptions(ConvertOptionsProvider convertOptionsProvider)
@@ -39,10 +45,13 @@ public abstract IConversionByPageCompletedOrConvert withOptions(ConvertOptionsPr
 
 Set convert options
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| convertOptionsProvider | [ConvertOptionsProvider](../../com.groupdocs.conversion.contracts/convertoptionsprovider) | Convert options provider |
+| convertOptionsProvider | [ConvertOptionsProvider](../../com.groupdocs.conversion.contracts/convertoptionsprovider) | Convert options provider
+ |
 
 **Returns:**
 [IConversionByPageCompletedOrConvert](../../com.groupdocs.conversion.fluent/iconversionbypagecompletedorconvert) - Interface to continue conversion building
+

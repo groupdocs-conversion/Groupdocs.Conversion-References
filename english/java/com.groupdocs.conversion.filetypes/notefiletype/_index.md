@@ -12,20 +12,22 @@ java.lang.Object, [com.groupdocs.conversion.contracts.Enumeration](../../com.gro
 public final class NoteFileType extends FileType
 ```
 
-Defines Note-taking formats. Includes the following file types: [One](../../com.groupdocs.conversion.filetypes/notefiletype\#One). Learn more about Note-taking formats [here][].
+Defines Note-taking formats. Includes the following file types:
+[One](../../com.groupdocs.conversion.filetypes/notefiletype#One).
+Learn more about Note-taking formats [here](../https://wiki.fileformat.com/note-taking).
 
-
-[here]: https://wiki.fileformat.com/note-taking
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [NoteFileType()](#NoteFileType--) | Serialization constructor |
+| [NoteFileType()](#NoteFileType--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [One](#One) | File represented by .ONE extension are created by Microsoft OneNote application. |
+| [One](#One) | File represented by .ONE extension are created by Microsoft OneNote application.
+ |
 ## Methods
 
 | Method | Description |
@@ -39,16 +41,16 @@ public NoteFileType()
 
 Serialization constructor
 
+
 ### One {#One}
 ```
 public static final NoteFileType One
 ```
 
 
-File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. Learn more about this file format [here][].
+File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes.
+Learn more about this file format [here](../https://wiki.fileformat.com/note-taking/one).
 
-
-[here]: https://wiki.fileformat.com/note-taking/one
 
 ### getLoadOptions() {#getLoadOptions--}
 ```
@@ -57,6 +59,7 @@ public LoadOptions getLoadOptions()
 
 
 Prepared default load options for the source file type
+
 
 **Returns:**
 [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)

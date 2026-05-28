@@ -16,6 +16,7 @@ public abstract class LoadOptions extends ValueObject implements Serializable
 ```
 
 Abstract document load options class.
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,8 +26,10 @@ Abstract document load options class.
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Input document file type |
-| [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) | Input document file type |
+| [getFormat()](#getFormat--) | Input document file type
+ |
+| [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) | Input document file type
+ |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -41,6 +44,7 @@ public FileType getFormat()
 
 Input document file type
 
+
 **Returns:**
 [FileType](../../com.groupdocs.conversion.filetypes/filetype)
 ### setFormat(FileType value) {#setFormat-com.groupdocs.conversion.filetypes.FileType-}
@@ -50,6 +54,7 @@ public void setFormat(FileType value)
 
 
 Input document file type
+
 
 **Parameters:**
 | Parameter | Type | Description |

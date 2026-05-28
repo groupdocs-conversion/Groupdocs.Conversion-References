@@ -13,3 +13,4 @@ public interface DocumentStreamsProvider extends Supplier<InputStream[]>
 ```
 
 Supplier for InputStream array
+

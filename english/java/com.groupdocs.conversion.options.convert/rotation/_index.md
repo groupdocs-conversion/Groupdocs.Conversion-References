@@ -16,19 +16,25 @@ public class Rotation extends Enumeration implements Serializable
 ```
 
 Describes page rotation enumeration
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Rotation()](#Rotation--) | Serialization constructor |
+| [Rotation()](#Rotation--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | None. |
-| [On90](#On90) | 90 degrees. |
-| [On180](#On180) | 180 degrees. |
-| [On270](#On270) | 270 degrees. |
+| [None](#None) | None.
+ |
+| [On90](#On90) | 90 degrees.
+ |
+| [On180](#On180) | 180 degrees.
+ |
+| [On270](#On270) | 270 degrees.
+ |
 ### Rotation() {#Rotation--}
 ```
 public Rotation()
@@ -36,6 +42,7 @@ public Rotation()
 
 
 Serialization constructor
+
 
 ### None {#None}
 ```
@@ -45,6 +52,7 @@ public static final Rotation None
 
 None.
 
+
 ### On90 {#On90}
 ```
 public static final Rotation On90
@@ -52,6 +60,7 @@ public static final Rotation On90
 
 
 90 degrees.
+
 
 ### On180 {#On180}
 ```
@@ -61,6 +70,7 @@ public static final Rotation On180
 
 180 degrees.
 
+
 ### On270 {#On270}
 ```
 public static final Rotation On270
@@ -68,4 +78,5 @@ public static final Rotation On270
 
 
 270 degrees.
+
 

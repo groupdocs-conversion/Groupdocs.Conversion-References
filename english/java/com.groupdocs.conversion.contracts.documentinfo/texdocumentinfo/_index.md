@@ -13,6 +13,7 @@ public class TexDocumentInfo extends DocumentInfo
 ```
 
 Contains Tex document metadata
+
 ## Constructors
 
 | Constructor | Description |

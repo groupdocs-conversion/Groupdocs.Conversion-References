@@ -16,6 +16,7 @@ public final class RtfOptions extends ValueObject implements Serializable
 ```
 
 Options for conversion to RTF file type.
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,8 +26,10 @@ Options for conversion to RTF file type.
 
 | Method | Description |
 | --- | --- |
-| [getExportImagesForOldReaders()](#getExportImagesForOldReaders--) | Specifies whether the keywords for "old readers" are written to RTF or not. |
-| [setExportImagesForOldReaders(boolean value)](#setExportImagesForOldReaders-boolean-) | Specifies whether the keywords for "old readers" are written to RTF or not. |
+| [getExportImagesForOldReaders()](#getExportImagesForOldReaders--) | Specifies whether the keywords for "old readers" are written to RTF or not.
+ |
+| [setExportImagesForOldReaders(boolean value)](#setExportImagesForOldReaders-boolean-) | Specifies whether the keywords for "old readers" are written to RTF or not.
+ |
 ### RtfOptions() {#RtfOptions--}
 ```
 public RtfOptions()
@@ -39,7 +42,9 @@ public final boolean getExportImagesForOldReaders()
 ```
 
 
-Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default is False.
+Specifies whether the keywords for "old readers" are written to RTF or not.
+This can significantly affect the size of the RTF document. Default is False.
+
 
 **Returns:**
 boolean
@@ -49,7 +54,9 @@ public final void setExportImagesForOldReaders(boolean value)
 ```
 
 
-Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default is False.
+Specifies whether the keywords for "old readers" are written to RTF or not.
+This can significantly affect the size of the RTF document. Default is False.
+
 
 **Parameters:**
 | Parameter | Type | Description |

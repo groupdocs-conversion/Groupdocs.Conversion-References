@@ -13,6 +13,7 @@ public class AudioDocumentInfo extends DocumentInfo
 ```
 
 Contains Audio document metadata
+
 ## Constructors
 
 | Constructor | Description |

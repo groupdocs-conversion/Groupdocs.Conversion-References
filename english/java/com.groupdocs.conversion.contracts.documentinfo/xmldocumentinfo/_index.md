@@ -13,6 +13,7 @@ public class XmlDocumentInfo extends DocumentInfo
 ```
 
 Contains Xml document metadata
+
 ## Constructors
 
 | Constructor | Description |

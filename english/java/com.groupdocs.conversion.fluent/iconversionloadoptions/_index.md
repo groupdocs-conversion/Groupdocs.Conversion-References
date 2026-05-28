@@ -10,14 +10,19 @@ public interface IConversionLoadOptions
 ```
 
 Conversion load options
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [withOptions(LoadOptions loadOptions)](#withOptions-com.groupdocs.conversion.options.load.LoadOptions-) | Provide load options for the document currently being loading |
-| [withOptions(LoadOptionsProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsProvider-) | Provide load options for the document currently being loading |
-| [withOptions(LoadOptionsForFileTypeProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-) | Provide load options for the document currently being loading |
-| [withOptions(LoadOptionsForNameFileTypeStreamProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForNameFileTypeStreamProvider-) | Provide load options for the document currently being loading Load options provider The name of the loaded file The type of the loaded file The content of the loaded file |
+| [withOptions(LoadOptions loadOptions)](#withOptions-com.groupdocs.conversion.options.load.LoadOptions-) | Provide load options for the document currently being loading
+ |
+| [withOptions(LoadOptionsProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsProvider-) | Provide load options for the document currently being loading
+ |
+| [withOptions(LoadOptionsForFileTypeProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForFileTypeProvider-) | Provide load options for the document currently being loading
+ |
+| [withOptions(LoadOptionsForNameFileTypeStreamProvider loadOptionsProvider)](#withOptions-com.groupdocs.conversion.contracts.LoadOptionsForNameFileTypeStreamProvider-) | Provide load options for the document currently being loading Load options provider The name of the loaded file The type of the loaded file The content of the loaded file
+ |
 ### withOptions(LoadOptions loadOptions) {#withOptions-com.groupdocs.conversion.options.load.LoadOptions-}
 ```
 public abstract IConversionSourceDocumentLoaded withOptions(LoadOptions loadOptions)
@@ -26,10 +31,12 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptions loadOpti
 
 Provide load options for the document currently being loading
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) | Load options |
+| loadOptions | [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions) | Load options
+ |
 
 **Returns:**
 [IConversionSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded)
@@ -41,10 +48,12 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsProvider 
 
 Provide load options for the document currently being loading
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptionsProvider | [LoadOptionsProvider](../../com.groupdocs.conversion.contracts/loadoptionsprovider) | Load options provider |
+| loadOptionsProvider | [LoadOptionsProvider](../../com.groupdocs.conversion.contracts/loadoptionsprovider) | Load options provider
+ |
 
 **Returns:**
 [IConversionSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded)
@@ -56,10 +65,12 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsForFileTy
 
 Provide load options for the document currently being loading
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptionsProvider | [LoadOptionsForFileTypeProvider](../../com.groupdocs.conversion.contracts/loadoptionsforfiletypeprovider) | Load options provider |
+| loadOptionsProvider | [LoadOptionsForFileTypeProvider](../../com.groupdocs.conversion.contracts/loadoptionsforfiletypeprovider) | Load options provider
+ |
 
 **Returns:**
 [IConversionSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionsourcedocumentloaded)
@@ -70,6 +81,7 @@ public abstract IConversionSourceDocumentLoaded withOptions(LoadOptionsForNameFi
 
 
 Provide load options for the document currently being loading Load options provider The name of the loaded file The type of the loaded file The content of the loaded file
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -16,19 +16,25 @@ public class ImageFlipModes extends Enumeration implements Serializable
 ```
 
 Describes image flip modes.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ImageFlipModes()](#ImageFlipModes--) | Serialization constructor |
+| [ImageFlipModes()](#ImageFlipModes--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | No flipping. |
-| [FlipX](#FlipX) | Horizontal flip. |
-| [FlipY](#FlipY) | Flip vertical. |
-| [FlipXY](#FlipXY) | Flip horizontal and vertical. |
+| [None](#None) | No flipping.
+ |
+| [FlipX](#FlipX) | Horizontal flip.
+ |
+| [FlipY](#FlipY) | Flip vertical.
+ |
+| [FlipXY](#FlipXY) | Flip horizontal and vertical.
+ |
 ### ImageFlipModes() {#ImageFlipModes--}
 ```
 public ImageFlipModes()
@@ -36,6 +42,7 @@ public ImageFlipModes()
 
 
 Serialization constructor
+
 
 ### None {#None}
 ```
@@ -45,6 +52,7 @@ public static final ImageFlipModes None
 
 No flipping.
 
+
 ### FlipX {#FlipX}
 ```
 public static final ImageFlipModes FlipX
@@ -52,6 +60,7 @@ public static final ImageFlipModes FlipX
 
 
 Horizontal flip.
+
 
 ### FlipY {#FlipY}
 ```
@@ -61,6 +70,7 @@ public static final ImageFlipModes FlipY
 
 Flip vertical.
 
+
 ### FlipXY {#FlipXY}
 ```
 public static final ImageFlipModes FlipXY
@@ -68,4 +78,5 @@ public static final ImageFlipModes FlipXY
 
 
 Flip horizontal and vertical.
+
 

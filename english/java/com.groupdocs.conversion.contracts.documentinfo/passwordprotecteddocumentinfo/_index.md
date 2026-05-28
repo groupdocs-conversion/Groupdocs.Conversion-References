@@ -13,6 +13,7 @@ public class PasswordProtectedDocumentInfo extends DocumentInfo
 ```
 
 Provided document is password protected
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Provided document is password protected
 
 | Method | Description |
 | --- | --- |
-| [isPasswordProtected()](#isPasswordProtected--) | Gets is document password protected |
+| [isPasswordProtected()](#isPasswordProtected--) | Gets is document password protected
+ |
 ### PasswordProtectedDocumentInfo(FileType format, long size) {#PasswordProtectedDocumentInfo-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public PasswordProtectedDocumentInfo(FileType format, long size)
@@ -42,6 +44,7 @@ public boolean isPasswordProtected()
 
 
 Gets is document password protected
+
 
 **Returns:**
 boolean

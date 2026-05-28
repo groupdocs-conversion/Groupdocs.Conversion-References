@@ -16,20 +16,27 @@ public class JpgColorModes extends Enumeration implements Serializable
 ```
 
 Describes Jpg color modes enumeration.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [JpgColorModes()](#JpgColorModes--) | Serialization constructor |
+| [JpgColorModes()](#JpgColorModes--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [YCbCr](#YCbCr) | YCbCr image. |
-| [Rgb](#Rgb) | RGB. |
-| [Cmyk](#Cmyk) | CMYK. |
-| [Ycck](#Ycck) | Ycck. |
-| [Grayscale](#Grayscale) | Grayscale. |
+| [YCbCr](#YCbCr) | YCbCr image.
+ |
+| [Rgb](#Rgb) | RGB.
+ |
+| [Cmyk](#Cmyk) | CMYK.
+ |
+| [Ycck](#Ycck) | Ycck.
+ |
+| [Grayscale](#Grayscale) | Grayscale.
+ |
 ### JpgColorModes() {#JpgColorModes--}
 ```
 public JpgColorModes()
@@ -37,6 +44,7 @@ public JpgColorModes()
 
 
 Serialization constructor
+
 
 ### YCbCr {#YCbCr}
 ```
@@ -46,6 +54,7 @@ public static final JpgColorModes YCbCr
 
 YCbCr image. Standard option for jpeg images.
 
+
 ### Rgb {#Rgb}
 ```
 public static final JpgColorModes Rgb
@@ -53,6 +62,7 @@ public static final JpgColorModes Rgb
 
 
 RGB.
+
 
 ### Cmyk {#Cmyk}
 ```
@@ -62,6 +72,7 @@ public static final JpgColorModes Cmyk
 
 CMYK.
 
+
 ### Ycck {#Ycck}
 ```
 public static final JpgColorModes Ycck
@@ -70,6 +81,7 @@ public static final JpgColorModes Ycck
 
 Ycck.
 
+
 ### Grayscale {#Grayscale}
 ```
 public static final JpgColorModes Grayscale
@@ -77,4 +89,5 @@ public static final JpgColorModes Grayscale
 
 
 Grayscale.
+
 

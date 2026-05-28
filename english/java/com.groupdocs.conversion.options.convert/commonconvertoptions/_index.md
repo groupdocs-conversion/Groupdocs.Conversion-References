@@ -16,6 +16,7 @@ public abstract class CommonConvertOptions<TFileType> extends ConvertOptions<TFi
 ```
 
 abstract generic common conversion options class.
+
 ## Methods
 
 | Method | Description |
@@ -36,6 +37,7 @@ public WatermarkOptions getWatermark()
 
 Gets watermark specific options
 
+
 **Returns:**
 [WatermarkOptions](../../com.groupdocs.conversion.options.convert/watermarkoptions)
 ### setWatermark(WatermarkOptions watermark) {#setWatermark-com.groupdocs.conversion.options.convert.WatermarkOptions-}
@@ -45,6 +47,7 @@ public void setWatermark(WatermarkOptions watermark)
 
 
 Sets watermark specific options
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -59,6 +62,7 @@ public Integer getPageNumber()
 
 Gets the page number to start conversion from.
 
+
 **Returns:**
 java.lang.Integer
 ### setPageNumber(int pageNumber) {#setPageNumber-int-}
@@ -68,6 +72,7 @@ public void setPageNumber(int pageNumber)
 
 
 Sets the page number to start conversion from.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -82,6 +87,7 @@ public Integer getPagesCount()
 
 Gets number of pages to convert starting from PageNumber.
 
+
 **Returns:**
 java.lang.Integer
 ### setPagesCount(int pagesCount) {#setPagesCount-int-}
@@ -91,6 +97,7 @@ public void setPagesCount(int pagesCount)
 
 
 Sets number of pages to convert starting from PageNumber.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -105,6 +112,7 @@ public List<Integer> getPages()
 
 Gets The list of page indexes to be converted. Should be specified to convert specific pages.
 
+
 **Returns:**
 java.util.List<java.lang.Integer>
 ### setPages(List<Integer> pages) {#setPages-java.util.List-java.lang.Integer--}
@@ -114,6 +122,7 @@ public void setPages(List<Integer> pages)
 
 
 Sets the list of page indexes to be converted. Should be specified to convert specific pages.
+
 
 **Parameters:**
 | Parameter | Type | Description |

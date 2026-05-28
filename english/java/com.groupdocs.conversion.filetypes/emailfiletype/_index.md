@@ -15,27 +15,43 @@ java.io.Serializable
 public final class EmailFileType extends FileType implements Serializable
 ```
 
-Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc. Includes the following file types: [Eml](../../com.groupdocs.conversion.filetypes/emailfiletype\#Eml), [Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype\#Emlx), [Msg](../../com.groupdocs.conversion.filetypes/emailfiletype\#Msg), [Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype\#Vcf). [Pst](../../com.groupdocs.conversion.filetypes/emailfiletype\#Pst). [Ost](../../com.groupdocs.conversion.filetypes/emailfiletype\#Ost). [Olm](../../com.groupdocs.conversion.filetypes/emailfiletype\#Olm). Learn more about Email formats [here][].
+Defines Email file formats that are used by email applications to store their various data including email messages, attachments, folders, address books etc.
+Includes the following file types:
+[Eml](../../com.groupdocs.conversion.filetypes/emailfiletype#Eml),
+[Emlx](../../com.groupdocs.conversion.filetypes/emailfiletype#Emlx),
+[Msg](../../com.groupdocs.conversion.filetypes/emailfiletype#Msg),
+[Vcf](../../com.groupdocs.conversion.filetypes/emailfiletype#Vcf).
+[Pst](../../com.groupdocs.conversion.filetypes/emailfiletype#Pst).
+[Ost](../../com.groupdocs.conversion.filetypes/emailfiletype#Ost).
+[Olm](../../com.groupdocs.conversion.filetypes/emailfiletype#Olm).
+Learn more about Email formats [here](../https://wiki.fileformat.com/email).
 
-
-[here]: https://wiki.fileformat.com/email
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmailFileType()](#EmailFileType--) | Serialization constructor |
+| [EmailFileType()](#EmailFileType--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Msg](#Msg) | MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. |
-| [Eml](#Eml) | EML file format represents email messages saved using Outlook and other relevant applications. |
-| [Emlx](#Emlx) | The EMLX file format is implemented and developed by Apple. |
-| [Vcf](#Vcf) | VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. |
-| [Mbox](#Mbox) | MBox file format is a generic term that represents a container for collection of electronic mail messages. |
-| [Pst](#Pst) | Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. |
-| [Ost](#Ost) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. |
-| [Olm](#Olm) | A file with .olm extension is a Microsoft Outlook file for Mac Operating System. |
+| [Msg](#Msg) | MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks.
+ |
+| [Eml](#Eml) | EML file format represents email messages saved using Outlook and other relevant applications.
+ |
+| [Emlx](#Emlx) | The EMLX file format is implemented and developed by Apple.
+ |
+| [Vcf](#Vcf) | VCF (Virtual Card Format) or vCard is a digital file format for storing contact information.
+ |
+| [Mbox](#Mbox) | MBox file format is a generic term that represents a container for collection of electronic mail messages.
+ |
+| [Pst](#Pst) | Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information.
+ |
+| [Ost](#Ost) | OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook.
+ |
+| [Olm](#Olm) | A file with .olm extension is a Microsoft Outlook file for Mac Operating System.
+ |
 ## Methods
 
 | Method | Description |
@@ -50,16 +66,16 @@ public EmailFileType()
 
 Serialization constructor
 
+
 ### Msg {#Msg}
 ```
 public static final EmailFileType Msg
 ```
 
 
-MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Learn more about this file format [here][].
+MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks.
+Learn more about this file format [here](../https://wiki.fileformat.com/email/msg).
 
-
-[here]: https://wiki.fileformat.com/email/msg
 
 ### Eml {#Eml}
 ```
@@ -67,10 +83,9 @@ public static final EmailFileType Eml
 ```
 
 
-EML file format represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Learn more about this file format [here][].
+EML file format represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard.
+Learn more about this file format [here](../https://wiki.fileformat.com/email/eml).
 
-
-[here]: https://wiki.fileformat.com/email/eml
 
 ### Emlx {#Emlx}
 ```
@@ -78,10 +93,9 @@ public static final EmailFileType Emlx
 ```
 
 
-The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format [here][].
+The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails.
+Learn more about this file format [here](../https://wiki.fileformat.com/email/emlx).
 
-
-[here]: https://wiki.fileformat.com/email/emlx
 
 ### Vcf {#Vcf}
 ```
@@ -89,10 +103,9 @@ public static final EmailFileType Vcf
 ```
 
 
-VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications. Learn more about this file format [here][].
+VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications.
+Learn more about this file format [here](../https://wiki.fileformat.com/email/vcf).
 
-
-[here]: https://wiki.fileformat.com/email/vcf
 
 ### Mbox {#Mbox}
 ```
@@ -100,10 +113,9 @@ public static final EmailFileType Mbox
 ```
 
 
-MBox file format is a generic term that represents a container for collection of electronic mail messages. The messages are stored inside the container along with their attachments. Learn more about this file format [here][].
+MBox file format is a generic term that represents a container for collection of electronic mail messages. The messages are stored inside the container along with their attachments.
+Learn more about this file format [here](../https://docs.fileformat.com/email/mbox/).
 
-
-[here]: https://docs.fileformat.com/email/mbox/
 
 ### Pst {#Pst}
 ```
@@ -111,10 +123,8 @@ public static final EmailFileType Pst
 ```
 
 
-Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here][].
+Files with .PST extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here](../https://wiki.fileformat.com/email/pst).
 
-
-[here]: https://wiki.fileformat.com/email/pst
 
 ### Ost {#Ost}
 ```
@@ -122,10 +132,8 @@ public static final EmailFileType Ost
 ```
 
 
-OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here][].
+OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here](../https://wiki.fileformat.com/email/ost).
 
-
-[here]: https://wiki.fileformat.com/email/ost
 
 ### Olm {#Olm}
 ```
@@ -133,10 +141,8 @@ public static final EmailFileType Olm
 ```
 
 
-A file with .olm extension is a Microsoft Outlook file for Mac Operating System. An OLM file stores email messages, journals, calendar data, and other types of application data. These are similar to PST files used by Outlook on Windows Operating System. However, OLM files created by Outlook for Mac can\\u2019t be opened in Outlook for Windows. Learn more about this file format [here][].
+A file with .olm extension is a Microsoft Outlook file for Mac Operating System. An OLM file stores email messages, journals, calendar data, and other types of application data. These are similar to PST files used by Outlook on Windows Operating System. However, OLM files created by Outlook for Mac can\\u2019t be opened in Outlook for Windows. Learn more about this file format [here](../https://wiki.fileformat.com/email/olm).
 
-
-[here]: https://wiki.fileformat.com/email/olm
 
 ### getLoadOptions() {#getLoadOptions--}
 ```
@@ -145,6 +151,7 @@ public LoadOptions getLoadOptions()
 
 
 Prepared default load options for the source file type
+
 
 **Returns:**
 [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
@@ -155,6 +162,7 @@ public ConvertOptions getConvertOptions()
 
 
 Prepared default convert options for the file type
+
 
 **Returns:**
 [ConvertOptions](../../com.groupdocs.conversion.options.convert/convertoptions)

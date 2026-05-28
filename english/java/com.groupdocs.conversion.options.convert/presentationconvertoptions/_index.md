@@ -16,19 +16,25 @@ public class PresentationConvertOptions extends CommonConvertOptions<Presentatio
 ```
 
 Describes options for conversion to Presentation file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationConvertOptions()](#PresentationConvertOptions--) | Initializes new instance of [PresentationConvertOptions](../../com.groupdocs.conversion.options.convert/presentationconvertoptions) class. |
+| [PresentationConvertOptions()](#PresentationConvertOptions--) | Initializes new instance of [PresentationConvertOptions](../../com.groupdocs.conversion.options.convert/presentationconvertoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password. |
-| [getZoom()](#getZoom--) | Specifies the zoom level in percentage. |
-| [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage. |
+| [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password.
+ |
+| [getZoom()](#getZoom--) | Specifies the zoom level in percentage.
+ |
+| [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage.
+ |
 ### PresentationConvertOptions() {#PresentationConvertOptions--}
 ```
 public PresentationConvertOptions()
@@ -37,6 +43,7 @@ public PresentationConvertOptions()
 
 Initializes new instance of [PresentationConvertOptions](../../com.groupdocs.conversion.options.convert/presentationconvertoptions) class.
 
+
 ### getPassword() {#getPassword--}
 ```
 public final String getPassword()
@@ -44,6 +51,7 @@ public final String getPassword()
 
 
 Set this property if you want to protect the converted document with a password.
+
 
 **Returns:**
 java.lang.String
@@ -54,6 +62,7 @@ public final void setPassword(String value)
 
 
 Set this property if you want to protect the converted document with a password.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -66,7 +75,9 @@ public final int getZoom()
 ```
 
 
-Specifies the zoom level in percentage. Default is 100. Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+Specifies the zoom level in percentage. Default is 100.
+Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+
 
 **Returns:**
 int
@@ -76,7 +87,9 @@ public final void setZoom(int value)
 ```
 
 
-Specifies the zoom level in percentage. Default is 100. Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+Specifies the zoom level in percentage. Default is 100.
+Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+
 
 **Parameters:**
 | Parameter | Type | Description |

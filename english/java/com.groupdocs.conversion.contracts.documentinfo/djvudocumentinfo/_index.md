@@ -13,6 +13,7 @@ public class DjVuDocumentInfo extends ImageDocumentInfo
 ```
 
 Contains DjVu document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Contains DjVu document metadata
 
 | Method | Description |
 | --- | --- |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets vertical resolution |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Get horizontal resolution |
-| [getOpacity()](#getOpacity--) | Gets image opacity |
+| [getVerticalResolution()](#getVerticalResolution--) | Gets vertical resolution
+ |
+| [getHorizontalResolution()](#getHorizontalResolution--) | Get horizontal resolution
+ |
+| [getOpacity()](#getOpacity--) | Gets image opacity
+ |
 ### DjVuDocumentInfo(DjvuImage image, FileType format, long size) {#DjVuDocumentInfo-com.aspose.imaging.fileformats.djvu.DjvuImage-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public DjVuDocumentInfo(DjvuImage image, FileType format, long size)
@@ -46,8 +50,10 @@ public double getVerticalResolution()
 
 Gets vertical resolution
 
+
 **Returns:**
 double - vertical resolution
+
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
@@ -56,8 +62,10 @@ public double getHorizontalResolution()
 
 Get horizontal resolution
 
+
 **Returns:**
 double - horizontal resolution
+
 ### getOpacity() {#getOpacity--}
 ```
 public float getOpacity()
@@ -66,5 +74,7 @@ public float getOpacity()
 
 Gets image opacity
 
+
 **Returns:**
 float - image opacity
+

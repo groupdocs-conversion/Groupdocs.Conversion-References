@@ -16,28 +16,42 @@ public final class CsvLoadOptions extends SpreadsheetLoadOptions implements Seri
 ```
 
 Options for loading Csv documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CsvLoadOptions()](#CsvLoadOptions--) | Initializes new instance of [CsvLoadOptions](../../com.groupdocs.conversion.options.load/csvloadoptions) class. |
+| [CsvLoadOptions()](#CsvLoadOptions--) | Initializes new instance of [CsvLoadOptions](../../com.groupdocs.conversion.options.load/csvloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSeparator()](#getSeparator--) | Delimiter of a Csv file. |
-| [setSeparator(char value)](#setSeparator-char-) | Delimiter of a Csv file. |
-| [isMultiEncoded()](#isMultiEncoded--) | True means the file contains several encodings. |
-| [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means the file contains several encodings. |
-| [hasFormula()](#hasFormula--) | Indicates whether text is formula if it starts with "=". |
-| [setFormula(boolean value)](#setFormula-boolean-) | Indicates whether text is formula if it starts with "=". |
-| [getConvertNumericData()](#getConvertNumericData--) | Indicates whether the string in the file is converted to numeric. |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Indicates whether the string in the file is converted to numeric. |
-| [getConvertDateTimeData()](#getConvertDateTimeData--) | Indicates whether the string in the file is converted to date. |
-| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Indicates whether the string in the file is converted to date. |
-| [getEncoding()](#getEncoding--) | Encoding. |
+| [getSeparator()](#getSeparator--) | Delimiter of a Csv file.
+ |
+| [setSeparator(char value)](#setSeparator-char-) | Delimiter of a Csv file.
+ |
+| [isMultiEncoded()](#isMultiEncoded--) | True means the file contains several encodings.
+ |
+| [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means the file contains several encodings.
+ |
+| [hasFormula()](#hasFormula--) | Indicates whether text is formula if it starts with "=".
+ |
+| [setFormula(boolean value)](#setFormula-boolean-) | Indicates whether text is formula if it starts with "=".
+ |
+| [getConvertNumericData()](#getConvertNumericData--) | Indicates whether the string in the file is converted to numeric.
+ |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Indicates whether the string in the file is converted to numeric.
+ |
+| [getConvertDateTimeData()](#getConvertDateTimeData--) | Indicates whether the string in the file is converted to date.
+ |
+| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Indicates whether the string in the file is converted to date.
+ |
+| [getEncoding()](#getEncoding--) | Encoding.
+ |
 | [getEncodingInternal()](#getEncodingInternal--) |  |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Encoding. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Encoding.
+ |
 | [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 ### CsvLoadOptions() {#CsvLoadOptions--}
 ```
@@ -47,6 +61,7 @@ public CsvLoadOptions()
 
 Initializes new instance of [CsvLoadOptions](../../com.groupdocs.conversion.options.load/csvloadoptions) class.
 
+
 ### getSeparator() {#getSeparator--}
 ```
 public final char getSeparator()
@@ -54,6 +69,7 @@ public final char getSeparator()
 
 
 Delimiter of a Csv file.
+
 
 **Returns:**
 char
@@ -64,6 +80,7 @@ public final void setSeparator(char value)
 
 
 Delimiter of a Csv file.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -78,6 +95,7 @@ public final boolean isMultiEncoded()
 
 True means the file contains several encodings.
 
+
 **Returns:**
 boolean
 ### setMultiEncoded(boolean value) {#setMultiEncoded-boolean-}
@@ -87,6 +105,7 @@ public final void setMultiEncoded(boolean value)
 
 
 True means the file contains several encodings.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -101,6 +120,7 @@ public final boolean hasFormula()
 
 Indicates whether text is formula if it starts with "=".
 
+
 **Returns:**
 boolean
 ### setFormula(boolean value) {#setFormula-boolean-}
@@ -110,6 +130,7 @@ public final void setFormula(boolean value)
 
 
 Indicates whether text is formula if it starts with "=".
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -124,6 +145,7 @@ public final boolean getConvertNumericData()
 
 Indicates whether the string in the file is converted to numeric. Default is True.
 
+
 **Returns:**
 boolean
 ### setConvertNumericData(boolean value) {#setConvertNumericData-boolean-}
@@ -133,6 +155,7 @@ public final void setConvertNumericData(boolean value)
 
 
 Indicates whether the string in the file is converted to numeric. Default is True.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,6 +170,7 @@ public final boolean getConvertDateTimeData()
 
 Indicates whether the string in the file is converted to date. Default is True.
 
+
 **Returns:**
 boolean
 ### setConvertDateTimeData(boolean value) {#setConvertDateTimeData-boolean-}
@@ -156,6 +180,7 @@ public final void setConvertDateTimeData(boolean value)
 
 
 Indicates whether the string in the file is converted to date. Default is True.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,6 +194,7 @@ public final Charset getEncoding()
 
 
 Encoding. Default is Encoding.Default.
+
 
 **Returns:**
 java.nio.charset.Charset
@@ -189,6 +215,7 @@ public final void setEncoding(Charset value)
 
 
 Encoding. Default is Encoding.Default.
+
 
 **Parameters:**
 | Parameter | Type | Description |

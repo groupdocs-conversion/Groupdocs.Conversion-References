@@ -13,6 +13,7 @@ public class XslFoDocumentInfo extends PdfDocumentInfo
 ```
 
 Contains XslFo document metadata
+
 ## Constructors
 
 | Constructor | Description |

@@ -16,30 +16,41 @@ public class WebLoadOptions extends LoadOptions implements Serializable, IResour
 ```
 
 Options for loading web documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WebLoadOptions()](#WebLoadOptions--) | Initializes new instance of  class. |
+| [WebLoadOptions()](#WebLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Gets Input document file type. |
-| [setFormat(WebFileType format)](#setFormat-com.groupdocs.conversion.filetypes.WebFileType-) | Sets Input document file type. |
+| [getFormat()](#getFormat--) | Gets Input document file type.
+ |
+| [setFormat(WebFileType format)](#setFormat-com.groupdocs.conversion.filetypes.WebFileType-) | Sets Input document file type.
+ |
 | [isPageNumbering()](#isPageNumbering--) |  |
 | [setPageNumbering(boolean pageNumbering)](#setPageNumbering-boolean-) |  |
 | [getBasePath()](#getBasePath--) |  |
 | [setBasePath(String basePath)](#setBasePath-java.lang.String-) |  |
 | [getEncoding()](#getEncoding--) |  |
 | [setEncoding(String encoding)](#setEncoding-java.lang.String-) |  |
-| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets timeout for loading external resources in milliseconds |
-| [setResourceLoadingTimeout(long resourceLoadingTimeout)](#setResourceLoadingTimeout-long-) | Sets timeout for loading external resources in milliseconds |
-| [getSkipExternalResources()](#getSkipExternalResources--) | \{@inheritDoc\} |
-| [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
-| [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
-| [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
-| [isUsePdf()](#isUsePdf--) | Use pdf for the conversion. |
+| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets timeout for loading external resources in milliseconds
+ |
+| [setResourceLoadingTimeout(long resourceLoadingTimeout)](#setResourceLoadingTimeout-long-) | Sets timeout for loading external resources in milliseconds
+ |
+| [getSkipExternalResources()](#getSkipExternalResources--) | {@inheritDoc}
+ |
+| [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | {@inheritDoc}
+ |
+| [getWhitelistedResources()](#getWhitelistedResources--) | {@inheritDoc}
+ |
+| [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | {@inheritDoc}
+ |
+| [isUsePdf()](#isUsePdf--) | Use pdf for the conversion.
+ |
 | [setUsePdf(boolean usePdf)](#setUsePdf-boolean-) |  |
 ### WebLoadOptions() {#WebLoadOptions--}
 ```
@@ -47,7 +58,8 @@ public WebLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getFormat() {#getFormat--}
 ```
@@ -56,6 +68,7 @@ public WebFileType getFormat()
 
 
 Gets Input document file type.
+
 
 **Returns:**
 [WebFileType](../../com.groupdocs.conversion.filetypes/webfiletype)
@@ -66,6 +79,7 @@ public void setFormat(WebFileType format)
 
 
 Sets Input document file type.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -79,6 +93,7 @@ public boolean isPageNumbering()
 
 
 Enable or disable generation of page numbering in converted document. Default: false
+
 
 **Returns:**
 boolean
@@ -149,6 +164,7 @@ public long getResourceLoadingTimeout()
 
 Gets timeout for loading external resources in milliseconds
 
+
 **Returns:**
 long
 ### setResourceLoadingTimeout(long resourceLoadingTimeout) {#setResourceLoadingTimeout-long-}
@@ -158,6 +174,7 @@ public void setResourceLoadingTimeout(long resourceLoadingTimeout)
 
 
 Sets timeout for loading external resources in milliseconds
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,6 +188,7 @@ public boolean getSkipExternalResources()
 
 
 If true all external resource will not be loading with exception of the resources in the
+
 
 **Returns:**
 boolean
@@ -195,6 +213,7 @@ public List<String> getWhitelistedResources()
 
 External resources that will be always loaded
 
+
 **Returns:**
 java.util.List<java.lang.String>
 ### setWhitelistedResources(List<String> whiteList) {#setWhitelistedResources-java.util.List-java.lang.String--}
@@ -217,6 +236,7 @@ public boolean isUsePdf()
 
 
 Use pdf for the conversion. Default: false
+
 
 **Returns:**
 boolean

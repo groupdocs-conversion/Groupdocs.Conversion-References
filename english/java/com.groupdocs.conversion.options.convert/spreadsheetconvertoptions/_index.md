@@ -16,20 +16,27 @@ public class SpreadsheetConvertOptions extends CommonConvertOptions<SpreadsheetF
 ```
 
 Options for conversion to Spreadsheet file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SpreadsheetConvertOptions()](#SpreadsheetConvertOptions--) | Initializes new instance of [SpreadsheetConvertOptions](../../com.groupdocs.conversion.options.convert/spreadsheetconvertoptions) class. |
+| [SpreadsheetConvertOptions()](#SpreadsheetConvertOptions--) | Initializes new instance of [SpreadsheetConvertOptions](../../com.groupdocs.conversion.options.convert/spreadsheetconvertoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password. |
-| [getZoom()](#getZoom--) | Specifies the zoom level in percentage. |
-| [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage. |
-| [getSeparator()](#getSeparator--) | Specifies the separator to be used when convert to a delimited formats |
+| [getPassword()](#getPassword--) | Set this property if you want to protect the converted document with a password.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set this property if you want to protect the converted document with a password.
+ |
+| [getZoom()](#getZoom--) | Specifies the zoom level in percentage.
+ |
+| [setZoom(int value)](#setZoom-int-) | Specifies the zoom level in percentage.
+ |
+| [getSeparator()](#getSeparator--) | Specifies the separator to be used when convert to a delimited formats
+ |
 | [setSeparator(char separator)](#setSeparator-char-) |  |
 | [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) |  |
 ### SpreadsheetConvertOptions() {#SpreadsheetConvertOptions--}
@@ -40,6 +47,7 @@ public SpreadsheetConvertOptions()
 
 Initializes new instance of [SpreadsheetConvertOptions](../../com.groupdocs.conversion.options.convert/spreadsheetconvertoptions) class.
 
+
 ### getPassword() {#getPassword--}
 ```
 public final String getPassword()
@@ -47,6 +55,7 @@ public final String getPassword()
 
 
 Set this property if you want to protect the converted document with a password.
+
 
 **Returns:**
 java.lang.String
@@ -57,6 +66,7 @@ public final void setPassword(String value)
 
 
 Set this property if you want to protect the converted document with a password.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -71,6 +81,7 @@ public final int getZoom()
 
 Specifies the zoom level in percentage. Default is 100.
 
+
 **Returns:**
 int
 ### setZoom(int value) {#setZoom-int-}
@@ -80,6 +91,7 @@ public final void setZoom(int value)
 
 
 Specifies the zoom level in percentage. Default is 100.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -93,6 +105,7 @@ public char getSeparator()
 
 
 Specifies the separator to be used when convert to a delimited formats
+
 
 **Returns:**
 char
@@ -116,6 +129,7 @@ public void setFormat(FileType value)
 
 
 The desired file type the input document should be converted to.
+
 
 **Parameters:**
 | Parameter | Type | Description |
