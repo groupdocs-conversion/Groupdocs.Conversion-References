@@ -16,34 +16,52 @@ public final class PdfLoadOptions extends LoadOptions implements Serializable, I
 ```
 
 Options for loading Pdf documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfLoadOptions()](#PdfLoadOptions--) | Initializes new instance of [PdfLoadOptions](../../com.groupdocs.conversion.options.load/pdfloadoptions) class. |
+| [PdfLoadOptions()](#PdfLoadOptions--) | Initializes new instance of [PdfLoadOptions](../../com.groupdocs.conversion.options.load/pdfloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getRemoveEmbeddedFiles()](#getRemoveEmbeddedFiles--) | Remove embedded files. |
-| [setRemoveEmbeddedFiles(boolean value)](#setRemoveEmbeddedFiles-boolean-) | Remove embedded files. |
-| [getPassword()](#getPassword--) | Set password to unprotect protected document. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
-| [getDefaultFont()](#getDefaultFont--) | Default font for Pdf document. |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Pdf document. |
-| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Pdf document. |
-| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Pdf document. |
-| [getHidePdfAnnotations()](#getHidePdfAnnotations--) | Hide annotations in Pdf documents. |
-| [setHidePdfAnnotations(boolean value)](#setHidePdfAnnotations-boolean-) | Hide annotations in Pdf documents. |
-| [getFlattenAllFields()](#getFlattenAllFields--) | Flatten all the fields of the PDF form. |
-| [setFlattenAllFields(boolean value)](#setFlattenAllFields-boolean-) | Flatten all the fields of the PDF form. |
-| [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document |
+| [getRemoveEmbeddedFiles()](#getRemoveEmbeddedFiles--) | Remove embedded files.
+ |
+| [setRemoveEmbeddedFiles(boolean value)](#setRemoveEmbeddedFiles-boolean-) | Remove embedded files.
+ |
+| [getPassword()](#getPassword--) | Set password to unprotect protected document.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document.
+ |
+| [getDefaultFont()](#getDefaultFont--) | Default font for Pdf document.
+ |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Pdf document.
+ |
+| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Pdf document.
+ |
+| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Pdf document.
+ |
+| [getHidePdfAnnotations()](#getHidePdfAnnotations--) | Hide annotations in Pdf documents.
+ |
+| [setHidePdfAnnotations(boolean value)](#setHidePdfAnnotations-boolean-) | Hide annotations in Pdf documents.
+ |
+| [getFlattenAllFields()](#getFlattenAllFields--) | Flatten all the fields of the PDF form.
+ |
+| [setFlattenAllFields(boolean value)](#setFlattenAllFields-boolean-) | Flatten all the fields of the PDF form.
+ |
+| [getResetFontFolders()](#getResetFontFolders--) | Reset font folders before loading document
+ |
 | [setResetFontFolders(boolean resetFontFolders)](#setResetFontFolders-boolean-) |  |
-| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
+| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document.
+ |
 | [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
-| [isRemoveJavascript()](#isRemoveJavascript--) | Gets the Remove JavaScript flag |
-| [setRemoveJavascript(boolean removeJavascript)](#setRemoveJavascript-boolean-) | Sets the Remove JavaScript flag |
+| [isRemoveJavascript()](#isRemoveJavascript--) | Gets the Remove JavaScript flag
+ |
+| [setRemoveJavascript(boolean removeJavascript)](#setRemoveJavascript-boolean-) | Sets the Remove JavaScript flag
+ |
 ### PdfLoadOptions() {#PdfLoadOptions--}
 ```
 public PdfLoadOptions()
@@ -52,6 +70,7 @@ public PdfLoadOptions()
 
 Initializes new instance of [PdfLoadOptions](../../com.groupdocs.conversion.options.load/pdfloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final PdfFileType getFormat()
@@ -59,6 +78,7 @@ public final PdfFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [PdfFileType](../../com.groupdocs.conversion.filetypes/pdffiletype)
@@ -70,6 +90,7 @@ public final boolean getRemoveEmbeddedFiles()
 
 Remove embedded files.
 
+
 **Returns:**
 boolean
 ### setRemoveEmbeddedFiles(boolean value) {#setRemoveEmbeddedFiles-boolean-}
@@ -79,6 +100,7 @@ public final void setRemoveEmbeddedFiles(boolean value)
 
 
 Remove embedded files.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -93,6 +115,7 @@ public final String getPassword()
 
 Set password to unprotect protected document.
 
+
 **Returns:**
 java.lang.String
 ### setPassword(String value) {#setPassword-java.lang.String-}
@@ -102,6 +125,7 @@ public final void setPassword(String value)
 
 
 Set password to unprotect protected document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -116,6 +140,7 @@ public final String getDefaultFont()
 
 Default font for Pdf document. The following font will be used if a font is missing.
 
+
 **Returns:**
 java.lang.String
 ### setDefaultFont(String value) {#setDefaultFont-java.lang.String-}
@@ -125,6 +150,7 @@ public final void setDefaultFont(String value)
 
 
 Default font for Pdf document. The following font will be used if a font is missing.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -139,6 +165,7 @@ public final List<FontSubstitute> getFontSubstitutes()
 
 Substitute specific fonts when converting Pdf document.
 
+
 **Returns:**
 java.util.List<com.groupdocs.conversion.contracts.FontSubstitute>
 ### setFontSubstitutes(List<FontSubstitute> value) {#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--}
@@ -148,6 +175,7 @@ public final void setFontSubstitutes(List<FontSubstitute> value)
 
 
 Substitute specific fonts when converting Pdf document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -162,6 +190,7 @@ public final boolean getHidePdfAnnotations()
 
 Hide annotations in Pdf documents.
 
+
 **Returns:**
 boolean
 ### setHidePdfAnnotations(boolean value) {#setHidePdfAnnotations-boolean-}
@@ -171,6 +200,7 @@ public final void setHidePdfAnnotations(boolean value)
 
 
 Hide annotations in Pdf documents.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -185,6 +215,7 @@ public final boolean getFlattenAllFields()
 
 Flatten all the fields of the PDF form.
 
+
 **Returns:**
 boolean
 ### setFlattenAllFields(boolean value) {#setFlattenAllFields-boolean-}
@@ -194,6 +225,7 @@ public final void setFlattenAllFields(boolean value)
 
 
 Flatten all the fields of the PDF form.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -207,6 +239,7 @@ public boolean getResetFontFolders()
 
 
 Reset font folders before loading document
+
 
 **Returns:**
 boolean
@@ -231,6 +264,7 @@ public boolean isPageNumbering()
 
 Enable or disable generation of page numbering in converted document. Default: false
 
+
 **Returns:**
 boolean
 ### setPageNumbering(boolean isPageNumbering) {#setPageNumbering-boolean-}
@@ -254,6 +288,7 @@ public boolean isRemoveJavascript()
 
 Gets the Remove JavaScript flag
 
+
 **Returns:**
 boolean
 ### setRemoveJavascript(boolean removeJavascript) {#setRemoveJavascript-boolean-}
@@ -263,6 +298,7 @@ public void setRemoveJavascript(boolean removeJavascript)
 
 
 Sets the Remove JavaScript flag
+
 
 **Parameters:**
 | Parameter | Type | Description |

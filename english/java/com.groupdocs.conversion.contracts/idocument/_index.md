@@ -13,6 +13,7 @@ public interface IDocument extends System.IDisposable, IDocumentSave
 ```
 
 Interface for documents
+
 ## Methods
 
 | Method | Description |

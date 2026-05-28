@@ -13,6 +13,7 @@ public class VideoDocumentInfo extends DocumentInfo
 ```
 
 Contains Video document metadata
+
 ## Constructors
 
 | Constructor | Description |

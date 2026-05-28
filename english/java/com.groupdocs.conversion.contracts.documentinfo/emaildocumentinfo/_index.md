@@ -13,6 +13,7 @@ public class EmailDocumentInfo extends DocumentInfo
 ```
 
 Contains Email document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,11 +23,16 @@ Contains Email document metadata
 
 | Method | Description |
 | --- | --- |
-| [isSigned()](#isSigned--) | Gets is signed |
-| [isEncrypted()](#isEncrypted--) | Gets is encrypted |
-| [isHtml()](#isHtml--) | Gets is html |
-| [getAttachmentsCount()](#getAttachmentsCount--) | Gets attachments count |
-| [getAttachmentsNames()](#getAttachmentsNames--) | Gets attachments names |
+| [isSigned()](#isSigned--) | Gets is signed
+ |
+| [isEncrypted()](#isEncrypted--) | Gets is encrypted
+ |
+| [isHtml()](#isHtml--) | Gets is html
+ |
+| [getAttachmentsCount()](#getAttachmentsCount--) | Gets attachments count
+ |
+| [getAttachmentsNames()](#getAttachmentsNames--) | Gets attachments names
+ |
 ### EmailDocumentInfo(MailMessage mail, FileType format, long size) {#EmailDocumentInfo-com.aspose.email.MailMessage-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public EmailDocumentInfo(MailMessage mail, FileType format, long size)
@@ -48,8 +54,10 @@ public boolean isSigned()
 
 Gets is signed
 
+
 **Returns:**
 boolean - true if is signed
+
 ### isEncrypted() {#isEncrypted--}
 ```
 public boolean isEncrypted()
@@ -58,8 +66,10 @@ public boolean isEncrypted()
 
 Gets is encrypted
 
+
 **Returns:**
 boolean - true if is encrypted
+
 ### isHtml() {#isHtml--}
 ```
 public boolean isHtml()
@@ -68,8 +78,10 @@ public boolean isHtml()
 
 Gets is html
 
+
 **Returns:**
 boolean - true if is html
+
 ### getAttachmentsCount() {#getAttachmentsCount--}
 ```
 public int getAttachmentsCount()
@@ -78,8 +90,10 @@ public int getAttachmentsCount()
 
 Gets attachments count
 
+
 **Returns:**
 int - attachments count
+
 ### getAttachmentsNames() {#getAttachmentsNames--}
 ```
 public List<String> getAttachmentsNames()
@@ -88,5 +102,7 @@ public List<String> getAttachmentsNames()
 
 Gets attachments names
 
+
 **Returns:**
 java.util.List<java.lang.String> - attachments names
+

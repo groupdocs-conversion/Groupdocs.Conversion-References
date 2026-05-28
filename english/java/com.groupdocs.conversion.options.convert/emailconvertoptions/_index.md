@@ -16,16 +16,19 @@ public class EmailConvertOptions extends ConvertOptions<EmailFileType> implement
 ```
 
 Options for conversion to Email file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmailConvertOptions()](#EmailConvertOptions--) | Initializes new instance of  class. |
+| [EmailConvertOptions()](#EmailConvertOptions--) | Initializes new instance of class.
+ |
 ### EmailConvertOptions() {#EmailConvertOptions--}
 ```
 public EmailConvertOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 

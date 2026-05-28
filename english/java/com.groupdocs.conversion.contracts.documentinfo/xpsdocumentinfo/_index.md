@@ -13,6 +13,7 @@ public class XpsDocumentInfo extends PdfDocumentInfo
 ```
 
 Contains Xps document metadata
+
 ## Constructors
 
 | Constructor | Description |

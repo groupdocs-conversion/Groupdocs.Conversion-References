@@ -13,16 +13,19 @@ public class TsvLoadOptions extends SpreadsheetLoadOptions
 ```
 
 Options for loading Tsv documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TsvLoadOptions()](#TsvLoadOptions--) | Initializes new instance of  class. |
+| [TsvLoadOptions()](#TsvLoadOptions--) | Initializes new instance of class.
+ |
 ### TsvLoadOptions() {#TsvLoadOptions--}
 ```
 public TsvLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 

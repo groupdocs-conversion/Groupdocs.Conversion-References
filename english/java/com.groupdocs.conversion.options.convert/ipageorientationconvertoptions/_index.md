@@ -13,12 +13,15 @@ public interface IPageOrientationConvertOptions extends IConvertOptions
 ```
 
 Represents convert options that support page orientation
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageOrientation()](#getPageOrientation--) | Gets page orientation after conversion |
-| [setPageOrientation(PageOrientation pageOrientation)](#setPageOrientation-com.groupdocs.conversion.options.convert.PageOrientation-) | Sets desired page orientation after conversion |
+| [getPageOrientation()](#getPageOrientation--) | Gets page orientation after conversion
+ |
+| [setPageOrientation(PageOrientation pageOrientation)](#setPageOrientation-com.groupdocs.conversion.options.convert.PageOrientation-) | Sets desired page orientation after conversion
+ |
 ### getPageOrientation() {#getPageOrientation--}
 ```
 public abstract PageOrientation getPageOrientation()
@@ -26,6 +29,7 @@ public abstract PageOrientation getPageOrientation()
 
 
 Gets page orientation after conversion
+
 
 **Returns:**
 [PageOrientation](../../com.groupdocs.conversion.options.convert/pageorientation)
@@ -36,6 +40,7 @@ public abstract void setPageOrientation(PageOrientation pageOrientation)
 
 
 Sets desired page orientation after conversion
+
 
 **Parameters:**
 | Parameter | Type | Description |

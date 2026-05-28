@@ -13,3 +13,4 @@ public interface ConverterSettingsProvider extends Supplier<ConverterSettings>
 ```
 
 Supplier for ConverterSettings
+

@@ -13,6 +13,7 @@ public class PersonalStorageFolderInfo extends ValueObject
 ```
 
 Personal Storage Folder info
+
 ## Constructors
 
 | Constructor | Description |
@@ -27,11 +28,14 @@ Personal Storage Folder info
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--) | Name of the folder |
-| [getItemsCount()](#getItemsCount--) | Count of the items in the folder |
+| [getName()](#getName--) | Name of the folder
+ |
+| [getItemsCount()](#getItemsCount--) | Count of the items in the folder
+ |
 | [getSubFolders()](#getSubFolders--) |  |
 | [getItems()](#getItems--) |  |
-| [toString()](#toString--) | String representation of personal storage folder info |
+| [toString()](#toString--) | String representation of personal storage folder info
+ |
 ### PersonalStorageFolderInfo(String name, List<PersonalStorageItemInfo> items) {#PersonalStorageFolderInfo-java.lang.String-java.util.List-com.groupdocs.conversion.contracts.documentinfo.PersonalStorageItemInfo--}
 ```
 public PersonalStorageFolderInfo(String name, List<PersonalStorageItemInfo> items)
@@ -58,6 +62,7 @@ public String getName()
 
 Name of the folder
 
+
 **Returns:**
 java.lang.String
 ### getItemsCount() {#getItemsCount--}
@@ -67,6 +72,7 @@ public int getItemsCount()
 
 
 Count of the items in the folder
+
 
 **Returns:**
 int
@@ -98,5 +104,7 @@ public String toString()
 
 String representation of personal storage folder info
 
+
 **Returns:**
 java.lang.String - String representation of personal storage folder info in format FolderName (ItemsCount)
+

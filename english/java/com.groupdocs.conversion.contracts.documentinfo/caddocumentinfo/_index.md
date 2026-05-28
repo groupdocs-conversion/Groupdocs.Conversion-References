@@ -13,6 +13,7 @@ public class CadDocumentInfo extends DocumentInfo
 ```
 
 Contains Cad document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,10 +23,14 @@ Contains Cad document metadata
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | width |
-| [getHeight()](#getHeight--) | height |
-| [getLayouts()](#getLayouts--) | layouts in the document |
-| [getLayers()](#getLayers--) | layers in the document |
+| [getWidth()](#getWidth--) | width
+ |
+| [getHeight()](#getHeight--) | height
+ |
+| [getLayouts()](#getLayouts--) | layouts in the document
+ |
+| [getLayers()](#getLayers--) | layers in the document
+ |
 ### CadDocumentInfo(Image cad, FileType format, long size) {#CadDocumentInfo-com.aspose.cad.Image-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public CadDocumentInfo(Image cad, FileType format, long size)
@@ -47,8 +52,10 @@ public int getWidth()
 
 width
 
+
 **Returns:**
 int - width
+
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
@@ -57,8 +64,10 @@ public int getHeight()
 
 height
 
+
 **Returns:**
 int - height
+
 ### getLayouts() {#getLayouts--}
 ```
 public List<String> getLayouts()
@@ -67,8 +76,10 @@ public List<String> getLayouts()
 
 layouts in the document
 
+
 **Returns:**
 java.util.List<java.lang.String> - layouts in the document
+
 ### getLayers() {#getLayers--}
 ```
 public List<String> getLayers()
@@ -77,5 +88,7 @@ public List<String> getLayers()
 
 layers in the document
 
+
 **Returns:**
 java.util.List<java.lang.String> - layers in the document
+

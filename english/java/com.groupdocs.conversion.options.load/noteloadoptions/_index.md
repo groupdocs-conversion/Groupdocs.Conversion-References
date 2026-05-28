@@ -16,22 +16,30 @@ public final class NoteLoadOptions extends LoadOptions implements Serializable
 ```
 
 Options for loading One documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [NoteLoadOptions()](#NoteLoadOptions--) | Initializes new instance of [NoteLoadOptions](../../com.groupdocs.conversion.options.load/noteloadoptions) class. |
+| [NoteLoadOptions()](#NoteLoadOptions--) | Initializes new instance of [NoteLoadOptions](../../com.groupdocs.conversion.options.load/noteloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getDefaultFont()](#getDefaultFont--) | Default font for Note document. |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Note document. |
-| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Note document. |
-| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Note document. |
-| [getPassword()](#getPassword--) | Set password to unprotect protected document. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
+| [getDefaultFont()](#getDefaultFont--) | Default font for Note document.
+ |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Note document.
+ |
+| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Note document.
+ |
+| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Note document.
+ |
+| [getPassword()](#getPassword--) | Set password to unprotect protected document.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document.
+ |
 ### NoteLoadOptions() {#NoteLoadOptions--}
 ```
 public NoteLoadOptions()
@@ -40,6 +48,7 @@ public NoteLoadOptions()
 
 Initializes new instance of [NoteLoadOptions](../../com.groupdocs.conversion.options.load/noteloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final NoteFileType getFormat()
@@ -47,6 +56,7 @@ public final NoteFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [NoteFileType](../../com.groupdocs.conversion.filetypes/notefiletype)
@@ -58,6 +68,7 @@ public final String getDefaultFont()
 
 Default font for Note document. The following font will be used if a font is missing.
 
+
 **Returns:**
 java.lang.String
 ### setDefaultFont(String value) {#setDefaultFont-java.lang.String-}
@@ -67,6 +78,7 @@ public final void setDefaultFont(String value)
 
 
 Default font for Note document. The following font will be used if a font is missing.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,6 +93,7 @@ public final List<FontSubstitute> getFontSubstitutes()
 
 Substitute specific fonts when converting Note document.
 
+
 **Returns:**
 java.util.List<com.groupdocs.conversion.contracts.FontSubstitute>
 ### setFontSubstitutes(List<FontSubstitute> value) {#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--}
@@ -90,6 +103,7 @@ public final void setFontSubstitutes(List<FontSubstitute> value)
 
 
 Substitute specific fonts when converting Note document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -104,6 +118,7 @@ public final String getPassword()
 
 Set password to unprotect protected document.
 
+
 **Returns:**
 java.lang.String
 ### setPassword(String value) {#setPassword-java.lang.String-}
@@ -113,6 +128,7 @@ public final void setPassword(String value)
 
 
 Set password to unprotect protected document.
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -16,15 +16,21 @@ public abstract class ConvertOptions<TFileType> extends ValueObject implements S
 ```
 
 The general conversion options class.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | \{@inheritDoc\} |
-| [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) | The desired file type the input document should be converted to. |
-| [deepClone()](#deepClone--) | Clones current options instance. |
-| [getFormat_ConvertOptions_New()](#getFormat-ConvertOptions-New--) | The desired file type the input document should be converted to. |
-| [setFormat_ConvertOptions_New(TFileType value)](#setFormat-ConvertOptions-New-TFileType-) | The desired file type the input document should be converted to. |
+| [getFormat()](#getFormat--) | {@inheritDoc}
+ |
+| [setFormat(FileType value)](#setFormat-com.groupdocs.conversion.filetypes.FileType-) | The desired file type the input document should be converted to.
+ |
+| [deepClone()](#deepClone--) | Clones current options instance.
+ |
+| [getFormat_ConvertOptions_New()](#getFormat-ConvertOptions-New--) | The desired file type the input document should be converted to.
+ |
+| [setFormat_ConvertOptions_New(TFileType value)](#setFormat-ConvertOptions-New-TFileType-) | The desired file type the input document should be converted to.
+ |
 ### getFormat() {#getFormat--}
 ```
 public FileType getFormat()
@@ -32,6 +38,7 @@ public FileType getFormat()
 
 
 Gets the desired file type the input document should be converted to.
+
 
 **Returns:**
 [FileType](../../com.groupdocs.conversion.filetypes/filetype)
@@ -42,6 +49,7 @@ public void setFormat(FileType value)
 
 
 The desired file type the input document should be converted to.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -56,6 +64,7 @@ public final Object deepClone()
 
 Clones current options instance.
 
+
 **Returns:**
 java.lang.Object - 
 ### getFormat_ConvertOptions_New() {#getFormat-ConvertOptions-New--}
@@ -66,6 +75,7 @@ public final TFileType getFormat_ConvertOptions_New()
 
 The desired file type the input document should be converted to.
 
+
 **Returns:**
 TFileType
 ### setFormat_ConvertOptions_New(TFileType value) {#setFormat-ConvertOptions-New-TFileType-}
@@ -75,6 +85,7 @@ public final void setFormat_ConvertOptions_New(TFileType value)
 
 
 The desired file type the input document should be converted to.
+
 
 **Parameters:**
 | Parameter | Type | Description |

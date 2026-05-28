@@ -13,6 +13,7 @@ public class EpubDocumentInfo extends PdfDocumentInfo
 ```
 
 Contains Epub document metadata
+
 ## Constructors
 
 | Constructor | Description |

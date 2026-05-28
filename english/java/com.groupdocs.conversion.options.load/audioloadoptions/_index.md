@@ -15,20 +15,23 @@ public class AudioLoadOptions extends LoadOptions
 
 | Constructor | Description |
 | --- | --- |
-| [AudioLoadOptions()](#AudioLoadOptions--) | Initializes new instance of  class. |
+| [AudioLoadOptions()](#AudioLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getAudioConnector()](#getAudioConnector--) |  |
-| [setAudioConnector(IAudioConnector audioConnector)](#setAudioConnector-com.groupdocs.conversion.integration.audio.IAudioConnector-) | Sets audio connector |
+| [setAudioConnector(IAudioConnector audioConnector)](#setAudioConnector-com.groupdocs.conversion.integration.audio.IAudioConnector-) | Sets audio connector
+ |
 ### AudioLoadOptions() {#AudioLoadOptions--}
 ```
 public AudioLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getAudioConnector() {#getAudioConnector--}
 ```
@@ -48,8 +51,10 @@ public void setAudioConnector(IAudioConnector audioConnector)
 
 Sets audio connector
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| audioConnector | [IAudioConnector](../../com.groupdocs.conversion.integration.audio/iaudioconnector) | Audio connector |
+| audioConnector | [IAudioConnector](../../com.groupdocs.conversion.integration.audio/iaudioconnector) | Audio connector
+ |
 

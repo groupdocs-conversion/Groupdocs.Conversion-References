@@ -13,24 +13,29 @@ public class FontLoadOptions extends LoadOptions
 ```
 
 Options for loading Font documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FontLoadOptions()](#FontLoadOptions--) | Initializes new instance of  class. |
+| [FontLoadOptions()](#FontLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Gets Input document file type. |
-| [setFormat(FontFileType format)](#setFormat-com.groupdocs.conversion.filetypes.FontFileType-) | Sets Input document file type. |
+| [getFormat()](#getFormat--) | Gets Input document file type.
+ |
+| [setFormat(FontFileType format)](#setFormat-com.groupdocs.conversion.filetypes.FontFileType-) | Sets Input document file type.
+ |
 ### FontLoadOptions() {#FontLoadOptions--}
 ```
 public FontLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getFormat() {#getFormat--}
 ```
@@ -39,6 +44,7 @@ public FontFileType getFormat()
 
 
 Gets Input document file type.
+
 
 **Returns:**
 [FontFileType](../../com.groupdocs.conversion.filetypes/fontfiletype)
@@ -49,6 +55,7 @@ public void setFormat(FontFileType format)
 
 
 Sets Input document file type.
+
 
 **Parameters:**
 | Parameter | Type | Description |

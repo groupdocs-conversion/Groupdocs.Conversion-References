@@ -13,6 +13,7 @@ public class CgmDocumentInfo extends PdfDocumentInfo
 ```
 
 Contains Cgm document metadata
+
 ## Constructors
 
 | Constructor | Description |

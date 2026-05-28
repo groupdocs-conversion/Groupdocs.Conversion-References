@@ -10,3 +10,4 @@ public interface IConversionCompressResultCompleted
 ```
 
 Handle compression completed
+

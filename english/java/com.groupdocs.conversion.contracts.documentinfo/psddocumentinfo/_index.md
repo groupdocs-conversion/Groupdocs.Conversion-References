@@ -13,6 +13,7 @@ public class PsdDocumentInfo extends DocumentInfo
 ```
 
 Contains Psd document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Contains Psd document metadata
 
 | Method | Description |
 | --- | --- |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets bits per pixel |
-| [getHeight()](#getHeight--) | Gets height |
-| [getWidth()](#getWidth--) | Gets width |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Gets bits per pixel
+ |
+| [getHeight()](#getHeight--) | Gets height
+ |
+| [getWidth()](#getWidth--) | Gets width
+ |
 ### PsdDocumentInfo(Image image, FileType format, long size) {#PsdDocumentInfo-com.aspose.psd.Image-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public PsdDocumentInfo(Image image, FileType format, long size)
@@ -46,8 +50,10 @@ public int getBitsPerPixel()
 
 Gets bits per pixel
 
+
 **Returns:**
 int - bits per pixel
+
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
@@ -56,8 +62,10 @@ public int getHeight()
 
 Gets height
 
+
 **Returns:**
 int - height
+
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -66,5 +74,7 @@ public int getWidth()
 
 Gets width
 
+
 **Returns:**
 int - width
+

@@ -16,32 +16,48 @@ public final class CadLoadOptions extends LoadOptions implements Serializable
 ```
 
 Options for loading CAD documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CadLoadOptions()](#CadLoadOptions--) | Initializes new instance of [CadLoadOptions](../../com.groupdocs.conversion.options.load/cadloadoptions) class. |
+| [CadLoadOptions()](#CadLoadOptions--) | Initializes new instance of [CadLoadOptions](../../com.groupdocs.conversion.options.load/cadloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getWidth()](#getWidth--) | Sets desired page width for converting CAD document |
-| [setWidth(int value)](#setWidth-int-) | Sets desired page width for converting CAD document |
-| [getHeight()](#getHeight--) | Sets desired page height for converting CAD document |
-| [setHeight(int value)](#setHeight-int-) | Sets desired page height for converting CAD document |
-| [getLayoutNames()](#getLayoutNames--) | Specifies which CAD layouts to be converted |
-| [setLayoutNames(String[] value)](#setLayoutNames-java.lang.String---) | Specififies which CAD layouts to be converted |
-| [getDrawType()](#getDrawType--) | Gets type of drawing. |
-| [setDrawType(CadDrawTypeMode drawType)](#setDrawType-com.groupdocs.conversion.options.load.CadDrawTypeMode-) | Sets type of drawing. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets a background color. |
-| [setBackgroundColor(System.Drawing.Color backgroundColor)](#setBackgroundColor-com.aspose.ms.System.Drawing.Color-) | Sets a background color. |
+| [getWidth()](#getWidth--) | Sets desired page width for converting CAD document
+ |
+| [setWidth(int value)](#setWidth-int-) | Sets desired page width for converting CAD document
+ |
+| [getHeight()](#getHeight--) | Sets desired page height for converting CAD document
+ |
+| [setHeight(int value)](#setHeight-int-) | Sets desired page height for converting CAD document
+ |
+| [getLayoutNames()](#getLayoutNames--) | Specifies which CAD layouts to be converted
+ |
+| [setLayoutNames(String[] value)](#setLayoutNames-java.lang.String---) | Specififies which CAD layouts to be converted
+ |
+| [getDrawType()](#getDrawType--) | Gets type of drawing.
+ |
+| [setDrawType(CadDrawTypeMode drawType)](#setDrawType-com.groupdocs.conversion.options.load.CadDrawTypeMode-) | Sets type of drawing.
+ |
+| [getBackgroundColor()](#getBackgroundColor--) | Gets a background color.
+ |
+| [setBackgroundColor(System.Drawing.Color backgroundColor)](#setBackgroundColor-com.aspose.ms.System.Drawing.Color-) | Sets a background color.
+ |
 | [getFontDirectories()](#getFontDirectories--) |  |
 | [setFontDirectories(List<String> fontDirectories)](#setFontDirectories-java.util.List-java.lang.String--) |  |
-| [getCtbSources()](#getCtbSources--) | Gets the CTB sources. |
-| [setCtbSources(Map<String,InputStream> ctbSources)](#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--) | Sets the CTB sources. |
-| [getDrawColor()](#getDrawColor--) | Gets foreground color. |
-| [setDrawColor(System.Drawing.Color drawColor)](#setDrawColor-com.aspose.ms.System.Drawing.Color-) | Sets foreground color. |
+| [getCtbSources()](#getCtbSources--) | Gets the CTB sources.
+ |
+| [setCtbSources(Map<String,InputStream> ctbSources)](#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--) | Sets the CTB sources.
+ |
+| [getDrawColor()](#getDrawColor--) | Gets foreground color.
+ |
+| [setDrawColor(System.Drawing.Color drawColor)](#setDrawColor-com.aspose.ms.System.Drawing.Color-) | Sets foreground color.
+ |
 ### CadLoadOptions() {#CadLoadOptions--}
 ```
 public CadLoadOptions()
@@ -50,6 +66,7 @@ public CadLoadOptions()
 
 Initializes new instance of [CadLoadOptions](../../com.groupdocs.conversion.options.load/cadloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public CadFileType getFormat()
@@ -57,6 +74,7 @@ public CadFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [CadFileType](../../com.groupdocs.conversion.filetypes/cadfiletype)
@@ -68,6 +86,7 @@ public final int getWidth()
 
 Sets desired page width for converting CAD document
 
+
 **Returns:**
 int
 ### setWidth(int value) {#setWidth-int-}
@@ -77,6 +96,7 @@ public final void setWidth(int value)
 
 
 Sets desired page width for converting CAD document
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -91,6 +111,7 @@ public final int getHeight()
 
 Sets desired page height for converting CAD document
 
+
 **Returns:**
 int
 ### setHeight(int value) {#setHeight-int-}
@@ -100,6 +121,7 @@ public final void setHeight(int value)
 
 
 Sets desired page height for converting CAD document
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,6 +136,7 @@ public final String[] getLayoutNames()
 
 Specifies which CAD layouts to be converted
 
+
 **Returns:**
 java.lang.String[]
 ### setLayoutNames(String[] value) {#setLayoutNames-java.lang.String---}
@@ -123,6 +146,7 @@ public final void setLayoutNames(String[] value)
 
 
 Specififies which CAD layouts to be converted
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -137,6 +161,7 @@ public CadDrawTypeMode getDrawType()
 
 Gets type of drawing.
 
+
 **Returns:**
 [CadDrawTypeMode](../../com.groupdocs.conversion.options.load/caddrawtypemode)
 ### setDrawType(CadDrawTypeMode drawType) {#setDrawType-com.groupdocs.conversion.options.load.CadDrawTypeMode-}
@@ -146,6 +171,7 @@ public void setDrawType(CadDrawTypeMode drawType)
 
 
 Sets type of drawing.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -160,6 +186,7 @@ public System.Drawing.Color getBackgroundColor()
 
 Gets a background color.
 
+
 **Returns:**
 com.aspose.ms.System.Drawing.Color
 ### setBackgroundColor(System.Drawing.Color backgroundColor) {#setBackgroundColor-com.aspose.ms.System.Drawing.Color-}
@@ -169,6 +196,7 @@ public void setBackgroundColor(System.Drawing.Color backgroundColor)
 
 
 Sets a background color.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,6 +234,7 @@ public Map<String,InputStream> getCtbSources()
 
 Gets the CTB sources.
 
+
 **Returns:**
 java.util.Map<java.lang.String,java.io.InputStream>
 ### setCtbSources(Map<String,InputStream> ctbSources) {#setCtbSources-java.util.Map-java.lang.String-java.io.InputStream--}
@@ -215,6 +244,7 @@ public void setCtbSources(Map<String,InputStream> ctbSources)
 
 
 Sets the CTB sources.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,6 +259,7 @@ public System.Drawing.Color getDrawColor()
 
 Gets foreground color.
 
+
 **Returns:**
 com.aspose.ms.System.Drawing.Color
 ### setDrawColor(System.Drawing.Color drawColor) {#setDrawColor-com.aspose.ms.System.Drawing.Color-}
@@ -238,6 +269,7 @@ public void setDrawColor(System.Drawing.Color drawColor)
 
 
 Sets foreground color.
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -10,11 +10,13 @@ public interface IConversionSettings
 ```
 
 Setup conversion settings
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [withSettings(ConverterSettingsProvider settingsProvider)](#withSettings-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Set converter settings |
+| [withSettings(ConverterSettingsProvider settingsProvider)](#withSettings-com.groupdocs.conversion.contracts.ConverterSettingsProvider-) | Set converter settings
+ |
 ### withSettings(ConverterSettingsProvider settingsProvider) {#withSettings-com.groupdocs.conversion.contracts.ConverterSettingsProvider-}
 ```
 public abstract IConversionFrom withSettings(ConverterSettingsProvider settingsProvider)
@@ -23,10 +25,12 @@ public abstract IConversionFrom withSettings(ConverterSettingsProvider settingsP
 
 Set converter settings
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| settingsProvider | [ConverterSettingsProvider](../../com.groupdocs.conversion.contracts/convertersettingsprovider) | Settings provider |
+| settingsProvider | [ConverterSettingsProvider](../../com.groupdocs.conversion.contracts/convertersettingsprovider) | Settings provider
+ |
 
 **Returns:**
 [IConversionFrom](../../com.groupdocs.conversion.fluent/iconversionfrom)

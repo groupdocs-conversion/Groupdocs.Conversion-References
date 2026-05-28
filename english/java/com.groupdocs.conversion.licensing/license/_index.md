@@ -12,13 +12,11 @@ java.lang.Object
 public final class License
 ```
 
-Provides methods to license the component. Learn more about licensing  [here][] .
+Provides methods to license the component. Learn more about licensing 
+[here](../https://purchase.groupdocs.com/faqs/licensing)
+.
+**Learn more** More about licensing: [GroupDocs Licensing FAQ](../https://purchase.groupdocs.com/faqs/licensing) More about GroupDocs.Conversion licensing: [Evaluation Limitations and Licensing](../https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion)
 
-**Learn more**More about licensing: [GroupDocs Licensing FAQ][here]More about GroupDocs.Conversion licensing: [Evaluation Limitations and Licensing][]
-
-
-[here]: https://purchase.groupdocs.com/faqs/licensing
-[Evaluation Limitations and Licensing]: https://docs.groupdocs.com/display/conversionnet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Conversion
 ## Constructors
 
 | Constructor | Description |
@@ -28,10 +26,13 @@ Provides methods to license the component. Learn more about licensing  [here][] 
 
 | Method | Description |
 | --- | --- |
-| [isLicensed()](#isLicensed--) | Returns true if a valid license has been applied; false if the component is running in evaluation mode. |
+| [isLicensed()](#isLicensed--) | Returns true if a valid license has been applied; false if the component is running in evaluation mode.
+ |
 | [setLicense(InputStream licenseStream)](#setLicense-java.io.InputStream-) |  |
-| [setLicense(System.IO.Stream licenseStream)](#setLicense-com.aspose.ms.System.IO.Stream-) | Licenses the component. |
-| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component. |
+| [setLicense(System.IO.Stream licenseStream)](#setLicense-com.aspose.ms.System.IO.Stream-) | Licenses the component.
+ |
+| [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component.
+ |
 | [resetLicense()](#resetLicense--) |  |
 ### License() {#License--}
 ```
@@ -46,6 +47,7 @@ public boolean isLicensed()
 
 
 Returns true if a valid license has been applied; false if the component is running in evaluation mode.
+
 
 **Returns:**
 boolean
@@ -70,23 +72,31 @@ public final void setLicense(System.IO.Stream licenseStream)
 
 Licenses the component.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 > ```
-> The following example demonstrates how to set a license
+>  The following example demonstrates how to set a license
 >  passing Stream of the license file.
->  
->  using (FileStream licenseStream = new FileStream("LicenseFile.lic", FileMode.Open))
+>   using (FileStream licenseStream = new FileStream("LicenseFile.lic", FileMode.Open))
 >  {
 >      GroupDocs.Conversion.License lic = new GroupDocs.Conversion.License();
 >      lic.SetLicense(licenseStream);
 >  }
+>  
+>  
 > ```
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseStream | com.aspose.ms.System.IO.Stream | The license stream. |
+| licenseStream | com.aspose.ms.System.IO.Stream | The license stream.
+ |
 
 ### setLicense(String licensePath) {#setLicense-java.lang.String-}
 ```
@@ -96,21 +106,29 @@ public void setLicense(String licensePath)
 
 Licenses the component.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 > ```
-> The following example demonstrates how to set a license
+>  The following example demonstrates how to set a license
 >  passing a path to the license file.
->  
->  string licensePath = "GroupDocs.Conversion.lic";
+>   string licensePath = "GroupDocs.Conversion.lic";
 >  GroupDocs.Conversion.License lic = new GroupDocs.Conversion.License();
 >  lic.SetLicense(licensePath);
+>  
+>  
 > ```
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licensePath | java.lang.String | The license path. |
+| licensePath | java.lang.String | The license path.
+ |
 
 ### resetLicense() {#resetLicense--}
 ```

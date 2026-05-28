@@ -13,3 +13,4 @@ public interface IConversionSourceDocumentLoaded extends IConversionTo, IConvers
 ```
 
 Provides possible actions with loaded document
+

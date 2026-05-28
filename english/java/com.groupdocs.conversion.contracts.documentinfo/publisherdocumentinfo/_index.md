@@ -13,6 +13,7 @@ public class PublisherDocumentInfo extends DocumentInfo
 ```
 
 Contains Publisher document metadata
+
 ## Constructors
 
 | Constructor | Description |

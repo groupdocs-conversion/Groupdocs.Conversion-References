@@ -16,28 +16,37 @@ public class PersonalStorageLoadOptions extends LoadOptions implements IDocument
 ```
 
 Options for loading personal storage documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PersonalStorageLoadOptions()](#PersonalStorageLoadOptions--) | Initializes new instance of  class. |
+| [PersonalStorageLoadOptions()](#PersonalStorageLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFolder()](#getFolder--) | Folder which to be processed Default is Inbox |
-| [setFolder(String folder)](#setFolder-java.lang.String-) | Set folder which to be processed |
-| [isConvertOwner()](#isConvertOwner--) | \{@inheritDoc\} The owner will not be converted |
-| [isConvertOwned()](#isConvertOwned--) | \{@inheritDoc\} |
-| [getDepth()](#getDepth--) | \{@inheritDoc\} |
-| [setDepth(int depth)](#setDepth-int-) | \{@inheritDoc\} |
+| [getFolder()](#getFolder--) | Folder which to be processed Default is Inbox
+ |
+| [setFolder(String folder)](#setFolder-java.lang.String-) | Set folder which to be processed
+ |
+| [isConvertOwner()](#isConvertOwner--) | {@inheritDoc} The owner will not be converted
+ |
+| [isConvertOwned()](#isConvertOwned--) | {@inheritDoc}
+ |
+| [getDepth()](#getDepth--) | {@inheritDoc}
+ |
+| [setDepth(int depth)](#setDepth-int-) | {@inheritDoc}
+ |
 ### PersonalStorageLoadOptions() {#PersonalStorageLoadOptions--}
 ```
 public PersonalStorageLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getFolder() {#getFolder--}
 ```
@@ -47,8 +56,10 @@ public String getFolder()
 
 Folder which to be processed Default is Inbox
 
+
 **Returns:**
 java.lang.String - Folder which to be processed
+
 ### setFolder(String folder) {#setFolder-java.lang.String-}
 ```
 public void setFolder(String folder)
@@ -57,10 +68,12 @@ public void setFolder(String folder)
 
 Set folder which to be processed
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder | java.lang.String | folder |
+| folder | java.lang.String | folder
+ |
 
 ### isConvertOwner() {#isConvertOwner--}
 ```
@@ -69,6 +82,7 @@ public boolean isConvertOwner()
 
 
 Gets option to control whether the documents container itself must be converted The owner will not be converted
+
 
 **Returns:**
 boolean
@@ -80,6 +94,7 @@ public boolean isConvertOwned()
 
 Option to control whether the owned documents in the documents container must be converted
 
+
 **Returns:**
 boolean
 ### getDepth() {#getDepth--}
@@ -89,6 +104,7 @@ public int getDepth()
 
 
 Option to control how many levels in depth to perform conversion
+
 
 **Returns:**
 int

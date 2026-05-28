@@ -13,3 +13,4 @@ public interface IConversionCompletedOrConvert extends IConversionCompleted, ICo
 ```
 
 Handle conversion completed or execute conversion
+

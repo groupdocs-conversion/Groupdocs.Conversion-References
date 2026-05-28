@@ -13,6 +13,7 @@ public class PsDocumentInfo extends DocumentInfo
 ```
 
 Contains Ps document metadata
+
 ## Constructors
 
 | Constructor | Description |

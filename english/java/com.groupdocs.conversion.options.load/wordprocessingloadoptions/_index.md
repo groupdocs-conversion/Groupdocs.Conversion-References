@@ -16,57 +16,97 @@ public class WordProcessingLoadOptions extends LoadOptions implements Serializab
 ```
 
 Options for loading WordProcessing documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingLoadOptions()](#WordProcessingLoadOptions--) | Initializes new instance of [WordProcessingLoadOptions](../../com.groupdocs.conversion.options.load/wordprocessingloadoptions) class. |
+| [WordProcessingLoadOptions()](#WordProcessingLoadOptions--) | Initializes new instance of [WordProcessingLoadOptions](../../com.groupdocs.conversion.options.load/wordprocessingloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getDefaultFont()](#getDefaultFont--) | Default font for Words document. |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Words document. |
-| [getAutoFontSubstitution()](#getAutoFontSubstitution--) | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. |
-| [setAutoFontSubstitution(boolean value)](#setAutoFontSubstitution-boolean-) | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. |
-| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Words document. |
-| [isEmbedTrueTypeFonts()](#isEmbedTrueTypeFonts--) | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. |
+| [getDefaultFont()](#getDefaultFont--) | Default font for Words document.
+ |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Words document.
+ |
+| [getAutoFontSubstitution()](#getAutoFontSubstitution--) | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts.
+ |
+| [setAutoFontSubstitution(boolean value)](#setAutoFontSubstitution-boolean-) | If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts.
+ |
+| [getFontSubstitutes()](#getFontSubstitutes--) | Substitute specific fonts when converting Words document.
+ |
+| [isEmbedTrueTypeFonts()](#isEmbedTrueTypeFonts--) | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document.
+ |
 | [setEmbedTrueTypeFonts(boolean embedTrueTypeFonts)](#setEmbedTrueTypeFonts-boolean-) |  |
-| [isUpdatePageLayout()](#isUpdatePageLayout--) | Update page layout after loading. |
+| [isUpdatePageLayout()](#isUpdatePageLayout--) | Update page layout after loading.
+ |
 | [setUpdatePageLayout(boolean updatePageLayout)](#setUpdatePageLayout-boolean-) |  |
-| [isUpdateFields()](#isUpdateFields--) | Update fields after loading. |
+| [isUpdateFields()](#isUpdateFields--) | Update fields after loading.
+ |
 | [setUpdateFields(boolean updateFields)](#setUpdateFields-boolean-) |  |
-| [isKeepDateFieldOriginalValue()](#isKeepDateFieldOriginalValue--) | Keep original value of date field. |
-| [setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue)](#setKeepDateFieldOriginalValue-boolean-) | Sets Keep original value of date field. |
-| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Words document. |
-| [getPassword()](#getPassword--) | Set password to unprotect protected document. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document. |
-| [getHideWordTrackedChanges()](#getHideWordTrackedChanges--) | Hide markup and track changes for Word documents. |
-| [setHideWordTrackedChanges(boolean value)](#setHideWordTrackedChanges-boolean-) | Hide markup and track changes for Word documents. |
-| [setHideComments(boolean value)](#setHideComments-boolean-) | Hide comments. |
-| [getBookmarkOptions()](#getBookmarkOptions--) | Bookmarks options |
-| [setBookmarkOptions(WordProcessingBookmarksOptions value)](#setBookmarkOptions-com.groupdocs.conversion.options.load.WordProcessingBookmarksOptions-) | Bookmarks options |
-| [isPreserveFontFields()](#isPreserveFontFields--) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. |
-| [setPreserveFontFields(boolean preserveFontFields)](#setPreserveFontFields-boolean-) | Sets preserveFontFields flag |
-| [isUseTextShaper()](#isUseTextShaper--) | Specifies whether to use a text shaper for better kerning display. |
-| [setUseTextShaper(boolean isUseTextShaper)](#setUseTextShaper-boolean-) | Specifies whether to use a text shaper for better kerning display. |
-| [isPreserveDocumentStructure()](#isPreserveDocumentStructure--) | Determines whether the document structure should be preserved when converting to PDF (default is false). |
+| [isKeepDateFieldOriginalValue()](#isKeepDateFieldOriginalValue--) | Keep original value of date field.
+ |
+| [setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue)](#setKeepDateFieldOriginalValue-boolean-) | Sets Keep original value of date field.
+ |
+| [setFontSubstitutes(List<FontSubstitute> value)](#setFontSubstitutes-java.util.List-com.groupdocs.conversion.contracts.FontSubstitute--) | Substitute specific fonts when converting Words document.
+ |
+| [getPassword()](#getPassword--) | Set password to unprotect protected document.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Set password to unprotect protected document.
+ |
+| [getHideWordTrackedChanges()](#getHideWordTrackedChanges--) | Hide markup and track changes for Word documents.
+ |
+| [setHideWordTrackedChanges(boolean value)](#setHideWordTrackedChanges-boolean-) | Hide markup and track changes for Word documents.
+ |
+| [setHideComments(boolean value)](#setHideComments-boolean-) | Hide comments.
+ |
+| [getBookmarkOptions()](#getBookmarkOptions--) | Bookmarks options
+ |
+| [setBookmarkOptions(WordProcessingBookmarksOptions value)](#setBookmarkOptions-com.groupdocs.conversion.options.load.WordProcessingBookmarksOptions-) | Bookmarks options
+ |
+| [isPreserveFontFields()](#isPreserveFontFields--) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text.
+ |
+| [setPreserveFontFields(boolean preserveFontFields)](#setPreserveFontFields-boolean-) | Sets preserveFontFields flag
+ |
+| [isUseTextShaper()](#isUseTextShaper--) | Specifies whether to use a text shaper for better kerning display.
+ |
+| [setUseTextShaper(boolean isUseTextShaper)](#setUseTextShaper-boolean-) | Specifies whether to use a text shaper for better kerning display.
+ |
+| [isPreserveDocumentStructure()](#isPreserveDocumentStructure--) | Determines whether the document structure should be preserved when converting to PDF (default is false).
+ |
 | [setPreserveDocumentStructure(boolean preserveDocumentStructure)](#setPreserveDocumentStructure-boolean-) |  |
-| [getSkipExternalResources()](#getSkipExternalResources--) | \{@inheritDoc\} |
-| [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | \{@inheritDoc\} |
-| [getWhitelistedResources()](#getWhitelistedResources--) | \{@inheritDoc\} |
-| [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | \{@inheritDoc\} |
-| [getCommentDisplayMode()](#getCommentDisplayMode--) | Specifies how comments should be displayed in the output document. |
+| [getSkipExternalResources()](#getSkipExternalResources--) | {@inheritDoc}
+ |
+| [setSkipExternalResources(boolean skip)](#setSkipExternalResources-boolean-) | {@inheritDoc}
+ |
+| [getWhitelistedResources()](#getWhitelistedResources--) | {@inheritDoc}
+ |
+| [setWhitelistedResources(List<String> whiteList)](#setWhitelistedResources-java.util.List-java.lang.String--) | {@inheritDoc}
+ |
+| [getCommentDisplayMode()](#getCommentDisplayMode--) | Specifies how comments should be displayed in the output document.
+ |
 | [setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode)](#setCommentDisplayMode-com.groupdocs.conversion.options.load.WordProcessingCommentDisplay-) |  |
-| [getShowFullCommenterName()](#getShowFullCommenterName--) | Show full commenter name in comments. |
+| [getShowFullCommenterName()](#getShowFullCommenterName--) | Show full commenter name in comments.
+ |
 | [setShowFullCommenterName(boolean showFullCommenterName)](#setShowFullCommenterName-boolean-) |  |
-| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document. |
+| [isPageNumbering()](#isPageNumbering--) | Enable or disable generation of page numbering in converted document.
+ |
 | [setPageNumbering(boolean isPageNumbering)](#setPageNumbering-boolean-) |  |
-| [getHyphenationOptions()](#getHyphenationOptions--) | Gets hyphenation options for WordProcessing documents. |
-| [setHyphenationOptions(HyphenationOptions hyphenationOptions)](#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-) | Sets hyphenation options for WordProcessing documents. |
-| [isInterruptThreadIfImageExceptionThrown()](#isInterruptThreadIfImageExceptionThrown--) | Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred |
-| [setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown)](#setInterruptThreadIfImageExceptionThrown-boolean-) | Sets InterruptThreadIfImageExceptionThrown flag |
+| [getHyphenationOptions()](#getHyphenationOptions--) | Gets hyphenation options for WordProcessing documents.
+ |
+| [setHyphenationOptions(HyphenationOptions hyphenationOptions)](#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-) | Sets hyphenation options for WordProcessing documents.
+ |
+| [isInterruptThreadIfImageExceptionThrown()](#isInterruptThreadIfImageExceptionThrown--) | Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred
+ |
+| [setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown)](#setInterruptThreadIfImageExceptionThrown-boolean-) | Sets InterruptThreadIfImageExceptionThrown flag
+ |
+| [isAutoDetectRtlDirection()](#isAutoDetectRtlDirection--) | When enabled (default), paragraphs and runs whose text is dominantly right-to-left (RTL) will have their bidi flags repaired before conversion.
+ |
+| [setAutoDetectRtlDirection(boolean autoDetectRtlDirection)](#setAutoDetectRtlDirection-boolean-) | Sets the autoDetectRtlDirection
+ |
 | [isConvertOwner()](#isConvertOwner--) |  |
 | [setConvertOwner(boolean convertOwner)](#setConvertOwner-boolean-) |  |
 | [isConvertOwned()](#isConvertOwned--) |  |
@@ -81,6 +121,7 @@ public WordProcessingLoadOptions()
 
 Initializes new instance of [WordProcessingLoadOptions](../../com.groupdocs.conversion.options.load/wordprocessingloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final WordProcessingFileType getFormat()
@@ -88,6 +129,7 @@ public final WordProcessingFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [WordProcessingFileType](../../com.groupdocs.conversion.filetypes/wordprocessingfiletype)
@@ -99,6 +141,7 @@ public final String getDefaultFont()
 
 Default font for Words document. The following font will be used if a font is missing.
 
+
 **Returns:**
 java.lang.String
 ### setDefaultFont(String value) {#setDefaultFont-java.lang.String-}
@@ -108,6 +151,7 @@ public final void setDefaultFont(String value)
 
 
 Default font for Words document. The following font will be used if a font is missing.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +164,10 @@ public final boolean getAutoFontSubstitution()
 ```
 
 
-If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled, GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True.
+If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled,
+GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources.
+Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True.
+
 
 **Returns:**
 boolean
@@ -130,7 +177,10 @@ public final void setAutoFontSubstitution(boolean value)
 ```
 
 
-If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled, GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True.
+If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled,
+GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources.
+Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,6 +195,7 @@ public final List<FontSubstitute> getFontSubstitutes()
 
 Substitute specific fonts when converting Words document.
 
+
 **Returns:**
 java.util.List<com.groupdocs.conversion.contracts.FontSubstitute>
 ### isEmbedTrueTypeFonts() {#isEmbedTrueTypeFonts--}
@@ -154,6 +205,7 @@ public boolean isEmbedTrueTypeFonts()
 
 
 If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: false
+
 
 **Returns:**
 boolean
@@ -178,6 +230,7 @@ public boolean isUpdatePageLayout()
 
 Update page layout after loading. Default: false
 
+
 **Returns:**
 boolean
 ### setUpdatePageLayout(boolean updatePageLayout) {#setUpdatePageLayout-boolean-}
@@ -200,6 +253,7 @@ public boolean isUpdateFields()
 
 
 Update fields after loading. Default: false
+
 
 **Returns:**
 boolean
@@ -224,6 +278,7 @@ public boolean isKeepDateFieldOriginalValue()
 
 Keep original value of date field. Default: false
 
+
 **Returns:**
 boolean
 ### setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue) {#setKeepDateFieldOriginalValue-boolean-}
@@ -233,6 +288,7 @@ public void setKeepDateFieldOriginalValue(boolean keepDateFieldOriginalValue)
 
 
 Sets Keep original value of date field.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,6 +303,7 @@ public final void setFontSubstitutes(List<FontSubstitute> value)
 
 Substitute specific fonts when converting Words document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -260,6 +317,7 @@ public final String getPassword()
 
 Set password to unprotect protected document.
 
+
 **Returns:**
 java.lang.String
 ### setPassword(String value) {#setPassword-java.lang.String-}
@@ -269,6 +327,7 @@ public final void setPassword(String value)
 
 
 Set password to unprotect protected document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,6 +342,7 @@ public final boolean getHideWordTrackedChanges()
 
 Hide markup and track changes for Word documents.
 
+
 **Returns:**
 boolean
 ### setHideWordTrackedChanges(boolean value) {#setHideWordTrackedChanges-boolean-}
@@ -292,6 +352,7 @@ public final void setHideWordTrackedChanges(boolean value)
 
 
 Hide markup and track changes for Word documents.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,6 +367,7 @@ public final void setHideComments(boolean value)
 
 Hide comments.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -319,6 +381,7 @@ public final WordProcessingBookmarksOptions getBookmarkOptions()
 
 Bookmarks options
 
+
 **Returns:**
 [WordProcessingBookmarksOptions](../../com.groupdocs.conversion.options.load/wordprocessingbookmarksoptions)
 ### setBookmarkOptions(WordProcessingBookmarksOptions value) {#setBookmarkOptions-com.groupdocs.conversion.options.load.WordProcessingBookmarksOptions-}
@@ -328,6 +391,7 @@ public final void setBookmarkOptions(WordProcessingBookmarksOptions value)
 
 
 Bookmarks options
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -342,8 +406,10 @@ public boolean isPreserveFontFields()
 
 Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false.
 
+
 **Returns:**
 boolean - preserveFontFields flag
+
 ### setPreserveFontFields(boolean preserveFontFields) {#setPreserveFontFields-boolean-}
 ```
 public void setPreserveFontFields(boolean preserveFontFields)
@@ -352,10 +418,12 @@ public void setPreserveFontFields(boolean preserveFontFields)
 
 Sets preserveFontFields flag
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| preserveFontFields | boolean | preserve Microsoft Word form fields as form fields in PDF or convert them to text |
+| preserveFontFields | boolean | preserve Microsoft Word form fields as form fields in PDF or convert them to text
+ |
 
 ### isUseTextShaper() {#isUseTextShaper--}
 ```
@@ -364,6 +432,7 @@ public boolean isUseTextShaper()
 
 
 Specifies whether to use a text shaper for better kerning display. Default is false.
+
 
 **Returns:**
 boolean
@@ -375,10 +444,12 @@ public void setUseTextShaper(boolean isUseTextShaper)
 
 Specifies whether to use a text shaper for better kerning display. Default is false.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isUseTextShaper | boolean | isUseTextShaper flag |
+| isUseTextShaper | boolean | isUseTextShaper flag
+ |
 
 ### isPreserveDocumentStructure() {#isPreserveDocumentStructure--}
 ```
@@ -387,6 +458,7 @@ public boolean isPreserveDocumentStructure()
 
 
 Determines whether the document structure should be preserved when converting to PDF (default is false). Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+
 
 **Returns:**
 boolean
@@ -411,6 +483,7 @@ public boolean getSkipExternalResources()
 
 If true all external resource will not be loading with exception of the resources in the
 
+
 **Returns:**
 boolean
 ### setSkipExternalResources(boolean skip) {#setSkipExternalResources-boolean-}
@@ -433,6 +506,7 @@ public List<String> getWhitelistedResources()
 
 
 External resources that will be always loaded
+
 
 **Returns:**
 java.util.List<java.lang.String>
@@ -457,6 +531,7 @@ public WordProcessingCommentDisplay getCommentDisplayMode()
 
 Specifies how comments should be displayed in the output document. Default is ShowInBalloons.
 
+
 **Returns:**
 [WordProcessingCommentDisplay](../../com.groupdocs.conversion.options.load/wordprocessingcommentdisplay)
 ### setCommentDisplayMode(WordProcessingCommentDisplay commentDisplayMode) {#setCommentDisplayMode-com.groupdocs.conversion.options.load.WordProcessingCommentDisplay-}
@@ -479,6 +554,7 @@ public boolean getShowFullCommenterName()
 
 
 Show full commenter name in comments. Default is false.
+
 
 **Returns:**
 boolean
@@ -503,6 +579,7 @@ public boolean isPageNumbering()
 
 Enable or disable generation of page numbering in converted document. Default: false
 
+
 **Returns:**
 boolean
 ### setPageNumbering(boolean isPageNumbering) {#setPageNumbering-boolean-}
@@ -526,6 +603,7 @@ public HyphenationOptions getHyphenationOptions()
 
 Gets hyphenation options for WordProcessing documents.
 
+
 **Returns:**
 [HyphenationOptions](../../com.groupdocs.conversion.options.load/hyphenationoptions)
 ### setHyphenationOptions(HyphenationOptions hyphenationOptions) {#setHyphenationOptions-com.groupdocs.conversion.options.load.HyphenationOptions-}
@@ -535,6 +613,7 @@ public void setHyphenationOptions(HyphenationOptions hyphenationOptions)
 
 
 Sets hyphenation options for WordProcessing documents.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -549,6 +628,7 @@ public boolean isInterruptThreadIfImageExceptionThrown()
 
 Gets InterruptThreadIfImageExceptionThrown flag Default: false If true then interrupt the main conversion thread if an exception in a image processing thread occurred
 
+
 **Returns:**
 boolean
 ### setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfImageExceptionThrown) {#setInterruptThreadIfImageExceptionThrown-boolean-}
@@ -559,10 +639,53 @@ public void setInterruptThreadIfImageExceptionThrown(boolean interruptThreadIfIm
 
 Sets InterruptThreadIfImageExceptionThrown flag
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interruptThreadIfImageExceptionThrown | boolean |  |
+
+### isAutoDetectRtlDirection() {#isAutoDetectRtlDirection--}
+```
+public boolean isAutoDetectRtlDirection()
+```
+
+
+When enabled (default), paragraphs and runs whose text is dominantly right-to-left (RTL) will have their bidi flags repaired before conversion.
+
+
+This matches the heuristic applied by Microsoft Word and LibreOffice and
+fixes rendering of Arabic/Hebrew documents produced by generators
+(notably Google Docs) that emit OOXML without 
+
+
+and with 
+
+ on runs containing only RTL script.
+
+
+Set to 
+false
+ to preserve strict OOXML interpretation of the
+source markup.
+
+
+**Returns:**
+boolean
+### setAutoDetectRtlDirection(boolean autoDetectRtlDirection) {#setAutoDetectRtlDirection-boolean-}
+```
+public void setAutoDetectRtlDirection(boolean autoDetectRtlDirection)
+```
+
+
+Sets the autoDetectRtlDirection
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| autoDetectRtlDirection | boolean | autoDetectRtlDirection
+ |
 
 ### isConvertOwner() {#isConvertOwner--}
 ```
@@ -571,6 +694,7 @@ public boolean isConvertOwner()
 
 
 Gets option to control whether the documents container itself must be converted
+
 
 **Returns:**
 boolean
@@ -595,6 +719,7 @@ public boolean isConvertOwned()
 
 Option to control whether the owned documents in the documents container must be converted
 
+
 **Returns:**
 boolean
 ### setConvertOwned(boolean convertOwned) {#setConvertOwned-boolean-}
@@ -617,6 +742,7 @@ public int getDepth()
 
 
 Option to control how many levels in depth to perform conversion
+
 
 **Returns:**
 int

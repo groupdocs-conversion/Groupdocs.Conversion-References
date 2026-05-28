@@ -13,6 +13,7 @@ public class JsonDocumentInfo extends DocumentInfo
 ```
 
 Contains Json document metadata
+
 ## Constructors
 
 | Constructor | Description |

@@ -13,6 +13,7 @@ public class TxtDocumentInfo extends WordProcessingDocumentInfo
 ```
 
 Contains Txt document metadata
+
 ## Constructors
 
 | Constructor | Description |

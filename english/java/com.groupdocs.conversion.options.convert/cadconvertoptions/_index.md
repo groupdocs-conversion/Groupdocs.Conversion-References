@@ -16,11 +16,13 @@ public class CadConvertOptions extends ConvertOptions<CadFileType> implements IP
 ```
 
 Options for conversion to Cad type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CadConvertOptions()](#CadConvertOptions--) | Initializes new instance of  class. |
+| [CadConvertOptions()](#CadConvertOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,7 +37,8 @@ public CadConvertOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getPageNumber() {#getPageNumber--}
 ```
@@ -44,6 +47,7 @@ public Integer getPageNumber()
 
 
 Gets the page number to start conversion from.
+
 
 **Returns:**
 java.lang.Integer
@@ -54,6 +58,7 @@ public void setPageNumber(int pageNumber)
 
 
 Sets the page number to start conversion from.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -68,6 +73,7 @@ public Integer getPagesCount()
 
 Gets number of pages to convert starting from PageNumber.
 
+
 **Returns:**
 java.lang.Integer
 ### setPagesCount(int pagesCount) {#setPagesCount-int-}
@@ -77,6 +83,7 @@ public void setPagesCount(int pagesCount)
 
 
 Sets number of pages to convert starting from PageNumber.
+
 
 **Parameters:**
 | Parameter | Type | Description |

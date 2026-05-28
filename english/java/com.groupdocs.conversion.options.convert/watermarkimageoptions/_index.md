@@ -13,6 +13,7 @@ public class WatermarkImageOptions extends WatermarkOptions
 ```
 
 Options for settings watermark to the converted document
+
 ## Constructors
 
 | Constructor | Description |

@@ -8,11 +8,8 @@ url: /java/com.groupdocs.conversion.reporting/
 ---
 
 The GroupDocs.Conversion.Options.Load namespace provides classes to implement converter listening.
+**Learn more** More about monitoring conversion progress: [Listening to conversion process events](../https://docs.groupdocs.com/display/conversionnet/Listening)
 
-**Learn more**More about monitoring conversion progress: [Listening to conversion process events][]
-
-
-[Listening to conversion process events]: https://docs.groupdocs.com/display/conversionnet/Listening
 
 
 ## Interfaces

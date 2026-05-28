@@ -13,6 +13,7 @@ public class EpsDocumentInfo extends ImageDocumentInfo
 ```
 
 Contains Ps document metadata
+
 ## Constructors
 
 | Constructor | Description |

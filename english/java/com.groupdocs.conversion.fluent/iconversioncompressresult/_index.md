@@ -10,3 +10,4 @@ public interface IConversionCompressResult
 ```
 
 Can compress all conversion results in single archive
+

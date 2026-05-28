@@ -16,49 +16,77 @@ public final class EmailLoadOptions extends LoadOptions implements IDocumentsCon
 ```
 
 Options for loading Email documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmailLoadOptions()](#EmailLoadOptions--) | Initializes new instance of [EmailLoadOptions](../../com.groupdocs.conversion.options.load/emailloadoptions) class. |
+| [EmailLoadOptions()](#EmailLoadOptions--) | Initializes new instance of [EmailLoadOptions](../../com.groupdocs.conversion.options.load/emailloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getDisplayHeader()](#getDisplayHeader--) | Option to display or hide the email header. |
-| [setDisplayHeader(boolean value)](#setDisplayHeader-boolean-) | Option to display or hide the email header. |
-| [getDisplayFromEmailAddress()](#getDisplayFromEmailAddress--) | Option to display or hide "from" email address. |
-| [setDisplayFromEmailAddress(boolean value)](#setDisplayFromEmailAddress-boolean-) | Option to display or hide "from" email address. |
-| [getDisplayToEmailAddress()](#getDisplayToEmailAddress--) | Option to display or hide "to" email address. |
-| [setDisplayToEmailAddress(boolean value)](#setDisplayToEmailAddress-boolean-) | Option to display or hide "to" email address. |
-| [getDisplayCcEmailAddress()](#getDisplayCcEmailAddress--) | Option to display or hide "Cc" email address. |
-| [setDisplayCcEmailAddress(boolean value)](#setDisplayCcEmailAddress-boolean-) | Option to display or hide "Cc" email address. |
-| [getDisplayBccEmailAddress()](#getDisplayBccEmailAddress--) | Option to display or hide "Bcc" email address. |
-| [setDisplayBccEmailAddress(boolean value)](#setDisplayBccEmailAddress-boolean-) | Option to display or hide "Bcc" email address. |
-| [getTimeZoneOffset()](#getTimeZoneOffset--) | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. |
+| [getDisplayHeader()](#getDisplayHeader--) | Option to display or hide the email header.
+ |
+| [setDisplayHeader(boolean value)](#setDisplayHeader-boolean-) | Option to display or hide the email header.
+ |
+| [getDisplayFromEmailAddress()](#getDisplayFromEmailAddress--) | Option to display or hide "from" email address.
+ |
+| [setDisplayFromEmailAddress(boolean value)](#setDisplayFromEmailAddress-boolean-) | Option to display or hide "from" email address.
+ |
+| [getDisplayToEmailAddress()](#getDisplayToEmailAddress--) | Option to display or hide "to" email address.
+ |
+| [setDisplayToEmailAddress(boolean value)](#setDisplayToEmailAddress-boolean-) | Option to display or hide "to" email address.
+ |
+| [getDisplayCcEmailAddress()](#getDisplayCcEmailAddress--) | Option to display or hide "Cc" email address.
+ |
+| [setDisplayCcEmailAddress(boolean value)](#setDisplayCcEmailAddress-boolean-) | Option to display or hide "Cc" email address.
+ |
+| [getDisplayBccEmailAddress()](#getDisplayBccEmailAddress--) | Option to display or hide "Bcc" email address.
+ |
+| [setDisplayBccEmailAddress(boolean value)](#setDisplayBccEmailAddress-boolean-) | Option to display or hide "Bcc" email address.
+ |
+| [getTimeZoneOffset()](#getTimeZoneOffset--) | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates.
+ |
 | [getTimeZoneOffsetInternal()](#getTimeZoneOffsetInternal--) |  |
-| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Timeout for loading external resources |
-| [setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout)](#setResourceLoadingTimeout-com.aspose.ms.System.TimeSpan-) | Timeout for loading external resources (setter) |
-| [setTimeZoneOffset(Double value)](#setTimeZoneOffset-java.lang.Double-) | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. |
-| [deepClone()](#deepClone--) | Clones current instance. |
-| [getFieldTextMap()](#getFieldTextMap--) | Gets the mapping between email message  and field text representation |
-| [setFieldTextMap(Map<EmailField,String> fieldTextMap)](#setFieldTextMap-java.util.Map-com.groupdocs.conversion.options.load.EmailField-java.lang.String--) | Sets the mapping between email message  and field text representation |
-| [isPreserveOriginalDate()](#isPreserveOriginalDate--) | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
-| [setPreserveOriginalDate(boolean preserveOriginalDate)](#setPreserveOriginalDate-boolean-) | Defines whether need to keep original date header string in mail message when saving or not |
+| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Timeout for loading external resources
+ |
+| [setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout)](#setResourceLoadingTimeout-com.aspose.ms.System.TimeSpan-) | Timeout for loading external resources (setter)
+ |
+| [setTimeZoneOffset(Double value)](#setTimeZoneOffset-java.lang.Double-) | Gets or sets the Coordinated Universal Time (UTC) offset for the message dates.
+ |
+| [deepClone()](#deepClone--) | Clones current instance.
+ |
+| [getFieldTextMap()](#getFieldTextMap--) | Gets the mapping between email message and field text representation
+ |
+| [setFieldTextMap(Map<EmailField,String> fieldTextMap)](#setFieldTextMap-java.util.Map-com.groupdocs.conversion.options.load.EmailField-java.lang.String--) | Sets the mapping between email message and field text representation
+ |
+| [isPreserveOriginalDate()](#isPreserveOriginalDate--) | Defines whether need to keep original date header string in mail message when saving or not (Default value is true)
+ |
+| [setPreserveOriginalDate(boolean preserveOriginalDate)](#setPreserveOriginalDate-boolean-) | Defines whether need to keep original date header string in mail message when saving or not
+ |
 | [isConvertOwner()](#isConvertOwner--) |  |
 | [setConvertOwner(boolean convertOwner)](#setConvertOwner-boolean-) |  |
 | [isConvertOwned()](#isConvertOwned--) |  |
 | [setConvertOwned(boolean convertOwned)](#setConvertOwned-boolean-) |  |
 | [getDepth()](#getDepth--) |  |
 | [setDepth(int depth)](#setDepth-int-) |  |
-| [isDisplayAttachments()](#isDisplayAttachments--) | Gets option to display or hide attachments in the header. |
-| [setDisplayAttachments(boolean displayAttachments)](#setDisplayAttachments-boolean-) | Sets option to display or hide attachments in the header. |
-| [isDisplaySubject()](#isDisplaySubject--) | Gets option to display or hide subject in the header. |
-| [setDisplaySubject(boolean displaySubject)](#setDisplaySubject-boolean-) | Sets option to display or hide subject in the header |
-| [isDisplaySent()](#isDisplaySent--) | Gets option to display or hide sent date/time in the header. |
-| [setDisplaySent(boolean displaySent)](#setDisplaySent-boolean-) | Sets option to display or hide sent date/time in the header. |
-| [isSkipExternalResources()](#isSkipExternalResources--) | Skips the http resource loading if true |
+| [isDisplayAttachments()](#isDisplayAttachments--) | Gets option to display or hide attachments in the header.
+ |
+| [setDisplayAttachments(boolean displayAttachments)](#setDisplayAttachments-boolean-) | Sets option to display or hide attachments in the header.
+ |
+| [isDisplaySubject()](#isDisplaySubject--) | Gets option to display or hide subject in the header.
+ |
+| [setDisplaySubject(boolean displaySubject)](#setDisplaySubject-boolean-) | Sets option to display or hide subject in the header
+ |
+| [isDisplaySent()](#isDisplaySent--) | Gets option to display or hide sent date/time in the header.
+ |
+| [setDisplaySent(boolean displaySent)](#setDisplaySent-boolean-) | Sets option to display or hide sent date/time in the header.
+ |
+| [isSkipExternalResources()](#isSkipExternalResources--) | Skips the http resource loading if true
+ |
 | [setSkipExternalResources(boolean skipExternalResources)](#setSkipExternalResources-boolean-) |  |
 ### EmailLoadOptions() {#EmailLoadOptions--}
 ```
@@ -68,6 +96,7 @@ public EmailLoadOptions()
 
 Initializes new instance of [EmailLoadOptions](../../com.groupdocs.conversion.options.load/emailloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final EmailFileType getFormat()
@@ -75,6 +104,7 @@ public final EmailFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [EmailFileType](../../com.groupdocs.conversion.filetypes/emailfiletype)
@@ -86,6 +116,7 @@ public final boolean getDisplayHeader()
 
 Option to display or hide the email header. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplayHeader(boolean value) {#setDisplayHeader-boolean-}
@@ -95,6 +126,7 @@ public final void setDisplayHeader(boolean value)
 
 
 Option to display or hide the email header. Default: true.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -109,6 +141,7 @@ public final boolean getDisplayFromEmailAddress()
 
 Option to display or hide "from" email address. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplayFromEmailAddress(boolean value) {#setDisplayFromEmailAddress-boolean-}
@@ -118,6 +151,7 @@ public final void setDisplayFromEmailAddress(boolean value)
 
 
 Option to display or hide "from" email address. Default: true.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,6 +166,7 @@ public final boolean getDisplayToEmailAddress()
 
 Option to display or hide "to" email address. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplayToEmailAddress(boolean value) {#setDisplayToEmailAddress-boolean-}
@@ -141,6 +176,7 @@ public final void setDisplayToEmailAddress(boolean value)
 
 
 Option to display or hide "to" email address. Default: true.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,6 +191,7 @@ public final boolean getDisplayCcEmailAddress()
 
 Option to display or hide "Cc" email address. Default: false.
 
+
 **Returns:**
 boolean
 ### setDisplayCcEmailAddress(boolean value) {#setDisplayCcEmailAddress-boolean-}
@@ -164,6 +201,7 @@ public final void setDisplayCcEmailAddress(boolean value)
 
 
 Option to display or hide "Cc" email address. Default: false.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,6 +216,7 @@ public final boolean getDisplayBccEmailAddress()
 
 Option to display or hide "Bcc" email address. Default: false.
 
+
 **Returns:**
 boolean
 ### setDisplayBccEmailAddress(boolean value) {#setDisplayBccEmailAddress-boolean-}
@@ -187,6 +226,7 @@ public final void setDisplayBccEmailAddress(boolean value)
 
 
 Option to display or hide "Bcc" email address. Default: false.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -200,6 +240,7 @@ public final Double getTimeZoneOffset()
 
 
 Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC.
+
 
 **Returns:**
 java.lang.Double
@@ -221,6 +262,7 @@ public System.TimeSpan getResourceLoadingTimeout()
 
 Timeout for loading external resources
 
+
 **Returns:**
 com.aspose.ms.System.TimeSpan
 ### setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout) {#setResourceLoadingTimeout-com.aspose.ms.System.TimeSpan-}
@@ -230,6 +272,7 @@ public void setResourceLoadingTimeout(System.TimeSpan resourceLoadingTimeout)
 
 
 Timeout for loading external resources (setter)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,6 +287,7 @@ public final void setTimeZoneOffset(Double value)
 
 Gets or sets the Coordinated Universal Time (UTC) offset for the message dates. This property defines the time zone difference, between the localtime and UTC.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -257,6 +301,7 @@ public final Object deepClone()
 
 Clones current instance.
 
+
 **Returns:**
 java.lang.Object - 
 ### getFieldTextMap() {#getFieldTextMap--}
@@ -265,22 +310,26 @@ public Map<EmailField,String> getFieldTextMap()
 ```
 
 
-Gets the mapping between email message  and field text representation
+Gets the mapping between email message and field text representation
+
 
 **Returns:**
 java.util.Map<com.groupdocs.conversion.options.load.EmailField,java.lang.String> - mapping
+
 ### setFieldTextMap(Map<EmailField,String> fieldTextMap) {#setFieldTextMap-java.util.Map-com.groupdocs.conversion.options.load.EmailField-java.lang.String--}
 ```
 public void setFieldTextMap(Map<EmailField,String> fieldTextMap)
 ```
 
 
-Sets the mapping between email message  and field text representation
+Sets the mapping between email message and field text representation
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldTextMap | java.util.Map<com.groupdocs.conversion.options.load.EmailField,java.lang.String> | mapping |
+| fieldTextMap | java.util.Map<com.groupdocs.conversion.options.load.EmailField,java.lang.String> | mapping
+ |
 
 ### isPreserveOriginalDate() {#isPreserveOriginalDate--}
 ```
@@ -290,8 +339,10 @@ public boolean isPreserveOriginalDate()
 
 Defines whether need to keep original date header string in mail message when saving or not (Default value is true)
 
+
 **Returns:**
 boolean - preserve original date if true
+
 ### setPreserveOriginalDate(boolean preserveOriginalDate) {#setPreserveOriginalDate-boolean-}
 ```
 public void setPreserveOriginalDate(boolean preserveOriginalDate)
@@ -300,10 +351,12 @@ public void setPreserveOriginalDate(boolean preserveOriginalDate)
 
 Defines whether need to keep original date header string in mail message when saving or not
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| preserveOriginalDate | boolean | preserve original date |
+| preserveOriginalDate | boolean | preserve original date
+ |
 
 ### isConvertOwner() {#isConvertOwner--}
 ```
@@ -312,6 +365,7 @@ public boolean isConvertOwner()
 
 
 Gets option to control whether the documents container itself must be converted
+
 
 **Returns:**
 boolean
@@ -336,6 +390,7 @@ public boolean isConvertOwned()
 
 Option to control whether the owned documents in the documents container must be converted
 
+
 **Returns:**
 boolean
 ### setConvertOwned(boolean convertOwned) {#setConvertOwned-boolean-}
@@ -358,6 +413,7 @@ public int getDepth()
 
 
 Option to control how many levels in depth to perform conversion
+
 
 **Returns:**
 int
@@ -382,6 +438,7 @@ public boolean isDisplayAttachments()
 
 Gets option to display or hide attachments in the header. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplayAttachments(boolean displayAttachments) {#setDisplayAttachments-boolean-}
@@ -391,6 +448,7 @@ public void setDisplayAttachments(boolean displayAttachments)
 
 
 Sets option to display or hide attachments in the header.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,6 +463,7 @@ public boolean isDisplaySubject()
 
 Gets option to display or hide subject in the header. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplaySubject(boolean displaySubject) {#setDisplaySubject-boolean-}
@@ -414,6 +473,7 @@ public void setDisplaySubject(boolean displaySubject)
 
 
 Sets option to display or hide subject in the header
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -428,6 +488,7 @@ public boolean isDisplaySent()
 
 Gets option to display or hide sent date/time in the header. Default: true.
 
+
 **Returns:**
 boolean
 ### setDisplaySent(boolean displaySent) {#setDisplaySent-boolean-}
@@ -437,6 +498,7 @@ public void setDisplaySent(boolean displaySent)
 
 
 Sets option to display or hide sent date/time in the header.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -450,6 +512,7 @@ public boolean isSkipExternalResources()
 
 
 Skips the http resource loading if true
+
 
 **Returns:**
 boolean

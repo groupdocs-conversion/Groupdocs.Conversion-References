@@ -13,6 +13,7 @@ public class WordProcessingDocumentInfo extends DocumentInfo
 ```
 
 Contains Wordprocessing document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,12 +23,18 @@ Contains Wordprocessing document metadata
 
 | Method | Description |
 | --- | --- |
-| [getWords()](#getWords--) | Gets words count |
-| [getLines()](#getLines--) | Gets lines count |
-| [getTitle()](#getTitle--) | Gets title |
-| [getAuthor()](#getAuthor--) | Gets author |
-| [isPasswordProtected()](#isPasswordProtected--) | Gets is document password protected |
-| [getTableOfContents()](#getTableOfContents--) | Table of contents |
+| [getWords()](#getWords--) | Gets words count
+ |
+| [getLines()](#getLines--) | Gets lines count
+ |
+| [getTitle()](#getTitle--) | Gets title
+ |
+| [getAuthor()](#getAuthor--) | Gets author
+ |
+| [isPasswordProtected()](#isPasswordProtected--) | Gets is document password protected
+ |
+| [getTableOfContents()](#getTableOfContents--) | Table of contents
+ |
 ### WordProcessingDocumentInfo(Document wordprocessing, boolean isPasswordProtected, FileType format, long size) {#WordProcessingDocumentInfo-com.aspose.words.Document-boolean-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public WordProcessingDocumentInfo(Document wordprocessing, boolean isPasswordProtected, FileType format, long size)
@@ -50,8 +57,10 @@ public int getWords()
 
 Gets words count
 
+
 **Returns:**
 int - words count
+
 ### getLines() {#getLines--}
 ```
 public int getLines()
@@ -60,8 +69,10 @@ public int getLines()
 
 Gets lines count
 
+
 **Returns:**
 int - lines count
+
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
@@ -70,8 +81,10 @@ public String getTitle()
 
 Gets title
 
+
 **Returns:**
 java.lang.String - title
+
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
@@ -80,8 +93,10 @@ public String getAuthor()
 
 Gets author
 
+
 **Returns:**
 java.lang.String - author
+
 ### isPasswordProtected() {#isPasswordProtected--}
 ```
 public boolean isPasswordProtected()
@@ -90,8 +105,10 @@ public boolean isPasswordProtected()
 
 Gets is document password protected
 
+
 **Returns:**
 boolean - `true` if document is password protected
+
 ### getTableOfContents() {#getTableOfContents--}
 ```
 public List<TableOfContentsItem> getTableOfContents()
@@ -100,5 +117,7 @@ public List<TableOfContentsItem> getTableOfContents()
 
 Table of contents
 
+
 **Returns:**
 java.util.List<com.groupdocs.conversion.contracts.documentinfo.TableOfContentsItem> - Table of contents
+

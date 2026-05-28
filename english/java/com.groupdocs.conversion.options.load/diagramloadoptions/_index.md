@@ -16,18 +16,22 @@ public final class DiagramLoadOptions extends LoadOptions implements Serializabl
 ```
 
 Options for loading Diagram documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DiagramLoadOptions()](#DiagramLoadOptions--) | Initializes new instance of [DiagramLoadOptions](../../com.groupdocs.conversion.options.load/diagramloadoptions) class. |
+| [DiagramLoadOptions()](#DiagramLoadOptions--) | Initializes new instance of [DiagramLoadOptions](../../com.groupdocs.conversion.options.load/diagramloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getDefaultFont()](#getDefaultFont--) | Default font for Diagram document. |
-| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Diagram document. |
+| [getDefaultFont()](#getDefaultFont--) | Default font for Diagram document.
+ |
+| [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | Default font for Diagram document.
+ |
 ### DiagramLoadOptions() {#DiagramLoadOptions--}
 ```
 public DiagramLoadOptions()
@@ -36,6 +40,7 @@ public DiagramLoadOptions()
 
 Initializes new instance of [DiagramLoadOptions](../../com.groupdocs.conversion.options.load/diagramloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final DiagramFileType getFormat()
@@ -43,6 +48,7 @@ public final DiagramFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [DiagramFileType](../../com.groupdocs.conversion.filetypes/diagramfiletype)
@@ -54,6 +60,7 @@ public final String getDefaultFont()
 
 Default font for Diagram document. The following font will be used if a font is missing.
 
+
 **Returns:**
 java.lang.String
 ### setDefaultFont(String value) {#setDefaultFont-java.lang.String-}
@@ -63,6 +70,7 @@ public final void setDefaultFont(String value)
 
 
 Default font for Diagram document. The following font will be used if a font is missing.
+
 
 **Parameters:**
 | Parameter | Type | Description |

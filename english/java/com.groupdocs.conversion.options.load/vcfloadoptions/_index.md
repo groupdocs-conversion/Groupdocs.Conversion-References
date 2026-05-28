@@ -13,16 +13,19 @@ public class VcfLoadOptions extends LoadOptions
 ```
 
 Options for loading Vcf documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VcfLoadOptions()](#VcfLoadOptions--) | Initializes new instance of  class. |
+| [VcfLoadOptions()](#VcfLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getEncoding()](#getEncoding--) | Gets or sets the encoding that will be used when loading Vcf document. |
+| [getEncoding()](#getEncoding--) | Gets or sets the encoding that will be used when loading Vcf document.
+ |
 | [setEncoding(System.Text.Encoding encoding)](#setEncoding-com.aspose.ms.System.Text.Encoding-) |  |
 ### VcfLoadOptions() {#VcfLoadOptions--}
 ```
@@ -30,7 +33,8 @@ public VcfLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getEncoding() {#getEncoding--}
 ```
@@ -39,6 +43,7 @@ public System.Text.Encoding getEncoding()
 
 
 Gets or sets the encoding that will be used when loading Vcf document. Default is Encoding.Default.
+
 
 **Returns:**
 com.aspose.ms.System.Text.Encoding

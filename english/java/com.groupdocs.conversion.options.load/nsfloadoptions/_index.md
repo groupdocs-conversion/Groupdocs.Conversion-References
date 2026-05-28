@@ -16,6 +16,7 @@ public class NsfLoadOptions extends LoadOptions implements IDocumentsContainerLo
 ```
 
 Options for loading Nsf documents.
+
 ## Constructors
 
 | Constructor | Description |
@@ -26,7 +27,8 @@ Options for loading Nsf documents.
 | Method | Description |
 | --- | --- |
 | [isConvertOwner()](#isConvertOwner--) |  |
-| [isConvertOwned()](#isConvertOwned--) | \{@inheritDoc\} |
+| [isConvertOwned()](#isConvertOwned--) | {@inheritDoc}
+ |
 | [getDepth()](#getDepth--) |  |
 | [setDepth(int depth)](#setDepth-int-) |  |
 ### NsfLoadOptions() {#NsfLoadOptions--}
@@ -43,6 +45,7 @@ public boolean isConvertOwner()
 
 Gets option to control whether the documents container itself must be converted
 
+
 **Returns:**
 boolean
 ### isConvertOwned() {#isConvertOwned--}
@@ -53,6 +56,7 @@ public boolean isConvertOwned()
 
 Option to control whether the owned documents in the documents container must be converted
 
+
 **Returns:**
 boolean
 ### getDepth() {#getDepth--}
@@ -62,6 +66,7 @@ public int getDepth()
 
 
 Option to control how many levels in depth to perform conversion
+
 
 **Returns:**
 int

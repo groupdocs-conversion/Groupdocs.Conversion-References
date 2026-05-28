@@ -13,6 +13,7 @@ public class ImageDocumentInfo extends DocumentInfo
 ```
 
 Contains Image document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Contains Image document metadata
 
 | Method | Description |
 | --- | --- |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets bits per pixel |
-| [getHeight()](#getHeight--) | Gets height |
-| [getWidth()](#getWidth--) | Gets width |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Gets bits per pixel
+ |
+| [getHeight()](#getHeight--) | Gets height
+ |
+| [getWidth()](#getWidth--) | Gets width
+ |
 ### ImageDocumentInfo(Image image, FileType format, long size) {#ImageDocumentInfo-com.aspose.imaging.Image-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public ImageDocumentInfo(Image image, FileType format, long size)
@@ -46,8 +50,10 @@ public int getBitsPerPixel()
 
 Gets bits per pixel
 
+
 **Returns:**
 int - bits per pixel
+
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
@@ -56,8 +62,10 @@ public int getHeight()
 
 Gets height
 
+
 **Returns:**
 int - height
+
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -66,5 +74,7 @@ public int getWidth()
 
 Gets width
 
+
 **Returns:**
 int - width
+

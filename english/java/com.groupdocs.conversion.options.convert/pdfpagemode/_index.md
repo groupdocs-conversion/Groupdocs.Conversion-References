@@ -16,21 +16,29 @@ public class PdfPageMode extends Enumeration implements Serializable
 ```
 
 Describes Pdf page mode
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfPageMode()](#PdfPageMode--) | Serialization constructor |
+| [PdfPageMode()](#PdfPageMode--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [UseNone](#UseNone) | Don't use any components. |
-| [UseOutlines](#UseOutlines) | Document outline visible. |
-| [UseThumbs](#UseThumbs) | Thumbnail images visible. |
-| [FullScreen](#FullScreen) | FullScreenFull-screen mode, with no menu bar, window controls, or any other window visible. |
-| [UseOC](#UseOC) | Optional content group panel visible. |
-| [UseAttachments](#UseAttachments) | Attachments panel visible. |
+| [UseNone](#UseNone) | Don't use any components.
+ |
+| [UseOutlines](#UseOutlines) | Document outline visible.
+ |
+| [UseThumbs](#UseThumbs) | Thumbnail images visible.
+ |
+| [FullScreen](#FullScreen) | FullScreenFull-screen mode, with no menu bar, window controls, or any other window visible.
+ |
+| [UseOC](#UseOC) | Optional content group panel visible.
+ |
+| [UseAttachments](#UseAttachments) | Attachments panel visible.
+ |
 ### PdfPageMode() {#PdfPageMode--}
 ```
 public PdfPageMode()
@@ -38,6 +46,7 @@ public PdfPageMode()
 
 
 Serialization constructor
+
 
 ### UseNone {#UseNone}
 ```
@@ -47,6 +56,7 @@ public static final PdfPageMode UseNone
 
 Don't use any components.
 
+
 ### UseOutlines {#UseOutlines}
 ```
 public static final PdfPageMode UseOutlines
@@ -54,6 +64,7 @@ public static final PdfPageMode UseOutlines
 
 
 Document outline visible.
+
 
 ### UseThumbs {#UseThumbs}
 ```
@@ -63,6 +74,7 @@ public static final PdfPageMode UseThumbs
 
 Thumbnail images visible.
 
+
 ### FullScreen {#FullScreen}
 ```
 public static final PdfPageMode FullScreen
@@ -70,6 +82,7 @@ public static final PdfPageMode FullScreen
 
 
 FullScreenFull-screen mode, with no menu bar, window controls, or any other window visible.
+
 
 ### UseOC {#UseOC}
 ```
@@ -79,6 +92,7 @@ public static final PdfPageMode UseOC
 
 Optional content group panel visible.
 
+
 ### UseAttachments {#UseAttachments}
 ```
 public static final PdfPageMode UseAttachments
@@ -86,4 +100,5 @@ public static final PdfPageMode UseAttachments
 
 
 Attachments panel visible.
+
 

@@ -13,6 +13,7 @@ public class PersonalStorageDocumentInfo extends DocumentInfo
 ```
 
 Contains personal storage document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,10 +23,14 @@ Contains personal storage document metadata
 
 | Method | Description |
 | --- | --- |
-| [isPasswordProtected()](#isPasswordProtected--) | Is storage password protected |
-| [getRootFolderName()](#getRootFolderName--) | Root folder name |
-| [getContentCount()](#getContentCount--) | Get count of contents in the root folder |
-| [getFolders()](#getFolders--) | Folders in the storage |
+| [isPasswordProtected()](#isPasswordProtected--) | Is storage password protected
+ |
+| [getRootFolderName()](#getRootFolderName--) | Root folder name
+ |
+| [getContentCount()](#getContentCount--) | Get count of contents in the root folder
+ |
+| [getFolders()](#getFolders--) | Folders in the storage
+ |
 ### PersonalStorageDocumentInfo(PersonalStorage storage, FileType format, long size) {#PersonalStorageDocumentInfo-com.aspose.email.PersonalStorage-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public PersonalStorageDocumentInfo(PersonalStorage storage, FileType format, long size)
@@ -47,6 +52,7 @@ public boolean isPasswordProtected()
 
 Is storage password protected
 
+
 **Returns:**
 boolean
 ### getRootFolderName() {#getRootFolderName--}
@@ -57,8 +63,10 @@ public String getRootFolderName()
 
 Root folder name
 
+
 **Returns:**
 java.lang.String - Root folder name
+
 ### getContentCount() {#getContentCount--}
 ```
 public int getContentCount()
@@ -67,8 +75,10 @@ public int getContentCount()
 
 Get count of contents in the root folder
 
+
 **Returns:**
 int - count of contents in the root folder
+
 ### getFolders() {#getFolders--}
 ```
 public List<PersonalStorageFolderInfo> getFolders()
@@ -77,5 +87,7 @@ public List<PersonalStorageFolderInfo> getFolders()
 
 Folders in the storage
 
+
 **Returns:**
 java.util.List<com.groupdocs.conversion.contracts.documentinfo.PersonalStorageFolderInfo> - Folders in the storage
+

@@ -13,6 +13,7 @@ public class ProjectManagementDocumentInfo extends DocumentInfo
 ```
 
 Contains ProjectManagement document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Contains ProjectManagement document metadata
 
 | Method | Description |
 | --- | --- |
-| [getTasksCount()](#getTasksCount--) | Gets task count |
-| [getStartDate()](#getStartDate--) | Gets Project start date |
-| [getEndDate()](#getEndDate--) | Gets Project end date |
+| [getTasksCount()](#getTasksCount--) | Gets task count
+ |
+| [getStartDate()](#getStartDate--) | Gets Project start date
+ |
+| [getEndDate()](#getEndDate--) | Gets Project end date
+ |
 ### ProjectManagementDocumentInfo(Project project, FileType format, long size) {#ProjectManagementDocumentInfo-com.aspose.tasks.Project-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public ProjectManagementDocumentInfo(Project project, FileType format, long size)
@@ -46,8 +50,10 @@ public int getTasksCount()
 
 Gets task count
 
+
 **Returns:**
 int - task count
+
 ### getStartDate() {#getStartDate--}
 ```
 public Date getStartDate()
@@ -56,8 +62,10 @@ public Date getStartDate()
 
 Gets Project start date
 
+
 **Returns:**
 java.util.Date - Project start date
+
 ### getEndDate() {#getEndDate--}
 ```
 public Date getEndDate()
@@ -66,5 +74,7 @@ public Date getEndDate()
 
 Gets Project end date
 
+
 **Returns:**
 java.util.Date - Project end date
+

@@ -16,17 +16,21 @@ public class PdfDirection extends Enumeration implements Serializable
 ```
 
 Describes Pdf text direction.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfDirection()](#PdfDirection--) | Serialization constructor |
+| [PdfDirection()](#PdfDirection--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [L2R](#L2R) | Left to right. |
-| [R2L](#R2L) | Right to left. |
+| [L2R](#L2R) | Left to right.
+ |
+| [R2L](#R2L) | Right to left.
+ |
 ### PdfDirection() {#PdfDirection--}
 ```
 public PdfDirection()
@@ -34,6 +38,7 @@ public PdfDirection()
 
 
 Serialization constructor
+
 
 ### L2R {#L2R}
 ```
@@ -43,6 +48,7 @@ public static final PdfDirection L2R
 
 Left to right.
 
+
 ### R2L {#R2L}
 ```
 public static final PdfDirection R2L
@@ -50,4 +56,5 @@ public static final PdfDirection R2L
 
 
 Right to left.
+
 

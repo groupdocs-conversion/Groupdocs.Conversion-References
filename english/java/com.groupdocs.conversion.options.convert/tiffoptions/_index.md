@@ -16,17 +16,21 @@ public final class TiffOptions extends ValueObject implements Serializable
 ```
 
 Options for conversion to TIFF file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TiffOptions()](#TiffOptions--) | ctor |
+| [TiffOptions()](#TiffOptions--) | ctor
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCompression()](#getCompression--) | Sets Tiff compression. |
-| [setCompression(TiffCompressionMethods value)](#setCompression-com.groupdocs.conversion.options.convert.TiffCompressionMethods-) | Sets Tiff compression. |
+| [getCompression()](#getCompression--) | Sets Tiff compression.
+ |
+| [setCompression(TiffCompressionMethods value)](#setCompression-com.groupdocs.conversion.options.convert.TiffCompressionMethods-) | Sets Tiff compression.
+ |
 ### TiffOptions() {#TiffOptions--}
 ```
 public TiffOptions()
@@ -35,6 +39,7 @@ public TiffOptions()
 
 ctor
 
+
 ### getCompression() {#getCompression--}
 ```
 public final TiffCompressionMethods getCompression()
@@ -42,6 +47,7 @@ public final TiffCompressionMethods getCompression()
 
 
 Sets Tiff compression.
+
 
 **Returns:**
 [TiffCompressionMethods](../../com.groupdocs.conversion.options.convert/tiffcompressionmethods)
@@ -52,6 +58,7 @@ public final void setCompression(TiffCompressionMethods value)
 
 
 Sets Tiff compression.
+
 
 **Parameters:**
 | Parameter | Type | Description |

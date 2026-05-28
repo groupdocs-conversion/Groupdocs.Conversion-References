@@ -13,13 +13,17 @@ public final class FileTypeNotSupportedException extends GroupDocsConversionExce
 ```
 
 GroupDocs exception thrown when the file type is not supported
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileTypeNotSupportedException()](#FileTypeNotSupportedException--) | Default constructor |
-| [FileTypeNotSupportedException(FileType fileType)](#FileTypeNotSupportedException-com.groupdocs.conversion.filetypes.FileType-) | Creates an exception instance with a FileType |
-| [FileTypeNotSupportedException(String message)](#FileTypeNotSupportedException-java.lang.String-) | Creates an exception instance with a message |
+| [FileTypeNotSupportedException()](#FileTypeNotSupportedException--) | Default constructor
+ |
+| [FileTypeNotSupportedException(FileType fileType)](#FileTypeNotSupportedException-com.groupdocs.conversion.filetypes.FileType-) | Creates an exception instance with a FileType
+ |
+| [FileTypeNotSupportedException(String message)](#FileTypeNotSupportedException-java.lang.String-) | Creates an exception instance with a message
+ |
 ### FileTypeNotSupportedException() {#FileTypeNotSupportedException--}
 ```
 public FileTypeNotSupportedException()
@@ -27,6 +31,7 @@ public FileTypeNotSupportedException()
 
 
 Default constructor
+
 
 ### FileTypeNotSupportedException(FileType fileType) {#FileTypeNotSupportedException-com.groupdocs.conversion.filetypes.FileType-}
 ```
@@ -36,10 +41,12 @@ public FileTypeNotSupportedException(FileType fileType)
 
 Creates an exception instance with a FileType
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileType | [FileType](../../com.groupdocs.conversion.filetypes/filetype) | The file type |
+| fileType | [FileType](../../com.groupdocs.conversion.filetypes/filetype) | The file type
+ |
 
 ### FileTypeNotSupportedException(String message) {#FileTypeNotSupportedException-java.lang.String-}
 ```
@@ -49,8 +56,10 @@ public FileTypeNotSupportedException(String message)
 
 Creates an exception instance with a message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message |
+| message | java.lang.String | The message
+ |
 

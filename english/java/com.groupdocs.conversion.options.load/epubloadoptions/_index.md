@@ -16,11 +16,13 @@ public final class EpubLoadOptions extends LoadOptions implements Serializable
 ```
 
 Options for loading Epub documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EpubLoadOptions()](#EpubLoadOptions--) | Initializes new instance of [EpubLoadOptions](../../com.groupdocs.conversion.options.load/epubloadoptions) class. |
+| [EpubLoadOptions()](#EpubLoadOptions--) | Initializes new instance of [EpubLoadOptions](../../com.groupdocs.conversion.options.load/epubloadoptions) class.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +36,7 @@ public EpubLoadOptions()
 
 Initializes new instance of [EpubLoadOptions](../../com.groupdocs.conversion.options.load/epubloadoptions) class.
 
+
 ### getFormat() {#getFormat--}
 ```
 public final EBookFileType getFormat()
@@ -41,6 +44,7 @@ public final EBookFileType getFormat()
 
 
 Input document file type
+
 
 **Returns:**
 [EBookFileType](../../com.groupdocs.conversion.filetypes/ebookfiletype)

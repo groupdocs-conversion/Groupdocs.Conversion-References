@@ -13,6 +13,7 @@ public class DiagramDocumentInfo extends DocumentInfo
 ```
 
 Contains Diagram document metadata
+
 ## Constructors
 
 | Constructor | Description |

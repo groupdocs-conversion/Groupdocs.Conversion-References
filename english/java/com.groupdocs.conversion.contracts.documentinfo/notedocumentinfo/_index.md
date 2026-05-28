@@ -13,6 +13,7 @@ public class NoteDocumentInfo extends DocumentInfo
 ```
 
 Contains Note document metadata
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Contains Note document metadata
 
 | Method | Description |
 | --- | --- |
-| [getTitle()](#getTitle--) | Gets title |
+| [getTitle()](#getTitle--) | Gets title
+ |
 ### NoteDocumentInfo(Document note, FileType format, long size) {#NoteDocumentInfo-com.aspose.note.Document-com.groupdocs.conversion.filetypes.FileType-long-}
 ```
 public NoteDocumentInfo(Document note, FileType format, long size)
@@ -44,5 +46,7 @@ public String getTitle()
 
 Gets title
 
+
 **Returns:**
 java.lang.String - title
+

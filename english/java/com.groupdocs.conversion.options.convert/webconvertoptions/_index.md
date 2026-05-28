@@ -13,11 +13,13 @@ public class WebConvertOptions extends CommonConvertOptions<WebFileType>
 ```
 
 Options for conversion to Web file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WebConvertOptions()](#WebConvertOptions--) | Initializes new instance of  class. |
+| [WebConvertOptions()](#WebConvertOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
@@ -30,15 +32,18 @@ Options for conversion to Web file type.
 | [setFixedLayoutShowBorders(boolean fixedLayoutShowBorders)](#setFixedLayoutShowBorders-boolean-) |  |
 | [getZoom()](#getZoom--) |  |
 | [setZoom(int zoom)](#setZoom-int-) |  |
-| [isEmbedFontResources()](#isEmbedFontResources--) | Specifies whether to embed font resources within the main HTML. |
-| [setEmbedFontResources(boolean embedFontResources)](#setEmbedFontResources-boolean-) | Specifies whether to embed font resources within the main HTML. |
+| [isEmbedFontResources()](#isEmbedFontResources--) | Specifies whether to embed font resources within the main HTML.
+ |
+| [setEmbedFontResources(boolean embedFontResources)](#setEmbedFontResources-boolean-) | Specifies whether to embed font resources within the main HTML.
+ |
 ### WebConvertOptions() {#WebConvertOptions--}
 ```
 public WebConvertOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### isUsePdf() {#isUsePdf--}
 ```
@@ -140,6 +145,7 @@ public boolean isEmbedFontResources()
 
 Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded.
 
+
 **Returns:**
 boolean
 ### setEmbedFontResources(boolean embedFontResources) {#setEmbedFontResources-boolean-}
@@ -149,6 +155,7 @@ public void setEmbedFontResources(boolean embedFontResources)
 
 
 Specifies whether to embed font resources within the main HTML. Default is false. Note: If FixedLayout is set to true, font resources will always be embedded.
+
 
 **Parameters:**
 | Parameter | Type | Description |

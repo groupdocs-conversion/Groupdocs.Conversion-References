@@ -13,24 +13,29 @@ public class EBookLoadOptions extends LoadOptions
 ```
 
 Options for loading EBook documents.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EBookLoadOptions()](#EBookLoadOptions--) | Initializes new instance of  class. |
+| [EBookLoadOptions()](#EBookLoadOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Gets Input document file type. |
-| [setFormat(EBookFileType format)](#setFormat-com.groupdocs.conversion.filetypes.EBookFileType-) | Sets Input document file type. |
+| [getFormat()](#getFormat--) | Gets Input document file type.
+ |
+| [setFormat(EBookFileType format)](#setFormat-com.groupdocs.conversion.filetypes.EBookFileType-) | Sets Input document file type.
+ |
 ### EBookLoadOptions() {#EBookLoadOptions--}
 ```
 public EBookLoadOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getFormat() {#getFormat--}
 ```
@@ -39,6 +44,7 @@ public EBookFileType getFormat()
 
 
 Gets Input document file type.
+
 
 **Returns:**
 [EBookFileType](../../com.groupdocs.conversion.filetypes/ebookfiletype)
@@ -49,6 +55,7 @@ public void setFormat(EBookFileType format)
 
 
 Sets Input document file type.
+
 
 **Parameters:**
 | Parameter | Type | Description |

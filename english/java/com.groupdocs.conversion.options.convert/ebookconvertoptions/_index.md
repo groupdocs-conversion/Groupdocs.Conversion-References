@@ -16,11 +16,13 @@ public class EBookConvertOptions extends CommonConvertOptions<EBookFileType> imp
 ```
 
 Options for conversion to EBook file type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EBookConvertOptions()](#EBookConvertOptions--) | Initializes new instance of  class. |
+| [EBookConvertOptions()](#EBookConvertOptions--) | Initializes new instance of class.
+ |
 ## Methods
 
 | Method | Description |
@@ -39,7 +41,8 @@ public EBookConvertOptions()
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of class.
+
 
 ### getPageSize() {#getPageSize--}
 ```
@@ -48,6 +51,7 @@ public PageSize getPageSize()
 
 
 Gets desired page size after conversion
+
 
 **Returns:**
 [PageSize](../../com.groupdocs.conversion.options.convert/pagesize)
@@ -58,6 +62,7 @@ public void setPageSize(PageSize pageSize)
 
 
 Set desired page size after conversion
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -70,7 +75,8 @@ public float getPageWidth()
 ```
 
 
-Specified page width in points if  is set to PageSize.Custom
+Specified page width in points if is set to PageSize.Custom
+
 
 **Returns:**
 float
@@ -81,6 +87,7 @@ public void setPageWidth(float pageWidth)
 
 
 Set desired page width
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -93,7 +100,8 @@ public float getPageHeight()
 ```
 
 
-Specified page height in points if  is set to PageSize.Custom
+Specified page height in points if is set to PageSize.Custom
+
 
 **Returns:**
 float
@@ -104,6 +112,7 @@ public void setPageHeight(float pageHeight)
 
 
 Set desired page height
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -118,6 +127,7 @@ public PageOrientation getPageOrientation()
 
 Gets page orientation after conversion
 
+
 **Returns:**
 [PageOrientation](../../com.groupdocs.conversion.options.convert/pageorientation)
 ### setPageOrientation(PageOrientation pageOrientation) {#setPageOrientation-com.groupdocs.conversion.options.convert.PageOrientation-}
@@ -127,6 +137,7 @@ public void setPageOrientation(PageOrientation pageOrientation)
 
 
 Sets desired page orientation after conversion
+
 
 **Parameters:**
 | Parameter | Type | Description |

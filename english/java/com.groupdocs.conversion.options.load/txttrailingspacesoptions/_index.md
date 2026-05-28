@@ -16,17 +16,21 @@ public class TxtTrailingSpacesOptions extends Enumeration implements Serializabl
 ```
 
 Describes txt trailing spaces options enumeration.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TxtTrailingSpacesOptions()](#TxtTrailingSpacesOptions--) | Serialization constructor |
+| [TxtTrailingSpacesOptions()](#TxtTrailingSpacesOptions--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Preserve](#Preserve) | Preserves trailing spaces |
-| [Trim](#Trim) | Trims trailing spaces |
+| [Preserve](#Preserve) | Preserves trailing spaces
+ |
+| [Trim](#Trim) | Trims trailing spaces
+ |
 ### TxtTrailingSpacesOptions() {#TxtTrailingSpacesOptions--}
 ```
 public TxtTrailingSpacesOptions()
@@ -34,6 +38,7 @@ public TxtTrailingSpacesOptions()
 
 
 Serialization constructor
+
 
 ### Preserve {#Preserve}
 ```
@@ -43,6 +48,7 @@ public static final TxtTrailingSpacesOptions Preserve
 
 Preserves trailing spaces
 
+
 ### Trim {#Trim}
 ```
 public static final TxtTrailingSpacesOptions Trim
@@ -50,4 +56,5 @@ public static final TxtTrailingSpacesOptions Trim
 
 
 Trims trailing spaces
+
 

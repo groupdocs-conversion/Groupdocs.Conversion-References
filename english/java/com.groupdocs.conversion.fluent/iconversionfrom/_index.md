@@ -10,14 +10,19 @@ public interface IConversionFrom
 ```
 
 Setup source for conversion
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [load(String fileName)](#load-java.lang.String-) | Set source document fileName |
-| [load(String[] fileName)](#load-java.lang.String---) | Set source documents array |
-| [load(DocumentStreamProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamProvider-) | Set source document stream |
-| [load(DocumentStreamsProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamsProvider-) | Set source documents streams array |
+| [load(String fileName)](#load-java.lang.String-) | Set source document fileName
+ |
+| [load(String[] fileName)](#load-java.lang.String---) | Set source documents array
+ |
+| [load(DocumentStreamProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamProvider-) | Set source document stream
+ |
+| [load(DocumentStreamsProvider documentStreamProvider)](#load-com.groupdocs.conversion.contracts.DocumentStreamsProvider-) | Set source documents streams array
+ |
 ### load(String fileName) {#load-java.lang.String-}
 ```
 public abstract IConversionLoadOptionsOrSourceDocumentLoaded load(String fileName)
@@ -26,10 +31,12 @@ public abstract IConversionLoadOptionsOrSourceDocumentLoaded load(String fileNam
 
 Set source document fileName
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Source document |
+| fileName | java.lang.String | Source document
+ |
 
 **Returns:**
 [IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
@@ -41,10 +48,12 @@ public abstract IConversionLoadOptionsOrSourceDocumentLoaded load(String[] fileN
 
 Set source documents array
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String[] | Set of source documents |
+| fileName | java.lang.String[] | Set of source documents
+ |
 
 **Returns:**
 [IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
@@ -56,10 +65,12 @@ public abstract IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStream
 
 Set source document stream
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentStreamProvider | [DocumentStreamProvider](../../com.groupdocs.conversion.contracts/documentstreamprovider) | Source document stream provider |
+| documentStreamProvider | [DocumentStreamProvider](../../com.groupdocs.conversion.contracts/documentstreamprovider) | Source document stream provider
+ |
 
 **Returns:**
 [IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)
@@ -71,10 +82,12 @@ public abstract IConversionLoadOptionsOrSourceDocumentLoaded load(DocumentStream
 
 Set source documents streams array
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentStreamProvider | [DocumentStreamsProvider](../../com.groupdocs.conversion.contracts/documentstreamsprovider) | Source document streams provider |
+| documentStreamProvider | [DocumentStreamsProvider](../../com.groupdocs.conversion.contracts/documentstreamsprovider) | Source document streams provider
+ |
 
 **Returns:**
 [IConversionLoadOptionsOrSourceDocumentLoaded](../../com.groupdocs.conversion.fluent/iconversionloadoptionsorsourcedocumentloaded)

@@ -10,11 +10,12 @@ url: /java/com.groupdocs.conversion.filetypes/
 The GroupDocs.Conversion.FileTypes namespace provides classes which represent supported file types.
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [AudioFileType](../com.groupdocs.conversion.filetypes/audiofiletype) | Defines Audio documents Includes the following types: , , , , , , , , , Learn more about audio formats [here][].[here]: https://docs.fileformat.com/audio/ |
+| [AudioFileType](../com.groupdocs.conversion.filetypes/audiofiletype) | Defines Audio documents Includes the following types: , , , , , , , , , Learn more about audio formats [here](https://docs.fileformat.com/audio/). |
 | [CadFileType](../com.groupdocs.conversion.filetypes/cadfiletype) | Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. |
 | [DatabaseFileType](../com.groupdocs.conversion.filetypes/databasefiletype) | Defines CAD documents (Computer Aided Design) that are used for a 3D graphics file formats and may contain 2D or 3D designs. |
 | [DiagramFileType](../com.groupdocs.conversion.filetypes/diagramfiletype) | Defines Diagram documents. |
@@ -30,6 +31,6 @@ The GroupDocs.Conversion.FileTypes namespace provides classes which represent su
 | [ProjectManagementFileType](../com.groupdocs.conversion.filetypes/projectmanagementfiletype) | Defines Project file formats that are created by Project Management software such as Microsoft Project, Primavera P6 etc. |
 | [PublisherFileType](../com.groupdocs.conversion.filetypes/publisherfiletype) | Defines Publisher documents. |
 | [SpreadsheetFileType](../com.groupdocs.conversion.filetypes/spreadsheetfiletype) | Defines Spreadsheet documents. |
-| [VideoFileType](../com.groupdocs.conversion.filetypes/videofiletype) | Defines Video documents Includes the following types: , , , , , , , Learn more about video formats [here][].[here]: https://docs.fileformat.com/video/ |
+| [VideoFileType](../com.groupdocs.conversion.filetypes/videofiletype) | Defines Video documents Includes the following types: , , , , , , , Learn more about video formats [here](https://docs.fileformat.com/video/). |
 | [WebFileType](../com.groupdocs.conversion.filetypes/webfiletype) | Defines Web documents. |
 | [WordProcessingFileType](../com.groupdocs.conversion.filetypes/wordprocessingfiletype) | Defines Word Processing files that contain user information in plain text or rich text format. |

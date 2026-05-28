@@ -13,12 +13,15 @@ public final class InvalidConvertOptionsException extends GroupDocsConversionExc
 ```
 
 Thrown if provided convert options are invalid
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [InvalidConvertOptionsException()](#InvalidConvertOptionsException--) | Default constructor |
-| [InvalidConvertOptionsException(String message)](#InvalidConvertOptionsException-java.lang.String-) | Creates an exception with a specific message |
+| [InvalidConvertOptionsException()](#InvalidConvertOptionsException--) | Default constructor
+ |
+| [InvalidConvertOptionsException(String message)](#InvalidConvertOptionsException-java.lang.String-) | Creates an exception with a specific message
+ |
 ### InvalidConvertOptionsException() {#InvalidConvertOptionsException--}
 ```
 public InvalidConvertOptionsException()
@@ -26,6 +29,7 @@ public InvalidConvertOptionsException()
 
 
 Default constructor
+
 
 ### InvalidConvertOptionsException(String message) {#InvalidConvertOptionsException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public InvalidConvertOptionsException(String message)
 
 Creates an exception with a specific message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message |
+| message | java.lang.String | The message
+ |
 

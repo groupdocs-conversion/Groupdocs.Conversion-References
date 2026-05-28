@@ -13,3 +13,4 @@ public interface IConversionSettingsOrConversionFrom extends IConversionSettings
 ```
 
 Conversion settings or conversion source
+

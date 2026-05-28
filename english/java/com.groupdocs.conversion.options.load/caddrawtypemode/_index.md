@@ -13,17 +13,21 @@ public class CadDrawTypeMode extends Enumeration
 ```
 
 Represents possible modes for colorization of objects.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CadDrawTypeMode()](#CadDrawTypeMode--) | Serialization constructor |
+| [CadDrawTypeMode()](#CadDrawTypeMode--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [UseDrawColor](#UseDrawColor) | Allows to use common color. |
-| [UseObjectColor](#UseObjectColor) | Allows to use separate color for every object. |
+| [UseDrawColor](#UseDrawColor) | Allows to use common color.
+ |
+| [UseObjectColor](#UseObjectColor) | Allows to use separate color for every object.
+ |
 ### CadDrawTypeMode() {#CadDrawTypeMode--}
 ```
 public CadDrawTypeMode()
@@ -31,6 +35,7 @@ public CadDrawTypeMode()
 
 
 Serialization constructor
+
 
 ### UseDrawColor {#UseDrawColor}
 ```
@@ -40,6 +45,7 @@ public static final CadDrawTypeMode UseDrawColor
 
 Allows to use common color.
 
+
 ### UseObjectColor {#UseObjectColor}
 ```
 public static final CadDrawTypeMode UseObjectColor
@@ -47,4 +53,5 @@ public static final CadDrawTypeMode UseObjectColor
 
 
 Allows to use separate color for every object.
+
 

@@ -15,20 +15,23 @@ java.io.Serializable
 public final class PublisherFileType extends FileType implements Serializable
 ```
 
-Defines Publisher documents. Includes the following types: [Pub](../../com.groupdocs.conversion.filetypes/publisherfiletype\#Pub), Learn more about Font formats [here][].
+Defines Publisher documents.
+Includes the following types:
+[Pub](../../com.groupdocs.conversion.filetypes/publisherfiletype#Pub),
+Learn more about Font formats [here](../https://wiki.fileformat.com/publisher).
 
-
-[here]: https://wiki.fileformat.com/publisher
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PublisherFileType()](#PublisherFileType--) | Serialization constructor |
+| [PublisherFileType()](#PublisherFileType--) | Serialization constructor
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Pub](#Pub) | A PUB file is a Microsoft Publisher document file format. |
+| [Pub](#Pub) | A PUB file is a Microsoft Publisher document file format.
+ |
 ## Methods
 
 | Method | Description |
@@ -44,16 +47,15 @@ public PublisherFileType()
 
 Serialization constructor
 
+
 ### Pub {#Pub}
 ```
 public static final PublisherFileType Pub
 ```
 
 
-A PUB file is a Microsoft Publisher document file format. It is used to create several types of design layout documents such as newsletters, flyers, brochures, postcards, etc. PUB files can contain text, raster and vector images. Learn more about this file format [here][].
+A PUB file is a Microsoft Publisher document file format. It is used to create several types of design layout documents such as newsletters, flyers, brochures, postcards, etc. PUB files can contain text, raster and vector images. Learn more about this file format [here](../https://docs.fileformat.com/publisher/pub/).
 
-
-[here]: https://docs.fileformat.com/publisher/pub/
 
 ### getLoadOptions() {#getLoadOptions--}
 ```
@@ -62,6 +64,7 @@ public LoadOptions getLoadOptions()
 
 
 Prepared default load options for the source file type
+
 
 **Returns:**
 [LoadOptions](../../com.groupdocs.conversion.options.load/loadoptions)
