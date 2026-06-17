@@ -3,7 +3,7 @@ title: WithSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Configure conversion settings
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion/fluentconverter/withsettings/
 ---
 ## FluentConverter.WithSettings method

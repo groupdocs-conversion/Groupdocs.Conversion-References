@@ -3,7 +3,7 @@ title: ScanFontDirectoriesRecursively
 second_title: GroupDocs.Conversion for .NET API Reference
 description: If true the converter will scan font directories recursively.
 type: docs
-weight: 90
+weight: 50
 url: /net/groupdocs.conversion/convertersettings/scanfontdirectoriesrecursively/
 ---
 ## ConverterSettings.ScanFontDirectoriesRecursively property

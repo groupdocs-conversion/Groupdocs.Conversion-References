@@ -3,7 +3,7 @@ title: IConversionFrom
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Setup source for conversion
 type: docs
-weight: 1390
+weight: 1370
 url: /net/groupdocs.conversion.fluent/iconversionfrom/
 ---
 ## IConversionFrom interface
@@ -22,6 +22,7 @@ public interface IConversionFrom
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load)(Func&lt;Stream[]&gt;) | Set source documents streams array |
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_2)(string) | Set source document fileName |
 | [Load](../../groupdocs.conversion.fluent/iconversionfrom/load#load_3)(string[]) | Set source documents array |
+| [WithEvents](../../groupdocs.conversion.fluent/iconversionfrom/withevents)(Action&lt;ConversionEvents&gt;) | Register conversion lifecycle event handlers on a [`ConversionEvents`](../../groupdocs.conversion/conversionevents) bag that lives for the converter's lifetime and fires on every conversion run. May be called before or after [`WithSettings`](../iconversionsettings/withsettings). Multiple calls accumulate: the same internal bag is passed to each *configure* action, so handlers set in earlier calls survive unless overwritten by a later one. |
 
 ### See Also
 

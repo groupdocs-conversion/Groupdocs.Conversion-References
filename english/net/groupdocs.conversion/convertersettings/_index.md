@@ -3,7 +3,7 @@ title: ConverterSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines settings for customizing Converter./converter behaviour.
 type: docs
-weight: 840
+weight: 850
 url: /net/groupdocs.conversion/convertersettings/
 ---
 ## ConverterSettings class
@@ -26,11 +26,7 @@ public sealed class ConverterSettings
 | --- | --- |
 | [Cache](../../groupdocs.conversion/convertersettings/cache) { get; set; } | The cache implementation used for storing conversion results. |
 | [FontDirectories](../../groupdocs.conversion/convertersettings/fontdirectories) { get; } | The custom font directories paths |
-| [Listener](../../groupdocs.conversion/convertersettings/listener) { get; set; } | The converter listener implementation used for monitoring conversion status and progress |
 | [Logger](../../groupdocs.conversion/convertersettings/logger) { get; set; } | The logger implementation used for logging conversion process. |
-| [OnCompressionCompleted](../../groupdocs.conversion/convertersettings/oncompressioncompleted) { get; set; } | Event handler for compression completed |
-| [OnConversionByPageFailed](../../groupdocs.conversion/convertersettings/onconversionbypagefailed) { get; set; } | Event handler for conversion by page failed |
-| [OnConversionFailed](../../groupdocs.conversion/convertersettings/onconversionfailed) { get; set; } | Event handler for conversion failed |
 | [ScanFontDirectoriesRecursively](../../groupdocs.conversion/convertersettings/scanfontdirectoriesrecursively) { get; set; } | If true, the converter will scan font directories recursively. |
 | [TempFolder](../../groupdocs.conversion/convertersettings/tempfolder) { get; set; } | Temp folder used for conversion |
 

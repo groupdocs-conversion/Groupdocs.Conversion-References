@@ -3,7 +3,7 @@ title: IPageSizeOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents options that support page size
 type: docs
-weight: 2340
+weight: 2300
 url: /net/groupdocs.conversion.options/ipagesizeoptions/
 ---
 ## IPageSizeOptions interface

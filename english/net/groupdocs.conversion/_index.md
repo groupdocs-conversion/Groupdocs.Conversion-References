@@ -12,6 +12,7 @@ The namespace provides classes to convert documents into all popular file format
 
 | Class | Description |
 | --- | --- |
+| [ConversionEvents](./conversionevents) | Aggregates conversion lifecycle event handlers. Pass an instance to the [`Converter`](../groupdocs.conversion/converter) constructor's `events` parameter or to the fluent `WithEvents` method. Prefer this over the individual [`ConverterSettings`](../groupdocs.conversion/convertersettings) handler properties, which are obsolete. |
 | [ConvertContext](./convertcontext) | Defines convert context. |
 | [ConvertedContext](./convertedcontext) | Defines convert context. |
 | [ConvertedPageContext](./convertedpagecontext) | Defines convert page context. |

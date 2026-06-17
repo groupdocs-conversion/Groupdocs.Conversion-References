@@ -3,7 +3,7 @@ title: ConversionFailedException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Conversion failed exception
 type: docs
-weight: 860
+weight: 870
 url: /net/groupdocs.conversion.exceptions/conversionfailedexception/
 ---
 ## ConversionFailedException class

@@ -1,17 +1,17 @@
 ---
 title: IConversionByPageHandlerOnly
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Fluent interface for setting only bypage conversion handlers.
+description: Fluent interface for setting only bypage conversion handlers. Inherits IConversionByPageHandlersStage./iconversionbypagehandlersstage for Convert/Compress the staged OnConversion overloads are kept via the new keyword to preserve backcompat.
 type: docs
-weight: 1250
+weight: 1240
 url: /net/groupdocs.conversion.fluent/iconversionbypagehandleronly/
 ---
 ## IConversionByPageHandlerOnly interface
 
-Fluent interface for setting only by-page conversion handlers.
+Fluent interface for setting only by-page conversion handlers. Inherits [`IConversionByPageHandlersStage`](../iconversionbypagehandlersstage) for `Convert`/`Compress`; the staged `OnConversion*` overloads are kept via the `new` keyword to preserve back-compat.
 
 ```csharp
-public interface IConversionByPageHandlerOnly
+public interface IConversionByPageHandlerOnly : IConversionByPageHandlersStage
 ```
 
 ## Methods
@@ -23,6 +23,7 @@ public interface IConversionByPageHandlerOnly
 
 ### See Also
 
+* interface [IConversionByPageHandlersStage](../iconversionbypagehandlersstage)
 * namespace [GroupDocs.Conversion.Fluent](../../groupdocs.conversion.fluent)
 * assembly [GroupDocs.Conversion](../../)
 

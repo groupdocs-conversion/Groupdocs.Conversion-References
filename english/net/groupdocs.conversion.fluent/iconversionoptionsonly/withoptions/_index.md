@@ -24,7 +24,6 @@ Handler setup interface to continue conversion building.
 
 ### See Also
 
-* interface [IConversionHandlerSetup](../../iconversionhandlersetup)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionOptionsOnly](../../iconversionoptionsonly)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
@@ -50,7 +49,6 @@ Handler setup interface to continue conversion building.
 
 ### See Also
 
-* interface [IConversionHandlerSetup](../../iconversionhandlersetup)
 * class [ConvertContext](../../../groupdocs.conversion/convertcontext)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionOptionsOnly](../../iconversionoptionsonly)

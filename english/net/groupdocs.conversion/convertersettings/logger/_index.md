@@ -3,7 +3,7 @@ title: Logger
 second_title: GroupDocs.Conversion for .NET API Reference
 description: The logger implementation used for logging conversion process.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.conversion/convertersettings/logger/
 ---
 ## ConverterSettings.Logger property

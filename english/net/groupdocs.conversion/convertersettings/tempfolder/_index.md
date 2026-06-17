@@ -3,7 +3,7 @@ title: TempFolder
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Temp folder used for conversion
 type: docs
-weight: 100
+weight: 60
 url: /net/groupdocs.conversion/convertersettings/tempfolder/
 ---
 ## ConverterSettings.TempFolder property

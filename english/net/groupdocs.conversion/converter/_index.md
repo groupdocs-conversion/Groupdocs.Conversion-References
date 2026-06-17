@@ -3,7 +3,7 @@ title: Converter
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents main class that controls document conversion process.
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.conversion/converter/
 ---
 ## Converter class
@@ -19,11 +19,15 @@ public sealed class Converter : IDisposable
 | Name | Description |
 | --- | --- |
 | [Converter](converter#constructor)(Func&lt;Stream&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_3)(string) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_5)(string) | Initializes new instance of [`Converter`](../converter) class. |
 | [Converter](converter#constructor_1)(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_4)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_2)(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
-| [Converter](converter#constructor_5)(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_6)(string, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_2)(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) | Initializes new instance of [`Converter`](../converter) class with explicit conversion events. |
+| [Converter](converter#constructor_3)(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_7)(string, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) | Initializes new instance of [`Converter`](../converter) class with explicit conversion events. |
+| [Converter](converter#constructor_8)(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) | Initializes new instance of [`Converter`](../converter) class. |
+| [Converter](converter#constructor_4)(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) | Initializes new instance of [`Converter`](../converter) class with explicit conversion events. |
+| [Converter](converter#constructor_9)(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) | Initializes new instance of [`Converter`](../converter) class with explicit conversion events. |
 
 ## Methods
 
@@ -125,6 +129,24 @@ using (var converter = new Converter("sample.pdf"))
     );
 }
 ```
+
+**Registering conversion event handlers (recommended path):**
+
+```csharp
+// Aggregate all event handlers in a ConversionEvents bag and pass it to the Converter.
+var events = new ConversionEvents
+{
+    OnDocumentConverted = ctx       => Console.WriteLine($"Done: {ctx.SourceFileName}"),
+    OnDocumentFailed    = (ctx, ex) => Console.Error.WriteLine($"Conversion of {ctx.SourceFileName} failed: {ex.Message}"),
+    OnPageFailed        = (ctx, ex) => Console.Error.WriteLine($"Page {ctx.Page} of {ctx.SourceFileName} failed: {ex.Message}"),
+};
+using (var converter = new Converter("sample.docx", () => new ConverterSettings(), () => events))
+{
+    converter.Convert("output.pdf", new PdfConvertOptions());
+}
+```
+
+The flat `OnConversionFailed`, `OnConversionByPageFailed`, and `OnCompressionCompleted` properties on [`ConverterSettings`](../convertersettings) still work but are obsolete; new code should pass a [`ConversionEvents`](../conversionevents) instance via the `events` constructor parameter.
 
 **Get document information:**
 

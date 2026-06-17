@@ -25,7 +25,6 @@ Interface to continue conversion building, allowing only OnConversionFailed or C
 
 ### See Also
 
-* interface [IConversionByPageHandlerFailed](../../iconversionbypagehandlerfailed)
 * class [ConvertedPageContext](../../../groupdocs.conversion/convertedpagecontext)
 * interface [IConversionByPageHandlerOnly](../../iconversionbypagehandleronly)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)

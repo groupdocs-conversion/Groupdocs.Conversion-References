@@ -1,14 +1,14 @@
 ---
 title: IConversionSettings
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Setup conversion settings
+description: Setup conversion settings or events at the entry stage before Load.
 type: docs
-weight: 1510
+weight: 1470
 url: /net/groupdocs.conversion.fluent/iconversionsettings/
 ---
 ## IConversionSettings interface
 
-Setup conversion settings
+Setup conversion settings or events at the entry stage (before `Load`).
 
 ```csharp
 public interface IConversionSettings
@@ -18,6 +18,7 @@ public interface IConversionSettings
 
 | Name | Description |
 | --- | --- |
+| [WithEvents](../../groupdocs.conversion.fluent/iconversionsettings/withevents)(Action&lt;ConversionEvents&gt;) | Register conversion lifecycle event handlers on a [`ConversionEvents`](../../groupdocs.conversion/conversionevents) bag that lives for the converter's lifetime and fires on every conversion run. Sits at the same entry stage as [`WithSettings`](./withsettings). Multiple calls accumulate: the same internal bag is passed to each *configure* action, so handlers set in earlier calls survive unless overwritten by a later one. |
 | [WithSettings](../../groupdocs.conversion.fluent/iconversionsettings/withsettings)(Func&lt;ConverterSettings&gt;) | Set converter settings |
 
 ### See Also

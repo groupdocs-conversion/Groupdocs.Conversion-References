@@ -24,7 +24,6 @@ Interface to continue conversion building
 
 ### See Also
 
-* interface [IConversionHandlerSetup](../../iconversionhandlersetup)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
@@ -52,7 +51,6 @@ Interface to continue conversion building
 
 ### See Also
 
-* interface [IConversionHandlerSetup](../../iconversionhandlersetup)
 * class [ConvertContext](../../../groupdocs.conversion/convertcontext)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertOptions](../../iconversionconvertoptions)

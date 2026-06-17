@@ -3,7 +3,7 @@ title: FluentConverter
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Class for fluent conversion setup.
 type: docs
-weight: 1550
+weight: 1510
 url: /net/groupdocs.conversion/fluentconverter/
 ---
 ## FluentConverter class
@@ -22,6 +22,7 @@ public static class FluentConverter
 | static [Load](../../groupdocs.conversion/fluentconverter/load#load)(Func&lt;Stream[]&gt;) | Configure set of source documents streams |
 | static [Load](../../groupdocs.conversion/fluentconverter/load#load_2)(string) | Configure source document for conversion |
 | static [Load](../../groupdocs.conversion/fluentconverter/load#load_3)(string[]) | Configure set of source documents |
+| static [WithEvents](../../groupdocs.conversion/fluentconverter/withevents)(Action&lt;ConversionEvents&gt;) | Entry-stage variant of the fluent chain that starts with conversion lifecycle event handlers. Sits at the same entry stage as [`WithSettings`](./withsettings), and the resulting [`ConversionEvents`](../conversionevents) bag fires on every conversion run by the converter. |
 | static [WithSettings](../../groupdocs.conversion/fluentconverter/withsettings)(Func&lt;ConverterSettings&gt;) | Configure conversion settings |
 
 ### Remarks
@@ -39,17 +40,38 @@ FluentConverter.Load("")
 ```
 
 ```csharp
-FluentConverter.WithSettings(() => new ConverterSettings())
-    .Load("").WithOptions(new PdfLoadOptions())
-    .ConvertTo("").WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted(convertedDocumentStream => { })
+// Recommended: aggregate handlers via WithEvents at the early stage (before Load).
+FluentConverter
+    .WithEvents(e =>
+    {
+        e.OnDocumentConverted = ctx       => Console.WriteLine($"Done: {ctx.SourceFileName}");
+        e.OnDocumentFailed    = (ctx, ex) => Console.Error.WriteLine(ex.Message);
+    })
+    .Load("input.docx")
+    .ConvertTo("output.pdf").WithOptions(new PdfConvertOptions())
     .Convert();
 ```
 
 ```csharp
-FluentConverter.Load("").WithOptions(new PdfLoadOptions())
-    .ConvertByPageTo((number => new FileStream("", FileMode.Create))).WithOptions(new PdfConvertOptions())
-    .OnConversionCompleted((number, stream) => {})
+// Per-page mirror: per-page handlers via WithEvents at the early stage.
+FluentConverter
+    .WithEvents(e =>
+    {
+        e.OnPageConverted = ctx       => Console.WriteLine($"page {ctx.Page} done");
+        e.OnPageFailed    = (ctx, ex) => Console.Error.WriteLine($"page {ctx.Page}: {ex.Message}");
+    })
+    .Load("input.pdf")
+    .ConvertByPageTo(ctx => new FileStream($"page-{ctx.Page}.png", FileMode.Create))
+    .WithOptions(new ImageConvertOptions { Format = ImageFileType.Png })
+    .Convert();
+```
+
+```csharp
+// Legacy chain still compiles unchanged (now backed by the obsolete staged interfaces):
+FluentConverter.WithSettings(() => new ConverterSettings())
+    .Load("").WithOptions(new PdfLoadOptions())
+    .ConvertTo("").WithOptions(new PdfConvertOptions())
+    .OnConversionCompleted(convertedDocumentStream => { })
     .Convert();
 ```
 

@@ -68,7 +68,7 @@ public Converter(Func<Stream> sourceStreamProvider, Func<ConverterSettings> sett
 
 ---
 
-## Converter(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_2}
+## Converter(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_3}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -101,7 +101,60 @@ public Converter(Func<Stream> sourceStreamProvider, Func<LoadContext, LoadOption
 
 ---
 
-## Converter(string) {#constructor_3}
+## Converter(Func&lt;Stream&gt;, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) {#constructor_4}
+
+Initializes new instance of [`Converter`](../../converter) class with explicit conversion events.
+
+```csharp
+public Converter(Func<Stream> sourceStreamProvider, Func<LoadContext, LoadOptions> loadOptions, 
+    Func<ConverterSettings> settings, Func<ConversionEvents> events)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStreamProvider | Func`1 | The method that returns readable stream. |
+| loadOptions | Func`2 | Delegate that provides load options for the document. |
+| settings | Func`1 | The Converter settings. |
+| events | Func`1 | Delegate that provides aggregated [`ConversionEvents`](../../conversionevents) registered for the converter's lifetime. |
+
+### See Also
+
+* class [LoadContext](../../loadcontext)
+* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
+* class [ConverterSettings](../../convertersettings)
+* class [ConversionEvents](../../conversionevents)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(Func&lt;Stream&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) {#constructor_2}
+
+Initializes new instance of [`Converter`](../../converter) class with explicit conversion events.
+
+```csharp
+public Converter(Func<Stream> sourceStreamProvider, Func<ConverterSettings> settings, 
+    Func<ConversionEvents> events)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStreamProvider | Func`1 | The method that returns readable stream. |
+| settings | Func`1 | The Converter settings. |
+| events | Func`1 | Delegate that provides aggregated [`ConversionEvents`](../../conversionevents) registered for the converter's lifetime. |
+
+### See Also
+
+* class [ConverterSettings](../../convertersettings)
+* class [ConversionEvents](../../conversionevents)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(string) {#constructor_5}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -128,7 +181,7 @@ public Converter(string filePath)
 
 ---
 
-## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_4}
+## Converter(string, Func&lt;ConverterSettings&gt;) {#constructor_6}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -157,7 +210,7 @@ public Converter(string filePath, Func<ConverterSettings> settings)
 
 ---
 
-## Converter(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_5}
+## Converter(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;) {#constructor_8}
 
 Initializes new instance of [`Converter`](../../converter) class.
 
@@ -184,6 +237,58 @@ public Converter(string filePath, Func<LoadContext, LoadOptions> loadOptions,
 * class [LoadContext](../../loadcontext)
 * class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
 * class [ConverterSettings](../../convertersettings)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(string, Func&lt;LoadContext, LoadOptions&gt;, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) {#constructor_9}
+
+Initializes new instance of [`Converter`](../../converter) class with explicit conversion events.
+
+```csharp
+public Converter(string filePath, Func<LoadContext, LoadOptions> loadOptions, 
+    Func<ConverterSettings> settings, Func<ConversionEvents> events)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | The file path to the source document. |
+| loadOptions | Func`2 | Delegate that provides load options for the document. |
+| settings | Func`1 | The Converter settings. |
+| events | Func`1 | Delegate that provides aggregated [`ConversionEvents`](../../conversionevents) registered for the converter's lifetime. |
+
+### See Also
+
+* class [LoadContext](../../loadcontext)
+* class [LoadOptions](../../../groupdocs.conversion.options.load/loadoptions)
+* class [ConverterSettings](../../convertersettings)
+* class [ConversionEvents](../../conversionevents)
+* class [Converter](../../converter)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+---
+
+## Converter(string, Func&lt;ConverterSettings&gt;, Func&lt;ConversionEvents&gt;) {#constructor_7}
+
+Initializes new instance of [`Converter`](../../converter) class with explicit conversion events.
+
+```csharp
+public Converter(string filePath, Func<ConverterSettings> settings, Func<ConversionEvents> events)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | The file path to the source document. |
+| settings | Func`1 | The Converter settings. |
+| events | Func`1 | Delegate that provides aggregated [`ConversionEvents`](../../conversionevents) registered for the converter's lifetime. |
+
+### See Also
+
+* class [ConverterSettings](../../convertersettings)
+* class [ConversionEvents](../../conversionevents)
 * class [Converter](../../converter)
 * namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
 * assembly [GroupDocs.Conversion](../../../)
