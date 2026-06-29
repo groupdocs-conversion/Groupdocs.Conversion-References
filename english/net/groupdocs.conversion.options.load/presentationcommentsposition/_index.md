@@ -3,7 +3,7 @@ title: PresentationCommentsPosition
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way comments are printed with the slide.
 type: docs
-weight: 2670
+weight: 2680
 url: /net/groupdocs.conversion.options.load/presentationcommentsposition/
 ---
 ## PresentationCommentsPosition class

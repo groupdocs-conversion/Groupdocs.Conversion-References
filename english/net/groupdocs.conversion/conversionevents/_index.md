@@ -3,7 +3,7 @@ title: ConversionEvents
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Aggregates conversion lifecycle event handlers. Pass an instance to the Converter./converter constructors events parameter or to the fluent WithEvents method. Prefer this over the individual ConverterSettings./convertersettings handler properties which are obsolete.
 type: docs
-weight: 800
+weight: 810
 url: /net/groupdocs.conversion/conversionevents/
 ---
 ## ConversionEvents class
@@ -30,6 +30,7 @@ public sealed class ConversionEvents
 | [OnConversionStarted](../../groupdocs.conversion/conversionevents/onconversionstarted) { get; set; } | Fired once at the start of the conversion run, before any document is processed. |
 | [OnDocumentConverted](../../groupdocs.conversion/conversionevents/ondocumentconverted) { get; set; } | Fired once per whole-document conversion that completes successfully. |
 | [OnDocumentFailed](../../groupdocs.conversion/conversionevents/ondocumentfailed) { get; set; } | Fired once per whole-document conversion that fails. |
+| [OnFontSubstituted](../../groupdocs.conversion/conversionevents/onfontsubstituted) { get; set; } | Fired when a font referenced by the source document is not available and is substituted (either by a customer-supplied [`FontSubstitute`](../../groupdocs.conversion.contracts/fontsubstitute) rule, by the configured default font, or by the conversion pipeline's internal fallback). |
 | [OnPageConverted](../../groupdocs.conversion/conversionevents/onpageconverted) { get; set; } | Fired once per page when a per-page conversion completes successfully. |
 | [OnPageFailed](../../groupdocs.conversion/conversionevents/onpagefailed) { get; set; } | Fired once per page when a per-page conversion fails. |
 

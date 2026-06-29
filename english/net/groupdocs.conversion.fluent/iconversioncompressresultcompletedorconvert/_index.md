@@ -3,7 +3,7 @@ title: IConversionCompressResultCompletedOrConvert
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Continuation after Compress.... Proceed directly with Convert the inherited Stream is obsolete  register the handler at the entry stage via WithEvents./iconversionsettings/withevents instead.
 type: docs
-weight: 1300
+weight: 1310
 url: /net/groupdocs.conversion.fluent/iconversioncompressresultcompletedorconvert/
 ---
 ## IConversionCompressResultCompletedOrConvert interface

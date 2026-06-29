@@ -3,7 +3,7 @@ title: IConversionHandlerOnly
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface for setting only conversion handlers. Inherits IConversionHandlersStage./iconversionhandlersstage for Convert/Compress the staged OnConversion overloads are kept via the new keyword to preserve the existing return types and backcompat.
 type: docs
-weight: 1400
+weight: 1410
 url: /net/groupdocs.conversion.fluent/iconversionhandleronly/
 ---
 ## IConversionHandlerOnly interface

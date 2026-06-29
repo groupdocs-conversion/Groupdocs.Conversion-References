@@ -3,7 +3,7 @@ title: IMarkdownImageSavingCallback
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Handles custom processing of images while saving to Markdown. Invoked once per image mutate MarkdownImageSavingArgs./markdownimagesavingargs to control the URI embedded in the Markdown output and/or redirect where the image bytes are written.
 type: docs
-weight: 1800
+weight: 1810
 url: /net/groupdocs.conversion.options.convert/imarkdownimagesavingcallback/
 ---
 ## IMarkdownImageSavingCallback interface

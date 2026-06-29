@@ -3,7 +3,7 @@ title: PageResizeMode
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Specifies how content should be scaled when page size is changed
 type: docs
-weight: 1980
+weight: 1990
 url: /net/groupdocs.conversion.options.convert/pageresizemode/
 ---
 ## PageResizeMode class
