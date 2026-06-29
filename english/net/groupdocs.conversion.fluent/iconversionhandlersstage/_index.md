@@ -3,7 +3,7 @@ title: IConversionHandlersStage
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Flattened conversion handlers stage. Allows setting OnConversionCompleted or OnConversionFailed in any order and any number of times before proceeding to Convert / Compress. Events should be registered at the early stage via WithEvents./iconversionsettings/withevents instead of in this stage.
 type: docs
-weight: 1410
+weight: 1420
 url: /net/groupdocs.conversion.fluent/iconversionhandlersstage/
 ---
 ## IConversionHandlersStage interface
