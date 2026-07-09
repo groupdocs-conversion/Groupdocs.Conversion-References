@@ -3,7 +3,7 @@ title: HorizontalResolution
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired image horizontal resolution after conversion. The default resolution is the resolution of the input file or 96 dpi.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution/
 ---
 ## ImageConvertOptions.HorizontalResolution property

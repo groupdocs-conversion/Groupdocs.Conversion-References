@@ -3,7 +3,7 @@ title: CropArea
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Crop raster image area after conversion
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/croparea/
 ---
 ## ImageConvertOptions.CropArea property

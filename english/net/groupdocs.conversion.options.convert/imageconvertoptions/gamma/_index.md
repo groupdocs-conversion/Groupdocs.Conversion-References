@@ -3,7 +3,7 @@ title: Gamma
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Adjusts image gamma.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/gamma/
 ---
 ## ImageConvertOptions.Gamma property

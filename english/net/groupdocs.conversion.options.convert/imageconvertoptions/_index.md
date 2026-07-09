@@ -26,6 +26,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>, I
 | --- | --- |
 | [BackgroundColor](../../groupdocs.conversion.options.convert/imageconvertoptions/backgroundcolor) { get; set; } | Sets background color where supported by the source format |
 | [Brightness](../../groupdocs.conversion.options.convert/imageconvertoptions/brightness) { get; set; } | Adjusts image brightness. |
+| [CapResolutionToPageContent](../../groupdocs.conversion.options.convert/imageconvertoptions/capresolutiontopagecontent) { get; set; } | When set, caps the per-page PDF render resolution to the page native raster resolution so a page is never rendered at a higher DPI than its embedded image actually contains, and emits that page at its native (smaller) pixel dimensions and native DPI in the final output instead of re-inflating it to the requested DPI. Only image-dominated (scan) pages are affected; pages with text or vector content are never softened and are emitted at the requested DPI. Skipped when an explicit output [`Width`](./width) or [`Height`](./height) is set. The default is `false` (no capping; every page is rendered and emitted at the requested DPI). |
 | [Contrast](../../groupdocs.conversion.options.convert/imageconvertoptions/contrast) { get; set; } | Adjusts image contrast. |
 | [CropArea](../../groupdocs.conversion.options.convert/imageconvertoptions/croparea) { get; set; } | Crop raster image area after conversion |
 | [FlipMode](../../groupdocs.conversion.options.convert/imageconvertoptions/flipmode) { get; set; } | Image flip mode. |
@@ -36,6 +37,7 @@ public sealed class ImageConvertOptions : CommonConvertOptions<ImageFileType>, I
 | [Height](../../groupdocs.conversion.options.convert/imageconvertoptions/height) { get; set; } | Desired image height after conversion. |
 | [HorizontalResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/horizontalresolution) { get; set; } | Desired image horizontal resolution after conversion. The default resolution is the resolution of the input file or 96 dpi. |
 | [JpegOptions](../../groupdocs.conversion.options.convert/imageconvertoptions/jpegoptions) { get; set; } | Jpeg specific convert options. |
+| [MinResolution](../../groupdocs.conversion.options.convert/imageconvertoptions/minresolution) { get; set; } | Per-axis lower bound applied to the capped render DPI when [`CapResolutionToPageContent`](./capresolutiontopagecontent) is enabled. The capped DPI is never lowered below this value. The default is `0` (no floor). |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |

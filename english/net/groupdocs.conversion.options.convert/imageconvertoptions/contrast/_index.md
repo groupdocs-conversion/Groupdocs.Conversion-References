@@ -3,7 +3,7 @@ title: Contrast
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Adjusts image contrast.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/contrast/
 ---
 ## ImageConvertOptions.Contrast property

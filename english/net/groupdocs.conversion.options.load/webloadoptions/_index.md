@@ -3,7 +3,7 @@ title: WebLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading web documents.
 type: docs
-weight: 2840
+weight: 2850
 url: /net/groupdocs.conversion.options.load/webloadoptions/
 ---
 ## WebLoadOptions class
@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/webloadoptions/
 Options for loading web documents.
 
 ```csharp
-public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageNumberingLoadOptions, 
+public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageLayoutOptions, 
+    IPageMarginOptions, IPageNumberingLoadOptions, IPageOrientationOptions, IPageSizeOptions, 
     IResourceLoadingOptions
 ```
 
@@ -33,9 +34,12 @@ public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageNumberin
 | [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HtmlRenderingMode](../../groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode) { get; set; } | Controls how HTML content is rendered. Default: AbsolutePositioning |
+| [MarginSettings](../../groupdocs.conversion.options.load/webloadoptions/marginsettings) { get; set; } | Page margin settings |
+| [OrientationSettings](../../groupdocs.conversion.options.load/webloadoptions/orientationsettings) { get; set; } | Page orientation settings |
 | [PageLayoutOptions](../../groupdocs.conversion.options.load/webloadoptions/pagelayoutoptions) { get; set; } | Specifies the page layout options when loading web documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
+| [SizeSettings](../../groupdocs.conversion.options.load/webloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | Use pdf for the conversion. Default: false |
 | [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
@@ -53,7 +57,11 @@ public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageNumberin
 
 * class [LoadOptions](../loadoptions)
 * interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
+* interface [IPageLayoutOptions](../ipagelayoutoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
+* interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

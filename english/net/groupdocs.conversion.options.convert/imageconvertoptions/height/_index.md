@@ -3,7 +3,7 @@ title: Height
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Desired image height after conversion.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/height/
 ---
 ## ImageConvertOptions.Height property

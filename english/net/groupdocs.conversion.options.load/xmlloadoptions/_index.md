@@ -3,7 +3,7 @@ title: XmlLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading XML documents.
 type: docs
-weight: 2880
+weight: 2890
 url: /net/groupdocs.conversion.options.load/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -32,9 +32,12 @@ public sealed class XmlLoadOptions : WebLoadOptions
 | [Format](../../groupdocs.conversion.options.load/xmlloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HtmlRenderingMode](../../groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode) { get; set; } | Controls how HTML content is rendered. Default: AbsolutePositioning |
+| [MarginSettings](../../groupdocs.conversion.options.load/webloadoptions/marginsettings) { get; set; } | Page margin settings |
+| [OrientationSettings](../../groupdocs.conversion.options.load/webloadoptions/orientationsettings) { get; set; } | Page orientation settings |
 | [PageLayoutOptions](../../groupdocs.conversion.options.load/webloadoptions/pagelayoutoptions) { get; set; } | Specifies the page layout options when loading web documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
+| [SizeSettings](../../groupdocs.conversion.options.load/webloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
 | [UseAsDataSource](../../groupdocs.conversion.options.load/xmlloadoptions/useasdatasource) { get; set; } | Use Xml document as data source |
 | [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | Use pdf for the conversion. Default: false |

@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Tiff specific convert options.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.conversion.options.convert/imageconvertoptions/tiffoptions/
 ---
 ## ImageConvertOptions.TiffOptions property
