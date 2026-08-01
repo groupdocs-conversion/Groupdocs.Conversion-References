@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Spreadsheet documents.
 type: docs
-weight: 2730
+weight: 2740
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

@@ -12,8 +12,8 @@ Options for loading Email documents.
 
 ```csharp
 public sealed class EmailLoadOptions : LoadOptions, ICustomCssStyleOptions, 
-    IDocumentsContainerLoadOptions, IFontSubstituteLoadOptions, IPageMarginOptions, 
-    IPageOrientationOptions, IPageSizeOptions, IResourceLoadingOptions
+    IDocumentsContainerLoadOptions, IFontSubstituteLoadOptions, IPageLayoutOptions, 
+    IPageMarginOptions, IPageOrientationOptions, IPageSizeOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -47,6 +47,7 @@ public sealed class EmailLoadOptions : LoadOptions, ICustomCssStyleOptions,
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [MarginSettings](../../groupdocs.conversion.options.load/emailloadoptions/marginsettings) { get; set; } | Page margin settings |
 | [OrientationSettings](../../groupdocs.conversion.options.load/emailloadoptions/orientationsettings) { get; set; } | Page orientation settings |
+| [PageLayoutOptions](../../groupdocs.conversion.options.load/emailloadoptions/pagelayoutoptions) { get; set; } | Implements [`PageLayoutOptions`](../ipagelayoutoptions/pagelayoutoptions) |
 | [PreserveOriginalDate](../../groupdocs.conversion.options.load/emailloadoptions/preserveoriginaldate) { get; set; } | Defines whether need to keep original date header string in mail message when saving or not (Default value is true) |
 | [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/emailloadoptions/resourceloadingtimeout) { get; set; } | Timeout for loading external resources |
 | [SizeSettings](../../groupdocs.conversion.options.load/emailloadoptions/sizesettings) { get; set; } | Page size settings |
@@ -70,6 +71,7 @@ public sealed class EmailLoadOptions : LoadOptions, ICustomCssStyleOptions,
 * interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
+* interface [IPageLayoutOptions](../ipagelayoutoptions)
 * interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
 * interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
