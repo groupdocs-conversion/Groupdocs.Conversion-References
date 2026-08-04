@@ -28,14 +28,6 @@ Options for loading CAD documents.
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) |  |
-| [getWidth()](#getWidth--) | Sets desired page width for converting CAD document
- |
-| [setWidth(int value)](#setWidth-int-) | Sets desired page width for converting CAD document
- |
-| [getHeight()](#getHeight--) | Sets desired page height for converting CAD document
- |
-| [setHeight(int value)](#setHeight-int-) | Sets desired page height for converting CAD document
- |
 | [getLayoutNames()](#getLayoutNames--) | Specifies which CAD layouts to be converted
  |
 | [setLayoutNames(String[] value)](#setLayoutNames-java.lang.String---) | Specififies which CAD layouts to be converted
@@ -78,56 +70,6 @@ Input document file type
 
 **Returns:**
 [CadFileType](../../com.groupdocs.conversion.filetypes/cadfiletype)
-### getWidth() {#getWidth--}
-```
-public final int getWidth()
-```
-
-
-Sets desired page width for converting CAD document
-
-
-**Returns:**
-int
-### setWidth(int value) {#setWidth-int-}
-```
-public final void setWidth(int value)
-```
-
-
-Sets desired page width for converting CAD document
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getHeight() {#getHeight--}
-```
-public final int getHeight()
-```
-
-
-Sets desired page height for converting CAD document
-
-
-**Returns:**
-int
-### setHeight(int value) {#setHeight-int-}
-```
-public final void setHeight(int value)
-```
-
-
-Sets desired page height for converting CAD document
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### getLayoutNames() {#getLayoutNames--}
 ```
 public final String[] getLayoutNames()
