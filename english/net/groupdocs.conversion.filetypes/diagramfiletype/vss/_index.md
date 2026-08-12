@@ -3,7 +3,7 @@ title: Vss
 second_title: GroupDocs.Conversion for .NET API Reference
 description: VSS are stencil files created with Microsoft Visio 2007 and earlier. Stencil files provide drawing objects that can be included in a .VSD Visio drawing. Learn more about this file format herehttps//wiki.fileformat.com/image/vss.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vss/
 ---
 ## DiagramFileType.Vss field

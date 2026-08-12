@@ -3,7 +3,7 @@ title: Vdw
 second_title: GroupDocs.Conversion for .NET API Reference
 description: VDW is the Visio Graphics Service file format that specifies the streams and storages required for rendering a Web drawing. Learn more about this file format herehttps//wiki.fileformat.com/web/vdw.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vdw/
 ---
 ## DiagramFileType.Vdw field

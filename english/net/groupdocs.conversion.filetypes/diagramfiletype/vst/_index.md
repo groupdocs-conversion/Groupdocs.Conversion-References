@@ -3,7 +3,7 @@ title: Vst
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with VST extension are vector image files created with Microsoft Visio and act as template for creating further files. These template files are in binary file format and contain the default layout and settings that are utilized for creation of new Visio drawings. Learn more about this file format herehttps//wiki.fileformat.com/image/vst.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vst/
 ---
 ## DiagramFileType.Vst field

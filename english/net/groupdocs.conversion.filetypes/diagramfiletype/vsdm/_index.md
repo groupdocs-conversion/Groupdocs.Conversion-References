@@ -3,7 +3,7 @@ title: Vsdm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Learn more about this file format herehttps//wiki.fileformat.com/image/vsdm.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vsdm/
 ---
 ## DiagramFileType.Vsdm field
