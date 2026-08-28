@@ -3,7 +3,7 @@ title: IConversionOptionsOnly
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Fluent interface for setting only conversion options.
 type: docs
-weight: 1470
+weight: 1480
 url: /net/groupdocs.conversion.fluent/iconversionoptionsonly/
 ---
 ## IConversionOptionsOnly interface

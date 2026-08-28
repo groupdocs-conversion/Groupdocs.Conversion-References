@@ -3,7 +3,7 @@ title: CadLayoutScope
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents which drawing spaces a CAD conversion selects the model space the paper space layouts or both.
 type: docs
-weight: 2370
+weight: 2380
 url: /net/groupdocs.conversion.options.load/cadlayoutscope/
 ---
 ## CadLayoutScope class

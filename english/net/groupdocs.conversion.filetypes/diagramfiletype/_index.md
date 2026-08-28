@@ -3,7 +3,7 @@ title: DiagramFileType
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Diagram documents. Includes the following types Drawio./diagramfiletype/drawio Mmd./diagramfiletype/mmd Vdw./diagramfiletype/vdw Vdx./diagramfiletype/vdx Vsd./diagramfiletype/vsd Vsdm./diagramfiletype/vsdm Vsdx./diagramfiletype/vsdx Vss./diagramfiletype/vss Vssm./diagramfiletype/vssm Vssx./diagramfiletype/vssx Vst./diagramfiletype/vst Vstm./diagramfiletype/vstm Vstx./diagramfiletype/vstx Vsx./diagramfiletype/vsx Vtx./diagramfiletype/vtx.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/
 ---
 ## DiagramFileType class

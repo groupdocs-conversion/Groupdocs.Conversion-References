@@ -3,7 +3,7 @@ title: IDpiConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents convert options that support DPI Dots Per Inch settings.
 type: docs
-weight: 1810
+weight: 1820
 url: /net/groupdocs.conversion.options.convert/idpiconvertoptions/
 ---
 ## IDpiConvertOptions interface

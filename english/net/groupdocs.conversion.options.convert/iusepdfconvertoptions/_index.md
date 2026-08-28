@@ -3,7 +3,7 @@ title: IUsePdfConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents options that support converting to PDF if required
 type: docs
-weight: 1870
+weight: 1880
 url: /net/groupdocs.conversion.options.convert/iusepdfconvertoptions/
 ---
 ## IUsePdfConvertOptions interface

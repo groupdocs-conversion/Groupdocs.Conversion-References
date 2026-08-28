@@ -23,6 +23,7 @@ The namespace provides different exceptions classes.
 | [InvalidConverterSettingsException](./invalidconvertersettingsexception) | Thrown if provided converter settings are invalid |
 | [InvalidConvertOptionsException](./invalidconvertoptionsexception) | Thrown if provided convert options are invalid |
 | [InvalidLoadOptionsException](./invalidloadoptionsexception) | Thrown if provided load options are invalid |
+| [MissingDependencyException](./missingdependencyexception) | GroupDocs exception thrown when a conversion cannot run because an assembly it depends on is not present in the application's output. The document is not at fault. |
 | [PasswordRequiredException](./passwordrequiredexception) | GroupDocs exception thrown when the file is password protected and password is not provided |
 | [SourceDocumentFactoryNotProvidedException](./sourcedocumentfactorynotprovidedexception) | GroupDocs exception thrown when the source document factory is not provided |
 
