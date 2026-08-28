@@ -3,7 +3,7 @@ title: IsMultiFileArchive
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines if the format supports multiple files/folders in a single archive.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/ismultifilearchive/
 ---
 ## CompressionFileType.IsMultiFileArchive property

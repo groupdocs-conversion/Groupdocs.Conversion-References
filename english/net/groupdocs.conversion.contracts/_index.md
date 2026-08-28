@@ -78,6 +78,7 @@ The namespace provides members to instantiate and release output document, manag
 | [VideoDocumentInfo](./videodocumentinfo) | Contains Video document metadata |
 | [WebDocumentInfo](./webdocumentinfo) | Contains Web document metadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
+| [XarDocumentInfo](./xardocumentinfo) | Contains Xar document metadata |
 | [XbrlDocumentInfo](./xbrldocumentinfo) | Contains Xbrl document metadata |
 | [XmlDocumentInfo](./xmldocumentinfo) | Contains Xml document metadata |
 | [XpsDocumentInfo](./xpsdocumentinfo) | Contains Xps document metadata |

@@ -3,7 +3,7 @@ title: Vstm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with VSTM extension are template files created with Microsoft Visio that support macros. Unlike VSDX files files created from VSTM templates can run macros that are developed in Visual Basic for Applications VBA code. Learn more about this file format herehttps//wiki.fileformat.com/image/vstm.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vstm/
 ---
 ## DiagramFileType.Vstm field

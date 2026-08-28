@@ -3,7 +3,7 @@ title: Vssm
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram. Learn more about this file format herehttps//wiki.fileformat.com/image/vssm.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vssm/
 ---
 ## DiagramFileType.Vssm field

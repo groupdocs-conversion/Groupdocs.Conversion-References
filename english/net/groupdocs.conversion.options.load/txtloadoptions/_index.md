@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Txt documents.
 type: docs
-weight: 2800
+weight: 2820
 url: /net/groupdocs.conversion.options.load/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -27,7 +27,7 @@ public sealed class TxtLoadOptions : LoadOptions, IPageMarginOptions, IPageSizeO
 | [DefaultFont](../../groupdocs.conversion.options.load/txtloadoptions/defaultfont) { get; set; } | Font to use when rendering plain text content during conversion. Since TXT files don't contain font information, this property specifies the display font for the text content. Default: Arial 10pt. |
 | [DetectNumberingWithWhitespaces](../../groupdocs.conversion.options.load/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when plain text document is converted. The default value is true. |
 | [Encoding](../../groupdocs.conversion.options.load/txtloadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null. |
-| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/txtloadoptions/format) { get; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [LeadingSpacesOptions](../../groupdocs.conversion.options.load/txtloadoptions/leadingspacesoptions) { get; set; } | Gets or sets preferred option of a leading space handling. Default value is [`ConvertToIndent`](../txtleadingspacesoptions/converttoindent). |
 | [MarginSettings](../../groupdocs.conversion.options.load/txtloadoptions/marginsettings) { get; set; } | Page margin settings |

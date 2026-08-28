@@ -3,7 +3,7 @@ title: PageDescriptionLanguageConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to page descriptions language file type.
 type: docs
-weight: 1970
+weight: 1980
 url: /net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/
 ---
 ## PageDescriptionLanguageConvertOptions class
@@ -27,12 +27,12 @@ public class PageDescriptionLanguageConvertOptions :
 | --- | --- |
 | [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | The desired file type the input document should be converted to. |
 | virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implements [`Format`](../iconvertoptions/format) |
-| [Height](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/height) { get; set; } | Desired page height after conversion. |
+| [Height](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/height) { get; set; } | Desired page height after conversion, in device-independent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page height it derives on its own. |
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
-| [Width](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/width) { get; set; } | Desired page width after conversion. |
+| [Width](../../groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/width) { get; set; } | Desired page width after conversion, in device-independent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page width it derives on its own. |
 
 ## Methods
 

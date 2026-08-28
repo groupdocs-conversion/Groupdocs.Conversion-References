@@ -3,7 +3,7 @@ title: PclLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pcl documents.
 type: docs
-weight: 2660
+weight: 2680
 url: /net/groupdocs.conversion.options.load/pclloadoptions/
 ---
 ## PclLoadOptions class
@@ -24,7 +24,7 @@ public sealed class PclLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/pclloadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/pclloadoptions/format) { get; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [ResetFontFolders](../../groupdocs.conversion.options.load/pclloadoptions/resetfontfolders) { get; set; } | Reset font folders before loading document |
 

@@ -3,7 +3,7 @@ title: Vtx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with VTX extension is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Learn more about this file format herehttps//wiki.fileformat.com/image/vtx.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vtx/
 ---
 ## DiagramFileType.Vtx field

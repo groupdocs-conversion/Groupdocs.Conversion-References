@@ -3,7 +3,7 @@ title: AudioLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading audio documents.
 type: docs
-weight: 2330
+weight: 2340
 url: /net/groupdocs.conversion.options.load/audioloadoptions/
 ---
 ## AudioLoadOptions class
@@ -24,7 +24,7 @@ public sealed class AudioLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/audioloadoptions/format) { get; set; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/audioloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods

@@ -3,7 +3,7 @@ title: Vsdx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with .VSDX extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format .VSD which is supported by earlier versions of Microsoft Visio. Learn more about this file format herehttps//wiki.fileformat.com/image/vsdx.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vsdx/
 ---
 ## DiagramFileType.Vsdx field

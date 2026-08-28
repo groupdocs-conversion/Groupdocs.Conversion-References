@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2670
+weight: 2690
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -35,7 +35,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
 | [FontTransformations](../../groupdocs.conversion.options.load/pdfloadoptions/fonttransformations) { get; set; } | Transform existing fonts after document loading and font substitution are complete. Font transformations can modify any fonts in the document, including fonts that were successfully loaded. |
-| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/pdfloadoptions/format) { get; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [HidePdfAnnotations](../../groupdocs.conversion.options.load/pdfloadoptions/hidepdfannotations) { get; set; } | Hide annotations in Pdf documents. |
 | [PageNumbering](../../groupdocs.conversion.options.load/pdfloadoptions/pagenumbering) { get; set; } | Enable or disable generation of page numbering in converted document. Default: false |

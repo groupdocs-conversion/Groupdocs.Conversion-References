@@ -3,7 +3,7 @@ title: IPageLayoutOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options to control page layout scaling when loading documents.
 type: docs
-weight: 2550
+weight: 2570
 url: /net/groupdocs.conversion.options.load/ipagelayoutoptions/
 ---
 ## IPageLayoutOptions interface

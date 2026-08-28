@@ -3,7 +3,7 @@ title: Vdx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Any drawing or chart created in Microsoft Visio but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software which is developed by Microsoft. Learn more about this file format herehttps//wiki.fileformat.com/image/vdx.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/vdx/
 ---
 ## DiagramFileType.Vdx field

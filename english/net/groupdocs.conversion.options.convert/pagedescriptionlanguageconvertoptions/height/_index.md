@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page height after conversion.
+description: Desired page height after conversion in deviceindependent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page height it derives on its own.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/height/
 ---
 ## PageDescriptionLanguageConvertOptions.Height property
 
-Desired page height after conversion.
+Desired page height after conversion, in device-independent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page height it derives on its own.
 
 ```csharp
 public int Height { get; set; }

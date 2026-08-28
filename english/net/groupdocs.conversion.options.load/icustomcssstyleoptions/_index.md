@@ -3,7 +3,7 @@ title: ICustomCssStyleOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents options for custom CSS styling during document conversion
 type: docs
-weight: 2510
+weight: 2530
 url: /net/groupdocs.conversion.options.load/icustomcssstyleoptions/
 ---
 ## ICustomCssStyleOptions interface

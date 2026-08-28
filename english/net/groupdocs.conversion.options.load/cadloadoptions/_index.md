@@ -3,7 +3,7 @@ title: CadLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading CAD documents.
 type: docs
-weight: 2360
+weight: 2380
 url: /net/groupdocs.conversion.options.load/cadloadoptions/
 ---
 ## CadLoadOptions class
@@ -28,9 +28,10 @@ public sealed class CadLoadOptions : LoadOptions
 | [CtbSources](../../groupdocs.conversion.options.load/cadloadoptions/ctbsources) { get; set; } | Gets or sets the CTB sources. |
 | [DrawColor](../../groupdocs.conversion.options.load/cadloadoptions/drawcolor) { get; set; } | Gets or sets foreground color. |
 | [DrawType](../../groupdocs.conversion.options.load/cadloadoptions/drawtype) { get; set; } | Gets or sets type of drawing. |
-| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Input document file type |
+| [Format](../../groupdocs.conversion.options.load/cadloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [LayoutNames](../../groupdocs.conversion.options.load/cadloadoptions/layoutnames) { get; set; } | Specifies which CAD layouts to be converted |
+| [LayoutScope](../../groupdocs.conversion.options.load/cadloadoptions/layoutscope) { get; set; } | Gets or sets which drawing spaces are converted. Defaults to [`Both`](../cadlayoutscope/both), which does not restrict the conversion. It is ignored when [`LayoutNames`](./layoutnames) is supplied, because explicit layout names always win. A `null` value is treated as [`Both`](../cadlayoutscope/both). |
 
 ## Methods
 

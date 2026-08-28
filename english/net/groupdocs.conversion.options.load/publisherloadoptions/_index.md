@@ -3,7 +3,7 @@ title: PublisherLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Publisher documents.
 type: docs
-weight: 2720
+weight: 2740
 url: /net/groupdocs.conversion.options.load/publisherloadoptions/
 ---
 ## PublisherLoadOptions class
@@ -26,7 +26,7 @@ public class PublisherLoadOptions : LoadOptions, IFontSubstituteLoadOptions
 | --- | --- |
 | [DefaultFont](../../groupdocs.conversion.options.load/publisherloadoptions/defaultfont) { get; set; } | Default font for Publisher document. The following font will be used if a font is missing. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/publisherloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Publisher document. |
-| [Format](../../groupdocs.conversion.options.load/publisherloadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/publisherloadoptions/format) { get; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods

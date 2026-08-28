@@ -3,7 +3,7 @@ title: PageDescriptionLanguageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading page description language documents.
 type: docs
-weight: 2640
+weight: 2660
 url: /net/groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/
 ---
 ## PageDescriptionLanguageLoadOptions class
@@ -24,7 +24,7 @@ public class PageDescriptionLanguageLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/format) { get; set; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods

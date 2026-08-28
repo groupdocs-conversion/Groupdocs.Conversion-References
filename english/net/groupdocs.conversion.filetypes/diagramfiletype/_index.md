@@ -1,14 +1,14 @@
 ---
 title: DiagramFileType
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Defines Diagram documents. Includes the following types Drawio./diagramfiletype/drawio Vdw./diagramfiletype/vdw Vdx./diagramfiletype/vdx Vsd./diagramfiletype/vsd Vsdm./diagramfiletype/vsdm Vsdx./diagramfiletype/vsdx Vss./diagramfiletype/vss Vssm./diagramfiletype/vssm Vssx./diagramfiletype/vssx Vst./diagramfiletype/vst Vstm./diagramfiletype/vstm Vstx./diagramfiletype/vstx Vsx./diagramfiletype/vsx Vtx./diagramfiletype/vtx.
+description: Defines Diagram documents. Includes the following types Drawio./diagramfiletype/drawio Mmd./diagramfiletype/mmd Vdw./diagramfiletype/vdw Vdx./diagramfiletype/vdx Vsd./diagramfiletype/vsd Vsdm./diagramfiletype/vsdm Vsdx./diagramfiletype/vsdx Vss./diagramfiletype/vss Vssm./diagramfiletype/vssm Vssx./diagramfiletype/vssx Vst./diagramfiletype/vst Vstm./diagramfiletype/vstm Vstx./diagramfiletype/vstx Vsx./diagramfiletype/vsx Vtx./diagramfiletype/vtx.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/groupdocs.conversion.filetypes/diagramfiletype/
 ---
 ## DiagramFileType class
 
-Defines Diagram documents. Includes the following types: [`Drawio`](./drawio), [`Vdw`](./vdw), [`Vdx`](./vdx), [`Vsd`](./vsd), [`Vsdm`](./vsdm), [`Vsdx`](./vsdx), [`Vss`](./vss), [`Vssm`](./vssm), [`Vssx`](./vssx), [`Vst`](./vst), [`Vstm`](./vstm), [`Vstx`](./vstx), [`Vsx`](./vsx), [`Vtx`](./vtx).
+Defines Diagram documents. Includes the following types: [`Drawio`](./drawio), [`Mmd`](./mmd), [`Vdw`](./vdw), [`Vdx`](./vdx), [`Vsd`](./vsd), [`Vsdm`](./vsdm), [`Vsdx`](./vsdx), [`Vss`](./vss), [`Vssm`](./vssm), [`Vssx`](./vssx), [`Vst`](./vst), [`Vstm`](./vstm), [`Vstx`](./vstx), [`Vsx`](./vsx), [`Vtx`](./vtx).
 
 ```csharp
 public sealed class DiagramFileType : FileType
@@ -44,6 +44,7 @@ public sealed class DiagramFileType : FileType
 | Name | Description |
 | --- | --- |
 | static readonly [Drawio](../../groupdocs.conversion.filetypes/diagramfiletype/drawio) | A file with DRAWIO extension is a diagram created with diagrams.net (formerly draw.io). It is stored in XML file format with the mxfile root element and holds the content and formatting of the diagram elements such as text, images, layout, shapes and positioning. Learn more about this file format [here](https://wiki.fileformat.com/web/drawio). |
+| static readonly [Mmd](../../groupdocs.conversion.filetypes/diagramfiletype/mmd) | A file with MMD extension is a diagram written in the Mermaid markup language. It is stored as a plain text document which starts with the diagram declaration, such as flowchart or sequenceDiagram, followed by the definition of the nodes and the connections between them. Learn more about this file format [here](https://mermaid.js.org/intro/). |
 | static readonly [Vdw](../../groupdocs.conversion.filetypes/diagramfiletype/vdw) | VDW is the Visio Graphics Service file format that specifies the streams and storages required for rendering a Web drawing. Learn more about this file format [here](https://wiki.fileformat.com/web/vdw). |
 | static readonly [Vdx](../../groupdocs.conversion.filetypes/diagramfiletype/vdx) | Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Learn more about this file format [here](https://wiki.fileformat.com/image/vdx). |
 | static readonly [Vsd](../../groupdocs.conversion.filetypes/diagramfiletype/vsd) | VSD files are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Learn more about this file format [here](https://wiki.fileformat.com/image/vsd). |

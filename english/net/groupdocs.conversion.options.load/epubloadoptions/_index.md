@@ -3,7 +3,7 @@ title: EpubLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Epub documents.
 type: docs
-weight: 2440
+weight: 2460
 url: /net/groupdocs.conversion.options.load/epubloadoptions/
 ---
 ## EpubLoadOptions class
@@ -24,7 +24,7 @@ public sealed class EpubLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.conversion.options.load/epubloadoptions/format) { get; } | Input document file type. |
+| [Format](../../groupdocs.conversion.options.load/epubloadoptions/format) { get; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 
 ## Methods
