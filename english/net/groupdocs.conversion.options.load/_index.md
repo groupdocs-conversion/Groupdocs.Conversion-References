@@ -16,6 +16,7 @@ The namespace provides classes to specify additional options for document loadin
 | [AudioLoadOptions](./audioloadoptions) | Options for loading audio documents. |
 | [BaseImageLoadOptions](./baseimageloadoptions) | Options for loading Image documents. |
 | [CadDrawTypeMode](./caddrawtypemode) | Represents possible modes for colorization of objects. |
+| [CadLayoutScope](./cadlayoutscope) | Represents which drawing spaces a CAD conversion selects: the model space, the paper space layouts, or both. |
 | [CadLoadOptions](./cadloadoptions) | Options for loading CAD documents. |
 | [CompressionLoadOptions](./compressionloadoptions) | Options for loading compression documents. |
 | [CsvLoadOptions](./csvloadoptions) | Options for loading Csv documents. |

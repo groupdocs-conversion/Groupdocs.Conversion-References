@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Input document file type.
+description: Input document file type. Is null until a format has been set so test it for null rather than against Unknowngroupdocs.conversion.filetypes/filetype/unknown which it never equals.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.load/videoloadoptions/format/
 ---
 ## VideoLoadOptions.Format property
 
-Input document file type.
+Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals.
 
 ```csharp
 public VideoFileType Format { get; set; }

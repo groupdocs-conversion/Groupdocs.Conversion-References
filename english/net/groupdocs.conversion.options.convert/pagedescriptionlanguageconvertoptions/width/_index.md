@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Desired page width after conversion.
+description: Desired page width after conversion in deviceindependent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page width it derives on its own.
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.options.convert/pagedescriptionlanguageconvertoptions/width/
 ---
 ## PageDescriptionLanguageConvertOptions.Width property
 
-Desired page width after conversion.
+Desired page width after conversion, in device-independent pixels of 1/96 inch each. Leave it at 0 to let the target keep the page width it derives on its own.
 
 ```csharp
 public int Width { get; set; }

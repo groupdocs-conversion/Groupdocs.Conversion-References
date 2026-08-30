@@ -3,7 +3,7 @@ title: ConversionEvents
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Aggregates conversion lifecycle event handlers. Pass an instance to the Converter./converter constructors events parameter or to the fluent WithEvents method. Prefer this over the individual ConverterSettings./convertersettings handler properties which are obsolete.
 type: docs
-weight: 810
+weight: 820
 url: /net/groupdocs.conversion/conversionevents/
 ---
 ## ConversionEvents class
