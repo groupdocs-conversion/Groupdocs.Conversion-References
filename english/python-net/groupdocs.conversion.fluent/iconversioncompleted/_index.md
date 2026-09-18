@@ -1,23 +1,24 @@
 ---
 title: IConversionCompleted class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Handles conversion completed."
 type: docs
 url: /python-net/groupdocs.conversion.fluent/iconversioncompleted/
 is_root: false
-weight: 80
+weight: 90
 ---
 
 
 ## IConversionCompleted class
+
+Handles conversion completed.
 
 The IConversionCompleted type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [_on_conversion_completed_action_1_dd_8b](/conversion/python-net/groupdocs.conversion.fluent/iconversioncompleted/_on_conversion_completed_action_1_dd_8b/#converted_file_stream) |  |
-| [on_conversion_completed](/conversion/python-net/groupdocs.conversion.fluent/iconversioncompleted/on_conversion_completed/) |  |
+| [on_conversion_completed](/conversion/python-net/groupdocs.conversion.fluent/iconversioncompleted/on_conversion_completed/#converted_file_stream) | Receives the converted document stream and is fired only if `ConvertTo(string fileName)` or `ConvertTo(convertedStreamProvider)` is set. |
 | [on_conversion_completed_action](/conversion/python-net/groupdocs.conversion.fluent/iconversioncompleted/on_conversion_completed_action/) |  |
 
 ### See Also

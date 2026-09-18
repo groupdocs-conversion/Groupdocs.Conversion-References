@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Constructor for the PdfFormattingOptions class — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/__init__/
 is_root: false

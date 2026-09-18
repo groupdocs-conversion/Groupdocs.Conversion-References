@@ -1,7 +1,7 @@
 ---
 title: compression property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The Jpg compression method."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/jpegoptions/compression/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## compression property
+
+The Jpg compression method.
 
 ### Definition:
 ```python

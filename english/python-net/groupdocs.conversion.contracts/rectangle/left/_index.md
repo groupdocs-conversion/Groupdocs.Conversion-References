@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The left edge of the rectangle."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/left/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## left property
+
+The left edge of the rectangle.
 
 ### Definition:
 ```python

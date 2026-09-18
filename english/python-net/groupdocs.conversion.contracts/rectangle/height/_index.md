@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The height of the rectangle based on top and bottom edges."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/height/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## height property
+
+The height of the rectangle based on top and bottom edges.
 
 ### Definition:
 ```python

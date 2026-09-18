@@ -1,7 +1,7 @@
 ---
 title: color property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The watermark font color if a text watermark is applied."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/watermarktextoptions/color/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## color property
+
+The watermark font color if a text watermark is applied.
 
 ### Definition:
 ```python

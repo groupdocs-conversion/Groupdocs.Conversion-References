@@ -1,7 +1,7 @@
 ---
 title: pdf_format property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The PDF format of the converted document."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptions/pdf_format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## pdf_format property
+
+The PDF format of the converted document.
 
 ### Definition:
 ```python

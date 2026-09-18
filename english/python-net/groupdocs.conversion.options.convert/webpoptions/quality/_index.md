@@ -1,7 +1,7 @@
 ---
 title: quality property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The quality setting for the WebP conversion."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webpoptions/quality/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## quality property
+
+The quality setting for the WebP conversion.
 
 ### Definition:
 ```python

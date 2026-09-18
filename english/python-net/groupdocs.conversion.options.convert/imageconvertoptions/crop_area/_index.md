@@ -1,15 +1,17 @@
 ---
 title: crop_area property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The crop area of the raster image after conversion."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/crop_area/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 
 ## crop_area property
+
+The crop area of the raster image after conversion.
 
 ### Definition:
 ```python

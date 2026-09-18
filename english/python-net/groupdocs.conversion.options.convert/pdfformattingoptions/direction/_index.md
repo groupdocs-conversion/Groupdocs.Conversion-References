@@ -1,7 +1,7 @@
 ---
 title: direction property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The reading order of text."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/direction/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## direction property
+
+The reading order of text. Can be set to L2R (left to right) or R2L (right to left). Default is L2R.
 
 ### Definition:
 ```python

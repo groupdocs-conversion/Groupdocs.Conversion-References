@@ -1,7 +1,7 @@
 ---
 title: file_extension property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The file extension (e.g., \".pdf\", \".docx\")."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/attachmenticon/file_extension/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## file_extension property
+
+The file extension (e.g., ".pdf", ".docx").
 
 ### Definition:
 ```python

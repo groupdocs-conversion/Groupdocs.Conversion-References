@@ -1,7 +1,7 @@
 ---
 title: display_subject property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option to display or hide the subject in the header."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/display_subject/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2140
 
 
 ## display_subject property
+
+The option to display or hide the subject in the header. Default is True.
 
 ### Definition:
 ```python

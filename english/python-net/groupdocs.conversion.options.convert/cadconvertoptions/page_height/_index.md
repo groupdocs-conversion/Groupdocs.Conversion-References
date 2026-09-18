@@ -1,7 +1,7 @@
 ---
 title: page_height property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page height in points."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_height/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## page_height property
+
+The page height in points.
+
+When set, [`CadConvertOptions.page_size`](/conversion/python-net/groupdocs.conversion.options.convert/cadconvertoptions/page_size/) is automatically changed to [`PageSize.custom`](/conversion/python-net/groupdocs.conversion.options/pagesize/).
 
 ### Definition:
 ```python

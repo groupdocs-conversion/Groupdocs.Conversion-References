@@ -1,7 +1,7 @@
 ---
 title: orientation_settings property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The orientation settings."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/orientation_settings/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2200
 
 
 ## orientation_settings property
+
+The orientation settings.
 
 ### Definition:
 ```python

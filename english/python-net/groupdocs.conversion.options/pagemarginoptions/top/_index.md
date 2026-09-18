@@ -1,7 +1,7 @@
 ---
 title: top property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired page top margin in points."
 type: docs
 url: /python-net/groupdocs.conversion.options/pagemarginoptions/top/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## top property
+
+The desired page top margin in points.
 
 ### Definition:
 ```python

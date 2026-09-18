@@ -1,15 +1,17 @@
 ---
 title: resource_loading_timeout property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The timeout for loading external resources."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/resource_loading_timeout/
 is_root: false
-weight: 2220
+weight: 2230
 ---
 
 
 ## resource_loading_timeout property
+
+The timeout for loading external resources.
 
 ### Definition:
 ```python

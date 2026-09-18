@@ -1,27 +1,35 @@
 ---
 title: GzipDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Contains Gzip document metadata."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/gzipdocumentinfo/
 is_root: false
-weight: 210
+weight: 220
 ---
 
 
 ## GzipDocumentInfo class
 
+Contains Gzip document metadata.
+
 The GzipDocumentInfo type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [get](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/get/) |  |
+| [get_file](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/get_file/) |  |
+| [get_string](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/get_string/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/creation_date/) |  |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/format/) |  |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/item/) |  |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/pages_count/) |  |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/property_names/) |  |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/size/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/creation_date/) | The document creation date. |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/format/) | The document format. |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/pages_count/) | The document pages count. |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/property_names/) | The enumerable of all properties that can be retrieved for the current document info. |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/gzipdocumentinfo/size/) | The document size in bytes. |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

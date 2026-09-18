@@ -1,7 +1,7 @@
 ---
-title: Shp field
+title: SHP field
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "SHP is the file extension for one of the primary file types used for representation of ESRI Shapefile."
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/gisfiletype/shp/
 is_root: false
@@ -9,7 +9,9 @@ weight: 3010
 ---
 
 
-## Shp field
+## SHP field
+
+SHP is the file extension for one of the primary file types used for representation of ESRI Shapefile. It represents Geospatial information in the form of vector data to be used by Geographic Information Systems (GIS) applications. Learn more about this file format here.
 
 ### See Also
 * class [`GisFileType`](/conversion/python-net/groupdocs.conversion.filetypes/gisfiletype/)

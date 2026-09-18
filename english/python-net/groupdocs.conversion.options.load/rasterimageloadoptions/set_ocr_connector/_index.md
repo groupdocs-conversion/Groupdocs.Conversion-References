@@ -1,20 +1,26 @@
 ---
 title: set_ocr_connector method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Set image OCR connector."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_ocr_connector/
 is_root: false
-weight: 1060
+weight: 1030
 ---
 
 
-## set_ocr_connector
+## set_ocr_connector {#ocr_connector}
+
+Set image OCR connector.
 
 ```python
-def set_ocr_connector(self):
+def set_ocr_connector(self, ocr_connector):
     ...
 ```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ocr_connector | `IOcrConnector` | OCR connector instance |
 
 ### See Also
 * class [`RasterImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/rasterimageloadoptions/)

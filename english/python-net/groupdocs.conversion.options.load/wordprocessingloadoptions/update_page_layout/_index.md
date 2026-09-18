@@ -1,15 +1,17 @@
 ---
 title: update_page_layout property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page layout is updated after loading."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/update_page_layout/
 is_root: false
-weight: 2280
+weight: 2290
 ---
 
 
 ## update_page_layout property
+
+The page layout is updated after loading. Default: False.
 
 ### Definition:
 ```python

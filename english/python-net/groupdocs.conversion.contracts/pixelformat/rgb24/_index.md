@@ -1,7 +1,7 @@
 ---
-title: Rgb24 field
+title: RGB24 field
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "PixelFormat.RGB24 — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pixelformat/rgb24/
 is_root: false
@@ -9,7 +9,7 @@ weight: 3010
 ---
 
 
-## Rgb24 field
+## RGB24 field
 
 ### See Also
 * class [`PixelFormat`](/conversion/python-net/groupdocs.conversion.contracts/pixelformat/)

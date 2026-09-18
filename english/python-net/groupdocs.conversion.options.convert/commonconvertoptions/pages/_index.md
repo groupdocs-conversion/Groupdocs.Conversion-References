@@ -1,7 +1,7 @@
 ---
 title: pages property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "CommonConvertOptions.pages property — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/commonconvertoptions/pages/
 is_root: false

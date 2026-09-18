@@ -1,7 +1,7 @@
 ---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The default font for PSD, EMF, WMF document types."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/baseimageloadoptions/default_font/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## default_font property
+
+The default font for PSD, EMF, WMF document types. This font will be used if a font is missing.
 
 ### Definition:
 ```python

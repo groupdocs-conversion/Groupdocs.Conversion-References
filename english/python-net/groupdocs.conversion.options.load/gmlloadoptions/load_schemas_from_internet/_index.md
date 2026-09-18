@@ -1,7 +1,7 @@
 ---
 title: load_schemas_from_internet property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property determines whether conversion is allowed to load XML schemas from the Internet."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/gmlloadoptions/load_schemas_from_internet/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## load_schemas_from_internet property
+
+The property determines whether conversion is allowed to load XML schemas from the Internet.
+
+If set to False, schemas with absolute URIs that do not start with 'file://' will not be loaded. Default is False.
 
 ### Definition:
 ```python

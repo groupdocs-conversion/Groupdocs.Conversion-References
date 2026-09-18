@@ -1,15 +1,17 @@
 ---
 title: size_settings property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The size settings for the WordProcessing document (IPageSizeOptions)."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/size_settings/
 is_root: false
-weight: 2250
+weight: 2260
 ---
 
 
 ## size_settings property
+
+The size settings for the WordProcessing document ([`IPageSizeOptions`](/conversion/python-net/groupdocs.conversion.options/ipagesizeoptions/)).
 
 ### Definition:
 ```python

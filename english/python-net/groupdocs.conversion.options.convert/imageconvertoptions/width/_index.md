@@ -1,15 +1,17 @@
 ---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired image width after conversion."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/width/
 is_root: false
-weight: 2220
+weight: 2240
 ---
 
 
 ## width property
+
+The desired image width after conversion.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: subject property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The item subject."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstorageiteminfo/subject/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2070
 
 
 ## subject property
+
+The item subject.
 
 ### Definition:
 ```python

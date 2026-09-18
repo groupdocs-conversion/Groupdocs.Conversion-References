@@ -1,15 +1,17 @@
 ---
 title: dispose method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Releases resources."
 type: docs
 url: /python-net/groupdocs.conversion/converter/dispose/
 is_root: false
-weight: 1250
+weight: 1060
 ---
 
 
 ## dispose
+
+Releases resources.
 
 ```python
 def dispose(self):

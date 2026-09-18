@@ -1,7 +1,7 @@
 ---
 title: auto_align property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The watermark is automatically scaled to fit the page size when set to True."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/auto_align/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2010
 
 
 ## auto_align property
+
+The watermark is automatically scaled to fit the page size when set to True.
+
+If True, the position and size are automatically calculated to fit the page size.
 
 ### Definition:
 ```python

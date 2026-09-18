@@ -1,7 +1,7 @@
 ---
 title: audio_format property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The audio format to be used."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/videoconvertoptions/audio_format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## audio_format property
+
+The audio format to be used.
 
 ### Definition:
 ```python

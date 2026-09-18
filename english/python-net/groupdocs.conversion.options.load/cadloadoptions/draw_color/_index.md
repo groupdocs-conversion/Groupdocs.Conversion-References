@@ -1,7 +1,7 @@
 ---
 title: draw_color property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The foreground color."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/cadloadoptions/draw_color/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## draw_color property
+
+The foreground color.
 
 ### Definition:
 ```python

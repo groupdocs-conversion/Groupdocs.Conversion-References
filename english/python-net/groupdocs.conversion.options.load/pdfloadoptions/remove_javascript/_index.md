@@ -1,7 +1,7 @@
 ---
 title: remove_javascript property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option to remove JavaScript."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/remove_javascript/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2150
 
 
 ## remove_javascript property
+
+The option to remove JavaScript.
 
 ### Definition:
 ```python

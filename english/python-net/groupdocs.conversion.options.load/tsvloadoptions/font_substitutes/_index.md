@@ -1,7 +1,7 @@
 ---
 title: font_substitutes property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The font substitutes."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/tsvloadoptions/font_substitutes/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2070
 
 
 ## font_substitutes property
+
+The font substitutes.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: display_from_email_address property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option to display or hide the \"from\" email address."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/display_from_email_address/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2110
 
 
 ## display_from_email_address property
+
+The option to display or hide the "from" email address. Default: True.
 
 ### Definition:
 ```python

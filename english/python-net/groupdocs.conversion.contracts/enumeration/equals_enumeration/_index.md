@@ -1,11 +1,11 @@
 ---
 title: equals_enumeration method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Enumeration.equals_enumeration method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/equals_enumeration/
 is_root: false
-weight: 1090
+weight: 1040
 ---
 
 

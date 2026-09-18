@@ -1,15 +1,17 @@
 ---
 title: started method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Invoked as soon as the actual conversion starts."
 type: docs
 url: /python-net/groupdocs.conversion.reporting/iconverterlistener/started/
 is_root: false
-weight: 1070
+weight: 1040
 ---
 
 
 ## started
+
+Invoked as soon as the actual conversion starts.
 
 ```python
 def started(self):

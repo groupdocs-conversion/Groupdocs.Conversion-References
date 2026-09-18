@@ -1,20 +1,30 @@
 ---
 title: compress method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Compresses the results of conversion."
 type: docs
 url: /python-net/groupdocs.conversion.fluent/iconversioncompressresult/compress/
 is_root: false
-weight: 1020
+weight: 1010
 ---
 
 
-## compress
+## compress {#options}
+
+Compresses the results of conversion.
+
+Register a compressed‑stream handler at the entry stage via [`IConversionSettings.with_events`](/conversion/python-net/groupdocs.conversion.fluent/iconversionsettings/with_events/) (setting `OnCompressionCompleted`) rather than via the obsolete fluent chain method on the returned interface.
 
 ```python
-def compress(self):
+def compress(self, options):
     ...
 ```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| options | `CompressionConvertOptions` | Compression convert options. |
+
+**Returns:** Continuation that proceeds to `Convert`.
 
 ### See Also
 * class [`IConversionCompressResult`](/conversion/python-net/groupdocs.conversion.fluent/iconversioncompressresult/)

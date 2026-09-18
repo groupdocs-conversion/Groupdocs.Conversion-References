@@ -1,11 +1,11 @@
 ---
 title: get_keys_file method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "ICache.get_keys_file method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.caching/icache/get_keys_file/
 is_root: false
-weight: 1050
+weight: 1020
 ---
 
 

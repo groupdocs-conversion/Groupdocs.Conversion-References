@@ -1,15 +1,17 @@
 ---
 title: page_layout_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page layout options used when loading web documents."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/webloadoptions/page_layout_options/
 is_root: false
-weight: 2080
+weight: 2100
 ---
 
 
 ## page_layout_options property
+
+The page layout options used when loading web documents.
 
 ### Definition:
 ```python

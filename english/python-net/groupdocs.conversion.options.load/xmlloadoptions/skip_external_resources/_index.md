@@ -1,15 +1,19 @@
 ---
 title: skip_external_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property indicates whether external resources are loaded."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/xmlloadoptions/skip_external_resources/
 is_root: false
-weight: 2040
+weight: 2080
 ---
 
 
 ## skip_external_resources property
+
+The property indicates whether external resources are loaded.
+
+If True, all external resources will not be loaded except those in [`IResourceLoadingOptions.whitelisted_resources`](/conversion/python-net/groupdocs.conversion.options.load/iresourceloadingoptions/whitelisted_resources/) list. Default is True.
 
 ### Definition:
 ```python

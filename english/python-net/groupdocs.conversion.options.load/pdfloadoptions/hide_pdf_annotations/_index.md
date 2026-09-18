@@ -1,7 +1,7 @@
 ---
 title: hide_pdf_annotations property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property that hides annotations in PDF documents."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/hide_pdf_annotations/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2110
 
 
 ## hide_pdf_annotations property
+
+The property that hides annotations in PDF documents.
 
 ### Definition:
 ```python

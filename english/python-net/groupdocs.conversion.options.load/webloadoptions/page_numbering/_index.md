@@ -1,15 +1,17 @@
 ---
 title: page_numbering property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flag that enables or disables generation of page numbering in the converted document."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/webloadoptions/page_numbering/
 is_root: false
-weight: 2090
+weight: 2110
 ---
 
 
 ## page_numbering property
+
+The flag that enables or disables generation of page numbering in the converted document. Default: False.
 
 ### Definition:
 ```python

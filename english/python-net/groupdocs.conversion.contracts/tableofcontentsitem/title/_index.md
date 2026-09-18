@@ -1,7 +1,7 @@
 ---
 title: title property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The bookmark title."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/tableofcontentsitem/title/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## title property
+
+The bookmark title.
 
 ### Definition:
 ```python

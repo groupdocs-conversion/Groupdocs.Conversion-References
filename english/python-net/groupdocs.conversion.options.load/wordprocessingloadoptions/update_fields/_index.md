@@ -1,15 +1,17 @@
 ---
 title: update_fields property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option to update fields after loading."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/update_fields/
 is_root: false
-weight: 2270
+weight: 2280
 ---
 
 
 ## update_fields property
+
+The option to update fields after loading. Default: False.
 
 ### Definition:
 ```python

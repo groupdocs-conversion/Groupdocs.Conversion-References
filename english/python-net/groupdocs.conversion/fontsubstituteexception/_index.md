@@ -1,15 +1,17 @@
 ---
 title: FontSubstituteException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Thrown if font substitute is illegal"
 type: docs
 url: /python-net/groupdocs.conversion/fontsubstituteexception/
 is_root: false
-weight: 120
+weight: 130
 ---
 
 
 ## FontSubstituteException class
+
+Thrown if font substitute is illegal
 
 The FontSubstituteException type exposes the following members:
 

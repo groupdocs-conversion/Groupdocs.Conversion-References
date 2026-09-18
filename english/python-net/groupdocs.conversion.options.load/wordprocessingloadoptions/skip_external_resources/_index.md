@@ -1,15 +1,17 @@
 ---
 title: skip_external_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flag that determines whether external resources are skipped when loading a document."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/skip_external_resources/
 is_root: false
-weight: 2260
+weight: 2270
 ---
 
 
 ## skip_external_resources property
+
+The flag that determines whether external resources are skipped when loading a document.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The format of the conversion output, as defined by IConvertOptions.format."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/convertoptions/format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## format property
+
+The format of the conversion output, as defined by [`IConvertOptions.format`](/conversion/python-net/groupdocs.conversion.options.convert/iconvertoptions/format/).
 
 ### Definition:
 ```python

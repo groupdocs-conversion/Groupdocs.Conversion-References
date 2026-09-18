@@ -1,7 +1,7 @@
 ---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The document format as a string."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/csvdocumentinfo/format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## format property
+
+The document format as a string.
 
 ### Definition:
 ```python

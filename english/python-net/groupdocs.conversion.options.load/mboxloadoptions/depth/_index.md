@@ -1,7 +1,7 @@
 ---
 title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The depth of the container."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/mboxloadoptions/depth/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## depth property
+
+The depth of the container. Implements [`IDocumentsContainerLoadOptions.depth`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth/). Default is 3.
 
 ### Definition:
 ```python

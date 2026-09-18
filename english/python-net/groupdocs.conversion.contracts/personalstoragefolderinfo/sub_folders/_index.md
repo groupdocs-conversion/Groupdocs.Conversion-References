@@ -1,7 +1,7 @@
 ---
 title: sub_folders property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The sub folders."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/sub_folders/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## sub_folders property
+
+The sub folders.
 
 ### Definition:
 ```python

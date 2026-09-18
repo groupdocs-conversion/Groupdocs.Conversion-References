@@ -1,7 +1,7 @@
 ---
 title: convert_range property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The range to convert when converting to a non‑spreadsheet format, e.g."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/convert_range/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## convert_range property
+
+The range to convert when converting to a non‑spreadsheet format, e.g. "D1:F8".
 
 ### Definition:
 ```python

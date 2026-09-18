@@ -1,7 +1,7 @@
 ---
 title: size property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The item size."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstorageiteminfo/size/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## size property
+
+The item size.
 
 ### Definition:
 ```python

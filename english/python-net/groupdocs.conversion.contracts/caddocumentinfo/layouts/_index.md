@@ -1,15 +1,17 @@
 ---
 title: layouts property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The layouts in the document."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/caddocumentinfo/layouts/
 is_root: false
-weight: 2060
+weight: 2050
 ---
 
 
 ## layouts property
+
+The layouts in the document.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: clear_built_in_document_properties property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The ClearBuiltInDocumentProperties property."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/clear_built_in_document_properties/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## clear_built_in_document_properties property
+
+The ClearBuiltInDocumentProperties property.
 
 ### Definition:
 ```python

@@ -1,19 +1,17 @@
-﻿---
-title: SEVEN_Z property
+---
+title: SEVEN_Z field
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "7z is an archiving format for compressing files and folders with a high compression ratio."
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/seven_z/
 is_root: false
-weight: 170
+weight: 3030
 ---
 
-## SEVEN_Z property
 
+## SEVEN_Z field
 
-7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms.
-Learn more about this file format [here](https://docs.fileformat.com/compression/7z/).
+7z is an archiving format for compressing files and folders with a high compression ratio. It is based on Open Source architecture which makes it possible to use any compression and encryption algorithms. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.conversion.filetypes`](../../)
-* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype)
+* class [`CompressionFileType`](/conversion/python-net/groupdocs.conversion.filetypes/compressionfiletype/)

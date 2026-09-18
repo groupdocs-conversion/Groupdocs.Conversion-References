@@ -1,7 +1,7 @@
 ---
 title: DiagramDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Contains diagram document metadata."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/diagramdocumentinfo/
 is_root: false
@@ -11,17 +11,25 @@ weight: 100
 
 ## DiagramDocumentInfo class
 
+Contains diagram document metadata.
+
 The DiagramDocumentInfo type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [get](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/get/) |  |
+| [get_file](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/get_file/) |  |
+| [get_string](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/get_string/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/creation_date/) |  |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/format/) |  |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/item/) |  |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/pages_count/) |  |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/property_names/) |  |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/size/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/creation_date/) | The document creation date. |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/format/) | The document format. |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/pages_count/) | The document pages count. |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/property_names/) | The enumerable of all properties that can be retrieved for the current document info. |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/diagramdocumentinfo/size/) | The document size in bytes. |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

@@ -1,35 +1,32 @@
 ---
 title: VideoConvertOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Provides options for conversion to Video type."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/videoconvertoptions/
 is_root: false
-weight: 540
+weight: 560
 ---
 
 
 ## VideoConvertOptions class
+
+Provides options for conversion to Video type.
 
 The VideoConvertOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/__init__/) |  |
-
-### Methods
-| Method | Description |
-| :- | :- |
-| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/_init_noargs/) |  |
+| [__init__](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/__init__/) | Initializes a new instance of [`VideoConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/). |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [audio_format](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/audio_format/) |  |
-| [extract_audio_only](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/extract_audio_only/) |  |
-| [format](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/format/) |  |
-| [frames_per_second](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/frames_per_second/) |  |
+| [audio_format](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/audio_format/) | The audio format to be used. |
+| [extract_audio_only](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/extract_audio_only/) | The property extracts the audio from the video when set to True. |
+| [format](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/format/) | The desired file type the input document should be converted to. |
+| [frames_per_second](/conversion/python-net/groupdocs.conversion.options.convert/videoconvertoptions/frames_per_second/) | The frames per second. Default is 30. |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

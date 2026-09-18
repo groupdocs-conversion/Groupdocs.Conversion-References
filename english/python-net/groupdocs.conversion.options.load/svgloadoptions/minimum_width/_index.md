@@ -1,7 +1,7 @@
 ---
 title: minimum_width property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The minimum width for converting an SVG document, used when converting to raster formats; default is 800."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/svgloadoptions/minimum_width/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## minimum_width property
+
+The minimum width for converting an SVG document, used when converting to raster formats; default is 800.
 
 ### Definition:
 ```python

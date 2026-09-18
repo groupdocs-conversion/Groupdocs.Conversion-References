@@ -1,15 +1,17 @@
 ---
 title: use_default_attachment_icons property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flag indicating whether default attachment icons are used (default is True)."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/use_default_attachment_icons/
 is_root: false
-weight: 2260
+weight: 2270
 ---
 
 
 ## use_default_attachment_icons property
+
+The flag indicating whether default attachment icons are used (default is True).
 
 ### Definition:
 ```python

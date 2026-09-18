@@ -1,7 +1,7 @@
 ---
 title: margin_settings property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The margin settings for the conversion, represented by IPageMarginOptions."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/margin_settings/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## margin_settings property
+
+The margin settings for the conversion, represented by [`IPageMarginOptions`](/conversion/python-net/groupdocs.conversion.options/ipagemarginoptions/).
 
 ### Definition:
 ```python

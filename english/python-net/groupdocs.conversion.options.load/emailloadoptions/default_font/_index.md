@@ -1,7 +1,7 @@
 ---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The default font for an email document."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/default_font/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## default_font property
+
+The default font for an email document. This font will be used if a required font is missing.
 
 ### Definition:
 ```python

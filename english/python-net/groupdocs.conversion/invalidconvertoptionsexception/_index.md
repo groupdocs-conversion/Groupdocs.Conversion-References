@@ -1,15 +1,17 @@
 ---
 title: InvalidConvertOptionsException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Thrown if provided convert options are invalid"
 type: docs
 url: /python-net/groupdocs.conversion/invalidconvertoptionsexception/
 is_root: false
-weight: 150
+weight: 160
 ---
 
 
 ## InvalidConvertOptionsException class
+
+Thrown if provided convert options are invalid
 
 The InvalidConvertOptionsException type exposes the following members:
 

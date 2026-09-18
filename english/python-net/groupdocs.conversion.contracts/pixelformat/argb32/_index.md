@@ -1,7 +1,7 @@
 ---
-title: Argb32 field
+title: ARGB32 field
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "PixelFormat.ARGB32 — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pixelformat/argb32/
 is_root: false
@@ -9,7 +9,7 @@ weight: 3040
 ---
 
 
-## Argb32 field
+## ARGB32 field
 
 ### See Also
 * class [`PixelFormat`](/conversion/python-net/groupdocs.conversion.contracts/pixelformat/)

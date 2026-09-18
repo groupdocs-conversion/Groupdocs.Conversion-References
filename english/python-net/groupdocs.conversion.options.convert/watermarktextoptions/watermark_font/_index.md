@@ -1,7 +1,7 @@
 ---
 title: watermark_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The watermark font used when a text watermark is applied."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/watermarktextoptions/watermark_font/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## watermark_font property
+
+The watermark font used when a text watermark is applied.
 
 ### Definition:
 ```python

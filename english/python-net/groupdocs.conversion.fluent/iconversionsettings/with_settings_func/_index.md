@@ -1,11 +1,11 @@
 ---
 title: with_settings_func method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "IConversionSettings.with_settings_func method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.fluent/iconversionsettings/with_settings_func/
 is_root: false
-weight: 1030
+weight: 1040
 ---
 
 

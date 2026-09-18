@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired page width for converting a GIS document."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/gisloadoptions/width/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2030
 
 
 ## width property
+
+The desired page width for converting a GIS document.
+
+Default is 1000.
 
 ### Definition:
 ```python

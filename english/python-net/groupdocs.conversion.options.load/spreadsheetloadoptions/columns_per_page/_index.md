@@ -1,7 +1,7 @@
 ---
 title: columns_per_page property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The number of columns per page used to split a worksheet into pages; default is 0, which disables pagination."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/columns_per_page/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## columns_per_page property
+
+The number of columns per page used to split a worksheet into pages; default is 0, which disables pagination.
 
 ### Definition:
 ```python

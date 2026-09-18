@@ -1,15 +1,17 @@
 ---
 title: skip_external_resources property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property that implements IResourceLoadingOptions.skipexternalresources."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/skip_external_resources/
 is_root: false
-weight: 2240
+weight: 2250
 ---
 
 
 ## skip_external_resources property
+
+The property that implements [`IResourceLoadingOptions.skip_external_resources`](/conversion/python-net/groupdocs.conversion.options.load/iresourceloadingoptions/skip_external_resources/).
 
 ### Definition:
 ```python

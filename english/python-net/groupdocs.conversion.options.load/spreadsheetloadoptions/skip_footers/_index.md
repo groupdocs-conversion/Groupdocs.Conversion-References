@@ -1,7 +1,7 @@
 ---
 title: skip_footers property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property determines whether footers are skipped when converting spreadsheet documents."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_footers/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2310
 
 
 ## skip_footers property
+
+The property determines whether footers are skipped when converting spreadsheet documents. Default: False.
 
 ### Definition:
 ```python

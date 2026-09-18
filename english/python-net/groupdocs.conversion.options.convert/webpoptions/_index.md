@@ -1,15 +1,17 @@
 ---
 title: WebpOptions class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Represents options for conversion to Webp file type."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webpoptions/
 is_root: false
-weight: 590
+weight: 610
 ---
 
 
 ## WebpOptions class
+
+Represents options for conversion to Webp file type.
 
 The WebpOptions type exposes the following members:
 
@@ -21,20 +23,16 @@ The WebpOptions type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [_init_noargs](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/_init_noargs/) |  |
-| [_equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
-| [_equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
-| [_get_hash_code_noargs](/conversion/python-net/groupdocs.conversion.contracts/valueobject/_get_hash_code_noargs/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
-| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) | Determines whether two object instances are equal. (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 | [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 | [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
-| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) |  (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) | Serves as the default hash function. (inherited from [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [lossless](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/lossless/) |  |
-| [quality](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/quality/) |  |
+| [lossless](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/lossless/) | The lossless flag indicates if the compression of the converted file will be lossless. |
+| [quality](/conversion/python-net/groupdocs.conversion.options.convert/webpoptions/quality/) | The quality setting for the WebP conversion. |
 
 ### See Also
 * module [`groupdocs.conversion.options.convert`](/conversion/python-net/groupdocs.conversion.options.convert/)

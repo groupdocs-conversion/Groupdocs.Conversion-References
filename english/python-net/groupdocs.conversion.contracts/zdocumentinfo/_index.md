@@ -1,27 +1,35 @@
 ---
 title: ZDocumentInfo class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Contains Z document metadata."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/zdocumentinfo/
 is_root: false
-weight: 740
+weight: 760
 ---
 
 
 ## ZDocumentInfo class
 
+Contains Z document metadata.
+
 The ZDocumentInfo type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [get](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/get/) |  |
+| [get_file](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/get_file/) |  |
+| [get_string](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/get_string/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/creation_date/) |  |
-| [format](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/format/) |  |
-| [item](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/item/) |  |
-| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/pages_count/) |  |
-| [property_names](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/property_names/) |  |
-| [size](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/size/) |  |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/creation_date/) | The document creation date. |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/format/) | The document format. |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/pages_count/) | The document pages count. |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/property_names/) | The enumerable of all properties that can be retrieved for the current document info. |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/zdocumentinfo/size/) | The document size in bytes. |
 
 ### See Also
 * module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

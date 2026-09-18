@@ -1,7 +1,7 @@
 ---
 title: convert_owner property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The convertowner property implements IDocumentsContainerLoadOptions.convertowner."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/convert_owner/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## convert_owner property
+
+The convert_owner property implements [`IDocumentsContainerLoadOptions.convert_owner`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/convert_owner/). Default is True.
 
 ### Definition:
 ```python

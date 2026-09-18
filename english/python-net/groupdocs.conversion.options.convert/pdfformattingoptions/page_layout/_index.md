@@ -1,7 +1,7 @@
 ---
 title: page_layout property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page layout to be used when the document is opened."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_layout/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## page_layout property
+
+The page layout to be used when the document is opened.
 
 ### Definition:
 ```python

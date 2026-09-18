@@ -1,7 +1,7 @@
 ---
 title: separator property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The delimiter of a CSV file."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/separator/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2150
 
 
 ## separator property
+
+The delimiter of a CSV file.
 
 ### Definition:
 ```python

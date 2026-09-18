@@ -1,15 +1,17 @@
 ---
 title: worksheets_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The worksheets count."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/worksheets_count/
 is_root: false
-weight: 2120
+weight: 2110
 ---
 
 
 ## worksheets_count property
+
+The worksheets count.
 
 ### Definition:
 ```python

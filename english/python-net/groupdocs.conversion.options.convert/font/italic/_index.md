@@ -1,7 +1,7 @@
 ---
 title: italic property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The font italic."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/font/italic/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## italic property
+
+The font italic.
 
 ### Definition:
 ```python

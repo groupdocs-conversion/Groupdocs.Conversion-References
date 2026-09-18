@@ -1,7 +1,7 @@
 ---
 title: credentials_provider property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The credentials provider for the Uri."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/webloadoptions/credentials_provider/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## credentials_provider property
+
+The credentials provider for the Uri.
 
 ### Definition:
 ```python

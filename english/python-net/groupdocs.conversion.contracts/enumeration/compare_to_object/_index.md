@@ -1,11 +1,11 @@
 ---
 title: compare_to_object method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Enumeration.compare_to_object method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/compare_to_object/
 is_root: false
-weight: 1070
+weight: 1020
 ---
 
 

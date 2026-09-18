@@ -1,7 +1,7 @@
 ---
 title: pdf_recognition_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The recognition mode when converting from pdf."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ipdfrecognitionmodeoptions/pdf_recognition_mode/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## pdf_recognition_mode property
+
+The recognition mode when converting from pdf.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: encoding property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The encoding to be used when loading the web document."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/webloadoptions/encoding/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## encoding property
+
+The encoding to be used when loading the web document. If set to None, the encoding will be determined from the document's character set attribute.
 
 ### Definition:
 ```python

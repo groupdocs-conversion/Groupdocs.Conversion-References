@@ -1,7 +1,7 @@
 ---
 title: custom_css_style property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The custom CSS style, implementing ICustomCssStyleOptions.customcssstyle."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/custom_css_style/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## custom_css_style property
+
+The custom CSS style, implementing [`ICustomCssStyleOptions.custom_css_style`](/conversion/python-net/groupdocs.conversion.options.load/icustomcssstyleoptions/custom_css_style/).
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: folder property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The folder to be processed."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/olmloadoptions/folder/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## folder property
+
+The folder to be processed. Default is Inbox.
 
 ### Definition:
 ```python

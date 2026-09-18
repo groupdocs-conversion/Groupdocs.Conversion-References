@@ -1,15 +1,17 @@
 ---
 title: grayscale property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option indicating whether to convert the image to grayscale."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/grayscale/
 is_root: false
-weight: 2080
+weight: 2090
 ---
 
 
 ## grayscale property
+
+The option indicating whether to convert the image to grayscale.
 
 ### Definition:
 ```python

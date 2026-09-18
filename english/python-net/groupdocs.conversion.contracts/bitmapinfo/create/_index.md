@@ -1,7 +1,7 @@
 ---
 title: create method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "BitmapInfo.create method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/bitmapinfo/create/
 is_root: false
@@ -18,12 +18,10 @@ def create(cls, pixel_bytes, width, height, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel_bytes | `bytes` |  |
+| pixel_bytes | `list[int]` |  |
 | width | `int` |  |
 | height | `int` |  |
-| format | `Any` |  |
-
-**Returns:** BitmapInfo
+| format | `BitmapInfo+PixelFormat` |  |
 
 ### See Also
 * class [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/)

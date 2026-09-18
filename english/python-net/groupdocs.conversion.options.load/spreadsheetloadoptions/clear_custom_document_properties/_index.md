@@ -1,7 +1,7 @@
 ---
 title: clear_custom_document_properties property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The ClearCustomDocumentProperties property."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/clear_custom_document_properties/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## clear_custom_document_properties property
+
+The ClearCustomDocumentProperties property.
 
 ### Definition:
 ```python

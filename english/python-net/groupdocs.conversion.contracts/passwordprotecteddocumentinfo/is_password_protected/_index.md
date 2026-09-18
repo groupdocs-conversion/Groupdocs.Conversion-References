@@ -1,7 +1,7 @@
 ---
 title: is_password_protected property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The document is password protected."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/passwordprotecteddocumentinfo/is_password_protected/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## is_password_protected property
+
+The document is password protected.
 
 ### Definition:
 ```python

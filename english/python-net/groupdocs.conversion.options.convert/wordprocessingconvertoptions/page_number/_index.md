@@ -1,7 +1,7 @@
 ---
 title: page_number property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page number to start conversion from."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/wordprocessingconvertoptions/page_number/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2070
 
 
 ## page_number property
+
+The page number to start conversion from.
+
+default is 1
 
 ### Definition:
 ```python

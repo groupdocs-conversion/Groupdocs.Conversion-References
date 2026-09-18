@@ -1,7 +1,7 @@
 ---
 title: temp_folder property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The temp folder used for conversion."
 type: docs
 url: /python-net/groupdocs.conversion/convertersettings/temp_folder/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## temp_folder property
+
+The temp folder used for conversion.
 
 ### Definition:
 ```python

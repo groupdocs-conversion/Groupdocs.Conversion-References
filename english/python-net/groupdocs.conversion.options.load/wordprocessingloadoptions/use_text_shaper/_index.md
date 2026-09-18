@@ -1,15 +1,17 @@
 ---
 title: use_text_shaper property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property indicates whether to use a text shaper for better kerning display."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/use_text_shaper/
 is_root: false
-weight: 2290
+weight: 2300
 ---
 
 
 ## use_text_shaper property
+
+The property indicates whether to use a text shaper for better kerning display. Default is False.
 
 ### Definition:
 ```python

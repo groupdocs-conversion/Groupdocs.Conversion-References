@@ -1,7 +1,7 @@
 ---
 title: font_subset_strategy property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The font subset strategy."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/font_subset_strategy/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## font_subset_strategy property
+
+The font subset strategy.
 
 ### Definition:
 ```python

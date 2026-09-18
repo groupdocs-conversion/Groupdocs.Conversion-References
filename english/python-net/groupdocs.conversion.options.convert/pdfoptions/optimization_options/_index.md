@@ -1,7 +1,7 @@
 ---
 title: optimization_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The PDF optimization options."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptions/optimization_options/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## optimization_options property
+
+The PDF optimization options.
 
 ### Definition:
 ```python

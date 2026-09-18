@@ -1,7 +1,7 @@
 ---
 title: draw_type property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The type of drawing."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/cadloadoptions/draw_type/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## draw_type property
+
+The type of drawing.
 
 ### Definition:
 ```python

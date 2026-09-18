@@ -1,7 +1,7 @@
 ---
 title: auto_fit_rows property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The rows are autofitted when converting."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/auto_fit_rows/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## auto_fit_rows property
+
+The rows are autofitted when converting.
 
 ### Definition:
 ```python

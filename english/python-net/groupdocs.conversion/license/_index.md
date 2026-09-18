@@ -1,11 +1,11 @@
 ---
 title: License class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Manages GroupDocs.Conversion licensing."
 type: docs
 url: /python-net/groupdocs.conversion/license/
 is_root: false
-weight: 180
+weight: 190
 ---
 
 
@@ -23,6 +23,11 @@ The License type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [set_license](/conversion/python-net/groupdocs.conversion/license/set_license/#license_source) | Apply a license to the current process. |
+
+### Guides
+Task guides that use `License`:
+
+* [Quick Start Guide](/conversion/python-net/guides/quick-start-guide/)
 
 ### See Also
 * module [`groupdocs.conversion`](/conversion/python-net/groupdocs.conversion/)

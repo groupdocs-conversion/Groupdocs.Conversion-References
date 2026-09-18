@@ -1,7 +1,7 @@
 ---
 title: ConversionByPageFailedException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Conversion by page failed exception"
 type: docs
 url: /python-net/groupdocs.conversion/conversionbypagefailedexception/
 is_root: false
@@ -10,6 +10,8 @@ weight: 10
 
 
 ## ConversionByPageFailedException class
+
+Conversion by page failed exception
 
 The ConversionByPageFailedException type exposes the following members:
 

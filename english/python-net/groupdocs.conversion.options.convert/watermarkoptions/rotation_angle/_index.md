@@ -1,7 +1,7 @@
 ---
 title: rotation_angle property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The watermark rotation angle."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/watermarkoptions/rotation_angle/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## rotation_angle property
+
+The watermark rotation angle.
 
 ### Definition:
 ```python

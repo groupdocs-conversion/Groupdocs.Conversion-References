@@ -1,7 +1,7 @@
 ---
 title: hyphenation_dictionaries property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The dictionary containing associations between ISO language codes and provided hyphenation dictionary streams."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/hyphenationoptions/hyphenation_dictionaries/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## hyphenation_dictionaries property
+
+The dictionary containing associations between ISO language codes and provided hyphenation dictionary streams.
 
 ### Definition:
 ```python

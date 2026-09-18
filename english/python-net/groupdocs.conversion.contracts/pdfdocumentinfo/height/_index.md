@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page height."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/height/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## height property
+
+The page height.
 
 ### Definition:
 ```python

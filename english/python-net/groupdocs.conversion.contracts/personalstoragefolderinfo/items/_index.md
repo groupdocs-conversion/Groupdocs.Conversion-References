@@ -1,7 +1,7 @@
 ---
 title: items property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The items in the folder."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragefolderinfo/items/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## items property
+
+The items in the folder.
 
 ### Definition:
 ```python

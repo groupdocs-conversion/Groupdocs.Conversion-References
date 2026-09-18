@@ -1,7 +1,7 @@
 ---
-title: Vst field
+title: VST field
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Files with VST extension are vector image files created with Microsoft Visio and act as template for creating further files."
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/diagramfiletype/vst/
 is_root: false
@@ -9,7 +9,9 @@ weight: 3040
 ---
 
 
-## Vst field
+## VST field
+
+Files with VST extension are vector image files created with Microsoft Visio and act as template for creating further files. These template files are in binary file format and contain the default layout and settings that are utilized for creation of new Visio drawings. Learn more about this file format here.
 
 ### See Also
 * class [`DiagramFileType`](/conversion/python-net/groupdocs.conversion.filetypes/diagramfiletype/)

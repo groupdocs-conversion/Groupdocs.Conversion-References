@@ -1,7 +1,7 @@
 ---
 title: author property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The author of the spreadsheet document."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/author/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## author property
+
+The author of the spreadsheet document.
 
 ### Definition:
 ```python

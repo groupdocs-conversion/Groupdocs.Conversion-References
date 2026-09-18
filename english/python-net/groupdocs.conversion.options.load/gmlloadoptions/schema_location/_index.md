@@ -1,7 +1,7 @@
 ---
 title: schema_location property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The schemalocation is a space-separated list of URI pairs, where the first URI in each pair is the namespace URI and the second URI is the path to the XML schema of that namespace."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/gmlloadoptions/schema_location/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2040
 
 
 ## schema_location property
+
+The schema_location is a space-separated list of URI pairs, where the first URI in each pair is the namespace URI and the second URI is the path to the XML schema of that namespace.
+
+If set to None, Conversion will try to read the schemaLocation attribute from the root element of the document. The default value is None.
 
 ### Definition:
 ```python

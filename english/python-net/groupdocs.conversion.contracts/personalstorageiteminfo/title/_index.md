@@ -1,7 +1,7 @@
 ---
 title: title property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The item title."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstorageiteminfo/title/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2080
 
 
 ## title property
+
+The item title.
 
 ### Definition:
 ```python

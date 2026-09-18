@@ -1,7 +1,7 @@
 ---
 title: content_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The count of contents in the root folder."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstoragedocumentinfo/content_count/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## content_count property
+
+The count of contents in the root folder.
 
 ### Definition:
 ```python

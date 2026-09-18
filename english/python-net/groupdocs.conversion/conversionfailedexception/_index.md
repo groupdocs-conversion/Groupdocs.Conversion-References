@@ -1,15 +1,17 @@
 ---
 title: ConversionFailedException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Conversion failed exception"
 type: docs
 url: /python-net/groupdocs.conversion/conversionfailedexception/
 is_root: false
-weight: 20
+weight: 30
 ---
 
 
 ## ConversionFailedException class
+
+Conversion failed exception
 
 The ConversionFailedException type exposes the following members:
 

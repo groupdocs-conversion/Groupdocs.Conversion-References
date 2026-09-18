@@ -1,7 +1,7 @@
 ---
 title: subject property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The subject of the document."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/subject/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## subject property
+
+The subject of the document.
 
 ### Definition:
 ```python

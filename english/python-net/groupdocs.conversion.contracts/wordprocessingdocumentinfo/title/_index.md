@@ -1,15 +1,17 @@
 ---
 title: title property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The title of the document."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/title/
 is_root: false
-weight: 2110
+weight: 2100
 ---
 
 
 ## title property
+
+The title of the document.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: top property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The top edge of the rectangle."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/top/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## top property
+
+The top edge of the rectangle.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: version property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The PSD file version."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdoptions/version/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## version property
+
+The PSD file version.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: skip_empty_rows_and_columns property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The setting that skips empty rows and columns when converting."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/skip_empty_rows_and_columns/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2290
 
 
 ## skip_empty_rows_and_columns property
+
+The setting that skips empty rows and columns when converting.
+
+Default is True.
 
 ### Definition:
 ```python

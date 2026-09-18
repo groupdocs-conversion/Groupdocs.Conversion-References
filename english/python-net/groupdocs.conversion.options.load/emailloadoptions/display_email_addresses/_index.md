@@ -1,7 +1,7 @@
 ---
 title: display_email_addresses property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The option to control whether email addresses are displayed alongside names."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/display_email_addresses/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2100
 
 
 ## display_email_addresses property
+
+The option to control whether email addresses are displayed alongside names. Default is True.
 
 ### Definition:
 ```python

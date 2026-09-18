@@ -1,7 +1,7 @@
 ---
 title: severity property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The image trace smoother severity."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/severity/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## severity property
+
+The image trace smoother severity.
 
 ### Definition:
 ```python

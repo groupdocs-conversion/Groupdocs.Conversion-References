@@ -1,11 +1,11 @@
 ---
 title: set_heic_connector_iheic_connector method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "RasterImageLoadOptions.set_heic_connector_iheic_connector method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/rasterimageloadoptions/set_heic_connector_iheic_connector/
 is_root: false
-weight: 1050
+weight: 1020
 ---
 
 

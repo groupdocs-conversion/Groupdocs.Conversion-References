@@ -1,7 +1,7 @@
 ---
 title: comments_position property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The way comments are printed with the slide, default is None."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/comments_position/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## comments_position property
+
+The way comments are printed with the slide, default is None.
 
 ### Definition:
 ```python

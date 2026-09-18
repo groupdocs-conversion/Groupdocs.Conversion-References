@@ -1,7 +1,7 @@
 ---
 title: cache property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The cache implementation used for storing conversion results."
 type: docs
 url: /python-net/groupdocs.conversion/convertersettings/cache/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## cache property
+
+The cache implementation used for storing conversion results.
 
 ### Definition:
 ```python

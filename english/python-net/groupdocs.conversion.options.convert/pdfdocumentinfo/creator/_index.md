@@ -1,7 +1,7 @@
 ---
 title: creator property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The document creator."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/creator/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## creator property
+
+The document creator.
 
 ### Definition:
 ```python

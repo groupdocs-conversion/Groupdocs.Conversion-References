@@ -1,11 +1,11 @@
 ---
 title: from_display_name method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Enumeration.from_display_name method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/enumeration/from_display_name/
 is_root: false
-weight: 1110
+weight: 1060
 ---
 
 
@@ -19,8 +19,6 @@ def from_display_name(cls, display_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | display_name | `str` |  |
-
-**Returns:** Any
 
 ### See Also
 * class [`Enumeration`](/conversion/python-net/groupdocs.conversion.contracts/enumeration/)

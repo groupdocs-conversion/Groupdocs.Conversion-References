@@ -1,7 +1,7 @@
 ---
 title: hyphenate_caps property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The value determining whether words written in all capital letters are hyphenated; default is True."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/hyphenationoptions/hyphenate_caps/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## hyphenate_caps property
+
+The value determining whether words written in all capital letters are hyphenated; default is True.
 
 ### Definition:
 ```python

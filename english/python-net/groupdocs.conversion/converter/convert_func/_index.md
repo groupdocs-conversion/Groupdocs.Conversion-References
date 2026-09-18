@@ -1,11 +1,11 @@
 ---
 title: convert_func method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Converter.convert_func method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion/converter/convert_func/
 is_root: false
-weight: 1230
+weight: 1040
 ---
 
 

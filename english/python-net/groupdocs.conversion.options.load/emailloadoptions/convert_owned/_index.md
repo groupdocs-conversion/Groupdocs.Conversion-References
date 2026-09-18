@@ -1,7 +1,7 @@
 ---
 title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property implements IDocumentsContainerLoadOptions.convertowned."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/emailloadoptions/convert_owned/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## convert_owned property
+
+The property implements [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/convert_owned/). Default is True.
 
 ### Definition:
 ```python

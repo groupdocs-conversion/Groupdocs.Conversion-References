@@ -1,7 +1,7 @@
 ---
 title: hide_window_ui property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property indicates whether user interface elements should be hidden when the document is active."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/hide_window_ui/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2070
 
 
 ## hide_window_ui property
+
+The property indicates whether user interface elements should be hidden when the document is active. Default is False.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: fallback_page_size property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The fallback page size."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/fallback_page_size/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## fallback_page_size property
+
+The fallback page size.
 
 ### Definition:
 ```python

@@ -1,15 +1,17 @@
 ---
 title: psd_options property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The PSD-specific convert options."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/psd_options/
 is_root: false
-weight: 2150
+weight: 2170
 ---
 
 
 ## psd_options property
+
+The PSD-specific convert options.
 
 ### Definition:
 ```python

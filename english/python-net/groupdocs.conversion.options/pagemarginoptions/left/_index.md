@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired page left margin in points."
 type: docs
 url: /python-net/groupdocs.conversion.options/pagemarginoptions/left/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## left property
+
+The desired page left margin in points.
 
 ### Definition:
 ```python

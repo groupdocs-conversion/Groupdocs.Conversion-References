@@ -1,15 +1,17 @@
 ---
 title: pages property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The list of page indexes to be converted."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/pages/
 is_root: false
-weight: 2130
+weight: 2150
 ---
 
 
 ## pages property
+
+The list of page indexes to be converted. Should be specified to convert specific pages.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Initializes a new instance of EBookLoadOptions."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/ebookloadoptions/__init__/
 is_root: false
@@ -10,6 +10,8 @@ weight: 10
 
 
 ## __init__
+
+Initializes a new instance of [`EBookLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/ebookloadoptions/).
 
 ```python
 def __init__(self):

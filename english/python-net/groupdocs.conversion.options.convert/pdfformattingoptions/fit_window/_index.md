@@ -1,7 +1,7 @@
 ---
 title: fit_window property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The document window is resized to fit the first displayed page when True, otherwise it retains its size; default is False."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/fit_window/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## fit_window property
+
+The document window is resized to fit the first displayed page when True, otherwise it retains its size; default is False.
 
 ### Definition:
 ```python

@@ -1,15 +1,17 @@
 ---
 title: vertical_resolution property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired image vertical resolution after conversion."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/vertical_resolution/
 is_root: false
-weight: 2190
+weight: 2210
 ---
 
 
 ## vertical_resolution property
+
+The desired image vertical resolution after conversion. The default resolution is the resolution of the input file or 96 dpi.
 
 ### Definition:
 ```python

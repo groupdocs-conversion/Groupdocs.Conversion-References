@@ -1,7 +1,7 @@
 ---
 title: depth property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The depth of the document container load options."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/nsfloadoptions/depth/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## depth property
+
+The depth of the document container load options. Default is 3.
 
 ### Definition:
 ```python

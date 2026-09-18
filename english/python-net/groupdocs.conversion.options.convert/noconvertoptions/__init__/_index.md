@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Initializes a new NoConvertOptions instance with the default format."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/noconvertoptions/__init__/
 is_root: false
@@ -10,6 +10,8 @@ weight: 10
 
 
 ## __init__
+
+Initializes a new NoConvertOptions instance with the default format.
 
 ```python
 def __init__(self):

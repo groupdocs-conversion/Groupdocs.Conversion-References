@@ -1,7 +1,7 @@
 ---
 title: margin_settings property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page margin settings."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/margin_settings/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2140
 
 
 ## margin_settings property
+
+The page margin settings.
 
 ### Definition:
 ```python

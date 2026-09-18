@@ -1,7 +1,7 @@
 ---
 title: fixed_layout property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The fixed layout flag."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/webconvertoptions/fixed_layout/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## fixed_layout property
+
+The fixed layout flag.
+
+If True, fixed layout will be used, e.g., absolutely positioned HTML elements. Default: True.
 
 ### Definition:
 ```python

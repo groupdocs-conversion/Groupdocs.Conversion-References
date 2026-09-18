@@ -1,7 +1,7 @@
 ---
 title: page_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page mode, specifying how the document should be displayed when opened."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfformattingoptions/page_mode/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2100
 
 
 ## page_mode property
+
+The page mode, specifying how the document should be displayed when opened.
 
 ### Definition:
 ```python

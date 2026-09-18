@@ -1,7 +1,7 @@
 ---
 title: folders property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The folders in the storage."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/olmdocumentinfo/folders/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## folders property
+
+The folders in the storage.
 
 ### Definition:
 ```python

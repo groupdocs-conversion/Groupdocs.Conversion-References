@@ -1,7 +1,7 @@
 ---
 title: is_multi_file_archive property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The format supports multiple files/folders in a single archive."
 type: docs
 url: /python-net/groupdocs.conversion.filetypes/compressionfiletype/is_multi_file_archive/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## is_multi_file_archive property
+
+The format supports multiple files/folders in a single archive.
 
 ### Definition:
 ```python

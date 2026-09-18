@@ -1,15 +1,17 @@
 ---
 title: lines property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The lines count."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/lines/
 is_root: false
-weight: 2060
+weight: 2050
 ---
 
 
 ## lines property
+
+The lines count.
 
 ### Definition:
 ```python

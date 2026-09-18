@@ -1,7 +1,7 @@
 ---
 title: sent property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The sent date and time of the item."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/personalstorageiteminfo/sent/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## sent property
+
+The sent date and time of the item.
 
 ### Definition:
 ```python

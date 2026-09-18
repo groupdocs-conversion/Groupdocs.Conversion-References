@@ -1,15 +1,17 @@
 ---
 title: hide_word_tracked_changes property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The hidewordtrackedchanges property hides markup and track changes for Word documents."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/hide_word_tracked_changes/
 is_root: false
-weight: 2160
+weight: 2170
 ---
 
 
 ## hide_word_tracked_changes property
+
+The hide_word_tracked_changes property hides markup and track changes for Word documents.
 
 ### Definition:
 ```python

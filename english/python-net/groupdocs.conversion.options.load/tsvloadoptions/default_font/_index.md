@@ -1,7 +1,7 @@
 ---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The font to be used if a font is missing."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/tsvloadoptions/default_font/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## default_font property
+
+The font to be used if a font is missing.
 
 ### Definition:
 ```python

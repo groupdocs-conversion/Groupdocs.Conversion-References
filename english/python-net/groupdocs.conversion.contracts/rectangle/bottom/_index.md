@@ -1,7 +1,7 @@
 ---
 title: bottom property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The bottom edge of the rectangle."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/bottom/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## bottom property
+
+The bottom edge of the rectangle.
 
 ### Definition:
 ```python

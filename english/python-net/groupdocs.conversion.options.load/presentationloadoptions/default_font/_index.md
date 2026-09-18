@@ -1,7 +1,7 @@
 ---
 title: default_font property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The default font for rendering the presentation."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/default_font/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## default_font property
+
+The default font for rendering the presentation. The following font will be used if a presentation font is missing.
 
 ### Definition:
 ```python

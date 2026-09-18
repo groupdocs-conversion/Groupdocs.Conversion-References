@@ -1,11 +1,11 @@
 ---
 title: get_object_data_serialization_info method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "AttachmentIcon.get_object_data_serialization_info method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/attachmenticon/get_object_data_serialization_info/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 

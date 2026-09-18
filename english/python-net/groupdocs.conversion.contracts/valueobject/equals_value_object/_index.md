@@ -1,11 +1,11 @@
 ---
 title: equals_value_object method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "ValueObject.equals_value_object method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/
 is_root: false
-weight: 1060
+weight: 1030
 ---
 
 

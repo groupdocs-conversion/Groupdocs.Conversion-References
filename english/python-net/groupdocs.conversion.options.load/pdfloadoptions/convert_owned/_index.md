@@ -1,7 +1,7 @@
 ---
 title: convert_owned property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The ConvertOwned flag implements IDocumentsContainerLoadOptions.convertowned."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/convert_owned/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## convert_owned property
+
+The ConvertOwned flag implements IDocumentsContainerLoadOptions.convert_owned. Default is False.
 
 ### Definition:
 ```python

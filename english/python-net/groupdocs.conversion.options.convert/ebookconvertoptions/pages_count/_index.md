@@ -1,7 +1,7 @@
 ---
 title: pages_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The number of pages to convert starting from PageNumber."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/pages_count/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## pages_count property
+
+The number of pages to convert starting from `PageNumber`.
 
 ### Definition:
 ```python

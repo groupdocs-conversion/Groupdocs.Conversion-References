@@ -1,7 +1,7 @@
 ---
 title: is_primary property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The conversion is primary."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/targetconversion/is_primary/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## is_primary property
+
+The conversion is primary.
 
 ### Definition:
 ```python

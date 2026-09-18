@@ -1,7 +1,7 @@
 ---
 title: password property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The password to protect the converted document."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/spreadsheetconvertoptions/password/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## password property
+
+The password to protect the converted document.
 
 ### Definition:
 ```python

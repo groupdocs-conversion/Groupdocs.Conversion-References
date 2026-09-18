@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Initializes a new instance of the FontConvertOptions class with default output format."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/fontconvertoptions/__init__/
 is_root: false
@@ -10,6 +10,8 @@ weight: 10
 
 
 ## __init__
+
+Initializes a new instance of the [`FontConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/fontconvertoptions/) class with default output format.
 
 ```python
 def __init__(self):

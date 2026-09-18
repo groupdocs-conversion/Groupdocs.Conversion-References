@@ -1,7 +1,7 @@
 ---
 title: logger property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The logger implementation used for logging conversion process."
 type: docs
 url: /python-net/groupdocs.conversion/convertersettings/logger/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## logger property
+
+The logger implementation used for logging conversion process.
 
 ### Definition:
 ```python

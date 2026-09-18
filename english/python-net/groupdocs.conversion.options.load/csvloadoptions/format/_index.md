@@ -1,7 +1,7 @@
 ---
 title: format property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The input document file type."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2110
 
 
 ## format property
+
+The input document file type.
 
 ### Definition:
 ```python

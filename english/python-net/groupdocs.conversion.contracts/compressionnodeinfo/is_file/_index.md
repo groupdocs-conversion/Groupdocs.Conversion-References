@@ -1,7 +1,7 @@
 ---
 title: is_file property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The node is a file; otherwise it is a directory."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/compressionnodeinfo/is_file/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## is_file property
+
+The node is a file; otherwise it is a directory.
 
 ### Definition:
 ```python

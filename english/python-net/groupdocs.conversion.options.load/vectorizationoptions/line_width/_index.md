@@ -1,7 +1,7 @@
 ---
 title: line_width property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The line width, affected by the graphics scale; default value is 1."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/line_width/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## line_width property
+
+The line width, affected by the graphics scale; default value is 1.
 
 ### Definition:
 ```python

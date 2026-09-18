@@ -1,15 +1,17 @@
 ---
 title: horizontal_resolution property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The desired image horizontal resolution after conversion; defaults to the input file's resolution or 96 dpi."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/horizontal_resolution/
 is_root: false
-weight: 2100
+weight: 2110
 ---
 
 
 ## horizontal_resolution property
+
+The desired image horizontal resolution after conversion; defaults to the input file's resolution or 96 dpi.
 
 ### Definition:
 ```python

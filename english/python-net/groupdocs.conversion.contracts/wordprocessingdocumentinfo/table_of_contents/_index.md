@@ -1,15 +1,17 @@
 ---
 title: table_of_contents property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The table of contents."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/table_of_contents/
 is_root: false
-weight: 2100
+weight: 2090
 ---
 
 
 ## table_of_contents property
+
+The table of contents.
 
 ### Definition:
 ```python

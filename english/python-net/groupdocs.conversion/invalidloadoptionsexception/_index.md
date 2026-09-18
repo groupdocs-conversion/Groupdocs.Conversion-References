@@ -1,15 +1,17 @@
 ---
 title: InvalidLoadOptionsException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Thrown if provided load options are invalid"
 type: docs
 url: /python-net/groupdocs.conversion/invalidloadoptionsexception/
 is_root: false
-weight: 170
+weight: 180
 ---
 
 
 ## InvalidLoadOptionsException class
+
+Thrown if provided load options are invalid
 
 The InvalidLoadOptionsException type exposes the following members:
 

@@ -1,7 +1,7 @@
 ---
 title: sheet_indexes property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The list of sheet indexes to convert."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/sheet_indexes/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2240
 
 
 ## sheet_indexes property
+
+The list of sheet indexes to convert.
+
+The indexes must be zero-based.
 
 ### Definition:
 ```python

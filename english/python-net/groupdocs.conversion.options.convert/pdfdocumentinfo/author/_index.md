@@ -1,7 +1,7 @@
 ---
 title: author property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The document author."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/author/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## author property
+
+The document author.
 
 ### Definition:
 ```python

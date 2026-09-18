@@ -1,7 +1,7 @@
 ---
 title: end_date property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The project end date."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/projectmanagementdocumentinfo/end_date/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## end_date property
+
+The project end date.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: encoding property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The encoding used for CSV files."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/csvloadoptions/encoding/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2090
 
 
 ## encoding property
+
+The encoding used for CSV files. Default is `Encoding.Default`.
 
 ### Definition:
 ```python

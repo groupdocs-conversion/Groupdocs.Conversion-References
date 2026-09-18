@@ -1,11 +1,11 @@
 ---
 title: warning_string method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "ConsoleLogger.warning_string method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.logging/consolelogger/warning_string/
 is_root: false
-weight: 1130
+weight: 1090
 ---
 
 

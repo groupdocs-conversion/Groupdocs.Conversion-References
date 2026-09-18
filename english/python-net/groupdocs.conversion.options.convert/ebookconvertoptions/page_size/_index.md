@@ -1,7 +1,7 @@
 ---
 title: page_size property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page size."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/ebookconvertoptions/page_size/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## page_size property
+
+The page size. Implements [`PageSize`](/conversion/python-net/groupdocs.conversion.options/pagesize/).
 
 ### Definition:
 ```python

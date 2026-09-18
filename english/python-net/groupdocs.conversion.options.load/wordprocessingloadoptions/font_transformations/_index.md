@@ -1,15 +1,23 @@
 ---
 title: font_transformations property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The font transformations applied after document loading and font substitution are complete, allowing modification of any fonts in the document, including those successfully loaded."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/wordprocessingloadoptions/font_transformations/
 is_root: false
-weight: 2140
+weight: 2150
 ---
 
 
 ## font_transformations property
+
+The font transformations applied after document loading and font substitution are complete, allowing modification of any fonts in the document, including those successfully loaded.
+
+Note: Font transformations are applied after all font substitution steps are complete.
+
+Transformations are processed in the order they appear in the list.
+
+Use cases: Styling changes, branding requirements, accessibility improvements.
 
 ### Definition:
 ```python

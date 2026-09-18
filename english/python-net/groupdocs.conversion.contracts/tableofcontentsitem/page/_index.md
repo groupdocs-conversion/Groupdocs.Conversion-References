@@ -1,7 +1,7 @@
 ---
 title: page property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The bookmark page."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/tableofcontentsitem/page/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## page property
+
+The bookmark page.
 
 ### Definition:
 ```python

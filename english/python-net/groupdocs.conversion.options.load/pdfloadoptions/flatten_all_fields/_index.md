@@ -1,7 +1,7 @@
 ---
 title: flatten_all_fields property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flattenallfields property determines whether all fields of the PDF form are flattened."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/pdfloadoptions/flatten_all_fields/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2070
 
 
 ## flatten_all_fields property
+
+The flatten_all_fields property determines whether all fields of the PDF form are flattened.
 
 ### Definition:
 ```python

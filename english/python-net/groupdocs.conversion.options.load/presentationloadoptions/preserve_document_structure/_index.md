@@ -1,7 +1,7 @@
 ---
 title: preserve_document_structure property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property determines whether the document structure should be preserved when converting to PDF."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/presentationloadoptions/preserve_document_structure/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2120
 
 
 ## preserve_document_structure property
+
+The property determines whether the document structure should be preserved when converting to PDF. Default is False.
+
+Note that exporting the document structure significantly increases the memory consumption, especially for large documents.
 
 ### Definition:
 ```python

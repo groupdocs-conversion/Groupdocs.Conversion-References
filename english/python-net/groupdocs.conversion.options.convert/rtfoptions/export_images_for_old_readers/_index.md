@@ -1,7 +1,7 @@
 ---
 title: export_images_for_old_readers property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flag indicating whether keywords for old readers are written to the RTF output."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/rtfoptions/export_images_for_old_readers/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2010
 
 
 ## export_images_for_old_readers property
+
+The flag indicating whether keywords for old readers are written to the RTF output.
+
+This can significantly affect the size of the RTF document. Default is False.
 
 ### Definition:
 ```python

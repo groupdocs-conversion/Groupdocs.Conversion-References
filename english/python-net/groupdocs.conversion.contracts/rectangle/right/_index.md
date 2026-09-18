@@ -1,7 +1,7 @@
 ---
 title: right property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The right edge of the rectangle."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/right/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## right property
+
+The right edge of the rectangle.
 
 ### Definition:
 ```python

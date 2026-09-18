@@ -1,7 +1,7 @@
 ---
 title: scan_font_directories_recursively property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The converter scans font directories recursively when set to True."
 type: docs
 url: /python-net/groupdocs.conversion/convertersettings/scan_font_directories_recursively/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2080
 
 
 ## scan_font_directories_recursively property
+
+The converter scans font directories recursively when set to True.
 
 ### Definition:
 ```python

@@ -1,15 +1,17 @@
 ---
 title: words property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The number of words in the document."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/wordprocessingdocumentinfo/words/
 is_root: false
-weight: 2120
+weight: 2110
 ---
 
 
 ## words property
+
+The number of words in the document.
 
 ### Definition:
 ```python

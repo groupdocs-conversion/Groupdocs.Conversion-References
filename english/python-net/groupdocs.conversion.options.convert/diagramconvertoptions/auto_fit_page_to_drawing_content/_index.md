@@ -1,7 +1,7 @@
 ---
 title: auto_fit_page_to_drawing_content property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property defines whether to enlarge the page to fit drawing content."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/diagramconvertoptions/auto_fit_page_to_drawing_content/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## auto_fit_page_to_drawing_content property
+
+The property defines whether to enlarge the page to fit drawing content.
 
 ### Definition:
 ```python

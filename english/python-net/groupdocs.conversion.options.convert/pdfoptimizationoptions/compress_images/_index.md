@@ -1,7 +1,7 @@
 ---
 title: compress_images property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The flag indicating whether all images in the document are re‑compressed."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptimizationoptions/compress_images/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## compress_images property
+
+The flag indicating whether all images in the document are re‑compressed. When set to True, compression is defined by the ImageQuality property.
 
 ### Definition:
 ```python

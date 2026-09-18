@@ -1,7 +1,7 @@
 ---
 title: channels_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The color channels count."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdoptions/channels_count/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## channels_count property
+
+The color channels count.
 
 ### Definition:
 ```python

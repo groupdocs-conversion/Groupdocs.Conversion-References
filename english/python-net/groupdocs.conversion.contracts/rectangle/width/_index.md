@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The width of the rectangle based on left and right edges."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/rectangle/width/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## width property
+
+The width of the rectangle based on left and right edges.
 
 ### Definition:
 ```python

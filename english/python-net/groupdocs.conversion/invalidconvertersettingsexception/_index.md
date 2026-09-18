@@ -1,15 +1,17 @@
 ---
 title: InvalidConverterSettingsException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Thrown if provided converter settings are invalid"
 type: docs
 url: /python-net/groupdocs.conversion/invalidconvertersettingsexception/
 is_root: false
-weight: 160
+weight: 170
 ---
 
 
 ## InvalidConverterSettingsException class
+
+Thrown if provided converter settings are invalid
 
 The InvalidConverterSettingsException type exposes the following members:
 

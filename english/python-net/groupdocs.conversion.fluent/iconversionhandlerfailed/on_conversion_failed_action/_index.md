@@ -1,11 +1,11 @@
 ---
 title: on_conversion_failed_action method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "IConversionHandlerFailed.on_conversion_failed_action method — GroupDocs.Conversion for Python via .NET."
 type: docs
 url: /python-net/groupdocs.conversion.fluent/iconversionhandlerfailed/on_conversion_failed_action/
 is_root: false
-weight: 1030
+weight: 1070
 ---
 
 

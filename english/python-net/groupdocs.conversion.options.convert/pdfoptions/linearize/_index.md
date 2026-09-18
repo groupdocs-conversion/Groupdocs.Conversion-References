@@ -1,7 +1,7 @@
 ---
 title: linearize property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property that linearizes the PDF document for the web."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/pdfoptions/linearize/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## linearize property
+
+The property that linearizes the PDF document for the web.
 
 ### Definition:
 ```python

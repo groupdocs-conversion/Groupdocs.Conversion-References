@@ -1,15 +1,17 @@
 ---
 title: clone method
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "Clones current instance."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/personalstorageloadoptions/clone/
 is_root: false
-weight: 1030
+weight: 1010
 ---
 
 
 ## clone
+
+Clones current instance.
 
 ```python
 def clone(self):

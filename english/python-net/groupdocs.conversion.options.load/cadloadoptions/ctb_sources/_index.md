@@ -1,7 +1,7 @@
 ---
 title: ctb_sources property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The CTB sources."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/cadloadoptions/ctb_sources/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## ctb_sources property
+
+The CTB sources.
 
 ### Definition:
 ```python

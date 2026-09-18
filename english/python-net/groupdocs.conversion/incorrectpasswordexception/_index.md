@@ -1,15 +1,17 @@
 ---
 title: IncorrectPasswordException class
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "GroupDocs exception thrown when the file is password protected, password is provided but is incorrect"
 type: docs
 url: /python-net/groupdocs.conversion/incorrectpasswordexception/
 is_root: false
-weight: 140
+weight: 150
 ---
 
 
 ## IncorrectPasswordException class
+
+GroupDocs exception thrown when the file is password protected, password is provided but is incorrect
 
 The IncorrectPasswordException type exposes the following members:
 

@@ -1,7 +1,7 @@
 ---
 title: converted_stream property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The converted file stream."
 type: docs
 url: /python-net/groupdocs.conversion/convertedpagecontext/converted_stream/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## converted_stream property
+
+The converted file stream.
 
 ### Definition:
 ```python

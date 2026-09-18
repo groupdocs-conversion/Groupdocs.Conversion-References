@@ -1,7 +1,7 @@
 ---
 title: color_mode property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The PSD color mode."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/psdoptions/color_mode/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## color_mode property
+
+The PSD color mode.
 
 ### Definition:
 ```python

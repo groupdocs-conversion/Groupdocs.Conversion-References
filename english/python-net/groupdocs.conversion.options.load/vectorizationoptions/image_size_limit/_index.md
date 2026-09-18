@@ -1,7 +1,7 @@
 ---
 title: image_size_limit property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The maximal dimension of an image, defined as the product of its width and height."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/vectorizationoptions/image_size_limit/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2040
 
 
 ## image_size_limit property
+
+The maximal dimension of an image, defined as the product of its width and height.
+
+The image will be scaled based on this property. Default value is 1800000.
 
 ### Definition:
 ```python

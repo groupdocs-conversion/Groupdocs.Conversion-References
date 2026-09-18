@@ -1,7 +1,7 @@
 ---
 title: is_landscape property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The page is landscape."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/pdfdocumentinfo/is_landscape/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## is_landscape property
+
+The page is landscape.
 
 ### Definition:
 ```python

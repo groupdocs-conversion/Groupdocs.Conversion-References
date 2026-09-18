@@ -1,15 +1,17 @@
 ---
 title: use_pdf property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The UsePdf property."
 type: docs
 url: /python-net/groupdocs.conversion.options.convert/imageconvertoptions/use_pdf/
 is_root: false
-weight: 2180
+weight: 2200
 ---
 
 
 ## use_pdf property
+
+The UsePdf property.
 
 ### Definition:
 ```python

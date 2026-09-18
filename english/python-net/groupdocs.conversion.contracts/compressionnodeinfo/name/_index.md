@@ -1,7 +1,7 @@
 ---
 title: name property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The name of the node."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/compressionnodeinfo/name/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## name property
+
+The name of the node.
 
 ### Definition:
 ```python

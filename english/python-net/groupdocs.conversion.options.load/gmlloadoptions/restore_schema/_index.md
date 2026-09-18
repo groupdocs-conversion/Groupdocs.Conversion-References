@@ -1,7 +1,7 @@
 ---
 title: restore_schema property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The property determines whether conversion is allowed to parse attributes in a GML file when the XML schema is missing or cannot be loaded."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/gmlloadoptions/restore_schema/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2030
 
 
 ## restore_schema property
+
+The property determines whether conversion is allowed to parse attributes in a GML file when the XML schema is missing or cannot be loaded.
+
+If set to True, the conversion reader does not require the presence of an XML schema. The default value is False.
 
 ### Definition:
 ```python

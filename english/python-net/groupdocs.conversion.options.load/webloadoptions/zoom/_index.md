@@ -1,15 +1,19 @@
 ---
 title: zoom property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The zoom level as a percentage applied to the document's <body> tag before conversion, scaling the document's visual appearance."
 type: docs
 url: /python-net/groupdocs.conversion.options.load/webloadoptions/zoom/
 is_root: false
-weight: 2140
+weight: 2170
 ---
 
 
 ## zoom property
+
+The zoom level as a percentage applied to the document's `<body>` tag before conversion, scaling the document's visual appearance.
+
+A value of 100% represents the original size. The default value is 100.
 
 ### Definition:
 ```python

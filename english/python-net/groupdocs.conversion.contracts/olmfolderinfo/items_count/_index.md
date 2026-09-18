@@ -1,7 +1,7 @@
 ---
 title: items_count property
 second_title: GroupDocs.Conversion for Python via .NET API References
-description: 
+description: "The count of the items in the folder."
 type: docs
 url: /python-net/groupdocs.conversion.contracts/olmfolderinfo/items_count/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## items_count property
+
+The count of the items in the folder.
 
 ### Definition:
 ```python
