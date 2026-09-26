@@ -3,7 +3,7 @@ title: AudioDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Audio document metadata
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.conversion.contracts/audiodocumentinfo/
 ---
 ## AudioDocumentInfo class

@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading One documents.
 type: docs
-weight: 2640
+weight: 2680
 url: /net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class

@@ -3,7 +3,7 @@ title: FontSubstitutionContext
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes a single font substitution that occurred while loading or rendering a source document. Instances are passed to OnFontSubstituted../groupdocs.conversion/conversionevents/onfontsubstituted.
 type: docs
-weight: 230
+weight: 250
 url: /net/groupdocs.conversion.contracts/fontsubstitutioncontext/
 ---
 ## FontSubstitutionContext class

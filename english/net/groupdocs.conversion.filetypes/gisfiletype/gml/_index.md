@@ -3,7 +3,7 @@ title: Gml
 second_title: GroupDocs.Conversion for .NET API Reference
 description: GML stands for Geography Markup Language that is based on XML specifications developed by the Open Geospatial Consortium OGC. The format is used to store geographic data features for interchange among different file formats. It serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the internet. Learn more about this file format herehttps//docs.fileformat.com/gis/gml/.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.conversion.filetypes/gisfiletype/gml/
 ---
 ## GisFileType.Gml field

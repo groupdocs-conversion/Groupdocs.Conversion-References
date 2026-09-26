@@ -12,6 +12,8 @@ The namespace provides members to instantiate and release output document, manag
 
 | Class | Description |
 | --- | --- |
+| [AarDocumentInfo](./aardocumentinfo) | Contains Aar document metadata |
+| [AlzDocumentInfo](./alzdocumentinfo) | Contains Alz document metadata |
 | [AudioDocumentInfo](./audiodocumentinfo) | Contains Audio document metadata |
 | [BitmapInfo](./bitmapinfo) | Object containing array of pixels and bitmap information. |
 | [Bzip2DocumentInfo](./bzip2documentinfo) | Contains Bzip2 document metadata |
@@ -77,6 +79,7 @@ The namespace provides members to instantiate and release output document, manag
 | [VcfDocumentInfo](./vcfdocumentinfo) | Contains Vcf document metadata |
 | [VideoDocumentInfo](./videodocumentinfo) | Contains Video document metadata |
 | [WebDocumentInfo](./webdocumentinfo) | Contains Web document metadata |
+| [WimDocumentInfo](./wimdocumentinfo) | Contains Wim document metadata |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Contains WordProcessing document metadata |
 | [XarDocumentInfo](./xardocumentinfo) | Contains Xar document metadata |
 | [XbrlDocumentInfo](./xbrldocumentinfo) | Contains Xbrl document metadata |

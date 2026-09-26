@@ -3,7 +3,7 @@ title: WebConvertOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for conversion to Web file type.
 type: docs
-weight: 2280
+weight: 2320
 url: /net/groupdocs.conversion.options.convert/webconvertoptions/
 ---
 ## WebConvertOptions class
@@ -33,6 +33,7 @@ public class WebConvertOptions : CommonConvertOptions<WebFileType>, IUsePdfConve
 | [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implements [`PageNumber`](../ipagedconvertoptions/pagenumber) |
 | [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implements [`Pages`](../ipagerangedconvertoptions/pages) |
 | [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implements [`PagesCount`](../ipagedconvertoptions/pagescount) |
+| [SlideShow](../../groupdocs.conversion.options.convert/webconvertoptions/slideshow) { get; set; } | Applies only to converting a presentation to [`Html`](../../groupdocs.conversion.filetypes/webfiletype/html) or [`Htm`](../../groupdocs.conversion.filetypes/webfiletype/htm), and is ignored for every other conversion. Specifies whether the presentation becomes an interactive HTML slideshow with slide transitions and shape animations, instead of the default static HTML page. Default is false. |
 | [UsePdf](../../groupdocs.conversion.options.convert/webconvertoptions/usepdf) { get; set; } | If `true`, the input firstly is converted to PDF and after that to desired format |
 | [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implements [`Watermark`](../iwatermarkedconvertoptions/watermark) |
 | [Zoom](../../groupdocs.conversion.options.convert/webconvertoptions/zoom) { get; set; } | Specifies the zoom level in percentage. Default is 100. |

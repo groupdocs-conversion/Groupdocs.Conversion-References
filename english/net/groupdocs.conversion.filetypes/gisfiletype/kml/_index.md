@@ -3,7 +3,7 @@ title: Kml
 second_title: GroupDocs.Conversion for .NET API Reference
 description: KML Keyhole Markup Language contains geospatial information in XML notation. Files saved as KML can be opened in Geographic Information System GIS applications provided they support it. Many applications have started providing support for KML file format after it has been adopted as international standard. KML uses a tagbased structure with nested elements and attributes. Learn more about this file format herehttps//docs.fileformat.com/gis/kml/.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.conversion.filetypes/gisfiletype/kml/
 ---
 ## GisFileType.Kml field

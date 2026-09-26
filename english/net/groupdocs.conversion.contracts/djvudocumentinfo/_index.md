@@ -3,7 +3,7 @@ title: DjVuDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains DjVu document metadata
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.conversion.contracts/djvudocumentinfo/
 ---
 ## DjVuDocumentInfo class
