@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Call this method to compress results of conversion. Register a compressedstream handler at the entry stage via WithEventsgroupdocs.conversion.fluent/iconversionsettings/withevents setting OnCompressionCompleted rather than via the obsolete fluent chain method on the returned interface.
+description: Call this method to compress results of conversion. Register a compressedstream handler at the entry stage via WithEventsgroupdocs.conversion.fluent/iconversionsettings/withevents setting OnCompressionCompleted.
 type: docs
 weight: 10
 url: /net/groupdocs.conversion.fluent/iconversioncompressresult/compress/
 ---
 ## IConversionCompressResult.Compress method
 
-Call this method to compress results of conversion. Register a compressed-stream handler at the entry stage via [`WithEvents`](../../iconversionsettings/withevents) (setting `OnCompressionCompleted`) rather than via the obsolete fluent chain method on the returned interface.
+Call this method to compress results of conversion. Register a compressed-stream handler at the entry stage via [`WithEvents`](../../iconversionsettings/withevents) (setting `OnCompressionCompleted`).
 
 ```csharp
 public IConversionCompressResultCompletedOrConvert Compress(CompressionConvertOptions options)

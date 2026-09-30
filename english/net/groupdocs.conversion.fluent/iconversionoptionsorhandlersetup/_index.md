@@ -1,14 +1,14 @@
 ---
 title: IConversionOptionsOrHandlerSetup
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Conversion options or conversion handler setup. Exposes both the obsolete staged chain IConversionHandlerOnly./iconversionhandleronly and the new flat IConversionHandlersStage./iconversionhandlersstage.
+description: Conversion options or conversion handler setup.
 type: docs
 weight: 1530
 url: /net/groupdocs.conversion.fluent/iconversionoptionsorhandlersetup/
 ---
 ## IConversionOptionsOrHandlerSetup interface
 
-Conversion options or conversion handler setup. Exposes both the obsolete staged chain ([`IConversionHandlerOnly`](../iconversionhandleronly)) and the new flat [`IConversionHandlersStage`](../iconversionhandlersstage).
+Conversion options or conversion handler setup.
 
 ```csharp
 public interface IConversionOptionsOrHandlerSetup : IConversionHandlerOnly, IConversionOptionsOnly

@@ -1,25 +1,18 @@
 ---
 title: IConversionByPageHandlerOnly
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Fluent interface for setting only bypage conversion handlers. Inherits IConversionByPageHandlersStage./iconversionbypagehandlersstage for Convert/Compress the staged OnConversion overloads are kept via the new keyword to preserve backcompat.
+description: Fluent interface for setting only bypage conversion handlers. The handlers are registered through IConversionByPageHandlersStage./iconversionbypagehandlersstage.
 type: docs
 weight: 1310
 url: /net/groupdocs.conversion.fluent/iconversionbypagehandleronly/
 ---
 ## IConversionByPageHandlerOnly interface
 
-Fluent interface for setting only by-page conversion handlers. Inherits [`IConversionByPageHandlersStage`](../iconversionbypagehandlersstage) for `Convert`/`Compress`; the staged `OnConversion*` overloads are kept via the `new` keyword to preserve back-compat.
+Fluent interface for setting only by-page conversion handlers. The handlers are registered through [`IConversionByPageHandlersStage`](../iconversionbypagehandlersstage).
 
 ```csharp
 public interface IConversionByPageHandlerOnly : IConversionByPageHandlersStage
 ```
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionbypagehandleronly/onconversioncompleted)(Action&lt;ConvertedPageContext&gt;) | Registers a callback to be invoked when a page conversion completes successfully. |
-| [OnConversionFailed](../../groupdocs.conversion.fluent/iconversionbypagehandleronly/onconversionfailed)(Action&lt;ConvertedPageContext, Exception&gt;) | Registers a callback to be invoked when a page conversion fails. |
 
 ### See Also
 

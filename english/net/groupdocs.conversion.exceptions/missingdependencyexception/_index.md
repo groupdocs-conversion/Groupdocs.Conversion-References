@@ -29,12 +29,6 @@ public sealed class MissingDependencyException : GroupDocsConversionException
 | --- | --- |
 | [AssemblyName](../../groupdocs.conversion.exceptions/missingdependencyexception/assemblyname) { get; } | The simple name of the assembly that could not be loaded, or null when it could not be determined. |
 
-## Methods
-
-| Name | Description |
-| --- | --- |
-| override [GetObjectData](../../groupdocs.conversion.exceptions/missingdependencyexception/getobjectdata)(SerializationInfo, StreamingContext) | Populates the serialization info with the data needed to recreate this exception, including the name of the assembly that could not be loaded. |
-
 ### See Also
 
 * class [GroupDocsConversionException](../groupdocsconversionexception)
