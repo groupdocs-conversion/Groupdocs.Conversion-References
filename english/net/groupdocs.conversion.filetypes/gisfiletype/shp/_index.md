@@ -3,7 +3,7 @@ title: Shp
 second_title: GroupDocs.Conversion for .NET API Reference
 description: SHP is the file extension for one of the primary file types used for representation of ESRI Shapefile. It represents Geospatial information in the form of vector data to be used by Geographic Information Systems GIS applications. Learn more about this file format herehttps//docs.fileformat.com/gis/shp/.
 type: docs
-weight: 80
+weight: 100
 url: /net/groupdocs.conversion.filetypes/gisfiletype/shp/
 ---
 ## GisFileType.Shp field

@@ -3,7 +3,7 @@ title: FontTransformation
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes font transformation configuration including font attributes. Font transformations are applied after document loading and font substitution.
 type: docs
-weight: 240
+weight: 260
 url: /net/groupdocs.conversion.contracts/fonttransformation/
 ---
 ## FontTransformation class

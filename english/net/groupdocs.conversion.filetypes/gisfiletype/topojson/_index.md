@@ -3,7 +3,7 @@ title: TopoJson
 second_title: GroupDocs.Conversion for .NET API Reference
 description: TopoJSON is an extension of GeoJSON that encodes topology. Rather than representing geometries discretely geometries in TopoJSON files are stitched together from shared line segments called arcs.
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.conversion.filetypes/gisfiletype/topojson/
 ---
 ## GisFileType.TopoJson field

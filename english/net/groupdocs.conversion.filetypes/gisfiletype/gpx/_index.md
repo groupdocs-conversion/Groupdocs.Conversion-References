@@ -3,7 +3,7 @@ title: Gpx
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Files with GPX extension represent GPS Exchange format for interchange of GPS data between applications and web services on the internet. It is a lightweight XML file format that contains GPS data i.e. waypoints routes and tracks to be imported and red by multiple programs. Learn more about this file format herehttps//docs.fileformat.com/gis/gpx/.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.conversion.filetypes/gisfiletype/gpx/
 ---
 ## GisFileType.Gpx field

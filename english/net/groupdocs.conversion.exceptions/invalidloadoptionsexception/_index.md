@@ -3,7 +3,7 @@ title: InvalidLoadOptionsException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Thrown if provided load options are invalid
 type: docs
-weight: 980
+weight: 1020
 url: /net/groupdocs.conversion.exceptions/invalidloadoptionsexception/
 ---
 ## InvalidLoadOptionsException class

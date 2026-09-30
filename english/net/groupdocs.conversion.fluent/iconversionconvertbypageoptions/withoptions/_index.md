@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.fluent/iconversionconvertbypageoptions/withoption
 Set convert options
 
 ```csharp
-public IConversionByPageHandlerSetup WithOptions(ConvertOptions convertOptions)
+public IConversionByPageHandlersStage WithOptions(ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
@@ -24,6 +24,7 @@ Interface to continue conversion building
 
 ### See Also
 
+* interface [IConversionByPageHandlersStage](../../iconversionbypagehandlersstage)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertByPageOptions](../../iconversionconvertbypageoptions)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
@@ -36,7 +37,7 @@ Interface to continue conversion building
 Set convert options
 
 ```csharp
-public IConversionByPageHandlerSetup WithOptions(
+public IConversionByPageHandlersStage WithOptions(
     Func<ConvertContext, ConvertOptions> convertOptionsProvider)
 ```
 
@@ -50,6 +51,7 @@ Interface to continue conversion building
 
 ### See Also
 
+* interface [IConversionByPageHandlersStage](../../iconversionbypagehandlersstage)
 * class [ConvertContext](../../../groupdocs.conversion/convertcontext)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionConvertByPageOptions](../../iconversionconvertbypageoptions)

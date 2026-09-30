@@ -3,7 +3,7 @@ title: IConversionCompressResult
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Can compress all conversion results in single archive
 type: docs
-weight: 1320
+weight: 1360
 url: /net/groupdocs.conversion.fluent/iconversioncompressresult/
 ---
 ## IConversionCompressResult interface
@@ -18,7 +18,7 @@ public interface IConversionCompressResult
 
 | Name | Description |
 | --- | --- |
-| [Compress](../../groupdocs.conversion.fluent/iconversioncompressresult/compress)(CompressionConvertOptions) | Call this method to compress results of conversion. Register a compressed-stream handler at the entry stage via [`WithEvents`](../iconversionsettings/withevents) (setting `OnCompressionCompleted`) rather than via the obsolete fluent chain method on the returned interface. |
+| [Compress](../../groupdocs.conversion.fluent/iconversioncompressresult/compress)(CompressionConvertOptions) | Call this method to compress results of conversion. Register a compressed-stream handler at the entry stage via [`WithEvents`](../iconversionsettings/withevents) (setting `OnCompressionCompleted`). |
 
 ### See Also
 

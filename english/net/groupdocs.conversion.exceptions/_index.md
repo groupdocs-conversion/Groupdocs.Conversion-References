@@ -16,6 +16,7 @@ The namespace provides different exceptions classes.
 | [ConversionFailedException](./conversionfailedexception) | Conversion failed exception |
 | [ConversionNotSupportedException](./conversionnotsupportedexception) | GroupDocs exception thrown when the conversion from source file to target file type is not supported |
 | [CorruptOrDamagedFileException](./corruptordamagedfileexception) | GroupDocs exception thrown when the file is corrupt or damaged |
+| [EvaluationLimitReachedException](./evaluationlimitreachedexception) | GroupDocs exception thrown when the evaluation conversion allowance for the current process has been used up. |
 | [FileTypeNotSupportedException](./filetypenotsupportedexception) | GroupDocs exception thrown when the file type is not supported |
 | [FontSubstituteException](./fontsubstituteexception) | Thrown if font substitute is illegal |
 | [GroupDocsConversionException](./groupdocsconversionexception) | GroupDocs.Conversion general exception |

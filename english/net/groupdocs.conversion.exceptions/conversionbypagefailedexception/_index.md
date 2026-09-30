@@ -3,7 +3,7 @@ title: ConversionByPageFailedException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Conversion by page failed exception
 type: docs
-weight: 880
+weight: 910
 url: /net/groupdocs.conversion.exceptions/conversionbypagefailedexception/
 ---
 ## ConversionByPageFailedException class
@@ -27,12 +27,6 @@ public class ConversionByPageFailedException : Exception
 | --- | --- |
 | [ConversionContext](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/conversioncontext) { get; } | Conversion context that caused the conversion to fail |
 | [Exception](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/exception) { get; } | Exception that caused the conversion to fail |
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| override [GetObjectData](../../groupdocs.conversion.exceptions/conversionbypagefailedexception/getobjectdata)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
 
 ### See Also
 

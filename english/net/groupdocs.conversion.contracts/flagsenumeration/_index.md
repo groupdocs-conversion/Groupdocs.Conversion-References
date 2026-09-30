@@ -3,7 +3,7 @@ title: FlagsEnumeration
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents an abstract base class for creating enumerations that support bitwise flag operations.
 type: docs
-weight: 200
+weight: 220
 url: /net/groupdocs.conversion.contracts/flagsenumeration/
 ---
 ## FlagsEnumeration class

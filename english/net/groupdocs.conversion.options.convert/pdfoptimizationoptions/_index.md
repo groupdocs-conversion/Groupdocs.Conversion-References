@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Defines Pdf optimization options.
 type: docs
-weight: 2080
+weight: 2120
 url: /net/groupdocs.conversion.options.convert/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class

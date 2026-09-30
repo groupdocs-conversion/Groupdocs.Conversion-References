@@ -3,7 +3,7 @@ title: CadDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Cad document metadata
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.conversion.contracts/caddocumentinfo/
 ---
 ## CadDocumentInfo class

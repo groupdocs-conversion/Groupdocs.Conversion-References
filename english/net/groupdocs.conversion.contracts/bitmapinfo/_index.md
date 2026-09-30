@@ -3,7 +3,7 @@ title: BitmapInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Object containing array of pixels and bitmap information.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.conversion.contracts/bitmapinfo/
 ---
 ## BitmapInfo class

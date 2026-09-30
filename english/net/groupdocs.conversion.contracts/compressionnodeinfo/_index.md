@@ -3,7 +3,7 @@ title: CompressionNodeInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents a node in a compressed file
 type: docs
-weight: 110
+weight: 130
 url: /net/groupdocs.conversion.contracts/compressionnodeinfo/
 ---
 ## CompressionNodeInfo class

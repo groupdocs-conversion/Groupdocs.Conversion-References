@@ -3,7 +3,7 @@ title: OlmDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains personal storage document metadata
 type: docs
-weight: 410
+weight: 430
 url: /net/groupdocs.conversion.contracts/olmdocumentinfo/
 ---
 ## OlmDocumentInfo class

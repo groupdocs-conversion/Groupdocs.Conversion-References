@@ -3,7 +3,7 @@ title: MissingDependencyException
 second_title: GroupDocs.Conversion for .NET API Reference
 description: GroupDocs exception thrown when a conversion cannot run because an assembly it depends on is not present in the applications output. The document is not at fault.
 type: docs
-weight: 990
+weight: 1030
 url: /net/groupdocs.conversion.exceptions/missingdependencyexception/
 ---
 ## MissingDependencyException class
@@ -28,12 +28,6 @@ public sealed class MissingDependencyException : GroupDocsConversionException
 | Name | Description |
 | --- | --- |
 | [AssemblyName](../../groupdocs.conversion.exceptions/missingdependencyexception/assemblyname) { get; } | The simple name of the assembly that could not be loaded, or null when it could not be determined. |
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| override [GetObjectData](../../groupdocs.conversion.exceptions/missingdependencyexception/getobjectdata)(SerializationInfo, StreamingContext) | Populates the serialization info with the data needed to recreate this exception, including the name of the assembly that could not be loaded. |
 
 ### See Also
 

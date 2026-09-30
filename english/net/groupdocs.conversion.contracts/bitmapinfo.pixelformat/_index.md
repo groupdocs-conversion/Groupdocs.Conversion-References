@@ -3,7 +3,7 @@ title: BitmapInfo.PixelFormat
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Describes pixel format enumeration
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.conversion.contracts/bitmapinfo.pixelformat/
 ---
 ## BitmapInfo.PixelFormat class

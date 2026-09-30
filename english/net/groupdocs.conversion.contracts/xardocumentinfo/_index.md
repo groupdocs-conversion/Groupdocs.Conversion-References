@@ -3,7 +3,7 @@ title: XarDocumentInfo
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Contains Xar document metadata
 type: docs
-weight: 730
+weight: 760
 url: /net/groupdocs.conversion.contracts/xardocumentinfo/
 ---
 ## XarDocumentInfo class

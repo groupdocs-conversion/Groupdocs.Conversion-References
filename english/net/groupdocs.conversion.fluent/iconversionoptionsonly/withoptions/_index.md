@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.fluent/iconversionoptionsonly/withoptions/
 Sets conversion options for the conversion process.
 
 ```csharp
-public IConversionHandlerSetup WithOptions(ConvertOptions convertOptions)
+public IConversionHandlersStage WithOptions(ConvertOptions convertOptions)
 ```
 
 | Parameter | Type | Description |
@@ -20,10 +20,11 @@ public IConversionHandlerSetup WithOptions(ConvertOptions convertOptions)
 
 ### Return Value
 
-Handler setup interface to continue conversion building.
+Handlers stage to continue conversion building.
 
 ### See Also
 
+* interface [IConversionHandlersStage](../../iconversionhandlersstage)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionOptionsOnly](../../iconversionoptionsonly)
 * namespace [GroupDocs.Conversion.Fluent](../../../groupdocs.conversion.fluent)
@@ -36,7 +37,7 @@ Handler setup interface to continue conversion building.
 Sets conversion options using a provider function.
 
 ```csharp
-public IConversionHandlerSetup WithOptions(Func<ConvertContext, ConvertOptions> optionsProvider)
+public IConversionHandlersStage WithOptions(Func<ConvertContext, ConvertOptions> optionsProvider)
 ```
 
 | Parameter | Type | Description |
@@ -45,10 +46,11 @@ public IConversionHandlerSetup WithOptions(Func<ConvertContext, ConvertOptions> 
 
 ### Return Value
 
-Handler setup interface to continue conversion building.
+Handlers stage to continue conversion building.
 
 ### See Also
 
+* interface [IConversionHandlersStage](../../iconversionhandlersstage)
 * class [ConvertContext](../../../groupdocs.conversion/convertcontext)
 * class [ConvertOptions](../../../groupdocs.conversion.options.convert/convertoptions)
 * interface [IConversionOptionsOnly](../../iconversionoptionsonly)

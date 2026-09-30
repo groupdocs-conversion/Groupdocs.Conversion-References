@@ -3,7 +3,7 @@ title: Xar
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .xar extension is an eXtensible ARchive a format built around a table of contents stored as compressed XML. It is used to distribute macOS installer packages and keeps each entry compressed on its own. Learn more about this file format herehttps//docs.fileformat.com/compression/xar/.
 type: docs
-weight: 150
+weight: 180
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/xar/
 ---
 ## CompressionFileType.Xar field

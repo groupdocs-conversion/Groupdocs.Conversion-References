@@ -3,7 +3,7 @@ title: Lz4
 second_title: GroupDocs.Conversion for .NET API Reference
 description: A file with .lz4 extension is a compressed archive file created with applications/utilities that support LZ4 compression. The LZ4 algorithm focuses on tradeoff between speed and compression ratio. Compressed LZ4 archives can be created using the LZ4 commandline utility and can be decompressed using the same. Learn more about this file format herehttps//docs.fileformat.com/compression/lz4/.
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.conversion.filetypes/compressionfiletype/lz4/
 ---
 ## CompressionFileType.Lz4 field
