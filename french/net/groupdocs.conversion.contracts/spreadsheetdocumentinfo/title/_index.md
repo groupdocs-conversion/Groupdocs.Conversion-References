@@ -1,0 +1,23 @@
+---
+title: "Titre"
+second_title: "GroupDocs.Conversion pour .NET Référence d'API"
+description: "Obtient le titre"
+type: docs
+weight: 40
+url: /fr/net/groupdocs.conversion.contracts/spreadsheetdocumentinfo/title/
+---
+## SpreadsheetDocumentInfo.Title property
+
+Obtient le titre
+
+```csharp
+public string Title { get; }
+```
+
+### Voir aussi
+
+* class [SpreadsheetDocumentInfo](../../spreadsheetdocumentinfo)
+* namespace [GroupDocs.Conversion.Contracts](../../../groupdocs.conversion.contracts)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.conversion.dll -->
