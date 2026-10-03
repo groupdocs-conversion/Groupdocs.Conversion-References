@@ -1,0 +1,33 @@
+---
+title: "AudioDocumentInfo"
+second_title: "GroupDocs.Conversion for Java API 레퍼런스"
+description: "Audio 문서 메타데이터를 포함합니다"
+type: docs
+weight: 10
+url: /ko/java/com.groupdocs.conversion.contracts.documentinfo/audiodocumentinfo/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.conversion.contracts.documentinfo.DocumentInfo](../../com.groupdocs.conversion.contracts.documentinfo/documentinfo)
+```
+public class AudioDocumentInfo extends DocumentInfo
+```
+
+Audio 문서 메타데이터를 포함합니다
+
+## 생성자
+
+| 생성자 | 설명 |
+| --- | --- |
+| [AudioDocumentInfo(FileType format, long size)](#AudioDocumentInfo-com.groupdocs.conversion.filetypes.FileType-long-) |  |
+### AudioDocumentInfo(FileType format, long size) {#AudioDocumentInfo-com.groupdocs.conversion.filetypes.FileType-long-}
+```
+public AudioDocumentInfo(FileType format, long size)
+```
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| format | [FileType](../../com.groupdocs.conversion.filetypes/filetype) |  |
+| size | long |  |
+
