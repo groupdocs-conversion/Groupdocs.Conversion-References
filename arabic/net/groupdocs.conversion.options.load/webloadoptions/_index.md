@@ -1,0 +1,69 @@
+---
+title: "WebLoadOptions"
+second_title: "GroupDocs.Conversion لـ .NET مرجع API"
+description: "خيارات تحميل مستندات الويب."
+type: docs
+weight: 2920
+url: /ar/net/groupdocs.conversion.options.load/webloadoptions/
+---
+## WebLoadOptions class
+
+خيارات تحميل مستندات الويب.
+
+```csharp
+public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageLayoutOptions, 
+    IPageMarginOptions, IPageNumberingLoadOptions, IPageOrientationOptions, IPageSizeOptions, 
+    IResourceLoadingOptions
+```
+
+## المنشئات
+
+| الاسم | الوصف |
+| --- | --- |
+| [WebLoadOptions](webloadoptions)() | ينشئ مثيلاً جديدًا من الفئة [`WebLoadOptions`](../webloadoptions). |
+
+## الخصائص
+
+| الاسم | الوصف |
+| --- | --- |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | المسار/URL الأساسي للـ html |
+| [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | إجراء لتكوين رؤوس الطلب. المعامل الأول للإجراء هو الـ Uri. |
+| [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | مقدم بيانات الاعتماد للـ Uri. |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | ينفذ [`CustomCssStyle`](../icustomcssstyleoptions/customcssstyle) |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | الحصول على أو تعيين الترميز الذي سيُستخدم عند تحميل مستند الويب. إذا كانت الخاصية null فسيتم تحديد الترميز من سمة مجموعة أحرف المستند. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | نوع ملف المستند المدخل. يكون `null` حتى يتم تعيين تنسيق، لذا اختبره مقابل `null` بدلاً من مقارنة بـ [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown)، والذي لا يساويه أبداً. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | نوع ملف المستند المدخل. |
+| [HtmlRenderingMode](../../groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode) { get; set; } | يتحكم في كيفية عرض محتوى HTML. الافتراضي: AbsolutePositioning |
+| [MarginSettings](../../groupdocs.conversion.options.load/webloadoptions/marginsettings) { get; set; } | إعدادات هوامش الصفحة |
+| [OrientationSettings](../../groupdocs.conversion.options.load/webloadoptions/orientationsettings) { get; set; } | إعدادات اتجاه الصفحة |
+| [PageLayoutOptions](../../groupdocs.conversion.options.load/webloadoptions/pagelayoutoptions) { get; set; } | يحدد خيارات تخطيط الصفحة عند تحميل مستندات الويب. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | تمكين أو تعطيل إنشاء ترقيم الصفحات في المستند المحول. القيمة الافتراضية: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | مهلة لتحميل الموارد الخارجية |
+| [SizeSettings](../../groupdocs.conversion.options.load/webloadoptions/sizesettings) { get; set; } | إعدادات حجم الصفحة |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | تنفيذ [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | استخدام pdf للتحويل. الافتراضي: false |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | تنفيذ [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [Zoom](../../groupdocs.conversion.options.load/webloadoptions/zoom) { get; set; } | يحدد مستوى التكبير كنسبة مئوية. يتم تطبيق مستوى التكبير على وسم &lt;body&gt; الخاص بالمستند قبل التحويل، مما يغير المظهر البصري للمستند. تمثل القيمة 100% الحجم الأصلي. القيمة الافتراضية هي 100. |
+
+## الطرق
+
+| الاسم | الوصف |
+| --- | --- |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | يحدد ما إذا كان مثيلان للكائن متساويين. |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | يحدد ما إذا كان مثيلان للكائن متساويين. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | يعمل كدالة التجزئة الافتراضية. |
+
+### انظر أيضًا
+
+* class [LoadOptions](../loadoptions)
+* interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
+* interface [IPageLayoutOptions](../ipagelayoutoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
+* interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
+* namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
+* assembly [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.conversion.dll -->
