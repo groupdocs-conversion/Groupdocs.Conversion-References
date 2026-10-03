@@ -1,0 +1,37 @@
+---
+title: "GetConsumptionCredit"
+second_title: "GroupDocs.Conversion for .NET API 参考"
+description: "检索已消耗的积分数量。"
+type: docs
+weight: 30
+url: /zh/net/groupdocs.conversion/metered/getconsumptioncredit/
+---
+## Metered.GetConsumptionCredit method
+
+检索已消耗的积分数量。
+
+```csharp
+public static decimal GetConsumptionCredit()
+```
+
+### 示例
+
+以下示例演示如何检索已消耗的积分数量。
+
+```csharp
+string publicKey = "Public Key";
+string privateKey = "Private Key";
+
+Metered metered = new Metered();
+metered.SetMeteredKey(publicKey, privateKey);
+
+decimal creditsConsumed = Metered.GetConsumptionCredit();
+```
+
+### 另见
+
+* class [Metered](../../metered)
+* namespace [GroupDocs.Conversion](../../../groupdocs.conversion)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- 请勿编辑：由 xmldocmd 为 GroupDocs.conversion.dll 生成 -->
