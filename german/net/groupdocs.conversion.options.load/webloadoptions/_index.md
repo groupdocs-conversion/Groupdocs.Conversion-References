@@ -1,0 +1,69 @@
+---
+title: "WebLoadOptions"
+second_title: "GroupDocs.Conversion für .NET API-Referenz"
+description: "Optionen zum Laden von Web-Dokumenten."
+type: docs
+weight: 2920
+url: /de/net/groupdocs.conversion.options.load/webloadoptions/
+---
+## WebLoadOptions class
+
+Optionen zum Laden von Web-Dokumenten.
+
+```csharp
+public class WebLoadOptions : LoadOptions, ICustomCssStyleOptions, IPageLayoutOptions, 
+    IPageMarginOptions, IPageNumberingLoadOptions, IPageOrientationOptions, IPageSizeOptions, 
+    IResourceLoadingOptions
+```
+
+## Konstruktoren
+
+| Name | Beschreibung |
+| --- | --- |
+| [WebLoadOptions](webloadoptions)() | Initialisiert eine neue Instanz der Klasse [`WebLoadOptions`](../webloadoptions). |
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [BasePath](../../groupdocs.conversion.options.load/webloadoptions/basepath) { get; set; } | Der Basis-Pfad/URL für das HTML |
+| [ConfigureHeaders](../../groupdocs.conversion.options.load/webloadoptions/configureheaders) { get; set; } | Aktion zur Konfiguration der Anforderungsheader. Der erste Parameter der Aktion ist die Uri. |
+| [CredentialsProvider](../../groupdocs.conversion.options.load/webloadoptions/credentialsprovider) { get; set; } | Anbieter von Anmeldeinformationen für die Uri. |
+| [CustomCssStyle](../../groupdocs.conversion.options.load/webloadoptions/customcssstyle) { get; set; } | Implementiert [`CustomCssStyle`](../icustomcssstyleoptions/customcssstyle) |
+| [Encoding](../../groupdocs.conversion.options.load/webloadoptions/encoding) { get; set; } | Liest oder setzt die zu verwendende Kodierung beim Laden des Webdokuments. Wenn die Eigenschaft null ist, wird die Kodierung aus dem Zeichensatzattribut des Dokuments ermittelt. |
+| [Format](../../groupdocs.conversion.options.load/webloadoptions/format) { get; set; } | Dateityp des Eingabedokuments. Ist `null`, bis ein Format festgelegt wurde, daher prüfen Sie auf `null` anstatt gegen [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown) zu vergleichen, was niemals zutrifft. |
+| virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Dateityp des Eingabedokuments. |
+| [HtmlRenderingMode](../../groupdocs.conversion.options.load/webloadoptions/htmlrenderingmode) { get; set; } | Steuert, wie HTML-Inhalt gerendert wird. Standard: AbsolutePositioning |
+| [MarginSettings](../../groupdocs.conversion.options.load/webloadoptions/marginsettings) { get; set; } | Seitenrand-Einstellungen |
+| [OrientationSettings](../../groupdocs.conversion.options.load/webloadoptions/orientationsettings) { get; set; } | Einstellungen für die Seitenausrichtung |
+| [PageLayoutOptions](../../groupdocs.conversion.options.load/webloadoptions/pagelayoutoptions) { get; set; } | Gibt die Optionen für das Seitenlayout beim Laden von Webdokumenten an. |
+| [PageNumbering](../../groupdocs.conversion.options.load/webloadoptions/pagenumbering) { get; set; } | Aktivieren oder deaktivieren Sie die Erzeugung von Seitenzahlen im konvertierten Dokument. Standard: false |
+| [ResourceLoadingTimeout](../../groupdocs.conversion.options.load/webloadoptions/resourceloadingtimeout) { get; set; } | Zeitlimit für das Laden externer Ressourcen |
+| [SizeSettings](../../groupdocs.conversion.options.load/webloadoptions/sizesettings) { get; set; } | Seitengröße-Einstellungen |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/webloadoptions/skipexternalresources) { get; set; } | Implementiert [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [UsePdf](../../groupdocs.conversion.options.load/webloadoptions/usepdf) { get; set; } | Verwende PDF für die Konvertierung. Standard: false |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/webloadoptions/whitelistedresources) { get; set; } | Implementiert [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [Zoom](../../groupdocs.conversion.options.load/webloadoptions/zoom) { get; set; } | Gibt den Zoom‑Level als Prozentsatz an. Der Zoom‑Level wird vor der Konvertierung auf das &lt;body&gt;-Tag des Dokuments angewendet und skaliert das visuelle Erscheinungsbild des Dokuments. Ein Wert von 100 % entspricht der Originalgröße. Der Standardwert ist 100. |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Dient als Standard-Hashfunktion. |
+
+### Siehe auch
+
+* class [LoadOptions](../loadoptions)
+* interface [ICustomCssStyleOptions](../icustomcssstyleoptions)
+* interface [IPageLayoutOptions](../ipagelayoutoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
+* interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
+* interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
+* namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
+* assembly [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.conversion.dll -->

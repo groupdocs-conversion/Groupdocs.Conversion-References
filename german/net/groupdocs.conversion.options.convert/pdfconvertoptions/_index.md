@@ -1,0 +1,66 @@
+---
+title: "PdfConvertOptions"
+second_title: "GroupDocs.Conversion für .NET API-Referenz"
+description: "Optionen für die Konvertierung zum PDF-Dateityp."
+type: docs
+weight: 2060
+url: /de/net/groupdocs.conversion.options.convert/pdfconvertoptions/
+---
+## PdfConvertOptions class
+
+Optionen für die Konvertierung zum PDF-Dateityp.
+
+```csharp
+public class PdfConvertOptions : CommonConvertOptions<PdfFileType>, IDpiConvertOptions, 
+    IPageMarginOptions, IPageOrientationOptions, IPageSizeOptions, IPasswordConvertOptions
+```
+
+## Konstruktoren
+
+| Name | Beschreibung |
+| --- | --- |
+| [PdfConvertOptions](pdfconvertoptions)() | Initialisiert eine neue Instanz der [`PdfConvertOptions`](../pdfconvertoptions)-Klasse. |
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [Dpi](../../groupdocs.conversion.options.convert/pdfconvertoptions/dpi) { get; set; } | Gewünschte DPI der Seite nach der Konvertierung. Die Standardauflösung beträgt: 96 dpi. |
+| [EmbedFullFonts](../../groupdocs.conversion.options.convert/pdfconvertoptions/embedfullfonts) { get; set; } | Wenn auf true gesetzt, wird die gesamte Schriftdatei in das PDF eingebettet statt eines Teilsets. Dies erhöht die Größe der Ausgabedatei, sorgt jedoch für bessere Kompatibilität beim Bearbeiten des resultierenden PDFs. Gilt nur beim Konvertieren von WordProcessing-Dokumenten. |
+| [FallbackPageSize](../../groupdocs.conversion.options.convert/pdfconvertoptions/fallbackpagesize) { get; set; } | Ausweichseitengröße |
+| [Format](../../groupdocs.conversion.options.convert/convertoptions-1/format) { get; set; } | Der gewünschte Dateityp, in den das Eingabedokument konvertiert werden soll. |
+| virtual [Format](../../groupdocs.conversion.options.convert/convertoptions/format) { get; set; } | Implementiert [`Format`](../iconvertoptions/format) |
+| [MarginSettings](../../groupdocs.conversion.options.convert/pdfconvertoptions/marginsettings) { get; set; } | Seitenrand-Einstellungen |
+| [OrientationSettings](../../groupdocs.conversion.options.convert/pdfconvertoptions/orientationsettings) { get; set; } | Einstellungen für die Seitenausrichtung |
+| [PageNumber](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagenumber) { get; set; } | Implementiert [`PageNumber`](../ipagedconvertoptions/pagenumber) |
+| [Pages](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pages) { get; set; } | Implementiert [`Pages`](../ipagerangedconvertoptions/pages) |
+| [PagesCount](../../groupdocs.conversion.options.convert/commonconvertoptions-1/pagescount) { get; set; } | Implementiert [`PagesCount`](../ipagedconvertoptions/pagescount) |
+| [Password](../../groupdocs.conversion.options.convert/pdfconvertoptions/password) { get; set; } | Setzen Sie diese Eigenschaft, wenn Sie das konvertierte Dokument mit einem Passwort schützen möchten. |
+| [PdfOptions](../../groupdocs.conversion.options.convert/pdfconvertoptions/pdfoptions) { get; set; } | PDF-spezifische Konvertierungsoptionen |
+| [ResizeMode](../../groupdocs.conversion.options.convert/pdfconvertoptions/resizemode) { get; set; } | Gibt an, wie der Inhalt skaliert werden soll, wenn die Seitengröße geändert wird. Standard ist AlignTopLeft (keine Skalierung). |
+| [Rotate](../../groupdocs.conversion.options.convert/pdfconvertoptions/rotate) { get; set; } | Seitenrotation |
+| [SizeSettings](../../groupdocs.conversion.options.convert/pdfconvertoptions/sizesettings) { get; set; } | Seitengröße-Einstellungen |
+| [Watermark](../../groupdocs.conversion.options.convert/commonconvertoptions-1/watermark) { get; set; } | Implementiert [`Watermark`](../iwatermarkedconvertoptions/watermark) |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| [Clone](../../groupdocs.conversion.options.convert/convertoptions/clone)() | Klonen der aktuellen Optionsinstanz. |
+| override [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(object) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Bestimmt, ob zwei Objektinstanzen gleich sind. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Dient als Standard-Hashfunktion. |
+
+### Siehe auch
+
+* class [CommonConvertOptions&lt;TFileType&gt;](../commonconvertoptions-1)
+* class [PdfFileType](../../groupdocs.conversion.filetypes/pdffiletype)
+* interface [IDpiConvertOptions](../idpiconvertoptions)
+* interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
+* interface [IPageOrientationOptions](../../groupdocs.conversion.options/ipageorientationoptions)
+* interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IPasswordConvertOptions](../ipasswordconvertoptions)
+* namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
+* assembly [GroupDocs.Conversion](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.conversion.dll -->
