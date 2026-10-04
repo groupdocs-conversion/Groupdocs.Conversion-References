@@ -1,0 +1,43 @@
+---
+title: "JpgColorModes"
+second_title: "GroupDocs.Conversion для .NET API Reference"
+description: "Описывает перечисление цветовых режимов Jpg."
+type: docs
+weight: 1980
+url: /ru/net/groupdocs.conversion.options.convert/jpgcolormodes/
+---
+## JpgColorModes class
+
+Описывает перечисление цветовых режимов Jpg.
+
+```csharp
+public class JpgColorModes : Enumeration
+```
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [CompareTo](../../groupdocs.conversion.contracts/enumeration/compareto)(object) | Сравнивает текущий объект с другим. |
+| virtual [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(Enumeration) | Определяет, равны ли два экземпляра объекта. |
+| override [Equals](../../groupdocs.conversion.contracts/enumeration/equals)(object) | Определяет, равны ли два экземпляра объекта. |
+| override [GetHashCode](../../groupdocs.conversion.contracts/enumeration/gethashcode)() | Служит функцией хеширования по умолчанию. |
+| override [ToString](../../groupdocs.conversion.contracts/enumeration/tostring)() | Возвращает строку, представляющую текущий объект. |
+
+## Поля
+
+| Имя | Описание |
+| --- | --- |
+| static readonly [Cmyk](../../groupdocs.conversion.options.convert/jpgcolormodes/cmyk) | CMYK. |
+| static readonly [Grayscale](../../groupdocs.conversion.options.convert/jpgcolormodes/grayscale) | Оттенки серого. |
+| static readonly [Rgb](../../groupdocs.conversion.options.convert/jpgcolormodes/rgb) | RGB. |
+| static readonly [YCbCr](../../groupdocs.conversion.options.convert/jpgcolormodes/ycbcr) | Изображение YCbCr. Стандартный вариант для jpeg‑изображений. |
+| static readonly [Ycck](../../groupdocs.conversion.options.convert/jpgcolormodes/ycck) | Ycck. |
+
+### См. также
+
+* class [Enumeration](../../groupdocs.conversion.contracts/enumeration)
+* namespace [GroupDocs.Conversion.Options.Convert](../../groupdocs.conversion.options.convert)
+* assembly [GroupDocs.Conversion](../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для GroupDocs.conversion.dll -->
