@@ -1,0 +1,23 @@
+---
+title: "Gråskala"
+second_title: "GroupDocs.Conversion för .NET API-referens"
+description: "Gråskala."
+type: docs
+weight: 40
+url: /sv/net/groupdocs.conversion.options.convert/psdcolormodes/grayscale/
+---
+## PsdColorModes.Grayscale field
+
+Gråskala.
+
+```csharp
+public static readonly PsdColorModes Grayscale;
+```
+
+### Se även
+
+* class [PsdColorModes](../../psdcolormodes)
+* namespace [GroupDocs.Conversion.Options.Convert](../../../groupdocs.conversion.options.convert)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- FÅ INTE REDIGERA: genererad av xmldocmd för GroupDocs.conversion.dll -->
