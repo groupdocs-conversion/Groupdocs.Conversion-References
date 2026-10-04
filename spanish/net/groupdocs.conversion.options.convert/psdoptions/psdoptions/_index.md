@@ -1,0 +1,23 @@
+---
+title: "PsdOptions"
+second_title: "Referencia de API de GroupDocs.Conversion para .NET"
+description: "Inicializa una nueva instancia de la clase PsdOptionsgroupdocs.conversion.options.convert/psdoptions."
+type: docs
+weight: 10
+url: /es/net/groupdocs.conversion.options.convert/psdoptions/psdoptions/
+---
+## PsdOptions constructor
+
+Inicializa una nueva instancia de la clase [`PsdOptions`](../../psdoptions).
+
+```csharp
+public PsdOptions()
+```
+
+### Ver también
+
+* class [PsdOptions](../../psdoptions)
+* namespace [GroupDocs.Conversion.Options.Convert](../../../groupdocs.conversion.options.convert)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.conversion.dll -->
