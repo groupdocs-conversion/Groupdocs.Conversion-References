@@ -1,0 +1,23 @@
+---
+title: "PageNumbering"
+second_title: "GroupDocs.Conversion för .NET API-referens"
+description: "Aktivera eller inaktivera generering av sidnumrering i konverterat dokument. Standard falskt."
+type: docs
+weight: 120
+url: /sv/net/groupdocs.conversion.options.load/webloadoptions/pagenumbering/
+---
+## WebLoadOptions.PageNumbering property
+
+Aktivera eller inaktivera generering av sidnumrering i konverterat dokument. Standard: false.
+
+```csharp
+public bool PageNumbering { get; set; }
+```
+
+### Se även
+
+* class [WebLoadOptions](../../webloadoptions)
+* namespace [GroupDocs.Conversion.Options.Load](../../../groupdocs.conversion.options.load)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- FÅ INTE REDIGERA: genererad av xmldocmd för GroupDocs.conversion.dll -->
