@@ -1,0 +1,23 @@
+---
+title: "Altura"
+second_title: "Referencia de API de GroupDocs.Conversion para .NET"
+description: "Obtiene la altura de la página"
+type: docs
+weight: 20
+url: /es/net/groupdocs.conversion.contracts/pdfdocumentinfo/height/
+---
+## PdfDocumentInfo.Height property
+
+Obtiene la altura de la página
+
+```csharp
+public double Height { get; }
+```
+
+### Ver también
+
+* class [PdfDocumentInfo](../../pdfdocumentinfo)
+* namespace [GroupDocs.Conversion.Contracts](../../../groupdocs.conversion.contracts)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.conversion.dll -->

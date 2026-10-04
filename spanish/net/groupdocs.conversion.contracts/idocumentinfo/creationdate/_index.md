@@ -1,0 +1,23 @@
+---
+title: "CreationDate"
+second_title: "Referencia de API de GroupDocs.Conversion para .NET"
+description: "Fecha de creación del documento"
+type: docs
+weight: 10
+url: /es/net/groupdocs.conversion.contracts/idocumentinfo/creationdate/
+---
+## IDocumentInfo.CreationDate property
+
+Fecha de creación del documento
+
+```csharp
+public DateTime CreationDate { get; }
+```
+
+### Ver también
+
+* interface [IDocumentInfo](../../idocumentinfo)
+* namespace [GroupDocs.Conversion.Contracts](../../../groupdocs.conversion.contracts)
+* assembly [GroupDocs.Conversion](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.conversion.dll -->
