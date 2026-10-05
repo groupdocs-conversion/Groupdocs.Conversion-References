@@ -1,0 +1,29 @@
+---
+title: "propriété background_color"
+second_title: "GroupDocs.Conversion for Python via .NET Références API"
+description: "La couleur d'arrière-plan."
+type: docs
+url: /fr/python-net/groupdocs.conversion.options.load/vectorizationoptions/background_color/
+is_root: false
+weight: 2010
+---
+
+
+## background_color property
+
+La couleur d'arrière-plan.
+
+La valeur par défaut est blanc transparent.
+
+### Definition:
+```python
+@property
+def background_color(self):
+    ...
+@background_color.setter
+def background_color(self, value):
+    ...
+```
+
+### Voir aussi
+* class [`VectorizationOptions`](/conversion/python-net/groupdocs.conversion.options.load/vectorizationoptions/)
