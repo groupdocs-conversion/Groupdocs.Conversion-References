@@ -1,0 +1,27 @@
+---
+title: "creation_date प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "दस्तावेज़ निर्माण की तिथि।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/creation_date/
+is_root: false
+weight: 2020
+---
+
+
+## creation_date property
+
+दस्तावेज़ निर्माण की तिथि।
+
+### Definition:
+```python
+@property
+def creation_date(self):
+    ...
+@creation_date.setter
+def creation_date(self, value):
+    ...
+```
+
+### साथ ही देखें
+* class [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.options.convert/pdfdocumentinfo/)

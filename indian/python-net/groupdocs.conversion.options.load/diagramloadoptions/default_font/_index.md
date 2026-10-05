@@ -1,0 +1,27 @@
+---
+title: "default_font प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "Diagram दस्तावेज़ के लिए डिफ़ॉल्ट फ़ॉन्ट, जब आवश्यक फ़ॉन्ट अनुपलब्ध हो तो उपयोग किया जाता है।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.load/diagramloadoptions/default_font/
+is_root: false
+weight: 2010
+---
+
+
+## default_font property
+
+Diagram दस्तावेज़ के लिए डिफ़ॉल्ट फ़ॉन्ट, जब आवश्यक फ़ॉन्ट अनुपलब्ध हो तो उपयोग किया जाता है।
+
+### Definition:
+```python
+@property
+def default_font(self):
+    ...
+@default_font.setter
+def default_font(self, value):
+    ...
+```
+
+### साथ ही देखें
+* class [`DiagramLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/diagramloadoptions/)

@@ -1,0 +1,15 @@
+---
+title: "BGR24 फ़ील्ड"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "PixelFormat.BGR24 — GroupDocs.Conversion for Python via .NET."
+type: docs
+url: /hi/python-net/groupdocs.conversion.contracts/pixelformat/bgr24/
+is_root: false
+weight: 3020
+---
+
+
+## BGR24 field
+
+### साथ ही देखें
+* class [`PixelFormat`](/conversion/python-net/groupdocs.conversion.contracts/pixelformat/)

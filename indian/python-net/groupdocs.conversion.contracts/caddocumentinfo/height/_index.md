@@ -1,0 +1,24 @@
+---
+title: "height प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "CAD दस्तावेज़ की ऊँचाई।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.contracts/caddocumentinfo/height/
+is_root: false
+weight: 2030
+---
+
+
+## height property
+
+CAD दस्तावेज़ की ऊँचाई।
+
+### Definition:
+```python
+@property
+def height(self):
+    ...
+```
+
+### साथ ही देखें
+* class [`CadDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/caddocumentinfo/)

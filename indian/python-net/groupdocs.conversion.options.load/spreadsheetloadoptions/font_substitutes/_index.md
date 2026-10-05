@@ -1,0 +1,27 @@
+---
+title: "font_substitutes प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "स्प्रेडशीट दस्तावेज़ को रूपांतरित करते समय उपयोग किए जाने वाले फ़ॉन्ट प्रतिस्थापन।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/font_substitutes/
+is_root: false
+weight: 2130
+---
+
+
+## font_substitutes property
+
+स्प्रेडशीट दस्तावेज़ को रूपांतरित करते समय उपयोग किए जाने वाले फ़ॉन्ट प्रतिस्थापन।
+
+### Definition:
+```python
+@property
+def font_substitutes(self):
+    ...
+@font_substitutes.setter
+def font_substitutes(self, value):
+    ...
+```
+
+### साथ ही देखें
+* class [`SpreadsheetLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/spreadsheetloadoptions/)

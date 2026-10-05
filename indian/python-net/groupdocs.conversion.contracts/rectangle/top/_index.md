@@ -1,0 +1,24 @@
+---
+title: "top प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "rectangle का ऊपर का किनारा।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.contracts/rectangle/top/
+is_root: false
+weight: 2050
+---
+
+
+## top property
+
+rectangle का ऊपर का किनारा।
+
+### Definition:
+```python
+@property
+def top(self):
+    ...
+```
+
+### साथ ही देखें
+* class [`Rectangle`](/conversion/python-net/groupdocs.conversion.contracts/rectangle/)

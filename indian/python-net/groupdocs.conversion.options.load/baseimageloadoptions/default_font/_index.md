@@ -1,0 +1,27 @@
+---
+title: "default_font प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "PSD, EMF, WMF दस्तावेज़ प्रकारों के लिए डिफ़ॉल्ट फ़ॉन्ट।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.load/baseimageloadoptions/default_font/
+is_root: false
+weight: 2010
+---
+
+
+## default_font property
+
+PSD, EMF, WMF दस्तावेज़ प्रकारों के लिए डिफ़ॉल्ट फ़ॉन्ट। यदि फ़ॉन्ट अनुपलब्ध है तो यह फ़ॉन्ट उपयोग किया जाएगा।
+
+### Definition:
+```python
+@property
+def default_font(self):
+    ...
+@default_font.setter
+def default_font(self, value):
+    ...
+```
+
+### साथ ही देखें
+* class [`BaseImageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/baseimageloadoptions/)

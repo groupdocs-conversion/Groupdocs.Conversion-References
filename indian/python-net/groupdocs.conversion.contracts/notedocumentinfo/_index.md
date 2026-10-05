@@ -1,0 +1,36 @@
+---
+title: "NoteDocumentInfo वर्ग"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "Note दस्तावेज़ मेटाडेटा शामिल है।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.contracts/notedocumentinfo/
+is_root: false
+weight: 360
+---
+
+
+## NoteDocumentInfo class
+
+Note दस्तावेज़ मेटाडेटा शामिल है।
+
+NoteDocumentInfo प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+### विधियाँ
+| विधि | विवरण |
+| :- | :- |
+| [get](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/get/) |  |
+| [get_file](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/get_file/) |  |
+| [get_string](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/get_string/) |  |
+
+### गुणधर्म
+| गुण | विवरण |
+| :- | :- |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/creation_date/) | दस्तावेज़ निर्माण तिथि। |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/format/) | दस्तावेज़ प्रारूप। |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/pages_count/) | दस्तावेज़ पृष्ठों की संख्या। |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/property_names/) | वर्तमान दस्तावेज़ जानकारी के लिए प्राप्त किए जा सकने वाले सभी गुणों की सूची। |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/size/) | दस्तावेज़ का आकार बाइट्स में। |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/notedocumentinfo/title/) | नोट दस्तावेज़ का शीर्षक। |
+
+### साथ ही देखें
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)

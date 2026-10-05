@@ -1,0 +1,17 @@
+---
+title: "TIFF फ़ील्ड"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "TIFF, Tagged Image File Format, विभिन्न उपकरणों पर उपयोग के लिए डिज़ाइन किए गए रास्टर इमेज को दर्शाता है जो इस फ़ाइल फ़ॉर्मेट मानक का पालन करते हैं।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.filetypes/imagefiletype/tiff/
+is_root: false
+weight: 3010
+---
+
+
+## TIFF field
+
+TIFF, Tagged Image File Format, रास्टर छवियों का प्रतिनिधित्व करता है जो विभिन्न उपकरणों पर उपयोग के लिए बनाए गए हैं जो इस फ़ाइल फ़ॉर्मेट मानक का पालन करते हैं। यह कई रंग स्थानों में बाइलैवल, ग्रेस्केल, पैलेट‑कलर और फुल‑कलर छवि डेटा का वर्णन करने में सक्षम है। इस फ़ाइल फ़ॉर्मेट के बारे में यहाँ अधिक जानें।
+
+### साथ ही देखें
+* class [`ImageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/imagefiletype/)
