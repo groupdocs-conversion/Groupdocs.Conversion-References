@@ -1,0 +1,43 @@
+---
+title: "Klasse CgmDocumentInfo"
+second_title: "GroupDocs.Conversion für Python über .NET API-Referenzen"
+description: "Die Klasse enthält Cgm-Dokument-Metadaten."
+type: docs
+url: /de/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/
+is_root: false
+weight: 60
+---
+
+
+## CgmDocumentInfo class
+
+Die Klasse enthält Cgm-Dokument-Metadaten.
+
+Der Typ CgmDocumentInfo stellt die folgenden Mitglieder bereit:
+
+### Methoden
+| Methode | Beschreibung |
+| :- | :- |
+| [get](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/get/) |  |
+| [get_file](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/get_file/) |  |
+| [get_string](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/get_string/) |  |
+
+### Eigenschaften
+| Eigenschaft | Beschreibung |
+| :- | :- |
+| [creation_date](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/creation_date/) | Das Erstellungsdatum des Dokuments. |
+| [format](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/format/) | Das Dokumentformat. |
+| [pages_count](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/pages_count/) | Die Seitenanzahl des Dokuments. |
+| [property_names](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/property_names/) | Die Aufzählung aller Eigenschaften, die für die aktuelle Dokumentinformation abgerufen werden können. |
+| [size](/conversion/python-net/groupdocs.conversion.contracts/cgmdocumentinfo/size/) | Die Dokumentgröße in Bytes. |
+| [author](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/author/) | Der Autor des Dokuments. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [height](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/height/) | Die Seitenhöhe. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [is_landscape](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/is_landscape/) | Die Seite ist im Querformat. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [is_password_protected](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/is_password_protected/) | Das Dokument ist passwortgeschützt. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [table_of_contents](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/table_of_contents/) | Das Inhaltsverzeichnis. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [title](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/title/) | Der Titel des PDF-Dokuments. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [version](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/version/) | Die Version des PDF-Dokuments. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+| [width](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/width/) | Die Seitenbreite. (geerbt von [`PdfDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/pdfdocumentinfo/)) |
+
+### Siehe auch
+* module [`groupdocs.conversion.contracts`](/conversion/python-net/groupdocs.conversion.contracts/)
