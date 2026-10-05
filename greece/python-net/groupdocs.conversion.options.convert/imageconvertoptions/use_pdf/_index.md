@@ -1,0 +1,27 @@
+---
+title: "use_pdf ιδιότητα"
+second_title: "GroupDocs.Conversion για Python μέσω .NET Αναφορές API"
+description: "Η ιδιότητα UsePdf."
+type: docs
+url: /el/python-net/groupdocs.conversion.options.convert/imageconvertoptions/use_pdf/
+is_root: false
+weight: 2200
+---
+
+
+## use_pdf property
+
+Η ιδιότητα UsePdf.
+
+### Definition:
+```python
+@property
+def use_pdf(self):
+    ...
+@use_pdf.setter
+def use_pdf(self, value):
+    ...
+```
+
+### Δείτε επίσης
+* class [`ImageConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/imageconvertoptions/)
