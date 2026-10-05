@@ -1,0 +1,20 @@
+---
+title: "लोड_फ़ाइल्स मेथड"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "IConversionSettingsOrConversionFrom.load_files मेथड — GroupDocs.Conversion for Python via .NET."
+type: docs
+url: /hi/python-net/groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/load_files/
+is_root: false
+weight: 1030
+---
+
+
+## load_files
+
+```python
+def load_files(self):
+    ...
+```
+
+### साथ ही देखें
+* class [`IConversionSettingsOrConversionFrom`](/conversion/python-net/groupdocs.conversion.fluent/iconversionsettingsorconversionfrom/)

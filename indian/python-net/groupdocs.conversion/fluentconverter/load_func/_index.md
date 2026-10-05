@@ -1,0 +1,20 @@
+---
+title: "लोड_फ़ंक्शन मेथड"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "FluentConverter.load_func मेथड — GroupDocs.Conversion for Python via .NET."
+type: docs
+url: /hi/python-net/groupdocs.conversion/fluentconverter/load_func/
+is_root: false
+weight: 1040
+---
+
+
+## load_func
+
+```python
+def load_func(cls):
+    ...
+```
+
+### साथ ही देखें
+* class [`FluentConverter`](/conversion/python-net/groupdocs.conversion/fluentconverter/)

@@ -1,0 +1,27 @@
+---
+title: "page_numbering प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "पेज नंबरिंग फ़्लैग परिवर्तित दस्तावेज़ में पेज नंबरिंग के निर्माण को सक्षम या अक्षम करता है (डिफ़ॉल्ट रूप से False है)।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.load/ipagenumberingloadoptions/page_numbering/
+is_root: false
+weight: 2010
+---
+
+
+## page_numbering property
+
+पेज नंबरिंग फ़्लैग परिवर्तित दस्तावेज़ में पेज नंबरिंग के निर्माण को सक्षम या अक्षम करता है (डिफ़ॉल्ट रूप से False है)।
+
+### Definition:
+```python
+@property
+def page_numbering(self):
+    ...
+@page_numbering.setter
+def page_numbering(self, value):
+    ...
+```
+
+### साथ ही देखें
+* class [`IPageNumberingLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/ipagenumberingloadoptions/)

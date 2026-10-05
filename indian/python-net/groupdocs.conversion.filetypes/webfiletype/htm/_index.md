@@ -1,0 +1,17 @@
+---
+title: "HTM फ़ील्ड"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "HTM (Hyper Text Markup Language) वेब पेजों के लिए एक्सटेंशन है जो ब्राउज़रों में प्रदर्शित होने के लिए बनाई गई हैं।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.filetypes/webfiletype/htm/
+is_root: false
+weight: 3040
+---
+
+
+## HTM field
+
+HTM (Hyper Text Markup Language) ब्राउज़र में प्रदर्शित करने के लिए बनाई गई वेब पृष्ठों की एक्सटेंशन है। इस फ़ाइल स्वरूप के बारे में यहाँ अधिक जानें।
+
+### साथ ही देखें
+* class [`WebFileType`](/conversion/python-net/groupdocs.conversion.filetypes/webfiletype/)

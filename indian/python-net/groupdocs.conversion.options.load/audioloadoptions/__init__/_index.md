@@ -1,0 +1,22 @@
+---
+title: "__init__ कंस्ट्रक्टर"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "AudioLoadOptions का नया इंस्टेंस इनिशियलाइज़ करता है।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.options.load/audioloadoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+[`AudioLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/audioloadoptions/) का नया उदाहरण प्रारंभ करता है।
+
+```python
+def __init__(self):
+    ...
+```
+
+### साथ ही देखें
+* class [`AudioLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/audioloadoptions/)

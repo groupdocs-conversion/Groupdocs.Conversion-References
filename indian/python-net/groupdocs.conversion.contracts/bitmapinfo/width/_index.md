@@ -1,0 +1,24 @@
+---
+title: "width प्रॉपर्टी"
+second_title: "GroupDocs.Conversion Python के लिए .NET के माध्यम से API संदर्भ"
+description: "बिटमैप की चौड़ाई।"
+type: docs
+url: /hi/python-net/groupdocs.conversion.contracts/bitmapinfo/width/
+is_root: false
+weight: 2040
+---
+
+
+## width property
+
+बिटमैप की चौड़ाई।
+
+### Definition:
+```python
+@property
+def width(self):
+    ...
+```
+
+### साथ ही देखें
+* class [`BitmapInfo`](/conversion/python-net/groupdocs.conversion.contracts/bitmapinfo/)
