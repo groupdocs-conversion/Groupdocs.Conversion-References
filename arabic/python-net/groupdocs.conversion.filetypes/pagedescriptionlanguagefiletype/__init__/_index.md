@@ -1,0 +1,22 @@
+---
+title: "منشئ __init__"
+second_title: "مراجع API لـ GroupDocs.Conversion لـ Python عبر .NET"
+description: "يُهيئ مُنشئ التسلسل."
+type: docs
+url: /ar/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+يُهيئ مُنشئ التسلسل.
+
+```python
+def __init__(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`PageDescriptionLanguageFileType`](/conversion/python-net/groupdocs.conversion.filetypes/pagedescriptionlanguagefiletype/)

@@ -1,0 +1,20 @@
+---
+title: "طريقة error_file"
+second_title: "مراجع API لـ GroupDocs.Conversion لـ Python عبر .NET"
+description: "طريقة ConsoleLogger.error_file — GroupDocs.Conversion لـ Python عبر .NET."
+type: docs
+url: /ar/python-net/groupdocs.conversion.logging/consolelogger/error_file/
+is_root: false
+weight: 1020
+---
+
+
+## error_file
+
+```python
+def error_file(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`ConsoleLogger`](/conversion/python-net/groupdocs.conversion.logging/consolelogger/)
