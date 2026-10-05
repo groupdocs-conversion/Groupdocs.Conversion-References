@@ -1,0 +1,27 @@
+---
+title: "pages 属性"
+second_title: "适用于 Python 的 GroupDocs.Conversion via .NET API 参考"
+description: "要转换的页面索引列表；指定以转换特定页面。"
+type: docs
+url: /zh/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/pages/
+is_root: false
+weight: 2080
+---
+
+
+## pages property
+
+要转换的页面索引列表；指定以转换特定页面。
+
+### Definition:
+```python
+@property
+def pages(self):
+    ...
+@pages.setter
+def pages(self, value):
+    ...
+```
+
+### 另见
+* class [`PdfConvertOptions`](/conversion/python-net/groupdocs.conversion.options.convert/pdfconvertoptions/)

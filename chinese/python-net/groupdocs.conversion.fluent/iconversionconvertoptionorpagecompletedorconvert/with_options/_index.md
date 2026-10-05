@@ -1,0 +1,43 @@
+---
+title: "with_options 方法"
+second_title: "适用于 Python 的 GroupDocs.Conversion via .NET API 参考"
+description: "设置转换选项。"
+type: docs
+url: /zh/python-net/groupdocs.conversion.fluent/iconversionconvertoptionorpagecompletedorconvert/with_options/
+is_root: false
+weight: 1060
+---
+
+
+## with_options {#convert_options}
+
+设置转换选项。
+
+```python
+def with_options(self, convert_options):
+    ...
+```
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| convert_options | `ConvertOptions` | 转换选项 |
+
+**Returns:** Interface to continue conversion building.
+
+## with_options {#convert_options_provider}
+
+设置转换选项。
+
+```python
+def with_options(self, convert_options_provider):
+    ...
+```
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| convert_options_provider | `Func[ConvertContext, ConvertOptions]` | 转换选项。`ConvertContext` 会传递给提供程序。 |
+
+**Returns:** Interface to continue conversion building.
+
+### 另见
+* class [`IConversionConvertOptionOrPageCompletedOrConvert`](/conversion/python-net/groupdocs.conversion.fluent/iconversionconvertoptionorpagecompletedorconvert/)

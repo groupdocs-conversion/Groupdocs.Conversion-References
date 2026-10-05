@@ -1,0 +1,34 @@
+---
+title: "LoadOptions 类"
+second_title: "适用于 Python 的 GroupDocs.Conversion via .NET API 参考"
+description: "表示抽象文档加载选项。"
+type: docs
+url: /zh/python-net/groupdocs.conversion.options.load/loadoptions/
+is_root: false
+weight: 290
+---
+
+
+## LoadOptions class
+
+表示抽象文档加载选项。
+
+LoadOptions 类指定要加载的文档类型，并包含可选参数，例如 `password`。它们分为两组：针对格式系列的选项和针对特定文件类型的选项。
+
+LoadOptions 类型公开以下成员：
+
+### 方法
+| 方法 | 描述 |
+| :- | :- |
+| [equals](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals/) | 确定两个对象实例是否相等。 (继承自 [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_object/) | (继承自 [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [equals_value_object](/conversion/python-net/groupdocs.conversion.contracts/valueobject/equals_value_object/) | (继承自 [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+| [get_hash_code](/conversion/python-net/groupdocs.conversion.contracts/valueobject/get_hash_code/) | 用作默认的哈希函数。 (继承自 [`ValueObject`](/conversion/python-net/groupdocs.conversion.contracts/valueobject/)) |
+
+### 属性
+| 属性 | 描述 |
+| :- | :- |
+| [format](/conversion/python-net/groupdocs.conversion.options.load/loadoptions/format/) | 输入文档的文件类型。 |
+
+### 另见
+* module [`groupdocs.conversion.options.load`](/conversion/python-net/groupdocs.conversion.options.load/)

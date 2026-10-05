@@ -1,0 +1,27 @@
+---
+title: "convert_owned 属性"
+second_title: "适用于 Python 的 GroupDocs.Conversion via .NET API 参考"
+description: "该属性实现 IDocumentsContainerLoadOptions.convertowned。"
+type: docs
+url: /zh/python-net/groupdocs.conversion.options.load/emailloadoptions/convert_owned/
+is_root: false
+weight: 2020
+---
+
+
+## convert_owned property
+
+该属性实现 [`IDocumentsContainerLoadOptions.convert_owned`](/conversion/python-net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/convert_owned/)。默认值为 True。
+
+### Definition:
+```python
+@property
+def convert_owned(self):
+    ...
+@convert_owned.setter
+def convert_owned(self, value):
+    ...
+```
+
+### 另见
+* class [`EmailLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/emailloadoptions/)
