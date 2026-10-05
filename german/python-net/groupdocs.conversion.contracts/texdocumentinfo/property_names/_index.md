@@ -1,0 +1,24 @@
+---
+title: "property_names Eigenschaft"
+second_title: "GroupDocs.Conversion für Python über .NET API-Referenzen"
+description: "Die Aufzählung aller Eigenschaften, die für die aktuelle Dokumentinformation abgerufen werden können."
+type: docs
+url: /de/python-net/groupdocs.conversion.contracts/texdocumentinfo/property_names/
+is_root: false
+weight: 2040
+---
+
+
+## property_names property
+
+Die Aufzählung aller Eigenschaften, die für die aktuelle Dokumentinformation abgerufen werden können.
+
+### Definition:
+```python
+@property
+def property_names(self):
+    ...
+```
+
+### Siehe auch
+* class [`TexDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/texdocumentinfo/)
