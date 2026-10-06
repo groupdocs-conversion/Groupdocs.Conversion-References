@@ -1,0 +1,20 @@
+---
+title: "set_file メソッド"
+second_title: "GroupDocs.Conversion for Python via .NET API リファレンス"
+description: "FileCache.set_file メソッド — GroupDocs.Conversion for Python via .NET."
+type: docs
+url: /ja/python-net/groupdocs.conversion.caching/filecache/set_file/
+is_root: false
+weight: 1050
+---
+
+
+## set_file
+
+```python
+def set_file(self):
+    ...
+```
+
+### 関連項目
+* class [`FileCache`](/conversion/python-net/groupdocs.conversion.caching/filecache/)

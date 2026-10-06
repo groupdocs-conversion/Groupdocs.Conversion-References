@@ -1,0 +1,27 @@
+---
+title: "format プロパティ"
+second_title: "GroupDocs.Conversion for Python via .NET API リファレンス"
+description: "入力ドキュメントのファイルタイプは、フォーマットが設定されるまで None です；`None` をテストし、決して等しくならない FileType.unknown と比較しないでください。"
+type: docs
+url: /ja/python-net/groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/format/
+is_root: false
+weight: 2010
+---
+
+
+## format property
+
+入力ドキュメントのファイルタイプで、フォーマットが設定されるまで None です。None かどうかをテストし、[`FileType.unknown`](/conversion/python-net/groupdocs.conversion.filetypes/filetype/unknown/) と比較しないでください。これは決して等しくなりません。
+
+### Definition:
+```python
+@property
+def format(self):
+    ...
+@format.setter
+def format(self, value):
+    ...
+```
+
+### 関連項目
+* class [`PageDescriptionLanguageLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pagedescriptionlanguageloadoptions/)
