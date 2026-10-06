@@ -1,0 +1,20 @@
+---
+title: "get_string yöntemi"
+second_title: "GroupDocs.Conversion for Python via .NET API Referansları"
+description: "PublisherDocumentInfo.get_string metodu — GroupDocs.Conversion için Python üzerinden .NET."
+type: docs
+url: /tr/python-net/groupdocs.conversion.contracts/publisherdocumentinfo/get_string/
+is_root: false
+weight: 1030
+---
+
+
+## get_string
+
+```python
+def get_string(self):
+    ...
+```
+
+### Ayrıca Bakınız
+* class [`PublisherDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/publisherdocumentinfo/)

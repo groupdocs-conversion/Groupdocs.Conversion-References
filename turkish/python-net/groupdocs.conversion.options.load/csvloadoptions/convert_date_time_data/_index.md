@@ -1,0 +1,27 @@
+---
+title: "convert_date_time_data özelliği"
+second_title: "GroupDocs.Conversion for Python via .NET API Referansları"
+description: "Bu özellik, dosyadaki dizgenin tarihe dönüştürülüp dönüştürülmediğini gösterir."
+type: docs
+url: /tr/python-net/groupdocs.conversion.options.load/csvloadoptions/convert_date_time_data/
+is_root: false
+weight: 2030
+---
+
+
+## convert_date_time_data property
+
+Özellik, dosyadaki dizgenin tarihe dönüştürülüp dönüştürülmediğini gösterir. Varsayılan değer True'tır.
+
+### Definition:
+```python
+@property
+def convert_date_time_data(self):
+    ...
+@convert_date_time_data.setter
+def convert_date_time_data(self, value):
+    ...
+```
+
+### Ayrıca Bakınız
+* class [`CsvLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/csvloadoptions/)
