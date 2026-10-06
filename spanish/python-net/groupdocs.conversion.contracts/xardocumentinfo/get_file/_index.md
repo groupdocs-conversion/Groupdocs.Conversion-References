@@ -1,0 +1,20 @@
+---
+title: "método get_file"
+second_title: "Referencias de API de GroupDocs.Conversion para Python a través de .NET"
+description: "Método XarDocumentInfo.get_file — GroupDocs.Conversion for Python via .NET."
+type: docs
+url: /es/python-net/groupdocs.conversion.contracts/xardocumentinfo/get_file/
+is_root: false
+weight: 1020
+---
+
+
+## get_file
+
+```python
+def get_file(self):
+    ...
+```
+
+### Ver también
+* class [`XarDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/xardocumentinfo/)
