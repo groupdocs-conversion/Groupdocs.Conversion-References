@@ -1,0 +1,28 @@
+---
+title: "метод on_conversion_failed"
+second_title: "GroupDocs.Conversion для Python через .NET справочник API"
+description: "Регистрирует обратный вызов, который будет выполнен при ошибке конвертации документа."
+type: docs
+url: /ru/python-net/groupdocs.conversion.fluent/iconversionhandlersstage/on_conversion_failed/
+is_root: false
+weight: 1060
+---
+
+
+## on_conversion_failed {#on_failed}
+
+Регистрирует обратный вызов, который будет выполнен при ошибке конвертации документа.
+
+```python
+def on_conversion_failed(self, on_failed):
+    ...
+```
+
+| Параметр | Тип | Описание |
+| :- | :- | :- |
+| on_failed | `Action[ConvertedContext, Exception]` | Действие для обработки ошибки, получающее контекст конвертации и исключение, вызвавшее ошибку. |
+
+**Returns:** This stage, so additional handlers or `Convert` / `Compress` may be chained.
+
+### См. также
+* class [`IConversionHandlersStage`](/conversion/python-net/groupdocs.conversion.fluent/iconversionhandlersstage/)
