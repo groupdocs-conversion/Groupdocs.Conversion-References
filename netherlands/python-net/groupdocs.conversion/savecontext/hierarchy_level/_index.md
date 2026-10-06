@@ -1,0 +1,24 @@
+---
+title: "hierarchy_level eigenschap"
+second_title: "GroupDocs.Conversion for Python via .NET API-referenties"
+description: "Het hiërarchieniveau."
+type: docs
+url: /nl/python-net/groupdocs.conversion/savecontext/hierarchy_level/
+is_root: false
+weight: 2010
+---
+
+
+## hierarchy_level property
+
+Het hiërarchieniveau.
+
+### Definition:
+```python
+@property
+def hierarchy_level(self):
+    ...
+```
+
+### Zie ook
+* class [`SaveContext`](/conversion/python-net/groupdocs.conversion/savecontext/)
