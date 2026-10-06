@@ -1,0 +1,33 @@
+---
+title: "proprietà font_transformations"
+second_title: "Riferimenti API di GroupDocs.Conversion per Python tramite .NET"
+description: "Le trasformazioni dei font applicate dopo il caricamento del documento e la sostituzione dei font, consentendo la modifica di qualsiasi font nel documento, inclusi quelli caricati correttamente."
+type: docs
+url: /it/python-net/groupdocs.conversion.options.load/pdfloadoptions/font_transformations/
+is_root: false
+weight: 2090
+---
+
+
+## font_transformations property
+
+Le trasformazioni dei font applicate dopo il caricamento del documento e la sostituzione dei font, consentendo la modifica di qualsiasi font nel documento, inclusi quelli caricati correttamente.
+
+Nota: le trasformazioni dei caratteri vengono applicate dopo che tutti i passaggi di sostituzione dei caratteri sono completati.
+
+Le trasformazioni vengono elaborate nell'ordine in cui compaiono nella lista.
+
+Casi d'uso: modifiche di stile, requisiti di branding, miglioramenti di accessibilità.
+
+### Definition:
+```python
+@property
+def font_transformations(self):
+    ...
+@font_transformations.setter
+def font_transformations(self, value):
+    ...
+```
+
+### Vedi anche
+* class [`PdfLoadOptions`](/conversion/python-net/groupdocs.conversion.options.load/pdfloadoptions/)

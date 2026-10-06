@@ -1,0 +1,24 @@
+---
+title: "proprietà source_file_name"
+second_title: "Riferimenti API di GroupDocs.Conversion per Python tramite .NET"
+description: "Il nome del file sorgente."
+type: docs
+url: /it/python-net/groupdocs.conversion/convertedcontext/source_file_name/
+is_root: false
+weight: 2050
+---
+
+
+## source_file_name property
+
+Il nome del file sorgente.
+
+### Definition:
+```python
+@property
+def source_file_name(self):
+    ...
+```
+
+### Vedi anche
+* class [`ConvertedContext`](/conversion/python-net/groupdocs.conversion/convertedcontext/)
