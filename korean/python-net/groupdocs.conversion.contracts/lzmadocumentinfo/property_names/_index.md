@@ -1,0 +1,24 @@
+---
+title: "property_names 속성"
+second_title: "Python용 .NET을 통한 GroupDocs.Conversion API 참조"
+description: "현재 문서 정보에 대해 가져올 수 있는 모든 속성의 열거형."
+type: docs
+url: /ko/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/property_names/
+is_root: false
+weight: 2040
+---
+
+
+## property_names property
+
+현재 문서 정보에 대해 가져올 수 있는 모든 속성의 열거형.
+
+### Definition:
+```python
+@property
+def property_names(self):
+    ...
+```
+
+### 또 보기
+* class [`LzmaDocumentInfo`](/conversion/python-net/groupdocs.conversion.contracts/lzmadocumentinfo/)
