@@ -1,14 +1,14 @@
 ---
 title: OnDocumentFailed
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Fired once per wholedocument conversion that fails.
+description: Fired once per wholedocument conversion that fails and once per contained item an archive entry an email attachment a mailbox item that cannot be loaded and is skipped while the conversion of the remaining items continues. For such an item the context carries its name hierarchy level and item index and Unknowngroupdocs.conversion.filetypes/filetype/unknown as its source and target format.
 type: docs
 weight: 70
 url: /net/groupdocs.conversion/conversionevents/ondocumentfailed/
 ---
 ## ConversionEvents.OnDocumentFailed property
 
-Fired once per whole-document conversion that fails.
+Fired once per whole-document conversion that fails, and once per contained item (an archive entry, an email attachment, a mailbox item) that cannot be loaded and is skipped while the conversion of the remaining items continues. For such an item the context carries its name, hierarchy level and item index, and [`Unknown`](../../../groupdocs.conversion.filetypes/filetype/unknown) as its source and target format.
 
 ```csharp
 public Action<ConvertedContext, Exception> OnDocumentFailed { get; set; }

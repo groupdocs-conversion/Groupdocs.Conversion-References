@@ -3,7 +3,7 @@ title: TsvLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Tsv documents.
 type: docs
-weight: 2850
+weight: 2870
 url: /net/groupdocs.conversion.options.load/tsvloadoptions/
 ---
 ## TsvLoadOptions class
@@ -36,6 +36,7 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [CultureInfo](../../groupdocs.conversion.options.load/spreadsheetloadoptions/cultureinfo) { get; set; } | Get or set the system culture info at the time file is loaded |
 | [DefaultFont](../../groupdocs.conversion.options.load/spreadsheetloadoptions/defaultfont) { get; set; } | Default font for spreadsheet document. The following font will be used if a font is missing. |
 | [Depth](../../groupdocs.conversion.options.load/spreadsheetloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/spreadsheetloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/spreadsheetloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting spreadsheet document. |
 | [Format](../../groupdocs.conversion.options.load/tsvloadoptions/format) { get; } | Input document file type. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
@@ -54,10 +55,10 @@ public sealed class TsvLoadOptions : SpreadsheetLoadOptions
 | [ShowHiddenSheets](../../groupdocs.conversion.options.load/spreadsheetloadoptions/showhiddensheets) { get; set; } | Show hidden sheets when converting Excel files. |
 | [SizeSettings](../../groupdocs.conversion.options.load/spreadsheetloadoptions/sizesettings) { get; set; } | Page size settings |
 | [SkipEmptyRowsAndColumns](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipemptyrowsandcolumns) { get; set; } | Skips empty rows and columns when converting. Default is True. |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
 | [SkipFooters](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipfooters) { get; set; } | Skip footers when converting spreadsheet documents. Default: false. |
 | [SkipHeaders](../../groupdocs.conversion.options.load/spreadsheetloadoptions/skipheaders) { get; set; } | Skip headers when converting spreadsheet documents. Default: false. |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/spreadsheetloadoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](../spreadsheetloadoptions/skipexternalresources) is `true`. |
 
 ## Methods
 

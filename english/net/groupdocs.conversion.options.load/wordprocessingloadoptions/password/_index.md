@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set password to unprotect protected document.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/password/
 ---
 ## WordProcessingLoadOptions.Password property

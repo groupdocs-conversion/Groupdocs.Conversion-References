@@ -3,7 +3,7 @@ title: SvgLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Svg documents.
 type: docs
-weight: 2830
+weight: 2850
 url: /net/groupdocs.conversion.options.load/svgloadoptions/
 ---
 ## SvgLoadOptions class
@@ -25,12 +25,14 @@ public class SvgLoadOptions : LoadOptions, IResourceLoadingOptions
 | Name | Description |
 | --- | --- |
 | [CropToContentBounds](../../groupdocs.conversion.options.load/svgloadoptions/croptocontentbounds) { get; set; } | Gets or sets a value indicating whether to crop the SVG bounding box to the content bounds before conversion. The default is false. |
+| [ExecuteScripts](../../groupdocs.conversion.options.load/svgloadoptions/executescripts) { get; set; } | Gets or sets whether the document's scripts run while it loads and converts. Default: `false`. |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/svgloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
 | [Format](../../groupdocs.conversion.options.load/svgloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [MinimumHeight](../../groupdocs.conversion.options.load/svgloadoptions/minimumheight) { get; set; } | Set minimum height for converting SVG document. It's used when converting to raster formats. Default is 600. |
 | [MinimumWidth](../../groupdocs.conversion.options.load/svgloadoptions/minimumwidth) { get; set; } | Set minimum width for converting SVG document. It's used when converting to raster formats. Default is 800. |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/svgloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/svgloadoptions/whitelistedresources) { get; set; } | External resources that will always be loaded. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/svgloadoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/svgloadoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](./skipexternalresources) is `true`. |
 
 ## Methods
 

@@ -1,18 +1,28 @@
 ---
 title: BasePath
 second_title: GroupDocs.Conversion for .NET API Reference
-description: The base path/url for the html
+description: The base directory or URL that relative references in the document resolve against.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.options.load/webloadoptions/basepath/
 ---
 ## WebLoadOptions.BasePath property
 
-The base path/url for the html
+The base directory or URL that relative references in the document resolve against.
 
 ```csharp
 public string BasePath { get; set; }
 ```
+
+### Remarks
+
+A local value is always a directory, even when it names a file. A relative value is made absolute against the process working directory. While external resources are skipped, local resources load only from inside this directory.
+
+An `http` or `https` URL makes relative references remote, so they load only when whitelisted.
+
+A UNC path gives no base directory.
+
+When the value is null or empty, the base directory is the source file's folder when the document is converted from a file path, and there is none when it is converted from a stream.
 
 ### See Also
 

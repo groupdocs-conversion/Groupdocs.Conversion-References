@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2950
+weight: 2970
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -36,6 +36,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Sets the default font for a WordProcessing document. |
 | [Depth](../../groupdocs.conversion.options.load/wordprocessingloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
 | [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: true |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/wordprocessingloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
 | [FontConfigSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontconfigsubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontConfig in the system. Default: false. |
 | [FontInfoSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontinfosubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontInfo in the document. Default: false. |
 | [FontNameSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontnamesubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on the font name. Default: false. |
@@ -53,11 +54,11 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [PreserveFormFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/preserveformfields) { get; set; } | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false. |
 | [ShowFullCommenterName](../../groupdocs.conversion.options.load/wordprocessingloadoptions/showfullcommentername) { get; set; } | Show full commenter name in comments. Default is false. |
 | [SizeSettings](../../groupdocs.conversion.options.load/wordprocessingloadoptions/sizesettings) { get; set; } | Page size settings |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | Implements [`SkipExternalResources`](../iresourceloadingoptions/skipexternalresources) |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
 | [UpdateFields](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatefields) { get; set; } | Update fields after loading. Default: false |
 | [UpdatePageLayout](../../groupdocs.conversion.options.load/wordprocessingloadoptions/updatepagelayout) { get; set; } | Update page layout after loading. Default: false |
 | [UseTextShaper](../../groupdocs.conversion.options.load/wordprocessingloadoptions/usetextshaper) { get; set; } | Specifies whether to use a text shaper for better kerning display. Default is false. |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources) { get; set; } | Implements [`WhitelistedResources`](../iresourceloadingoptions/whitelistedresources) |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/wordprocessingloadoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](./skipexternalresources) is `true`. |
 
 ## Methods
 

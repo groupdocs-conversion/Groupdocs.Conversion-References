@@ -3,7 +3,7 @@ title: FinanceLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading finance documents.
 type: docs
-weight: 2520
+weight: 2530
 url: /net/groupdocs.conversion.options.load/financeloadoptions/
 ---
 ## FinanceLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/financeloadoptions/
 Options for loading finance documents.
 
 ```csharp
-public class FinanceLoadOptions : LoadOptions
+public class FinanceLoadOptions : LoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -24,8 +24,11 @@ public class FinanceLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/financeloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
 | [Format](../../groupdocs.conversion.options.load/financeloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/financeloadoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/financeloadoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](./skipexternalresources) is `true`. |
 
 ## Methods
 
@@ -35,9 +38,18 @@ public class FinanceLoadOptions : LoadOptions
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
 
+### Remarks
+
+An XBRL or inline XBRL document references its taxonomy: schemas, linkbases and the schemas they import. While [`SkipExternalResources`](./skipexternalresources) is `true`, the document loads only when every reference in that chain stays inside the document's own folder, which requires converting from a path. A document that references a remote taxonomy, a file outside its folder or any file when loaded from a stream, or whose local chain is not well-formed XML, fails to load with [`InvalidLoadOptionsException`](../../groupdocs.conversion.exceptions/invalidloadoptionsexception). Nearly every published taxonomy is remote, so most filings need [`SkipExternalResources`](./skipexternalresources) set to `false`.
+
+[`WhitelistedResources`](./whitelistedresources) is never consulted for XBRL: a whitelisted remote schema is still denied, because the schemas it imports cannot be judged without fetching it. Its entries are still validated.
+
+With [`SkipExternalResources`](./skipexternalresources) set to `false`, every taxonomy file the document needs is loaded, including schemas imported by remote schemas.
+
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

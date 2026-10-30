@@ -3,7 +3,7 @@ title: ThreeDLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading 3D documents.
 type: docs
-weight: 2840
+weight: 2860
 url: /net/groupdocs.conversion.options.load/threedloadoptions/
 ---
 ## ThreeDLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/threedloadoptions/
 Options for loading 3D documents.
 
 ```csharp
-public class ThreeDLoadOptions : LoadOptions
+public class ThreeDLoadOptions : LoadOptions, IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -24,8 +24,11 @@ public class ThreeDLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/threedloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each dependency the 3D document loads, also while it is saved. Default: `null`. |
 | [Format](../../groupdocs.conversion.options.load/threedloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/threedloadoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/threedloadoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](./skipexternalresources) is `true`. |
 
 ## Methods
 
@@ -35,9 +38,16 @@ public class ThreeDLoadOptions : LoadOptions
 | virtual [Equals](../../groupdocs.conversion.contracts/valueobject/equals)(ValueObject) | Determines whether two object instances are equal. |
 | override [GetHashCode](../../groupdocs.conversion.contracts/valueobject/gethashcode)() | Serves as the default hash function. |
 
+### Remarks
+
+A 3D document can depend on other files: material libraries, textures and external buffers. These dependencies are always read as local files. Remote dependencies never load, even when [`SkipExternalResources`](./skipexternalresources) is `false`, so an entry of [`WhitelistedResources`](./whitelistedresources) takes effect only as a `file:` prefix, such as `file:///D:/models/materials/`.
+
+A dependency that is not allowed is treated as missing. A model that cannot load without it, such as a glTF file whose external buffer is denied, fails to load.
+
 ### See Also
 
 * class [LoadOptions](../loadoptions)
+* interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 
