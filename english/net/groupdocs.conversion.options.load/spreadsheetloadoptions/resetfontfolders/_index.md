@@ -3,7 +3,7 @@ title: ResetFontFolders
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Reset font folders before loading document
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/resetfontfolders/
 ---
 ## SpreadsheetLoadOptions.ResetFontFolders property

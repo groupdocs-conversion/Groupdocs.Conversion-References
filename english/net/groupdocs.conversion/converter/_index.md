@@ -146,7 +146,7 @@ using (var converter = new Converter("sample.docx", () => new ConverterSettings(
 }
 ```
 
-The flat `OnConversionFailed`, `OnConversionByPageFailed`, and `OnCompressionCompleted` properties on [`ConverterSettings`](../convertersettings) still work but are obsolete; new code should pass a [`ConversionEvents`](../conversionevents) instance via the `events` constructor parameter.
+[`ConversionEvents`](../conversionevents) holds every conversion event handler: pass an instance via the `events` constructor parameter, or set the same handlers through the fluent API (for example its `OnConversionFailed` stage).
 
 **Get document information:**
 

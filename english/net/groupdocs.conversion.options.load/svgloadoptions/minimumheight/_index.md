@@ -3,7 +3,7 @@ title: MinimumHeight
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set minimum height for converting SVG document. Its used when converting to raster formats. Default is 600.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.conversion.options.load/svgloadoptions/minimumheight/
 ---
 ## SvgLoadOptions.MinimumHeight property

@@ -1,18 +1,37 @@
 ---
 title: SkipExternalResources
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Implements SkipExternalResourcesgroupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources
+description: Gets or sets whether external resources are denied. Default true.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.conversion.options.load/svgloadoptions/skipexternalresources/
 ---
 ## SvgLoadOptions.SkipExternalResources property
 
-Implements [`SkipExternalResources`](../../iresourceloadingoptions/skipexternalresources)
+Gets or sets whether external resources are denied. Default: `true`.
 
 ```csharp
 public bool SkipExternalResources { get; set; }
 ```
+
+### Remarks
+
+When `true`, a document still loads:
+
+* content it carries: `data:` URIs, `cid:` references, MHTML parts and packaged media;
+* `about:` and `base64` references;
+* local files inside the base directory;
+* resources that match an entry of [`WhitelistedResources`](../whitelistedresources).
+
+Everything else is skipped and the conversion continues: `http`, `https`, `ftp` and every other scheme, local files outside the base directory, and relative references that leave it through `../`.
+
+The base directory is [`BasePath`](../../webloadoptions/basepath) when the options are [`WebLoadOptions`](../../webloadoptions) and it names a local directory. Otherwise it is the folder of the source file when the document is converted from a file path, and there is none when it is converted from a stream. An `http` or `https``BasePath`, a UNC `BasePath` and a source file on a UNC share give no base directory. Symbolic links and junctions inside the base directory are not resolved, so it should hold only content you trust.
+
+When `false`, every external resource loads except UNC paths, the whitelist has no effect, and the engine follows redirects.
+
+UNC paths (`\\host\share`, `//host/share`, `file://host/share` and their other forms) are never loaded, whatever this property is set to.
+
+An [`ExternalResourceHandler`](../externalresourcehandler) receives this decision for each resource and can override it, except for UNC paths, `javascript:` and `vbscript:` references and XBRL taxonomies.
 
 ### See Also
 

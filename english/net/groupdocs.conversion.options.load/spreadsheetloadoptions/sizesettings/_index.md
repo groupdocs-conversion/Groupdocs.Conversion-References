@@ -3,7 +3,7 @@ title: SizeSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page size settings
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/sizesettings/
 ---
 ## SpreadsheetLoadOptions.SizeSettings property

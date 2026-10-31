@@ -27,6 +27,12 @@ True
 
 if the key was found.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | The key is null, empty, rooted or contains path separators or parent-directory segments. |
+
 ### See Also
 
 * class [FileCache](../../filecache)

@@ -3,7 +3,7 @@ title: NotesPosition
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Represents the way notes are printed with the slide. Default is None.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.conversion.options.load/presentationloadoptions/notesposition/
 ---
 ## PresentationLoadOptions.NotesPosition property

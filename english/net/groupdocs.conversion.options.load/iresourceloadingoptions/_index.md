@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingOptions
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Represents set of options to control how external resources will be loaded
+description: Represents the options that control which external resources a document may load.
 type: docs
-weight: 2640
+weight: 2660
 url: /net/groupdocs.conversion.options.load/iresourceloadingoptions/
 ---
 ## IResourceLoadingOptions interface
 
-Represents set of options to control how external resources will be loaded
+Represents the options that control which external resources a document may load.
 
 ```csharp
 public interface IResourceLoadingOptions
@@ -18,8 +18,19 @@ public interface IResourceLoadingOptions
 
 | Name | Description |
 | --- | --- |
-| [SkipExternalResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources) { get; set; } | If true, all external resources will not be loaded except those in [`WhitelistedResources`](./whitelistedresources) list. Default: true |
-| [WhitelistedResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources) { get; set; } | External resources that will be always loaded |
+| [ExternalResourceHandler](../../groupdocs.conversion.options.load/iresourceloadingoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
+| [SkipExternalResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/skipexternalresources) { get; set; } | Gets or sets whether external resources are denied. Default: `true`. |
+| [WhitelistedResources](../../groupdocs.conversion.options.load/iresourceloadingoptions/whitelistedresources) { get; set; } | Gets or sets the absolute URI prefixes of the external resources that load while [`SkipExternalResources`](./skipexternalresources) is `true`. |
+
+### Remarks
+
+External resources are denied by default. [`SkipExternalResources`](./skipexternalresources) says what still loads and how the base directory is chosen, and [`WhitelistedResources`](./whitelistedresources) says which entries let more load.
+
+UNC paths are never loaded, whatever these options say.
+
+An [`ExternalResourceHandler`](./externalresourcehandler) can override the decision for each resource, except for UNC paths, `javascript:` and `vbscript:` references, which never load, and XBRL taxonomies, which it can only skip.
+
+The options are read when an operation such as Convert or GetDocumentInfo loads the document. Changing them, or the whitelist, while that operation runs does not affect it.
 
 ### See Also
 

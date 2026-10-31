@@ -3,7 +3,7 @@ title: MinimumWidth
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Set minimum width for converting SVG document. Its used when converting to raster formats. Default is 800.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.conversion.options.load/svgloadoptions/minimumwidth/
 ---
 ## SvgLoadOptions.MinimumWidth property

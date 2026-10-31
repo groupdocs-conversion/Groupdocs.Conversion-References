@@ -3,7 +3,7 @@ title: Format
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Input document file type. Is null until a format has been set so test it for null rather than against Unknowngroupdocs.conversion.filetypes/filetype/unknown which it never equals.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.conversion.options.load/financeloadoptions/format/
 ---
 ## FinanceLoadOptions.Format property

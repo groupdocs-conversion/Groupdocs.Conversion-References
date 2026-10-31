@@ -3,7 +3,7 @@ title: MarginSettings
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Page margin settings
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.conversion.options.load/spreadsheetloadoptions/marginsettings/
 ---
 ## SpreadsheetLoadOptions.MarginSettings property
