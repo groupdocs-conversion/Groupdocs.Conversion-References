@@ -19,7 +19,7 @@ public interface IConversionHandlersStage : IConversionConvertOrCompress
 | Name | Description |
 | --- | --- |
 | [OnConversionCompleted](../../groupdocs.conversion.fluent/iconversionhandlersstage/onconversioncompleted)(Action&lt;ConvertedContext&gt;) | Registers a callback to be invoked when a document conversion completes successfully. Re-invoking replaces any previously set handler. |
-| [OnConversionFailed](../../groupdocs.conversion.fluent/iconversionhandlersstage/onconversionfailed)(Action&lt;ConvertedContext, Exception&gt;) | Registers a callback to be invoked when a document conversion fails. Re-invoking replaces any previously set handler. |
+| [OnConversionFailed](../../groupdocs.conversion.fluent/iconversionhandlersstage/onconversionfailed)(Action&lt;ConvertedContext, Exception&gt;) | Registers a callback to be invoked when a document conversion fails. Re-invoking replaces any previously set handler. It reports the final outcome only: a document that loads after the load options provider was asked again is not reported. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading Pdf documents.
 type: docs
-weight: 2760
+weight: 2770
 url: /net/groupdocs.conversion.options.load/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -13,7 +13,7 @@ Options for loading Pdf documents.
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
     IFontSubstituteLoadOptions, IFontTransformationLoadOptions, IMetadataLoadOptions, 
-    IPageNumberingLoadOptions
+    IPageNumberingLoadOptions, IPasswordLoadOptions
 ```
 
 ## Constructors
@@ -31,7 +31,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 | [ConvertOwned](../../groupdocs.conversion.options.load/pdfloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/pdfloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/pdfloadoptions/defaultfont) { get; set; } | Default font for Pdf document. The following font will be used if a font is missing. |
-| [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
+| [Depth](../../groupdocs.conversion.options.load/pdfloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) How many levels of contained documents the conversion goes down, counted from the document the conversion starts from, which is level 0: 0 or a negative value converts no contained document, 1 converts the documents it contains directly, 2 also the documents those contain, and so on. On the document the conversion starts from, it is the limit for the whole conversion. Returned by the load options callback for a contained document at level L, it limits the documents that document contains to level L + Depth, never deeper than the limit of the document the conversion starts from. Default: 2 |
 | [FlattenAllFields](../../groupdocs.conversion.options.load/pdfloadoptions/flattenallfields) { get; set; } | Flatten all the fields of the PDF form. |
 | [FontSubstitutes](../../groupdocs.conversion.options.load/pdfloadoptions/fontsubstitutes) { get; set; } | Substitute specific fonts when converting Pdf document. |
 | [FontTransformations](../../groupdocs.conversion.options.load/pdfloadoptions/fonttransformations) { get; set; } | Transform existing fonts after document loading and font substitution are complete. Font transformations can modify any fonts in the document, including fonts that were successfully loaded. |
@@ -60,6 +60,7 @@ public sealed class PdfLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
 * interface [IFontTransformationLoadOptions](../ifonttransformationloadoptions)
 * interface [IMetadataLoadOptions](../imetadataloadoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
+* interface [IPasswordLoadOptions](../ipasswordloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Source format.
+description: Source format the format the documents name gives or the format its content shows when the name gives no known format or names an XML or HTML document. The content is read when this property is first read so load options that state the format without reading it add no detection.
 type: docs
-weight: 40
+weight: 70
 url: /net/groupdocs.conversion/loadcontext/sourceformat/
 ---
 ## LoadContext.SourceFormat property
 
-Source format.
+Source format: the format the document's name gives, or the format its content shows when the name gives no known format or names an XML or HTML document. The content is read when this property is first read, so load options that state the format without reading it add no detection.
 
 ```csharp
 public FileType SourceFormat { get; }

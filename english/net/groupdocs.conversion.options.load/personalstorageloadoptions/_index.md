@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading personal storage documents.
 type: docs
-weight: 2770
+weight: 2780
 url: /net/groupdocs.conversion.options.load/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
@@ -26,8 +26,8 @@ public sealed class PersonalStorageLoadOptions : LoadOptions, IDocumentsContaine
 | --- | --- |
 | [ConvertOwned](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowned) { get; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Readonly. Set to true. The owned documents will be converted |
 | [ConvertOwner](../../groupdocs.conversion.options.load/personalstorageloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
-| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
-| [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | Folder which to be processed Default is Inbox |
+| [Depth](../../groupdocs.conversion.options.load/personalstorageloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) How many levels of contained documents the conversion goes down, counted from the document the conversion starts from, which is level 0: 0 or a negative value converts no contained document, 1 converts the documents it contains directly, 2 also the documents those contain, and so on. On the document the conversion starts from, it is the limit for the whole conversion. Returned by the load options callback for a contained document at level L, it limits the documents that document contains to level L + Depth, never deeper than the limit of the document the conversion starts from. Default: 3 |
+| [Folder](../../groupdocs.conversion.options.load/personalstorageloadoptions/folder) { get; set; } | Folder which to be processed, as a path of folder names, e.g. "Inbox" or "Top of Outlook data file/Inbox". The path may start with the name of the root folder. When not set, all folders are processed |
 | [Format](../../groupdocs.conversion.options.load/personalstorageloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 

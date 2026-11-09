@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading WordProcessing documents.
 type: docs
-weight: 2970
+weight: 2980
 url: /net/groupdocs.conversion.options.load/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -13,7 +13,8 @@ Options for loading WordProcessing documents.
 ```csharp
 public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
     IFontSubstituteLoadOptions, IFontTransformationLoadOptions, IMetadataLoadOptions, 
-    IPageMarginOptions, IPageNumberingLoadOptions, IPageSizeOptions, IResourceLoadingOptions
+    IPageMarginOptions, IPageNumberingLoadOptions, IPageSizeOptions, IPasswordLoadOptions, 
+    IResourceLoadingOptions
 ```
 
 ## Constructors
@@ -34,7 +35,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 | [ConvertOwned](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowned) { get; set; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Default is false |
 | [ConvertOwner](../../groupdocs.conversion.options.load/wordprocessingloadoptions/convertowner) { get; set; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Default is true |
 | [DefaultFont](../../groupdocs.conversion.options.load/wordprocessingloadoptions/defaultfont) { get; set; } | Sets the default font for a WordProcessing document. |
-| [Depth](../../groupdocs.conversion.options.load/wordprocessingloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 1 |
+| [Depth](../../groupdocs.conversion.options.load/wordprocessingloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) How many levels of contained documents the conversion goes down, counted from the document the conversion starts from, which is level 0: 0 or a negative value converts no contained document, 1 converts the documents it contains directly, 2 also the documents those contain, and so on. On the document the conversion starts from, it is the limit for the whole conversion. Returned by the load options callback for a contained document at level L, it limits the documents that document contains to level L + Depth, never deeper than the limit of the document the conversion starts from. Default: 2 |
 | [EmbedTrueTypeFonts](../../groupdocs.conversion.options.load/wordprocessingloadoptions/embedtruetypefonts) { get; set; } | If EmbedTrueTypeFonts is true, GroupDocs.Conversion embed true type fonts in the output document. Default: true |
 | [ExternalResourceHandler](../../groupdocs.conversion.options.load/wordprocessingloadoptions/externalresourcehandler) { get; set; } | Gets or sets the handler called for each resource the document asks an engine to load. Default: `null`. |
 | [FontConfigSubstitutionEnabled](../../groupdocs.conversion.options.load/wordprocessingloadoptions/fontconfigsubstitutionenabled) { get; set; } | Automatically substitutes missing fonts based on FontConfig in the system. Default: false. |
@@ -94,6 +95,7 @@ public class WordProcessingLoadOptions : LoadOptions, IDocumentsContainerLoadOpt
 * interface [IPageMarginOptions](../../groupdocs.conversion.options/ipagemarginoptions)
 * interface [IPageNumberingLoadOptions](../ipagenumberingloadoptions)
 * interface [IPageSizeOptions](../../groupdocs.conversion.options/ipagesizeoptions)
+* interface [IPasswordLoadOptions](../ipasswordloadoptions)
 * interface [IResourceLoadingOptions](../iresourceloadingoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)

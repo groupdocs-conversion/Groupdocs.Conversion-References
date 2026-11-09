@@ -1,14 +1,14 @@
 ---
 title: OnPageFailed
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Fired once per page when a perpage conversion fails.
+description: Fired once per page when a perpage conversion fails. Also fired once for a contained item an archive entry an email attachment a mailbox item whose page fails to save because the item is corrupted or passwordprotected that item is then delivered unchanged as its original bytes and the conversion of the remaining items continues.
 type: docs
 weight: 100
 url: /net/groupdocs.conversion/conversionevents/onpagefailed/
 ---
 ## ConversionEvents.OnPageFailed property
 
-Fired once per page when a per-page conversion fails.
+Fired once per page when a per-page conversion fails. Also fired once for a contained item (an archive entry, an email attachment, a mailbox item) whose page fails to save because the item is corrupted or password-protected; that item is then delivered unchanged, as its original bytes, and the conversion of the remaining items continues.
 
 ```csharp
 public Action<ConvertedPageContext, Exception> OnPageFailed { get; set; }

@@ -3,7 +3,7 @@ title: NoteLoadOptions
 second_title: GroupDocs.Conversion for .NET API Reference
 description: Options for loading One documents.
 type: docs
-weight: 2700
+weight: 2710
 url: /net/groupdocs.conversion.options.load/noteloadoptions/
 ---
 ## NoteLoadOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.conversion.options.load/noteloadoptions/
 Options for loading One documents.
 
 ```csharp
-public sealed class NoteLoadOptions : LoadOptions, IFontSubstituteLoadOptions
+public sealed class NoteLoadOptions : LoadOptions, IFontSubstituteLoadOptions, IPasswordLoadOptions
 ```
 
 ## Constructors
@@ -42,6 +42,7 @@ public sealed class NoteLoadOptions : LoadOptions, IFontSubstituteLoadOptions
 
 * class [LoadOptions](../loadoptions)
 * interface [IFontSubstituteLoadOptions](../ifontsubstituteloadoptions)
+* interface [IPasswordLoadOptions](../ipasswordloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

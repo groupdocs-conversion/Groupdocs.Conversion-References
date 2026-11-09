@@ -1,14 +1,14 @@
 ---
 title: SourceStream
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Source stream.
+description: Source stream the documents content at position 0. null when the load options are asked again for an archive entry that could not be extracted since there is no content yet.
 type: docs
-weight: 50
+weight: 80
 url: /net/groupdocs.conversion/loadcontext/sourcestream/
 ---
 ## LoadContext.SourceStream property
 
-Source stream.
+Source stream: the document's content, at position 0. `null` when the load options are asked again for an archive entry that could not be extracted, since there is no content yet.
 
 ```csharp
 public Stream SourceStream { get; }

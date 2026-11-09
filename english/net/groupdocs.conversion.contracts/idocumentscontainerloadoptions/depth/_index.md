@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Option to control how many levels in depth to perform conversion
+description: How many levels of contained documents the conversion goes down counted from the document the conversion starts from which is level 0 0 or a negative value converts no contained document 1 converts the documents it contains directly 2 also the documents those contain and so on. The Depth of the load options of the document the conversion starts from is the limit for the whole conversion. When the load options callback returns load options for a contained document at level L their Depth limits the documents it contains to level L  Depth never deeper than that limit a contained document the callback returns no load options for keeps the limit of its container.
 type: docs
 weight: 30
 url: /net/groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth/
 ---
 ## IDocumentsContainerLoadOptions.Depth property
 
-Option to control how many levels in depth to perform conversion
+How many levels of contained documents the conversion goes down, counted from the document the conversion starts from, which is level 0: 0 or a negative value converts no contained document, 1 converts the documents it contains directly, 2 also the documents those contain, and so on. The Depth of the load options of the document the conversion starts from is the limit for the whole conversion. When the load options callback returns load options for a contained document at level L, their Depth limits the documents it contains to level L + Depth, never deeper than that limit; a contained document the callback returns no load options for keeps the limit of its container.
 
 ```csharp
 public int Depth { get; }

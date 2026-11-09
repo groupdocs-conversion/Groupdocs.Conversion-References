@@ -18,11 +18,14 @@ public sealed class LoadContext
 
 | Name | Description |
 | --- | --- |
+| [Attempt](../../groupdocs.conversion/loadcontext/attempt) { get; } | The load attempt this call is for: 1 for the first attempt, 2 when the delegate is asked again after the first attempt failed. |
+| [FailedLoadOptions](../../groupdocs.conversion/loadcontext/failedloadoptions) { get; } | A copy of the load options the failed attempt used, or `null` on the first attempt. Changing it never changes the options returned earlier; return it, changed, to load the document again with it. |
 | [HierarchyLevel](../../groupdocs.conversion/loadcontext/hierarchylevel) { get; } | Hierarchy level. |
 | [ItemIndex](../../groupdocs.conversion/loadcontext/itemindex) { get; } | Item index. |
+| [LoadFailure](../../groupdocs.conversion/loadcontext/loadfailure) { get; } | The failure of the previous load attempt, or `null` on the first attempt. |
 | [SourceFileName](../../groupdocs.conversion/loadcontext/sourcefilename) { get; } | Source file name. |
-| [SourceFormat](../../groupdocs.conversion/loadcontext/sourceformat) { get; } | Source format. |
-| [SourceStream](../../groupdocs.conversion/loadcontext/sourcestream) { get; } | Source stream. |
+| [SourceFormat](../../groupdocs.conversion/loadcontext/sourceformat) { get; } | Source format: the format the document's name gives, or the format its content shows when the name gives no known format or names an XML or HTML document. The content is read when this property is first read, so load options that state the format without reading it add no detection. |
+| [SourceStream](../../groupdocs.conversion/loadcontext/sourcestream) { get; } | Source stream: the document's content, at position 0. `null` when the load options are asked again for an archive entry that could not be extracted, since there is no content yet. |
 
 ### See Also
 

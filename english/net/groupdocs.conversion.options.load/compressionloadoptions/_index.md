@@ -11,7 +11,8 @@ url: /net/groupdocs.conversion.options.load/compressionloadoptions/
 Options for loading compression documents.
 
 ```csharp
-public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoadOptions
+public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoadOptions, 
+    IPasswordLoadOptions
 ```
 
 ## Constructors
@@ -26,7 +27,7 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 | --- | --- |
 | [ConvertOwned](../../groupdocs.conversion.options.load/compressionloadoptions/convertowned) { get; } | Implements [`ConvertOwned`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowned) Readonly. Set to true. The owned documents will be converted |
 | [ConvertOwner](../../groupdocs.conversion.options.load/compressionloadoptions/convertowner) { get; } | Implements [`ConvertOwner`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/convertowner) Readonly. Set to false. The owner will not be converted |
-| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) Default: 3 |
+| [Depth](../../groupdocs.conversion.options.load/compressionloadoptions/depth) { get; set; } | Implements [`Depth`](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions/depth) How many levels of contained documents the conversion goes down, counted from the document the conversion starts from, which is level 0: 0 or a negative value converts no contained document, 1 converts the documents it contains directly, 2 also the documents those contain, and so on. On the document the conversion starts from, it is the limit for the whole conversion. Returned by the load options callback for a contained document at level L, it limits the documents that document contains to level L + Depth, never deeper than the limit of the document the conversion starts from. Default: 3 |
 | [Format](../../groupdocs.conversion.options.load/compressionloadoptions/format) { get; set; } | Input document file type. Is `null` until a format has been set, so test it for `null` rather than against [`Unknown`](../../groupdocs.conversion.filetypes/filetype/unknown), which it never equals. |
 | virtual [Format](../../groupdocs.conversion.options.load/loadoptions/format) { get; } | Input document file type. |
 | [Password](../../groupdocs.conversion.options.load/compressionloadoptions/password) { get; set; } | Set password to load protected document. |
@@ -43,6 +44,7 @@ public sealed class CompressionLoadOptions : LoadOptions, IDocumentsContainerLoa
 
 * class [LoadOptions](../loadoptions)
 * interface [IDocumentsContainerLoadOptions](../../groupdocs.conversion.contracts/idocumentscontainerloadoptions)
+* interface [IPasswordLoadOptions](../ipasswordloadoptions)
 * namespace [GroupDocs.Conversion.Options.Load](../../groupdocs.conversion.options.load)
 * assembly [GroupDocs.Conversion](../../)
 

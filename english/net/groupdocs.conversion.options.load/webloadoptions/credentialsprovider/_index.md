@@ -14,6 +14,10 @@ Credentials provider for the Uri.
 public Func<string, ICredentials> CredentialsProvider { get; set; }
 ```
 
+### Remarks
+
+Two [`WebLoadOptions`](../../webloadoptions) instances are equal only when this is the same delegate on both, as Object) compares it: the same method on the same target.
+
 ### See Also
 
 * class [WebLoadOptions](../../webloadoptions)

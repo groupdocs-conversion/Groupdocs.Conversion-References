@@ -16,7 +16,7 @@ public IConversionSourceDocumentLoaded WithOptions(LoadOptions loadOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptions | LoadOptions | Load options |
+| loadOptions | LoadOptions | Load options. The same options are used for every load attempt, so a document that fails to load is not loaded again; use [`WithOptions`](../withoptions) to supply other options, such as a password, after a failed attempt. |
 
 ### See Also
 
@@ -39,7 +39,7 @@ public IConversionSourceDocumentLoaded WithOptions(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptionsProvider | Func`2 | Load options provider The load options context |
+| loadOptionsProvider | Func`2 | Load options provider. It is called once for every document that is loaded, the source document and every contained document, and [`SourceFormat`](../../../groupdocs.conversion/loadcontext/sourceformat) reports the document's format: the format its name gives, or the format its content shows when the name gives no known format or names an XML or HTML document. A format stated in the returned load options is the format the document is loaded as. When the load then fails because the document needs a password, the password is wrong, its content is damaged or its format cannot be read, the provider is called once more for that document, with [`Attempt`](../../../groupdocs.conversion/loadcontext/attempt) 2, the failure in [`LoadFailure`](../../../groupdocs.conversion/loadcontext/loadfailure) and a copy of the options that failed in [`FailedLoadOptions`](../../../groupdocs.conversion/loadcontext/failedloadoptions): options that differ from the failed ones load the document again, and `null` or equal options keep the failure. An archive entry that cannot be extracted is asked the same way, with no [`SourceStream`](../../../groupdocs.conversion/loadcontext/sourcestream) and a copy of the archive's options; a password returned in [`IPasswordLoadOptions`](../../../groupdocs.conversion.options.load/ipasswordloadoptions) extracts that entry again. The failure handlers report only the final outcome. |
 
 ### See Also
 

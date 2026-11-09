@@ -1,14 +1,14 @@
 ---
 title: OnConversionFailed
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Registers a callback to be invoked when a page conversion fails. Reinvoking replaces any previously set handler.
+description: Registers a callback to be invoked when a page conversion fails. Reinvoking replaces any previously set handler. It reports the final outcome only a document that loads after the load options provider was asked again is not reported.
 type: docs
 weight: 20
 url: /net/groupdocs.conversion.fluent/iconversionbypagehandlersstage/onconversionfailed/
 ---
 ## IConversionByPageHandlersStage.OnConversionFailed method
 
-Registers a callback to be invoked when a page conversion fails. Re-invoking replaces any previously set handler.
+Registers a callback to be invoked when a page conversion fails. Re-invoking replaces any previously set handler. It reports the final outcome only: a document that loads after the load options provider was asked again is not reported.
 
 ```csharp
 public IConversionByPageHandlersStage OnConversionFailed(

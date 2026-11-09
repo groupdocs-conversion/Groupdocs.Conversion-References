@@ -1,14 +1,14 @@
 ---
 title: Folder
 second_title: GroupDocs.Conversion for .NET API Reference
-description: Folder which to be processed Default is Inbox
+description: Folder which to be processed as a path of folder names e.g. Inbox or Top of Outlook data file/Inbox. The path may start with the name of the root folder. When not set all folders are processed
 type: docs
 weight: 50
 url: /net/groupdocs.conversion.options.load/personalstorageloadoptions/folder/
 ---
 ## PersonalStorageLoadOptions.Folder property
 
-Folder which to be processed Default is Inbox
+Folder which to be processed, as a path of folder names, e.g. "Inbox" or "Top of Outlook data file/Inbox". The path may start with the name of the root folder. When not set, all folders are processed
 
 ```csharp
 public string Folder { get; set; }

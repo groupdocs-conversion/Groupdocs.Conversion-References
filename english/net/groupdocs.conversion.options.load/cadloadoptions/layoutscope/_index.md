@@ -16,7 +16,7 @@ public CadLayoutScope LayoutScope { get; set; }
 
 ### Remarks
 
-A scope that selects none of the sheets a drawing offers fails the conversion with an [`InvalidLoadOptionsException`](../../../groupdocs.conversion.exceptions/invalidloadoptionsexception) naming the scope and the sheets that are there, rather than rendering the spaces the scope excluded. A drawing that offers no sheet at all is unaffected and still converts as a single unit. Not honoured when converting to PDF/UA-1, for the reason given on [`LayoutNames`](../layoutnames).
+A scope that selects none of the sheets a drawing offers fails the conversion with an [`InvalidLoadOptionsException`](../../../groupdocs.conversion.exceptions/invalidloadoptionsexception) naming the scope and the sheets that are there, rather than rendering the spaces the scope excluded. A drawing that offers no sheet at all is unaffected and still converts as a single unit. The scope is checked when the drawing is loaded for its conversion. When it selects no sheet, the load options delegate is asked once more for that drawing, with that exception as [`LoadFailure`](../../../groupdocs.conversion/loadcontext/loadfailure); options that select a sheet load and convert it, and otherwise the conversion fails as described. Not honoured when converting to PDF/UA-1, for the reason given on [`LayoutNames`](../layoutnames).
 
 ### See Also
 

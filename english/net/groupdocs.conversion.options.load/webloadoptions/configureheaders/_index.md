@@ -14,6 +14,10 @@ Action for configuration of the request headers. First parameter of the action i
 public Action<string, NameValueCollection> ConfigureHeaders { get; set; }
 ```
 
+### Remarks
+
+Two [`WebLoadOptions`](../../webloadoptions) instances are equal only when this is the same delegate on both, as Object) compares it: the same method on the same target.
+
 ### See Also
 
 * class [WebLoadOptions](../../webloadoptions)
